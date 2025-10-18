@@ -32,3 +32,21 @@ def get_analyst_ratings(ticker: str):
     """
     print(f"Fetching analyst ratings for {ticker}...")
     return {"rating": "N/A"}
+
+def get_key_valuation_metrics(ticker: str):
+    """
+    Returns a dictionary of key valuation metrics.
+
+    NOTE: This is a placeholder function.
+    """
+    print(f"Fetching key valuation metrics for {ticker}...")
+    return {"p_b_ratio": "N/A"}
+
+def get_competitor_list(ticker: str):
+    """
+    Returns a list of the company's main competitors.
+
+    NOTE: This is a placeholder function.
+    """
+    print(f"Fetching competitor list for {ticker}...")
+    return ["Dummy Competitor 1", "Dummy Competitor 2"]

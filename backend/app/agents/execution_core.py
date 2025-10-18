@@ -1,8 +1,7 @@
 # In nexustrader/backend/app/agents/execution_core.py
 
-from ..tools.derivatives_tools import get_option_chain, calculate_put_call_parity, formulate_arbitrage_strategy
+from ..tools.derivatives_tools import get_option_chain, calculate_put_call_parity
 from ..tools.financial_data_tools import get_financial_statements, get_key_valuation_metrics, get_competitor_list, get_analyst_ratings
-from ..tools.technical_analysis_tools import get_technical_indicators
 from ..tools.social_media_tools import search_twitter, search_reddit
 from ..tools.news_tools import search_news
 from ..tools.market_data_tools import get_market_sentiment
@@ -148,11 +147,11 @@ def bull_trader_agent(state: dict):
     """
     ticker = state['ticker']
     
-    # 1. Get the market data using the tools
+    # 1. Get the market data from the state and tools
     news = search_news(ticker)
     twitter_sentiment = search_twitter(ticker)
     reddit_sentiment = search_reddit("wallstreetbets", ticker)
-    technical_indicators = get_technical_indicators(ticker)
+    technical_analysis_report = state['reports']['technical_analyst']
     market_sentiment = get_market_sentiment()
     
     # 2. Construct the prompt for the LLM
@@ -169,8 +168,8 @@ Twitter Sentiment:
 Reddit Sentiment:
 {reddit_sentiment}
 
-Technical Indicators:
-{technical_indicators}
+Technical Analysis Report:
+{technical_analysis_report}
 
 Overall Market Sentiment:
 {market_sentiment}
