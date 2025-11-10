@@ -146,7 +146,7 @@ Please perform the following tasks:
 
 def news_harvester_agent(state: dict):
     """
-    The News Harvester Agent. check
+    The News Harvester Agent. 
     """
     ticker = state['ticker']
     
