@@ -10,14 +10,8 @@ from ..tools.portfolio_tools import (
     check_trade_compliance,
     log_compliance_check,
 )
+from ..llm import invoke_llm as call_llm
 
-# This is a placeholder for the actual LLM call
-def call_llm(prompt: str):
-    print("---")
-    print("Calling LLM with prompt:")
-    print(prompt)
-    print("---")
-    return "This is a dummy response from the LLM."
 
 def risk_management_agent(state: dict):
     """

@@ -1,12 +1,7 @@
 # In nexustrader/backend/app/agents/research_team.py
 
-# This is a placeholder for the actual LLM call
-def call_llm(prompt: str):
-    print("---")
-    print("Calling LLM with prompt:")
-    print(prompt)
-    print("---")
-    return "This is a dummy response from the LLM."
+from ..llm import invoke_llm as call_llm
+
 
 def bull_researcher_agent(state: dict):
     """

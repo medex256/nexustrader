@@ -1,28 +1,22 @@
 # In nexustrader/backend/app/tools/news_tools.py
+from pygooglenews import GoogleNews
 
-def search_news(query: str):
+def search_news(query: str, limit: int = 5):
     """
-    Searches multiple news APIs for recent news articles matching the query.
-
-    NOTE: This is a placeholder function.
+    Searches Google News for recent articles matching the query.
     """
     print(f"Searching for news about {query}...")
-    return ["Dummy news article 1", "Dummy news article 2"]
-
-def summarize_article(url: str):
-    """
-    Summarizes the content of a given news article.
-
-    NOTE: This is a placeholder function.
-    """
-    print(f"Summarizing article at {url}...")
-    return "This is a dummy summary of the news article."
-
-def filter_news_by_relevance(articles):
-    """
-    Filters a list of news articles to keep only the most relevant ones.
-
-    NOTE: This is a placeholder function.
-    """
-    print("Filtering news by relevance...")
+    gn = GoogleNews()
+    search = gn.search(query)
+    
+    articles = []
+    for item in search['entries'][:limit]:
+        article = {
+            "title": item.title,
+            "link": item.link,
+            "published": item.published,
+        }
+        articles.append(article)
+        
     return articles
+

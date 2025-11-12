@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexusTrader</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        #results { margin-top: 1em; border: 1px solid #ccc; padding: 1em; }
+        #chart { max-width: 100%; }
+    </style>
+</head>
+<body>
+    <h1>NexusTrader Analysis</h1>
+    <input type="text" id="ticker" placeholder="Enter stock ticker (e.g., AAPL)">
+    <button id="analyzeBtn">Analyze</button>
+    <div id="results">
+        <p>Results will be displayed here.</p>
+    </div>
+
+    <script>
+        document.getElementById('analyzeBtn').addEventListener('click', async () => {
+            const ticker = document.getElementById('ticker').value;
+            if (!ticker) {
+                alert('Please enter a ticker.');
+                return;
+            }
+
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<p>Running analysis...</p>';
+
+            try {
+                const response = await fetch('http://127.0.0.1:8000/analyze', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ ticker: ticker }),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                let output = `<h2>Analysis for ${data.ticker}</h2>`;
+                if (data.stock_chart_image) {
+                    output += `<img id="chart" src="${data.stock_chart_image}" alt="Stock Chart for ${data.ticker}">`;
+                }
+                
+                output += '<h3>Reports:</h3>';
+                for (const [agent, report] of Object.entries(data.reports)) {
+                    output += `<h4>${agent}</h4><p>${report}</p>`;
+                }
+
+                resultsDiv.innerHTML = output;
+
+            } catch (error) {
+                resultsDiv.innerHTML = `<p>An error occurred: ${error.message}</p>`;
+            }
+        });
+    </script>
+</body>
+</html>

@@ -13,7 +13,12 @@ dependencies = [
     "python-dotenv",
     "openai",
     "yfinance",
-    "alpha_vantage"
+    "alpha_vantage",
+    "pandas-ta",
+    "mplfinance",
+    "google-generativeai",
+    "pygooglenews",
+    "praw"
 ]
 
 [project.optional-dependencies]

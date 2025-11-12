@@ -3,16 +3,9 @@
 from ..tools.financial_data_tools import get_financial_statements, get_financial_ratios, get_analyst_ratings
 from ..tools.technical_analysis_tools import get_historical_price_data, calculate_technical_indicators, plot_stock_chart
 from ..tools.social_media_tools import search_twitter, search_reddit, search_stocktwits, analyze_sentiment, identify_influencers
-from ..tools.news_tools import search_news, summarize_article, filter_news_by_relevance
+from ..tools.news_tools import search_news
+from ..llm import invoke_llm as call_llm
 # from ..graph.state import AgentState # We will define this later
-
-# This is a placeholder for the actual LLM call
-def call_llm(prompt: str):
-    print("---")
-    print("Calling LLM with prompt:")
-    print(prompt)
-    print("---")
-    return "This is a dummy response from the LLM."
 
 def fundamental_analyst_agent(state: dict):
     """
@@ -65,7 +58,13 @@ def technical_analyst_agent(state: dict):
     # 1. Get the technical data using the tools
     price_data = get_historical_price_data(ticker, "1y")
     indicators = calculate_technical_indicators(price_data)
-    chart_image = plot_stock_chart(price_data, indicators)
+    chart_image_path = plot_stock_chart(price_data, ticker)
+
+    # --- Create a web-accessible URL for the chart ---
+    base_url = "http://127.0.0.1:8000"
+    # Ensure we use forward slashes for the URL and get just the filename
+    chart_image_filename = chart_image_path.replace('\\', '/').split('/')[-1]
+    chart_image_url = f"{base_url}/static/charts/{chart_image_filename}"
     
     # 2. Construct the prompt for the LLM
     prompt = f"""
@@ -76,7 +75,7 @@ Technical Indicators:
 {indicators}
 
 Stock Chart:
-{chart_image}
+{chart_image_url}
 
 Please perform the following tasks:
 1.  Analyze the stock's price chart to identify key trends, support and resistance levels, and chart patterns.
@@ -91,7 +90,7 @@ Please perform the following tasks:
     
     # 4. Update the state
     state['reports']['technical_analyst'] = analysis_report
-    state['stock_chart_image'] = chart_image
+    state['stock_chart_image'] = chart_image_url
     
     return state
 
@@ -152,22 +151,26 @@ def news_harvester_agent(state: dict):
     
     # 1. Get the news using the tools
     articles = search_news(ticker)
-    relevant_articles = filter_news_by_relevance(articles)
     
-    summaries = []
-    for article in relevant_articles:
-        summaries.append(summarize_article(article))
+    # --- LOGGING FOR TESTING ---
+    print("\n--- Fetched News Articles ---")
+    for article in articles:
+        print(f"- {article['title']}")
+    print("---------------------------\n")
+    # ---------------------------
         
     # 2. Construct the prompt for the LLM
     prompt = f"""
-Your mission is to gather, filter, and summarize the latest news for the stock {ticker}.
-You have been provided with the following summaries of recent news articles:
+Your mission is to analyze the latest news for the stock {ticker}.
+You have been provided with the following recent news articles:
 
-{summaries}
+{articles}
 
 Please perform the following tasks:
-1.  Identify any news that could act as a catalyst for a significant price movement.
-2.  Summarize your findings in a concise report.
+1.  Summarize the key points from the articles.
+2.  Identify any news that could act as a significant catalyst for a price movement.
+3.  Provide an overall sentiment (Positive, Negative, Neutral) based on the news.
+4.  Summarize your findings in a concise report.
 """
     
     # 3. Call the LLM to generate the analysis

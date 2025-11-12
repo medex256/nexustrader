@@ -5,15 +5,8 @@ from ..tools.financial_data_tools import get_financial_statements, get_key_valua
 from ..tools.social_media_tools import search_twitter, search_reddit
 from ..tools.news_tools import search_news
 from ..tools.market_data_tools import get_market_sentiment
+from ..llm import invoke_llm as call_llm
 
-# This is a placeholder for the actual LLM call
-def call_llm(prompt: str):
-    print("---")
-    print("Calling LLM with prompt:")
-    print(prompt)
-    print("---")
-    # In a real implementation, we would parse the LLM response to get the strategy
-    return "BUY at 100, TP at 120, SL at 90"
 
 def trading_strategy_synthesizer_agent(state: dict):
     """

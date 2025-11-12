@@ -30,7 +30,9 @@ nexustrader/
 │   │   │   ├── derivatives_tools.py
 │   │   │   ├── portfolio_tools.py
 │   │   │   └── market_data_tools.py
+│   │   ├── llm.py
 │   │   └── main.py
+│   ├── .env
 │   └── pyproject.toml
 └── frontend/
 ```
@@ -42,29 +44,28 @@ We have created a comprehensive set of design documents in the `documentation` d
 - An agent interaction diagram.
 - Detailed design documents for all 12 agents in the system.
 
-## 3. Code Implementation (Skeleton)
+## 3. Code Implementation
 
-We have implemented the full, end-to-end skeleton of the agentic workflow:
-- All agent functions have been created with placeholder logic.
-- All necessary tool functions have been created as placeholders.
-- The full agent graph has been built using `langgraph`, connecting all agents in the correct sequence.
+We have implemented the full, end-to-end skeleton of the agentic workflow and integrated the core LLM functionality.
+
+- **Agent Workflow:** All agent functions have been created and connected in a `langgraph` graph.
+- **LLM Integration:** The placeholder `call_llm` function has been replaced with a real implementation in `app/llm.py` that successfully connects to the Google Gemini API.
+- **Tool Functions:** All necessary tool functions have been created as placeholders.
 
 ## 4. Current Status
 
-- We have successfully run the full agent graph from start to finish.
-- The test run confirms that the workflow is executing as designed and the state is being passed correctly between all agents.
+- **End-to-End Success:** We have successfully run the full agent graph from start to finish.
+- **LLM Confirmation:** The test run confirms that each agent successfully calls the LLM, generates a detailed report, and correctly passes the state through the entire workflow.
+- **Codebase Analysis:** A full codebase analysis was performed, confirming that the agent workflow is complete but the data-gathering tools are still placeholders.
 
 ## 5. Next Steps
 
-The project is now ready to move from the "scaffolding" phase to the "implementation" phase. The plan for the next steps is:
+The project has successfully moved from the "scaffolding" phase to the "implementation" phase. The LLM core is now complete. The next steps are:
 
-### Backend: Real Implementations
-1.  Replace the placeholder `call_llm` function with a real implementation that calls an LLM API.
-2.  Replace the placeholder tool functions with real implementations that call external data APIs (e.g., yfinance, Alpha Vantage, translation APIs).
-3.  Implement the conditional logic in the agent graph to handle the US vs. HK market workflows.
+### Backend: Real Tool Implementation
+1.  **Implement Data Tools:** This is the top priority. Replace the placeholder tool functions in `nexustrader/backend/app/tools/` with real code that fetches live data from external APIs (e.g., `yfinance` for financial data, and a news API for articles).
+2.  **Develop Backend API:** Create an API endpoint using FastAPI to allow the frontend to trigger the agent workflow and retrieve the results.
 
 ### Frontend: Project Setup
 1.  Initialize a new React/TypeScript project in the `frontend` directory.
-2.  Build the basic UI components for the dashboard.
-
-The immediate next step is to begin the backend implementation by replacing the placeholder functions with real code.
+2.  Build the basic UI components for the dashboard to input a stock ticker and display the final analysis.
