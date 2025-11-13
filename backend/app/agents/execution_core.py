@@ -6,45 +6,86 @@ from ..tools.social_media_tools import search_twitter, search_reddit
 from ..tools.news_tools import search_news
 from ..tools.market_data_tools import get_market_sentiment
 from ..llm import invoke_llm as call_llm
+from ..utils.shared_context import shared_context
 
 
 def trading_strategy_synthesizer_agent(state: dict):
     """
     The Trading Strategy Synthesizer Agent.
+    Now uses the investment_plan from the Research Manager.
     """
-    arguments = state['arguments']
+    # Get the investment plan from research manager
+    investment_plan = state.get('investment_plan', '')
+    
+    # Fallback to direct arguments if investment_plan not available
+    if not investment_plan:
+        arguments = state.get('arguments', {})
+        bullish = arguments.get('bullish', '')
+        bearish = arguments.get('bearish', '')
+        context = f"Bullish Argument:\n{bullish}\n\nBearish Argument:\n{bearish}"
+    else:
+        context = f"Research Manager's Investment Plan:\n{investment_plan}"
     
     # 1. Construct the prompt for the LLM
     prompt = f"""
-Your mission is to create a clear and actionable trading strategy.
-You have been provided with the bullish and bearish arguments from the Research Team.
+Your mission is to create a clear and actionable trading strategy based on the research analysis.
 
-Bullish Argument:
-{arguments['bullish']}
-
-Bearish Argument:
-{arguments['bearish']}
+{context}
 
 Please perform the following tasks:
-1.  Weigh the pros and cons of each side.
+1.  Analyze the investment recommendation and rationale.
 2.  Formulate a single, decisive trading strategy. The strategy must be one of: BUY, SELL, or HOLD.
-3.  If the strategy is BUY or SELL, you must specify an entry price, a take-profit price, and a stop-loss price.
+3.  If the strategy is BUY or SELL, you must specify:
+    - Entry price (based on current market price)
+    - Take-profit price (target exit)
+    - Stop-loss price (risk management)
+    - Position sizing recommendation (% of portfolio)
 4.  Provide a clear and concise rationale for your decision.
-5.  Summarize your strategy in a final report.
+5.  Format your response as JSON with the following structure:
+    {{
+        "action": "BUY|SELL|HOLD",
+        "entry_price": <number>,
+        "take_profit": <number>,
+        "stop_loss": <number>,
+        "position_size_pct": <number>,
+        "rationale": "<your reasoning>"
+    }}
 """
     
     # 2. Call the LLM to generate the strategy
     strategy_response = call_llm(prompt)
     
     # 3. Parse the LLM response to get the structured strategy
-    # This is a placeholder for the actual parsing logic
-    strategy = {
-        "action": "BUY",
-        "entry_price": 100,
-        "take_profit": 120,
-        "stop_loss": 90,
-        "rationale": strategy_response,
-    }
+    # TODO: Implement proper JSON parsing with error handling
+    # For now, use a placeholder structure
+    import re
+    import json
+    
+    try:
+        # Try to extract JSON from response
+        json_match = re.search(r'\{.*\}', strategy_response, re.DOTALL)
+        if json_match:
+            strategy = json.loads(json_match.group())
+        else:
+            # Fallback to placeholder
+            strategy = {
+                "action": "HOLD",
+                "entry_price": None,
+                "take_profit": None,
+                "stop_loss": None,
+                "position_size_pct": 0,
+                "rationale": strategy_response,
+            }
+    except:
+        # If parsing fails, use placeholder
+        strategy = {
+            "action": "HOLD",
+            "entry_price": None,
+            "take_profit": None,
+            "stop_loss": None,
+            "position_size_pct": 0,
+            "rationale": strategy_response,
+        }
     
     # 4. Update the state
     state['trading_strategy'] = strategy
@@ -137,17 +178,35 @@ Please perform the following tasks:
 def bull_trader_agent(state: dict):
     """
     The Bull Trader Agent.
+    Now retrieves social media data from shared context instead of re-fetching.
     """
     ticker = state['ticker']
     
-    # 1. Get the market data from the state and tools
+    # 1. Get news (not cached in shared context, needs fresh data)
     news = search_news(ticker)
-    twitter_sentiment = search_twitter(ticker)
-    reddit_sentiment = search_reddit("wallstreetbets", ticker)
+    
+    # 2. Try to retrieve social media data from shared context
+    twitter_sentiment = shared_context.get(f'twitter_data_{ticker}')
+    reddit_sentiment = shared_context.get(f'reddit_data_{ticker}')
+    
+    # 3. Fallback to fetching if not in shared context
+    if twitter_sentiment is None:
+        print(f"[SHARED CONTEXT] Bull Trader: Twitter data not found, fetching...")
+        twitter_sentiment = search_twitter(ticker)
+    else:
+        print(f"[SHARED CONTEXT] Bull Trader: Using cached Twitter data")
+    
+    if reddit_sentiment is None:
+        print(f"[SHARED CONTEXT] Bull Trader: Reddit data not found, fetching...")
+        reddit_sentiment = search_reddit("wallstreetbets", ticker)
+    else:
+        print(f"[SHARED CONTEXT] Bull Trader: Using cached Reddit data")
+    
+    # 4. Get other data
     technical_analysis_report = state['reports']['technical_analyst']
     market_sentiment = get_market_sentiment()
     
-    # 2. Construct the prompt for the LLM
+    # 5. Construct the prompt for the LLM
     prompt = f"""
 Your mission is to determine if the stock {ticker} is a good candidate for a high-growth, momentum-based trading strategy.
 You have been provided with the following information:
@@ -175,10 +234,10 @@ Please perform the following tasks:
 5.  Summarize your findings in a concise report.
 """
     
-    # 3. Call the LLM to generate the analysis
+    # 6. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)
     
-    # 4. Update the state
+    # 7. Update the state
     state['trader_reports']['bull'] = analysis_report
     
     return state

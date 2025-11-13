@@ -1,6 +1,8 @@
 # In nexustrader/backend/app/tools/news_tools.py
 from pygooglenews import GoogleNews
+from ..utils.cache import cache_data
 
+@cache_data(ttl_seconds=1800)  # Cache for 30 minutes
 def search_news(query: str, limit: int = 5):
     """
     Searches Google News for recent articles matching the query.

@@ -1,5 +1,8 @@
 # In nexustrader/backend/app/tools/social_media_tools.py
 
+from ..utils.cache import cache_data
+
+@cache_data(ttl_seconds=1800)  # Cache for 30 minutes
 def search_twitter(query: str):
     """
     Searches X/Twitter for recent tweets matching the query.
@@ -9,6 +12,7 @@ def search_twitter(query: str):
     print(f"Searching Twitter for {query}...")
     return "Dummy Twitter search results"
 
+@cache_data(ttl_seconds=1800)  # Cache for 30 minutes
 def search_reddit(subreddit: str, query: str):
     """
     Searches a given subreddit for posts matching the query.
@@ -18,6 +22,7 @@ def search_reddit(subreddit: str, query: str):
     print(f"Searching Reddit for {query} in r/{subreddit}...")
     return "Dummy Reddit search results"
 
+@cache_data(ttl_seconds=1800)  # Cache for 30 minutes
 def search_stocktwits(ticker: str):
     """
     Searches StockTwits for recent posts about the given stock ticker.

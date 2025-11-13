@@ -1,7 +1,9 @@
 # In nexustrader/backend/app/tools/financial_data_tools.py
 import yfinance as yf
 import json
+from ..utils.cache import cache_data
 
+@cache_data(ttl_seconds=3600)  # Cache for 1 hour
 def get_financial_statements(ticker: str):
     """
     Returns the company's income statement, balance sheet, and cash flow statement.
@@ -20,6 +22,7 @@ def get_financial_statements(ticker: str):
         "cash_flow_statement": cash_flow,
     }
 
+@cache_data(ttl_seconds=3600)  # Cache for 1 hour
 def get_financial_ratios(ticker: str):
     """
     Returns a dictionary of key financial ratios.
@@ -43,6 +46,7 @@ def get_financial_ratios(ticker: str):
     # Filter out any None values
     return {k: v for k, v in ratios.items() if v is not None}
 
+@cache_data(ttl_seconds=3600)  # Cache for 1 hour
 def get_analyst_ratings(ticker: str):
     """
     Returns a summary of analyst ratings for the stock.
@@ -55,6 +59,7 @@ def get_analyst_ratings(ticker: str):
     
     return {"recommendations": recommendations}
 
+@cache_data(ttl_seconds=3600)  # Cache for 1 hour
 def get_key_valuation_metrics(ticker: str):
     """
     Returns a dictionary of key valuation metrics.
@@ -75,6 +80,7 @@ def get_key_valuation_metrics(ticker: str):
     }
     return {k: v for k, v in metrics.items() if v is not None}
 
+@cache_data(ttl_seconds=3600)  # Cache for 1 hour
 def get_competitor_list(ticker: str):
     """
     Returns a list of the company's main competitors.

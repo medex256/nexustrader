@@ -5,6 +5,7 @@ from ..tools.technical_analysis_tools import get_historical_price_data, calculat
 from ..tools.social_media_tools import search_twitter, search_reddit, search_stocktwits, analyze_sentiment, identify_influencers
 from ..tools.news_tools import search_news
 from ..llm import invoke_llm as call_llm
+from ..utils.shared_context import shared_context
 # from ..graph.state import AgentState # We will define this later
 
 def fundamental_analyst_agent(state: dict):
@@ -97,6 +98,7 @@ Please perform the following tasks:
 def sentiment_analyst_agent(state: dict):
     """
     The Sentiment Analyst Agent.
+    Now stores social media data in shared context for reuse.
     """
     ticker = state['ticker']
     
@@ -105,13 +107,20 @@ def sentiment_analyst_agent(state: dict):
     reddit_results = search_reddit("wallstreetbets", ticker)
     stocktwits_results = search_stocktwits(ticker)
     
-    # 2. Analyze the sentiment
+    # 2. Store in shared context for other agents to reuse
+    shared_context.set(f'twitter_data_{ticker}', twitter_results)
+    shared_context.set(f'reddit_data_{ticker}', reddit_results)
+    shared_context.set(f'stocktwits_data_{ticker}', stocktwits_results)
+    
+    print(f"[SHARED CONTEXT] Sentiment Analyst stored social media data for {ticker}")
+    
+    # 3. Analyze the sentiment
     sentiment_score = analyze_sentiment(f"{twitter_results}\n{reddit_results}\n{stocktwits_results}")
     
-    # 3. Identify influencers
+    # 4. Identify influencers
     influencers = identify_influencers("twitter")
     
-    # 4. Construct the prompt for the LLM
+    # 5. Construct the prompt for the LLM
     prompt = f"""
 Your mission is to analyze the social media sentiment for the stock {ticker}.
 You have been provided with the following information:
@@ -134,10 +143,10 @@ Please perform the following tasks:
 3.  Summarize your findings in a comprehensive report.
 """
     
-    # 5. Call the LLM to generate the analysis
+    # 6. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)
     
-    # 6. Update the state
+    # 7. Update the state
     state['reports']['sentiment_analyst'] = analysis_report
     state['sentiment_score'] = sentiment_score
     
@@ -146,11 +155,17 @@ Please perform the following tasks:
 def news_harvester_agent(state: dict):
     """
     The News Harvester Agent. 
+    Now stores news data in shared context for reuse.
     """
     ticker = state['ticker']
     
     # 1. Get the news using the tools
     articles = search_news(ticker)
+    
+    # 2. Store in shared context for other agents to reuse
+    shared_context.set(f'news_articles_{ticker}', articles)
+    
+    print(f"[SHARED CONTEXT] News Harvester stored news articles for {ticker}")
     
     # --- LOGGING FOR TESTING ---
     print("\n--- Fetched News Articles ---")
@@ -159,7 +174,7 @@ def news_harvester_agent(state: dict):
     print("---------------------------\n")
     # ---------------------------
         
-    # 2. Construct the prompt for the LLM
+    # 3. Construct the prompt for the LLM
     prompt = f"""
 Your mission is to analyze the latest news for the stock {ticker}.
 You have been provided with the following recent news articles:
@@ -173,10 +188,10 @@ Please perform the following tasks:
 4.  Summarize your findings in a concise report.
 """
     
-    # 3. Call the LLM to generate the analysis
+    # 4. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)
     
-    # 4. Update the state
+    # 5. Update the state
     state['reports']['news_harvester'] = analysis_report
     
     return state

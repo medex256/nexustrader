@@ -3,7 +3,9 @@ import yfinance as yf
 import pandas_ta as ta
 import mplfinance as mpf
 import os
+from ..utils.cache import cache_data
 
+@cache_data(ttl_seconds=3600)  # Cache for 1 hour
 def get_historical_price_data(ticker: str, period: str = "1y"):
     """
     Returns the historical price and volume data for the stock.
