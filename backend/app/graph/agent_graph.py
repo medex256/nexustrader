@@ -16,21 +16,29 @@ from ..agents.research_team import (
 )
 from ..agents.execution_core import (
     trading_strategy_synthesizer_agent,
-    arbitrage_trader_agent,
-    value_trader_agent,
-    bull_trader_agent,
+    # Removed redundant traders: arbitrage, value, bull
+    # These duplicated work done by analysts and researchers
 )
 from ..agents.risk_management import (
     risk_management_agent,
-    compliance_agent,
+    # Removed compliance_agent - Risk Manager handles this for MVP
 )
 
-def create_agent_graph(max_debate_rounds: int = 3):
+def create_agent_graph(max_debate_rounds: int = 1):
     """
     Creates the agent graph with conditional routing for debates.
     
+    Streamlined 9-agent architecture:
+    - 4 Analysts: Fundamental, Technical, Sentiment, News
+    - 3 Debate: Bull Researcher, Bear Researcher, Research Manager
+    - 1 Strategy: Trading Strategy Synthesizer
+    - 1 Risk: Risk Management Agent
+    
+    Removed redundant agents (arbitrage, value, bull traders) that 
+    duplicated work done by analysts and researchers.
+    
     Args:
-        max_debate_rounds: Maximum number of bull/bear debate rounds (default: 3)
+        max_debate_rounds: Maximum number of bull/bear debate rounds (default: 1)
     """
     # Create the conditional logic handler
     conditional_logic = ConditionalLogic(max_debate_rounds=max_debate_rounds)
@@ -52,16 +60,12 @@ def create_agent_graph(max_debate_rounds: int = 3):
     graph.add_node("research_manager", research_manager_agent)
 
     # ==================== EXECUTION CORE ====================
-    # Add the nodes for the execution core
+    # Add the node for strategy synthesis (converts research to actionable plan)
     graph.add_node("strategy_synthesizer", trading_strategy_synthesizer_agent)
-    graph.add_node("arbitrage_trader", arbitrage_trader_agent)
-    graph.add_node("value_trader", value_trader_agent)
-    graph.add_node("bull_trader", bull_trader_agent)
 
     # ==================== RISK MANAGEMENT ====================
-    # Add the nodes for the risk management team
+    # Add the node for risk management (final safety check)
     graph.add_node("risk_manager", risk_management_agent)
-    graph.add_node("compliance_officer", compliance_agent)
 
     # ==================== GRAPH FLOW ====================
     
@@ -101,17 +105,11 @@ def create_agent_graph(max_debate_rounds: int = 3):
     graph.add_edge("research_manager", "strategy_synthesizer")
     
     # ==================== EXECUTION FLOW ====================
-    # Execution core - linear flow through trader agents
-    graph.add_edge("strategy_synthesizer", "arbitrage_trader")
-    graph.add_edge("arbitrage_trader", "value_trader")
-    graph.add_edge("value_trader", "bull_trader")
+    # Strategy synthesizer creates actionable plan, then risk check
+    graph.add_edge("strategy_synthesizer", "risk_manager")
 
-    # Connect execution core to risk management
-    graph.add_edge("bull_trader", "risk_manager")
-    graph.add_edge("risk_manager", "compliance_officer")
-
-    # End the graph
-    graph.add_edge("compliance_officer", END)
+    # End the graph after risk management
+    graph.add_edge("risk_manager", END)
 
     # Compile the graph
     return graph.compile()

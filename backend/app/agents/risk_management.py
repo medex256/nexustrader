@@ -1,14 +1,29 @@
 # In nexustrader/backend/app/agents/risk_management.py
 
+"""
+Risk Management Agents
+
+This module contains agents responsible for assessing portfolio risk
+and validating trading strategies.
+
+Active Agents:
+- Risk Management Agent: Monitors portfolio risk and validates strategies
+
+Removed Agents:
+- Compliance Agent: Moved to Risk Manager's responsibilities for MVP
+  (Can be re-added in future versions if needed)
+"""
+
 from ..tools.portfolio_tools import (
     get_market_volatility_index,
     get_portfolio_composition,
     calculate_portfolio_VaR,
     get_correlation_matrix,
-    get_restricted_securities_list,
-    get_position_size_limits,
-    check_trade_compliance,
-    log_compliance_check,
+    # Removed compliance-specific imports (now handled by Risk Manager if needed)
+    # get_restricted_securities_list,
+    # get_position_size_limits,
+    # check_trade_compliance,
+    # log_compliance_check,
 )
 from ..llm import invoke_llm as call_llm
 
@@ -23,27 +38,20 @@ def risk_management_agent(state: dict):
     correlation = get_correlation_matrix(portfolio)
     
     # 1. Construct the prompt for the LLM
-    prompt = f"""
-Your mission is to continuously monitor and assess the risk of the trading portfolio.
-You have been provided with the following information:
+    prompt = f"""Monitor and assess trading portfolio risk.
 
-Portfolio Composition:
-{portfolio}
+Data:
+Portfolio Composition: {portfolio}
+Market Volatility (VIX): {volatility}
+Portfolio VaR: {var}
+Asset Correlation Matrix: {correlation}
 
-Market Volatility (VIX):
-{volatility}
+Provide:
+- Overall exposure to risk factors
+- Warnings if thresholds exceeded with corrective actions
+- Concise risk assessment
 
-Portfolio Value at Risk (VaR):
-{var}
-
-Asset Correlation Matrix:
-{correlation}
-
-Please perform the following tasks:
-1.  Assess the portfolio's overall exposure to different risk factors.
-2.  If any risk parameters exceed their predefined thresholds, issue a warning and suggest corrective actions.
-3.  Summarize your risk assessment in a concise report.
-"""
+Keep response under 250 words. Be conversational."""
     
     # 2. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)
@@ -55,20 +63,17 @@ Please perform the following tasks:
     
     return state
 
-def compliance_agent(state: dict):
-    """
-    The Compliance Agent.
-    """
-    proposed_trade = state.get('proposed_trade')
-    
-    if not proposed_trade:
-        return state
-        
-    # 1. Perform compliance checks using tools
-    compliance_result = check_trade_compliance(proposed_trade)
-    log_compliance_check(proposed_trade, compliance_result)
-    
-    # 2. Update the state
-    state['compliance_check'] = compliance_result
-    
-    return state
+
+# ============================================================================
+# REMOVED AGENT - Compliance checking moved to Risk Manager for MVP
+# ============================================================================
+
+# def compliance_agent(state: dict):
+#     """
+#     REMOVED: Compliance Agent
+#     
+#     Reason: Overkill for MVP. Basic compliance checks can be handled
+#     by Risk Management Agent. Can be re-added in v2.0 if specific
+#     regulatory compliance features are needed.
+#     """
+#     pass

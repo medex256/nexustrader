@@ -1,4 +1,7 @@
 # In nexustrader/backend/app/tools/technical_analysis_tools.py
+import matplotlib
+matplotlib.use('Agg')  # Use non-interactive backend for web server
+
 import yfinance as yf
 import pandas_ta as ta
 import mplfinance as mpf

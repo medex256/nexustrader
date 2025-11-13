@@ -1,13 +1,16 @@
 # In nexustrader/backend/app/agents/research_team.py
 
 from ..llm import invoke_llm as call_llm
+from ..utils.memory import get_memory
 
 
 def bull_researcher_agent(state: dict):
     """
     The Bull Researcher Agent - Builds bullish arguments in a debate format.
+    Now enhanced with memory to learn from past analyses.
     """
     reports = state.get('reports', {})
+    ticker = state.get('ticker', '')
     
     # Initialize debate state if this is the first round
     if 'investment_debate_state' not in state or state['investment_debate_state'] is None:
@@ -26,41 +29,77 @@ def bull_researcher_agent(state: dict):
     # Get the bear's previous argument (if any) to respond to
     bear_history = debate_state.get('bear_history', '')
     
+    # Query memory for similar past situations (only on first round)
+    memory_context = ""
+    if debate_state['count'] == 0:
+        try:
+            memory = get_memory()
+            
+            # Build situation description from reports
+            situation_desc = f"""
+Ticker: {ticker}
+Fundamental Analysis: {reports.get('fundamental_analyst', 'N/A')[:500]}
+Technical Analysis: {reports.get('technical_analyst', 'N/A')[:500]}
+Sentiment: {reports.get('sentiment_analyst', 'N/A')[:300]}
+"""
+            
+            # Get similar past analyses
+            similar = memory.get_similar_past_analyses(
+                current_situation=situation_desc,
+                ticker=None,  # Don't filter by ticker - learn from all stocks
+                n_results=2,
+                min_similarity=0.3
+            )
+            
+            if similar:
+                memory_context = "\n\n--- LESSONS FROM PAST ANALYSES ---\n"
+                for i, mem in enumerate(similar, 1):
+                    outcome = mem['metadata'].get('outcome', 'PENDING')
+                    pnl = mem['metadata'].get('profit_loss_pct', 'N/A')
+                    lesson = mem['metadata'].get('lessons_learned', 'N/A')
+                    
+                    memory_context += f"""
+Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
+- Ticker: {mem['metadata']['ticker']}
+- Action: {mem['metadata']['action']}
+- Outcome: {outcome} (P/L: {pnl}%)
+- Lesson Learned: {lesson}
+"""
+                print(f"[MEMORY] Bull Researcher found {len(similar)} similar past analyses")
+        except Exception as e:
+            print(f"[MEMORY] Warning: Could not query memory: {str(e)}")
+            memory_context = ""
+    
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 0:
         # First round - opening argument
-        prompt = f"""You are the Bull Researcher. Your role is to build a compelling bullish case for this stock.
+        prompt = f"""You are a Bull Analyst advocating for investing in {ticker}. Build a strong, evidence-based case emphasizing growth potential, competitive advantages, and positive indicators.
 
-Analysis Reports from the Analyst Team:
+Focus on:
+- Growth catalysts and revenue opportunities
+- Competitive advantages and market positioning
+- Financial health and positive trends
+{f"- Learn from past analyses - what worked and what didn't" if memory_context else ""}
+
+Analysis Reports:
 {reports}
+{memory_context}
 
-Please perform the following tasks:
-1. Review the reports from the Analyst Team.
-2. Identify all the positive factors, growth catalysts, and upside potential.
-3. Synthesize these factors into a coherent and persuasive bullish thesis.
-4. Present your opening argument clearly and convincingly.
-
-Start your response with "Bull Researcher:" and provide your bullish argument."""
+Present your argument conversationally, as if speaking naturally. Keep response under 400 words. Start with "Bull Researcher:"."""
     else:
         # Subsequent rounds - respond to bear's counterarguments
-        prompt = f"""You are the Bull Researcher in a debate about this stock's investment potential.
+        prompt = f"""You are the Bull Analyst in a debate about {ticker}.
 
 Analysis Reports:
 {reports}
 
-Bear Researcher's Previous Arguments:
+Bear's Arguments:
 {bear_history}
 
-Your Previous Arguments:
+Your Previous Points:
 {debate_state.get('bull_history', '')}
 
-Please respond to the Bear Researcher's points:
-1. Address their concerns with factual counterarguments.
-2. Reinforce your bullish thesis with additional evidence.
-3. Highlight why the positive factors outweigh the risks.
-4. Be persuasive but professional.
-
-Start your response with "Bull Researcher:" and provide your rebuttal."""
+Counter the bear's concerns with specific data and sound reasoning. Show why the bull perspective holds stronger merit. Be engaging and conversational, not just listing data. Keep response under 400 words. Start with "Bull Researcher:"."""
     
     # 2. Call the LLM to generate the argument
     bullish_response = call_llm(prompt)
@@ -85,51 +124,79 @@ Start your response with "Bull Researcher:" and provide your rebuttal."""
 def bear_researcher_agent(state: dict):
     """
     The Bear Researcher Agent - Builds bearish arguments in a debate format.
+    Now enhanced with memory to learn from past mistakes.
     """
     reports = state.get('reports', {})
+    ticker = state.get('ticker', '')
     debate_state = state.get('investment_debate_state', {})
     
     # Get the bull's previous argument to respond to
     bull_history = debate_state.get('bull_history', '')
     
+    # Query memory for past mistakes (only on first response)
+    memory_context = ""
+    if debate_state['count'] == 1:
+        try:
+            memory = get_memory()
+            
+            # Get past mistakes to learn what risks were underestimated
+            mistakes = memory.get_past_mistakes(
+                ticker=None,
+                min_loss_pct=-10.0,
+                n_results=2
+            )
+            
+            if mistakes:
+                memory_context = "\n\n--- LESSONS FROM PAST MISTAKES ---\n"
+                for i, mem in enumerate(mistakes, 1):
+                    pnl = mem['metadata'].get('profit_loss_pct', 'N/A')
+                    lesson = mem['metadata'].get('lessons_learned', 'N/A')
+                    
+                    memory_context += f"""
+Past Mistake {i}:
+- Ticker: {mem['metadata']['ticker']}
+- Action: {mem['metadata']['action']}
+- Loss: {pnl}%
+- What Went Wrong: {lesson}
+"""
+                print(f"[MEMORY] Bear Researcher found {len(mistakes)} past mistakes to learn from")
+        except Exception as e:
+            print(f"[MEMORY] Warning: Could not query memory: {str(e)}")
+            memory_context = ""
+    
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 1:
         # First response to bull's opening argument
-        prompt = f"""You are the Bear Researcher. Your role is to present the bearish case and challenge overly optimistic views.
+        prompt = f"""You are a Bear Analyst presenting the bearish case for {ticker}. Challenge overly optimistic views with facts and analysis.
 
-Analysis Reports from the Analyst Team:
-{reports}
-
-Bull Researcher's Opening Argument:
-{bull_history}
-
-Please perform the following tasks:
-1. Review the reports from the Analyst Team.
-2. Identify all the negative factors, risks, and red flags.
-3. Challenge the Bull Researcher's arguments with facts and analysis.
-4. Present your bearish thesis clearly and convincingly.
-
-Start your response with "Bear Researcher:" and provide your bearish counterargument."""
-    else:
-        # Subsequent rounds - continue the debate
-        prompt = f"""You are the Bear Researcher in an ongoing debate about this stock's investment potential.
+Focus on:
+- Negative factors, risks, and red flags
+- Overvaluation or weakness indicators
+- Market headwinds and competitive threats
+{f"- Learn from past mistakes - what risks were underestimated" if memory_context else ""}
 
 Analysis Reports:
 {reports}
 
-Bull Researcher's Arguments:
+Bull's Argument:
+{bull_history}
+{memory_context}
+
+Challenge the bull's points with specific data. Present your bearish thesis conversationally, as if speaking naturally. Keep response under 400 words. Start with "Bear Researcher:"."""
+    else:
+        # Subsequent rounds - continue the debate
+        prompt = f"""You are the Bear Analyst in a debate about {ticker}.
+
+Analysis Reports:
+{reports}
+
+Bull's Arguments:
 {bull_history}
 
-Your Previous Arguments:
+Your Previous Points:
 {debate_state.get('bear_history', '')}
 
-Please respond to the Bull Researcher's latest points:
-1. Counter their optimistic claims with factual analysis.
-2. Reinforce your bearish thesis with additional evidence.
-3. Highlight risks they may be overlooking.
-4. Be critical but professional.
-
-Start your response with "Bear Researcher:" and provide your rebuttal."""
+Counter the bull's optimistic claims with factual analysis. Highlight risks they're overlooking. Be critical but professional. Keep response under 400 words. Start with "Bear Researcher:"."""
     
     # 2. Call the LLM to generate the argument
     bearish_response = call_llm(prompt)
@@ -161,27 +228,20 @@ def research_manager_agent(state: dict):
     bear_arguments = debate_state.get('bear_history', '')
     
     # 1. Construct the prompt for the LLM
-    prompt = f"""You are the Research Manager and Portfolio Strategist. Your role is to evaluate the debate between the Bull and Bear researchers and make a definitive investment recommendation.
+    prompt = f"""As the portfolio manager, evaluate this debate and make a definitive decision: Buy, Sell, or Hold. Avoid defaulting to Hold - commit to a stance grounded in the strongest arguments.
 
-Original Analysis Reports:
+Analysis Reports:
 {reports}
 
-Complete Debate Transcript:
+Complete Debate:
 {debate_history}
 
-Please perform the following tasks:
-1. Summarize the key points from both the bullish and bearish sides.
-2. Weigh the strength of evidence on each side.
-3. Make a clear recommendation: BUY, SELL, or HOLD.
-4. If recommending BUY or SELL, provide specific reasoning.
-5. Develop a detailed investment plan including:
-   - Your recommendation (BUY/SELL/HOLD)
-   - Key rationale (most compelling arguments)
-   - Risk factors to monitor
-   - Suggested entry/exit strategy
-6. Be decisive - avoid defaulting to HOLD without strong justification.
+Deliverables:
+1. Summarize key points from both sides (2-3 sentences each)
+2. Your Recommendation: BUY, SELL, or HOLD with clear reasoning
+3. Investment Plan: Rationale, risk factors to monitor, entry/exit strategy
 
-Provide your analysis and investment plan in a clear, actionable format."""
+Present conversationally, as if speaking naturally, without special formatting. Keep response under 500 words."""
     
     # 2. Call the LLM to generate the decision
     manager_decision = call_llm(prompt)

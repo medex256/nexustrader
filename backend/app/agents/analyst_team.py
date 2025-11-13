@@ -20,25 +20,19 @@ def fundamental_analyst_agent(state: dict):
     analyst_ratings = get_analyst_ratings(ticker)
     
     # 2. Construct the prompt for the LLM
-    prompt = f"""
-Your mission is to conduct a thorough fundamental analysis of the stock {ticker}.
-You have been provided with the following information:
+    prompt = f"""Conduct a fundamental analysis of {ticker}.
 
-Financial Statements:
-{financial_statements}
+Data provided:
+Financial Statements: {financial_statements}
+Financial Ratios: {financial_ratios}
+Analyst Ratings: {analyst_ratings}
 
-Financial Ratios:
-{financial_ratios}
+Analyze:
+- Financial health: profitability, liquidity, solvency, efficiency
+- Red flags or concerns
+- Overall assessment
 
-Analyst Ratings:
-{analyst_ratings}
-
-Please perform the following tasks:
-1.  Analyze the company's financial statements.
-2.  Assess the company's profitability, liquidity, solvency, and efficiency.
-3.  Identify any potential red flags or areas of concern in the company's financials.
-4.  Summarize your findings in a comprehensive report.
-"""
+Keep response under 300 words. Be concise and conversational."""
     
     # 3. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)
@@ -68,23 +62,19 @@ def technical_analyst_agent(state: dict):
     chart_image_url = f"{base_url}/static/charts/{chart_image_filename}"
     
     # 2. Construct the prompt for the LLM
-    prompt = f"""
-Your mission is to perform a technical analysis of the stock {ticker}.
-You have been provided with the following information:
+    prompt = f"""Perform technical analysis of {ticker}.
 
-Technical Indicators:
-{indicators}
+Data provided:
+Technical Indicators: {indicators}
+Stock Chart: {chart_image_url}
 
-Stock Chart:
-{chart_image_url}
+Analyze:
+- Price trends, support/resistance levels, chart patterns
+- Key technical indicators
+- Trading volume strength
+- Short-term price forecast
 
-Please perform the following tasks:
-1.  Analyze the stock's price chart to identify key trends, support and resistance levels, and chart patterns.
-2.  Interpret the key technical indicators.
-3.  Analyze the stock's trading volume to gauge the strength of price movements.
-4.  Formulate a short-term price forecast based on your analysis.
-5.  Summarize your findings in a comprehensive report.
-"""
+Keep response under 300 words. Be concise and conversational."""
     
     # 3. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)
@@ -121,27 +111,20 @@ def sentiment_analyst_agent(state: dict):
     influencers = identify_influencers("twitter")
     
     # 5. Construct the prompt for the LLM
-    prompt = f"""
-Your mission is to analyze the social media sentiment for the stock {ticker}.
-You have been provided with the following information:
+    prompt = f"""Analyze social media sentiment for {ticker}.
 
-Twitter Mentions:
-{twitter_results}
-
-Reddit Mentions (r/wallstreetbets):
-{reddit_results}
-
-StockTwits Mentions:
-{stocktwits_results}
-
-Overall Sentiment Score: {sentiment_score}
+Data provided:
+Twitter: {twitter_results}
+Reddit (r/wallstreetbets): {reddit_results}
+StockTwits: {stocktwits_results}
+Sentiment Score: {sentiment_score}
 Key Influencers: {influencers}
 
-Please perform the following tasks:
-1.  Summarize the key themes and narratives being discussed on social media.
-2.  Provide an overall assessment of the social media sentiment.
-3.  Summarize your findings in a comprehensive report.
-"""
+Provide:
+- Key themes and narratives being discussed
+- Overall sentiment assessment
+
+Keep response under 250 words. Be concise and conversational."""
     
     # 6. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)
@@ -175,18 +158,17 @@ def news_harvester_agent(state: dict):
     # ---------------------------
         
     # 3. Construct the prompt for the LLM
-    prompt = f"""
-Your mission is to analyze the latest news for the stock {ticker}.
-You have been provided with the following recent news articles:
+    prompt = f"""Analyze latest news for {ticker}.
 
+Recent articles:
 {articles}
 
-Please perform the following tasks:
-1.  Summarize the key points from the articles.
-2.  Identify any news that could act as a significant catalyst for a price movement.
-3.  Provide an overall sentiment (Positive, Negative, Neutral) based on the news.
-4.  Summarize your findings in a concise report.
-"""
+Provide:
+- Key points summary
+- Significant catalysts for price movement
+- Overall sentiment (Positive/Negative/Neutral)
+
+Keep response under 250 words. Be concise and conversational."""
     
     # 4. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)

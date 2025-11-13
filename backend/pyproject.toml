@@ -18,7 +18,8 @@ dependencies = [
     "mplfinance",
     "google-generativeai",
     "pygooglenews",
-    "praw"
+    "praw",
+    "chromadb"
 ]
 
 [project.optional-dependencies]
