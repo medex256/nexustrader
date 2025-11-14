@@ -1,51 +1,42 @@
 # In nexustrader/backend/app/tools/social_media_tools.py
 
+import requests
+from datetime import datetime
 from ..utils.cache import cache_data
 
-@cache_data(ttl_seconds=1800)  # Cache for 30 minutes
-def search_twitter(query: str):
-    """
-    Searches X/Twitter for recent tweets matching the query.
+def search_stocktwits(ticker: str, limit: int = 30):
+    """StockTwits placeholder - API closed to new registrations."""
+    print(f"StockTwits disabled for {ticker} - API unavailable")
+    return []
 
-    NOTE: This is a placeholder function.
-    """
-    print(f"Searching Twitter for {query}...")
-    return "Dummy Twitter search results"
+def search_twitter(query: str, limit: int = 20):
+    """Twitter placeholder - scraping unreliable."""
+    print(f"Twitter disabled for {query} - scraping unavailable")
+    return []
 
-@cache_data(ttl_seconds=1800)  # Cache for 30 minutes
-def search_reddit(subreddit: str, query: str):
-    """
-    Searches a given subreddit for posts matching the query.
+def search_reddit(subreddit: str, query: str, limit: int = 10):
+    """Reddit placeholder - not implemented."""
+    print(f"Reddit disabled - API requires authentication")
+    return []
 
-    NOTE: This is a placeholder function.
+def calculate_sentiment_metrics(posts: list, sentiment_field: str = 'sentiment'):
     """
-    print(f"Searching Reddit for {query} in r/{subreddit}...")
-    return "Dummy Reddit search results"
-
-@cache_data(ttl_seconds=1800)  # Cache for 30 minutes
-def search_stocktwits(ticker: str):
+    Calculate bullish/bearish ratios from posts with sentiment labels.
+    Useful for StockTwits data which has pre-labeled sentiment.
     """
-    Searches StockTwits for recent posts about the given stock ticker.
-
-    NOTE: This is a placeholder function.
-    """
-    print(f"Searching StockTwits for {ticker}...")
-    return "Dummy StockTwits search results"
-
-def analyze_sentiment(text: str):
-    """
-    Analyzes the sentiment of a given text and returns a sentiment score.
-
-    NOTE: This is a placeholder function.
-    """
-    print("Analyzing sentiment...")
-    return 0.5 # Dummy sentiment score
-
-def identify_influencers(platform: str):
-    """
-    Identifies key influencers on a given platform.
-
-    NOTE: This is a placeholder function.
-    """
-    print(f"Identifying influencers on {platform}...")
-    return ["@dummy_influencer1", "@dummy_influencer2"]
+    if not posts:
+        return {"bullish_pct": 0, "bearish_pct": 0, "neutral_pct": 0, "total": 0}
+    
+    bullish = sum(1 for p in posts if p.get(sentiment_field, '').lower() == 'bullish')
+    bearish = sum(1 for p in posts if p.get(sentiment_field, '').lower() == 'bearish')
+    total = len(posts)
+    neutral = total - bullish - bearish
+    
+    return {
+        "bullish_pct": round(bullish / total * 100, 1) if total > 0 else 0,
+        "bearish_pct": round(bearish / total * 100, 1) if total > 0 else 0,
+        "neutral_pct": round(neutral / total * 100, 1) if total > 0 else 0,
+        "total": total,
+        "bullish_count": bullish,
+        "bearish_count": bearish,
+    }

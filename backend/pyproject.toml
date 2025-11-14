@@ -19,7 +19,9 @@ dependencies = [
     "google-generativeai",
     "pygooglenews",
     "praw",
-    "chromadb"
+    "chromadb",
+    "requests",
+    "ntscraper",
 ]
 
 [project.optional-dependencies]

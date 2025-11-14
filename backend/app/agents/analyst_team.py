@@ -2,7 +2,6 @@
 
 from ..tools.financial_data_tools import get_financial_statements, get_financial_ratios, get_analyst_ratings
 from ..tools.technical_analysis_tools import get_historical_price_data, calculate_technical_indicators, plot_stock_chart
-from ..tools.social_media_tools import search_twitter, search_reddit, search_stocktwits, analyze_sentiment, identify_influencers
 from ..tools.news_tools import search_news
 from ..llm import invoke_llm as call_llm
 from ..utils.shared_context import shared_context
@@ -86,94 +85,81 @@ Keep response under 300 words. Be concise and conversational."""
     return state
 
 def sentiment_analyst_agent(state: dict):
-    """
-    The Sentiment Analyst Agent.
-    Now stores social media data in shared context for reuse.
-    """
+    """Sentiment Analyst Agent - Placeholder (social media APIs unavailable)."""
     ticker = state['ticker']
     
-    # 1. Get the social media data using the tools
-    twitter_results = search_twitter(ticker)
-    reddit_results = search_reddit("wallstreetbets", ticker)
-    stocktwits_results = search_stocktwits(ticker)
+    # Social media integration disabled - APIs unreliable/unavailable
+    placeholder_report = f"""Social media sentiment analysis for {ticker} is currently unavailable. 
+StockTwits API closed to new registrations and Twitter scraping is unreliable. 
+Recommend relying on news sentiment and fundamental/technical analysis instead."""
     
-    # 2. Store in shared context for other agents to reuse
-    shared_context.set(f'twitter_data_{ticker}', twitter_results)
-    shared_context.set(f'reddit_data_{ticker}', reddit_results)
-    shared_context.set(f'stocktwits_data_{ticker}', stocktwits_results)
-    
-    print(f"[SHARED CONTEXT] Sentiment Analyst stored social media data for {ticker}")
-    
-    # 3. Analyze the sentiment
-    sentiment_score = analyze_sentiment(f"{twitter_results}\n{reddit_results}\n{stocktwits_results}")
-    
-    # 4. Identify influencers
-    influencers = identify_influencers("twitter")
-    
-    # 5. Construct the prompt for the LLM
-    prompt = f"""Analyze social media sentiment for {ticker}.
-
-Data provided:
-Twitter: {twitter_results}
-Reddit (r/wallstreetbets): {reddit_results}
-StockTwits: {stocktwits_results}
-Sentiment Score: {sentiment_score}
-Key Influencers: {influencers}
-
-Provide:
-- Key themes and narratives being discussed
-- Overall sentiment assessment
-
-Keep response under 250 words. Be concise and conversational."""
-    
-    # 6. Call the LLM to generate the analysis
-    analysis_report = call_llm(prompt)
-    
-    # 7. Update the state
-    state['reports']['sentiment_analyst'] = analysis_report
-    state['sentiment_score'] = sentiment_score
+    state['reports']['sentiment_analyst'] = placeholder_report
+    state['sentiment_metrics'] = {'bullish_pct': 0, 'bearish_pct': 0, 'neutral_pct': 0, 'total': 0}
     
     return state
 
 def news_harvester_agent(state: dict):
     """
-    The News Harvester Agent. 
-    Now stores news data in shared context for reuse.
+    The News Harvester Agent using Alpha Vantage NEWS_SENTIMENT API.
+    Provides news with pre-calculated sentiment scores and article summaries.
     """
+    from ..tools.news_tools import search_news_alpha_vantage
+    
     ticker = state['ticker']
     
-    # 1. Get the news using the tools
-    articles = search_news(ticker)
+    # 1. Get news with sentiment from Alpha Vantage
+    articles = search_news_alpha_vantage(ticker, limit=50)
     
     # 2. Store in shared context for other agents to reuse
     shared_context.set(f'news_articles_{ticker}', articles)
     
-    print(f"[SHARED CONTEXT] News Harvester stored news articles for {ticker}")
+    print(f"[SHARED CONTEXT] News Harvester stored {len(articles)} news articles for {ticker}")
     
-    # --- LOGGING FOR TESTING ---
-    print("\n--- Fetched News Articles ---")
-    for article in articles:
-        print(f"- {article['title']}")
-    print("---------------------------\n")
-    # ---------------------------
-        
-    # 3. Construct the prompt for the LLM
+    # 3. Format news with sentiment for LLM
+    news_summary = f"News Analysis for {ticker} ({len(articles)} articles):\n\n"
+    
+    for i, article in enumerate(articles[:10], 1):  # Top 10 articles
+        news_summary += f"{i}. [{article['ticker_sentiment_label']}] {article['title']}\n"
+        news_summary += f"   Source: {article['source']} | Sentiment: {article['ticker_sentiment_score']:.2f} | Relevance: {article['relevance_score']:.2f}\n"
+        news_summary += f"   Summary: {article['summary'][:150]}...\n\n"
+    
+    # Calculate average sentiment
+    if articles:
+        avg_sentiment = sum(a['ticker_sentiment_score'] for a in articles) / len(articles)
+        bullish_count = sum(1 for a in articles if 'Bullish' in a['ticker_sentiment_label'])
+        bearish_count = sum(1 for a in articles if 'Bearish' in a['ticker_sentiment_label'])
+    else:
+        avg_sentiment = 0
+        bullish_count = 0
+        bearish_count = 0
+    
+    # 4. Construct the prompt for the LLM
     prompt = f"""Analyze latest news for {ticker}.
 
-Recent articles:
-{articles}
+{news_summary}
+
+News Sentiment Summary:
+- Average Sentiment Score: {avg_sentiment:.2f} (-1 bearish to +1 bullish)
+- Bullish articles: {bullish_count}
+- Bearish articles: {bearish_count}
 
 Provide:
-- Key points summary
-- Significant catalysts for price movement
-- Overall sentiment (Positive/Negative/Neutral)
+- Key catalysts and events
+- Sentiment trend assessment  
+- Market-moving developments
+- Risk factors from news
 
 Keep response under 250 words. Be concise and conversational."""
     
-    # 4. Call the LLM to generate the analysis
+    # 5. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)
     
-    # 5. Update the state
+    # 6. Update the state
     state['reports']['news_harvester'] = analysis_report
+    state['news_sentiment'] = {
+        'average_score': avg_sentiment,
+        'bullish_count': bullish_count,
+        'bearish_count': bearish_count,
+    }
     
     return state

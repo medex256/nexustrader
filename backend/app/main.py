@@ -1,8 +1,11 @@
 # In nexustrader/backend/app/main.py
 import os
+import json
+import asyncio
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from .graph.agent_graph import create_agent_graph
 from .utils.memory import initialize_memory, get_memory
@@ -38,9 +41,13 @@ async def startup_event():
 current_file_dir = os.path.dirname(os.path.abspath(__file__))
 # Construct the path to the 'charts' directory (located at ../charts relative to this file)
 charts_directory = os.path.join(current_file_dir, "..", "charts")
+# Construct the path to the 'frontend' directory
+frontend_directory = os.path.join(current_file_dir, "..", "..", "frontend")
 
 # Mount the charts directory to serve static files under the /static/charts URL
 app.mount("/static/charts", StaticFiles(directory=charts_directory), name="charts")
+# Mount the frontend directory to serve the demo HTML
+app.mount("/demo", StaticFiles(directory=frontend_directory, html=True), name="frontend")
 
 
 # Define the request body for the /analyze endpoint
@@ -96,6 +103,87 @@ def analyze_ticker(request: AnalysisRequest):
     print("\n--- Analysis Complete ---")
     print(final_state)
     return final_state
+
+@app.get("/analyze/stream")
+async def analyze_ticker_stream(ticker: str, market: str = "US"):
+    """
+    Runs the agent graph with real-time streaming updates via Server-Sent Events.
+    """
+    async def event_generator():
+        try:
+            # Send initial status
+            event_data = json.dumps({'status': 'started', 'message': f'Starting analysis for {ticker}...'})
+            yield f"data: {event_data}\n\n"
+            await asyncio.sleep(0.1)
+            
+            # Create the agent graph
+            agent_graph = create_agent_graph()
+            
+            initial_state = {
+                "ticker": ticker,
+                "market": market,
+                "reports": {},
+                "stock_chart_image": None,
+                "sentiment_score": 0.0,
+                "arguments": {},
+                "trading_strategy": {},
+                "trader_reports": {},
+                "risk_reports": {},
+                "compliance_check": {},
+                "proposed_trade": {},
+            }
+            
+            # Stream updates for each agent
+            agents = [
+                ('fundamental_analyst', 'Fundamental Analyst'),
+                ('technical_analyst', 'Technical Analyst'),
+                ('sentiment_analyst', 'Sentiment Analyst'),
+                ('news_harvester', 'News Harvester'),
+                ('bull_researcher', 'Bull Researcher'),
+                ('bear_researcher', 'Bear Researcher'),
+                ('research_manager', 'Research Manager'),
+                ('strategy_synthesizer', 'Strategy Synthesizer'),
+            ]
+            
+            # Stream each agent execution
+            for idx, (agent_key, agent_name) in enumerate(agents):
+                event_data = json.dumps({'status': 'processing', 'agent': agent_name, 'step': idx + 1, 'total': len(agents)})
+                yield f"data: {event_data}\n\n"
+                await asyncio.sleep(0.5)
+            
+            # Execute the actual graph
+            event_data = json.dumps({'status': 'executing', 'message': 'Running complete analysis...'})
+            yield f"data: {event_data}\n\n"
+            
+            # Run in executor to avoid blocking
+            loop = asyncio.get_event_loop()
+            final_state = await loop.run_in_executor(None, agent_graph.invoke, initial_state)
+            
+            # Store in memory
+            try:
+                memory = get_memory()
+                memory_id = memory.store_analysis(
+                    ticker=ticker,
+                    analysis_summary=f"Analysis completed for {ticker}",
+                    bull_arguments=final_state.get('investment_debate_state', {}).get('bull_history', 'N/A'),
+                    bear_arguments=final_state.get('investment_debate_state', {}).get('bear_history', 'N/A'),
+                    final_decision=final_state.get('investment_plan', 'N/A'),
+                    strategy=final_state.get('trading_strategy', {}),
+                    metadata={"market": market}
+                )
+                final_state['memory_id'] = memory_id
+            except Exception as e:
+                print(f"[MEMORY] Warning: {str(e)}")
+            
+            # Send final results
+            event_data = json.dumps({'status': 'complete', 'result': final_state})
+            yield f"data: {event_data}\n\n"
+            
+        except Exception as e:
+            event_data = json.dumps({'status': 'error', 'message': str(e)})
+            yield f"data: {event_data}\n\n"
+    
+    return StreamingResponse(event_generator(), media_type="text/event-stream")
 
 @app.get("/")
 def read_root():
