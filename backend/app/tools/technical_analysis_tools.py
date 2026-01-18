@@ -65,3 +65,34 @@ def plot_stock_chart(price_data, ticker: str):
     )
     
     return chart_file
+
+@cache_data(ttl_seconds=3600)
+def get_chart_data_json(ticker: str, period: str = "6mo"):
+    """
+    Returns OHLCV data formatted for lightweight charting libraries.
+    """
+    print(f"Fetching chart data for {ticker}...")
+    stock = yf.Ticker(ticker)
+    hist = stock.history(period=period)
+    if hist.empty:
+        return []
+
+    # Ensure we have the required columns
+    hist = hist[['Open', 'High', 'Low', 'Close', 'Volume']].copy()
+
+    # Reset index to access dates
+    hist.reset_index(inplace=True)
+
+    # Format for Lightweight Charts: time (YYYY-MM-DD), open, high, low, close, volume
+    chart_data = []
+    for _, row in hist.iterrows():
+        chart_data.append({
+            "time": row['Date'].strftime('%Y-%m-%d'),
+            "open": round(float(row['Open']), 4),
+            "high": round(float(row['High']), 4),
+            "low": round(float(row['Low']), 4),
+            "close": round(float(row['Close']), 4),
+            "volume": int(row['Volume']),
+        })
+
+    return chart_data

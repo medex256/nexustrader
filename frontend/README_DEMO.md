@@ -13,7 +13,7 @@ A modern, real-time streaming frontend that shows live agent execution progress 
 ✅ **Recommendation Display**: Clear BUY/SELL/HOLD recommendation with color coding
 ✅ **Trading Strategy Card**: Shows entry, exit, stop-loss, and position size
 ✅ **Complete Analysis**: All agent reports displayed in clean sections
-✅ **Stock Chart**: Technical chart displayed inline
+✅ **Stock Chart**: Interactive candlestick chart (TradingView Lightweight Charts)
 ✅ **Responsive Design**: Modern gradient UI with smooth animations
 
 ## How to Run
@@ -54,7 +54,7 @@ file:///C:/Users/Madi/Documents/season_25-26/academic_25-26/FYP_multi_agent_trad
 
 ### Streaming Endpoint (NEW!)
 ```
-POST http://127.0.0.1:8000/analyze/stream
+GET http://127.0.0.1:8000/analyze/stream?ticker=TSLA
 ```
 - Returns Server-Sent Events (SSE) stream
 - Sends real-time updates as agents execute
@@ -66,6 +66,13 @@ POST http://127.0.0.1:8000/analyze
 ```
 - Returns complete result after all agents finish
 - No streaming, just final JSON response
+
+### Chart Data Endpoint (NEW!)
+```
+GET http://127.0.0.1:8000/api/chart/TSLA?period=6mo
+```
+- Returns OHLCV data formatted for interactive candlestick charts
+- Used by the demo to render TradingView Lightweight Charts
 
 ## Frontend Architecture
 
@@ -115,7 +122,7 @@ Display final results
 ✅ Recommendation color coding (green=BUY, red=SELL, orange=HOLD)
 ✅ Trading strategy display with entry/exit/stop-loss
 ✅ All agent reports displayed
-✅ Stock chart integration
+✅ Interactive stock chart integration
 ✅ Error handling
 ✅ Loading states
 

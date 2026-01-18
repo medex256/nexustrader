@@ -9,6 +9,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from .graph.agent_graph import create_agent_graph
 from .utils.memory import initialize_memory, get_memory
+from .tools.technical_analysis_tools import get_chart_data_json
 
 # Create the FastAPI app
 app = FastAPI(
@@ -188,6 +189,15 @@ async def analyze_ticker_stream(ticker: str, market: str = "US"):
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the NexusTrader API"}
+
+@app.get("/api/chart/{ticker}")
+def get_chart_data(ticker: str, period: str = "6mo"):
+    """Return OHLCV data for frontend chart rendering."""
+    try:
+        data = get_chart_data_json(ticker, period=period)
+        return {"status": "success", "ticker": ticker, "data": data}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
 
 # --- Memory System Endpoints ---
 

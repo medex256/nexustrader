@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<!-- saved from url=(0114)file:///C:/Users/Madi/Documents/season_25-26/academic_25-26/FYP_multi_agent_trading/nexustrader/frontend/demo.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexusTrader - Live Analysis Demo</title>
-    <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
     <style>
         * {
             margin: 0;
@@ -265,12 +264,10 @@
             text-align: center;
         }
 
-        .chart-canvas {
-            width: 100%;
-            height: 360px;
+        .chart-container img {
+            max-width: 100%;
             border-radius: 10px;
             box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-            overflow: hidden;
         }
 
         .strategy-card {
@@ -340,27 +337,191 @@
 
         <div class="input-section">
             <div class="input-group">
-                <input type="text" id="tickerInput" placeholder="Enter stock ticker (e.g., TSLA, AAPL, NVDA)" />
+                <input type="text" id="tickerInput" placeholder="Enter stock ticker (e.g., TSLA, AAPL, NVDA)">
                 <button id="analyzeBtn" onclick="startAnalysis()">
-                    <span id="btnText">Analyze Stock</span>
-                    <span id="btnSpinner" class="spinner" style="display:none;"></span>
+                    <span id="btnText" style="display: inline;">Analyze Stock</span>
+                    <span id="btnSpinner" class="spinner" style="display: none;"></span>
                 </button>
             </div>
         </div>
 
-        <div class="status-section" id="statusSection">
+        <div class="status-section active" id="statusSection">
             <div class="progress-bar">
-                <div class="progress-fill" id="progressFill"></div>
+                <div class="progress-fill" id="progressFill" style="width: 100%;"></div>
             </div>
-            <div id="agentList"></div>
+            <div id="agentList">
+                <div class="agent-status completed" id="agent-fundamental_analyst">
+                    <div class="agent-icon">📊</div>
+                    <div class="agent-name">Fundamental Analyst</div>
+                </div>
+            
+                <div class="agent-status completed" id="agent-technical_analyst">
+                    <div class="agent-icon">📈</div>
+                    <div class="agent-name">Technical Analyst</div>
+                </div>
+            
+                <div class="agent-status completed" id="agent-sentiment_analyst">
+                    <div class="agent-icon">💬</div>
+                    <div class="agent-name">Sentiment Analyst</div>
+                </div>
+            
+                <div class="agent-status completed" id="agent-news_harvester">
+                    <div class="agent-icon">📰</div>
+                    <div class="agent-name">News Harvester</div>
+                </div>
+            
+                <div class="agent-status completed" id="agent-bull_researcher">
+                    <div class="agent-icon">🐂</div>
+                    <div class="agent-name">Bull Researcher</div>
+                </div>
+            
+                <div class="agent-status completed" id="agent-bear_researcher">
+                    <div class="agent-icon">🐻</div>
+                    <div class="agent-name">Bear Researcher</div>
+                </div>
+            
+                <div class="agent-status completed" id="agent-research_manager">
+                    <div class="agent-icon">🎯</div>
+                    <div class="agent-name">Research Manager</div>
+                </div>
+            
+                <div class="agent-status completed" id="agent-strategy_synthesizer">
+                    <div class="agent-icon">⚡</div>
+                    <div class="agent-name">Strategy Synthesizer</div>
+                </div>
+            </div>
         </div>
 
-        <div class="results-section" id="resultsSection"></div>
+        <div class="results-section active" id="resultsSection">
+                <div class="results-header">
+                    <h2>Analysis Results for MSFT</h2>
+                </div>
+
+                <div class="recommendation buy">
+                    📈 
+                    Recommendation: BUY
+                </div>
+            
+                    <div class="chart-container">
+                        <img src="./NexusTrader - Live Analysis Demo_files/MSFT_chart.png" alt="Stock Chart for MSFT">
+                    </div>
+                
+                    <div class="report-section">
+                        <h3>📋 Investment Recommendation</h3>
+                        <div class="report-content">Alright team, I’ve weighed both sides of this debate and reviewed the analysis reports carefully.
+
+The Bull researcher rightly highlights Microsoft's undeniable financial strength – a true powerhouse with exceptional profitability, robust liquidity, and minimal debt, all backed by the fundamental analyst's glowing report. Their argument for AI as a massive growth catalyst, driven by strategic overhauls and validated by broader market sentiment, is compelling and supported by our news harvester.
+
+However, the Bear researcher presents valid counterpoints. The high valuation, flagged by our fundamental analyst as a "primary concern," means there's little margin for error. The technical analyst's clear indicators of a "bearish crossover" and "bearish momentum" signal short-term weakness, not just a minor blip. And the broader "AI bubble" concerns, though perhaps overblown for MSFT, still represent a market risk.
+
+Given the strong arguments from both sides, and the directive to avoid defaulting to "Hold," I have to make a definitive call.
+
+**My Recommendation: BUY**
+
+Here’s why: While the valuation is a valid concern and the short-term technicals show weakness, Microsoft's fundamental strength and long-term growth catalysts in AI are simply too powerful to ignore. The company is a financially "outstanding" powerhouse, generating immense cash flow, and strategically repositioning itself for the next decade of AI-driven revenue. The current technical dip, in this context, offers an opportunity for long-term investors to accumulate shares in a fundamentally sound company with a clear growth trajectory. The risk of missing out on MSFT's continued dominance outweighs the short-term valuation and technical anxieties.
+
+**Investment Plan:**
+
+**Rationale:** This is a strategic long-term BUY, driven by Microsoft's unparalleled financial health, its market leadership, and its aggressive, well-funded pivot into the AI era. The company consistently demonstrates efficient capital utilization and strong cash generation, positioning it for sustained future growth despite current market premiums.
+
+**Risk Factors to Monitor:** We must closely watch the pace and success of MSFT's AI monetization efforts. Any significant slowdown or competitive pressure in AI could impact future growth projections. Furthermore, general "AI bubble" sentiment could lead to broader market corrections affecting even strong players like MSFT. We'll also monitor the high valuation for signs of overextension or if market sentiment shifts negatively for growth stocks.
+
+**Entry/Exit Strategy:** Given the high valuation, I recommend a dollar-cost averaging strategy to mitigate entry risk over time. This allows us to benefit from any further short-term dips while accumulating a position. We should consider re-evaluating our position if there's a sustained deterioration in the company's core financial metrics, a significant failure in AI execution, or if the valuation becomes extremely decoupled from its growth prospects. This is a long-term conviction play; immediate exits would only be considered under extreme, unforeseen circumstances impacting the fundamental thesis.</div>
+                    </div>
+                
+                    <div class="strategy-card">
+                        <h3>⚡ Trading Strategy</h3>
+                        <div class="strategy-grid">
+                            
+                                <div class="strategy-item">
+                                    <label>Entry Price</label>
+                                    <value>$428</value>
+                                </div>
+                            
+                            
+                                <div class="strategy-item">
+                                    <label>Take Profit</label>
+                                    <value>$642</value>
+                                </div>
+                            
+                            
+                                <div class="strategy-item">
+                                    <label>Stop Loss</label>
+                                    <value>$363.8</value>
+                                </div>
+                            
+                            
+                                <div class="strategy-item">
+                                    <label>Position Size</label>
+                                    <value>7%</value>
+                                </div>
+                            
+                        </div>
+                        
+                            <div class="report-content" style="margin-top: 15px;">
+                                <strong>Rationale:</strong> This strategic long-term BUY is driven by MSFT's unparalleled financial health, market leadership, and aggressive AI pivot. Dollar-cost averaging is recommended to mitigate valuation concerns, with fundamental thesis deterioration serving as the primary stop-loss trigger.
+                            </div>
+                        
+                    </div>
+                
+                            <div class="report-section">
+                                <h3>📊 Fundamental Analysis</h3>
+                                <div class="report-content">Microsoft (MSFT) demonstrates outstanding financial health.
+
+**Profitability** is exceptional, with net income consistently growing (e.g., ~$88B in 2023 to ~$101B in 2024). The company boasts a high profit margin of 35.7% and an impressive Return on Equity (ROE) of over 32%, indicating highly efficient capital utilization.
+
+**Liquidity** is solid, reflected by a current ratio of 1.40, which is healthy for a company of its size and stability. MSFT also maintains substantial cash and short-term investments.
+
+**Solvency** is robust, with a very low debt-to-equity ratio of 33.15%. This signifies minimal reliance on debt and a strong balance sheet. EBITDA generation far exceeds total debt, showcasing excellent debt servicing capacity.
+
+**Efficiency** is excellent, with strong and growing operating cash flow ($136B in 2024) and free cash flow ($71B in 2024), demonstrating its ability to generate significant cash from operations. Increased capital expenditure in 2024, while impacting FCF growth slightly, likely represents strategic investments in growth areas like AI.
+
+The primary **concern** is valuation. MSFT's trailing P/E of 34.6x and Price/Sales of 12.3x are on the higher side, suggesting the market has already priced in substantial future growth. This implies a premium for new investors.
+
+**Overall Assessment:** Financially, MSFT is a powerhouse. It exhibits strong profitability, excellent liquidity, minimal leverage, and robust cash generation. Despite a high valuation, its consistent performance and strong analyst recommendations (overwhelmingly "Buy" and "Strong Buy") underscore its quality as a fundamentally sound company.</div>
+                            </div>
+                        
+                            <div class="report-section">
+                                <h3>📈 Technical Analysis</h3>
+                                <div class="report-content">Hey there! Let's break down MSFT's technical picture based on the data provided.
+
+Overall, Microsoft appears to be in a short-term bearish or consolidating phase. We're seeing the 20-day Simple Moving Average (SMA) at $513.15 drop slightly below the 50-day SMA at $514.09. This "bearish crossover" often signals a short-term downtrend or a period of weakness.
+
+Looking at the momentum, the 14-day Relative Strength Index (RSI) is at 34.15. This is below the 50-level, indicating bearish momentum, and it's approaching the oversold threshold (typically below 30), suggesting the stock has seen some significant selling pressure recently. The SMAs could also act as dynamic resistance if the price attempts to rally.
+
+While I can't identify specific chart patterns or fixed support/resistance levels without seeing the full chart, the current indicator setup points to continued challenges. Unfortunately, trading volume data wasn't provided, so we can't assess the conviction behind recent price movements.
+
+For the short-term, expect MSFT to likely remain under pressure or consolidate. A bounce could occur if the RSI enters oversold territory, but a sustained recovery would ideally involve the price breaking above these moving averages and the 20-day SMA crossing back above the 50-day SMA.</div>
+                            </div>
+                        
+                            <div class="report-section">
+                                <h3>💬 Sentiment Analysis</h3>
+                                <div class="report-content">Social media sentiment analysis for MSFT is currently unavailable. 
+StockTwits API closed to new registrations and Twitter scraping is unreliable. 
+Recommend relying on news sentiment and fundamental/technical analysis instead.</div>
+                            </div>
+                        
+                            <div class="report-section">
+                                <h3>📰 News Analysis</h3>
+                                <div class="report-content">Here's an analysis of the latest news for Microsoft (MSFT):
+
+**Key Catalysts and Events:**
+Microsoft is proactively shaping its future in the AI era. CEO Satya Nadella is reportedly initiating a significant business model overhaul for AI, appointing veteran Rolf Harms to lead this transformation. This mirrors their successful cloud playbook and signals a deep commitment to monetizing AI. Furthermore, Nvidia's blockbuster earnings have broadly calmed "AI bubble" jitters, boosting confidence in the AI sector and lifting tech stocks, benefiting major AI players like MSFT.
+
+**Sentiment Trend Assessment:**
+The overall sentiment for Microsoft is **somewhat bullish to neutral**. While direct news about MSFT is neutral, it highlights a positive strategic direction. The broader market sentiment, invigorated by Nvidia's strong performance, is positive for AI-focused companies, with many articles reflecting this renewed optimism.
+
+**Market-Moving Developments:**
+MSFT's strategic repositioning for the AI era, including a business model overhaul, indicates a strong focus on future AI-driven revenue growth. This proactive approach, coupled with the renewed confidence in the AI sector post-Nvidia's earnings, creates a favorable environment for Microsoft, given its substantial investments and partnerships in AI (e.g., OpenAI).
+
+**Risk Factors from News:**
+Despite the current optimism, "AI bubble" concerns persist. Voices like AOC warn of "2008-style" risks, suggesting tech giants shouldn't expect bailouts. While Nvidia's forecast offered a temporary reprieve, this underlying risk of market correction in the broader AI sector could still impact MSFT.</div>
+                            </div>
+                        </div>
     </div>
 
     <script>
         let eventSource = null;
-        const apiBaseUrl = 'http://127.0.0.1:8000';
 
         const agents = [
             { key: 'fundamental_analyst', name: 'Fundamental Analyst', icon: '📊' },
@@ -407,7 +568,7 @@
                 eventSource.close();
             }
 
-            eventSource = new EventSource(`${apiBaseUrl}/analyze/stream?ticker=${ticker}`);
+            eventSource = new EventSource(`http://127.0.0.1:8000/analyze/stream?ticker=${ticker}`);
 
             eventSource.onmessage = (event) => {
                 const data = JSON.parse(event.data);
@@ -488,7 +649,7 @@
             const resultsSection = document.getElementById('resultsSection');
             resultsSection.classList.add('active');
 
-            const { reports, trading_strategy, investment_plan } = result;
+            const { reports, trading_strategy, investment_plan, stock_chart_image } = result;
             
             // Determine recommendation
             const action = trading_strategy?.action || 'HOLD';
@@ -506,11 +667,13 @@
             `;
 
             // Chart
-            html += `
-                <div class="chart-container">
-                    <div id="chart" class="chart-canvas"></div>
-                </div>
-            `;
+            if (stock_chart_image) {
+                html += `
+                    <div class="chart-container">
+                        <img src="${stock_chart_image}" alt="Stock Chart for ${ticker}" />
+                    </div>
+                `;
+            }
 
             // Investment Plan
             if (investment_plan) {
@@ -584,66 +747,6 @@
             }
 
             resultsSection.innerHTML = html;
-
-            // Render interactive chart
-            renderChart(ticker);
-        }
-
-        async function renderChart(ticker) {
-            try {
-                const response = await fetch(`${apiBaseUrl}/api/chart/${ticker}?period=6mo`);
-                const payload = await response.json();
-
-                if (payload.status !== 'success' || !payload.data || payload.data.length === 0) {
-                    console.warn('No chart data available');
-                    return;
-                }
-
-                const chartContainer = document.getElementById('chart');
-                if (!chartContainer) return;
-
-                // Clear any previous chart
-                chartContainer.innerHTML = '';
-
-                const chart = LightweightCharts.createChart(chartContainer, {
-                    layout: {
-                        background: { color: '#ffffff' },
-                        textColor: '#333',
-                    },
-                    grid: {
-                        vertLines: { color: '#f0f0f0' },
-                        horzLines: { color: '#f0f0f0' },
-                    },
-                    width: chartContainer.clientWidth,
-                    height: chartContainer.clientHeight,
-                    timeScale: {
-                        borderColor: '#e0e0e0',
-                    },
-                });
-
-                const candleSeries = chart.addCandlestickSeries({
-                    upColor: '#4caf50',
-                    downColor: '#f44336',
-                    borderDownColor: '#f44336',
-                    borderUpColor: '#4caf50',
-                    wickDownColor: '#f44336',
-                    wickUpColor: '#4caf50',
-                });
-
-                candleSeries.setData(payload.data);
-
-                chart.timeScale().fitContent();
-
-                // Resize handler
-                window.addEventListener('resize', () => {
-                    chart.applyOptions({
-                        width: chartContainer.clientWidth,
-                        height: chartContainer.clientHeight,
-                    });
-                });
-            } catch (err) {
-                console.error('Chart render error:', err);
-            }
         }
 
         function showError(message) {
@@ -670,5 +773,6 @@
             }
         });
     </script>
-</body>
-</html>
+
+
+</body></html>

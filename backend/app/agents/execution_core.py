@@ -19,6 +19,8 @@ See documentation/claude_context/WHY_TRADERS_REDUNDANT.md for details.
 """
 
 from ..llm import invoke_llm as call_llm
+from typing import Optional, Literal
+from pydantic import BaseModel, Field, ValidationError
 # Removed unused imports for redundant traders
 # from ..tools.derivatives_tools import get_option_chain, calculate_put_call_parity
 # from ..tools.financial_data_tools import get_financial_statements, get_key_valuation_metrics, get_competitor_list, get_analyst_ratings
@@ -26,6 +28,30 @@ from ..llm import invoke_llm as call_llm
 # from ..tools.news_tools import search_news
 # from ..tools.market_data_tools import get_market_sentiment
 # from ..utils.shared_context import shared_context
+
+
+class TradingStrategy(BaseModel):
+    action: Literal["BUY", "SELL", "HOLD"]
+    entry_price: Optional[float] = None
+    take_profit: Optional[float] = None
+    stop_loss: Optional[float] = None
+    position_size_pct: Optional[float] = Field(default=0, ge=0, le=100)
+    rationale: str
+
+
+def _extract_json_from_text(text: str) -> str:
+    """Extract the first JSON object from a model response."""
+    cleaned = text.strip()
+    # Remove common code fence wrappers
+    if cleaned.startswith("```"):
+        cleaned = cleaned.strip("`")
+        cleaned = cleaned.replace("json", "", 1).strip()
+
+    start = cleaned.find("{")
+    end = cleaned.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        raise ValueError("No JSON object found in LLM response")
+    return cleaned[start:end + 1]
 
 
 def trading_strategy_synthesizer_agent(state: dict):
@@ -53,7 +79,7 @@ def trading_strategy_synthesizer_agent(state: dict):
 Provide a decisive strategy: BUY, SELL, or HOLD.
 For BUY/SELL, specify: entry price, take-profit, stop-loss, position size (% of portfolio).
 
-Format as JSON:
+Return ONLY valid JSON (no commentary or Markdown) in this exact schema:
 {{
     "action": "BUY|SELL|HOLD",
     "entry_price": <number>,
@@ -68,36 +94,19 @@ Keep response under 200 words."""
     # 2. Call the LLM to generate the strategy
     strategy_response = call_llm(prompt)
     
-    # 3. Parse the LLM response to get the structured strategy
-    # TODO: Implement proper JSON parsing with error handling
-    # For now, use a placeholder structure
-    import re
-    import json
-    
+    # 3. Parse and validate JSON output
     try:
-        # Try to extract JSON from response
-        json_match = re.search(r'\{.*\}', strategy_response, re.DOTALL)
-        if json_match:
-            strategy = json.loads(json_match.group())
-        else:
-            # Fallback to placeholder
-            strategy = {
-                "action": "HOLD",
-                "entry_price": None,
-                "take_profit": None,
-                "stop_loss": None,
-                "position_size_pct": 0,
-                "rationale": strategy_response,
-            }
-    except:
-        # If parsing fails, use placeholder
+        json_text = _extract_json_from_text(strategy_response)
+        strategy_model = TradingStrategy.model_validate_json(json_text)
+        strategy = strategy_model.model_dump()
+    except (ValueError, ValidationError) as exc:
         strategy = {
             "action": "HOLD",
             "entry_price": None,
             "take_profit": None,
             "stop_loss": None,
             "position_size_pct": 0,
-            "rationale": strategy_response,
+            "rationale": f"Fallback due to parse/validation error: {exc}. Raw response: {strategy_response}",
         }
     
     # 4. Update the state
