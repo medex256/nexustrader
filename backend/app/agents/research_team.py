@@ -85,7 +85,14 @@ Analysis Reports:
 {reports}
 {memory_context}
 
-Present your argument conversationally, as if speaking naturally. Keep response under 400 words. Start with "Bull Researcher:"."""
+FORMAT: Use Markdown headers and bullet points.
+Structure:
+- **Core Thesis**: The primary reason to buy.
+- **Key Catalysts**: 2-3 specific growth drivers.
+- **Financial Strength**: Strongest metrics supporting the case.
+- **Conclusion**: Strong closing statement.
+
+Keep response under 400 words. Start with "Bull Researcher:"."""
     else:
         # Subsequent rounds - respond to bear's counterarguments
         prompt = f"""You are the Bull Analyst in a debate about {ticker}.
@@ -99,7 +106,15 @@ Bear's Arguments:
 Your Previous Points:
 {debate_state.get('bull_history', '')}
 
-Counter the bear's concerns with specific data and sound reasoning. Show why the bull perspective holds stronger merit. Be engaging and conversational, not just listing data. Keep response under 400 words. Start with "Bull Researcher:"."""
+Counter the bear's concerns with specific data and sound reasoning.
+
+FORMAT: Use Markdown headers and bullet points.
+Structure:
+- **Rebuttal**: Directly address the Bear's key flaws.
+- **Supporting Evidence**: Data backing your defense.
+- **Restate Thesis**: Reinforce why the upside outweighs the risk.
+
+Keep response under 400 words. Start with "Bull Researcher:"."""
     
     # 2. Call the LLM to generate the argument
     bullish_response = call_llm(prompt)
@@ -182,7 +197,14 @@ Bull's Argument:
 {bull_history}
 {memory_context}
 
-Challenge the bull's points with specific data. Present your bearish thesis conversationally, as if speaking naturally. Keep response under 400 words. Start with "Bear Researcher:"."""
+FORMAT: Use Markdown headers and bullet points.
+Structure:
+- **Core Thesis**: The primary reason to avoid/short.
+- **Valuation Concerns**: Why the price is too high.
+- **Key Risks**: Specific threats (competition, macro, regulation).
+- **Rebuttal**: Direct challenges to the Bull's points.
+
+Keep response under 400 words. Start with "Bear Researcher:"."""
     else:
         # Subsequent rounds - continue the debate
         prompt = f"""You are the Bear Analyst in a debate about {ticker}.
@@ -196,7 +218,15 @@ Bull's Arguments:
 Your Previous Points:
 {debate_state.get('bear_history', '')}
 
-Counter the bull's optimistic claims with factual analysis. Highlight risks they're overlooking. Be critical but professional. Keep response under 400 words. Start with "Bear Researcher:"."""
+Counter the bull's optimistic claims with factual analysis. Highlight risks they're overlooking.
+
+FORMAT: Use Markdown headers and bullet points.
+Structure:
+- **Counter-Rebuttal**: Address the Bull's defense.
+- **Risk Amplification**: Why the risks are severe.
+- **Final Warning**: Closing statement on downside potential.
+
+Keep response under 400 words. Start with "Bear Researcher:"."""
     
     # 2. Call the LLM to generate the argument
     bearish_response = call_llm(prompt)

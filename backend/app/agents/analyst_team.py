@@ -31,7 +31,14 @@ Analyze:
 - Red flags or concerns
 - Overall assessment
 
-Keep response under 300 words. Be concise and conversational."""
+FORMAT: Use Markdown with `### Headers` and `- Bullet points`.
+Structure:
+- **Profitability & Efficiency**: Margins, ROE, etc.
+- **Solvency & Liquidity**: Debt levels, current ratio.
+- **Valuation**: P/E, EV/EBITDA vs peers.
+- **Conclusion**: Fundamental strength assessment.
+
+Keep response structured and under 300 words."""
     
     # 3. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)
@@ -70,7 +77,14 @@ Analyze:
 - Trading volume strength
 - Short-term price forecast
 
-Keep response under 300 words. Be concise and conversational."""
+FORMAT: Use Markdown with `### Headers` and `- Bullet points`.
+Structure:
+- **Trend Analysis**: Moving averages, direction.
+- **Momentum**: RSI, MACD signals.
+- **Support/Resistance**: Key levels to watch.
+- **Forecast**: Short-term outlook (Bullish/Bearish/Neutral).
+
+Keep response structured and under 300 words."""
     
     # 3. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)
@@ -147,7 +161,14 @@ Provide:
 - Market-moving developments
 - Risk factors from news
 
-Keep response under 250 words. Be concise and conversational."""
+FORMAT: Use Markdown with `### Headers` and `- Bullet points`.
+Structure:
+- **Major Catalysts**: Key partnerships, earnings, product launches.
+- **Sentiment**: Summary of media tone (Bullish/Bearish).
+- **Risks**: Potential headwinds mentioned in news.
+- **Market Impact**: Likely short-term price effect.
+
+Keep response structured and under 250 words."""
     
     # 5. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)

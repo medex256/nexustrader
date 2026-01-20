@@ -325,10 +325,18 @@ analyzeBtn.addEventListener("click", startAnalysis);
 
 // --- History & Navigation Logic ---
 
-interface HistoryItem {
-  original_request: string;
-  final_response: string; // JSON string
-  timestamp: string;
+interface BackendHistoryItem {
+  id: string;
+  document: string;
+  metadata: {
+     ticker: string;
+     timestamp: string;
+     action?: string;
+     entry_price?: string;
+     outcome?: string;
+     final_state_json?: string; // We will add this to backend soon
+     [key: string]: any;
+  }
 }
 
 // Navigation
@@ -382,7 +390,7 @@ async function loadHistory() {
     }
 }
 
-function renderHistoryList(items: HistoryItem[]) {
+function renderHistoryList(items: BackendHistoryItem[]) {
     if (items.length === 0) {
         historyList.innerHTML = '<div class="notice">No past analyses found.</div>';
         return;
@@ -390,31 +398,26 @@ function renderHistoryList(items: HistoryItem[]) {
 
     historyList.innerHTML = "";
     // sort by timestamp desc
-    items.sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
+    items.sort((a, b) => new Date(b.metadata.timestamp).getTime() - new Date(a.metadata.timestamp).getTime());
 
     items.forEach((item) => {
-        const date = new Date(item.timestamp).toLocaleString();
-        
-        // Try parsing the request to get ticker
-        let ticker = "UNKNOWN";
-        try {
-             // prompt is usually "Analyze Ticker: <TICKER>" or just <TICKER> or a longer string
-             const match = item.original_request.match(/Ticker:\s*([A-Z]+)/i) || item.original_request.match(/\b([A-Z]{2,5})\b/);
-             if (match) ticker = match[1].toUpperCase();
-        } catch (e) {}
+        const date = new Date(item.metadata.timestamp).toLocaleString();
+        const ticker = item.metadata.ticker || "UNKNOWN";
+        const action = item.metadata.action || "N/A";
 
         const card = document.createElement("div");
         card.className = "history-item card";
         card.style.cursor = "pointer";
         card.style.transition = "transform 0.2s, background-color 0.2s";
-        // Override card padding/margin if needed, but default is fine
+        
         card.innerHTML = `
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 0.5rem;">
                 <h3 style="margin:0; font-size:1.2rem; color: var(--accent-color);">${ticker}</h3>
-                <span style="font-size:0.8rem; color:var(--text-secondary);">${date}</span>
+                <span class="badge ${action.toLowerCase()}" style="font-size:0.7rem; padding:2px 6px;">${action}</span>
             </div>
+            <div style="font-size:0.8rem; color:var(--text-secondary); margin-bottom:0.5rem;">${date}</div>
             <p style="font-size:0.85rem; color:var(--text-secondary); white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
-                ${item.original_request}
+                ${item.document.replace(/\n/g, " ").substring(0, 60)}...
             </p>
         `;
         
@@ -428,24 +431,39 @@ function renderHistoryList(items: HistoryItem[]) {
         });
 
         card.addEventListener("click", () => {
-             showHistoryDetail(item, ticker);
+             showHistoryDetail(item);
         });
 
         historyList.appendChild(card);
     });
 }
 
-function showHistoryDetail(item: HistoryItem, ticker: string) {
+function showHistoryDetail(item: BackendHistoryItem) {
     historyList.style.display = "none";
     historyDetailCard.style.display = "block";
     historyResultsContainer.innerHTML = "";
 
-    try {
-        const resultData = JSON.parse(item.final_response);
-        // Reuse the main result builder
-        buildResults(resultData, ticker, historyResultsContainer);
-    } catch (e) {
-        historyResultsContainer.innerHTML = `<div class="notice">Error parsing history data: ${e}</div>`;
+    // Check if we have the full JSON state saved (future proofing)
+    if (item.metadata.final_state_json) {
+        try {
+            const resultData = JSON.parse(item.metadata.final_state_json);
+            buildResults(resultData, item.metadata.ticker, historyResultsContainer);
+            return;
+        } catch (e) {
+            console.warn("Failed to parse saved JSON state, falling back to text view", e);
+        }
     }
+
+    // Fallback: Show the text document summary
+    // Since we don't have the full reports structure for old items, we just show what we have.
+    historyResultsContainer.innerHTML = `
+        <h2 class="section-title">Analysis for ${item.metadata.ticker}</h2>
+        <div class="notice" style="margin-bottom:1rem;">
+           <strong>Note:</strong> This is a historical record. Interactive charts and full reports may not be available for older sessions.
+        </div>
+        <div class="report prose" style="white-space: pre-wrap;">
+${item.document}
+        </div>
+    `;
 }
 

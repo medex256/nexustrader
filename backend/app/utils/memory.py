@@ -52,7 +52,8 @@ class FinancialMemory:
         bear_arguments: str,
         final_decision: str,
         strategy: Dict[str, Any],
-        metadata: Optional[Dict[str, Any]] = None
+        metadata: Optional[Dict[str, Any]] = None,
+        final_state_json: Optional[str] = None
     ) -> str:
         """
         Store a completed analysis in memory.
@@ -65,6 +66,7 @@ class FinancialMemory:
             final_decision: Research manager's final decision
             strategy: Trading strategy details
             metadata: Additional metadata (market conditions, date, etc.)
+            final_state_json: Full JSON string of the final state for frontend replay
             
         Returns:
             Memory ID (string)
@@ -89,6 +91,7 @@ Strategy Action: {strategy.get('action', 'UNKNOWN')}
             "action": strategy.get('action', 'UNKNOWN'),
             "entry_price": str(strategy.get('entry_price', 'N/A')),
             "outcome": "PENDING",  # Will be updated later
+            "final_state_json": final_state_json or "", # Store full state for UI replay
             **(metadata or {})
         }
         

@@ -173,6 +173,10 @@ async def analyze_ticker_stream(ticker: str, market: str = "US"):
 
             # Store in memory
             try:
+                # Create a clean version of state for storage (remove non-serializable objects if any)
+                # But here everything is dict/str, so json.dumps works.
+                final_state_json = json.dumps(final_state, default=str)
+
                 memory = get_memory()
                 memory_id = memory.store_analysis(
                     ticker=ticker,
@@ -181,7 +185,8 @@ async def analyze_ticker_stream(ticker: str, market: str = "US"):
                     bear_arguments=final_state.get('investment_debate_state', {}).get('bear_history', 'N/A'),
                     final_decision=final_state.get('investment_plan', 'N/A'),
                     strategy=final_state.get('trading_strategy', {}),
-                    metadata={"market": market}
+                    metadata={"market": market},
+                    final_state_json=final_state_json
                 )
                 final_state['memory_id'] = memory_id
             except Exception as e:
