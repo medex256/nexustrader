@@ -52,20 +52,17 @@ def technical_analyst_agent(state: dict):
     # 1. Get the technical data using the tools
     price_data = get_historical_price_data(ticker, "1y")
     indicators = calculate_technical_indicators(price_data)
-    chart_image_path = plot_stock_chart(price_data, ticker)
-
-    # --- Create a web-accessible URL for the chart ---
-    base_url = "http://127.0.0.1:8000"
-    # Ensure we use forward slashes for the URL and get just the filename
-    chart_image_filename = chart_image_path.replace('\\', '/').split('/')[-1]
-    chart_image_url = f"{base_url}/static/charts/{chart_image_filename}"
+    
+    # NOTE: Passive Chart generation removed.
+    # The frontend now renders interactive charts via the /api/chart endpoint.
+    # The LLM relies on the numerical 'indicators' data below, not a vision model.
+    # chart_image_path = plot_stock_chart(price_data, ticker)
     
     # 2. Construct the prompt for the LLM
     prompt = f"""Perform technical analysis of {ticker}.
 
 Data provided:
 Technical Indicators: {indicators}
-Stock Chart: {chart_image_url}
 
 Analyze:
 - Price trends, support/resistance levels, chart patterns
@@ -79,8 +76,9 @@ Keep response under 300 words. Be concise and conversational."""
     analysis_report = call_llm(prompt)
     
     # 4. Update the state
+
     state['reports']['technical_analyst'] = analysis_report
-    state['stock_chart_image'] = chart_image_url
+    # state['stock_chart_image'] = chart_image_url # Removed legacy chart reference
     
     return state
 

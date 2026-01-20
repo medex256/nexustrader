@@ -228,7 +228,7 @@ def research_manager_agent(state: dict):
     bear_arguments = debate_state.get('bear_history', '')
     
     # 1. Construct the prompt for the LLM
-    prompt = f"""As the portfolio manager, evaluate this debate and make a definitive decision: Buy, Sell, or Hold. Avoid defaulting to Hold - commit to a stance grounded in the strongest arguments.
+    prompt = f"""As the portfolio manager, evaluate this debate and make a definitive decision: Buy, Sell, or Hold.
 
 Analysis Reports:
 {reports}
@@ -237,11 +237,15 @@ Complete Debate:
 {debate_history}
 
 Deliverables:
-1. Summarize key points from both sides (2-3 sentences each)
-2. Your Recommendation: BUY, SELL, or HOLD with clear reasoning
-3. Investment Plan: Rationale, risk factors to monitor, entry/exit strategy
+1. **Executive Summary**: 1-2 sentence core conclusion.
+2. **Debate Analysis**: Bullet points contrasting Bull vs Bear arguments.
+3. **Recommendation**: BUY, SELL, or HOLD.
+4. **Investment Plan**:
+   - **Rationale**: The 'why' behind the trade.
+   - **Risk Factors**: Specific catalysts to watch.
+   - **Execution**: Recommended approach (e.g., "Scale in on weakness").
 
-Present conversationally, as if speaking naturally, without special formatting. Keep response under 500 words."""
+FORMAT: Use Markdown headers (##) and bullet points. Be structured, professional, and direct. NO conversational filler (e.g., "Alright team", "Here is my thought process")."""
     
     # 2. Call the LLM to generate the decision
     manager_decision = call_llm(prompt)

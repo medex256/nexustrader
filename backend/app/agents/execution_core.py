@@ -21,14 +21,7 @@ See documentation/claude_context/WHY_TRADERS_REDUNDANT.md for details.
 from ..llm import invoke_llm as call_llm
 from typing import Optional, Literal
 from pydantic import BaseModel, Field, ValidationError
-# Removed unused imports for redundant traders
-# from ..tools.derivatives_tools import get_option_chain, calculate_put_call_parity
-# from ..tools.financial_data_tools import get_financial_statements, get_key_valuation_metrics, get_competitor_list, get_analyst_ratings
-# from ..tools.social_media_tools import search_twitter, search_reddit
-# from ..tools.news_tools import search_news
-# from ..tools.market_data_tools import get_market_sentiment
-# from ..utils.shared_context import shared_context
-
+from ..tools.portfolio_tools import calculate_ticker_risk_metrics
 
 class TradingStrategy(BaseModel):
     action: Literal["BUY", "SELL", "HOLD"]
@@ -61,6 +54,14 @@ def trading_strategy_synthesizer_agent(state: dict):
     """
     # Get the investment plan from research manager
     investment_plan = state.get('investment_plan', '')
+    ticker = state.get('ticker', 'Unknown')
+    
+    # Fetch real-time price context
+    try:
+        risk_metrics = calculate_ticker_risk_metrics(ticker)
+        current_price_str = risk_metrics.get("current_price", "Unknown") # e.g. "$135.50"
+    except Exception:
+        current_price_str = "Unknown"
     
     # Fallback to direct arguments if investment_plan not available
     if not investment_plan:
@@ -72,12 +73,19 @@ def trading_strategy_synthesizer_agent(state: dict):
         context = f"Research Manager's Investment Plan:\n{investment_plan}"
     
     # 1. Construct the prompt for the LLM
-    prompt = f"""Create an actionable trading strategy based on research analysis.
+    prompt = f"""Create an actionable trading strategy based on research analysis for {ticker}.
 
+CONTEXT:
+Current Market Price: {current_price_str}
+Research Plan:
 {context}
 
-Provide a decisive strategy: BUY, SELL, or HOLD.
-For BUY/SELL, specify: entry price, take-profit, stop-loss, position size (% of portfolio).
+INSTRUCTIONS:
+1. Decide on a strategy: BUY, SELL, or HOLD.
+2. IF BUY/SELL: Set 'entry_price' CLOSE to the Current Market Price ({current_price_str}).
+   - For LONG (Buy): Take Profit > Entry > Stop Loss.
+   - For SHORT (Sell): Stop Loss > Entry > Take Profit.
+3. If the signal is weak or ambiguous, choose HOLD.
 
 Return ONLY valid JSON (no commentary or Markdown) in this exact schema:
 {{

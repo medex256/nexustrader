@@ -135,31 +135,42 @@ async def analyze_ticker_stream(ticker: str, market: str = "US"):
             }
             
             # Stream updates for each agent
-            agents = [
-                ('fundamental_analyst', 'Fundamental Analyst'),
-                ('technical_analyst', 'Technical Analyst'),
-                ('sentiment_analyst', 'Sentiment Analyst'),
-                ('news_harvester', 'News Harvester'),
-                ('bull_researcher', 'Bull Researcher'),
-                ('bear_researcher', 'Bear Researcher'),
-                ('research_manager', 'Research Manager'),
-                ('strategy_synthesizer', 'Strategy Synthesizer'),
-            ]
+            # We use astream to get real-time updates from the graph execution
+            step_count = 0
+            # Define a mapping from node names to display names
+            node_mapping = {
+                "fundamental_analyst": "Fundamental Analyst",
+                "technical_analyst": "Technical Analyst",
+                "sentiment_analyst": "Sentiment Analyst",
+                "news_harvester": "News Harvester",
+                "bull_researcher": "Bull Researcher",
+                "bear_researcher": "Bear Researcher",
+                "research_manager": "Research Manager",
+                "strategy_synthesizer": "Strategy Synthesizer",
+                "risk_manager": "Risk Manager",
+            }
             
-            # Stream each agent execution
-            for idx, (agent_key, agent_name) in enumerate(agents):
-                event_data = json.dumps({'status': 'processing', 'agent': agent_name, 'step': idx + 1, 'total': len(agents)})
-                yield f"data: {event_data}\n\n"
-                await asyncio.sleep(0.5)
+            # Use accumulated state to track the full context as agents update it
+            current_state = initial_state.copy()
             
-            # Execute the actual graph
-            event_data = json.dumps({'status': 'executing', 'message': 'Running complete analysis...'})
-            yield f"data: {event_data}\n\n"
+            # Start stream
+            async for event in agent_graph.astream(initial_state):
+                for node_name, state_update in event.items():
+                    # Update current_state with new keys
+                    current_state.update(state_update)
+                    
+                    step_count += 1
+                    display_name = node_mapping.get(node_name, node_name)
+                    event_data = json.dumps({
+                        'status': 'processing', 
+                        'agent': display_name, 
+                        'step': step_count, 
+                        'total': 15 
+                    })
+                    yield f"data: {event_data}\n\n"
             
-            # Run in executor to avoid blocking
-            loop = asyncio.get_event_loop()
-            final_state = await loop.run_in_executor(None, agent_graph.invoke, initial_state)
-            
+            final_state = current_state
+
             # Store in memory
             try:
                 memory = get_memory()
@@ -181,6 +192,7 @@ async def analyze_ticker_stream(ticker: str, market: str = "US"):
             yield f"data: {event_data}\n\n"
             
         except Exception as e:
+            print(f"Error in stream: {e}")
             event_data = json.dumps({'status': 'error', 'message': str(e)})
             yield f"data: {event_data}\n\n"
     
@@ -200,6 +212,16 @@ def get_chart_data(ticker: str, period: str = "6mo"):
         return {"status": "error", "message": str(e)}
 
 # --- Memory System Endpoints ---
+
+@app.get("/memory/all")
+def get_all_memory(limit: int = 20):
+    """Get recent analyses."""
+    try:
+        memory = get_memory()
+        history = memory.get_all_analyses(limit=limit)
+        return {"status": "success", "data": history}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
 
 @app.get("/memory/stats")
 def get_memory_stats():

@@ -19,6 +19,8 @@ from ..tools.portfolio_tools import (
     get_portfolio_composition,
     calculate_portfolio_VaR,
     get_correlation_matrix,
+    # New real tools
+    calculate_ticker_risk_metrics,
     # Removed compliance-specific imports (now handled by Risk Manager if needed)
     # get_restricted_securities_list,
     # get_position_size_limits,
@@ -32,26 +34,32 @@ def risk_management_agent(state: dict):
     """
     The Risk Management Agent.
     """
-    portfolio = get_portfolio_composition()
-    volatility = get_market_volatility_index()
-    var = calculate_portfolio_VaR(portfolio)
-    correlation = get_correlation_matrix(portfolio)
+    ticker = state.get("ticker", "Unknown")
+    
+    # Use the real VIX
+    volatility_index = get_market_volatility_index()
+    
+    # Calculate real risk metrics for the specific ticker
+    ticker_risk = calculate_ticker_risk_metrics(ticker)
     
     # 1. Construct the prompt for the LLM
-    prompt = f"""Monitor and assess trading portfolio risk.
+    prompt = f"""Monitor and assess risk for ticker: {ticker}
 
 Data:
-Portfolio Composition: {portfolio}
-Market Volatility (VIX): {volatility}
-Portfolio VaR: {var}
-Asset Correlation Matrix: {correlation}
+Market Volatility (VIX): {volatility_index}
+Ticker Specific Risk Metrics: {ticker_risk}
+
+Your Task:
+1. Analyze the volatility and drawdown of {ticker}.
+2. Compare it against the market VIX context.
+3. Validate if the proposed trading strategy (if any) aligns with this risk profile.
 
 Provide:
-- Overall exposure to risk factors
-- Warnings if thresholds exceeded with corrective actions
-- Concise risk assessment
+- Risk Rating (LOW/MED/HIGH)
+- Max Recommended Position Size (conservative estimate based on volatility)
+- Specific Stop-Loss recommendation based on 1Y Max Drawdown or Volatility.
 
-Keep response under 250 words. Be conversational."""
+Keep response under 200 words. Be strict."""
     
     # 2. Call the LLM to generate the analysis
     analysis_report = call_llm(prompt)

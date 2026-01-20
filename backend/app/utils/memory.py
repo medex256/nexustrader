@@ -279,6 +279,31 @@ Strategy Action: {strategy.get('action', 'UNKNOWN')}
         successes.sort(key=lambda x: float(x['metadata'].get('profit_loss_pct', 0)), reverse=True)
         return successes[:n_results]
     
+    def get_all_analyses(
+        self,
+        limit: int = 20
+    ) -> List[Dict[str, Any]]:
+        """
+        Retrieve all past analyses sorted by most recent.
+        """
+        all_results = self.collection.get(
+            include=["documents", "metadatas"]
+        )
+        
+        analyses = []
+        if all_results['ids']:
+            for i, _id in enumerate(all_results['ids']):
+                analyses.append({
+                    "id": _id,
+                    "document": all_results['documents'][i],
+                    "metadata": all_results['metadatas'][i]
+                })
+        
+        # Sort by timestamp (descending)
+        # ID format is often TICKER_YYYYMMDD_HHMMSS
+        analyses.sort(key=lambda x: x['id'], reverse=True)
+        return analyses[:limit]
+
     def get_statistics(self) -> Dict[str, Any]:
         """
         Get memory statistics.
