@@ -55,6 +55,8 @@ def trading_strategy_synthesizer_agent(state: dict):
     # Get the investment plan from research manager
     investment_plan = state.get('investment_plan', '')
     ticker = state.get('ticker', 'Unknown')
+    horizon = state.get('horizon', 'short')
+    horizon_days = state.get('horizon_days', 10)
     
     # Fetch real-time price context
     try:
@@ -76,17 +78,20 @@ def trading_strategy_synthesizer_agent(state: dict):
     # 1. Construct the prompt for the LLM
     prompt = f"""Create an actionable trading strategy based on research analysis for {ticker}.
 
+TRADING HORIZON: {horizon.upper()} ({horizon_days} trading days)
+
 CONTEXT:
 Current Market Price: {current_price_str}
 Research Plan:
 {context}
 
 INSTRUCTIONS:
-1. Decide on a strategy: BUY, SELL, or HOLD.
+1. Decide on a strategy: BUY, SELL, or HOLD for the next {horizon_days} trading days.
 2. IF BUY/SELL: Set 'entry_price' CLOSE to the Current Market Price ({current_price_str}).
    - For LONG (Buy): Take Profit > Entry > Stop Loss.
    - For SHORT (Sell): Stop Loss > Entry > Take Profit.
 3. If the signal is weak or ambiguous, choose HOLD.
+4. Your recommendation is explicitly for a {horizon} horizon ({horizon_days} trading days).
 
 Return ONLY valid JSON (no commentary or Markdown) in this exact schema:
 {{

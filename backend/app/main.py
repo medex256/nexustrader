@@ -52,11 +52,19 @@ app.mount("/static/charts", StaticFiles(directory=charts_directory), name="chart
 app.mount("/demo", StaticFiles(directory=frontend_directory, html=True), name="frontend")
 
 
+# Horizon mapping: convert human-readable to trading days
+HORIZON_MAP = {
+    "short": 10,
+    "medium": 21,
+    "long": 126,
+}
+
 # Define the request body for the /analyze endpoint
 class AnalysisRequest(BaseModel):
     ticker: str
     market: str = "US"
     simulated_date: Optional[str] = None
+    horizon: str = "short"  # "short"|"medium"|"long"
     debate_on: bool = True
     memory_on: bool = True
     risk_on: bool = True
@@ -70,18 +78,25 @@ def analyze_ticker(request: AnalysisRequest):
     # Create the agent graph
     agent_graph = create_agent_graph(max_debate_rounds=1 if request.debate_on else 0)
 
+    # Resolve horizon to trading days
+    horizon_days = HORIZON_MAP.get(request.horizon.lower(), 10)
+    
     # Define the initial state from the request
     initial_state = {
         "ticker": request.ticker,
         "market": request.market,
         "run_config": {
             "simulated_date": request.simulated_date,
+            "horizon": request.horizon,
+            "horizon_days": horizon_days,
             "debate_on": request.debate_on,
             "memory_on": request.memory_on,
             "risk_on": request.risk_on,
             "social_on": request.social_on,
         },
         "simulated_date": request.simulated_date,
+        "horizon": request.horizon,
+        "horizon_days": horizon_days,
         "reports": {},
         "stock_chart_image": None,
         "sentiment_score": 0.0,
@@ -131,6 +146,7 @@ async def analyze_ticker_stream(
     ticker: str,
     market: str = "US",
     simulated_date: Optional[str] = None,
+    horizon: str = "short",
     debate_on: bool = True,
     memory_on: bool = True,
     risk_on: bool = True,
@@ -149,17 +165,24 @@ async def analyze_ticker_stream(
             # Create the agent graph
             agent_graph = create_agent_graph(max_debate_rounds=1 if debate_on else 0)
             
+            # Resolve horizon to trading days
+            horizon_days = HORIZON_MAP.get(horizon.lower(), 10)
+            
             initial_state = {
                 "ticker": ticker,
                 "market": market,
                 "run_config": {
                     "simulated_date": simulated_date,
+                    "horizon": horizon,
+                    "horizon_days": horizon_days,
                     "debate_on": debate_on,
                     "memory_on": memory_on,
                     "risk_on": risk_on,
                     "social_on": social_on,
                 },
                 "simulated_date": simulated_date,
+                "horizon": horizon,
+                "horizon_days": horizon_days,
                 "reports": {},
                 "stock_chart_image": None,
                 "sentiment_score": 0.0,

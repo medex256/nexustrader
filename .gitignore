@@ -2,3 +2,11 @@
 .env
 node_modules/
 package-lock.json
+
+# Experiment outputs (generated)
+experiments/results/raw/
+experiments/results/scored/
+
+# Keep curated report artifacts
+!experiments/results/paper/
+!experiments/results/paper/.gitkeep
