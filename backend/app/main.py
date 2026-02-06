@@ -112,29 +112,31 @@ def analyze_ticker(request: AnalysisRequest):
     print(f"Invoking the agent graph for {request.ticker}...")
     final_state = agent_graph.invoke(initial_state)
 
-    # Store analysis in memory for future learning
-    try:
-        memory = get_memory()
-        memory_id = memory.store_analysis(
-            ticker=request.ticker,
-            analysis_summary=f"Analysis completed for {request.ticker}",
-            bull_arguments=final_state.get('investment_debate_state', {}).get('bull_history', 'N/A'),
-            bear_arguments=final_state.get('investment_debate_state', {}).get('bear_history', 'N/A'),
-            final_decision=final_state.get('investment_plan', 'N/A'),
-            strategy=final_state.get('trading_strategy', {}),
-            metadata={
-                "market": request.market,
-                "simulated_date": request.simulated_date,
-                "debate_on": request.debate_on,
-                "memory_on": request.memory_on,
-                "risk_on": request.risk_on,
-                "social_on": request.social_on,
-            }
-        )
-        final_state['memory_id'] = memory_id
-        print(f"[MEMORY] Stored analysis with ID: {memory_id}")
-    except Exception as e:
-        print(f"[MEMORY] Warning: Could not store analysis: {str(e)}")
+    # Store analysis in memory for future learning (only when memory is enabled)
+    if request.memory_on:
+        try:
+            memory = get_memory()
+            memory_id = memory.store_analysis(
+                ticker=request.ticker,
+                analysis_summary=f"Analysis completed for {request.ticker}",
+                bull_arguments=final_state.get('investment_debate_state', {}).get('bull_history', 'N/A'),
+                bear_arguments=final_state.get('investment_debate_state', {}).get('bear_history', 'N/A'),
+                final_decision=final_state.get('investment_plan', 'N/A'),
+                strategy=final_state.get('trading_strategy', {}),
+                metadata={
+                    "market": request.market,
+                    "simulated_date": request.simulated_date,
+                    "horizon": request.horizon,
+                    "debate_on": request.debate_on,
+                    "memory_on": request.memory_on,
+                    "risk_on": request.risk_on,
+                    "social_on": request.social_on,
+                }
+            )
+            final_state['memory_id'] = memory_id
+            print(f"[MEMORY] Stored analysis with ID: {memory_id}")
+        except Exception as e:
+            print(f"[MEMORY] Warning: Could not store analysis: {str(e)}")
 
     # Print and return the final state
     print("\n--- Analysis Complete ---")
@@ -231,33 +233,35 @@ async def analyze_ticker_stream(
             
             final_state = current_state
 
-            # Store in memory
-            try:
-                # Create a clean version of state for storage (remove non-serializable objects if any)
-                # But here everything is dict/str, so json.dumps works.
-                final_state_json = json.dumps(final_state, default=str)
+            # Store in memory (only when memory is enabled)
+            if memory_on:
+                try:
+                    # Create a clean version of state for storage (remove non-serializable objects if any)
+                    # But here everything is dict/str, so json.dumps works.
+                    final_state_json = json.dumps(final_state, default=str)
 
-                memory = get_memory()
-                memory_id = memory.store_analysis(
-                    ticker=ticker,
-                    analysis_summary=f"Analysis completed for {ticker}",
-                    bull_arguments=final_state.get('investment_debate_state', {}).get('bull_history', 'N/A'),
-                    bear_arguments=final_state.get('investment_debate_state', {}).get('bear_history', 'N/A'),
-                    final_decision=final_state.get('investment_plan', 'N/A'),
-                    strategy=final_state.get('trading_strategy', {}),
-                    metadata={
-                        "market": market,
-                        "simulated_date": simulated_date,
-                        "debate_on": debate_on,
-                        "memory_on": memory_on,
-                        "risk_on": risk_on,
-                        "social_on": social_on,
-                    },
-                    final_state_json=final_state_json
-                )
-                final_state['memory_id'] = memory_id
-            except Exception as e:
-                print(f"[MEMORY] Warning: {str(e)}")
+                    memory = get_memory()
+                    memory_id = memory.store_analysis(
+                        ticker=ticker,
+                        analysis_summary=f"Analysis completed for {ticker}",
+                        bull_arguments=final_state.get('investment_debate_state', {}).get('bull_history', 'N/A'),
+                        bear_arguments=final_state.get('investment_debate_state', {}).get('bear_history', 'N/A'),
+                        final_decision=final_state.get('investment_plan', 'N/A'),
+                        strategy=final_state.get('trading_strategy', {}),
+                        metadata={
+                            "market": market,
+                            "simulated_date": simulated_date,
+                            "horizon": horizon,
+                            "debate_on": debate_on,
+                            "memory_on": memory_on,
+                            "risk_on": risk_on,
+                            "social_on": social_on,
+                        },
+                        final_state_json=final_state_json
+                    )
+                    final_state['memory_id'] = memory_id
+                except Exception as e:
+                    print(f"[MEMORY] Warning: {str(e)}")
             
             # Send final results
             event_data = json.dumps({'status': 'complete', 'result': final_state})
