@@ -8,6 +8,11 @@ from typing import Dict, Any, List, Optional, Tuple
 import pandas as pd
 import yfinance as yf
 
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+EXPERIMENTS_DIR = os.path.dirname(SCRIPT_DIR)
+DEFAULT_OUT_DIR = os.path.join(EXPERIMENTS_DIR, "results", "scored")
+
 # Horizon mapping (must match backend)
 HORIZON_MAP = {
     "short": 10,
@@ -62,7 +67,7 @@ def get_k_day_return(ticker: str, as_of: str, k: int) -> Optional[float]:
     return (exit_price - entry) / entry
 
 
-def score_action(action: str, k_return: Optional[float], hold_mode: str) -> Optional[int]:
+def score_action(action: str, k_return: Optional[float], hold_mode: str, epsilon: float) -> Optional[int]:
     if k_return is None:
         return None
 
@@ -72,6 +77,10 @@ def score_action(action: str, k_return: Optional[float], hold_mode: str) -> Opti
             return 0
         if hold_mode == "exclude":
             return None
+        if hold_mode == "neutral-band":
+            # HOLD is considered correct if the magnitude of the move is small.
+            # Example: epsilon=0.01 means HOLD is correct when |return| < 1%.
+            return 1 if abs(float(k_return)) < float(epsilon) else 0
 
     if action == "BUY":
         return 1 if k_return > 0 else 0
@@ -121,8 +130,19 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Score NexusTrader batch outputs.")
     parser.add_argument("--input", required=True, help="Path to batch JSONL output")
     parser.add_argument("--k", type=int, default=None, help="Forward horizon in trading days (overrides JSONL horizon if set)")
-    parser.add_argument("--hold", choices=["exclude", "zero"], default="exclude", help="How to score HOLD")
-    parser.add_argument("--out", default="nexustrader/experiments/results/scored", help="Output directory")
+    parser.add_argument(
+        "--hold",
+        choices=["exclude", "zero", "neutral-band"],
+        default="exclude",
+        help="How to score HOLD (neutral-band: HOLD is correct if |return| < epsilon)",
+    )
+    parser.add_argument(
+        "--epsilon",
+        type=float,
+        default=0.01,
+        help="Neutral band for HOLD when --hold neutral-band (e.g., 0.01 = 1%)",
+    )
+    parser.add_argument("--out", default=DEFAULT_OUT_DIR, help="Output directory")
     parser.add_argument("--tag", default="score", help="Tag to include in output filename")
 
     args = parser.parse_args()
@@ -152,7 +172,7 @@ def main() -> int:
             k = HORIZON_MAP.get(horizon_str.lower(), 10)
 
         k_return = get_k_day_return(ticker, simulated_date, k)
-        score = score_action(action, k_return, args.hold)
+        score = score_action(action, k_return, args.hold, args.epsilon)
 
         records.append({
             "ticker": ticker,
