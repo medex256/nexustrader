@@ -2,6 +2,7 @@
 import yfinance as yf
 import numpy as np
 import pandas as pd
+from datetime import datetime, timedelta
 
 def get_market_volatility_index():
     """
@@ -27,7 +28,7 @@ def get_portfolio_composition():
     """
     return "100% Cash (Simulated for Single Ticker Evaluation)"
 
-def calculate_ticker_risk_metrics(ticker: str):
+def calculate_ticker_risk_metrics(ticker: str, as_of: str = None):
     """
     Calculates specific risk metrics for the ticker using historical data:
     - Annualized Volatility
@@ -37,7 +38,16 @@ def calculate_ticker_risk_metrics(ticker: str):
     print(f"Calculating risk metrics for {ticker}...")
     try:
         stock = yf.Ticker(ticker)
-        hist = stock.history(period="1y")
+        if as_of:
+            try:
+                end_date = datetime.fromisoformat(as_of)
+            except ValueError:
+                end_date = datetime.fromisoformat(as_of.split("T")[0])
+
+            start_date = end_date - timedelta(days=365)
+            hist = stock.history(start=start_date, end=end_date + timedelta(days=1))
+        else:
+            hist = stock.history(period="1y")
         
         if hist.empty:
             return {"error": "No historical data found"}

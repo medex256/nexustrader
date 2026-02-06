@@ -6,16 +6,26 @@ import yfinance as yf
 import pandas_ta as ta
 import mplfinance as mpf
 import os
+from datetime import datetime, timedelta
 from ..utils.cache import cache_data
 
 @cache_data(ttl_seconds=3600)  # Cache for 1 hour
-def get_historical_price_data(ticker: str, period: str = "1y"):
+def get_historical_price_data(ticker: str, period: str = "1y", as_of: str = None):
     """
     Returns the historical price and volume data for the stock.
     """
     print(f"Fetching historical price data for {ticker}...")
     stock = yf.Ticker(ticker)
-    hist = stock.history(period=period)
+    if as_of:
+        try:
+            end_date = datetime.fromisoformat(as_of)
+        except ValueError:
+            end_date = datetime.fromisoformat(as_of.split("T")[0])
+
+        start_date = end_date - timedelta(days=365)
+        hist = stock.history(start=start_date, end=end_date + timedelta(days=1))
+    else:
+        hist = stock.history(period=period)
     return hist
 
 def calculate_technical_indicators(price_data):

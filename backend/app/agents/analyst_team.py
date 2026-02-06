@@ -57,7 +57,8 @@ def technical_analyst_agent(state: dict):
     ticker = state['ticker']
     
     # 1. Get the technical data using the tools
-    price_data = get_historical_price_data(ticker, "1y")
+    simulated_date = state.get("simulated_date") or state.get("run_config", {}).get("simulated_date")
+    price_data = get_historical_price_data(ticker, "1y", as_of=simulated_date)
     indicators = calculate_technical_indicators(price_data)
     
     # NOTE: Passive Chart generation removed.
@@ -120,7 +121,8 @@ def news_harvester_agent(state: dict):
     ticker = state['ticker']
     
     # 1. Get news with sentiment from Alpha Vantage
-    articles = search_news_alpha_vantage(ticker, limit=50)
+    simulated_date = state.get("simulated_date") or state.get("run_config", {}).get("simulated_date")
+    articles = search_news_alpha_vantage(ticker, limit=50, as_of=simulated_date, lookback_days=7)
     
     # 2. Store in shared context for other agents to reuse
     shared_context.set(f'news_articles_{ticker}', articles)

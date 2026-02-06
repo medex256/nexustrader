@@ -31,7 +31,8 @@ def bull_researcher_agent(state: dict):
     
     # Query memory for similar past situations (only on first round)
     memory_context = ""
-    if debate_state['count'] == 0:
+    run_config = state.get("run_config", {})
+    if debate_state['count'] == 0 and run_config.get("memory_on", True):
         try:
             memory = get_memory()
             
@@ -150,7 +151,8 @@ def bear_researcher_agent(state: dict):
     
     # Query memory for past mistakes (only on first response)
     memory_context = ""
-    if debate_state['count'] == 1:
+    run_config = state.get("run_config", {})
+    if debate_state['count'] == 1 and run_config.get("memory_on", True):
         try:
             memory = get_memory()
             

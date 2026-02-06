@@ -58,7 +58,8 @@ def trading_strategy_synthesizer_agent(state: dict):
     
     # Fetch real-time price context
     try:
-        risk_metrics = calculate_ticker_risk_metrics(ticker)
+        simulated_date = state.get("simulated_date") or state.get("run_config", {}).get("simulated_date")
+        risk_metrics = calculate_ticker_risk_metrics(ticker, as_of=simulated_date)
         current_price_str = risk_metrics.get("current_price", "Unknown") # e.g. "$135.50"
     except Exception:
         current_price_str = "Unknown"

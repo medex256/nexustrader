@@ -38,6 +38,13 @@ app.innerHTML = `
           <input id="tickerInput" placeholder="Enter ticker (e.g., TSLA, AAPL, NVDA)" />
           <button id="analyzeBtn">Analyze</button>
         </div>
+        <div class="input-row" style="gap:12px; flex-wrap:wrap; margin-top:10px;">
+          <label><input type="checkbox" id="debateToggle" checked /> Debate</label>
+          <label><input type="checkbox" id="memoryToggle" checked /> Memory</label>
+          <label><input type="checkbox" id="riskToggle" checked /> Risk Gate</label>
+          <label><input type="checkbox" id="socialToggle" /> Social</label>
+          <label>Simulated Date <input type="date" id="simDateInput" /></label>
+        </div>
         <p class="notice" style="margin-top: 8px;">Uses SSE for real‑time agent updates. Make sure the backend is running.</p>
       </section>
 
@@ -83,6 +90,11 @@ const historyResultsContainer = document.querySelector<HTMLDivElement>("#history
 
 const tickerInput = document.querySelector<HTMLInputElement>("#tickerInput")!;
 const analyzeBtn = document.querySelector<HTMLButtonElement>("#analyzeBtn")!;
+const debateToggle = document.querySelector<HTMLInputElement>("#debateToggle")!;
+const memoryToggle = document.querySelector<HTMLInputElement>("#memoryToggle")!;
+const riskToggle = document.querySelector<HTMLInputElement>("#riskToggle")!;
+const socialToggle = document.querySelector<HTMLInputElement>("#socialToggle")!;
+const simDateInput = document.querySelector<HTMLInputElement>("#simDateInput")!;
 const statusCard = document.querySelector<HTMLDivElement>("#statusCard")!;
 const resultsCard = document.querySelector<HTMLDivElement>("#resultsCard")!;
 const progressFill = document.querySelector<HTMLDivElement>("#progressFill")!;
@@ -282,7 +294,16 @@ function startAnalysis() {
   analyzeBtn.disabled = true;
   analyzeBtn.textContent = "Analyzing...";
 
-  eventSource = new EventSource(`${apiBaseUrl}/analyze/stream?ticker=${ticker}`);
+  const params = new URLSearchParams({ ticker });
+  if (simDateInput.value) {
+    params.set("simulated_date", simDateInput.value);
+  }
+  params.set("debate_on", debateToggle.checked ? "true" : "false");
+  params.set("memory_on", memoryToggle.checked ? "true" : "false");
+  params.set("risk_on", riskToggle.checked ? "true" : "false");
+  params.set("social_on", socialToggle.checked ? "true" : "false");
+
+  eventSource = new EventSource(`${apiBaseUrl}/analyze/stream?${params.toString()}`);
 
   eventSource.onmessage = (event) => {
     const data = JSON.parse(event.data);

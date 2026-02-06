@@ -23,12 +23,22 @@ class RiskDebateState(TypedDict):
     count: int  # Number of risk rounds completed
     final_decision: str  # Final risk assessment
 
+class RunConfig(TypedDict, total=False):
+    """Runtime configuration flags for ablations and evaluation modes."""
+    simulated_date: Optional[str]
+    debate_on: bool
+    memory_on: bool
+    risk_on: bool
+    social_on: bool
+
 class AgentState(TypedDict):
     """
     The state of the agent graph.
     """
     ticker: str
     market: str
+    run_config: RunConfig
+    simulated_date: Optional[str]
     reports: Dict[str, str]
     stock_chart_image: Any  # This could be a path to an image or image data
     sentiment_score: float

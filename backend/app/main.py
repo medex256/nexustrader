@@ -2,6 +2,7 @@
 import os
 import json
 import asyncio
+from typing import Optional
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
@@ -55,6 +56,11 @@ app.mount("/demo", StaticFiles(directory=frontend_directory, html=True), name="f
 class AnalysisRequest(BaseModel):
     ticker: str
     market: str = "US"
+    simulated_date: Optional[str] = None
+    debate_on: bool = True
+    memory_on: bool = True
+    risk_on: bool = True
+    social_on: bool = False
 
 @app.post("/analyze")
 def analyze_ticker(request: AnalysisRequest):
@@ -62,12 +68,20 @@ def analyze_ticker(request: AnalysisRequest):
     Runs the agent graph for a given stock ticker and returns the analysis.
     """
     # Create the agent graph
-    agent_graph = create_agent_graph()
+    agent_graph = create_agent_graph(max_debate_rounds=1 if request.debate_on else 0)
 
     # Define the initial state from the request
     initial_state = {
         "ticker": request.ticker,
         "market": request.market,
+        "run_config": {
+            "simulated_date": request.simulated_date,
+            "debate_on": request.debate_on,
+            "memory_on": request.memory_on,
+            "risk_on": request.risk_on,
+            "social_on": request.social_on,
+        },
+        "simulated_date": request.simulated_date,
         "reports": {},
         "stock_chart_image": None,
         "sentiment_score": 0.0,
@@ -93,7 +107,14 @@ def analyze_ticker(request: AnalysisRequest):
             bear_arguments=final_state.get('investment_debate_state', {}).get('bear_history', 'N/A'),
             final_decision=final_state.get('investment_plan', 'N/A'),
             strategy=final_state.get('trading_strategy', {}),
-            metadata={"market": request.market}
+            metadata={
+                "market": request.market,
+                "simulated_date": request.simulated_date,
+                "debate_on": request.debate_on,
+                "memory_on": request.memory_on,
+                "risk_on": request.risk_on,
+                "social_on": request.social_on,
+            }
         )
         final_state['memory_id'] = memory_id
         print(f"[MEMORY] Stored analysis with ID: {memory_id}")
@@ -106,7 +127,15 @@ def analyze_ticker(request: AnalysisRequest):
     return final_state
 
 @app.get("/analyze/stream")
-async def analyze_ticker_stream(ticker: str, market: str = "US"):
+async def analyze_ticker_stream(
+    ticker: str,
+    market: str = "US",
+    simulated_date: Optional[str] = None,
+    debate_on: bool = True,
+    memory_on: bool = True,
+    risk_on: bool = True,
+    social_on: bool = False,
+):
     """
     Runs the agent graph with real-time streaming updates via Server-Sent Events.
     """
@@ -118,11 +147,19 @@ async def analyze_ticker_stream(ticker: str, market: str = "US"):
             await asyncio.sleep(0.1)
             
             # Create the agent graph
-            agent_graph = create_agent_graph()
+            agent_graph = create_agent_graph(max_debate_rounds=1 if debate_on else 0)
             
             initial_state = {
                 "ticker": ticker,
                 "market": market,
+                "run_config": {
+                    "simulated_date": simulated_date,
+                    "debate_on": debate_on,
+                    "memory_on": memory_on,
+                    "risk_on": risk_on,
+                    "social_on": social_on,
+                },
+                "simulated_date": simulated_date,
                 "reports": {},
                 "stock_chart_image": None,
                 "sentiment_score": 0.0,
@@ -185,7 +222,14 @@ async def analyze_ticker_stream(ticker: str, market: str = "US"):
                     bear_arguments=final_state.get('investment_debate_state', {}).get('bear_history', 'N/A'),
                     final_decision=final_state.get('investment_plan', 'N/A'),
                     strategy=final_state.get('trading_strategy', {}),
-                    metadata={"market": market},
+                    metadata={
+                        "market": market,
+                        "simulated_date": simulated_date,
+                        "debate_on": debate_on,
+                        "memory_on": memory_on,
+                        "risk_on": risk_on,
+                        "social_on": social_on,
+                    },
                     final_state_json=final_state_json
                 )
                 final_state['memory_id'] = memory_id

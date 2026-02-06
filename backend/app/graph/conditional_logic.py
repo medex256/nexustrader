@@ -96,6 +96,18 @@ class ConditionalLogic:
         # Simple routing based on recommendation keywords
         if "buy" in investment_plan.lower() or "bullish" in investment_plan.lower():
             return "strategy_synthesizer"
+
+    def should_include_social(self, state: AgentState) -> str:
+        """
+        Decide whether to run social/sentiment analysis.
+
+        Returns:
+            Next node name: "sentiment_analyst" or "news_harvester"
+        """
+        run_config = state.get("run_config", {})
+        if run_config.get("social_on", False):
+            return "sentiment_analyst"
+        return "news_harvester"
         elif "sell" in investment_plan.lower() or "bearish" in investment_plan.lower():
             return "strategy_synthesizer"
         else:

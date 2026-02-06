@@ -74,7 +74,17 @@ def create_agent_graph(max_debate_rounds: int = 1):
 
     # Analyst team - linear flow
     graph.add_edge("fundamental_analyst", "technical_analyst")
-    graph.add_edge("technical_analyst", "sentiment_analyst")
+
+    # Conditionally include social sentiment
+    graph.add_conditional_edges(
+        "technical_analyst",
+        conditional_logic.should_include_social,
+        {
+            "sentiment_analyst": "sentiment_analyst",
+            "news_harvester": "news_harvester",
+        }
+    )
+
     graph.add_edge("sentiment_analyst", "news_harvester")
     
     # Connect analyst team to research team - start with bull researcher
