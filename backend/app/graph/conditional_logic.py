@@ -108,11 +108,6 @@ class ConditionalLogic:
         if run_config.get("social_on", False):
             return "sentiment_analyst"
         return "news_harvester"
-        elif "sell" in investment_plan.lower() or "bearish" in investment_plan.lower():
-            return "strategy_synthesizer"
-        else:
-            # HOLD scenario - might skip execution
-            return "strategy_synthesizer"
 
     def should_skip_compliance(self, state: AgentState) -> str:
         """
