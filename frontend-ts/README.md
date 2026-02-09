@@ -25,7 +25,8 @@ http://localhost:5173
 
 ## API Endpoints Used
 - `GET /analyze/stream?ticker=TSLA` (SSE)
-- `GET /api/chart/TSLA?period=6mo` (OHLCV JSON)
+- `GET /analyze/stream?ticker=TSLA&simulated_date=2024-01-03&horizon=medium` (historical + horizon)
+- `GET /api/chart/TSLA?period=6mo&as_of=2024-01-03` (OHLCV JSON as-of a date)
 
 ## Notes
 - If you change the backend URL, update `apiBaseUrl` in `src/main.ts`.

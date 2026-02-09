@@ -43,6 +43,14 @@ app.innerHTML = `
           <label><input type="checkbox" id="memoryToggle" checked /> Memory</label>
           <label><input type="checkbox" id="riskToggle" checked /> Risk Gate</label>
           <label><input type="checkbox" id="socialToggle" /> Social</label>
+          <label>
+            Horizon
+            <select id="horizonSelect">
+              <option value="short" selected>Short (10d)</option>
+              <option value="medium">Medium (21d)</option>
+              <option value="long">Long (126d)</option>
+            </select>
+          </label>
           <label>Simulated Date <input type="date" id="simDateInput" /></label>
         </div>
         <p class="notice" style="margin-top: 8px;">Uses SSE for real‑time agent updates. Make sure the backend is running.</p>
@@ -94,6 +102,7 @@ const debateToggle = document.querySelector<HTMLInputElement>("#debateToggle")!;
 const memoryToggle = document.querySelector<HTMLInputElement>("#memoryToggle")!;
 const riskToggle = document.querySelector<HTMLInputElement>("#riskToggle")!;
 const socialToggle = document.querySelector<HTMLInputElement>("#socialToggle")!;
+const horizonSelect = document.querySelector<HTMLSelectElement>("#horizonSelect")!;
 const simDateInput = document.querySelector<HTMLInputElement>("#simDateInput")!;
 const statusCard = document.querySelector<HTMLDivElement>("#statusCard")!;
 const resultsCard = document.querySelector<HTMLDivElement>("#resultsCard")!;
@@ -165,8 +174,10 @@ function showError(message: string) {
   resultsCard.innerHTML = `<p class="notice">⚠️ ${message}</p>`;
 }
 
-async function renderChart(ticker: string, container: HTMLElement) {
-  const response = await fetch(`${apiBaseUrl}/api/chart/${ticker}?period=6mo`);
+async function renderChart(ticker: string, container: HTMLElement, asOf?: string) {
+  const qs = new URLSearchParams({ period: "6mo" });
+  if (asOf) qs.set("as_of", asOf);
+  const response = await fetch(`${apiBaseUrl}/api/chart/${ticker}?${qs.toString()}`);
   const payload = await response.json();
 
   if (payload.status !== "success") {
@@ -219,12 +230,19 @@ function buildResults(result: any, ticker: string, container: HTMLElement = resu
   const investmentPlan = result?.investment_plan || "";
   const reports = result?.reports || {};
   const action = (tradingStrategy.action || "HOLD").toLowerCase();
+  const simulatedDate = result?.simulated_date || result?.run_config?.simulated_date || "";
+  const horizon = result?.horizon || result?.run_config?.horizon || "short";
+  const horizonDays = result?.horizon_days || result?.run_config?.horizon_days;
+  const newsProv = result?.provenance?.news;
 
   container.style.display = "block";
   container.innerHTML = `
     <div class="grid grid-2">
       <div>
         <h2 style="margin-bottom: 8px;">Results for ${ticker}</h2>
+        <div class="notice" style="margin: 8px 0 0;">
+          <strong>As-of:</strong> ${simulatedDate || "(live)"} • <strong>Horizon:</strong> ${horizon}${horizonDays ? ` (${horizonDays} trading days)` : ""}
+        </div>
         <div class="badge ${action}">
           ${action === "buy" ? "📈" : action === "sell" ? "📉" : "⏸️"}
           ${tradingStrategy.action || "HOLD"}
@@ -265,6 +283,27 @@ function buildResults(result: any, ticker: string, container: HTMLElement = resu
       <div>
         <div class="section-title">News Harvester</div>
         <div class="report prose">${marked.parse(reports.news_harvester || "No report.")}</div>
+        ${newsProv ? `
+          <div class="section-title" style="margin-top: 12px;">News provenance (debug)</div>
+          <div class="notice">
+            <div><strong>As-of:</strong> ${newsProv.as_of || "(live)"}</div>
+            <div><strong>Window:</strong> ${newsProv.window_start || "?"} → ${newsProv.window_end || "?"} (${newsProv.lookback_days ?? "?"}d)</div>
+            <div><strong>Articles:</strong> ${newsProv.article_count ?? 0} (showing ${Array.isArray(newsProv.articles) ? newsProv.articles.length : 0})</div>
+            <div><strong>Published range:</strong> ${newsProv.min_published || "?"} → ${newsProv.max_published || "?"}</div>
+          </div>
+          <div class="report prose" style="margin-top: 8px;">
+            <ul>
+              ${(Array.isArray(newsProv.articles) ? newsProv.articles : []).map((a: any) => {
+                const title = a?.title || "(untitled)";
+                const source = a?.source || "";
+                const published = a?.published || "";
+                const url = a?.url || "";
+                const label = a?.ticker_sentiment_label || "";
+                return `<li><strong>${published}</strong> — ${source} — [${label}] ${url ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a>` : title}</li>`;
+              }).join("")}
+            </ul>
+          </div>
+        ` : ""}
       </div>
     </div>
   `;
@@ -272,7 +311,7 @@ function buildResults(result: any, ticker: string, container: HTMLElement = resu
   // Find the chart container we just created
   const chartTarget = container.querySelector<HTMLDivElement>(".chart-target");
   if (chartTarget) {
-      renderChart(ticker, chartTarget).catch((err) => {
+      renderChart(ticker, chartTarget, simulatedDate || undefined).catch((err) => {
         console.error(err);
         chartTarget.innerHTML = `<p class="notice">Could not load chart: ${err.message}</p>`;
       });
@@ -298,6 +337,7 @@ function startAnalysis() {
   if (simDateInput.value) {
     params.set("simulated_date", simDateInput.value);
   }
+  params.set("horizon", horizonSelect.value);
   params.set("debate_on", debateToggle.checked ? "true" : "false");
   params.set("memory_on", memoryToggle.checked ? "true" : "false");
   params.set("risk_on", riskToggle.checked ? "true" : "false");

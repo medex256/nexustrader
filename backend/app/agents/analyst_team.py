@@ -122,12 +122,72 @@ def news_harvester_agent(state: dict):
     
     # 1. Get news with sentiment from Alpha Vantage
     simulated_date = state.get("simulated_date") or state.get("run_config", {}).get("simulated_date")
-    articles = search_news_alpha_vantage(ticker, limit=50, as_of=simulated_date, lookback_days=7)
+    lookback_days = 7
+    articles = search_news_alpha_vantage(ticker, limit=50, as_of=simulated_date, lookback_days=lookback_days)
     
     # 2. Store in shared context for other agents to reuse
     shared_context.set(f'news_articles_{ticker}', articles)
     
     print(f"[SHARED CONTEXT] News Harvester stored {len(articles)} news articles for {ticker}")
+
+    # 2.1 Provenance/debug block for UI verification (compact)
+    from datetime import datetime, timedelta
+
+    def _parse_av_time(value: str):
+        if not value:
+            return None
+        v = value.strip()
+        for fmt in ("%Y%m%dT%H%M%S", "%Y%m%dT%H%M"):
+            try:
+                return datetime.strptime(v, fmt)
+            except ValueError:
+                continue
+        return None
+
+    as_of_dt = None
+    if simulated_date:
+        try:
+            as_of_dt = datetime.fromisoformat(simulated_date)
+        except ValueError:
+            try:
+                as_of_dt = datetime.fromisoformat(simulated_date.split("T")[0])
+            except ValueError:
+                as_of_dt = None
+
+    window_start = (as_of_dt - timedelta(days=lookback_days)).date().isoformat() if as_of_dt else None
+    window_end = as_of_dt.date().isoformat() if as_of_dt else None
+
+    parsed_times = [t for t in (_parse_av_time(a.get("published", "")) for a in articles) if t is not None]
+    min_pub = min(parsed_times).isoformat() if parsed_times else None
+    max_pub = max(parsed_times).isoformat() if parsed_times else None
+
+    compact_articles = []
+    for a in articles[:10]:
+        compact_articles.append(
+            {
+                "title": a.get("title", ""),
+                "source": a.get("source", ""),
+                "published": a.get("published", ""),
+                "url": a.get("url", ""),
+                "ticker_sentiment_label": a.get("ticker_sentiment_label", ""),
+                "ticker_sentiment_score": a.get("ticker_sentiment_score", 0),
+                "relevance_score": a.get("relevance_score", 0),
+            }
+        )
+
+    if 'provenance' not in state:
+        state['provenance'] = {}
+    state['provenance']['news'] = {
+        'ticker': ticker,
+        'as_of': simulated_date,
+        'lookback_days': lookback_days,
+        'window_start': window_start,
+        'window_end': window_end,
+        'article_count': len(articles),
+        'min_published': min_pub,
+        'max_published': max_pub,
+        'articles': compact_articles,
+    }
     
     # 3. Format news with sentiment for LLM
     news_summary = f"News Analysis for {ticker} ({len(articles)} articles):\n\n"

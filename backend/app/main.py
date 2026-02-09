@@ -279,10 +279,10 @@ def read_root():
     return {"message": "Welcome to the NexusTrader API"}
 
 @app.get("/api/chart/{ticker}")
-def get_chart_data(ticker: str, period: str = "6mo"):
+def get_chart_data(ticker: str, period: str = "6mo", as_of: Optional[str] = None):
     """Return OHLCV data for frontend chart rendering."""
     try:
-        data = get_chart_data_json(ticker, period=period)
+        data = get_chart_data_json(ticker, period=period, as_of=as_of)
         return {"status": "success", "ticker": ticker, "data": data}
     except Exception as e:
         return {"status": "error", "message": str(e)}

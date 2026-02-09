@@ -77,13 +77,36 @@ def plot_stock_chart(price_data, ticker: str):
     return chart_file
 
 @cache_data(ttl_seconds=3600)
-def get_chart_data_json(ticker: str, period: str = "6mo"):
+def get_chart_data_json(ticker: str, period: str = "6mo", as_of: str = None):
     """
     Returns OHLCV data formatted for lightweight charting libraries.
     """
     print(f"Fetching chart data for {ticker}...")
     stock = yf.Ticker(ticker)
-    hist = stock.history(period=period)
+
+    if as_of:
+        try:
+            end_date = datetime.fromisoformat(as_of)
+        except ValueError:
+            end_date = datetime.fromisoformat(as_of.split("T")[0])
+
+        # Convert common yfinance period strings into a rough day window
+        p = (period or "6mo").strip().lower()
+        days = 180
+        try:
+            if p.endswith("d"):
+                days = int(p[:-1])
+            elif p.endswith("mo"):
+                days = int(p[:-2]) * 30
+            elif p.endswith("y"):
+                days = int(p[:-1]) * 365
+        except ValueError:
+            days = 180
+
+        start_date = end_date - timedelta(days=days)
+        hist = stock.history(start=start_date, end=end_date + timedelta(days=1))
+    else:
+        hist = stock.history(period=period)
     if hist.empty:
         return []
 
