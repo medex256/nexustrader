@@ -58,7 +58,8 @@ class FinancialMemory:
         final_decision: str,
         strategy: Dict[str, Any],
         metadata: Optional[Dict[str, Any]] = None,
-        final_state_json: Optional[str] = None
+        final_state_json: Optional[str] = None,
+        reports: Optional[Dict[str, str]] = None
     ) -> str:
         """
         Store a completed analysis in memory.
@@ -72,6 +73,7 @@ class FinancialMemory:
             strategy: Trading strategy details
             metadata: Additional metadata (market conditions, date, etc.)
             final_state_json: Full JSON string of the final state for frontend replay
+            reports: Dict of analyst reports (fundamental, technical, sentiment, news)
             
         Returns:
             Memory ID (string)
@@ -79,22 +81,50 @@ class FinancialMemory:
         # Create a unique ID
         memory_id = f"{ticker}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
         
-        # Combine text for embedding (this is what ChromaDB will search on)
+        # Extract analyst reports if provided
+        reports = reports or {}
+        fundamental = reports.get('fundamental_analyst', '')[:800] or 'N/A'
+        technical = reports.get('technical_analyst', '')[:800] or 'N/A'
+        sentiment = reports.get('sentiment_analyst', '')[:500] or 'N/A'
+        news = reports.get('news_harvester', '')[:500] or 'N/A'
+        
+        # Combine text for embedding with structured sections
+        # This provides rich context for similarity matching
         document_text = f"""
-Ticker: {ticker}
-Analysis Summary: {analysis_summary}
-Bull Arguments: {bull_arguments}
-Bear Arguments: {bear_arguments}
-Final Decision: {final_decision}
-Strategy Action: {strategy.get('action', 'UNKNOWN')}
+[TICKER] {ticker}
+
+[FUNDAMENTAL ANALYSIS]
+{fundamental}
+
+[TECHNICAL ANALYSIS]
+{technical}
+
+[SENTIMENT & NEWS]
+Sentiment: {sentiment}
+News: {news}
+
+[DEBATE SYNTHESIS]
+Bull Case: {bull_arguments[:800] if bull_arguments else 'N/A'}
+Bear Case: {bear_arguments[:800] if bear_arguments else 'N/A'}
+
+[FINAL DECISION]
+{final_decision[:500] if final_decision else 'N/A'}
+
+[STRATEGY]
+Action: {strategy.get('action', 'UNKNOWN')}
+Rationale: {strategy.get('rationale', 'N/A')[:400] if strategy.get('rationale') else 'N/A'}
 """
         
-        # Prepare metadata
+        # Extract key metrics from reports for structured filtering
+        # This enables future queries like "find analyses with RSI > 70"
         meta = {
             "ticker": ticker,
             "timestamp": datetime.now().isoformat(),
             "action": strategy.get('action', 'UNKNOWN'),
-            "entry_price": str(strategy.get('entry_price', 'N/A')),
+            "entry_price": str(strategy.get('entry_price') or 'N/A'),
+            "take_profit": str(strategy.get('take_profit') or 'N/A'),
+            "stop_loss": str(strategy.get('stop_loss') or 'N/A'),
+            "position_size_pct": str(strategy.get('position_size_pct', 0)),
             "outcome": "PENDING",  # Will be updated later
             "final_state_json": final_state_json or "", # Store full state for UI replay
             **(metadata or {})
@@ -195,10 +225,16 @@ Strategy Action: {strategy.get('action', 'UNKNOWN')}
         # Format results
         similar_analyses = []
         if results['ids'] and results['ids'][0]:
+            print(f"[MEMORY DEBUG] Raw query results:")
             for i in range(len(results['ids'][0])):
                 # ChromaDB uses distance, convert to similarity (1 - distance)
                 distance = results['distances'][0][i]
                 similarity = 1 - distance
+                
+                memory_id = results['ids'][0][i]
+                mem_ticker = results['metadatas'][0][i].get('ticker', 'N/A')
+                mem_action = results['metadatas'][0][i].get('action', 'N/A')
+                print(f"  [{i+1}] {memory_id} ({mem_ticker}, {mem_action}) - distance={distance:.4f}, similarity={similarity:.4f}")
                 
                 # Filter by minimum similarity
                 if similarity >= min_similarity:
@@ -210,7 +246,7 @@ Strategy Action: {strategy.get('action', 'UNKNOWN')}
                         "distance": distance  # Include raw distance for debugging
                     })
         
-        print(f"[MEMORY] Found {len(similar_analyses)} similar past analyses (from {count} total)")
+        print(f"[MEMORY] Found {len(similar_analyses)} similar past analyses (from {count} total) with similarity >= {min_similarity}")
         return similar_analyses
     
     def get_past_mistakes(

@@ -76,6 +76,25 @@ def trading_strategy_synthesizer_agent(state: dict):
         context = f"Research Manager's Investment Plan:\n{investment_plan}"
     
     # 1. Construct the prompt for the LLM
+    # Extract the Research Manager's action directive
+    investment_plan_lower = investment_plan.lower()
+    if "recommendation" in investment_plan_lower:
+        # Try to extract explicit recommendation
+        if "\nbuy\n" in investment_plan_lower or "recommendation\nbuy" in investment_plan_lower or "recommendation: buy" in investment_plan_lower:
+            manager_action = "BUY"
+        elif "\nsell\n" in investment_plan_lower or "recommendation\nsell" in investment_plan_lower or "recommendation: sell" in investment_plan_lower:
+            manager_action = "SELL"
+        elif "\nhold\n" in investment_plan_lower or "recommendation\nhold" in investment_plan_lower or "recommendation: hold" in investment_plan_lower:
+            manager_action = "HOLD"
+        else:
+            manager_action = None
+    else:
+        manager_action = None
+    
+    action_constraint = ""
+    if manager_action:
+        action_constraint = f"\n\n⚠️ CRITICAL: The Research Manager has recommended {manager_action}. You MUST set 'action' to '{manager_action}' unless there are extreme execution impossibilities (e.g., no liquidity, circuit breaker). Your role is to translate the strategic decision into tactical parameters (entry, stop, take profit, position size), NOT to override the strategic decision.\n"
+    
     prompt = f"""Create an actionable trading strategy based on research analysis for {ticker}.
 
 TRADING HORIZON: {horizon.upper()} ({horizon_days} trading days)
@@ -84,7 +103,7 @@ CONTEXT:
 Current Market Price: {current_price_str}
 Research Plan:
 {context}
-
+{action_constraint}
 INSTRUCTIONS:
 1. Decide on a strategy: BUY, SELL, or HOLD for the next {horizon_days} trading days.
 2. IF BUY/SELL: Set 'entry_price' CLOSE to the Current Market Price ({current_price_str}).

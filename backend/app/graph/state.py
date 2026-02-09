@@ -28,7 +28,7 @@ class RunConfig(TypedDict, total=False):
     simulated_date: Optional[str]
     horizon: str  # "short"|"medium"|"long"
     horizon_days: int  # 10|21|126
-    debate_on: bool
+    debate_rounds: int  # 0|1|2
     memory_on: bool
     risk_on: bool
     social_on: bool

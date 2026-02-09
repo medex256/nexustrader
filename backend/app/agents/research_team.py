@@ -36,20 +36,28 @@ def bull_researcher_agent(state: dict):
         try:
             memory = get_memory()
             
-            # Build situation description from reports
+            # Build comprehensive situation description matching storage format
+            # Use same structure as stored documents for better semantic matching
             situation_desc = f"""
-Ticker: {ticker}
-Fundamental Analysis: {reports.get('fundamental_analyst', 'N/A')[:500]}
-Technical Analysis: {reports.get('technical_analyst', 'N/A')[:500]}
-Sentiment: {reports.get('sentiment_analyst', 'N/A')[:300]}
+[TICKER] {ticker}
+
+[FUNDAMENTAL ANALYSIS]
+{reports.get('fundamental_analyst', 'N/A')[:800]}
+
+[TECHNICAL ANALYSIS]
+{reports.get('technical_analyst', 'N/A')[:800]}
+
+[SENTIMENT & NEWS]
+Sentiment: {reports.get('sentiment_analyst', 'N/A')[:500]}
+News: {reports.get('news_harvester', 'N/A')[:500]}
 """
             
             # Get similar past analyses
             similar = memory.get_similar_past_analyses(
                 current_situation=situation_desc,
-                ticker=None,  # Don't filter by ticker - learn from all stocks
-                n_results=2,
-                min_similarity=0.3
+                ticker=ticker,  # Filter by same ticker for more relevant matches
+                n_results=3,  # Increased to get more context
+                min_similarity=0.15  # Lowered to account for ChromaDB's conservative similarity scores
             )
             
             if similar:

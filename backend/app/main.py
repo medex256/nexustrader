@@ -135,7 +135,8 @@ def analyze_ticker(request: AnalysisRequest):
                     "risk_on": request.risk_on,
                     "social_on": request.social_on,
                     "analysis_time_seconds": final_state.get('analysis_time_seconds'),
-                }
+                },
+                reports=final_state.get('reports', {})
             )
             final_state['memory_id'] = memory_id
             print(f"[MEMORY] Stored analysis with ID: {memory_id}")
@@ -263,16 +264,21 @@ async def analyze_ticker_stream(
                             "market": market,
                             "simulated_date": simulated_date,
                             "horizon": horizon,
-                            "debate_on": debate_on,
+                            "debate_rounds": debate_rounds,
                             "memory_on": memory_on,
                             "risk_on": risk_on,
                             "social_on": social_on,
                         },
-                        final_state_json=final_state_json
+                        final_state_json=final_state_json,
+                        reports=final_state.get('reports', {})
                     )
                     final_state['memory_id'] = memory_id
                 except Exception as e:
                     print(f"[MEMORY] Warning: {str(e)}")
+            
+            # Add analysis time
+            elapsed_time = time.time() - start_time
+            final_state['analysis_time_seconds'] = round(elapsed_time, 2)
             
             # Send final results
             event_data = json.dumps({'status': 'complete', 'result': final_state})

@@ -122,6 +122,13 @@ const progressFill = document.querySelector<HTMLDivElement>("#progressFill")!;
 const agentList = document.querySelector<HTMLDivElement>("#agentList")!;
 const logContent = document.querySelector<HTMLDivElement>("#logContent")!;
 
+// Set default date to today
+const today = new Date();
+const yyyy = today.getFullYear();
+const mm = String(today.getMonth() + 1).padStart(2, '0');
+const dd = String(today.getDate()).padStart(2, '0');
+simDateInput.value = `${yyyy}-${mm}-${dd}`;
+
 let eventSource: EventSource | null = null;
 let chart: IChartApi | null = null;
 
