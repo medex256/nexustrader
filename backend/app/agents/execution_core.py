@@ -125,6 +125,13 @@ Keep response under 200 words."""
             "position_size_pct": 0,
             "rationale": f"Fallback due to parse/validation error: {exc}. Raw response: {strategy_response}",
         }
+
+    # Normalize HOLD to avoid misleading price fields
+    if (strategy.get("action") or "").upper() == "HOLD":
+        strategy["entry_price"] = None
+        strategy["take_profit"] = None
+        strategy["stop_loss"] = None
+        strategy["position_size_pct"] = 0
     
     # 4. Update the state
     state['trading_strategy'] = strategy

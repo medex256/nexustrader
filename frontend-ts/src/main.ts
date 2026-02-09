@@ -39,10 +39,19 @@ app.innerHTML = `
           <button id="analyzeBtn">Analyze</button>
         </div>
         <div class="input-row" style="gap:12px; flex-wrap:wrap; margin-top:10px;">
-          <label><input type="checkbox" id="debateToggle" checked /> Debate</label>
-          <label><input type="checkbox" id="memoryToggle" checked /> Memory</label>
-          <label><input type="checkbox" id="riskToggle" checked /> Risk Gate</label>
-          <label><input type="checkbox" id="socialToggle" /> Social</label>
+          <label>
+            Debate Rounds
+            <select id="debateRoundsSelect">
+              <option value="0">0 (No Debate)</option>
+              <option value="1" selected>1 (Default)</option>
+              <option value="2">2 (Extended)</option>
+            </select>
+          </label>
+          <div class="toggle-group">
+            <label class="toggle"><input type="checkbox" id="memoryToggle" checked /> <span>Memory</span></label>
+            <label class="toggle"><input type="checkbox" id="riskToggle" checked /> <span>Risk Gate</span></label>
+            <label class="toggle"><input type="checkbox" id="socialToggle" /> <span>Social</span></label>
+          </div>
           <label>
             Horizon
             <select id="horizonSelect">
@@ -51,7 +60,10 @@ app.innerHTML = `
               <option value="long">Long (126d)</option>
             </select>
           </label>
-          <label>Simulated Date <input type="date" id="simDateInput" /></label>
+          <label>
+            Simulated Date
+            <input type="date" id="simDateInput" />
+          </label>
         </div>
         <p class="notice" style="margin-top: 8px;">Uses SSE for real‑time agent updates. Make sure the backend is running.</p>
       </section>
@@ -98,7 +110,7 @@ const historyResultsContainer = document.querySelector<HTMLDivElement>("#history
 
 const tickerInput = document.querySelector<HTMLInputElement>("#tickerInput")!;
 const analyzeBtn = document.querySelector<HTMLButtonElement>("#analyzeBtn")!;
-const debateToggle = document.querySelector<HTMLInputElement>("#debateToggle")!;
+const debateRoundsSelect = document.querySelector<HTMLSelectElement>("#debateRoundsSelect")!;
 const memoryToggle = document.querySelector<HTMLInputElement>("#memoryToggle")!;
 const riskToggle = document.querySelector<HTMLInputElement>("#riskToggle")!;
 const socialToggle = document.querySelector<HTMLInputElement>("#socialToggle")!;
@@ -234,6 +246,7 @@ function buildResults(result: any, ticker: string, container: HTMLElement = resu
   const horizon = result?.horizon || result?.run_config?.horizon || "short";
   const horizonDays = result?.horizon_days || result?.run_config?.horizon_days;
   const newsProv = result?.provenance?.news;
+  const analysisTime = result?.analysis_time_seconds;
   
   // Debug: log provenance data
   console.log("[DEBUG] Full result object:", result);
@@ -246,6 +259,7 @@ function buildResults(result: any, ticker: string, container: HTMLElement = resu
         <h2 style="margin-bottom: 8px;">Results for ${ticker}</h2>
         <div class="notice" style="margin: 8px 0 0;">
           <strong>As-of:</strong> ${simulatedDate || "(live)"} • <strong>Horizon:</strong> ${horizon}${horizonDays ? ` (${horizonDays} trading days)` : ""}
+          ${analysisTime ? `<br/><strong>Analysis Time:</strong> ${analysisTime}s` : ""}
         </div>
         <div class="badge ${action}">
           ${action === "buy" ? "📈" : action === "sell" ? "📉" : "⏸️"}
@@ -342,7 +356,7 @@ function startAnalysis() {
     params.set("simulated_date", simDateInput.value);
   }
   params.set("horizon", horizonSelect.value);
-  params.set("debate_on", debateToggle.checked ? "true" : "false");
+  params.set("debate_rounds", debateRoundsSelect.value);
   params.set("memory_on", memoryToggle.checked ? "true" : "false");
   params.set("risk_on", riskToggle.checked ? "true" : "false");
   params.set("social_on", socialToggle.checked ? "true" : "false");

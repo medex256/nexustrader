@@ -65,7 +65,7 @@ class AnalysisRequest(BaseModel):
     market: str = "US"
     simulated_date: Optional[str] = None
     horizon: str = "short"  # "short"|"medium"|"long"
-    debate_on: bool = True
+    debate_rounds: int = 1  # 0 | 1 | 2
     memory_on: bool = True
     risk_on: bool = True
     social_on: bool = False
@@ -75,8 +75,11 @@ def analyze_ticker(request: AnalysisRequest):
     """
     Runs the agent graph for a given stock ticker and returns the analysis.
     """
+    import time
+    start_time = time.time()
+    
     # Create the agent graph
-    agent_graph = create_agent_graph(max_debate_rounds=1 if request.debate_on else 0)
+    agent_graph = create_agent_graph(max_debate_rounds=request.debate_rounds)
 
     # Resolve horizon to trading days
     horizon_days = HORIZON_MAP.get(request.horizon.lower(), 10)
@@ -89,7 +92,7 @@ def analyze_ticker(request: AnalysisRequest):
             "simulated_date": request.simulated_date,
             "horizon": request.horizon,
             "horizon_days": horizon_days,
-            "debate_on": request.debate_on,
+            "debate_rounds": request.debate_rounds,
             "memory_on": request.memory_on,
             "risk_on": request.risk_on,
             "social_on": request.social_on,
@@ -127,10 +130,11 @@ def analyze_ticker(request: AnalysisRequest):
                     "market": request.market,
                     "simulated_date": request.simulated_date,
                     "horizon": request.horizon,
-                    "debate_on": request.debate_on,
+                    "debate_rounds": request.debate_rounds,
                     "memory_on": request.memory_on,
                     "risk_on": request.risk_on,
                     "social_on": request.social_on,
+                    "analysis_time_seconds": final_state.get('analysis_time_seconds'),
                 }
             )
             final_state['memory_id'] = memory_id
@@ -138,8 +142,12 @@ def analyze_ticker(request: AnalysisRequest):
         except Exception as e:
             print(f"[MEMORY] Warning: Could not store analysis: {str(e)}")
 
+    # Record timing
+    elapsed_time = time.time() - start_time
+    final_state['analysis_time_seconds'] = round(elapsed_time, 2)
+    print(f"\n--- Analysis Complete ({elapsed_time:.2f}s) ---")
+    
     # Print and return the final state
-    print("\n--- Analysis Complete ---")
     print(final_state)
     return final_state
 
@@ -149,7 +157,7 @@ async def analyze_ticker_stream(
     market: str = "US",
     simulated_date: Optional[str] = None,
     horizon: str = "short",
-    debate_on: bool = True,
+    debate_rounds: int = 1,
     memory_on: bool = True,
     risk_on: bool = True,
     social_on: bool = False,
@@ -159,13 +167,16 @@ async def analyze_ticker_stream(
     """
     async def event_generator():
         try:
+            import time
+            start_time = time.time()
+            
             # Send initial status
             event_data = json.dumps({'status': 'started', 'message': f'Starting analysis for {ticker}...'})
             yield f"data: {event_data}\n\n"
             await asyncio.sleep(0.1)
             
             # Create the agent graph
-            agent_graph = create_agent_graph(max_debate_rounds=1 if debate_on else 0)
+            agent_graph = create_agent_graph(max_debate_rounds=debate_rounds)
             
             # Resolve horizon to trading days
             horizon_days = HORIZON_MAP.get(horizon.lower(), 10)
@@ -177,7 +188,7 @@ async def analyze_ticker_stream(
                     "simulated_date": simulated_date,
                     "horizon": horizon,
                     "horizon_days": horizon_days,
-                    "debate_on": debate_on,
+                    "debate_rounds": debate_rounds,
                     "memory_on": memory_on,
                     "risk_on": risk_on,
                     "social_on": social_on,

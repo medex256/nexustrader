@@ -25,9 +25,14 @@ def invoke_llm(prompt: str, max_retries: int = 3) -> str:
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel('gemini-2.5-flash')
     
+    # Configure generation with temperature for consistency
+    generation_config = genai.types.GenerationConfig(
+        temperature=0.7,  # Balance creativity and consistency
+    )
+    
     for attempt in range(max_retries + 1):
         try:
-            response = model.generate_content(prompt)
+            response = model.generate_content(prompt, generation_config=generation_config)
             
             # Check if response has valid text
             if hasattr(response, 'text') and response.text:
