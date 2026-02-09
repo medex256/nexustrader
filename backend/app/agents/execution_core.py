@@ -90,7 +90,10 @@ INSTRUCTIONS:
 2. IF BUY/SELL: Set 'entry_price' CLOSE to the Current Market Price ({current_price_str}).
    - For LONG (Buy): Take Profit > Entry > Stop Loss.
    - For SHORT (Sell): Stop Loss > Entry > Take Profit.
-3. If the signal is weak or ambiguous, choose HOLD.
+3. HOLD is allowed, but only if BOTH are true:
+    - The evidence is genuinely mixed/insufficient to choose direction, AND
+    - You can state at least two concrete blockers (e.g., conflicting signals, missing key info, imminent event risk).
+    If there is a slight edge but uncertainty remains, prefer BUY/SELL with a SMALLER position_size_pct (e.g., 5–15) rather than HOLD.
 4. Your recommendation is explicitly for a {horizon} horizon ({horizon_days} trading days).
 
 Return ONLY valid JSON (no commentary or Markdown) in this exact schema:

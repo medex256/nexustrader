@@ -262,6 +262,11 @@ def research_manager_agent(state: dict):
     # 1. Construct the prompt for the LLM
     prompt = f"""As the portfolio manager, evaluate this debate and make a definitive decision: Buy, Sell, or Hold.
 
+Decision rule:
+- Default to BUY or SELL when there is any directional edge.
+- Use HOLD only if you can name at least two specific unresolved blockers that materially prevent a directional call.
+- If uncertainty is moderate, recommend a smaller / phased execution approach rather than HOLD.
+
 Analysis Reports:
 {reports}
 
