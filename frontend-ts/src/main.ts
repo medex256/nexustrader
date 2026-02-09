@@ -234,6 +234,10 @@ function buildResults(result: any, ticker: string, container: HTMLElement = resu
   const horizon = result?.horizon || result?.run_config?.horizon || "short";
   const horizonDays = result?.horizon_days || result?.run_config?.horizon_days;
   const newsProv = result?.provenance?.news;
+  
+  // Debug: log provenance data
+  console.log("[DEBUG] Full result object:", result);
+  console.log("[DEBUG] News provenance:", newsProv);
 
   container.style.display = "block";
   container.innerHTML = `

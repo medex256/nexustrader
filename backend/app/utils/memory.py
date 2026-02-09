@@ -27,10 +27,15 @@ class FinancialMemory:
             collection_name: Name of the collection for storing memories
         """
         # Create ChromaDB client with persistence
-        self.client = chromadb.Client(Settings(
-            persist_directory=persist_directory,
-            anonymized_telemetry=False
-        ))
+        try:
+            # New ChromaDB (0.4+)
+            self.client = chromadb.PersistentClient(path=persist_directory)
+        except AttributeError:
+            # Old ChromaDB (<0.4)
+            self.client = chromadb.Client(Settings(
+                persist_directory=persist_directory,
+                anonymized_telemetry=False
+            ))
         
         # Get or create collection
         # Using default embedding function (all-MiniLM-L6-v2) - no API needed!

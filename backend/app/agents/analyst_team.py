@@ -121,8 +121,16 @@ def news_harvester_agent(state: dict):
     ticker = state['ticker']
     
     # 1. Get news with sentiment from Alpha Vantage
+    # Use horizon-based lookback: short=7d, medium=14d, long=30d
+    HORIZON_LOOKBACK = {
+        'short': 7,
+        'medium': 14,
+        'long': 30,
+    }
     simulated_date = state.get("simulated_date") or state.get("run_config", {}).get("simulated_date")
-    lookback_days = 7
+    horizon = state.get("horizon") or state.get("run_config", {}).get("horizon", "short")
+    lookback_days = HORIZON_LOOKBACK.get(horizon.lower(), 7)
+    
     articles = search_news_alpha_vantage(ticker, limit=50, as_of=simulated_date, lookback_days=lookback_days)
     
     # 2. Store in shared context for other agents to reuse
@@ -188,6 +196,8 @@ def news_harvester_agent(state: dict):
         'max_published': max_pub,
         'articles': compact_articles,
     }
+    
+    print(f"[NEWS PROVENANCE] Added to state: as_of={simulated_date}, horizon={horizon}, lookback={lookback_days}d, window={window_start} to {window_end}, articles={len(articles)}, published range={min_pub} to {max_pub}")
     
     # 3. Format news with sentiment for LLM
     news_summary = f"News Analysis for {ticker} ({len(articles)} articles):\n\n"

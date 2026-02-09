@@ -63,3 +63,6 @@ class AgentState(TypedDict):
     risk_reports: Dict[str, str]
     compliance_check: Dict[str, Any]
     proposed_trade: Dict[str, Any]
+    
+    # Debug/Verification metadata
+    provenance: Optional[Dict[str, Any]]  # News timestamps, chart as-of, etc.
