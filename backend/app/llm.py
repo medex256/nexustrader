@@ -23,7 +23,7 @@ def invoke_llm(prompt: str, max_retries: int = 3) -> str:
         return "Error: GOOGLE_API_KEY not found in environment variables."
     
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel('gemini-2.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-flash-lite')
     
     # Configure generation with temperature for consistency
     generation_config = genai.types.GenerationConfig(

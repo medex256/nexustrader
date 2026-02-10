@@ -11,6 +11,7 @@ from pydantic import BaseModel
 from .graph.agent_graph import create_agent_graph
 from .utils.memory import initialize_memory, get_memory
 from .tools.technical_analysis_tools import get_chart_data_json
+from .baselines.strategies import get_baseline
 
 # Create the FastAPI app
 app = FastAPI(
@@ -373,3 +374,30 @@ def update_analysis_outcome(update: OutcomeUpdate):
         return {"status": "success", "message": f"Updated outcome for {update.memory_id}"}
     except Exception as e:
         return {"status": "error", "message": str(e)}
+
+# --- Baseline Strategy Endpoint ---
+class BaselineRequest(BaseModel):
+    ticker: str
+    baseline: str  # 'buy_hold', 'sma', 'rsi', 'random'
+    simulated_date: Optional[str] = None
+
+@app.post("/baseline")
+def run_baseline(request: BaselineRequest):
+    """
+    Run a non-agentic baseline strategy.
+    
+    Args:
+        ticker: Stock ticker
+        baseline: One of 'buy_hold', 'sma', 'rsi', 'random'
+        simulated_date: Optional date for backtesting (YYYY-MM-DD)
+    
+    Returns:
+        Result matching NexusTrader output schema
+    """
+    try:
+        strategy = get_baseline(request.baseline)
+        result = strategy.generate_signal(request.ticker, request.simulated_date)
+        return result
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
+

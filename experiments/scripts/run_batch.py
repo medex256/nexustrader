@@ -93,13 +93,13 @@ def compact_result(full: Dict[str, Any], truncate_chars: int = 400) -> Dict[str,
     return compact
 
 
-def build_payload(ticker: str, market: str, simulated_date: str, horizon: str, flags: Dict[str, bool]) -> Dict[str, Any]:
+def build_payload(ticker: str, market: str, simulated_date: str, horizon: str, flags: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "ticker": ticker,
         "market": market,
         "simulated_date": simulated_date,
         "horizon": horizon,
-        "debate_on": flags.get("debate_on", True),
+        "debate_rounds": flags.get("debate_rounds", 1),
         "memory_on": flags.get("memory_on", True),
         "risk_on": flags.get("risk_on", True),
         "social_on": flags.get("social_on", False),
@@ -140,7 +140,7 @@ def _run_single(
     simulated_date: str,
     market: str,
     horizon: str,
-    flags: Dict[str, bool],
+    flags: Dict[str, Any],
     output_mode: Literal["full", "compact"],
     truncate_chars: int,
 ) -> Dict[str, Any]:
@@ -186,7 +186,7 @@ def run_batch(
     dates: List[str],
     market: str,
     horizons: List[str],
-    flags: Dict[str, bool],
+    flags: Dict[str, Any],
     out_dir: str,
     tag: str,
     output_mode: Literal["full", "compact"] = "compact",
@@ -272,8 +272,7 @@ def main() -> int:
         default="",
         help="Comma-separated horizons to run in one batch (e.g., short,medium,long) or 'all'",
     )
-    parser.add_argument("--debate-on", action="store_true", default=True)
-    parser.add_argument("--debate-off", action="store_false", dest="debate_on")
+    parser.add_argument("--debate-rounds", type=int, default=1, help="Number of debate rounds (0, 1, or 2)")
     parser.add_argument("--memory-on", action="store_true", default=True)
     parser.add_argument("--memory-off", action="store_false", dest="memory_on")
     parser.add_argument("--risk-on", action="store_true", default=True)
@@ -320,7 +319,7 @@ def main() -> int:
         return 1
 
     flags = {
-        "debate_on": args.debate_on,
+        "debate_rounds": args.debate_rounds,
         "memory_on": args.memory_on,
         "risk_on": args.risk_on,
         "social_on": args.social_on,
