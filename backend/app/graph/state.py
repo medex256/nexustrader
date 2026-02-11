@@ -17,11 +17,15 @@ class InvestDebateState(TypedDict):
 class RiskDebateState(TypedDict):
     """
     State for tracking the risk management debate.
+    Updated Feb 11, 2026 for 3-way debate (aggressive/conservative/neutral).
     """
     history: str  # Full risk debate transcript
-    latest_speaker: str  # Last speaker (Risky/Safe/Neutral)
-    count: int  # Number of risk rounds completed
-    final_decision: str  # Final risk assessment
+    aggressive_history: str  # Aggressive analyst's arguments
+    conservative_history: str  # Conservative analyst's arguments
+    neutral_history: str  # Neutral analyst's arguments
+    latest_speaker: str  # Last speaker (Aggressive/Conservative/Neutral)
+    count: int  # Number of risk exchanges completed
+    final_decision: str  # Final risk assessment (optional)
 
 class RunConfig(TypedDict, total=False):
     """Runtime configuration flags for ablations and evaluation modes."""

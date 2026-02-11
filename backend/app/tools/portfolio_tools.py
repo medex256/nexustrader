@@ -3,12 +3,15 @@ import yfinance as yf
 import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
+from functools import lru_cache
 
+@lru_cache(maxsize=1)
 def get_market_volatility_index():
     """
     Returns the current value of the VIX (Market Volatility Index).
+    Cached to avoid redundant API calls during a single analysis run.
     """
-    print("Fetching market volatility index (VIX)...")
+    print("[CACHE MISS] Fetching market volatility index (VIX)...")
     try:
         vix = yf.Ticker("^VIX")
         hist = vix.history(period="1d")

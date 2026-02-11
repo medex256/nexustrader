@@ -79,8 +79,11 @@ def analyze_ticker(request: AnalysisRequest):
     import time
     start_time = time.time()
     
-    # Create the agent graph
-    agent_graph = create_agent_graph(max_debate_rounds=request.debate_rounds)
+    # Create the agent graph with risk debate enabled
+    agent_graph = create_agent_graph(
+        max_debate_rounds=request.debate_rounds,
+        max_risk_debate_rounds=1  # 1 round = 3 exchanges (aggressive/conservative/neutral)
+    )
 
     # Resolve horizon to trading days
     horizon_days = HORIZON_MAP.get(request.horizon.lower(), 10)
@@ -177,8 +180,11 @@ async def analyze_ticker_stream(
             yield f"data: {event_data}\n\n"
             await asyncio.sleep(0.1)
             
-            # Create the agent graph
-            agent_graph = create_agent_graph(max_debate_rounds=debate_rounds)
+            # Create the agent graph with risk debate enabled
+            agent_graph = create_agent_graph(
+                max_debate_rounds=debate_rounds,
+                max_risk_debate_rounds=1  # 1 round = 3 exchanges (aggressive/conservative/neutral)
+            )
             
             # Resolve horizon to trading days
             horizon_days = HORIZON_MAP.get(horizon.lower(), 10)

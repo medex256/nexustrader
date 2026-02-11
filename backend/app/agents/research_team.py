@@ -81,13 +81,19 @@ Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
     
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 0:
-        # First round - opening argument
-        prompt = f"""You are a Bull Analyst advocating for investing in {ticker}. Build a strong, evidence-based case emphasizing growth potential, competitive advantages, and positive indicators.
+        # First round - opening argument with cross-examination prep
+        prompt = f"""You are a Bull Analyst advocating for investing in {ticker}. Build a strong, evidence-based case that anticipates and pre-empts bearish counterarguments.
+
+**CROSS-EXAMINATION RULES:**
+1. Support EVERY claim with specific data (numbers, dates, sources)
+2. Anticipate the Bear's likely objections (valuation concerns, risks) and address them proactively
+3. Use comparative analysis (vs peers, vs historical averages) to strengthen your case
+4. Prepare to defend your key claims with evidence in next round
 
 Focus on:
-- Growth catalysts and revenue opportunities
-- Competitive advantages and market positioning
-- Financial health and positive trends
+- Growth catalysts and revenue opportunities (with specific metrics)
+- Competitive advantages and market positioning (backed by numbers)
+- Financial health and positive trends (actual data)
 {f"- Learn from past analyses - what worked and what didn't" if memory_context else ""}
 
 Analysis Reports:
@@ -96,15 +102,23 @@ Analysis Reports:
 
 FORMAT: Use Markdown headers and bullet points.
 Structure:
-- **Core Thesis**: The primary reason to buy.
-- **Key Catalysts**: 2-3 specific growth drivers.
-- **Financial Strength**: Strongest metrics supporting the case.
+- **Core Thesis**: The primary reason to buy (with 2-3 data points).
+- **Key Catalysts**: 2-3 specific growth drivers (quantified when possible).
+- **Financial Strength**: Strongest metrics supporting the case (actual numbers).
+- **Pre-emptive Defense**: Acknowledge 1-2 risks but explain why they're manageable.
 - **Conclusion**: Strong closing statement.
 
 Keep response under 400 words. Start with "Bull Researcher:"."""
     else:
-        # Subsequent rounds - respond to bear's counterarguments
-        prompt = f"""You are the Bull Analyst in a debate about {ticker}.
+        # Subsequent rounds - cross-examination with direct rebuttal
+        prompt = f"""You are the Bull Analyst in a debate about {ticker}. Cross-examine the Bear's arguments by directly challenging their evidence and logic.
+
+**CROSS-EXAMINATION REQUIREMENTS:**
+1. **Quote Specific Claims**: Cite 2-3 exact statements from the Bear that you're rebutting
+2. **Expose Contradictions**: Point out logical flaws or inconsistencies in their argument
+3. **Counter with Evidence**: Provide contradicting data (numbers, facts, sources) for each claim
+4. **Attack Weak Points**: Identify and exploit the Bear's least-supported assertions
+5. **No Generic Rebuttals**: Every counterpoint must reference a specific Bear claim
 
 Analysis Reports:
 {reports}
@@ -115,13 +129,14 @@ Bear's Arguments:
 Your Previous Points:
 {debate_state.get('bull_history', '')}
 
-Counter the bear's concerns with specific data and sound reasoning.
-
 FORMAT: Use Markdown headers and bullet points.
 Structure:
-- **Rebuttal**: Directly address the Bear's key flaws.
-- **Supporting Evidence**: Data backing your defense.
-- **Restate Thesis**: Reinforce why the upside outweighs the risk.
+- **Direct Rebuttals** (Label each: "Bear claimed X, but..."):
+  - Quote Bear's claim → Explain the flaw → Provide counter-evidence
+  - Repeat for 2-3 key claims
+- **Logical Inconsistencies**: Expose contradictions in Bear's reasoning
+- **Supporting Evidence**: New data that undermines Bear's thesis
+- **Restate Thesis**: Why the upside still dominates despite Bear's concerns
 
 Keep response under 400 words. Start with "Bull Researcher:"."""
     
@@ -191,13 +206,20 @@ Past Mistake {i}:
     
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 1:
-        # First response to bull's opening argument
-        prompt = f"""You are a Bear Analyst presenting the bearish case for {ticker}. Challenge overly optimistic views with facts and analysis.
+        # First response - cross-examine bull's opening argument
+        prompt = f"""You are a Bear Analyst cross-examining the bullish case for {ticker}. Systematically challenge the Bull's evidence and expose flaws in their logic.
+
+**CROSS-EXAMINATION REQUIREMENTS:**
+1. **Quote Specific Bull Claims**: Cite 2-3 exact statements from the Bull that you're challenging
+2. **Expose Logical Flaws**: Point out where Bull's reasoning breaks down or contradicts itself
+3. **Counter with Contradicting Evidence**: Provide specific data (numbers, dates) that refutes Bull's claims
+4. **Highlight Cherry-Picking**: Identify metrics/data the Bull ignored that weaken their case
+5. **No Generic Criticism**: Every challenge must reference a specific Bull assertion
 
 Focus on:
-- Negative factors, risks, and red flags
-- Overvaluation or weakness indicators
-- Market headwinds and competitive threats
+- Negative factors, risks, and red flags (with specific evidence)
+- Overvaluation or weakness indicators (actual numbers vs Bull's claims)
+- Market headwinds and competitive threats (concrete examples)
 {f"- Learn from past mistakes - what risks were underestimated" if memory_context else ""}
 
 Analysis Reports:
@@ -209,15 +231,25 @@ Bull's Argument:
 
 FORMAT: Use Markdown headers and bullet points.
 Structure:
-- **Core Thesis**: The primary reason to avoid/short.
-- **Valuation Concerns**: Why the price is too high.
-- **Key Risks**: Specific threats (competition, macro, regulation).
-- **Rebuttal**: Direct challenges to the Bull's points.
+- **Direct Challenges** (Label each: "Bull claimed X, but..."):
+  - Quote Bull's claim → Explain the flaw → Provide counter-evidence
+  - Repeat for 2-3 key claims
+- **What Bull Ignored**: Metrics/risks conveniently omitted from their analysis
+- **Core Thesis**: The primary reason to avoid/short (with data)
+- **Valuation Reality Check**: Why the price is too high (vs Bull's optimism)
+- **Key Risks**: Specific threats the Bull downplayed or missed
 
 Keep response under 400 words. Start with "Bear Researcher:"."""
     else:
-        # Subsequent rounds - continue the debate
-        prompt = f"""You are the Bear Analyst in a debate about {ticker}.
+        # Subsequent rounds - cross-examination with direct counter-rebuttal
+        prompt = f"""You are the Bear Analyst in a debate about {ticker}. Cross-examine the Bull's latest defense by exposing weaknesses in their rebuttals.
+
+**CROSS-EXAMINATION REQUIREMENTS:**
+1. **Quote Bull's Rebuttals**: Cite 2-3 specific defenses the Bull just made
+2. **Expose Rebuttal Flaws**: Show where Bull's counterarguments fail or contradict evidence
+3. **Double Down with New Evidence**: Provide fresh data that reinforces your original concerns
+4. **Exploit Defensive Positions**: Identify where Bull is now defending rather than attacking
+5. **No Repetition**: Don't just restate old arguments - escalate with new facts
 
 Analysis Reports:
 {reports}
@@ -228,13 +260,14 @@ Bull's Arguments:
 Your Previous Points:
 {debate_state.get('bear_history', '')}
 
-Counter the bull's optimistic claims with factual analysis. Highlight risks they're overlooking.
-
 FORMAT: Use Markdown headers and bullet points.
 Structure:
-- **Counter-Rebuttal**: Address the Bull's defense.
-- **Risk Amplification**: Why the risks are severe.
-- **Final Warning**: Closing statement on downside potential.
+- **Counter-Rebuttals** (Label each: "Bull defended X by claiming Y, but..."):
+  - Quote Bull's defense → Expose the flaw → Provide new counter-evidence
+  - Repeat for 2-3 key rebuttals
+- **Unanswered Questions**: Points the Bull avoided or couldn't refute
+- **Risk Amplification**: Why the risks are more severe than Bull admits (new data)
+- **Final Warning**: Closing statement on downside potential (with evidence)
 
 Keep response under 400 words. Start with "Bear Researcher:"."""
     

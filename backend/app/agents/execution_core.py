@@ -47,6 +47,60 @@ def _extract_json_from_text(text: str) -> str:
     return cleaned[start:end + 1]
 
 
+def extract_signal(text: str, ticker: str = "Unknown") -> str:
+    """
+    LLM-based signal extractor that replaces fragile keyword matching.
+    
+    When JSON parsing fails or output is ambiguous, this function uses an LLM
+    to extract the trading signal (BUY/SELL/HOLD) from natural language text.
+    
+    This is more robust than regex patterns and can handle:
+    - Conversational responses ("I recommend buying...")
+    - Embedded signals in long explanations
+    - Ambiguous phrasing ("accumulate positions" → BUY)
+    - Multi-paragraph responses
+    
+    Args:
+        text: The raw text response from an agent
+        ticker: The ticker symbol (for context)
+    
+    Returns:
+        One of: "BUY", "SELL", or "HOLD"
+    """
+    prompt = f"""Extract the trading signal from this analysis for {ticker}.
+
+ANALYSIS TEXT:
+{text}
+
+INSTRUCTIONS:
+- Return ONLY one word: BUY, SELL, or HOLD
+- Look for explicit recommendations ("I recommend...", "Action: ...", "Decision: ...")
+- Interpret synonyms:
+  - BUY signals: "buy", "long", "accumulate", "add", "bullish", "go long"
+  - SELL signals: "sell", "short", "exit", "reduce", "bearish", "go short"
+  - HOLD signals: "hold", "wait", "neutral", "no action", "uncertain"
+- If multiple signals exist, prioritize the FINAL recommendation
+- If truly ambiguous, default to HOLD
+
+Return ONLY: BUY, SELL, or HOLD (no punctuation, no explanation)"""
+    
+    try:
+        signal = call_llm(prompt).strip().upper()
+        # Validate the response
+        if signal in ["BUY", "SELL", "HOLD"]:
+            return signal
+        # Fallback: check if response contains one of the keywords
+        if "BUY" in signal:
+            return "BUY"
+        elif "SELL" in signal:
+            return "SELL"
+        else:
+            return "HOLD"
+    except Exception:
+        # If LLM extraction itself fails, default to HOLD
+        return "HOLD"
+
+
 def trading_strategy_synthesizer_agent(state: dict):
     """
     The Trading Strategy Synthesizer Agent.
@@ -76,20 +130,15 @@ def trading_strategy_synthesizer_agent(state: dict):
         context = f"Research Manager's Investment Plan:\n{investment_plan}"
     
     # 1. Construct the prompt for the LLM
-    # Extract the Research Manager's action directive
-    investment_plan_lower = investment_plan.lower()
-    if "recommendation" in investment_plan_lower:
-        # Try to extract explicit recommendation
-        if "\nbuy\n" in investment_plan_lower or "recommendation\nbuy" in investment_plan_lower or "recommendation: buy" in investment_plan_lower:
-            manager_action = "BUY"
-        elif "\nsell\n" in investment_plan_lower or "recommendation\nsell" in investment_plan_lower or "recommendation: sell" in investment_plan_lower:
-            manager_action = "SELL"
-        elif "\nhold\n" in investment_plan_lower or "recommendation\nhold" in investment_plan_lower or "recommendation: hold" in investment_plan_lower:
-            manager_action = "HOLD"
-        else:
+    # Extract the Research Manager's action directive using LLM signal extractor
+    # Only used as a constraint to keep Strategy Synthesizer aligned with Research Manager
+    # NOTE: Only call extract_signal if we have a substantive investment plan to extract from
+    manager_action = None
+    if investment_plan and len(investment_plan.strip()) > 50:
+        try:
+            manager_action = extract_signal(investment_plan, ticker)
+        except Exception:
             manager_action = None
-    else:
-        manager_action = None
     
     action_constraint = ""
     if manager_action:
@@ -136,15 +185,41 @@ Keep response under 200 words."""
         strategy_model = TradingStrategy.model_validate_json(json_text)
         strategy = strategy_model.model_dump()
     except (ValueError, ValidationError) as exc:
-        strategy = {
-            "action": "HOLD",
-            "entry_price": None,
-            "take_profit": None,
-            "stop_loss": None,
-            "position_size_pct": 0,
-            "rationale": f"Fallback due to parse/validation error: {exc}. Raw response: {strategy_response}",
-        }
-
+        # JSON parsing failed - use LLM signal extractor as fallback
+        # This prevents blind HOLD defaults when LLM gave valid recommendation in prose
+        try:
+            extracted_action = extract_signal(strategy_response, ticker)
+            strategy = {
+                "action": extracted_action,
+                "entry_price": None,
+                "take_profit": None,
+                "stop_loss": None,
+                "position_size_pct": 10 if extracted_action != "HOLD" else 0,  # Conservative 10% if BUY/SELL
+                "rationale": f"Extracted from prose after JSON parse failure: {exc}. Original response: {strategy_response[:200]}...",
+            }
+        except Exception as extract_exc:
+            # If signal extraction also fails, then default to HOLD
+            strategy = {
+                "action": "HOLD",
+                "entry_price": None,
+                "take_profit": None,
+                "stop_loss": None,
+                "position_size_pct": 0,
+                "rationale": f"Fallback due to parse error ({exc}) and extraction error ({extract_exc}). Raw: {strategy_response[:200]}...",
+            }
+    
+    # 4. ENFORCE consistency with Research Manager's decision
+    # If Research Manager gave a clear directive, Strategy Synthesizer MUST respect it
+    # Only Risk Manager can override this decision (not Strategy Synthesizer)
+    if manager_action and manager_action != "HOLD":
+        # Force alignment if LLM ignored the constraint
+        if strategy.get("action") != manager_action:
+            print(f"[CONSISTENCY] Strategy Synthesizer tried to override {manager_action} with {strategy.get('action')}. Enforcing Research Manager's decision.")
+            strategy["action"] = manager_action
+            # Adjust rationale to reflect enforcement
+            original_rationale = strategy.get("rationale", "")
+            strategy["rationale"] = f"[Enforced: Research Manager recommended {manager_action}] {original_rationale}"
+    
     # Normalize HOLD to avoid misleading price fields
     if (strategy.get("action") or "").upper() == "HOLD":
         strategy["entry_price"] = None
@@ -152,8 +227,12 @@ Keep response under 200 words."""
         strategy["stop_loss"] = None
         strategy["position_size_pct"] = 0
     
-    # 4. Update the state
+    # 5. Update the state
     state['trading_strategy'] = strategy
+    
+    # Store Research Manager's original recommendation for Risk Manager to see
+    if manager_action:
+        state['research_manager_recommendation'] = manager_action
     
     return state
 
