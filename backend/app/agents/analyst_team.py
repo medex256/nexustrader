@@ -1,6 +1,12 @@
 # In nexustrader/backend/app/agents/analyst_team.py
 
-from ..tools.financial_data_tools import get_financial_statements, get_financial_ratios, get_analyst_ratings
+from ..tools.fundamental_data_tools import (
+    get_financial_statements,
+    get_financial_ratios,
+    get_analyst_ratings,
+    get_balance_sheet,
+    get_cash_flow,
+)
 from ..tools.technical_analysis_tools import get_historical_price_data, calculate_technical_indicators, plot_stock_chart
 from ..tools.news_tools import search_news
 from ..llm import invoke_llm as call_llm
@@ -12,11 +18,12 @@ def fundamental_analyst_agent(state: dict):
     The Fundamental Analyst Agent.
     """
     ticker = state['ticker']
+    simulated_date = state.get('simulated_date')  # Get as_of date for point-in-time data
     
-    # 1. Get the financial data using the tools
-    financial_statements = get_financial_statements(ticker)
-    financial_ratios = get_financial_ratios(ticker)
-    analyst_ratings = get_analyst_ratings(ticker)
+    # 1. Get the financial data using the tools (with proper date scoping)
+    financial_statements = get_financial_statements(ticker, as_of=simulated_date)
+    financial_ratios = get_financial_ratios(ticker, as_of=simulated_date)
+    analyst_ratings = get_analyst_ratings(ticker, as_of=simulated_date)
     
     # 2. Construct the prompt for the LLM
     prompt = f"""Conduct a fundamental analysis of {ticker}.
@@ -60,11 +67,6 @@ def technical_analyst_agent(state: dict):
     simulated_date = state.get("simulated_date") or state.get("run_config", {}).get("simulated_date")
     price_data = get_historical_price_data(ticker, "1y", as_of=simulated_date)
     indicators = calculate_technical_indicators(price_data)
-    
-    # NOTE: Passive Chart generation removed.
-    # The frontend now renders interactive charts via the /api/chart endpoint.
-    # The LLM relies on the numerical 'indicators' data below, not a vision model.
-    # chart_image_path = plot_stock_chart(price_data, ticker)
     
     # 2. Construct the prompt for the LLM
     prompt = f"""Perform technical analysis of {ticker}.
