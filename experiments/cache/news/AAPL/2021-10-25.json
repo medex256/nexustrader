@@ -7,18 +7,6 @@
   "article_count": 19,
   "articles": [
     {
-      "title": "Warren Buffett, Berkshire Hit $9 Billion Gain on Amex Stock This Year",
-      "summary": "Warren Buffett's Berkshire Hathaway has seen its investment in American Express (Amex) increase by $9 billion this year, bringing its total unrealized gain on the stock to $26 billion. Berkshire owns 19% of Amex, a position it has held since 1998, having only invested $1.3 billion initially. Amex is the third-largest holding in Berkshire's US stock portfolio, following Apple and Bank of America.",
-      "url": "https://markets.businessinsider.com/news/stocks/warren-buffett-berkshire-hathaway-stock-portfolio-gain-american-express-amex-2021-10",
-      "source": "markets.businessinsider.com",
-      "published": "20211020T115132",
-      "overall_sentiment_score": 0.364879,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.338968,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.584547
-    },
-    {
       "title": "Apple unveils game-changing MacBook Pro",
       "summary": "Apple has unveiled a completely reimagined MacBook Pro powered by the new M1 Pro and M1 Max chips, available in 14- and 16-inch models. These new laptops offer extraordinary performance, unprecedented battery life, and advanced features like a Liquid Retina XDR display, improved camera and audio systems, and extensive connectivity, marking a significant leap for professional users. The MacBooks are designed for various professionals, offer remarkable power efficiency, and feature an environmentally conscious design with recycled materials.",
       "url": "https://www.apple.com/newsroom/2021/10/apple-unveils-game-changing-macbook-pro/",
@@ -31,78 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Check out Cipher Mining Equity Warrant Exp 26th Aug 2026's stock price (CIFRW) in real time",
-      "summary": "This article provides real-time stock information for Cipher Mining Equity Warrant Exp 26th Aug 2026 (CIFRW), including its current price, historical performance metrics, key financial stats, and recent news. It highlights the company's profile as an industrial-scale data center construction and operations firm focused on bitcoin mining and high-performance computing, along with insights from analyst calls.",
-      "url": "https://www.cnbc.com/quotes/CIFRW",
-      "source": "CNBC",
-      "published": "20211018T030906",
-      "overall_sentiment_score": 0.052914,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.137831,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.621756
-    },
-    {
-      "title": "Intel CEO Pat Gelsinger hopes to win back Apple by outcompeting it",
-      "summary": "Intel CEO Pat Gelsinger expressed his hope to regain Apple as a customer, acknowledging that Intel will need to outperform Apple to achieve this. Gelsinger stated that he doesn't blame Apple for choosing to produce its own chips over using Intel's. He emphasized the necessity of Intel's products being superior to Apple's.",
-      "url": "https://www.marketwatch.com/story/intel-ceo-pat-gelsinger-hopes-to-win-back-apple-by-outcompeting-it-11634515343?gaa_at=eafs&gaa_n=AWEtsqeVFmgV5KU606QBGxtK3zvb-QWlSpPzjHWKFRlI6pIu-WEOqNGCN8dO&gaa_ts=6907c309&gaa_sig=V0GObfA4JOQbZc-CI9PnrVX8RHhEWKJpZIRxHqKPJNkXTDkpC6ZF_qAbpASfbCzODjtRW2FxQPCMbs__MOqQ_g%3D%3D",
-      "source": "MarketWatch",
-      "published": "20211017T200200",
-      "overall_sentiment_score": 0.091357,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.075075,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.908231
-    },
-    {
-      "title": "Zepp Health banks on new smartwatches for growth",
-      "summary": "Zepp Health, formerly Huami Corp, is banking on its new smartwatch releases, the Amazfit GTR 3 and GTS 3 series, to drive growth. The company has seen significant global expansion, becoming the fourth-largest smartwatch vendor by shipments in Q1. Zepp Health is investing in R&D and incorporating advanced health-tracking features into its devices to compete in the growing smartwatch market.",
-      "url": "https://www.chinadaily.com.cn/a/202110/14/WS61678f5fa310cdd39bc6edf8.html",
-      "source": "China Daily",
-      "published": "20211014T100000",
-      "overall_sentiment_score": 0.17324,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.114448,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.736924
-    },
-    {
-      "title": "Apple to slash iPhone 13 production on chip shortages",
-      "summary": "Apple is expected to cut its projected iPhone 13 production targets for 2021 by up to 10 million units due to prolonged chip shortages affecting key suppliers like Broadcom Inc. and Texas Instruments Inc. This shortage is impacting Apple's ability to deliver new iPhone 13 Pro and Pro Max models, with current orders facing significant shipping delays. Despite Apple's strong buying power, the global chip shortage, exacerbated by the pandemic and an energy crisis in China, is affecting its production of other products as well, including the Apple Watch Series 7.",
-      "url": "https://www.aljazeera.com/economy/2021/10/13/apple-to-slash-iphone-13-production-on-chip-shortages",
-      "source": "Al Jazeera",
-      "published": "20211013T192603",
-      "overall_sentiment_score": 0.002675,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.028713,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.316086
-    },
-    {
-      "title": "Target is adding Apple mini-shops to 3 more Minnesota stores",
-      "summary": "Target Corp. is expanding its partnership with Apple Inc., adding three new mini-shops within its Minnesota stores. This move more than doubles the number of Apple mini-shops already present in Target locations. This expansion is part of a broader strategy to integrate specialized retail experiences within Target stores.",
-      "url": "https://www.bizjournals.com/twincities/news/2021/10/21/target-apple-mini-shops-more-stores.html",
-      "source": "The Business Journals",
-      "published": "20211021T212219",
-      "overall_sentiment_score": 0.440832,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.43865,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.934764
-    },
-    {
-      "title": "Alibaba said to be launching a new home-grown chip this week",
-      "summary": "Alibaba Group Holding is set to launch a server chip this week based on Arm Holdings technology, joining other Chinese tech giants in semiconductor development. The chip’s design process concluded mid-year and it will be minted using the 5-nanometre process, showcasing China's increasing investment in chip design due to lower capital requirements. Alibaba's previous chip endeavors include Hanguang 800 and XuanTie 910.",
-      "url": "https://www.scmp.com/tech/article/3152754/alibaba-said-be-launching-server-chip-based-arms-technology-week",
-      "source": "South China Morning Post",
-      "published": "20211018T180000",
-      "overall_sentiment_score": 0.227857,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.224001,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.60007
-    },
-    {
       "title": "Apple likely to cut iPhone 13 production due to chip crunch – Bloomberg News",
       "summary": "Apple Inc. is reportedly planning to slash its iPhone 13 production target by as many as 10 million units due to the ongoing global chip shortage, according to Bloomberg News. Chip suppliers like Broadcom Inc. and Texas Instruments are struggling to meet demand, impacting Apple's ability to produce the anticipated 90 million units by year-end. Despite this, some analysts believe Apple is handling the supply crunch better than competitors and maintain healthy sales forecasts for the iPhone 13.",
       "url": "https://technology.inquirer.net/112468/apple-likely-to-cut-iphone-13-production-due-to-chip-crunch-bloomberg-news",
@@ -113,66 +29,6 @@
       "ticker_sentiment_score": -0.30426,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Qualcomm Increases Share Buyback Plan by $10B",
-      "summary": "Qualcomm (QCOM) has approved a new $10 billion stock repurchase program, complementing an existing plan with $0.9 billion remaining. This move led to a 1.3% increase in shares during extended trading. Wells Fargo analyst Gary Mobley maintained a Hold rating but adjusted the price target to $138.",
-      "url": "https://finance.yahoo.com/news/qualcomm-increases-share-buyback-plan-121851064.html",
-      "source": "Yahoo Finance",
-      "published": "20211013T210612",
-      "overall_sentiment_score": 0.198485,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.255325,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.570258
-    },
-    {
-      "title": "How ‘Squid Game’ reveals the flaw in Netflix’s products strategy",
-      "summary": "Netflix's new partnership with Walmart for a digital storefront, the Netflix Hub, is criticized for its delayed inclusion of merchandise from the hugely popular show \"Squid Game.\" While Netflix aims to diversify revenue through licensed products, the article highlights that fans are more interested in \"real\" items from the show, like Vans sneakers and tracksuits, which are experiencing massive sales spikes independently, revealing a flaw in Netflix's product strategy. The company's own official merchandise for \"Squid Game\" is described as limited and generic, not capitalizing on the immediate demand for authentic-looking items from the show.",
-      "url": "https://www.fastcompany.com/90685774/how-squid-game-reveals-the-flaw-in-netflixs-products-strategy/",
-      "source": "Fast Company",
-      "published": "20211013T205135",
-      "overall_sentiment_score": -0.046621,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.125063,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.565559
-    },
-    {
-      "title": "Expedia CTO Rathi Murthy is helping the company simplify",
-      "summary": "Rathi Murthy, who took over as Chief Technology Officer at Expedia Group in May 2021, is focusing on simplifying the company's technology infrastructure. Murthy brings experience from previous roles at Gap and Verizon to her new position at the Seattle-based travel company. This move is part of the company's efforts to streamline operations.",
-      "url": "https://www.bizjournals.com/seattle/news/2021/10/12/rathi-murthy-expedia-gap-verizon-cto.html",
-      "source": "The Business Journals",
-      "published": "20211012T201214",
-      "overall_sentiment_score": 0.090601,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.00228,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.605614
-    },
-    {
-      "title": "EU to investigate Nvidia's $54 bln ARM bid after remedies fall short - sources",
-      "summary": "The EU is expected to launch an extended antitrust investigation into Nvidia's $54 billion bid for British chip designer ARM. This comes after remedies offered by Nvidia last week failed to address competition concerns, marking a second setback for the company after a similar warning from Britain's antitrust agency. The European Commission is scheduled to end its preliminary review on October 27, initiating a four-month investigation.",
-      "url": "https://www.reuters.com/technology/eu-open-probe-into-nvidias-54-billion-bid-arm-sources-2021-10-12/",
-      "source": "Reuters",
-      "published": "20211012T100300",
-      "overall_sentiment_score": -0.355878,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.41455,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.600167
-    },
-    {
-      "title": "Understanding the Buzz Around the BUZZ ETF",
-      "summary": "The article discusses the VanEck Vectors Social Sentiment ETF (BUZZ), which debuted in March 2021 and capitalizes on the \"meme stock\" phenomenon. It examines BUZZ's methodology, noting that its longer lookback period means it doesn't solely focus on highly speculative meme stocks like GameStop and AMC. Instead, BUZZ's portfolio includes quality names like AMD, Apple, Nvidia, and Pfizer, and exhibits low single-stock risk.",
-      "url": "https://etfdb.com/tactical-allocation-content-hub/understanding-the-buzz-around-the-buzz-etf/",
-      "source": "ETF Database",
-      "published": "20211012T053040",
-      "overall_sentiment_score": 0.306566,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.306353,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.715222
     },
     {
       "title": "Apple’s New AirPods Are Pandemic-Proof",
@@ -199,6 +55,30 @@
       "relevance_score": 0.975837
     },
     {
+      "title": "Target is adding Apple mini-shops to 3 more Minnesota stores",
+      "summary": "Target Corp. is expanding its partnership with Apple Inc., adding three new mini-shops within its Minnesota stores. This move more than doubles the number of Apple mini-shops already present in Target locations. This expansion is part of a broader strategy to integrate specialized retail experiences within Target stores.",
+      "url": "https://www.bizjournals.com/twincities/news/2021/10/21/target-apple-mini-shops-more-stores.html",
+      "source": "The Business Journals",
+      "published": "20211021T212219",
+      "overall_sentiment_score": 0.440832,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.43865,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.934764
+    },
+    {
+      "title": "Intel CEO Pat Gelsinger hopes to win back Apple by outcompeting it",
+      "summary": "Intel CEO Pat Gelsinger expressed his hope to regain Apple as a customer, acknowledging that Intel will need to outperform Apple to achieve this. Gelsinger stated that he doesn't blame Apple for choosing to produce its own chips over using Intel's. He emphasized the necessity of Intel's products being superior to Apple's.",
+      "url": "https://www.marketwatch.com/story/intel-ceo-pat-gelsinger-hopes-to-win-back-apple-by-outcompeting-it-11634515343?gaa_at=eafs&gaa_n=AWEtsqeVFmgV5KU606QBGxtK3zvb-QWlSpPzjHWKFRlI6pIu-WEOqNGCN8dO&gaa_ts=6907c309&gaa_sig=V0GObfA4JOQbZc-CI9PnrVX8RHhEWKJpZIRxHqKPJNkXTDkpC6ZF_qAbpASfbCzODjtRW2FxQPCMbs__MOqQ_g%3D%3D",
+      "source": "MarketWatch",
+      "published": "20211017T200200",
+      "overall_sentiment_score": 0.091357,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.075075,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.908231
+    },
+    {
       "title": "Megahit \"Squid Game\" puts focus squarely on Netflix's overseas growth",
       "summary": "The success of \"Squid Game\" is prompting investors to focus on Netflix's international content strategy as a key driver for subscriber growth, especially in emerging markets, after a period of slowing additions. Analysts anticipate the megahit will boost subscriber numbers beyond estimates for the third quarter and impact the next three months. The article also highlights increased competition in the streaming market and Netflix's financial fundamentals.",
       "url": "https://www.reuters.com/business/media-telecom/megahit-squid-game-puts-focus-squarely-netflixs-overseas-growth-2021-10-19/",
@@ -209,6 +89,42 @@
       "ticker_sentiment_score": 0.136879,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.74042
+    },
+    {
+      "title": "ClixTV Launches To Help Streamers Find Something To Watch",
+      "summary": "ClixTV has launched as a new streaming service designed to help viewers find content across various top subscription services, offering its own short- and long-form programming, trailers, and e-commerce opportunities. Founded by industry veterans Edward Sullivan (CEO), Stacy Jolna (CMO), and Patricia Sullivan (CCO), ClixTV aims to simplify the content search experience for consumers and provide benefits for creators, distributors, and advertisers. The platform is available on multiple devices and services including Roku, Apple TV, Amazon Fire TV, and iOS/Android.",
+      "url": "https://www.nexttv.com/news/clixtv-launches-to-help-streamers-find-something-to-watch",
+      "source": "Nexttv",
+      "published": "20211012T000000",
+      "overall_sentiment_score": 0.286008,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.346744,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.738702
+    },
+    {
+      "title": "Zepp Health banks on new smartwatches for growth",
+      "summary": "Zepp Health, formerly Huami Corp, is banking on its new smartwatch releases, the Amazfit GTR 3 and GTS 3 series, to drive growth. The company has seen significant global expansion, becoming the fourth-largest smartwatch vendor by shipments in Q1. Zepp Health is investing in R&D and incorporating advanced health-tracking features into its devices to compete in the growing smartwatch market.",
+      "url": "https://www.chinadaily.com.cn/a/202110/14/WS61678f5fa310cdd39bc6edf8.html",
+      "source": "China Daily",
+      "published": "20211014T100000",
+      "overall_sentiment_score": 0.17324,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.114448,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.736924
+    },
+    {
+      "title": "Understanding the Buzz Around the BUZZ ETF",
+      "summary": "The article discusses the VanEck Vectors Social Sentiment ETF (BUZZ), which debuted in March 2021 and capitalizes on the \"meme stock\" phenomenon. It examines BUZZ's methodology, noting that its longer lookback period means it doesn't solely focus on highly speculative meme stocks like GameStop and AMC. Instead, BUZZ's portfolio includes quality names like AMD, Apple, Nvidia, and Pfizer, and exhibits low single-stock risk.",
+      "url": "https://etfdb.com/tactical-allocation-content-hub/understanding-the-buzz-around-the-buzz-etf/",
+      "source": "ETF Database",
+      "published": "20211012T053040",
+      "overall_sentiment_score": 0.306566,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.306353,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.715222
     },
     {
       "title": "Tile Compatibility With Android™ and Apple® iOS Devices | Tile",
@@ -223,16 +139,100 @@
       "relevance_score": 0.706752
     },
     {
-      "title": "ClixTV Launches To Help Streamers Find Something To Watch",
-      "summary": "ClixTV has launched as a new streaming service designed to help viewers find content across various top subscription services, offering its own short- and long-form programming, trailers, and e-commerce opportunities. Founded by industry veterans Edward Sullivan (CEO), Stacy Jolna (CMO), and Patricia Sullivan (CCO), ClixTV aims to simplify the content search experience for consumers and provide benefits for creators, distributors, and advertisers. The platform is available on multiple devices and services including Roku, Apple TV, Amazon Fire TV, and iOS/Android.",
-      "url": "https://www.nexttv.com/news/clixtv-launches-to-help-streamers-find-something-to-watch",
-      "source": "Nexttv",
-      "published": "20211012T000000",
-      "overall_sentiment_score": 0.286008,
+      "title": "Check out Cipher Mining Equity Warrant Exp 26th Aug 2026's stock price (CIFRW) in real time",
+      "summary": "This article provides real-time stock information for Cipher Mining Equity Warrant Exp 26th Aug 2026 (CIFRW), including its current price, historical performance metrics, key financial stats, and recent news. It highlights the company's profile as an industrial-scale data center construction and operations firm focused on bitcoin mining and high-performance computing, along with insights from analyst calls.",
+      "url": "https://www.cnbc.com/quotes/CIFRW",
+      "source": "CNBC",
+      "published": "20211018T030906",
+      "overall_sentiment_score": 0.052914,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.137831,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.621756
+    },
+    {
+      "title": "Expedia CTO Rathi Murthy is helping the company simplify",
+      "summary": "Rathi Murthy, who took over as Chief Technology Officer at Expedia Group in May 2021, is focusing on simplifying the company's technology infrastructure. Murthy brings experience from previous roles at Gap and Verizon to her new position at the Seattle-based travel company. This move is part of the company's efforts to streamline operations.",
+      "url": "https://www.bizjournals.com/seattle/news/2021/10/12/rathi-murthy-expedia-gap-verizon-cto.html",
+      "source": "The Business Journals",
+      "published": "20211012T201214",
+      "overall_sentiment_score": 0.090601,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.00228,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.605614
+    },
+    {
+      "title": "EU to investigate Nvidia's $54 bln ARM bid after remedies fall short - sources",
+      "summary": "The EU is expected to launch an extended antitrust investigation into Nvidia's $54 billion bid for British chip designer ARM. This comes after remedies offered by Nvidia last week failed to address competition concerns, marking a second setback for the company after a similar warning from Britain's antitrust agency. The European Commission is scheduled to end its preliminary review on October 27, initiating a four-month investigation.",
+      "url": "https://www.reuters.com/technology/eu-open-probe-into-nvidias-54-billion-bid-arm-sources-2021-10-12/",
+      "source": "Reuters",
+      "published": "20211012T100300",
+      "overall_sentiment_score": -0.355878,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.41455,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.600167
+    },
+    {
+      "title": "Alibaba said to be launching a new home-grown chip this week",
+      "summary": "Alibaba Group Holding is set to launch a server chip this week based on Arm Holdings technology, joining other Chinese tech giants in semiconductor development. The chip’s design process concluded mid-year and it will be minted using the 5-nanometre process, showcasing China's increasing investment in chip design due to lower capital requirements. Alibaba's previous chip endeavors include Hanguang 800 and XuanTie 910.",
+      "url": "https://www.scmp.com/tech/article/3152754/alibaba-said-be-launching-server-chip-based-arms-technology-week",
+      "source": "South China Morning Post",
+      "published": "20211018T180000",
+      "overall_sentiment_score": 0.227857,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.346744,
+      "ticker_sentiment_score": 0.224001,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.738702
+      "relevance_score": 0.60007
+    },
+    {
+      "title": "Warren Buffett, Berkshire Hit $9 Billion Gain on Amex Stock This Year",
+      "summary": "Warren Buffett's Berkshire Hathaway has seen its investment in American Express (Amex) increase by $9 billion this year, bringing its total unrealized gain on the stock to $26 billion. Berkshire owns 19% of Amex, a position it has held since 1998, having only invested $1.3 billion initially. Amex is the third-largest holding in Berkshire's US stock portfolio, following Apple and Bank of America.",
+      "url": "https://markets.businessinsider.com/news/stocks/warren-buffett-berkshire-hathaway-stock-portfolio-gain-american-express-amex-2021-10",
+      "source": "markets.businessinsider.com",
+      "published": "20211020T115132",
+      "overall_sentiment_score": 0.364879,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.338968,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.584547
+    },
+    {
+      "title": "Qualcomm Increases Share Buyback Plan by $10B",
+      "summary": "Qualcomm (QCOM) has approved a new $10 billion stock repurchase program, complementing an existing plan with $0.9 billion remaining. This move led to a 1.3% increase in shares during extended trading. Wells Fargo analyst Gary Mobley maintained a Hold rating but adjusted the price target to $138.",
+      "url": "https://finance.yahoo.com/news/qualcomm-increases-share-buyback-plan-121851064.html",
+      "source": "Yahoo Finance",
+      "published": "20211013T210612",
+      "overall_sentiment_score": 0.198485,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.255325,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.570258
+    },
+    {
+      "title": "How ‘Squid Game’ reveals the flaw in Netflix’s products strategy",
+      "summary": "Netflix's new partnership with Walmart for a digital storefront, the Netflix Hub, is criticized for its delayed inclusion of merchandise from the hugely popular show \"Squid Game.\" While Netflix aims to diversify revenue through licensed products, the article highlights that fans are more interested in \"real\" items from the show, like Vans sneakers and tracksuits, which are experiencing massive sales spikes independently, revealing a flaw in Netflix's product strategy. The company's own official merchandise for \"Squid Game\" is described as limited and generic, not capitalizing on the immediate demand for authentic-looking items from the show.",
+      "url": "https://www.fastcompany.com/90685774/how-squid-game-reveals-the-flaw-in-netflixs-products-strategy/",
+      "source": "Fast Company",
+      "published": "20211013T205135",
+      "overall_sentiment_score": -0.046621,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.125063,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.565559
+    },
+    {
+      "title": "Apple to slash iPhone 13 production on chip shortages",
+      "summary": "Apple is expected to cut its projected iPhone 13 production targets for 2021 by up to 10 million units due to prolonged chip shortages affecting key suppliers like Broadcom Inc. and Texas Instruments Inc. This shortage is impacting Apple's ability to deliver new iPhone 13 Pro and Pro Max models, with current orders facing significant shipping delays. Despite Apple's strong buying power, the global chip shortage, exacerbated by the pandemic and an energy crisis in China, is affecting its production of other products as well, including the Apple Watch Series 7.",
+      "url": "https://www.aljazeera.com/economy/2021/10/13/apple-to-slash-iphone-13-production-on-chip-shortages",
+      "source": "Al Jazeera",
+      "published": "20211013T192603",
+      "overall_sentiment_score": 0.002675,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.028713,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.316086
     }
   ]
 }

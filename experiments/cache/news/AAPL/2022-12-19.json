@@ -7,54 +7,6 @@
   "article_count": 10,
   "articles": [
     {
-      "title": "WisdomTree Launches Quality Growth ETF, QGRW",
-      "summary": "WisdomTree Investments has launched a new quality growth ETF, the WisdomTree U.S. Quality Growth Fund (QGRW), which tracks a market-cap-weighted index focusing on growth and quality factors. This new offering aims to avoid speculative growth names while including firms with strong growth signals, similar to their dividend growth fund DGRW. QGRW has a 28 basis point fee and includes major companies like Apple, Microsoft, and Amazon in its top holdings, starting with $1.3 million in AUM.",
-      "url": "https://etfdb.com/model-portfolio-content-hub/wisdomtree-launches-quality-growth-etf-qgrw/",
-      "source": "ETF Database",
-      "published": "20221215T203210",
-      "overall_sentiment_score": 0.362357,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.343222,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.647722
-    },
-    {
-      "title": "ElectraMeccanica Celebrates Commissioning Of New Manufacturing Facility And Corporate Headquarters In Mesa",
-      "summary": "ElectraMeccanica Vehicles Corp. celebrated the commissioning of its new manufacturing facility and corporate headquarters in Mesa, Arizona, marking its official establishment as an American OEM. The facility is expected to produce up to 20,000 vehicles annually and create 200-500 new jobs, bolstering Arizona's manufacturing industry. This move supports the production of their flagship all-electric SOLO and SOLO Cargo vehicles, with the company emphasizing the importance of partnerships with local and state governments for economic development.",
-      "url": "https://www.azcommerce.com/news-events/news/2022/12/electrameccanica-celebrates-commissioning-of-new-manufacturing-facility-and-corporate-headquarters-in-mesa/",
-      "source": "Arizona Commerce Authority",
-      "published": "20221212T183712",
-      "overall_sentiment_score": 0.379628,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.221779,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.581272
-    },
-    {
-      "title": "Corning Confronts R&D Hurdles",
-      "summary": "Corning Incorporated is facing significant challenges due to a recent tax policy change requiring the amortization of R&D expenses over five years, making innovation more costly. This shift from full deductibility poses a serious financial burden, potentially costing Corning an additional $150 million in cash taxes in 2022 alone. The company is urging Congress to either reinstate full R&D deductibility or at least make it retroactive to 2022 and extend it through 2025 to preserve its ability to invest in growth and innovation.",
-      "url": "https://nam.org/corning-confronts-rd-hurdles-19836/",
-      "source": "National Association of Manufacturers - NAM",
-      "published": "20221209T095100",
-      "overall_sentiment_score": -0.16649,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.114342,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.602318
-    },
-    {
-      "title": "Dexcom G7 Receives FDA Clearance: The Most Accurate Continuous Glucose Monitoring System Cleared in the U.S.",
-      "summary": "Dexcom G7, the next-generation Continuous Glucose Monitoring (CGM) System, has received FDA clearance for individuals with all types of diabetes aged two years and older. This new system offers enhanced accuracy, a smaller all-in-one wearable, and quicker sensor warmup time, building on the success of prior Dexcom CGM technology. Dexcom anticipates launching the G7 in the U.S. in early 2023, aiming to provide a more convenient and effective diabetes management solution.",
-      "url": "https://investors.dexcom.com/news/news-details/2022/Dexcom-G7-Receives-FDA-Clearance-The-Most-Accurate-Continuous-Glucose-Monitoring-System-Cleared-in-the-U.S/default.aspx",
-      "source": "Dexcom",
-      "published": "20221208T163209",
-      "overall_sentiment_score": 0.613781,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.347315,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.625238
-    },
-    {
       "title": "Apple Scales Back High-End Mac Pro Plans, Weighs Production Move to Asia",
       "summary": "Apple is reportedly scaling back its plans for the high-end Mac Pro, which features Apple silicon, due to changes in its chip and manufacturing strategies. The new Mac Pro is behind schedule, and the company is considering moving its production to Asia. This news comes alongside updates on Apple potentially allowing third-party app stores and sideloading, the release of iOS 16.2, and Apple Music integration in Tesla cars.",
       "url": "https://www.bloomberg.com/news/newsletters/2022-12-18/when-will-apple-aapl-release-the-apple-silicon-mac-pro-with-m2-ultra-chip-lbthco9u",
@@ -67,16 +19,28 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Warner Bros Discovery Global Brands and Experiences Announces New Global Consumer Products Leadership Team",
-      "summary": "Warner Bros Discovery Global Brands and Experiences (GBE) has announced a new global leadership team for its Consumer Products business, integrating the legacy Warner Bros. Consumer Products and Discovery Consumer Products divisions. This realignment aims to maximize long-term consumer engagement with the company’s major franchises and streamline global relationships. Pam Lifford, President of Warner Bros. Discovery Global Brands, Franchises, and Experiences, will oversee the new team, which includes Julian Moon, Robert Oberschelp, Preston Lewis, Samantha Bushy, and Peter van Roden in key leadership roles overseeing different regions and categories.",
-      "url": "https://www.anbmedia.com/news/2022/12/warner-bros-discovery-announces-new-global-consumer-products-leadership-team/",
-      "source": "aNb Media, Inc.",
-      "published": "20221215T191607",
-      "overall_sentiment_score": 0.337033,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.280384,
+      "title": "How suite of dividend growth ETFs brings quality to the fore",
+      "summary": "In an environment of market volatility and economic uncertainty, CI WisdomTree ETFs offer a quality-focused core portfolio solution that has outperformed benchmarks. These dividend growth ETFs, managed by CI Global Asset Management, employ a unique methodology to identify companies with strong fundamentals, sustainable earnings, and resilient business models, screening for quality and growth metrics. This strategy aims to provide diversified large-cap exposure and long-term stability by avoiding overvalued companies and focusing on profitable dividend payers, proving particularly effective during periods of economic contraction.",
+      "url": "https://www.wealthprofessional.ca/news/features/how-suite-of-dividend-growth-etfs-brings-quality-to-the-fore/372038",
+      "source": "Wealth Professional",
+      "published": "20221205T163148",
+      "overall_sentiment_score": 0.09223,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.3189,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.587149
+      "relevance_score": 0.738824
+    },
+    {
+      "title": "WisdomTree Launches Quality Growth ETF, QGRW",
+      "summary": "WisdomTree Investments has launched a new quality growth ETF, the WisdomTree U.S. Quality Growth Fund (QGRW), which tracks a market-cap-weighted index focusing on growth and quality factors. This new offering aims to avoid speculative growth names while including firms with strong growth signals, similar to their dividend growth fund DGRW. QGRW has a 28 basis point fee and includes major companies like Apple, Microsoft, and Amazon in its top holdings, starting with $1.3 million in AUM.",
+      "url": "https://etfdb.com/model-portfolio-content-hub/wisdomtree-launches-quality-growth-etf-qgrw/",
+      "source": "ETF Database",
+      "published": "20221215T203210",
+      "overall_sentiment_score": 0.362357,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.343222,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.647722
     },
     {
       "title": "Want to Attract Top Tech Talent? Prioritize Their Needs",
@@ -89,6 +53,18 @@
       "ticker_sentiment_score": 0.222324,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.62723
+    },
+    {
+      "title": "Dexcom G7 Receives FDA Clearance: The Most Accurate Continuous Glucose Monitoring System Cleared in the U.S.",
+      "summary": "Dexcom G7, the next-generation Continuous Glucose Monitoring (CGM) System, has received FDA clearance for individuals with all types of diabetes aged two years and older. This new system offers enhanced accuracy, a smaller all-in-one wearable, and quicker sensor warmup time, building on the success of prior Dexcom CGM technology. Dexcom anticipates launching the G7 in the U.S. in early 2023, aiming to provide a more convenient and effective diabetes management solution.",
+      "url": "https://investors.dexcom.com/news/news-details/2022/Dexcom-G7-Receives-FDA-Clearance-The-Most-Accurate-Continuous-Glucose-Monitoring-System-Cleared-in-the-U.S/default.aspx",
+      "source": "Dexcom",
+      "published": "20221208T163209",
+      "overall_sentiment_score": 0.613781,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.347315,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.625238
     },
     {
       "title": "SPDR Gender Diversity ETF Officially Changes Index, Name",
@@ -115,16 +91,40 @@
       "relevance_score": 0.616117
     },
     {
-      "title": "How suite of dividend growth ETFs brings quality to the fore",
-      "summary": "In an environment of market volatility and economic uncertainty, CI WisdomTree ETFs offer a quality-focused core portfolio solution that has outperformed benchmarks. These dividend growth ETFs, managed by CI Global Asset Management, employ a unique methodology to identify companies with strong fundamentals, sustainable earnings, and resilient business models, screening for quality and growth metrics. This strategy aims to provide diversified large-cap exposure and long-term stability by avoiding overvalued companies and focusing on profitable dividend payers, proving particularly effective during periods of economic contraction.",
-      "url": "https://www.wealthprofessional.ca/news/features/how-suite-of-dividend-growth-etfs-brings-quality-to-the-fore/372038",
-      "source": "Wealth Professional",
-      "published": "20221205T163148",
-      "overall_sentiment_score": 0.09223,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.3189,
+      "title": "Corning Confronts R&D Hurdles",
+      "summary": "Corning Incorporated is facing significant challenges due to a recent tax policy change requiring the amortization of R&D expenses over five years, making innovation more costly. This shift from full deductibility poses a serious financial burden, potentially costing Corning an additional $150 million in cash taxes in 2022 alone. The company is urging Congress to either reinstate full R&D deductibility or at least make it retroactive to 2022 and extend it through 2025 to preserve its ability to invest in growth and innovation.",
+      "url": "https://nam.org/corning-confronts-rd-hurdles-19836/",
+      "source": "National Association of Manufacturers - NAM",
+      "published": "20221209T095100",
+      "overall_sentiment_score": -0.16649,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.114342,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.602318
+    },
+    {
+      "title": "Warner Bros Discovery Global Brands and Experiences Announces New Global Consumer Products Leadership Team",
+      "summary": "Warner Bros Discovery Global Brands and Experiences (GBE) has announced a new global leadership team for its Consumer Products business, integrating the legacy Warner Bros. Consumer Products and Discovery Consumer Products divisions. This realignment aims to maximize long-term consumer engagement with the company’s major franchises and streamline global relationships. Pam Lifford, President of Warner Bros. Discovery Global Brands, Franchises, and Experiences, will oversee the new team, which includes Julian Moon, Robert Oberschelp, Preston Lewis, Samantha Bushy, and Peter van Roden in key leadership roles overseeing different regions and categories.",
+      "url": "https://www.anbmedia.com/news/2022/12/warner-bros-discovery-announces-new-global-consumer-products-leadership-team/",
+      "source": "aNb Media, Inc.",
+      "published": "20221215T191607",
+      "overall_sentiment_score": 0.337033,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.280384,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.738824
+      "relevance_score": 0.587149
+    },
+    {
+      "title": "ElectraMeccanica Celebrates Commissioning Of New Manufacturing Facility And Corporate Headquarters In Mesa",
+      "summary": "ElectraMeccanica Vehicles Corp. celebrated the commissioning of its new manufacturing facility and corporate headquarters in Mesa, Arizona, marking its official establishment as an American OEM. The facility is expected to produce up to 20,000 vehicles annually and create 200-500 new jobs, bolstering Arizona's manufacturing industry. This move supports the production of their flagship all-electric SOLO and SOLO Cargo vehicles, with the company emphasizing the importance of partnerships with local and state governments for economic development.",
+      "url": "https://www.azcommerce.com/news-events/news/2022/12/electrameccanica-celebrates-commissioning-of-new-manufacturing-facility-and-corporate-headquarters-in-mesa/",
+      "source": "Arizona Commerce Authority",
+      "published": "20221212T183712",
+      "overall_sentiment_score": 0.379628,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.221779,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.581272
     }
   ]
 }

@@ -7,16 +7,16 @@
   "article_count": 8,
   "articles": [
     {
-      "title": "YieldMax™ Launches NVDY, the YieldMax™ NVDA Option Income Strategy ETF",
-      "summary": "YieldMax™ has launched NVDY, the YieldMax™ NVDA Option Income Strategy ETF, which seeks to generate monthly income through a synthetic covered call strategy on NVIDIA Corporation (NVDA). This actively managed ETF由ZEGA Financial aims to provide substantial monthly income to investors, joining other YieldMax™ ETFs like TSLY, OARK, and APLY, and adheres to a gross expense ratio of 0.99%.",
-      "url": "https://www.globenewswire.com/news-release/2023/05/11/2666735/0/en/YieldMax-Launches-NVDY-the-YieldMax-NVDA-Option-Income-Strategy-ETF.html",
-      "source": "GlobeNewswire",
-      "published": "20230511T083000",
-      "overall_sentiment_score": 0.383465,
+      "title": "Apple stakes future growth on emerging markets, starting with India",
+      "summary": "Apple CEO Tim Cook is betting on emerging markets, particularly India, for future growth after iPhone sales surprisingly rose despite a global smartphone slump. The company sees significant opportunity in these markets due to their youthful populations and low iPhone penetration, with India showing strong double-digit growth and becoming a major focus for Apple. The booming used iPhone market also contributes to Apple's market share gains in these regions.",
+      "url": "https://www.reuters.com/technology/apple-stakes-future-growth-emerging-markets-starting-with-india-2023-05-05/",
+      "source": "Reuters",
+      "published": "20230505T143200",
+      "overall_sentiment_score": 0.422878,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.21248,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.648314
+      "ticker_sentiment_score": 0.424662,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "Buffett says Apple is Berkshire portfolio's best business",
@@ -31,6 +31,18 @@
       "relevance_score": 0.988487
     },
     {
+      "title": "Qualcomm outlook grim as smartphone sales stay weak",
+      "summary": "Qualcomm Inc. forecast third-quarter revenue and profit below Wall Street estimates due to weak smartphone sales and excess chip inventory. The company's CEO noted a lack of meaningful recovery, particularly in China, and faces increased competition and a rise in used phone sales impacting premium device demand. Qualcomm's shares fell nearly 7% after the announcement.",
+      "url": "https://www.reuters.com/technology/qualcomm-sees-dull-third-quarter-weak-chip-demand-smartphones-2023-05-03/",
+      "source": "Reuters",
+      "published": "20230503T221600",
+      "overall_sentiment_score": -0.310872,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.226029,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.735479
+    },
+    {
       "title": "Warren Buffett's Berkshire Hathaway has been a fortress stock during recessions and bear markets. Here's how",
       "summary": "Warren Buffett's Berkshire Hathaway has proven to be a resilient investment, consistently outperforming the S&P 500 during recessions and bear markets due to its long-term focus and conservative investment strategies. The conglomerate's significant stake in Apple, coupled with its substantial cash reserves and insurance ventures, underscores its \"fortress stock\" reputation. This approach has led to impressive compounded annual gains for Berkshire shareholders over decades.",
       "url": "https://www.cnbc.com/2023/05/05/warren-buffetts-berkshire-hathaway-has-been-a-fortress-stock-during-recessions-and-bear-markets-heres-how.html",
@@ -43,16 +55,28 @@
       "relevance_score": 0.718123
     },
     {
-      "title": "Amkor Technology seeks to open Vietnam factory in fourth quarter",
-      "summary": "U.S.-based Amkor Technology Inc. expects its mega facility in Bac Ninh, Vietnam, to begin first-phase manufacturing in the fourth quarter of this year. This factory, covering 1.9 million square feet, will be among Amkor's largest globally and represents a $1.6 billion investment until 2035. The move highlights Vietnam's growing importance as a manufacturing and R&D hub for major foreign electronics manufacturers.",
-      "url": "https://theinvestor.vn/amkor-technology-seeks-to-open-vietnam-factory-in-fourth-quarter-d4786.html",
-      "source": "Theinvestor",
-      "published": "20230504T172800",
-      "overall_sentiment_score": 0.18198,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.102262,
+      "title": "If Expense Ratio Really Mattered, Most of These ETFs Would Dominate",
+      "summary": "Despite investors consistently indicating that expense ratio is the most important factor in selecting an ETF, several low- or no-cost ETFs with significant assets remain under the radar. Examples include the BNY Mellon US Large Cap ETF (BKLC) with a 0.00% expense ratio, the JPMorgan BetaBuilders US Equity ETF (BBUS) at 0.02%, and the SoFi Select 500 ETF (SFY) also at 0.00%. The article suggests advisors should investigate these cost-effective options for client portfolios given their stated preference for low expense ratios.",
+      "url": "https://www.etftrends.com/financial-literacy-channel/if-expense-ratio-really-mattered-most-these-etfs-would-dominate/",
+      "source": "ETF Trends",
+      "published": "20230502T000000",
+      "overall_sentiment_score": 0.087199,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.129246,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.587095
+      "relevance_score": 0.709591
+    },
+    {
+      "title": "YieldMax™ Launches NVDY, the YieldMax™ NVDA Option Income Strategy ETF",
+      "summary": "YieldMax™ has launched NVDY, the YieldMax™ NVDA Option Income Strategy ETF, which seeks to generate monthly income through a synthetic covered call strategy on NVIDIA Corporation (NVDA). This actively managed ETF由ZEGA Financial aims to provide substantial monthly income to investors, joining other YieldMax™ ETFs like TSLY, OARK, and APLY, and adheres to a gross expense ratio of 0.99%.",
+      "url": "https://www.globenewswire.com/news-release/2023/05/11/2666735/0/en/YieldMax-Launches-NVDY-the-YieldMax-NVDA-Option-Income-Strategy-ETF.html",
+      "source": "GlobeNewswire",
+      "published": "20230511T083000",
+      "overall_sentiment_score": 0.383465,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.21248,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.648314
     },
     {
       "title": "Best Buy Announces New Membership Programs to Save You Money",
@@ -67,40 +91,16 @@
       "relevance_score": 0.647763
     },
     {
-      "title": "Apple stakes future growth on emerging markets, starting with India",
-      "summary": "Apple CEO Tim Cook is betting on emerging markets, particularly India, for future growth after iPhone sales surprisingly rose despite a global smartphone slump. The company sees significant opportunity in these markets due to their youthful populations and low iPhone penetration, with India showing strong double-digit growth and becoming a major focus for Apple. The booming used iPhone market also contributes to Apple's market share gains in these regions.",
-      "url": "https://www.reuters.com/technology/apple-stakes-future-growth-emerging-markets-starting-with-india-2023-05-05/",
-      "source": "Reuters",
-      "published": "20230505T143200",
-      "overall_sentiment_score": 0.422878,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.424662,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "Qualcomm outlook grim as smartphone sales stay weak",
-      "summary": "Qualcomm Inc. forecast third-quarter revenue and profit below Wall Street estimates due to weak smartphone sales and excess chip inventory. The company's CEO noted a lack of meaningful recovery, particularly in China, and faces increased competition and a rise in used phone sales impacting premium device demand. Qualcomm's shares fell nearly 7% after the announcement.",
-      "url": "https://www.reuters.com/technology/qualcomm-sees-dull-third-quarter-weak-chip-demand-smartphones-2023-05-03/",
-      "source": "Reuters",
-      "published": "20230503T221600",
-      "overall_sentiment_score": -0.310872,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.226029,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.735479
-    },
-    {
-      "title": "If Expense Ratio Really Mattered, Most of These ETFs Would Dominate",
-      "summary": "Despite investors consistently indicating that expense ratio is the most important factor in selecting an ETF, several low- or no-cost ETFs with significant assets remain under the radar. Examples include the BNY Mellon US Large Cap ETF (BKLC) with a 0.00% expense ratio, the JPMorgan BetaBuilders US Equity ETF (BBUS) at 0.02%, and the SoFi Select 500 ETF (SFY) also at 0.00%. The article suggests advisors should investigate these cost-effective options for client portfolios given their stated preference for low expense ratios.",
-      "url": "https://www.etftrends.com/financial-literacy-channel/if-expense-ratio-really-mattered-most-these-etfs-would-dominate/",
-      "source": "ETF Trends",
-      "published": "20230502T000000",
-      "overall_sentiment_score": 0.087199,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.129246,
+      "title": "Amkor Technology seeks to open Vietnam factory in fourth quarter",
+      "summary": "U.S.-based Amkor Technology Inc. expects its mega facility in Bac Ninh, Vietnam, to begin first-phase manufacturing in the fourth quarter of this year. This factory, covering 1.9 million square feet, will be among Amkor's largest globally and represents a $1.6 billion investment until 2035. The move highlights Vietnam's growing importance as a manufacturing and R&D hub for major foreign electronics manufacturers.",
+      "url": "https://theinvestor.vn/amkor-technology-seeks-to-open-vietnam-factory-in-fourth-quarter-d4786.html",
+      "source": "Theinvestor",
+      "published": "20230504T172800",
+      "overall_sentiment_score": 0.18198,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.102262,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.709591
+      "relevance_score": 0.587095
     }
   ]
 }

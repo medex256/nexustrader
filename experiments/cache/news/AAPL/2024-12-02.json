@@ -7,28 +7,16 @@
   "article_count": 21,
   "articles": [
     {
-      "title": "Should iShares S&P 500 Growth ETF (IVW) Be on Your Investing Radar?",
-      "summary": "The iShares S&P 500 Growth ETF (IVW) offers broad exposure to the Large Cap Growth segment of the US equity market, with significant holdings in Information Technology, and top positions in Nvidia, Apple, and Microsoft. With an expense ratio of 0.18% and a \"Buy\" rating from Zacks, it presents a compelling option for investors seeking growth, despite the inherent volatility of growth stocks. The fund has shown strong performance, up about 34.84% year-to-date and 40% over the last year.",
-      "url": "https://www.tradingview.com/news/zacks:734d2f3f1094b:0-should-ishares-s-p-500-growth-etf-ivw-be-on-your-investing-radar/",
-      "source": "TradingView — Track All Markets",
-      "published": "20241202T080937",
-      "overall_sentiment_score": 0.375271,
+      "title": "Corsair Unveils The First True Gaming Keyboard And Mouse For Macs",
+      "summary": "Corsair has launched the first true gaming keyboard and mouse designed specifically for Macs, aiming to enhance the gaming experience on Apple devices. The K65 Plus Wireless keyboard and M75 Wireless gaming mouse come in Mac-exclusive colorways and are available through Apple. These peripherals, coupled with Apple's recent focus on gaming and the powerful M4 chip in the Mac mini, suggest a growing potential for Mac gaming.",
+      "url": "https://hothardware.com/news/corsair-unveils-the-first-true-gaming-keyboard-and-mouse-for",
+      "source": "HotHardware",
+      "published": "20241119T095700",
+      "overall_sentiment_score": 0.390178,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.346293,
+      "ticker_sentiment_score": 0.312437,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.604101
-    },
-    {
-      "title": "Here's How Much You Would Need to Invest in This Unstoppable Vanguard ETF Today to Grow Your Portfolio to $1 Million or More by Retirement",
-      "summary": "This article discusses using the Vanguard S&P 500 Growth Index Fund ETF Shares (VOOG) as a vehicle for long-term wealth accumulation, aiming for $1 million by retirement. It highlights the ETF's focus on growth stocks within the S&P 500, its low expense ratio, and historical outperformance. The author provides a table illustrating the investment amounts needed over 30 and 35 years, assuming an 8% annual growth rate, suggesting at least $70,000 for 35 years to reach the $1 million goal.",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/LLY/pressreleases/29734197/heres-how-much-you-would-need-to-invest-in-this-unstoppable-vanguard-etf-today-to-grow-your-portfolio-to-1-million-or-more-by-retirement/",
-      "source": "The Globe and Mail",
-      "published": "20241123T180850",
-      "overall_sentiment_score": 0.365337,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.304155,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.603367
+      "relevance_score": 0.881246
     },
     {
       "title": "Billionaire Warren Buffett Pours $752,000,000 Into New Assets After Dumping Apple, Bank of America",
@@ -43,40 +31,28 @@
       "relevance_score": 0.84447
     },
     {
-      "title": "Under the Hood of Fidelity’s Blue Chip Growth",
-      "summary": "The Fidelity Blue Chip Growth ETF (FBCG) is an active U.S. equity growth strategy with a large-cap bias that has outperformed its benchmark, the Russel 1000 Growth index. The fund focuses on identifying blue chip companies with sustainable business models, high returns on equity, and strong revenue and earnings growth through bottom-up fundamental analysis. FBCG's portfolio includes both mega-cap companies and smaller emerging growers, aiming for consistent +10% annual EPS growth.",
-      "url": "https://etfdb.com/etf-investing-content-hub/under-hood-fidelity-blue-chip-growth/",
-      "source": "ETF Database",
-      "published": "20241121T220857",
-      "overall_sentiment_score": 0.452719,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.447117,
+      "title": "Advanced Micro Devices (AMD) and Apple to Lead with TSM’s Advanced 2nm AI Chips in 2025",
+      "summary": "Advanced Micro Devices (AMD) and Apple are expected to be the first customers for TSMC's advanced 2nm AI chips, with mass production scheduled to begin in 2025. This development highlights the increasing importance of advanced semiconductor technology in the AI sector and positions AMD as a key player among trending AI stocks. The article also touches on significant investments in AI startups and the overall boom in the AI market.",
+      "url": "https://finance.yahoo.com/news/advanced-micro-devices-amd-apple-133856704.html",
+      "source": "Yahoo Finance",
+      "published": "20241128T133856",
+      "overall_sentiment_score": 0.291071,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.363525,
       "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.7018
+      "relevance_score": 0.813534
     },
     {
-      "title": "Applied Materials launches a maskless OLED production technology, to support 8-Gen high efficiency OLED deposition and encapsulation",
-      "summary": "Applied Materials has launched MAX OLED, a maskless production technology for OLED displays that promises brighter, clearer, more energy-efficient, and longer-lasting panels. This technology supports large glass substrates up to 8-Gen, aims to reduce production costs, and has already garnered repeat orders from leading display makers including Samsung Display. It achieves significant improvements in brightness, power consumption, and lifetime by individually depositing and encapsulating each pixel without a mask, doubling the aperture ratio compared to FMM deposition.",
-      "url": "https://www.oled-info.com/applied-materials-launches-maskless-oled-production-technology-support-8-gen",
-      "source": "OLED-Info",
+      "title": "America eats the world",
+      "summary": "This article discusses the unprecedented dominance of US equities in the world market, with the S&P 500 now accounting for two-thirds of the world equity index. It explores how this concentration has occurred, driven by the rise of technology and the \"Magnificent Seven\" tech stocks, and questions whether this momentum is sustainable in the long term, especially considering the shift of these tech giants towards more capital-heavy AI investments. The author uses a \"second-level thinking\" approach to analyze the drivers and potential challenges to this US market leadership.",
+      "url": "https://www.morningstar.com.au/stocks/america-eats-the-world",
+      "source": "Morningstar Australia",
       "published": "20241121T000000",
-      "overall_sentiment_score": 0.29676,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.140612,
+      "overall_sentiment_score": 0.136286,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.127774,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.629725
-    },
-    {
-      "title": "2 no-brainer Warren Buffett stocks to buy into 2025",
-      "summary": "As 2024 concludes, investors are looking to Warren Buffett's philosophy for guidance. This article highlights two \"forever stocks\" from Buffett's portfolio, Pool Corporation (NASDAQ: POOL) and Coca-Cola (NYSE: KO), as compelling long-term opportunities for 2025. It examines their recent performance, financial stability, and potential for growth.",
-      "url": "https://finbold.com/2-no-brainer-warren-buffett-stocks-to-buy-into-2025/",
-      "source": "Finbold",
-      "published": "20241130T000000",
-      "overall_sentiment_score": 0.150405,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.116191,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.619044
+      "relevance_score": 0.792331
     },
     {
       "title": "Corning offers to waive exclusive deals in EU antitrust probe, may stave off fine",
@@ -89,90 +65,6 @@
       "ticker_sentiment_score": 0.140501,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.735739
-    },
-    {
-      "title": "ICLV: Value With Some Tech Exposure (NYSEARCA:ILCV)",
-      "summary": "The iShares Morningstar Value ETF (ILCV) offers a diversified portfolio of 444 large- and mid-cap U.S. stocks with a low expense ratio of 0.04%. It balances traditional value sectors like Financials and Industrials with growth areas such as Information Technology and Health Care. This mix provides pure domestic market exposure and aims for a balanced risk-return profile, despite some concentration in the Financial sector.",
-      "url": "https://seekingalpha.com/article/4739586-ilcv-value-with-some-tech-exposure",
-      "source": "Seeking Alpha",
-      "published": "20241122T083100",
-      "overall_sentiment_score": 0.199067,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.111309,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.613752
-    },
-    {
-      "title": "Under the Hood of Fidelity’s Blue Chip Growth ETF",
-      "summary": "The Fidelity Blue Chip Growth ETF (FBCG) is an actively managed U.S. equity growth strategy that has significantly outperformed its benchmark, the Russel 1000 Growth index. The fund employs bottom-up fundamental analysis to identify blue chip companies with sustainable business models, high returns on equity, and strong earnings growth, including both mega-cap and emerging companies. FBCG's active management and investment strategy have led to attractive returns for investors.",
-      "url": "https://www.etftrends.com/etf-investing-content-hub/under-hood-fidelitys-blue-chip-growth-etf/",
-      "source": "ETF Trends",
-      "published": "20241121T021032",
-      "overall_sentiment_score": 0.447764,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.325802,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.66505
-    },
-    {
-      "title": "VOOG vs. SCHG: Which Is the Better Growth Stock ETF?",
-      "summary": "This article compares two popular growth ETFs, the Vanguard S&P 500 ETF (VOOG) and the Schwab U.S. Large Cap Growth ETF (SCHG). While both are strong performers with similar portfolios of top growth stocks like Apple, Microsoft, and Nvidia, SCHG consistently outperforms VOOG in 3, 5, and 10-year returns and boasts a significantly lower expense ratio. The analysis concludes that SCHG is the better choice due to its superior performance and lower costs.",
-      "url": "https://www.nasdaq.com/articles/voog-vs-schg-which-better-growth-stock-etf",
-      "source": "Nasdaq",
-      "published": "20241120T052127",
-      "overall_sentiment_score": 0.292031,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.324106,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.598425
-    },
-    {
-      "title": "Kurv Investment Management Completes Reorganization of Yield Premium Suite to Proprietary Trust",
-      "summary": "Kurv Investment Management has successfully reorganized its Yield Premium Suite ETFs into the Kurv ETF Trust, a move aimed at enhancing operational control and efficiency. This transition consolidates all ETFs under one trust, including those tracking major tech companies like Amazon, Apple, and Microsoft. The reorganization does not alter the funds' names, investment objectives, strategies, risks, or expense ratios, ensuring continuity for investors.",
-      "url": "https://news.futunn.com/en/post/50170938/kurv-investment-management-completes-reorganization-of-yield-premium-suite-to",
-      "source": "富途牛牛",
-      "published": "20241119T220000",
-      "overall_sentiment_score": 0.32162,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.42532,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.629631
-    },
-    {
-      "title": "Dolby Laboratories Reports Fourth Quarter and Fiscal Year 2024 Financial Results",
-      "summary": "Dolby Laboratories announced strong financial results for Q4 and fiscal year 2024, with total revenue reaching $305 million and $1.27 billion respectively. The company highlighted strategic progress including the acquisition of GE Licensing and THEO Technologies, significant expansion in automotive partnerships for Dolby Atmos, and widespread adoption of Dolby technologies in new consumer electronics and platforms. Dolby also provided an optimistic financial outlook for fiscal year 2025, projecting continued growth in revenue and earnings per share.",
-      "url": "https://www.prnewswire.com/news-releases/dolby-laboratories-reports-fourth-quarter-and-fiscal-year-2024-financial-results-302310222.html",
-      "source": "PR Newswire",
-      "published": "20241119T161500",
-      "overall_sentiment_score": 0.35422,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.337162,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.621857
-    },
-    {
-      "title": "Wearable Devices Ltd. Unveils Mudra Band and Mudra Link: Revolutionary Neural Wristband Technology for Gesture Control",
-      "summary": "Wearable Devices Ltd. has launched the Mudra Band and Mudra Link, innovative neural wristbands using proprietary Surface Nerve Conductance (SNC) technology for intuitive gesture control of digital devices. These devices aim to enhance user interaction in extended reality (XR) experiences by interpreting neural signals from wrist movements, offering a hands-free interface compatible with various operating systems. The technology allows gesture recognition even when hands are not visible, setting a new standard for user interaction in the rapidly evolving tech landscape.",
-      "url": "https://www.quiverquant.com/news/Wearable+Devices+Ltd.+Unveils+Mudra+Band+and+Mudra+Link%3A+Revolutionary+Neural+Wristband+Technology+for+Gesture+Control",
-      "source": "Quiver Quantitative",
-      "published": "20241119T125000",
-      "overall_sentiment_score": 0.283531,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.208332,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.710232
-    },
-    {
-      "title": "Corsair Unveils The First True Gaming Keyboard And Mouse For Macs",
-      "summary": "Corsair has launched the first true gaming keyboard and mouse designed specifically for Macs, aiming to enhance the gaming experience on Apple devices. The K65 Plus Wireless keyboard and M75 Wireless gaming mouse come in Mac-exclusive colorways and are available through Apple. These peripherals, coupled with Apple's recent focus on gaming and the powerful M4 chip in the Mac mini, suggest a growing potential for Mac gaming.",
-      "url": "https://hothardware.com/news/corsair-unveils-the-first-true-gaming-keyboard-and-mouse-for",
-      "source": "HotHardware",
-      "published": "20241119T095700",
-      "overall_sentiment_score": 0.390178,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.312437,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.881246
     },
     {
       "title": "The Smartest Megacap Growth ETF to Buy With $500 Right Now",
@@ -199,16 +91,40 @@
       "relevance_score": 0.714474
     },
     {
-      "title": "FBY: One Of My Favorite Santa's Income Plays",
-      "summary": "The author sees an opportunity to invest in big tech, particularly META, after a recent market sell-off, citing strong leadership and innovation. FBY, a YieldMax ETF for META, is highlighted as a favorable pick for high dividends and potential capital gains, especially in anticipation of a \"Santa rally.\" The article suggests FBY offers a safer income play through covered call strategies compared to direct stock ownership.",
-      "url": "https://seekingalpha.com/article/4738524-fby-one-of-my-favorite-santas-income-plays",
-      "source": "Seeking Alpha",
-      "published": "20241118T222100",
-      "overall_sentiment_score": 0.081885,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.2169,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.646277
+      "title": "Wearable Devices Ltd. Unveils Mudra Band and Mudra Link: Revolutionary Neural Wristband Technology for Gesture Control",
+      "summary": "Wearable Devices Ltd. has launched the Mudra Band and Mudra Link, innovative neural wristbands using proprietary Surface Nerve Conductance (SNC) technology for intuitive gesture control of digital devices. These devices aim to enhance user interaction in extended reality (XR) experiences by interpreting neural signals from wrist movements, offering a hands-free interface compatible with various operating systems. The technology allows gesture recognition even when hands are not visible, setting a new standard for user interaction in the rapidly evolving tech landscape.",
+      "url": "https://www.quiverquant.com/news/Wearable+Devices+Ltd.+Unveils+Mudra+Band+and+Mudra+Link%3A+Revolutionary+Neural+Wristband+Technology+for+Gesture+Control",
+      "source": "Quiver Quantitative",
+      "published": "20241119T125000",
+      "overall_sentiment_score": 0.283531,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.208332,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.710232
+    },
+    {
+      "title": "Under the Hood of Fidelity’s Blue Chip Growth",
+      "summary": "The Fidelity Blue Chip Growth ETF (FBCG) is an active U.S. equity growth strategy with a large-cap bias that has outperformed its benchmark, the Russel 1000 Growth index. The fund focuses on identifying blue chip companies with sustainable business models, high returns on equity, and strong revenue and earnings growth through bottom-up fundamental analysis. FBCG's portfolio includes both mega-cap companies and smaller emerging growers, aiming for consistent +10% annual EPS growth.",
+      "url": "https://etfdb.com/etf-investing-content-hub/under-hood-fidelity-blue-chip-growth/",
+      "source": "ETF Database",
+      "published": "20241121T220857",
+      "overall_sentiment_score": 0.452719,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.447117,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.7018
+    },
+    {
+      "title": "Under the Hood of Fidelity’s Blue Chip Growth ETF",
+      "summary": "The Fidelity Blue Chip Growth ETF (FBCG) is an actively managed U.S. equity growth strategy that has significantly outperformed its benchmark, the Russel 1000 Growth index. The fund employs bottom-up fundamental analysis to identify blue chip companies with sustainable business models, high returns on equity, and strong earnings growth, including both mega-cap and emerging companies. FBCG's active management and investment strategy have led to attractive returns for investors.",
+      "url": "https://www.etftrends.com/etf-investing-content-hub/under-hood-fidelitys-blue-chip-growth-etf/",
+      "source": "ETF Trends",
+      "published": "20241121T021032",
+      "overall_sentiment_score": 0.447764,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.325802,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.66505
     },
     {
       "title": "What’s up with… SK Telecom, T-Mobile US, the FCC",
@@ -223,16 +139,100 @@
       "relevance_score": 0.646816
     },
     {
-      "title": "Advanced Micro Devices (AMD) and Apple to Lead with TSM’s Advanced 2nm AI Chips in 2025",
-      "summary": "Advanced Micro Devices (AMD) and Apple are expected to be the first customers for TSMC's advanced 2nm AI chips, with mass production scheduled to begin in 2025. This development highlights the increasing importance of advanced semiconductor technology in the AI sector and positions AMD as a key player among trending AI stocks. The article also touches on significant investments in AI startups and the overall boom in the AI market.",
-      "url": "https://finance.yahoo.com/news/advanced-micro-devices-amd-apple-133856704.html",
-      "source": "Yahoo Finance",
-      "published": "20241128T133856",
-      "overall_sentiment_score": 0.291071,
+      "title": "FBY: One Of My Favorite Santa's Income Plays",
+      "summary": "The author sees an opportunity to invest in big tech, particularly META, after a recent market sell-off, citing strong leadership and innovation. FBY, a YieldMax ETF for META, is highlighted as a favorable pick for high dividends and potential capital gains, especially in anticipation of a \"Santa rally.\" The article suggests FBY offers a safer income play through covered call strategies compared to direct stock ownership.",
+      "url": "https://seekingalpha.com/article/4738524-fby-one-of-my-favorite-santas-income-plays",
+      "source": "Seeking Alpha",
+      "published": "20241118T222100",
+      "overall_sentiment_score": 0.081885,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.2169,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.646277
+    },
+    {
+      "title": "Applied Materials launches a maskless OLED production technology, to support 8-Gen high efficiency OLED deposition and encapsulation",
+      "summary": "Applied Materials has launched MAX OLED, a maskless production technology for OLED displays that promises brighter, clearer, more energy-efficient, and longer-lasting panels. This technology supports large glass substrates up to 8-Gen, aims to reduce production costs, and has already garnered repeat orders from leading display makers including Samsung Display. It achieves significant improvements in brightness, power consumption, and lifetime by individually depositing and encapsulating each pixel without a mask, doubling the aperture ratio compared to FMM deposition.",
+      "url": "https://www.oled-info.com/applied-materials-launches-maskless-oled-production-technology-support-8-gen",
+      "source": "OLED-Info",
+      "published": "20241121T000000",
+      "overall_sentiment_score": 0.29676,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.363525,
+      "ticker_sentiment_score": 0.140612,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.629725
+    },
+    {
+      "title": "Kurv Investment Management Completes Reorganization of Yield Premium Suite to Proprietary Trust",
+      "summary": "Kurv Investment Management has successfully reorganized its Yield Premium Suite ETFs into the Kurv ETF Trust, a move aimed at enhancing operational control and efficiency. This transition consolidates all ETFs under one trust, including those tracking major tech companies like Amazon, Apple, and Microsoft. The reorganization does not alter the funds' names, investment objectives, strategies, risks, or expense ratios, ensuring continuity for investors.",
+      "url": "https://news.futunn.com/en/post/50170938/kurv-investment-management-completes-reorganization-of-yield-premium-suite-to",
+      "source": "富途牛牛",
+      "published": "20241119T220000",
+      "overall_sentiment_score": 0.32162,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.42532,
       "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.813534
+      "relevance_score": 0.629631
+    },
+    {
+      "title": "Dolby Laboratories Reports Fourth Quarter and Fiscal Year 2024 Financial Results",
+      "summary": "Dolby Laboratories announced strong financial results for Q4 and fiscal year 2024, with total revenue reaching $305 million and $1.27 billion respectively. The company highlighted strategic progress including the acquisition of GE Licensing and THEO Technologies, significant expansion in automotive partnerships for Dolby Atmos, and widespread adoption of Dolby technologies in new consumer electronics and platforms. Dolby also provided an optimistic financial outlook for fiscal year 2025, projecting continued growth in revenue and earnings per share.",
+      "url": "https://www.prnewswire.com/news-releases/dolby-laboratories-reports-fourth-quarter-and-fiscal-year-2024-financial-results-302310222.html",
+      "source": "PR Newswire",
+      "published": "20241119T161500",
+      "overall_sentiment_score": 0.35422,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.337162,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.621857
+    },
+    {
+      "title": "2 no-brainer Warren Buffett stocks to buy into 2025",
+      "summary": "As 2024 concludes, investors are looking to Warren Buffett's philosophy for guidance. This article highlights two \"forever stocks\" from Buffett's portfolio, Pool Corporation (NASDAQ: POOL) and Coca-Cola (NYSE: KO), as compelling long-term opportunities for 2025. It examines their recent performance, financial stability, and potential for growth.",
+      "url": "https://finbold.com/2-no-brainer-warren-buffett-stocks-to-buy-into-2025/",
+      "source": "Finbold",
+      "published": "20241130T000000",
+      "overall_sentiment_score": 0.150405,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.116191,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.619044
+    },
+    {
+      "title": "ICLV: Value With Some Tech Exposure (NYSEARCA:ILCV)",
+      "summary": "The iShares Morningstar Value ETF (ILCV) offers a diversified portfolio of 444 large- and mid-cap U.S. stocks with a low expense ratio of 0.04%. It balances traditional value sectors like Financials and Industrials with growth areas such as Information Technology and Health Care. This mix provides pure domestic market exposure and aims for a balanced risk-return profile, despite some concentration in the Financial sector.",
+      "url": "https://seekingalpha.com/article/4739586-ilcv-value-with-some-tech-exposure",
+      "source": "Seeking Alpha",
+      "published": "20241122T083100",
+      "overall_sentiment_score": 0.199067,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.111309,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.613752
+    },
+    {
+      "title": "Should iShares S&P 500 Growth ETF (IVW) Be on Your Investing Radar?",
+      "summary": "The iShares S&P 500 Growth ETF (IVW) offers broad exposure to the Large Cap Growth segment of the US equity market, with significant holdings in Information Technology, and top positions in Nvidia, Apple, and Microsoft. With an expense ratio of 0.18% and a \"Buy\" rating from Zacks, it presents a compelling option for investors seeking growth, despite the inherent volatility of growth stocks. The fund has shown strong performance, up about 34.84% year-to-date and 40% over the last year.",
+      "url": "https://www.tradingview.com/news/zacks:734d2f3f1094b:0-should-ishares-s-p-500-growth-etf-ivw-be-on-your-investing-radar/",
+      "source": "TradingView — Track All Markets",
+      "published": "20241202T080937",
+      "overall_sentiment_score": 0.375271,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.346293,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.604101
+    },
+    {
+      "title": "Here's How Much You Would Need to Invest in This Unstoppable Vanguard ETF Today to Grow Your Portfolio to $1 Million or More by Retirement",
+      "summary": "This article discusses using the Vanguard S&P 500 Growth Index Fund ETF Shares (VOOG) as a vehicle for long-term wealth accumulation, aiming for $1 million by retirement. It highlights the ETF's focus on growth stocks within the S&P 500, its low expense ratio, and historical outperformance. The author provides a table illustrating the investment amounts needed over 30 and 35 years, assuming an 8% annual growth rate, suggesting at least $70,000 for 35 years to reach the $1 million goal.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/LLY/pressreleases/29734197/heres-how-much-you-would-need-to-invest-in-this-unstoppable-vanguard-etf-today-to-grow-your-portfolio-to-1-million-or-more-by-retirement/",
+      "source": "The Globe and Mail",
+      "published": "20241123T180850",
+      "overall_sentiment_score": 0.365337,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.304155,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.603367
     },
     {
       "title": "The S&P 500 is expected to return 10% in 2025",
@@ -247,16 +247,16 @@
       "relevance_score": 0.60144
     },
     {
-      "title": "America eats the world",
-      "summary": "This article discusses the unprecedented dominance of US equities in the world market, with the S&P 500 now accounting for two-thirds of the world equity index. It explores how this concentration has occurred, driven by the rise of technology and the \"Magnificent Seven\" tech stocks, and questions whether this momentum is sustainable in the long term, especially considering the shift of these tech giants towards more capital-heavy AI investments. The author uses a \"second-level thinking\" approach to analyze the drivers and potential challenges to this US market leadership.",
-      "url": "https://www.morningstar.com.au/stocks/america-eats-the-world",
-      "source": "Morningstar Australia",
-      "published": "20241121T000000",
-      "overall_sentiment_score": 0.136286,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.127774,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.792331
+      "title": "VOOG vs. SCHG: Which Is the Better Growth Stock ETF?",
+      "summary": "This article compares two popular growth ETFs, the Vanguard S&P 500 ETF (VOOG) and the Schwab U.S. Large Cap Growth ETF (SCHG). While both are strong performers with similar portfolios of top growth stocks like Apple, Microsoft, and Nvidia, SCHG consistently outperforms VOOG in 3, 5, and 10-year returns and boasts a significantly lower expense ratio. The analysis concludes that SCHG is the better choice due to its superior performance and lower costs.",
+      "url": "https://www.nasdaq.com/articles/voog-vs-schg-which-better-growth-stock-etf",
+      "source": "Nasdaq",
+      "published": "20241120T052127",
+      "overall_sentiment_score": 0.292031,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.324106,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.598425
     }
   ]
 }

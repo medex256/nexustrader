@@ -7,18 +7,6 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "Technology ETF",
-      "summary": "VanEck offers a suite of Technology ETFs that allow investors to gain exposure to disruptive and transformative megatrends such as semiconductors, spatial technology, hydrogen, esports, and cryptocurrency. These ETFs provide diversified exposure, potential for future winners through rules-based selection, regular rebalancing, and lower fees compared to actively managed funds. The article also details various risks associated with investing in Technology ETFs, including industry concentration, market risk, and liquidity risks.",
-      "url": "https://www.vaneck.com/no/en/technology-etf/",
-      "source": "VanEck",
-      "published": "20220405T183651",
-      "overall_sentiment_score": 0.365978,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.303986,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.600097
-    },
-    {
       "title": "TIME100 Most Influential Companies 2022: NVIDIA",
       "summary": "NVIDIA, under CEO Jensen Huang, has become critical for various technologies from cryptocurrency to self-driving cars, earning it a spot on the 2022 TIME100 Most Influential Companies list. Despite abandoning a major acquisition, NVIDIA's investments in AI and experimental technology are profoundly shaping the future, with expectations for its processors to make human effort obsolete in many sectors.",
       "url": "https://time.com/collection/time100-companies-2022/6159474/nvidia-titans/",
@@ -43,6 +31,18 @@
       "relevance_score": 1.0
     },
     {
+      "title": "Investing in esports in the context of recent events",
+      "summary": "This article discusses the growth of esports, significant investment it has received, and current challenges due to global events like the COVID-19 pandemic and the Russia-Ukraine conflict. It identifies investment opportunities in publicly traded tech companies, specialized esports firms, and esports-focused ETFs, while also raising questions about future growth amidst potential new pandemics and the integration of NFTs.",
+      "url": "https://www.grantthornton.cz/en/news/investing-in-esports-in-the-context-of-recent-events/",
+      "source": "Grant Thornton",
+      "published": "20220405T000000",
+      "overall_sentiment_score": 0.276758,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.346081,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.624622
+    },
+    {
       "title": "The semiconductor decade: A trillion-dollar industry",
       "summary": "The global semiconductor industry is projected to reach a trillion-dollar valuation by 2030, driven by an average annual growth rate of 6 to 8 percent. Key growth areas include automotive, computation and data storage, and wireless technologies, with automotive expected to triple demand. Industry leaders are advised to strategically focus on R&D, manufacturing, and sourcing to capitalize on this expansion.",
       "url": "https://www.mckinsey.com/industries/semiconductors/our-insights/the-semiconductor-decade-a-trillion-dollar-industry",
@@ -55,16 +55,16 @@
       "relevance_score": 0.607393
     },
     {
-      "title": "Investing in esports in the context of recent events",
-      "summary": "This article discusses the growth of esports, significant investment it has received, and current challenges due to global events like the COVID-19 pandemic and the Russia-Ukraine conflict. It identifies investment opportunities in publicly traded tech companies, specialized esports firms, and esports-focused ETFs, while also raising questions about future growth amidst potential new pandemics and the integration of NFTs.",
-      "url": "https://www.grantthornton.cz/en/news/investing-in-esports-in-the-context-of-recent-events/",
-      "source": "Grant Thornton",
-      "published": "20220405T000000",
-      "overall_sentiment_score": 0.276758,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.346081,
+      "title": "Technology ETF",
+      "summary": "VanEck offers a suite of Technology ETFs that allow investors to gain exposure to disruptive and transformative megatrends such as semiconductors, spatial technology, hydrogen, esports, and cryptocurrency. These ETFs provide diversified exposure, potential for future winners through rules-based selection, regular rebalancing, and lower fees compared to actively managed funds. The article also details various risks associated with investing in Technology ETFs, including industry concentration, market risk, and liquidity risks.",
+      "url": "https://www.vaneck.com/no/en/technology-etf/",
+      "source": "VanEck",
+      "published": "20220405T183651",
+      "overall_sentiment_score": 0.365978,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.303986,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.624622
+      "relevance_score": 0.600097
     }
   ]
 }

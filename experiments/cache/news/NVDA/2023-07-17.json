@@ -7,28 +7,16 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "Fortinet’s stock nabs record closing high, while Microsoft, Nvidia, Broadcom bids all fall short",
-      "summary": "On Friday, July 14, 2023, several AI-related stocks, including Microsoft, Nvidia, and Broadcom, aimed for record closing highs, but only Fortinet succeeded. Nvidia and Broadcom shares initially rose following positive analyst feedback on their AI chip market potential but ultimately closed down. This illustrates the fluctuating nature of the tech rally driven by artificial intelligence.",
-      "url": "https://www.marketwatch.com/story/microsoft-nvidia-broadcom-fortinet-all-vie-for-record-closing-highs-as-ai-drives-tech-gains-c9b63cf9?gaa_at=eafs&gaa_n=AWEtsqcgxdb4uI6uCmy9LAF_f9EzVN55rvy8RwRDvXDe0Sf-WCJlMrmt3Prt&gaa_ts=6907708a&gaa_sig=_rMl4ZKlGCCojUZXFSw4W8kGUNR5zdxWVQ8xfCtLrIHwSGqN0gNq33DUFttVqVRqJ1FeAw3B6BIED6v2cE3LKQ%3D%3D",
-      "source": "MarketWatch",
-      "published": "20230714T141100",
-      "overall_sentiment_score": 0.101136,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.131001,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.729405
-    },
-    {
-      "title": "Aehr Reports Record Revenue and Profit for Fiscal 2023 and Guides for Over 50% Increase in Revenue for Fiscal 2024 on Strength from Semiconductor Wafer Level Test and Burn-in Demand",
-      "summary": "Aehr Test Systems announced record financial results for fiscal 2023, with net sales reaching $65.0 million and GAAP net income of $14.6 million, driven by demand for semiconductor wafer level test and burn-in products. The company also provided strong guidance for fiscal 2024, projecting revenue of at least $100 million, a 50% increase, and GAAP net income of at least $28 million, reflecting over 90% growth. This growth is attributed to increased adoption of their FOX systems and WaferPak Contactors for silicon carbide in electric vehicles, as well as new opportunities in silicon photonics and gallium nitride markets.",
-      "url": "https://www.aehr.com/2023/07/aehr-reports-record-revenue-and-profit-for-fiscal-2023-and-guides-for-over-50-increase-in-revenue-for-fiscal-2024-on-strength-from-semiconductor-wafer-level-test-and-burn-in-demand/",
-      "source": "Aehr Test Systems",
+      "title": "NVIDIA Drives Performance Gap Between AI Funds",
+      "summary": "The article analyzes the performance gap between two major AI-focused ETFs, Global X Robotics & Artificial Intelligence ETF (BOTZ) and Global Robotics & Automation Index ETF (ROBO). It highlights how BOTZ's significant outperformance is largely attributed to its heavy weighting in NVIDIA Corporation (NVDA), which has seen exceptional growth. The comparison provides insights for investors considering different approaches to AI sector investments, acknowledging NVIDIA's dominance while also pointing out the risks associated with such a concentrated bet.",
+      "url": "https://www.etftrends.com/disruptive-technology-channel/nvidia-drives-performance-gap-between-ai-funds/",
+      "source": "ETF Trends",
       "published": "20230713T000000",
-      "overall_sentiment_score": 0.446513,
+      "overall_sentiment_score": 0.399787,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.342164,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.572651
+      "ticker_sentiment_score": 0.51261,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.923616
     },
     {
       "title": "HIVE Rebrands, Announces Expansion Into Cloud Computing Services",
@@ -41,6 +29,54 @@
       "ticker_sentiment_score": 0.435222,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.821822
+    },
+    {
+      "title": "Semiconductor Stocks Are Hot -- So Is Their Long-Term Outlook",
+      "summary": "Semiconductor stocks and related ETFs, like the VanEck Semiconductor ETF (SMH), have experienced significant growth this year, driven largely by enthusiasm for artificial intelligence, particularly due to companies like Nvidia. While concerns about valuation exist, analysts believe the long-term outlook remains attractive, bolstered by a rebounding PC and smartphone market, and the massive potential of AI development across industries.",
+      "url": "https://www.etftrends.com/tactical-allocation-channel/semiconductor-stocks-are-hot-so-is-long-term-outlook/",
+      "source": "ETF Trends",
+      "published": "20230711T154100",
+      "overall_sentiment_score": 0.383322,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.475071,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.821246
+    },
+    {
+      "title": "Fortinet’s stock nabs record closing high, while Microsoft, Nvidia, Broadcom bids all fall short",
+      "summary": "On Friday, July 14, 2023, several AI-related stocks, including Microsoft, Nvidia, and Broadcom, aimed for record closing highs, but only Fortinet succeeded. Nvidia and Broadcom shares initially rose following positive analyst feedback on their AI chip market potential but ultimately closed down. This illustrates the fluctuating nature of the tech rally driven by artificial intelligence.",
+      "url": "https://www.marketwatch.com/story/microsoft-nvidia-broadcom-fortinet-all-vie-for-record-closing-highs-as-ai-drives-tech-gains-c9b63cf9?gaa_at=eafs&gaa_n=AWEtsqcgxdb4uI6uCmy9LAF_f9EzVN55rvy8RwRDvXDe0Sf-WCJlMrmt3Prt&gaa_ts=6907708a&gaa_sig=_rMl4ZKlGCCojUZXFSw4W8kGUNR5zdxWVQ8xfCtLrIHwSGqN0gNq33DUFttVqVRqJ1FeAw3B6BIED6v2cE3LKQ%3D%3D",
+      "source": "MarketWatch",
+      "published": "20230714T141100",
+      "overall_sentiment_score": 0.101136,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.131001,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.729405
+    },
+    {
+      "title": "A breakdown of the changes to the Nasdaq-100 and what it means for mega-cap tech stocks",
+      "summary": "Nasdaq announced a special rebalance of the Nasdaq-100 Index to dilute the weightings of mega-cap tech stocks that have outperformed in 2023. The seven largest stocks in the Nasdaq-100 will see their combined weighting reduced from 56% to 44%, with Nvidia and Microsoft being most affected. Historically, similar rebalances have not had a significant impact on stock prices.",
+      "url": "https://www.cnbc.com/2023/07/17/what-changes-to-nasdaq-100-mean-for-megacap-tech-stocks.html",
+      "source": "CNBC",
+      "published": "20230717T110100",
+      "overall_sentiment_score": 0.118207,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.139795,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.710895
+    },
+    {
+      "title": "HIVE Blockchain Rebrands, Leveraging The Breakthrough Of AI",
+      "summary": "HIVE Blockchain Technologies is rebranding to HIVE Digital Technologies to reflect its expansion into AI-focused HPC data centers. The company will leverage its green energy data centers and GPU Cloud computing technology for AI and machine learning applications. This strategic move aims to bridge the gap between blockchain and traditional capital markets, while the company's trading symbols and share structure remain unchanged.",
+      "url": "https://cryptorank.io/news/feed/a566f-200691-hive-blockchain-rebrands",
+      "source": "CryptoRank",
+      "published": "20230706T145005",
+      "overall_sentiment_score": 0.341502,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.342511,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.646226
     },
     {
       "title": "Advanced Micro Devices Inc. – More market share gains expected",
@@ -67,52 +103,16 @@
       "relevance_score": 0.61899
     },
     {
-      "title": "A breakdown of the changes to the Nasdaq-100 and what it means for mega-cap tech stocks",
-      "summary": "Nasdaq announced a special rebalance of the Nasdaq-100 Index to dilute the weightings of mega-cap tech stocks that have outperformed in 2023. The seven largest stocks in the Nasdaq-100 will see their combined weighting reduced from 56% to 44%, with Nvidia and Microsoft being most affected. Historically, similar rebalances have not had a significant impact on stock prices.",
-      "url": "https://www.cnbc.com/2023/07/17/what-changes-to-nasdaq-100-mean-for-megacap-tech-stocks.html",
-      "source": "CNBC",
-      "published": "20230717T110100",
-      "overall_sentiment_score": 0.118207,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.139795,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.710895
-    },
-    {
-      "title": "Semiconductor Stocks Are Hot -- So Is Their Long-Term Outlook",
-      "summary": "Semiconductor stocks and related ETFs, like the VanEck Semiconductor ETF (SMH), have experienced significant growth this year, driven largely by enthusiasm for artificial intelligence, particularly due to companies like Nvidia. While concerns about valuation exist, analysts believe the long-term outlook remains attractive, bolstered by a rebounding PC and smartphone market, and the massive potential of AI development across industries.",
-      "url": "https://www.etftrends.com/tactical-allocation-channel/semiconductor-stocks-are-hot-so-is-long-term-outlook/",
-      "source": "ETF Trends",
-      "published": "20230711T154100",
-      "overall_sentiment_score": 0.383322,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.475071,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.821246
-    },
-    {
-      "title": "NVIDIA Drives Performance Gap Between AI Funds",
-      "summary": "The article analyzes the performance gap between two major AI-focused ETFs, Global X Robotics & Artificial Intelligence ETF (BOTZ) and Global Robotics & Automation Index ETF (ROBO). It highlights how BOTZ's significant outperformance is largely attributed to its heavy weighting in NVIDIA Corporation (NVDA), which has seen exceptional growth. The comparison provides insights for investors considering different approaches to AI sector investments, acknowledging NVIDIA's dominance while also pointing out the risks associated with such a concentrated bet.",
-      "url": "https://www.etftrends.com/disruptive-technology-channel/nvidia-drives-performance-gap-between-ai-funds/",
-      "source": "ETF Trends",
+      "title": "Aehr Reports Record Revenue and Profit for Fiscal 2023 and Guides for Over 50% Increase in Revenue for Fiscal 2024 on Strength from Semiconductor Wafer Level Test and Burn-in Demand",
+      "summary": "Aehr Test Systems announced record financial results for fiscal 2023, with net sales reaching $65.0 million and GAAP net income of $14.6 million, driven by demand for semiconductor wafer level test and burn-in products. The company also provided strong guidance for fiscal 2024, projecting revenue of at least $100 million, a 50% increase, and GAAP net income of at least $28 million, reflecting over 90% growth. This growth is attributed to increased adoption of their FOX systems and WaferPak Contactors for silicon carbide in electric vehicles, as well as new opportunities in silicon photonics and gallium nitride markets.",
+      "url": "https://www.aehr.com/2023/07/aehr-reports-record-revenue-and-profit-for-fiscal-2023-and-guides-for-over-50-increase-in-revenue-for-fiscal-2024-on-strength-from-semiconductor-wafer-level-test-and-burn-in-demand/",
+      "source": "Aehr Test Systems",
       "published": "20230713T000000",
-      "overall_sentiment_score": 0.399787,
+      "overall_sentiment_score": 0.446513,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.51261,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.923616
-    },
-    {
-      "title": "HIVE Blockchain Rebrands, Leveraging The Breakthrough Of AI",
-      "summary": "HIVE Blockchain Technologies is rebranding to HIVE Digital Technologies to reflect its expansion into AI-focused HPC data centers. The company will leverage its green energy data centers and GPU Cloud computing technology for AI and machine learning applications. This strategic move aims to bridge the gap between blockchain and traditional capital markets, while the company's trading symbols and share structure remain unchanged.",
-      "url": "https://cryptorank.io/news/feed/a566f-200691-hive-blockchain-rebrands",
-      "source": "CryptoRank",
-      "published": "20230706T145005",
-      "overall_sentiment_score": 0.341502,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.342511,
+      "ticker_sentiment_score": 0.342164,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.646226
+      "relevance_score": 0.572651
     }
   ]
 }

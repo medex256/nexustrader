@@ -19,6 +19,18 @@
       "relevance_score": 0.747435
     },
     {
+      "title": "Shale Patch M&A Might Be Booming, But Refineries Are Left Behind",
+      "summary": "The shale patch is experiencing a significant M&A boom with over $250 billion in deals in 2023, driven by a scramble for low-cost oilfields. However, the U.S. refining industry is conspicuously missing from this boom, facing dire conditions with refinery closures, failed sales, and high maintenance costs for aging plants. Despite challenges, the U.S. Energy Information Administration (EIA) forecasts a substantial increase in global liquid fuels demand by 2050.",
+      "url": "https://oilprice.com/Energy/Energy-General/Shale-Patch-MA-Might-Be-Booming-But-Refineries-Are-Left-Behind.html",
+      "source": "Crude Oil Prices Today | OilPrice.com",
+      "published": "20240220T190000",
+      "overall_sentiment_score": 0.222722,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.239732,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.734519
+    },
+    {
       "title": "CrossAmerica Partners to Acquire 59 Convenience Stores From Applegreen for $16.9 Million",
       "summary": "CrossAmerica Partners LP is set to acquire 59 convenience stores from Applegreen Midwest and Applegreen Florida for $16.9 million. This acquisition, which includes c-stores in Michigan, Minnesota, Wisconsin, and Florida, involves the termination of existing lease agreements and the purchase of inventory. Applegreen is reportedly shifting its focus to expanding its presence in the U.S. travel plaza sector.",
       "url": "https://cspdailynews.com/mergers-acquisitions/crossamerica-partners-acquire-59-convenience-stores-applegreen-169",
@@ -53,18 +65,6 @@
       "ticker_sentiment_score": 0.235228,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.626406
-    },
-    {
-      "title": "Shale Patch M&A Might Be Booming, But Refineries Are Left Behind",
-      "summary": "The shale patch is experiencing a significant M&A boom with over $250 billion in deals in 2023, driven by a scramble for low-cost oilfields. However, the U.S. refining industry is conspicuously missing from this boom, facing dire conditions with refinery closures, failed sales, and high maintenance costs for aging plants. Despite challenges, the U.S. Energy Information Administration (EIA) forecasts a substantial increase in global liquid fuels demand by 2050.",
-      "url": "https://oilprice.com/Energy/Energy-General/Shale-Patch-MA-Might-Be-Booming-But-Refineries-Are-Left-Behind.html",
-      "source": "Crude Oil Prices Today | OilPrice.com",
-      "published": "20240220T190000",
-      "overall_sentiment_score": 0.222722,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.239732,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.734519
     }
   ]
 }

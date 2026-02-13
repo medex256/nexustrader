@@ -7,6 +7,18 @@
   "article_count": 10,
   "articles": [
     {
+      "title": "10 bank stocks that look cheap based on this valuation method — First Republic heads the list",
+      "summary": "The article identifies ten bank stocks that appear undervalued based on the price-to-tangible book value method, following the recent banking crisis. First Republic Bank is highlighted as having the lowest ratio among large U.S. banks amidst efforts to shore it up after deposit outflows. Other banks mentioned as trading below tangible book value include Capital One and Citigroup, suggesting potential opportunities for investors who believe these institutions will recover.",
+      "url": "https://www.marketwatch.com/story/10-bank-stocks-that-look-cheap-based-on-this-valuation-method-first-republic-heads-the-list-c65f7821?gaa_at=eafs&gaa_n=AWEtsqc3DxOGYa6eP0iDv0wXwAJGblASK_MZ_cp4ycyIH2GYHatoQn_S1HZv&gaa_ts=69076c08&gaa_sig=mbOrKGBaFOqwB1Sq9GkvbXsmQxZom_n-iZw1svVT-xC874eCimHx0KW4rWizqhSuofs9-9fX1JzrVhwZOCXiQw%3D%3D",
+      "source": "MarketWatch",
+      "published": "20230322T090600",
+      "overall_sentiment_score": 0.03782,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.142912,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.755073
+    },
+    {
       "title": "State Street Financial Select Sector SPDR ETF (XLF) Stock Price, Holdings, Dividend Yield",
       "summary": "This article provides a detailed overview of the State Street Financial Select Sector SPDR ETF (XLF), including its current stock price, key statistics, top holdings, and dividend information. As of November 27, 2025, XLF holds 75 stocks with a total value of $53.95 billion, with top holdings like Berkshire Hathaway Inc and JPMorgan Chase & Co. The ETF's PE Ratio is 17.01 and its dividend yield is 1.32%.",
       "url": "https://www.gurufocus.com/etf/XLF/summary",
@@ -17,42 +29,6 @@
       "ticker_sentiment_score": 0.223199,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.747959
-    },
-    {
-      "title": "PFXF: Preferreds Without Bank Sector Exposure",
-      "summary": "The article discusses how investors can gain exposure to preferred securities while avoiding the financial sector volatility through the VanEck Preferred Securities ex Financials ETF (PFXF). It highlights that banks dominate the preferreds market (over 75%), posing a risk during banking crises, and explains how PFXF offers diversification, higher historical yields, and lower call risk compared to broad preferreds. The author suggests PFXF as a solution for investors seeking income potential without significant bank exposure.",
-      "url": "https://www.vaneck.com/us/en/blogs/income-investing/pfxf-preferreds-without-bank-sector-exposure/",
-      "source": "VanEck",
-      "published": "20230329T043342",
-      "overall_sentiment_score": -0.233796,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.426382,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.610387
-    },
-    {
-      "title": "Bank of America Pares Down Wealth Lending Unit",
-      "summary": "Bank of America is reassigning approximately 200 employees from its wealth lending unit to other roles due to a slowdown in loan demand caused by higher interest rates. This move aims to realign talent with areas of greatest need, with fewer than 10 employees being let go, and salaries remain unchanged for those affected. The redeployment reflects broader industry trends where rising interest rates have cooled lending markets, prompting banks to adjust staffing and lending strategies.",
-      "url": "https://www.advisorhub.com/bank-of-america-pares-down-wealth-lending-unit/",
-      "source": "AdvisorHub",
-      "published": "20230327T000000",
-      "overall_sentiment_score": -0.126138,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.123214,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.613104
-    },
-    {
-      "title": "Core Dividend ETF DIVI Sees 9,900% Engagement Jump",
-      "summary": "The Franklin International Core Dividend Tilt Index ETF (DIVI) has experienced a 9,900% year-over-year increase in advisor engagement, according to VettaFi data. This surge is likely driven by the demand for current income amidst inflation and rising interest rates, leading to significant net inflows for the ETF. DIVI, an active strategy focused on foreign equities, offers a 5.7% annual dividend yield and has shown solid outperformance.",
-      "url": "https://www.etftrends.com/volatility-resource-content-hub/core-dividend-etf-divi-sees-9900-engagement-jump/amp/",
-      "source": "ETF Trends",
-      "published": "20230321T181029",
-      "overall_sentiment_score": 0.220417,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.108239,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.583107
     },
     {
       "title": "Deutsche Bank tumbles as jittery investors seek safer shores",
@@ -79,18 +55,6 @@
       "relevance_score": 0.636658
     },
     {
-      "title": "Russian bank claims top traders complicit in US$3.2bn trade finance fraud",
-      "summary": "A Russian bank, National Bank Trust (Trust Bank), has accused major commodity traders like Cargill, Louis Dreyfus Company, and Bunge of complicity in a US$3.2bn trade finance fraud. The alleged scheme involved using letters of credit for fictitious trades to circumvent Russian capital requirements and funnel unsecured loans to companies linked to Russian businessman Mikail Shishkhanov. Trust Bank is seeking records and plans to file a lawsuit in the British Virgin Islands to recover losses, while some accused traders dispute the claims and jurisdiction.",
-      "url": "https://www.gtreview.com/news/americas/russian-bank-claims-top-traders-complicit-in-us3-2bn-trade-finance-fraud/",
-      "source": "Global Trade Review (GTR)",
-      "published": "20230322T141400",
-      "overall_sentiment_score": -0.29601,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.202657,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.608732
-    },
-    {
       "title": "How one MBS investor thinks supply and demand will get back in sync",
       "summary": "Byron Boston, CEO of Dynex Capital Inc., believes the housing market will eventually find balance despite current volatility and rising rates. He discusses the impact of rate hikes on the mortgage industry, the challenges for first-time homebuyers, and the potential for a housing correction. Boston emphasizes the need for preparedness and adaptability in the current extreme market environment.",
       "url": "https://www.nationalmortgagenews.com/list/how-one-mbs-investor-thinks-supply-and-demand-will-get-back-in-sync",
@@ -115,16 +79,52 @@
       "relevance_score": 0.621796
     },
     {
-      "title": "10 bank stocks that look cheap based on this valuation method — First Republic heads the list",
-      "summary": "The article identifies ten bank stocks that appear undervalued based on the price-to-tangible book value method, following the recent banking crisis. First Republic Bank is highlighted as having the lowest ratio among large U.S. banks amidst efforts to shore it up after deposit outflows. Other banks mentioned as trading below tangible book value include Capital One and Citigroup, suggesting potential opportunities for investors who believe these institutions will recover.",
-      "url": "https://www.marketwatch.com/story/10-bank-stocks-that-look-cheap-based-on-this-valuation-method-first-republic-heads-the-list-c65f7821?gaa_at=eafs&gaa_n=AWEtsqc3DxOGYa6eP0iDv0wXwAJGblASK_MZ_cp4ycyIH2GYHatoQn_S1HZv&gaa_ts=69076c08&gaa_sig=mbOrKGBaFOqwB1Sq9GkvbXsmQxZom_n-iZw1svVT-xC874eCimHx0KW4rWizqhSuofs9-9fX1JzrVhwZOCXiQw%3D%3D",
-      "source": "MarketWatch",
-      "published": "20230322T090600",
-      "overall_sentiment_score": 0.03782,
+      "title": "Bank of America Pares Down Wealth Lending Unit",
+      "summary": "Bank of America is reassigning approximately 200 employees from its wealth lending unit to other roles due to a slowdown in loan demand caused by higher interest rates. This move aims to realign talent with areas of greatest need, with fewer than 10 employees being let go, and salaries remain unchanged for those affected. The redeployment reflects broader industry trends where rising interest rates have cooled lending markets, prompting banks to adjust staffing and lending strategies.",
+      "url": "https://www.advisorhub.com/bank-of-america-pares-down-wealth-lending-unit/",
+      "source": "AdvisorHub",
+      "published": "20230327T000000",
+      "overall_sentiment_score": -0.126138,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.142912,
+      "ticker_sentiment_score": -0.123214,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.755073
+      "relevance_score": 0.613104
+    },
+    {
+      "title": "PFXF: Preferreds Without Bank Sector Exposure",
+      "summary": "The article discusses how investors can gain exposure to preferred securities while avoiding the financial sector volatility through the VanEck Preferred Securities ex Financials ETF (PFXF). It highlights that banks dominate the preferreds market (over 75%), posing a risk during banking crises, and explains how PFXF offers diversification, higher historical yields, and lower call risk compared to broad preferreds. The author suggests PFXF as a solution for investors seeking income potential without significant bank exposure.",
+      "url": "https://www.vaneck.com/us/en/blogs/income-investing/pfxf-preferreds-without-bank-sector-exposure/",
+      "source": "VanEck",
+      "published": "20230329T043342",
+      "overall_sentiment_score": -0.233796,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.426382,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.610387
+    },
+    {
+      "title": "Russian bank claims top traders complicit in US$3.2bn trade finance fraud",
+      "summary": "A Russian bank, National Bank Trust (Trust Bank), has accused major commodity traders like Cargill, Louis Dreyfus Company, and Bunge of complicity in a US$3.2bn trade finance fraud. The alleged scheme involved using letters of credit for fictitious trades to circumvent Russian capital requirements and funnel unsecured loans to companies linked to Russian businessman Mikail Shishkhanov. Trust Bank is seeking records and plans to file a lawsuit in the British Virgin Islands to recover losses, while some accused traders dispute the claims and jurisdiction.",
+      "url": "https://www.gtreview.com/news/americas/russian-bank-claims-top-traders-complicit-in-us3-2bn-trade-finance-fraud/",
+      "source": "Global Trade Review (GTR)",
+      "published": "20230322T141400",
+      "overall_sentiment_score": -0.29601,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.202657,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.608732
+    },
+    {
+      "title": "Core Dividend ETF DIVI Sees 9,900% Engagement Jump",
+      "summary": "The Franklin International Core Dividend Tilt Index ETF (DIVI) has experienced a 9,900% year-over-year increase in advisor engagement, according to VettaFi data. This surge is likely driven by the demand for current income amidst inflation and rising interest rates, leading to significant net inflows for the ETF. DIVI, an active strategy focused on foreign equities, offers a 5.7% annual dividend yield and has shown solid outperformance.",
+      "url": "https://www.etftrends.com/volatility-resource-content-hub/core-dividend-etf-divi-sees-9900-engagement-jump/amp/",
+      "source": "ETF Trends",
+      "published": "20230321T181029",
+      "overall_sentiment_score": 0.220417,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.108239,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.583107
     }
   ]
 }

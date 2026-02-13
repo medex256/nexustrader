@@ -7,66 +7,6 @@
   "article_count": 23,
   "articles": [
     {
-      "title": "VIDEO: ETF of the Week: Invesco Senior Loan ETF (BKLN)",
-      "summary": "VettaFi's Head of Research, Todd Rosenbluth, discusses the Invesco Senior Loan ETF (BKLN) with Chuck Jaffe, highlighting its strong inflows, 8% yield, and low interest rate sensitivity due to its floating rate nature. He suggests BKLN as a tactical complement or replacement for traditional high-yield corporate bond ETFs, especially while the Federal Reserve maintains current interest rates. The fund's senior loan structure offers a degree of confidence in case of default risk, positioning it as an intriguing option for investors seeking amplified income.",
-      "url": "https://www.etftrends.com/innovative-etfs-channel/video-invesco-senior-loan-etf-bkln-etf-of-the-week/",
-      "source": "ETF Trends",
-      "published": "20240415T045324",
-      "overall_sentiment_score": 0.193976,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.03686,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.58913
-    },
-    {
-      "title": "Goldman posts stronger-than-expected Q1 results",
-      "summary": "Goldman Sachs Group Inc. reported stronger-than-expected Q1 results, with net income jumping 28% due to strong performance in trading and investment banking. The bank achieved a 14.8% return-on-equity, aligning with long-term targets, and saw significant revenue contributions from fixed-income and equity trading, as well as investment banking. This performance reflects a successful shift back to core Wall Street businesses after previous retail banking struggles.",
-      "url": "https://www.investmentnews.com/independent-broker-dealers/goldman-posts-stronger-than-expected-q1-results/252205",
-      "source": "InvestmentNews",
-      "published": "20240415T000000",
-      "overall_sentiment_score": 0.208226,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.1028,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.62586
-    },
-    {
-      "title": "Schwab Q1 revenue tops estimates",
-      "summary": "Charles Schwab Corp. reported first-quarter net revenue of $4.74 billion, exceeding analysts' estimates of $4.71 billion, despite a 7.3 percent drop from the previous year. The firm anticipates its net interest margin to grow and plans to resume stock repurchases as \"temporary headwinds continue to subside.\" Schwab's shares increased after the announcement, driven by strong asset inflows and client engagement.",
-      "url": "https://www.investmentnews.com/independent-broker-dealers/schwab-q1-revenue-tops-estimates/252211",
-      "source": "InvestmentNews",
-      "published": "20240415T000000",
-      "overall_sentiment_score": 0.142271,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.145697,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.646859
-    },
-    {
-      "title": "Nuveen Announces Closing of $1.25 Billion Senior Notes Offering",
-      "summary": "Nuveen, LLC has announced the closing of a $1.25 billion senior unsecured notes offering, issued in two series: $500 million of 5.550% notes due 2030 and $750 million of 5.850% notes due 2034. The net proceeds are intended for general corporate purposes, including the repayment of $1 billion in existing senior notes due November 2024. The offering was made to qualified institutional buyers and certain non-U.S. persons.",
-      "url": "https://www.quantisnow.com/insight/nuveen-announces-closing-of-125-billion-senior-notes-offering-5405767",
-      "source": "Quantisnow",
-      "published": "20240411T140700",
-      "overall_sentiment_score": -0.086493,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.13238,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.618244
-    },
-    {
-      "title": "Buyers Edge Platform Announces $425M Preferred Equity Investment Led by General Atlantic Credit’s Atlantic Park Fund, Alongside Blackstone Tactical Opportunities and Morgan Stanley Tactical Value",
-      "summary": "Buyers Edge Platform announced a $425M preferred equity investment led by General Atlantic Credit’s Atlantic Park fund, alongside Blackstone Tactical Opportunities and Morgan Stanley Tactical Value. This funding will support continued growth initiatives, including platform innovation, strategic M&A, and European expansion, and involves Bregal Sagemount exiting its minority stake while CEO John Davie increases his majority stake. The company aims to further revolutionize the foodservice industry through technology, purchasing power, and partnerships.",
-      "url": "https://www.generalatlantic.com/media-article/buyers-edge-platform-announces-425m-preferred-equity-investment-led-by-general-atlantic-credits-atlantic-park-fund-alongside-blackstone-tactical-opportunities-and-morgan-stanley-tactical-va/",
-      "source": "General Atlantic",
-      "published": "20240408T000000",
-      "overall_sentiment_score": 0.40222,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.322662,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.562908
-    },
-    {
       "title": "Jamie Dimon's Letter to Shareholder's, Annual Report 2023",
       "summary": "Jamie Dimon's 2023 Letter to Shareholders addresses significant global challenges, including geopolitical tensions and economic uncertainty, while highlighting JPMorgan Chase's record revenue and net income. Dimon discusses the critical impact of AI, the acquisition of First Republic Bank, complex geopolitics, extensive community outreach efforts, and a five-point action plan for climate change. The letter also delves into issues like shrinking public markets, regulatory review, and management lessons for navigating a complex world and strengthening American leadership.",
       "url": "https://www.jpmorganchase.com/ir/annual-report/2023/ar-ceo-letters",
@@ -77,54 +17,6 @@
       "ticker_sentiment_score": 0.436694,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "PayPal And Ripple Launch Stablecoin Initiatives As Crypto Values Rise And Plummet",
-      "summary": "PayPal and Ripple have launched separate stablecoin initiatives aimed at leveraging the stability of these digital currencies for cross-border payments. PayPal's Xoom service now allows U.S. users to fund transfers with its PYUSD stablecoin, converting it to USD, while Ripple plans to launch its own fully backed stablecoin later this year. These moves come as regulatory scrutiny on stablecoins begins to increase, with the Federal Reserve expressing concerns about potential risks to financial stability.",
-      "url": "https://www.digitaltransactions.net/paypal-and-ripple-launch-stablecoin-initiatives-as-crypto-values-rise-and-plummet/",
-      "source": "Digital Transactions",
-      "published": "20240404T000000",
-      "overall_sentiment_score": 0.320585,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.226831,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.565164
-    },
-    {
-      "title": "What is the ARK 21Shares ARKB spot bitcoin ETF?",
-      "summary": "The ARK 21Shares Bitcoin ETF (ARKB) is a spot bitcoin ETF launched on January 11, 2024, by Ark Invest and 21Shares. It allows investors to gain exposure to bitcoin without direct ownership, charging a management fee of 0.21%. Unlike other spot bitcoin ETFs, ARKB has both Ark Invest (sub-advisor) and 21Shares (sponsor) behind it, with Coinbase Custody Trust Company LLC handling its bitcoin custody.",
-      "url": "https://www.theblock.co/learn/284548/what-is-the-arkb-spot-bitcoin-etf",
-      "source": "The Block - Crypto News",
-      "published": "20240403T114600",
-      "overall_sentiment_score": 0.097565,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.087886,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.585539
-    },
-    {
-      "title": "SOCIETE GENERALE AND ALLIANCEBERNSTEIN ANNOUNCE THE OFFICIAL LAUNCH OF BERNSTEIN, A NEW LEADER IN CASH EQUITIES & RESEARCH",
-      "summary": "AllianceBernstein and Societe Generale have officially launched Bernstein, a joint venture that creates a new global leader in cash equities and equity research. This initiative aims to provide institutional investors, corporates, and financial institutions with premier investment insights and liquidity access across major global equity markets. The joint venture, with over 750 employees globally, seeks to combine world-class research with a comprehensive suite of equities services, with Societe Generale eventually aiming for 100% ownership after five years.",
-      "url": "https://www.prnewswire.com/news-releases/societe-generale-and-alliancebernstein-announce-the-official-launch-of-bernstein-a-new-leader-in-cash-equities--research-302105149.html",
-      "source": "PR Newswire",
-      "published": "20240402T010000",
-      "overall_sentiment_score": 0.345229,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.303014,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.611577
-    },
-    {
-      "title": "AlTi Tiedemann Global Acquires East End Advisors",
-      "summary": "AlTi Global, Inc. (NASDAQ: ALTI), a global wealth and alternatives manager, has acquired East End Advisors, an independent advisory firm with approximately $5.6 billion in assets under management. This acquisition, valued at an initial $76 million with additional contingent considerations, expands AlTi's operations in key US regions and enhances its offering in the Outsourced Chief Investment Officer (OCIO) market. The deal, funded by a strategic investment from Allianz X and Constellation Wealth Capital, aims to accelerate AlTi's growth in the ultra-high-net-worth segment.",
-      "url": "https://www.citybiz.co/article/538210/alti-tiedemann-global-acquires-east-end-advisors/",
-      "source": "citybiz",
-      "published": "20240401T044422",
-      "overall_sentiment_score": 0.178025,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.100428,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.605016
     },
     {
       "title": "JPMorgan Chase Declares Preferred Stock Dividends",
@@ -139,6 +31,18 @@
       "relevance_score": 1.0
     },
     {
+      "title": "NYC Comptroller Lander and NYC Public Pension Boards Reach Agreement on Climate Finance Disclosures with JPMorgan Chase, Citi, and Royal Bank of Canada",
+      "summary": "NYC Comptroller Brad Lander and NYC Public Pension Boards have reached agreements with JPMorgan Chase, Citi, and Royal Bank of Canada for these banks to publicly disclose their Energy Supply Ratio, which measures the financing of low-carbon energy against fossil fuels. This new disclosure standard aims to provide investors with better transparency on banks' commitment to climate transition and their progress towards emission reduction goals. The initiative follows successful shareholder engagements and encourages other major banks like Bank of America, Goldman Sachs, and Morgan Stanley to adopt similar practices to address climate-driven financial risks.",
+      "url": "https://comptroller.nyc.gov/newsroom/nyc-comptroller-lander-and-nyc-public-pension-boards-reach-agreement-on-climate-finance-disclosures-with-jpmorgan-chase-citi-and-royal-bank-of-canada/",
+      "source": "NYC.gov",
+      "published": "20240404T000000",
+      "overall_sentiment_score": 0.259994,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.436333,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.989826
+    },
+    {
       "title": "Capital One shareholders urged to approve scope 3 target-setting proposal",
       "summary": "The New York State Common Retirement Fund is urging Capital One shareholders to approve a proposal requesting the bank set scope 3 emissions reductions targets, particularly for its lending and investment activities. The fund argues that these targets are crucial for fully assessing the bank's climate risk exposure and mitigation strategies, pointing out that Capital One's peers have already set such goals. Capital One's board, however, unanimously recommends rejecting the proposal, stating they have existing targets and believe setting scope 3 targets for financed emissions is premature due to complexities and uncertainties.",
       "url": "https://www.esgdive.com/news/capital-one-shareholders-urged-approve-scope-3-target-setting-proposal-nyscr-ceres/713227/",
@@ -151,88 +55,16 @@
       "relevance_score": 0.705817
     },
     {
-      "title": "ETF de Bitcoin da BlackRock é o 3º mais investido por brasileiros no exterior",
-      "summary": "O ETF de Bitcoin da BlackRock, iShares Bitcoin Trust (IBIT), foi o terceiro fundo de índice listado em Bolsas de Valores americanas mais investido por brasileiros em março. Ele ficou atrás apenas dos ETFs que seguem o índice S&P 500 (VOO) e o setor imobiliário dos EUA (VNQ). A BlackRock também nomeou grandes bancos como Citadel, Goldman Sachs, UBS e Citigroup como \"participantes autorizados\" para o IBIT, que já detém mais de US$ 16 bilhões em ativos.",
-      "url": "https://portaldobitcoin.uol.com.br/etf-de-bitcoin-da-blackrock-e-o-3o-mais-investido-por-brasileiros-no-exterior/",
-      "source": "Portal do Bitcoin",
-      "published": "20240413T012922",
-      "overall_sentiment_score": 0.348761,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.325836,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.620841
-    },
-    {
-      "title": "West Virginia stops banking with Citi, Northern Trust, over fossil fuels",
-      "summary": "West Virginia's treasurer, Riley Moore, has added Citigroup Inc., TD Bank, Northern Trust Corp., and HSBC Holdings to a list of financial firms ineligible for state banking services. This decision is based on the state's determination that these firms \"boycott\" the fossil fuels industry, according to their environmental, social, and governance policies and public statements. The move expands a 2022 GOP law that targets financial institutions limiting business with coal, oil, or natural gas companies without a reasonable business purpose, with nine companies now on the state's list.",
-      "url": "https://www.investmentnews.com/ria-news/west-virginia-stops-banking-with-citi-northern-trust-over-fossil-fuels/251990",
+      "title": "Schwab Q1 revenue tops estimates",
+      "summary": "Charles Schwab Corp. reported first-quarter net revenue of $4.74 billion, exceeding analysts' estimates of $4.71 billion, despite a 7.3 percent drop from the previous year. The firm anticipates its net interest margin to grow and plans to resume stock repurchases as \"temporary headwinds continue to subside.\" Schwab's shares increased after the announcement, driven by strong asset inflows and client engagement.",
+      "url": "https://www.investmentnews.com/independent-broker-dealers/schwab-q1-revenue-tops-estimates/252211",
       "source": "InvestmentNews",
-      "published": "20240409T000000",
-      "overall_sentiment_score": -0.183529,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.134186,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.640027
-    },
-    {
-      "title": "BofA urged by proxy advisers to split CEO, chair roles",
-      "summary": "Proxy advisers Glass Lewis and Institutional Shareholder Services (ISS) have urged Bank of America (BAC.N) to split the roles of CEO and chairman, currently held by Brian Moynihan, citing the preference for an independent chair. They argue that separating these roles improves governance and oversight. This recommendation follows similar advice given to Goldman Sachs regarding its CEO and chair roles.",
-      "url": "https://www.reuters.com/business/finance/bofa-urged-by-proxy-advisers-split-ceo-chair-roles-2024-04-05/",
-      "source": "Reuters",
-      "published": "20240405T235700",
-      "overall_sentiment_score": -0.119694,
+      "published": "20240415T000000",
+      "overall_sentiment_score": 0.142271,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.091205,
+      "ticker_sentiment_score": 0.145697,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.609772
-    },
-    {
-      "title": "Arch Insurance NA to acquire Allianz’s US MidCorp & Entertainment insurance businesses",
-      "summary": "Arch Insurance North America is set to acquire Allianz Global Corporate & Specialty SE's (AGCS) US MidCorp and Entertainment insurance businesses for a cash consideration of $450 million to Allianz. The transaction includes the assumption of approximately $2 billion of loss reserves by Arch, bringing the total transaction value for Allianz Group to an estimated $1.4 billion. The acquired businesses, which generated $1.7 billion in gross premium written in 2023, are expected to see around 500 AGCS employees transition to Arch Insurance.",
-      "url": "https://www.reinsurancene.ws/arch-insurance-na-to-acquire-allianzs-us-midcorp-entertainment-insurance-businesses/",
-      "source": "Reinsurance News",
-      "published": "20240405T000000",
-      "overall_sentiment_score": 0.233374,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.142842,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.628377
-    },
-    {
-      "title": "Copel: Radar Gestora reduz participação para 4,98%das ações PNB",
-      "summary": "Radar Gestora de Recursos has reduced its stake in Copel's preferred class B shares (CPLE6) to 4.98%, now holding 83,700,291 shares. The company, Copel, released this information on April 2nd, stating that Radar Gestora declared no agreements regarding voting rights or transactions of the company's securities.",
-      "url": "https://br.advfn.com/noticias/PAPERBR/2024/artigo/93598289",
-      "source": "ADVFN",
-      "published": "20240403T172721",
-      "overall_sentiment_score": 0.122391,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.208156,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.589655
-    },
-    {
-      "title": "Ulta Sparks Rout in Beauty Stocks on Warning of Slowing Demand",
-      "summary": "Ulta Beauty Inc. experienced a significant stock plunge after signaling a slowdown in consumer demand for beauty products, impacting shares of industry peers like Estee Lauder Cos., Coty Inc., and Elf Beauty Inc. The company's executives attributed the unexpected moderation to factors such as higher credit-card debt and the return of student loan payments. Despite the setback, some analysts maintain a positive outlook for the beauty sector, anticipating normalized growth after years of strong expansion.",
-      "url": "https://www.businessoffashion.com/news/beauty/ulta-sparks-rout-in-beauty-stocks-on-warning-of-slowing-demand/",
-      "source": "The Business of Fashion",
-      "published": "20240403T000000",
-      "overall_sentiment_score": -0.253147,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.028907,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.550913
-    },
-    {
-      "title": "Banc of California: Post-Merger Optimism",
-      "summary": "Banc of California CEO Jared Wolff discusses the successful and rapid integration following its 2023 merger with PacWest, which created a $38 billion entity. Wolff highlights the bank's strategy in bridging capital for portfolio companies and managing its commercial real estate exposure, particularly to office space. He also shares his optimistic outlook on the Southern California economy's resilience despite recent regional banking industry shifts and transaction slowdowns.",
-      "url": "https://labusinessjournal.com/special-reports/banc-of-california-post-merger-optimism/",
-      "source": "Los Angeles Business Journal",
-      "published": "20240401T000000",
-      "overall_sentiment_score": 0.103613,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.137535,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.577114
+      "relevance_score": 0.646859
     },
     {
       "title": "Latest: Korea’s FSS to release ELS inspections reports, sanctions framework",
@@ -247,6 +79,66 @@
       "relevance_score": 0.646732
     },
     {
+      "title": "West Virginia stops banking with Citi, Northern Trust, over fossil fuels",
+      "summary": "West Virginia's treasurer, Riley Moore, has added Citigroup Inc., TD Bank, Northern Trust Corp., and HSBC Holdings to a list of financial firms ineligible for state banking services. This decision is based on the state's determination that these firms \"boycott\" the fossil fuels industry, according to their environmental, social, and governance policies and public statements. The move expands a 2022 GOP law that targets financial institutions limiting business with coal, oil, or natural gas companies without a reasonable business purpose, with nine companies now on the state's list.",
+      "url": "https://www.investmentnews.com/ria-news/west-virginia-stops-banking-with-citi-northern-trust-over-fossil-fuels/251990",
+      "source": "InvestmentNews",
+      "published": "20240409T000000",
+      "overall_sentiment_score": -0.183529,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.134186,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.640027
+    },
+    {
+      "title": "Arch Insurance NA to acquire Allianz’s US MidCorp & Entertainment insurance businesses",
+      "summary": "Arch Insurance North America is set to acquire Allianz Global Corporate & Specialty SE's (AGCS) US MidCorp and Entertainment insurance businesses for a cash consideration of $450 million to Allianz. The transaction includes the assumption of approximately $2 billion of loss reserves by Arch, bringing the total transaction value for Allianz Group to an estimated $1.4 billion. The acquired businesses, which generated $1.7 billion in gross premium written in 2023, are expected to see around 500 AGCS employees transition to Arch Insurance.",
+      "url": "https://www.reinsurancene.ws/arch-insurance-na-to-acquire-allianzs-us-midcorp-entertainment-insurance-businesses/",
+      "source": "Reinsurance News",
+      "published": "20240405T000000",
+      "overall_sentiment_score": 0.233374,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.142842,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.628377
+    },
+    {
+      "title": "Goldman posts stronger-than-expected Q1 results",
+      "summary": "Goldman Sachs Group Inc. reported stronger-than-expected Q1 results, with net income jumping 28% due to strong performance in trading and investment banking. The bank achieved a 14.8% return-on-equity, aligning with long-term targets, and saw significant revenue contributions from fixed-income and equity trading, as well as investment banking. This performance reflects a successful shift back to core Wall Street businesses after previous retail banking struggles.",
+      "url": "https://www.investmentnews.com/independent-broker-dealers/goldman-posts-stronger-than-expected-q1-results/252205",
+      "source": "InvestmentNews",
+      "published": "20240415T000000",
+      "overall_sentiment_score": 0.208226,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.1028,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62586
+    },
+    {
+      "title": "ETF de Bitcoin da BlackRock é o 3º mais investido por brasileiros no exterior",
+      "summary": "O ETF de Bitcoin da BlackRock, iShares Bitcoin Trust (IBIT), foi o terceiro fundo de índice listado em Bolsas de Valores americanas mais investido por brasileiros em março. Ele ficou atrás apenas dos ETFs que seguem o índice S&P 500 (VOO) e o setor imobiliário dos EUA (VNQ). A BlackRock também nomeou grandes bancos como Citadel, Goldman Sachs, UBS e Citigroup como \"participantes autorizados\" para o IBIT, que já detém mais de US$ 16 bilhões em ativos.",
+      "url": "https://portaldobitcoin.uol.com.br/etf-de-bitcoin-da-blackrock-e-o-3o-mais-investido-por-brasileiros-no-exterior/",
+      "source": "Portal do Bitcoin",
+      "published": "20240413T012922",
+      "overall_sentiment_score": 0.348761,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.325836,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.620841
+    },
+    {
+      "title": "Nuveen Announces Closing of $1.25 Billion Senior Notes Offering",
+      "summary": "Nuveen, LLC has announced the closing of a $1.25 billion senior unsecured notes offering, issued in two series: $500 million of 5.550% notes due 2030 and $750 million of 5.850% notes due 2034. The net proceeds are intended for general corporate purposes, including the repayment of $1 billion in existing senior notes due November 2024. The offering was made to qualified institutional buyers and certain non-U.S. persons.",
+      "url": "https://www.quantisnow.com/insight/nuveen-announces-closing-of-125-billion-senior-notes-offering-5405767",
+      "source": "Quantisnow",
+      "published": "20240411T140700",
+      "overall_sentiment_score": -0.086493,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.13238,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.618244
+    },
+    {
       "title": "Is Now a Good Time to Invest in Oil Stocks?",
       "summary": "The article explores the question of investing in oil stocks in 2024, given the sector's historical volatility and current market trends. It details factors such as OPEC+ production cuts, geopolitical conflicts, potential interest rate cuts, and China's demand, all of which are influencing oil prices. Analysts from S&P Global Commodity Insights, J.P. Morgan, and US Bank Wealth Management weigh in on the outlook, generally showing bullish sentiment for oil stocks due to expected supply-demand gaps and strong profit margins.",
       "url": "https://investingnews.com/now-good-time-invest-oil-stocks/",
@@ -259,16 +151,28 @@
       "relevance_score": 0.615864
     },
     {
-      "title": "NYC Comptroller Lander and NYC Public Pension Boards Reach Agreement on Climate Finance Disclosures with JPMorgan Chase, Citi, and Royal Bank of Canada",
-      "summary": "NYC Comptroller Brad Lander and NYC Public Pension Boards have reached agreements with JPMorgan Chase, Citi, and Royal Bank of Canada for these banks to publicly disclose their Energy Supply Ratio, which measures the financing of low-carbon energy against fossil fuels. This new disclosure standard aims to provide investors with better transparency on banks' commitment to climate transition and their progress towards emission reduction goals. The initiative follows successful shareholder engagements and encourages other major banks like Bank of America, Goldman Sachs, and Morgan Stanley to adopt similar practices to address climate-driven financial risks.",
-      "url": "https://comptroller.nyc.gov/newsroom/nyc-comptroller-lander-and-nyc-public-pension-boards-reach-agreement-on-climate-finance-disclosures-with-jpmorgan-chase-citi-and-royal-bank-of-canada/",
-      "source": "NYC.gov",
-      "published": "20240404T000000",
-      "overall_sentiment_score": 0.259994,
+      "title": "SOCIETE GENERALE AND ALLIANCEBERNSTEIN ANNOUNCE THE OFFICIAL LAUNCH OF BERNSTEIN, A NEW LEADER IN CASH EQUITIES & RESEARCH",
+      "summary": "AllianceBernstein and Societe Generale have officially launched Bernstein, a joint venture that creates a new global leader in cash equities and equity research. This initiative aims to provide institutional investors, corporates, and financial institutions with premier investment insights and liquidity access across major global equity markets. The joint venture, with over 750 employees globally, seeks to combine world-class research with a comprehensive suite of equities services, with Societe Generale eventually aiming for 100% ownership after five years.",
+      "url": "https://www.prnewswire.com/news-releases/societe-generale-and-alliancebernstein-announce-the-official-launch-of-bernstein-a-new-leader-in-cash-equities--research-302105149.html",
+      "source": "PR Newswire",
+      "published": "20240402T010000",
+      "overall_sentiment_score": 0.345229,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.436333,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.989826
+      "ticker_sentiment_score": 0.303014,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.611577
+    },
+    {
+      "title": "BofA urged by proxy advisers to split CEO, chair roles",
+      "summary": "Proxy advisers Glass Lewis and Institutional Shareholder Services (ISS) have urged Bank of America (BAC.N) to split the roles of CEO and chairman, currently held by Brian Moynihan, citing the preference for an independent chair. They argue that separating these roles improves governance and oversight. This recommendation follows similar advice given to Goldman Sachs regarding its CEO and chair roles.",
+      "url": "https://www.reuters.com/business/finance/bofa-urged-by-proxy-advisers-split-ceo-chair-roles-2024-04-05/",
+      "source": "Reuters",
+      "published": "20240405T235700",
+      "overall_sentiment_score": -0.119694,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.091205,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.609772
     },
     {
       "title": "Treasury Yields Snapshot: April 5, 2024",
@@ -281,6 +185,102 @@
       "ticker_sentiment_score": 0.104811,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.606692
+    },
+    {
+      "title": "AlTi Tiedemann Global Acquires East End Advisors",
+      "summary": "AlTi Global, Inc. (NASDAQ: ALTI), a global wealth and alternatives manager, has acquired East End Advisors, an independent advisory firm with approximately $5.6 billion in assets under management. This acquisition, valued at an initial $76 million with additional contingent considerations, expands AlTi's operations in key US regions and enhances its offering in the Outsourced Chief Investment Officer (OCIO) market. The deal, funded by a strategic investment from Allianz X and Constellation Wealth Capital, aims to accelerate AlTi's growth in the ultra-high-net-worth segment.",
+      "url": "https://www.citybiz.co/article/538210/alti-tiedemann-global-acquires-east-end-advisors/",
+      "source": "citybiz",
+      "published": "20240401T044422",
+      "overall_sentiment_score": 0.178025,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.100428,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.605016
+    },
+    {
+      "title": "Copel: Radar Gestora reduz participação para 4,98%das ações PNB",
+      "summary": "Radar Gestora de Recursos has reduced its stake in Copel's preferred class B shares (CPLE6) to 4.98%, now holding 83,700,291 shares. The company, Copel, released this information on April 2nd, stating that Radar Gestora declared no agreements regarding voting rights or transactions of the company's securities.",
+      "url": "https://br.advfn.com/noticias/PAPERBR/2024/artigo/93598289",
+      "source": "ADVFN",
+      "published": "20240403T172721",
+      "overall_sentiment_score": 0.122391,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.208156,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.589655
+    },
+    {
+      "title": "VIDEO: ETF of the Week: Invesco Senior Loan ETF (BKLN)",
+      "summary": "VettaFi's Head of Research, Todd Rosenbluth, discusses the Invesco Senior Loan ETF (BKLN) with Chuck Jaffe, highlighting its strong inflows, 8% yield, and low interest rate sensitivity due to its floating rate nature. He suggests BKLN as a tactical complement or replacement for traditional high-yield corporate bond ETFs, especially while the Federal Reserve maintains current interest rates. The fund's senior loan structure offers a degree of confidence in case of default risk, positioning it as an intriguing option for investors seeking amplified income.",
+      "url": "https://www.etftrends.com/innovative-etfs-channel/video-invesco-senior-loan-etf-bkln-etf-of-the-week/",
+      "source": "ETF Trends",
+      "published": "20240415T045324",
+      "overall_sentiment_score": 0.193976,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.03686,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.58913
+    },
+    {
+      "title": "What is the ARK 21Shares ARKB spot bitcoin ETF?",
+      "summary": "The ARK 21Shares Bitcoin ETF (ARKB) is a spot bitcoin ETF launched on January 11, 2024, by Ark Invest and 21Shares. It allows investors to gain exposure to bitcoin without direct ownership, charging a management fee of 0.21%. Unlike other spot bitcoin ETFs, ARKB has both Ark Invest (sub-advisor) and 21Shares (sponsor) behind it, with Coinbase Custody Trust Company LLC handling its bitcoin custody.",
+      "url": "https://www.theblock.co/learn/284548/what-is-the-arkb-spot-bitcoin-etf",
+      "source": "The Block - Crypto News",
+      "published": "20240403T114600",
+      "overall_sentiment_score": 0.097565,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.087886,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.585539
+    },
+    {
+      "title": "Banc of California: Post-Merger Optimism",
+      "summary": "Banc of California CEO Jared Wolff discusses the successful and rapid integration following its 2023 merger with PacWest, which created a $38 billion entity. Wolff highlights the bank's strategy in bridging capital for portfolio companies and managing its commercial real estate exposure, particularly to office space. He also shares his optimistic outlook on the Southern California economy's resilience despite recent regional banking industry shifts and transaction slowdowns.",
+      "url": "https://labusinessjournal.com/special-reports/banc-of-california-post-merger-optimism/",
+      "source": "Los Angeles Business Journal",
+      "published": "20240401T000000",
+      "overall_sentiment_score": 0.103613,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.137535,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.577114
+    },
+    {
+      "title": "PayPal And Ripple Launch Stablecoin Initiatives As Crypto Values Rise And Plummet",
+      "summary": "PayPal and Ripple have launched separate stablecoin initiatives aimed at leveraging the stability of these digital currencies for cross-border payments. PayPal's Xoom service now allows U.S. users to fund transfers with its PYUSD stablecoin, converting it to USD, while Ripple plans to launch its own fully backed stablecoin later this year. These moves come as regulatory scrutiny on stablecoins begins to increase, with the Federal Reserve expressing concerns about potential risks to financial stability.",
+      "url": "https://www.digitaltransactions.net/paypal-and-ripple-launch-stablecoin-initiatives-as-crypto-values-rise-and-plummet/",
+      "source": "Digital Transactions",
+      "published": "20240404T000000",
+      "overall_sentiment_score": 0.320585,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.226831,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.565164
+    },
+    {
+      "title": "Buyers Edge Platform Announces $425M Preferred Equity Investment Led by General Atlantic Credit’s Atlantic Park Fund, Alongside Blackstone Tactical Opportunities and Morgan Stanley Tactical Value",
+      "summary": "Buyers Edge Platform announced a $425M preferred equity investment led by General Atlantic Credit’s Atlantic Park fund, alongside Blackstone Tactical Opportunities and Morgan Stanley Tactical Value. This funding will support continued growth initiatives, including platform innovation, strategic M&A, and European expansion, and involves Bregal Sagemount exiting its minority stake while CEO John Davie increases his majority stake. The company aims to further revolutionize the foodservice industry through technology, purchasing power, and partnerships.",
+      "url": "https://www.generalatlantic.com/media-article/buyers-edge-platform-announces-425m-preferred-equity-investment-led-by-general-atlantic-credits-atlantic-park-fund-alongside-blackstone-tactical-opportunities-and-morgan-stanley-tactical-va/",
+      "source": "General Atlantic",
+      "published": "20240408T000000",
+      "overall_sentiment_score": 0.40222,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.322662,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.562908
+    },
+    {
+      "title": "Ulta Sparks Rout in Beauty Stocks on Warning of Slowing Demand",
+      "summary": "Ulta Beauty Inc. experienced a significant stock plunge after signaling a slowdown in consumer demand for beauty products, impacting shares of industry peers like Estee Lauder Cos., Coty Inc., and Elf Beauty Inc. The company's executives attributed the unexpected moderation to factors such as higher credit-card debt and the return of student loan payments. Despite the setback, some analysts maintain a positive outlook for the beauty sector, anticipating normalized growth after years of strong expansion.",
+      "url": "https://www.businessoffashion.com/news/beauty/ulta-sparks-rout-in-beauty-stocks-on-warning-of-slowing-demand/",
+      "source": "The Business of Fashion",
+      "published": "20240403T000000",
+      "overall_sentiment_score": -0.253147,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.028907,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.550913
     }
   ]
 }

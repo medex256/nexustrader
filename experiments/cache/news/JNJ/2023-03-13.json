@@ -7,16 +7,16 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "Rapport Therapeutics Launches with $100 Million to Transform the Treatment of Neurological Disease through the Discovery and Development of Precision Therapies",
-      "summary": "Rapport Therapeutics has launched with $100 million in Series A financing to develop precision medicines for neurological disorders. The company's novel platform targets specific neural circuits using receptor-associated proteins, with its lead asset already in Phase 1 for seizure disorders. Abraham Ceesay has been appointed as CEO to lead the company's mission to transform neuroscience treatment.",
-      "url": "https://www.businesswire.com/news/home/20230307005230/en/Rapport-Therapeutics-Launches-with-%24100-Million-to-Transform-the-Treatment-of-Neurological-Disease-through-the-Discovery-and-Development-of-Precision-Therapies",
-      "source": "Business Wire",
+      "title": "J&J-backed startup launches with $100M to build better brain drugs",
+      "summary": "Rapport Therapeutics, a neuroscience-focused biotech, has launched with $100 million in Series A funding from venture capital firms and Johnson & Johnson's innovation arm. The company aims to develop more precise treatments for neurological disorders by targeting receptor-associated proteins (RAPs) that are localized to specific brain regions. Its most advanced program is already in early human testing for drug-resistant seizure disorders",
+      "url": "https://www.biopharmadive.com/news/rapport-therapeutics-launch-series-a-johnson-johnson/644298/",
+      "source": "BioPharma Dive",
       "published": "20230307T153026",
-      "overall_sentiment_score": 0.246812,
+      "overall_sentiment_score": 0.16671,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.415841,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.71031
+      "ticker_sentiment_score": 0.346699,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.815771
     },
     {
       "title": "Rapport Therapeutics Snags $100M for Precision Approach to Neurological Diseases",
@@ -31,28 +31,16 @@
       "relevance_score": 0.74048
     },
     {
-      "title": "J&J-backed startup launches with $100M to build better brain drugs",
-      "summary": "Rapport Therapeutics, a neuroscience-focused biotech, has launched with $100 million in Series A funding from venture capital firms and Johnson & Johnson's innovation arm. The company aims to develop more precise treatments for neurological disorders by targeting receptor-associated proteins (RAPs) that are localized to specific brain regions. Its most advanced program is already in early human testing for drug-resistant seizure disorders",
-      "url": "https://www.biopharmadive.com/news/rapport-therapeutics-launch-series-a-johnson-johnson/644298/",
-      "source": "BioPharma Dive",
+      "title": "Rapport Therapeutics Launches with $100 Million to Transform the Treatment of Neurological Disease through the Discovery and Development of Precision Therapies",
+      "summary": "Rapport Therapeutics has launched with $100 million in Series A financing to develop precision medicines for neurological disorders. The company's novel platform targets specific neural circuits using receptor-associated proteins, with its lead asset already in Phase 1 for seizure disorders. Abraham Ceesay has been appointed as CEO to lead the company's mission to transform neuroscience treatment.",
+      "url": "https://www.businesswire.com/news/home/20230307005230/en/Rapport-Therapeutics-Launches-with-%24100-Million-to-Transform-the-Treatment-of-Neurological-Disease-through-the-Discovery-and-Development-of-Precision-Therapies",
+      "source": "Business Wire",
       "published": "20230307T153026",
-      "overall_sentiment_score": 0.16671,
+      "overall_sentiment_score": 0.246812,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.346699,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.815771
-    },
-    {
-      "title": "CARGO Therapeutics Raises $200 Million in Oversubscribed, Upsized Series A Financing to Advance its Pipeline of Next Generation CAR T-Cell Therapies",
-      "summary": "CARGO Therapeutics has successfully raised $200 million in an oversubscribed and upsized Series A financing round. This funding will be used to advance their pipeline of next-generation CAR T-cell therapies, including their lead candidate CRG-022 (CD22 CAR) for large B-cell lymphoma (LBCL) patients who have relapsed after CD19 CAR T-cell therapy. The company plans to commence a pivotal Phase 2 trial for CRG-022 in mid-2023, building on promising initial Phase 1 results and a Breakthrough Therapy Designation from the FDA.",
-      "url": "https://www.globenewswire.com/news-release/2023/03/01/2618358/0/en/CARGO-Therapeutics-Raises-200-Million-in-Oversubscribed-Upsized-Series-A-Financing-to-Advance-its-Pipeline-of-Next-Generation-CAR-T-Cell-Therapies.html",
-      "source": "GlobeNewswire",
-      "published": "20230301T093000",
-      "overall_sentiment_score": 0.131095,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.137697,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.595858
+      "ticker_sentiment_score": 0.415841,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.71031
     },
     {
       "title": "Schwab U.S. Large-Cap Value ETF Holdings List (NYSEARCA:SCHV)",
@@ -65,6 +53,18 @@
       "ticker_sentiment_score": 0.094474,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.610015
+    },
+    {
+      "title": "CARGO Therapeutics Raises $200 Million in Oversubscribed, Upsized Series A Financing to Advance its Pipeline of Next Generation CAR T-Cell Therapies",
+      "summary": "CARGO Therapeutics has successfully raised $200 million in an oversubscribed and upsized Series A financing round. This funding will be used to advance their pipeline of next-generation CAR T-cell therapies, including their lead candidate CRG-022 (CD22 CAR) for large B-cell lymphoma (LBCL) patients who have relapsed after CD19 CAR T-cell therapy. The company plans to commence a pivotal Phase 2 trial for CRG-022 in mid-2023, building on promising initial Phase 1 results and a Breakthrough Therapy Designation from the FDA.",
+      "url": "https://www.globenewswire.com/news-release/2023/03/01/2618358/0/en/CARGO-Therapeutics-Raises-200-Million-in-Oversubscribed-Upsized-Series-A-Financing-to-Advance-its-Pipeline-of-Next-Generation-CAR-T-Cell-Therapies.html",
+      "source": "GlobeNewswire",
+      "published": "20230301T093000",
+      "overall_sentiment_score": 0.131095,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.137697,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.595858
     }
   ]
 }

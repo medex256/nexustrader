@@ -7,6 +7,18 @@
   "article_count": 6,
   "articles": [
     {
+      "title": "Apple Signs Deal For AI Training Data from Image Service Shutterstock",
+      "summary": "Apple has signed a deal worth between $25 million and $50 million with Shutterstock to access its vast archive of images, video, and music for training AI systems. This move indicates Apple's strategic intent to develop its own AI models, rather than relying solely on existing solutions. The deal highlights Apple's characteristic approach to adhere to rules and protect user privacy, contrasting with some competitors' controversial methods of data acquisition.",
+      "url": "https://www.inc.com/kit-eaton/apple-signs-deal-for-ai-training-data-from-image-service-shutterstock.html",
+      "source": "Inc.com",
+      "published": "20240409T000000",
+      "overall_sentiment_score": 0.062607,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.204052,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.901975
+    },
+    {
       "title": "F5 Networks (FFIV) Appoints Kunal Anand as Chief Technology Officer",
       "summary": "F5, Inc. announced the appointment of Kunal Anand as Executive Vice President and Chief Technology Officer (CTO), alongside Lyra Schramm as Executive Vice President and Chief People Officer (CPO). Anand will be responsible for F5's technology vision, leveraging his expertise in cybersecurity and data to accelerate the company's leadership in application and API security. Schramm will focus on driving people initiatives and fostering an innovative workplace culture.",
       "url": "https://www.streetinsider.com/Corporate+News/F5+Networks+%28FFIV%29+Appoints+Kunal+Anand+as+Chief+Technology+Officer/23011600.html",
@@ -17,6 +29,18 @@
       "ticker_sentiment_score": 0.258537,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.709971
+    },
+    {
+      "title": "PDD Holdings: Is The Chinese E-Commerce Giant Worth The Risk?",
+      "summary": "PDD Holdings, the company behind Pinduoduo and Temu, has attracted investor attention despite a recent 17% decline in its Nasdaq-listed shares, with analysts overwhelmingly bullish. The article explores PDD's rapid growth through international expansion, exemplary financial performance, and low-cost business model, while also dissecting risks related to corporate governance concerns like the absence of a CFO, lack of transparency regarding Temu's financials, reliance on outsourcing, and geopolitical tensions. Investors are advised to weigh these risks against potential rewards for informed decision-making.",
+      "url": "https://www.disruptionbanking.com/2024/04/02/pdd-holdings-is-the-chinese-e-commerce-giant-worth-the-risk/",
+      "source": "Disruption Banking",
+      "published": "20240402T000000",
+      "overall_sentiment_score": 0.265754,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.335522,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.643068
     },
     {
       "title": "EQT Corp. (EQT) to Acquire Avetta from WCAS",
@@ -31,18 +55,6 @@
       "relevance_score": 0.618183
     },
     {
-      "title": "Apple Signs Deal For AI Training Data from Image Service Shutterstock",
-      "summary": "Apple has signed a deal worth between $25 million and $50 million with Shutterstock to access its vast archive of images, video, and music for training AI systems. This move indicates Apple's strategic intent to develop its own AI models, rather than relying solely on existing solutions. The deal highlights Apple's characteristic approach to adhere to rules and protect user privacy, contrasting with some competitors' controversial methods of data acquisition.",
-      "url": "https://www.inc.com/kit-eaton/apple-signs-deal-for-ai-training-data-from-image-service-shutterstock.html",
-      "source": "Inc.com",
-      "published": "20240409T000000",
-      "overall_sentiment_score": 0.062607,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.204052,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.901975
-    },
-    {
       "title": "Target shopper data, streaming TV ads are key to its sales",
       "summary": "Target is increasingly relying on its retail media unit, Roundel, which creates and sells ads using shopper data and streaming TV ads, to drive revenue and improve gross margins. Despite declining merchandise sales, Target's ad business grew over 20% in its last fiscal year, leveraging insights from 250 million annual store and website visits to target specific shoppers for brands like Enfamil and Apple. While the ad business provides significant value, some advertisers note that Roundel offers less control over campaigns compared to rivals like Amazon and Walmart.",
       "url": "https://www.reuters.com/business/retail-consumer/target-shopper-data-streaming-tv-ads-are-key-its-sales-2024-04-02/",
@@ -53,18 +65,6 @@
       "ticker_sentiment_score": 0.329622,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.616258
-    },
-    {
-      "title": "PDD Holdings: Is The Chinese E-Commerce Giant Worth The Risk?",
-      "summary": "PDD Holdings, the company behind Pinduoduo and Temu, has attracted investor attention despite a recent 17% decline in its Nasdaq-listed shares, with analysts overwhelmingly bullish. The article explores PDD's rapid growth through international expansion, exemplary financial performance, and low-cost business model, while also dissecting risks related to corporate governance concerns like the absence of a CFO, lack of transparency regarding Temu's financials, reliance on outsourcing, and geopolitical tensions. Investors are advised to weigh these risks against potential rewards for informed decision-making.",
-      "url": "https://www.disruptionbanking.com/2024/04/02/pdd-holdings-is-the-chinese-e-commerce-giant-worth-the-risk/",
-      "source": "Disruption Banking",
-      "published": "20240402T000000",
-      "overall_sentiment_score": 0.265754,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.335522,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.643068
     },
     {
       "title": "If I Could Only Buy and Hold 1 Vanguard ETF For the Next 5 Years, This Would Be My Top Pick",

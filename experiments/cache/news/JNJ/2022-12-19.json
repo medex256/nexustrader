@@ -7,6 +7,30 @@
   "article_count": 7,
   "articles": [
     {
+      "title": "Johnson & Johnson extends tender offer for Abiomed acquisition",
+      "summary": "Johnson & Johnson (NYSE:JNJ) announced an extension of its tender offer to acquire Abiomed (Nasdaq:ABMD) for approximately $16.6 billion, pushing the expiration date to December 21, 2022. The deal includes an upfront payment of $380 per share and a contingent value right up to $35 per share based on commercial and clinical milestones. This acquisition aims to bolster J&J's MedTech business and its cardiovascular innovation portfolio.",
+      "url": "https://www.massdevice.com/johnson-johnson-extends-tender-offer-abiomed-acquisition/",
+      "source": "MassDevice",
+      "published": "20221214T171642",
+      "overall_sentiment_score": 0.339761,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.331365,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "State Street Health Care Select Sector SPDR ETF (XLV) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of the Health Care Select Sector SPDR Fund (XLV), including its current stock price, key statistics, holdings, dividend data, and historical performance. As of Q3 2025, XLV has 60 holdings with a total value of $33.97 billion, with top holdings being Eli Lilly and Co, Johnson & Johnson, AbbVie Inc, UnitedHealth Group Inc, and Abbott Laboratories. The article also provides historical data for Price-to-Earnings, Price-to-Book, and Dividend Yield.",
+      "url": "https://www.gurufocus.com/etf/XLV/summary",
+      "source": "GuruFocus",
+      "published": "20221214T051044",
+      "overall_sentiment_score": 0.124069,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.111233,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.742659
+    },
+    {
       "title": "Staar Surgical CEO Caren Mason retires, replacement named",
       "summary": "Staar Surgical announced that President and CEO Caren Mason will retire at the end of 2022 after more than seven years, during which she oversaw significant growth and shareholder value increase. Thomas G. Frinzi, a veteran of the ophthalmic industry and current board chair, will succeed her on January 1, 2023. The company also provided its Q4 revenue projection, which analysts viewed positively despite a dip in STAA shares following the announcement.",
       "url": "https://www.massdevice.com/staar-surgical-ceo-caren-mason-retires/",
@@ -17,18 +41,6 @@
       "ticker_sentiment_score": 0.144362,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.647082
-    },
-    {
-      "title": "Story from Pacira BioScience: Local surgeon enhances mastectomy patients’ recovery with non-opioid options",
-      "summary": "This article highlights how Dr. Quintessa Miller in Destin, Florida, is improving mastectomy patients' recovery by using non-opioid pain management options. She incorporates EXPAREL into her Enhanced Recovery After Surgery (ERAS) protocols, significantly reducing the need for opioids post-operatively. The article emphasizes the importance of non-opioid options in mitigating the risks associated with the opioid epidemic while enhancing patient recovery.",
-      "url": "https://www.pnj.com/story/sponsor-story/pacira-biosciences/2022/12/19/local-surgeon-enhances-mastectomy-patients-recovery-with-non-opioid-options/69734241007/",
-      "source": "Pensacola News Journal",
-      "published": "20221219T180632",
-      "overall_sentiment_score": 0.303861,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.219136,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.615695
     },
     {
       "title": "Zimmer Biomet Holdings Inc. stock outperforms market despite losses on the day",
@@ -43,16 +55,16 @@
       "relevance_score": 0.64494
     },
     {
-      "title": "Johnson & Johnson extends tender offer for Abiomed acquisition",
-      "summary": "Johnson & Johnson (NYSE:JNJ) announced an extension of its tender offer to acquire Abiomed (Nasdaq:ABMD) for approximately $16.6 billion, pushing the expiration date to December 21, 2022. The deal includes an upfront payment of $380 per share and a contingent value right up to $35 per share based on commercial and clinical milestones. This acquisition aims to bolster J&J's MedTech business and its cardiovascular innovation portfolio.",
-      "url": "https://www.massdevice.com/johnson-johnson-extends-tender-offer-abiomed-acquisition/",
-      "source": "MassDevice",
-      "published": "20221214T171642",
-      "overall_sentiment_score": 0.339761,
+      "title": "Story from Pacira BioScience: Local surgeon enhances mastectomy patients’ recovery with non-opioid options",
+      "summary": "This article highlights how Dr. Quintessa Miller in Destin, Florida, is improving mastectomy patients' recovery by using non-opioid pain management options. She incorporates EXPAREL into her Enhanced Recovery After Surgery (ERAS) protocols, significantly reducing the need for opioids post-operatively. The article emphasizes the importance of non-opioid options in mitigating the risks associated with the opioid epidemic while enhancing patient recovery.",
+      "url": "https://www.pnj.com/story/sponsor-story/pacira-biosciences/2022/12/19/local-surgeon-enhances-mastectomy-patients-recovery-with-non-opioid-options/69734241007/",
+      "source": "Pensacola News Journal",
+      "published": "20221219T180632",
+      "overall_sentiment_score": 0.303861,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.331365,
+      "ticker_sentiment_score": 0.219136,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 1.0
+      "relevance_score": 0.615695
     },
     {
       "title": "Palo Alto Networks Unveils Zero Trust Security Solution for Medical Devices",
@@ -65,18 +77,6 @@
       "ticker_sentiment_score": 0.100391,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.569114
-    },
-    {
-      "title": "State Street Health Care Select Sector SPDR ETF (XLV) Stock Price, Holdings, Dividend Yield",
-      "summary": "This article provides a detailed overview of the Health Care Select Sector SPDR Fund (XLV), including its current stock price, key statistics, holdings, dividend data, and historical performance. As of Q3 2025, XLV has 60 holdings with a total value of $33.97 billion, with top holdings being Eli Lilly and Co, Johnson & Johnson, AbbVie Inc, UnitedHealth Group Inc, and Abbott Laboratories. The article also provides historical data for Price-to-Earnings, Price-to-Book, and Dividend Yield.",
-      "url": "https://www.gurufocus.com/etf/XLV/summary",
-      "source": "GuruFocus",
-      "published": "20221214T051044",
-      "overall_sentiment_score": 0.124069,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.111233,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.742659
     },
     {
       "title": "Edison Electrification Software Health Platform | GE News",

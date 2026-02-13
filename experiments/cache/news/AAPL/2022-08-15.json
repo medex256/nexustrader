@@ -7,16 +7,28 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "Invisalign Photo Uploader by Align Technology, Inc.",
-      "summary": "The Invisalign Photo Uploader application, developed by Align Technology, Inc., allows Invisalign Providers and their staff to easily create patient profiles, take high-quality photos, and submit them to the Invisalign Doctor Site. The app offers features like guided photo-taking, auto-cropping, quality analysis, and direct upload, alongside an option to export photos for doctor records. It is intended exclusively for Invisalign providers.",
-      "url": "https://appadvice.com/app/invisalign-photo-uploader/1159148906",
-      "source": "AppAdvice",
-      "published": "20220811T160640",
-      "overall_sentiment_score": 0.284182,
+      "title": "Apple buys HP’s 67-acre San Diego campus as it expands footprint and works on custom modem",
+      "summary": "Apple has purchased HP's former 67-acre campus in San Diego for $445 million, marking a significant investment in its engineering efforts in Southern California. The acquisition is intended to support Apple's expanding work on an in-house modem and other wireless technologies, with plans to increase local job creation from 1,200 to 5,000 by 2026. This move reinforces Apple's commitment to bringing more hardware components in-house, despite potential delays in its own modem deployment.",
+      "url": "https://9to5mac.com/2022/08/01/apple-new-san-diego-campus-modem-work/",
+      "source": "9to5Mac",
+      "published": "20220801T123600",
+      "overall_sentiment_score": 0.224562,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.145205,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.721237
+      "ticker_sentiment_score": 0.416104,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Jamf Holding Corp. (JAMF) Q2 2022 Earnings Call Transcript",
+      "summary": "Jamf Holding Corp. reported strong Q2 2022 earnings, exceeding expectations with 40% ARR growth and 34% revenue growth. The company highlighted significant expansion in commercial and education markets, driven by product diversification and a growing demand for Apple device management and security solutions. Key wins included Red Bull consolidating Apple devices with Jamf Pro and a large education program in Taiwan adopting Jamf for 80% of its schools, despite an uncertain macroeconomic environment and hardware supply issues.",
+      "url": "https://www.fool.com/earnings/call-transcripts/2022/08/05/jamf-holding-corp-jamf-q2-2022-earnings-call-trans/",
+      "source": "The Motley Fool",
+      "published": "20220805T040100",
+      "overall_sentiment_score": 0.359465,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.220544,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.780764
     },
     {
       "title": "Direxion Launches Apple & Tesla Single-Stock ETFs",
@@ -29,6 +41,18 @@
       "ticker_sentiment_score": 0.305944,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.733656
+    },
+    {
+      "title": "Invisalign Photo Uploader by Align Technology, Inc.",
+      "summary": "The Invisalign Photo Uploader application, developed by Align Technology, Inc., allows Invisalign Providers and their staff to easily create patient profiles, take high-quality photos, and submit them to the Invisalign Doctor Site. The app offers features like guided photo-taking, auto-cropping, quality analysis, and direct upload, alongside an option to export photos for doctor records. It is intended exclusively for Invisalign providers.",
+      "url": "https://appadvice.com/app/invisalign-photo-uploader/1159148906",
+      "source": "AppAdvice",
+      "published": "20220811T160640",
+      "overall_sentiment_score": 0.284182,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.145205,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.721237
     },
     {
       "title": "Microstrategy Outperforms Every Asset Class and Big Tech Stock Since Adopting Bitcoin Strategy, Says CEO",
@@ -53,30 +77,6 @@
       "ticker_sentiment_score": 0.114066,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.643494
-    },
-    {
-      "title": "Jamf Holding Corp. (JAMF) Q2 2022 Earnings Call Transcript",
-      "summary": "Jamf Holding Corp. reported strong Q2 2022 earnings, exceeding expectations with 40% ARR growth and 34% revenue growth. The company highlighted significant expansion in commercial and education markets, driven by product diversification and a growing demand for Apple device management and security solutions. Key wins included Red Bull consolidating Apple devices with Jamf Pro and a large education program in Taiwan adopting Jamf for 80% of its schools, despite an uncertain macroeconomic environment and hardware supply issues.",
-      "url": "https://www.fool.com/earnings/call-transcripts/2022/08/05/jamf-holding-corp-jamf-q2-2022-earnings-call-trans/",
-      "source": "The Motley Fool",
-      "published": "20220805T040100",
-      "overall_sentiment_score": 0.359465,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.220544,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.780764
-    },
-    {
-      "title": "Apple buys HP’s 67-acre San Diego campus as it expands footprint and works on custom modem",
-      "summary": "Apple has purchased HP's former 67-acre campus in San Diego for $445 million, marking a significant investment in its engineering efforts in Southern California. The acquisition is intended to support Apple's expanding work on an in-house modem and other wireless technologies, with plans to increase local job creation from 1,200 to 5,000 by 2026. This move reinforces Apple's commitment to bringing more hardware components in-house, despite potential delays in its own modem deployment.",
-      "url": "https://9to5mac.com/2022/08/01/apple-new-san-diego-campus-modem-work/",
-      "source": "9to5Mac",
-      "published": "20220801T123600",
-      "overall_sentiment_score": 0.224562,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.416104,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
     }
   ]
 }

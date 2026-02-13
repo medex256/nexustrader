@@ -7,54 +7,6 @@
   "article_count": 22,
   "articles": [
     {
-      "title": "Walker & Dunlop Adds Betsy Blau, Ryan Smith to Affordable Lending Team in Nashville",
-      "summary": "Walker & Dunlop has expanded its Nashville affordable housing finance team by adding Ryan Smith as senior director and Betsy Blau as associate director. Smith and Blau bring nearly 30 years of combined experience from Colliers Mortgage, having financed over $2.5 billion in commercial real estate assets. Their addition is part of Walker & Dunlop's strategic expansion in affordable housing debt and equity offerings, following their acquisition of Alliant Capital in 2021.",
-      "url": "https://www.connectcre.com/stories/walker-dunlop-adds-ryan-smith-betsy-blau-to-affordable-lending-team-in-nashville/",
-      "source": "Connect CRE",
-      "published": "20220630T191610",
-      "overall_sentiment_score": 0.349629,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.307389,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.630463
-    },
-    {
-      "title": "PNC Financial Services Group closing branch at PNC Park in Pittsburgh - Pittsburgh Business Times",
-      "summary": "PNC Financial Services Group is closing its branch located at PNC Park in Pittsburgh as of September 23, 2022. This closure is part of a larger plan by PNC to cut four branches, all of which will cease operations on the same date. The branch closing is notable given that PNC Park shares the bank's name.",
-      "url": "https://www.bizjournals.com/pittsburgh/news/2022/06/30/pnc-closing-branch-at-pnc-park.html",
-      "source": "The Business Journals",
-      "published": "20220630T180730",
-      "overall_sentiment_score": -0.057905,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.107961,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.619094
-    },
-    {
-      "title": "$1.5 Trillion Asset Manager Northern Trust Creates Digital Assets Group To Meet Growing Demand",
-      "summary": "Northern Trust, a $1.5 trillion asset manager, has established a new Digital Assets and Financial Markets Group to help traditional investors gain exposure to digital assets. This move combines digital asset markets with traditional securities services, demonstrating continued institutional interest in the crypto space despite recent market downturns. The firm has a history of blockchain involvement, including supporting Bitcoin and Ethereum investors and co-launching a crypto administration firm.",
-      "url": "https://www.forbes.com/sites/michaeldelcastillo/2022/06/23/15-trillion-asset-manager-northern-trust-creates-digital-assets-group-to-meet-growing-demand/",
-      "source": "Forbes",
-      "published": "20220623T154300",
-      "overall_sentiment_score": 0.209153,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.216236,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.728387
-    },
-    {
-      "title": "Podcast avec Caroline DELANGLE",
-      "summary": "This article announces a podcast featuring Caroline DELANGLE, Head of Cross Asset Solutions at Federal Finance Gestion. The podcast will discuss Federal Indiciel US, a fund created in 2002 to track the performance of the S&P 500. The article also provides extensive financial data for numerous funds across various risk profiles.",
-      "url": "https://www.patrimoine24.com/les-news/10048-podcast-avec-caroline-delangle.html",
-      "source": "PATRIMOINE24",
-      "published": "20220701T161623",
-      "overall_sentiment_score": 0.276177,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.343693,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.64898
-    },
-    {
       "title": "Frosch is thrilled about JPMorgan Chase's acquisition of the agency",
       "summary": "Frosch executives express excitement and pride regarding JPMorgan Chase's acquisition of the travel agency, viewing it as a strong validation of the travel advisor industry. JPMorgan Chase stated the acquisition makes them a top-five U.S. consumer travel provider and highlights their strategy to own their travel destiny, especially concerning their card business and customer spending habits. The acquisition is expected to provide Frosch with enhanced resources, including cybersecurity, and open up new client opportunities, particularly in high-net-worth categories.",
       "url": "https://www.travelweekly.com/Travel-News/Travel-Agent-Issues/Frosch-talks-about-JPMorgan-acquisition",
@@ -65,18 +17,6 @@
       "ticker_sentiment_score": 0.443867,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "State Street, Wells Fargo to Cover Travel Costs for Employee Abortions",
-      "summary": "State Street Corp. and Wells Fargo, along with other financial firms, are modifying their employee benefits to include coverage for travel costs associated with abortions. This decision comes in response to the U.S. Supreme Court's overturning of Roe v. Wade, following similar moves by other large corporations like Citigroup and JP Morgan Chase. Many major employers are rethinking benefit plans in states where abortion access is now restricted or unavailable.",
-      "url": "https://www.nbcboston.com/boston-business-journal/state-street-wells-fargo-to-cover-travel-costs-for-employee-abortions/2758469/",
-      "source": "NBC Boston",
-      "published": "20220628T091100",
-      "overall_sentiment_score": 0.128931,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.137299,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.746304
     },
     {
       "title": "JPMorgan Chase walks it like they talk it at the Wealth Summit in Dallas",
@@ -91,18 +31,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Are Bank Stocks Undervalued?",
-      "summary": "Despite fears of a potential recession driving down bank stock prices, many high-quality banks appear undervalued, trading at a significant discount compared to historical recession lows. Rising net interest margins due to Federal Reserve rate hikes could provide a tailwind, which analysts believe is not being fully priced into current valuations. Long-term investors may find attractive opportunities in these undervalued bank stocks, particularly those with wide economic moats like Wells Fargo, JPMorgan Chase, U.S. Bancorp, and Bank of America.",
-      "url": "https://www.morningstar.com/stocks/are-bank-stocks-undervalued",
-      "source": "Morningstar",
-      "published": "20220627T162642",
-      "overall_sentiment_score": 0.38684,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.442917,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.90569
-    },
-    {
       "title": "JPMorgan Chase Joins Companies Paying Employees Who Travel for Abortions",
       "summary": "JPMorgan Chase announced it would cover travel expenses for employees needing to travel out of state for abortions, expanding a benefit that covers services unavailable near an employee's home. This decision follows the Supreme Court's overturning of Roe v. Wade and aligns JPMorgan with other companies like Citigroup, Starbucks, Amazon, Tesla, and Yelp making similar pledges. The move addresses the implications of state-level abortion bans, with many states poised to restrict or ban abortions following the ruling.",
       "url": "https://www.newsweek.com/jpmorgan-paying-employees-who-travel-abortions-1718985",
@@ -115,18 +43,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "JPMorgan Chase Reducing Its Mortgage Staff",
-      "summary": "JPMorgan Chase & Co. announced layoffs and reassignments in its mortgage business due to slowing housing market conditions caused by inflation and rising mortgage rates. Over 1,000 employees are affected, with about half being moved to other internal divisions. This follows similar job cuts by other real estate companies and comes after the Federal Reserve's significant interest rate hike.",
-      "url": "https://nationalmortgageprofessional.com/news/jpmorgan-chase-reducing-its-mortgage-staff",
-      "source": "National Mortgage Professional",
-      "published": "20220623T171646",
-      "overall_sentiment_score": 0.024978,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.036081,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.304367
-    },
-    {
       "title": "JPMorgan Chase Dedicates Resources to Closing Equity Gaps",
       "summary": "JPMorgan Chase is dedicating resources to close racial wealth gaps in underserved communities, starting in Bridgeport, Connecticut. The company has hired Eduardo Cabrera as a local ambassador to engage with the community and offer financial literacy workshops as part of its $30 billion Racial Equity Commitment initiative. This effort includes previous investments in affordable housing.",
       "url": "https://www.cbia.com/news/economy/jpmorgan-chase-closing-equity-gaps/",
@@ -137,42 +53,6 @@
       "ticker_sentiment_score": 0.483198,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Abortion assistance: Kroger to offer up to $4,000 of out-of-state travel costs for employees seeking abortion",
-      "summary": "Kroger announced it will offer up to $4,000 to cover out-of-state travel costs for employees seeking abortion and fertility treatments, following the Supreme Court's decision to overturn Roe v. Wade. The company, headquartered in Cincinnati, operates stores in states like Ohio and Kentucky where abortion is now banned or mostly banned. This move aligns Kroger with nearly two dozen other major U.S. companies providing similar assistance.",
-      "url": "https://www.wcpo.com/news/local-news/hamilton-county/cincinnati/abortion-assistance-kroger-to-offer-up-to-4-000-of-out-of-state-travel-costs-for-employees-seeking-abortion",
-      "source": "WCPO 9 News",
-      "published": "20220627T172641",
-      "overall_sentiment_score": 0.007923,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.031492,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.606924
-    },
-    {
-      "title": "Building Wealth and Starting Legacies: Women of Color Shape Their Own Futures",
-      "summary": "JPMorgan Chase is supporting Zora's House in Columbus, Ohio, a co-working space and leadership incubator for women of color, with two philanthropic investments. These investments launched a financial health program and a 24-month equitable design institute aimed at empowering women of color to build wealth, address systemic inequities, and create sustainable solutions for their communities. The initiative is part of JPMorgan Chase's $30 billion commitment to close the racial wealth gap and advance economic inclusion.",
-      "url": "https://www.jpmorganchase.com/newsroom/stories/columbus-group-helping-women-of-color-build-wealth",
-      "source": "JPMorganChase",
-      "published": "20220627T171645",
-      "overall_sentiment_score": 0.389109,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.424235,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.949213
-    },
-    {
-      "title": "Katrina Evans",
-      "summary": "Katrina Evans, Executive Vice President at KeyCorp, is highlighted for her 30-plus years of adventurous leadership and significant contributions to the company. She has spearheaded growth in marketing, communications, and analytics, orchestrated expansion of a multibillion-dollar community benefits plan, and fostered diversity, equity, and inclusion initiatives. Her leadership style emphasizes authenticity and empowering others.",
-      "url": "https://www.crainscleveland.com/women-note/katrina-evans",
-      "source": "Crain's Cleveland Business",
-      "published": "20220627T060000",
-      "overall_sentiment_score": 0.170237,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.142515,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.599145
     },
     {
       "title": "JP Morgan, Disney join wave of companies that'll cover employee abortion travel costs",
@@ -199,42 +79,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Southern First rolls out new HQ to customers, community",
-      "summary": "Southern First Bank has unveiled its new five-story, 107,000-square-foot headquarters in Greenville, designed to be warm, welcoming, and progressive, aiming to redefine traditional bank architecture. The new building provides ample space for employees, clients, and community events, reflecting the bank's commitment to its community and its future growth. CEO Art Seaver emphasizes the building as a statement of belief in the future and a tool for recruiting top talent, affirming the bank's long-term vision and client-first mentality.",
-      "url": "https://gsabusiness.com/southern-first-rolls-out-new-hq-to-customers-community/",
-      "source": "SC Biz News",
-      "published": "20220622T183611",
-      "overall_sentiment_score": 0.181916,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.00309,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.599426
-    },
-    {
-      "title": "BP, Shell to cover employee travel for treatment after Roe v. Wade",
-      "summary": "BP PLC has joined Shell PLC in committing to cover employee travel expenses for healthcare treatment following the Supreme Court's overturning of Roe v. Wade. Both European oil producers updated their healthcare plans to extend benefits for women needing to travel for services, though neither explicitly named abortion. This move comes as other major companies like Amazon, JPMorgan Chase, Tesla, and Walt Disney also updated their policies to cover travel costs for out-of-state abortion services, while U.S. oil majors have largely remained silent.",
-      "url": "https://www.reuters.com/business/bp-cover-travel-expenses-health-treatment-after-roe-v-wade-2022-06-29/",
-      "source": "Reuters",
-      "published": "20220629T230100",
-      "overall_sentiment_score": 0.133457,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.129918,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.625103
-    },
-    {
-      "title": "Cleartrace Raises $20 Million Financing Led by ClearSky With Strategic Funding From Brookfield Renewable, EDF Energy North America, Tenaska, and Exelon to Help Companies Reach Decarbonization Goals",
-      "summary": "Cleartrace, a carbon and energy management software company, has raised $20 million in a financing round led by ClearSky, with strategic investments from Brookfield Renewable, EDF Energy North America, Tenaska, and Exelon. This funding will accelerate the growth of Cleartrace’s advanced carbon and energy management platform, which provides auditable and assurance-ready proof of decarbonization for clients including real estate portfolios, financial institutions, and data centers. The platform offers 100% traceable and actionable hourly energy and carbon records, helping companies achieve and report on their decarbonization goals.",
-      "url": "https://www.businesswire.com/news/home/20220629005217/en/Cleartrace-Raises-%2420-Million-Financing-Led-by-ClearSky-With-Strategic-Funding-From-Brookfield-Renewable-EDF-Energy-North-America-Tenaska-and-Exelon-to-Help-Companies-Reach-Decarbonization-Goals",
-      "source": "Business Wire",
-      "published": "20220629T161659",
-      "overall_sentiment_score": 0.136415,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.179502,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.618967
-    },
-    {
       "title": "JPMorgan Chase Opens First Birmingham Branch, With Help of HBCU Grad",
       "summary": "JPMorgan Chase & Co. has opened its first full-service banking center in Birmingham, with Racquel Oden, Head of Consumer Bank Network Expansion, playing a key role. Oden, who received an MBA from Hampton University, emphasized the bank's commitment to community engagement and financial literacy, reflecting her personal passion and the success of Chase's community-style branches across the country. The new branch aims to be an integral part of the local community, offering banking services while supporting financial health and literacy initiatives.",
       "url": "https://www.birminghamtimes.com/2022/06/jpmorgan-chase-opens-first-birmingham-branch-with-help-of-hbcu-grad/",
@@ -245,6 +89,66 @@
       "ticker_sentiment_score": 0.441772,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
+    },
+    {
+      "title": "JPMorgan, Citi, Goldman, Wells Fargo and Bank of America will cover out-of-state abortion costs for employees",
+      "summary": "JPMorgan Chase & Co., Bank of America Corp., Goldman Sachs Group Inc., Wells Fargo & Co. and Citigroup Inc. have all announced that they will cover out-of-state travel expenses for employees seeking abortions. This decision comes in the wake of the U.S. Supreme Court's ruling to overturn Roe v. Wade. These major banks join other large corporations in offering such benefits.",
+      "url": "https://www.marketwatch.com/story/jpmorgan-citi-covering-out-of-state-abortion-costs-for-employees-11656094553?gaa_at=eafs&gaa_n=AWEtsqcxbvUQ1hL4ZquRvKaYQtqH8LLpuaersSm3N7oOznOV2sVeyz3hvIJT&gaa_ts=69078806&gaa_sig=Ux264aXBgxk-0KgOPlWdy3z0p-vnxG05HHBRLg_gyQAui4Wu2GR9PzeOttoOJNyfu7ylgP7YS6FywyXwlyl4gg%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220624T141500",
+      "overall_sentiment_score": 0.136959,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.123816,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.971357
+    },
+    {
+      "title": "Building Wealth and Starting Legacies: Women of Color Shape Their Own Futures",
+      "summary": "JPMorgan Chase is supporting Zora's House in Columbus, Ohio, a co-working space and leadership incubator for women of color, with two philanthropic investments. These investments launched a financial health program and a 24-month equitable design institute aimed at empowering women of color to build wealth, address systemic inequities, and create sustainable solutions for their communities. The initiative is part of JPMorgan Chase's $30 billion commitment to close the racial wealth gap and advance economic inclusion.",
+      "url": "https://www.jpmorganchase.com/newsroom/stories/columbus-group-helping-women-of-color-build-wealth",
+      "source": "JPMorganChase",
+      "published": "20220627T171645",
+      "overall_sentiment_score": 0.389109,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.424235,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.949213
+    },
+    {
+      "title": "Are Bank Stocks Undervalued?",
+      "summary": "Despite fears of a potential recession driving down bank stock prices, many high-quality banks appear undervalued, trading at a significant discount compared to historical recession lows. Rising net interest margins due to Federal Reserve rate hikes could provide a tailwind, which analysts believe is not being fully priced into current valuations. Long-term investors may find attractive opportunities in these undervalued bank stocks, particularly those with wide economic moats like Wells Fargo, JPMorgan Chase, U.S. Bancorp, and Bank of America.",
+      "url": "https://www.morningstar.com/stocks/are-bank-stocks-undervalued",
+      "source": "Morningstar",
+      "published": "20220627T162642",
+      "overall_sentiment_score": 0.38684,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.442917,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.90569
+    },
+    {
+      "title": "State Street, Wells Fargo to Cover Travel Costs for Employee Abortions",
+      "summary": "State Street Corp. and Wells Fargo, along with other financial firms, are modifying their employee benefits to include coverage for travel costs associated with abortions. This decision comes in response to the U.S. Supreme Court's overturning of Roe v. Wade, following similar moves by other large corporations like Citigroup and JP Morgan Chase. Many major employers are rethinking benefit plans in states where abortion access is now restricted or unavailable.",
+      "url": "https://www.nbcboston.com/boston-business-journal/state-street-wells-fargo-to-cover-travel-costs-for-employee-abortions/2758469/",
+      "source": "NBC Boston",
+      "published": "20220628T091100",
+      "overall_sentiment_score": 0.128931,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.137299,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.746304
+    },
+    {
+      "title": "$1.5 Trillion Asset Manager Northern Trust Creates Digital Assets Group To Meet Growing Demand",
+      "summary": "Northern Trust, a $1.5 trillion asset manager, has established a new Digital Assets and Financial Markets Group to help traditional investors gain exposure to digital assets. This move combines digital asset markets with traditional securities services, demonstrating continued institutional interest in the crypto space despite recent market downturns. The firm has a history of blockchain involvement, including supporting Bitcoin and Ethereum investors and co-launching a crypto administration firm.",
+      "url": "https://www.forbes.com/sites/michaeldelcastillo/2022/06/23/15-trillion-asset-manager-northern-trust-creates-digital-assets-group-to-meet-growing-demand/",
+      "source": "Forbes",
+      "published": "20220623T154300",
+      "overall_sentiment_score": 0.209153,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.216236,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.728387
     },
     {
       "title": "BlackRock joins Wall Street firms in covering employees' abortion travel costs: Internal memo",
@@ -259,16 +163,112 @@
       "relevance_score": 0.722273
     },
     {
-      "title": "JPMorgan, Citi, Goldman, Wells Fargo and Bank of America will cover out-of-state abortion costs for employees",
-      "summary": "JPMorgan Chase & Co., Bank of America Corp., Goldman Sachs Group Inc., Wells Fargo & Co. and Citigroup Inc. have all announced that they will cover out-of-state travel expenses for employees seeking abortions. This decision comes in the wake of the U.S. Supreme Court's ruling to overturn Roe v. Wade. These major banks join other large corporations in offering such benefits.",
-      "url": "https://www.marketwatch.com/story/jpmorgan-citi-covering-out-of-state-abortion-costs-for-employees-11656094553?gaa_at=eafs&gaa_n=AWEtsqcxbvUQ1hL4ZquRvKaYQtqH8LLpuaersSm3N7oOznOV2sVeyz3hvIJT&gaa_ts=69078806&gaa_sig=Ux264aXBgxk-0KgOPlWdy3z0p-vnxG05HHBRLg_gyQAui4Wu2GR9PzeOttoOJNyfu7ylgP7YS6FywyXwlyl4gg%3D%3D",
-      "source": "MarketWatch",
-      "published": "20220624T141500",
-      "overall_sentiment_score": 0.136959,
+      "title": "Podcast avec Caroline DELANGLE",
+      "summary": "This article announces a podcast featuring Caroline DELANGLE, Head of Cross Asset Solutions at Federal Finance Gestion. The podcast will discuss Federal Indiciel US, a fund created in 2002 to track the performance of the S&P 500. The article also provides extensive financial data for numerous funds across various risk profiles.",
+      "url": "https://www.patrimoine24.com/les-news/10048-podcast-avec-caroline-delangle.html",
+      "source": "PATRIMOINE24",
+      "published": "20220701T161623",
+      "overall_sentiment_score": 0.276177,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.343693,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.64898
+    },
+    {
+      "title": "Walker & Dunlop Adds Betsy Blau, Ryan Smith to Affordable Lending Team in Nashville",
+      "summary": "Walker & Dunlop has expanded its Nashville affordable housing finance team by adding Ryan Smith as senior director and Betsy Blau as associate director. Smith and Blau bring nearly 30 years of combined experience from Colliers Mortgage, having financed over $2.5 billion in commercial real estate assets. Their addition is part of Walker & Dunlop's strategic expansion in affordable housing debt and equity offerings, following their acquisition of Alliant Capital in 2021.",
+      "url": "https://www.connectcre.com/stories/walker-dunlop-adds-ryan-smith-betsy-blau-to-affordable-lending-team-in-nashville/",
+      "source": "Connect CRE",
+      "published": "20220630T191610",
+      "overall_sentiment_score": 0.349629,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.307389,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630463
+    },
+    {
+      "title": "BP, Shell to cover employee travel for treatment after Roe v. Wade",
+      "summary": "BP PLC has joined Shell PLC in committing to cover employee travel expenses for healthcare treatment following the Supreme Court's overturning of Roe v. Wade. Both European oil producers updated their healthcare plans to extend benefits for women needing to travel for services, though neither explicitly named abortion. This move comes as other major companies like Amazon, JPMorgan Chase, Tesla, and Walt Disney also updated their policies to cover travel costs for out-of-state abortion services, while U.S. oil majors have largely remained silent.",
+      "url": "https://www.reuters.com/business/bp-cover-travel-expenses-health-treatment-after-roe-v-wade-2022-06-29/",
+      "source": "Reuters",
+      "published": "20220629T230100",
+      "overall_sentiment_score": 0.133457,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.123816,
+      "ticker_sentiment_score": 0.129918,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.971357
+      "relevance_score": 0.625103
+    },
+    {
+      "title": "PNC Financial Services Group closing branch at PNC Park in Pittsburgh - Pittsburgh Business Times",
+      "summary": "PNC Financial Services Group is closing its branch located at PNC Park in Pittsburgh as of September 23, 2022. This closure is part of a larger plan by PNC to cut four branches, all of which will cease operations on the same date. The branch closing is notable given that PNC Park shares the bank's name.",
+      "url": "https://www.bizjournals.com/pittsburgh/news/2022/06/30/pnc-closing-branch-at-pnc-park.html",
+      "source": "The Business Journals",
+      "published": "20220630T180730",
+      "overall_sentiment_score": -0.057905,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.107961,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.619094
+    },
+    {
+      "title": "Cleartrace Raises $20 Million Financing Led by ClearSky With Strategic Funding From Brookfield Renewable, EDF Energy North America, Tenaska, and Exelon to Help Companies Reach Decarbonization Goals",
+      "summary": "Cleartrace, a carbon and energy management software company, has raised $20 million in a financing round led by ClearSky, with strategic investments from Brookfield Renewable, EDF Energy North America, Tenaska, and Exelon. This funding will accelerate the growth of Cleartrace’s advanced carbon and energy management platform, which provides auditable and assurance-ready proof of decarbonization for clients including real estate portfolios, financial institutions, and data centers. The platform offers 100% traceable and actionable hourly energy and carbon records, helping companies achieve and report on their decarbonization goals.",
+      "url": "https://www.businesswire.com/news/home/20220629005217/en/Cleartrace-Raises-%2420-Million-Financing-Led-by-ClearSky-With-Strategic-Funding-From-Brookfield-Renewable-EDF-Energy-North-America-Tenaska-and-Exelon-to-Help-Companies-Reach-Decarbonization-Goals",
+      "source": "Business Wire",
+      "published": "20220629T161659",
+      "overall_sentiment_score": 0.136415,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.179502,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.618967
+    },
+    {
+      "title": "Abortion assistance: Kroger to offer up to $4,000 of out-of-state travel costs for employees seeking abortion",
+      "summary": "Kroger announced it will offer up to $4,000 to cover out-of-state travel costs for employees seeking abortion and fertility treatments, following the Supreme Court's decision to overturn Roe v. Wade. The company, headquartered in Cincinnati, operates stores in states like Ohio and Kentucky where abortion is now banned or mostly banned. This move aligns Kroger with nearly two dozen other major U.S. companies providing similar assistance.",
+      "url": "https://www.wcpo.com/news/local-news/hamilton-county/cincinnati/abortion-assistance-kroger-to-offer-up-to-4-000-of-out-of-state-travel-costs-for-employees-seeking-abortion",
+      "source": "WCPO 9 News",
+      "published": "20220627T172641",
+      "overall_sentiment_score": 0.007923,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.031492,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.606924
+    },
+    {
+      "title": "Southern First rolls out new HQ to customers, community",
+      "summary": "Southern First Bank has unveiled its new five-story, 107,000-square-foot headquarters in Greenville, designed to be warm, welcoming, and progressive, aiming to redefine traditional bank architecture. The new building provides ample space for employees, clients, and community events, reflecting the bank's commitment to its community and its future growth. CEO Art Seaver emphasizes the building as a statement of belief in the future and a tool for recruiting top talent, affirming the bank's long-term vision and client-first mentality.",
+      "url": "https://gsabusiness.com/southern-first-rolls-out-new-hq-to-customers-community/",
+      "source": "SC Biz News",
+      "published": "20220622T183611",
+      "overall_sentiment_score": 0.181916,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.00309,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.599426
+    },
+    {
+      "title": "Katrina Evans",
+      "summary": "Katrina Evans, Executive Vice President at KeyCorp, is highlighted for her 30-plus years of adventurous leadership and significant contributions to the company. She has spearheaded growth in marketing, communications, and analytics, orchestrated expansion of a multibillion-dollar community benefits plan, and fostered diversity, equity, and inclusion initiatives. Her leadership style emphasizes authenticity and empowering others.",
+      "url": "https://www.crainscleveland.com/women-note/katrina-evans",
+      "source": "Crain's Cleveland Business",
+      "published": "20220627T060000",
+      "overall_sentiment_score": 0.170237,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.142515,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.599145
+    },
+    {
+      "title": "JPMorgan Chase Reducing Its Mortgage Staff",
+      "summary": "JPMorgan Chase & Co. announced layoffs and reassignments in its mortgage business due to slowing housing market conditions caused by inflation and rising mortgage rates. Over 1,000 employees are affected, with about half being moved to other internal divisions. This follows similar job cuts by other real estate companies and comes after the Federal Reserve's significant interest rate hike.",
+      "url": "https://nationalmortgageprofessional.com/news/jpmorgan-chase-reducing-its-mortgage-staff",
+      "source": "National Mortgage Professional",
+      "published": "20220623T171646",
+      "overall_sentiment_score": 0.024978,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.036081,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.304367
     }
   ]
 }

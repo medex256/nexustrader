@@ -7,28 +7,16 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "CSCO Earnings: Cisco reports higher revenue and profit for Q1 2024",
-      "summary": "Cisco Systems Inc. (NASDAQ: CSCO) announced strong Q1 2024 results, with revenues up 8% year-over-year to $14.7 billion and earnings rising to $1.11 per share. The company achieved its strongest Q1 in history for both revenue and profitability, attributing confidence in future growth to AI, Security, Cloud, and Observability. Cisco also provided guidance for the second quarter.",
-      "url": "https://news.alphastreet.com/csco-earnings-cisco-reports-higher-revenue-and-profit-for-q1-2024/",
-      "source": "AlphaStreet",
-      "published": "20231115T000000",
-      "overall_sentiment_score": 0.217332,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.126485,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.608244
-    },
-    {
-      "title": "'Largest in Europe' | Air Products announces blue hydrogen plant at Rotterdam linked to Dutch offshore CCS network",
-      "summary": "Air Products announced plans for a blue hydrogen plant in Rotterdam, which will be the largest in Europe. This facility will supply hydrogen to existing customers, including ExxonMobil's refinery, and will be linked to the Dutch offshore Carbon Capture and Storage network. The initiative highlights Air Products' commitment to expanding its clean hydrogen production capabilities.",
-      "url": "https://www.hydrogeninsight.com/production/largest-in-europe-air-products-announces-blue-hydrogen-plant-at-rotterdam-linked-to-dutch-offshore-ccs-network/2-1-1549667",
-      "source": "Hydrogen Insight",
-      "published": "20231107T075400",
-      "overall_sentiment_score": 0.363555,
+      "title": "ExxonMobil's Entry Into Lithium Highlights Growth Opportunity",
+      "summary": "ExxonMobil is expanding into the electric vehicle market by focusing on lithium mining, a critical component for EV batteries. This move underscores the significant growth potential in the lithium sector, creating opportunities for investors in ETFs such as the Sprott Lithium Miners ETF (LITP). The initiative is also strategically important for the U.S. to enhance its self-reliance on critical minerals and for ExxonMobil to become a global leader in this essential market.",
+      "url": "https://www.etftrends.com/gold-silver-investing-channel/exxonmobils-entry-lithium-highlights-growth-opportunity/",
+      "source": "ETF Trends",
+      "published": "20231117T080913",
+      "overall_sentiment_score": 0.384603,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.258584,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.706225
+      "ticker_sentiment_score": 0.423469,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.866443
     },
     {
       "title": "3 Energy Stocks With Strong Balance Sheets and Low Debt",
@@ -43,6 +31,18 @@
       "relevance_score": 0.838643
     },
     {
+      "title": "'Largest in Europe' | Air Products announces blue hydrogen plant at Rotterdam linked to Dutch offshore CCS network",
+      "summary": "Air Products announced plans for a blue hydrogen plant in Rotterdam, which will be the largest in Europe. This facility will supply hydrogen to existing customers, including ExxonMobil's refinery, and will be linked to the Dutch offshore Carbon Capture and Storage network. The initiative highlights Air Products' commitment to expanding its clean hydrogen production capabilities.",
+      "url": "https://www.hydrogeninsight.com/production/largest-in-europe-air-products-announces-blue-hydrogen-plant-at-rotterdam-linked-to-dutch-offshore-ccs-network/2-1-1549667",
+      "source": "Hydrogen Insight",
+      "published": "20231107T075400",
+      "overall_sentiment_score": 0.363555,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.258584,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.706225
+    },
+    {
       "title": "BlackRock to invest $550 mln in Occidental's carbon capture project",
       "summary": "BlackRock Inc. announced a $550 million investment in Occidental Petroleum Corp.'s direct air capture (DAC) plant in West Texas, named Stratos. This investment signals growing support for carbon capture technology, despite previous delays and cost increases for the project. Occidental plans for Stratos to be the first of about 100 DAC plants aimed at decarbonizing global industry.",
       "url": "https://www.reuters.com/sustainability/climate-energy/blackrock-invest-550-mln-occidentals-carbon-capture-project-2023-11-07/",
@@ -55,16 +55,16 @@
       "relevance_score": 0.647535
     },
     {
-      "title": "ExxonMobil's Entry Into Lithium Highlights Growth Opportunity",
-      "summary": "ExxonMobil is expanding into the electric vehicle market by focusing on lithium mining, a critical component for EV batteries. This move underscores the significant growth potential in the lithium sector, creating opportunities for investors in ETFs such as the Sprott Lithium Miners ETF (LITP). The initiative is also strategically important for the U.S. to enhance its self-reliance on critical minerals and for ExxonMobil to become a global leader in this essential market.",
-      "url": "https://www.etftrends.com/gold-silver-investing-channel/exxonmobils-entry-lithium-highlights-growth-opportunity/",
-      "source": "ETF Trends",
-      "published": "20231117T080913",
-      "overall_sentiment_score": 0.384603,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.423469,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.866443
+      "title": "CSCO Earnings: Cisco reports higher revenue and profit for Q1 2024",
+      "summary": "Cisco Systems Inc. (NASDAQ: CSCO) announced strong Q1 2024 results, with revenues up 8% year-over-year to $14.7 billion and earnings rising to $1.11 per share. The company achieved its strongest Q1 in history for both revenue and profitability, attributing confidence in future growth to AI, Security, Cloud, and Observability. Cisco also provided guidance for the second quarter.",
+      "url": "https://news.alphastreet.com/csco-earnings-cisco-reports-higher-revenue-and-profit-for-q1-2024/",
+      "source": "AlphaStreet",
+      "published": "20231115T000000",
+      "overall_sentiment_score": 0.217332,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.126485,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.608244
     }
   ]
 }

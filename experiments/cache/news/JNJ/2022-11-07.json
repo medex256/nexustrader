@@ -7,42 +7,6 @@
   "article_count": 21,
   "articles": [
     {
-      "title": "West Pharmaceutical Services Inc. stock falls Thursday, underperforms market",
-      "summary": "West Pharmaceutical Services Inc. (WST) stock fell 4.64% on Thursday, closing at $209.34, and underperformed the broader market, which also saw declines in the S&P 500 and Dow Jones Industrial Average. This marks the third consecutive day of losses for the stock, placing it $265.66 below its 52-week high. The company also underperformed against competitors like Johnson & Johnson, Medtronic PLC, and Stryker Corp., while trading volume significantly exceeded its 50-day average.",
-      "url": "https://www.marketwatch.com/story/west-pharmaceutical-services-inc-stock-falls-thursday-underperforms-market-01667511166-c973b5e82cb7?gaa_at=eafs&gaa_n=AWEtsqcWPsToBr-wkziTGhS6ow7poVerspfrWA3K4iOkIXMw4M6FZbXHVsM9&gaa_ts=6907b133&gaa_sig=YUEsv1BHoQwalmglnlT2nD4hOxJSyw4-BfERxIjuzL7llsaCZmsXY56kuv2IbvQzzFrEHC6p_IRvuOdz9X4dVg%3D%3D",
-      "source": "MarketWatch",
-      "published": "20221103T173200",
-      "overall_sentiment_score": -0.182834,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.230442,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.645645
-    },
-    {
-      "title": "Johnson & Johnson to Buy Abiomed for $16.6B",
-      "summary": "Johnson & Johnson announced its plan to acquire Abiomed for approximately $16.6 billion, including a premium of 50% to Abiomed's closing stock price on Monday. The deal includes a contingent value right for Abiomed shareholders based on commercial and clinical milestones. Analysts expect Abiomed, a leader in mechanical circulatory support with its Impella heart pumps, to be a strong fit for J&J's growing medtech portfolio.",
-      "url": "https://www.mddionline.com/cardiovascular/johnson-johnson-to-buy-abiomed-for-16-6b",
-      "source": "Medical Device and Diagnostic industry",
-      "published": "20221101T171642",
-      "overall_sentiment_score": 0.494225,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.488796,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.976717
-    },
-    {
-      "title": "Johnson & Johnson to acquire Abiomed in $16.6B deal",
-      "summary": "Johnson & Johnson has announced a definitive agreement to acquire Abiomed for approximately $16.6 billion. The deal involves an upfront payment of $380 per share, with additional contingent payments up to $35 per share based on specific FDA approvals and recommendation milestones for Abiomed's Impella heart pumps. This acquisition aims to enhance Johnson & Johnson's position in high-growth MedTech segments, particularly in cardiovascular disease.",
-      "url": "https://cardiovascularbusiness.com/topics/healthcare-management/healthcare-economics/johnson-johnson-acquire-abiomed-166b-deal",
-      "source": "Cardiovascular Business",
-      "published": "20221101T171641",
-      "overall_sentiment_score": 0.040292,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.019777,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.305636
-    },
-    {
       "title": "Johnson & Johnson to Acquire Abiomed",
       "summary": "Johnson & Johnson has announced a definitive agreement to acquire Abiomed, a leader in heart, lung, and kidney support technologies, for an upfront payment of $380.00 per share in cash, totaling approximately $16.6 billion. The acquisition aims to broaden Johnson & Johnson MedTech's cardiovascular innovation portfolio, particularly in heart failure and recovery, and includes a contingent value right for Abiomed shareholders based on commercial and clinical milestones. The transaction is expected to accelerate Johnson & Johnson's MedTech growth and enhance its position in high-growth segments.",
       "url": "https://www.dicardiology.com/article/johnson-johnson-acquire-abiomed",
@@ -55,18 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Johnson & Johnson will buy medtech maker Abiomed in a $16.6 billion deal",
-      "summary": "Johnson & Johnson announced its acquisition of Abiomed, a medical technology company specializing in cardiovascular health devices, for $16.6 billion. The deal involves J&J paying Abiomed shareholders $380 per share in cash, plus a contingent value right of $35 per share based on revenue milestones and FDA approvals. This acquisition aims to strengthen Johnson & Johnson MedTech’s position as a cardiovascular innovator and is expected to close in Q1 2023.",
-      "url": "https://www.fastcompany.com/90804526/jnj-johnson-johnson-abmd-heart-merger/",
-      "source": "Fast Company",
-      "published": "20221101T171641",
-      "overall_sentiment_score": 0.29972,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.280867,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.971312
-    },
-    {
       "title": "J&J to buy heart device maker Abiomed for $16.6B",
       "summary": "Johnson & Johnson announced its agreement to acquire Abiomed, a heart pump manufacturer, for $16.6 billion, marking J&J's largest deal since 2017. The acquisition includes an upfront payment of $380 per share and potential additional payments of up to $35 per share based on commercial and clinical milestones. This strategic move aims to expand J&J's cardiovascular devices business and align with the company's focus on high-growth segments within its pharmaceutical and medical device arms.",
       "url": "https://www.biopharmadive.com/news/johnson-johnson-abiomed-medtech-acquire-deal/635462/",
@@ -77,54 +29,6 @@
       "ticker_sentiment_score": 0.265398,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Gilead Sciences Inc. stock outperforms competitors on strong trading day",
-      "summary": "Gilead Sciences Inc. (GILD) saw its stock increase by 1.12% to $79.34 on a generally down day for the stock market, outperforming the S&P 500 and Dow Jones Industrial Average. The company's stock closed just shy of its 52-week high and outperformed several competitors including Johnson & Johnson and Merck & Co. Trading volume for Gilead Sciences also exceeded its 50-day average.",
-      "url": "https://www.marketwatch.com/story/gilead-sciences-inc-stock-outperforms-competitors-on-strong-trading-day-01667336168-f64eb4c492b7?gaa_at=eafs&gaa_n=AWEtsqfXR18czVNNFo1YJtbQqsHo7BwPMly0FRm36PIF8Jb5EVMvZQOuwqzi&gaa_ts=69078e4b&gaa_sig=YLbX1zQUqtEjJsKCYTRROVxl6uKJ_uRzC4mKO5M8vjwf-wujxSCZvA3OKXFPXqbhgK-F8THy_q8Nvr44oylEwg%3D%3D",
-      "source": "MarketWatch",
-      "published": "20221101T165600",
-      "overall_sentiment_score": 0.105962,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.002564,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.636585
-    },
-    {
-      "title": "Gilead Sciences Inc. stock outperforms competitors on strong trading day",
-      "summary": "Gilead Sciences Inc. stock (GILD) rose 1.12% to $79.34 on a generally down day for the stock market, outperforming the S&P 500 and Dow Jones Industrial Average. The company's stock also outperformed some of its direct competitors like Johnson & Johnson and Merck & Co. Inc., though it closed just shy of its 52-week high. Trading volume for Gilead Sciences Inc. exceeded its 50-day average.",
-      "url": "https://www.marketwatch.com/story/gilead-sciences-inc-stock-outperforms-competitors-on-strong-trading-day-01667336168-f64eb4c492b7?gaa_at=eafs&gaa_n=AWEtsqdjnG5tn2nfGPnpPmV2oghykLyzVWE0_f-l6ZYlq9V9RwqAcorFHEkr&gaa_ts=69078e48&gaa_sig=WzqLeXrqHvGaru1uYSNW65qOmH714Z1mSOf48favOcf_0Akzfg0Fx9_2O4VKXKMoQm0mC7L177dlQGs63vvkQA%3D%3D",
-      "source": "MarketWatch",
-      "published": "20221101T165600",
-      "overall_sentiment_score": 0.073532,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.178211,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.648176
-    },
-    {
-      "title": "Gilead Sciences Inc. stock outperforms competitors on strong trading day",
-      "summary": "Gilead Sciences Inc. (GILD) stock rose 1.12% on Tuesday, closing at $79.34, despite a general downturn in the stock market. The company's stock outperformed competitors like Johnson & Johnson and Merck & Co. Inc., though it closed slightly below its 52-week high. Trading volume for Gilead Sciences Inc. also exceeded its 50-day average.",
-      "url": "https://www.marketwatch.com/story/gilead-sciences-inc-stock-outperforms-competitors-on-strong-trading-day-01667336168-f64eb4c492b7?gaa_at=eafs&gaa_n=AWEtsqe9s5xMObf-A-9G7zdqAx0rfl9uoyYxfH81h74pGsbzNeXOWyg83tIZ&gaa_ts=69078e3a&gaa_sig=HIDdyjvoklyMHd72xo9cqZCfo0xMSkFaRXFuo1ozbkwTN5VeCjTPZQAhvngjj2U-7xOSKxR52ekvKKCyvC21fA%3D%3D",
-      "source": "MarketWatch",
-      "published": "20221101T165600",
-      "overall_sentiment_score": 0.042972,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.129673,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.61783
-    },
-    {
-      "title": "Johnson & Johnson doles out $16.6B to snatch up miniaturized heart pump maker Abiomed",
-      "summary": "Johnson & Johnson is acquiring Abiomed, a maker of minimally invasive heart pumps, for $16.6 billion. The deal includes an upfront cash payment of $380 per share with additional potential payments based on Abiomed's clinical and commercial milestones. This acquisition is J&J's largest M&A since 2017 and aims to integrate Abiomed into J&J MedTech as a standalone business, focusing on heart failure and recovery.",
-      "url": "https://www.fiercebiotech.com/medtech/johnson-johnson-snatches-miniaturized-heart-pump-maker-abiomed-166b",
-      "source": "Fierce Biotech",
-      "published": "20221101T113300",
-      "overall_sentiment_score": 0.011078,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.015298,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.337467
     },
     {
       "title": "Johnson & Johnson to buy Danvers-based Abiomed for $16.6 billion",
@@ -151,18 +55,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Thermo Fisher bets big on blood cancer, immune diagnostics with $2.6B Binding Site buyout",
-      "summary": "Thermo Fisher Scientific is set to acquire The Binding Site Group for approximately $2.6 billion, expanding its diagnostics business in blood cancers and immune disorders. This acquisition follows Thermo Fisher's 2021 buyout of PPD and will integrate The Binding Site's specialized diagnostic tests, particularly for multiple myeloma, into Thermo Fisher's Specialty Diagnostics business. The deal underscores Thermo Fisher's strategy to invest in early diagnosis and monitoring solutions, especially with the emergence of new BCMA-targeting drugs for multiple myeloma.",
-      "url": "https://medcitynews.com/2022/10/thermo-fisher-bets-big-on-blood-cancer-immune-diagnostics-with-2-6b-binding-site-buyout/",
-      "source": "MedCity News",
-      "published": "20221031T125900",
-      "overall_sentiment_score": 0.275254,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.235942,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.640454
-    },
-    {
       "title": "|How Johnson & Johnson Innovation lasted 5 decades -",
       "summary": "|Johnson & Johnson Innovation (JJDC), the world's oldest CVC, attributes its five-decade longevity to unwavering management support, disciplined investment strategy, and adaptability. Debi Watson, VP of venture investments, highlights the unit's consistent vision, long-term investment horizon, and willingness to evolve business models. Despite challenges in balancing strategic focus with disruptive innovation, JJDC remains committed to its core strategy even amidst shifting economic conditions.",
       "url": "https://globalventuring.com/corporate/how-johnson-johnson-innovation-lasted-50-decades/",
@@ -187,6 +79,42 @@
       "relevance_score": 1.0
     },
     {
+      "title": "Johnson & Johnson to Buy Abiomed for $16.6B",
+      "summary": "Johnson & Johnson announced its plan to acquire Abiomed for approximately $16.6 billion, including a premium of 50% to Abiomed's closing stock price on Monday. The deal includes a contingent value right for Abiomed shareholders based on commercial and clinical milestones. Analysts expect Abiomed, a leader in mechanical circulatory support with its Impella heart pumps, to be a strong fit for J&J's growing medtech portfolio.",
+      "url": "https://www.mddionline.com/cardiovascular/johnson-johnson-to-buy-abiomed-for-16-6b",
+      "source": "Medical Device and Diagnostic industry",
+      "published": "20221101T171642",
+      "overall_sentiment_score": 0.494225,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.488796,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.976717
+    },
+    {
+      "title": "Johnson & Johnson will buy medtech maker Abiomed in a $16.6 billion deal",
+      "summary": "Johnson & Johnson announced its acquisition of Abiomed, a medical technology company specializing in cardiovascular health devices, for $16.6 billion. The deal involves J&J paying Abiomed shareholders $380 per share in cash, plus a contingent value right of $35 per share based on revenue milestones and FDA approvals. This acquisition aims to strengthen Johnson & Johnson MedTech’s position as a cardiovascular innovator and is expected to close in Q1 2023.",
+      "url": "https://www.fastcompany.com/90804526/jnj-johnson-johnson-abmd-heart-merger/",
+      "source": "Fast Company",
+      "published": "20221101T171641",
+      "overall_sentiment_score": 0.29972,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.280867,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.971312
+    },
+    {
+      "title": "Spray Mosquito Repellent Market Share , Size - Forecast 2031",
+      "summary": "The global spray mosquito repellent market was valued at $1,374.0 million in 2021 and is projected to reach $2,581.0 million by 2031, growing at a CAGR of 6.6%. Asia-Pacific currently dominates the market, while plant-based repellents and online sales channels are expected to see the highest growth. Key drivers include rising awareness of mosquito-borne diseases, global warming, and effective marketing strategies, despite challenges like toxic chemicals and counterfeit products.",
+      "url": "https://www.alliedmarketresearch.com/spray-mosquito-repellent-market-A16592",
+      "source": "Allied Market Research",
+      "published": "20221107T184602",
+      "overall_sentiment_score": 0.172125,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.119292,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.734455
+    },
+    {
       "title": "Medtronic to spin off 2 businesses as part of restructuring process",
       "summary": "Medtronic Plc announced its plan to spin off two smaller businesses, patient monitoring and respiratory interventions, into a new company to streamline its portfolio and accelerate revenue growth. These two businesses contributed $2.2 billion to Medtronic's revenue in the fiscal year ending April 29 and the spin-off is expected to be completed within the next 12 to 18 months, aiming to unlock value and narrow the company's focus. This move is part of Medtronic's ongoing restructuring efforts, aligning with a broader trend among U.S. companies like Johnson & Johnson and General Electric to divest non-core assets for improved performance.",
       "url": "https://health.economictimes.indiatimes.com/news/medical-devices/medtronic-to-spin-off-2-businesses-as-part-of-restructuring-process/95072614",
@@ -197,18 +125,6 @@
       "ticker_sentiment_score": 0.125966,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.672899
-    },
-    {
-      "title": "AGTC yields to biotech downturn with gene therapy buyout deal",
-      "summary": "Applied Genetic Technologies Corp. (AGTC) is being acquired by Syncona for $0.34 per share, or about $23.5 million, with potential additional payments up to $50 million, due to a challenging funding environment and declining stock value. The deal, which offers a significant premium over AGTC's recent stock price, aims to secure the development of its lead gene therapy program for X-linked retinitis pigmentosa, as the company faced solvency issues. This acquisition highlights a trend of genetic medicine developers selling themselves amid a biotech downturn.",
-      "url": "https://www.biopharmadive.com/news/agtc-syncona-gene-therapy-deal-xlrp/634763/",
-      "source": "BioPharma Dive",
-      "published": "20221024T160625",
-      "overall_sentiment_score": -0.198655,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.14565,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.620968
     },
     {
       "title": "Popular Dry Shampoos Found to Have Cancer-CausinTg Chemical",
@@ -223,16 +139,76 @@
       "relevance_score": 0.649586
     },
     {
-      "title": "Spray Mosquito Repellent Market Share , Size - Forecast 2031",
-      "summary": "The global spray mosquito repellent market was valued at $1,374.0 million in 2021 and is projected to reach $2,581.0 million by 2031, growing at a CAGR of 6.6%. Asia-Pacific currently dominates the market, while plant-based repellents and online sales channels are expected to see the highest growth. Key drivers include rising awareness of mosquito-borne diseases, global warming, and effective marketing strategies, despite challenges like toxic chemicals and counterfeit products.",
-      "url": "https://www.alliedmarketresearch.com/spray-mosquito-repellent-market-A16592",
-      "source": "Allied Market Research",
-      "published": "20221107T184602",
-      "overall_sentiment_score": 0.172125,
+      "title": "Gilead Sciences Inc. stock outperforms competitors on strong trading day",
+      "summary": "Gilead Sciences Inc. stock (GILD) rose 1.12% to $79.34 on a generally down day for the stock market, outperforming the S&P 500 and Dow Jones Industrial Average. The company's stock also outperformed some of its direct competitors like Johnson & Johnson and Merck & Co. Inc., though it closed just shy of its 52-week high. Trading volume for Gilead Sciences Inc. exceeded its 50-day average.",
+      "url": "https://www.marketwatch.com/story/gilead-sciences-inc-stock-outperforms-competitors-on-strong-trading-day-01667336168-f64eb4c492b7?gaa_at=eafs&gaa_n=AWEtsqdjnG5tn2nfGPnpPmV2oghykLyzVWE0_f-l6ZYlq9V9RwqAcorFHEkr&gaa_ts=69078e48&gaa_sig=WzqLeXrqHvGaru1uYSNW65qOmH714Z1mSOf48favOcf_0Akzfg0Fx9_2O4VKXKMoQm0mC7L177dlQGs63vvkQA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20221101T165600",
+      "overall_sentiment_score": 0.073532,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.178211,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.648176
+    },
+    {
+      "title": "West Pharmaceutical Services Inc. stock falls Thursday, underperforms market",
+      "summary": "West Pharmaceutical Services Inc. (WST) stock fell 4.64% on Thursday, closing at $209.34, and underperformed the broader market, which also saw declines in the S&P 500 and Dow Jones Industrial Average. This marks the third consecutive day of losses for the stock, placing it $265.66 below its 52-week high. The company also underperformed against competitors like Johnson & Johnson, Medtronic PLC, and Stryker Corp., while trading volume significantly exceeded its 50-day average.",
+      "url": "https://www.marketwatch.com/story/west-pharmaceutical-services-inc-stock-falls-thursday-underperforms-market-01667511166-c973b5e82cb7?gaa_at=eafs&gaa_n=AWEtsqcWPsToBr-wkziTGhS6ow7poVerspfrWA3K4iOkIXMw4M6FZbXHVsM9&gaa_ts=6907b133&gaa_sig=YUEsv1BHoQwalmglnlT2nD4hOxJSyw4-BfERxIjuzL7llsaCZmsXY56kuv2IbvQzzFrEHC6p_IRvuOdz9X4dVg%3D%3D",
+      "source": "MarketWatch",
+      "published": "20221103T173200",
+      "overall_sentiment_score": -0.182834,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.230442,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.645645
+    },
+    {
+      "title": "Thermo Fisher bets big on blood cancer, immune diagnostics with $2.6B Binding Site buyout",
+      "summary": "Thermo Fisher Scientific is set to acquire The Binding Site Group for approximately $2.6 billion, expanding its diagnostics business in blood cancers and immune disorders. This acquisition follows Thermo Fisher's 2021 buyout of PPD and will integrate The Binding Site's specialized diagnostic tests, particularly for multiple myeloma, into Thermo Fisher's Specialty Diagnostics business. The deal underscores Thermo Fisher's strategy to invest in early diagnosis and monitoring solutions, especially with the emergence of new BCMA-targeting drugs for multiple myeloma.",
+      "url": "https://medcitynews.com/2022/10/thermo-fisher-bets-big-on-blood-cancer-immune-diagnostics-with-2-6b-binding-site-buyout/",
+      "source": "MedCity News",
+      "published": "20221031T125900",
+      "overall_sentiment_score": 0.275254,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.119292,
+      "ticker_sentiment_score": 0.235942,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.640454
+    },
+    {
+      "title": "Gilead Sciences Inc. stock outperforms competitors on strong trading day",
+      "summary": "Gilead Sciences Inc. (GILD) saw its stock increase by 1.12% to $79.34 on a generally down day for the stock market, outperforming the S&P 500 and Dow Jones Industrial Average. The company's stock closed just shy of its 52-week high and outperformed several competitors including Johnson & Johnson and Merck & Co. Trading volume for Gilead Sciences also exceeded its 50-day average.",
+      "url": "https://www.marketwatch.com/story/gilead-sciences-inc-stock-outperforms-competitors-on-strong-trading-day-01667336168-f64eb4c492b7?gaa_at=eafs&gaa_n=AWEtsqfXR18czVNNFo1YJtbQqsHo7BwPMly0FRm36PIF8Jb5EVMvZQOuwqzi&gaa_ts=69078e4b&gaa_sig=YLbX1zQUqtEjJsKCYTRROVxl6uKJ_uRzC4mKO5M8vjwf-wujxSCZvA3OKXFPXqbhgK-F8THy_q8Nvr44oylEwg%3D%3D",
+      "source": "MarketWatch",
+      "published": "20221101T165600",
+      "overall_sentiment_score": 0.105962,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.002564,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.734455
+      "relevance_score": 0.636585
+    },
+    {
+      "title": "AGTC yields to biotech downturn with gene therapy buyout deal",
+      "summary": "Applied Genetic Technologies Corp. (AGTC) is being acquired by Syncona for $0.34 per share, or about $23.5 million, with potential additional payments up to $50 million, due to a challenging funding environment and declining stock value. The deal, which offers a significant premium over AGTC's recent stock price, aims to secure the development of its lead gene therapy program for X-linked retinitis pigmentosa, as the company faced solvency issues. This acquisition highlights a trend of genetic medicine developers selling themselves amid a biotech downturn.",
+      "url": "https://www.biopharmadive.com/news/agtc-syncona-gene-therapy-deal-xlrp/634763/",
+      "source": "BioPharma Dive",
+      "published": "20221024T160625",
+      "overall_sentiment_score": -0.198655,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.14565,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.620968
+    },
+    {
+      "title": "Gilead Sciences Inc. stock outperforms competitors on strong trading day",
+      "summary": "Gilead Sciences Inc. (GILD) stock rose 1.12% on Tuesday, closing at $79.34, despite a general downturn in the stock market. The company's stock outperformed competitors like Johnson & Johnson and Merck & Co. Inc., though it closed slightly below its 52-week high. Trading volume for Gilead Sciences Inc. also exceeded its 50-day average.",
+      "url": "https://www.marketwatch.com/story/gilead-sciences-inc-stock-outperforms-competitors-on-strong-trading-day-01667336168-f64eb4c492b7?gaa_at=eafs&gaa_n=AWEtsqe9s5xMObf-A-9G7zdqAx0rfl9uoyYxfH81h74pGsbzNeXOWyg83tIZ&gaa_ts=69078e3a&gaa_sig=HIDdyjvoklyMHd72xo9cqZCfo0xMSkFaRXFuo1ozbkwTN5VeCjTPZQAhvngjj2U-7xOSKxR52ekvKKCyvC21fA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20221101T165600",
+      "overall_sentiment_score": 0.042972,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.129673,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.61783
     },
     {
       "title": "CVS, Walmart and Walgreens agree to pay $13.8bn for opioid claims – sources",
@@ -257,6 +233,30 @@
       "ticker_sentiment_score": 0.233798,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.610832
+    },
+    {
+      "title": "Johnson & Johnson doles out $16.6B to snatch up miniaturized heart pump maker Abiomed",
+      "summary": "Johnson & Johnson is acquiring Abiomed, a maker of minimally invasive heart pumps, for $16.6 billion. The deal includes an upfront cash payment of $380 per share with additional potential payments based on Abiomed's clinical and commercial milestones. This acquisition is J&J's largest M&A since 2017 and aims to integrate Abiomed into J&J MedTech as a standalone business, focusing on heart failure and recovery.",
+      "url": "https://www.fiercebiotech.com/medtech/johnson-johnson-snatches-miniaturized-heart-pump-maker-abiomed-166b",
+      "source": "Fierce Biotech",
+      "published": "20221101T113300",
+      "overall_sentiment_score": 0.011078,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.015298,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.337467
+    },
+    {
+      "title": "Johnson & Johnson to acquire Abiomed in $16.6B deal",
+      "summary": "Johnson & Johnson has announced a definitive agreement to acquire Abiomed for approximately $16.6 billion. The deal involves an upfront payment of $380 per share, with additional contingent payments up to $35 per share based on specific FDA approvals and recommendation milestones for Abiomed's Impella heart pumps. This acquisition aims to enhance Johnson & Johnson's position in high-growth MedTech segments, particularly in cardiovascular disease.",
+      "url": "https://cardiovascularbusiness.com/topics/healthcare-management/healthcare-economics/johnson-johnson-acquire-abiomed-166b-deal",
+      "source": "Cardiovascular Business",
+      "published": "20221101T171641",
+      "overall_sentiment_score": 0.040292,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.019777,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.305636
     }
   ]
 }

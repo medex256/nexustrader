@@ -31,18 +31,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Healthcare Stocks Could Merit Prescriptions in 2025",
-      "summary": "Healthcare and biotechnology stocks have underperformed recently compared to the broader market, but analysts suggest 2025 could bring a rebound. Potential catalysts include reduced policy uncertainty following the election, increased AI integration in research and development, and a more favorable environment for mergers and acquisitions within the sector. These factors could benefit funds like SBIO, particularly as large pharma companies seek to replenish their product pipelines.",
-      "url": "https://www.etftrends.com/etf-building-blocks-channel/healthcare-stocks-could-merit-prescriptions-2025/",
-      "source": "ETF Trends",
-      "published": "20250123T000000",
-      "overall_sentiment_score": 0.326953,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.300065,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.429693
-    },
-    {
       "title": "Johnson & Johnson named a 2025 Fortune World’s Most Admired Company",
       "summary": "Johnson & Johnson has been named a Fortune World's Most Admired Company for the 23rd consecutive year, recognized for its dedication to innovation and social responsibility. The company's exclusive focus on healthcare, through its Innovative Medicine and MedTech businesses, contributed to this accolade. The recognition highlights J&J's effectiveness in global business, social responsibility, innovativeness, and value as a long-term investment.",
       "url": "https://www.jnj.com/latest-news/johnson-johnson-named-a-2025-fortune-worlds-most-admired-company",
@@ -53,6 +41,18 @@
       "ticker_sentiment_score": 0.407635,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
+    },
+    {
+      "title": "Healthcare Stocks Could Merit Prescriptions in 2025",
+      "summary": "Healthcare and biotechnology stocks have underperformed recently compared to the broader market, but analysts suggest 2025 could bring a rebound. Potential catalysts include reduced policy uncertainty following the election, increased AI integration in research and development, and a more favorable environment for mergers and acquisitions within the sector. These factors could benefit funds like SBIO, particularly as large pharma companies seek to replenish their product pipelines.",
+      "url": "https://www.etftrends.com/etf-building-blocks-channel/healthcare-stocks-could-merit-prescriptions-2025/",
+      "source": "ETF Trends",
+      "published": "20250123T000000",
+      "overall_sentiment_score": 0.326953,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.300065,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.429693
     }
   ]
 }

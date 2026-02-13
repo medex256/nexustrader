@@ -7,18 +7,6 @@
   "article_count": 18,
   "articles": [
     {
-      "title": "LiveOne to raise prices of its Plus, Premium subscription audio tiers",
-      "summary": "LiveOne is increasing the prices of its Plus and Premium streaming music subscriptions to cover costs associated with new features and innovations, including leveraging artificial intelligence. The annual cost of LiveOne Plus will rise to $40 per year, and LiveOne Premium will increase to $11 per month, aligning with competitors like Spotify and Apple Music. CEO Robert Ellin believes AI will significantly improve user experience and help the company reach 10 million subscribers and $1 billion in revenue within five years.",
-      "url": "https://thedesk.net/2024/09/liveone-price-increase-ai-innovations-rob-ellin/",
-      "source": "TheDesk.net",
-      "published": "20240909T000000",
-      "overall_sentiment_score": 0.053454,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.136229,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.645808
-    },
-    {
       "title": "Apple’s new CFO appointed: Indian origin Kevan Parekh will succeed Luca M",
       "summary": "Apple Inc. has named Kevan Parekh as its next CFO, succeeding Luca Maestri, effective January 1, 2025. Parekh, of Indian origin, currently serves as Apple's Vice-President for Financial Planning and Analysis (FP&A) and has been with the company since 2013, playing a key role in its financial and business planning. This transition is part of Apple's long-term leadership strategy as Maestri moves into a new role within Apple's Corporate Services teams.",
       "url": "https://thefinancestory.com/apples-appoints-new-cfo-kevan-parekh",
@@ -43,6 +31,18 @@
       "relevance_score": 1.0
     },
     {
+      "title": "Apple fends off appeal of win in $506 mln University of Wisconsin patent case",
+      "summary": "A U.S. appeals court rejected the University of Wisconsin's bid for a new trial in its long-running patent dispute with Apple regarding computer processor technology. This decision upholds a 2022 ruling that denied a new trial to the university, which had previously won a $506 million verdict that was later overturned. The court found that the university should have presented its infringement theory during the original trial.",
+      "url": "https://www.reuters.com/legal/litigation/apple-fends-off-appeal-win-506-mln-university-wisconsin-patent-case-2024-08-28/",
+      "source": "Reuters",
+      "published": "20240828T205900",
+      "overall_sentiment_score": 0.32567,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.311825,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
       "title": "Target integrates curbside and in-store order pickup services with Apple CarPlay",
       "summary": "Target is the first retailer to integrate its curbside and in-store order pickup services with Apple CarPlay, allowing customers to manage their Drive Up and pickup orders directly from their car's built-in screens. This new feature enables shoppers to view order details, get directions, and notify the store of their arrival, streamlining the pickup process. Target plans to introduce a similar service for Android Auto soon, enhancing convenience for its customers.",
       "url": "https://chainstoreage.com/target-integrates-curbside-and-store-order-pickup-services-apple-carplay",
@@ -53,78 +53,6 @@
       "ticker_sentiment_score": 0.338272,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.842753
-    },
-    {
-      "title": "How Nvidia doubled earnings, lost almost $300 billion in value and shook the stock market",
-      "summary": "Nvidia experienced a significant stock market shake-up, losing almost $300 billion in value in a single day, despite having doubled its earnings. This downturn is attributed to growing fears of an economic slowdown and renewed skepticism about the immediate payoff from AI investments, causing broader market indexes to also fall. Analysts highlight Nvidia's dependence on continued massive AI investments from major tech companies and warn of stock volatility.",
-      "url": "https://www.nbcnews.com/business/business-news/nvidia-stock-volatility-why-ai-payoff-explainer-rcna169600",
-      "source": "NBC News",
-      "published": "20240904T163100",
-      "overall_sentiment_score": -0.059224,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.103298,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.640775
-    },
-    {
-      "title": "3 Great ETFs That Offer Broad Diversification",
-      "summary": "This article highlights three ETFs that offer broad diversification, which is crucial given the current top-heavy stock market. The ETFs discussed are Schwab Fundamental U.S. Large Company ETF (FNDX), JPMorgan Core Plus Bond ETF (JCPB), and Vanguard Total Stock Market ETF (VTI), each employing different strategies to achieve diversification and strong long-term performance. The author emphasizes that a broadly diversified portfolio, rather than betting on a few stocks, generally yields better and safer returns for most investors.",
-      "url": "https://global.morningstar.com/en-ca/etfs/3-great-etfs-that-offer-broad-diversification-2",
-      "source": "Morningstar Canada",
-      "published": "20240904T153313",
-      "overall_sentiment_score": 0.1102,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.145395,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.587605
-    },
-    {
-      "title": "Berkshire Just Crossed $1 Trillion. Is It a Buy?",
-      "summary": "Berkshire Hathaway recently reached a market capitalization of $1 trillion, joining an exclusive group of U.S. firms. Despite its significant rally this year, Morningstar analysts currently rate Berkshire Hathaway stock as moderately overvalued, with a 2-star rating. The article details the company's strong Q2 earnings, insurance operations, rising cash pile, and continued equity selling, while also addressing risks such as CEO longevity and competitive markets.",
-      "url": "https://www.morningstar.com/stocks/after-earnings-is-berkshire-hathaway-stock-buy",
-      "source": "Morningstar",
-      "published": "20240828T000000",
-      "overall_sentiment_score": 0.062082,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.077683,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.729283
-    },
-    {
-      "title": "Landsea Homes sells out at 55+ community at Verrado in Buckeye",
-      "summary": "Landsea Homes Corporation has announced a complete sell-out of its 86 homes at the Skye Ridge at Victory 55+ active adult community in Buckeye, Arizona. Following this success, the company is preparing to launch Mira Vista at Victory this fall, offering 145 new duplex and single-family home floorplans with anticipated prices starting in the upper-$300ks. These new homes will also feature Landsea Homes’ High Performance Home features within the Verrado master-planned community.",
-      "url": "https://azbigmedia.com/real-estate/landsea-homes-sells-out-at-55-community-at-verrado-in-buckeye/",
-      "source": "AZ Big Media",
-      "published": "20240827T140500",
-      "overall_sentiment_score": 0.170272,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.24141,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.627924
-    },
-    {
-      "title": "This type of index fund might help you after the S&P 500’s concentration peaks",
-      "summary": "The S&P 500's concentration in a few large-cap technology stocks is nearing peak levels, with 19.6% of the SPDR S&P 500 ETF Trust concentrated in Apple, Microsoft, and Nvidia as of August 30. This high concentration runs counter to the diversification often sought by index fund investors, as a decade ago the top three holdings made up only 7.9% of the fund. The article suggests that while S&P 500 index funds have been beneficial, the current concentration might prompt investors to consider alternatives for broader risk management.",
-      "url": "https://www.marketwatch.com/story/this-type-of-index-fund-might-help-you-after-the-s-p-500s-concentration-peaks-d30b0609?gaa_at=eafs&gaa_n=AWEtsqdSXDF1XR4Z3HDQWulCFCQalOnJDTw3mjPgX2iWbPqoyl7xAYy4bRIv&gaa_ts=69076260&gaa_sig=Mp27D56JJ7Bsypdh69oGnRqfg78foH7DxNtgaYAPhlxJN4qOdf1m_KAQrPVcCMT5RNvuvKbE3y6WA20DW0Eieg%3D%3D",
-      "source": "MarketWatch",
-      "published": "20240903T113700",
-      "overall_sentiment_score": 0.298847,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.340772,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.744204
-    },
-    {
-      "title": "MSA Safety Honored with Outstanding Innovator Award",
-      "summary": "MSA Safety (NYSE: MSA) has been honored with the 2024 Outstanding Corporate Innovator (OCI) Award by The Product Development and Management Association (PDMA) for the second time. The company was recognized for its commitment to innovation, customer-centric focus, and transformation into a global leader in advanced safety technologies, particularly for integrating Voice-of-Customer feedback into its innovation strategy. MSA Safety will accept the award at the 2024 PDMA Inspire Innovation Conference in St. Louis on September 16, 2024.",
-      "url": "https://www.stocktitan.net/news/MSA/msa-safety-honored-with-outstanding-innovator-v0uhkc63n9uh.html",
-      "source": "Stock Titan",
-      "published": "20240828T163000",
-      "overall_sentiment_score": 0.527012,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.321306,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.554251
     },
     {
       "title": "3 Dividend-Growth Stocks That a Top-Rated Vanguard Fund Manager Likes",
@@ -139,28 +67,16 @@
       "relevance_score": 0.839398
     },
     {
-      "title": "Stay Flexible With the AI Trade With These 2 ETFs",
-      "summary": "This article discusses being flexible with AI stock market trades using leveraged and inverse ETFs from Direxion. It highlights the Direxion Daily AI and Big Data Bull 2X Shares (AIBU) for bullish trends and the Direxion Daily AI and Big Data Bear 2X Shares (AIBD) for bearish turns, allowing traders to adapt to short-term market volatility especially with the forthcoming U.S. presidential election.",
-      "url": "https://www.etftrends.com/leveraged-inverse-content-hub/stay-flexible-ai-trade-2-etfs/",
-      "source": "ETF Trends",
-      "published": "20240826T011108",
-      "overall_sentiment_score": 0.343981,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.326816,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.630616
-    },
-    {
-      "title": "A Dot-Com-Like Bust Isn’t in the Cards for AI Investors Who Diversify",
-      "summary": "Concerns about an AI bubble akin to the dot-com bust are overblown, according to J.P. Morgan Private Bank, citing lower valuations and stronger earnings expectations for current AI leaders. While investing in an S&P 500 index fund provides some AI exposure, investors seeking outperformance should diversify across AI infrastructure (AI 1.0) and AI applications (AI 2.0), potentially including global companies and low-cost ETFs for broader exposure. A long-term perspective is crucial as AI is expected to be a multi-year or multi-decade trend.",
-      "url": "https://www.barrons.com/articles/a-dot-com-like-bust-isnt-in-the-cards-for-ai-investors-who-diversify-53ec4dba?gaa_at=eafs&gaa_n=AWEtsqfpXGEcgS_0TgoSo0q1D3QAnrmAVjcr6JvEl0lgYzTB9EcfGVxTM1b-&gaa_ts=69074d4e&gaa_sig=Lq7GoKjUJFd3QuWWqS4e-xizA5qUD6FFZplce-qFdcvt1b9W3TSpl59tuyuJk4bEPNZLAFiqe9Xnuxe0chBEtA%3D%3D",
-      "source": "Barron's",
-      "published": "20240903T123800",
-      "overall_sentiment_score": 0.323589,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.332432,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.731773
+      "title": "4 charts on the US rotation out of growth and tech stocks",
+      "summary": "The article discusses the recent rotation in the US stock market, with investors shifting away from high-flying growth and tech stocks, particularly those tied to AI, towards value stocks in sectors like financials, healthcare, and consumer defensive. This shift is attributed to overvaluation in AI plays and attractive valuations in value and small-cap stocks, with economists foreseeing rate cuts and a soft landing. While major tech companies that led the market rally are now seeing declines, value stocks and defensive sectors are supporting the market's overall performance.",
+      "url": "https://www.morningstar.com.au/markets/4-charts-on-the-us-rotation-out-of-growth-and-tech-stocks",
+      "source": "Morningstar",
+      "published": "20240909T000000",
+      "overall_sentiment_score": -0.265974,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.295077,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.832346
     },
     {
       "title": "This type of index fund might help you after the S&P 500’s concentration peaks",
@@ -175,28 +91,76 @@
       "relevance_score": 0.764678
     },
     {
-      "title": "Apple fends off appeal of win in $506 mln University of Wisconsin patent case",
-      "summary": "A U.S. appeals court rejected the University of Wisconsin's bid for a new trial in its long-running patent dispute with Apple regarding computer processor technology. This decision upholds a 2022 ruling that denied a new trial to the university, which had previously won a $506 million verdict that was later overturned. The court found that the university should have presented its infringement theory during the original trial.",
-      "url": "https://www.reuters.com/legal/litigation/apple-fends-off-appeal-win-506-mln-university-wisconsin-patent-case-2024-08-28/",
-      "source": "Reuters",
-      "published": "20240828T205900",
-      "overall_sentiment_score": 0.32567,
+      "title": "This type of index fund might help you after the S&P 500’s concentration peaks",
+      "summary": "The S&P 500's concentration in a few large-cap technology stocks is nearing peak levels, with 19.6% of the SPDR S&P 500 ETF Trust concentrated in Apple, Microsoft, and Nvidia as of August 30. This high concentration runs counter to the diversification often sought by index fund investors, as a decade ago the top three holdings made up only 7.9% of the fund. The article suggests that while S&P 500 index funds have been beneficial, the current concentration might prompt investors to consider alternatives for broader risk management.",
+      "url": "https://www.marketwatch.com/story/this-type-of-index-fund-might-help-you-after-the-s-p-500s-concentration-peaks-d30b0609?gaa_at=eafs&gaa_n=AWEtsqdSXDF1XR4Z3HDQWulCFCQalOnJDTw3mjPgX2iWbPqoyl7xAYy4bRIv&gaa_ts=69076260&gaa_sig=Mp27D56JJ7Bsypdh69oGnRqfg78foH7DxNtgaYAPhlxJN4qOdf1m_KAQrPVcCMT5RNvuvKbE3y6WA20DW0Eieg%3D%3D",
+      "source": "MarketWatch",
+      "published": "20240903T113700",
+      "overall_sentiment_score": 0.298847,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.311825,
+      "ticker_sentiment_score": 0.340772,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 1.0
+      "relevance_score": 0.744204
     },
     {
-      "title": "4 charts on the US rotation out of growth and tech stocks",
-      "summary": "The article discusses the recent rotation in the US stock market, with investors shifting away from high-flying growth and tech stocks, particularly those tied to AI, towards value stocks in sectors like financials, healthcare, and consumer defensive. This shift is attributed to overvaluation in AI plays and attractive valuations in value and small-cap stocks, with economists foreseeing rate cuts and a soft landing. While major tech companies that led the market rally are now seeing declines, value stocks and defensive sectors are supporting the market's overall performance.",
-      "url": "https://www.morningstar.com.au/markets/4-charts-on-the-us-rotation-out-of-growth-and-tech-stocks",
+      "title": "A Dot-Com-Like Bust Isn’t in the Cards for AI Investors Who Diversify",
+      "summary": "Concerns about an AI bubble akin to the dot-com bust are overblown, according to J.P. Morgan Private Bank, citing lower valuations and stronger earnings expectations for current AI leaders. While investing in an S&P 500 index fund provides some AI exposure, investors seeking outperformance should diversify across AI infrastructure (AI 1.0) and AI applications (AI 2.0), potentially including global companies and low-cost ETFs for broader exposure. A long-term perspective is crucial as AI is expected to be a multi-year or multi-decade trend.",
+      "url": "https://www.barrons.com/articles/a-dot-com-like-bust-isnt-in-the-cards-for-ai-investors-who-diversify-53ec4dba?gaa_at=eafs&gaa_n=AWEtsqfpXGEcgS_0TgoSo0q1D3QAnrmAVjcr6JvEl0lgYzTB9EcfGVxTM1b-&gaa_ts=69074d4e&gaa_sig=Lq7GoKjUJFd3QuWWqS4e-xizA5qUD6FFZplce-qFdcvt1b9W3TSpl59tuyuJk4bEPNZLAFiqe9Xnuxe0chBEtA%3D%3D",
+      "source": "Barron's",
+      "published": "20240903T123800",
+      "overall_sentiment_score": 0.323589,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.332432,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.731773
+    },
+    {
+      "title": "Berkshire Just Crossed $1 Trillion. Is It a Buy?",
+      "summary": "Berkshire Hathaway recently reached a market capitalization of $1 trillion, joining an exclusive group of U.S. firms. Despite its significant rally this year, Morningstar analysts currently rate Berkshire Hathaway stock as moderately overvalued, with a 2-star rating. The article details the company's strong Q2 earnings, insurance operations, rising cash pile, and continued equity selling, while also addressing risks such as CEO longevity and competitive markets.",
+      "url": "https://www.morningstar.com/stocks/after-earnings-is-berkshire-hathaway-stock-buy",
       "source": "Morningstar",
+      "published": "20240828T000000",
+      "overall_sentiment_score": 0.062082,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.077683,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.729283
+    },
+    {
+      "title": "Immersion Stock Surges as It Monetizes Haptic Technology Patents",
+      "summary": "Immersion Corp. (NASDAQ: IMMR), a pioneer in haptic technology, saw its stock surge after it settled a patent lawsuit with Meta Platforms Inc. for $87.5 million and secured a licensing agreement. The company specializes in licensing its extensive patent portfolio for haptic feedback used in billions of devices and has also made a significant investment in Barnes and Noble Education Inc. Immersion continues to evolve its active sensing technology and monetize its intellectual property.",
+      "url": "https://www.sharewise.com/us/news_articles/Immersion_Stock_Surges_as_It_Monetizes_Haptic_Technology_Patents_MarketBeat_20240827_1400",
+      "source": "www.sharewise.com",
+      "published": "20240827T000000",
+      "overall_sentiment_score": -0.068077,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.142701,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.649471
+    },
+    {
+      "title": "LiveOne to raise prices of its Plus, Premium subscription audio tiers",
+      "summary": "LiveOne is increasing the prices of its Plus and Premium streaming music subscriptions to cover costs associated with new features and innovations, including leveraging artificial intelligence. The annual cost of LiveOne Plus will rise to $40 per year, and LiveOne Premium will increase to $11 per month, aligning with competitors like Spotify and Apple Music. CEO Robert Ellin believes AI will significantly improve user experience and help the company reach 10 million subscribers and $1 billion in revenue within five years.",
+      "url": "https://thedesk.net/2024/09/liveone-price-increase-ai-innovations-rob-ellin/",
+      "source": "TheDesk.net",
       "published": "20240909T000000",
-      "overall_sentiment_score": -0.265974,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.295077,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.832346
+      "overall_sentiment_score": 0.053454,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.136229,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.645808
+    },
+    {
+      "title": "How Nvidia doubled earnings, lost almost $300 billion in value and shook the stock market",
+      "summary": "Nvidia experienced a significant stock market shake-up, losing almost $300 billion in value in a single day, despite having doubled its earnings. This downturn is attributed to growing fears of an economic slowdown and renewed skepticism about the immediate payoff from AI investments, causing broader market indexes to also fall. Analysts highlight Nvidia's dependence on continued massive AI investments from major tech companies and warn of stock volatility.",
+      "url": "https://www.nbcnews.com/business/business-news/nvidia-stock-volatility-why-ai-payoff-explainer-rcna169600",
+      "source": "NBC News",
+      "published": "20240904T163100",
+      "overall_sentiment_score": -0.059224,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.103298,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.640775
     },
     {
       "title": "Global Sustainable Funds Are Up Nearly 11% This Year",
@@ -211,16 +175,52 @@
       "relevance_score": 0.636286
     },
     {
-      "title": "Immersion Stock Surges as It Monetizes Haptic Technology Patents",
-      "summary": "Immersion Corp. (NASDAQ: IMMR), a pioneer in haptic technology, saw its stock surge after it settled a patent lawsuit with Meta Platforms Inc. for $87.5 million and secured a licensing agreement. The company specializes in licensing its extensive patent portfolio for haptic feedback used in billions of devices and has also made a significant investment in Barnes and Noble Education Inc. Immersion continues to evolve its active sensing technology and monetize its intellectual property.",
-      "url": "https://www.sharewise.com/us/news_articles/Immersion_Stock_Surges_as_It_Monetizes_Haptic_Technology_Patents_MarketBeat_20240827_1400",
-      "source": "www.sharewise.com",
-      "published": "20240827T000000",
-      "overall_sentiment_score": -0.068077,
+      "title": "Stay Flexible With the AI Trade With These 2 ETFs",
+      "summary": "This article discusses being flexible with AI stock market trades using leveraged and inverse ETFs from Direxion. It highlights the Direxion Daily AI and Big Data Bull 2X Shares (AIBU) for bullish trends and the Direxion Daily AI and Big Data Bear 2X Shares (AIBD) for bearish turns, allowing traders to adapt to short-term market volatility especially with the forthcoming U.S. presidential election.",
+      "url": "https://www.etftrends.com/leveraged-inverse-content-hub/stay-flexible-ai-trade-2-etfs/",
+      "source": "ETF Trends",
+      "published": "20240826T011108",
+      "overall_sentiment_score": 0.343981,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.326816,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630616
+    },
+    {
+      "title": "Landsea Homes sells out at 55+ community at Verrado in Buckeye",
+      "summary": "Landsea Homes Corporation has announced a complete sell-out of its 86 homes at the Skye Ridge at Victory 55+ active adult community in Buckeye, Arizona. Following this success, the company is preparing to launch Mira Vista at Victory this fall, offering 145 new duplex and single-family home floorplans with anticipated prices starting in the upper-$300ks. These new homes will also feature Landsea Homes’ High Performance Home features within the Verrado master-planned community.",
+      "url": "https://azbigmedia.com/real-estate/landsea-homes-sells-out-at-55-community-at-verrado-in-buckeye/",
+      "source": "AZ Big Media",
+      "published": "20240827T140500",
+      "overall_sentiment_score": 0.170272,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.24141,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.627924
+    },
+    {
+      "title": "3 Great ETFs That Offer Broad Diversification",
+      "summary": "This article highlights three ETFs that offer broad diversification, which is crucial given the current top-heavy stock market. The ETFs discussed are Schwab Fundamental U.S. Large Company ETF (FNDX), JPMorgan Core Plus Bond ETF (JCPB), and Vanguard Total Stock Market ETF (VTI), each employing different strategies to achieve diversification and strong long-term performance. The author emphasizes that a broadly diversified portfolio, rather than betting on a few stocks, generally yields better and safer returns for most investors.",
+      "url": "https://global.morningstar.com/en-ca/etfs/3-great-etfs-that-offer-broad-diversification-2",
+      "source": "Morningstar Canada",
+      "published": "20240904T153313",
+      "overall_sentiment_score": 0.1102,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.142701,
+      "ticker_sentiment_score": 0.145395,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.649471
+      "relevance_score": 0.587605
+    },
+    {
+      "title": "MSA Safety Honored with Outstanding Innovator Award",
+      "summary": "MSA Safety (NYSE: MSA) has been honored with the 2024 Outstanding Corporate Innovator (OCI) Award by The Product Development and Management Association (PDMA) for the second time. The company was recognized for its commitment to innovation, customer-centric focus, and transformation into a global leader in advanced safety technologies, particularly for integrating Voice-of-Customer feedback into its innovation strategy. MSA Safety will accept the award at the 2024 PDMA Inspire Innovation Conference in St. Louis on September 16, 2024.",
+      "url": "https://www.stocktitan.net/news/MSA/msa-safety-honored-with-outstanding-innovator-v0uhkc63n9uh.html",
+      "source": "Stock Titan",
+      "published": "20240828T163000",
+      "overall_sentiment_score": 0.527012,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.321306,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.554251
     }
   ]
 }

@@ -43,18 +43,6 @@
       "relevance_score": 0.57853
     },
     {
-      "title": "ASCO25: Johnson & Johnson reports data from Phase I trial of prostate cancer drug",
-      "summary": "Johnson & Johnson has reported positive data from its Phase I trial of pasritamig, a bispecific antibody for metastatic castration-resistant prostate cancer (mCRPC). The trial involving 174 subjects demonstrated the drug's potential anti-tumor activity and good tolerability, particularly in patients who had undergone multiple previous therapies. Recommended Phase II doses have been established, and the data was presented at the American Society of Clinical Oncology Annual Meeting.",
-      "url": "https://www.clinicaltrialsarena.com/news/johnson-prostate-cancer/",
-      "source": "Clinical Trials Arena",
-      "published": "20250602T000000",
-      "overall_sentiment_score": 0.025414,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.017285,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.342678
-    },
-    {
       "title": "Inflection Points: Rethinking Your Core",
       "summary": "This article suggests that investors use the current market calm to reassess their core equity positioning, given increased exposure to foreign revenues, higher stock concentration, and increased volatility in major indexes like the S&P 500. It proposes that factor-based strategies, particularly those focusing on quality metrics or dynamic factor rotation, can help mitigate these risks, potentially leading to better risk-adjusted returns and a more targeted exposure to U.S. economic strength. The author highlights how core indexes have changed significantly over the past 25 years and offers strategies to address these shifts.",
       "url": "https://www.globalxetfs.com/articles/inflection-points-rethinking-your-core/",
@@ -65,6 +53,18 @@
       "ticker_sentiment_score": 0.032835,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.444667
+    },
+    {
+      "title": "ASCO25: Johnson & Johnson reports data from Phase I trial of prostate cancer drug",
+      "summary": "Johnson & Johnson has reported positive data from its Phase I trial of pasritamig, a bispecific antibody for metastatic castration-resistant prostate cancer (mCRPC). The trial involving 174 subjects demonstrated the drug's potential anti-tumor activity and good tolerability, particularly in patients who had undergone multiple previous therapies. Recommended Phase II doses have been established, and the data was presented at the American Society of Clinical Oncology Annual Meeting.",
+      "url": "https://www.clinicaltrialsarena.com/news/johnson-prostate-cancer/",
+      "source": "Clinical Trials Arena",
+      "published": "20250602T000000",
+      "overall_sentiment_score": 0.025414,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.017285,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.342678
     }
   ]
 }

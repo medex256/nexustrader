@@ -31,6 +31,18 @@
       "relevance_score": 1.0
     },
     {
+      "title": "U.S. sues to block Nvidia’s $40-billion chip takeover of Arm",
+      "summary": "U.S. antitrust officials have sued to block Nvidia's proposed $40-billion acquisition of Arm Ltd., citing concerns that the deal would stifle innovation and undermine competition in the semiconductor industry. The Federal Trade Commission argues that the merger would grant Nvidia excessive control over chip designs widely used across various technologies. The acquisition, initially valued at $40 billion in September 2020, has faced regulatory hurdles globally due to Arm's critical role as a technology licensor to hundreds of companies including Nvidia's rivals.",
+      "url": "https://www.latimes.com/business/story/2021-12-02/u-s-sues-to-block-nvidias-40-billion-chip-takeover-of-arm",
+      "source": "Los Angeles Times",
+      "published": "20211202T171900",
+      "overall_sentiment_score": 0.02333,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.406637,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
       "title": "FTC Sues To Block $40 Billion Nvidia - Arm Computer Chip Deal",
       "summary": "The Federal Trade Commission has sued to block Nvidia's $40 billion acquisition of chip designer Arm Ltd., citing concerns that the deal would stifle competition and innovation in the semiconductor industry. Regulators in the U.K. and EU are also investigating the proposed merger. Nvidia, based in Santa Clara, California, vowed to contest the lawsuit and preserve Arm's open licensing model.",
       "url": "https://www.cbsnews.com/sanfrancisco/news/nvidia-arm-ltd-chip-deal-ftc-lawsuit/",
@@ -41,6 +53,30 @@
       "ticker_sentiment_score": -0.322722,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 0.974486
+    },
+    {
+      "title": "Amazon's cloud unit launches new chips to take on Intel, Nvidia",
+      "summary": "Amazon Web Services (AWS) has introduced two new custom computing chips, Graviton3 and Trainium, aimed at competing with offerings from Intel, AMD, and Nvidia. AWS claims its new chips offer better performance per dollar and lower costs for machine learning model training compared to its rivals. This move signals AWS's continued drive to develop its own hardware and intensify competition in the cloud computing and chip markets.",
+      "url": "https://www.reuters.com/technology/amazons-cloud-unit-launches-new-chips-take-intel-nvidia-2021-11-30/",
+      "source": "Reuters",
+      "published": "20211130T215400",
+      "overall_sentiment_score": -0.073152,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.305344,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.876254
+    },
+    {
+      "title": "How a Stanford couple created Taiwan’s best-known AI start-up",
+      "summary": "This article details how a Stanford couple, Chih-Han Yu and Winnie Lee, founded Appier, Taiwan's first AI unicorn. After eight failed attempts and nearly two decades, their company, which develops AI-based precision marketing solutions, went public on the Tokyo Stock Exchange in March, becoming a success story for both Taiwan's tech scene and Japan's IPO market.",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3157914/how-stanford-couple-taiwan-created-islands-first-ai-unicorn-after",
+      "source": "South China Morning Post",
+      "published": "20211201T070000",
+      "overall_sentiment_score": 0.263652,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.317803,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.645593
     },
     {
       "title": "Nasdaq dives over 2% as tech stocks slide at end of volatile week",
@@ -65,42 +101,6 @@
       "ticker_sentiment_score": 0.041435,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.304177
-    },
-    {
-      "title": "U.S. sues to block Nvidia’s $40-billion chip takeover of Arm",
-      "summary": "U.S. antitrust officials have sued to block Nvidia's proposed $40-billion acquisition of Arm Ltd., citing concerns that the deal would stifle innovation and undermine competition in the semiconductor industry. The Federal Trade Commission argues that the merger would grant Nvidia excessive control over chip designs widely used across various technologies. The acquisition, initially valued at $40 billion in September 2020, has faced regulatory hurdles globally due to Arm's critical role as a technology licensor to hundreds of companies including Nvidia's rivals.",
-      "url": "https://www.latimes.com/business/story/2021-12-02/u-s-sues-to-block-nvidias-40-billion-chip-takeover-of-arm",
-      "source": "Los Angeles Times",
-      "published": "20211202T171900",
-      "overall_sentiment_score": 0.02333,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.406637,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "How a Stanford couple created Taiwan’s best-known AI start-up",
-      "summary": "This article details how a Stanford couple, Chih-Han Yu and Winnie Lee, founded Appier, Taiwan's first AI unicorn. After eight failed attempts and nearly two decades, their company, which develops AI-based precision marketing solutions, went public on the Tokyo Stock Exchange in March, becoming a success story for both Taiwan's tech scene and Japan's IPO market.",
-      "url": "https://www.scmp.com/tech/tech-trends/article/3157914/how-stanford-couple-taiwan-created-islands-first-ai-unicorn-after",
-      "source": "South China Morning Post",
-      "published": "20211201T070000",
-      "overall_sentiment_score": 0.263652,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.317803,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.645593
-    },
-    {
-      "title": "Amazon's cloud unit launches new chips to take on Intel, Nvidia",
-      "summary": "Amazon Web Services (AWS) has introduced two new custom computing chips, Graviton3 and Trainium, aimed at competing with offerings from Intel, AMD, and Nvidia. AWS claims its new chips offer better performance per dollar and lower costs for machine learning model training compared to its rivals. This move signals AWS's continued drive to develop its own hardware and intensify competition in the cloud computing and chip markets.",
-      "url": "https://www.reuters.com/technology/amazons-cloud-unit-launches-new-chips-take-intel-nvidia-2021-11-30/",
-      "source": "Reuters",
-      "published": "20211130T215400",
-      "overall_sentiment_score": -0.073152,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.305344,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.876254
     }
   ]
 }

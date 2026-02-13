@@ -7,16 +7,28 @@
   "article_count": 11,
   "articles": [
     {
-      "title": "Equal Weight ETF EQL Hits Key Buy Signal",
-      "summary": "The article highlights the Alps Equal Sector Weight ETF (EQL) as an intriguing tool to mitigate concentration risk in the S&P 500, particularly due to the dominance of a few tech firms. EQL, an equal-weight ETF, assigns equal weight to each sector and then to stocks within those sectors, offering diversification and strong performance. The fund hit a key buy signal as its price rose above its 50-day simple moving average.",
-      "url": "https://www.etftrends.com/etf-building-blocks-channel/equal-weight-etf-eql-hits-key-buy-signal/",
-      "source": "ETF Trends",
-      "published": "20230915T143506",
-      "overall_sentiment_score": 0.009641,
+      "title": "Check out Direxion Daily Nvda Bull 2X Shares's stock price (NVDU) in real time",
+      "summary": "This article provides real-time stock price information for Direxion Daily Nvda Bull 2X Shares (NVDU), including current trading data, key statistics, and historical performance. It details the stock's last price, volume, 52-week range, and dividend information. The page also offers a summary of events, but notes there is no recent news for the security.",
+      "url": "https://www.cnbc.com/quotes/NVDU",
+      "source": "CNBC",
+      "published": "20230914T120836",
+      "overall_sentiment_score": -0.10336,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.228078,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.725317
+      "ticker_sentiment_score": 0.018764,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.893767
+    },
+    {
+      "title": "Invesco MSCI USA ETF (PBUS) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of the Invesco MSCI USA ETF (PBUS), including its current stock price, key statistics like PE Ratio and Dividend Yield, and its top holdings as of August 31, 2025. The ETF has a portfolio value of $8.44 billion with top holdings including NVIDIA, Microsoft, Apple, Amazon, and Meta Platforms. It also presents historical performance data and breakdowns of asset allocation and sector exposure.",
+      "url": "https://www.gurufocus.com/etf/PBUS/summary",
+      "source": "GuruFocus",
+      "published": "20230915T110940",
+      "overall_sentiment_score": 0.160026,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.224322,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.855471
     },
     {
       "title": "Arm climbs 25% in Nasdaq debut after pricing IPO at $51 a share",
@@ -31,16 +43,28 @@
       "relevance_score": 0.728758
     },
     {
-      "title": "Check out Direxion Daily Nvda Bull 2X Shares's stock price (NVDU) in real time",
-      "summary": "This article provides real-time stock price information for Direxion Daily Nvda Bull 2X Shares (NVDU), including current trading data, key statistics, and historical performance. It details the stock's last price, volume, 52-week range, and dividend information. The page also offers a summary of events, but notes there is no recent news for the security.",
-      "url": "https://www.cnbc.com/quotes/NVDU",
-      "source": "CNBC",
-      "published": "20230914T120836",
-      "overall_sentiment_score": -0.10336,
+      "title": "Equal Weight ETF EQL Hits Key Buy Signal",
+      "summary": "The article highlights the Alps Equal Sector Weight ETF (EQL) as an intriguing tool to mitigate concentration risk in the S&P 500, particularly due to the dominance of a few tech firms. EQL, an equal-weight ETF, assigns equal weight to each sector and then to stocks within those sectors, offering diversification and strong performance. The fund hit a key buy signal as its price rose above its 50-day simple moving average.",
+      "url": "https://www.etftrends.com/etf-building-blocks-channel/equal-weight-etf-eql-hits-key-buy-signal/",
+      "source": "ETF Trends",
+      "published": "20230915T143506",
+      "overall_sentiment_score": 0.009641,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.018764,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.893767
+      "ticker_sentiment_score": -0.228078,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.725317
+    },
+    {
+      "title": "AIoT Platforms Are on the Rise, But What Are They?",
+      "summary": "This article explains the concept of AIoT (Artificial Intelligence of Things) platforms, which integrate AI programming into IoT devices to enhance functionality and efficiency. It details real-world applications across smart homes, edge computing, healthcare, and smart cities, highlighting the projected rapid growth of the AIoT market. The piece emphasizes the transformative potential of AIoT for industries, resource optimization, and decision-making.",
+      "url": "https://www.visualcapitalist.com/sp/artificial-intelligence-of-things/",
+      "source": "Visual Capitalist",
+      "published": "20230913T154113",
+      "overall_sentiment_score": 0.395038,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.420644,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.705198
     },
     {
       "title": "Arm, the Chip Designer, Raises $4.87 Billion in the Year’s Largest I.P.O. (Published 2023)",
@@ -55,40 +79,16 @@
       "relevance_score": 0.647458
     },
     {
-      "title": "POET Technologies’ New Module Designs Attract Major Companies at CIOE",
-      "summary": "POET Technologies' joint exhibition with Super Photonics Xiamen (SPX) at CIOE in Shenzhen was a significant success, leading to numerous customer engagements and requests for samples of their 800G and 400G optical engines. The company's new module designs, based on the POET Optical Interposer, simplify assembly by eliminating the need for active alignments and attracted major end-users like Alibaba, FiberHome, and ByteDance. The positive reception at the event signals strong near-term commercial activity for POET.",
-      "url": "https://www.globenewswire.com/news-release/2023/09/12/2741498/0/en/POET-Technologies-New-Module-Designs-Attract-Major-Companies-at-CIOE.html",
-      "source": "GlobeNewswire",
-      "published": "20230912T070500",
-      "overall_sentiment_score": 0.467629,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.349264,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.550549
-    },
-    {
-      "title": "XOMO - YieldMax XOM Option Income Strategy ETF Stock Price and Quote",
-      "summary": "This article provides a detailed quote and financial data for the XOMO - YieldMax XOM Option Income Strategy ETF. It includes current stock price, performance metrics, dividend information, fund characteristics, and recent news announcements related to YieldMax ETFs. The fund aims for current income and indirect exposure to Exxon Mobil Corporation (XOM) through a synthetic covered call strategy.",
-      "url": "https://finviz.com/quote.ashx?t=XOMO",
-      "source": "Finviz",
-      "published": "20230904T000857",
-      "overall_sentiment_score": 0.040004,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.007327,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.603824
-    },
-    {
-      "title": "Invesco MSCI USA ETF (PBUS) Stock Price, Holdings, Dividend Yield",
-      "summary": "This article provides a detailed overview of the Invesco MSCI USA ETF (PBUS), including its current stock price, key statistics like PE Ratio and Dividend Yield, and its top holdings as of August 31, 2025. The ETF has a portfolio value of $8.44 billion with top holdings including NVIDIA, Microsoft, Apple, Amazon, and Meta Platforms. It also presents historical performance data and breakdowns of asset allocation and sector exposure.",
-      "url": "https://www.gurufocus.com/etf/PBUS/summary",
-      "source": "GuruFocus",
-      "published": "20230915T110940",
-      "overall_sentiment_score": 0.160026,
+      "title": "Arm’s shares seen as a shoo-in for Nasdaq 100, though S&P 500 unlikely",
+      "summary": "Newly public Arm Holdings is expected to join the Nasdaq 100 index due to its market capitalization and potential for rapid inclusion of megacap growth companies. However, its inclusion in the S&P 500 is unlikely, primarily because it is a UK-based multinational company, which conflicts with the S&P 500's focus on the U.S. economy. Additionally, a low public float due to SoftBank's significant stake might pose a barrier to inclusion in some other indexes and ETFs.",
+      "url": "https://www.reuters.com/markets/arms-shares-seen-shoo-in-nasdaq-100-though-sp-500-unlikely-2023-09-15/",
+      "source": "Reuters",
+      "published": "20230915T145800",
+      "overall_sentiment_score": 0.292095,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.224322,
+      "ticker_sentiment_score": 0.241465,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.855471
+      "relevance_score": 0.618718
     },
     {
       "title": "Seagate And Western Digital: Benefiting From AI And Generative AI Storage Demand (STX)",
@@ -115,28 +115,28 @@
       "relevance_score": 0.606698
     },
     {
-      "title": "Arm’s shares seen as a shoo-in for Nasdaq 100, though S&P 500 unlikely",
-      "summary": "Newly public Arm Holdings is expected to join the Nasdaq 100 index due to its market capitalization and potential for rapid inclusion of megacap growth companies. However, its inclusion in the S&P 500 is unlikely, primarily because it is a UK-based multinational company, which conflicts with the S&P 500's focus on the U.S. economy. Additionally, a low public float due to SoftBank's significant stake might pose a barrier to inclusion in some other indexes and ETFs.",
-      "url": "https://www.reuters.com/markets/arms-shares-seen-shoo-in-nasdaq-100-though-sp-500-unlikely-2023-09-15/",
-      "source": "Reuters",
-      "published": "20230915T145800",
-      "overall_sentiment_score": 0.292095,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.241465,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.618718
+      "title": "XOMO - YieldMax XOM Option Income Strategy ETF Stock Price and Quote",
+      "summary": "This article provides a detailed quote and financial data for the XOMO - YieldMax XOM Option Income Strategy ETF. It includes current stock price, performance metrics, dividend information, fund characteristics, and recent news announcements related to YieldMax ETFs. The fund aims for current income and indirect exposure to Exxon Mobil Corporation (XOM) through a synthetic covered call strategy.",
+      "url": "https://finviz.com/quote.ashx?t=XOMO",
+      "source": "Finviz",
+      "published": "20230904T000857",
+      "overall_sentiment_score": 0.040004,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.007327,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.603824
     },
     {
-      "title": "AIoT Platforms Are on the Rise, But What Are They?",
-      "summary": "This article explains the concept of AIoT (Artificial Intelligence of Things) platforms, which integrate AI programming into IoT devices to enhance functionality and efficiency. It details real-world applications across smart homes, edge computing, healthcare, and smart cities, highlighting the projected rapid growth of the AIoT market. The piece emphasizes the transformative potential of AIoT for industries, resource optimization, and decision-making.",
-      "url": "https://www.visualcapitalist.com/sp/artificial-intelligence-of-things/",
-      "source": "Visual Capitalist",
-      "published": "20230913T154113",
-      "overall_sentiment_score": 0.395038,
+      "title": "POET Technologies’ New Module Designs Attract Major Companies at CIOE",
+      "summary": "POET Technologies' joint exhibition with Super Photonics Xiamen (SPX) at CIOE in Shenzhen was a significant success, leading to numerous customer engagements and requests for samples of their 800G and 400G optical engines. The company's new module designs, based on the POET Optical Interposer, simplify assembly by eliminating the need for active alignments and attracted major end-users like Alibaba, FiberHome, and ByteDance. The positive reception at the event signals strong near-term commercial activity for POET.",
+      "url": "https://www.globenewswire.com/news-release/2023/09/12/2741498/0/en/POET-Technologies-New-Module-Designs-Attract-Major-Companies-at-CIOE.html",
+      "source": "GlobeNewswire",
+      "published": "20230912T070500",
+      "overall_sentiment_score": 0.467629,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.420644,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.705198
+      "ticker_sentiment_score": 0.349264,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.550549
     }
   ]
 }

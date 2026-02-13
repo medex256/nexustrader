@@ -19,18 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "3 Reasons to Buy BULZ, and 4 Reasons Not To",
-      "summary": "This article examines the MicroSectors Solactive FANG Innovation 3x Leveraged ETN (BULZ), outlining three reasons to consider investing in it and four reasons to be cautious. The ETN offers a concentrated, equal-weighted, and leveraged investment in top tech stocks, but comes with high volatility, potential for the underlying premise to fail, high expense ratios, and a warning from the issuer against long-term holding.",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/33174656/3-reasons-to-buy-bulz-and-4-reasons-not-to/",
-      "source": "The Globe and Mail",
-      "published": "20240702T132200",
-      "overall_sentiment_score": 0.26547,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.44082,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.729336
-    },
-    {
       "title": "Exclusive: Nvidia set to face French antitrust charges, sources say",
       "summary": "Nvidia is reportedly facing antitrust charges from the French antitrust regulator for alleged anti-competitive practices, making France the first enforcer to act against the computer chip maker. The charges follow dawn raids in the graphics cards sector last year and stem from a broader inquiry into cloud computing, with concerns raised about Nvidia's CUDA chip programming software and investments in AI-focused cloud service providers. Companies in France can face fines of up to 10% of their global annual turnover for antitrust breaches.",
       "url": "https://www.reuters.com/technology/french-antitrust-regulators-preparing-nvidia-charges-sources-say-2024-07-01/",
@@ -43,42 +31,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "FBCG ETF – Not Compelled To Buy (BATS:FBCG)",
-      "summary": "The Fidelity Blue Chip Growth ETF (FBCG) is a $1.9bn actively managed ETF focusing on large-cap domestic growth stocks. While it has potentially outperformed the Russell 1000 Growth ETF since its inception, the article highlights concerns about the overvaluation of its top holdings, particularly NVDA, and a steep growth to value ratio. The author suggests FBCG appears overextended on the charts.",
-      "url": "https://seekingalpha.com/article/4701375-fbcg-etf-not-compelled-to-buy",
-      "source": "Seeking Alpha",
-      "published": "20240627T221523",
-      "overall_sentiment_score": -0.078334,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.127861,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.614565
-    },
-    {
-      "title": "The Case for Investing in a Capital Appreciation ETF",
-      "summary": "The T. Rowe Price Capital Appreciation ETF (TCAF) has shown rapid growth since its launch in June 2023, accumulating $1.7 billion in assets. This active ETF focuses on U.S. large-cap equities with a bottom-up stock selection approach, seeking attractive valuations and strong management. Managed by award-winning portfolio manager David Giroux, TCAF aims to capitalize on market opportunities through fundamental analysis and may be particularly advantageous in a period of anticipated interest rate divergence.",
-      "url": "https://www.etftrends.com/active-etf-channel/case-investing-capital-appreciation-etf/",
-      "source": "ETF Trends",
-      "published": "20240627T095855",
-      "overall_sentiment_score": 0.259786,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.141452,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.640506
-    },
-    {
-      "title": "Intel Demonstrates First Fully Integrated Optical I/O Chiplet",
-      "summary": "Intel Corporation's Integrated Photonics Solutions (IPS) Group has demonstrated the industry's first fully integrated bidirectional optical compute interconnect (OCI) chiplet, co-packaged with an Intel CPU and running live data. This OCI chiplet is designed to enhance AI infrastructure for data centers and high-performance computing by providing higher bandwidth, lower power consumption, and longer reach than traditional electrical or pluggable optical solutions. This breakthrough is expected to revolutionize high-speed data processing for AI, enabling greater scalability and more efficient resource utilization.",
-      "url": "https://newsroom.intel.com/artificial-intelligence/intel-unveils-first-integrated-optical-io-chiplet",
-      "source": "Intel Newsroom",
-      "published": "20240626T000000",
-      "overall_sentiment_score": 0.501567,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.336931,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.624354
-    },
-    {
       "title": "DIGIASIA's Digi Tech Secures 5,120 NVIDIA H200 GPUs for AI Solutions",
       "summary": "DIGIASIA's subsidiary, Digi Tech, has secured an initial allocation of 5,120 NVIDIA H200 GPUs, with an option for an additional 10,240, to develop advanced AI enterprise solutions across fintech, telecom, and government sectors. This significant investment, valued over US$400m initially, will expand DIGIASIA's FaaS ecosystem and leverage NVIDIA's cutting-edge hardware, primarily operating out of the Dubai International Finance Centre. The move also extends NVIDIA's footprint in the MEA region following its recent designation as the world's most valuable company.",
       "url": "https://fintechmagazine.com/articles/digiasia-corp-subsidiary-digi-tech-secures-nvidia-h200-gpus",
@@ -87,6 +39,30 @@
       "overall_sentiment_score": 0.234843,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment_score": 0.429463,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "How NVIDIA momentarily became the most valuable company in the world",
+      "summary": "NVIDIA, once known primarily to gamers, recently became the world's most valuable company due to its CEO Jensen Huang's foresight in steering the company towards artificial intelligence two decades ago. The company's unique approach of designing specialized chips and developing crucial software like CUDA for 3D graphics and later AI applications created a significant competitive advantage. This strategic shift, particularly after a pivotal moment in 2012 when GPUs outperformed CPUs in AI image recognition, solidified NVIDIA's position and led to its immense success, despite high stock valuations.",
+      "url": "https://www.npr.org/2024/07/03/nx-s1-5028570/how-nvidia-momentarily-became-the-most-valuable-company-in-the-world",
+      "source": "NPR",
+      "published": "20240703T181400",
+      "overall_sentiment_score": 0.431427,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.409903,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "What Exactly Does NVIDIA Do, and Why Should You Care?",
+      "summary": "This article provides an introduction to NVIDIA, highlighting its transformation from a GPU manufacturer to a systems company offering hardware and an ecosystem for developers. It delves into the factors driving NVIDIA's success, its significant impact on the customer experience market through AI, and key partnerships with companies like Cisco, SAP, and ServiceNow. The piece emphasizes NVIDIA's role in advancing AI for personalized and intelligent customer interactions across various sectors.",
+      "url": "https://www.cxtoday.com/customer-analytics-intelligence/what-exactly-does-nvidia-do-and-why-should-you-care/",
+      "source": "CX Today",
+      "published": "20240626T000000",
+      "overall_sentiment_score": 0.321904,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.86392,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
     },
@@ -103,28 +79,16 @@
       "relevance_score": 0.933049
     },
     {
-      "title": "How NVIDIA momentarily became the most valuable company in the world",
-      "summary": "NVIDIA, once known primarily to gamers, recently became the world's most valuable company due to its CEO Jensen Huang's foresight in steering the company towards artificial intelligence two decades ago. The company's unique approach of designing specialized chips and developing crucial software like CUDA for 3D graphics and later AI applications created a significant competitive advantage. This strategic shift, particularly after a pivotal moment in 2012 when GPUs outperformed CPUs in AI image recognition, solidified NVIDIA's position and led to its immense success, despite high stock valuations.",
-      "url": "https://www.npr.org/2024/07/03/nx-s1-5028570/how-nvidia-momentarily-became-the-most-valuable-company-in-the-world",
-      "source": "NPR",
-      "published": "20240703T181400",
-      "overall_sentiment_score": 0.431427,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.409903,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "Members of Congress Buy and Sell Stocks. These ETFs Let You Invest Like Democrats or Republicans.",
-      "summary": "The article discusses the emergence of two new ETFs, the Unusual Whales Subversive Democratic Trading ETF (NANC) and the Unusual Whales Subversive Republican Trading ETF (CRUZ), which track the stock trades of members of Congress. It highlights that while these ETFs offer a way to invest like politicians, they are very young, small, and have high expense ratios compared to broader market ETFs. The author ultimately advises against investing in them due to these factors and the uncertainty of politicians' investing prowess.",
-      "url": "https://www.fool.com/investing/2024/07/02/members-of-congress-buy-and-sell-stocks-these-etfs/",
-      "source": "The Motley Fool",
-      "published": "20240702T050000",
-      "overall_sentiment_score": 0.085728,
+      "title": "A Shakeup for Technology ETFs",
+      "summary": "The Technology Select Sector SPDR Fund (XLK) recently underwent a significant rebalance, swapping a large position in Apple for Nvidia. This rebalance highlights the complexities of index rules, particularly the RIC diversification test, and its impact on ETF holdings. The article discusses how passive indexing can sometimes appear active due to various exceptions and weighting methodologies, influencing ETF performance and investor perceptions.",
+      "url": "https://www.etftrends.com/disruptive-technology-channel/shakeup-technology-etfs/",
+      "source": "ETF Trends",
+      "published": "20240627T000000",
+      "overall_sentiment_score": 0.02506,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.110615,
+      "ticker_sentiment_score": 0.002403,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.623115
+      "relevance_score": 0.895603
     },
     {
       "title": "Spear Alpha (SPRX) 1Q24 Quarterly Letter",
@@ -139,6 +103,30 @@
       "relevance_score": 0.889164
     },
     {
+      "title": "BlackRock’s Top Thematic Trends to Watch in 2H",
+      "summary": "BlackRock identifies AI and geopolitics as the two biggest mega-forces shaping thematic investing in the second half of 2024. The firm highlights investment opportunities in AI-related infrastructure, semiconductors, and digital infrastructure, recommending ETFs like SOXX and IDGT. Additionally, the article discusses the potential \"chokepoint\" of copper supply due to surging demand from electrification, EVs, and data centers, suggesting copper mining ETFs and emphasizing opportunities arising from global turmoil, supply chain shifts, and changing demographics, particularly in emerging markets like India and Mexico.",
+      "url": "https://etftrends.com/blackrocks-top-thematic-trends-watch-2h/",
+      "source": "ETF Trends",
+      "published": "20240703T000000",
+      "overall_sentiment_score": 0.263182,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.442984,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.876945
+    },
+    {
+      "title": "Nvidia ETFS NVD, NVDQ Jump as Chipmaker Weighs Down QQQ, USD, SHOC",
+      "summary": "Nvidia's stock decline is impacting technology ETFs like QQQ, USD, and SHOC, with the chipmaker approaching a correction after a significant rally. However, inverse single-stock ETFs such as NVDQ and NVD are experiencing gains. The market is also closely watching upcoming inflation data for clues on potential Fed rate cuts.",
+      "url": "https://www.etf.com/sections/news/nvidia-etfs-nvd-nvdq-jump-chipmaker-weighs-down-qqq-usd-shoc",
+      "source": "ETF.com",
+      "published": "20240624T094500",
+      "overall_sentiment_score": 0.010556,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.40575,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.875304
+    },
+    {
       "title": "3 ETFs to Buy for Nvidia Stock Dominance",
       "summary": "This article recommends three ETFs for investors seeking exposure to Nvidia's continued dominance in the tech and AI sectors. The ETFs highlighted are the Technology Select Sector SPDR Fund (XLK) for its high Nvidia concentration, the VanEck Robotics ETF (IBOT) for a broader automation play with lighter Nvidia weighting, and the VanEck Semiconductor ETF (SMH) for comprehensive semiconductor market exposure, also heavily weighted towards Nvidia. These options cater to investors looking to capitalize on Nvidia's growth while potentially dampening volatility through diversification.",
       "url": "https://investorplace.com/2024/06/3-etfs-to-buy-for-nvidia-stock-dominance/",
@@ -151,16 +139,28 @@
       "relevance_score": 0.859575
     },
     {
-      "title": "South Korea sets sights on fostering EDA tech to win HBM chip war",
-      "summary": "South Korea is aiming to develop its Electronic Design Automation (EDA) technology to maintain its lead in the high-bandwidth memory (HBM) chip market, which is crucial for AI chip manufacturing. While US companies currently dominate the EDA market, Chinese firms are increasing their presence in Korea, prompting the South Korean government to acknowledge the importance of nurturing a domestic EDA ecosystem. The country faces challenges in talent retention, as engineers leave due to a lack of a robust local EDA industry.",
-      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202406280014",
-      "source": "The Korea Economic Daily Global Edition",
-      "published": "20240628T172741",
-      "overall_sentiment_score": 0.166386,
+      "title": "Top Themes in the First Half of 2024: Crypto, Chips, Ships & Silver",
+      "summary": "The article reviews the top-performing investment themes in the first half of 2024, highlighting Crypto, Semiconductors (Chips), Shipping (Ships), and Silver. It details the impressive performance of related ETFs and individual stocks like Nvidia, driven by factors such as spot ETF approvals, AI demand, geopolitical tensions, and industrial applications. The article also touches on emerging themes for the second half of the year, such as GLP-1 weight loss drugs.",
+      "url": "https://www.etftrends.com/disruptive-technology-channel/top-themes-first-half-2024-crypto-chips-ships-silver/",
+      "source": "ETF Trends",
+      "published": "20240702T000000",
+      "overall_sentiment_score": 0.246957,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.134959,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.627094
+      "ticker_sentiment_score": 0.409222,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.741589
+    },
+    {
+      "title": "3 Reasons to Buy BULZ, and 4 Reasons Not To",
+      "summary": "This article examines the MicroSectors Solactive FANG Innovation 3x Leveraged ETN (BULZ), outlining three reasons to consider investing in it and four reasons to be cautious. The ETN offers a concentrated, equal-weighted, and leveraged investment in top tech stocks, but comes with high volatility, potential for the underlying premise to fail, high expense ratios, and a warning from the issuer against long-term holding.",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/33174656/3-reasons-to-buy-bulz-and-4-reasons-not-to/",
+      "source": "The Globe and Mail",
+      "published": "20240702T132200",
+      "overall_sentiment_score": 0.26547,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.44082,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.729336
     },
     {
       "title": "Micron tumbles as AI revenue surge falls short of lofty expectations",
@@ -187,76 +187,16 @@
       "relevance_score": 0.64349
     },
     {
-      "title": "What Exactly Does NVIDIA Do, and Why Should You Care?",
-      "summary": "This article provides an introduction to NVIDIA, highlighting its transformation from a GPU manufacturer to a systems company offering hardware and an ecosystem for developers. It delves into the factors driving NVIDIA's success, its significant impact on the customer experience market through AI, and key partnerships with companies like Cisco, SAP, and ServiceNow. The piece emphasizes NVIDIA's role in advancing AI for personalized and intelligent customer interactions across various sectors.",
-      "url": "https://www.cxtoday.com/customer-analytics-intelligence/what-exactly-does-nvidia-do-and-why-should-you-care/",
-      "source": "CX Today",
-      "published": "20240626T000000",
-      "overall_sentiment_score": 0.321904,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.86392,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "Nvidia ETFS NVD, NVDQ Jump as Chipmaker Weighs Down QQQ, USD, SHOC",
-      "summary": "Nvidia's stock decline is impacting technology ETFs like QQQ, USD, and SHOC, with the chipmaker approaching a correction after a significant rally. However, inverse single-stock ETFs such as NVDQ and NVD are experiencing gains. The market is also closely watching upcoming inflation data for clues on potential Fed rate cuts.",
-      "url": "https://www.etf.com/sections/news/nvidia-etfs-nvd-nvdq-jump-chipmaker-weighs-down-qqq-usd-shoc",
-      "source": "ETF.com",
-      "published": "20240624T094500",
-      "overall_sentiment_score": 0.010556,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.40575,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.875304
-    },
-    {
-      "title": "What Does Chipotle’s Stock Split Mean for Investors?",
-      "summary": "Chipotle Mexican Grill (CMG) executed a 50-for-1 stock split on June 25, one of the largest in NYSE history, resulting in shareholders receiving 49 additional shares for each one owned. The split aims to increase liquidity and make shares more accessible to individual investors, although it does not change the company's underlying value. Morningstar's fair value estimate for Chipotle stock has been adjusted to $40 per share following the split.",
-      "url": "https://www.morningstar.com/stocks/what-does-chipotles-stock-split-mean-investors",
-      "source": "Morningstar",
-      "published": "20240627T000000",
-      "overall_sentiment_score": 0.12081,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.121361,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.616513
-    },
-    {
-      "title": "U.S. Complementary And Alternative Medicine Market Size to Hit USD 229.12 Bn by 2033",
-      "summary": "The U.S. complementary and alternative medicine (CAM) market is projected to reach USD 229.12 billion by 2033, growing at a CAGR of 23.11% from USD 28.65 billion in 2023. This growth is driven by the rising prevalence of chronic diseases, increasing awareness and acceptance of holistic health approaches, improved accessibility and affordability of CAM therapies, and technological advancements. Traditional alternative medicine/botanicals dominated the market in 2023, while the mind healing and e-sales segments are expected to experience the fastest growth.",
-      "url": "https://www.biospace.com/u-s-complementary-and-alternative-medicine-market-size-to-hit-usd-229-12-bn-by-2033",
-      "source": "BioSpace",
-      "published": "20240703T000000",
-      "overall_sentiment_score": 0.182285,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.320352,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.627589
-    },
-    {
-      "title": "Top Themes in the First Half of 2024: Crypto, Chips, Ships & Silver",
-      "summary": "The article reviews the top-performing investment themes in the first half of 2024, highlighting Crypto, Semiconductors (Chips), Shipping (Ships), and Silver. It details the impressive performance of related ETFs and individual stocks like Nvidia, driven by factors such as spot ETF approvals, AI demand, geopolitical tensions, and industrial applications. The article also touches on emerging themes for the second half of the year, such as GLP-1 weight loss drugs.",
-      "url": "https://www.etftrends.com/disruptive-technology-channel/top-themes-first-half-2024-crypto-chips-ships-silver/",
+      "title": "The Case for Investing in a Capital Appreciation ETF",
+      "summary": "The T. Rowe Price Capital Appreciation ETF (TCAF) has shown rapid growth since its launch in June 2023, accumulating $1.7 billion in assets. This active ETF focuses on U.S. large-cap equities with a bottom-up stock selection approach, seeking attractive valuations and strong management. Managed by award-winning portfolio manager David Giroux, TCAF aims to capitalize on market opportunities through fundamental analysis and may be particularly advantageous in a period of anticipated interest rate divergence.",
+      "url": "https://www.etftrends.com/active-etf-channel/case-investing-capital-appreciation-etf/",
       "source": "ETF Trends",
-      "published": "20240702T000000",
-      "overall_sentiment_score": 0.246957,
+      "published": "20240627T095855",
+      "overall_sentiment_score": 0.259786,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.409222,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.741589
-    },
-    {
-      "title": "A Shakeup for Technology ETFs",
-      "summary": "The Technology Select Sector SPDR Fund (XLK) recently underwent a significant rebalance, swapping a large position in Apple for Nvidia. This rebalance highlights the complexities of index rules, particularly the RIC diversification test, and its impact on ETF holdings. The article discusses how passive indexing can sometimes appear active due to various exceptions and weighting methodologies, influencing ETF performance and investor perceptions.",
-      "url": "https://www.etftrends.com/disruptive-technology-channel/shakeup-technology-etfs/",
-      "source": "ETF Trends",
-      "published": "20240627T000000",
-      "overall_sentiment_score": 0.02506,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.002403,
+      "ticker_sentiment_score": 0.141452,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.895603
+      "relevance_score": 0.640506
     },
     {
       "title": "Why Blue Chips Are Ripe for Growth Investing",
@@ -271,16 +211,76 @@
       "relevance_score": 0.633435
     },
     {
-      "title": "BlackRock’s Top Thematic Trends to Watch in 2H",
-      "summary": "BlackRock identifies AI and geopolitics as the two biggest mega-forces shaping thematic investing in the second half of 2024. The firm highlights investment opportunities in AI-related infrastructure, semiconductors, and digital infrastructure, recommending ETFs like SOXX and IDGT. Additionally, the article discusses the potential \"chokepoint\" of copper supply due to surging demand from electrification, EVs, and data centers, suggesting copper mining ETFs and emphasizing opportunities arising from global turmoil, supply chain shifts, and changing demographics, particularly in emerging markets like India and Mexico.",
-      "url": "https://etftrends.com/blackrocks-top-thematic-trends-watch-2h/",
-      "source": "ETF Trends",
+      "title": "U.S. Complementary And Alternative Medicine Market Size to Hit USD 229.12 Bn by 2033",
+      "summary": "The U.S. complementary and alternative medicine (CAM) market is projected to reach USD 229.12 billion by 2033, growing at a CAGR of 23.11% from USD 28.65 billion in 2023. This growth is driven by the rising prevalence of chronic diseases, increasing awareness and acceptance of holistic health approaches, improved accessibility and affordability of CAM therapies, and technological advancements. Traditional alternative medicine/botanicals dominated the market in 2023, while the mind healing and e-sales segments are expected to experience the fastest growth.",
+      "url": "https://www.biospace.com/u-s-complementary-and-alternative-medicine-market-size-to-hit-usd-229-12-bn-by-2033",
+      "source": "BioSpace",
       "published": "20240703T000000",
-      "overall_sentiment_score": 0.263182,
+      "overall_sentiment_score": 0.182285,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.442984,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.876945
+      "ticker_sentiment_score": 0.320352,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.627589
+    },
+    {
+      "title": "South Korea sets sights on fostering EDA tech to win HBM chip war",
+      "summary": "South Korea is aiming to develop its Electronic Design Automation (EDA) technology to maintain its lead in the high-bandwidth memory (HBM) chip market, which is crucial for AI chip manufacturing. While US companies currently dominate the EDA market, Chinese firms are increasing their presence in Korea, prompting the South Korean government to acknowledge the importance of nurturing a domestic EDA ecosystem. The country faces challenges in talent retention, as engineers leave due to a lack of a robust local EDA industry.",
+      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202406280014",
+      "source": "The Korea Economic Daily Global Edition",
+      "published": "20240628T172741",
+      "overall_sentiment_score": 0.166386,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.134959,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.627094
+    },
+    {
+      "title": "Intel Demonstrates First Fully Integrated Optical I/O Chiplet",
+      "summary": "Intel Corporation's Integrated Photonics Solutions (IPS) Group has demonstrated the industry's first fully integrated bidirectional optical compute interconnect (OCI) chiplet, co-packaged with an Intel CPU and running live data. This OCI chiplet is designed to enhance AI infrastructure for data centers and high-performance computing by providing higher bandwidth, lower power consumption, and longer reach than traditional electrical or pluggable optical solutions. This breakthrough is expected to revolutionize high-speed data processing for AI, enabling greater scalability and more efficient resource utilization.",
+      "url": "https://newsroom.intel.com/artificial-intelligence/intel-unveils-first-integrated-optical-io-chiplet",
+      "source": "Intel Newsroom",
+      "published": "20240626T000000",
+      "overall_sentiment_score": 0.501567,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.336931,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.624354
+    },
+    {
+      "title": "Members of Congress Buy and Sell Stocks. These ETFs Let You Invest Like Democrats or Republicans.",
+      "summary": "The article discusses the emergence of two new ETFs, the Unusual Whales Subversive Democratic Trading ETF (NANC) and the Unusual Whales Subversive Republican Trading ETF (CRUZ), which track the stock trades of members of Congress. It highlights that while these ETFs offer a way to invest like politicians, they are very young, small, and have high expense ratios compared to broader market ETFs. The author ultimately advises against investing in them due to these factors and the uncertainty of politicians' investing prowess.",
+      "url": "https://www.fool.com/investing/2024/07/02/members-of-congress-buy-and-sell-stocks-these-etfs/",
+      "source": "The Motley Fool",
+      "published": "20240702T050000",
+      "overall_sentiment_score": 0.085728,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.110615,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.623115
+    },
+    {
+      "title": "What Does Chipotle’s Stock Split Mean for Investors?",
+      "summary": "Chipotle Mexican Grill (CMG) executed a 50-for-1 stock split on June 25, one of the largest in NYSE history, resulting in shareholders receiving 49 additional shares for each one owned. The split aims to increase liquidity and make shares more accessible to individual investors, although it does not change the company's underlying value. Morningstar's fair value estimate for Chipotle stock has been adjusted to $40 per share following the split.",
+      "url": "https://www.morningstar.com/stocks/what-does-chipotles-stock-split-mean-investors",
+      "source": "Morningstar",
+      "published": "20240627T000000",
+      "overall_sentiment_score": 0.12081,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.121361,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.616513
+    },
+    {
+      "title": "FBCG ETF – Not Compelled To Buy (BATS:FBCG)",
+      "summary": "The Fidelity Blue Chip Growth ETF (FBCG) is a $1.9bn actively managed ETF focusing on large-cap domestic growth stocks. While it has potentially outperformed the Russell 1000 Growth ETF since its inception, the article highlights concerns about the overvaluation of its top holdings, particularly NVDA, and a steep growth to value ratio. The author suggests FBCG appears overextended on the charts.",
+      "url": "https://seekingalpha.com/article/4701375-fbcg-etf-not-compelled-to-buy",
+      "source": "Seeking Alpha",
+      "published": "20240627T221523",
+      "overall_sentiment_score": -0.078334,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.127861,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.614565
     },
     {
       "title": "What’s the Secret Sauce in this High-Income Fund?",

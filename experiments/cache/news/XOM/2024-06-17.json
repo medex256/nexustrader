@@ -7,16 +7,28 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "After Earnings, Is Lululemon Stock a Buy, a Sell, or Fairly Valued?",
-      "summary": "Lululemon's Q1 earnings showed flat Americas sales but strong growth in China, meeting Morningstar's overall sales forecast. Despite slowing US sales impacting future guidance, Morningstar finds Lululemon's stock fairly valued with a narrow economic moat and strong financial health, maintaining a 3-star rating. The company faces high uncertainty due to consumer spending risks but has substantial growth opportunities in China.",
-      "url": "https://www.morningstar.com/stocks/after-earnings-is-lululemon-stock-buy-sell-or-fairly-valued",
-      "source": "Morningstar",
-      "published": "20240611T000000",
-      "overall_sentiment_score": 0.104876,
+      "title": "Oil market dynamics: The calm after the storm",
+      "summary": "Brent crude oil prices have eased to $78 per barrel in early June, down from over $90 in April, influenced by subdued demand, increased inventories, and easing geopolitical risks. The World Bank projects oil prices to average $84 per barrel in 2024, with potential risks including escalating conflicts, lower-than-expected North American supply, and weaker global GDP growth. Global oil supply is expected to reach a record high in 2024 due to non-OPEC+ producers, while OPEC+ production is forecast to decline, yet increase in 2025 as cuts are phased out.",
+      "url": "https://blogs.worldbank.org/en/opendata/oil-market-dynamics--the-calm-after-the-storm-",
+      "source": "World Bank Blogs",
+      "published": "20240614T000000",
+      "overall_sentiment_score": -0.11279,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.101386,
+      "ticker_sentiment_score": -0.127296,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.595252
+      "relevance_score": 0.73785
+    },
+    {
+      "title": "Noble Corporation Announces Agreement to Acquire Diamond Offshore Drilling, Inc. for $2.15 Billion in Cash & Stock Deal",
+      "summary": "Noble Corporation announced an agreement to acquire Diamond Offshore Drilling, Inc. for approximately $2.15 billion in a cash and stock deal. Diamond Offshore shareholders will receive a combination of cash and Noble stock, creating one of the largest offshore drilling contractors globally. The transaction is expected to close in the fourth quarter of 2024 or Q1 2025, pending regulatory and shareholder approvals, and is anticipated to be accretive to Noble's free cash flow per share.",
+      "url": "https://www.barchart.com/story/news/26777140/noble-corporation-announces-agreement-to-acquire-diamond-offshore-drilling-inc-for-215-billion-in-cash-stock-deal",
+      "source": "Barchart.com",
+      "published": "20240612T000000",
+      "overall_sentiment_score": 0.346193,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.320017,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.706374
     },
     {
       "title": "ConocoPhillips-Marathon Deal Represents a Pivot",
@@ -31,30 +43,6 @@
       "relevance_score": 0.640409
     },
     {
-      "title": "This ETF strategy may help investors skirt market concentration risk",
-      "summary": "Investors seeking to avoid market concentration risk might consider value-oriented investments, according to Phil McInnis of Avantis Investors. He suggests a diversified approach beyond typical index funds, favoring companies with low valuations and strong balance sheets through an ETF strategy that includes a profitability overlay. Avantis' U.S. Large Cap Value ETF (AVLV) aims for less concentration by making smaller bets on profitable, attractively priced companies across various sectors, demonstrating stronger performance than its benchmark.",
-      "url": "https://www.cnbc.com/2024/06/15/avoid-concentration-risk-with-this-value-play-etf-expert-suggests.html",
-      "source": "CNBC",
-      "published": "20240615T005811",
-      "overall_sentiment_score": 0.3689,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.328807,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.604569
-    },
-    {
-      "title": "Oil market dynamics: The calm after the storm",
-      "summary": "Brent crude oil prices have eased to $78 per barrel in early June, down from over $90 in April, influenced by subdued demand, increased inventories, and easing geopolitical risks. The World Bank projects oil prices to average $84 per barrel in 2024, with potential risks including escalating conflicts, lower-than-expected North American supply, and weaker global GDP growth. Global oil supply is expected to reach a record high in 2024 due to non-OPEC+ producers, while OPEC+ production is forecast to decline, yet increase in 2025 as cuts are phased out.",
-      "url": "https://blogs.worldbank.org/en/opendata/oil-market-dynamics--the-calm-after-the-storm-",
-      "source": "World Bank Blogs",
-      "published": "20240614T000000",
-      "overall_sentiment_score": -0.11279,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.127296,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.73785
-    },
-    {
       "title": "Anticipating Antitrust: ConocoPhillips/Marathon Merger Profile",
       "summary": "ConocoPhillips announced its acquisition of Marathon Oil for $22.5 billion, marking the latest in a series of multibillion-dollar energy deals. While the Biden administration has increased antitrust scrutiny, experts believe this merger is less likely to face regulatory challenges compared to larger acquisitions like Exxon's due to the relative size of the companies and the absence of downstream assets. Despite this, the deal documents include standard antitrust language and provisions for regulatory approvals.",
       "url": "https://lawstreetmedia.com/insights/anticipating-antitrust-conocophillips-marathon-merger-profile/",
@@ -67,16 +55,28 @@
       "relevance_score": 0.607046
     },
     {
-      "title": "Noble Corporation Announces Agreement to Acquire Diamond Offshore Drilling, Inc. for $2.15 Billion in Cash & Stock Deal",
-      "summary": "Noble Corporation announced an agreement to acquire Diamond Offshore Drilling, Inc. for approximately $2.15 billion in a cash and stock deal. Diamond Offshore shareholders will receive a combination of cash and Noble stock, creating one of the largest offshore drilling contractors globally. The transaction is expected to close in the fourth quarter of 2024 or Q1 2025, pending regulatory and shareholder approvals, and is anticipated to be accretive to Noble's free cash flow per share.",
-      "url": "https://www.barchart.com/story/news/26777140/noble-corporation-announces-agreement-to-acquire-diamond-offshore-drilling-inc-for-215-billion-in-cash-stock-deal",
-      "source": "Barchart.com",
-      "published": "20240612T000000",
-      "overall_sentiment_score": 0.346193,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.320017,
+      "title": "This ETF strategy may help investors skirt market concentration risk",
+      "summary": "Investors seeking to avoid market concentration risk might consider value-oriented investments, according to Phil McInnis of Avantis Investors. He suggests a diversified approach beyond typical index funds, favoring companies with low valuations and strong balance sheets through an ETF strategy that includes a profitability overlay. Avantis' U.S. Large Cap Value ETF (AVLV) aims for less concentration by making smaller bets on profitable, attractively priced companies across various sectors, demonstrating stronger performance than its benchmark.",
+      "url": "https://www.cnbc.com/2024/06/15/avoid-concentration-risk-with-this-value-play-etf-expert-suggests.html",
+      "source": "CNBC",
+      "published": "20240615T005811",
+      "overall_sentiment_score": 0.3689,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.328807,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.706374
+      "relevance_score": 0.604569
+    },
+    {
+      "title": "After Earnings, Is Lululemon Stock a Buy, a Sell, or Fairly Valued?",
+      "summary": "Lululemon's Q1 earnings showed flat Americas sales but strong growth in China, meeting Morningstar's overall sales forecast. Despite slowing US sales impacting future guidance, Morningstar finds Lululemon's stock fairly valued with a narrow economic moat and strong financial health, maintaining a 3-star rating. The company faces high uncertainty due to consumer spending risks but has substantial growth opportunities in China.",
+      "url": "https://www.morningstar.com/stocks/after-earnings-is-lululemon-stock-buy-sell-or-fairly-valued",
+      "source": "Morningstar",
+      "published": "20240611T000000",
+      "overall_sentiment_score": 0.104876,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.101386,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.595252
     }
   ]
 }

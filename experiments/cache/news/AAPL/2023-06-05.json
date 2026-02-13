@@ -19,16 +19,52 @@
       "relevance_score": 1.0
     },
     {
-      "title": "High Beta ETF 'SPHB' Lifted by Heavy Tech Sector Tilt",
-      "summary": "The Invesco S&P 500 High Beta ETF (SPHB) performed strongly in May, driven by its significant allocation to the information technology sector. While the broader S&P 500 saw modest gains, the S&P 500 High Beta index climbed 2.4% due to the tech sector's 9.5% rally. SPHB has also demonstrated strong long-term performance, outpacing the S&P 500 over a three-year period.",
-      "url": "https://etfdb.com/innovative-etfs-content-hub/heavy-tech-sector-tilt-lifts-sphb/",
-      "source": "ETF Database",
-      "published": "20230601T195953",
-      "overall_sentiment_score": 0.379923,
+      "title": "Apple Bets On The Emerging Markets Growth Story",
+      "summary": "Apple is increasingly focusing on emerging markets, particularly India, to drive growth amidst a challenging global smartphone market. The company achieved marginal growth in iPhone sales despite overall industry decline, with India seeing significant retail and manufacturing expansion plans. While services and financial technology offer long-term opportunities, the emerging markets strategy is a key component of Apple's immediate growth narrative, alongside ongoing share repurchases and dividend increases.",
+      "url": "https://www.forbes.com/sites/bethkindig/2023/06/01/apple-bets-on-the-emerging-markets-growth-story/",
+      "source": "Forbes",
+      "published": "20230601T081500",
+      "overall_sentiment_score": 0.168736,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.407309,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.986192
+    },
+    {
+      "title": "Steve Jobs: Apple Cofounder and Tech Innovator",
+      "summary": "Steve Jobs, co-founder of Apple Inc., was an American inventor, designer, and entrepreneur responsible for pioneering revolutionary technologies like the iPhone and iPad. The article details his life from adoption and early education to co-founding Apple, his departure and subsequent ventures with NeXT and Pixar, and his triumphant return to Apple, ultimately shaping modern technology. It also covers his personal life, battle with pancreatic cancer, and lasting legacy after his death in 2011.",
+      "url": "https://www.biography.com/business-leaders/steve-jobs",
+      "source": "Biography",
+      "published": "20230522T144400",
+      "overall_sentiment_score": 0.282287,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.7303,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.961613
+    },
+    {
+      "title": "Apple, Microsoft Boost the S&P 500 Amid Tech Comeback",
+      "summary": "Apple and Microsoft have significantly contributed to the S&P 500's gains in 2023, accounting for nearly half of the index's rise and reaching an all-time high combined weight of 14%. This tech rally, driven by robust earnings, has left many mutual funds underweight in major tech stocks. The article suggests leveraged ETFs like AAPU, MSFU, and TECL for traders looking to capitalize on the continued bullish trend in the tech sector.",
+      "url": "https://www.etftrends.com/leveraged-inverse-content-hub/apple-microsoft-boost-sp-500-amid-tech-sector-comeback/",
+      "source": "ETF Trends",
+      "published": "20230601T154631",
+      "overall_sentiment_score": 0.391611,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.347229,
+      "ticker_sentiment_score": 0.327434,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.603255
+      "relevance_score": 0.717121
+    },
+    {
+      "title": "Vimeo is tuning out its streaming TV apps",
+      "summary": "Vimeo is discontinuing its dedicated streaming TV apps for Apple TV, Android TV, Amazon Fire TV, and Roku starting June 27th. Users can still watch Vimeo content on their TVs by casting from the Vimeo mobile app via Apple AirPlay 2 or Google Chromecast. This move aligns with Vimeo's strategic shift in recent years from a consumer-facing streaming destination to focusing on video-streaming services for businesses.",
+      "url": "https://www.techhive.com/article/1940321/vimeo-is-tuning-out-its-streaming-tv-apps.html",
+      "source": "TechHive",
+      "published": "20230602T091900",
+      "overall_sentiment_score": 0.06266,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.012713,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.715216
     },
     {
       "title": "Everything you need to know about Salesforce’s Q1 2024 financial results",
@@ -55,40 +91,16 @@
       "relevance_score": 0.620938
     },
     {
-      "title": "Vimeo is tuning out its streaming TV apps",
-      "summary": "Vimeo is discontinuing its dedicated streaming TV apps for Apple TV, Android TV, Amazon Fire TV, and Roku starting June 27th. Users can still watch Vimeo content on their TVs by casting from the Vimeo mobile app via Apple AirPlay 2 or Google Chromecast. This move aligns with Vimeo's strategic shift in recent years from a consumer-facing streaming destination to focusing on video-streaming services for businesses.",
-      "url": "https://www.techhive.com/article/1940321/vimeo-is-tuning-out-its-streaming-tv-apps.html",
-      "source": "TechHive",
-      "published": "20230602T091900",
-      "overall_sentiment_score": 0.06266,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.012713,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.715216
-    },
-    {
-      "title": "Apple Bets On The Emerging Markets Growth Story",
-      "summary": "Apple is increasingly focusing on emerging markets, particularly India, to drive growth amidst a challenging global smartphone market. The company achieved marginal growth in iPhone sales despite overall industry decline, with India seeing significant retail and manufacturing expansion plans. While services and financial technology offer long-term opportunities, the emerging markets strategy is a key component of Apple's immediate growth narrative, alongside ongoing share repurchases and dividend increases.",
-      "url": "https://www.forbes.com/sites/bethkindig/2023/06/01/apple-bets-on-the-emerging-markets-growth-story/",
-      "source": "Forbes",
-      "published": "20230601T081500",
-      "overall_sentiment_score": 0.168736,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.407309,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.986192
-    },
-    {
-      "title": "Apple, Microsoft Boost the S&P 500 Amid Tech Comeback",
-      "summary": "Apple and Microsoft have significantly contributed to the S&P 500's gains in 2023, accounting for nearly half of the index's rise and reaching an all-time high combined weight of 14%. This tech rally, driven by robust earnings, has left many mutual funds underweight in major tech stocks. The article suggests leveraged ETFs like AAPU, MSFU, and TECL for traders looking to capitalize on the continued bullish trend in the tech sector.",
-      "url": "https://www.etftrends.com/leveraged-inverse-content-hub/apple-microsoft-boost-sp-500-amid-tech-sector-comeback/",
-      "source": "ETF Trends",
-      "published": "20230601T154631",
-      "overall_sentiment_score": 0.391611,
+      "title": "High Beta ETF 'SPHB' Lifted by Heavy Tech Sector Tilt",
+      "summary": "The Invesco S&P 500 High Beta ETF (SPHB) performed strongly in May, driven by its significant allocation to the information technology sector. While the broader S&P 500 saw modest gains, the S&P 500 High Beta index climbed 2.4% due to the tech sector's 9.5% rally. SPHB has also demonstrated strong long-term performance, outpacing the S&P 500 over a three-year period.",
+      "url": "https://etfdb.com/innovative-etfs-content-hub/heavy-tech-sector-tilt-lifts-sphb/",
+      "source": "ETF Database",
+      "published": "20230601T195953",
+      "overall_sentiment_score": 0.379923,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.327434,
+      "ticker_sentiment_score": 0.347229,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.717121
+      "relevance_score": 0.603255
     },
     {
       "title": "Examining the Importance of Dividend Growth",
@@ -101,18 +113,6 @@
       "ticker_sentiment_score": 0.413491,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.552144
-    },
-    {
-      "title": "Steve Jobs: Apple Cofounder and Tech Innovator",
-      "summary": "Steve Jobs, co-founder of Apple Inc., was an American inventor, designer, and entrepreneur responsible for pioneering revolutionary technologies like the iPhone and iPad. The article details his life from adoption and early education to co-founding Apple, his departure and subsequent ventures with NeXT and Pixar, and his triumphant return to Apple, ultimately shaping modern technology. It also covers his personal life, battle with pancreatic cancer, and lasting legacy after his death in 2011.",
-      "url": "https://www.biography.com/business-leaders/steve-jobs",
-      "source": "Biography",
-      "published": "20230522T144400",
-      "overall_sentiment_score": 0.282287,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.7303,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.961613
     }
   ]
 }

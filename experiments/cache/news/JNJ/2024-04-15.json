@@ -7,18 +7,6 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "Vertex pays $4.9 billion to hike Alpine’s immunology trail",
-      "summary": "Vertex Pharmaceuticals is acquiring Alpine Immune Sciences for $4.9 billion, marking the largest acquisition of the year so far and highlighting significant investment in immunology and inflammation. This deal grants Vertex access to Alpine’s lead asset, povetacicept, a potential best-in-class treatment for IgA nephropathy, lupus, and autoimmune cytopenias, with promising new clinical trial data. The acquisition strengthens Vertex's immunology portfolio, aligning with a broader industry trend of pharmas seeking M&A opportunities in this therapeutic area.",
-      "url": "https://www.fiercebiotech.com/biotech/vertex-pays-49-billion-hike-alpines-immunology-trail",
-      "source": "Fierce Biotech",
-      "published": "20240410T173000",
-      "overall_sentiment_score": 0.1627,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.114479,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.619749
-    },
-    {
       "title": "RallyBio (RLYB) Partners With J&J & Gets $6.6M Funding, Stock Up",
       "summary": "RallyBio's (RLYB) shares surged 82.8% after announcing a collaboration with Johnson & Johnson (J&J) and a $6.6 million equity investment. The partnership aims to develop complementary therapeutic approaches for fetal and neonatal alloimmune thrombocytopenia (FNAIT), with RallyBio focusing on prevention for unaoimmunized individuals and J&J developing a treatment for already alloimmunized patients. RallyBio is advancing its investigational therapy, RLYB212, and plans to initiate a phase II study in late 2024.",
       "url": "https://www.nasdaq.com/articles/rallybio-rlyb-partners-with-jj-gets-$6.6m-funding-stock-up",
@@ -29,6 +17,42 @@
       "ticker_sentiment_score": 0.465765,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.861028
+    },
+    {
+      "title": "Teva, Viatris win new chance to challenge J&J schizophrenia drug patent",
+      "summary": "Teva Pharmaceutical and Viatris have won a new chance to challenge a Johnson & Johnson patent for its schizophrenia drug, Invega Sustenna. A U.S. appeals court revived their challenges, stating the patent may be invalid and sending the case back for reconsideration, which could pave the way for cheaper generic versions. J&J sold over $4.1 billion of the drug worldwide last year, with $2.9 billion in U.S. sales.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/teva-viatris-win-new-chance-challenge-jj-schizophrenia-drug-patent-2024-04-01/",
+      "source": "Reuters",
+      "published": "20240401T180100",
+      "overall_sentiment_score": 0.317811,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.33554,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.821109
+    },
+    {
+      "title": "5 things that will shape surgical robotics over the next decade",
+      "summary": "The surgical robotics sector is poised for significant growth in 2024 and beyond, driven by developments such as Intuitive Surgical's da Vinci 5 approval and the emergence of smaller, more portable consoles. Remote connectivity, powered by both 5G and dedicated fiber optic networks, and the increasing integration of AI are also crucial factors. Additionally, experienced executives from successful surgical robotics companies are re-entering the market with new ventures, intensifying competition and innovation.",
+      "url": "https://www.medicaldesignandoutsourcing.com/five-things-shaping-surgical-robotics-over-the-next-decade/",
+      "source": "Medical Design & Outsourcing",
+      "published": "20240404T000000",
+      "overall_sentiment_score": 0.345892,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.348832,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.664241
+    },
+    {
+      "title": "Vertex pays $4.9 billion to hike Alpine’s immunology trail",
+      "summary": "Vertex Pharmaceuticals is acquiring Alpine Immune Sciences for $4.9 billion, marking the largest acquisition of the year so far and highlighting significant investment in immunology and inflammation. This deal grants Vertex access to Alpine’s lead asset, povetacicept, a potential best-in-class treatment for IgA nephropathy, lupus, and autoimmune cytopenias, with promising new clinical trial data. The acquisition strengthens Vertex's immunology portfolio, aligning with a broader industry trend of pharmas seeking M&A opportunities in this therapeutic area.",
+      "url": "https://www.fiercebiotech.com/biotech/vertex-pays-49-billion-hike-alpines-immunology-trail",
+      "source": "Fierce Biotech",
+      "published": "20240410T173000",
+      "overall_sentiment_score": 0.1627,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.114479,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.619749
     },
     {
       "title": "High-flying Vertex hikes CEO Reshma Kewalramani's pay by 30% to $20.6M",
@@ -53,30 +77,6 @@
       "ticker_sentiment_score": 0.226217,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.567595
-    },
-    {
-      "title": "5 things that will shape surgical robotics over the next decade",
-      "summary": "The surgical robotics sector is poised for significant growth in 2024 and beyond, driven by developments such as Intuitive Surgical's da Vinci 5 approval and the emergence of smaller, more portable consoles. Remote connectivity, powered by both 5G and dedicated fiber optic networks, and the increasing integration of AI are also crucial factors. Additionally, experienced executives from successful surgical robotics companies are re-entering the market with new ventures, intensifying competition and innovation.",
-      "url": "https://www.medicaldesignandoutsourcing.com/five-things-shaping-surgical-robotics-over-the-next-decade/",
-      "source": "Medical Design & Outsourcing",
-      "published": "20240404T000000",
-      "overall_sentiment_score": 0.345892,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.348832,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.664241
-    },
-    {
-      "title": "Teva, Viatris win new chance to challenge J&J schizophrenia drug patent",
-      "summary": "Teva Pharmaceutical and Viatris have won a new chance to challenge a Johnson & Johnson patent for its schizophrenia drug, Invega Sustenna. A U.S. appeals court revived their challenges, stating the patent may be invalid and sending the case back for reconsideration, which could pave the way for cheaper generic versions. J&J sold over $4.1 billion of the drug worldwide last year, with $2.9 billion in U.S. sales.",
-      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/teva-viatris-win-new-chance-challenge-jj-schizophrenia-drug-patent-2024-04-01/",
-      "source": "Reuters",
-      "published": "20240401T180100",
-      "overall_sentiment_score": 0.317811,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.33554,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.821109
     }
   ]
 }

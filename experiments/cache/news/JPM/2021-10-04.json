@@ -7,42 +7,6 @@
   "article_count": 28,
   "articles": [
     {
-      "title": "Rivian details $1 billion loss, Amazon deal in IPO filing",
-      "summary": "Rivian Automotive Inc., an electric pickup maker backed by Amazon.com Inc., disclosed a net loss of almost $1 billion in the first half of the year in its initial public offering paperwork. The company is seeking to be valued at about $80 billion and has significant backing from investors like Amazon and Ford Motor Co., alongside strong pre-order interest for its vehicles. The filing also detailed its exclusive four-year deal with Amazon for delivery vehicles, although Amazon isn't bound by minimum purchase requirements.",
-      "url": "https://www.detroitnews.com/story/business/autos/2021/10/01/rivian-details-1-billion-loss-amazon-deal-ipo-filing/5960638001/",
-      "source": "The Detroit News",
-      "published": "20211001T193552",
-      "overall_sentiment_score": 0.17337,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.142869,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.611961
-    },
-    {
-      "title": "Citizens Financial Group Appoints Sarah Lindstrom as Head of Business Banking",
-      "summary": "Citizens Financial Group announced the appointment of Sarah Lindstrom as Head of Business Banking, effective October 4. Lindstrom, who joined Citizens in 2017, will be responsible for growing the business banking portfolio and developing the team. Her leadership is expected to benefit customers and the Business Banking team as the company continues to expand this important segment.",
-      "url": "https://www.citybiz.co/article/151161/citizens-financial-group-appoints-sarah-lindstrom-as-head-of-business-banking/",
-      "source": "citybiz",
-      "published": "20210930T195646",
-      "overall_sentiment_score": 0.314153,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.138868,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.57604
-    },
-    {
-      "title": "AES-Siemens joint venture Fluence joins raft of storage firms moving to go public",
-      "summary": "Energy storage company Fluence, a joint venture between Siemens and AES, has filed for an initial public offering (IPO) to be listed on Nasdaq under \"FLNC\". This move follows increased investor interest in battery startups and marks Fluence's significant growth since its 2018 launch, including its AI platform and a recent $125 million investment from Qatar's sovereign wealth fund. The company joins several other storage firms that have recently gone public, capitalizing on the rising demand for energy storage solutions.",
-      "url": "https://www.utilitydive.com/news/aes-siemens-joint-venture-fluence-joins-raft-of-storage-firms-moving-to-go/607332/",
-      "source": "Utility Dive",
-      "published": "20210929T192643",
-      "overall_sentiment_score": 0.186099,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.114448,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.643948
-    },
-    {
       "title": "JPMorgan CEO Jamie Dimon turned up to open D.C.'s newest Chase Bank branch. Here's why.",
       "summary": "JPMorgan Chase CEO Jamie Dimon participated in the opening of a new Chase Bank branch at Skyland Town Center in D.C.'s Ward 7, joined by D.C. Mayor Muriel Bowser. The event marked the culmination of a long-awaited project.",
       "url": "https://www.bizjournals.com/washington/news/2021/09/29/jpmorgan-chase-ceo-jamie-dimon-opens-dc-branch.html",
@@ -53,30 +17,6 @@
       "ticker_sentiment_score": 0.263184,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Fintech and traditional banks: competition or… symbiosis?",
-      "summary": "This article examines the relationship between fintechs and traditional banks in the UK, questioning if it's competition or symbiosis. It analyzes customer usage of digital-only services versus traditional banking platforms, highlighting that while fintechs are growing, they often complement rather than replace traditional banks, especially among younger demographics. The author suggests that traditional banks still hold a massive audience and can leverage cross-selling strategies, indicating a more complex interaction than simple competition.",
-      "url": "https://www.comscore.com/esl/Insights/Blog/Fintech-and-traditional-banks-competition-or-symbiosis",
-      "source": "comScore",
-      "published": "20210923T211145",
-      "overall_sentiment_score": 0.14071,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.149531,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.601237
-    },
-    {
-      "title": "JPMorgan Chase adopts Thought Machine's Vault cloud system for core retail banking operations",
-      "summary": "JPMorgan Chase is moving its core retail banking system to Thought Machine's cloud-based Vault platform to meet changing customer demands, improve scalability, and support embedded banking. This adoption allows JPMorgan to run all retail banking products on a single, cloud-native platform. The move is part of JPMorgan's increased aggression in acquisitions, following recent purchases of college planning platform Frank and restaurant review service The Infatuation.",
-      "url": "https://finledger.com/articles/jpmorgan-chase-adopts-thought-machines-vault-cloud-system-for-core-retail-banking-operations/",
-      "source": "HousingWire",
-      "published": "20210922T111500",
-      "overall_sentiment_score": 0.214292,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.267482,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.963538
     },
     {
       "title": "JPMorgan Chase acquires college financial planning platform Frank",
@@ -103,54 +43,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Advent-owned hair-care company Olaplex targets over $10 bln valuation in U.S. IPO",
-      "summary": "Olaplex Holdings Inc, a hair-care products maker owned by Advent International, is seeking a valuation of up to $10.4 billion in its U.S. initial public offering. The company plans to offer 67 million shares priced between $14 and $16 each, aiming to raise $1.07 billion. Olaplex will list its shares on the Nasdaq under the symbol \"OLPX\" with Goldman Sachs, J.P. Morgan, Morgan Stanley, and Barclays as lead underwriters.",
-      "url": "https://www.reuters.com/legal/transactional/advent-owned-hair-care-company-olaplex-targets-over-10-bln-valuation-us-ipo-2021-09-20/",
-      "source": "Reuters",
-      "published": "20210920T165500",
-      "overall_sentiment_score": 0.211349,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.112666,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.612662
-    },
-    {
-      "title": "Leak reveals how Swiss wealth consultants shield global cast of suspects",
-      "summary": "The Pandora Papers leak exposes how Swiss wealth consultants, notably Fidinam Group, exploit regulatory gaps to help the rich and powerful hide money and evade taxes. The documents detail Fidinam's involvement in a $600 million embezzlement scheme and connections to clients under criminal investigation, showcasing the opaque nature of Switzerland's advisory industry. The article highlights the failure of Swiss lawmakers to implement stricter anti-money laundering rules for advisers, despite evidence from previous leaks.",
-      "url": "https://www.icij.org/investigations/pandora-papers/switzerland-fidinam-wealth-management-money-laundering/",
-      "source": "International Consortium of Investigative Journalists - ICIJ",
-      "published": "20211003T204240",
-      "overall_sentiment_score": -0.211842,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.262109,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.577346
-    },
-    {
-      "title": "As Interest Rates Rise, Leverage Financial Sector Strength",
-      "summary": "The article discusses investment opportunities within the financial sector as the Federal Reserve signals rising interest rates in 2022. It highlights how rising rates benefit banks and the financial sector, suggesting the Direxion Daily Financial Bull 3X ETF (FAS) for leveraged plays. Despite potential dampening effects on mortgage demand, a hot housing sector and rising home prices could lead to larger loan amounts, balancing out this impact.",
-      "url": "https://www.etftrends.com/leveraged-inverse-content-hub/as-interest-rates-rise-leverage-financial-sector-strength/",
-      "source": "ETF Trends",
-      "published": "20211001T201225",
-      "overall_sentiment_score": 0.544956,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.524225,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.623896
-    },
-    {
-      "title": "Robo Advisors An Evolving Field",
-      "summary": "Robo advisors are undergoing significant evolution to meet complex customer needs, particularly from younger investors. The industry is exploring hybrid models combining automation with human guidance, alongside fully automated services, to provide a broader range of financial advice and planning options. This shift aims to cater to both those seeking independent tools and those who eventually desire a more personalized, high-touch service.",
-      "url": "https://www.etf.com/sections/etf-report-features/robo-advisors-evolving-field",
-      "source": "ETF.com",
-      "published": "20211001T181010",
-      "overall_sentiment_score": 0.137277,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.124634,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.6038
-    },
-    {
       "title": "Florida miner's lawsuit accuses JPMorgan of manipulating silver prices",
       "summary": "A Florida-based silver miner, Hidalgo Mining Corp, has filed a lawsuit against JPMorgan, alleging the bank manipulated the silver market, causing prices to drop so low that its Mexican mine had to close. The complaint, filed in the U.S. District Court for the Southern District of Florida, uses information from a U.S. regulatory investigation into JPMorgan's spoofing activities between 2008 and 2016. JPMorgan has previously paid over $920 million to settle this investigation and $15.7 million to settle a class-action lawsuit related to the manipulation.",
       "url": "https://www.reuters.com/business/finance/florida-miners-lawsuit-accuses-jpmorgan-manipulating-silver-prices-2021-10-01/",
@@ -163,16 +55,64 @@
       "relevance_score": 1.0
     },
     {
-      "title": "A new ETF will let investors buy into risky debt some call 'ground zero' for the next financial crisis",
-      "summary": "Janus Henderson has filed for a new ETF that will allow investors to buy into collateralized loan obligations (CLOs), specifically those with lower, riskier credit ratings (B-BBB+). While some analysts warn against opening such risky assets to retail investors, citing potential liquidity issues if the market falters, these lower-rated CLOs can offer higher yields compared to other investment options like top-rated CLOs or Treasury bills. The move brings a complex and potentially lucrative, yet highly speculative, asset class to a broader investor base.",
-      "url": "https://markets.businessinsider.com/news/etf/etf-clo-financial-crisis-risky-debt-ground-zero-big-short-2021-09",
-      "source": "markets.businessinsider.com",
-      "published": "20210930T172745",
-      "overall_sentiment_score": -0.072722,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.00109,
+      "title": "EXCLUSIVE JPMorgan faces oil bribery probe in Brazil",
+      "summary": "JPMorgan Chase & Co. is under investigation by Brazilian authorities for its alleged involvement in a bribery and money laundering scheme related to state-run oil company Petrobras dating back to 2011. The probe focuses on purchases of Petrobras fuel oil and seeks to determine if bribe payments were routed to Petrobras employees to secure artificially low prices. This investigation is part of a larger crackdown on corruption within the commodity trading industry in Brazil.",
+      "url": "https://www.reuters.com/legal/government/exclusive-jpmorgan-faces-oil-bribery-probe-brazil-2021-09-22/",
+      "source": "Reuters",
+      "published": "20210922T125200",
+      "overall_sentiment_score": -0.418516,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.418717,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "JPMorgan Chase adopts Thought Machine's Vault cloud system for core retail banking operations",
+      "summary": "JPMorgan Chase is moving its core retail banking system to Thought Machine's cloud-based Vault platform to meet changing customer demands, improve scalability, and support embedded banking. This adoption allows JPMorgan to run all retail banking products on a single, cloud-native platform. The move is part of JPMorgan's increased aggression in acquisitions, following recent purchases of college planning platform Frank and restaurant review service The Infatuation.",
+      "url": "https://finledger.com/articles/jpmorgan-chase-adopts-thought-machines-vault-cloud-system-for-core-retail-banking-operations/",
+      "source": "HousingWire",
+      "published": "20210922T111500",
+      "overall_sentiment_score": 0.214292,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.267482,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.963538
+    },
+    {
+      "title": "AES-Siemens joint venture Fluence joins raft of storage firms moving to go public",
+      "summary": "Energy storage company Fluence, a joint venture between Siemens and AES, has filed for an initial public offering (IPO) to be listed on Nasdaq under \"FLNC\". This move follows increased investor interest in battery startups and marks Fluence's significant growth since its 2018 launch, including its AI platform and a recent $125 million investment from Qatar's sovereign wealth fund. The company joins several other storage firms that have recently gone public, capitalizing on the rising demand for energy storage solutions.",
+      "url": "https://www.utilitydive.com/news/aes-siemens-joint-venture-fluence-joins-raft-of-storage-firms-moving-to-go/607332/",
+      "source": "Utility Dive",
+      "published": "20210929T192643",
+      "overall_sentiment_score": 0.186099,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.114448,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.604124
+      "relevance_score": 0.643948
+    },
+    {
+      "title": "Motley Fool to convert its mutual funds into ETFs",
+      "summary": "Motley Fool Asset Management plans to convert two mutual funds, totaling over $1 billion in assets, into ETFs by the end of the year. This move follows a growing trend in the industry, with firms like Dimensional Fund Advisors and JPMorgan Asset Management also making significant conversions. Analysts attribute this shift to the tax advantages, lower costs, and increasing investor preference for ETFs over traditional mutual funds.",
+      "url": "https://www.investmentnews.com/equities/motley-fool-to-convert-its-mutual-funds-into-etfs/212075",
+      "source": "InvestmentNews",
+      "published": "20210928T200242",
+      "overall_sentiment_score": 0.081799,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.142551,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.640723
+    },
+    {
+      "title": "Nueva simplificación de Grupo Aval en Centroamérica",
+      "summary": "Grupo Aval is simplifying its structure in Central America by spinning off 75% of Leasing Bogotá S.A. Panamá (LBP), a subsidiary of Banco de Bogotá. This move will require a capital increase and is aimed at making decision-making more efficient and generating shareholder value. LBP plans to list its shares on the Colombian Stock Exchange, pending regulatory approvals.",
+      "url": "https://www.valoraanalitik.com/simplificacion-de-grupo-aval-requerira-incremento-de-capital/",
+      "source": "Valora Analitik",
+      "published": "20210920T193636",
+      "overall_sentiment_score": 0.176782,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.125905,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.63624
     },
     {
       "title": "Why Intuit Paid $500 Million for Naming Rights at Clippers Arena",
@@ -187,16 +127,16 @@
       "relevance_score": 0.633027
     },
     {
-      "title": "Clearwater Analytics Announces Pricing of Initial Public Offering",
-      "summary": "Clearwater Analytics announced the pricing of its initial public offering of 30,000,000 shares of Class A common stock at $18.00 per share, with an option for underwriters to purchase an additional 4,500,000 shares. The shares are expected to begin trading on the New York Stock Exchange under the symbol \"CWAN\" on September 24, 2021, and the offering is set to close on September 28, 2021. Goldman Sachs & Co. LLC, J.P. Morgan Securities LLC, and Morgan Stanley & Co. LLC are serving as lead bookrunners for the offering.",
-      "url": "https://www.stocktitan.net/news/CWAN/clearwater-analytics-announces-pricing-of-initial-public-ovjkzji1gcox.html",
-      "source": "Stock Titan",
-      "published": "20210923T215200",
-      "overall_sentiment_score": 0.183895,
+      "title": "Confluent Stock, MongoDB, Sprout Social Among 9 New Stocks On IBD Watchlists",
+      "summary": "Investor's Business Daily (IBD) has updated its stock watchlists, adding new companies like Confluent, MongoDB, and Sprout Social, while removing others that show weakness. These lists, including the IBD 50, Sector Leaders, and IBD Big Cap 20, are regularly revised to reflect current market conditions and identify potential investment opportunities. The changes help investors stay informed about leading stocks and those nearing buy points.",
+      "url": "https://www.investors.com/research/confluent-stock-mongodb-sprout-social-among-new-stocks-on-ibd-watchlists/",
+      "source": "Investor's Business Daily",
+      "published": "20210920T182900",
+      "overall_sentiment_score": 0.339641,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.104272,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.592077
+      "ticker_sentiment_score": 0.341691,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630433
     },
     {
       "title": "FreshWorks lists; valued at $13 billion",
@@ -223,52 +163,100 @@
       "relevance_score": 0.627024
     },
     {
-      "title": "At U.S. Bank under Cecere, doing a giant deal takes 'discipline'",
-      "summary": "U.S. Bank CEO Andrew Cecere greenlit the company's largest deal in two decades: the $8 billion acquisition of MUFG Union Bank. Cecere emphasized a disciplined approach to mergers and acquisitions, stressing the importance of meaningful opportunities and aligning with U.S. Bank's growth strategy, particularly in the faster-growing West Coast market. The acquisition is expected to increase U.S. Bank's size by 20% and includes plans to integrate MUFG Union Bank's customer activity onto U.S. Bank's systems, despite initial IT risk management concerns.",
-      "url": "https://www.startribune.com/at-u-s-bank-under-cecere-doing-a-giant-deal-takes-discipline/600099753",
-      "source": "Star Tribune",
-      "published": "20210922T191200",
-      "overall_sentiment_score": 0.189237,
+      "title": "Los Angeles Daily News - Definitive Healthcare Announces Closing of Public Offering",
+      "summary": "Definitive Healthcare Corp. announced the closing of its initial public offering of 17,888,888 shares of its Class A common stock, including the full exercise of the underwriters' option. The offering was priced at $27.00 per share, generating approximately $483 million in gross proceeds before expenses. The company's Class A common stock began trading on Nasdaq under the ticker symbol \"DH\" on September 15, 2021.",
+      "url": "https://markets.financialcontent.com/dailynews/article/bizwire-2021-9-20-definitive-healthcare-announces-closing-of-public-offering",
+      "source": "FinancialContent",
+      "published": "20210920T080000",
+      "overall_sentiment_score": 0.255565,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.13126,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.568626
+      "ticker_sentiment_score": 0.206323,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.623903
     },
     {
-      "title": "EXCLUSIVE JPMorgan faces oil bribery probe in Brazil",
-      "summary": "JPMorgan Chase & Co. is under investigation by Brazilian authorities for its alleged involvement in a bribery and money laundering scheme related to state-run oil company Petrobras dating back to 2011. The probe focuses on purchases of Petrobras fuel oil and seeks to determine if bribe payments were routed to Petrobras employees to secure artificially low prices. This investigation is part of a larger crackdown on corruption within the commodity trading industry in Brazil.",
-      "url": "https://www.reuters.com/legal/government/exclusive-jpmorgan-faces-oil-bribery-probe-brazil-2021-09-22/",
-      "source": "Reuters",
-      "published": "20210922T125200",
-      "overall_sentiment_score": -0.418516,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.418717,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "ON THE MOVE: Northern Trust Names Manioudakis CIO; Goldman Sachs Promotes Coleman to CFO",
-      "summary": "Northern Trust Asset Management has appointed Angelo Manioudakis as its new Chief Investment Officer, bringing his extensive experience from other global financial firms. Concurrently, Goldman Sachs has promoted Denis P. Coleman III to Chief Financial Officer, succeeding Stephen M. Scherr who is set to retire. The article also details several other significant personnel changes across various financial institutions, including Crédit Agricole CIB, Triad Securities, BNY Mellon, OCC, Broadway Technology, and Canoe Intelligence.",
-      "url": "https://www.tradersmagazine.com/featured_articles/on-the-move-northern-trust-names-manioudakis-cio-goldman-promotes-coleman-to-cfo/",
-      "source": "Traders Magazine",
-      "published": "20210920T205211",
-      "overall_sentiment_score": 0.447835,
+      "title": "As Interest Rates Rise, Leverage Financial Sector Strength",
+      "summary": "The article discusses investment opportunities within the financial sector as the Federal Reserve signals rising interest rates in 2022. It highlights how rising rates benefit banks and the financial sector, suggesting the Direxion Daily Financial Bull 3X ETF (FAS) for leveraged plays. Despite potential dampening effects on mortgage demand, a hot housing sector and rising home prices could lead to larger loan amounts, balancing out this impact.",
+      "url": "https://www.etftrends.com/leveraged-inverse-content-hub/as-interest-rates-rise-leverage-financial-sector-strength/",
+      "source": "ETF Trends",
+      "published": "20211001T201225",
+      "overall_sentiment_score": 0.544956,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.508197,
+      "ticker_sentiment_score": 0.524225,
       "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.571635
+      "relevance_score": 0.623896
     },
     {
-      "title": "Nueva simplificación de Grupo Aval en Centroamérica",
-      "summary": "Grupo Aval is simplifying its structure in Central America by spinning off 75% of Leasing Bogotá S.A. Panamá (LBP), a subsidiary of Banco de Bogotá. This move will require a capital increase and is aimed at making decision-making more efficient and generating shareholder value. LBP plans to list its shares on the Colombian Stock Exchange, pending regulatory approvals.",
-      "url": "https://www.valoraanalitik.com/simplificacion-de-grupo-aval-requerira-incremento-de-capital/",
-      "source": "Valora Analitik",
-      "published": "20210920T193636",
-      "overall_sentiment_score": 0.176782,
+      "title": "Advent-owned hair-care company Olaplex targets over $10 bln valuation in U.S. IPO",
+      "summary": "Olaplex Holdings Inc, a hair-care products maker owned by Advent International, is seeking a valuation of up to $10.4 billion in its U.S. initial public offering. The company plans to offer 67 million shares priced between $14 and $16 each, aiming to raise $1.07 billion. Olaplex will list its shares on the Nasdaq under the symbol \"OLPX\" with Goldman Sachs, J.P. Morgan, Morgan Stanley, and Barclays as lead underwriters.",
+      "url": "https://www.reuters.com/legal/transactional/advent-owned-hair-care-company-olaplex-targets-over-10-bln-valuation-us-ipo-2021-09-20/",
+      "source": "Reuters",
+      "published": "20210920T165500",
+      "overall_sentiment_score": 0.211349,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.125905,
+      "ticker_sentiment_score": 0.112666,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.63624
+      "relevance_score": 0.612662
+    },
+    {
+      "title": "Rivian details $1 billion loss, Amazon deal in IPO filing",
+      "summary": "Rivian Automotive Inc., an electric pickup maker backed by Amazon.com Inc., disclosed a net loss of almost $1 billion in the first half of the year in its initial public offering paperwork. The company is seeking to be valued at about $80 billion and has significant backing from investors like Amazon and Ford Motor Co., alongside strong pre-order interest for its vehicles. The filing also detailed its exclusive four-year deal with Amazon for delivery vehicles, although Amazon isn't bound by minimum purchase requirements.",
+      "url": "https://www.detroitnews.com/story/business/autos/2021/10/01/rivian-details-1-billion-loss-amazon-deal-ipo-filing/5960638001/",
+      "source": "The Detroit News",
+      "published": "20211001T193552",
+      "overall_sentiment_score": 0.17337,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.142869,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.611961
+    },
+    {
+      "title": "A new ETF will let investors buy into risky debt some call 'ground zero' for the next financial crisis",
+      "summary": "Janus Henderson has filed for a new ETF that will allow investors to buy into collateralized loan obligations (CLOs), specifically those with lower, riskier credit ratings (B-BBB+). While some analysts warn against opening such risky assets to retail investors, citing potential liquidity issues if the market falters, these lower-rated CLOs can offer higher yields compared to other investment options like top-rated CLOs or Treasury bills. The move brings a complex and potentially lucrative, yet highly speculative, asset class to a broader investor base.",
+      "url": "https://markets.businessinsider.com/news/etf/etf-clo-financial-crisis-risky-debt-ground-zero-big-short-2021-09",
+      "source": "markets.businessinsider.com",
+      "published": "20210930T172745",
+      "overall_sentiment_score": -0.072722,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.00109,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.604124
+    },
+    {
+      "title": "Robo Advisors An Evolving Field",
+      "summary": "Robo advisors are undergoing significant evolution to meet complex customer needs, particularly from younger investors. The industry is exploring hybrid models combining automation with human guidance, alongside fully automated services, to provide a broader range of financial advice and planning options. This shift aims to cater to both those seeking independent tools and those who eventually desire a more personalized, high-touch service.",
+      "url": "https://www.etf.com/sections/etf-report-features/robo-advisors-evolving-field",
+      "source": "ETF.com",
+      "published": "20211001T181010",
+      "overall_sentiment_score": 0.137277,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.124634,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.6038
+    },
+    {
+      "title": "Fintech and traditional banks: competition or… symbiosis?",
+      "summary": "This article examines the relationship between fintechs and traditional banks in the UK, questioning if it's competition or symbiosis. It analyzes customer usage of digital-only services versus traditional banking platforms, highlighting that while fintechs are growing, they often complement rather than replace traditional banks, especially among younger demographics. The author suggests that traditional banks still hold a massive audience and can leverage cross-selling strategies, indicating a more complex interaction than simple competition.",
+      "url": "https://www.comscore.com/esl/Insights/Blog/Fintech-and-traditional-banks-competition-or-symbiosis",
+      "source": "comScore",
+      "published": "20210923T211145",
+      "overall_sentiment_score": 0.14071,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.149531,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.601237
+    },
+    {
+      "title": "Clearwater Analytics Announces Pricing of Initial Public Offering",
+      "summary": "Clearwater Analytics announced the pricing of its initial public offering of 30,000,000 shares of Class A common stock at $18.00 per share, with an option for underwriters to purchase an additional 4,500,000 shares. The shares are expected to begin trading on the New York Stock Exchange under the symbol \"CWAN\" on September 24, 2021, and the offering is set to close on September 28, 2021. Goldman Sachs & Co. LLC, J.P. Morgan Securities LLC, and Morgan Stanley & Co. LLC are serving as lead bookrunners for the offering.",
+      "url": "https://www.stocktitan.net/news/CWAN/clearwater-analytics-announces-pricing-of-initial-public-ovjkzji1gcox.html",
+      "source": "Stock Titan",
+      "published": "20210923T215200",
+      "overall_sentiment_score": 0.183895,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.104272,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.592077
     },
     {
       "title": "Keeping the faith – Diana van Maasdijk",
@@ -283,16 +271,52 @@
       "relevance_score": 0.585968
     },
     {
-      "title": "Los Angeles Daily News - Definitive Healthcare Announces Closing of Public Offering",
-      "summary": "Definitive Healthcare Corp. announced the closing of its initial public offering of 17,888,888 shares of its Class A common stock, including the full exercise of the underwriters' option. The offering was priced at $27.00 per share, generating approximately $483 million in gross proceeds before expenses. The company's Class A common stock began trading on Nasdaq under the ticker symbol \"DH\" on September 15, 2021.",
-      "url": "https://markets.financialcontent.com/dailynews/article/bizwire-2021-9-20-definitive-healthcare-announces-closing-of-public-offering",
-      "source": "FinancialContent",
-      "published": "20210920T080000",
-      "overall_sentiment_score": 0.255565,
+      "title": "Leak reveals how Swiss wealth consultants shield global cast of suspects",
+      "summary": "The Pandora Papers leak exposes how Swiss wealth consultants, notably Fidinam Group, exploit regulatory gaps to help the rich and powerful hide money and evade taxes. The documents detail Fidinam's involvement in a $600 million embezzlement scheme and connections to clients under criminal investigation, showcasing the opaque nature of Switzerland's advisory industry. The article highlights the failure of Swiss lawmakers to implement stricter anti-money laundering rules for advisers, despite evidence from previous leaks.",
+      "url": "https://www.icij.org/investigations/pandora-papers/switzerland-fidinam-wealth-management-money-laundering/",
+      "source": "International Consortium of Investigative Journalists - ICIJ",
+      "published": "20211003T204240",
+      "overall_sentiment_score": -0.211842,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.262109,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.577346
+    },
+    {
+      "title": "Citizens Financial Group Appoints Sarah Lindstrom as Head of Business Banking",
+      "summary": "Citizens Financial Group announced the appointment of Sarah Lindstrom as Head of Business Banking, effective October 4. Lindstrom, who joined Citizens in 2017, will be responsible for growing the business banking portfolio and developing the team. Her leadership is expected to benefit customers and the Business Banking team as the company continues to expand this important segment.",
+      "url": "https://www.citybiz.co/article/151161/citizens-financial-group-appoints-sarah-lindstrom-as-head-of-business-banking/",
+      "source": "citybiz",
+      "published": "20210930T195646",
+      "overall_sentiment_score": 0.314153,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.206323,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.623903
+      "ticker_sentiment_score": 0.138868,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.57604
+    },
+    {
+      "title": "ON THE MOVE: Northern Trust Names Manioudakis CIO; Goldman Sachs Promotes Coleman to CFO",
+      "summary": "Northern Trust Asset Management has appointed Angelo Manioudakis as its new Chief Investment Officer, bringing his extensive experience from other global financial firms. Concurrently, Goldman Sachs has promoted Denis P. Coleman III to Chief Financial Officer, succeeding Stephen M. Scherr who is set to retire. The article also details several other significant personnel changes across various financial institutions, including Crédit Agricole CIB, Triad Securities, BNY Mellon, OCC, Broadway Technology, and Canoe Intelligence.",
+      "url": "https://www.tradersmagazine.com/featured_articles/on-the-move-northern-trust-names-manioudakis-cio-goldman-promotes-coleman-to-cfo/",
+      "source": "Traders Magazine",
+      "published": "20210920T205211",
+      "overall_sentiment_score": 0.447835,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.508197,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.571635
+    },
+    {
+      "title": "At U.S. Bank under Cecere, doing a giant deal takes 'discipline'",
+      "summary": "U.S. Bank CEO Andrew Cecere greenlit the company's largest deal in two decades: the $8 billion acquisition of MUFG Union Bank. Cecere emphasized a disciplined approach to mergers and acquisitions, stressing the importance of meaningful opportunities and aligning with U.S. Bank's growth strategy, particularly in the faster-growing West Coast market. The acquisition is expected to increase U.S. Bank's size by 20% and includes plans to integrate MUFG Union Bank's customer activity onto U.S. Bank's systems, despite initial IT risk management concerns.",
+      "url": "https://www.startribune.com/at-u-s-bank-under-cecere-doing-a-giant-deal-takes-discipline/600099753",
+      "source": "Star Tribune",
+      "published": "20210922T191200",
+      "overall_sentiment_score": 0.189237,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.13126,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.568626
     },
     {
       "title": "You Can Get Your Credit Score, but You May Have to Pay for It (Published 2021)",
@@ -317,30 +341,6 @@
       "ticker_sentiment_score": 0.144127,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.563878
-    },
-    {
-      "title": "Motley Fool to convert its mutual funds into ETFs",
-      "summary": "Motley Fool Asset Management plans to convert two mutual funds, totaling over $1 billion in assets, into ETFs by the end of the year. This move follows a growing trend in the industry, with firms like Dimensional Fund Advisors and JPMorgan Asset Management also making significant conversions. Analysts attribute this shift to the tax advantages, lower costs, and increasing investor preference for ETFs over traditional mutual funds.",
-      "url": "https://www.investmentnews.com/equities/motley-fool-to-convert-its-mutual-funds-into-etfs/212075",
-      "source": "InvestmentNews",
-      "published": "20210928T200242",
-      "overall_sentiment_score": 0.081799,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.142551,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.640723
-    },
-    {
-      "title": "Confluent Stock, MongoDB, Sprout Social Among 9 New Stocks On IBD Watchlists",
-      "summary": "Investor's Business Daily (IBD) has updated its stock watchlists, adding new companies like Confluent, MongoDB, and Sprout Social, while removing others that show weakness. These lists, including the IBD 50, Sector Leaders, and IBD Big Cap 20, are regularly revised to reflect current market conditions and identify potential investment opportunities. The changes help investors stay informed about leading stocks and those nearing buy points.",
-      "url": "https://www.investors.com/research/confluent-stock-mongodb-sprout-social-among-new-stocks-on-ibd-watchlists/",
-      "source": "Investor's Business Daily",
-      "published": "20210920T182900",
-      "overall_sentiment_score": 0.339641,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.341691,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.630433
     }
   ]
 }

@@ -7,54 +7,6 @@
   "article_count": 10,
   "articles": [
     {
-      "title": "Viatris to pay up to $335 million to resolve opioid-related claims",
-      "summary": "Viatris announced it would pay up to $335 million over nine years to settle claims by U.S. state and local governments regarding its role in the opioid epidemic. The company, formed from the merger of Mylan and Pfizer's Upjohn business, did not admit wrongdoing as part of the agreement, which will contribute to state and local opioid initiatives. This settlement is part of broader opioid litigation that has resulted in over $50 billion in settlements from numerous drugmakers.",
-      "url": "https://www.reuters.com/sustainability/viatris-pay-up-335-million-resolve-opioid-related-claims-2025-04-07/",
-      "source": "Reuters",
-      "published": "20250407T160100",
-      "overall_sentiment_score": -0.264376,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.251508,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.728682
-    },
-    {
-      "title": "Viatris agrees to pay up to $335M to settle opioid claims",
-      "summary": "Viatris has agreed to pay up to $335 million to settle opioid-related claims with state and local governments, although the company states this is not an admission of wrongdoing. The generics specialist will pay between $27.5 million and $40 million annually over nine years to support opioid-related initiatives. Viatris, formed from a merger of Mylan and Pfizer’s Upjohn unit, noted that Mylan supplied only a small percentage of opioid products in the U.S.",
-      "url": "https://www.fiercepharma.com/pharma/viatris-agrees-pay-335m-settle-opioid-claims",
-      "source": "Fierce Pharma",
-      "published": "20250407T104800",
-      "overall_sentiment_score": -0.159677,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.248046,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.611572
-    },
-    {
-      "title": "Medical Device Expert Takes Helm at Enovis: Former LivaNova CEO to Drive Growth",
-      "summary": "Enovis (NYSE: ENOV) has announced the appointment of Damien McDonald as its new Chief Executive Officer, effective May 12, 2025. McDonald, a medical device industry veteran, will succeed Matt Trerotola, who is retiring, and will also join the Board of Directors. The company reiterated its Q1 2025 guidance with expected revenues of $555-563 million and adjusted EBITDA of $97-100 million.",
-      "url": "https://www.stocktitan.net/news/ENOV/enovis-announces-appointment-of-damien-mc-donald-as-chief-executive-gmgls3qr6prg.html",
-      "source": "Stock Titan",
-      "published": "20250402T063000",
-      "overall_sentiment_score": 0.318819,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.256594,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.590972
-    },
-    {
-      "title": "VHT ETF Holdings List — AMEX:VHT",
-      "summary": "This article provides a detailed list of the top holdings for the Vanguard Health Care ETF (VHT) as of November 28, 2025. It includes information on the symbol, weight percentage, shares, and market value for each company held in the ETF. Key holdings include Eli Lilly and Company, AbbVie, Inc., and Johnson & Johnson.",
-      "url": "https://www.tradingview.com/symbols/AMEX-VHT/holdings/",
-      "source": "TradingView — Track All Markets",
-      "published": "20250401T110920",
-      "overall_sentiment_score": 0.120806,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.137232,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.71064
-    },
-    {
       "title": "Johnson & Johnson unit ordered to pay $1.64 billion in HIV drug marketing case",
       "summary": "A federal judge has ordered a Johnson & Johnson unit to pay $1.64 billion in a whistleblower lawsuit for illegally promoting HIV drugs Prezista and Intelence for off-label uses. The order followed a jury's finding of liability and included $360 million for violating the federal False Claims Act and $1.28 billion in civil fines. Johnson & Johnson plans to appeal the verdict, stating their marketing was consistent with FDA-approved labels.",
       "url": "https://www.reuters.com/sustainability/johnson-johnson-unit-ordered-pay-164-billion-hiv-drug-marketing-case-2025-03-28/",
@@ -67,16 +19,28 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Artiva Biotherapeutics Reports Full Year 2024 Financial Results and Recent Business Highlights",
-      "summary": "Artiva Biotherapeutics announced its full-year 2024 financial results, highlighting a strong balance sheet with $185.4 million in cash, cash equivalents, and investments, expected to fund operations through the end of 2026. The company also reported progress in its autoimmune and oncology clinical trials, with initial data for AlloNK® in autoimmune programs anticipated in H1 2025 and updated clinical data for AlloNK® + rituximab in NHL to be presented at an upcoming medical conference. Key leadership appointments with cell therapy and autoimmune expertise were also noted as significant business highlights.",
-      "url": "https://www.globenewswire.com/news-release/2025/03/24/3048295/0/en/Artiva-Biotherapeutics-Reports-Full-Year-2024-Financial-Results-and-Recent-Business-Highlights.html",
-      "source": "GlobeNewswire",
-      "published": "20250324T160500",
-      "overall_sentiment_score": 0.291514,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.132044,
+      "title": "Viatris to pay up to $335 million to resolve opioid-related claims",
+      "summary": "Viatris announced it would pay up to $335 million over nine years to settle claims by U.S. state and local governments regarding its role in the opioid epidemic. The company, formed from the merger of Mylan and Pfizer's Upjohn business, did not admit wrongdoing as part of the agreement, which will contribute to state and local opioid initiatives. This settlement is part of broader opioid litigation that has resulted in over $50 billion in settlements from numerous drugmakers.",
+      "url": "https://www.reuters.com/sustainability/viatris-pay-up-335-million-resolve-opioid-related-claims-2025-04-07/",
+      "source": "Reuters",
+      "published": "20250407T160100",
+      "overall_sentiment_score": -0.264376,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.251508,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.728682
+    },
+    {
+      "title": "VHT ETF Holdings List — AMEX:VHT",
+      "summary": "This article provides a detailed list of the top holdings for the Vanguard Health Care ETF (VHT) as of November 28, 2025. It includes information on the symbol, weight percentage, shares, and market value for each company held in the ETF. Key holdings include Eli Lilly and Company, AbbVie, Inc., and Johnson & Johnson.",
+      "url": "https://www.tradingview.com/symbols/AMEX-VHT/holdings/",
+      "source": "TradingView — Track All Markets",
+      "published": "20250401T110920",
+      "overall_sentiment_score": 0.120806,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.137232,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.594379
+      "relevance_score": 0.71064
     },
     {
       "title": "VIDEO: ETF of the Week: VALQ",
@@ -103,6 +67,30 @@
       "relevance_score": 0.644803
     },
     {
+      "title": "Novo Holdings Co-Leads $67 Million Series A Funding in Hillstar Bio to Advance Next-Generation Autoimmune Therapies",
+      "summary": "Novo Holdings has co-led a $67 million Series A financing round for Hillstar Bio, a biotechnology company developing precision immunology therapies for autoimmune diseases. This investment will fund Hillstar Bio's lead program targeting TRBV9+ T cells for conditions like axial spondyloarthritis, aiming to reset the immune system more effectively than traditional therapies. Kenneth Harrison from Novo Holdings will join Hillstar Bio’s Board, signifying Novo Holdings' commitment to transformative therapies.",
+      "url": "https://novoholdings.dk/news/novo-holdings-co-leads-67-million-series-a-funding-in-hillstar-bio-to-advance-next-generation-autoimmune-therapies",
+      "source": "Novo Holdings",
+      "published": "20250326T022931",
+      "overall_sentiment_score": 0.328971,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.207453,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.612873
+    },
+    {
+      "title": "Viatris agrees to pay up to $335M to settle opioid claims",
+      "summary": "Viatris has agreed to pay up to $335 million to settle opioid-related claims with state and local governments, although the company states this is not an admission of wrongdoing. The generics specialist will pay between $27.5 million and $40 million annually over nine years to support opioid-related initiatives. Viatris, formed from a merger of Mylan and Pfizer’s Upjohn unit, noted that Mylan supplied only a small percentage of opioid products in the U.S.",
+      "url": "https://www.fiercepharma.com/pharma/viatris-agrees-pay-335m-settle-opioid-claims",
+      "source": "Fierce Pharma",
+      "published": "20250407T104800",
+      "overall_sentiment_score": -0.159677,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.248046,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.611572
+    },
+    {
       "title": "Aura bids to join the bladder cancer crowd | ApexOnco - Clinical Trials news and analysis",
       "summary": "Aura Biosciences is advancing its drug belzupacap sarotalocan into phase 1/2 trials for non-muscle invasive bladder cancer (NMIBC), aiming to carve out a share in a competitive market. This move follows promising phase 1 data, with Aura targeting both intermediate and high-risk NMIBC patients. The company faces significant competition from established players and upcoming treatments, particularly UroGen's UGN-102.",
       "url": "https://www.oncologypipeline.com/apexonco/aura-bids-join-bladder-cancer-crowd",
@@ -115,16 +103,28 @@
       "relevance_score": 0.605992
     },
     {
-      "title": "Novo Holdings Co-Leads $67 Million Series A Funding in Hillstar Bio to Advance Next-Generation Autoimmune Therapies",
-      "summary": "Novo Holdings has co-led a $67 million Series A financing round for Hillstar Bio, a biotechnology company developing precision immunology therapies for autoimmune diseases. This investment will fund Hillstar Bio's lead program targeting TRBV9+ T cells for conditions like axial spondyloarthritis, aiming to reset the immune system more effectively than traditional therapies. Kenneth Harrison from Novo Holdings will join Hillstar Bio’s Board, signifying Novo Holdings' commitment to transformative therapies.",
-      "url": "https://novoholdings.dk/news/novo-holdings-co-leads-67-million-series-a-funding-in-hillstar-bio-to-advance-next-generation-autoimmune-therapies",
-      "source": "Novo Holdings",
-      "published": "20250326T022931",
-      "overall_sentiment_score": 0.328971,
+      "title": "Artiva Biotherapeutics Reports Full Year 2024 Financial Results and Recent Business Highlights",
+      "summary": "Artiva Biotherapeutics announced its full-year 2024 financial results, highlighting a strong balance sheet with $185.4 million in cash, cash equivalents, and investments, expected to fund operations through the end of 2026. The company also reported progress in its autoimmune and oncology clinical trials, with initial data for AlloNK® in autoimmune programs anticipated in H1 2025 and updated clinical data for AlloNK® + rituximab in NHL to be presented at an upcoming medical conference. Key leadership appointments with cell therapy and autoimmune expertise were also noted as significant business highlights.",
+      "url": "https://www.globenewswire.com/news-release/2025/03/24/3048295/0/en/Artiva-Biotherapeutics-Reports-Full-Year-2024-Financial-Results-and-Recent-Business-Highlights.html",
+      "source": "GlobeNewswire",
+      "published": "20250324T160500",
+      "overall_sentiment_score": 0.291514,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.207453,
+      "ticker_sentiment_score": 0.132044,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.594379
+    },
+    {
+      "title": "Medical Device Expert Takes Helm at Enovis: Former LivaNova CEO to Drive Growth",
+      "summary": "Enovis (NYSE: ENOV) has announced the appointment of Damien McDonald as its new Chief Executive Officer, effective May 12, 2025. McDonald, a medical device industry veteran, will succeed Matt Trerotola, who is retiring, and will also join the Board of Directors. The company reiterated its Q1 2025 guidance with expected revenues of $555-563 million and adjusted EBITDA of $97-100 million.",
+      "url": "https://www.stocktitan.net/news/ENOV/enovis-announces-appointment-of-damien-mc-donald-as-chief-executive-gmgls3qr6prg.html",
+      "source": "Stock Titan",
+      "published": "20250402T063000",
+      "overall_sentiment_score": 0.318819,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.256594,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.612873
+      "relevance_score": 0.590972
     }
   ]
 }

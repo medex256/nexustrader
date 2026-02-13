@@ -7,40 +7,16 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "Medtronic acquires Fortimedix Surgical to boost surgical portfolio",
-      "summary": "Medtronic has acquired Netherlands-based Fortimedix Surgical to enhance its surgical and endoscopy portfolio, particularly in articulating instruments for minimally invasive and robotic surgeries. This acquisition comes as Medtronic's surgical and endoscopy sales experienced a slight decrease in the last quarter, while the endoscopy device market is projected for significant growth. Fortimedix Surgical's technology is expected to help Medtronic capitalize on the increasing adoption of advanced surgical techniques.",
-      "url": "https://www.medicaldevice-network.com/news/medtronic-acquires-fortimedix-surgical/",
-      "source": "Medical Device Network",
-      "published": "20241122T000000",
-      "overall_sentiment_score": 0.157165,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.047067,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.638072
-    },
-    {
-      "title": "After ProfoundBio buy, Genmab open to more M&A if it makes 'strategic sense,’ CFO says",
-      "summary": "Genmab, celebrating its 25th anniversary, is shifting from a partner-based model to an asset owner-focused model, driven by its CFO Anthony Pagano. Following its first major acquisition of ProfoundBio, Genmab is open to further M&A opportunities that align strategically, particularly those with similar characteristics to Rina-S in terms of modality and therapeutic area. The company is also exploring expansion into immunology in addition to its core oncology focus, leveraging its ADC and C3-based T-cell engaging bispecific antibody programs.",
-      "url": "https://www.fiercebiotech.com/biotech/after-profoundbio-buy-genmab-open-further-ma-make-strategic-sense-says-cfo",
-      "source": "Fierce Biotech",
-      "published": "20241121T130500",
-      "overall_sentiment_score": 0.185737,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.065188,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.605699
-    },
-    {
-      "title": "Labcorp hires Julia Wang as CFO",
-      "summary": "Labcorp has announced the appointment of Julia Wang as its new Executive Vice President and CFO, effective December 2. She will succeed Glenn Eisenberg, who is retiring after 10 years but will remain as a special adviser to the CEO through April 2025 to assist with the transition. Wang brings extensive strategic and financial experience from previous roles at Beigene, Alexion Pharmaceuticals, Quest Diagnostics, and Johnson & Johnson.",
-      "url": "https://www.medtechdive.com/news/Labcorp-CFO-Julia-Wang-Glenn-Eisenberg/733338/",
-      "source": "MedTech Dive",
-      "published": "20241120T000000",
-      "overall_sentiment_score": 0.146717,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.124768,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.635964
+      "title": "J&J, Merck Cut Jobs in China as Local Competition Takes Toll",
+      "summary": "Johnson & Johnson and Merck & Co. are reducing their workforces in China due to increasing competition from domestic pharmaceutical companies. These job cuts affect J&J's general surgery division and Merck's diabetes unit, as Beijing's campaign to lower medical costs pressures profit margins for foreign drug giants.",
+      "url": "https://www.bloomberg.com/news/articles/2024-11-20/j-j-merck-cut-jobs-in-china-as-local-competition-takes-toll",
+      "source": "Bloomberg.com",
+      "published": "20241120T070300",
+      "overall_sentiment_score": -0.409599,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.382055,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.989713
     },
     {
       "title": "Eli Lilly follows J&J in suing Biden administration over 340B rebates",
@@ -55,18 +31,6 @@
       "relevance_score": 0.847576
     },
     {
-      "title": "Why Is Moderna, Inc. (MRNA) Among the Best High Growth Healthcare Stocks to Invest In Now?",
-      "summary": "This article examines why Moderna, Inc. (MRNA) is considered a high-growth healthcare stock, highlighting its strong revenue growth and advancements in mRNA technology, particularly in cancer vaccines and its successful COVID-19 vaccine, Spikevax. It also touches on broader trends in global healthcare spending, emphasizing the defensive nature of healthcare investments and the impact of GLP-1 agonists in pharmaceuticals.",
-      "url": "https://finance.yahoo.com/news/why-moderna-inc-mrna-among-211158372.html",
-      "source": "Yahoo Finance",
-      "published": "20241202T050000",
-      "overall_sentiment_score": 0.314485,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.228698,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.603479
-    },
-    {
       "title": "Autolus Latest Competitor in Global CAR-T Frenzy with FDA Approval of Aucatzyl",
       "summary": "The U.S. FDA has approved Autolus Inc.'s Aucatzyl (obecabtagene autoleucel), marking the seventh CAR-T cell therapy in the U.S. and the 11th globally for adults with relapsed or refractory B-cell precursor acute lymphoblastic leukemia. This approval introduces a new competitor in the CAR-T market, particularly against Gilead’s Tecartus, offering a personalized treatment potentially with fewer side effects. The efficacy of Aucatzyl was demonstrated in the FELIX trial, showing a 42% complete remission rate within three months.",
       "url": "https://bioinformant.com/autolus-fda-approves-aucatzyl/",
@@ -77,6 +41,42 @@
       "ticker_sentiment_score": 0.130395,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.735614
+    },
+    {
+      "title": "RFK Jr. may start a food and drug ‘culture war.’ Investors are running for cover.",
+      "summary": "Donald Trump's nomination of Robert F. Kennedy Jr. to lead the Department of Health and Human Services has raised concerns among investors due to his vows to reform the food and drug industries. This move is seen as one of several unorthodox appointments by President-elect Trump. The HHS secretary position oversees a massive budget of over $1.7 trillion for healthcare products and services, causing investors to scramble to understand the potential market impact.",
+      "url": "https://www.marketwatch.com/story/rfk-jr-may-start-a-food-and-drug-culture-war-investors-are-running-for-cover-5b7068ac?gaa_at=eafs&gaa_n=AWEtsqdKNJjvrB4IZkhbfWvBREDwaiSpvQ-rsi6YH8VEwuZSHl9ArTuLZdLP&gaa_ts=69075db7&gaa_sig=IgtCxx2O7avVuq6orQGEpPrGqQ2RVUr8XkaOuxylC8lpUWZSiGtZjWjQjsrLKqPkTdCacEh4cuLl6LTWsiYnCQ%3D%3D",
+      "source": "MarketWatch",
+      "published": "20241119T144500",
+      "overall_sentiment_score": -0.209077,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.213993,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.724952
+    },
+    {
+      "title": "Medtronic acquires Fortimedix Surgical to boost surgical portfolio",
+      "summary": "Medtronic has acquired Netherlands-based Fortimedix Surgical to enhance its surgical and endoscopy portfolio, particularly in articulating instruments for minimally invasive and robotic surgeries. This acquisition comes as Medtronic's surgical and endoscopy sales experienced a slight decrease in the last quarter, while the endoscopy device market is projected for significant growth. Fortimedix Surgical's technology is expected to help Medtronic capitalize on the increasing adoption of advanced surgical techniques.",
+      "url": "https://www.medicaldevice-network.com/news/medtronic-acquires-fortimedix-surgical/",
+      "source": "Medical Device Network",
+      "published": "20241122T000000",
+      "overall_sentiment_score": 0.157165,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.047067,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.638072
+    },
+    {
+      "title": "Labcorp hires Julia Wang as CFO",
+      "summary": "Labcorp has announced the appointment of Julia Wang as its new Executive Vice President and CFO, effective December 2. She will succeed Glenn Eisenberg, who is retiring after 10 years but will remain as a special adviser to the CEO through April 2025 to assist with the transition. Wang brings extensive strategic and financial experience from previous roles at Beigene, Alexion Pharmaceuticals, Quest Diagnostics, and Johnson & Johnson.",
+      "url": "https://www.medtechdive.com/news/Labcorp-CFO-Julia-Wang-Glenn-Eisenberg/733338/",
+      "source": "MedTech Dive",
+      "published": "20241120T000000",
+      "overall_sentiment_score": 0.146717,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.124768,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.635964
     },
     {
       "title": "Merck says Keytruda injection on par with approved IV version in trial",
@@ -91,28 +91,28 @@
       "relevance_score": 0.613487
     },
     {
-      "title": "J&J, Merck Cut Jobs in China as Local Competition Takes Toll",
-      "summary": "Johnson & Johnson and Merck & Co. are reducing their workforces in China due to increasing competition from domestic pharmaceutical companies. These job cuts affect J&J's general surgery division and Merck's diabetes unit, as Beijing's campaign to lower medical costs pressures profit margins for foreign drug giants.",
-      "url": "https://www.bloomberg.com/news/articles/2024-11-20/j-j-merck-cut-jobs-in-china-as-local-competition-takes-toll",
-      "source": "Bloomberg.com",
-      "published": "20241120T070300",
-      "overall_sentiment_score": -0.409599,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.382055,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.989713
+      "title": "After ProfoundBio buy, Genmab open to more M&A if it makes 'strategic sense,’ CFO says",
+      "summary": "Genmab, celebrating its 25th anniversary, is shifting from a partner-based model to an asset owner-focused model, driven by its CFO Anthony Pagano. Following its first major acquisition of ProfoundBio, Genmab is open to further M&A opportunities that align strategically, particularly those with similar characteristics to Rina-S in terms of modality and therapeutic area. The company is also exploring expansion into immunology in addition to its core oncology focus, leveraging its ADC and C3-based T-cell engaging bispecific antibody programs.",
+      "url": "https://www.fiercebiotech.com/biotech/after-profoundbio-buy-genmab-open-further-ma-make-strategic-sense-says-cfo",
+      "source": "Fierce Biotech",
+      "published": "20241121T130500",
+      "overall_sentiment_score": 0.185737,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.065188,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.605699
     },
     {
-      "title": "RFK Jr. may start a food and drug ‘culture war.’ Investors are running for cover.",
-      "summary": "Donald Trump's nomination of Robert F. Kennedy Jr. to lead the Department of Health and Human Services has raised concerns among investors due to his vows to reform the food and drug industries. This move is seen as one of several unorthodox appointments by President-elect Trump. The HHS secretary position oversees a massive budget of over $1.7 trillion for healthcare products and services, causing investors to scramble to understand the potential market impact.",
-      "url": "https://www.marketwatch.com/story/rfk-jr-may-start-a-food-and-drug-culture-war-investors-are-running-for-cover-5b7068ac?gaa_at=eafs&gaa_n=AWEtsqdKNJjvrB4IZkhbfWvBREDwaiSpvQ-rsi6YH8VEwuZSHl9ArTuLZdLP&gaa_ts=69075db7&gaa_sig=IgtCxx2O7avVuq6orQGEpPrGqQ2RVUr8XkaOuxylC8lpUWZSiGtZjWjQjsrLKqPkTdCacEh4cuLl6LTWsiYnCQ%3D%3D",
-      "source": "MarketWatch",
-      "published": "20241119T144500",
-      "overall_sentiment_score": -0.209077,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.213993,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.724952
+      "title": "Why Is Moderna, Inc. (MRNA) Among the Best High Growth Healthcare Stocks to Invest In Now?",
+      "summary": "This article examines why Moderna, Inc. (MRNA) is considered a high-growth healthcare stock, highlighting its strong revenue growth and advancements in mRNA technology, particularly in cancer vaccines and its successful COVID-19 vaccine, Spikevax. It also touches on broader trends in global healthcare spending, emphasizing the defensive nature of healthcare investments and the impact of GLP-1 agonists in pharmaceuticals.",
+      "url": "https://finance.yahoo.com/news/why-moderna-inc-mrna-among-211158372.html",
+      "source": "Yahoo Finance",
+      "published": "20241202T050000",
+      "overall_sentiment_score": 0.314485,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.228698,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.603479
     }
   ]
 }

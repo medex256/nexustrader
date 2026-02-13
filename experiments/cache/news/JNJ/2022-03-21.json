@@ -7,30 +7,6 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "Pharma major Dr. Reddy's plans 'business continuity' in Russia",
-      "summary": "Pharmaceutical major Dr. Reddy's Laboratories Ltd announced its commitment to employee safety and business continuity in Russia, despite many Western companies withdrawing from the region. The company stated it has had a presence in Russia for over three decades and will continue to monitor developments closely without confirming changes to its investments. Russia accounted for over 8% of its total sales of $2.47 billion in the last fiscal year.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/pharma-major-dr-reddys-plans-business-continuity-in-russia/articleshow/90097892.cms",
-      "source": "Times of India",
-      "published": "20220309T143500",
-      "overall_sentiment_score": -0.17622,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.14802,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.605197
-    },
-    {
-      "title": "Here’s the latest on possible 4th COVID-19 vaccine shot for Americans",
-      "summary": "Moderna has requested FDA authorization for a fourth COVID-19 vaccine booster for all adults, while Pfizer and BioNTech sought approval for seniors aged 65 and older, citing data from Israel showing reduced infection and severe disease rates. U.S. health officials are considering additional booster doses and seeking funding to secure more vaccines, amidst ongoing studies on omicron-specific and hybrid shots. Experts like Dr. Paul Offit question the necessity of a fourth shot for most people, emphasizing that protection against severe illness should be the primary goal.",
-      "url": "https://www.oregonlive.com/business/2022/03/heres-the-latest-on-possible-4th-covid-19-vaccine-shot-for-americans.html",
-      "source": "OregonLive.com",
-      "published": "20220320T160600",
-      "overall_sentiment_score": 0.119367,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.053806,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.62401
-    },
-    {
       "title": "Novartis, Lilly, Merck and More Halt Business Operations in Russia",
       "summary": "Following Pfizer's lead, several major pharmaceutical companies including AbbVie, Abbott, Novartis, Merck, and Eli Lilly have announced they are suspending some or all business operations in Russia in protest of the invasion of Ukraine. While halting investments and non-essential sales, many companies have committed to continuing the supply of life-saving medications. Bayer also joined the effort, stopping all non-essential business in Russia and Belarus.",
       "url": "https://www.biospace.com/novartis-eli-lilly-merck-and-more-join-drugmakers-in-halting-business-operations-in-russia",
@@ -65,6 +41,30 @@
       "ticker_sentiment_score": 0.115624,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.63928
+    },
+    {
+      "title": "Here’s the latest on possible 4th COVID-19 vaccine shot for Americans",
+      "summary": "Moderna has requested FDA authorization for a fourth COVID-19 vaccine booster for all adults, while Pfizer and BioNTech sought approval for seniors aged 65 and older, citing data from Israel showing reduced infection and severe disease rates. U.S. health officials are considering additional booster doses and seeking funding to secure more vaccines, amidst ongoing studies on omicron-specific and hybrid shots. Experts like Dr. Paul Offit question the necessity of a fourth shot for most people, emphasizing that protection against severe illness should be the primary goal.",
+      "url": "https://www.oregonlive.com/business/2022/03/heres-the-latest-on-possible-4th-covid-19-vaccine-shot-for-americans.html",
+      "source": "OregonLive.com",
+      "published": "20220320T160600",
+      "overall_sentiment_score": 0.119367,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.053806,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62401
+    },
+    {
+      "title": "Pharma major Dr. Reddy's plans 'business continuity' in Russia",
+      "summary": "Pharmaceutical major Dr. Reddy's Laboratories Ltd announced its commitment to employee safety and business continuity in Russia, despite many Western companies withdrawing from the region. The company stated it has had a presence in Russia for over three decades and will continue to monitor developments closely without confirming changes to its investments. Russia accounted for over 8% of its total sales of $2.47 billion in the last fiscal year.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/pharma-major-dr-reddys-plans-business-continuity-in-russia/articleshow/90097892.cms",
+      "source": "Times of India",
+      "published": "20220309T143500",
+      "overall_sentiment_score": -0.17622,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.14802,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.605197
     }
   ]
 }

@@ -31,16 +31,16 @@
       "relevance_score": 0.748212
     },
     {
-      "title": "It's Not Just Lithium: Tesla, Rivian, And The Green Revolution Rely On These Precious Metals",
-      "summary": "This article highlights the critical role of precious metals beyond lithium in powering the green revolution, particularly in electric vehicle batteries. It details how cobalt, nickel, silver, and graphite are essential components for companies like Tesla and Rivian, impacting battery performance, energy density, and efficiency. The piece also touches on future trends, such as solid-state batteries, and discusses investment opportunities in the materials driving the EV industry.",
-      "url": "https://www.nasdaq.com/articles/its-not-just-lithium:-tesla-rivian-and-the-green-revolution-rely-on-these-precious-metals",
-      "source": "Nasdaq",
-      "published": "20231024T062600",
-      "overall_sentiment_score": 0.214071,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.111102,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.432345
+      "title": "Nvidia to take on Intel, Qualcomm with Arm-based processors for PC; availability pegged for 2025",
+      "summary": "Nvidia is developing Arm-based processors for personal computers, aiming to compete with Intel and Qualcomm, with availability expected as soon as 2025. This move intensifies competition in the PC chip market, especially as AMD is also reportedly working on Arm-based processors for PCs. The initiative follows Apple's successful transition to in-house Arm-based chips, boosting Mac sales, and poses a significant challenge to Intel's dominant position.",
+      "url": "https://www.financialexpress.com/life/technology-nvidia-to-take-on-intel-qualcomm-with-arm-based-processors-for-pc-availability-pegged-for-2025-3285212/",
+      "source": "The Financial Express",
+      "published": "20231024T134500",
+      "overall_sentiment_score": 0.0864,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.301299,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.628588
     },
     {
       "title": "‘Fundamental rethink:’ Investors dump China shares despite new efforts to shore up the economy",
@@ -55,16 +55,16 @@
       "relevance_score": 0.615454
     },
     {
-      "title": "Nvidia to take on Intel, Qualcomm with Arm-based processors for PC; availability pegged for 2025",
-      "summary": "Nvidia is developing Arm-based processors for personal computers, aiming to compete with Intel and Qualcomm, with availability expected as soon as 2025. This move intensifies competition in the PC chip market, especially as AMD is also reportedly working on Arm-based processors for PCs. The initiative follows Apple's successful transition to in-house Arm-based chips, boosting Mac sales, and poses a significant challenge to Intel's dominant position.",
-      "url": "https://www.financialexpress.com/life/technology-nvidia-to-take-on-intel-qualcomm-with-arm-based-processors-for-pc-availability-pegged-for-2025-3285212/",
-      "source": "The Financial Express",
-      "published": "20231024T134500",
-      "overall_sentiment_score": 0.0864,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.301299,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.628588
+      "title": "It's Not Just Lithium: Tesla, Rivian, And The Green Revolution Rely On These Precious Metals",
+      "summary": "This article highlights the critical role of precious metals beyond lithium in powering the green revolution, particularly in electric vehicle batteries. It details how cobalt, nickel, silver, and graphite are essential components for companies like Tesla and Rivian, impacting battery performance, energy density, and efficiency. The piece also touches on future trends, such as solid-state batteries, and discusses investment opportunities in the materials driving the EV industry.",
+      "url": "https://www.nasdaq.com/articles/its-not-just-lithium:-tesla-rivian-and-the-green-revolution-rely-on-these-precious-metals",
+      "source": "Nasdaq",
+      "published": "20231024T062600",
+      "overall_sentiment_score": 0.214071,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.111102,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.432345
     }
   ]
 }

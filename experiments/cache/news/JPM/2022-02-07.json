@@ -7,78 +7,6 @@
   "article_count": 19,
   "articles": [
     {
-      "title": "Pinnacle Expands to North Fulton County in Atlanta",
-      "summary": "Pinnacle Financial Partners is expanding its operations to North Fulton County in Atlanta, establishing a temporary presence and planning a full-service location for summer. The firm has hired a team of banking veterans, led by Scott Jordan as area manager, to serve clients in North Fulton, Gwinnett, and Forsyth Counties. This expansion is part of Pinnacle's broader growth strategy in Atlanta, building on its entry into the market two years prior.",
-      "url": "https://pnfp.com/news/news-releases/pinnacle-expands-to-north-fulton-county-in-atlanta/",
-      "source": "Pinnacle Financial Partners",
-      "published": "20220207T180733",
-      "overall_sentiment_score": 0.252549,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.231983,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.636373
-    },
-    {
-      "title": "Income Is The Outcome",
-      "summary": "The article discusses the JPMorgan Equity Premium Income Fund, an income-oriented fund that uses equity-linked notes (ELNs) and options premiums to generate substantial income for investors. Despite underperforming market benchmarks in total return, its strategy prioritizes income generation and aims to reduce volatility, allowing investors to stay invested in equities in a more defensive manner. The fund's co-portfolio manager, Hamilton Reiner, explains how the use of ELNs converts options premiums into bona fide income and how market volatility influences the income generated.",
-      "url": "https://www.fa-mag.com/news/income-is-the-outcome-66040.html?print",
-      "source": "FA Mag",
-      "published": "20220201T171632",
-      "overall_sentiment_score": 0.16097,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.237687,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.891548
-    },
-    {
-      "title": "Citigroup is hiring across Gulf, awaits another record IPO year",
-      "summary": "Citigroup is expanding its presence in the Gulf region, anticipating that 2022 will surpass 2021 as a record year for activity, including initial public offerings. The bank is adding resources in Saudi Arabia and Dubai to capitalize on the region's booming IPO market and diversifying economies. Amid a wider war for talent in the banking industry, Citigroup believes it can continue to attract skilled professionals due to its strong institution and management.",
-      "url": "https://www.gulf-times.com/story/709010/citigroup-is-hiring-across-gulf-awaits-another-record-ipo-year",
-      "source": "Gulf Times",
-      "published": "20220131T192100",
-      "overall_sentiment_score": 0.360462,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.349395,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.623153
-    },
-    {
-      "title": "loanDepot Announces Closing Of $597M Securitization",
-      "summary": "loanDepot announced the closing of Mello Mortgage Capital Acceptance 2022-INV1, a $597 million securitization of agency-eligible mortgages originated through its retail and partner channels. This transaction marks over $3 billion in private label residential mortgage-backed securities sponsored by loanDepot entities over the past twelve months. The securitization consists of 1,442 prime mortgage loans made to borrowers with strong credit profiles, demonstrating the company's resilient business model and capital-raising strategy.",
-      "url": "https://nationalmortgageprofessional.com/news/loandepot-announces-closing-597m-securitization",
-      "source": "National Mortgage Professional",
-      "published": "20220131T172659",
-      "overall_sentiment_score": 0.379065,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.265474,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.642929
-    },
-    {
-      "title": "CAF grants A/B loan for USD 300 million to YPF S.A. to support its climate change adaptation and mitigation strategy",
-      "summary": "CAF has granted an A/B loan of USD 300 million to YPF S.A. to support its climate change adaptation and mitigation strategy. This financing marks YPF's return to the international financial market and aligns with its emissions reduction goals. The loan structure mobilized private capital from Santander, Itau Unibanco, Industrial and Commercial Bank of China Limited, and Cargill Financial Services International.",
-      "url": "https://www.caf.com/en/currently/news/caf-grants-ab-loan-for-usd-300-million-to-ypf-sa-to-support-its-climate-change-adaptation-and-mitigation-strategy/",
-      "source": "CAF -banco",
-      "published": "20220127T192544",
-      "overall_sentiment_score": 0.23764,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.105252,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.644538
-    },
-    {
-      "title": "Fidelity Plots Crypto Industry, Metaverse ETFs",
-      "summary": "Fidelity Investments has filed proposals with the SEC for two new ETFs: the Fidelity Crypto Industry and Digital Payments ETF, and the Fidelity Metaverse ETF. These filings come shortly after the SEC denied Fidelity's application for a spot bitcoin trust, highlighting the company's continued efforts to expand its offerings in the digital asset space without directly investing in cryptocurrencies for these new ETFs. The proposed ETFs will track indices of companies involved in the crypto industry and those developing metaverse-related products or services.",
-      "url": "https://blockworks.co/news/fidelity-plots-crypto-etfs",
-      "source": "Blockworks",
-      "published": "20220127T181300",
-      "overall_sentiment_score": 0.146149,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.107078,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.615233
-    },
-    {
       "title": "WOTM :sam-sapertein",
       "summary": "Sam Saperstein, Head of Women on the Move at JPMorgan Chase, discusses the theme of resilience at the 2021 Women on the Move Leadership Day. She highlights inspiring stories of women who have reinvented themselves in the face of adversity, including a Paralympian and a small business owner who pivoted during the pandemic. The article also showcases JPMorgan Chase's achievements in supporting women, such as exceeding its $10 billion lending goal to women-owned small businesses and implementing programs to support female employees and underserved segments.",
       "url": "https://www.jpmorganchase.com/newsroom/stories/wotm-sam-saperstein",
@@ -91,30 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Inviu, la fintech de inversiones del Galicia, nombró nuevo CFO y ya piensa en regionalizarse",
-      "summary": "Inviu, the investment fintech of Grupo Financiero Galicia, has appointed Ignacio Clancy as its new CFO. Clancy, with a strong background in financial services and capital markets, will be responsible for regionalizing the company and mitigating project risks. Inviu aims to expand its operations beyond Argentina, building on Clancy's extensive experience, including his tenure at JP Morgan.",
-      "url": "https://www.roadshow.com.ar/inviu-la-fintech-de-inversiones-del-galicia-nombo-nuevo-cfo-y-ya-piensa-en-regionalizarse/",
-      "source": "RoadShow",
-      "published": "20220126T164647",
-      "overall_sentiment_score": 0.069171,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.139469,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.617108
-    },
-    {
-      "title": "JPMorgan buys 49% stake in Greek fintech Viva Wallet",
-      "summary": "JPMorgan Chase has acquired a 49% stake in the Greek fintech Viva Wallet, continuing its strategy of investing in banking-adjacent businesses, especially internationally. This investment is part of JPMorgan's aggressive acquisition strategy, particularly as regulations limit its ability to acquire more U.S.-based deposit-taking institutions. Viva Wallet, valued at over $2 billion, provides services to small and medium-sized businesses across 23 European countries.",
-      "url": "https://www.bankingdive.com/news/jpmorgan-buys-49-stake-in-greek-fintech-viva-wallet/617685/",
-      "source": "Banking Dive",
-      "published": "20220125T171648",
-      "overall_sentiment_score": 0.464187,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.48049,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.99927
-    },
-    {
       "title": "JPMorgan buys 49% stake in Greek payments company",
       "summary": "JPMorgan Chase has acquired a 49% stake in the Greek fintech Viva Wallets as part of its ongoing acquisition strategy. The Athens-based company provides payment solutions to small and medium-sized businesses across 23 European countries. This investment, valued over $1.15 billion, will help Viva Wallets expand its localized payment services throughout Europe.",
       "url": "https://www.paymentsdive.com/news/jpmorgan-buys-49-stake-in-greek-payments-company/617691/",
@@ -125,18 +29,6 @@
       "ticker_sentiment_score": 0.492986,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "OCC approves national bank charter applications of fintech company",
-      "summary": "The Office of the Comptroller of the Currency (OCC) has conditionally approved applications from Social Finance Inc. (SoFi) to establish SoFi Bank, National Association. This move brings SoFi under federal bank regulatory supervision, subjecting it to comprehensive regulations including the Community Reinvestment Act. The approval requires the new bank not to engage in crypto-asset activities, and SoFi Technologies is seeking to become a bank holding company.",
-      "url": "https://www.consumerfinancemonitor.com/2022/01/24/occ-approves-national-bank-charter-applications-of-fintech-company/",
-      "source": "Consumer Finance Monitor",
-      "published": "20220124T183709",
-      "overall_sentiment_score": 0.254126,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.109151,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.585474
     },
     {
       "title": "JPMorgan Chase: Driving Diversity, Equity, and Inclusion",
@@ -163,6 +55,42 @@
       "relevance_score": 1.0
     },
     {
+      "title": "JPMorgan buys 49% stake in Greek fintech Viva Wallet",
+      "summary": "JPMorgan Chase has acquired a 49% stake in the Greek fintech Viva Wallet, continuing its strategy of investing in banking-adjacent businesses, especially internationally. This investment is part of JPMorgan's aggressive acquisition strategy, particularly as regulations limit its ability to acquire more U.S.-based deposit-taking institutions. Viva Wallet, valued at over $2 billion, provides services to small and medium-sized businesses across 23 European countries.",
+      "url": "https://www.bankingdive.com/news/jpmorgan-buys-49-stake-in-greek-fintech-viva-wallet/617685/",
+      "source": "Banking Dive",
+      "published": "20220125T171648",
+      "overall_sentiment_score": 0.464187,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.48049,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.99927
+    },
+    {
+      "title": "Income Is The Outcome",
+      "summary": "The article discusses the JPMorgan Equity Premium Income Fund, an income-oriented fund that uses equity-linked notes (ELNs) and options premiums to generate substantial income for investors. Despite underperforming market benchmarks in total return, its strategy prioritizes income generation and aims to reduce volatility, allowing investors to stay invested in equities in a more defensive manner. The fund's co-portfolio manager, Hamilton Reiner, explains how the use of ELNs converts options premiums into bona fide income and how market volatility influences the income generated.",
+      "url": "https://www.fa-mag.com/news/income-is-the-outcome-66040.html?print",
+      "source": "FA Mag",
+      "published": "20220201T171632",
+      "overall_sentiment_score": 0.16097,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.237687,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.891548
+    },
+    {
+      "title": "Throwing up the white flag? Retail investors dumped stocks at Monday's open, JPMorgan analysis finds",
+      "summary": "A JPMorgan analysis found that retail investors aggressively dumped stocks at Monday's open, leading to a retail order imbalance of $1.36 billion by noon. This suggests a potential surrender by retail investors in the current market. The analysis was conducted by markets strategist Peng Cheng.",
+      "url": "https://www.marketwatch.com/story/throwing-up-the-white-flag-retail-investors-dumped-stocks-at-mondays-open-jpmorgan-analysis-finds-11643102897?gaa_at=eafs&gaa_n=AWEtsqcd85hIOfADRh4IDDOmY6jBsIBhuyj0bl3uuFvjN0B0OeXQJrlODOAP&gaa_ts=6907aa1c&gaa_sig=FQpj-jwbRLUkGXpxrjiXSRr4MLTT_TrgfDSBKGOzVgaYH6uT5RK6ZtvIe1c8-c97mm3sc0RFVYcDZxCtPVncGQ%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220125T042800",
+      "overall_sentiment_score": -0.238071,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.338684,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.834874
+    },
+    {
       "title": "Building a New Sustainability Model for the Food Industry",
       "summary": "Maple Leaf Foods, a major protein company, is striving to become the most sustainable in the world by setting science-based targets like reducing greenhouse gas emissions by 30% by 2030 and achieving carbon neutrality. The company is investing in environmentally conscious production facilities, sustainable meat practices, and plant-based proteins, including using an ESG-linked credit facility from J.P. Morgan to support its growth initiatives. Maple Leaf Foods emphasizes a \"shared value\" framework where business and social decisions are intertwined, aiming to prove that carbon neutrality can be both possible and profitable in the food industry.",
       "url": "https://www.jpmorganchase.com/newsroom/stories/building-a-new-sustainability-model-for-the-food-industry",
@@ -175,16 +103,28 @@
       "relevance_score": 0.820609
     },
     {
-      "title": "Crypto Lending and the Search for Yield",
-      "summary": "This article explores the landscape of crypto lending, detailing how investors can earn yield by lending digital assets like Bitcoin and stablecoins to various entities. It discusses the primary sources of this yield, including futures-based \"cash and carry\" trades and arbitrage opportunities, while also analyzing the macro and micro risks involved, such as market volatility and counterparty risk. The author emphasizes the importance of traditional credit analysis in navigating this evolving financial market.",
-      "url": "https://www.vaneck.com/us/en/blogs/digital-assets/matthew-sigel-crypto-lending-and-the-search-for-yield/",
-      "source": "VanEck",
-      "published": "20220201T163626",
-      "overall_sentiment_score": 0.144816,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.138759,
+      "title": "CAF grants A/B loan for USD 300 million to YPF S.A. to support its climate change adaptation and mitigation strategy",
+      "summary": "CAF has granted an A/B loan of USD 300 million to YPF S.A. to support its climate change adaptation and mitigation strategy. This financing marks YPF's return to the international financial market and aligns with its emissions reduction goals. The loan structure mobilized private capital from Santander, Itau Unibanco, Industrial and Commercial Bank of China Limited, and Cargill Financial Services International.",
+      "url": "https://www.caf.com/en/currently/news/caf-grants-ab-loan-for-usd-300-million-to-ypf-sa-to-support-its-climate-change-adaptation-and-mitigation-strategy/",
+      "source": "CAF -banco",
+      "published": "20220127T192544",
+      "overall_sentiment_score": 0.23764,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.105252,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.637309
+      "relevance_score": 0.644538
+    },
+    {
+      "title": "loanDepot Announces Closing Of $597M Securitization",
+      "summary": "loanDepot announced the closing of Mello Mortgage Capital Acceptance 2022-INV1, a $597 million securitization of agency-eligible mortgages originated through its retail and partner channels. This transaction marks over $3 billion in private label residential mortgage-backed securities sponsored by loanDepot entities over the past twelve months. The securitization consists of 1,442 prime mortgage loans made to borrowers with strong credit profiles, demonstrating the company's resilient business model and capital-raising strategy.",
+      "url": "https://nationalmortgageprofessional.com/news/loandepot-announces-closing-597m-securitization",
+      "source": "National Mortgage Professional",
+      "published": "20220131T172659",
+      "overall_sentiment_score": 0.379065,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.265474,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.642929
     },
     {
       "title": "Future Returns: How Goldman Sachs Approaches Direct Indexing",
@@ -199,16 +139,64 @@
       "relevance_score": 0.63961
     },
     {
-      "title": "Digital Wallets and Financial Services Disruption",
-      "summary": "Digital wallets are significantly disrupting traditional financial services, including banking, brokerage, and lending, due to superior user experiences and lower customer acquisition costs. ARK Investment Management predicts substantial growth for digital wallets, projecting their market capitalization to reach $5.7 trillion in the U.S. and $20 trillion globally within five years. Companies like Block (Square) and PayPal, which are major holdings in the ARK Fintech Innovation ETF (ARKF), are leading this disruption by acquiring customers at a fraction of the cost of traditional banks.",
-      "url": "https://etfdb.com/disruptive-technology-channel/digital-wallets-and-financial-services-disruption/",
-      "source": "ETF Database",
-      "published": "20220201T161121",
-      "overall_sentiment_score": 0.309061,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.109194,
+      "title": "Crypto Lending and the Search for Yield",
+      "summary": "This article explores the landscape of crypto lending, detailing how investors can earn yield by lending digital assets like Bitcoin and stablecoins to various entities. It discusses the primary sources of this yield, including futures-based \"cash and carry\" trades and arbitrage opportunities, while also analyzing the macro and micro risks involved, such as market volatility and counterparty risk. The author emphasizes the importance of traditional credit analysis in navigating this evolving financial market.",
+      "url": "https://www.vaneck.com/us/en/blogs/digital-assets/matthew-sigel-crypto-lending-and-the-search-for-yield/",
+      "source": "VanEck",
+      "published": "20220201T163626",
+      "overall_sentiment_score": 0.144816,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.138759,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.608338
+      "relevance_score": 0.637309
+    },
+    {
+      "title": "Pinnacle Expands to North Fulton County in Atlanta",
+      "summary": "Pinnacle Financial Partners is expanding its operations to North Fulton County in Atlanta, establishing a temporary presence and planning a full-service location for summer. The firm has hired a team of banking veterans, led by Scott Jordan as area manager, to serve clients in North Fulton, Gwinnett, and Forsyth Counties. This expansion is part of Pinnacle's broader growth strategy in Atlanta, building on its entry into the market two years prior.",
+      "url": "https://pnfp.com/news/news-releases/pinnacle-expands-to-north-fulton-county-in-atlanta/",
+      "source": "Pinnacle Financial Partners",
+      "published": "20220207T180733",
+      "overall_sentiment_score": 0.252549,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.231983,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.636373
+    },
+    {
+      "title": "Citigroup is hiring across Gulf, awaits another record IPO year",
+      "summary": "Citigroup is expanding its presence in the Gulf region, anticipating that 2022 will surpass 2021 as a record year for activity, including initial public offerings. The bank is adding resources in Saudi Arabia and Dubai to capitalize on the region's booming IPO market and diversifying economies. Amid a wider war for talent in the banking industry, Citigroup believes it can continue to attract skilled professionals due to its strong institution and management.",
+      "url": "https://www.gulf-times.com/story/709010/citigroup-is-hiring-across-gulf-awaits-another-record-ipo-year",
+      "source": "Gulf Times",
+      "published": "20220131T192100",
+      "overall_sentiment_score": 0.360462,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.349395,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.623153
+    },
+    {
+      "title": "Inviu, la fintech de inversiones del Galicia, nombró nuevo CFO y ya piensa en regionalizarse",
+      "summary": "Inviu, the investment fintech of Grupo Financiero Galicia, has appointed Ignacio Clancy as its new CFO. Clancy, with a strong background in financial services and capital markets, will be responsible for regionalizing the company and mitigating project risks. Inviu aims to expand its operations beyond Argentina, building on Clancy's extensive experience, including his tenure at JP Morgan.",
+      "url": "https://www.roadshow.com.ar/inviu-la-fintech-de-inversiones-del-galicia-nombo-nuevo-cfo-y-ya-piensa-en-regionalizarse/",
+      "source": "RoadShow",
+      "published": "20220126T164647",
+      "overall_sentiment_score": 0.069171,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.139469,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.617108
+    },
+    {
+      "title": "Fidelity Plots Crypto Industry, Metaverse ETFs",
+      "summary": "Fidelity Investments has filed proposals with the SEC for two new ETFs: the Fidelity Crypto Industry and Digital Payments ETF, and the Fidelity Metaverse ETF. These filings come shortly after the SEC denied Fidelity's application for a spot bitcoin trust, highlighting the company's continued efforts to expand its offerings in the digital asset space without directly investing in cryptocurrencies for these new ETFs. The proposed ETFs will track indices of companies involved in the crypto industry and those developing metaverse-related products or services.",
+      "url": "https://blockworks.co/news/fidelity-plots-crypto-etfs",
+      "source": "Blockworks",
+      "published": "20220127T181300",
+      "overall_sentiment_score": 0.146149,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.107078,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.615233
     },
     {
       "title": "Nuveen Names Saira Malik As Chief Investment Officer",
@@ -223,16 +211,28 @@
       "relevance_score": 0.610814
     },
     {
-      "title": "Throwing up the white flag? Retail investors dumped stocks at Monday's open, JPMorgan analysis finds",
-      "summary": "A JPMorgan analysis found that retail investors aggressively dumped stocks at Monday's open, leading to a retail order imbalance of $1.36 billion by noon. This suggests a potential surrender by retail investors in the current market. The analysis was conducted by markets strategist Peng Cheng.",
-      "url": "https://www.marketwatch.com/story/throwing-up-the-white-flag-retail-investors-dumped-stocks-at-mondays-open-jpmorgan-analysis-finds-11643102897?gaa_at=eafs&gaa_n=AWEtsqcd85hIOfADRh4IDDOmY6jBsIBhuyj0bl3uuFvjN0B0OeXQJrlODOAP&gaa_ts=6907aa1c&gaa_sig=FQpj-jwbRLUkGXpxrjiXSRr4MLTT_TrgfDSBKGOzVgaYH6uT5RK6ZtvIe1c8-c97mm3sc0RFVYcDZxCtPVncGQ%3D%3D",
-      "source": "MarketWatch",
-      "published": "20220125T042800",
-      "overall_sentiment_score": -0.238071,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.338684,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.834874
+      "title": "Digital Wallets and Financial Services Disruption",
+      "summary": "Digital wallets are significantly disrupting traditional financial services, including banking, brokerage, and lending, due to superior user experiences and lower customer acquisition costs. ARK Investment Management predicts substantial growth for digital wallets, projecting their market capitalization to reach $5.7 trillion in the U.S. and $20 trillion globally within five years. Companies like Block (Square) and PayPal, which are major holdings in the ARK Fintech Innovation ETF (ARKF), are leading this disruption by acquiring customers at a fraction of the cost of traditional banks.",
+      "url": "https://etfdb.com/disruptive-technology-channel/digital-wallets-and-financial-services-disruption/",
+      "source": "ETF Database",
+      "published": "20220201T161121",
+      "overall_sentiment_score": 0.309061,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.109194,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.608338
+    },
+    {
+      "title": "OCC approves national bank charter applications of fintech company",
+      "summary": "The Office of the Comptroller of the Currency (OCC) has conditionally approved applications from Social Finance Inc. (SoFi) to establish SoFi Bank, National Association. This move brings SoFi under federal bank regulatory supervision, subjecting it to comprehensive regulations including the Community Reinvestment Act. The approval requires the new bank not to engage in crypto-asset activities, and SoFi Technologies is seeking to become a bank holding company.",
+      "url": "https://www.consumerfinancemonitor.com/2022/01/24/occ-approves-national-bank-charter-applications-of-fintech-company/",
+      "source": "Consumer Finance Monitor",
+      "published": "20220124T183709",
+      "overall_sentiment_score": 0.254126,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.109151,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.585474
     }
   ]
 }

@@ -7,40 +7,16 @@
   "article_count": 12,
   "articles": [
     {
-      "title": "Documents show Spire scrambling for survival of St. Louis pipeline after court ruling",
-      "summary": "This article details how Spire Inc. engaged in assertive marketing and political lobbying to ensure the survival of its 65-mile STL Pipeline after a court ruling questioned its necessity. The company warned of heat outages for 400,000 customers, obtained a temporary operating permit, and simultaneously worked to undermine the transition to renewable energy. The article also highlights Spire's legal battles with property owners and its broader fight against electrification, which it sees as an \"existential threat\" to its profits from residential gas sales.",
-      "url": "https://missouriindependent.com/2022/04/27/documents-spire-st-louis-pipeline/",
-      "source": "Missouri Independent",
-      "published": "20220427T060500",
-      "overall_sentiment_score": -0.161277,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.123356,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.622051
-    },
-    {
-      "title": "PEP Earnings: Key quarterly highlights from PepsiCo’s Q1 2022 financial results",
-      "summary": "PepsiCo (NASDAQ: PEP) reported strong first-quarter 2022 earnings, with net revenues growing 9.3% to $16.2 billion and organic revenue up 13.7%. Net income attributable to PepsiCo more than doubled to $4.2 billion, or $3.06 per share, compared to the prior-year period. The company exceeded both top and bottom-line estimates and provided an optimistic outlook for fiscal year 2022, projecting 8% organic revenue growth and a 6% increase in core EPS to $6.63.",
-      "url": "https://news.alphastreet.com/pep-earnings-key-quarterly-highlights-from-pepsicos-q1-2022-financial-results/",
-      "source": "AlphaStreet",
-      "published": "20220426T180641",
-      "overall_sentiment_score": 0.18244,
+      "title": "Exxon sees carbon capture market at $4 trillion by 2050",
+      "summary": "Exxon Mobil Corp. projects the carbon capture and storage (CCS) market to reach $4 trillion by 2050, representing about 60% of its estimated oil and gas market for the same period. The company is investing in this technology as a key emissions reduction strategy amid public pressure, with Occidental Petroleum also seeing CCS as a significant future industry.",
+      "url": "https://www.reuters.com/business/sustainable-business/exxon-sees-carbon-capture-market-4-trillion-by-2050-2022-04-19/",
+      "source": "Reuters",
+      "published": "20220421T171500",
+      "overall_sentiment_score": 0.238338,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.147048,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.636057
-    },
-    {
-      "title": "BNY Mellon (BK) Infographic: Key financials and quarterly highlights",
-      "summary": "The Bank of New York Mellon Corporation (NYSE: BK) reported its first-quarter 2022 earnings results. Total revenue increased by 2% to $3.9 billion, while net income applicable to common shareholders fell 19% to $699 million, and EPS dropped 11% to $0.86. Assets under management increased 2% to $2.3 trillion.",
-      "url": "https://news.alphastreet.com/bny-mellon-bk-infographic-key-financials-and-quarterly-highlights/",
-      "source": "AlphaStreet",
-      "published": "20220418T161638",
-      "overall_sentiment_score": 0.11666,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.141899,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.638574
+      "ticker_sentiment_score": 0.225179,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "Exxon, Chevron post big revenues, but Wall Street shrugs",
@@ -55,76 +31,16 @@
       "relevance_score": 0.952792
     },
     {
-      "title": "Republic Services landfill near Pearland houses one of nation's largest renewable natural gas plants",
-      "summary": "Republic Services' Blue Ridge Landfill near Pearland is home to one of the nation's largest renewable natural gas (RNG) operations. This plant, developed with Morrow Energy, leverages landfill gas to produce renewable natural gas. The facility is a significant contributor to clean energy efforts, according to EPA data.",
-      "url": "https://www.bizjournals.com/houston/news/2022/04/25/republic-services-morrow-energy-renewable-gas.html",
-      "source": "The Business Journals",
-      "published": "20220425T182630",
-      "overall_sentiment_score": 0.328527,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.331342,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.604641
-    },
-    {
-      "title": "Exxon sees carbon capture market at $4 trillion by 2050",
-      "summary": "Exxon Mobil Corp. projects the carbon capture and storage (CCS) market to reach $4 trillion by 2050, representing about 60% of its estimated oil and gas market for the same period. The company is investing in this technology as a key emissions reduction strategy amid public pressure, with Occidental Petroleum also seeing CCS as a significant future industry.",
-      "url": "https://www.reuters.com/business/sustainable-business/exxon-sees-carbon-capture-market-4-trillion-by-2050-2022-04-19/",
-      "source": "Reuters",
-      "published": "20220421T171500",
-      "overall_sentiment_score": 0.238338,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.225179,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "Oklahoma Shale Driller Chaparral Rebrands as Canvas Energy",
-      "summary": "Chaparral Energy Inc. has rebranded as Canvas Energy Inc., completing a strategic transformation focused on ESG principles, efficient low-cost field operations, and sustainable free cash flow generation. The Oklahoma-based company, which emerged from Chapter 11 bankruptcy last October, aims to use its fresh assets and strong balance sheet to self-fund its new strategy. The rebranding includes a new name, logo, website, and updated corporate presentation.",
-      "url": "https://finance.yahoo.com/news/oklahoma-shale-driller-chaparral-rebrands-170500417.html",
-      "source": "Yahoo Finance",
-      "published": "20220420T210916",
-      "overall_sentiment_score": 0.33861,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.347368,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.63381
-    },
-    {
-      "title": "Global X launches Europe’s first uranium industry ETF",
-      "summary": "Global X has launched Europe's first ETF providing exposure to the uranium industry, the Global X Uranium UCITS ETF, listed on the London Stock Exchange and Deutsche Börse Xetra. This launch comes as uranium prices have surged due to global climate initiatives and the ongoing war in Ukraine, which has highlighted nuclear power's role as a bridging fuel and created potential supply chain strains. The ETF tracks the Solactive Global Uranium & Nuclear Components v2 Index, investing in companies involved in uranium mining, exploration, and related technologies, reflecting strong interest in the sector seen in Global X's US-listed uranium ETF.",
-      "url": "https://www.etfstrategy.com/global-x-rolls-out-uranium-etf-in-europe-10339/",
-      "source": "ETF Strategy",
-      "published": "20220425T174714",
-      "overall_sentiment_score": 0.149973,
+      "title": "People on the Move: ExxonMobil, Global Partners, Parker's & NYACS",
+      "summary": "This article details recent executive changes and personnel moves across several companies in the convenience store industry, including ExxonMobil, Global Partners, Dawn Foods, GreenPrint, PIM Brands Inc., Talking Rain Beverage Co., and Turning Points Brands. It also highlights awards and new appointments within industry associations like NYACS, the National Confectioners Association, the National Confectionery Sales Association, and the Pennsylvania Food Merchants Association, along with new hires at Parker's and TruAge. The changes reflect strategic shifts in leadership, marketing, and operations within these organizations.",
+      "url": "https://csnews.com/people-move-exxonmobil-global-partners-parkers-nyacs",
+      "source": "Convenience Store News",
+      "published": "20220427T164707",
+      "overall_sentiment_score": 0.083498,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.133721,
+      "ticker_sentiment_score": 0.129814,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.638528
-    },
-    {
-      "title": "Gasoducto Néstor Kirchner: beneficios e impactos de largo plazo de la obra que transportará el gas de Vaca Muerta",
-      "summary": "The article details the benefits and long-term impacts of the Néstor Kirchner Gas Pipeline, a crucial project for Argentina's energy development. This pipeline will transport gas from Vaca Muerta, aiming to improve domestic supply, reduce reliance on imported fuels, and enable gas exports to neighboring countries. The project is divided into three stages, designed to progressively increase transport capacity to 39 million cubic meters per day.",
-      "url": "https://www.infobae.com/economia/2022/04/21/gasoducto-nestor-kirchner-beneficios-e-impactos-de-largo-plazo-de-la-obra-que-transportara-el-gas-de-vaca-muerta/",
-      "source": "Infobae",
-      "published": "20220421T194200",
-      "overall_sentiment_score": 0.225298,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.211657,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.559492
-    },
-    {
-      "title": "In wild west of sustainable investing, which funds are the most responsible?",
-      "summary": "The article discusses the growth and challenges of sustainable investing, noting that 2021 tested the optimism of the previous year. It highlights the increased scrutiny on ESG funds due to greenwashing concerns and the emerging standards for transparency and disclosure. Corporate Knights conducted research on over 1,000 ETFs and mutual funds to identify top performers in financial and sustainability metrics.",
-      "url": "https://www.corporateknights.com/rankings/eco-funds-rankings/2022-responsible-funds/sustainable-funds-go-under-the-microscope/",
-      "source": "Corporate Knights",
-      "published": "20220421T163146",
-      "overall_sentiment_score": 0.070991,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.141576,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.649313
+      "relevance_score": 0.854536
     },
     {
       "title": "Is Mexico’s resurgence losing steam?",
@@ -139,16 +55,100 @@
       "relevance_score": 0.709732
     },
     {
-      "title": "People on the Move: ExxonMobil, Global Partners, Parker's & NYACS",
-      "summary": "This article details recent executive changes and personnel moves across several companies in the convenience store industry, including ExxonMobil, Global Partners, Dawn Foods, GreenPrint, PIM Brands Inc., Talking Rain Beverage Co., and Turning Points Brands. It also highlights awards and new appointments within industry associations like NYACS, the National Confectioners Association, the National Confectionery Sales Association, and the Pennsylvania Food Merchants Association, along with new hires at Parker's and TruAge. The changes reflect strategic shifts in leadership, marketing, and operations within these organizations.",
-      "url": "https://csnews.com/people-move-exxonmobil-global-partners-parkers-nyacs",
-      "source": "Convenience Store News",
-      "published": "20220427T164707",
-      "overall_sentiment_score": 0.083498,
+      "title": "In wild west of sustainable investing, which funds are the most responsible?",
+      "summary": "The article discusses the growth and challenges of sustainable investing, noting that 2021 tested the optimism of the previous year. It highlights the increased scrutiny on ESG funds due to greenwashing concerns and the emerging standards for transparency and disclosure. Corporate Knights conducted research on over 1,000 ETFs and mutual funds to identify top performers in financial and sustainability metrics.",
+      "url": "https://www.corporateknights.com/rankings/eco-funds-rankings/2022-responsible-funds/sustainable-funds-go-under-the-microscope/",
+      "source": "Corporate Knights",
+      "published": "20220421T163146",
+      "overall_sentiment_score": 0.070991,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.129814,
+      "ticker_sentiment_score": 0.141576,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.854536
+      "relevance_score": 0.649313
+    },
+    {
+      "title": "BNY Mellon (BK) Infographic: Key financials and quarterly highlights",
+      "summary": "The Bank of New York Mellon Corporation (NYSE: BK) reported its first-quarter 2022 earnings results. Total revenue increased by 2% to $3.9 billion, while net income applicable to common shareholders fell 19% to $699 million, and EPS dropped 11% to $0.86. Assets under management increased 2% to $2.3 trillion.",
+      "url": "https://news.alphastreet.com/bny-mellon-bk-infographic-key-financials-and-quarterly-highlights/",
+      "source": "AlphaStreet",
+      "published": "20220418T161638",
+      "overall_sentiment_score": 0.11666,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.141899,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.638574
+    },
+    {
+      "title": "Global X launches Europe’s first uranium industry ETF",
+      "summary": "Global X has launched Europe's first ETF providing exposure to the uranium industry, the Global X Uranium UCITS ETF, listed on the London Stock Exchange and Deutsche Börse Xetra. This launch comes as uranium prices have surged due to global climate initiatives and the ongoing war in Ukraine, which has highlighted nuclear power's role as a bridging fuel and created potential supply chain strains. The ETF tracks the Solactive Global Uranium & Nuclear Components v2 Index, investing in companies involved in uranium mining, exploration, and related technologies, reflecting strong interest in the sector seen in Global X's US-listed uranium ETF.",
+      "url": "https://www.etfstrategy.com/global-x-rolls-out-uranium-etf-in-europe-10339/",
+      "source": "ETF Strategy",
+      "published": "20220425T174714",
+      "overall_sentiment_score": 0.149973,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.133721,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.638528
+    },
+    {
+      "title": "PEP Earnings: Key quarterly highlights from PepsiCo’s Q1 2022 financial results",
+      "summary": "PepsiCo (NASDAQ: PEP) reported strong first-quarter 2022 earnings, with net revenues growing 9.3% to $16.2 billion and organic revenue up 13.7%. Net income attributable to PepsiCo more than doubled to $4.2 billion, or $3.06 per share, compared to the prior-year period. The company exceeded both top and bottom-line estimates and provided an optimistic outlook for fiscal year 2022, projecting 8% organic revenue growth and a 6% increase in core EPS to $6.63.",
+      "url": "https://news.alphastreet.com/pep-earnings-key-quarterly-highlights-from-pepsicos-q1-2022-financial-results/",
+      "source": "AlphaStreet",
+      "published": "20220426T180641",
+      "overall_sentiment_score": 0.18244,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.147048,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.636057
+    },
+    {
+      "title": "Oklahoma Shale Driller Chaparral Rebrands as Canvas Energy",
+      "summary": "Chaparral Energy Inc. has rebranded as Canvas Energy Inc., completing a strategic transformation focused on ESG principles, efficient low-cost field operations, and sustainable free cash flow generation. The Oklahoma-based company, which emerged from Chapter 11 bankruptcy last October, aims to use its fresh assets and strong balance sheet to self-fund its new strategy. The rebranding includes a new name, logo, website, and updated corporate presentation.",
+      "url": "https://finance.yahoo.com/news/oklahoma-shale-driller-chaparral-rebrands-170500417.html",
+      "source": "Yahoo Finance",
+      "published": "20220420T210916",
+      "overall_sentiment_score": 0.33861,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.347368,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.63381
+    },
+    {
+      "title": "Documents show Spire scrambling for survival of St. Louis pipeline after court ruling",
+      "summary": "This article details how Spire Inc. engaged in assertive marketing and political lobbying to ensure the survival of its 65-mile STL Pipeline after a court ruling questioned its necessity. The company warned of heat outages for 400,000 customers, obtained a temporary operating permit, and simultaneously worked to undermine the transition to renewable energy. The article also highlights Spire's legal battles with property owners and its broader fight against electrification, which it sees as an \"existential threat\" to its profits from residential gas sales.",
+      "url": "https://missouriindependent.com/2022/04/27/documents-spire-st-louis-pipeline/",
+      "source": "Missouri Independent",
+      "published": "20220427T060500",
+      "overall_sentiment_score": -0.161277,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.123356,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.622051
+    },
+    {
+      "title": "Republic Services landfill near Pearland houses one of nation's largest renewable natural gas plants",
+      "summary": "Republic Services' Blue Ridge Landfill near Pearland is home to one of the nation's largest renewable natural gas (RNG) operations. This plant, developed with Morrow Energy, leverages landfill gas to produce renewable natural gas. The facility is a significant contributor to clean energy efforts, according to EPA data.",
+      "url": "https://www.bizjournals.com/houston/news/2022/04/25/republic-services-morrow-energy-renewable-gas.html",
+      "source": "The Business Journals",
+      "published": "20220425T182630",
+      "overall_sentiment_score": 0.328527,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.331342,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.604641
+    },
+    {
+      "title": "Gasoducto Néstor Kirchner: beneficios e impactos de largo plazo de la obra que transportará el gas de Vaca Muerta",
+      "summary": "The article details the benefits and long-term impacts of the Néstor Kirchner Gas Pipeline, a crucial project for Argentina's energy development. This pipeline will transport gas from Vaca Muerta, aiming to improve domestic supply, reduce reliance on imported fuels, and enable gas exports to neighboring countries. The project is divided into three stages, designed to progressively increase transport capacity to 39 million cubic meters per day.",
+      "url": "https://www.infobae.com/economia/2022/04/21/gasoducto-nestor-kirchner-beneficios-e-impactos-de-largo-plazo-de-la-obra-que-transportara-el-gas-de-vaca-muerta/",
+      "source": "Infobae",
+      "published": "20220421T194200",
+      "overall_sentiment_score": 0.225298,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.211657,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.559492
     }
   ]
 }

@@ -7,28 +7,16 @@
   "article_count": 11,
   "articles": [
     {
-      "title": "Oil Drops Below Key Support: Is $55 The Next Stop For West Texas Intermediate?",
-      "summary": "West Texas Intermediate (WTI) crude oil has fallen below key support levels, with experts attributing the decline to tariff-related demand concerns and an unexpected supply increase from OPEC+. LPL Financial's chief technical strategist, Adam Turnquist, identifies a \"bearish flag\" pattern and warns of a potential drop to $55-$56 if oil closes below $60. The United States Oil Fund LP (USO) ETF is mirroring this downturn, showing a grim outlook based on technical indicators.",
-      "url": "https://www.sahmcapital.com/news/content/oil-drops-below-key-support-is-55-the-next-stop-for-west-texas-intermediate-2025-04-25",
-      "source": "Sahm",
-      "published": "20250425T130846",
-      "overall_sentiment_score": -0.377348,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.304969,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.572281
-    },
-    {
-      "title": "Alphabet Earnings: Solid Results as AI Monetization Continues to Improve",
-      "summary": "Alphabet reported solid first-quarter 2025 results with 12% sales growth and 230 basis points operating margin improvement year-over-year, driven significantly by Google Cloud's 28% growth. The company demonstrates clear progress in AI monetization across various platforms, leading Morningstar to maintain its $237 fair value estimate and view the stock as materially undervalued. Despite antitrust concerns and a turbulent macro environment, Alphabet's continued execution and strategic AI investments are highlighted as key strengths.",
-      "url": "https://www.morningstar.com/stocks/alphabet-earnings-ai-monetization-continues-improve-ad-spending-remains-strong",
+      "title": "US Bancorp Earnings: Disciplined Expenses and Positive Operating Leverage",
+      "summary": "US Bancorp delivered strong first-quarter profitability with disciplined expense control and positive operating leverage, maintaining its 2025 guidance. Morningstar views USB shares as undervalued with a fair value estimate of $53, making it a preferred regional bank due to its diversified fee income and prudent underwriting. The positive performance comes despite earlier market caution regarding banking sector valuations and economic uncertainty.",
+      "url": "https://www.morningstar.com/stocks/us-bancorp-earnings-disciplined-expenses-positive-operating-leverage",
       "source": "Morningstar",
-      "published": "20250425T000000",
-      "overall_sentiment_score": 0.300402,
+      "published": "20250416T000000",
+      "overall_sentiment_score": 0.276597,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.111328,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.638636
+      "ticker_sentiment_score": 0.199331,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.732185
     },
     {
       "title": "New Direxion ETFs Target Daily Boeing & Exxon Mobil Performance",
@@ -55,30 +43,6 @@
       "relevance_score": 0.717936
     },
     {
-      "title": "Valero Benicia Refinery: Experts say possible closure could raise gas prices without state intervention",
-      "summary": "Valero Energy is considering closing its Benicia Refinery by April 2026, a move that could lead to significant job losses, economic impact on Benicia, and a dramatic increase in California gas prices. Experts Severin Borenstein and Denton Cinquegrana warn that with the refinery producing about 9% of California's gasoline, its closure necessitates careful state planning to import more gas and prevent price spikes. Valero cited high costs and strict environmental regulations as reasons for the potential shutdown.",
-      "url": "https://abc7news.com/post/valero-benicia-refinery-experts-say-possible-closure-could-raise-gas-prices-state-intervention/16189106/",
-      "source": "ABC7 San Francisco",
-      "published": "20250417T000000",
-      "overall_sentiment_score": -0.049243,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.070554,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.594205
-    },
-    {
-      "title": "US Bancorp Earnings: Disciplined Expenses and Positive Operating Leverage",
-      "summary": "US Bancorp delivered strong first-quarter profitability with disciplined expense control and positive operating leverage, maintaining its 2025 guidance. Morningstar views USB shares as undervalued with a fair value estimate of $53, making it a preferred regional bank due to its diversified fee income and prudent underwriting. The positive performance comes despite earlier market caution regarding banking sector valuations and economic uncertainty.",
-      "url": "https://www.morningstar.com/stocks/us-bancorp-earnings-disciplined-expenses-positive-operating-leverage",
-      "source": "Morningstar",
-      "published": "20250416T000000",
-      "overall_sentiment_score": 0.276597,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.199331,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.732185
-    },
-    {
       "title": "Johnson & Johnson Earnings: Solid Innovation and Manageable Tariff Headwind",
       "summary": "Johnson & Johnson reported solid first-quarter sales and EPS growth, with management raising sales guidance for 2025 despite concerns about biosimilars and tariffs. The company's fair value estimate remains at $164 per share, supported by strong performance in key products like Carvykti and icotrokinra, which are expected to drive mid-single-digit top-line growth. Although J&J faces a $400 million tariff impact, particularly in its medtech business, strategic product performance and potential tax policy changes are factored into the outlook.",
       "url": "https://www.morningstar.com/stocks/johnson-johnson-earnings-solid-innovation-manageable-tariff-headwind",
@@ -91,28 +55,16 @@
       "relevance_score": 0.648371
     },
     {
-      "title": "Goldman Sachs Earnings: Strong Start to 2025 as Uncertainty Breeds Heightened Trading Activity",
-      "summary": "Goldman Sachs Group reported a strong start to the year, driven by exceptional trading revenue due to market volatility, which offset a tepid dealmaking environment. Despite strong quarterly results, shares remain modestly overvalued, and Morningstar maintains a fair value estimate of $490 per share. The global banking and markets segment saw significant net revenue gains, while the asset and wealth management segment experienced mixed results but continued positive net inflows.",
-      "url": "https://www.morningstar.com/stocks/goldman-sachs-earnings-strong-start-2025-uncertainty-breeds-heightened-trading-activity",
+      "title": "Alphabet Earnings: Solid Results as AI Monetization Continues to Improve",
+      "summary": "Alphabet reported solid first-quarter 2025 results with 12% sales growth and 230 basis points operating margin improvement year-over-year, driven significantly by Google Cloud's 28% growth. The company demonstrates clear progress in AI monetization across various platforms, leading Morningstar to maintain its $237 fair value estimate and view the stock as materially undervalued. Despite antitrust concerns and a turbulent macro environment, Alphabet's continued execution and strategic AI investments are highlighted as key strengths.",
+      "url": "https://www.morningstar.com/stocks/alphabet-earnings-ai-monetization-continues-improve-ad-spending-remains-strong",
       "source": "Morningstar",
-      "published": "20250414T000000",
-      "overall_sentiment_score": 0.123063,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.077208,
+      "published": "20250425T000000",
+      "overall_sentiment_score": 0.300402,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.111328,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.594785
-    },
-    {
-      "title": "US Natural Gas Prices Drop As Consumption Slides",
-      "summary": "US natural gas prices dropped last week due to warmer weather decreasing demand. While US consumption and supply decreased, European natural gas prices rose, highlighting regional disparities in global energy markets. Tighter storage levels in the US also indicate potential challenges as warmer months approach.",
-      "url": "https://finimize.com/content/us-natural-gas-prices-drop-as-consumption-slides",
-      "source": "Finimize",
-      "published": "20250428T170944",
-      "overall_sentiment_score": -0.32165,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.342211,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.606872
+      "relevance_score": 0.638636
     },
     {
       "title": "Valero to shut Benicia refinery due to tough regulatory environment, high costs",
@@ -127,6 +79,42 @@
       "relevance_score": 0.628522
     },
     {
+      "title": "US Natural Gas Prices Drop As Consumption Slides",
+      "summary": "US natural gas prices dropped last week due to warmer weather decreasing demand. While US consumption and supply decreased, European natural gas prices rose, highlighting regional disparities in global energy markets. Tighter storage levels in the US also indicate potential challenges as warmer months approach.",
+      "url": "https://finimize.com/content/us-natural-gas-prices-drop-as-consumption-slides",
+      "source": "Finimize",
+      "published": "20250428T170944",
+      "overall_sentiment_score": -0.32165,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.342211,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.606872
+    },
+    {
+      "title": "Goldman Sachs Earnings: Strong Start to 2025 as Uncertainty Breeds Heightened Trading Activity",
+      "summary": "Goldman Sachs Group reported a strong start to the year, driven by exceptional trading revenue due to market volatility, which offset a tepid dealmaking environment. Despite strong quarterly results, shares remain modestly overvalued, and Morningstar maintains a fair value estimate of $490 per share. The global banking and markets segment saw significant net revenue gains, while the asset and wealth management segment experienced mixed results but continued positive net inflows.",
+      "url": "https://www.morningstar.com/stocks/goldman-sachs-earnings-strong-start-2025-uncertainty-breeds-heightened-trading-activity",
+      "source": "Morningstar",
+      "published": "20250414T000000",
+      "overall_sentiment_score": 0.123063,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.077208,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.594785
+    },
+    {
+      "title": "Valero Benicia Refinery: Experts say possible closure could raise gas prices without state intervention",
+      "summary": "Valero Energy is considering closing its Benicia Refinery by April 2026, a move that could lead to significant job losses, economic impact on Benicia, and a dramatic increase in California gas prices. Experts Severin Borenstein and Denton Cinquegrana warn that with the refinery producing about 9% of California's gasoline, its closure necessitates careful state planning to import more gas and prevent price spikes. Valero cited high costs and strict environmental regulations as reasons for the potential shutdown.",
+      "url": "https://abc7news.com/post/valero-benicia-refinery-experts-say-possible-closure-could-raise-gas-prices-state-intervention/16189106/",
+      "source": "ABC7 San Francisco",
+      "published": "20250417T000000",
+      "overall_sentiment_score": -0.049243,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.070554,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.594205
+    },
+    {
       "title": "Shell plc (SHEL): One of the Best Oil Stocks to Invest in According to Billionaires",
       "summary": "Shell plc (NYSE:SHEL) is highlighted as one of the best oil stocks for investment according to billionaires, ranking 3rd on a list compiled using Insider Monkey's database. Despite a challenging Q4 2024 with lower-than-expected earnings and revenue, the company demonstrated solid cash delivery and shareholder distributions, including dividend increases and a significant buyback program. The article also discusses broader market trends affecting the oil and gas sector, such as decreasing oil prices, increasing natural gas demand, and evolving trade policies.",
       "url": "https://finviz.com/news/24398/shell-plc-shel-one-of-the-best-oil-stocks-to-invest-in-according-to-billionaires",
@@ -137,6 +125,18 @@
       "ticker_sentiment_score": 0.28838,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.584833
+    },
+    {
+      "title": "Oil Drops Below Key Support: Is $55 The Next Stop For West Texas Intermediate?",
+      "summary": "West Texas Intermediate (WTI) crude oil has fallen below key support levels, with experts attributing the decline to tariff-related demand concerns and an unexpected supply increase from OPEC+. LPL Financial's chief technical strategist, Adam Turnquist, identifies a \"bearish flag\" pattern and warns of a potential drop to $55-$56 if oil closes below $60. The United States Oil Fund LP (USO) ETF is mirroring this downturn, showing a grim outlook based on technical indicators.",
+      "url": "https://www.sahmcapital.com/news/content/oil-drops-below-key-support-is-55-the-next-stop-for-west-texas-intermediate-2025-04-25",
+      "source": "Sahm",
+      "published": "20250425T130846",
+      "overall_sentiment_score": -0.377348,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.304969,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.572281
     }
   ]
 }

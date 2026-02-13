@@ -7,16 +7,16 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "Institutional investors in Ameriprise Financial, Inc. (NYSE:AMP) lost 3.8% last week but have reaped the benefits of longer-term growth",
-      "summary": "Institutional investors holding Ameriprise Financial, Inc. (NYSE:AMP) experienced a 3.8% loss last week, despite having benefited from longer-term growth. Institutions collectively own 86% of the company, indicating significant influence over its share price. The Vanguard Group, Inc., BlackRock, Inc., and State Street Global Advisors, Inc. are the largest shareholders, with the top 15 shareholders owning 50% of the company.",
-      "url": "https://finance.yahoo.com/news/institutional-investors-ameriprise-financial-inc-120023347.html",
+      "title": "U.S. banking system ‘is the envy of the world,’ Apollo Global Management CEO says",
+      "summary": "Apollo Global Management CEO Marc Rowan discusses the state of the U.S. banking system, the acquisition of First Republic Bank by JPMorgan, and the future of regional banking. He highlights the strength of the U.S. capital system and the opportunities for alternative investments like private credit in the current economic environment. Rowan suggests that while the asset world might feel a recession, the wider economy shows strong employment and wage gains.",
+      "url": "https://finance.yahoo.com/video/u-banking-system-envy-world-153128876.html",
       "source": "Yahoo Finance",
-      "published": "20230508T120023",
-      "overall_sentiment_score": 0.11424,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.124938,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.60654
+      "published": "20230501T153128",
+      "overall_sentiment_score": 0.338139,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.304447,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.830422
     },
     {
       "title": "BankUnited seizes recruiting opportunity in wake of failure",
@@ -29,18 +29,6 @@
       "ticker_sentiment_score": -0.14261,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.724809
-    },
-    {
-      "title": "U.S. banking system ‘is the envy of the world,’ Apollo Global Management CEO says",
-      "summary": "Apollo Global Management CEO Marc Rowan discusses the state of the U.S. banking system, the acquisition of First Republic Bank by JPMorgan, and the future of regional banking. He highlights the strength of the U.S. capital system and the opportunities for alternative investments like private credit in the current economic environment. Rowan suggests that while the asset world might feel a recession, the wider economy shows strong employment and wage gains.",
-      "url": "https://finance.yahoo.com/video/u-banking-system-envy-world-153128876.html",
-      "source": "Yahoo Finance",
-      "published": "20230501T153128",
-      "overall_sentiment_score": 0.338139,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.304447,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.830422
     },
     {
       "title": "President holds meeting with world's largest investment company on creation of fund for rebuilding Ukraine",
@@ -65,6 +53,18 @@
       "ticker_sentiment_score": 0.114417,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.607309
+    },
+    {
+      "title": "Institutional investors in Ameriprise Financial, Inc. (NYSE:AMP) lost 3.8% last week but have reaped the benefits of longer-term growth",
+      "summary": "Institutional investors holding Ameriprise Financial, Inc. (NYSE:AMP) experienced a 3.8% loss last week, despite having benefited from longer-term growth. Institutions collectively own 86% of the company, indicating significant influence over its share price. The Vanguard Group, Inc., BlackRock, Inc., and State Street Global Advisors, Inc. are the largest shareholders, with the top 15 shareholders owning 50% of the company.",
+      "url": "https://finance.yahoo.com/news/institutional-investors-ameriprise-financial-inc-120023347.html",
+      "source": "Yahoo Finance",
+      "published": "20230508T120023",
+      "overall_sentiment_score": 0.11424,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.124938,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.60654
     }
   ]
 }

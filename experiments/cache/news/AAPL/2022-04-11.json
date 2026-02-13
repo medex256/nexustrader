@@ -7,66 +7,6 @@
   "article_count": 7,
   "articles": [
     {
-      "title": "Snapchat Lawsuit Claims Executives Kept Investors In Dark About New Apple Privacy Restrictions",
-      "summary": "A derivative lawsuit alleges that Snapchat executives, including CEO Evan Spiegel and CFO Derek Andersen, concealed from investors the negative impact Apple's new privacy features would have on Snap's advertising revenue. The lawsuit claims executives downplayed the effects, leading to a 26% drop in Snap's shares after a weaker-than-expected October 2021 earnings report. Plaintiff Vonmarie Thomas is seeking declaratory relief and restitution to Snap Inc. for alleged insider trading, unjust enrichment, and breach of fiduciary duties.",
-      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/snapchat-lawsuit-claims-executives-kept-investors-in-dark-about-new-apple-privacy-restrictions/",
-      "source": "Class Action Lawsuits",
-      "published": "20220411T183656",
-      "overall_sentiment_score": -0.233942,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.233042,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.733592
-    },
-    {
-      "title": "LIVEONE RECOGNIZED AS ONE OF 'THE BEST ANDROID MUSIC APPS FOR 2022' BY PC MAG",
-      "summary": "LiveOne (Nasdaq: LVO) has been recognized by PC Mag as one of \"The Best Android Music Apps for 2022,\" placing it alongside major streaming services like Amazon Music and Spotify. This marks a continued validation for LiveOne, which PC Mag previously called one of the \"most complete streaming music services\" and awarded its Editors' Choice. The recognition highlights LiveOne's curated channels, smart DJ hosts, and overall slick design as key factors in its appeal.",
-      "url": "https://www.prnewswire.com/news-releases/liveone-recognized-as-one-of-the-best-android-music-apps-for-2022-by-pc-mag-301522501.html",
-      "source": "PR Newswire",
-      "published": "20220411T070000",
-      "overall_sentiment_score": 0.392549,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.165201,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.61377
-    },
-    {
-      "title": "Warren Buffett's Berkshire Hathaway reveals major stake in HP, tech stock soars",
-      "summary": "Warren Buffett's Berkshire Hathaway has acquired a significant stake in HP Inc., becoming the largest shareholder in the PC and printer manufacturer. This investment, valued at approximately $4.2 billion, caused HP's stock to surge by 14.7%. The move signals a renewed period of activity for Berkshire Hathaway and adds HP to Buffett's select portfolio of tech holdings.",
-      "url": "https://www.cnbc.com/2022/04/07/warren-buffett-berkshire-hathaway-reveals-stake-in-hp-inc-tech-stock.html",
-      "source": "CNBC",
-      "published": "20220407T064400",
-      "overall_sentiment_score": 0.346601,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.323149,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.615106
-    },
-    {
-      "title": "The Biggest Reveals from Bitcoin 2022",
-      "summary": "The Bitcoin 2022 conference in Miami highlighted the early stage of Bitcoin adoption, with comparisons drawn to the internet in 1995. Key announcements included Robinhood rolling out crypto wallets and Lightning Network integration, new jurisdictions like Prospera (Honduras) and Madeira adopting Bitcoin as legal tender, and Strike partnering with major point-of-sale systems like Shopify and McDonald's to facilitate Bitcoin payments. The article emphasizes Bitcoin's potential for mass adoption and its disruptive impact on payment processing.",
-      "url": "https://www.usfunds.com/resource/the-biggest-reveals-from-bitcoin-2022/",
-      "source": "U.S. Global Investors",
-      "published": "20220411T165603",
-      "overall_sentiment_score": 0.214933,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.243255,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.613216
-    },
-    {
-      "title": "DeFiChain Adds New dTokens Corresponding to Disney, Intel, MicroStrategy, and iShares MSCI China ETF",
-      "summary": "DeFiChain has announced the addition of four new decentralized tokens, or dTokens, following a community vote. These new dTokens correspond to Walt Disney Co ($dDIS), iShares MSCI China ETF ($dMCHI), MicroStrategy Incorporated ($dMSTR), and Intel Corporation ($dINTC), allowing users to gain price exposure to these traditional assets without ownership. DeFiChain, a blockchain built on the Bitcoin network, aims to provide decentralized financial applications and services, expanding its dToken universe to offer an alternative to traditional financial brokers.",
-      "url": "https://www.newsfilecorp.com/release/119665/DeFiChain-Adds-New-dTokens-Corresponding-to-Disney-Intel-MicroStrategy-and-iShares-MSCI-China-ETF",
-      "source": "TMX Newsfile",
-      "published": "20220409T235700",
-      "overall_sentiment_score": 0.309028,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.349996,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.630097
-    },
-    {
       "title": "Warren Buffett made about $650 million on HP after stake was revealed",
       "summary": "Warren Buffett's Berkshire Hathaway saw its stake in HP increase by about $650 million to $4.85 billion after the company revealed its ownership of 121 million shares. HP's stock surged 15% following the disclosure, marking its best day in over two years. This swift market reaction highlights the continued influence of Buffett's investment decisions on investor behavior.",
       "url": "https://www.cnbc.com/2022/04/07/warren-buffett-made-about-650-million-on-hp-after-stake-was-revealed.html",
@@ -89,6 +29,66 @@
       "ticker_sentiment_score": 0.407703,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.737636
+    },
+    {
+      "title": "Snapchat Lawsuit Claims Executives Kept Investors In Dark About New Apple Privacy Restrictions",
+      "summary": "A derivative lawsuit alleges that Snapchat executives, including CEO Evan Spiegel and CFO Derek Andersen, concealed from investors the negative impact Apple's new privacy features would have on Snap's advertising revenue. The lawsuit claims executives downplayed the effects, leading to a 26% drop in Snap's shares after a weaker-than-expected October 2021 earnings report. Plaintiff Vonmarie Thomas is seeking declaratory relief and restitution to Snap Inc. for alleged insider trading, unjust enrichment, and breach of fiduciary duties.",
+      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/snapchat-lawsuit-claims-executives-kept-investors-in-dark-about-new-apple-privacy-restrictions/",
+      "source": "Class Action Lawsuits",
+      "published": "20220411T183656",
+      "overall_sentiment_score": -0.233942,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.233042,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.733592
+    },
+    {
+      "title": "DeFiChain Adds New dTokens Corresponding to Disney, Intel, MicroStrategy, and iShares MSCI China ETF",
+      "summary": "DeFiChain has announced the addition of four new decentralized tokens, or dTokens, following a community vote. These new dTokens correspond to Walt Disney Co ($dDIS), iShares MSCI China ETF ($dMCHI), MicroStrategy Incorporated ($dMSTR), and Intel Corporation ($dINTC), allowing users to gain price exposure to these traditional assets without ownership. DeFiChain, a blockchain built on the Bitcoin network, aims to provide decentralized financial applications and services, expanding its dToken universe to offer an alternative to traditional financial brokers.",
+      "url": "https://www.newsfilecorp.com/release/119665/DeFiChain-Adds-New-dTokens-Corresponding-to-Disney-Intel-MicroStrategy-and-iShares-MSCI-China-ETF",
+      "source": "TMX Newsfile",
+      "published": "20220409T235700",
+      "overall_sentiment_score": 0.309028,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.349996,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630097
+    },
+    {
+      "title": "Warren Buffett's Berkshire Hathaway reveals major stake in HP, tech stock soars",
+      "summary": "Warren Buffett's Berkshire Hathaway has acquired a significant stake in HP Inc., becoming the largest shareholder in the PC and printer manufacturer. This investment, valued at approximately $4.2 billion, caused HP's stock to surge by 14.7%. The move signals a renewed period of activity for Berkshire Hathaway and adds HP to Buffett's select portfolio of tech holdings.",
+      "url": "https://www.cnbc.com/2022/04/07/warren-buffett-berkshire-hathaway-reveals-stake-in-hp-inc-tech-stock.html",
+      "source": "CNBC",
+      "published": "20220407T064400",
+      "overall_sentiment_score": 0.346601,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.323149,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.615106
+    },
+    {
+      "title": "LIVEONE RECOGNIZED AS ONE OF 'THE BEST ANDROID MUSIC APPS FOR 2022' BY PC MAG",
+      "summary": "LiveOne (Nasdaq: LVO) has been recognized by PC Mag as one of \"The Best Android Music Apps for 2022,\" placing it alongside major streaming services like Amazon Music and Spotify. This marks a continued validation for LiveOne, which PC Mag previously called one of the \"most complete streaming music services\" and awarded its Editors' Choice. The recognition highlights LiveOne's curated channels, smart DJ hosts, and overall slick design as key factors in its appeal.",
+      "url": "https://www.prnewswire.com/news-releases/liveone-recognized-as-one-of-the-best-android-music-apps-for-2022-by-pc-mag-301522501.html",
+      "source": "PR Newswire",
+      "published": "20220411T070000",
+      "overall_sentiment_score": 0.392549,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.165201,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.61377
+    },
+    {
+      "title": "The Biggest Reveals from Bitcoin 2022",
+      "summary": "The Bitcoin 2022 conference in Miami highlighted the early stage of Bitcoin adoption, with comparisons drawn to the internet in 1995. Key announcements included Robinhood rolling out crypto wallets and Lightning Network integration, new jurisdictions like Prospera (Honduras) and Madeira adopting Bitcoin as legal tender, and Strike partnering with major point-of-sale systems like Shopify and McDonald's to facilitate Bitcoin payments. The article emphasizes Bitcoin's potential for mass adoption and its disruptive impact on payment processing.",
+      "url": "https://www.usfunds.com/resource/the-biggest-reveals-from-bitcoin-2022/",
+      "source": "U.S. Global Investors",
+      "published": "20220411T165603",
+      "overall_sentiment_score": 0.214933,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.243255,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.613216
     }
   ]
 }

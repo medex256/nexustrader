@@ -19,18 +19,6 @@
       "relevance_score": 0.891246
     },
     {
-      "title": "TechnipFMC Announces Agreement to Sell Measurement Solutions Business",
-      "summary": "TechnipFMC has agreed to sell its Measurement Solutions business to One Equity Partners for $205 million in cash. This divestiture is part of TechnipFMC's strategy to focus on core products, market-leading technologies, and integrated solutions. The transaction is expected to close in the first half of 2024, subject to customary closing conditions.",
-      "url": "https://www.businesswire.com/news/home/20231120221203/en/TechnipFMC-Announces-Agreement-to-Sell-Measurement-Solutions-Business",
-      "source": "Business Wire",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.239142,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.12132,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.607046
-    },
-    {
       "title": "Flame Acquisition Corp. (FLME) Expands Sable Offshore PIPE to $180M",
       "summary": "Flame Acquisition Corp. (FLME) has increased the PIPE for its merger with Sable Offshore to $180.4 million, making it the largest for the year. New investments by Metamorphic Pecan match existing PIPE commitments, and Flame aims to further expand the PIPE to $525 million. This deal highlights a trend of large PIPEs in the oil & gas and biotech sectors within the SPAC market.",
       "url": "https://www.spacinsider.com/news/deal-announcements-amendments/flame-flme-expands-sable-offshore-pipe-to-180m",
@@ -41,42 +29,6 @@
       "ticker_sentiment_score": 0.238831,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.743376
-    },
-    {
-      "title": "Commodities ETF",
-      "summary": "This article from VanEck discusses the benefits of investing in Commodities ETFs, emphasizing their role in the energy transition and as a hedge against inflation. It highlights various VanEck Commodities ETFs, including those for mining, gold miners, rare earth, oil, and nuclear, and explains advantages like diversification, potential dividends, and leveraged exposure compared to direct commodity investments. The text also details why commodities can offer historical inflation protection and are crucial for future trends like energy transition, infrastructure, digitalization, and energy security, while also outlining associated risk factors.",
-      "url": "https://www.vaneck.com/ch/en/commodities-etf/",
-      "source": "VanEck",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.412134,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.535681,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.645937
-    },
-    {
-      "title": "Canada Net-Zero Hydrogen Energy Complex",
-      "summary": "Air Products is constructing a new net-zero hydrogen energy complex in Edmonton, Alberta, aiming to establish the region as a hub for western Canada's hydrogen economy and significantly reduce greenhouse gas emissions. The facility will utilize advanced Auto-Thermal Reforming (ATR) technology to capture over 90% of carbon emissions, and integrate with Imperial Oil Limited's renewable diesel facility, using biogenic renewable off-gas as a feedstock to achieve net-zero emissions. This project is expected to create 2,500 construction and engineering jobs and position Alberta as a leading supplier of liquid hydrogen.",
-      "url": "https://www.airproducts.com/energy-transition/canada-net-zero-hydrogen-energy-complex",
-      "source": "Air Products",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.253275,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.141518,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.631596
-    },
-    {
-      "title": "Commodities ETF | Benefit from the surging demand",
-      "summary": "This article from VanEck highlights the benefits of investing in Commodities ETFs, emphasizing their role in hedging against inflation and capitalizing on demand driven by the energy transition. It details various VanEck Commodities ETFs, including those for Mining, Gold Miners, Rare Earth, Oil, and Nuclear sectors, and explains why these ETFs offer advantages like dividends, diversification, simplicity, and leveraged exposure compared to direct commodity investments. The text also discusses the relevance of commodities in large-scale trends such as energy transition, infrastructure, digitalization, AI, and energy security.",
-      "url": "https://www.vaneck.com/lu/en/commodities-etf/",
-      "source": "VanEck",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.371289,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.336211,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.607427
     },
     {
       "title": "Top ConocoPhillips Competitors & Similar Companies",
@@ -103,6 +55,18 @@
       "relevance_score": 0.712279
     },
     {
+      "title": "Commodities ETF",
+      "summary": "This article from VanEck discusses the benefits of investing in Commodities ETFs, emphasizing their role in the energy transition and as a hedge against inflation. It highlights various VanEck Commodities ETFs, including those for mining, gold miners, rare earth, oil, and nuclear, and explains advantages like diversification, potential dividends, and leveraged exposure compared to direct commodity investments. The text also details why commodities can offer historical inflation protection and are crucial for future trends like energy transition, infrastructure, digitalization, and energy security, while also outlining associated risk factors.",
+      "url": "https://www.vaneck.com/ch/en/commodities-etf/",
+      "source": "VanEck",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.412134,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.535681,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.645937
+    },
+    {
       "title": "Falling Gas Prices Could Provide Upside for This Inverse ETF",
       "summary": "Falling gas prices are creating opportunities for traders to place bearish bets on oil prices, particularly through the Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X Shares (DRIP) inverse ETF. This trend is driven by a global oversupply of oil and suppressed demand from economies like China, despite potential production cuts from OPEC. The article highlights that oil prices naturally tend to decline towards the end of the year due to seasonality and a shift from undersupply to slight oversupply in the crude oil market.",
       "url": "https://www.etftrends.com/leveraged-inverse-content-hub/falling-gas-prices-could-provide-upside-inverse-etf/",
@@ -115,16 +79,40 @@
       "relevance_score": 0.638063
     },
     {
-      "title": "Inspiring the Next Generation of Women Scientists in the U.K.",
-      "summary": "APA Corporation hosted an event at its Aberdeen offices in celebration of International Women in Science Day, bringing together approximately 130 school children, mostly girls, to engage with STEM professionals and activities. The event, in partnership with TechFest, aimed to inspire young women to pursue careers in STEM fields, particularly those relevant to the energy industry. Keynote speakers included Alison McLure and Sinead Farrington, highlighting the importance of diverse talent in addressing future energy challenges.",
-      "url": "https://apacorp.com/inspiring-the-next-generation-of-women-scientists-in-the-u-k/",
-      "source": "APA Corporation",
+      "title": "Canada Net-Zero Hydrogen Energy Complex",
+      "summary": "Air Products is constructing a new net-zero hydrogen energy complex in Edmonton, Alberta, aiming to establish the region as a hub for western Canada's hydrogen economy and significantly reduce greenhouse gas emissions. The facility will utilize advanced Auto-Thermal Reforming (ATR) technology to capture over 90% of carbon emissions, and integrate with Imperial Oil Limited's renewable diesel facility, using biogenic renewable off-gas as a feedstock to achieve net-zero emissions. This project is expected to create 2,500 construction and engineering jobs and position Alberta as a leading supplier of liquid hydrogen.",
+      "url": "https://www.airproducts.com/energy-transition/canada-net-zero-hydrogen-energy-complex",
+      "source": "Air Products",
       "published": "20231231T235959",
-      "overall_sentiment_score": 0.210222,
+      "overall_sentiment_score": 0.253275,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.105802,
+      "ticker_sentiment_score": 0.141518,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.553998
+      "relevance_score": 0.631596
+    },
+    {
+      "title": "Commodities ETF | Benefit from the surging demand",
+      "summary": "This article from VanEck highlights the benefits of investing in Commodities ETFs, emphasizing their role in hedging against inflation and capitalizing on demand driven by the energy transition. It details various VanEck Commodities ETFs, including those for Mining, Gold Miners, Rare Earth, Oil, and Nuclear sectors, and explains why these ETFs offer advantages like dividends, diversification, simplicity, and leveraged exposure compared to direct commodity investments. The text also discusses the relevance of commodities in large-scale trends such as energy transition, infrastructure, digitalization, AI, and energy security.",
+      "url": "https://www.vaneck.com/lu/en/commodities-etf/",
+      "source": "VanEck",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.371289,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.336211,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.607427
+    },
+    {
+      "title": "TechnipFMC Announces Agreement to Sell Measurement Solutions Business",
+      "summary": "TechnipFMC has agreed to sell its Measurement Solutions business to One Equity Partners for $205 million in cash. This divestiture is part of TechnipFMC's strategy to focus on core products, market-leading technologies, and integrated solutions. The transaction is expected to close in the first half of 2024, subject to customary closing conditions.",
+      "url": "https://www.businesswire.com/news/home/20231120221203/en/TechnipFMC-Announces-Agreement-to-Sell-Measurement-Solutions-Business",
+      "source": "Business Wire",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.239142,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.12132,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.607046
     },
     {
       "title": "Powering a Brighter Future in Suriname",
@@ -137,6 +125,18 @@
       "ticker_sentiment_score": 0.330664,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.606
+    },
+    {
+      "title": "Inspiring the Next Generation of Women Scientists in the U.K.",
+      "summary": "APA Corporation hosted an event at its Aberdeen offices in celebration of International Women in Science Day, bringing together approximately 130 school children, mostly girls, to engage with STEM professionals and activities. The event, in partnership with TechFest, aimed to inspire young women to pursue careers in STEM fields, particularly those relevant to the energy industry. Keynote speakers included Alison McLure and Sinead Farrington, highlighting the importance of diverse talent in addressing future energy challenges.",
+      "url": "https://apacorp.com/inspiring-the-next-generation-of-women-scientists-in-the-u-k/",
+      "source": "APA Corporation",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.210222,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.105802,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.553998
     }
   ]
 }

@@ -7,42 +7,6 @@
   "article_count": 14,
   "articles": [
     {
-      "title": "Apple Pay",
-      "summary": "This article from Barclays Private Bank details how to use Apple Pay with Barclays debit cards. It covers the benefits of Apple Pay such as fast, secure, and contactless payments for any amount, and provides instructions for adding cards, setting up, paying in-store, online, and in-app, as well as managing transactions and cards. Eligibility requirements for using Apple Pay with Barclays are also outlined.",
-      "url": "https://privatebank.barclays.com/what-we-offer/apple-pay/",
-      "source": "Barclays",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.412947,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.446511,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.740236
-    },
-    {
-      "title": "The Cheap Trick Alphabet Is Using To Boost Its Share Price",
-      "summary": "Alphabet's 20-for-1 stock split, following similar moves by Apple and Tesla, is unlikely to fundamentally change the company's valuation but aims to make shares more accessible to smaller investors and potentially gain entry into the Dow Jones Industrial Average. While some tech giants saw significant share price boosts post-split, Alphabet's future success might be tempered by changing market conditions. The article suggests Amazon could be the next tech giant to undertake a similar split to boost its stock.",
-      "url": "https://finimize.com/content/cheap-trick-alphabet-using-boost-its-share-price",
-      "source": "Finimize",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.240546,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.339307,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.721022
-    },
-    {
-      "title": "How Much Longer Can US Stocks Keep Beating The World?",
-      "summary": "US stocks have outperformed global markets for nearly 14 years, a period attributed to tech giants and resulting in higher valuations compared to other developed economies. The article questions the sustainability of this dominance and suggests ETFs for investors who anticipate a shift, allowing exposure to non-US developed markets.",
-      "url": "https://finimize.com/content/how-much-longer-can-us-stocks-keep-beating-world",
-      "source": "Finimize",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.289159,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.305778,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.704905
-    },
-    {
       "title": "The Financial Success of Apple Inc.",
       "summary": "This article examines the financial success of Apple Inc., focusing on key financial indicators such as net income, operating cash flow, free cash flow, and capital structure. It highlights Apple's consistent growth in profitability and operational efficiency, demonstrating how the company manages investments and financing to maintain sustainable growth. The article concludes that Apple's strong financial position, driven by innovative products and effective financial management, solidifies its leadership in the competitive technology industry.",
       "url": "https://vocal.media/journal/the-financial-success-of-apple-inc",
@@ -55,18 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF ETF Price, Holdings, & News (NASDAQ:ZZZ)",
-      "summary": "The Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF (ZZZ) is an exchange-traded fund launched on December 28, 2023, by Onefund, which invests in a 75/25 blend of US large-cap stocks and front-month CME Bitcoin futures. It does not directly invest in Bitcoin's spot price. The ETF has an aggregate rating of \"Moderate Buy,\" assets under management of $6.02 million, and a net expense ratio of 1.01%.",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/ZZZ/",
-      "source": "MarketBeat",
-      "published": "20231230T201003",
-      "overall_sentiment_score": 0.251008,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.317182,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.610123
-    },
-    {
       "title": "Apple's stock underperformed top tech peers in 2023 due to longest revenue slide in 22 years",
       "summary": "Apple's stock underperformed its mega-cap tech peers in 2023, experiencing its longest revenue slide in 22 years with four consecutive quarters of declining sales. This decline was attributed to a combination of a weak economic environment for smartphones and PCs, and company-specific issues such as the lack of new iPad models and an Apple Watch sales ban. Despite a 49% stock rally for the year, Apple lagged behind competitors like Nvidia, Meta, Tesla, Amazon, Alphabet, and Microsoft.",
       "url": "https://www.cnbc.com/2023/12/29/apple-underperformed-mega-cap-peers-in-2023-due-to-revenue-slide.html",
@@ -77,54 +29,6 @@
       "ticker_sentiment_score": -0.226038,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Qorvo to sell Chinese assembly, test factories to Luxshare ...",
-      "summary": "Qorvo Inc. has agreed to sell its assembly and test facilities in Beijing and Dezhou, China, to Luxshare Precision Industry Co. Ltd. The deal includes Luxshare acquiring the facilities' assets, operations, and workforce, while Qorvo will continue to be supplied through a long-term agreement. This move allows Qorvo to streamline its manufacturing network while Luxshare expands its role in the electronics manufacturing services sector, particularly within the Apple supply chain.",
-      "url": "https://www.eenewseurope.com/en/qorvo-to-sell-chinese-assembly-test-factories-to-luxshare/",
-      "source": "eeNews Europe",
-      "published": "20231219T153015",
-      "overall_sentiment_score": 0.25237,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.342069,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.713482
-    },
-    {
-      "title": "Qualcomm, Iridium Take Aim at Satellite-to-Mobile Phone Market",
-      "summary": "Qualcomm and Iridium Communications are collaborating to introduce technology enabling satellite messaging for smartphone users in areas without cellular service. This partnership will initially offer a satellite-based emergency service for Android devices equipped with Qualcomm's premium chips. The move aims to bring satellite connectivity to a broader market, similar to the feature available on newer iPhones.",
-      "url": "https://www.wsj.com/articles/qualcomm-iridium-take-aim-at-satellite-to-mobile-phone-market-11672949841?gaa_at=eafs&gaa_n=AWEtsqcNNayMEflR_zCXxa4iMUQFdtaxXaYB4nmgwJkpgbCiuXs0CaSwLMiy&gaa_ts=69077407&gaa_sig=ZGxpxHaNiESB6w7Dl__kiFZTEwdCwiKiBK53R7lYdq8_Zh2gLVaFmanx6J1cvDZwuqjiO-ALUU6NZfjZVOQ5gg%3D%3D",
-      "source": "The Wall Street Journal",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.302324,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.146784,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.602716
-    },
-    {
-      "title": "IYW: Bill Gates Bought This Tech ETF. Should You?",
-      "summary": "This article examines Bill Gates' recent acquisition of the iShares U.S. Technology ETF (IYW) in the third quarter, as revealed by 13F filings. It highlights IYW's strong long-term performance, comprehensive portfolio of top U.S. tech companies, and analyst ratings, while also noting its expense ratio compared to peers. The piece suggests that Gates' investment indicates continued opportunity in the tech sector.",
-      "url": "https://www.tipranks.com/news/article/iyw-bill-gates-bought-this-tech-etf-should-you",
-      "source": "TipRanks",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.368564,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.334985,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.634786
-    },
-    {
-      "title": "Taiwan Semiconductor Manufacturing to delay chip production in Phoenix for a year. Here's why",
-      "summary": "Taiwan Semiconductor Manufacturing (TSMC) announced a one-year delay in the start of chip production at its Phoenix facility, pushing the timeline to 2025 due to a lack of skilled employees for specialized equipment installation. The company also anticipates higher production costs in Phoenix compared to Taiwan and is sending more specialized workers to address the issues. This delay comes as TSMC reported its first quarterly profit decline in nearly four years amid lower demand for consumer electronics.",
-      "url": "https://www.azcentral.com/story/money/business/tech/2023/07/20/taiwan-semiconductor-manufacturing-to-delay-chip-production-in-phoenix/70440555007/",
-      "source": "azcentral.com and The Arizona Republic",
-      "published": "20231231T235959",
-      "overall_sentiment_score": -0.145193,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.141508,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.736347
     },
     {
       "title": "Apple Inc bets big on India as it opens first flagship store",
@@ -151,6 +55,66 @@
       "relevance_score": 1.0
     },
     {
+      "title": "T. Rowe Price Capital Appreciation Equity ETF (TCAF): A Promising Active Fund",
+      "summary": "The T. Rowe Price Capital Appreciation Equity ETF (TCAF) has shown significant growth since its launch in June 2023, accumulating over $600 million in assets. The fund focuses on high-quality U.S. large-cap companies, employing a bottom-up stock selection approach with top holdings like Apple, Microsoft, and Amazon. TCAF's investment philosophy emphasizes strong performance in areas like technology, healthcare, and consumer discretionary.",
+      "url": "https://seekingalpha.com/article/4659892-tcaf-promising-active-fund",
+      "source": "Seeking Alpha",
+      "published": "20231227T055000",
+      "overall_sentiment_score": 0.347197,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.330344,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.747877
+    },
+    {
+      "title": "Apple Pay",
+      "summary": "This article from Barclays Private Bank details how to use Apple Pay with Barclays debit cards. It covers the benefits of Apple Pay such as fast, secure, and contactless payments for any amount, and provides instructions for adding cards, setting up, paying in-store, online, and in-app, as well as managing transactions and cards. Eligibility requirements for using Apple Pay with Barclays are also outlined.",
+      "url": "https://privatebank.barclays.com/what-we-offer/apple-pay/",
+      "source": "Barclays",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.412947,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.446511,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.740236
+    },
+    {
+      "title": "Taiwan Semiconductor Manufacturing to delay chip production in Phoenix for a year. Here's why",
+      "summary": "Taiwan Semiconductor Manufacturing (TSMC) announced a one-year delay in the start of chip production at its Phoenix facility, pushing the timeline to 2025 due to a lack of skilled employees for specialized equipment installation. The company also anticipates higher production costs in Phoenix compared to Taiwan and is sending more specialized workers to address the issues. This delay comes as TSMC reported its first quarterly profit decline in nearly four years amid lower demand for consumer electronics.",
+      "url": "https://www.azcentral.com/story/money/business/tech/2023/07/20/taiwan-semiconductor-manufacturing-to-delay-chip-production-in-phoenix/70440555007/",
+      "source": "azcentral.com and The Arizona Republic",
+      "published": "20231231T235959",
+      "overall_sentiment_score": -0.145193,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.141508,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.736347
+    },
+    {
+      "title": "The Cheap Trick Alphabet Is Using To Boost Its Share Price",
+      "summary": "Alphabet's 20-for-1 stock split, following similar moves by Apple and Tesla, is unlikely to fundamentally change the company's valuation but aims to make shares more accessible to smaller investors and potentially gain entry into the Dow Jones Industrial Average. While some tech giants saw significant share price boosts post-split, Alphabet's future success might be tempered by changing market conditions. The article suggests Amazon could be the next tech giant to undertake a similar split to boost its stock.",
+      "url": "https://finimize.com/content/cheap-trick-alphabet-using-boost-its-share-price",
+      "source": "Finimize",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.240546,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.339307,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.721022
+    },
+    {
+      "title": "Qorvo to sell Chinese assembly, test factories to Luxshare ...",
+      "summary": "Qorvo Inc. has agreed to sell its assembly and test facilities in Beijing and Dezhou, China, to Luxshare Precision Industry Co. Ltd. The deal includes Luxshare acquiring the facilities' assets, operations, and workforce, while Qorvo will continue to be supplied through a long-term agreement. This move allows Qorvo to streamline its manufacturing network while Luxshare expands its role in the electronics manufacturing services sector, particularly within the Apple supply chain.",
+      "url": "https://www.eenewseurope.com/en/qorvo-to-sell-chinese-assembly-test-factories-to-luxshare/",
+      "source": "eeNews Europe",
+      "published": "20231219T153015",
+      "overall_sentiment_score": 0.25237,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.342069,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.713482
+    },
+    {
       "title": "Sophia Velastegui",
       "summary": "Sophia Velastegui is Senior Vice President and Chief Product Officer of Aptiv, an automotive and autonomous tech company, where she drives innovation and growth. She previously held significant roles at Microsoft, Google/Alphabet, Apple, and Applied Materials, and is recognized for her board directorships and contributions to AI and emerging technologies. Velastegui is an award-winning engineer with degrees from Georgia Tech and UC Berkeley, and has furthered her corporate governance expertise at Stanford Law and Harvard Business School.",
       "url": "https://www.weforum.org/people/sophia-velastegui/",
@@ -163,16 +127,52 @@
       "relevance_score": 0.711423
     },
     {
-      "title": "T. Rowe Price Capital Appreciation Equity ETF (TCAF): A Promising Active Fund",
-      "summary": "The T. Rowe Price Capital Appreciation Equity ETF (TCAF) has shown significant growth since its launch in June 2023, accumulating over $600 million in assets. The fund focuses on high-quality U.S. large-cap companies, employing a bottom-up stock selection approach with top holdings like Apple, Microsoft, and Amazon. TCAF's investment philosophy emphasizes strong performance in areas like technology, healthcare, and consumer discretionary.",
-      "url": "https://seekingalpha.com/article/4659892-tcaf-promising-active-fund",
-      "source": "Seeking Alpha",
-      "published": "20231227T055000",
-      "overall_sentiment_score": 0.347197,
+      "title": "How Much Longer Can US Stocks Keep Beating The World?",
+      "summary": "US stocks have outperformed global markets for nearly 14 years, a period attributed to tech giants and resulting in higher valuations compared to other developed economies. The article questions the sustainability of this dominance and suggests ETFs for investors who anticipate a shift, allowing exposure to non-US developed markets.",
+      "url": "https://finimize.com/content/how-much-longer-can-us-stocks-keep-beating-world",
+      "source": "Finimize",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.289159,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.330344,
+      "ticker_sentiment_score": 0.305778,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.747877
+      "relevance_score": 0.704905
+    },
+    {
+      "title": "IYW: Bill Gates Bought This Tech ETF. Should You?",
+      "summary": "This article examines Bill Gates' recent acquisition of the iShares U.S. Technology ETF (IYW) in the third quarter, as revealed by 13F filings. It highlights IYW's strong long-term performance, comprehensive portfolio of top U.S. tech companies, and analyst ratings, while also noting its expense ratio compared to peers. The piece suggests that Gates' investment indicates continued opportunity in the tech sector.",
+      "url": "https://www.tipranks.com/news/article/iyw-bill-gates-bought-this-tech-etf-should-you",
+      "source": "TipRanks",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.368564,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.334985,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.634786
+    },
+    {
+      "title": "Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF ETF Price, Holdings, & News (NASDAQ:ZZZ)",
+      "summary": "The Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF (ZZZ) is an exchange-traded fund launched on December 28, 2023, by Onefund, which invests in a 75/25 blend of US large-cap stocks and front-month CME Bitcoin futures. It does not directly invest in Bitcoin's spot price. The ETF has an aggregate rating of \"Moderate Buy,\" assets under management of $6.02 million, and a net expense ratio of 1.01%.",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ZZZ/",
+      "source": "MarketBeat",
+      "published": "20231230T201003",
+      "overall_sentiment_score": 0.251008,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.317182,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.610123
+    },
+    {
+      "title": "Qualcomm, Iridium Take Aim at Satellite-to-Mobile Phone Market",
+      "summary": "Qualcomm and Iridium Communications are collaborating to introduce technology enabling satellite messaging for smartphone users in areas without cellular service. This partnership will initially offer a satellite-based emergency service for Android devices equipped with Qualcomm's premium chips. The move aims to bring satellite connectivity to a broader market, similar to the feature available on newer iPhones.",
+      "url": "https://www.wsj.com/articles/qualcomm-iridium-take-aim-at-satellite-to-mobile-phone-market-11672949841?gaa_at=eafs&gaa_n=AWEtsqcNNayMEflR_zCXxa4iMUQFdtaxXaYB4nmgwJkpgbCiuXs0CaSwLMiy&gaa_ts=69077407&gaa_sig=ZGxpxHaNiESB6w7Dl__kiFZTEwdCwiKiBK53R7lYdq8_Zh2gLVaFmanx6J1cvDZwuqjiO-ALUU6NZfjZVOQ5gg%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.302324,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.146784,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.602716
     }
   ]
 }

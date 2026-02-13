@@ -7,78 +7,6 @@
   "article_count": 13,
   "articles": [
     {
-      "title": "JPMorgan Converts Realty Income Fund Into ETF",
-      "summary": "JPMorgan Asset Management has converted its JPMorgan Realty Income Fund (JPRE) into an actively managed ETF. This conversion is part of a larger strategy by JPMAM to switch four of its mutual funds into ETFs this year, aiming to broaden the availability of its investment capabilities. The JPMorgan Realty Income ETF (JPRE) invests primarily in real estate investment trusts (REITs), selecting companies based on financial strength, operating revenues, and growth potential.",
-      "url": "https://etfdb.com/active-etf-content-hub/jpmorgan-converts-realty-income-fund-into-etf/",
-      "source": "ETF Database",
-      "published": "20220523T060951",
-      "overall_sentiment_score": 0.219585,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.287344,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.82102
-    },
-    {
-      "title": "nCino announces new partnership with Capitec Bank in South Africa",
-      "summary": "nCino, a provider of cloud banking and digital transformation solutions, has partnered with Capitec Bank, South Africa's largest digital bank. This collaboration aims to build and optimize Capitec Bank's Business Banking loan management system, enhancing efficiency and simplicity for its rapidly growing client base. The partnership will leverage nCino's technology to streamline processes and improve client and employee experiences in business banking operations.",
-      "url": "https://ibsintelligence.com/ibsi-news/ncino-announces-new-partnership-with-capitec-bank-in-south-africa/",
-      "source": "IBS Intelligence",
-      "published": "20220511T174650",
-      "overall_sentiment_score": 0.152858,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.315885,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.630212
-    },
-    {
-      "title": "Exclusive: Carlyle to acquire NSM Insurance from White Mountains in $1.78 billion deal",
-      "summary": "Private equity firm Carlyle Group Inc. has agreed to acquire U.S. specialty insurance provider NSM Insurance Group from White Mountains Insurance Group Ltd. for $1.78 billion in cash. This deal is expected to close in the second half of the year and will add $280 per share to White Mountains' adjusted book value. Carlyle plans to invest further in the platform and ramp up mergers and acquisitions activity within NSM Insurance.",
-      "url": "https://www.reuters.com/business/finance/exclusive-carlyle-acquire-nsm-insurance-white-mountains-178-billion-deal-2022-05-09/",
-      "source": "Reuters",
-      "published": "20220510T142600",
-      "overall_sentiment_score": 0.31701,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.28833,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.718262
-    },
-    {
-      "title": "PE giant Brookfield buys Watermark REIT for $3.8B",
-      "summary": "Brookfield Real Estate Funds has acquired non-traded REIT Watermark Lodging Trust for $3.8 billion in an all-cash transaction. Watermark's portfolio comprises 25 luxury and upper upscale hotels, including Ritz-Carlton properties, located in U.S. drive-to leisure destinations and gateway urban cities. The acquisition reflects confidence in large-scale hotel deals despite recent interest rate increases and debt capital market volatility.",
-      "url": "https://hotelsmag.com/news/pe-giant-brookfield-buys-watermark-reit-for-3-8b/",
-      "source": "HOTELSMag.com",
-      "published": "20220509T161651",
-      "overall_sentiment_score": 0.209799,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.135351,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.601778
-    },
-    {
-      "title": "Capital One sets date for hybrid return to office",
-      "summary": "Capital One announced it will reopen its U.S. offices for all employees on Sept. 6, implementing a hybrid work model. The company encourages employees to work in-office Tuesday through Thursday, though attendance is not mandatory. Capital One has also revised its vaccine policy, permitting unvaccinated staff to return to the office if they comply with regular COVID-19 testing.",
-      "url": "https://www.bankingdive.com/news/capital-one-sets-date-for-hybrid-return-to-office/624079/",
-      "source": "Banking Dive",
-      "published": "20220519T162641",
-      "overall_sentiment_score": 0.113636,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.103327,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.604154
-    },
-    {
-      "title": "Transcript: Boaz Weinstein",
-      "summary": "This transcript features an in-depth conversation between Barry Ritholtz and Boaz Weinstein, founder of Saba Capital. Weinstein discusses his background, including his chess and card-counting days, and how he transitioned into finance. The interview covers Saba Capital's investment strategies, such as closed-end fund arbitrage, SPACs, and tail protection, as well as specific trades like the London Whale and Evergrande.",
-      "url": "https://ritholtz.com/2022/05/transcript-boaz-weinstein/",
-      "source": "The Big Picture",
-      "published": "20220515T120000",
-      "overall_sentiment_score": 0.213141,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.207686,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.865613
-    },
-    {
       "title": "JPMorgan Analysts Behind ‘Uninvestable’ Call Upgrade China Tech",
       "summary": "JPMorgan Chase & Co. analysts have upgraded at least 15 Chinese Internet stocks, including Tencent Holdings Ltd. and Alibaba Group Holding Ltd., just two months after their bearish report labeled the sector \"uninvestable.\" This reversal comes after the previous report triggered a market selloff and internal discussions at the US bank.",
       "url": "https://www.bloomberg.com/news/articles/2022-05-16/jpmorgan-upgrades-some-china-internet-stocks-to-overweight",
@@ -103,6 +31,42 @@
       "relevance_score": 0.968935
     },
     {
+      "title": "Taking Footsteps Toward a Sustainable Future",
+      "summary": "The article highlights Allbirds as a successful footwear company built on sustainable practices, using natural, renewable resources and openly sharing its carbon calculation methods. It discusses how Allbirds' financial success, including its IPO led by J.P. Morgan, demonstrates investor confidence in sustainability-driven businesses. The piece emphasizes the growing consumer demand for sustainable products and the fashion industry's need for transformative practices to reduce its environmental footprint.",
+      "url": "https://www.jpmorganchase.com/newsroom/stories/taking-footsteps-toward-a-sustainable-future",
+      "source": "JPMorganChase",
+      "published": "20220510T171648",
+      "overall_sentiment_score": 0.285679,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.323971,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.88813
+    },
+    {
+      "title": "Transcript: Boaz Weinstein",
+      "summary": "This transcript features an in-depth conversation between Barry Ritholtz and Boaz Weinstein, founder of Saba Capital. Weinstein discusses his background, including his chess and card-counting days, and how he transitioned into finance. The interview covers Saba Capital's investment strategies, such as closed-end fund arbitrage, SPACs, and tail protection, as well as specific trades like the London Whale and Evergrande.",
+      "url": "https://ritholtz.com/2022/05/transcript-boaz-weinstein/",
+      "source": "The Big Picture",
+      "published": "20220515T120000",
+      "overall_sentiment_score": 0.213141,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.207686,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.865613
+    },
+    {
+      "title": "JPMorgan Converts Realty Income Fund Into ETF",
+      "summary": "JPMorgan Asset Management has converted its JPMorgan Realty Income Fund (JPRE) into an actively managed ETF. This conversion is part of a larger strategy by JPMAM to switch four of its mutual funds into ETFs this year, aiming to broaden the availability of its investment capabilities. The JPMorgan Realty Income ETF (JPRE) invests primarily in real estate investment trusts (REITs), selecting companies based on financial strength, operating revenues, and growth potential.",
+      "url": "https://etfdb.com/active-etf-content-hub/jpmorgan-converts-realty-income-fund-into-etf/",
+      "source": "ETF Database",
+      "published": "20220523T060951",
+      "overall_sentiment_score": 0.219585,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.287344,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.82102
+    },
+    {
       "title": "Dimensional, JPMorgan Flip Billions From Mutual Funds Into ETFs",
       "summary": "Dimensional Fund Advisors and JPMorgan Asset Management are converting billions of dollars from mutual funds into ETFs, with a total of about $55 billion in switched assets expected. This move is part of a broader industry trend towards lower-cost, more tax-efficient ETFs, with over $240 billion exiting mutual funds in 2022 so far. Dimensional's ETF assets are set to exceed $54 billion, making it one of the largest issuers.",
       "url": "https://www.wealthmanagement.com/etfs/dimensional-jpmorgan-flip-billions-from-mutual-funds-into-etfs",
@@ -113,6 +77,18 @@
       "ticker_sentiment_score": 0.311174,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.818691
+    },
+    {
+      "title": "Exclusive: Carlyle to acquire NSM Insurance from White Mountains in $1.78 billion deal",
+      "summary": "Private equity firm Carlyle Group Inc. has agreed to acquire U.S. specialty insurance provider NSM Insurance Group from White Mountains Insurance Group Ltd. for $1.78 billion in cash. This deal is expected to close in the second half of the year and will add $280 per share to White Mountains' adjusted book value. Carlyle plans to invest further in the platform and ramp up mergers and acquisitions activity within NSM Insurance.",
+      "url": "https://www.reuters.com/business/finance/exclusive-carlyle-acquire-nsm-insurance-white-mountains-178-billion-deal-2022-05-09/",
+      "source": "Reuters",
+      "published": "20220510T142600",
+      "overall_sentiment_score": 0.31701,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.28833,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.718262
     },
     {
       "title": "ETF Leaders Powered by the NYSE: Darek Wojnar",
@@ -127,30 +103,6 @@
       "relevance_score": 0.649873
     },
     {
-      "title": "Star Alliance Plans Credit Card For Redeeming Points Across 26 Airlines",
-      "summary": "Star Alliance, the largest global airline group comprising 26 member airlines, is set to launch a co-branded credit card this year. This new credit card will enable users to earn points through spending and then redeem those points across the frequent-flyer programs of any of its member airlines, including Singapore Airlines, Lufthansa, and United Airlines.",
-      "url": "https://www.bloomberg.com/news/articles/2022-05-12/airline-group-s-new-credit-card-lets-you-redeem-points-all-over",
-      "source": "Bloomberg.com",
-      "published": "20220512T091100",
-      "overall_sentiment_score": 0.186393,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.112367,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.591761
-    },
-    {
-      "title": "Taking Footsteps Toward a Sustainable Future",
-      "summary": "The article highlights Allbirds as a successful footwear company built on sustainable practices, using natural, renewable resources and openly sharing its carbon calculation methods. It discusses how Allbirds' financial success, including its IPO led by J.P. Morgan, demonstrates investor confidence in sustainability-driven businesses. The piece emphasizes the growing consumer demand for sustainable products and the fashion industry's need for transformative practices to reduce its environmental footprint.",
-      "url": "https://www.jpmorganchase.com/newsroom/stories/taking-footsteps-toward-a-sustainable-future",
-      "source": "JPMorganChase",
-      "published": "20220510T171648",
-      "overall_sentiment_score": 0.285679,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.323971,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.88813
-    },
-    {
       "title": "These Bond ETFs Are Floating Through Rate Hike Risks",
       "summary": "As the Federal Reserve began raising interest rates, investors have shifted towards less rate-sensitive bond ETFs, particularly those focused on floating-rate bonds. Funds like USFR, FLOT, and FLRN have seen significant inflows due to their low duration and ability to adjust coupon rates with rising market rates. These ETFs offer an attractive option for investors looking to trim duration and put cash to work in a rising rate environment, providing downside protection compared to traditional fixed-rate bonds.",
       "url": "https://etfdb.com/news/2022/05/09/these-bond-etfs-are-floating-through-rate-hike-risks/",
@@ -161,6 +113,54 @@
       "ticker_sentiment_score": 0.218832,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.640192
+    },
+    {
+      "title": "nCino announces new partnership with Capitec Bank in South Africa",
+      "summary": "nCino, a provider of cloud banking and digital transformation solutions, has partnered with Capitec Bank, South Africa's largest digital bank. This collaboration aims to build and optimize Capitec Bank's Business Banking loan management system, enhancing efficiency and simplicity for its rapidly growing client base. The partnership will leverage nCino's technology to streamline processes and improve client and employee experiences in business banking operations.",
+      "url": "https://ibsintelligence.com/ibsi-news/ncino-announces-new-partnership-with-capitec-bank-in-south-africa/",
+      "source": "IBS Intelligence",
+      "published": "20220511T174650",
+      "overall_sentiment_score": 0.152858,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.315885,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630212
+    },
+    {
+      "title": "Capital One sets date for hybrid return to office",
+      "summary": "Capital One announced it will reopen its U.S. offices for all employees on Sept. 6, implementing a hybrid work model. The company encourages employees to work in-office Tuesday through Thursday, though attendance is not mandatory. Capital One has also revised its vaccine policy, permitting unvaccinated staff to return to the office if they comply with regular COVID-19 testing.",
+      "url": "https://www.bankingdive.com/news/capital-one-sets-date-for-hybrid-return-to-office/624079/",
+      "source": "Banking Dive",
+      "published": "20220519T162641",
+      "overall_sentiment_score": 0.113636,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.103327,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.604154
+    },
+    {
+      "title": "PE giant Brookfield buys Watermark REIT for $3.8B",
+      "summary": "Brookfield Real Estate Funds has acquired non-traded REIT Watermark Lodging Trust for $3.8 billion in an all-cash transaction. Watermark's portfolio comprises 25 luxury and upper upscale hotels, including Ritz-Carlton properties, located in U.S. drive-to leisure destinations and gateway urban cities. The acquisition reflects confidence in large-scale hotel deals despite recent interest rate increases and debt capital market volatility.",
+      "url": "https://hotelsmag.com/news/pe-giant-brookfield-buys-watermark-reit-for-3-8b/",
+      "source": "HOTELSMag.com",
+      "published": "20220509T161651",
+      "overall_sentiment_score": 0.209799,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.135351,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.601778
+    },
+    {
+      "title": "Star Alliance Plans Credit Card For Redeeming Points Across 26 Airlines",
+      "summary": "Star Alliance, the largest global airline group comprising 26 member airlines, is set to launch a co-branded credit card this year. This new credit card will enable users to earn points through spending and then redeem those points across the frequent-flyer programs of any of its member airlines, including Singapore Airlines, Lufthansa, and United Airlines.",
+      "url": "https://www.bloomberg.com/news/articles/2022-05-12/airline-group-s-new-credit-card-lets-you-redeem-points-all-over",
+      "source": "Bloomberg.com",
+      "published": "20220512T091100",
+      "overall_sentiment_score": 0.186393,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.112367,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.591761
     }
   ]
 }

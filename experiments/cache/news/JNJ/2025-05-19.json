@@ -7,28 +7,16 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "Atara Biotherapeutics Appoints James Huang and Nachi Subramanian to Board of Directors",
-      "summary": "Atara Biotherapeutics announced the appointment of James Huang and Nachi Subramanian to its Board of Directors, effective after its recently closed $16 million offering. James Huang brings over 37 years of biotech experience, including founding Panacea Venture and senior roles at Kleiner Perkins and Vivo Ventures. Nachi Subramanian is a Managing Director at Redmile Group, with previous senior roles at J.P. Morgan and Bear Stearns.",
-      "url": "https://www.biospace.com/press-releases/atara-biotherapeutics-appoints-james-huang-and-nachi-subramanian-to-board-of-directors",
-      "source": "BioSpace",
-      "published": "20250519T000000",
-      "overall_sentiment_score": 0.206017,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.14275,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.576422
-    },
-    {
-      "title": "Earnings Update: Lexicon Pharmaceuticals, Inc. (NASDAQ:LXRX) Just Reported And Analysts Are Boosting Their Estimates",
-      "summary": "Lexicon Pharmaceuticals (NASDAQ:LXRX) reported strong latest results, with revenues exceeding analyst forecasts and statutory losses being smaller than expected. Analysts have significantly increased their revenue forecasts for 2025 to US$13.8m and reduced estimated losses to US$0.33 per share, although expected revenues still reflect a decline over the past 12 months and are projected to grow slower than the wider industry. The consensus price target remained unchanged despite the improved outlook, with a wide range of individual analyst valuations highlighting divergent views on the company's future performance.",
-      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-lxrx/lexicon-pharmaceuticals/news/earnings-update-lexicon-pharmaceuticals-inc-nasdaqlxrx-just",
-      "source": "Simply Wall Street",
-      "published": "20250517T000000",
-      "overall_sentiment_score": 0.152132,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.039635,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.630903
+      "title": "How Johnson & Johnson researchers are working to help patients at risk of developing multiple myeloma",
+      "summary": "Johnson & Johnson researchers are focusing on early intervention for patients at high risk of developing multiple myeloma (MM) from smoldering multiple myeloma (SMM). This initiative aims to address the current \"watch and wait\" approach, which leaves high-risk SMM patients without approved therapies, leading to significant emotional distress. By pioneering early therapeutic interventions, J&J hopes to delay the progression to active MM, potentially allowing patients to live without requiring active treatment for longer.",
+      "url": "https://www.jnj.com/oncology/early-intervention-how-johnson-johnson-researchers-are-working-to-help-patients-at-risk-of-developing-multiple-myeloma",
+      "source": "Johnson & Johnson",
+      "published": "20250514T000000",
+      "overall_sentiment_score": 0.449691,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.444593,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "LAVA Reports First Quarter 2025 Financial Results, Provides Business Update",
@@ -43,16 +31,28 @@
       "relevance_score": 0.719234
     },
     {
-      "title": "Royalty Pharma Announces Shareholder Approval of its External Manager Acquisition",
-      "summary": "Royalty Pharma plc (Nasdaq: RPRX) announced that its shareholders have overwhelmingly approved the acquisition of its external manager, marking a significant step towards internalizing its management. This move is expected to enhance corporate governance, increase transparency, and create substantial financial benefits for shareholders, including over $1.6 billion in cumulative savings over ten years. The transaction will transition the company from an external management model to an integrated corporate structure, with current employees of the manager becoming direct employees of Royalty Pharma.",
-      "url": "https://www.citybiz.co/article/693676/royalty-pharma-announces-shareholder-approval-of-its-external-manager-acquisition/",
-      "source": "citybiz",
-      "published": "20250512T095741",
-      "overall_sentiment_score": 0.328135,
+      "title": "Embolization Market to Get an Explosive Growth | Stryker Corporation, Medtronic plc, and Boston Scientific Corporation",
+      "summary": "The Embolization market is projected to grow significantly from USD 2.40 billion in 2025 to USD 4.28 billion by 2032, exhibiting a CAGR of 8.6%. A new research study by Coherent Market Insights provides a comprehensive analysis of the market dynamics, segmentation, growth opportunities, trends, and competitive landscape, including key players like Stryker Corporation, Medtronic plc, and Boston Scientific Corporation. The report details market drivers, restraints, future trends, and strategic insights for market participants.",
+      "url": "https://www.openpr.com/news/4254276/embolization-market-to-get-an-explosive-growth-stryker",
+      "source": "openPR.com",
+      "published": "20250511T070500",
+      "overall_sentiment_score": 0.337829,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.221683,
+      "ticker_sentiment_score": 0.303908,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.565613
+      "relevance_score": 0.645999
+    },
+    {
+      "title": "Earnings Update: Lexicon Pharmaceuticals, Inc. (NASDAQ:LXRX) Just Reported And Analysts Are Boosting Their Estimates",
+      "summary": "Lexicon Pharmaceuticals (NASDAQ:LXRX) reported strong latest results, with revenues exceeding analyst forecasts and statutory losses being smaller than expected. Analysts have significantly increased their revenue forecasts for 2025 to US$13.8m and reduced estimated losses to US$0.33 per share, although expected revenues still reflect a decline over the past 12 months and are projected to grow slower than the wider industry. The consensus price target remained unchanged despite the improved outlook, with a wide range of individual analyst valuations highlighting divergent views on the company's future performance.",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-lxrx/lexicon-pharmaceuticals/news/earnings-update-lexicon-pharmaceuticals-inc-nasdaqlxrx-just",
+      "source": "Simply Wall Street",
+      "published": "20250517T000000",
+      "overall_sentiment_score": 0.152132,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.039635,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.630903
     },
     {
       "title": "Nanobiotix Shares Positive Data from MD Anderson-Led Phase I Study in Pancreatic Cancer",
@@ -79,28 +79,28 @@
       "relevance_score": 0.606927
     },
     {
-      "title": "Embolization Market to Get an Explosive Growth | Stryker Corporation, Medtronic plc, and Boston Scientific Corporation",
-      "summary": "The Embolization market is projected to grow significantly from USD 2.40 billion in 2025 to USD 4.28 billion by 2032, exhibiting a CAGR of 8.6%. A new research study by Coherent Market Insights provides a comprehensive analysis of the market dynamics, segmentation, growth opportunities, trends, and competitive landscape, including key players like Stryker Corporation, Medtronic plc, and Boston Scientific Corporation. The report details market drivers, restraints, future trends, and strategic insights for market participants.",
-      "url": "https://www.openpr.com/news/4254276/embolization-market-to-get-an-explosive-growth-stryker",
-      "source": "openPR.com",
-      "published": "20250511T070500",
-      "overall_sentiment_score": 0.337829,
+      "title": "Atara Biotherapeutics Appoints James Huang and Nachi Subramanian to Board of Directors",
+      "summary": "Atara Biotherapeutics announced the appointment of James Huang and Nachi Subramanian to its Board of Directors, effective after its recently closed $16 million offering. James Huang brings over 37 years of biotech experience, including founding Panacea Venture and senior roles at Kleiner Perkins and Vivo Ventures. Nachi Subramanian is a Managing Director at Redmile Group, with previous senior roles at J.P. Morgan and Bear Stearns.",
+      "url": "https://www.biospace.com/press-releases/atara-biotherapeutics-appoints-james-huang-and-nachi-subramanian-to-board-of-directors",
+      "source": "BioSpace",
+      "published": "20250519T000000",
+      "overall_sentiment_score": 0.206017,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.303908,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.645999
+      "ticker_sentiment_score": 0.14275,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.576422
     },
     {
-      "title": "How Johnson & Johnson researchers are working to help patients at risk of developing multiple myeloma",
-      "summary": "Johnson & Johnson researchers are focusing on early intervention for patients at high risk of developing multiple myeloma (MM) from smoldering multiple myeloma (SMM). This initiative aims to address the current \"watch and wait\" approach, which leaves high-risk SMM patients without approved therapies, leading to significant emotional distress. By pioneering early therapeutic interventions, J&J hopes to delay the progression to active MM, potentially allowing patients to live without requiring active treatment for longer.",
-      "url": "https://www.jnj.com/oncology/early-intervention-how-johnson-johnson-researchers-are-working-to-help-patients-at-risk-of-developing-multiple-myeloma",
-      "source": "Johnson & Johnson",
-      "published": "20250514T000000",
-      "overall_sentiment_score": 0.449691,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.444593,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
+      "title": "Royalty Pharma Announces Shareholder Approval of its External Manager Acquisition",
+      "summary": "Royalty Pharma plc (Nasdaq: RPRX) announced that its shareholders have overwhelmingly approved the acquisition of its external manager, marking a significant step towards internalizing its management. This move is expected to enhance corporate governance, increase transparency, and create substantial financial benefits for shareholders, including over $1.6 billion in cumulative savings over ten years. The transaction will transition the company from an external management model to an integrated corporate structure, with current employees of the manager becoming direct employees of Royalty Pharma.",
+      "url": "https://www.citybiz.co/article/693676/royalty-pharma-announces-shareholder-approval-of-its-external-manager-acquisition/",
+      "source": "citybiz",
+      "published": "20250512T095741",
+      "overall_sentiment_score": 0.328135,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.221683,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.565613
     },
     {
       "title": "Johnson & Johnson appears to scrub most DEI information from website",

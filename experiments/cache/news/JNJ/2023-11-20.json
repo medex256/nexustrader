@@ -7,18 +7,6 @@
   "article_count": 2,
   "articles": [
     {
-      "title": "Legendary value investor's firm launches new fund targeting ‘quality' stocks",
-      "summary": "Legendary value investor Jeremy Grantham's firm, GMO, has launched its first active ETF, the GMO U.S. Quality ETF, focusing on \"quality\" stocks. Managed by Tom Hancock, the fund targets companies that can sustainably deploy capital at high rates of return, primarily in technology, healthcare, and consumer staples, offering potential tax advantages and ease of trading for clients. The ETF aims to identify \"battleship companies\" with strong balance sheets and competitive moats.",
-      "url": "https://www.nbcdfw.com/news/business/money-report/legendary-value-investors-firm-launches-new-fund-targeting-quality-stocks/3391485/",
-      "source": "NBC 5 Dallas-Fort Worth",
-      "published": "20231118T200058",
-      "overall_sentiment_score": 0.174435,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.427844,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.729359
-    },
-    {
       "title": "Buffett’s Berkshire Hathaway Sells Out of GM, P&G, Johnson & Johnson, and Other Longtime Holdings",
       "summary": "Berkshire Hathaway (BRK.A, BRK.B) engaged in significant selling activity during the third quarter, offloading $5.7 billion in equities. Notable divestitures included entire stakes in GM, Johnson & Johnson, Procter & Gamble, and Activision Blizzard, alongside reductions in Chevron and HP. The company also acquired new positions primarily due to corporate actions by Liberty Media and continued investments in Japanese trading houses.",
       "url": "https://www.morningstar.com/stocks/buffetts-berkshire-hathaway-sells-out-gm-pg-johnson-johnson-longtime-holdings",
@@ -29,6 +17,18 @@
       "ticker_sentiment_score": -0.237766,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 0.806281
+    },
+    {
+      "title": "Legendary value investor's firm launches new fund targeting ‘quality' stocks",
+      "summary": "Legendary value investor Jeremy Grantham's firm, GMO, has launched its first active ETF, the GMO U.S. Quality ETF, focusing on \"quality\" stocks. Managed by Tom Hancock, the fund targets companies that can sustainably deploy capital at high rates of return, primarily in technology, healthcare, and consumer staples, offering potential tax advantages and ease of trading for clients. The ETF aims to identify \"battleship companies\" with strong balance sheets and competitive moats.",
+      "url": "https://www.nbcdfw.com/news/business/money-report/legendary-value-investors-firm-launches-new-fund-targeting-quality-stocks/3391485/",
+      "source": "NBC 5 Dallas-Fort Worth",
+      "published": "20231118T200058",
+      "overall_sentiment_score": 0.174435,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.427844,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.729359
     }
   ]
 }

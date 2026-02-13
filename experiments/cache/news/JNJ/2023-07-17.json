@@ -7,18 +7,6 @@
   "article_count": 2,
   "articles": [
     {
-      "title": "2 New Wide-Moat Stocks to Watch",
-      "summary": "Morningstar's equity research team has added two new wide-moat stocks to its coverage list: Kenvue (KVUE) and Copart (CPRT). Kenvue, Johnson & Johnson's former consumer segment, is the world's largest pure-play consumer health company, while Copart is a dominant salvage vehicle auctioneer leveraging a strong network effect. Analysts have assigned Kenvue a fair value of $27.50 per share, deeming it fairly valued, and Copart a fair value of $77 per share, considering it overpriced.",
-      "url": "https://www.morningstar.com/stocks/2-new-wide-moat-stocks-watch-2",
-      "source": "Morningstar",
-      "published": "20230710T000000",
-      "overall_sentiment_score": 0.044135,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.008537,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.644544
-    },
-    {
       "title": "The Commercial Market for Legal Psychedelics: Spravato",
       "summary": "This article examines the commercial market for legal psychedelics, focusing on Spravato (esketamine), the first FDA-approved psychedelic. It highlights Spravato's impressive sales growth, showing the potential for psychedelics in mainstream pharma. The piece also discusses the future outlook for upcoming psychedelic drugs like those from MAPS and Compass Pathways.",
       "url": "https://microdose.buzz/news/legal-psychedelics-spravato/",
@@ -29,6 +17,18 @@
       "ticker_sentiment_score": 0.649543,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.978549
+    },
+    {
+      "title": "2 New Wide-Moat Stocks to Watch",
+      "summary": "Morningstar's equity research team has added two new wide-moat stocks to its coverage list: Kenvue (KVUE) and Copart (CPRT). Kenvue, Johnson & Johnson's former consumer segment, is the world's largest pure-play consumer health company, while Copart is a dominant salvage vehicle auctioneer leveraging a strong network effect. Analysts have assigned Kenvue a fair value of $27.50 per share, deeming it fairly valued, and Copart a fair value of $77 per share, considering it overpriced.",
+      "url": "https://www.morningstar.com/stocks/2-new-wide-moat-stocks-watch-2",
+      "source": "Morningstar",
+      "published": "20230710T000000",
+      "overall_sentiment_score": 0.044135,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.008537,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.644544
     }
   ]
 }

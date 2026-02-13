@@ -7,6 +7,18 @@
   "article_count": 7,
   "articles": [
     {
+      "title": "Top 10: Energy Leaders in the US",
+      "summary": "This article identifies the top 10 energy leaders in the US, featuring CEOs from major companies like ExxonMobil, Chevron, NextEra Energy, and Duke Energy. It highlights the US's position as the second-largest electricity producer and consumer globally and its progress towards a clean energy system. Each leader's profile includes their company, market cap, and career highlights.",
+      "url": "https://energydigital.com/top10/top-10-energy-leaders-in-the-us",
+      "source": "Energy Digital Magazine",
+      "published": "20240814T000000",
+      "overall_sentiment_score": 0.325346,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.318925,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.917901
+    },
+    {
       "title": "Autry Stephens, Endeavor Energy founder and richest U.S. oilman, dies at 86",
       "summary": "Autry Stephens, the founder of Endeavor Energy Resources LP and the richest U.S. oilman, has died at the age of 86. Stephens built Endeavor into one of the largest closely held producers in the Permian Basin, eventually agreeing to sell it to Diamondback Energy Inc. for $26 billion in February 2024. His career spanned from a petroleum engineer to an oil tycoon, navigating industry challenges including the 2008 financial crisis.",
       "url": "https://www.worldoil.com/news/2024/8/16/autry-stephens-endeavor-energy-founder-and-richest-u-s-oilman-dies-at-86/",
@@ -65,18 +77,6 @@
       "ticker_sentiment_score": -0.337168,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 0.602505
-    },
-    {
-      "title": "Top 10: Energy Leaders in the US",
-      "summary": "This article identifies the top 10 energy leaders in the US, featuring CEOs from major companies like ExxonMobil, Chevron, NextEra Energy, and Duke Energy. It highlights the US's position as the second-largest electricity producer and consumer globally and its progress towards a clean energy system. Each leader's profile includes their company, market cap, and career highlights.",
-      "url": "https://energydigital.com/top10/top-10-energy-leaders-in-the-us",
-      "source": "Energy Digital Magazine",
-      "published": "20240814T000000",
-      "overall_sentiment_score": 0.325346,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.318925,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.917901
     },
     {
       "title": "Energy: The Wildest Sector in Today’s ETF Market",

@@ -7,40 +7,16 @@
   "article_count": 7,
   "articles": [
     {
-      "title": "ConocoPhillips bid team delivers lasting value with Qatar LNG deals",
-      "summary": "ConocoPhillips' Qatar North Field Expansion Bid Team received a 2023 SPIRIT of Performance Award for successfully securing two LNG agreements with QatarEnergy. These deals, for the North Field East (NFE) and North Field South (NFS) projects, build on a long-standing partnership and are critical for global energy security, including providing long-term LNG deliveries to Germany. The success is attributed to extensive teamwork, strong relationships, and ConocoPhillips' reputation and expertise in the LNG sector.",
-      "url": "https://www.conocophillips.com/spiritnow/story/conocophillips-bid-team-delivers-lasting-value-with-qatar-lng-deals/",
-      "source": "ConocoPhillips",
-      "published": "20230309T000000",
-      "overall_sentiment_score": 0.304859,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.127476,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.599785
-    },
-    {
-      "title": "Eastman Chemical Co. stock outperforms competitors despite losses on the day",
-      "summary": "Eastman Chemical Co. (EMN) stock experienced a 1.92% loss on a generally grim trading day for the market, closing at $82.42. Despite this decline, the stock managed to outperform some competitors, such as Exxon Mobil Corp. (XOM), which also fell. Eastman Chemical Co. is $32.55 below its 52-week high, and its trading volume was below its 50-day average.",
-      "url": "https://www.marketwatch.com/data-news/eastman-chemical-co-stock-outperforms-competitors-despite-losses-on-the-day-872535f7-1b6b63cd3bab?mod=mw_quote_news&gaa_at=eafs&gaa_n=AWEtsqdctUOM7hMQ0l33Us9SG9hOSnbbnDfn1GzM9smz-siZ_h_HO3kZ2eN2&gaa_ts=69076e45&gaa_sig=3lCSIvyq5a72ZOH8cx3iOn093d7uFHocliCz9Hm0qTIJHOpZB21XtdUrNpLsuZecj7cZdZHANy9UDQwNUXnzbA%3D%3D",
-      "source": "MarketWatch",
-      "published": "20230307T165200",
-      "overall_sentiment_score": -0.102906,
+      "title": "Growth stock vs. value stock? It's all in the eye of the beholder",
+      "summary": "The article discusses the increasingly blurred lines between growth and value stocks, particularly in the context of index investing. It highlights how major index providers like S&P reclassify stocks such as Microsoft and ExxonMobil, challenging traditional definitions due to factors like price momentum and earnings changes. The piece emphasizes that different index construction methodologies and rebalancing schedules can lead to significant performance divergences among growth and value ETFs, urging investors to understand what criteria their investments are based on.",
+      "url": "https://www.cnbc.com/2023/03/06/growth-stock-vs-value-stock-its-all-in-the-eye-of-the-beholder.html",
+      "source": "CNBC",
+      "published": "20230306T080700",
+      "overall_sentiment_score": 0.040917,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.115077,
+      "ticker_sentiment_score": 0.034237,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.603193
-    },
-    {
-      "title": "|Enbridge earmarks $2.4 bln in infrastructure, renewable projects in U.S. | NEWS",
-      "summary": "|Enbridge Inc. plans to invest C$3.3 billion ($2.4 billion) in natural gas, liquids infrastructure, and renewable power in the U.S. this year, driven by green energy subsidies from the Biden administration's Inflation Reduction Act. The company aims to capitalize on better investment opportunities in the U.S., focusing on gas transmission modernization, LNG export business expansion, and renewable energy projects including converting food waste to energy. Enbridge expects a significant increase in its renewable portfolio by 2028 and an annual core earnings growth of 4%-6% through 2025.",
-      "url": "http://www.reccessary.com/en/news/enbridge-earmarks-2-4-bln-infrastructure-renewable-projects-us",
-      "source": "Reccessary",
-      "published": "20230307T020958",
-      "overall_sentiment_score": 0.302548,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.202253,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.579921
+      "relevance_score": 0.913898
     },
     {
       "title": "BP to Sell CF Industries 2.2 Bcf of Certified Natural Gas to Decarbonize Ammonia",
@@ -67,18 +43,6 @@
       "relevance_score": 0.648146
     },
     {
-      "title": "Growth stock vs. value stock? It's all in the eye of the beholder",
-      "summary": "The article discusses the increasingly blurred lines between growth and value stocks, particularly in the context of index investing. It highlights how major index providers like S&P reclassify stocks such as Microsoft and ExxonMobil, challenging traditional definitions due to factors like price momentum and earnings changes. The piece emphasizes that different index construction methodologies and rebalancing schedules can lead to significant performance divergences among growth and value ETFs, urging investors to understand what criteria their investments are based on.",
-      "url": "https://www.cnbc.com/2023/03/06/growth-stock-vs-value-stock-its-all-in-the-eye-of-the-beholder.html",
-      "source": "CNBC",
-      "published": "20230306T080700",
-      "overall_sentiment_score": 0.040917,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.034237,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.913898
-    },
-    {
       "title": "Muncrief: Devon Energy Taking Slower Approach to LNG",
       "summary": "Devon Energy Corp. plans to take a measured approach to supplying the global LNG market, initially committing about 10% of its gross gas volumes while still primarily focusing on oil production for revenue. Despite anticipating a gassier mix in its portfolio over time, the company intends to remain \"as oily as we can for as long as we can,\" according to CEO Rick Muncrief. This strategy is influenced by current market conditions, including expected lower gas prices in 2023 due to limited LNG export capacity and rising U.S. gas production.",
       "url": "https://finance.yahoo.com/news/muncrief-devon-energy-taking-slower-150000672.html",
@@ -89,6 +53,42 @@
       "ticker_sentiment_score": 0.117146,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.64002
+    },
+    {
+      "title": "Eastman Chemical Co. stock outperforms competitors despite losses on the day",
+      "summary": "Eastman Chemical Co. (EMN) stock experienced a 1.92% loss on a generally grim trading day for the market, closing at $82.42. Despite this decline, the stock managed to outperform some competitors, such as Exxon Mobil Corp. (XOM), which also fell. Eastman Chemical Co. is $32.55 below its 52-week high, and its trading volume was below its 50-day average.",
+      "url": "https://www.marketwatch.com/data-news/eastman-chemical-co-stock-outperforms-competitors-despite-losses-on-the-day-872535f7-1b6b63cd3bab?mod=mw_quote_news&gaa_at=eafs&gaa_n=AWEtsqdctUOM7hMQ0l33Us9SG9hOSnbbnDfn1GzM9smz-siZ_h_HO3kZ2eN2&gaa_ts=69076e45&gaa_sig=3lCSIvyq5a72ZOH8cx3iOn093d7uFHocliCz9Hm0qTIJHOpZB21XtdUrNpLsuZecj7cZdZHANy9UDQwNUXnzbA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20230307T165200",
+      "overall_sentiment_score": -0.102906,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.115077,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.603193
+    },
+    {
+      "title": "ConocoPhillips bid team delivers lasting value with Qatar LNG deals",
+      "summary": "ConocoPhillips' Qatar North Field Expansion Bid Team received a 2023 SPIRIT of Performance Award for successfully securing two LNG agreements with QatarEnergy. These deals, for the North Field East (NFE) and North Field South (NFS) projects, build on a long-standing partnership and are critical for global energy security, including providing long-term LNG deliveries to Germany. The success is attributed to extensive teamwork, strong relationships, and ConocoPhillips' reputation and expertise in the LNG sector.",
+      "url": "https://www.conocophillips.com/spiritnow/story/conocophillips-bid-team-delivers-lasting-value-with-qatar-lng-deals/",
+      "source": "ConocoPhillips",
+      "published": "20230309T000000",
+      "overall_sentiment_score": 0.304859,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.127476,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.599785
+    },
+    {
+      "title": "|Enbridge earmarks $2.4 bln in infrastructure, renewable projects in U.S. | NEWS",
+      "summary": "|Enbridge Inc. plans to invest C$3.3 billion ($2.4 billion) in natural gas, liquids infrastructure, and renewable power in the U.S. this year, driven by green energy subsidies from the Biden administration's Inflation Reduction Act. The company aims to capitalize on better investment opportunities in the U.S., focusing on gas transmission modernization, LNG export business expansion, and renewable energy projects including converting food waste to energy. Enbridge expects a significant increase in its renewable portfolio by 2028 and an annual core earnings growth of 4%-6% through 2025.",
+      "url": "http://www.reccessary.com/en/news/enbridge-earmarks-2-4-bln-infrastructure-renewable-projects-us",
+      "source": "Reccessary",
+      "published": "20230307T020958",
+      "overall_sentiment_score": 0.302548,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.202253,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.579921
     }
   ]
 }

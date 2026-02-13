@@ -7,18 +7,6 @@
   "article_count": 25,
   "articles": [
     {
-      "title": "Is iShares Paris-Aligned Climate MSCI USA ETF (PABU) a Strong ETF Right Now?",
-      "summary": "The iShares Paris-Aligned Climate MSCI USA ETF (PABU), launched on April 8, 2022, is a smart beta ETF focused on the Style Box - All Cap Blend category, aiming to align with Paris Agreement objectives through decarbonization and reduced climate-related risks. With over $2.12 billion in assets and a low expense ratio of 0.10%, PABU primarily invests in Information Technology, with Apple, Nvidia, and Microsoft as top holdings. The ETF has shown strong performance, up 13.72% over the last year, offering a diversified option for investors in climate-aligned strategies.",
-      "url": "https://www.sharewise.com/us/news_articles/Is_iShares_ParisAligned_Climate_MSCI_USA_ETF_PABU_a_Strong_ETF_Right_Now_Zacks_20250519_122020469",
-      "source": "sharewise.com",
-      "published": "20250519T090833",
-      "overall_sentiment_score": 0.336385,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.343548,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.62194
-    },
-    {
       "title": "NVIDIA RTX PRO Servers Speed Trillion-Dollar Enterprise IT Industry Transition to AI Factories",
       "summary": "NVIDIA announced its RTX PRO Servers and a new Enterprise AI Factory validated design to accelerate the trillion-dollar IT industry's transition to AI factories. These servers, built with NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs, offer universal acceleration for AI, design, engineering, and business applications. Companies like Cadence, Foxconn, and Lilly are already planning to adopt this infrastructure, with global system makers and consulting firms supporting the deployment.",
       "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-pro-servers-speed-trillion-dollar-enterprise-it-industry-transition-to-ai-factories",
@@ -55,18 +43,6 @@
       "relevance_score": 0.954432
     },
     {
-      "title": "Just Four Days Till Microchip Technology Incorporated (NASDAQ:MCHP) Will Be Trading Ex-Dividend",
-      "summary": "Microchip Technology Incorporated (NASDAQ:MCHP) is set to trade ex-dividend in four days, with a dividend payment of US$0.455 per share scheduled for June 5th. The company paid a total of US$1.82 last year, resulting in a 3.0% trailing yield on its current stock price of US$61.21. Despite being unprofitable last year, Microchip Technology has shown improving income over the past five years and has consistently increased its dividend by approximately 9.8% annually over the last decade.",
-      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mchp/microchip-technology/news/just-four-days-till-microchip-technology-incorporated-nasdaq",
-      "source": "Simply Wall Street",
-      "published": "20250517T000000",
-      "overall_sentiment_score": 0.166196,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.135753,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.630917
-    },
-    {
       "title": "Breakthrough: Ekso Bionics Partners With NVIDIA to Create Revolutionary AI-Powered Rehabilitation Technology",
       "summary": "Ekso Bionics has been accepted into the NVIDIA Connect program, initiating a strategic move to develop the world's first foundation model for human motion in physical rehabilitation. Leveraging NVIDIA's resources, including specialized training and GPU platforms, Ekso Bionics aims to integrate new AI capabilities across its device portfolio. CEO Scott Davis highlights this collaboration as the beginning of their AI journey to enhance exoskeleton technology and improve patient outcomes through personalized rehabilitation.",
       "url": "https://www.stocktitan.net/news/EKSO/ekso-bionics-accepted-into-nvidia-connect-1n5vv0qga09v.html",
@@ -79,28 +55,16 @@
       "relevance_score": 0.817347
     },
     {
-      "title": "How AGIX and KWEB Provide Access To The Distinct U.S. & China AI Ecosystems",
-      "summary": "The article discusses how combining AGIX and KWEB ETFs offers a blended approach to investing in the global AI opportunity by accessing both the U.S. and China AI ecosystems. It highlights the distinct characteristics and developments within each region's AI landscape, from the U.S.'s rapid innovation spurred by ChatGPT to China's cost-effective, open-source models exemplified by DeepSeek. The piece concludes that a combined portfolio effectively harnesses the long-term growth potential of the AI sector by leveraging the complementary strengths of both countries.",
-      "url": "https://kraneshares.com/how-agix-and-kweb-provide-access-to-the-distinct-u-s-china-ai-ecosystems/",
-      "source": "KraneShares",
-      "published": "20250515T000000",
-      "overall_sentiment_score": 0.315477,
+      "title": "T. ROWE PRICE RELEASES NEWEST EPISODE OF PODCAST SERIES FEATURING JENSEN HUANG, FOUNDER AND CEO OF NVIDIA",
+      "summary": "T. Rowe Price released a new episode of its investment-themed podcast, \"The Angle,\" featuring Jensen Huang, founder and CEO of NVIDIA. Huang discusses the AI revolution with host Eric Veiel, focusing on the future of AI, its convergence with robotics, and energy efficiency. This episode is part of the podcast's fourth season, which also includes interviews with other prominent CEOs.",
+      "url": "https://www.prnewswire.com/news-releases/t-rowe-price-releases-newest-episode-of-podcast-series-featuring-jensen-huang-founder-and-ceo-of-nvidia-302448875.html",
+      "source": "PR Newswire",
+      "published": "20250507T123600",
+      "overall_sentiment_score": 0.201315,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.348479,
+      "ticker_sentiment_score": 0.265358,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.648456
-    },
-    {
-      "title": "Bit Digital, Inc. Announces First Quarter of Fiscal Year 2025 Financial Results",
-      "summary": "Bit Digital, Inc. announced its financial results for the First Quarter of 2025, reporting a total revenue of $25.1 million, a 17% decrease year-over-year, primarily due to a decline in digital asset mining revenue following the April 2024 halving. Cloud services revenue, however, saw an 84% increase, significantly offsetting the decrease. The company also highlighted strategic advancements in its infrastructure platform and diversification of revenue streams, including new cloud services agreements and the rebranding of its HPC business as WhiteFiber.",
-      "url": "https://bit-digital.com/press-releases/bit-digital-inc-announces-first-quarter-of-fiscal-year-2025-financial-results/",
-      "source": "Bit Digital",
-      "published": "20250515T000000",
-      "overall_sentiment_score": 0.038885,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.318342,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.640329
+      "relevance_score": 0.806077
     },
     {
       "title": "Supermicro's Revolutionary Data Center Building Block Solutions® (DCBBS) Simplify and Shorten Global-Scale Buildouts of AI/IT Liquid-Cooled Data Centers",
@@ -115,6 +79,30 @@
       "relevance_score": 0.733427
     },
     {
+      "title": "How AGIX and KWEB Provide Access To The Distinct U.S. & China AI Ecosystems",
+      "summary": "The article discusses how combining AGIX and KWEB ETFs offers a blended approach to investing in the global AI opportunity by accessing both the U.S. and China AI ecosystems. It highlights the distinct characteristics and developments within each region's AI landscape, from the U.S.'s rapid innovation spurred by ChatGPT to China's cost-effective, open-source models exemplified by DeepSeek. The piece concludes that a combined portfolio effectively harnesses the long-term growth potential of the AI sector by leveraging the complementary strengths of both countries.",
+      "url": "https://kraneshares.com/how-agix-and-kweb-provide-access-to-the-distinct-u-s-china-ai-ecosystems/",
+      "source": "KraneShares",
+      "published": "20250515T000000",
+      "overall_sentiment_score": 0.315477,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.348479,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.648456
+    },
+    {
+      "title": "International Diversification Benefits Shining in 2025",
+      "summary": "International equities, which lagged the S&P 500 for over a decade, are experiencing a resurgence in 2025, largely due to U.S. tariff policies. ETFs like the WisdomTree International Equity Fund (DWM) are significantly outperforming, showing strong diversification benefits. This performance is boosted by improved earnings growth in Europe and Japan and a weakening dollar that encourages international diversification among investors.",
+      "url": "https://www.etftrends.com/model-portfolio-channel/international-diversification-benefits-shining-2025/",
+      "source": "ETF Trends",
+      "published": "20250508T000000",
+      "overall_sentiment_score": 0.31463,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.128976,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.646092
+    },
+    {
       "title": "Beamr Issues Q1-2025 CEO Letter to Shareholders: Experiencing Rising Demand for Our Technology Across Key Verticals",
       "summary": "Beamr Imaging Ltd. issued its Q1-2025 CEO Letter to Shareholders, highlighting expanded sales pipelines, growing traction from large-scale prospects, and continued innovation in cloud and product offerings. The company reported a 55% year-over-year revenue increase to $0.63M in Q1 2025 and anticipates significant revenue growth for the full year 2025, driven by market validation and strategic partnerships, including joining the AWS ISV Accelerate program and winning an NAB Show Product of the Year award.",
       "url": "https://www.globenewswire.com/news-release/2025/05/12/3078988/0/en/Beamr-Issues-Q1-2025-CEO-Letter-to-Shareholders-Experiencing-Rising-Demand-for-Our-Technology-Across-Key-Verticals.html",
@@ -125,6 +113,162 @@
       "ticker_sentiment_score": 0.349664,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.644261
+    },
+    {
+      "title": "Bit Digital, Inc. Announces First Quarter of Fiscal Year 2025 Financial Results",
+      "summary": "Bit Digital, Inc. announced its financial results for the First Quarter of 2025, reporting a total revenue of $25.1 million, a 17% decrease year-over-year, primarily due to a decline in digital asset mining revenue following the April 2024 halving. Cloud services revenue, however, saw an 84% increase, significantly offsetting the decrease. The company also highlighted strategic advancements in its infrastructure platform and diversification of revenue streams, including new cloud services agreements and the rebranding of its HPC business as WhiteFiber.",
+      "url": "https://bit-digital.com/press-releases/bit-digital-inc-announces-first-quarter-of-fiscal-year-2025-financial-results/",
+      "source": "Bit Digital",
+      "published": "20250515T000000",
+      "overall_sentiment_score": 0.038885,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.318342,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.640329
+    },
+    {
+      "title": "International Diversification Benefits Shining in 2025",
+      "summary": "International equities and related funds are demonstrating significant diversification benefits in 2025, outperforming the S&P 500 after a decade of lagging performance. Factors like the end of deflation in Europe and Japan, along with U.S. policy changes, are driving this momentum. ETFs like the WisdomTree International Equity Fund (DWM) are experiencing strong gains, highlighting the value of unhedged international allocations in portfolios.",
+      "url": "https://www.etftrends.com/model-portfolio-content-hub/international-diversification-benefits-shining-2025/",
+      "source": "ETF Trends",
+      "published": "20250508T053010",
+      "overall_sentiment_score": 0.218333,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.131697,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.637601
+    },
+    {
+      "title": "PTC Q1 Earnings Call: Revenue Tops Estimates, Cautious Tone on Macro Uncertainty",
+      "summary": "PTC reported better-than-expected Q1 CY2025 revenue and adjusted EPS, driven by strong demand for its software offerings and early success in its go-to-market transformation. While the company raised its full-year guidance, management expressed caution regarding macroeconomic uncertainties that might lead customers to phase or delay purchases. Despite potential headwinds, PTC's subscription model, AI-driven enhancements, and focus on cost control are expected to support future performance.",
+      "url": "https://finance.yahoo.com/news/ptc-q1-earnings-call-revenue-124453923.html",
+      "source": "Yahoo Finance",
+      "published": "20250514T124453",
+      "overall_sentiment_score": 0.355773,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.319516,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.636128
+    },
+    {
+      "title": "Star Tribune - Earnings To Watch: L.B. Foster (FSTR) Reports Q1 Results Tomorrow",
+      "summary": "L.B. Foster (NASDAQ: FSTR) is set to announce its Q1 earnings before market hours tomorrow. Analysts anticipate an 8% year-on-year revenue decline to $114.4 million and adjusted earnings of $0.03 per share, following a previous quarter where the company missed revenue, EBITDA, and EPS estimates. Despite past misses, analysts have reconfirmed their estimates, and the stock has seen positive sentiment in the general industrial machinery segment, with shares up 10.7% over the last month.",
+      "url": "https://markets.financialcontent.com/startribune/article/stockstory-2025-5-5-earnings-to-watch-lb-foster-fstr-reports-q1-results-tomorrow",
+      "source": "FinancialContent",
+      "published": "20250505T030700",
+      "overall_sentiment_score": 0.083905,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.124748,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.635405
+    },
+    {
+      "title": "Earnings call transcript: Aeye Inc faces challenges amid Q1 2025 results",
+      "summary": "Aeye Inc (LIDR) reported a challenging Q1 2025 with significant net losses and a stock drop, but emphasized cost-cutting measures, strategic partnerships, and the launch of its Apollo LiDAR solution for automotive and other sectors. Despite projected ongoing cash burn and negative EPS forecasts, the company highlights its capital-light model and initial contract wins in non-automotive markets as paths toward future profitability.",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-aeye-inc-faces-challenges-amid-q1-2025-results-93CH-4034888",
+      "source": "Investing.com",
+      "published": "20250508T180300",
+      "overall_sentiment_score": -0.235223,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.214192,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.632089
+    },
+    {
+      "title": "Just Four Days Till Microchip Technology Incorporated (NASDAQ:MCHP) Will Be Trading Ex-Dividend",
+      "summary": "Microchip Technology Incorporated (NASDAQ:MCHP) is set to trade ex-dividend in four days, with a dividend payment of US$0.455 per share scheduled for June 5th. The company paid a total of US$1.82 last year, resulting in a 3.0% trailing yield on its current stock price of US$61.21. Despite being unprofitable last year, Microchip Technology has shown improving income over the past five years and has consistently increased its dividend by approximately 9.8% annually over the last decade.",
+      "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-mchp/microchip-technology/news/just-four-days-till-microchip-technology-incorporated-nasdaq",
+      "source": "Simply Wall Street",
+      "published": "20250517T000000",
+      "overall_sentiment_score": 0.166196,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.135753,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.630917
+    },
+    {
+      "title": "ESG Investing, Explained: 10 Top Socially Responsible Stocks",
+      "summary": "The article explains ESG investing and provides a list of 10 top socially responsible stocks for beginners. It highlights companies like Microsoft, Levi Strauss, Teladoc Health, Home Depot, NextEra Energy, Intuit, and NVIDIA, along with ESG-focused index funds and ETFs, detailing their commitment to environmental, social, and governance factors. This guide aims to help new investors build an ESG-based portfolio with diversified and ethical choices.",
+      "url": "https://www.askmoney.com/investing/top-esg-stocks",
+      "source": "AskMoney.com",
+      "published": "20250519T000000",
+      "overall_sentiment_score": 0.3552,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.229324,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.627525
+    },
+    {
+      "title": "Winning the AI race: Strengthening U.S. capabilities in computing and innovation",
+      "summary": "Brad Smith, Vice Chair and President of Microsoft, testified before the Senate Commerce Committee on the critical issue of artificial intelligence, emphasizing three strategic priorities for the U.S. to win the AI race: innovation, diffusion, and exporting AI to allies. He highlighted the need for federal support in expanding datacenters and electrical grids, training a skilled AI workforce, and investing in research and development. The article stresses that winning the AI race requires a robust ecosystem including both private sector efforts and government policies, focusing on both technological advancement and widespread adoption of AI across all sectors.",
+      "url": "https://blogs.microsoft.com/on-the-issues/2025/05/08/winning-the-ai-race/",
+      "source": "The Official Microsoft Blog",
+      "published": "20250508T000000",
+      "overall_sentiment_score": 0.317053,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.343698,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.626987
+    },
+    {
+      "title": "Is iShares Paris-Aligned Climate MSCI USA ETF (PABU) a Strong ETF Right Now?",
+      "summary": "The iShares Paris-Aligned Climate MSCI USA ETF (PABU), launched on April 8, 2022, is a smart beta ETF focused on the Style Box - All Cap Blend category, aiming to align with Paris Agreement objectives through decarbonization and reduced climate-related risks. With over $2.12 billion in assets and a low expense ratio of 0.10%, PABU primarily invests in Information Technology, with Apple, Nvidia, and Microsoft as top holdings. The ETF has shown strong performance, up 13.72% over the last year, offering a diversified option for investors in climate-aligned strategies.",
+      "url": "https://www.sharewise.com/us/news_articles/Is_iShares_ParisAligned_Climate_MSCI_USA_ETF_PABU_a_Strong_ETF_Right_Now_Zacks_20250519_122020469",
+      "source": "sharewise.com",
+      "published": "20250519T090833",
+      "overall_sentiment_score": 0.336385,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.343548,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.62194
+    },
+    {
+      "title": "Supermicro Stock Jumps as Raymond James Kicks Off Coverage With Bullish Rating",
+      "summary": "Super Micro Computer (SMCI) shares surged after Raymond James initiated coverage with an \"outperform\" rating and a $41 price target, citing Supermicro's emergence as a market leader in AI-optimized infrastructure. Despite the recent gains, the stock is still more than 50% below its value a year ago, following recent analyst price target cuts, sales outlook reductions, and concerns over accounting practices. Raymond James analysts believe Supermicro, which holds 9% of the $145 billion AI platform market, is well-positioned for future growth.",
+      "url": "https://www.investopedia.com/supermicro-stock-jumps-as-raymond-james-kicks-off-coverage-with-bullish-rating-11733718",
+      "source": "Investopedia",
+      "published": "20250513T121200",
+      "overall_sentiment_score": 0.261538,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.092708,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.6219
+    },
+    {
+      "title": "GTA 6 release date confirmed: Is it game on for the Take Two Interactive Software stock?",
+      "summary": "Grand Theft Auto 6 (GTA 6) is now confirmed to launch on May 26, 2026, a delay from the previously anticipated autumn 2025. This highly anticipated release is expected to significantly boost Take Two Interactive Software (NASDAQ: TTWO) and potentially the broader gaming industry, despite concerns from analysts about development costs and market headwinds. Investors are closely watching for the game's impact on TTWO's stock and the gaming sector's resurgence.",
+      "url": "https://moneyweek.com/economy/global-economy/gta-6-release-take-two-interactive-software-stock",
+      "source": "MoneyWeek",
+      "published": "20250512T000000",
+      "overall_sentiment_score": 0.133829,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.249018,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.618173
+    },
+    {
+      "title": "GIBO Holdings Stock Price, News & Analysis",
+      "summary": "GIBO Holdings (NASDAQ: GIBO) operates in the internet content and information industry, specializing in an AI-generated content (AIGC) animation streaming platform for Asian users. The company has expanded its focus to include AI infrastructure, data centers, regional AI cloud partnerships, and applying AI to areas like sustainability and eVTOL aerial intelligence. GIBO recently underwent a share consolidation and successfully regained compliance with Nasdaq listing requirements, transferring its listing to the Nasdaq Capital Market.",
+      "url": "https://www.stocktitan.net/overview/GIBO/",
+      "source": "Stock Titan",
+      "published": "20250512T042824",
+      "overall_sentiment_score": 0.250115,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.215559,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.615247
+    },
+    {
+      "title": "As Investors Brace for Volatility, Look to Dividend ETF FDVV",
+      "summary": "Given current market uncertainties like sticky inflation, high interest rates, and geopolitical tensions, many investors anticipate continued volatility. Dividend ETFs, such as the Fidelity High Dividend ETF (FDVV), offer a potential solution for stability and income generation. FDVV invests in large- and mid-cap dividend-paying companies and can provide diversification benefits, offering a consistent revenue stream that can help offset market volatility.",
+      "url": "https://www.etftrends.com/etf-investing-channel/investors-brace-volatility-look-dividend-etf-fdvv/",
+      "source": "ETF Trends",
+      "published": "20250506T000000",
+      "overall_sentiment_score": 0.360363,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.301162,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.605452
     },
     {
       "title": "Chipmakers AMD, GlobalFoundries and Cirrus Logic post solid earnings and guidance, easing tariff fears",
@@ -151,18 +295,6 @@
       "relevance_score": 0.593256
     },
     {
-      "title": "Star Tribune - Earnings To Watch: L.B. Foster (FSTR) Reports Q1 Results Tomorrow",
-      "summary": "L.B. Foster (NASDAQ: FSTR) is set to announce its Q1 earnings before market hours tomorrow. Analysts anticipate an 8% year-on-year revenue decline to $114.4 million and adjusted earnings of $0.03 per share, following a previous quarter where the company missed revenue, EBITDA, and EPS estimates. Despite past misses, analysts have reconfirmed their estimates, and the stock has seen positive sentiment in the general industrial machinery segment, with shares up 10.7% over the last month.",
-      "url": "https://markets.financialcontent.com/startribune/article/stockstory-2025-5-5-earnings-to-watch-lb-foster-fstr-reports-q1-results-tomorrow",
-      "source": "FinancialContent",
-      "published": "20250505T030700",
-      "overall_sentiment_score": 0.083905,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.124748,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.635405
-    },
-    {
       "title": "AGM Group announces 50-for-1 share consolidation",
       "summary": "AGM Group Holdings Inc. (NASDAQ: AGMH) announced a 50-for-1 share consolidation, effective June 3, 2025, to meet Nasdaq's minimum bid price requirement. The company's stock price has declined significantly, but InvestingPro analysis suggests potential undervaluation, trading at 0.17 times book value. This consolidation reduces authorized shares to 8 million and aims to maintain their Nasdaq listing.",
       "url": "https://www.investing.com/news/company-news/agm-group-announces-50for1-share-consolidation-93CH-4046067",
@@ -173,138 +305,6 @@
       "ticker_sentiment_score": 0.082852,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.539949
-    },
-    {
-      "title": "PTC Q1 Earnings Call: Revenue Tops Estimates, Cautious Tone on Macro Uncertainty",
-      "summary": "PTC reported better-than-expected Q1 CY2025 revenue and adjusted EPS, driven by strong demand for its software offerings and early success in its go-to-market transformation. While the company raised its full-year guidance, management expressed caution regarding macroeconomic uncertainties that might lead customers to phase or delay purchases. Despite potential headwinds, PTC's subscription model, AI-driven enhancements, and focus on cost control are expected to support future performance.",
-      "url": "https://finance.yahoo.com/news/ptc-q1-earnings-call-revenue-124453923.html",
-      "source": "Yahoo Finance",
-      "published": "20250514T124453",
-      "overall_sentiment_score": 0.355773,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.319516,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.636128
-    },
-    {
-      "title": "Supermicro Stock Jumps as Raymond James Kicks Off Coverage With Bullish Rating",
-      "summary": "Super Micro Computer (SMCI) shares surged after Raymond James initiated coverage with an \"outperform\" rating and a $41 price target, citing Supermicro's emergence as a market leader in AI-optimized infrastructure. Despite the recent gains, the stock is still more than 50% below its value a year ago, following recent analyst price target cuts, sales outlook reductions, and concerns over accounting practices. Raymond James analysts believe Supermicro, which holds 9% of the $145 billion AI platform market, is well-positioned for future growth.",
-      "url": "https://www.investopedia.com/supermicro-stock-jumps-as-raymond-james-kicks-off-coverage-with-bullish-rating-11733718",
-      "source": "Investopedia",
-      "published": "20250513T121200",
-      "overall_sentiment_score": 0.261538,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.092708,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.6219
-    },
-    {
-      "title": "GIBO Holdings Stock Price, News & Analysis",
-      "summary": "GIBO Holdings (NASDAQ: GIBO) operates in the internet content and information industry, specializing in an AI-generated content (AIGC) animation streaming platform for Asian users. The company has expanded its focus to include AI infrastructure, data centers, regional AI cloud partnerships, and applying AI to areas like sustainability and eVTOL aerial intelligence. GIBO recently underwent a share consolidation and successfully regained compliance with Nasdaq listing requirements, transferring its listing to the Nasdaq Capital Market.",
-      "url": "https://www.stocktitan.net/overview/GIBO/",
-      "source": "Stock Titan",
-      "published": "20250512T042824",
-      "overall_sentiment_score": 0.250115,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.215559,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.615247
-    },
-    {
-      "title": "GTA 6 release date confirmed: Is it game on for the Take Two Interactive Software stock?",
-      "summary": "Grand Theft Auto 6 (GTA 6) is now confirmed to launch on May 26, 2026, a delay from the previously anticipated autumn 2025. This highly anticipated release is expected to significantly boost Take Two Interactive Software (NASDAQ: TTWO) and potentially the broader gaming industry, despite concerns from analysts about development costs and market headwinds. Investors are closely watching for the game's impact on TTWO's stock and the gaming sector's resurgence.",
-      "url": "https://moneyweek.com/economy/global-economy/gta-6-release-take-two-interactive-software-stock",
-      "source": "MoneyWeek",
-      "published": "20250512T000000",
-      "overall_sentiment_score": 0.133829,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.249018,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.618173
-    },
-    {
-      "title": "Earnings call transcript: Aeye Inc faces challenges amid Q1 2025 results",
-      "summary": "Aeye Inc (LIDR) reported a challenging Q1 2025 with significant net losses and a stock drop, but emphasized cost-cutting measures, strategic partnerships, and the launch of its Apollo LiDAR solution for automotive and other sectors. Despite projected ongoing cash burn and negative EPS forecasts, the company highlights its capital-light model and initial contract wins in non-automotive markets as paths toward future profitability.",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-aeye-inc-faces-challenges-amid-q1-2025-results-93CH-4034888",
-      "source": "Investing.com",
-      "published": "20250508T180300",
-      "overall_sentiment_score": -0.235223,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.214192,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.632089
-    },
-    {
-      "title": "Winning the AI race: Strengthening U.S. capabilities in computing and innovation",
-      "summary": "Brad Smith, Vice Chair and President of Microsoft, testified before the Senate Commerce Committee on the critical issue of artificial intelligence, emphasizing three strategic priorities for the U.S. to win the AI race: innovation, diffusion, and exporting AI to allies. He highlighted the need for federal support in expanding datacenters and electrical grids, training a skilled AI workforce, and investing in research and development. The article stresses that winning the AI race requires a robust ecosystem including both private sector efforts and government policies, focusing on both technological advancement and widespread adoption of AI across all sectors.",
-      "url": "https://blogs.microsoft.com/on-the-issues/2025/05/08/winning-the-ai-race/",
-      "source": "The Official Microsoft Blog",
-      "published": "20250508T000000",
-      "overall_sentiment_score": 0.317053,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.343698,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.626987
-    },
-    {
-      "title": "T. ROWE PRICE RELEASES NEWEST EPISODE OF PODCAST SERIES FEATURING JENSEN HUANG, FOUNDER AND CEO OF NVIDIA",
-      "summary": "T. Rowe Price released a new episode of its investment-themed podcast, \"The Angle,\" featuring Jensen Huang, founder and CEO of NVIDIA. Huang discusses the AI revolution with host Eric Veiel, focusing on the future of AI, its convergence with robotics, and energy efficiency. This episode is part of the podcast's fourth season, which also includes interviews with other prominent CEOs.",
-      "url": "https://www.prnewswire.com/news-releases/t-rowe-price-releases-newest-episode-of-podcast-series-featuring-jensen-huang-founder-and-ceo-of-nvidia-302448875.html",
-      "source": "PR Newswire",
-      "published": "20250507T123600",
-      "overall_sentiment_score": 0.201315,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.265358,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.806077
-    },
-    {
-      "title": "As Investors Brace for Volatility, Look to Dividend ETF FDVV",
-      "summary": "Given current market uncertainties like sticky inflation, high interest rates, and geopolitical tensions, many investors anticipate continued volatility. Dividend ETFs, such as the Fidelity High Dividend ETF (FDVV), offer a potential solution for stability and income generation. FDVV invests in large- and mid-cap dividend-paying companies and can provide diversification benefits, offering a consistent revenue stream that can help offset market volatility.",
-      "url": "https://www.etftrends.com/etf-investing-channel/investors-brace-volatility-look-dividend-etf-fdvv/",
-      "source": "ETF Trends",
-      "published": "20250506T000000",
-      "overall_sentiment_score": 0.360363,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.301162,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.605452
-    },
-    {
-      "title": "ESG Investing, Explained: 10 Top Socially Responsible Stocks",
-      "summary": "The article explains ESG investing and provides a list of 10 top socially responsible stocks for beginners. It highlights companies like Microsoft, Levi Strauss, Teladoc Health, Home Depot, NextEra Energy, Intuit, and NVIDIA, along with ESG-focused index funds and ETFs, detailing their commitment to environmental, social, and governance factors. This guide aims to help new investors build an ESG-based portfolio with diversified and ethical choices.",
-      "url": "https://www.askmoney.com/investing/top-esg-stocks",
-      "source": "AskMoney.com",
-      "published": "20250519T000000",
-      "overall_sentiment_score": 0.3552,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.229324,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.627525
-    },
-    {
-      "title": "International Diversification Benefits Shining in 2025",
-      "summary": "International equities and related funds are demonstrating significant diversification benefits in 2025, outperforming the S&P 500 after a decade of lagging performance. Factors like the end of deflation in Europe and Japan, along with U.S. policy changes, are driving this momentum. ETFs like the WisdomTree International Equity Fund (DWM) are experiencing strong gains, highlighting the value of unhedged international allocations in portfolios.",
-      "url": "https://www.etftrends.com/model-portfolio-content-hub/international-diversification-benefits-shining-2025/",
-      "source": "ETF Trends",
-      "published": "20250508T053010",
-      "overall_sentiment_score": 0.218333,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.131697,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.637601
-    },
-    {
-      "title": "International Diversification Benefits Shining in 2025",
-      "summary": "International equities, which lagged the S&P 500 for over a decade, are experiencing a resurgence in 2025, largely due to U.S. tariff policies. ETFs like the WisdomTree International Equity Fund (DWM) are significantly outperforming, showing strong diversification benefits. This performance is boosted by improved earnings growth in Europe and Japan and a weakening dollar that encourages international diversification among investors.",
-      "url": "https://www.etftrends.com/model-portfolio-channel/international-diversification-benefits-shining-2025/",
-      "source": "ETF Trends",
-      "published": "20250508T000000",
-      "overall_sentiment_score": 0.31463,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.128976,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.646092
     }
   ]
 }

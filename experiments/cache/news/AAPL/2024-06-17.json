@@ -19,18 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Ozempic Maker Novo Nordisk Closes In On Lego As Denmark's Most Valuable Brand: Report",
-      "summary": "Pharmaceutical giant Novo Nordisk is rapidly closing in on Lego A/S for the title of Denmark's most valuable brand, driven by the immense global popularity of its weight-loss drugs, Ozempic and Wegovy. While Lego saw a modest 3% brand value increase to $8 billion, Novo Nordisk's brand value surged by 59% to $5.1 billion, significantly impacting Denmark's GDP and making it Europe's most valuable company. Despite this growth, both companies remain far behind global leader Apple Inc., valued at $517 billion.",
-      "url": "https://www.sahmcapital.com/news/content/ozempic-maker-novo-nordisk-closes-in-on-lego-as-denmarks-most-valuable-brand-report-2024-06-12",
-      "source": "Sahm",
-      "published": "20240612T025817",
-      "overall_sentiment_score": 0.183455,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.115973,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.707875
-    },
-    {
       "title": "Private Cloud Compute: A new frontier for AI privacy in the cloud",
       "summary": "Apple introduces Private Cloud Compute (PCC), a new cloud intelligence system designed for private AI processing with Apple Intelligence. PCC extends Apple's industry-leading device security and privacy to the cloud, ensuring personal user data remains inaccessible to anyone but the user, including Apple. The system is built with custom Apple silicon and a hardened operating system, featuring stateless computation, enforceable guarantees, no privileged access, non-targetability, and verifiable transparency for security researchers.",
       "url": "https://security.apple.com/blog/private-cloud-compute/",
@@ -41,54 +29,6 @@
       "ticker_sentiment_score": 0.416906,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "The 3 Best ETFs to Buy in June 2024",
-      "summary": "This article highlights three top ETFs for June 2024: Avantis U.S. Large Cap Value ETF (AVLV), abrdn Bloomberg All Commodity Longer Dated Strategy K-1 Free ETF (BCD), and Vanguard U.S. Multifactor ETF (VFMF). These ETFs are recommended for their low expense ratios, solid performance, and positive Morningstar ratings, offering diversification and growth potential to investors.",
-      "url": "https://investorplace.com/2024/06/the-3-best-etfs-to-buy-in-june-2024/",
-      "source": "InvestorPlace",
-      "published": "20240605T080000",
-      "overall_sentiment_score": 0.342209,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.342286,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.637794
-    },
-    {
-      "title": "Trade the AI Trend With This Pair of Leveraged ETFs",
-      "summary": "This article discusses how investors can capitalize on the artificial intelligence (AI) trend using leveraged ETFs. It highlights companies like Nvidia and Apple as key players in the AI space and introduces two Direxion leveraged ETFs, AIBU and AIBD, which offer 200% exposure or inverse exposure to the Solactive US AI & Big Data Index, enabling traders to react to short-term market convictions.",
-      "url": "https://www.etftrends.com/leveraged-inverse-content-hub/trade-ai-trend-pair-leveraged-etfs/",
-      "source": "ETF Trends",
-      "published": "20240617T053034",
-      "overall_sentiment_score": 0.448391,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.307886,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.729007
-    },
-    {
-      "title": "Trade the AI Trend With This Pair of Leveraged ETFs",
-      "summary": "This article discusses how investors can capitalize on the booming artificial intelligence (AI) trend using leveraged ETFs. It highlights companies like Nvidia and Apple as key players in the AI space and introduces two Direxion leveraged ETFs, AIBU and AIBD, which offer 200% exposure to the Solactive US AI & Big Data Index for both upside and inverse plays. These ETFs provide traders with flexible options to express short-term convictions in the AI-big data sector.",
-      "url": "https://etftrends.com/leveraged-inverse-channel/trade-ai-trend-pair-leveraged-etfs/",
-      "source": "ETF Trends",
-      "published": "20240617T045213",
-      "overall_sentiment_score": 0.255102,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.187343,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.794071
-    },
-    {
-      "title": "3 Great Funds for the Class of 2024",
-      "summary": "This article suggests three investment funds for the Class of 2024, suitable for new graduates entering the investment world. It highlights the US total stock market (like Schwab US Broad Market ETF) for broad diversification, target-date funds (such as Vanguard Target Retirement 2070 Fund) for retirement savings, and balanced funds (like BlackRock Sustainable Balanced) for medium-term goals with a focus on sustainability. The author emphasizes the importance of investing for the future while cautioning against using short-term savings for volatile investments.",
-      "url": "https://www.morningstar.com/funds/3-great-funds-class-2024-2",
-      "source": "Morningstar",
-      "published": "20240617T000000",
-      "overall_sentiment_score": 0.295316,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.277798,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.629137
     },
     {
       "title": "Apple adds BNPL offerings from rivals",
@@ -115,16 +55,16 @@
       "relevance_score": 0.931365
     },
     {
-      "title": "5 things you need to know before nvidia's stock split.",
-      "summary": "This article details five crucial points regarding NVIDIA's upcoming 1:10 stock split, outlining what a stock split is, its impact on investors and options, historical stock performance post-split, and potential broader market effects. It explains how the split lowers the per-share price to attract more investors and could lead to increased liquidity, while also discussing the proportional adjustment of option contracts. The article also touches upon the \"Nvidia Effect\" on related stocks and the potential for NVIDIA's split to trigger a wave of similar actions in the US stock market among other high-priced S&P 500 constituents.",
-      "url": "https://news.futunn.com/en/post/43307078/5-things-you-need-to-know-before-nvidia-s-stock",
-      "source": "富途牛牛",
-      "published": "20240604T220600",
-      "overall_sentiment_score": 0.293952,
+      "title": "Trade the AI Trend With This Pair of Leveraged ETFs",
+      "summary": "This article discusses how investors can capitalize on the booming artificial intelligence (AI) trend using leveraged ETFs. It highlights companies like Nvidia and Apple as key players in the AI space and introduces two Direxion leveraged ETFs, AIBU and AIBD, which offer 200% exposure to the Solactive US AI & Big Data Index for both upside and inverse plays. These ETFs provide traders with flexible options to express short-term convictions in the AI-big data sector.",
+      "url": "https://etftrends.com/leveraged-inverse-channel/trade-ai-trend-pair-leveraged-etfs/",
+      "source": "ETF Trends",
+      "published": "20240617T045213",
+      "overall_sentiment_score": 0.255102,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.131005,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.634741
+      "ticker_sentiment_score": 0.187343,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.794071
     },
     {
       "title": "These San Diego and California companies made the 2024 For 500 list",
@@ -137,6 +77,66 @@
       "ticker_sentiment_score": 0.439972,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.74538
+    },
+    {
+      "title": "Trade the AI Trend With This Pair of Leveraged ETFs",
+      "summary": "This article discusses how investors can capitalize on the artificial intelligence (AI) trend using leveraged ETFs. It highlights companies like Nvidia and Apple as key players in the AI space and introduces two Direxion leveraged ETFs, AIBU and AIBD, which offer 200% exposure or inverse exposure to the Solactive US AI & Big Data Index, enabling traders to react to short-term market convictions.",
+      "url": "https://www.etftrends.com/leveraged-inverse-content-hub/trade-ai-trend-pair-leveraged-etfs/",
+      "source": "ETF Trends",
+      "published": "20240617T053034",
+      "overall_sentiment_score": 0.448391,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.307886,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.729007
+    },
+    {
+      "title": "Ozempic Maker Novo Nordisk Closes In On Lego As Denmark's Most Valuable Brand: Report",
+      "summary": "Pharmaceutical giant Novo Nordisk is rapidly closing in on Lego A/S for the title of Denmark's most valuable brand, driven by the immense global popularity of its weight-loss drugs, Ozempic and Wegovy. While Lego saw a modest 3% brand value increase to $8 billion, Novo Nordisk's brand value surged by 59% to $5.1 billion, significantly impacting Denmark's GDP and making it Europe's most valuable company. Despite this growth, both companies remain far behind global leader Apple Inc., valued at $517 billion.",
+      "url": "https://www.sahmcapital.com/news/content/ozempic-maker-novo-nordisk-closes-in-on-lego-as-denmarks-most-valuable-brand-report-2024-06-12",
+      "source": "Sahm",
+      "published": "20240612T025817",
+      "overall_sentiment_score": 0.183455,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.115973,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.707875
+    },
+    {
+      "title": "The 3 Best ETFs to Buy in June 2024",
+      "summary": "This article highlights three top ETFs for June 2024: Avantis U.S. Large Cap Value ETF (AVLV), abrdn Bloomberg All Commodity Longer Dated Strategy K-1 Free ETF (BCD), and Vanguard U.S. Multifactor ETF (VFMF). These ETFs are recommended for their low expense ratios, solid performance, and positive Morningstar ratings, offering diversification and growth potential to investors.",
+      "url": "https://investorplace.com/2024/06/the-3-best-etfs-to-buy-in-june-2024/",
+      "source": "InvestorPlace",
+      "published": "20240605T080000",
+      "overall_sentiment_score": 0.342209,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.342286,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.637794
+    },
+    {
+      "title": "5 things you need to know before nvidia's stock split.",
+      "summary": "This article details five crucial points regarding NVIDIA's upcoming 1:10 stock split, outlining what a stock split is, its impact on investors and options, historical stock performance post-split, and potential broader market effects. It explains how the split lowers the per-share price to attract more investors and could lead to increased liquidity, while also discussing the proportional adjustment of option contracts. The article also touches upon the \"Nvidia Effect\" on related stocks and the potential for NVIDIA's split to trigger a wave of similar actions in the US stock market among other high-priced S&P 500 constituents.",
+      "url": "https://news.futunn.com/en/post/43307078/5-things-you-need-to-know-before-nvidia-s-stock",
+      "source": "富途牛牛",
+      "published": "20240604T220600",
+      "overall_sentiment_score": 0.293952,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.131005,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.634741
+    },
+    {
+      "title": "3 Great Funds for the Class of 2024",
+      "summary": "This article suggests three investment funds for the Class of 2024, suitable for new graduates entering the investment world. It highlights the US total stock market (like Schwab US Broad Market ETF) for broad diversification, target-date funds (such as Vanguard Target Retirement 2070 Fund) for retirement savings, and balanced funds (like BlackRock Sustainable Balanced) for medium-term goals with a focus on sustainability. The author emphasizes the importance of investing for the future while cautioning against using short-term savings for volatile investments.",
+      "url": "https://www.morningstar.com/funds/3-great-funds-class-2024-2",
+      "source": "Morningstar",
+      "published": "20240617T000000",
+      "overall_sentiment_score": 0.295316,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.277798,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.629137
     },
     {
       "title": "Trade the AI Trend With This Pair of Leveraged ETFs",

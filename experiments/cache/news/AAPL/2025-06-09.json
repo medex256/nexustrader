@@ -7,40 +7,64 @@
   "article_count": 12,
   "articles": [
     {
-      "title": "XOVR ETF Adds Anduril, Joining SpaceX to Offer Pre-IPO Access",
-      "summary": "ERShares, through its XOVR ETF, has added Anduril Industries as a new private equity position, offering retail investors access to pre-IPO companies. This move follows previous investments in SpaceX and Klarna, with Anduril becoming the second-largest private holding for XOVR. The ETF aims to provide diversified, liquid access to high-growth public companies and elite pre-IPO firms, leveraging a proprietary research model to identify category-defining companies.",
-      "url": "https://www.globenewswire.com/news-release/2025/06/06/3095423/0/en/XOVR-ETF-Adds-Anduril-Joining-SpaceX-to-Offer-Pre-IPO-Access.html",
-      "source": "GlobeNewswire",
-      "published": "20250606T154800",
-      "overall_sentiment_score": 0.299619,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.235036,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.574519
-    },
-    {
-      "title": "MSTY vs. SPYI: Insane Dividend Yields or Tax-Smart Income—Which Wins?",
-      "summary": "This article compares two dividend ETFs, MSTY and SPYI, for passive income investors. MSTY offers an astounding 94.37% distribution rate but has a higher expense ratio and is tied to MicroStrategy stock, while SPYI provides more diversification, a lower expense ratio, tax advantages, and a 12.5% distribution rate. The choice between them depends on an investor's tolerance for volatility, tax considerations, and preference for ultra-high yield versus diversified, steady income.",
-      "url": "https://247wallst.com/investing/2025/06/06/msty-vs-spyi-insane-dividend-yields-or-tax-smart-income-which-wins/",
-      "source": "24/7 Wall St.",
-      "published": "20250606T093800",
-      "overall_sentiment_score": 0.170152,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.143027,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.619325
-    },
-    {
-      "title": "2 Unstoppable ETFs for Growth Investors to Buy and Hold for Years",
-      "summary": "This article highlights two ETFs, the iShares Exponential Technologies ETF (XT) and Invesco QQQ Trust (QQQ), as promising long-term investments for growth investors. XT diversifies across global innovation leaders with a modest expense ratio, while QQQ tracks the top 100 non-financial Nasdaq stocks, offering higher concentration in influential tech giants like Microsoft, Nvidia, and Apple. Both ETFs are presented as \"buy and forget\" options for potentially market-beating returns.",
-      "url": "https://finviz.com/news/75190/2-unstoppable-etfs-for-growth-investors-to-buy-and-hold-for-years",
+      "title": "Better Dividend Growth ETF: Vanguard Dividend Appreciation ETF or iShares Core Dividend Growth ETF",
+      "summary": "This article compares two prominent dividend growth ETFs: the Vanguard Dividend Appreciation ETF (VIG) and the iShares Core Dividend Growth ETF (DGRO). It details their different index tracking methodologies, top holdings, expense ratios, and historical performance to help investors decide which fund is better suited for their dividend growth strategy. While DGRO offers a slightly higher yield, VIG boasts a lower expense ratio, making both solid options depending on investor priorities.",
+      "url": "https://finviz.com/news/70430/better-dividend-growth-etf-vanguard-dividend-appreciation-etf-or-ishares-core-dividend-growth-etf",
       "source": "Finviz",
-      "published": "20250606T080000",
-      "overall_sentiment_score": 0.347701,
+      "published": "20250530T103300",
+      "overall_sentiment_score": 0.29029,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.329794,
+      "ticker_sentiment_score": 0.318266,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.594689
+      "relevance_score": 0.725201
+    },
+    {
+      "title": "Volatility ETFs Spike on Renewed Trump Tariff Threats",
+      "summary": "Volatility Exchange Traded Funds (ETFs) have seen a spike following renewed threats of tariffs from former President Donald Trump on EU goods and imported smartphones. This surge in volatility is also exacerbated by worries over a ballooning U.S. deficit and a Moody's credit rating downgrade. Investors are warned that these volatility products are generally suitable only for short-term traders due to contango issues, but current market conditions may present a temporary opportunity.",
+      "url": "https://www.tradingview.com/news/zacks:a65b883da094b:0-volatility-etfs-spike-on-renewed-trump-tariff-threats/",
+      "source": "TradingView",
+      "published": "20250526T052159",
+      "overall_sentiment_score": 0.159545,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.24759,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.713791
+    },
+    {
+      "title": "Maplebear Inc. appoints new CEO and expands share buyback",
+      "summary": "Maplebear Inc. (Instacart) has announced Chris Rogers as its new CEO and President, effective August 15, 2025, succeeding Fidji Simo, who will remain as Chair of the Board. The company also expanded its share repurchase program authorization to $1 billion from $750 million. These changes come amid positive financial performance and analyst upgrades for the company.",
+      "url": "https://www.investing.com/news/sec-filings/maplebear-inc-appoints-new-ceo-and-expands-share-buyback-93CH-4067985",
+      "source": "Investing.com",
+      "published": "20250528T091600",
+      "overall_sentiment_score": 0.174803,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.128349,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.710498
+    },
+    {
+      "title": "Will the MAG 7 Stocks Continue to Lead the Stock Market?",
+      "summary": "The article discusses the continued influence of the \"Magnificent Seven\" (MAG 7) stocks—Microsoft, NVIDIA, Apple, Amazon, Alphabet, Meta Platforms, and Tesla—on the US stock market. It highlights their market capitalization leadership and their resilience following a market correction caused by tariff fears. The author suggests that the MAGS ETF offers a diversified way to invest in these leading technology companies and expects them to maintain their market leadership.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/AMZN/pressreleases/32703849/will-the-mag-7-stocks-continue-to-lead-the-stock-market/",
+      "source": "The Globe and Mail",
+      "published": "20250603T042349",
+      "overall_sentiment_score": 0.270746,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.281721,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.709017
+    },
+    {
+      "title": "GlobalFoundries Announces $16B U.S. Investment to Reshore Essential Chip Manufacturing and Accelerate AI Growth",
+      "summary": "GlobalFoundries (GF) announced a $16 billion investment to expand its semiconductor manufacturing and advanced packaging capabilities across its facilities in New York and Vermont. This strategic investment is backed by major tech companies like Apple, SpaceX, AMD, Qualcomm, NXP, and GM, and aims to reshore essential chip manufacturing to the U.S., accelerating innovation in AI-enabling and power-efficient technologies. The investment supports the explosive growth in AI and strengthens the domestic semiconductor supply chain and leadership.",
+      "url": "https://gf.com/gf-press-release/globalfoundries-announces-16b-u-s-investment-to-reshore-essential-chip-manufacturing-and-accelerate-ai-growth/",
+      "source": "GlobalFoundries",
+      "published": "20250604T000000",
+      "overall_sentiment_score": 0.347877,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.337218,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.695956
     },
     {
       "title": "Should SPDR MSCI USA StrategicFactors ETF (QUS) Be on Your Investing Radar?",
@@ -67,42 +91,6 @@
       "relevance_score": 0.634738
     },
     {
-      "title": "Better Dividend Growth ETF: Vanguard Dividend Appreciation ETF or iShares Core Dividend Growth ETF",
-      "summary": "This article compares two prominent dividend growth ETFs: the Vanguard Dividend Appreciation ETF (VIG) and the iShares Core Dividend Growth ETF (DGRO). It details their different index tracking methodologies, top holdings, expense ratios, and historical performance to help investors decide which fund is better suited for their dividend growth strategy. While DGRO offers a slightly higher yield, VIG boasts a lower expense ratio, making both solid options depending on investor priorities.",
-      "url": "https://finviz.com/news/70430/better-dividend-growth-etf-vanguard-dividend-appreciation-etf-or-ishares-core-dividend-growth-etf",
-      "source": "Finviz",
-      "published": "20250530T103300",
-      "overall_sentiment_score": 0.29029,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.318266,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.725201
-    },
-    {
-      "title": "Volatility ETFs Spike on Renewed Trump Tariff Threats",
-      "summary": "Volatility Exchange Traded Funds (ETFs) have seen a spike following renewed threats of tariffs from former President Donald Trump on EU goods and imported smartphones. This surge in volatility is also exacerbated by worries over a ballooning U.S. deficit and a Moody's credit rating downgrade. Investors are warned that these volatility products are generally suitable only for short-term traders due to contango issues, but current market conditions may present a temporary opportunity.",
-      "url": "https://www.tradingview.com/news/zacks:a65b883da094b:0-volatility-etfs-spike-on-renewed-trump-tariff-threats/",
-      "source": "TradingView",
-      "published": "20250526T052159",
-      "overall_sentiment_score": 0.159545,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.24759,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.713791
-    },
-    {
-      "title": "GlobalFoundries Announces $16B U.S. Investment to Reshore Essential Chip Manufacturing and Accelerate AI Growth",
-      "summary": "GlobalFoundries (GF) announced a $16 billion investment to expand its semiconductor manufacturing and advanced packaging capabilities across its facilities in New York and Vermont. This strategic investment is backed by major tech companies like Apple, SpaceX, AMD, Qualcomm, NXP, and GM, and aims to reshore essential chip manufacturing to the U.S., accelerating innovation in AI-enabling and power-efficient technologies. The investment supports the explosive growth in AI and strengthens the domestic semiconductor supply chain and leadership.",
-      "url": "https://gf.com/gf-press-release/globalfoundries-announces-16b-u-s-investment-to-reshore-essential-chip-manufacturing-and-accelerate-ai-growth/",
-      "source": "GlobalFoundries",
-      "published": "20250604T000000",
-      "overall_sentiment_score": 0.347877,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.337218,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.695956
-    },
-    {
       "title": "Alumni Spotlight: Kate Pytlewski",
       "summary": "This article spotlights Kate Pytlewski, VP, Deputy General Counsel at EPAM Systems, Inc., highlighting her career progression from an associate at Faegre Drinker to her current leadership role. She discusses the challenges and rewards of in-house counsel work, particularly navigating global crises, and reflects on her positive experiences and mentorship at Faegre Drinker. Pytlewski also shares her thoughts on artificial intelligence in the legal industry and her personal interests and future plans.",
       "url": "https://www.faegredrinker.com/en/about/news/2025/6/alumni-spotlight-kate-pytlewski",
@@ -115,28 +103,16 @@
       "relevance_score": 0.626024
     },
     {
-      "title": "Will the MAG 7 Stocks Continue to Lead the Stock Market?",
-      "summary": "The article discusses the continued influence of the \"Magnificent Seven\" (MAG 7) stocks—Microsoft, NVIDIA, Apple, Amazon, Alphabet, Meta Platforms, and Tesla—on the US stock market. It highlights their market capitalization leadership and their resilience following a market correction caused by tariff fears. The author suggests that the MAGS ETF offers a diversified way to invest in these leading technology companies and expects them to maintain their market leadership.",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/AMZN/pressreleases/32703849/will-the-mag-7-stocks-continue-to-lead-the-stock-market/",
-      "source": "The Globe and Mail",
-      "published": "20250603T042349",
-      "overall_sentiment_score": 0.270746,
+      "title": "MSTY vs. SPYI: Insane Dividend Yields or Tax-Smart Income—Which Wins?",
+      "summary": "This article compares two dividend ETFs, MSTY and SPYI, for passive income investors. MSTY offers an astounding 94.37% distribution rate but has a higher expense ratio and is tied to MicroStrategy stock, while SPYI provides more diversification, a lower expense ratio, tax advantages, and a 12.5% distribution rate. The choice between them depends on an investor's tolerance for volatility, tax considerations, and preference for ultra-high yield versus diversified, steady income.",
+      "url": "https://247wallst.com/investing/2025/06/06/msty-vs-spyi-insane-dividend-yields-or-tax-smart-income-which-wins/",
+      "source": "24/7 Wall St.",
+      "published": "20250606T093800",
+      "overall_sentiment_score": 0.170152,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.281721,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.709017
-    },
-    {
-      "title": "Maplebear Inc. appoints new CEO and expands share buyback",
-      "summary": "Maplebear Inc. (Instacart) has announced Chris Rogers as its new CEO and President, effective August 15, 2025, succeeding Fidji Simo, who will remain as Chair of the Board. The company also expanded its share repurchase program authorization to $1 billion from $750 million. These changes come amid positive financial performance and analyst upgrades for the company.",
-      "url": "https://www.investing.com/news/sec-filings/maplebear-inc-appoints-new-ceo-and-expands-share-buyback-93CH-4067985",
-      "source": "Investing.com",
-      "published": "20250528T091600",
-      "overall_sentiment_score": 0.174803,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.128349,
+      "ticker_sentiment_score": 0.143027,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.710498
+      "relevance_score": 0.619325
     },
     {
       "title": "Is iShares MSCI ACWI Low Carbon Target ETF (CRBN) a Strong ETF Right Now?",
@@ -149,6 +125,30 @@
       "ticker_sentiment_score": 0.111364,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.609045
+    },
+    {
+      "title": "2 Unstoppable ETFs for Growth Investors to Buy and Hold for Years",
+      "summary": "This article highlights two ETFs, the iShares Exponential Technologies ETF (XT) and Invesco QQQ Trust (QQQ), as promising long-term investments for growth investors. XT diversifies across global innovation leaders with a modest expense ratio, while QQQ tracks the top 100 non-financial Nasdaq stocks, offering higher concentration in influential tech giants like Microsoft, Nvidia, and Apple. Both ETFs are presented as \"buy and forget\" options for potentially market-beating returns.",
+      "url": "https://finviz.com/news/75190/2-unstoppable-etfs-for-growth-investors-to-buy-and-hold-for-years",
+      "source": "Finviz",
+      "published": "20250606T080000",
+      "overall_sentiment_score": 0.347701,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.329794,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.594689
+    },
+    {
+      "title": "XOVR ETF Adds Anduril, Joining SpaceX to Offer Pre-IPO Access",
+      "summary": "ERShares, through its XOVR ETF, has added Anduril Industries as a new private equity position, offering retail investors access to pre-IPO companies. This move follows previous investments in SpaceX and Klarna, with Anduril becoming the second-largest private holding for XOVR. The ETF aims to provide diversified, liquid access to high-growth public companies and elite pre-IPO firms, leveraging a proprietary research model to identify category-defining companies.",
+      "url": "https://www.globenewswire.com/news-release/2025/06/06/3095423/0/en/XOVR-ETF-Adds-Anduril-Joining-SpaceX-to-Offer-Pre-IPO-Access.html",
+      "source": "GlobeNewswire",
+      "published": "20250606T154800",
+      "overall_sentiment_score": 0.299619,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.235036,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.574519
     }
   ]
 }

@@ -7,6 +7,18 @@
   "article_count": 5,
   "articles": [
     {
+      "title": "Roe v. Wade overturned: Here are companies paying for abortion travel costs for employees",
+      "summary": "Following the Supreme Court's decision to overturn Roe v. Wade, numerous major U.S. companies announced expanded support and financial assistance for employees seeking abortions in states with new restrictions. This support often includes covering travel expenses for medical care unavailable in their home states. Corporations are responding to pressure from investors, customers, and employees, and are concerned about the impact on talent attraction and retention.",
+      "url": "https://abc7.com/post/roe-v-wade-overturned-us-companies-abortion-care-travel-costs/11993769/",
+      "source": "ABC7 Los Angeles",
+      "published": "20220624T174626",
+      "overall_sentiment_score": 0.405613,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.430967,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.710754
+    },
+    {
       "title": "Target completes 1,000th store remodel — here’s what it means",
       "summary": "Target Corp. has completed its 1,000th store remodel, a key milestone in its \"stores-first\" strategy, which has shown a 2% to 4% sales bump in updated stores. The company's 2022 remodel program is its most ambitious yet, including full-store remodels, fulfillment remodels to boost same-day services, and the addition of Drive Up canopies. These renovations incorporate welcoming elements, consistent layouts, and shop-in-shop experiences, while also focusing on sustainability and improving customer loyalty.",
       "url": "https://chainstoreage.com/target-completes-1000th-store-remodel-heres-what-it-means",
@@ -31,18 +43,6 @@
       "relevance_score": 0.622747
     },
     {
-      "title": "BITI Chart | ProShares Short Bitcoin Strategy ETF",
-      "summary": "This page provides a live, interactive chart for the ProShares Short Bitcoin Strategy ETF (BITI), allowing users to analyze its performance. The chart offers various customization options and technical indicators to help investors understand price movements. It also includes current market data for BITI, such as its price, daily range, and 52-week range.",
-      "url": "https://www.investing.com/etfs/biti-nyse-chart",
-      "source": "Investing.com",
-      "published": "20220621T180844",
-      "overall_sentiment_score": 0.057962,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.069385,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.570501
-    },
-    {
       "title": "Abortion assistance: Kroger to offer up to $4,000 of out-of-state travel costs for employees seeking abortion",
       "summary": "Kroger announced it will offer up to $4,000 to cover out-of-state travel costs for employees seeking abortion and fertility treatments, following the Supreme Court's decision to overturn Roe v. Wade. The company, headquartered in Cincinnati, operates stores in states like Ohio and Kentucky where abortion is now banned or mostly banned. This move aligns Kroger with nearly two dozen other major U.S. companies providing similar assistance.",
       "url": "https://www.wcpo.com/news/local-news/hamilton-county/cincinnati/abortion-assistance-kroger-to-offer-up-to-4-000-of-out-of-state-travel-costs-for-employees-seeking-abortion",
@@ -55,16 +55,16 @@
       "relevance_score": 0.61389
     },
     {
-      "title": "Roe v. Wade overturned: Here are companies paying for abortion travel costs for employees",
-      "summary": "Following the Supreme Court's decision to overturn Roe v. Wade, numerous major U.S. companies announced expanded support and financial assistance for employees seeking abortions in states with new restrictions. This support often includes covering travel expenses for medical care unavailable in their home states. Corporations are responding to pressure from investors, customers, and employees, and are concerned about the impact on talent attraction and retention.",
-      "url": "https://abc7.com/post/roe-v-wade-overturned-us-companies-abortion-care-travel-costs/11993769/",
-      "source": "ABC7 Los Angeles",
-      "published": "20220624T174626",
-      "overall_sentiment_score": 0.405613,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.430967,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.710754
+      "title": "BITI Chart | ProShares Short Bitcoin Strategy ETF",
+      "summary": "This page provides a live, interactive chart for the ProShares Short Bitcoin Strategy ETF (BITI), allowing users to analyze its performance. The chart offers various customization options and technical indicators to help investors understand price movements. It also includes current market data for BITI, such as its price, daily range, and 52-week range.",
+      "url": "https://www.investing.com/etfs/biti-nyse-chart",
+      "source": "Investing.com",
+      "published": "20220621T180844",
+      "overall_sentiment_score": 0.057962,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.069385,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.570501
     }
   ]
 }

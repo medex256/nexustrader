@@ -7,16 +7,16 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "Ryder System acquires Baton developing proprietary logistics technology",
-      "summary": "Ryder System, Inc. has acquired Baton, a San Francisco-based logistics technology startup, following an earlier investment through its venture capital fund, RyderVentures. This acquisition aims to enhance Ryder's supply chain and transportation solutions by integrating Baton's proprietary technology and talented development team. Baton's cofounders, Andrew Berberick and Nate Robert, will now lead innovation in customer-facing technologies for Ryder's supply chain and dedicated transportation businesses.",
-      "url": "https://worldbusinessoutlook.com/ryder-system-acquires-baton-developing-proprietary-logistics-technology/",
-      "source": "World Business Outlook",
-      "published": "20220902T181651",
-      "overall_sentiment_score": 0.222375,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.147087,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.630547
+      "title": "Tinder-owner Match Group files antitrust case against Apple with India’s competition regulator",
+      "summary": "Match Group, owner of Tinder, has filed an antitrust case against Apple with India's competition regulator, accusing the tech giant of monopolistic conduct by forcing developers to use its proprietary in-app purchase system and charging excessive commissions. This action adds to existing challenges against Apple in India and globally regarding its App Store policies. Match argues Apple's practices restrict innovation and unfairly differentiate between app types, especially concerning payment methods favored in India.",
+      "url": "https://www.theglobeandmail.com/business/technology/article-tinder-owner-match-group-files-antitrust-case-against-apple-with/",
+      "source": "The Globe and Mail",
+      "published": "20220824T174626",
+      "overall_sentiment_score": -0.254845,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.341411,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.919509
     },
     {
       "title": "Snap CEO to restructure company, cut 20% of workforce",
@@ -29,30 +29,6 @@
       "ticker_sentiment_score": -0.228195,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 0.749728
-    },
-    {
-      "title": "Lucid Appoints Derrick Carty as Vice President of Platform Software Engineering",
-      "summary": "Lucid Group, Inc. announced the appointment of Derrick Carty as Vice President of Platform Software Engineering, reporting to Michael Bell, Senior Vice President of Digital. In this newly created role, Mr. Carty will lead software engineering for the Lucid Air, encompassing ADAS, Audio, CoreOS/Android Framework, Embedded Software, Controls Platform, AUTOSAR, and Systems Architecture. Carty brings 23 years of experience from Apple, Inc. and will focus on delivering new Lucid Air features via over-the-air software updates.",
-      "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-appoints-derrick-carty-vice-president-platform-software/",
-      "source": "Lucid Motors",
-      "published": "20220825T172657",
-      "overall_sentiment_score": 0.300551,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.228259,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.627449
-    },
-    {
-      "title": "Tinder-owner Match Group files antitrust case against Apple with India’s competition regulator",
-      "summary": "Match Group, owner of Tinder, has filed an antitrust case against Apple with India's competition regulator, accusing the tech giant of monopolistic conduct by forcing developers to use its proprietary in-app purchase system and charging excessive commissions. This action adds to existing challenges against Apple in India and globally regarding its App Store policies. Match argues Apple's practices restrict innovation and unfairly differentiate between app types, especially concerning payment methods favored in India.",
-      "url": "https://www.theglobeandmail.com/business/technology/article-tinder-owner-match-group-files-antitrust-case-against-apple-with/",
-      "source": "The Globe and Mail",
-      "published": "20220824T174626",
-      "overall_sentiment_score": -0.254845,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.341411,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.919509
     },
     {
       "title": "Why the ESG/Tech Combination Is Important",
@@ -77,6 +53,30 @@
       "ticker_sentiment_score": 0.229412,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.700542
+    },
+    {
+      "title": "Ryder System acquires Baton developing proprietary logistics technology",
+      "summary": "Ryder System, Inc. has acquired Baton, a San Francisco-based logistics technology startup, following an earlier investment through its venture capital fund, RyderVentures. This acquisition aims to enhance Ryder's supply chain and transportation solutions by integrating Baton's proprietary technology and talented development team. Baton's cofounders, Andrew Berberick and Nate Robert, will now lead innovation in customer-facing technologies for Ryder's supply chain and dedicated transportation businesses.",
+      "url": "https://worldbusinessoutlook.com/ryder-system-acquires-baton-developing-proprietary-logistics-technology/",
+      "source": "World Business Outlook",
+      "published": "20220902T181651",
+      "overall_sentiment_score": 0.222375,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.147087,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.630547
+    },
+    {
+      "title": "Lucid Appoints Derrick Carty as Vice President of Platform Software Engineering",
+      "summary": "Lucid Group, Inc. announced the appointment of Derrick Carty as Vice President of Platform Software Engineering, reporting to Michael Bell, Senior Vice President of Digital. In this newly created role, Mr. Carty will lead software engineering for the Lucid Air, encompassing ADAS, Audio, CoreOS/Android Framework, Embedded Software, Controls Platform, AUTOSAR, and Systems Architecture. Carty brings 23 years of experience from Apple, Inc. and will focus on delivering new Lucid Air features via over-the-air software updates.",
+      "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-appoints-derrick-carty-vice-president-platform-software/",
+      "source": "Lucid Motors",
+      "published": "20220825T172657",
+      "overall_sentiment_score": 0.300551,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.228259,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.627449
     }
   ]
 }

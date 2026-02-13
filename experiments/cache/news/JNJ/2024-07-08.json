@@ -19,18 +19,6 @@
       "relevance_score": 0.640204
     },
     {
-      "title": "Cartesian Gets Phase II Win in Myasthenia Gravis, Looks to Raise $130M Through Financing",
-      "summary": "Cartesian Therapeutics announced that its lead mRNA CAR-T therapy, Descartes-08, met its primary endpoint in a Phase IIb trial for myasthenia gravis, showing significant symptom reduction in 71% of patients compared to placebo. Concurrently, the company entered into an agreement for $130 million in private investment in public equity financing to fund its pipeline. Descartes-08 also demonstrated a favorable safety profile and received Regenerative Medicine Advanced Therapy designation from the FDA, with plans for a meeting with regulatory authorities by year-end.",
-      "url": "https://www.biospace.com/drug-development/cartesian-gets-phase-ii-win-in-myasthenia-gravis-looks-to-raise-130m-through-financing",
-      "source": "BioSpace",
-      "published": "20240702T000000",
-      "overall_sentiment_score": 0.484387,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.136811,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.626638
-    },
-    {
       "title": "A Closer Look At Berkshire Hathaway's Chubb Investment",
       "summary": "Berkshire Hathaway recently revealed a significant 6.40% stake in Swiss insurer Chubb Ltd., an investment driven by Warren Buffett's longtime affinity for the \"collect-now, pay-later\" model of the insurance business. This article explores the strategic reasons behind the investment, highlighting Chubb's strong management, robust global presence, underwriting efficiency, and technological innovation, all of which complement Berkshire's existing insurance portfolio. The acquisition suggests potential synergies that could impact the property and casualty insurance industry, though a full buyout of Chubb by Berkshire Hathaway is deemed unlikely in the short term due to Chubb's valuation.",
       "url": "https://www.forbes.com/sites/gurufocus/2024/07/05/a-closer-look-at-berkshire-hathaways-chubb-investment/",
@@ -41,6 +29,18 @@
       "ticker_sentiment_score": -0.109064,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.63388
+    },
+    {
+      "title": "Cartesian Gets Phase II Win in Myasthenia Gravis, Looks to Raise $130M Through Financing",
+      "summary": "Cartesian Therapeutics announced that its lead mRNA CAR-T therapy, Descartes-08, met its primary endpoint in a Phase IIb trial for myasthenia gravis, showing significant symptom reduction in 71% of patients compared to placebo. Concurrently, the company entered into an agreement for $130 million in private investment in public equity financing to fund its pipeline. Descartes-08 also demonstrated a favorable safety profile and received Regenerative Medicine Advanced Therapy designation from the FDA, with plans for a meeting with regulatory authorities by year-end.",
+      "url": "https://www.biospace.com/drug-development/cartesian-gets-phase-ii-win-in-myasthenia-gravis-looks-to-raise-130m-through-financing",
+      "source": "BioSpace",
+      "published": "20240702T000000",
+      "overall_sentiment_score": 0.484387,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.136811,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.626638
     }
   ]
 }

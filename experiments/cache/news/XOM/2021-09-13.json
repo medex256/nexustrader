@@ -19,18 +19,6 @@
       "relevance_score": 0.644502
     },
     {
-      "title": "GOOD NEWS: MC students receive scholarships",
-      "summary": "Midland College (MC) announced a new partnership with Ovintiv USA, Inc., which includes $8,000 in scholarships for Energy Technology students. The scholarships recognize students with GPAs over 3.0 who are also employed, highlighting Ovintiv's commitment to Permian Basin workforce development. Ovintiv, a North American oil and natural gas producer, is supporting MC's program that prepares students for careers in the oil and gas industry.",
-      "url": "https://www.oaoa.com/community/good-news-community/good-news-mc-students-receive-scholarships/",
-      "source": "Odessa American",
-      "published": "20210902T205706",
-      "overall_sentiment_score": 0.289096,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.137473,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.62281
-    },
-    {
       "title": "Offshore oil and gas producer Beacon makes major final investment decision in Gulf of Mexico",
       "summary": "Beacon Offshore Energy has made its first final investment decision (FID) on the deepwater Shenandoah discovery project in the Gulf of Mexico. This decision could elevate Beacon Offshore Energy to become one of the top 10 offshore producers in the U.S. Gulf of Mexico. The project marks a significant milestone for the Houston-based oil and gas producer.",
       "url": "https://www.bizjournals.com/houston/news/2021/08/30/beacon-offshore-fid-shenandoah.html",
@@ -41,6 +29,18 @@
       "ticker_sentiment_score": 0.345424,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.642496
+    },
+    {
+      "title": "GOOD NEWS: MC students receive scholarships",
+      "summary": "Midland College (MC) announced a new partnership with Ovintiv USA, Inc., which includes $8,000 in scholarships for Energy Technology students. The scholarships recognize students with GPAs over 3.0 who are also employed, highlighting Ovintiv's commitment to Permian Basin workforce development. Ovintiv, a North American oil and natural gas producer, is supporting MC's program that prepares students for careers in the oil and gas industry.",
+      "url": "https://www.oaoa.com/community/good-news-community/good-news-mc-students-receive-scholarships/",
+      "source": "Odessa American",
+      "published": "20210902T205706",
+      "overall_sentiment_score": 0.289096,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.137473,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62281
     }
   ]
 }

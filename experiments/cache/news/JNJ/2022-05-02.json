@@ -7,30 +7,6 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "Pharma Expansions: Beigene, Boehringer Ingelheim to Break Ground for New Facilities",
-      "summary": "Several biopharma companies are expanding their facilities, including BeiGene with a new U.S. manufacturing and R&D center in New Jersey, and Boehringer Ingelheim investing $57 million to expand its Animal Health Global Innovation Center in Georgia. Breakthrough Properties also raised $3 billion for a new life sciences real estate fund, and Catalent is expanding its manufacturing capabilities across the U.S. and Europe, while a $25 million accelerator for biotech startups is being built in Roanoke Valley.",
-      "url": "https://www.biospace.com/biopharma-makes-big-expansions-to-close-the-month",
-      "source": "BioSpace",
-      "published": "20220429T175643",
-      "overall_sentiment_score": 0.130892,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.154388,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.617474
-    },
-    {
-      "title": "BioXcel will use $260M finance deal to expand indications for schizophrenia drug",
-      "summary": "BioXcel Therapeutics secured a $260 million financing agreement with Oaktree Capital Management and Qatar Investment Authority to accelerate growth and commercially launch their new schizophrenia drug, IGALMI. The funds will also support the expansion of IGALMI's clinical development, including a phase 3 program for Alzheimer's agitation, and other neuroscience and immuno-oncology programs, providing the company with a cash runway into 2025. This deal positions BioXcel to realize its vision of becoming a leading AI-enabled neuroscience company.",
-      "url": "https://www.fiercebiotech.com/biotech/bioxcel-enters-260m-finance-deal-accelerate-growth-though-prerequisites-must-be-met-unlock",
-      "source": "Fierce Biotech",
-      "published": "20220420T093000",
-      "overall_sentiment_score": 0.198016,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.136646,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.587587
-    },
-    {
       "title": "Alabama settles opioid claims with J&J, McKesson, Endo for $276 mln -attorney general",
       "summary": "Alabama has reached $276 million in settlements with Johnson & Johnson, McKesson Corp, and Endo International Plc to resolve claims related to the opioid addiction crisis. The state's attorney general stated that Alabama will receive more funds and a faster payout compared to what it would have received under a nationwide settlement. This agreement comes amidst a wave of litigation and settlements by various states addressing the U.S. opioid crisis.",
       "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/alabama-settles-opioid-claims-against-jj-distributors-276-mln-attorney-general-2022-04-19/",
@@ -77,6 +53,30 @@
       "ticker_sentiment_score": 0.137105,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.642081
+    },
+    {
+      "title": "Pharma Expansions: Beigene, Boehringer Ingelheim to Break Ground for New Facilities",
+      "summary": "Several biopharma companies are expanding their facilities, including BeiGene with a new U.S. manufacturing and R&D center in New Jersey, and Boehringer Ingelheim investing $57 million to expand its Animal Health Global Innovation Center in Georgia. Breakthrough Properties also raised $3 billion for a new life sciences real estate fund, and Catalent is expanding its manufacturing capabilities across the U.S. and Europe, while a $25 million accelerator for biotech startups is being built in Roanoke Valley.",
+      "url": "https://www.biospace.com/biopharma-makes-big-expansions-to-close-the-month",
+      "source": "BioSpace",
+      "published": "20220429T175643",
+      "overall_sentiment_score": 0.130892,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.154388,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.617474
+    },
+    {
+      "title": "BioXcel will use $260M finance deal to expand indications for schizophrenia drug",
+      "summary": "BioXcel Therapeutics secured a $260 million financing agreement with Oaktree Capital Management and Qatar Investment Authority to accelerate growth and commercially launch their new schizophrenia drug, IGALMI. The funds will also support the expansion of IGALMI's clinical development, including a phase 3 program for Alzheimer's agitation, and other neuroscience and immuno-oncology programs, providing the company with a cash runway into 2025. This deal positions BioXcel to realize its vision of becoming a leading AI-enabled neuroscience company.",
+      "url": "https://www.fiercebiotech.com/biotech/bioxcel-enters-260m-finance-deal-accelerate-growth-though-prerequisites-must-be-met-unlock",
+      "source": "Fierce Biotech",
+      "published": "20220420T093000",
+      "overall_sentiment_score": 0.198016,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.136646,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.587587
     }
   ]
 }

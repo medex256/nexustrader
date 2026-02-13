@@ -7,16 +7,28 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "Kodiak Robotics Unveils Its Next-Generation Autonomous Truck with Plans to More than Double Its Self-Driving Fleet",
-      "summary": "Kodiak Robotics announced its fourth-generation autonomous truck featuring Luminar's Iris LiDAR, ZF Full Range Radar, Hesai 360-degree scanning LiDARs, Cummins X15 TM Series engines, Bridgestone Americas smart-sensing tire technology, and the NVIDIA DRIVE platform. These new trucks prioritize modularity, discreet sensor integration, and enhanced reliability to enable scaled production and easier maintenance. Kodiak plans to more than double its self-driving fleet with 15 new PACCAR trucks, expanding its freight delivery business in Texas and potentially other U.S. corridors.",
-      "url": "https://www.prnewswire.com/news-releases/kodiak-robotics-unveils-its-next-generation-autonomous-truck-with-plans-to-more-than-double-its-self-driving-fleet-301386504.html",
-      "source": "PR Newswire",
-      "published": "20210928T090000",
-      "overall_sentiment_score": 0.259801,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.266727,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.62809
+      "title": "Quick on Their Fleet: Kodiak Builds Flexible, High-Performance Self-Driving Trucks on NVIDIA DRIVE",
+      "summary": "Kodiak Robotics has unveiled its fourth-generation self-driving truck, powered by NVIDIA DRIVE Orin. The trucks feature a lightweight mapping strategy and a discreet, modular hardware design to achieve level 4 self-driving capabilities, focusing on flexibility and live perception rather than detailed pre-constructed maps. This approach addresses the high demand for delivery and the shortage of drivers in the trucking industry.",
+      "url": "https://blogs.nvidia.com/blog/kodiak-self-driving-trucks-nvidia-drive/",
+      "source": "NVIDIA Blog",
+      "published": "20210928T203655",
+      "overall_sentiment_score": 0.510403,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.743494,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.909293
+    },
+    {
+      "title": "Virtual prototyping tool for mobile, automotive and hyperscale systems",
+      "summary": "Cadence Design Systems has launched Helium Studio, a virtual and hybrid prototyping platform designed to accelerate the development and verification of complex systems for mobile, automotive, and hyperscale applications. This tool allows early software bring-up and co-verification, significantly reducing design times for GPUs and 5G chips by enabling software and RTL bug fixing pre-silicon. It integrates with Cadence's existing verification engines, offering a unified debug experience and high throughput for developers.",
+      "url": "https://www.eenewseurope.com/en/virtual-prototyping-tool-for-mobile-automotive-and-hyperscale-systems/",
+      "source": "eeNews Europe",
+      "published": "20210922T195636",
+      "overall_sentiment_score": 0.795226,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.749192,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.810817
     },
     {
       "title": "GINN's Got the Goods of Quality Disruptive Companies",
@@ -43,28 +55,16 @@
       "relevance_score": 0.711824
     },
     {
-      "title": "Quick on Their Fleet: Kodiak Builds Flexible, High-Performance Self-Driving Trucks on NVIDIA DRIVE",
-      "summary": "Kodiak Robotics has unveiled its fourth-generation self-driving truck, powered by NVIDIA DRIVE Orin. The trucks feature a lightweight mapping strategy and a discreet, modular hardware design to achieve level 4 self-driving capabilities, focusing on flexibility and live perception rather than detailed pre-constructed maps. This approach addresses the high demand for delivery and the shortage of drivers in the trucking industry.",
-      "url": "https://blogs.nvidia.com/blog/kodiak-self-driving-trucks-nvidia-drive/",
-      "source": "NVIDIA Blog",
-      "published": "20210928T203655",
-      "overall_sentiment_score": 0.510403,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.743494,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.909293
-    },
-    {
-      "title": "Virtual prototyping tool for mobile, automotive and hyperscale systems",
-      "summary": "Cadence Design Systems has launched Helium Studio, a virtual and hybrid prototyping platform designed to accelerate the development and verification of complex systems for mobile, automotive, and hyperscale applications. This tool allows early software bring-up and co-verification, significantly reducing design times for GPUs and 5G chips by enabling software and RTL bug fixing pre-silicon. It integrates with Cadence's existing verification engines, offering a unified debug experience and high throughput for developers.",
-      "url": "https://www.eenewseurope.com/en/virtual-prototyping-tool-for-mobile-automotive-and-hyperscale-systems/",
-      "source": "eeNews Europe",
-      "published": "20210922T195636",
-      "overall_sentiment_score": 0.795226,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.749192,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.810817
+      "title": "Kodiak Robotics Unveils Its Next-Generation Autonomous Truck with Plans to More than Double Its Self-Driving Fleet",
+      "summary": "Kodiak Robotics announced its fourth-generation autonomous truck featuring Luminar's Iris LiDAR, ZF Full Range Radar, Hesai 360-degree scanning LiDARs, Cummins X15 TM Series engines, Bridgestone Americas smart-sensing tire technology, and the NVIDIA DRIVE platform. These new trucks prioritize modularity, discreet sensor integration, and enhanced reliability to enable scaled production and easier maintenance. Kodiak plans to more than double its self-driving fleet with 15 new PACCAR trucks, expanding its freight delivery business in Texas and potentially other U.S. corridors.",
+      "url": "https://www.prnewswire.com/news-releases/kodiak-robotics-unveils-its-next-generation-autonomous-truck-with-plans-to-more-than-double-its-self-driving-fleet-301386504.html",
+      "source": "PR Newswire",
+      "published": "20210928T090000",
+      "overall_sentiment_score": 0.259801,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.266727,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.62809
     }
   ]
 }

@@ -7,30 +7,6 @@
   "article_count": 11,
   "articles": [
     {
-      "title": "This Just In: HBO Documentary ICAHN: THE RESTLESS BILLIONAIRE Debuts February 15",
-      "summary": "HBO documentary \"ICAHN: THE RESTLESS BILLIONAIRE,\" directed by Bruce David Klein, will debut on February 15, exploring the life and career of financier Carl Icahn. The film chronicles his rise from humble beginnings, his significant financial deals and corporate takeovers, and his controversial legacy as both a corporate raider and shareholder activist. It features commentary from family members, journalists, and industry titans, detailing his impact on Wall Street and various companies.",
-      "url": "https://www.bellmedia.ca/the-lede/press/this-just-in-hbo-documentary-icahn-the-restless-billionaire-debuts-february-15/",
-      "source": "Bell Media",
-      "published": "20220202T170636",
-      "overall_sentiment_score": 0.250095,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.308768,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.719688
-    },
-    {
-      "title": "Alphabet brings big stock splits back to market",
-      "summary": "Alphabet Inc. announced a 20-for-1 stock split, aiming to make its shares more accessible to small investors by reducing the per-share price. This move is also seen as a step towards potential inclusion in the Dow Jones Industrial Average, which has historically been a barrier due to Alphabet's high stock price. The announcement led to a 10% jump in shares during premarket trading.",
-      "url": "https://www.aljazeera.com/economy/2022/2/2/alphabet-brings-big-stock-splits-back-to-market",
-      "source": "Al Jazeera",
-      "published": "20220202T165547",
-      "overall_sentiment_score": 0.264521,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.126209,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.601288
-    },
-    {
       "title": "LGD and BOE Competing with SDC for Larger Share of iPhone Business",
       "summary": "LG Display (LGD) and BOE are increasing their competition with Samsung Display (SDC) for a larger share of Apple's iPhone OLED panel supply. While Samsung has historically dominated, Apple's strategy to minimize dependency has encouraged LGD and BOE to expand capacity and technology, leading to forecasted shifts in panel supplier percentages for future iPhone models. Chinese display manufacturers like BOE, Visionox, and CSOT are also significantly investing in flexible OLED screens, challenging South Korean dominance and aiming to capture a larger portion of the growing foldable smartphone market.",
       "url": "https://displaydaily.com/lgd-and-boe-competing-with-sdc-for-larger-share-of-iphone-business/",
@@ -43,28 +19,40 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Google parent Alphabet announces 20-for-1 stock split",
-      "summary": "Alphabet, Google's parent company, announced a 20-for-1 stock split following a surge in its stock price. This move aims to make shares more accessible to a wider range of investors by significantly lowering the per-share cost. The split requires shareholder approval and will involve Class A, B, and C shares, with existing holders receiving 19 additional shares for each one they own by July 15.",
-      "url": "https://www.cnbc.com/2022/02/01/google-parent-alphabet-announces-20-for-1-stock-split.html",
-      "source": "CNBC",
-      "published": "20220201T161900",
-      "overall_sentiment_score": 0.50385,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.286251,
+      "title": "Tim Cook Reaffirms Commitment to Being Carbon Neutral",
+      "summary": "Apple CEO Tim Cook recently reaffirmed the company's commitment to becoming carbon neutral across its supply chain and products by 2030, a goal initially announced in 2020. This commitment was highlighted during the company's first-quarter earnings announcement, which reported record revenue. Investors interested in ESG-aligned exposure to Apple can consider the SPDR S&P 500 Fossil Fuel Reserves Free ETF (SPYX), which holds AAPL as its top position.",
+      "url": "https://etfdb.com/esg-content-hub/tim-cook-reaffirms-commitment-to-being-carbon-neutral/",
+      "source": "ETF Database",
+      "published": "20220207T043423",
+      "overall_sentiment_score": 0.288286,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.286301,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.614043
+      "relevance_score": 0.91757
     },
     {
-      "title": "How the ‘world's first’ AI-managed ETF stacks up, almost five years later",
-      "summary": "This article reviews the performance and evolution of AIEQ, the \"world's first\" AI-managed ETF, nearly five years after its debut. Despite initially underperforming the S&P 500, AIEQ has grown in assets, team size, and model sophistication, though it has faced recent headwinds. The article details how the fund, run by EquBot, uses tens of thousands of proprietary AI models and IBM Watson to analyze structured and unstructured data, emphasizing its commitment to explainability and transparency.",
-      "url": "https://www.techbrew.com/stories/2022/01/26/how-the-world-s-first-ai-managed-etf-stacks-up-almost-five-years-later",
-      "source": "www.techbrew.com",
-      "published": "20220126T160627",
-      "overall_sentiment_score": 0.2122,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.312638,
+      "title": "Warren Buffett has nearly caught up with Cathie Wood after the tech-stock guru vastly outperformed him in 2020",
+      "summary": "Warren Buffett's Berkshire Hathaway has nearly caught up to Cathie Wood's Ark Innovation ETF in terms of performance since the start of 2020, narrowing the gap from over 200 percentage points to just 5. While Wood's fund soared during the initial pandemic tech boom, it has since fallen due to investors pulling out of growth stocks in anticipation of interest-rate hikes. This shift highlights the differing investment strategies of Buffett's value-oriented approach and Wood's focus on disruptive growth companies.",
+      "url": "https://markets.businessinsider.com/news/stocks/warren-buffett-berkshire-hathaway-cathie-wood-arkk-stock-pandemic-gains-2022-1",
+      "source": "markets.businessinsider.com",
+      "published": "20220124T144825",
+      "overall_sentiment_score": 0.141195,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.323145,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.601675
+      "relevance_score": 0.735357
+    },
+    {
+      "title": "This Just In: HBO Documentary ICAHN: THE RESTLESS BILLIONAIRE Debuts February 15",
+      "summary": "HBO documentary \"ICAHN: THE RESTLESS BILLIONAIRE,\" directed by Bruce David Klein, will debut on February 15, exploring the life and career of financier Carl Icahn. The film chronicles his rise from humble beginnings, his significant financial deals and corporate takeovers, and his controversial legacy as both a corporate raider and shareholder activist. It features commentary from family members, journalists, and industry titans, detailing his impact on Wall Street and various companies.",
+      "url": "https://www.bellmedia.ca/the-lede/press/this-just-in-hbo-documentary-icahn-the-restless-billionaire-debuts-february-15/",
+      "source": "Bell Media",
+      "published": "20220202T170636",
+      "overall_sentiment_score": 0.250095,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.308768,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.719688
     },
     {
       "title": "Alphabet eyes $2 trillion value after blowout results",
@@ -91,18 +79,6 @@
       "relevance_score": 0.648131
     },
     {
-      "title": "Tim Cook Reaffirms Commitment to Being Carbon Neutral",
-      "summary": "Apple CEO Tim Cook recently reaffirmed the company's commitment to becoming carbon neutral across its supply chain and products by 2030, a goal initially announced in 2020. This commitment was highlighted during the company's first-quarter earnings announcement, which reported record revenue. Investors interested in ESG-aligned exposure to Apple can consider the SPDR S&P 500 Fossil Fuel Reserves Free ETF (SPYX), which holds AAPL as its top position.",
-      "url": "https://etfdb.com/esg-content-hub/tim-cook-reaffirms-commitment-to-being-carbon-neutral/",
-      "source": "ETF Database",
-      "published": "20220207T043423",
-      "overall_sentiment_score": 0.288286,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.286301,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.91757
-    },
-    {
       "title": "International Funds Stop Fresh Transactions. Is It a Worrying Sign?",
       "summary": "Mutual fund investors were surprised when fund houses stopped fresh transactions in schemes offering exposure to offshore equities. This industry-wide decision was prompted by the Indian mutual fund industry reaching its overall investment limit of USD 7 billion in offshore securities, set by the RBI in 2008. While many funds have temporarily suspended inflows into schemes with overseas exposure, certain overseas ETFs may still accept investments as they fall under a separate, unbreached limit.",
       "url": "https://www.personalfn.com/dwl/mutual-funds/international-funds-stop-fresh-transactions-is-it-a-worrying-sign",
@@ -115,6 +91,42 @@
       "relevance_score": 0.625211
     },
     {
+      "title": "Google parent Alphabet announces 20-for-1 stock split",
+      "summary": "Alphabet, Google's parent company, announced a 20-for-1 stock split following a surge in its stock price. This move aims to make shares more accessible to a wider range of investors by significantly lowering the per-share cost. The split requires shareholder approval and will involve Class A, B, and C shares, with existing holders receiving 19 additional shares for each one they own by July 15.",
+      "url": "https://www.cnbc.com/2022/02/01/google-parent-alphabet-announces-20-for-1-stock-split.html",
+      "source": "CNBC",
+      "published": "20220201T161900",
+      "overall_sentiment_score": 0.50385,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.286251,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.614043
+    },
+    {
+      "title": "How the ‘world's first’ AI-managed ETF stacks up, almost five years later",
+      "summary": "This article reviews the performance and evolution of AIEQ, the \"world's first\" AI-managed ETF, nearly five years after its debut. Despite initially underperforming the S&P 500, AIEQ has grown in assets, team size, and model sophistication, though it has faced recent headwinds. The article details how the fund, run by EquBot, uses tens of thousands of proprietary AI models and IBM Watson to analyze structured and unstructured data, emphasizing its commitment to explainability and transparency.",
+      "url": "https://www.techbrew.com/stories/2022/01/26/how-the-world-s-first-ai-managed-etf-stacks-up-almost-five-years-later",
+      "source": "www.techbrew.com",
+      "published": "20220126T160627",
+      "overall_sentiment_score": 0.2122,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.312638,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.601675
+    },
+    {
+      "title": "Alphabet brings big stock splits back to market",
+      "summary": "Alphabet Inc. announced a 20-for-1 stock split, aiming to make its shares more accessible to small investors by reducing the per-share price. This move is also seen as a step towards potential inclusion in the Dow Jones Industrial Average, which has historically been a barrier due to Alphabet's high stock price. The announcement led to a 10% jump in shares during premarket trading.",
+      "url": "https://www.aljazeera.com/economy/2022/2/2/alphabet-brings-big-stock-splits-back-to-market",
+      "source": "Al Jazeera",
+      "published": "20220202T165547",
+      "overall_sentiment_score": 0.264521,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.126209,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.601288
+    },
+    {
       "title": "The 3 Best Carbon Stocks of 2022",
       "summary": "This article highlights the top three carbon-related investment opportunities for 2022, emphasizing the growing importance of carbon markets and green investing. It details the KraneShares Global Carbon Strategy ETF (KRBN) for broad market exposure, Carbon Streaming Corporation (NETZ/OFSTF) as an early mover in carbon credit streaming, and Brookfield Renewable Partners (BEP) for a more conservative renewable energy play. The article underscores how increasing net-zero ambitions among corporations and rising awareness of climate change will drive investor interest in these sectors.",
       "url": "https://carboncredits.com/the-3-best-carbon-stocks-of-2022/",
@@ -125,18 +137,6 @@
       "ticker_sentiment_score": 0.148998,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.556357
-    },
-    {
-      "title": "Warren Buffett has nearly caught up with Cathie Wood after the tech-stock guru vastly outperformed him in 2020",
-      "summary": "Warren Buffett's Berkshire Hathaway has nearly caught up to Cathie Wood's Ark Innovation ETF in terms of performance since the start of 2020, narrowing the gap from over 200 percentage points to just 5. While Wood's fund soared during the initial pandemic tech boom, it has since fallen due to investors pulling out of growth stocks in anticipation of interest-rate hikes. This shift highlights the differing investment strategies of Buffett's value-oriented approach and Wood's focus on disruptive growth companies.",
-      "url": "https://markets.businessinsider.com/news/stocks/warren-buffett-berkshire-hathaway-cathie-wood-arkk-stock-pandemic-gains-2022-1",
-      "source": "markets.businessinsider.com",
-      "published": "20220124T144825",
-      "overall_sentiment_score": 0.141195,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.323145,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.735357
     }
   ]
 }

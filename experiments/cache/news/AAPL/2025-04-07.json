@@ -7,28 +7,16 @@
   "article_count": 10,
   "articles": [
     {
-      "title": "LANDSEA HOMES CLOSES ON 78 HOMESITES IN THE MOONLIGHT MASTER- PLANNED COMMUNITY IN MARICOPA, ARIZONA",
-      "summary": "Landsea Homes (Nasdaq: LSEA) announced it has closed on 78 homesites in the Moonlight master-planned community in Maricopa, Arizona. The company plans to offer single- and two-story homes featuring High Performance Home features including smart home automation technology (Apple Home™ environment) and energy savings. This expansion aims to meet the demand for quality, energy-efficient homes in the fast-growing Maricopa area, with sales expected to launch this summer.",
-      "url": "https://www.abc4.com/business/press-releases/cision/20250407LA57692/landsea-homes-closes-on-78-homesites-in-the-moonlight-master-planned-community-in-maricopa-arizona/",
-      "source": "ABC4 Utah",
-      "published": "20250407T080000",
-      "overall_sentiment_score": 0.261452,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.136991,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.625473
-    },
-    {
-      "title": "Rob Arnott on Deep Value and ‘Running Towards Lions’",
-      "summary": "Rob Arnott, founder of Research Affiliates, discusses his deep-value NIXT ETF which invests in underperforming, deleted stocks, aiming to capitalize on their greater upside potential compared to frothy, expensive additions to indexes. He emphasizes the importance of diversification into cheap alternatives, even if uncomfortable, and views the financial advisor's role as guiding clients away from \"stupid mistakes\" like performance chasing.",
-      "url": "https://www.thedailyupside.com/advisor/investing-strategies/rob-arnott-on-deep-value-and-running-towards-lions/",
-      "source": "The Daily Upside",
-      "published": "20250403T000000",
-      "overall_sentiment_score": 0.144656,
+      "title": "Visa CEO Ryan McInerney sells $3 million in stock",
+      "summary": "Visa CEO Ryan McInerney sold 8,620 shares of Class A Common Stock for approximately $3.02 million. This transaction occurred under a Rule 10b5-1 trading plan and near Visa's 52-week high. The article also highlights Visa's strong performance, its bid to replace Mastercard for Apple's credit card, and efforts to integrate with cryptocurrency wallets and combat scams.",
+      "url": "https://www.investing.com/news/insider-trading-news/visa-ceo-ryan-mcinerney-sells-3-million-in-stock-93CH-3966750",
+      "source": "Investing.com",
+      "published": "20250403T172300",
+      "overall_sentiment_score": 0.115751,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.124116,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.328149
+      "ticker_sentiment_score": 0.189587,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.742607
     },
     {
       "title": "CXApp Inc. (Nasdaq:CXAI) Announces the Appointment of Terry Blanchard as Senior Vice President of Engineering",
@@ -55,6 +43,42 @@
       "relevance_score": 0.720108
     },
     {
+      "title": "Growth or Bubble? Decoding the Rapid Rise of CXAI Stock",
+      "summary": "CXApp Inc. (CXAI) stock is experiencing a significant rise, up 32.54%, driven by positive market sentiment and strategic advancements including the appointment of Terry Blanchard as SVP of Engineering. The company faces financial challenges, as shown by its Q3 2024 operating revenue of $1.897M against $5.223M in total expenses, but maintains a strong gross margin of 80.9%. The market awaits its rescheduled Q4 and FY24 earnings call for further insights into its AI-native platform and future trajectory.",
+      "url": "https://stockstotrade.com/news/cxapp-inc-cxai-news-2025_04_04/",
+      "source": "StocksToTrade",
+      "published": "20250404T100300",
+      "overall_sentiment_score": 0.20345,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.116782,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.711207
+    },
+    {
+      "title": "LANDSEA HOMES CLOSES ON 78 HOMESITES IN THE MOONLIGHT MASTER- PLANNED COMMUNITY IN MARICOPA, ARIZONA",
+      "summary": "Landsea Homes (Nasdaq: LSEA) announced it has closed on 78 homesites in the Moonlight master-planned community in Maricopa, Arizona. The company plans to offer single- and two-story homes featuring High Performance Home features including smart home automation technology (Apple Home™ environment) and energy savings. This expansion aims to meet the demand for quality, energy-efficient homes in the fast-growing Maricopa area, with sales expected to launch this summer.",
+      "url": "https://www.abc4.com/business/press-releases/cision/20250407LA57692/landsea-homes-closes-on-78-homesites-in-the-moonlight-master-planned-community-in-maricopa-arizona/",
+      "source": "ABC4 Utah",
+      "published": "20250407T080000",
+      "overall_sentiment_score": 0.261452,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.136991,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.625473
+    },
+    {
+      "title": "BCX: Examining Inflation Protection Benefits And Recession Risks",
+      "summary": "The BlackRock Resources & Commodities Strategy Trust (BCX) is a closed-end fund offering commodities exposure and a high income yield, making it attractive for inflation protection. The fund has historically performed well during inflationary periods, outperforming the S&P 500 year-to-date, and trades at a compelling discount to NAV with a significant yield and monthly distributions. While distributions have been fully covered year-to-date, they were not fully covered for the full year 2024.",
+      "url": "https://seekingalpha.com/article/4769899-bcx-examining-inflation-protection-benefits-recession-risks",
+      "source": "Seeking Alpha",
+      "published": "20250324T074100",
+      "overall_sentiment_score": 0.219678,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.107308,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.618466
+    },
+    {
       "title": "LANDSEA HOMES CLOSES ON 78 HOMESITES IN THE MOONLIGHT MASTER- PL",
       "summary": "Landsea Homes Corporation announced it has closed on 78 homesites in the Moonlight master-planned community in Maricopa, Arizona. The community will offer a mix of High Performance single- and two-story homes featuring smart home automation technology and energy savings, with sales estimated to launch this summer. This expansion aims to meet high demand for quality, energy-efficient homes in Maricopa, an area known for its small-town feel and proximity to Phoenix.",
       "url": "https://www.gurufocus.com/news/2764748/landsea-homes-closes-on-78-homesites-in-the-moonlight-master-planned-community-in-maricopa-arizona?mobile=true",
@@ -79,42 +103,6 @@
       "relevance_score": 0.598543
     },
     {
-      "title": "Growth or Bubble? Decoding the Rapid Rise of CXAI Stock",
-      "summary": "CXApp Inc. (CXAI) stock is experiencing a significant rise, up 32.54%, driven by positive market sentiment and strategic advancements including the appointment of Terry Blanchard as SVP of Engineering. The company faces financial challenges, as shown by its Q3 2024 operating revenue of $1.897M against $5.223M in total expenses, but maintains a strong gross margin of 80.9%. The market awaits its rescheduled Q4 and FY24 earnings call for further insights into its AI-native platform and future trajectory.",
-      "url": "https://stockstotrade.com/news/cxapp-inc-cxai-news-2025_04_04/",
-      "source": "StocksToTrade",
-      "published": "20250404T100300",
-      "overall_sentiment_score": 0.20345,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.116782,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.711207
-    },
-    {
-      "title": "Visa CEO Ryan McInerney sells $3 million in stock",
-      "summary": "Visa CEO Ryan McInerney sold 8,620 shares of Class A Common Stock for approximately $3.02 million. This transaction occurred under a Rule 10b5-1 trading plan and near Visa's 52-week high. The article also highlights Visa's strong performance, its bid to replace Mastercard for Apple's credit card, and efforts to integrate with cryptocurrency wallets and combat scams.",
-      "url": "https://www.investing.com/news/insider-trading-news/visa-ceo-ryan-mcinerney-sells-3-million-in-stock-93CH-3966750",
-      "source": "Investing.com",
-      "published": "20250403T172300",
-      "overall_sentiment_score": 0.115751,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.189587,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.742607
-    },
-    {
-      "title": "BCX: Examining Inflation Protection Benefits And Recession Risks",
-      "summary": "The BlackRock Resources & Commodities Strategy Trust (BCX) is a closed-end fund offering commodities exposure and a high income yield, making it attractive for inflation protection. The fund has historically performed well during inflationary periods, outperforming the S&P 500 year-to-date, and trades at a compelling discount to NAV with a significant yield and monthly distributions. While distributions have been fully covered year-to-date, they were not fully covered for the full year 2024.",
-      "url": "https://seekingalpha.com/article/4769899-bcx-examining-inflation-protection-benefits-recession-risks",
-      "source": "Seeking Alpha",
-      "published": "20250324T074100",
-      "overall_sentiment_score": 0.219678,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.107308,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.618466
-    },
-    {
       "title": "PTC Brings AI-Powered PLM to Hannover Messe 2025 with Windchill AI",
       "summary": "PTC is set to preview its AI-powered Windchill AI product lifecycle management (PLM) assistant at Hannover Messe 2025, alongside Codebeamer AI and ServiceMax AI. This initiative demonstrates PTC's commitment to advancing agentic AI across the product digital thread, aiming to enhance engineers' efficiency by leveraging product data for informed decision-making and task automation. The preview will include the Document Vault AI agent, designed to extract critical product information from Windchill-stored documents.",
       "url": "https://www.prnewswire.com/news-releases/ptc-brings-ai-powered-plm-to-hannover-messe-2025-with-windchill-ai-302410612.html",
@@ -125,6 +113,18 @@
       "ticker_sentiment_score": 0.206806,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.597792
+    },
+    {
+      "title": "Rob Arnott on Deep Value and ‘Running Towards Lions’",
+      "summary": "Rob Arnott, founder of Research Affiliates, discusses his deep-value NIXT ETF which invests in underperforming, deleted stocks, aiming to capitalize on their greater upside potential compared to frothy, expensive additions to indexes. He emphasizes the importance of diversification into cheap alternatives, even if uncomfortable, and views the financial advisor's role as guiding clients away from \"stupid mistakes\" like performance chasing.",
+      "url": "https://www.thedailyupside.com/advisor/investing-strategies/rob-arnott-on-deep-value-and-running-towards-lions/",
+      "source": "The Daily Upside",
+      "published": "20250403T000000",
+      "overall_sentiment_score": 0.144656,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.124116,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.328149
     }
   ]
 }

@@ -7,18 +7,6 @@
   "article_count": 2,
   "articles": [
     {
-      "title": "2 Under-The-Radar Small Chip Stocks Poised For Big Growth",
-      "summary": "This article highlights two under-the-radar fabless semiconductor companies, Impinj Inc. (NASDAQ: PI) and Allegro MicroSystems, Inc. (NASDAQ: ALGM), that are showing strong growth potential despite being smaller players in the chip industry. Both companies are experiencing increasing sales and earnings, with analysts expecting continued growth in the coming years. The article details their specific market niches and financial performance, positioning them as attractive opportunities for investors.",
-      "url": "https://www.entrepreneur.com/finance/2-under-the-radar-small-chip-stocks-poised-for-big-growth/449438",
-      "source": "Entrepreneur",
-      "published": "20230410T000000",
-      "overall_sentiment_score": 0.347699,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.333938,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.711729
-    },
-    {
       "title": "Rebellions CEO aims to outrival Qualcomm within a decade",
       "summary": "Rebellions Inc., a South Korean AI chip design startup, plans to mass-produce its ATOM AI chips early next year after its ATOM chip outperformed rivals like Qualcomm and Nvidia in MLPerf tests. The CEO, Park Sung-hyun, aims to surpass Qualcomm within a decade, seeking validation from potential clients like Google and Microsoft, with significant investment already secured from various venture capitalists and institutional investors. The company's success is seen as good news for Korea's semiconductor",
       "url": "https://www.kedglobal.com/korean-startups/newsView/ked202304100022",
@@ -29,6 +17,18 @@
       "ticker_sentiment_score": 0.247655,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.745012
+    },
+    {
+      "title": "2 Under-The-Radar Small Chip Stocks Poised For Big Growth",
+      "summary": "This article highlights two under-the-radar fabless semiconductor companies, Impinj Inc. (NASDAQ: PI) and Allegro MicroSystems, Inc. (NASDAQ: ALGM), that are showing strong growth potential despite being smaller players in the chip industry. Both companies are experiencing increasing sales and earnings, with analysts expecting continued growth in the coming years. The article details their specific market niches and financial performance, positioning them as attractive opportunities for investors.",
+      "url": "https://www.entrepreneur.com/finance/2-under-the-radar-small-chip-stocks-poised-for-big-growth/449438",
+      "source": "Entrepreneur",
+      "published": "20230410T000000",
+      "overall_sentiment_score": 0.347699,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.333938,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.711729
     }
   ]
 }

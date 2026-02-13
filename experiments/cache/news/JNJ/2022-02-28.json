@@ -7,18 +7,6 @@
   "article_count": 7,
   "articles": [
     {
-      "title": "Wide Moat Stocks Can Get Their Grooves Back",
-      "summary": "The VanEck Vectors Morningstar Wide Moat ETF (MOAT) has shown durability amid market turbulence in early 2022 and is outperforming the S&P 500. Analysts believe wide moat equities have the ingredients for continued success, with the ETF's valuation methodology identifying stocks trading at attractive multiples despite their inherent quality. MOAT's sector-agnostic approach and diversified holdings, including non-tech stocks, are helping to buffer against current tech sector weaknesses.",
-      "url": "https://www.etftrends.com/tactical-allocation-content-hub/wide-moat-stocks-can-get-their-grooves-back/",
-      "source": "ETF Trends",
-      "published": "20220228T173722",
-      "overall_sentiment_score": 0.306378,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.309887,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.613938
-    },
-    {
       "title": "J&J, Legend cell therapy approved by FDA for multiple myeloma",
       "summary": "The FDA has approved Carvykti, a CAR-T cell therapy developed by Johnson & Johnson and Legend Biotech, for multiple myeloma. This treatment is the second CAR-T therapy approved for this blood cancer, following Bristol Myers Squibb and 2seventy bio’s Abecma, and is priced at $465,000. J&J anticipates high annual sales and is exploring Carvykti's efficacy in earlier stages of multiple myeloma.",
       "url": "https://www.biopharmadive.com/news/johnson-johnson-legend-carvykti-myeloma-fda-approval/619430/",
@@ -29,18 +17,6 @@
       "ticker_sentiment_score": 0.330966,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.924762
-    },
-    {
-      "title": "Surabhi Pokhriyal Named Chief Digital Growth Officer at Church & Dwight",
-      "summary": "Church & Dwight has appointed Surabhi Pokhriyal as its Chief Digital Growth Officer, where she will lead the company's digital transformation and e-commerce initiatives. Pokhriyal, previously with Colgate-Palmolive and other major consumer goods companies, is tasked with accelerating digital momentum, including e-commerce penetration and M&A integration. She is excited to leverage the company's nimble structure and focused talent to elevate its digital capabilities and expand its brand footprint.",
-      "url": "https://consumergoods.com/surabhi-pokhriyal-named-chief-digital-growth-officer-church-dwight",
-      "source": "Consumer Goods Technology",
-      "published": "20220228T162223",
-      "overall_sentiment_score": 0.210837,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.12082,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.583106
     },
     {
       "title": "Companies Finalize $26 Billion Deal With States and Cities to End Opioid Lawsuits (Published 2022)",
@@ -55,16 +31,28 @@
       "relevance_score": 0.832858
     },
     {
-      "title": "Sanofi and GSK plan to ask regulators to authorize their COVID-19 vaccine",
-      "summary": "Sanofi and GlaxoSmithKline (GSK) are seeking regulatory authorization for their COVID-19 vaccine candidate, which showed 100% effectiveness against hospitalization and severe disease in trials. Their protein-based vaccine can serve as a primary vaccine or a booster shot, significantly raising antibody levels. This development offers a conventional alternative to existing mRNA and viral vector vaccines.",
-      "url": "https://abcnews.go.com/Health/sanofi-gsk-plan-regulators-authorize-covid-19-vaccine/story?id=83061991",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "published": "20220223T145300",
-      "overall_sentiment_score": 0.233998,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.113399,
+      "title": "Money Calls the Shots",
+      "summary": "Amnesty International published \"Money Calls the Shots\" on February 14, 2022, updating its assessment of pharmaceutical companies' restrictions on access to Covid-19 vaccines. The report evaluates five leading vaccine manufacturers (AstraZeneca plc, BioNTech SE, Johnson & Johnson, Moderna Inc., and Pfizer Inc.) and, for the first time, includes Chinese producers Sinopharm and Sinovac Biotech Ltd.",
+      "url": "https://www.amnesty.org/en/documents/pol40/5140/2022/en/",
+      "source": "Amnesty International",
+      "published": "20220214T184636",
+      "overall_sentiment_score": 0.10218,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.131335,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.559432
+      "relevance_score": 0.72522
+    },
+    {
+      "title": "Wide Moat Stocks Can Get Their Grooves Back",
+      "summary": "The VanEck Vectors Morningstar Wide Moat ETF (MOAT) has shown durability amid market turbulence in early 2022 and is outperforming the S&P 500. Analysts believe wide moat equities have the ingredients for continued success, with the ETF's valuation methodology identifying stocks trading at attractive multiples despite their inherent quality. MOAT's sector-agnostic approach and diversified holdings, including non-tech stocks, are helping to buffer against current tech sector weaknesses.",
+      "url": "https://www.etftrends.com/tactical-allocation-content-hub/wide-moat-stocks-can-get-their-grooves-back/",
+      "source": "ETF Trends",
+      "published": "20220228T173722",
+      "overall_sentiment_score": 0.306378,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.309887,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.613938
     },
     {
       "title": "Mixed reality helps GE Healthcare train engineers to service complex equipment",
@@ -79,16 +67,28 @@
       "relevance_score": 0.602285
     },
     {
-      "title": "Money Calls the Shots",
-      "summary": "Amnesty International published \"Money Calls the Shots\" on February 14, 2022, updating its assessment of pharmaceutical companies' restrictions on access to Covid-19 vaccines. The report evaluates five leading vaccine manufacturers (AstraZeneca plc, BioNTech SE, Johnson & Johnson, Moderna Inc., and Pfizer Inc.) and, for the first time, includes Chinese producers Sinopharm and Sinovac Biotech Ltd.",
-      "url": "https://www.amnesty.org/en/documents/pol40/5140/2022/en/",
-      "source": "Amnesty International",
-      "published": "20220214T184636",
-      "overall_sentiment_score": 0.10218,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.131335,
+      "title": "Surabhi Pokhriyal Named Chief Digital Growth Officer at Church & Dwight",
+      "summary": "Church & Dwight has appointed Surabhi Pokhriyal as its Chief Digital Growth Officer, where she will lead the company's digital transformation and e-commerce initiatives. Pokhriyal, previously with Colgate-Palmolive and other major consumer goods companies, is tasked with accelerating digital momentum, including e-commerce penetration and M&A integration. She is excited to leverage the company's nimble structure and focused talent to elevate its digital capabilities and expand its brand footprint.",
+      "url": "https://consumergoods.com/surabhi-pokhriyal-named-chief-digital-growth-officer-church-dwight",
+      "source": "Consumer Goods Technology",
+      "published": "20220228T162223",
+      "overall_sentiment_score": 0.210837,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.12082,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.72522
+      "relevance_score": 0.583106
+    },
+    {
+      "title": "Sanofi and GSK plan to ask regulators to authorize their COVID-19 vaccine",
+      "summary": "Sanofi and GlaxoSmithKline (GSK) are seeking regulatory authorization for their COVID-19 vaccine candidate, which showed 100% effectiveness against hospitalization and severe disease in trials. Their protein-based vaccine can serve as a primary vaccine or a booster shot, significantly raising antibody levels. This development offers a conventional alternative to existing mRNA and viral vector vaccines.",
+      "url": "https://abcnews.go.com/Health/sanofi-gsk-plan-regulators-authorize-covid-19-vaccine/story?id=83061991",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "published": "20220223T145300",
+      "overall_sentiment_score": 0.233998,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.113399,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.559432
     }
   ]
 }

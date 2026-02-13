@@ -19,18 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "bp to exit Rosneft shareholding | News and insights | Home",
-      "summary": "BP announced its decision to exit its 19.75% shareholding in Rosneft due to Russia's aggression against Ukraine. Both BP-nominated directors, Bernard Looney and Bob Dudley, will resign from Rosneft's board, leading to a material non-cash charge in BP's Q1 2022 results. BP's financial framework and distribution guidance remain unchanged, but it will no longer report Rosneft's results.",
-      "url": "https://www.bp.com/en/global/corporate/news-and-insights/press-releases/bp-to-exit-rosneft-shareholding.html",
-      "source": "bp global",
-      "published": "20220227T161658",
-      "overall_sentiment_score": 0.093926,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.131484,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.643519
-    },
-    {
       "title": "Exxon's workforce falls by 9,000 in 2021 amid cost cuts",
       "summary": "Exxon Mobil Corp announced a reduction of 9,000 global employees in 2021 as a result of a comprehensive cost-cutting program initiated after the COVID-19 pandemic. This workforce reduction contributed to the company's best annual profit in seven years in 2021, following a historic loss in 2020. The company plans further restructuring, including combining refining and chemicals businesses and cutting $6 billion from operating costs by next year.",
       "url": "https://www.reuters.com/business/energy/exxons-workforce-declines-by-9000-2021-amid-cost-cuts-2022-02-23/",
@@ -55,30 +43,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Marathon Petroleum Corp: What are oil workers fighting against?",
-      "summary": "This article details the struggles of US oil refinery workers against Marathon Petroleum Corp. and the United Steelworkers union. It highlights Marathon's substantial profits, the impact of federal bailouts and layoffs on workers, and the demand for a nationwide refinery strike amidst stagnant wage offers and ongoing exploitation.",
-      "url": "https://www.wsws.org/en/articles/2022/02/22/mara-f22.html",
-      "source": "World Socialist Web Site",
-      "published": "20220221T174558",
-      "overall_sentiment_score": -0.263487,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.226769,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.734938
-    },
-    {
-      "title": "Hubba Hubba: Appalachia Sees Continued Investment in Carbon Capture and Storage",
-      "summary": "Appalachia is seeing continued investment in carbon capture and storage (CCS) with a new hydrogen and carbon capture hub planned for Ohio, Pennsylvania, and West Virginia by a coalition of major energy, petrochemical, and steel companies. This initiative aims to reduce emissions across various industries, create jobs, and drive innovation, modeling an integrated low-emission energy and production system. The region's abundant natural gas resources are key to producing blue hydrogen, a process that separates hydrogen from natural gas with the resulting carbon dioxide stored underground, showcasing Appalachia's role in a lower carbon future.",
-      "url": "https://www.energyindepth.org/hubba-hubba-appalachia-sees-continued-investment-in-carbon-capture-and-storage/",
-      "source": "Energy In Depth",
-      "published": "20220218T163654",
-      "overall_sentiment_score": 0.326889,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.339506,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.612629
-    },
-    {
       "title": "Exxon, union reach tentative return-to-work deal for locked-out refinery workers -sources",
       "summary": "Exxon Mobil Corp and the United Steelworkers union (USW) have reached a tentative agreement for nearly 600 workers locked out of a Beaumont, Texas, refinery to return to work starting in March. The USW Local 13-243 is scheduled to vote on the agreement, which would end the lockout that began in May 2021. The agreement outlines the return of workers while an investigation by the U.S. National Labor Relations Board into alleged unfair labor practices continues.",
       "url": "https://www.reuters.com/business/energy/exxon-union-reach-tentative-deal-locked-out-refinery-workers-return-work-sources-2022-02-25/",
@@ -89,78 +53,6 @@
       "ticker_sentiment_score": 0.43961,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Iraq to develop oil and gas in the Western Desert in collaboration with Halliburton Co., Saudi Aramco",
-      "summary": "Iraq plans to collaborate with Halliburton Co. and Saudi Aramco to develop oil and gas reserves in its Western Desert, specifically in the Anbar province and the Akkas natural gas field. This initiative aims to reduce Iraq's dependence on oil for electricity and achieve gas self-sufficiency by 2025. The Iraqi government will cover development costs, with potential investment from Saudi Aramco.",
-      "url": "https://www.arabnews.com/node/2030266/business-economy",
-      "source": "Arab News",
-      "published": "20220223T113900",
-      "overall_sentiment_score": 0.137274,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.109691,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.603409
-    },
-    {
-      "title": "Opinion: As the stock market struggles, look at these ‘hard-asset’ commodity funds",
-      "summary": "Amidst stock market struggles and escalating geopolitical tensions, \"hard-asset\" commodity funds are presented as a potential haven for investors. These assets, including metals, fossil fuels, and agricultural goods, are benefiting from inflationary pressures and offer a degree of stability compared to more volatile investments like small-cap growth stocks or cryptocurrencies. The article suggests that these funds could be a strategic investment during periods of market uncertainty.",
-      "url": "https://www.marketwatch.com/story/as-the-stock-market-struggles-look-at-these-hard-asset-commodity-funds-11645620617?gaa_at=eafs&gaa_n=AWEtsqchlkfNv0Qz1Rm6h5CIiot00lF-holAN2dU2tRUdHX3mALg8t51O0-E&gaa_ts=6907a0c4&gaa_sig=lmi5j2mR7yvkF8-5NjKJS5Cip-FcuPnUZ_lnVynHvVnbNfQTn7XMff99ubNJv5jphLaC4WDKTVywTKINB3UteQ%3D%3D",
-      "source": "MarketWatch",
-      "published": "20220223T075000",
-      "overall_sentiment_score": 0.270662,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.345438,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.616895
-    },
-    {
-      "title": "Newpark Resources settles conflict with activist investor, expands board",
-      "summary": "Newpark Resources has settled a conflict with activist investor Brad Radoff, who had advocated for the company to sell off its fluid systems business. As part of the agreement, Newpark Resources will expand its board. Radoff's main concern was that the fluid systems business, which primarily serves the upstream oil and gas industry, did not turn a profit in 2021.",
-      "url": "https://www.bizjournals.com/houston/news/2022/02/22/newpark-activist-investor-radoff.html",
-      "source": "The Business Journals",
-      "published": "20220222T175551",
-      "overall_sentiment_score": 0.118506,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.129494,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.602552
-    },
-    {
-      "title": "Skadden, Kirkland lead DuPont’s $11 bln sale of unit to Celanese",
-      "summary": "DuPont has engaged Skadden, Arps, Slate, Meagher & Flom for its $11 billion sale of its mobility and materials business to Celanese Corp. Celanese, in turn, is being advised by Kirkland & Ellis and Gibson, Dunn & Crutcher for the acquisition and its financing. This deal marks DuPont's largest transaction since its separation from DowDuPont, as it continues to streamline its portfolio.",
-      "url": "https://www.reuters.com/legal/transactional/skadden-kirkland-lead-duponts-11-bln-sale-unit-celanese-2022-02-18/",
-      "source": "Reuters",
-      "published": "20220218T185600",
-      "overall_sentiment_score": 0.015923,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.136936,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.612915
-    },
-    {
-      "title": "ConocoPhillips considers sale of $1bn worth of Permian basin assets in US",
-      "summary": "ConocoPhillips is reportedly considering selling over $1 billion worth of its assets in the Permian Basin, specifically in the Delaware region of West Texas and New Mexico. This move follows its $9.5 billion acquisition of Shell's Permian operations in late 2021 and is part of a strategy to high-grade its portfolio and raise between $4 billion and $5 billion through asset sales by 2023. The divestment comes as global oil and gas companies seek to reduce debt and capitalize on surging oil prices.",
-      "url": "https://www.offshore-technology.com/news/conocophillips-sale-permian-assets/",
-      "source": "Offshore Technology",
-      "published": "20220214T162650",
-      "overall_sentiment_score": -0.071778,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.114644,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.624751
-    },
-    {
-      "title": "Oil companies, union reach deal on U.S. refinery workers pact",
-      "summary": "Oil companies, led by Marathon Petroleum, and the United Steelworkers union have reached a new national contract for 30,000 U.S. refinery, chemical plant, and pipeline workers. The four-year agreement includes a 12% pay increase and provisions for union health and safety representatives at each facility. Negotiations stalled earlier but resumed after union protests, leading to the new agreement.",
-      "url": "https://www.reuters.com/business/oil-companies-union-reach-agreement-us-refinery-workers-contract-sources-2022-02-25/",
-      "source": "Reuters",
-      "published": "20220226T125900",
-      "overall_sentiment_score": 0.264875,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.209319,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.701106
     },
     {
       "title": "The Energy Sector: 6 Things To Know",
@@ -187,30 +79,6 @@
       "relevance_score": 0.840597
     },
     {
-      "title": "The Top Carbon ETF’s of 2022: Investing Ideas for Canadians",
-      "summary": "This article identifies the top carbon ETFs for Canadian investors in 2022, highlighting newly available options on Canadian exchanges like Horizons Carbon Credits ETF (CARB) and Ninepoint Carbon Credit ETF (CBON). It also discusses the U.S.-based KraneShares Global Carbon Strategy ETF (KRBN) and Carbon Streaming Corporation (NETZ) as significant investments in the carbon market. The piece emphasizes the growing accessibility of carbon-related investments due to global decarbonization efforts.",
-      "url": "https://carboncredits.com/the-top-carbon-etfs-of-2022-investing-ideas-for-canadians/",
-      "source": "CarbonCredits.com",
-      "published": "20220221T101008",
-      "overall_sentiment_score": 0.227972,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.113212,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.603237
-    },
-    {
-      "title": "Roy Fuller Obituary - Dallas, TX",
-      "summary": "Roy Lee Fuller, born March 25, 1927, passed away peacefully on February 20, 2022, at the age of 94. He had a notable career trajectory from Geophysical Services Inc. (GSI) to Texas Instruments, followed by an energetic retirement involving hardware store ownership, chamber of commerce leadership, and rural land investments. Fuller, a veteran of WWII and a gifted musician, is survived by his wife Pat, children, stepchildren, grandchildren, and great-grandchildren.",
-      "url": "https://www.dignitymemorial.com/obituaries/dallas-tx/roy-fuller-10597289",
-      "source": "Dignity Memorial",
-      "published": "20220220T185733",
-      "overall_sentiment_score": 0.123313,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.113306,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.645002
-    },
-    {
       "title": "Hewlett Packard Enterprise set to move into its new global headquarters in Spring",
       "summary": "Hewlett Packard Enterprise (HPE) is opening its new global headquarters in Spring, north of Houston, as construction on its 440,000 square-foot campus wraps up. Employees have begun voluntarily moving into the space, which is expected to serve as a collaborative cultural center for its 2,200 Houston-area employees. This move from California, announced in December 2020, solidifies City Place as a growing corporate hub with significant ongoing residential and commercial development.",
       "url": "https://www.houstonchronicle.com/business/real-estate/article/Hewlett-Packard-Enterprise-set-to-move-into-its-16921943.php",
@@ -233,6 +101,138 @@
       "ticker_sentiment_score": 0.298523,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.739974
+    },
+    {
+      "title": "Marathon Petroleum Corp: What are oil workers fighting against?",
+      "summary": "This article details the struggles of US oil refinery workers against Marathon Petroleum Corp. and the United Steelworkers union. It highlights Marathon's substantial profits, the impact of federal bailouts and layoffs on workers, and the demand for a nationwide refinery strike amidst stagnant wage offers and ongoing exploitation.",
+      "url": "https://www.wsws.org/en/articles/2022/02/22/mara-f22.html",
+      "source": "World Socialist Web Site",
+      "published": "20220221T174558",
+      "overall_sentiment_score": -0.263487,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.226769,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.734938
+    },
+    {
+      "title": "Oil companies, union reach deal on U.S. refinery workers pact",
+      "summary": "Oil companies, led by Marathon Petroleum, and the United Steelworkers union have reached a new national contract for 30,000 U.S. refinery, chemical plant, and pipeline workers. The four-year agreement includes a 12% pay increase and provisions for union health and safety representatives at each facility. Negotiations stalled earlier but resumed after union protests, leading to the new agreement.",
+      "url": "https://www.reuters.com/business/oil-companies-union-reach-agreement-us-refinery-workers-contract-sources-2022-02-25/",
+      "source": "Reuters",
+      "published": "20220226T125900",
+      "overall_sentiment_score": 0.264875,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.209319,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.701106
+    },
+    {
+      "title": "Roy Fuller Obituary - Dallas, TX",
+      "summary": "Roy Lee Fuller, born March 25, 1927, passed away peacefully on February 20, 2022, at the age of 94. He had a notable career trajectory from Geophysical Services Inc. (GSI) to Texas Instruments, followed by an energetic retirement involving hardware store ownership, chamber of commerce leadership, and rural land investments. Fuller, a veteran of WWII and a gifted musician, is survived by his wife Pat, children, stepchildren, grandchildren, and great-grandchildren.",
+      "url": "https://www.dignitymemorial.com/obituaries/dallas-tx/roy-fuller-10597289",
+      "source": "Dignity Memorial",
+      "published": "20220220T185733",
+      "overall_sentiment_score": 0.123313,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.113306,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.645002
+    },
+    {
+      "title": "bp to exit Rosneft shareholding | News and insights | Home",
+      "summary": "BP announced its decision to exit its 19.75% shareholding in Rosneft due to Russia's aggression against Ukraine. Both BP-nominated directors, Bernard Looney and Bob Dudley, will resign from Rosneft's board, leading to a material non-cash charge in BP's Q1 2022 results. BP's financial framework and distribution guidance remain unchanged, but it will no longer report Rosneft's results.",
+      "url": "https://www.bp.com/en/global/corporate/news-and-insights/press-releases/bp-to-exit-rosneft-shareholding.html",
+      "source": "bp global",
+      "published": "20220227T161658",
+      "overall_sentiment_score": 0.093926,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.131484,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.643519
+    },
+    {
+      "title": "ConocoPhillips considers sale of $1bn worth of Permian basin assets in US",
+      "summary": "ConocoPhillips is reportedly considering selling over $1 billion worth of its assets in the Permian Basin, specifically in the Delaware region of West Texas and New Mexico. This move follows its $9.5 billion acquisition of Shell's Permian operations in late 2021 and is part of a strategy to high-grade its portfolio and raise between $4 billion and $5 billion through asset sales by 2023. The divestment comes as global oil and gas companies seek to reduce debt and capitalize on surging oil prices.",
+      "url": "https://www.offshore-technology.com/news/conocophillips-sale-permian-assets/",
+      "source": "Offshore Technology",
+      "published": "20220214T162650",
+      "overall_sentiment_score": -0.071778,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.114644,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.624751
+    },
+    {
+      "title": "Opinion: As the stock market struggles, look at these ‘hard-asset’ commodity funds",
+      "summary": "Amidst stock market struggles and escalating geopolitical tensions, \"hard-asset\" commodity funds are presented as a potential haven for investors. These assets, including metals, fossil fuels, and agricultural goods, are benefiting from inflationary pressures and offer a degree of stability compared to more volatile investments like small-cap growth stocks or cryptocurrencies. The article suggests that these funds could be a strategic investment during periods of market uncertainty.",
+      "url": "https://www.marketwatch.com/story/as-the-stock-market-struggles-look-at-these-hard-asset-commodity-funds-11645620617?gaa_at=eafs&gaa_n=AWEtsqchlkfNv0Qz1Rm6h5CIiot00lF-holAN2dU2tRUdHX3mALg8t51O0-E&gaa_ts=6907a0c4&gaa_sig=lmi5j2mR7yvkF8-5NjKJS5Cip-FcuPnUZ_lnVynHvVnbNfQTn7XMff99ubNJv5jphLaC4WDKTVywTKINB3UteQ%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220223T075000",
+      "overall_sentiment_score": 0.270662,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.345438,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.616895
+    },
+    {
+      "title": "Skadden, Kirkland lead DuPont’s $11 bln sale of unit to Celanese",
+      "summary": "DuPont has engaged Skadden, Arps, Slate, Meagher & Flom for its $11 billion sale of its mobility and materials business to Celanese Corp. Celanese, in turn, is being advised by Kirkland & Ellis and Gibson, Dunn & Crutcher for the acquisition and its financing. This deal marks DuPont's largest transaction since its separation from DowDuPont, as it continues to streamline its portfolio.",
+      "url": "https://www.reuters.com/legal/transactional/skadden-kirkland-lead-duponts-11-bln-sale-unit-celanese-2022-02-18/",
+      "source": "Reuters",
+      "published": "20220218T185600",
+      "overall_sentiment_score": 0.015923,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.136936,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.612915
+    },
+    {
+      "title": "Hubba Hubba: Appalachia Sees Continued Investment in Carbon Capture and Storage",
+      "summary": "Appalachia is seeing continued investment in carbon capture and storage (CCS) with a new hydrogen and carbon capture hub planned for Ohio, Pennsylvania, and West Virginia by a coalition of major energy, petrochemical, and steel companies. This initiative aims to reduce emissions across various industries, create jobs, and drive innovation, modeling an integrated low-emission energy and production system. The region's abundant natural gas resources are key to producing blue hydrogen, a process that separates hydrogen from natural gas with the resulting carbon dioxide stored underground, showcasing Appalachia's role in a lower carbon future.",
+      "url": "https://www.energyindepth.org/hubba-hubba-appalachia-sees-continued-investment-in-carbon-capture-and-storage/",
+      "source": "Energy In Depth",
+      "published": "20220218T163654",
+      "overall_sentiment_score": 0.326889,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.339506,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.612629
+    },
+    {
+      "title": "Iraq to develop oil and gas in the Western Desert in collaboration with Halliburton Co., Saudi Aramco",
+      "summary": "Iraq plans to collaborate with Halliburton Co. and Saudi Aramco to develop oil and gas reserves in its Western Desert, specifically in the Anbar province and the Akkas natural gas field. This initiative aims to reduce Iraq's dependence on oil for electricity and achieve gas self-sufficiency by 2025. The Iraqi government will cover development costs, with potential investment from Saudi Aramco.",
+      "url": "https://www.arabnews.com/node/2030266/business-economy",
+      "source": "Arab News",
+      "published": "20220223T113900",
+      "overall_sentiment_score": 0.137274,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.109691,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.603409
+    },
+    {
+      "title": "The Top Carbon ETF’s of 2022: Investing Ideas for Canadians",
+      "summary": "This article identifies the top carbon ETFs for Canadian investors in 2022, highlighting newly available options on Canadian exchanges like Horizons Carbon Credits ETF (CARB) and Ninepoint Carbon Credit ETF (CBON). It also discusses the U.S.-based KraneShares Global Carbon Strategy ETF (KRBN) and Carbon Streaming Corporation (NETZ) as significant investments in the carbon market. The piece emphasizes the growing accessibility of carbon-related investments due to global decarbonization efforts.",
+      "url": "https://carboncredits.com/the-top-carbon-etfs-of-2022-investing-ideas-for-canadians/",
+      "source": "CarbonCredits.com",
+      "published": "20220221T101008",
+      "overall_sentiment_score": 0.227972,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.113212,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.603237
+    },
+    {
+      "title": "Newpark Resources settles conflict with activist investor, expands board",
+      "summary": "Newpark Resources has settled a conflict with activist investor Brad Radoff, who had advocated for the company to sell off its fluid systems business. As part of the agreement, Newpark Resources will expand its board. Radoff's main concern was that the fluid systems business, which primarily serves the upstream oil and gas industry, did not turn a profit in 2021.",
+      "url": "https://www.bizjournals.com/houston/news/2022/02/22/newpark-activist-investor-radoff.html",
+      "source": "The Business Journals",
+      "published": "20220222T175551",
+      "overall_sentiment_score": 0.118506,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.129494,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.602552
     }
   ]
 }

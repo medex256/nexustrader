@@ -19,18 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "As the Market Rotates, This Healthcare ETF Is Leading the Way",
-      "summary": "The market is experiencing a rotation from tech to defensive sectors, with healthcare leading gains. The iShares U.S. Healthcare ETF (IYH) offers broad exposure to previously beaten-down healthcare stocks like UnitedHealth Group, Eli Lilly, Johnson & Johnson, and AbbVie, which are now showing promise. This ETF provides exposure to a less volatile, Buffett-backed sector with significant upside potential.",
-      "url": "https://finviz.com/news/149842/as-the-market-rotates-this-healthcare-etf-is-leading-the-way",
-      "source": "Finviz",
-      "published": "20250826T093500",
-      "overall_sentiment_score": 0.359351,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.349307,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.72815
-    },
-    {
       "title": "Johnson & Johnson to invest $2B in North Carolina plant as Trump’s 250% drug tariffs loom",
       "summary": "Johnson & Johnson announced a $2 billion investment to build a new factory in North Carolina, aiming to boost domestic production. This move comes as President Donald Trump threatens to impose tariffs of up to 250% on imported pharmaceuticals. Other healthcare giants like Eli Lilly and AstraZeneca are also expanding US manufacturing in response to these potential tariffs.",
       "url": "https://nypost.com/2025/08/22/business/johnson-amp-johnson-to-invest-2b-in-north-carolina-plant/",
@@ -41,18 +29,6 @@
       "ticker_sentiment_score": 0.34123,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "J&J builds on US manufacturing pledge with $2bn Fuji investment",
-      "summary": "Johnson & Johnson has signed a $2 billion, ten-year deal with Fujifilm Biotechnologies to expand its US manufacturing capabilities, utilizing a facility at Fujifilm's North Carolina site. This move aims to onshore production, create 120 new jobs, and aligns with US government incentives to redirect investment towards domestic manufacturing, following J&J's broader commitment of $55 billion to boost US infrastructure.",
-      "url": "https://www.europeanpharmaceuticalreview.com/news/264935/johnson-johnson-builds-on-us-manufacturing-pledge-with-2bn-fujifilm-investment/",
-      "source": "European Pharmaceutical Review",
-      "published": "20250822T000000",
-      "overall_sentiment_score": 0.002934,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.025079,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.326132
     },
     {
       "title": "In US manufacturing push, J&J earmarks $2B for Fujifilm in 10-year deal in North Carolina",
@@ -79,18 +55,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Insulet promotes Eric Benjamin to chief operating officer",
-      "summary": "Insulet has promoted Eric Benjamin to chief operating officer and hired Manoj Raghunandanan as chief growth officer. These appointments are among the first changes made by new CEO Ashley McEvoy and are aimed at strengthening the company's global expansion and innovation efforts. Benjamin will oversee strategy, R&D, and the new growth organization, while Raghunandanan will lead efforts to accelerate global growth through strategy, brand, and customer experience.",
-      "url": "https://www.medtechdive.com/news/insulet-eric-benjamin-manoj-raghunandanan-appointments/758668/",
-      "source": "MedTech Dive",
-      "published": "20250826T000000",
-      "overall_sentiment_score": 0.24896,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.136734,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.607397
-    },
-    {
       "title": "Johnson & Johnson to increase Holly Springs manufacturing",
       "summary": "Johnson & Johnson is expanding its manufacturing presence in Holly Springs, North Carolina, with a 160,000-square-foot plant at a Fujifilm Diosynth Biotechnologies site, creating 120 jobs. This expansion is part of a larger $2 billion commitment over the next 10 years by J&J for U.S. manufacturing. Additionally, J&J is constructing a $2 billion facility in Wilson, expected to employ over 500 people and focus on biologic medicines for oncology, immunology, and neuroscience.",
       "url": "https://www.wral.com/story/johnson-johnson-to-increase-holly-springs-manufacturing/22128103/",
@@ -115,6 +79,30 @@
       "relevance_score": 1.0
     },
     {
+      "title": "Stryker's Robotics and Global Gains Offset by Macro Concerns",
+      "summary": "Stryker (SYK) reported strong Q2 2025 results with an 11.1% increase in net sales and adjusted EPS of $3.13, driven by orthopaedics, Mako robotic platform adoption, MedSurg, and Neurotechnology segments. Despite raising full-year guidance, the company faces competitive pressures in robotics, macroeconomic headwinds affecting margins, and regulatory/supply-chain risks. The article concludes that while Stryker is a high-quality medtech leader, its premium valuation and market risks suggest patience for investors.",
+      "url": "https://finance.yahoo.com/news/strykers-robotics-global-gains-offset-135300405.html",
+      "source": "Yahoo Finance",
+      "published": "20250822T000000",
+      "overall_sentiment_score": 0.242798,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.217855,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.823739
+    },
+    {
+      "title": "As the Market Rotates, This Healthcare ETF Is Leading the Way",
+      "summary": "The market is experiencing a rotation from tech to defensive sectors, with healthcare leading gains. The iShares U.S. Healthcare ETF (IYH) offers broad exposure to previously beaten-down healthcare stocks like UnitedHealth Group, Eli Lilly, Johnson & Johnson, and AbbVie, which are now showing promise. This ETF provides exposure to a less volatile, Buffett-backed sector with significant upside potential.",
+      "url": "https://finviz.com/news/149842/as-the-market-rotates-this-healthcare-etf-is-leading-the-way",
+      "source": "Finviz",
+      "published": "20250826T093500",
+      "overall_sentiment_score": 0.359351,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.349307,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.72815
+    },
+    {
       "title": "Should You Invest in the VHT ETF in 2025?",
       "summary": "The article examines the Vanguard Health Care ETF (VHT) as a potential investment in 2025, highlighting its role as a defensive play with growth potential due to demographic trends and medical innovation. It discusses the VHT's broad diversification across the healthcare sector, its comparison to other ETFs, and the inherent risks like regulatory changes and valuation concerns. The piece concludes that VHT is a strong candidate for diversified portfolios seeking stability and exposure to cutting-edge medical advancements.",
       "url": "https://www.ebc.com/forex/should-you-invest-in-the-vht-etf-in-2025",
@@ -127,16 +115,28 @@
       "relevance_score": 0.621827
     },
     {
-      "title": "Stryker's Robotics and Global Gains Offset by Macro Concerns",
-      "summary": "Stryker (SYK) reported strong Q2 2025 results with an 11.1% increase in net sales and adjusted EPS of $3.13, driven by orthopaedics, Mako robotic platform adoption, MedSurg, and Neurotechnology segments. Despite raising full-year guidance, the company faces competitive pressures in robotics, macroeconomic headwinds affecting margins, and regulatory/supply-chain risks. The article concludes that while Stryker is a high-quality medtech leader, its premium valuation and market risks suggest patience for investors.",
-      "url": "https://finance.yahoo.com/news/strykers-robotics-global-gains-offset-135300405.html",
-      "source": "Yahoo Finance",
-      "published": "20250822T000000",
-      "overall_sentiment_score": 0.242798,
+      "title": "Insulet promotes Eric Benjamin to chief operating officer",
+      "summary": "Insulet has promoted Eric Benjamin to chief operating officer and hired Manoj Raghunandanan as chief growth officer. These appointments are among the first changes made by new CEO Ashley McEvoy and are aimed at strengthening the company's global expansion and innovation efforts. Benjamin will oversee strategy, R&D, and the new growth organization, while Raghunandanan will lead efforts to accelerate global growth through strategy, brand, and customer experience.",
+      "url": "https://www.medtechdive.com/news/insulet-eric-benjamin-manoj-raghunandanan-appointments/758668/",
+      "source": "MedTech Dive",
+      "published": "20250826T000000",
+      "overall_sentiment_score": 0.24896,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.217855,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.823739
+      "ticker_sentiment_score": 0.136734,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.607397
+    },
+    {
+      "title": "J&J builds on US manufacturing pledge with $2bn Fuji investment",
+      "summary": "Johnson & Johnson has signed a $2 billion, ten-year deal with Fujifilm Biotechnologies to expand its US manufacturing capabilities, utilizing a facility at Fujifilm's North Carolina site. This move aims to onshore production, create 120 new jobs, and aligns with US government incentives to redirect investment towards domestic manufacturing, following J&J's broader commitment of $55 billion to boost US infrastructure.",
+      "url": "https://www.europeanpharmaceuticalreview.com/news/264935/johnson-johnson-builds-on-us-manufacturing-pledge-with-2bn-fujifilm-investment/",
+      "source": "European Pharmaceutical Review",
+      "published": "20250822T000000",
+      "overall_sentiment_score": 0.002934,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.025079,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.326132
     }
   ]
 }

@@ -7,18 +7,6 @@
   "article_count": 4,
   "articles": [
     {
-      "title": "2 New Wide-Moat Stocks to Watch",
-      "summary": "Morningstar's equity research team has added two new wide-moat stocks to its coverage list: Kenvue (KVUE) and Copart (CPRT). Kenvue, Johnson & Johnson's former consumer segment, is the world's largest pure-play consumer health company, while Copart is a dominant salvage vehicle auctioneer leveraging a strong network effect. Analysts have assigned Kenvue a fair value of $27.50 per share, deeming it fairly valued, and Copart a fair value of $77 per share, considering it overpriced.",
-      "url": "https://www.morningstar.com/stocks/2-new-wide-moat-stocks-watch-2",
-      "source": "Morningstar",
-      "published": "20230710T000000",
-      "overall_sentiment_score": 0.06251,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.024087,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.640481
-    },
-    {
       "title": "Exxon Mobil and Tetra Team Up for the Next Big Thing in Arkansas: Lithium Mining",
       "summary": "Exxon Mobil and Tetra Technologies are partnering to develop over 6,100 acres of lithium-rich land in Arkansas, marking Exxon's second venture into battery metals for electric vehicles. This collaboration, which leverages Tetra's expertise in water treatment and Exxon's capital, aims to extract both lithium for EV batteries and bromine for flame retardants. While Exxon seeks new U.S. lithium sources, the commercial viability of the direct lithium extraction technologies needed for this project remains largely untested.",
       "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/exxon-mobil-and-tetra-team-up-for-the-next-big-thing-in-arkansas-lithium-mining-18757",
@@ -41,6 +29,18 @@
       "ticker_sentiment_score": 0.128153,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.721727
+    },
+    {
+      "title": "2 New Wide-Moat Stocks to Watch",
+      "summary": "Morningstar's equity research team has added two new wide-moat stocks to its coverage list: Kenvue (KVUE) and Copart (CPRT). Kenvue, Johnson & Johnson's former consumer segment, is the world's largest pure-play consumer health company, while Copart is a dominant salvage vehicle auctioneer leveraging a strong network effect. Analysts have assigned Kenvue a fair value of $27.50 per share, deeming it fairly valued, and Copart a fair value of $77 per share, considering it overpriced.",
+      "url": "https://www.morningstar.com/stocks/2-new-wide-moat-stocks-watch-2",
+      "source": "Morningstar",
+      "published": "20230710T000000",
+      "overall_sentiment_score": 0.06251,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.024087,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.640481
     },
     {
       "title": "How to Invest in Oil",

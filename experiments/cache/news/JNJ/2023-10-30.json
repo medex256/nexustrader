@@ -7,6 +7,30 @@
   "article_count": 10,
   "articles": [
     {
+      "title": "Johnson & Johnson Considers Ditching Texas Two-Step for Third Talc Bankruptcy",
+      "summary": "Johnson & Johnson is exploring a third bankruptcy filing for its talc-related liabilities, considering a different corporate structure than its previous failed attempts using the \"Texas Two-Step.\" The healthcare giant aims for a consensual resolution through bankruptcy for tens of thousands of personal-injury lawsuits, following two unsuccessful prior efforts to resolve these mass claims in chapter 11 proceedings. J&J faces numerous lawsuits alleging that talc in its Baby Powder caused various health issues, which the company denies.",
+      "url": "https://www.wsj.com/articles/johnson-johnson-considers-ditching-texas-two-step-for-third-talc-bankruptcy-99a0cc46?gaa_at=eafs&gaa_n=AWEtsqfXNbOixNPQJJKALePYRKyj8Qo8RTufeXtfpMGkLVffxR852H-docfZ&gaa_ts=69077532&gaa_sig=p2j6T_Nc7H1XOl9wPR7zv3DXmEOkhDTDE1tCvT5oaRBIIJVrI2mE4bW8rprXXwGG4Dv42c_TjW9Jw_6qrTUKlw%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20231020T172200",
+      "overall_sentiment_score": -0.394502,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.417646,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Market Leaders Johnson & Johnson Vision, CooperVision, and Alcon Inc Drive Growth in Global Contact Lenses Market",
+      "summary": "The global contact lenses market is projected to grow from $9.77 billion in 2023 to $13.57 billion by 2029, driven by factors such as an aging population, increased awareness, and prevalent eye diseases. North America currently holds the largest market share, with the APAC region showing the highest growth potential. The report highlights key players like Johnson & Johnson Vision, CooperVision, and Alcon Inc.",
+      "url": "https://finance.yahoo.com/news/market-leaders-johnson-johnson-vision-085300454.html",
+      "source": "Yahoo Finance",
+      "published": "20231024T085300",
+      "overall_sentiment_score": 0.429753,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.409191,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.864756
+    },
+    {
       "title": "Analysts focus on CSX’s new chief operating officer",
       "summary": "Analysts are focusing on CSX's new Chief Operating Officer, Mike Cory, who recently joined the company after a long career at Canadian National Railway. Cory's expertise is expected to drive collaboration and growth, leveraging CSX's existing capacity, despite a \"relative non-event\" third-quarter earnings report. The article also touches on other financial news, including Johnson & Johnson's vision sales, FIS's overlooked SunGard acquisition, and growth prospects for Restaurant Brands International's Firehouse Subs.",
       "url": "https://www.jaxdailyrecord.com/news/2023/oct/26/analysts-focus-on-csxs-new-chief-operating-officer/",
@@ -19,6 +43,42 @@
       "relevance_score": 0.747638
     },
     {
+      "title": "Myasthenia Gravis Market is Projected to Boost at a",
+      "summary": "The myasthenia gravis market is expected to experience moderate growth through 2032 due to improved diagnosis, increased awareness, higher healthcare spending, and emerging therapies. DelveInsight's report indicates major pharmaceutical companies are developing novel treatments, addressing a significant patient population across the 7MM. The market dynamics are influenced by rising patient numbers, R&D efforts, competition, and patient advocacy, although challenges like the lack of a definitive cure and high development costs persist.",
+      "url": "https://www.globenewswire.com/news-release/2023/10/25/2766854/0/en/Myasthenia-Gravis-Market-is-Projected-to-Boost-at-a-Moderate-Growth-Rate-by-2032-Estimates-DelveInsight-Leading-Companies-DAS-MG-Catalyst-Cabaletta-Bio-Janssen-Argenx-UCB-Pharma-Al.html",
+      "source": "GlobeNewswire",
+      "published": "20231025T130000",
+      "overall_sentiment_score": 0.304208,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.254656,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.731468
+    },
+    {
+      "title": "Kenvue tempers annual profit view on soft demand for cold, flu medicines",
+      "summary": "Kenvue tempered the higher end of its annual profit forecast due to soft demand for cold and flu medicines caused by a delayed flu season in the northern hemisphere and a stronger dollar impact. Despite slightly exceeding Q3 revenue estimates, the company faces headwinds from slower sales in China and an ongoing review of phenylephrine, an ingredient in popular products like Benadryl and Tylenol.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenvue-reports-higher-q3-revenue-self-care-products-strength-2023-10-26/",
+      "source": "Reuters",
+      "published": "20231026T135400",
+      "overall_sentiment_score": -0.13608,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.125784,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.7069
+    },
+    {
+      "title": "Bristol Myers' injectable form of Opdivo meets main goal in kidney cancer trial",
+      "summary": "Bristol Myers Squibb announced that the injectable form of its cancer drug Opdivo met its primary goal in a kidney cancer trial, demonstrating non-inferiority to the intravenous version. This new formulation uses Halozyme Therapeutics' technology, allowing for a quicker, subcutaneous administration. The company plans to discuss regulatory submissions for this new treatment option.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/bristol-myerss-injectable-kindey-cancer-drug-found-non-inferior-iv-form-2023-10-19/",
+      "source": "Reuters",
+      "published": "20231019T124200",
+      "overall_sentiment_score": 0.250262,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.144162,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.648281
+    },
+    {
       "title": "Oversold and Overextended, Abbott Laboratories is a Great Buy",
       "summary": "Abbott Laboratories' stock has been oversold and overextended after a nearly two-year downturn, but recent solid Q3 results and favorable guidance suggest a strong rebound. The company's value and dividend yield are at their best levels in years, with analysts maintaining a Moderate Buy rating and significant upside potential. Technical indicators also confirm support at a critical multi-year low, pointing towards further stock appreciation.",
       "url": "https://www.entrepreneur.com/finance/oversold-and-overextended-abbott-laboratories-is-a-great/463937",
@@ -29,6 +89,18 @@
       "ticker_sentiment_score": 0.121145,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.639479
+    },
+    {
+      "title": "Costco class action alleges Kirkland nasal decongestant product ineffective",
+      "summary": "A class action lawsuit has been filed against Costco Wholesale Corp., alleging that its Kirkland-brand Multi-Symptom Cold & Flu Severe is falsely marketed as an effective nasal decongestant. The lawsuit claims the product's active ingredient, phenylephrine, has been deemed ineffective at relieving nasal congestion by an FDA advisory panel. Plaintiff Eduardo Flores seeks to represent a nationwide class of consumers, accusing Costco of unjust enrichment, breach of implied warranty, and violating California consumer protection laws.",
+      "url": "https://topclassactions.com/lawsuit-settlements/prescription/costco-class-action-alleges-kirkland-nasal-decongestant-product-ineffective/",
+      "source": "Class Action Lawsuits",
+      "published": "20231026T000000",
+      "overall_sentiment_score": -0.340291,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.261312,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.596202
     },
     {
       "title": "Thermo Fisher Scientific to Acquire Olink, a Leader in Next-Generation Proteomics",
@@ -53,78 +125,6 @@
       "ticker_sentiment_score": 0.04948,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.33362
-    },
-    {
-      "title": "Kenvue tempers annual profit view on soft demand for cold, flu medicines",
-      "summary": "Kenvue tempered the higher end of its annual profit forecast due to soft demand for cold and flu medicines caused by a delayed flu season in the northern hemisphere and a stronger dollar impact. Despite slightly exceeding Q3 revenue estimates, the company faces headwinds from slower sales in China and an ongoing review of phenylephrine, an ingredient in popular products like Benadryl and Tylenol.",
-      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/kenvue-reports-higher-q3-revenue-self-care-products-strength-2023-10-26/",
-      "source": "Reuters",
-      "published": "20231026T135400",
-      "overall_sentiment_score": -0.13608,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.125784,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.7069
-    },
-    {
-      "title": "Costco class action alleges Kirkland nasal decongestant product ineffective",
-      "summary": "A class action lawsuit has been filed against Costco Wholesale Corp., alleging that its Kirkland-brand Multi-Symptom Cold & Flu Severe is falsely marketed as an effective nasal decongestant. The lawsuit claims the product's active ingredient, phenylephrine, has been deemed ineffective at relieving nasal congestion by an FDA advisory panel. Plaintiff Eduardo Flores seeks to represent a nationwide class of consumers, accusing Costco of unjust enrichment, breach of implied warranty, and violating California consumer protection laws.",
-      "url": "https://topclassactions.com/lawsuit-settlements/prescription/costco-class-action-alleges-kirkland-nasal-decongestant-product-ineffective/",
-      "source": "Class Action Lawsuits",
-      "published": "20231026T000000",
-      "overall_sentiment_score": -0.340291,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.261312,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.596202
-    },
-    {
-      "title": "Bristol Myers' injectable form of Opdivo meets main goal in kidney cancer trial",
-      "summary": "Bristol Myers Squibb announced that the injectable form of its cancer drug Opdivo met its primary goal in a kidney cancer trial, demonstrating non-inferiority to the intravenous version. This new formulation uses Halozyme Therapeutics' technology, allowing for a quicker, subcutaneous administration. The company plans to discuss regulatory submissions for this new treatment option.",
-      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/bristol-myerss-injectable-kindey-cancer-drug-found-non-inferior-iv-form-2023-10-19/",
-      "source": "Reuters",
-      "published": "20231019T124200",
-      "overall_sentiment_score": 0.250262,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.144162,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.648281
-    },
-    {
-      "title": "Myasthenia Gravis Market is Projected to Boost at a",
-      "summary": "The myasthenia gravis market is expected to experience moderate growth through 2032 due to improved diagnosis, increased awareness, higher healthcare spending, and emerging therapies. DelveInsight's report indicates major pharmaceutical companies are developing novel treatments, addressing a significant patient population across the 7MM. The market dynamics are influenced by rising patient numbers, R&D efforts, competition, and patient advocacy, although challenges like the lack of a definitive cure and high development costs persist.",
-      "url": "https://www.globenewswire.com/news-release/2023/10/25/2766854/0/en/Myasthenia-Gravis-Market-is-Projected-to-Boost-at-a-Moderate-Growth-Rate-by-2032-Estimates-DelveInsight-Leading-Companies-DAS-MG-Catalyst-Cabaletta-Bio-Janssen-Argenx-UCB-Pharma-Al.html",
-      "source": "GlobeNewswire",
-      "published": "20231025T130000",
-      "overall_sentiment_score": 0.304208,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.254656,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.731468
-    },
-    {
-      "title": "Market Leaders Johnson & Johnson Vision, CooperVision, and Alcon Inc Drive Growth in Global Contact Lenses Market",
-      "summary": "The global contact lenses market is projected to grow from $9.77 billion in 2023 to $13.57 billion by 2029, driven by factors such as an aging population, increased awareness, and prevalent eye diseases. North America currently holds the largest market share, with the APAC region showing the highest growth potential. The report highlights key players like Johnson & Johnson Vision, CooperVision, and Alcon Inc.",
-      "url": "https://finance.yahoo.com/news/market-leaders-johnson-johnson-vision-085300454.html",
-      "source": "Yahoo Finance",
-      "published": "20231024T085300",
-      "overall_sentiment_score": 0.429753,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.409191,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.864756
-    },
-    {
-      "title": "Johnson & Johnson Considers Ditching Texas Two-Step for Third Talc Bankruptcy",
-      "summary": "Johnson & Johnson is exploring a third bankruptcy filing for its talc-related liabilities, considering a different corporate structure than its previous failed attempts using the \"Texas Two-Step.\" The healthcare giant aims for a consensual resolution through bankruptcy for tens of thousands of personal-injury lawsuits, following two unsuccessful prior efforts to resolve these mass claims in chapter 11 proceedings. J&J faces numerous lawsuits alleging that talc in its Baby Powder caused various health issues, which the company denies.",
-      "url": "https://www.wsj.com/articles/johnson-johnson-considers-ditching-texas-two-step-for-third-talc-bankruptcy-99a0cc46?gaa_at=eafs&gaa_n=AWEtsqfXNbOixNPQJJKALePYRKyj8Qo8RTufeXtfpMGkLVffxR852H-docfZ&gaa_ts=69077532&gaa_sig=p2j6T_Nc7H1XOl9wPR7zv3DXmEOkhDTDE1tCvT5oaRBIIJVrI2mE4bW8rprXXwGG4Dv42c_TjW9Jw_6qrTUKlw%3D%3D",
-      "source": "The Wall Street Journal",
-      "published": "20231020T172200",
-      "overall_sentiment_score": -0.394502,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.417646,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 1.0
     }
   ]
 }

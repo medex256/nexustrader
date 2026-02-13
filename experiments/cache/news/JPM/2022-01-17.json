@@ -7,102 +7,6 @@
   "article_count": 22,
   "articles": [
     {
-      "title": "StubHub Explores Going Public, Valued at $13B",
-      "summary": "StubHub Holdings is considering a direct listing that could value the company at over $13 billion, following other ticket platforms going public. The parent company of StubHub and Viagogo has filed paperwork with the SEC and is working with Goldman Sachs and JPMorgan Chase. Despite facing scrutiny over its merger and carrying significant debt, StubHub expects to rebound to pre-pandemic revenue levels in 2022, though the Omicron variant poses a potential challenge.",
-      "url": "https://frontofficesports.com/stubhub-explores-going-public-valued-at-13b/",
-      "source": "Front Office Sports",
-      "published": "20220114T162200",
-      "overall_sentiment_score": 0.113491,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.102193,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.627772
-    },
-    {
-      "title": "Lifestance CEO Doesn’t See Digital Mental Health Providers as Competitors",
-      "summary": "LifeStance Health CEO Michael Lester states that digital mental health providers are not significant competitors, as LifeStance focuses on higher-acuity patients with diagnoses and bills third-party payers. The company differentiates itself by largely providing in-network care through its extensive network of 4,400 clinicians and also sees its staffing model as appealing to a different, larger subset of clinicians. LifeStance also reported that while it saw an uptick in cancellations due to the omicron variant, its hybrid model helped it navigate COVID-related challenges.",
-      "url": "https://bhbusiness.com/2022/01/13/lifestance-ceo-doesnt-see-digital-mental-health-providers-as-competitors/",
-      "source": "Behavioral Health Business",
-      "published": "20220113T172707",
-      "overall_sentiment_score": 0.173007,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.076519,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.637309
-    },
-    {
-      "title": "These 14 bank stocks are in the best position to benefit from rising interest rates",
-      "summary": "This article identifies 14 bank stocks poised to benefit from rising interest rates, based on a screen of various banks. It highlights Huntington Bancshares Inc. (HBAN) as a top performer expected to significantly increase its earnings per share through 2023, outpacing the S&P 500 Index. The piece delves into why these select few banks are projected to achieve double-digit earnings growth.",
-      "url": "https://www.marketwatch.com/story/these-14-bank-stocks-are-in-the-best-position-to-benefit-from-rising-interest-rates-11641918180?gaa_at=eafs&gaa_n=AWEtsqeWNF9gp5trF2A5anv8cpR2Fm9erjz_kxmaMxn4vjIO75PJOaC6urEw&gaa_ts=69079527&gaa_sig=mBTbMabWo6tnEMo8nq9Jq2E72j3ofE_BFJXY76r2BOE8UiSZlpdQVvLLO_vUtYzzyzUxhnSHLhFNRw9dLQW7yw%3D%3D",
-      "source": "MarketWatch",
-      "published": "20220111T112200",
-      "overall_sentiment_score": 0.365793,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.321685,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.630011
-    },
-    {
-      "title": "Rocket Grew Into America’s Biggest Mortgage Lender, but Now Comes the Hard Part - WSJ",
-      "summary": "Rocket Companies became the largest mortgage lender in the U.S. during the pandemic, significantly increasing its mortgage originations. However, the company now faces the challenge of convincing investors that it can sustain growth even if mortgage refinancings decline. Rocket's past success relied heavily on a favorable interest rate environment, and it needs to adapt to a potentially sleepier mortgage market.",
-      "url": "https://www.wsj.com/finance/banking/rocket-feasted-on-low-interest-rates-to-become-mortgage-king-but-now-comes-the-hard-part-11641637805?gaa_at=eafs&gaa_n=AWEtsqdJXi1s0lX1hZq2mJNuEuVQ9F8GedFMk1jBvrlIavcXi37_VhjPJCQX&gaa_ts=6907a570&gaa_sig=Jj6G478mQXB8J5cuaQwvWrtYop89DnLMHiWUb9KWSJlYLr-s8V6caLkAo-7CIBe4fGxjs2bCd2p_vFhYAdwdBw%3D%3D",
-      "source": "The Wall Street Journal",
-      "published": "20220108T182612",
-      "overall_sentiment_score": 0.012106,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.088274,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.602021
-    },
-    {
-      "title": "WSFS nets $15M in lawsuit settlement tied to acquisition 12 years ago",
-      "summary": "WSFS Financial Corp. announced it will receive $15 million from a settlement resolving a long-standing legal dispute. This dispute originated from the bank's 2010 acquisition of Christiana Bank & Trust. The settlement covers all legal costs associated with the case.",
-      "url": "https://www.bizjournals.com/philadelphia/news/2022/01/07/wsfs-nets-15m-in-lawsuit-settlement.html",
-      "source": "The Business Journals",
-      "published": "20220107T191642",
-      "overall_sentiment_score": 0.169126,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.206002,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.536533
-    },
-    {
-      "title": "Subsidiarias de peruana Urbanova reciben préstamo de 190 millones de dólares",
-      "summary": "Subsidiaries of the Peruvian real estate company Urbanova secured a $190 million secured loan from a syndicate of banks to refinance a previous credit. The beneficiaries, Inmuebles Limatambo, Inversiones San Borja, and Urbanizadora Jardín, used the funds to repay an earlier loan and backed the new credit with a mortgage on their properties. Legal counsel for the transaction included Simpson Thacher & Bartlett and Rodrigo, Elías & Medrano Abogados for Urbanova, and Clifford Chance and Garrigues for the syndicate of banks led by Banco Santander.",
-      "url": "https://lexlatin.com/noticias/subsidiarias-de-urbanova-reciben-prestamo",
-      "source": "LexLatin",
-      "published": "20220107T161648",
-      "overall_sentiment_score": 0.279406,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.240849,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.607564
-    },
-    {
-      "title": "Analyst Coverage | Investor Relations | Workday",
-      "summary": "This Workday Investor Relations page lists the research analysts who cover the company. It explicitly states that analyst opinions, estimates, and forecasts are their own and do not represent Workday's views or endorsement. The page provides a comprehensive list of firms and their respective analysts covering Workday.",
-      "url": "https://investor.workday.com/analyst-coverage",
-      "source": "Workday",
-      "published": "20220106T191610",
-      "overall_sentiment_score": 0.006451,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.025591,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.629213
-    },
-    {
-      "title": "Pinnacle Financial Partners Opens Full-Service Office in Huntersville",
-      "summary": "Pinnacle Financial Partners has opened a new full-service office in Huntersville, NC, expanding its presence in Mecklenburg County with a team of veteran financial services professionals. The new office at 16633 Birkdale Commons offers a full range of banking and financial services, building on Pinnacle's significant growth in the greater Charlotte MSA. The team includes new additions and experienced advisors, solidifying Pinnacle's commitment to community-focused service with comprehensive financial solutions.",
-      "url": "https://pnfp.com/news/news-releases/pinnacle-financial-partners-opens-full-service-office-in-huntersville/",
-      "source": "Pinnacle Financial Partners",
-      "published": "20220105T180733",
-      "overall_sentiment_score": 0.162399,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.009981,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.587107
-    },
-    {
       "title": "JPMorgan Chase: The Gold Standard in Diverse Spend",
       "summary": "JPMorgan Chase is promoting diverse spend throughout its supply chain by dedicating approximately $2bn annually to diverse-owned and managed companies and committed to increasing spend with Black, Hispanic, and Latino businesses by an additional $750 million. The company's strategy involves mobilizing key suppliers, mentoring those with emerging diversity programs, and enhancing the discoverability of diverse suppliers, aiming for a significant increase in diverse spend over the next three years. This initiative is a core part of its ESG agenda, viewing supplier diversity as both a moral imperative and smart business practice to foster economic growth and strengthen communities.",
       "url": "https://procurementmag.com/company-reports/jpmorgan-chase-gold-standard-diverse-spend",
@@ -113,18 +17,6 @@
       "ticker_sentiment_score": 0.49092,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Private equity firm TPG seeks $9.5 bln valuation in U.S. IPO",
-      "summary": "Private equity firm TPG is targeting a $9.5 billion valuation in its upcoming U.S. initial public offering this month. The firm plans to sell about 28.3 million shares between $28 and $31 apiece, aiming to raise approximately $877.6 million, with 40% going to existing shareholders. TPG, an investor in companies like Airbnb and Uber, has recovered from past poor investments and seen a significant jump in net income and revenue in the nine months leading up to September 2021.",
-      "url": "https://www.reuters.com/business/private-equity-firm-tpg-aims-over-9-bln-valuation-us-ipo-2022-01-04/",
-      "source": "Reuters",
-      "published": "20220105T021300",
-      "overall_sentiment_score": 0.234514,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.131119,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.611347
     },
     {
       "title": "Pay on Wall Street will surge after a bumper year. (Published 2022)",
@@ -139,16 +31,28 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Stock Market News For Today, January 14th, 2022",
-      "summary": "This article provides a stock market update for January 14th, 2022, highlighting that penny stocks and blue chips were expected to start lower. It discusses key economic factors like falling retail sales and upcoming political nominations, and features five trending penny stocks to watch: Guardforce AI (GFAI), Nextplay Technologies (NXTP), China SXT Pharmaceuticals (SXTC), Kaival Brands Innovations Group (KAVL), and Vinco Ventures (BBIG), detailing their recent performance and news.",
-      "url": "https://pennystocks.com/featured/2022/01/14/stock-market-news-today-january-14th",
-      "source": "PennyStocks.com",
-      "published": "20220114T164704",
-      "overall_sentiment_score": 0.112008,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.284201,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.70735
+      "title": "JPM 2022: Morgan Health, Kaiser Permanente partner on health equity",
+      "summary": "Morgan Health and Kaiser Permanente are partnering to focus on health equity for JPMorgan Chase's California employees, beginning this month. They plan to jointly collect and report health equity metrics and introduce performance guarantees tied to health equity for JPMorgan employees starting in 2023. Morgan Health also aims to expand into new markets and integrate digital capabilities through its investment in Vera Whole Health, which is merging with Castlight Health.",
+      "url": "https://www.fiercehealthcare.com/payer/jpm-2022-morgan-health-kaiser-permanente-partner-health-equity",
+      "source": "Fierce Healthcare",
+      "published": "20220112T154500",
+      "overall_sentiment_score": 0.25214,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.436955,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Jim Connell",
+      "summary": "Jim Connell, CPO and Head of Global Supplier Services at JPMorgan Chase, discusses the importance of diverse spend and maximizing its impact throughout the supply chain. JPMorgan Chase is committed to supporting diverse suppliers, dedicating approximately US$2bn annually, and made a further commitment in October 2020 to increase spend with Black, Hispanic, and Latino businesses by $750 million. Through their Gold Supplier program, they encourage strategic suppliers to develop growth plans to improve supplier diversity, aiming for a significant increase in diverse spend over the next three years.",
+      "url": "https://procurementmag.com/interviews/jpmorgan-chase-and-co-supplier-diversity-smart-business",
+      "source": "Procurement Magazine",
+      "published": "20220105T171648",
+      "overall_sentiment_score": 0.496403,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.451693,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "The Student Has Become The Master",
@@ -163,16 +67,16 @@
       "relevance_score": 0.8427
     },
     {
-      "title": "JPM 2022: Morgan Health, Kaiser Permanente partner on health equity",
-      "summary": "Morgan Health and Kaiser Permanente are partnering to focus on health equity for JPMorgan Chase's California employees, beginning this month. They plan to jointly collect and report health equity metrics and introduce performance guarantees tied to health equity for JPMorgan employees starting in 2023. Morgan Health also aims to expand into new markets and integrate digital capabilities through its investment in Vera Whole Health, which is merging with Castlight Health.",
-      "url": "https://www.fiercehealthcare.com/payer/jpm-2022-morgan-health-kaiser-permanente-partner-health-equity",
-      "source": "Fierce Healthcare",
-      "published": "20220112T154500",
-      "overall_sentiment_score": 0.25214,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.436955,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
+      "title": "Stock Market News For Today, January 14th, 2022",
+      "summary": "This article provides a stock market update for January 14th, 2022, highlighting that penny stocks and blue chips were expected to start lower. It discusses key economic factors like falling retail sales and upcoming political nominations, and features five trending penny stocks to watch: Guardforce AI (GFAI), Nextplay Technologies (NXTP), China SXT Pharmaceuticals (SXTC), Kaival Brands Innovations Group (KAVL), and Vinco Ventures (BBIG), detailing their recent performance and news.",
+      "url": "https://pennystocks.com/featured/2022/01/14/stock-market-news-today-january-14th",
+      "source": "PennyStocks.com",
+      "published": "20220114T164704",
+      "overall_sentiment_score": 0.112008,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.284201,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.70735
     },
     {
       "title": "AI Startup Speeds Up Derivative Models for Bank of Montreal",
@@ -185,18 +89,6 @@
       "ticker_sentiment_score": 0.216937,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.647467
-    },
-    {
-      "title": "Owens & Minor to buy home healthcare provider Apria for $1.45 bln",
-      "summary": "Owens & Minor Inc. announced its acquisition of home healthcare provider Apria Inc. for approximately $1.45 billion in cash. This strategic move aims to strengthen Owens & Minor's position in the growing home healthcare services market, reflecting increased demand due to the ongoing COVID-19 pandemic. The deal, valued at $37.50 per share for Apria, is expected to close in the first half of 2022.",
-      "url": "https://www.reuters.com/markets/deals/owens-minor-buy-apria-about-145-bln-2022-01-10/",
-      "source": "Reuters",
-      "published": "20220110T155600",
-      "overall_sentiment_score": 0.282012,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.119932,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.635197
     },
     {
       "title": "JPM 2022: New Johnson & Johnson CEO Duato points out 5 pipeline meds that can generate $5B-plus",
@@ -223,16 +115,88 @@
       "relevance_score": 0.641336
     },
     {
-      "title": "Jim Connell",
-      "summary": "Jim Connell, CPO and Head of Global Supplier Services at JPMorgan Chase, discusses the importance of diverse spend and maximizing its impact throughout the supply chain. JPMorgan Chase is committed to supporting diverse suppliers, dedicating approximately US$2bn annually, and made a further commitment in October 2020 to increase spend with Black, Hispanic, and Latino businesses by $750 million. Through their Gold Supplier program, they encourage strategic suppliers to develop growth plans to improve supplier diversity, aiming for a significant increase in diverse spend over the next three years.",
-      "url": "https://procurementmag.com/interviews/jpmorgan-chase-and-co-supplier-diversity-smart-business",
-      "source": "Procurement Magazine",
-      "published": "20220105T171648",
-      "overall_sentiment_score": 0.496403,
+      "title": "Lifestance CEO Doesn’t See Digital Mental Health Providers as Competitors",
+      "summary": "LifeStance Health CEO Michael Lester states that digital mental health providers are not significant competitors, as LifeStance focuses on higher-acuity patients with diagnoses and bills third-party payers. The company differentiates itself by largely providing in-network care through its extensive network of 4,400 clinicians and also sees its staffing model as appealing to a different, larger subset of clinicians. LifeStance also reported that while it saw an uptick in cancellations due to the omicron variant, its hybrid model helped it navigate COVID-related challenges.",
+      "url": "https://bhbusiness.com/2022/01/13/lifestance-ceo-doesnt-see-digital-mental-health-providers-as-competitors/",
+      "source": "Behavioral Health Business",
+      "published": "20220113T172707",
+      "overall_sentiment_score": 0.173007,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.076519,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.637309
+    },
+    {
+      "title": "Owens & Minor to buy home healthcare provider Apria for $1.45 bln",
+      "summary": "Owens & Minor Inc. announced its acquisition of home healthcare provider Apria Inc. for approximately $1.45 billion in cash. This strategic move aims to strengthen Owens & Minor's position in the growing home healthcare services market, reflecting increased demand due to the ongoing COVID-19 pandemic. The deal, valued at $37.50 per share for Apria, is expected to close in the first half of 2022.",
+      "url": "https://www.reuters.com/markets/deals/owens-minor-buy-apria-about-145-bln-2022-01-10/",
+      "source": "Reuters",
+      "published": "20220110T155600",
+      "overall_sentiment_score": 0.282012,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.119932,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.635197
+    },
+    {
+      "title": "These 14 bank stocks are in the best position to benefit from rising interest rates",
+      "summary": "This article identifies 14 bank stocks poised to benefit from rising interest rates, based on a screen of various banks. It highlights Huntington Bancshares Inc. (HBAN) as a top performer expected to significantly increase its earnings per share through 2023, outpacing the S&P 500 Index. The piece delves into why these select few banks are projected to achieve double-digit earnings growth.",
+      "url": "https://www.marketwatch.com/story/these-14-bank-stocks-are-in-the-best-position-to-benefit-from-rising-interest-rates-11641918180?gaa_at=eafs&gaa_n=AWEtsqeWNF9gp5trF2A5anv8cpR2Fm9erjz_kxmaMxn4vjIO75PJOaC6urEw&gaa_ts=69079527&gaa_sig=mBTbMabWo6tnEMo8nq9Jq2E72j3ofE_BFJXY76r2BOE8UiSZlpdQVvLLO_vUtYzzyzUxhnSHLhFNRw9dLQW7yw%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220111T112200",
+      "overall_sentiment_score": 0.365793,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.451693,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
+      "ticker_sentiment_score": 0.321685,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630011
+    },
+    {
+      "title": "Analyst Coverage | Investor Relations | Workday",
+      "summary": "This Workday Investor Relations page lists the research analysts who cover the company. It explicitly states that analyst opinions, estimates, and forecasts are their own and do not represent Workday's views or endorsement. The page provides a comprehensive list of firms and their respective analysts covering Workday.",
+      "url": "https://investor.workday.com/analyst-coverage",
+      "source": "Workday",
+      "published": "20220106T191610",
+      "overall_sentiment_score": 0.006451,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.025591,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.629213
+    },
+    {
+      "title": "StubHub Explores Going Public, Valued at $13B",
+      "summary": "StubHub Holdings is considering a direct listing that could value the company at over $13 billion, following other ticket platforms going public. The parent company of StubHub and Viagogo has filed paperwork with the SEC and is working with Goldman Sachs and JPMorgan Chase. Despite facing scrutiny over its merger and carrying significant debt, StubHub expects to rebound to pre-pandemic revenue levels in 2022, though the Omicron variant poses a potential challenge.",
+      "url": "https://frontofficesports.com/stubhub-explores-going-public-valued-at-13b/",
+      "source": "Front Office Sports",
+      "published": "20220114T162200",
+      "overall_sentiment_score": 0.113491,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.102193,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.627772
+    },
+    {
+      "title": "Private equity firm TPG seeks $9.5 bln valuation in U.S. IPO",
+      "summary": "Private equity firm TPG is targeting a $9.5 billion valuation in its upcoming U.S. initial public offering this month. The firm plans to sell about 28.3 million shares between $28 and $31 apiece, aiming to raise approximately $877.6 million, with 40% going to existing shareholders. TPG, an investor in companies like Airbnb and Uber, has recovered from past poor investments and seen a significant jump in net income and revenue in the nine months leading up to September 2021.",
+      "url": "https://www.reuters.com/business/private-equity-firm-tpg-aims-over-9-bln-valuation-us-ipo-2022-01-04/",
+      "source": "Reuters",
+      "published": "20220105T021300",
+      "overall_sentiment_score": 0.234514,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.131119,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.611347
+    },
+    {
+      "title": "Subsidiarias de peruana Urbanova reciben préstamo de 190 millones de dólares",
+      "summary": "Subsidiaries of the Peruvian real estate company Urbanova secured a $190 million secured loan from a syndicate of banks to refinance a previous credit. The beneficiaries, Inmuebles Limatambo, Inversiones San Borja, and Urbanizadora Jardín, used the funds to repay an earlier loan and backed the new credit with a mortgage on their properties. Legal counsel for the transaction included Simpson Thacher & Bartlett and Rodrigo, Elías & Medrano Abogados for Urbanova, and Clifford Chance and Garrigues for the syndicate of banks led by Banco Santander.",
+      "url": "https://lexlatin.com/noticias/subsidiarias-de-urbanova-reciben-prestamo",
+      "source": "LexLatin",
+      "published": "20220107T161648",
+      "overall_sentiment_score": 0.279406,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.240849,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.607564
     },
     {
       "title": "2021's top local financial stock may surprise you",
@@ -245,6 +209,30 @@
       "ticker_sentiment_score": 0.123715,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.606841
+    },
+    {
+      "title": "Rocket Grew Into America’s Biggest Mortgage Lender, but Now Comes the Hard Part - WSJ",
+      "summary": "Rocket Companies became the largest mortgage lender in the U.S. during the pandemic, significantly increasing its mortgage originations. However, the company now faces the challenge of convincing investors that it can sustain growth even if mortgage refinancings decline. Rocket's past success relied heavily on a favorable interest rate environment, and it needs to adapt to a potentially sleepier mortgage market.",
+      "url": "https://www.wsj.com/finance/banking/rocket-feasted-on-low-interest-rates-to-become-mortgage-king-but-now-comes-the-hard-part-11641637805?gaa_at=eafs&gaa_n=AWEtsqdJXi1s0lX1hZq2mJNuEuVQ9F8GedFMk1jBvrlIavcXi37_VhjPJCQX&gaa_ts=6907a570&gaa_sig=Jj6G478mQXB8J5cuaQwvWrtYop89DnLMHiWUb9KWSJlYLr-s8V6caLkAo-7CIBe4fGxjs2bCd2p_vFhYAdwdBw%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20220108T182612",
+      "overall_sentiment_score": 0.012106,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.088274,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.602021
+    },
+    {
+      "title": "Pinnacle Financial Partners Opens Full-Service Office in Huntersville",
+      "summary": "Pinnacle Financial Partners has opened a new full-service office in Huntersville, NC, expanding its presence in Mecklenburg County with a team of veteran financial services professionals. The new office at 16633 Birkdale Commons offers a full range of banking and financial services, building on Pinnacle's significant growth in the greater Charlotte MSA. The team includes new additions and experienced advisors, solidifying Pinnacle's commitment to community-focused service with comprehensive financial solutions.",
+      "url": "https://pnfp.com/news/news-releases/pinnacle-financial-partners-opens-full-service-office-in-huntersville/",
+      "source": "Pinnacle Financial Partners",
+      "published": "20220105T180733",
+      "overall_sentiment_score": 0.162399,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.009981,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.587107
     },
     {
       "title": "DI People: JCPenney, 7-Eleven, Recode Therapeutics, Hawkeye, PCCI, and Others Make Moves",
@@ -269,6 +257,18 @@
       "ticker_sentiment_score": 0.127702,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.552036
+    },
+    {
+      "title": "WSFS nets $15M in lawsuit settlement tied to acquisition 12 years ago",
+      "summary": "WSFS Financial Corp. announced it will receive $15 million from a settlement resolving a long-standing legal dispute. This dispute originated from the bank's 2010 acquisition of Christiana Bank & Trust. The settlement covers all legal costs associated with the case.",
+      "url": "https://www.bizjournals.com/philadelphia/news/2022/01/07/wsfs-nets-15m-in-lawsuit-settlement.html",
+      "source": "The Business Journals",
+      "published": "20220107T191642",
+      "overall_sentiment_score": 0.169126,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.206002,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.536533
     }
   ]
 }

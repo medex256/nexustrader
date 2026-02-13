@@ -7,18 +7,6 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "Nvidia becomes 7th-largest U.S. company as it passes Facebook owner Meta for the first time",
-      "summary": "Nvidia Corp. has surpassed Meta Platforms Inc. to become the seventh-largest U.S. company by market value. This shift highlights Nvidia's rapid growth over the past few years and Meta's recent decline, which saw its market value drop by $267 billion since Wednesday's close.",
-      "url": "https://www.marketwatch.com/story/nvidia-becomes-7th-largest-u-s-company-as-it-passes-facebook-owner-meta-for-the-first-time-11644270523?gaa_at=eafs&gaa_n=AWEtsqcOI0JerPDMoREEzn1HJl0ecrFb3uCnyWHuXpkJku8lg14hmivv4toa&gaa_ts=69079e73&gaa_sig=jkY5G2hxyLpdFS8t8V4rg5CDTWIK7q97h0tzA18NDtGBdRCQj9Whlzp7knk8rjyYAFztJTSbcG5YDeEl_TFYuA%3D%3D",
-      "source": "MarketWatch",
-      "published": "20220207T164800",
-      "overall_sentiment_score": 0.041436,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.04334,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.342946
-    },
-    {
       "title": "Is chip giant Nvidia going to scrap its $40BN bid for Arm?",
       "summary": "Nvidia is reportedly preparing to abandon its $40 billion acquisition of Arm Ltd. due to fierce regulatory backlash and little progress in securing approvals. Regulators and customers, including the U.S. FTC, have expressed concerns that the deal would make Nvidia too powerful. SoftBank, Arm's current owner, is stepping up preparations for an Arm initial public offering as an alternative.",
       "url": "https://www.aljazeera.com/economy/2022/1/25/is-chip-giant-nvidia-going-to-scrap-its-40bn-bid-for-arm",
@@ -29,18 +17,6 @@
       "ticker_sentiment_score": -0.444433,
       "ticker_sentiment_label": "Bearish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "WEKA and Cisco funding contribution: Now you see it, now you don’t",
-      "summary": "WEKA initially announced Cisco as an investor in its $73 million funding round, but Cisco's name was later replaced by Digital Alpha in a corrected release. Digital Alpha, founded by a former Cisco managing director, describes itself as an alternative asset manager with a strategic collaboration agreement with Cisco Systems and preferred access to Cisco’s commercial opportunities. This change highlights the close ties between Digital Alpha and Cisco, effectively positioning Digital Alpha as a Cisco investment vehicle.",
-      "url": "https://blocksandfiles.com/2022/02/07/weka-and-cisco-funding-contribution-now-you-see-it-now-you-dont/",
-      "source": "Blocks and Files",
-      "published": "20220207T162723",
-      "overall_sentiment_score": -0.071397,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.005275,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.557437
     },
     {
       "title": "NVIDIA Corp: the red flags for this stock investors need to know about",
@@ -65,6 +41,30 @@
       "ticker_sentiment_score": 0.347925,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.702479
+    },
+    {
+      "title": "WEKA and Cisco funding contribution: Now you see it, now you don’t",
+      "summary": "WEKA initially announced Cisco as an investor in its $73 million funding round, but Cisco's name was later replaced by Digital Alpha in a corrected release. Digital Alpha, founded by a former Cisco managing director, describes itself as an alternative asset manager with a strategic collaboration agreement with Cisco Systems and preferred access to Cisco’s commercial opportunities. This change highlights the close ties between Digital Alpha and Cisco, effectively positioning Digital Alpha as a Cisco investment vehicle.",
+      "url": "https://blocksandfiles.com/2022/02/07/weka-and-cisco-funding-contribution-now-you-see-it-now-you-dont/",
+      "source": "Blocks and Files",
+      "published": "20220207T162723",
+      "overall_sentiment_score": -0.071397,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.005275,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.557437
+    },
+    {
+      "title": "Nvidia becomes 7th-largest U.S. company as it passes Facebook owner Meta for the first time",
+      "summary": "Nvidia Corp. has surpassed Meta Platforms Inc. to become the seventh-largest U.S. company by market value. This shift highlights Nvidia's rapid growth over the past few years and Meta's recent decline, which saw its market value drop by $267 billion since Wednesday's close.",
+      "url": "https://www.marketwatch.com/story/nvidia-becomes-7th-largest-u-s-company-as-it-passes-facebook-owner-meta-for-the-first-time-11644270523?gaa_at=eafs&gaa_n=AWEtsqcOI0JerPDMoREEzn1HJl0ecrFb3uCnyWHuXpkJku8lg14hmivv4toa&gaa_ts=69079e73&gaa_sig=jkY5G2hxyLpdFS8t8V4rg5CDTWIK7q97h0tzA18NDtGBdRCQj9Whlzp7knk8rjyYAFztJTSbcG5YDeEl_TFYuA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220207T164800",
+      "overall_sentiment_score": 0.041436,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.04334,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.342946
     }
   ]
 }

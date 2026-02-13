@@ -7,30 +7,6 @@
   "article_count": 4,
   "articles": [
     {
-      "title": "Kraft Heinz taps Google for multiyear transformation push",
-      "summary": "Kraft Heinz announced a multiyear strategic partnership with Google to accelerate its digital transformation, leveraging Google Cloud's AI and ML to drive food innovations, build a customer data platform, and improve media efficiency. This initiative is part of Kraft Heinz's broader strategy to reinvest in its brands and achieve cost savings by 2024, enabling data-driven decisions as consumer behavior shifts online. The partnership aims to enhance personalization at scale, optimize media activations, and address changing market challenges amid the pandemic.",
-      "url": "https://www.ciodive.com/news/kraft-heinz-google-cloud-transformation/619219/",
-      "source": "CIO Dive",
-      "published": "20220222T172618",
-      "overall_sentiment_score": 0.21852,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.227437,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.567927
-    },
-    {
-      "title": "Salesforce ties executive compensation to ESG goals",
-      "summary": "Salesforce announced that a portion of executive variable pay for those at the executive vice president level and above will be tied to ESG measures, starting this fiscal year. These measures will focus on increasing representation for diverse employees and reducing air travel emissions, as well as increasing spend with suppliers signed onto Salesforce's Sustainability Exhibit. This move reflects a growing trend among major companies to link executive compensation to diversity, equity, and inclusion (DEI) and sustainability goals.",
-      "url": "https://www.hcamag.com/us/specialization/diversity-inclusion/salesforce-ties-executive-compensation-to-esg-goals/326025",
-      "source": "HRD America",
-      "published": "20220218T162714",
-      "overall_sentiment_score": 0.220448,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.250316,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.610542
-    },
-    {
       "title": "SPYG, VOOG, And IVW: It's Gut Check Time For Owners Of These S&P 500 Growth Funds",
       "summary": "This article examines three S&P 500 Growth Index ETFs: SPYG, VOOG, and IVW, highlighting their strong past performance and heavy concentration in mega-cap stocks. It suggests that while these funds are solid long-term choices, current market conditions, including a downward trend in earnings surprises, might present a better entry point in the future. The author also suggests considering the Invesco S&P 500 Pure Growth ETF for a different approach.",
       "url": "https://seekingalpha.com/article/4487221-spyg-voog-and-ivw-its-gut-check-time-for-owners-of-these-s-and-p-500-growth-funds",
@@ -53,6 +29,30 @@
       "ticker_sentiment_score": 0.305101,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.704114
+    },
+    {
+      "title": "Salesforce ties executive compensation to ESG goals",
+      "summary": "Salesforce announced that a portion of executive variable pay for those at the executive vice president level and above will be tied to ESG measures, starting this fiscal year. These measures will focus on increasing representation for diverse employees and reducing air travel emissions, as well as increasing spend with suppliers signed onto Salesforce's Sustainability Exhibit. This move reflects a growing trend among major companies to link executive compensation to diversity, equity, and inclusion (DEI) and sustainability goals.",
+      "url": "https://www.hcamag.com/us/specialization/diversity-inclusion/salesforce-ties-executive-compensation-to-esg-goals/326025",
+      "source": "HRD America",
+      "published": "20220218T162714",
+      "overall_sentiment_score": 0.220448,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.250316,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.610542
+    },
+    {
+      "title": "Kraft Heinz taps Google for multiyear transformation push",
+      "summary": "Kraft Heinz announced a multiyear strategic partnership with Google to accelerate its digital transformation, leveraging Google Cloud's AI and ML to drive food innovations, build a customer data platform, and improve media efficiency. This initiative is part of Kraft Heinz's broader strategy to reinvest in its brands and achieve cost savings by 2024, enabling data-driven decisions as consumer behavior shifts online. The partnership aims to enhance personalization at scale, optimize media activations, and address changing market challenges amid the pandemic.",
+      "url": "https://www.ciodive.com/news/kraft-heinz-google-cloud-transformation/619219/",
+      "source": "CIO Dive",
+      "published": "20220222T172618",
+      "overall_sentiment_score": 0.21852,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.227437,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.567927
     }
   ]
 }

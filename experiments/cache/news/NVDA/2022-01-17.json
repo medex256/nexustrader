@@ -7,52 +7,28 @@
   "article_count": 13,
   "articles": [
     {
-      "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
-      "summary": "This article discusses the continued growth potential of the semiconductor sector and how investors can capitalize on it through ETFs. Despite concerns about rising interest rates affecting tech stocks, chipmakers are demonstrating strong sales growth. Taiwan Semiconductor Manufacturing Co. (TSM) reported significant increases in its fourth-quarter sales and earnings, signaling a robust outlook for the industry.",
-      "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqdBdmHPZxefoPpdU_XiKmDvnI7I3dfNA-7b3FAHNUlYos-sHQijHAFG&gaa_ts=6907a7da&gaa_sig=EpaW-Z6XVGZ20IyJnYntkIMjN7G89scbePvQjDrzT7aV3rWqnp9ry2rx_3330RssholURp7wdF0ySYoK1fSlWw%3D%3D",
-      "source": "MarketWatch",
-      "published": "20220114T083100",
-      "overall_sentiment_score": 0.45994,
+      "title": "Nvidia’s Omniverse ‘metaverse for engineers’ emerges from beta",
+      "summary": "Nvidia's Omniverse, a \"metaverse for engineers\" designed for 3D simulation and design collaboration, is now generally available for free to Nvidia Studio creators with GeForce RTX gear after a successful public beta. The platform offers new creative features, including AI-enabled 3D face modeling animation and is being utilized by companies like Ericsson to optimize 5G network buildouts by modeling signal propagation in virtual cities. Omniverse leverages Nvidia's RTX GPU technology and Pixar's Universal Scene Description for real-time collaboration and simulation across various industries.",
+      "url": "https://www.rcrwireless.com/20220106/telco-cloud/nvidias-omniverse-metaverse-for-engineers-emerges-from-beta",
+      "source": "RCR Wireless",
+      "published": "20220106T175612",
+      "overall_sentiment_score": 0.434615,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.452461,
+      "ticker_sentiment_score": 0.415701,
       "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.839275
+      "relevance_score": 1.0
     },
     {
-      "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
-      "summary": "This article suggests that semiconductor stocks remain an excellent investment area despite rising interest rates, highlighting the robust sales growth of companies like Nvidia, Micron, and AMD. It points to three ETFs that allow investors to capitalize on this hot sector, which has significantly outperformed the S&P 500 and Nasdaq over the past 15 years. The positive outlook was reinforced by Taiwan Semiconductor Manufacturing Co.'s strong Q4 sales and earnings report and substantial planned capital expenditures for 2022.",
-      "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqfnl5OB3jT2txRO3oDLjhv-kM96fRl9WNxRMczBWVccqH7hBwz8TYXr&gaa_ts=69079e84&gaa_sig=td1zqi31XS-A8bgXoMGSOkxv-S16x0_pJxo7os1KCcRC5uggHQ53MWnWs61JGS0Nyz760o0JGbOfq1fNZWNb5Q%3D%3D",
-      "source": "MarketWatch",
-      "published": "20220114T083100",
-      "overall_sentiment_score": 0.328377,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.349824,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.835925
-    },
-    {
-      "title": "An Under the Radar High Quality ETF",
-      "summary": "The Fidelity Quality Factor ETF (FQAL) received a five-star rating from CFRA, outperforming its peers and the S&P 500 in 2021 despite its smaller asset size. The fund focuses on free cash flow and return on invested capital with a sector-neutral approach, and CFRA expects it to continue outperforming. Eight of its top-10 holdings are considered undervalued by CFRA analysts.",
-      "url": "https://www.etftrends.com/an-under-the-radar-high-quality-etf/",
-      "source": "ETF Trends",
-      "published": "20220104T152945",
-      "overall_sentiment_score": 0.367655,
+      "title": "NVIDIA Named America’s Best Place to Work on Latest Glassdoor List",
+      "summary": "NVIDIA has been ranked as America's best place to work on Glassdoor’s 14th annual Best Places to Work list for large U.S. companies in 2022. The ranking is based on anonymous employee feedback, with 95% of NVIDIA employees recommending the company and 98% approving of CEO Jensen Huang. This recognition highlights NVIDIA's commitment to employee satisfaction amid evolving workplace expectations.",
+      "url": "https://blogs.nvidia.com/blog/nvidia-best-place-work/",
+      "source": "NVIDIA Blog",
+      "published": "20220111T175611",
+      "overall_sentiment_score": 0.427779,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.320428,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.713768
-    },
-    {
-      "title": "Serve Robotics achieves autonomous robo-delivery milestone",
-      "summary": "Serve Robotics has achieved a significant industry milestone by completing the first-ever commercial deliveries using Level 4 autonomous vehicles that require zero human intervention. The company's robots are equipped with advanced sensors and AI computing to navigate autonomously, drastically reducing the need for remote operators. This achievement marks a major advancement in robotic delivery, bringing the industry closer to fully autonomous operations in various environments.",
-      "url": "https://www.freightwaves.com/news/serve-robotics-achieves-autonomous-robo-delivery-milestone",
-      "source": "FreightWaves",
-      "published": "20220114T183607",
-      "overall_sentiment_score": 0.193675,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.2186,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.627165
+      "ticker_sentiment_score": 0.856854,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
@@ -79,30 +55,6 @@
       "relevance_score": 0.885032
     },
     {
-      "title": "JVAL Stock Price | JPMorgan U.S. Value Factor ETF",
-      "summary": "This article provides detailed information about the JPMorgan U.S. Value Factor ETF (JVAL), including its current stock price, trading exchange (NYSE), and comprehensive financial metrics such as dividend yield, expense ratio, and market capitalization. It also offers technical analysis insights and lists the ETF's top holdings, outlining its investment strategy as a value-focused equity fund targeting the U.S. market.",
-      "url": "https://www.investing.com/etfs/jval",
-      "source": "Investing.com",
-      "published": "20220107T103607",
-      "overall_sentiment_score": 0.345405,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.338986,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.621729
-    },
-    {
-      "title": "Nvidia’s Omniverse ‘metaverse for engineers’ emerges from beta",
-      "summary": "Nvidia's Omniverse, a \"metaverse for engineers\" designed for 3D simulation and design collaboration, is now generally available for free to Nvidia Studio creators with GeForce RTX gear after a successful public beta. The platform offers new creative features, including AI-enabled 3D face modeling animation and is being utilized by companies like Ericsson to optimize 5G network buildouts by modeling signal propagation in virtual cities. Omniverse leverages Nvidia's RTX GPU technology and Pixar's Universal Scene Description for real-time collaboration and simulation across various industries.",
-      "url": "https://www.rcrwireless.com/20220106/telco-cloud/nvidias-omniverse-metaverse-for-engineers-emerges-from-beta",
-      "source": "RCR Wireless",
-      "published": "20220106T175612",
-      "overall_sentiment_score": 0.434615,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.415701,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
       "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
       "summary": "The article suggests that the semiconductor sector remains a strong investment area, even with rising interest rates impacting other tech stocks. It highlights the strong performance of chip exchange-traded funds (ETFs) over the past 15 years, outperforming both the S&P 500 and the Nasdaq. This positive outlook is further supported by Taiwan Semiconductor Manufacturing Co.'s impressive fourth-quarter results and significant capital expenditure plans for 2022.",
       "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqdRPbJUy5IikVEvY1VdJcAf_RWGuki91oVqAIwOfU5lFsoO17PwSxuJ&gaa_ts=6907ac94&gaa_sig=ooJhDeY4kNwPlbOj56hYOEmlhJ9mS6ztd-BMiN9g1sZJVLhXqjDO-pdK4Jcv1nAT1SKUGNOp1-ixgSC7U6dGVQ%3D%3D",
@@ -115,16 +67,16 @@
       "relevance_score": 0.873586
     },
     {
-      "title": "What Crypto-related ETFs Could Hit the US Market in 2022?",
-      "summary": "The article discusses the potential for various crypto-related ETFs, particularly metaverse products, to launch in the US market in 2022, while the approval of spot bitcoin and ether futures products remains uncertain. Industry experts express apprehension about the immediate investability of metaverse ETFs due to potential crossover in holdings and a lack of pure-play names. There's also skepticism regarding the SEC's approval of a spot bitcoin ETF in 2022, with some analysts expecting an ether futures-based ETF to gain approval sooner.",
-      "url": "https://blockworks.co/news/what-crypto-related-etfs-could-hit-the-us-market-in-2022",
-      "source": "Blockworks",
-      "published": "20220106T130700",
-      "overall_sentiment_score": 0.114439,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.129716,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.725884
+      "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+      "summary": "This article discusses the continued growth potential of the semiconductor sector and how investors can capitalize on it through ETFs. Despite concerns about rising interest rates affecting tech stocks, chipmakers are demonstrating strong sales growth. Taiwan Semiconductor Manufacturing Co. (TSM) reported significant increases in its fourth-quarter sales and earnings, signaling a robust outlook for the industry.",
+      "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqdBdmHPZxefoPpdU_XiKmDvnI7I3dfNA-7b3FAHNUlYos-sHQijHAFG&gaa_ts=6907a7da&gaa_sig=EpaW-Z6XVGZ20IyJnYntkIMjN7G89scbePvQjDrzT7aV3rWqnp9ry2rx_3330RssholURp7wdF0ySYoK1fSlWw%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220114T083100",
+      "overall_sentiment_score": 0.45994,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.452461,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.839275
     },
     {
       "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
@@ -140,6 +92,18 @@
     },
     {
       "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+      "summary": "This article suggests that semiconductor stocks remain an excellent investment area despite rising interest rates, highlighting the robust sales growth of companies like Nvidia, Micron, and AMD. It points to three ETFs that allow investors to capitalize on this hot sector, which has significantly outperformed the S&P 500 and Nasdaq over the past 15 years. The positive outlook was reinforced by Taiwan Semiconductor Manufacturing Co.'s strong Q4 sales and earnings report and substantial planned capital expenditures for 2022.",
+      "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqfnl5OB3jT2txRO3oDLjhv-kM96fRl9WNxRMczBWVccqH7hBwz8TYXr&gaa_ts=69079e84&gaa_sig=td1zqi31XS-A8bgXoMGSOkxv-S16x0_pJxo7os1KCcRC5uggHQ53MWnWs61JGS0Nyz760o0JGbOfq1fNZWNb5Q%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220114T083100",
+      "overall_sentiment_score": 0.328377,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.349824,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.835925
+    },
+    {
+      "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
       "summary": "This article discusses the semiconductor sector as a potentially excellent area for investors, even amidst rising interest rates. It highlights how chip exchange-traded funds (ETFs) have significantly outperformed major benchmarks. The sector's growth is exemplified by Taiwan Semiconductor Manufacturing Co.'s strong fourth-quarter results and substantial capital expenditure plans for 2022.",
       "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqcuOxxx3eduBpWNhaLM6Q6QXNHo965XCXGxrPwfYafS7vR7msapnDxl&gaa_ts=6907a326&gaa_sig=lIkrVyY5UIMIP2f_M2Vb5ujdAUCBNCQzWExV755kHeCo-o5KosFRuh4EgjRKkdlEx8ZATC3jNleDLVK3-DenAw%3D%3D",
       "source": "MarketWatch",
@@ -151,16 +115,52 @@
       "relevance_score": 0.80455
     },
     {
-      "title": "NVIDIA Named America’s Best Place to Work on Latest Glassdoor List",
-      "summary": "NVIDIA has been ranked as America's best place to work on Glassdoor’s 14th annual Best Places to Work list for large U.S. companies in 2022. The ranking is based on anonymous employee feedback, with 95% of NVIDIA employees recommending the company and 98% approving of CEO Jensen Huang. This recognition highlights NVIDIA's commitment to employee satisfaction amid evolving workplace expectations.",
-      "url": "https://blogs.nvidia.com/blog/nvidia-best-place-work/",
-      "source": "NVIDIA Blog",
-      "published": "20220111T175611",
-      "overall_sentiment_score": 0.427779,
+      "title": "What Crypto-related ETFs Could Hit the US Market in 2022?",
+      "summary": "The article discusses the potential for various crypto-related ETFs, particularly metaverse products, to launch in the US market in 2022, while the approval of spot bitcoin and ether futures products remains uncertain. Industry experts express apprehension about the immediate investability of metaverse ETFs due to potential crossover in holdings and a lack of pure-play names. There's also skepticism regarding the SEC's approval of a spot bitcoin ETF in 2022, with some analysts expecting an ether futures-based ETF to gain approval sooner.",
+      "url": "https://blockworks.co/news/what-crypto-related-etfs-could-hit-the-us-market-in-2022",
+      "source": "Blockworks",
+      "published": "20220106T130700",
+      "overall_sentiment_score": 0.114439,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.129716,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.725884
+    },
+    {
+      "title": "An Under the Radar High Quality ETF",
+      "summary": "The Fidelity Quality Factor ETF (FQAL) received a five-star rating from CFRA, outperforming its peers and the S&P 500 in 2021 despite its smaller asset size. The fund focuses on free cash flow and return on invested capital with a sector-neutral approach, and CFRA expects it to continue outperforming. Eight of its top-10 holdings are considered undervalued by CFRA analysts.",
+      "url": "https://www.etftrends.com/an-under-the-radar-high-quality-etf/",
+      "source": "ETF Trends",
+      "published": "20220104T152945",
+      "overall_sentiment_score": 0.367655,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.856854,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
+      "ticker_sentiment_score": 0.320428,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.713768
+    },
+    {
+      "title": "Serve Robotics achieves autonomous robo-delivery milestone",
+      "summary": "Serve Robotics has achieved a significant industry milestone by completing the first-ever commercial deliveries using Level 4 autonomous vehicles that require zero human intervention. The company's robots are equipped with advanced sensors and AI computing to navigate autonomously, drastically reducing the need for remote operators. This achievement marks a major advancement in robotic delivery, bringing the industry closer to fully autonomous operations in various environments.",
+      "url": "https://www.freightwaves.com/news/serve-robotics-achieves-autonomous-robo-delivery-milestone",
+      "source": "FreightWaves",
+      "published": "20220114T183607",
+      "overall_sentiment_score": 0.193675,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.2186,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.627165
+    },
+    {
+      "title": "JVAL Stock Price | JPMorgan U.S. Value Factor ETF",
+      "summary": "This article provides detailed information about the JPMorgan U.S. Value Factor ETF (JVAL), including its current stock price, trading exchange (NYSE), and comprehensive financial metrics such as dividend yield, expense ratio, and market capitalization. It also offers technical analysis insights and lists the ETF's top holdings, outlining its investment strategy as a value-focused equity fund targeting the U.S. market.",
+      "url": "https://www.investing.com/etfs/jval",
+      "source": "Investing.com",
+      "published": "20220107T103607",
+      "overall_sentiment_score": 0.345405,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.338986,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.621729
     }
   ]
 }

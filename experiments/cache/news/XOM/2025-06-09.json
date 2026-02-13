@@ -7,16 +7,28 @@
   "article_count": 8,
   "articles": [
     {
-      "title": "Baker Hughes and Cactus form joint venture for surface pressure control services",
-      "summary": "Baker Hughes and Cactus Inc. are forming a joint venture for surface pressure control services. Baker Hughes will transfer its surface pressure control product line to the new entity, retaining a 35% stake, while Cactus will hold a 65% ownership and operational control. This partnership aims to combine their complementary portfolios to drive technological innovation, expand into international markets for Cactus, and supports Baker Hughes' strategy to optimize its portfolio and enhance earnings.",
-      "url": "https://www.energyconnects.com/news/technology/2025/june/baker-hughes-and-cactus-form-joint-venture-for-surface-pressure-control-services/",
-      "source": "Energy Connects",
-      "published": "20250603T002854",
-      "overall_sentiment_score": 0.244241,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.057216,
+      "title": "North Atlantic in Talks with ExxonMobil to Buy French Refinery Complex",
+      "summary": "ExxonMobil has entered exclusive negotiations with North Atlantic for the potential sale of its refining and petrochemical complex in Gravenchon, Normandy, France. The deal involves divesting an 82.89 percent stake in Esso Société Anonyme Française SA and 100 percent of ExxonMobil Chemical France SAS, with North Atlantic committing to retain all current employees under the same terms. This acquisition aligns with North Atlantic's strategy to enhance its transatlantic presence and ExxonMobil's ongoing efforts to high-grade its portfolio through the sale of non-strategic assets.",
+      "url": "https://www.rigzone.com/news/north_atlantic_in_talks_with_exxonmobil_to_buy_french_refinery_complex-29-may-2025-180678-article/",
+      "source": "Rigzone",
+      "published": "20250529T052100",
+      "overall_sentiment_score": 0.142174,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.134739,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.550714
+      "relevance_score": 1.0
+    },
+    {
+      "title": "U.S. cancels $3.7 billion for clean energy, including $331 million Exxon grant",
+      "summary": "The Energy Department has canceled $3.7 billion in government support for clean energy projects, deeming them economically unviable and not a positive return on taxpayer investment. This includes a $331 million grant to Exxon Mobil Corp. for a hydrogen project and other significant awards to Eastman Chemical Co. and Calpine Corp. The cancellations follow an audit policy and an internal proposal to shut down the $27 billion clean energy office.",
+      "url": "https://www.worldoil.com/news/2025/6/2/u-s-cancels-3-7-billion-for-clean-energy-including-331-million-exxon-grant/",
+      "source": "World Oil",
+      "published": "20250602T000000",
+      "overall_sentiment_score": -0.318792,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.332425,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
     },
     {
       "title": "Shell, Occidental Petroleum And Exxon Mobil Rise In Monday Premarket: What's Going On?",
@@ -31,28 +43,16 @@
       "relevance_score": 0.838706
     },
     {
-      "title": "North Atlantic in Talks with ExxonMobil to Buy French Refinery Complex",
-      "summary": "ExxonMobil has entered exclusive negotiations with North Atlantic for the potential sale of its refining and petrochemical complex in Gravenchon, Normandy, France. The deal involves divesting an 82.89 percent stake in Esso Société Anonyme Française SA and 100 percent of ExxonMobil Chemical France SAS, with North Atlantic committing to retain all current employees under the same terms. This acquisition aligns with North Atlantic's strategy to enhance its transatlantic presence and ExxonMobil's ongoing efforts to high-grade its portfolio through the sale of non-strategic assets.",
-      "url": "https://www.rigzone.com/news/north_atlantic_in_talks_with_exxonmobil_to_buy_french_refinery_complex-29-may-2025-180678-article/",
-      "source": "Rigzone",
-      "published": "20250529T052100",
-      "overall_sentiment_score": 0.142174,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.134739,
+      "title": "CrossAmerica Partners LP",
+      "summary": "CrossAmerica Partners LP is a major petroleum distributor and convenience store operator, ranking 24th among convenience store chains with 365 stores. In 2024, the company acquired 59 convenience stores from Applegreen Midwest and Applegreen Florida for $16.9 million, expanding its footprint across multiple states. CrossAmerica operates various retail brands and distributes fuel to approximately 1,750 locations with relationships across major oil brands.",
+      "url": "https://cspdailynews.com/top-202-convenience-stores-2025/crossamerica-partners-lp",
+      "source": "CSP Daily News",
+      "published": "20250530T052225",
+      "overall_sentiment_score": 0.157887,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.135947,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "Key highlights from Best Buy’s (BBY) Q1 2026 earnings results",
-      "summary": "Best Buy (NYSE: BBY) reported its Q1 2026 earnings, with enterprise revenue slightly down to $8.76 billion from $8.84 billion in the prior year and comparable sales falling 0.7%. Net earnings decreased to $202 million ($0.95 per share), with adjusted EPS at $1.15. The company provided fiscal year 2026 guidance, expecting revenue between $41.1-41.9 billion, comparable sales ranging from down 1% to up 1%, and adjusted EPS of $6.15-6.30.",
-      "url": "https://news.alphastreet.com/key-highlights-from-best-buys-bby-q1-2026-earnings-results/",
-      "source": "AlphaStreet",
-      "published": "20250529T000000",
-      "overall_sentiment_score": -0.256036,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.39137,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.610153
+      "relevance_score": 0.63501
     },
     {
       "title": "Earnings Summary: Old Dominion Freight Line issues update on second quarter 2025",
@@ -67,16 +67,16 @@
       "relevance_score": 0.617551
     },
     {
-      "title": "CrossAmerica Partners LP",
-      "summary": "CrossAmerica Partners LP is a major petroleum distributor and convenience store operator, ranking 24th among convenience store chains with 365 stores. In 2024, the company acquired 59 convenience stores from Applegreen Midwest and Applegreen Florida for $16.9 million, expanding its footprint across multiple states. CrossAmerica operates various retail brands and distributes fuel to approximately 1,750 locations with relationships across major oil brands.",
-      "url": "https://cspdailynews.com/top-202-convenience-stores-2025/crossamerica-partners-lp",
-      "source": "CSP Daily News",
-      "published": "20250530T052225",
-      "overall_sentiment_score": 0.157887,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.135947,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.63501
+      "title": "Key highlights from Best Buy’s (BBY) Q1 2026 earnings results",
+      "summary": "Best Buy (NYSE: BBY) reported its Q1 2026 earnings, with enterprise revenue slightly down to $8.76 billion from $8.84 billion in the prior year and comparable sales falling 0.7%. Net earnings decreased to $202 million ($0.95 per share), with adjusted EPS at $1.15. The company provided fiscal year 2026 guidance, expecting revenue between $41.1-41.9 billion, comparable sales ranging from down 1% to up 1%, and adjusted EPS of $6.15-6.30.",
+      "url": "https://news.alphastreet.com/key-highlights-from-best-buys-bby-q1-2026-earnings-results/",
+      "source": "AlphaStreet",
+      "published": "20250529T000000",
+      "overall_sentiment_score": -0.256036,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.39137,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.610153
     },
     {
       "title": "Gold Just Got Cheaper and It’s Jet Fuel for This 8.3% Dividend",
@@ -91,16 +91,16 @@
       "relevance_score": 0.59151
     },
     {
-      "title": "U.S. cancels $3.7 billion for clean energy, including $331 million Exxon grant",
-      "summary": "The Energy Department has canceled $3.7 billion in government support for clean energy projects, deeming them economically unviable and not a positive return on taxpayer investment. This includes a $331 million grant to Exxon Mobil Corp. for a hydrogen project and other significant awards to Eastman Chemical Co. and Calpine Corp. The cancellations follow an audit policy and an internal proposal to shut down the $27 billion clean energy office.",
-      "url": "https://www.worldoil.com/news/2025/6/2/u-s-cancels-3-7-billion-for-clean-energy-including-331-million-exxon-grant/",
-      "source": "World Oil",
-      "published": "20250602T000000",
-      "overall_sentiment_score": -0.318792,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.332425,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 1.0
+      "title": "Baker Hughes and Cactus form joint venture for surface pressure control services",
+      "summary": "Baker Hughes and Cactus Inc. are forming a joint venture for surface pressure control services. Baker Hughes will transfer its surface pressure control product line to the new entity, retaining a 35% stake, while Cactus will hold a 65% ownership and operational control. This partnership aims to combine their complementary portfolios to drive technological innovation, expand into international markets for Cactus, and supports Baker Hughes' strategy to optimize its portfolio and enhance earnings.",
+      "url": "https://www.energyconnects.com/news/technology/2025/june/baker-hughes-and-cactus-form-joint-venture-for-surface-pressure-control-services/",
+      "source": "Energy Connects",
+      "published": "20250603T002854",
+      "overall_sentiment_score": 0.244241,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.057216,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.550714
     }
   ]
 }

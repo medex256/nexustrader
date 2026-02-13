@@ -7,78 +7,6 @@
   "article_count": 8,
   "articles": [
     {
-      "title": "How Baxter’s $4B Sale of Biopharma Biz Fits With Broader Life Sciences Trends",
-      "summary": "Baxter International is selling its biopharma solutions business for $4.25 billion cash to private equity firms Advent International and Warburg Pincus. This transaction is part of a broader trend among life science companies to streamline operations by divesting non-core businesses. The move by Baxter, which generated $644 million in biopharma solutions revenue in 2022, aims to focus the company on hospital products and connected care.",
-      "url": "https://medcitynews.com/2023/05/baxter-international-biopharma-private-equity-mergers-acquisitions-outsourcing/",
-      "source": "MedCity News",
-      "published": "20230509T184300",
-      "overall_sentiment_score": 0.192625,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.185169,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.640256
-    },
-    {
-      "title": "Kenvue CEO looks to brand, product innovation to drive growth after IPO",
-      "summary": "Kenvue CEO Thibaut Mongon plans to drive growth through continuous brand and product innovation, leveraging the company's strong portfolio and research capabilities. After a successful IPO debut, Kenvue, the J&J consumer health spinoff, aims to develop new solutions and personalized digital experiences for consumers. The company also states that while it primarily focuses on organic growth, it does not rule out strategic mergers and acquisitions.",
-      "url": "https://www.cnbc.com/2023/05/05/jj-spinoff-kenvue-ceo-looks-to-innovation-after-ipo.html",
-      "source": "CNBC",
-      "published": "20230505T093700",
-      "overall_sentiment_score": 0.364659,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.283302,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.719706
-    },
-    {
-      "title": "J&J's consumer-health spinoff Kenvue jumps 22% in public market debut",
-      "summary": "Johnson & Johnson's consumer-health spinoff, Kenvue (KVUE), saw its shares jump 22% on its market debut on the New York Stock Exchange, making it the biggest U.S. IPO in over a year and valuing the new company at roughly $50 billion. Kenvue raised $3.8 billion by selling 172.8 million shares, initially priced at $22, and holds well-known brands like Band-Aid and Tylenol. Despite the spinoff, J&J will retain a 90.9% stake initially and Kenvue estimates 2022 sales of $14.95 billion and expects to pay a quarterly cash dividend of about 20 cents per share.",
-      "url": "https://www.cnbc.com/2023/05/04/jj-kenvue-ipo-kvue-starts-trading-on-nyse.html",
-      "source": "CNBC",
-      "published": "20230504T124900",
-      "overall_sentiment_score": 0.380091,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.230968,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.81385
-    },
-    {
-      "title": "Pfizer turns focus to new drugs as COVID vaccine revenue falls",
-      "summary": "Pfizer is shifting its focus to new drug launches as revenue from its COVID-19 vaccine declines. The company reported first-quarter revenue that beat expectations despite a significant drop from the previous year due to plummeting vaccine sales, but COVID antiviral Paxlovid sales were unexpectedly high. Pfizer is anticipating key regulatory approvals for several new products, including an RSV vaccine and a multiple myeloma drug, which are crucial for achieving its projected non-COVID revenue growth.",
-      "url": "https://www.biopharmadive.com/news/pfizer-q1-earnings-covid-revenue-drug-launches/649167/",
-      "source": "BioPharma Dive",
-      "published": "20230502T152457",
-      "overall_sentiment_score": -0.038787,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.11994,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.642681
-    },
-    {
-      "title": "Report: Medtronic, Johnson & Johnson consider Shockwave Medical acquisition after Boston Scientific talks stall",
-      "summary": "Medtronic and Johnson & Johnson are reportedly considering an acquisition of Shockwave Medical, a medical device company known for its intravascular lithotripsy technology. This interest follows stalled talks between Boston Scientific and Shockwave Medical. Shockwave Medical's stock price saw an increase, likely due to strong Q1 performance and the news of potential new suitors, highlighting the company's significant impression on the interventional cardiology space.",
-      "url": "https://cardiovascularbusiness.com/topics/healthcare-management/healthcare-economics/medtronic-johnson-johnson-shockwave-medical",
-      "source": "Cardiovascular Business",
-      "published": "20230511T000000",
-      "overall_sentiment_score": 0.206441,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.210762,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.741492
-    },
-    {
-      "title": "16-Acre Commercial Life Science Development on Its Way to the Southwestern Medical District",
-      "summary": "Alexandria Real Estate Equities, a California-based REIT, is acquiring and consolidating 16.5 acres in Dallas's Southwestern Medical District to establish a commercial life science hub. The project aims to bring early-stage commercial life science to Texas, building on the company's track record in other biotech centers. This development contributes to a growing boom in the medical district, which includes other major life science and healthcare projects.",
-      "url": "https://www.dmagazine.com/commercial-real-estate/2023/05/16-acre-commercial-life-science-development-on-its-way-to-the-southwestern-medical-district/",
-      "source": "D Magazine",
-      "published": "20230503T100000",
-      "overall_sentiment_score": 0.295979,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.247063,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.63807
-    },
-    {
       "title": "Better Growth Stock: Johnson & Johnson vs. Intuitive Surgical",
       "summary": "This article compares Johnson & Johnson (JNJ) and Intuitive Surgical (ISRG) as growth stocks, highlighting J&J's stability and consistent dividends versus Intuitive Surgical's strong growth potential in the minimally invasive surgery market. While J&J offers a solid investment, the author ultimately favors Intuitive Surgical due to its dominance in robotic surgery and significant future expansion opportunities.",
       "url": "https://www.fool.com/investing/2023/05/02/better-growth-stock-johnson-johnson-vs-intuitive-s/",
@@ -101,6 +29,78 @@
       "ticker_sentiment_score": 0.252904,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.818535
+    },
+    {
+      "title": "J&J's consumer-health spinoff Kenvue jumps 22% in public market debut",
+      "summary": "Johnson & Johnson's consumer-health spinoff, Kenvue (KVUE), saw its shares jump 22% on its market debut on the New York Stock Exchange, making it the biggest U.S. IPO in over a year and valuing the new company at roughly $50 billion. Kenvue raised $3.8 billion by selling 172.8 million shares, initially priced at $22, and holds well-known brands like Band-Aid and Tylenol. Despite the spinoff, J&J will retain a 90.9% stake initially and Kenvue estimates 2022 sales of $14.95 billion and expects to pay a quarterly cash dividend of about 20 cents per share.",
+      "url": "https://www.cnbc.com/2023/05/04/jj-kenvue-ipo-kvue-starts-trading-on-nyse.html",
+      "source": "CNBC",
+      "published": "20230504T124900",
+      "overall_sentiment_score": 0.380091,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.230968,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.81385
+    },
+    {
+      "title": "Report: Medtronic, Johnson & Johnson consider Shockwave Medical acquisition after Boston Scientific talks stall",
+      "summary": "Medtronic and Johnson & Johnson are reportedly considering an acquisition of Shockwave Medical, a medical device company known for its intravascular lithotripsy technology. This interest follows stalled talks between Boston Scientific and Shockwave Medical. Shockwave Medical's stock price saw an increase, likely due to strong Q1 performance and the news of potential new suitors, highlighting the company's significant impression on the interventional cardiology space.",
+      "url": "https://cardiovascularbusiness.com/topics/healthcare-management/healthcare-economics/medtronic-johnson-johnson-shockwave-medical",
+      "source": "Cardiovascular Business",
+      "published": "20230511T000000",
+      "overall_sentiment_score": 0.206441,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.210762,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.741492
+    },
+    {
+      "title": "Kenvue CEO looks to brand, product innovation to drive growth after IPO",
+      "summary": "Kenvue CEO Thibaut Mongon plans to drive growth through continuous brand and product innovation, leveraging the company's strong portfolio and research capabilities. After a successful IPO debut, Kenvue, the J&J consumer health spinoff, aims to develop new solutions and personalized digital experiences for consumers. The company also states that while it primarily focuses on organic growth, it does not rule out strategic mergers and acquisitions.",
+      "url": "https://www.cnbc.com/2023/05/05/jj-spinoff-kenvue-ceo-looks-to-innovation-after-ipo.html",
+      "source": "CNBC",
+      "published": "20230505T093700",
+      "overall_sentiment_score": 0.364659,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.283302,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.719706
+    },
+    {
+      "title": "Pfizer turns focus to new drugs as COVID vaccine revenue falls",
+      "summary": "Pfizer is shifting its focus to new drug launches as revenue from its COVID-19 vaccine declines. The company reported first-quarter revenue that beat expectations despite a significant drop from the previous year due to plummeting vaccine sales, but COVID antiviral Paxlovid sales were unexpectedly high. Pfizer is anticipating key regulatory approvals for several new products, including an RSV vaccine and a multiple myeloma drug, which are crucial for achieving its projected non-COVID revenue growth.",
+      "url": "https://www.biopharmadive.com/news/pfizer-q1-earnings-covid-revenue-drug-launches/649167/",
+      "source": "BioPharma Dive",
+      "published": "20230502T152457",
+      "overall_sentiment_score": -0.038787,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.11994,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.642681
+    },
+    {
+      "title": "How Baxter’s $4B Sale of Biopharma Biz Fits With Broader Life Sciences Trends",
+      "summary": "Baxter International is selling its biopharma solutions business for $4.25 billion cash to private equity firms Advent International and Warburg Pincus. This transaction is part of a broader trend among life science companies to streamline operations by divesting non-core businesses. The move by Baxter, which generated $644 million in biopharma solutions revenue in 2022, aims to focus the company on hospital products and connected care.",
+      "url": "https://medcitynews.com/2023/05/baxter-international-biopharma-private-equity-mergers-acquisitions-outsourcing/",
+      "source": "MedCity News",
+      "published": "20230509T184300",
+      "overall_sentiment_score": 0.192625,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.185169,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.640256
+    },
+    {
+      "title": "16-Acre Commercial Life Science Development on Its Way to the Southwestern Medical District",
+      "summary": "Alexandria Real Estate Equities, a California-based REIT, is acquiring and consolidating 16.5 acres in Dallas's Southwestern Medical District to establish a commercial life science hub. The project aims to bring early-stage commercial life science to Texas, building on the company's track record in other biotech centers. This development contributes to a growing boom in the medical district, which includes other major life science and healthcare projects.",
+      "url": "https://www.dmagazine.com/commercial-real-estate/2023/05/16-acre-commercial-life-science-development-on-its-way-to-the-southwestern-medical-district/",
+      "source": "D Magazine",
+      "published": "20230503T100000",
+      "overall_sentiment_score": 0.295979,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.247063,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.63807
     }
   ]
 }

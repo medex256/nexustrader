@@ -7,66 +7,6 @@
   "article_count": 19,
   "articles": [
     {
-      "title": "Subdued volatility masks ongoing uncertainty",
-      "summary": "Market volatility has fallen to low levels, suggesting investors anticipate a narrow range of economic outcomes, despite ongoing uncertainty from tighter credit conditions and potential economic downside following recent banking turmoil. The article also notes China's stronger-than-expected economic growth in Q1, driven by consumption, and suggests opportunities within Chinese equities, the Australian dollar, commodities, and select European beneficiaries. UBS analysts maintain a preference for high-quality bonds over equities given the tightening credit conditions impacting growth.",
-      "url": "https://rankiapro.com/en/insights/subdued-volatility-masks-ongoing-uncertainty/",
-      "source": "RankiaPro",
-      "published": "20231211T035407",
-      "overall_sentiment_score": 0.079397,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.11316,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.644548
-    },
-    {
-      "title": "Jennifer LaClair to lead Global Business Solutions at Fiserv",
-      "summary": "Fiserv, Inc. announced executive leadership changes effective in 2024, with Jennifer LaClair set to lead Global Business Solutions starting January 1. LaClair, currently Chief Revenue Officer, will replace Suzan Kereere. Additionally, Rick Singh will join Fiserv as Enterprise Growth Officer in mid-January 2024, overseeing strategy, M&A, and ventures.",
-      "url": "https://fxnewsgroup.com/forex-news/executives/jennifer-laclair-to-lead-global-business-solutions-at-fiserv/",
-      "source": "FX News Group",
-      "published": "20231206T143941",
-      "overall_sentiment_score": 0.263629,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.239038,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.603967
-    },
-    {
-      "title": "Amex CEO talks co-brand partnerships after Apple reports",
-      "summary": "American Express CEO Steve Squeri discussed co-branded partnerships, emphasizing that Amex's \"premium\" card designation means it doesn't align with all potential partners, a point highlighted amidst reports of Amex potentially replacing Goldman Sachs as Apple's credit card partner. Squeri noted that Amex seeks partnerships that offer strong value propositions, target premium customers, and provide distribution while yielding \"premium economics.\" Analysts have speculated on several potential suitors for Apple's card partnership, including Amex, JPMorgan Chase, Synchrony Financial, Capital One, and Bread.",
-      "url": "https://www.paymentsdive.com/news/amex-ceo-steve-squeri-apple-credit-card-partner-goldman/701656/",
-      "source": "Payments Dive",
-      "published": "20231206T000000",
-      "overall_sentiment_score": 0.163116,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.082818,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.598884
-    },
-    {
-      "title": "Exclusive: US power utility Allete explores sale, sources say",
-      "summary": "U.S. power utility and renewable energy developer Allete Inc is exploring a sale of the company, with a market value of about $5.2 billion including debt. Allete is working with JPMorgan Chase & Co on the sale process, which has attracted infrastructure funds and buyout firms. This news led to a 9% jump in Allete's shares, though the company's shares had previously underperformed this year due to its pivot to renewable energy.",
-      "url": "https://www.reuters.com/business/energy/us-power-utility-allete-explores-sale-sources-say-2023-12-05/",
-      "source": "Reuters",
-      "published": "20231205T214000",
-      "overall_sentiment_score": 0.225661,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.104329,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.743445
-    },
-    {
-      "title": "AIG Announces Closing of Secondary Offering of Corebridge Financial, Inc. Common Stock",
-      "summary": "American International Group, Inc. (AIG) announced the closing of its secondary offering of 35 million existing shares of Corebridge Financial, Inc. (CRBG) common stock at $20.50 per share, generating approximately $712 million in net proceeds for AIG. AIG remains the majority shareholder of Corebridge Financial. The offering was underwritten by J.P. Morgan.",
-      "url": "https://www.stocktitan.net/news/CRBG/aig-announces-closing-of-secondary-offering-of-corebridge-financial-sp2wiq21vugi.html",
-      "source": "Stock Titan",
-      "published": "20231205T092200",
-      "overall_sentiment_score": 0.126021,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.115611,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.647792
-    },
-    {
       "title": "JP Morgan Chase & Co: Report on Climate Transition Planning",
       "summary": "Shareholders are requesting JPMorgan Chase & Co. to annually disclose the proportion of sector emissions attributable to clients not aligned with credible Net Zero pathways for each sector with a 2030 target. This disclosure aims to assess if the unaligned clients will prevent JPMorgan from meeting its 2030 targets and to identify actions to address any emissions reduction shortfalls. The concern stems from JPMorgan's significant fossil fuel financing and a lack of transparency regarding client-specific transition progress towards Net Zero goals.",
       "url": "https://www.asyousow.org/resolutions/2023/12/04-jpmorgan-chase-report-climate-transition-planning",
@@ -77,102 +17,6 @@
       "ticker_sentiment_score": -0.296347,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Bank of America to shutter nearly 150 branches nationwide this year. Here's where.",
-      "summary": "Bank of America plans to close over 100 branches across the U.S. by the end of this year, including locations in Florida. The article mentions this in the context of broader trends affecting banking and financial services.",
-      "url": "https://www.bizjournals.com/southflorida/news/2023/11/29/bank-of-america-bac-bofa-branch-closing-banking.html",
-      "source": "The Business Journals",
-      "published": "20231129T000000",
-      "overall_sentiment_score": -0.122911,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.085779,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.633483
-    },
-    {
-      "title": "Athene raises $600 million to grow insurance business",
-      "summary": "Athene Holding Ltd. plans to sell $600 million of 5.875% senior unsecured notes due 2034 to expand its insurance operations. The proceeds will be used for general corporate purposes, including capital contributions to its insurance subsidiaries to support organic growth. Wells Fargo Securities, BofA Securities, Goldman Sachs & Co. LLC, J.P. Morgan and Morgan Stanley are acting as joint book-running managers for the offering.",
-      "url": "https://www.reinsurancene.ws/athene-raises-600-million-to-grow-insurance-business/",
-      "source": "Reinsurance News",
-      "published": "20231208T000000",
-      "overall_sentiment_score": 0.264587,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.327832,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.618011
-    },
-    {
-      "title": "Duke Energy disconnects CATL batteries from Marine Corps base over security concerns",
-      "summary": "Duke Energy disconnected CATL batteries from the Marine Corps base Camp Lejeune after lawmakers and experts raised security concerns regarding the Chinese supplier's ties to the Communist Party. The move followed criticism from Republican lawmakers who warned of potential cyber vulnerabilities and risks to energy grids. CATL denied the accusations, stating its batteries had passed US security reviews and were \"passive\" devices without communication interfaces.",
-      "url": "https://www.reuters.com/world/us/duke-energy-disconnects-catl-batteries-marine-corps-base-camp-lejeune-2023-12-06/",
-      "source": "Reuters",
-      "published": "20231207T063400",
-      "overall_sentiment_score": -0.065445,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.107681,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.631692
-    },
-    {
-      "title": "Bank CEOs bring Basel III battle to Congress",
-      "summary": "Eight major bank CEOs testified before the Senate Banking Committee to criticize the proposed Basel III endgame capital rules, arguing they will harm the economy by unjustifiably increasing capital requirements. They claimed the proposal wasn't properly studied and that banks were not adequately consulted, emphasizing their role in mitigating the regional bank crisis without needing more stringent rules. Moderate Democrats on the committee appear sympathetic to the banks' arguments, potentially influencing Federal Reserve Chairman Jerome Powell's decision on the proposal.",
-      "url": "https://www.americanbanker.com/news/bank-ceos-bring-basel-iii-battle-to-congress",
-      "source": "American Banker",
-      "published": "20231206T144000",
-      "overall_sentiment_score": -0.2353,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.213927,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.842506
-    },
-    {
-      "title": "MUFG expands Capital Markets Group with equity private placements hire",
-      "summary": "MUFG announced the appointment of Geoff Paul as Managing Director and Head of Equity Capital, a newly created role. Paul will be responsible for developing MUFG's Equity Private Placements (EPP) business and will also lead the existing Equity Capital Markets effort. This expansion aims to broaden MUFG's equity capital markets footprint and service client needs across the entire capital structure.",
-      "url": "https://www.prnewswire.com/news-releases/mufg-expands-capital-markets-group-with-equity-private-placements-hire-302004852.html",
-      "source": "PR Newswire",
-      "published": "20231204T123000",
-      "overall_sentiment_score": 0.257941,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.111586,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.607319
-    },
-    {
-      "title": "Recruitment Roundup: Steward Partners, Morgan Stanley, RMB Capital And More",
-      "summary": "This article details a recruitment roundup in the wealth management industry, highlighting significant advisor transactions, mergers and acquisitions, and key leadership appointments. It features Steward Partners' CEO Jim Gold as the Recruiter Of The Month, discussing the firm's M&A growth strategy and the current landscape of the M&A market for wealth management firms.",
-      "url": "https://www.wealthsolutionsreport.com/recruitment-roundup-steward-partners-morgan-stanley-rmb-capital-and-more/",
-      "source": "Wealth Solutions Report",
-      "published": "20231128T084000",
-      "overall_sentiment_score": 0.186849,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.108448,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.574831
-    },
-    {
-      "title": "Asia’s booming ETF markets – the next innovation frontier",
-      "summary": "Asia's ETF market has experienced rapid growth in size and sophistication, with assets under management (AUM) in Asia ex-Japan rising to USD 499 billion by September 2022. The region offers a diverse range of ETF products, including equity and fixed income ETFs, as well as those tracking virtual assets and actively managed funds. HSBC has played a significant role as a pioneer in developing the ETF asset class in Asia, providing a full range of services and continuing to drive innovation and growth in the market.",
-      "url": "https://www.business.hsbc.com/en-gb/insights/market-and-regulatory-insights/asias-booming-etf-markets-the-next-innovation-frontier",
-      "source": "HSBC",
-      "published": "20231128T000925",
-      "overall_sentiment_score": 0.221853,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.224424,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.639294
-    },
-    {
-      "title": "Bank of America to close nearly 150 branches nationwide this year",
-      "summary": "Bank of America plans to close nearly 150 branches across the U.S. by the end of the year, continuing a trend of branch consolidations. This includes locations it has already trimmed in the Carolinas. The closures signify the bank's ongoing strategy regarding its physical footprint.",
-      "url": "https://www.bizjournals.com/phoenix/news/2023/11/28/bank-of-america-bac-bofa-branch-closing-banking.html",
-      "source": "The Business Journals",
-      "published": "20231128T000000",
-      "overall_sentiment_score": 0.1242,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.13492,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.601785
     },
     {
       "title": "Understanding the middle market: Economic impact and opportunities for growth",
@@ -199,6 +43,90 @@
       "relevance_score": 1.0
     },
     {
+      "title": "Bank CEOs bring Basel III battle to Congress",
+      "summary": "Eight major bank CEOs testified before the Senate Banking Committee to criticize the proposed Basel III endgame capital rules, arguing they will harm the economy by unjustifiably increasing capital requirements. They claimed the proposal wasn't properly studied and that banks were not adequately consulted, emphasizing their role in mitigating the regional bank crisis without needing more stringent rules. Moderate Democrats on the committee appear sympathetic to the banks' arguments, potentially influencing Federal Reserve Chairman Jerome Powell's decision on the proposal.",
+      "url": "https://www.americanbanker.com/news/bank-ceos-bring-basel-iii-battle-to-congress",
+      "source": "American Banker",
+      "published": "20231206T144000",
+      "overall_sentiment_score": -0.2353,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.213927,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.842506
+    },
+    {
+      "title": "Exclusive: US power utility Allete explores sale, sources say",
+      "summary": "U.S. power utility and renewable energy developer Allete Inc is exploring a sale of the company, with a market value of about $5.2 billion including debt. Allete is working with JPMorgan Chase & Co on the sale process, which has attracted infrastructure funds and buyout firms. This news led to a 9% jump in Allete's shares, though the company's shares had previously underperformed this year due to its pivot to renewable energy.",
+      "url": "https://www.reuters.com/business/energy/us-power-utility-allete-explores-sale-sources-say-2023-12-05/",
+      "source": "Reuters",
+      "published": "20231205T214000",
+      "overall_sentiment_score": 0.225661,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.104329,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.743445
+    },
+    {
+      "title": "AIG Announces Closing of Secondary Offering of Corebridge Financial, Inc. Common Stock",
+      "summary": "American International Group, Inc. (AIG) announced the closing of its secondary offering of 35 million existing shares of Corebridge Financial, Inc. (CRBG) common stock at $20.50 per share, generating approximately $712 million in net proceeds for AIG. AIG remains the majority shareholder of Corebridge Financial. The offering was underwritten by J.P. Morgan.",
+      "url": "https://www.stocktitan.net/news/CRBG/aig-announces-closing-of-secondary-offering-of-corebridge-financial-sp2wiq21vugi.html",
+      "source": "Stock Titan",
+      "published": "20231205T092200",
+      "overall_sentiment_score": 0.126021,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.115611,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.647792
+    },
+    {
+      "title": "Subdued volatility masks ongoing uncertainty",
+      "summary": "Market volatility has fallen to low levels, suggesting investors anticipate a narrow range of economic outcomes, despite ongoing uncertainty from tighter credit conditions and potential economic downside following recent banking turmoil. The article also notes China's stronger-than-expected economic growth in Q1, driven by consumption, and suggests opportunities within Chinese equities, the Australian dollar, commodities, and select European beneficiaries. UBS analysts maintain a preference for high-quality bonds over equities given the tightening credit conditions impacting growth.",
+      "url": "https://rankiapro.com/en/insights/subdued-volatility-masks-ongoing-uncertainty/",
+      "source": "RankiaPro",
+      "published": "20231211T035407",
+      "overall_sentiment_score": 0.079397,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.11316,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.644548
+    },
+    {
+      "title": "Asia’s booming ETF markets – the next innovation frontier",
+      "summary": "Asia's ETF market has experienced rapid growth in size and sophistication, with assets under management (AUM) in Asia ex-Japan rising to USD 499 billion by September 2022. The region offers a diverse range of ETF products, including equity and fixed income ETFs, as well as those tracking virtual assets and actively managed funds. HSBC has played a significant role as a pioneer in developing the ETF asset class in Asia, providing a full range of services and continuing to drive innovation and growth in the market.",
+      "url": "https://www.business.hsbc.com/en-gb/insights/market-and-regulatory-insights/asias-booming-etf-markets-the-next-innovation-frontier",
+      "source": "HSBC",
+      "published": "20231128T000925",
+      "overall_sentiment_score": 0.221853,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.224424,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.639294
+    },
+    {
+      "title": "Bank of America to shutter nearly 150 branches nationwide this year. Here's where.",
+      "summary": "Bank of America plans to close over 100 branches across the U.S. by the end of this year, including locations in Florida. The article mentions this in the context of broader trends affecting banking and financial services.",
+      "url": "https://www.bizjournals.com/southflorida/news/2023/11/29/bank-of-america-bac-bofa-branch-closing-banking.html",
+      "source": "The Business Journals",
+      "published": "20231129T000000",
+      "overall_sentiment_score": -0.122911,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.085779,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.633483
+    },
+    {
+      "title": "Duke Energy disconnects CATL batteries from Marine Corps base over security concerns",
+      "summary": "Duke Energy disconnected CATL batteries from the Marine Corps base Camp Lejeune after lawmakers and experts raised security concerns regarding the Chinese supplier's ties to the Communist Party. The move followed criticism from Republican lawmakers who warned of potential cyber vulnerabilities and risks to energy grids. CATL denied the accusations, stating its batteries had passed US security reviews and were \"passive\" devices without communication interfaces.",
+      "url": "https://www.reuters.com/world/us/duke-energy-disconnects-catl-batteries-marine-corps-base-camp-lejeune-2023-12-06/",
+      "source": "Reuters",
+      "published": "20231207T063400",
+      "overall_sentiment_score": -0.065445,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.107681,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.631692
+    },
+    {
       "title": "Podcast avec David MELLUL",
       "summary": "This article announces a podcast featuring David Mellul, Managing Director of Varenne Capital. The content also includes extensive financial performance data for various funds across different risk profiles and timeframes.",
       "url": "https://www.patrimoine24.com/les-news/12937-podcast-david-mellul-varenne-capital.html",
@@ -209,6 +137,66 @@
       "ticker_sentiment_score": 0.27444,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.620789
+    },
+    {
+      "title": "Athene raises $600 million to grow insurance business",
+      "summary": "Athene Holding Ltd. plans to sell $600 million of 5.875% senior unsecured notes due 2034 to expand its insurance operations. The proceeds will be used for general corporate purposes, including capital contributions to its insurance subsidiaries to support organic growth. Wells Fargo Securities, BofA Securities, Goldman Sachs & Co. LLC, J.P. Morgan and Morgan Stanley are acting as joint book-running managers for the offering.",
+      "url": "https://www.reinsurancene.ws/athene-raises-600-million-to-grow-insurance-business/",
+      "source": "Reinsurance News",
+      "published": "20231208T000000",
+      "overall_sentiment_score": 0.264587,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.327832,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.618011
+    },
+    {
+      "title": "MUFG expands Capital Markets Group with equity private placements hire",
+      "summary": "MUFG announced the appointment of Geoff Paul as Managing Director and Head of Equity Capital, a newly created role. Paul will be responsible for developing MUFG's Equity Private Placements (EPP) business and will also lead the existing Equity Capital Markets effort. This expansion aims to broaden MUFG's equity capital markets footprint and service client needs across the entire capital structure.",
+      "url": "https://www.prnewswire.com/news-releases/mufg-expands-capital-markets-group-with-equity-private-placements-hire-302004852.html",
+      "source": "PR Newswire",
+      "published": "20231204T123000",
+      "overall_sentiment_score": 0.257941,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.111586,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.607319
+    },
+    {
+      "title": "Jennifer LaClair to lead Global Business Solutions at Fiserv",
+      "summary": "Fiserv, Inc. announced executive leadership changes effective in 2024, with Jennifer LaClair set to lead Global Business Solutions starting January 1. LaClair, currently Chief Revenue Officer, will replace Suzan Kereere. Additionally, Rick Singh will join Fiserv as Enterprise Growth Officer in mid-January 2024, overseeing strategy, M&A, and ventures.",
+      "url": "https://fxnewsgroup.com/forex-news/executives/jennifer-laclair-to-lead-global-business-solutions-at-fiserv/",
+      "source": "FX News Group",
+      "published": "20231206T143941",
+      "overall_sentiment_score": 0.263629,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.239038,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.603967
+    },
+    {
+      "title": "Bank of America to close nearly 150 branches nationwide this year",
+      "summary": "Bank of America plans to close nearly 150 branches across the U.S. by the end of the year, continuing a trend of branch consolidations. This includes locations it has already trimmed in the Carolinas. The closures signify the bank's ongoing strategy regarding its physical footprint.",
+      "url": "https://www.bizjournals.com/phoenix/news/2023/11/28/bank-of-america-bac-bofa-branch-closing-banking.html",
+      "source": "The Business Journals",
+      "published": "20231128T000000",
+      "overall_sentiment_score": 0.1242,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.13492,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.601785
+    },
+    {
+      "title": "Amex CEO talks co-brand partnerships after Apple reports",
+      "summary": "American Express CEO Steve Squeri discussed co-branded partnerships, emphasizing that Amex's \"premium\" card designation means it doesn't align with all potential partners, a point highlighted amidst reports of Amex potentially replacing Goldman Sachs as Apple's credit card partner. Squeri noted that Amex seeks partnerships that offer strong value propositions, target premium customers, and provide distribution while yielding \"premium economics.\" Analysts have speculated on several potential suitors for Apple's card partnership, including Amex, JPMorgan Chase, Synchrony Financial, Capital One, and Bread.",
+      "url": "https://www.paymentsdive.com/news/amex-ceo-steve-squeri-apple-credit-card-partner-goldman/701656/",
+      "source": "Payments Dive",
+      "published": "20231206T000000",
+      "overall_sentiment_score": 0.163116,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.082818,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.598884
     },
     {
       "title": "Market Forecaster Raoul Pal Says There’s a Good Chance Bitcoin Will Hit $100K-$200K in 2024",
@@ -233,6 +221,18 @@
       "ticker_sentiment_score": 0.10921,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.582519
+    },
+    {
+      "title": "Recruitment Roundup: Steward Partners, Morgan Stanley, RMB Capital And More",
+      "summary": "This article details a recruitment roundup in the wealth management industry, highlighting significant advisor transactions, mergers and acquisitions, and key leadership appointments. It features Steward Partners' CEO Jim Gold as the Recruiter Of The Month, discussing the firm's M&A growth strategy and the current landscape of the M&A market for wealth management firms.",
+      "url": "https://www.wealthsolutionsreport.com/recruitment-roundup-steward-partners-morgan-stanley-rmb-capital-and-more/",
+      "source": "Wealth Solutions Report",
+      "published": "20231128T084000",
+      "overall_sentiment_score": 0.186849,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.108448,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.574831
     }
   ]
 }

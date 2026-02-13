@@ -7,16 +7,16 @@
   "article_count": 4,
   "articles": [
     {
-      "title": "ACB Earnings Infographic: Aurora Cannabis Q3 2023 revenue up 27%",
-      "summary": "Aurora Cannabis (NASDAQ: ACB) reported a net loss of C$87 million for Q3 2023, despite a 27% year-over-year increase in total revenues to C$64 million. The company achieved adjusted EBITDA of C$0.31 million, a significant improvement from a C$10.03 million loss in the prior-year quarter. CEO Miguel Martin highlighted approximately $400 million in annualized cost savings from business transformation initiatives, which led to a reduced cash use in operating activities.",
-      "url": "https://news.alphastreet.com/acb-earnings-infographic-aurora-cannabis-q3-2023-revenue-up-27/",
-      "source": "AlphaStreet",
-      "published": "20230614T000000",
-      "overall_sentiment_score": 0.168782,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.149168,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.615015
+      "title": "Oregon County Sues Fossil Fuel Companies Over 2021 Heat Dome (Published 2023)",
+      "summary": "Multnomah County in Oregon has filed a lawsuit against several fossil fuel companies, including Exxon Mobil, Shell, and BP, along with their partners, seeking over $1.5 billion in damages. The county alleges these companies are responsible for the deadly 2021 heat dome in the Pacific Northwest, claiming their greenhouse gas emissions played a significant role and that the companies knew their products were harmful. This litigation is part of a growing trend of climate lawsuits globally, with Multnomah County's case being one of the first to seek damages related to a specific weather event like a heat dome.",
+      "url": "https://www.nytimes.com/2023/06/22/climate/oregon-lawsuit-heat-dome.html",
+      "source": "The New York Times",
+      "published": "20230622T000000",
+      "overall_sentiment_score": -0.427809,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.40633,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.907858
     },
     {
       "title": "iShares Global Energy ETF Review and Aggregate Rating (IXC)",
@@ -31,6 +31,18 @@
       "relevance_score": 0.744142
     },
     {
+      "title": "ACB Earnings Infographic: Aurora Cannabis Q3 2023 revenue up 27%",
+      "summary": "Aurora Cannabis (NASDAQ: ACB) reported a net loss of C$87 million for Q3 2023, despite a 27% year-over-year increase in total revenues to C$64 million. The company achieved adjusted EBITDA of C$0.31 million, a significant improvement from a C$10.03 million loss in the prior-year quarter. CEO Miguel Martin highlighted approximately $400 million in annualized cost savings from business transformation initiatives, which led to a reduced cash use in operating activities.",
+      "url": "https://news.alphastreet.com/acb-earnings-infographic-aurora-cannabis-q3-2023-revenue-up-27/",
+      "source": "AlphaStreet",
+      "published": "20230614T000000",
+      "overall_sentiment_score": 0.168782,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.149168,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.615015
+    },
+    {
       "title": "As San Miguel Corp posts bumper profits, Filipino communities demand end to its fossil fuel financing",
       "summary": "Ahead of San Miguel Corporation's annual stockholder's meeting, fisherfolk and farmer groups are urging the conglomerate to stop its fossil fuel investments, despite the company posting record profits in 2022. They argue that SMC's energy arm, SMC Global Power, is a major coal financier whose operations harm health and the environment, and warn shareholders of the financial risks associated with continued fossil fuel reliance amid global supply volatility and depletion of domestic gas reserves.",
       "url": "https://www.eco-business.com/news/as-san-miguel-corp-posts-bumper-profits-filipino-communities-demand-end-to-its-fossil-fuel-financing/",
@@ -41,18 +53,6 @@
       "ticker_sentiment_score": -0.148175,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.595782
-    },
-    {
-      "title": "Oregon County Sues Fossil Fuel Companies Over 2021 Heat Dome (Published 2023)",
-      "summary": "Multnomah County in Oregon has filed a lawsuit against several fossil fuel companies, including Exxon Mobil, Shell, and BP, along with their partners, seeking over $1.5 billion in damages. The county alleges these companies are responsible for the deadly 2021 heat dome in the Pacific Northwest, claiming their greenhouse gas emissions played a significant role and that the companies knew their products were harmful. This litigation is part of a growing trend of climate lawsuits globally, with Multnomah County's case being one of the first to seek damages related to a specific weather event like a heat dome.",
-      "url": "https://www.nytimes.com/2023/06/22/climate/oregon-lawsuit-heat-dome.html",
-      "source": "The New York Times",
-      "published": "20230622T000000",
-      "overall_sentiment_score": -0.427809,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.40633,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.907858
     }
   ]
 }

@@ -7,52 +7,16 @@
   "article_count": 7,
   "articles": [
     {
-      "title": "Despite Form 483 from FDA, Alvotech says it's in position to win 2 key biosimilar nods",
-      "summary": "Alvotech received another Form 483 from the FDA after a reinspection of its Reykjavik facility, flagging one observation which the company believes is readily addressable. Despite this and previous regulatory setbacks, Alvotech remains confident it will receive approval for its Humira biosimilar by February 24 and its Stelara biosimilar by April 16. Teva Pharmaceutical is partnered with Alvotech for the commercial rollout of these biosimilars in the U.S.",
-      "url": "https://www.fiercepharma.com/manufacturing/alvotech-confident-teva-partnered-stelara-humira-biosimilar-approvals-despite-yet",
-      "source": "Fierce Pharma",
-      "published": "20240122T090300",
-      "overall_sentiment_score": -0.199292,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.1016,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.605081
-    },
-    {
-      "title": "Global Medicine Spending to Reach $2.3 Trillion by 2028 as More Patients Get Access to Better Therapies, Says IQVIA Institute Report",
-      "summary": "A new IQVIA Institute report projects global medicine spending to hit $2.3 trillion by 2028, driven by increased patient access to novel therapies, especially in immunology, endocrinology, and oncology. This updated outlook raises the growth forecast despite lower expectations for COVID-19 vaccines and therapeutics, indicating that global use and spending are surpassing pre-pandemic rates. The report highlights significant growth drivers including innovative oncology drugs and GLP-1 agonists for obesity, while noting the impact of biosimilars on immunology spending.",
-      "url": "https://www.stocktitan.net/news/IQV/global-medicine-spending-to-reach-2-3-trillion-by-2028-as-more-bw7x59dsjc9u.html",
-      "source": "Stock Titan",
-      "published": "20240117T060000",
-      "overall_sentiment_score": 0.325355,
+      "title": "J&J beefs up ADC pipeline by acquiring Ambrx for $2B",
+      "summary": "Johnson & Johnson is acquiring Ambrx Biopharma for $2 billion to bolster its antibody-drug conjugate (ADC) pipeline, gaining ARX517, an ADC showing promise in prostate cancer during early-stage trials. The acquisition follows a recent trend of significant ADC deals in the biopharma industry, including J&J's earlier move to license LegoChem Biosciences' Trop2-directed ADC. Ambrx's ARX517 has demonstrated significant prostate-specific antigen reduction in phase 1 trials, providing a much-needed boost for the company.",
+      "url": "https://www.fiercebiotech.com/biotech/jj-beefs-adc-pipeline-acquiring-ambrx-2b",
+      "source": "Fierce Biotech",
+      "published": "20240108T082500",
+      "overall_sentiment_score": 0.319402,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.314485,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.611374
-    },
-    {
-      "title": "Boston Scientific compra a empresa de tecnologia médica Axonics por US$ 3,7 bilhões",
-      "summary": "Boston Scientific has agreed to acquire Axonics, a medical technology company specializing in devices for urinary and bowel dysfunctions, for $3.7 billion. This acquisition grants Boston Scientific access to Axonics' product portfolio, including a device that uses electrical stimulation to improve brain-bladder communication. The deal, valued at $71 per share, represents a 23% premium over Axonics' last closing price and is expected to increase Boston Scientific's adjusted earnings per share in the future.",
-      "url": "https://www.infomoney.com.br/business/boston-scientific-compra-a-empresa-de-tecnologia-medica-axonics-por-us-37-bilhoes/",
-      "source": "InfoMoney",
-      "published": "20240108T015801",
-      "overall_sentiment_score": 0.297086,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.142812,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.614154
-    },
-    {
-      "title": "Novartis drops pursuit of Cytokinetics - source",
-      "summary": "Swiss drugmaker Novartis has reportedly ceased its pursuit of U.S. drug developer Cytokinetics, causing Cytokinetics' shares to drop over 21%. This breakdown in talks follows earlier reports that Novartis was leading the acquisition race against other bidders like AstraZeneca and Johnson & Johnson. Despite this, analysts still view Cytokinetics, with its promising experimental drug aficamten, as an attractive acquisition target.",
-      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/novartis-drops-pursuit-cytokinetics-wsj-2024-01-11/",
-      "source": "Reuters",
-      "published": "20240111T210700",
-      "overall_sentiment_score": -0.187663,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.111772,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.631841
+      "ticker_sentiment_score": 0.411715,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "6 questions with: Sandy Pound of Thermo Fisher Scientific",
@@ -79,16 +43,52 @@
       "relevance_score": 0.643451
     },
     {
-      "title": "J&J beefs up ADC pipeline by acquiring Ambrx for $2B",
-      "summary": "Johnson & Johnson is acquiring Ambrx Biopharma for $2 billion to bolster its antibody-drug conjugate (ADC) pipeline, gaining ARX517, an ADC showing promise in prostate cancer during early-stage trials. The acquisition follows a recent trend of significant ADC deals in the biopharma industry, including J&J's earlier move to license LegoChem Biosciences' Trop2-directed ADC. Ambrx's ARX517 has demonstrated significant prostate-specific antigen reduction in phase 1 trials, providing a much-needed boost for the company.",
-      "url": "https://www.fiercebiotech.com/biotech/jj-beefs-adc-pipeline-acquiring-ambrx-2b",
-      "source": "Fierce Biotech",
-      "published": "20240108T082500",
-      "overall_sentiment_score": 0.319402,
+      "title": "Novartis drops pursuit of Cytokinetics - source",
+      "summary": "Swiss drugmaker Novartis has reportedly ceased its pursuit of U.S. drug developer Cytokinetics, causing Cytokinetics' shares to drop over 21%. This breakdown in talks follows earlier reports that Novartis was leading the acquisition race against other bidders like AstraZeneca and Johnson & Johnson. Despite this, analysts still view Cytokinetics, with its promising experimental drug aficamten, as an attractive acquisition target.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/novartis-drops-pursuit-cytokinetics-wsj-2024-01-11/",
+      "source": "Reuters",
+      "published": "20240111T210700",
+      "overall_sentiment_score": -0.187663,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.111772,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.631841
+    },
+    {
+      "title": "Boston Scientific compra a empresa de tecnologia médica Axonics por US$ 3,7 bilhões",
+      "summary": "Boston Scientific has agreed to acquire Axonics, a medical technology company specializing in devices for urinary and bowel dysfunctions, for $3.7 billion. This acquisition grants Boston Scientific access to Axonics' product portfolio, including a device that uses electrical stimulation to improve brain-bladder communication. The deal, valued at $71 per share, represents a 23% premium over Axonics' last closing price and is expected to increase Boston Scientific's adjusted earnings per share in the future.",
+      "url": "https://www.infomoney.com.br/business/boston-scientific-compra-a-empresa-de-tecnologia-medica-axonics-por-us-37-bilhoes/",
+      "source": "InfoMoney",
+      "published": "20240108T015801",
+      "overall_sentiment_score": 0.297086,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.411715,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
+      "ticker_sentiment_score": 0.142812,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.614154
+    },
+    {
+      "title": "Global Medicine Spending to Reach $2.3 Trillion by 2028 as More Patients Get Access to Better Therapies, Says IQVIA Institute Report",
+      "summary": "A new IQVIA Institute report projects global medicine spending to hit $2.3 trillion by 2028, driven by increased patient access to novel therapies, especially in immunology, endocrinology, and oncology. This updated outlook raises the growth forecast despite lower expectations for COVID-19 vaccines and therapeutics, indicating that global use and spending are surpassing pre-pandemic rates. The report highlights significant growth drivers including innovative oncology drugs and GLP-1 agonists for obesity, while noting the impact of biosimilars on immunology spending.",
+      "url": "https://www.stocktitan.net/news/IQV/global-medicine-spending-to-reach-2-3-trillion-by-2028-as-more-bw7x59dsjc9u.html",
+      "source": "Stock Titan",
+      "published": "20240117T060000",
+      "overall_sentiment_score": 0.325355,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.314485,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.611374
+    },
+    {
+      "title": "Despite Form 483 from FDA, Alvotech says it's in position to win 2 key biosimilar nods",
+      "summary": "Alvotech received another Form 483 from the FDA after a reinspection of its Reykjavik facility, flagging one observation which the company believes is readily addressable. Despite this and previous regulatory setbacks, Alvotech remains confident it will receive approval for its Humira biosimilar by February 24 and its Stelara biosimilar by April 16. Teva Pharmaceutical is partnered with Alvotech for the commercial rollout of these biosimilars in the U.S.",
+      "url": "https://www.fiercepharma.com/manufacturing/alvotech-confident-teva-partnered-stelara-humira-biosimilar-approvals-despite-yet",
+      "source": "Fierce Pharma",
+      "published": "20240122T090300",
+      "overall_sentiment_score": -0.199292,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.1016,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.605081
     }
   ]
 }

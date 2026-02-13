@@ -7,40 +7,16 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "Shrugging off crypto winter, Galaxy Digital’s Mike Novogratz calls inaugural NFT launch ‘building for the future’",
-      "summary": "Despite the ongoing \"crypto winter\" and declining NFT sales, Galaxy Digital CEO Mike Novogratz remains bullish on NFTs, launching the company's inaugural collection of 3,210 digital collectibles. The NFTs, created in partnership with Time's Web3 initiative TIMEPieces, will be airdropped for free to employees and partners, with Novogratz emphasizing it as \"building for the future\" and a way to foster community spirit rather than a financial endeavor. He points to corporate adoption of NFTs by companies like Nike and the NBA as evidence of their long-term viability.",
-      "url": "https://fortune.com/crypto/2022/09/23/crypto-winter-galaxy-digital-mike-novogratz-nfts-web3/",
-      "source": "Fortune",
-      "published": "20220923T164711",
-      "overall_sentiment_score": 0.266824,
+      "title": "New iPhones have Qualcomm satellite modem, new Apple radio chips",
+      "summary": "Apple's new iPhone 14 models incorporate a Qualcomm X65 modem chip, which enables satellite connectivity for emergency messaging. While the Qualcomm chip provides the core satellite communication capability, Apple clarified that the iPhone 14 also contains proprietary custom-designed radio frequency components and software specifically developed by Apple for its Emergency SOS via satellite feature. This new feature allows users to send emergency messages when outside of WiFi or cellular service, utilizing Globalstar's satellite network capacity.",
+      "url": "https://www.reuters.com/technology/new-iphones-have-qualcomm-satellite-modem-new-apple-radio-chips-2022-09-17/",
+      "source": "Reuters",
+      "published": "20220917T084500",
+      "overall_sentiment_score": 0.345622,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.349031,
+      "ticker_sentiment_score": 0.325024,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.618177
-    },
-    {
-      "title": "Strive launches Strive 500 ETF",
-      "summary": "Strive Asset Management has introduced its second index fund, the Strive 500 ETF (NYSE: STRV), designed to mirror the Solactive GBS United States 500 Index. The ETF aims to provide diversified large-cap exposure to US corporations and seeks to unlock investor value through pro-fiduciary shareholder engagement, moving companies to prioritize value maximization over other agendas. Strive emphasizes its commitment to clients' financial interests, independent of social or political objectives.",
-      "url": "https://etfexpress.com/2022/09/20/strive-launches-strive-500-etf/",
-      "source": "ETF Express",
-      "published": "20220920T170952",
-      "overall_sentiment_score": 0.306176,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.281523,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.712881
-    },
-    {
-      "title": "OTT Platform DISNEY+ HOTSTAR now supports Dolby Atmos on compatible TVs, AVRs, soundbars, Android smartphones and iOS devices",
-      "summary": "Disney+ Hotstar has expanded its audio support to include Dolby Atmos for its users, delivering a multidimensional, spatial sound experience on compatible devices. This new feature, complementing existing Dolby Vision support, aims to immerse users more deeply in their favorite movies and shows. A wide range of titles, including Hotstar Specials and Multiplex content, are now available with Dolby Atmos.",
-      "url": "https://www.timesnownews.com/technology-science/ott-platform-disney-hotstar-now-supports-dolby-atmos-on-compatible-tvs-avrs-soundbars-android-smartphones-and-ios-devices-article-94220116",
-      "source": "Times Now",
-      "published": "20220915T145500",
-      "overall_sentiment_score": 0.312064,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.206822,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.629694
+      "relevance_score": 0.927473
     },
     {
       "title": "Company created by two South Africans tops S&P 500 30-year performance",
@@ -55,16 +31,16 @@
       "relevance_score": 0.731748
     },
     {
-      "title": "New iPhones have Qualcomm satellite modem, new Apple radio chips",
-      "summary": "Apple's new iPhone 14 models incorporate a Qualcomm X65 modem chip, which enables satellite connectivity for emergency messaging. While the Qualcomm chip provides the core satellite communication capability, Apple clarified that the iPhone 14 also contains proprietary custom-designed radio frequency components and software specifically developed by Apple for its Emergency SOS via satellite feature. This new feature allows users to send emergency messages when outside of WiFi or cellular service, utilizing Globalstar's satellite network capacity.",
-      "url": "https://www.reuters.com/technology/new-iphones-have-qualcomm-satellite-modem-new-apple-radio-chips-2022-09-17/",
-      "source": "Reuters",
-      "published": "20220917T084500",
-      "overall_sentiment_score": 0.345622,
+      "title": "Strive launches Strive 500 ETF",
+      "summary": "Strive Asset Management has introduced its second index fund, the Strive 500 ETF (NYSE: STRV), designed to mirror the Solactive GBS United States 500 Index. The ETF aims to provide diversified large-cap exposure to US corporations and seeks to unlock investor value through pro-fiduciary shareholder engagement, moving companies to prioritize value maximization over other agendas. Strive emphasizes its commitment to clients' financial interests, independent of social or political objectives.",
+      "url": "https://etfexpress.com/2022/09/20/strive-launches-strive-500-etf/",
+      "source": "ETF Express",
+      "published": "20220920T170952",
+      "overall_sentiment_score": 0.306176,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.325024,
+      "ticker_sentiment_score": 0.281523,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.927473
+      "relevance_score": 0.712881
     },
     {
       "title": "First It Was Health Monitoring Devices on Wrists, Now It’s Health Monitoring on Fingers",
@@ -79,16 +55,16 @@
       "relevance_score": 0.701039
     },
     {
-      "title": "Graphjet Technology, the State-of-the-Art Graphene and Graphite Producer, Announces Membership Agreement with the MIT Industrial Liaison Program",
-      "summary": "Graphjet Technology Sdn. Bhd., a Malaysian graphene and graphite producer, has joined the Massachusetts Institute of Technology's Industrial Liaison Program (MIT ILP), becoming the first Malaysian company to do so. This membership will provide Graphjet with access to MIT's expertise, research, and educational opportunities, aiming to advance its technology development and strengthen its position in the industry. Through this collaboration, Graphjet seeks to connect with leading companies and talents to apply new technologies, particularly in areas like big data, automobiles, manufacturing, and healthcare.",
-      "url": "https://www.globenewswire.com/news-release/2022/09/13/2515164/0/en/Graphjet-Technology-the-State-of-the-Art-Graphene-and-Graphite-Producer-Announces-Membership-Agreement-with-the-MIT-Industrial-Liaison-Program.html",
-      "source": "GlobeNewswire",
-      "published": "20220913T095000",
-      "overall_sentiment_score": 0.353195,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.25895,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.571067
+      "title": "Herbalife Nutrition Survey Reveals Top Ten Modern Day Entrepreneurs and What Traits are Needed to Join the List",
+      "summary": "A Herbalife Nutrition survey identified Bill Gates, Jeff Bezos, and Steve Jobs as the top three most influential modern entrepreneurs, followed by Elon Musk and Mark Zuckerberg. The study, involving 2,750 respondents across the U.S., Mexico, and Israel, also explored traits essential for entrepreneurial success, highlighting creativity and intelligence as most important. Herbalife Nutrition emphasized the ongoing strength of the entrepreneurial spirit and the company's commitment to fostering it.",
+      "url": "https://www.businesswire.com/news/home/20220921005358/en/Herbalife-Nutrition-Survey-Reveals-Top-Ten-Modern-Day-Entrepreneurs-and-What-Traits-are-Needed-to-Join-the-List",
+      "source": "Business Wire",
+      "published": "20220921T165650",
+      "overall_sentiment_score": 0.186037,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.131573,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.639643
     },
     {
       "title": "Peloton marketing, comms chief Dara Treseder joins Autodesk",
@@ -103,16 +79,40 @@
       "relevance_score": 0.629749
     },
     {
-      "title": "Herbalife Nutrition Survey Reveals Top Ten Modern Day Entrepreneurs and What Traits are Needed to Join the List",
-      "summary": "A Herbalife Nutrition survey identified Bill Gates, Jeff Bezos, and Steve Jobs as the top three most influential modern entrepreneurs, followed by Elon Musk and Mark Zuckerberg. The study, involving 2,750 respondents across the U.S., Mexico, and Israel, also explored traits essential for entrepreneurial success, highlighting creativity and intelligence as most important. Herbalife Nutrition emphasized the ongoing strength of the entrepreneurial spirit and the company's commitment to fostering it.",
-      "url": "https://www.businesswire.com/news/home/20220921005358/en/Herbalife-Nutrition-Survey-Reveals-Top-Ten-Modern-Day-Entrepreneurs-and-What-Traits-are-Needed-to-Join-the-List",
-      "source": "Business Wire",
-      "published": "20220921T165650",
-      "overall_sentiment_score": 0.186037,
+      "title": "OTT Platform DISNEY+ HOTSTAR now supports Dolby Atmos on compatible TVs, AVRs, soundbars, Android smartphones and iOS devices",
+      "summary": "Disney+ Hotstar has expanded its audio support to include Dolby Atmos for its users, delivering a multidimensional, spatial sound experience on compatible devices. This new feature, complementing existing Dolby Vision support, aims to immerse users more deeply in their favorite movies and shows. A wide range of titles, including Hotstar Specials and Multiplex content, are now available with Dolby Atmos.",
+      "url": "https://www.timesnownews.com/technology-science/ott-platform-disney-hotstar-now-supports-dolby-atmos-on-compatible-tvs-avrs-soundbars-android-smartphones-and-ios-devices-article-94220116",
+      "source": "Times Now",
+      "published": "20220915T145500",
+      "overall_sentiment_score": 0.312064,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.131573,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.639643
+      "ticker_sentiment_score": 0.206822,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.629694
+    },
+    {
+      "title": "Shrugging off crypto winter, Galaxy Digital’s Mike Novogratz calls inaugural NFT launch ‘building for the future’",
+      "summary": "Despite the ongoing \"crypto winter\" and declining NFT sales, Galaxy Digital CEO Mike Novogratz remains bullish on NFTs, launching the company's inaugural collection of 3,210 digital collectibles. The NFTs, created in partnership with Time's Web3 initiative TIMEPieces, will be airdropped for free to employees and partners, with Novogratz emphasizing it as \"building for the future\" and a way to foster community spirit rather than a financial endeavor. He points to corporate adoption of NFTs by companies like Nike and the NBA as evidence of their long-term viability.",
+      "url": "https://fortune.com/crypto/2022/09/23/crypto-winter-galaxy-digital-mike-novogratz-nfts-web3/",
+      "source": "Fortune",
+      "published": "20220923T164711",
+      "overall_sentiment_score": 0.266824,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.349031,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.618177
+    },
+    {
+      "title": "Graphjet Technology, the State-of-the-Art Graphene and Graphite Producer, Announces Membership Agreement with the MIT Industrial Liaison Program",
+      "summary": "Graphjet Technology Sdn. Bhd., a Malaysian graphene and graphite producer, has joined the Massachusetts Institute of Technology's Industrial Liaison Program (MIT ILP), becoming the first Malaysian company to do so. This membership will provide Graphjet with access to MIT's expertise, research, and educational opportunities, aiming to advance its technology development and strengthen its position in the industry. Through this collaboration, Graphjet seeks to connect with leading companies and talents to apply new technologies, particularly in areas like big data, automobiles, manufacturing, and healthcare.",
+      "url": "https://www.globenewswire.com/news-release/2022/09/13/2515164/0/en/Graphjet-Technology-the-State-of-the-Art-Graphene-and-Graphite-Producer-Announces-Membership-Agreement-with-the-MIT-Industrial-Liaison-Program.html",
+      "source": "GlobeNewswire",
+      "published": "20220913T095000",
+      "overall_sentiment_score": 0.353195,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.25895,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.571067
     }
   ]
 }

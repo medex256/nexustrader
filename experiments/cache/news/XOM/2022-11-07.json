@@ -7,18 +7,6 @@
   "article_count": 20,
   "articles": [
     {
-      "title": "Royal Bank of Canada: Surging Finance of Fires, Floods & Climate Chaos",
-      "summary": "This report details the Royal Bank of Canada's (RBC) significant financing of fossil fuel expansion, highlighting over $9.2 billion to top expansionist companies since joining the Net Zero Banking Alliance. It notes RBC's substantial investments in extreme fossil fuels, including tar sands, shale, LNG, and coal, which are projected to exceed $10 billion in 2022. The report urges RBC to address its climate impact seriously, emphasizing its role as a major global fossil fuel funder.",
-      "url": "https://stand.earth/resources/royal-bank-of-canada-surging-finance-of-fires-floods-climate-chaos/",
-      "source": "Stand.earth",
-      "published": "20221107T182641",
-      "overall_sentiment_score": -0.476155,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.423691,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.727801
-    },
-    {
       "title": "ExxonMobil Appoints Jim Chapman as Tax and Treasurer Vice President,",
       "summary": "ExxonMobil announced the appointment of Jim Chapman as vice president, Tax and Treasurer, effective November 28, 2022, replacing Jaime Spellings who is retiring after 31 years with the company. Chapman brings extensive capital market and functional experience from his previous roles at Dominion Energy, Inc., Lehman Brothers, and Barclays Investment Bank. Kathy Mikells, ExxonMobil senior vice president and chief financial officer, expressed enthusiasm for Chapman's contribution to the company's leading role in the energy transition.",
       "url": "https://egyptoil-gas.com/news/exxonmobil-appoints-jim-chapman-as-tax-and-treasurer-vice-president/",
@@ -31,54 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Hyundai Oilbank extends US fuel export deal with Sunoco",
-      "summary": "Hyundai Oilbank has extended its deal with Sunoco LP to export petroleum products to Hawaii through 2023. The South Korean refiner, backed by Saudi Aramco, has already supplied 3.6 million barrels of gasoline and diesel to Hawaii this year and plans to export a similar volume next year. This extension allows Hyundai Oilbank to further diversify its overseas markets beyond Asia, fostering cooperation with global gas station operators.",
-      "url": "https://www.kedglobal.com/energy/newsView/ked202211030015",
-      "source": "KED Global",
-      "published": "20221103T191638",
-      "overall_sentiment_score": 0.28598,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.237916,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.627799
-    },
-    {
-      "title": "Flame Acquisition Corp. (FLME) to Combine with Sable Offshore in $883M Deal",
-      "summary": "Flame Acquisition Corp. (FLME) has announced a definitive agreement to merge with Sable Offshore in a transaction valued at $883 million. Sable Offshore will acquire the Santa Ynez Unit (SYU) offshore oil field, previously operated by Exxon Mobil (XOM), which has been shut down since a 2015 pipeline rupture. The deal involves a significant debt financing package and a PIPE investment, with the combined entity aiming to restart operations at SYU despite regulatory and political challenges in California.",
-      "url": "https://www.spacinsider.com/news/deal-announcements-amendments/flame-flme-to-combine-with-sable-offshore-in-883m-deal",
-      "source": "SPACInsider",
-      "published": "20221103T121400",
-      "overall_sentiment_score": 0.03795,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.119954,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.700404
-    },
-    {
-      "title": "Cash key for Chevron and Exxon Mobil as Truist raises stock price targets",
-      "summary": "Truist Securities has raised its price targets for Chevron Corp. and Exxon Mobil Corp. due to their strong cash positions and recent financial performance. Exxon Mobil, in particular, generated over $17 billion in free cash flow last quarter, boosting its cash position by more than $11 billion. This news comes as both companies' stocks are rallying toward fresh records.",
-      "url": "https://www.marketwatch.com/story/cash-key-for-chevron-and-exxon-mobil-as-truist-raises-stock-price-targets-11667230860?gaa_at=eafs&gaa_n=AWEtsqcL2MRItacVkrl_ZsjGBeBg6BdALJuMgSSV7f1xb3dRuHPTaIKZH_aO&gaa_ts=6907b14f&gaa_sig=pKFLpWN_N-lkiG4GmRR-569SMxmkKWUWQi25awNH07EEiM8mzOU8k_8bs1R-uLXVTirLgLfJe2QJtkEeKnwLDA%3D%3D",
-      "source": "MarketWatch",
-      "published": "20221031T114000",
-      "overall_sentiment_score": 0.346368,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.422681,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.950171
-    },
-    {
-      "title": "Cash key for Chevron and Exxon Mobil as Truist raises stock price targets",
-      "summary": "Truist Securities has raised its price targets for Chevron Corp. and Exxon Mobil Corp. due to their strong cash positions and free cash flow generation. Exxon Mobil, in particular, was noted for generating over $17 billion in free cash flow last quarter, boosting its cash position significantly. These factors are contributing to the rally of both companies' stocks towards record highs.",
-      "url": "https://www.marketwatch.com/story/cash-key-for-chevron-and-exxon-mobil-as-truist-raises-stock-price-targets-11667230860?gaa_at=eafs&gaa_n=AWEtsqe5Xxexv5U87wwB8Gl_Ib-wFL-vmu4kwGDiRs8dJ2jYcVRU1OGr-Nif&gaa_ts=6907899a&gaa_sig=F6Zpcrlzcr9DaLscwbS8Oa6Mr_ycfXIiXq7e_VEsrV0cMQm2bAP881-Drv3xhwjGXuHjYMawogLA3py9TuuzWA%3D%3D",
-      "source": "MarketWatch",
-      "published": "20221031T114000",
-      "overall_sentiment_score": 0.384935,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.444964,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.993505
-    },
-    {
       "title": "Cash key for Chevron and Exxon Mobil as Truist raises stock price targets",
       "summary": "Truist Securities has raised its price targets for Chevron Corp. and Exxon Mobil Corp. due to their strong cash positions and free cash flow generation. Exxon Mobil generated over $17 billion in free cash flow last quarter, boosting its cash position by more than $11 billion. Both companies' stocks are rallying toward fresh records.",
       "url": "https://www.marketwatch.com/story/cash-key-for-chevron-and-exxon-mobil-as-truist-raises-stock-price-targets-11667230860?gaa_at=eafs&gaa_n=AWEtsqcYFG6FcXh73Z3MHB6Pj_64UX-ysqdbHqfQHx_btTR-Yc_mAL6Bl71s&gaa_ts=6907b145&gaa_sig=2Jdn7esJN51yclfK4pUSVcv3qIhjvR8hMXEQi4z6yxmFR9H_CejsE011cg0m1wCzsF9SIeBwm-GURCf07MKACQ%3D%3D",
@@ -89,30 +29,6 @@
       "ticker_sentiment_score": 0.447342,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "QatarEnergy names ConocoPhilips partner for LNG expansion project",
-      "summary": "QatarEnergy has announced ConocoPhillips as the third and final partner for its North Field South expansion, a key part of the world's largest liquefied natural gas (LNG) project. ConocoPhillips will hold a 6.25% interest, joining Shell and TotalEnergies, which each hold 9.375% stakes. The project aims to significantly increase Qatar's LNG liquefaction capacity, amidst growing global demand for gas following Russia's invasion of Ukraine.",
-      "url": "https://www.reuters.com/business/energy/qatarenergy-names-conocophilips-partner-lng-expansion-project-2022-10-30/",
-      "source": "Reuters",
-      "published": "20221030T121100",
-      "overall_sentiment_score": 0.296697,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.126224,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.71469
-    },
-    {
-      "title": "Exxon Mobil and Chevron together take in more than $30 billion in net income as natural gas prices soared",
-      "summary": "Exxon Mobil and Chevron collectively reported over $30 billion in net income, driven by soaring natural gas prices and record refining volumes. Exxon Mobil's stock rallied to a record close after profit nearly tripled and revenue topped $100 billion, while Chevron also posted significant profit and revenue beats. Both companies benefited from a substantial increase in natural gas and crude oil prices.",
-      "url": "https://www.marketwatch.com/story/exxon-mobil-and-chevron-together-take-in-more-than-30-billion-in-net-income-as-natural-gas-prices-soared-11666972945?gaa_at=eafs&gaa_n=AWEtsqdebe_I7V_GBTIl0TeTTFurtcoBH3mOTP_Tx6UG-n-L1WxcsrWX8GO0&gaa_ts=6907899a&gaa_sig=oNmqujRh9gIZcg8EuudF7cL7QrKba756FQoqIAg9H4ZaLO_mgiyX752RBa62iu5REYfVfaNDoSl2S6gPeF_vDA%3D%3D",
-      "source": "MarketWatch",
-      "published": "20221028T120200",
-      "overall_sentiment_score": 0.814571,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.70892,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.921782
     },
     {
       "title": "Exxon Mobil and Chevron together take in more than $30 billion in net income as natural gas prices soared",
@@ -151,18 +67,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "ConocoPhillips to further tap nation's green biz, growing LNG demand",
-      "summary": "ConocoPhillips plans to increase its supply of liquefied natural gas (LNG) to China, emphasizing its commitment to the long-term partnership and China's energy transition goals despite market uncertainties. The company also aims to explore opportunities in offshore wind farms, carbon capture, and oil supply, highlighting China's vital role in the global energy transition. ConocoPhillips will participate as an exhibitor for the first time in the fifth China International Import Expo to foster collaboration.",
-      "url": "https://www.chinadaily.com.cn/a/202210/25/WS635740e2a310fd2b29e7e5f7.html",
-      "source": "China Daily",
-      "published": "20221025T095000",
-      "overall_sentiment_score": 0.482187,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.316085,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.630375
-    },
-    {
       "title": "Exxon Faces $2B Loss on Sale of Troubled California Offshore Oil Assets",
       "summary": "Exxon Mobil Corp is set to incur up to a $2 billion loss from the sale of its troubled Santa Ynez offshore oil and gas field in California to Sable Offshore, a blank check company led by James Flores. The field, idled since a 2015 pipeline spill, will be acquired through a highly leveraged deal where Sable Offshore borrows 97% of the $643 million purchase price from Exxon. The sale follows a failed attempt by Exxon to restart operations and is part of its strategy to divest underperforming assets.",
       "url": "https://www.oedigital.com/news/500720-exxon-faces-2b-loss-on-sale-of-troubled-california-offshore-oil-assets",
@@ -175,40 +79,28 @@
       "relevance_score": 0.994177
     },
     {
-      "title": "Four Key Considerations Within the U.S. Energy Sector",
-      "summary": "The U.S. energy sector has seen significant gains due to recovering demand and geopolitical events, leading to its increased weight in the S&P 500 Index. Investors need to consider the diverse nature of energy companies and the varying outlooks for different energy sources like crude oil and natural gas. The article highlights T. Rowe Price's strategic shift in energy holdings, favoring natural gas exposure and emphasizing companies with strong fundamentals over reliance on commodity prices, especially given the uncertain near-term outlook influenced by the Ukraine-Russia conflict.",
-      "url": "https://www.troweprice.com/financial-intermediary/ie/en/thinking/articles/2022/q3/four-key-considerations-within-the-us-energy-sector.html",
-      "source": "T. Rowe Price",
-      "published": "20221106T185652",
-      "overall_sentiment_score": 0.250044,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.212103,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.632683
-    },
-    {
-      "title": "Canadian Natural Resources boosts dividend 13%",
-      "summary": "Canadian Natural Resources Ltd. reported a profit of $2.8 billion in the third quarter and increased its quarterly dividend by 13 percent to 85 cents per common share. The company saw natural gas production increase by 25 percent and liquids production by 14 percent year-over-year. CEO Tim McKay also addressed decarbonization efforts, stating that spending on carbon capture and storage projects has already begun.",
-      "url": "https://ca.finance.yahoo.com/news/canadian-natural-resources-boosts-dividend-131231820.html",
-      "source": "Yahoo! Finance Canada",
-      "published": "20221103T162637",
-      "overall_sentiment_score": 0.188739,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.089737,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.557493
-    },
-    {
-      "title": "Marathon Petroleum and Phillips 66 cruise past estimates on fuel demand surge",
-      "summary": "Marathon Petroleum and Phillips 66 reported quarterly profits that exceeded Wall Street estimates, driven by strong fuel demand and robust refining margins. Both companies benefited from high refinery utilization rates and elevated export demand, with Marathon increasing its dividend and authorizing share buybacks. The favorable market conditions are expected to continue into 2023.",
-      "url": "https://www.reuters.com/business/energy/marathon-petroleums-quarterly-profit-surges-fuel-demand-2022-11-01/",
-      "source": "Reuters",
-      "published": "20221101T164800",
-      "overall_sentiment_score": 0.536865,
+      "title": "Cash key for Chevron and Exxon Mobil as Truist raises stock price targets",
+      "summary": "Truist Securities has raised its price targets for Chevron Corp. and Exxon Mobil Corp. due to their strong cash positions and free cash flow generation. Exxon Mobil, in particular, was noted for generating over $17 billion in free cash flow last quarter, boosting its cash position significantly. These factors are contributing to the rally of both companies' stocks towards record highs.",
+      "url": "https://www.marketwatch.com/story/cash-key-for-chevron-and-exxon-mobil-as-truist-raises-stock-price-targets-11667230860?gaa_at=eafs&gaa_n=AWEtsqe5Xxexv5U87wwB8Gl_Ib-wFL-vmu4kwGDiRs8dJ2jYcVRU1OGr-Nif&gaa_ts=6907899a&gaa_sig=F6Zpcrlzcr9DaLscwbS8Oa6Mr_ycfXIiXq7e_VEsrV0cMQm2bAP881-Drv3xhwjGXuHjYMawogLA3py9TuuzWA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20221031T114000",
+      "overall_sentiment_score": 0.384935,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.325085,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.612449
+      "ticker_sentiment_score": 0.444964,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.993505
+    },
+    {
+      "title": "Cash key for Chevron and Exxon Mobil as Truist raises stock price targets",
+      "summary": "Truist Securities has raised its price targets for Chevron Corp. and Exxon Mobil Corp. due to their strong cash positions and recent financial performance. Exxon Mobil, in particular, generated over $17 billion in free cash flow last quarter, boosting its cash position by more than $11 billion. This news comes as both companies' stocks are rallying toward fresh records.",
+      "url": "https://www.marketwatch.com/story/cash-key-for-chevron-and-exxon-mobil-as-truist-raises-stock-price-targets-11667230860?gaa_at=eafs&gaa_n=AWEtsqcL2MRItacVkrl_ZsjGBeBg6BdALJuMgSSV7f1xb3dRuHPTaIKZH_aO&gaa_ts=6907b14f&gaa_sig=pKFLpWN_N-lkiG4GmRR-569SMxmkKWUWQi25awNH07EEiM8mzOU8k_8bs1R-uLXVTirLgLfJe2QJtkEeKnwLDA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20221031T114000",
+      "overall_sentiment_score": 0.346368,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.422681,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.950171
     },
     {
       "title": "ExxonMobil, Chevron rake in record Q3 profits following oil price surge",
@@ -223,6 +115,18 @@
       "relevance_score": 0.944398
     },
     {
+      "title": "Exxon Mobil and Chevron together take in more than $30 billion in net income as natural gas prices soared",
+      "summary": "Exxon Mobil and Chevron collectively reported over $30 billion in net income, driven by soaring natural gas prices and record refining volumes. Exxon Mobil's stock rallied to a record close after profit nearly tripled and revenue topped $100 billion, while Chevron also posted significant profit and revenue beats. Both companies benefited from a substantial increase in natural gas and crude oil prices.",
+      "url": "https://www.marketwatch.com/story/exxon-mobil-and-chevron-together-take-in-more-than-30-billion-in-net-income-as-natural-gas-prices-soared-11666972945?gaa_at=eafs&gaa_n=AWEtsqdebe_I7V_GBTIl0TeTTFurtcoBH3mOTP_Tx6UG-n-L1WxcsrWX8GO0&gaa_ts=6907899a&gaa_sig=oNmqujRh9gIZcg8EuudF7cL7QrKba756FQoqIAg9H4ZaLO_mgiyX752RBa62iu5REYfVfaNDoSl2S6gPeF_vDA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20221028T120200",
+      "overall_sentiment_score": 0.814571,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.70892,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.921782
+    },
+    {
       "title": "Exxon, Qatar go separate ways in marketing their U.S. LNG",
       "summary": "Exxon Mobil Corp and QatarEnergy have decided to independently market the liquefied natural gas (LNG) from their U.S. joint venture Golden Pass Terminal, dissolving their previous joint venture Ocean LNG. This decision is expected to generate increased value and flexibility for both companies, with ExxonMobil LNG Asia Pacific marketing 30% of volumes and QatarEnergy Trading marketing the remaining 70%. The Golden Pass project in Sabine Pass, Texas, is on schedule to start up in 2024.",
       "url": "https://www.reuters.com/business/energy/exxon-qatar-go-separate-ways-marketing-their-us-lng-2022-10-27/",
@@ -235,6 +139,78 @@
       "relevance_score": 0.921605
     },
     {
+      "title": "Royal Bank of Canada: Surging Finance of Fires, Floods & Climate Chaos",
+      "summary": "This report details the Royal Bank of Canada's (RBC) significant financing of fossil fuel expansion, highlighting over $9.2 billion to top expansionist companies since joining the Net Zero Banking Alliance. It notes RBC's substantial investments in extreme fossil fuels, including tar sands, shale, LNG, and coal, which are projected to exceed $10 billion in 2022. The report urges RBC to address its climate impact seriously, emphasizing its role as a major global fossil fuel funder.",
+      "url": "https://stand.earth/resources/royal-bank-of-canada-surging-finance-of-fires-floods-climate-chaos/",
+      "source": "Stand.earth",
+      "published": "20221107T182641",
+      "overall_sentiment_score": -0.476155,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.423691,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.727801
+    },
+    {
+      "title": "QatarEnergy names ConocoPhilips partner for LNG expansion project",
+      "summary": "QatarEnergy has announced ConocoPhillips as the third and final partner for its North Field South expansion, a key part of the world's largest liquefied natural gas (LNG) project. ConocoPhillips will hold a 6.25% interest, joining Shell and TotalEnergies, which each hold 9.375% stakes. The project aims to significantly increase Qatar's LNG liquefaction capacity, amidst growing global demand for gas following Russia's invasion of Ukraine.",
+      "url": "https://www.reuters.com/business/energy/qatarenergy-names-conocophilips-partner-lng-expansion-project-2022-10-30/",
+      "source": "Reuters",
+      "published": "20221030T121100",
+      "overall_sentiment_score": 0.296697,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.126224,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.71469
+    },
+    {
+      "title": "Flame Acquisition Corp. (FLME) to Combine with Sable Offshore in $883M Deal",
+      "summary": "Flame Acquisition Corp. (FLME) has announced a definitive agreement to merge with Sable Offshore in a transaction valued at $883 million. Sable Offshore will acquire the Santa Ynez Unit (SYU) offshore oil field, previously operated by Exxon Mobil (XOM), which has been shut down since a 2015 pipeline rupture. The deal involves a significant debt financing package and a PIPE investment, with the combined entity aiming to restart operations at SYU despite regulatory and political challenges in California.",
+      "url": "https://www.spacinsider.com/news/deal-announcements-amendments/flame-flme-to-combine-with-sable-offshore-in-883m-deal",
+      "source": "SPACInsider",
+      "published": "20221103T121400",
+      "overall_sentiment_score": 0.03795,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.119954,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.700404
+    },
+    {
+      "title": "Four Key Considerations Within the U.S. Energy Sector",
+      "summary": "The U.S. energy sector has seen significant gains due to recovering demand and geopolitical events, leading to its increased weight in the S&P 500 Index. Investors need to consider the diverse nature of energy companies and the varying outlooks for different energy sources like crude oil and natural gas. The article highlights T. Rowe Price's strategic shift in energy holdings, favoring natural gas exposure and emphasizing companies with strong fundamentals over reliance on commodity prices, especially given the uncertain near-term outlook influenced by the Ukraine-Russia conflict.",
+      "url": "https://www.troweprice.com/financial-intermediary/ie/en/thinking/articles/2022/q3/four-key-considerations-within-the-us-energy-sector.html",
+      "source": "T. Rowe Price",
+      "published": "20221106T185652",
+      "overall_sentiment_score": 0.250044,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.212103,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.632683
+    },
+    {
+      "title": "ConocoPhillips to further tap nation's green biz, growing LNG demand",
+      "summary": "ConocoPhillips plans to increase its supply of liquefied natural gas (LNG) to China, emphasizing its commitment to the long-term partnership and China's energy transition goals despite market uncertainties. The company also aims to explore opportunities in offshore wind farms, carbon capture, and oil supply, highlighting China's vital role in the global energy transition. ConocoPhillips will participate as an exhibitor for the first time in the fifth China International Import Expo to foster collaboration.",
+      "url": "https://www.chinadaily.com.cn/a/202210/25/WS635740e2a310fd2b29e7e5f7.html",
+      "source": "China Daily",
+      "published": "20221025T095000",
+      "overall_sentiment_score": 0.482187,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.316085,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630375
+    },
+    {
+      "title": "Hyundai Oilbank extends US fuel export deal with Sunoco",
+      "summary": "Hyundai Oilbank has extended its deal with Sunoco LP to export petroleum products to Hawaii through 2023. The South Korean refiner, backed by Saudi Aramco, has already supplied 3.6 million barrels of gasoline and diesel to Hawaii this year and plans to export a similar volume next year. This extension allows Hyundai Oilbank to further diversify its overseas markets beyond Asia, fostering cooperation with global gas station operators.",
+      "url": "https://www.kedglobal.com/energy/newsView/ked202211030015",
+      "source": "KED Global",
+      "published": "20221103T191638",
+      "overall_sentiment_score": 0.28598,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.237916,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.627799
+    },
+    {
       "title": "Oil output from Brazil's Petrobras dips nearly 7% in third quarter",
       "summary": "Brazil's state-run oil company Petrobras reported a 6.8% decline in crude oil production for the third quarter compared to the previous year, pumping 2.115 million barrels per day. The decrease is attributed to fewer barrels from its Atapu and Sepia fields, the stoppage of its FPSO Capixaba unit, and the natural decline of mature fields. Despite this, 73% of Petrobras's output came from Brazil's pre-salt fields.",
       "url": "https://www.reuters.com/business/energy/oil-output-brazils-petrobras-dips-nearly-7-third-quarter-2022-10-25/",
@@ -245,6 +221,30 @@
       "ticker_sentiment_score": 0.107929,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.621141
+    },
+    {
+      "title": "Marathon Petroleum and Phillips 66 cruise past estimates on fuel demand surge",
+      "summary": "Marathon Petroleum and Phillips 66 reported quarterly profits that exceeded Wall Street estimates, driven by strong fuel demand and robust refining margins. Both companies benefited from high refinery utilization rates and elevated export demand, with Marathon increasing its dividend and authorizing share buybacks. The favorable market conditions are expected to continue into 2023.",
+      "url": "https://www.reuters.com/business/energy/marathon-petroleums-quarterly-profit-surges-fuel-demand-2022-11-01/",
+      "source": "Reuters",
+      "published": "20221101T164800",
+      "overall_sentiment_score": 0.536865,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.325085,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.612449
+    },
+    {
+      "title": "Canadian Natural Resources boosts dividend 13%",
+      "summary": "Canadian Natural Resources Ltd. reported a profit of $2.8 billion in the third quarter and increased its quarterly dividend by 13 percent to 85 cents per common share. The company saw natural gas production increase by 25 percent and liquids production by 14 percent year-over-year. CEO Tim McKay also addressed decarbonization efforts, stating that spending on carbon capture and storage projects has already begun.",
+      "url": "https://ca.finance.yahoo.com/news/canadian-natural-resources-boosts-dividend-131231820.html",
+      "source": "Yahoo! Finance Canada",
+      "published": "20221103T162637",
+      "overall_sentiment_score": 0.188739,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.089737,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.557493
     }
   ]
 }

@@ -19,18 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Same Drug, New Partner: Capricor in Up-to-$735M Deal for DMD Cell Therapy",
-      "summary": "Capricor Therapeutics has secured a new U.S. commercialization and distribution deal with Nippon Shinyaku for its lead Duchenne muscular dystrophy (DMD) candidate, CAP-1002, worth up to $735 million. This partnership comes five years after Johnson & Johnson's Janssen subsidiary ended a previous collaboration for the cell therapy. Capricor plans to use this deal to support its pivotal Phase III HOPE-3 trial for CAP-1002 in DMD, aiming to differentiate its immune-modulating approach from other gene therapies.",
-      "url": "https://www.genengnews.com/gen-edge/same-drug-new-partner-capricor-in-up-to-735m-deal-for-dmd-cell-therapy/",
-      "source": "Genetic Engineering and Biotechnology News",
-      "published": "20220201T162146",
-      "overall_sentiment_score": 0.239232,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.110043,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.769498
-    },
-    {
       "title": "Native American tribes reach $590 million opioid settlement with J&J, drug distributors",
       "summary": "Native American tribes have reached a $590 million opioid settlement with Johnson & Johnson and the three largest U.S. drug distributors (McKesson Corp., AmerisourceBergen Corp., and Cardinal Health Inc.). This deal aims to resolve claims that the companies fueled an opioid crisis in their communities, with the funds earmarked for addiction treatment and services. This settlement is separate from a larger $26 billion deal but allows J&J to deduct its contribution from its share of that broader agreement.",
       "url": "https://www.cbc.ca/news/health/native-american-tribes-opioid-crisis-settlement-johnson-1.6335438",
@@ -53,6 +41,18 @@
       "ticker_sentiment_score": 0.21089,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.89059
+    },
+    {
+      "title": "Same Drug, New Partner: Capricor in Up-to-$735M Deal for DMD Cell Therapy",
+      "summary": "Capricor Therapeutics has secured a new U.S. commercialization and distribution deal with Nippon Shinyaku for its lead Duchenne muscular dystrophy (DMD) candidate, CAP-1002, worth up to $735 million. This partnership comes five years after Johnson & Johnson's Janssen subsidiary ended a previous collaboration for the cell therapy. Capricor plans to use this deal to support its pivotal Phase III HOPE-3 trial for CAP-1002 in DMD, aiming to differentiate its immune-modulating approach from other gene therapies.",
+      "url": "https://www.genengnews.com/gen-edge/same-drug-new-partner-capricor-in-up-to-735m-deal-for-dmd-cell-therapy/",
+      "source": "Genetic Engineering and Biotechnology News",
+      "published": "20220201T162146",
+      "overall_sentiment_score": 0.239232,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.110043,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.769498
     }
   ]
 }

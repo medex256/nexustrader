@@ -7,16 +7,16 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "Novo-Backed Reunion Raises $103M Series A Financing for Psychedelic Trial",
-      "summary": "Reunion Neuroscience has successfully raised $103 million in Series A financing, co-led by Novo Holdings and MPM BioImpact, to advance its lead candidate RE104. The funds will support a Phase II trial for RE104, a serotonergic psychedelic drug candidate, in patients with postpartum depression, with patient enrollment starting this quarter and results expected in Q2 2025. Reunion is also exploring RE104 for other neuropsychiatric indications, such as adjustment disorder in cancer, aiming to address unmet medical needs.",
-      "url": "https://www.biospace.com/novo-holdings-backed-reunion-neuroscience-raises-103m-series-a-financing-for-psychedelic-trial",
-      "source": "BioSpace",
-      "published": "20240503T000000",
-      "overall_sentiment_score": 0.031307,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.133632,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.594188
+      "title": "Johnson & Johnson, Kenvue Hit With $45 Million Talc Judgment",
+      "summary": "An Illinois court has ordered Johnson & Johnson and its former spinoff Kenvue Inc. to pay $45 million to the family of Theresa Garcia after a jury determined their talcum-based baby powders caused her fatal cancer. Garcia, a mother of six, died in 2020 from mesothelioma, a cancer linked to asbestos exposure, which expert witnesses testified was present in some J&J baby powder samples. This verdict against Kenvue is the first since it became independent in August 2023, inheriting talc-related liabilities, and comes amidst over 53,000 talcum powder lawsuits against Johnson & Johnson.",
+      "url": "https://www.drugwatch.com/news/2024/04/30/johnson-johnson-kenvue-hit-with-45-million-talc-judgment/",
+      "source": "Drugwatch.com",
+      "published": "20240430T000000",
+      "overall_sentiment_score": -0.589218,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.526573,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.946114
     },
     {
       "title": "Johnson & Johnson and Spinoff Kenvue Ordered to Pay US$45 Million in Talc Cancer Case",
@@ -31,28 +31,16 @@
       "relevance_score": 0.936242
     },
     {
-      "title": "Cidara Therapeutics Reacquires Global Development and Commercial Rights to CD388 and Announces Private Placement Financing of $240 Million",
-      "summary": "Cidara Therapeutics has reacquired the global development and commercial rights to CD388, an investigational drug for influenza prevention, from Johnson & Johnson. This move is supported by a $240 million private placement financing led by RA Capital Management, enabling Cidara to fund a Phase 2b clinical trial for CD388. The company aims to develop CD388 as a universal preventative against seasonal and pandemic influenza and has also appointed new board members as part of these strategic changes.",
-      "url": "https://www.globenewswire.com/news-release/2024/04/24/2869086/0/en/Cidara-Therapeutics-Reacquires-Global-Development-and-Commercial-Rights-to-CD388-and-Announces-Private-Placement-Financing-of-240-Million.html",
-      "source": "GlobeNewswire",
-      "published": "20240424T160500",
-      "overall_sentiment_score": 0.294053,
+      "title": "J&J Spin-Off CISO on Maximizing Cybersecurity",
+      "summary": "Mike Wagner, the first CISO of Kenvue, J&J's consumer healthcare spin-off, discusses his strategy for building a robust and cost-effective security program. He focused on combining the best practices from J&J with new ideas, including incorporating AI and machine learning, strategically deciding which tools to retain or replace, and assembling a diverse team with roles like Business Information Security Officers (BISOs). Wagner also highlights the importance of transitioning security seamlessly while laying the foundation for future strategies like zero trust.",
+      "url": "https://www.darkreading.com/identity-access-management-security/jj-spin-off-ciso-maximize-cybersecurity",
+      "source": "Dark Reading | Security",
+      "published": "20240425T000000",
+      "overall_sentiment_score": 0.322381,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.126597,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.646246
-    },
-    {
-      "title": "Johnson & Johnson, Kenvue Hit With $45 Million Talc Judgment",
-      "summary": "An Illinois court has ordered Johnson & Johnson and its former spinoff Kenvue Inc. to pay $45 million to the family of Theresa Garcia after a jury determined their talcum-based baby powders caused her fatal cancer. Garcia, a mother of six, died in 2020 from mesothelioma, a cancer linked to asbestos exposure, which expert witnesses testified was present in some J&J baby powder samples. This verdict against Kenvue is the first since it became independent in August 2023, inheriting talc-related liabilities, and comes amidst over 53,000 talcum powder lawsuits against Johnson & Johnson.",
-      "url": "https://www.drugwatch.com/news/2024/04/30/johnson-johnson-kenvue-hit-with-45-million-talc-judgment/",
-      "source": "Drugwatch.com",
-      "published": "20240430T000000",
-      "overall_sentiment_score": -0.589218,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.526573,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.946114
+      "ticker_sentiment_score": 0.254626,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.801335
     },
     {
       "title": "Vertex has top orphan asset in the pipeline, as pharma eyes shiny obesity drugs: report",
@@ -67,16 +55,28 @@
       "relevance_score": 0.746566
     },
     {
-      "title": "J&J Spin-Off CISO on Maximizing Cybersecurity",
-      "summary": "Mike Wagner, the first CISO of Kenvue, J&J's consumer healthcare spin-off, discusses his strategy for building a robust and cost-effective security program. He focused on combining the best practices from J&J with new ideas, including incorporating AI and machine learning, strategically deciding which tools to retain or replace, and assembling a diverse team with roles like Business Information Security Officers (BISOs). Wagner also highlights the importance of transitioning security seamlessly while laying the foundation for future strategies like zero trust.",
-      "url": "https://www.darkreading.com/identity-access-management-security/jj-spin-off-ciso-maximize-cybersecurity",
-      "source": "Dark Reading | Security",
-      "published": "20240425T000000",
-      "overall_sentiment_score": 0.322381,
+      "title": "Cidara Therapeutics Reacquires Global Development and Commercial Rights to CD388 and Announces Private Placement Financing of $240 Million",
+      "summary": "Cidara Therapeutics has reacquired the global development and commercial rights to CD388, an investigational drug for influenza prevention, from Johnson & Johnson. This move is supported by a $240 million private placement financing led by RA Capital Management, enabling Cidara to fund a Phase 2b clinical trial for CD388. The company aims to develop CD388 as a universal preventative against seasonal and pandemic influenza and has also appointed new board members as part of these strategic changes.",
+      "url": "https://www.globenewswire.com/news-release/2024/04/24/2869086/0/en/Cidara-Therapeutics-Reacquires-Global-Development-and-Commercial-Rights-to-CD388-and-Announces-Private-Placement-Financing-of-240-Million.html",
+      "source": "GlobeNewswire",
+      "published": "20240424T160500",
+      "overall_sentiment_score": 0.294053,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.254626,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.801335
+      "ticker_sentiment_score": 0.126597,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.646246
+    },
+    {
+      "title": "Novo-Backed Reunion Raises $103M Series A Financing for Psychedelic Trial",
+      "summary": "Reunion Neuroscience has successfully raised $103 million in Series A financing, co-led by Novo Holdings and MPM BioImpact, to advance its lead candidate RE104. The funds will support a Phase II trial for RE104, a serotonergic psychedelic drug candidate, in patients with postpartum depression, with patient enrollment starting this quarter and results expected in Q2 2025. Reunion is also exploring RE104 for other neuropsychiatric indications, such as adjustment disorder in cancer, aiming to address unmet medical needs.",
+      "url": "https://www.biospace.com/novo-holdings-backed-reunion-neuroscience-raises-103m-series-a-financing-for-psychedelic-trial",
+      "source": "BioSpace",
+      "published": "20240503T000000",
+      "overall_sentiment_score": 0.031307,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.133632,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.594188
     }
   ]
 }

@@ -7,18 +7,6 @@
   "article_count": 4,
   "articles": [
     {
-      "title": "Venezuela: ConocoPhillips Targets CITGO as Opposition Authorities Try to Stall Auction",
-      "summary": "ConocoPhillips is seeking to join a court-mandated auction of CITGO shares to collect on an $8.5 billion arbitration award. This move comes as US-backed Venezuelan opposition authorities are accused of stalling the sale, which involves numerous creditors and substantial sums. The impending breakup of CITGO, a critical foreign asset, highlights suspicious practices by the US-backed opposition regarding Venezuela's foreign holdings.",
-      "url": "https://venezuelanalysis.com/news/venezuela-conocophillips-targets-citgo-as-opposition-authorities-try-to-stall-auction/",
-      "source": "Venezuelanalysis",
-      "published": "20230930T000000",
-      "overall_sentiment_score": 0.203066,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.112394,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.72812
-    },
-    {
       "title": "Chemical recycling aims to scale fast in effort to manage plastic waste, even as questions remain",
       "summary": "Chemical recycling companies like Dow, Eastman, and ExxonMobil are investing heavily to scale up technology for processing hard-to-recycle plastics, aiming to meet rising demand for recycled content and address plastic waste. While proponents highlight its potential to complement mechanical recycling and divert significant amounts of plastic from landfills, environmental and health experts raise concerns about its sustainability, health impacts, and potential for greenwashing, alongside regulatory uncertainties. The coming years will be crucial in determining the commercial viability and widespread adoption of chemical recycling within the broader waste industry.",
       "url": "https://www.wastedive.com/news/chemical-recycling-plastic-waste-acc-exxonmobil-dow-eastman/651168/",
@@ -41,6 +29,18 @@
       "ticker_sentiment_score": 0.290956,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.775986
+    },
+    {
+      "title": "Venezuela: ConocoPhillips Targets CITGO as Opposition Authorities Try to Stall Auction",
+      "summary": "ConocoPhillips is seeking to join a court-mandated auction of CITGO shares to collect on an $8.5 billion arbitration award. This move comes as US-backed Venezuelan opposition authorities are accused of stalling the sale, which involves numerous creditors and substantial sums. The impending breakup of CITGO, a critical foreign asset, highlights suspicious practices by the US-backed opposition regarding Venezuela's foreign holdings.",
+      "url": "https://venezuelanalysis.com/news/venezuela-conocophillips-targets-citgo-as-opposition-authorities-try-to-stall-auction/",
+      "source": "Venezuelanalysis",
+      "published": "20230930T000000",
+      "overall_sentiment_score": 0.203066,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.112394,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.72812
     },
     {
       "title": "2 ETFs to Play the Ebb and Flow of Oil Prices",

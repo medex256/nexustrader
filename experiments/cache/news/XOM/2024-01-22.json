@@ -7,28 +7,16 @@
   "article_count": 11,
   "articles": [
     {
-      "title": "Stardust Power to build lithium refinery in Oklahoma",
-      "summary": "U.S. lithium producer Stardust Power plans to construct a $1 billion battery-grade lithium refinery in Muskogee, Oklahoma. This facility will serve as a central hub for its domestic supply chain, aiming to produce 50,000 metric tonnes of lithium annually and reduce U.S. reliance on foreign sources for the critical mineral. The project is expected to receive $257 million in state and federal incentives and create hundreds of jobs.",
-      "url": "https://www.supplychaindive.com/news/stardust-power-lithium-refinery-oklahoma-critical-mineral-battery-ev/705133/",
-      "source": "Supply Chain Dive",
-      "published": "20240122T000000",
-      "overall_sentiment_score": 0.239618,
+      "title": "Looking for Exposure to Oil & Gas Producers? Try Texas",
+      "summary": "Texas offers unique advantages for oil and gas producers, including favorable geology, extensive infrastructure, and proximity to markets, which has driven significant M&A activity in the sector. For investors seeking exposure to these producers, a Texas-oriented approach through indices like the Alerian Texas Weighted Oil & Gas Index (ATXWO) can provide purer exposure to exploration and production companies compared to broader energy sector products. This strategy leverages the state's low-cost, high-margin drilling inventory, reinforced by large acquisitions like Exxon's purchase of Pioneer Natural Resources.",
+      "url": "https://www.etftrends.com/looking-exposure-oil-gas-producers-try-texas/",
+      "source": "ETF Trends",
+      "published": "20240109T090907",
+      "overall_sentiment_score": 0.322837,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.347197,
+      "ticker_sentiment_score": 0.34337,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.614106
-    },
-    {
-      "title": "FENY ETF: A Cheap ETF To Gain Exposure To The Energy Industry (NYSEARCA:FENY)",
-      "summary": "The Fidelity MSCI Energy Index ETF (FENY) provides an inexpensive way to invest in the energy sector, which appears reasonably valued. Dominated by Exxon and Chevron, FENY boasts a low expense ratio of 0.08% and a distribution yield of 3.43%. Despite a history of lagging long-term performance, the fund's holdings have attractive P/E and earnings yield figures, suggesting potential for a future rally due to their cheap valuation.",
-      "url": "https://seekingalpha.com/article/4662487-feny-a-cheap-etf-to-gain-exposure-to-the-energy-industry",
-      "source": "Seeking Alpha",
-      "published": "20240112T035319",
-      "overall_sentiment_score": 0.282676,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.292137,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.719036
+      "relevance_score": 0.922964
     },
     {
       "title": "Chesapeake, Southwestern Energy create new oil giant with $7.4B merger",
@@ -43,28 +31,28 @@
       "relevance_score": 0.737297
     },
     {
-      "title": "Top Natural Gas Producers Announce Multibillion-Dollar Merger (Published 2024)",
-      "summary": "Chesapeake Energy and Southwestern Energy, two major U.S. natural gas producers, announced a $7.4 billion all-stock merger. This deal would create one of the largest energy producers in the United States, with a combined market value of approximately $24 billion, and is part of a recent trend of consolidation in the U.S. oil and natural gas sector. The merger aims to reduce costs, though analysts believe it unlikely to influence natural gas prices substantially.",
-      "url": "https://www.nytimes.com/2024/01/11/business/chesapeake-southwestern-energy-merger.html",
-      "source": "The New York Times",
-      "published": "20240111T000000",
-      "overall_sentiment_score": 0.140756,
+      "title": "2023 Commodities Report: Winners and Losers in the Global Market",
+      "summary": "The 2023 Commodities Report highlights the winners and losers in the global market, noting a challenging year for commodities overall with a 12.55% downturn. Gold emerged as the top performer, closing above $2,000 per ounce for the first time, while natural gas and lithium saw significant price drops due to overproduction. The report also touches on the growth in renewable energy, particularly solar, and the potential impact of the upcoming 2024 election on markets, advising a diversified portfolio strategy.",
+      "url": "https://www.usfunds.com/resource/2023-commodities-report-winners-and-losers-in-the-global-market/",
+      "source": "USFunds",
+      "published": "20240108T000000",
+      "overall_sentiment_score": -0.103436,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.148114,
+      "ticker_sentiment_score": -0.115326,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.630427
+      "relevance_score": 0.734769
     },
     {
-      "title": "Intrepid Enters into Third Amendment to Cooperative Development Agreement with XTO",
-      "summary": "Intrepid Potash, Inc. announced a Third Amendment to its Cooperative Development Agreement with XTO, effective January 1, 2024. The agreement includes a $45 million payment received by Intrepid on January 2, 2024, an additional $50 million \"Access Fee\" payable within 90 days of certain conditions, and potential \"Access Realization Fees\" up to $100 million for additional drilling activities. This amendment supports cooperative resource development and aims to create shareholder value.",
-      "url": "https://www.globenewswire.com/news-release/2024/01/09/2806701/0/en/Intrepid-Enters-into-Third-Amendment-to-Cooperative-Development-Agreement-with-XTO.html",
-      "source": "GlobeNewswire",
-      "published": "20240109T163000",
-      "overall_sentiment_score": 0.295099,
+      "title": "FENY ETF: A Cheap ETF To Gain Exposure To The Energy Industry (NYSEARCA:FENY)",
+      "summary": "The Fidelity MSCI Energy Index ETF (FENY) provides an inexpensive way to invest in the energy sector, which appears reasonably valued. Dominated by Exxon and Chevron, FENY boasts a low expense ratio of 0.08% and a distribution yield of 3.43%. Despite a history of lagging long-term performance, the fund's holdings have attractive P/E and earnings yield figures, suggesting potential for a future rally due to their cheap valuation.",
+      "url": "https://seekingalpha.com/article/4662487-feny-a-cheap-etf-to-gain-exposure-to-the-energy-industry",
+      "source": "Seeking Alpha",
+      "published": "20240112T035319",
+      "overall_sentiment_score": 0.282676,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.206011,
+      "ticker_sentiment_score": 0.292137,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.634327
+      "relevance_score": 0.719036
     },
     {
       "title": "Can Lithium Prices Recover from 2023’s Slump?",
@@ -79,28 +67,28 @@
       "relevance_score": 0.704087
     },
     {
-      "title": "Hilcorp to pay US $34.6 million for oil and gas royalty underpayments",
-      "summary": "Houston-based oil and gas company Hilcorp San Juan has agreed to pay $34.6 million to resolve claims of knowingly underpaying royalties for oil and natural gas extracted from leased federal lands. The settlement addresses allegations that Hilcorp did not fully pay required royalties between 2017 and 2018, basing payments on estimates rather than actual figures once available. This resolution comes under the U.S. False Claims Act, highlighting the government's efforts to ensure fair compensation for natural resource extraction from public lands.",
-      "url": "https://www.reuters.com/legal/government/hilcorp-pay-us-346-million-oil-gas-royalty-underpayments-2024-01-19/",
-      "source": "Reuters",
-      "published": "20240119T111600",
-      "overall_sentiment_score": -0.132268,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.148372,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.622146
+      "title": "Intrepid Enters into Third Amendment to Cooperative Development Agreement with XTO",
+      "summary": "Intrepid Potash, Inc. announced a Third Amendment to its Cooperative Development Agreement with XTO, effective January 1, 2024. The agreement includes a $45 million payment received by Intrepid on January 2, 2024, an additional $50 million \"Access Fee\" payable within 90 days of certain conditions, and potential \"Access Realization Fees\" up to $100 million for additional drilling activities. This amendment supports cooperative resource development and aims to create shareholder value.",
+      "url": "https://www.globenewswire.com/news-release/2024/01/09/2806701/0/en/Intrepid-Enters-into-Third-Amendment-to-Cooperative-Development-Agreement-with-XTO.html",
+      "source": "GlobeNewswire",
+      "published": "20240109T163000",
+      "overall_sentiment_score": 0.295099,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.206011,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.634327
     },
     {
-      "title": "DGRO: A Strong Dividend Growth ETF for 2024 and Beyond",
-      "summary": "The iShares Core Dividend Growth ETF (DGRO) is presented as a strong investment choice for 2024 and beyond due to its compelling portfolio of dividend growth stocks, historical performance, consistent dividend growth, and low expense ratio. The article highlights DGRO's diversified holdings, including blue-chip companies like Microsoft and Broadcom, and notes its solid long-term returns and attractive fee structure. Analysts rate DGRO as a Moderate Buy, emphasizing its appeal for long-term investors seeking reliable dividend growth.",
-      "url": "https://finance.yahoo.com/news/dgro-strong-dividend-growth-etf-205256942.html",
-      "source": "Yahoo Finance",
-      "published": "20240113T000000",
-      "overall_sentiment_score": 0.387132,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.229374,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.555592
+      "title": "Top Natural Gas Producers Announce Multibillion-Dollar Merger (Published 2024)",
+      "summary": "Chesapeake Energy and Southwestern Energy, two major U.S. natural gas producers, announced a $7.4 billion all-stock merger. This deal would create one of the largest energy producers in the United States, with a combined market value of approximately $24 billion, and is part of a recent trend of consolidation in the U.S. oil and natural gas sector. The merger aims to reduce costs, though analysts believe it unlikely to influence natural gas prices substantially.",
+      "url": "https://www.nytimes.com/2024/01/11/business/chesapeake-southwestern-energy-merger.html",
+      "source": "The New York Times",
+      "published": "20240111T000000",
+      "overall_sentiment_score": 0.140756,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.148114,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.630427
     },
     {
       "title": "BlackRock, State Street cited for blocking green resolutions",
@@ -115,28 +103,40 @@
       "relevance_score": 0.626638
     },
     {
-      "title": "Looking for Exposure to Oil & Gas Producers? Try Texas",
-      "summary": "Texas offers unique advantages for oil and gas producers, including favorable geology, extensive infrastructure, and proximity to markets, which has driven significant M&A activity in the sector. For investors seeking exposure to these producers, a Texas-oriented approach through indices like the Alerian Texas Weighted Oil & Gas Index (ATXWO) can provide purer exposure to exploration and production companies compared to broader energy sector products. This strategy leverages the state's low-cost, high-margin drilling inventory, reinforced by large acquisitions like Exxon's purchase of Pioneer Natural Resources.",
-      "url": "https://www.etftrends.com/looking-exposure-oil-gas-producers-try-texas/",
-      "source": "ETF Trends",
-      "published": "20240109T090907",
-      "overall_sentiment_score": 0.322837,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.34337,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.922964
+      "title": "Hilcorp to pay US $34.6 million for oil and gas royalty underpayments",
+      "summary": "Houston-based oil and gas company Hilcorp San Juan has agreed to pay $34.6 million to resolve claims of knowingly underpaying royalties for oil and natural gas extracted from leased federal lands. The settlement addresses allegations that Hilcorp did not fully pay required royalties between 2017 and 2018, basing payments on estimates rather than actual figures once available. This resolution comes under the U.S. False Claims Act, highlighting the government's efforts to ensure fair compensation for natural resource extraction from public lands.",
+      "url": "https://www.reuters.com/legal/government/hilcorp-pay-us-346-million-oil-gas-royalty-underpayments-2024-01-19/",
+      "source": "Reuters",
+      "published": "20240119T111600",
+      "overall_sentiment_score": -0.132268,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.148372,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.622146
     },
     {
-      "title": "2023 Commodities Report: Winners and Losers in the Global Market",
-      "summary": "The 2023 Commodities Report highlights the winners and losers in the global market, noting a challenging year for commodities overall with a 12.55% downturn. Gold emerged as the top performer, closing above $2,000 per ounce for the first time, while natural gas and lithium saw significant price drops due to overproduction. The report also touches on the growth in renewable energy, particularly solar, and the potential impact of the upcoming 2024 election on markets, advising a diversified portfolio strategy.",
-      "url": "https://www.usfunds.com/resource/2023-commodities-report-winners-and-losers-in-the-global-market/",
-      "source": "USFunds",
-      "published": "20240108T000000",
-      "overall_sentiment_score": -0.103436,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.115326,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.734769
+      "title": "Stardust Power to build lithium refinery in Oklahoma",
+      "summary": "U.S. lithium producer Stardust Power plans to construct a $1 billion battery-grade lithium refinery in Muskogee, Oklahoma. This facility will serve as a central hub for its domestic supply chain, aiming to produce 50,000 metric tonnes of lithium annually and reduce U.S. reliance on foreign sources for the critical mineral. The project is expected to receive $257 million in state and federal incentives and create hundreds of jobs.",
+      "url": "https://www.supplychaindive.com/news/stardust-power-lithium-refinery-oklahoma-critical-mineral-battery-ev/705133/",
+      "source": "Supply Chain Dive",
+      "published": "20240122T000000",
+      "overall_sentiment_score": 0.239618,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.347197,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.614106
+    },
+    {
+      "title": "DGRO: A Strong Dividend Growth ETF for 2024 and Beyond",
+      "summary": "The iShares Core Dividend Growth ETF (DGRO) is presented as a strong investment choice for 2024 and beyond due to its compelling portfolio of dividend growth stocks, historical performance, consistent dividend growth, and low expense ratio. The article highlights DGRO's diversified holdings, including blue-chip companies like Microsoft and Broadcom, and notes its solid long-term returns and attractive fee structure. Analysts rate DGRO as a Moderate Buy, emphasizing its appeal for long-term investors seeking reliable dividend growth.",
+      "url": "https://finance.yahoo.com/news/dgro-strong-dividend-growth-etf-205256942.html",
+      "source": "Yahoo Finance",
+      "published": "20240113T000000",
+      "overall_sentiment_score": 0.387132,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.229374,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.555592
     }
   ]
 }

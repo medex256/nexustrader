@@ -7,16 +7,16 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "Trump Pauses Tariffs on Mexico; DJIA Closes Down Only 122 Pts; Nasdaq Still Lags with 1%+ Drop",
-      "summary": "US President Donald Trump postponed new tariffs on Mexico for a month after reaching an agreement on border troops, which slowed but didn't halt a stock market decline. The DJIA closed down 122 points, while the S&P 500 slipped 0.8% and the Nasdaq saw the steepest decline at 1.2%. The iShares MSCI Mexico ETF (EWW.US) rebounded, and major tech stocks like Tesla, Nvidia, and Apple saw losses narrow slightly.",
-      "url": "https://www.aastocks.com/en/usq/quote/stock-news-content.aspx?symbol=F&id=NOW.1414523&source=AAFN",
-      "source": "AASTOCKS.com",
-      "published": "20250203T073548",
-      "overall_sentiment_score": -0.220843,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.42929,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.732193
+      "title": "Apple Stock Is Off Its Recent Highs, But Is It Poised to Rise Again?",
+      "summary": "Despite a recent dip from its highs, Apple (AAPL) stock is poised for a rise due to strong free cash flow results and high FCF margins. The company's conservative approach to capex spending and consistent shareholder returns, including significant share buybacks and dividends, contribute to its undervaluation. The article suggests strategies like selling out-of-the-money puts or buying in-the-money calls to capitalize on the expected upside.",
+      "url": "https://www.barchart.com/story/news/30724979/apple-stock-is-off-its-recent-highs-but-is-it-poised-to-rise-again",
+      "source": "Barchart.com",
+      "published": "20250202T150000",
+      "overall_sentiment_score": 0.239267,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.444148,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "Apple Earnings: Play Continued Tech Strength With Active ETF TTEQ",
@@ -29,6 +29,18 @@
       "ticker_sentiment_score": 0.417053,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.8471
+    },
+    {
+      "title": "Trump Pauses Tariffs on Mexico; DJIA Closes Down Only 122 Pts; Nasdaq Still Lags with 1%+ Drop",
+      "summary": "US President Donald Trump postponed new tariffs on Mexico for a month after reaching an agreement on border troops, which slowed but didn't halt a stock market decline. The DJIA closed down 122 points, while the S&P 500 slipped 0.8% and the Nasdaq saw the steepest decline at 1.2%. The iShares MSCI Mexico ETF (EWW.US) rebounded, and major tech stocks like Tesla, Nvidia, and Apple saw losses narrow slightly.",
+      "url": "https://www.aastocks.com/en/usq/quote/stock-news-content.aspx?symbol=F&id=NOW.1414523&source=AAFN",
+      "source": "AASTOCKS.com",
+      "published": "20250203T073548",
+      "overall_sentiment_score": -0.220843,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.42929,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.732193
     },
     {
       "title": "Major San Francisco Union Square hotel to hit the market as part of $1B sale",
@@ -55,28 +67,16 @@
       "relevance_score": 0.713298
     },
     {
-      "title": "Apple Stock Is Off Its Recent Highs, But Is It Poised to Rise Again?",
-      "summary": "Despite a recent dip from its highs, Apple (AAPL) stock is poised for a rise due to strong free cash flow results and high FCF margins. The company's conservative approach to capex spending and consistent shareholder returns, including significant share buybacks and dividends, contribute to its undervaluation. The article suggests strategies like selling out-of-the-money puts or buying in-the-money calls to capitalize on the expected upside.",
-      "url": "https://www.barchart.com/story/news/30724979/apple-stock-is-off-its-recent-highs-but-is-it-poised-to-rise-again",
-      "source": "Barchart.com",
-      "published": "20250202T150000",
-      "overall_sentiment_score": 0.239267,
+      "title": "Should Invesco Dividend Achievers ETF (PFM) Be on Your Investing Radar?",
+      "summary": "The Invesco Dividend Achievers ETF (PFM) is a passively managed large-cap value ETF with $719.98 million in assets, sponsored by Invesco. Launched in 2005, it focuses on dividend-paying companies that have increased dividends for over 10 consecutive years, with top holdings including Broadcom, Apple, and Microsoft. PFM has a Zacks ETF Rank of 3 (Hold) and an expense ratio of 0.52%, and its performance has shown year-to-date gains of 2.90% and a 19.34% increase over the last year as of January 22, 2025.",
+      "url": "https://es.tradingview.com/news/zacks:db65c299e094b:0-should-invesco-dividend-achievers-etf-pfm-be-on-your-investing-radar/",
+      "source": "TradingView: siga todos los mercados",
+      "published": "20250122T130859",
+      "overall_sentiment_score": 0.243793,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.444148,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "ZK International to launch xSigma crypto wallet with Visa card",
-      "summary": "ZK International's subsidiary, xSigma Corp., is launching the xSigma Wallet, a new cryptocurrency banking wallet supporting purchases with various payment methods and featuring an xSigma-branded Visa card for crypto-asset top-ups. This initiative addresses memecoin interest and aligns with the company's focus on DeFi, despite ZK International experiencing financial volatility and significant cash burn, as highlighted by InvestingPro. The parent company, specializing in steel pipe products, recently reported a 405% increase in gross profits and secured a $4.47 million contract.",
-      "url": "https://www.investing.com/news/company-news/zk-international-to-launch-xsigma-crypto-wallet-with-visa-card-93CH-3842896",
-      "source": "Investing.com",
-      "published": "20250131T220914",
-      "overall_sentiment_score": 0.175361,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.111093,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.609958
+      "ticker_sentiment_score": 0.232274,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.709458
     },
     {
       "title": "NVDU: Providing Leverage To Nvidia, A Hot Tech Stock That Has Corrected (NASDAQ:NVDU)",
@@ -91,18 +91,6 @@
       "relevance_score": 0.616137
     },
     {
-      "title": "Should Invesco Dividend Achievers ETF (PFM) Be on Your Investing Radar?",
-      "summary": "The Invesco Dividend Achievers ETF (PFM) is a passively managed large-cap value ETF with $719.98 million in assets, sponsored by Invesco. Launched in 2005, it focuses on dividend-paying companies that have increased dividends for over 10 consecutive years, with top holdings including Broadcom, Apple, and Microsoft. PFM has a Zacks ETF Rank of 3 (Hold) and an expense ratio of 0.52%, and its performance has shown year-to-date gains of 2.90% and a 19.34% increase over the last year as of January 22, 2025.",
-      "url": "https://es.tradingview.com/news/zacks:db65c299e094b:0-should-invesco-dividend-achievers-etf-pfm-be-on-your-investing-radar/",
-      "source": "TradingView: siga todos los mercados",
-      "published": "20250122T130859",
-      "overall_sentiment_score": 0.243793,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.232274,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.709458
-    },
-    {
       "title": "DeepSeek Panic Live Updates: Nvidia Stock Drops 4% As Trump Reportedly Targets China Exports",
       "summary": "Nvidia's stock experienced a turbulent week, dropping 4% on Wednesday, amid concerns over a less capital-intensive AI model from China's DeepSeek and reports that Donald Trump is considering stricter export controls on semiconductor chip sales to China. The market volatility, driven by DeepSeek's competitive AI model and potential geopolitical shifts, prompted analysts to reassess the AI investment landscape, though many still view Nvidia's selloff as an overreaction. DeepSeek's emergence has led to significant shifts in market values for major tech companies and ignited debates about the future of AI development and U.S. competitiveness.",
       "url": "https://www.forbes.com/sites/dereksaul/2025/01/29/deepseek-panic-live-updates-nvidia-stock-drops-4-as-trump-reportedly-mulls-china-chip-sale-restrictions/",
@@ -113,6 +101,18 @@
       "ticker_sentiment_score": 0.276282,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.611121
+    },
+    {
+      "title": "ZK International to launch xSigma crypto wallet with Visa card",
+      "summary": "ZK International's subsidiary, xSigma Corp., is launching the xSigma Wallet, a new cryptocurrency banking wallet supporting purchases with various payment methods and featuring an xSigma-branded Visa card for crypto-asset top-ups. This initiative addresses memecoin interest and aligns with the company's focus on DeFi, despite ZK International experiencing financial volatility and significant cash burn, as highlighted by InvestingPro. The parent company, specializing in steel pipe products, recently reported a 405% increase in gross profits and secured a $4.47 million contract.",
+      "url": "https://www.investing.com/news/company-news/zk-international-to-launch-xsigma-crypto-wallet-with-visa-card-93CH-3842896",
+      "source": "Investing.com",
+      "published": "20250131T220914",
+      "overall_sentiment_score": 0.175361,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.111093,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.609958
     }
   ]
 }

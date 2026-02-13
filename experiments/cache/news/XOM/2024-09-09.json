@@ -19,6 +19,30 @@
       "relevance_score": 0.940438
     },
     {
+      "title": "Regulator Fines Imperial Oil Over Kearl Project Incident",
+      "summary": "The Alberta Energy Regulator (AER) has fined Imperial Oil CAD 50,000 and imposed terms and conditions due to a wastewater release incident at its Kearl Oil Sands Project in August 2022. Imperial Oil is required to implement projects for sharing lessons learned with other operators and to further study the impacts of the release, with all findings needing public disclosure. The investigation into potential contraventions remains ongoing, but Imperial Oil has expressed regret and a commitment to collaborating with Indigenous communities to rebuild trust.",
+      "url": "https://www.rigzone.com/news/regulator_fines_imperial_oil_over_kearl_project_incident-26-aug-2024-177874-article/",
+      "source": "Rigzone",
+      "published": "20240826T030000",
+      "overall_sentiment_score": -0.127229,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.202953,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.727268
+    },
+    {
+      "title": "Should You Invest in the Strive U.S. Energy ETF (DRLL)?",
+      "summary": "This article examines the Strive U.S. Energy ETF (DRLL) as an investment option for broad exposure to the energy sector. It highlights DRLL's passive management, low costs, and diversification, detailing its index tracking, expense ratio, top holdings like Exxon Mobil (XOM) and Chevron (CVX), and recent performance. The piece concludes by rating DRLL as a \"Buy\" and suggesting alternative energy ETFs for consideration.",
+      "url": "https://www.nasdaq.com/articles/should-you-invest-strive-us-energy-etf-drll",
+      "source": "Nasdaq",
+      "published": "20240902T062000",
+      "overall_sentiment_score": 0.314182,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.305777,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.721009
+    },
+    {
       "title": "Halliburton cybersecurity attack unlikely to impact oil and gas operations, company reports",
       "summary": "Halliburton Co. reported that a recent cybersecurity attack disrupting its business is unlikely to materially impact its finances or operations. The company is evaluating the breach, has activated its response plan, and has proactively taken some systems offline. Despite a stock dip and removal of information by hackers, Halliburton continues to provide products and services globally to its customers.",
       "url": "https://worldoil.com/news/2024/9/3/halliburton-cybersecurity-attack-unlikely-to-impact-oil-and-gas-operations-company-reports/",
@@ -43,18 +67,6 @@
       "relevance_score": 0.623267
     },
     {
-      "title": "Undervalued by 16%, This Dividend Stock Is a Buy for the Long Term",
-      "summary": "Kenvue, the consumer health company spun off from Johnson & Johnson, is highlighted as an attractive dividend stock, trading 16% below its fair value estimate of $26. Morningstar assigns Kenvue a wide economic moat due to strong brand power and economies of scale, projecting competitiveness for at least 20 years. The article discusses growth drivers such as innovation, an aging population, and digital investments, while also addressing risks like market competition and past talc litigation.",
-      "url": "https://www.morningstar.com/stocks/undervalued-by-16-this-dividend-stock-is-buy-long-term",
-      "source": "Morningstar",
-      "published": "20240829T000000",
-      "overall_sentiment_score": 0.178115,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.109191,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.604546
-    },
-    {
       "title": "The investment portfolio has \"strategic value\"! Goldman Sachs' assessment: The world is entering a \"commodity control cycle\".",
       "summary": "Goldman Sachs argues that traditional stock-bond portfolios are vulnerable to stagflation risks due to stagnating globalization and geopolitical tensions, leading the world into a \"commodity control cycle.\" This cycle, characterized by Insulation, Expansion, Concentration, and Leverage, makes commodities an indispensable core asset for hedging future risks. The report recommends incorporating a broad range of commodities into investment portfolios for long-term strategic value against inflation and geopolitical shocks.",
       "url": "https://news.futunn.com/en/post/61668433/the-investment-portfolio-has-strategic-value-goldman-sachs-assessment-the",
@@ -67,28 +79,16 @@
       "relevance_score": 0.605711
     },
     {
-      "title": "Should You Invest in the Strive U.S. Energy ETF (DRLL)?",
-      "summary": "This article examines the Strive U.S. Energy ETF (DRLL) as an investment option for broad exposure to the energy sector. It highlights DRLL's passive management, low costs, and diversification, detailing its index tracking, expense ratio, top holdings like Exxon Mobil (XOM) and Chevron (CVX), and recent performance. The piece concludes by rating DRLL as a \"Buy\" and suggesting alternative energy ETFs for consideration.",
-      "url": "https://www.nasdaq.com/articles/should-you-invest-strive-us-energy-etf-drll",
-      "source": "Nasdaq",
-      "published": "20240902T062000",
-      "overall_sentiment_score": 0.314182,
+      "title": "Undervalued by 16%, This Dividend Stock Is a Buy for the Long Term",
+      "summary": "Kenvue, the consumer health company spun off from Johnson & Johnson, is highlighted as an attractive dividend stock, trading 16% below its fair value estimate of $26. Morningstar assigns Kenvue a wide economic moat due to strong brand power and economies of scale, projecting competitiveness for at least 20 years. The article discusses growth drivers such as innovation, an aging population, and digital investments, while also addressing risks like market competition and past talc litigation.",
+      "url": "https://www.morningstar.com/stocks/undervalued-by-16-this-dividend-stock-is-buy-long-term",
+      "source": "Morningstar",
+      "published": "20240829T000000",
+      "overall_sentiment_score": 0.178115,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.305777,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.721009
-    },
-    {
-      "title": "Regulator Fines Imperial Oil Over Kearl Project Incident",
-      "summary": "The Alberta Energy Regulator (AER) has fined Imperial Oil CAD 50,000 and imposed terms and conditions due to a wastewater release incident at its Kearl Oil Sands Project in August 2022. Imperial Oil is required to implement projects for sharing lessons learned with other operators and to further study the impacts of the release, with all findings needing public disclosure. The investigation into potential contraventions remains ongoing, but Imperial Oil has expressed regret and a commitment to collaborating with Indigenous communities to rebuild trust.",
-      "url": "https://www.rigzone.com/news/regulator_fines_imperial_oil_over_kearl_project_incident-26-aug-2024-177874-article/",
-      "source": "Rigzone",
-      "published": "20240826T030000",
-      "overall_sentiment_score": -0.127229,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.202953,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.727268
+      "ticker_sentiment_score": 0.109191,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.604546
     },
     {
       "title": "Halliburton says hackers removed data in August cyberattack",

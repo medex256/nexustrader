@@ -7,6 +7,18 @@
   "article_count": 11,
   "articles": [
     {
+      "title": "FERC to hike scrutiny of JPMorgan power sector actions after finding link to private equity firm IIF",
+      "summary": "The Federal Energy Regulatory Commission (FERC) plans to increase its scrutiny of JPMorgan's actions in the power sector after determining a strong affiliation with private equity firm Infrastructure Investments Fund (IIF). FERC found that J.P. Morgan Investment can make \"virtually every major decision\" for IIF, which owns significant energy assets including El Paso Electric and nearly 5 GW of gas-fired capacity. This decision will lead to higher reporting requirements for J.P. Morgan-related activities under FERC's jurisdiction and has prompted a consumer watchdog group, Public Citizen, to ask the Federal Reserve to investigate potential violations of banking regulations by JPMorgan Chase, parent to J.P. Morgan Investment.",
+      "url": "https://www.utilitydive.com/news/ferc-jp-morgan-iif-affiliated-mankato-public-citizen/694712/",
+      "source": "Utility Dive",
+      "published": "20230926T210910",
+      "overall_sentiment_score": -0.166052,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.338197,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.966456
+    },
+    {
       "title": "BlackRock launches rival ETF to JP Morgan’s JEPI",
       "summary": "BlackRock has launched a new active ETF, the BlackRock Advantage Large Cap Income ETF (BALI US), designed to generate monthly income by investing in dividend-paying stocks and selling call options on the S&P 500. This ETF aims to compete with JP Morgan’s successful Equity Premium Income ETF (JEPI US) by offering a similar income generation strategy but with a focus on dividend stocks. BALI comes with an expense ratio of 0.35%, matching JEPI, and emphasizes managing market exposure through offsetting long positions in large-cap US equity index futures.",
       "url": "https://www.etfstrategy.com/blackrock-launches-etf-rival-to-jp-morgans-jepi-10339/",
@@ -17,42 +29,6 @@
       "ticker_sentiment_score": 0.22281,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.868117
-    },
-    {
-      "title": "BlackRock Launches Active Equity Income ETF to Compete with JPMorgan",
-      "summary": "BlackRock has introduced the BlackRock Advantage Large Cap Income ETF (BALI) to rival JPMorgan's highly popular Equity Premium Income ETF (JEPI). Both ETFs aim to provide high income through dividend-paying stocks and options, featuring a 0.35% annual fee. This move positions BlackRock to capitalize on the increasing investor interest in income-focused ETFs.",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-jones-09-28-2023/card/blackrock-launches-active-equity-etf-to-compete-with-jpmorgan-s-LQVQSCtKu4uJDhNC62vA?gaa_at=eafs&gaa_n=AWEtsqcsEhV-ZlghQiM5YIonqJZowjyTVn9M4NLJNHZjRtVymjqOhoZM7nwF&gaa_ts=6907751f&gaa_sig=ZHEQ6yMLk0X3irk27M21pc2onTnYpLSWqv73IFq5YGkYAvL4QkvmkUnFxUKx9-lJcJvEn-h05DPerPrqQyrseg%3D%3D",
-      "source": "The Wall Street Journal",
-      "published": "20230928T134500",
-      "overall_sentiment_score": 0.279705,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.236343,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.722707
-    },
-    {
-      "title": "Boom in new ETFs defies saturation warnings",
-      "summary": "Money management firms launched 69 new exchange-traded funds in September 2023, making it one of the busiest months since 2016 and defying saturation warnings in the $7 trillion industry. Many of these new ETFs focused on the fixed-income market, with short-duration bond funds attracting significant inflows due to high yields. Launches tend to mimic market performance, and the strong market run in 2023 incentivized issuers to introduce more products.",
-      "url": "https://www.investmentnews.com/mutual-funds/boom-in-new-etfs-defies-saturation-warnings/244118",
-      "source": "InvestmentNews",
-      "published": "20231003T000000",
-      "overall_sentiment_score": 0.21301,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.336174,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.633764
-    },
-    {
-      "title": "Morgan Stanley raising pay hurdle for its financial advisors in 2024",
-      "summary": "Morgan Stanley is increasing the revenue hurdle for its 15,000 financial advisors by 10% in 2024, requiring them to generate $1.1 million for every $1 million earned this year to maintain the same take-home pay. This move is aimed at boosting profitability, as the firm has also eliminated payouts for advisors working with households having less than $250,000 in assets, focusing on wealthier clients. The changes reflect a \"tug of war\" between the firm and advisors over revenue, despite an increase in business plan development allowances.",
-      "url": "https://www.investmentnews.com/practice-management/morgan-stanley-raising-pay-hurdle-for-its-financial-advisors-in-2024/244043",
-      "source": "InvestmentNews",
-      "published": "20230929T151051",
-      "overall_sentiment_score": -0.20743,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.135689,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.649361
     },
     {
       "title": "J.P. Morgan Asset Management Launches Hedged Equity Laddered Overlay ETF: HELO",
@@ -67,40 +43,16 @@
       "relevance_score": 0.8511
     },
     {
-      "title": "3 Must-Buy Stocks for the Coming Mexico Boom",
-      "summary": "This article identifies three Mexican companies as \"must-buy\" stocks due to Mexico's burgeoning industries and potential economic growth. The recommended stocks are Grupo Financiero Banorte (GBOOY), Femsa (FMX), and Grupo Aeroportuario del Pacifico (PAC), highlighting their strong financial metrics, market positions, and growth prospects despite broader concerns about corruption in Mexico.",
-      "url": "https://investorplace.com/2023/09/3-must-buy-stocks-for-the-coming-mexico-boom/",
-      "source": "InvestorPlace",
-      "published": "20230928T151000",
-      "overall_sentiment_score": 0.27369,
+      "title": "BlackRock Launches Active Equity Income ETF to Compete with JPMorgan",
+      "summary": "BlackRock has introduced the BlackRock Advantage Large Cap Income ETF (BALI) to rival JPMorgan's highly popular Equity Premium Income ETF (JEPI). Both ETFs aim to provide high income through dividend-paying stocks and options, featuring a 0.35% annual fee. This move positions BlackRock to capitalize on the increasing investor interest in income-focused ETFs.",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-jones-09-28-2023/card/blackrock-launches-active-equity-etf-to-compete-with-jpmorgan-s-LQVQSCtKu4uJDhNC62vA?gaa_at=eafs&gaa_n=AWEtsqcsEhV-ZlghQiM5YIonqJZowjyTVn9M4NLJNHZjRtVymjqOhoZM7nwF&gaa_ts=6907751f&gaa_sig=ZHEQ6yMLk0X3irk27M21pc2onTnYpLSWqv73IFq5YGkYAvL4QkvmkUnFxUKx9-lJcJvEn-h05DPerPrqQyrseg%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20230928T134500",
+      "overall_sentiment_score": 0.279705,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.12999,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.649724
-    },
-    {
-      "title": "Jefferies third-quarter profit misses expectations as M&A sputters",
-      "summary": "Jefferies Financial Group reported a smaller-than-expected third-quarter profit due to lingering economic uncertainty affecting dealmaking, with a 74% slump in profit to $51.4 million. Despite the miss, the firm is optimistic about improving market conditions and is expanding its investment banking team and global presence for 2024. Jefferies' results are often seen as an indicator for larger Wall Street banks.",
-      "url": "https://www.reuters.com/business/finance/jefferies-third-quarter-profit-tanks-ma-slowdown-2023-09-27/",
-      "source": "Reuters",
-      "published": "20230928T150000",
-      "overall_sentiment_score": -0.16802,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.149992,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.627968
-    },
-    {
-      "title": "Capture High Yields From Long-Term Treasuries With XTEN",
-      "summary": "Many fixed income investors are looking to capture higher yields from long-term U.S. Treasury bonds, which are at their highest levels since October 2007. The BondBloxx Bloomberg Ten Year Target Duration US Treasury ETF (XTEN) offers a solution by targeting U.S. Treasury securities with an average duration of roughly 10 years and an expense ratio of 0.08%. BondBloxx, a provider of precision fixed income ETFs, has seen significant demand for its Treasury bond offerings, crossing $2 billion in assets, as these bonds provide an attractive alternative to cash.",
-      "url": "https://www.etftrends.com/us-treasuries-tips-fixed-income-content-hub/capture-high-yields-long-term-treasuries-xten/",
-      "source": "ETF Trends",
-      "published": "20230925T190910",
-      "overall_sentiment_score": 0.28886,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.252661,
+      "ticker_sentiment_score": 0.236343,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.637741
+      "relevance_score": 0.722707
     },
     {
       "title": "Back the Bank Stocks or Bail?",
@@ -115,6 +67,66 @@
       "relevance_score": 0.721185
     },
     {
+      "title": "3 Must-Buy Stocks for the Coming Mexico Boom",
+      "summary": "This article identifies three Mexican companies as \"must-buy\" stocks due to Mexico's burgeoning industries and potential economic growth. The recommended stocks are Grupo Financiero Banorte (GBOOY), Femsa (FMX), and Grupo Aeroportuario del Pacifico (PAC), highlighting their strong financial metrics, market positions, and growth prospects despite broader concerns about corruption in Mexico.",
+      "url": "https://investorplace.com/2023/09/3-must-buy-stocks-for-the-coming-mexico-boom/",
+      "source": "InvestorPlace",
+      "published": "20230928T151000",
+      "overall_sentiment_score": 0.27369,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.12999,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.649724
+    },
+    {
+      "title": "Morgan Stanley raising pay hurdle for its financial advisors in 2024",
+      "summary": "Morgan Stanley is increasing the revenue hurdle for its 15,000 financial advisors by 10% in 2024, requiring them to generate $1.1 million for every $1 million earned this year to maintain the same take-home pay. This move is aimed at boosting profitability, as the firm has also eliminated payouts for advisors working with households having less than $250,000 in assets, focusing on wealthier clients. The changes reflect a \"tug of war\" between the firm and advisors over revenue, despite an increase in business plan development allowances.",
+      "url": "https://www.investmentnews.com/practice-management/morgan-stanley-raising-pay-hurdle-for-its-financial-advisors-in-2024/244043",
+      "source": "InvestmentNews",
+      "published": "20230929T151051",
+      "overall_sentiment_score": -0.20743,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.135689,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.649361
+    },
+    {
+      "title": "Capture High Yields From Long-Term Treasuries With XTEN",
+      "summary": "Many fixed income investors are looking to capture higher yields from long-term U.S. Treasury bonds, which are at their highest levels since October 2007. The BondBloxx Bloomberg Ten Year Target Duration US Treasury ETF (XTEN) offers a solution by targeting U.S. Treasury securities with an average duration of roughly 10 years and an expense ratio of 0.08%. BondBloxx, a provider of precision fixed income ETFs, has seen significant demand for its Treasury bond offerings, crossing $2 billion in assets, as these bonds provide an attractive alternative to cash.",
+      "url": "https://www.etftrends.com/us-treasuries-tips-fixed-income-content-hub/capture-high-yields-long-term-treasuries-xten/",
+      "source": "ETF Trends",
+      "published": "20230925T190910",
+      "overall_sentiment_score": 0.28886,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.252661,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.637741
+    },
+    {
+      "title": "Boom in new ETFs defies saturation warnings",
+      "summary": "Money management firms launched 69 new exchange-traded funds in September 2023, making it one of the busiest months since 2016 and defying saturation warnings in the $7 trillion industry. Many of these new ETFs focused on the fixed-income market, with short-duration bond funds attracting significant inflows due to high yields. Launches tend to mimic market performance, and the strong market run in 2023 incentivized issuers to introduce more products.",
+      "url": "https://www.investmentnews.com/mutual-funds/boom-in-new-etfs-defies-saturation-warnings/244118",
+      "source": "InvestmentNews",
+      "published": "20231003T000000",
+      "overall_sentiment_score": 0.21301,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.336174,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.633764
+    },
+    {
+      "title": "Jefferies third-quarter profit misses expectations as M&A sputters",
+      "summary": "Jefferies Financial Group reported a smaller-than-expected third-quarter profit due to lingering economic uncertainty affecting dealmaking, with a 74% slump in profit to $51.4 million. Despite the miss, the firm is optimistic about improving market conditions and is expanding its investment banking team and global presence for 2024. Jefferies' results are often seen as an indicator for larger Wall Street banks.",
+      "url": "https://www.reuters.com/business/finance/jefferies-third-quarter-profit-tanks-ma-slowdown-2023-09-27/",
+      "source": "Reuters",
+      "published": "20230928T150000",
+      "overall_sentiment_score": -0.16802,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.149992,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.627968
+    },
+    {
       "title": "Harvest Capital Strategies launches Harvest Capital Credit",
       "summary": "Harvest Capital Strategies, the alternative asset management arm of JMP Group Inc, has established Harvest Capital Credit LLC. This new specialty finance company will provide structured credit to small businesses. Richard P Buckanavage, formerly of Patriot Capital Funding, Inc, will serve as president of Harvest Capital Credit, which is committed to addressing the capital formation void for small businesses.",
       "url": "https://www.privateequitywire.co.uk/harvest-capital-strategies-launches-harvest-capital-credit/",
@@ -125,18 +137,6 @@
       "ticker_sentiment_score": 0.305912,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.627204
-    },
-    {
-      "title": "FERC to hike scrutiny of JPMorgan power sector actions after finding link to private equity firm IIF",
-      "summary": "The Federal Energy Regulatory Commission (FERC) plans to increase its scrutiny of JPMorgan's actions in the power sector after determining a strong affiliation with private equity firm Infrastructure Investments Fund (IIF). FERC found that J.P. Morgan Investment can make \"virtually every major decision\" for IIF, which owns significant energy assets including El Paso Electric and nearly 5 GW of gas-fired capacity. This decision will lead to higher reporting requirements for J.P. Morgan-related activities under FERC's jurisdiction and has prompted a consumer watchdog group, Public Citizen, to ask the Federal Reserve to investigate potential violations of banking regulations by JPMorgan Chase, parent to J.P. Morgan Investment.",
-      "url": "https://www.utilitydive.com/news/ferc-jp-morgan-iif-affiliated-mankato-public-citizen/694712/",
-      "source": "Utility Dive",
-      "published": "20230926T210910",
-      "overall_sentiment_score": -0.166052,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.338197,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.966456
     }
   ]
 }

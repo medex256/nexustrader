@@ -7,78 +7,6 @@
   "article_count": 12,
   "articles": [
     {
-      "title": "IBM unveils $150B U.S. investment in tech manufacturing, quantum computers",
-      "summary": "IBM announced a plan to invest at least $150 billion over the next five years in American manufacturing to advance its mainframe and quantum computer systems. This investment aims to fuel the U.S. economy and strengthen the country's position as a global computing leader. The announcement follows IBM's better-than-expected first-quarter revenue of $14.54 billion.",
-      "url": "https://www.upi.com/Top_News/US/2025/04/28/IBM-investment-manufacturing-quantum-computer-Arvind-Krishna/7081745848957/",
-      "source": "upi",
-      "published": "20250428T115000",
-      "overall_sentiment_score": 0.39579,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.327504,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.72386
-    },
-    {
-      "title": "The Magnificent Seven receives another ETF focused on covered calls",
-      "summary": "Roundhill Investments has launched a new exchange-traded fund, the Roundhill Magnificent Seven Covered Call ETF (MAGY), which focuses on covered calls for the mega-cap tech stocks known as the Magnificent Seven. This actively managed ETF is the latest financial product inspired by the strong performance of these prominent technology companies.",
-      "url": "https://seekingalpha.com/news/4435859-the-magnificent-seven-receives-another-etf-focused-on-covered-calls",
-      "source": "Seeking Alpha",
-      "published": "20250425T145800",
-      "overall_sentiment_score": 0.147631,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.101113,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.714874
-    },
-    {
-      "title": "Why Fidelity Blue Chip Growth Fund Is Built for the Long Haul",
-      "summary": "The Fidelity Blue Chip Growth Fund (FBGRX) has demonstrated strong long-term performance despite recent volatility due to its significant semiconductor holdings. Managed by Sonu Kalra, the fund embraces high-growth, volatile stocks, positioning it for exceptional returns during market rallies but leading to underperformance when value stocks are in favor. Its large asset base presents challenges for investing in smaller-cap prospects, but Kalra's gradual approach and strong analytical support help maintain its execution.",
-      "url": "https://www.morningstar.com/funds/why-fidelity-blue-chip-growth-fund-is-built-long-haul",
-      "source": "Morningstar",
-      "published": "20250424T000000",
-      "overall_sentiment_score": 0.186831,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 3.5e-05,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.872703
-    },
-    {
-      "title": "Why Fidelity’s Dividend ETF (FDVV) Is a Safe Haven in Today’s Market",
-      "summary": "The Fidelity High Dividend ETF (FDVV) offers investors a blend of safety and income through exposure to diversified large-cap dividend-paying businesses. Its significant yield of 3.28% and relative resilience make it attractive for those seeking compounding opportunities and portfolio growth, especially in uncertain economic times. With a low expense ratio of 0.16%, FDVV provides a cost-effective way to invest in established companies that can withstand market volatility.",
-      "url": "https://247wallst.com/investing/2025/04/22/why-fidelitys-dividend-etf-fdvv-is-a-safe-haven-in-todays-market/",
-      "source": "24/7 Wall St.",
-      "published": "20250422T113300",
-      "overall_sentiment_score": 0.331332,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.332295,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.715706
-    },
-    {
-      "title": "GenAI spending can unlock ‘co-working’ potential in financial sector: Moody’s",
-      "summary": "Moody's reports that investment in generative AI (GenAI) is rapidly increasing within the financial services industry, enabling \"co-working\" potential and transformative changes. After initial regulatory uncertainties, the sector is now embracing GenAI to enhance efficiency, customer experiences, and revenue growth opportunities, with spending projected to reach US$126.4 billion by 2028.",
-      "url": "https://www.scmp.com/business/banking-finance/article/3307256/genai-investment-can-spur-co-working-potential-financial-industry-moodys-says",
-      "source": "South China Morning Post",
-      "published": "20250421T113000",
-      "overall_sentiment_score": 0.315081,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.129797,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.645509
-    },
-    {
-      "title": "AMD: Lowering Our Fair Value Estimate Due to China Restrictions and PC Concerns",
-      "summary": "Morningstar has lowered its fair value estimate for AMD to $120 per share from $140 due to new U.S. restrictions on AI chip exports to China and concerns about PC market performance. These factors led to reduced revenue estimates for AMD's AI GPU and PC CPU segments in 2025 and 2029, even though shares appear undervalued and AMD is expected to remain a winner in PC CPUs and gain some AI market share.",
-      "url": "https://www.morningstar.com/stocks/amd-lowering-our-fair-value-estimate-due-china-restrictions-pc-concerns",
-      "source": "Morningstar",
-      "published": "20250416T000000",
-      "overall_sentiment_score": -0.261958,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.210464,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.804763
-    },
-    {
       "title": "NVIDIA Blackwell GeForce RTX Arrives for Every Gamer, Starting at $299",
       "summary": "NVIDIA announced the GeForce RTX 5060 family of GPUs, including the RTX 5060 Ti and RTX 5060, starting at $299. These new graphics cards feature the NVIDIA Blackwell architecture, DLSS 4, full ray tracing, and neural rendering, aiming to deliver next-generation performance and AI-enhanced visuals for both gamers and creators. The release also extends to GeForce RTX 5060 Laptop GPUs, offering enhanced capabilities for portable devices.",
       "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Blackwell-GeForce-RTX-Arrives-for-Every-Gamer-Starting-at-299/default.aspx",
@@ -103,28 +31,28 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Cisco Recognized as a Leader in the Gartner® Magic Quadrant™ for Data Center Switching",
-      "summary": "Cisco has been recognized as a Leader in Gartner's inaugural Magic Quadrant for Data Center Switching, highlighting its strength in \"Ability to Execute\" and \"Completeness of Vision\" in the evolving, AI-driven data center landscape. The company's innovation across its portfolio includes high-performance Nexus 9000 switches and 8000 Series routers, simplified operations with Nexus Dashboard, reimagined network operations through Nexus Hyperfabric, and integrated security via N9300 Series Smart Switches and Hypershield. Cisco continues to focus on flexible, scalable, and secure networking solutions to meet the demands of advanced applications like AI/ML.",
-      "url": "https://blogs.cisco.com/datacenter/cisco-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-data-center-switching",
-      "source": "Cisco Blogs",
-      "published": "20250416T000000",
-      "overall_sentiment_score": 0.330895,
+      "title": "Why Fidelity Blue Chip Growth Fund Is Built for the Long Haul",
+      "summary": "The Fidelity Blue Chip Growth Fund (FBGRX) has demonstrated strong long-term performance despite recent volatility due to its significant semiconductor holdings. Managed by Sonu Kalra, the fund embraces high-growth, volatile stocks, positioning it for exceptional returns during market rallies but leading to underperformance when value stocks are in favor. Its large asset base presents challenges for investing in smaller-cap prospects, but Kalra's gradual approach and strong analytical support help maintain its execution.",
+      "url": "https://www.morningstar.com/funds/why-fidelity-blue-chip-growth-fund-is-built-long-haul",
+      "source": "Morningstar",
+      "published": "20250424T000000",
+      "overall_sentiment_score": 0.186831,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.3262,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.624231
+      "ticker_sentiment_score": 3.5e-05,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.872703
     },
     {
-      "title": "Fujitsu expands strategic collaboration with Supermicro to offer total generative AI platform",
-      "summary": "Fujitsu Limited and Super Micro Computer, Inc. are deepening their strategic collaboration in AI computing, announcing the launch of the PRIMERGY GX2570 M8s, a Supermicro OEM server with high-performance GPUs, along with maintenance and management services. Starting July 2025, Fujitsu will combine these offerings with its Takane large language model (LLM) to provide a managed service for building generative AI infrastructure. This comprehensive offering aims to enable secure and efficient generative AI utilization for enterprises without requiring asset ownership.",
-      "url": "https://www.fujitsu.com/global/about/resources/news/press-releases/2025/0423-01.html",
-      "source": "Fujitsu Global",
-      "published": "20250423T000000",
-      "overall_sentiment_score": 0.384577,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.3155,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.639153
+      "title": "AMD: Lowering Our Fair Value Estimate Due to China Restrictions and PC Concerns",
+      "summary": "Morningstar has lowered its fair value estimate for AMD to $120 per share from $140 due to new U.S. restrictions on AI chip exports to China and concerns about PC market performance. These factors led to reduced revenue estimates for AMD's AI GPU and PC CPU segments in 2025 and 2029, even though shares appear undervalued and AMD is expected to remain a winner in PC CPUs and gain some AI market share.",
+      "url": "https://www.morningstar.com/stocks/amd-lowering-our-fair-value-estimate-due-china-restrictions-pc-concerns",
+      "source": "Morningstar",
+      "published": "20250416T000000",
+      "overall_sentiment_score": -0.261958,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.210464,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.804763
     },
     {
       "title": "Top Performing Leveraged/Inverse ETFs: 04/13/2025",
@@ -149,6 +77,78 @@
       "ticker_sentiment_score": 0.41396,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.728311
+    },
+    {
+      "title": "IBM unveils $150B U.S. investment in tech manufacturing, quantum computers",
+      "summary": "IBM announced a plan to invest at least $150 billion over the next five years in American manufacturing to advance its mainframe and quantum computer systems. This investment aims to fuel the U.S. economy and strengthen the country's position as a global computing leader. The announcement follows IBM's better-than-expected first-quarter revenue of $14.54 billion.",
+      "url": "https://www.upi.com/Top_News/US/2025/04/28/IBM-investment-manufacturing-quantum-computer-Arvind-Krishna/7081745848957/",
+      "source": "upi",
+      "published": "20250428T115000",
+      "overall_sentiment_score": 0.39579,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.327504,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.72386
+    },
+    {
+      "title": "Why Fidelity’s Dividend ETF (FDVV) Is a Safe Haven in Today’s Market",
+      "summary": "The Fidelity High Dividend ETF (FDVV) offers investors a blend of safety and income through exposure to diversified large-cap dividend-paying businesses. Its significant yield of 3.28% and relative resilience make it attractive for those seeking compounding opportunities and portfolio growth, especially in uncertain economic times. With a low expense ratio of 0.16%, FDVV provides a cost-effective way to invest in established companies that can withstand market volatility.",
+      "url": "https://247wallst.com/investing/2025/04/22/why-fidelitys-dividend-etf-fdvv-is-a-safe-haven-in-todays-market/",
+      "source": "24/7 Wall St.",
+      "published": "20250422T113300",
+      "overall_sentiment_score": 0.331332,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.332295,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.715706
+    },
+    {
+      "title": "The Magnificent Seven receives another ETF focused on covered calls",
+      "summary": "Roundhill Investments has launched a new exchange-traded fund, the Roundhill Magnificent Seven Covered Call ETF (MAGY), which focuses on covered calls for the mega-cap tech stocks known as the Magnificent Seven. This actively managed ETF is the latest financial product inspired by the strong performance of these prominent technology companies.",
+      "url": "https://seekingalpha.com/news/4435859-the-magnificent-seven-receives-another-etf-focused-on-covered-calls",
+      "source": "Seeking Alpha",
+      "published": "20250425T145800",
+      "overall_sentiment_score": 0.147631,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.101113,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.714874
+    },
+    {
+      "title": "GenAI spending can unlock ‘co-working’ potential in financial sector: Moody’s",
+      "summary": "Moody's reports that investment in generative AI (GenAI) is rapidly increasing within the financial services industry, enabling \"co-working\" potential and transformative changes. After initial regulatory uncertainties, the sector is now embracing GenAI to enhance efficiency, customer experiences, and revenue growth opportunities, with spending projected to reach US$126.4 billion by 2028.",
+      "url": "https://www.scmp.com/business/banking-finance/article/3307256/genai-investment-can-spur-co-working-potential-financial-industry-moodys-says",
+      "source": "South China Morning Post",
+      "published": "20250421T113000",
+      "overall_sentiment_score": 0.315081,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.129797,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.645509
+    },
+    {
+      "title": "Fujitsu expands strategic collaboration with Supermicro to offer total generative AI platform",
+      "summary": "Fujitsu Limited and Super Micro Computer, Inc. are deepening their strategic collaboration in AI computing, announcing the launch of the PRIMERGY GX2570 M8s, a Supermicro OEM server with high-performance GPUs, along with maintenance and management services. Starting July 2025, Fujitsu will combine these offerings with its Takane large language model (LLM) to provide a managed service for building generative AI infrastructure. This comprehensive offering aims to enable secure and efficient generative AI utilization for enterprises without requiring asset ownership.",
+      "url": "https://www.fujitsu.com/global/about/resources/news/press-releases/2025/0423-01.html",
+      "source": "Fujitsu Global",
+      "published": "20250423T000000",
+      "overall_sentiment_score": 0.384577,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.3155,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.639153
+    },
+    {
+      "title": "Cisco Recognized as a Leader in the Gartner® Magic Quadrant™ for Data Center Switching",
+      "summary": "Cisco has been recognized as a Leader in Gartner's inaugural Magic Quadrant for Data Center Switching, highlighting its strength in \"Ability to Execute\" and \"Completeness of Vision\" in the evolving, AI-driven data center landscape. The company's innovation across its portfolio includes high-performance Nexus 9000 switches and 8000 Series routers, simplified operations with Nexus Dashboard, reimagined network operations through Nexus Hyperfabric, and integrated security via N9300 Series Smart Switches and Hypershield. Cisco continues to focus on flexible, scalable, and secure networking solutions to meet the demands of advanced applications like AI/ML.",
+      "url": "https://blogs.cisco.com/datacenter/cisco-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-data-center-switching",
+      "source": "Cisco Blogs",
+      "published": "20250416T000000",
+      "overall_sentiment_score": 0.330895,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.3262,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.624231
     }
   ]
 }

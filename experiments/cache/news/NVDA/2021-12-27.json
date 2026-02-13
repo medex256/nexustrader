@@ -7,18 +7,6 @@
   "article_count": 4,
   "articles": [
     {
-      "title": "Intel to invest $7 billion in new plant in Malaysia, creating 9,000 jobs",
-      "summary": "Intel Chief Executive Pat Gelsinger announced a $7 billion investment to build a new chip-packaging and testing factory in Malaysia, creating over 4,000 Intel jobs and more than 5,000 construction jobs. This expansion aims to address the global semiconductor shortage, which Gelsinger expects to persist into 2023. The new advanced packaging facility is projected to begin production in 2024.",
-      "url": "https://www.cnbc.com/2021/12/16/intel-to-invest-7-billion-in-new-malaysia-plant-creating-9000-jobs.html",
-      "source": "CNBC",
-      "published": "20211215T215700",
-      "overall_sentiment_score": 0.205235,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.164672,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.55915
-    },
-    {
       "title": "Here are the top-performing technology stocks of 2021",
       "summary": "This article highlights the top-performing technology stocks of 2021, despite a challenging end to the year for the sector. It focuses on companies like Upstart, Synaptics, Asana, Fortinet, and Nvidia, detailing their impressive growth, revenue figures, and contributions to areas like online lending, IoT, collaboration software, cybersecurity, and high-performance computing. The report underscores how specific companies thrived amidst broader market volatility, with several achieving triple-digit gains.",
       "url": "https://www.cnbc.com/2021/12/24/these-are-the-best-technology-stocks-of-2021.html",
@@ -53,6 +41,18 @@
       "ticker_sentiment_score": 0.338023,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.627365
+    },
+    {
+      "title": "Intel to invest $7 billion in new plant in Malaysia, creating 9,000 jobs",
+      "summary": "Intel Chief Executive Pat Gelsinger announced a $7 billion investment to build a new chip-packaging and testing factory in Malaysia, creating over 4,000 Intel jobs and more than 5,000 construction jobs. This expansion aims to address the global semiconductor shortage, which Gelsinger expects to persist into 2023. The new advanced packaging facility is projected to begin production in 2024.",
+      "url": "https://www.cnbc.com/2021/12/16/intel-to-invest-7-billion-in-new-malaysia-plant-creating-9000-jobs.html",
+      "source": "CNBC",
+      "published": "20211215T215700",
+      "overall_sentiment_score": 0.205235,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.164672,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.55915
     }
   ]
 }

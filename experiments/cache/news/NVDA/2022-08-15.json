@@ -7,18 +7,6 @@
   "article_count": 8,
   "articles": [
     {
-      "title": "Cathie Wood sells Block shares to double down on Nvidia",
-      "summary": "Ark Invest, led by Cathie Wood, sold over $20 million worth of Block (SQ) shares and simultaneously purchased over $65 million worth of Nvidia (NVDA) shares across three of its funds. This move follows Ark's previous decision to exit PayPal (PYPL) to bet on Block, and comes amidst macroeconomic turbulence causing significant losses in various asset classes, including Block and Bitcoin. Ark also recently sold Coinbase (COIN) shares due to regulatory uncertainty.",
-      "url": "https://www.theblock.co/post/162357/cathie-wood-sells-block-shares-to-double-down-on-nvidia",
-      "source": "The Block",
-      "published": "20220809T061900",
-      "overall_sentiment_score": -0.069437,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.274736,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.80417
-    },
-    {
       "title": "Nvidia is hit by another ‘crypto hangover,’ and that isn’t the only problem",
       "summary": "Nvidia is facing a \"crypto hangover\" and other issues as the pandemic-era booms in PC sales, videogames, and cryptocurrency decline. The company warned of a $1.4 billion revenue shortfall due to weak gaming equipment sales and excess inventory. Nvidia's stock fell 6.3% on the news, reflecting broader concerns about multiple challenges impacting its core business.",
       "url": "https://www.marketwatch.com/story/nvidia-is-hit-by-another-crypto-hangover-and-that-isnt-the-only-problem-11659991965?gaa_at=eafs&gaa_n=AWEtsqeW-cx0JDHRHV3Ks0Ewpgy6BD9JozhLHTJzK5rnnK0qpmuCnHG9JYFw&gaa_ts=69079e81&gaa_sig=N3reemoQ7fRSkIUEelQCOA4MustJFnNvNaSAlRZNSZD7PsWNBz7mGgDdJ1Q9p1gg40nFD-oMmYChTH_MhwzWRw%3D%3D",
@@ -27,6 +15,18 @@
       "overall_sentiment_score": -0.263063,
       "overall_sentiment_label": "Somewhat-Bearish",
       "ticker_sentiment_score": -0.444489,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Nvidia warns of lower second-quarter revenue on gaming weakness",
+      "summary": "Nvidia Corp warned of a 19% drop in second-quarter revenue from the prior quarter due to weakness in its gaming business, sending its shares down by about 8%. This follows similar warnings from other chipmakers and is attributed to consumers weighing purchases of discretionary items amidst economic concerns, as well as continued supply chain issues. The company expects to report overall Q2 revenue of approximately $6.70 billion, significantly below analyst estimates.",
+      "url": "https://www.reuters.com/technology/nvidia-expects-second-quarter-revenue-drop-gaming-weakness-2022-08-08/",
+      "source": "Reuters",
+      "published": "20220808T215200",
+      "overall_sentiment_score": -0.331405,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.47001,
       "ticker_sentiment_label": "Bearish",
       "relevance_score": 1.0
     },
@@ -43,16 +43,40 @@
       "relevance_score": 0.829761
     },
     {
-      "title": "Nvidia warns of lower second-quarter revenue on gaming weakness",
-      "summary": "Nvidia Corp warned of a 19% drop in second-quarter revenue from the prior quarter due to weakness in its gaming business, sending its shares down by about 8%. This follows similar warnings from other chipmakers and is attributed to consumers weighing purchases of discretionary items amidst economic concerns, as well as continued supply chain issues. The company expects to report overall Q2 revenue of approximately $6.70 billion, significantly below analyst estimates.",
-      "url": "https://www.reuters.com/technology/nvidia-expects-second-quarter-revenue-drop-gaming-weakness-2022-08-08/",
-      "source": "Reuters",
-      "published": "20220808T215200",
-      "overall_sentiment_score": -0.331405,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.47001,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 1.0
+      "title": "Thematic Times: Semiconductors Power Thematic Indexes",
+      "summary": "The article discusses how semiconductor stocks are crucial to many thematic indexes, particularly after the CHIPS and Science Act. It highlights direct and indirect exposure of various thematic indexes to semiconductors and the long-term benefits of the CHIPS Act for the industry and end users. The growth of the semiconductor market is primarily driven by the automotive sector, data storage, and wireless communications.",
+      "url": "https://etfdb.com/thematic-investing-channel/thematic-times-semiconductors-power-thematic-indexes/",
+      "source": "ETF Database",
+      "published": "20220811T175633",
+      "overall_sentiment_score": 0.284645,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.347552,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.827936
+    },
+    {
+      "title": "Cathie Wood sells Block shares to double down on Nvidia",
+      "summary": "Ark Invest, led by Cathie Wood, sold over $20 million worth of Block (SQ) shares and simultaneously purchased over $65 million worth of Nvidia (NVDA) shares across three of its funds. This move follows Ark's previous decision to exit PayPal (PYPL) to bet on Block, and comes amidst macroeconomic turbulence causing significant losses in various asset classes, including Block and Bitcoin. Ark also recently sold Coinbase (COIN) shares due to regulatory uncertainty.",
+      "url": "https://www.theblock.co/post/162357/cathie-wood-sells-block-shares-to-double-down-on-nvidia",
+      "source": "The Block",
+      "published": "20220809T061900",
+      "overall_sentiment_score": -0.069437,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.274736,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.80417
+    },
+    {
+      "title": "Arista acquires Pluribus Networks for cloud fabric product",
+      "summary": "Arista Networks has acquired Pluribus Networks to enhance its Unified Cloud Fabric product and gain entry into the telco market. The acquisition will integrate Pluribus's technology to create a software-defined network across various hardware components, targeting 4G/5G telco operators and leveraging relationships with partners like Ericsson and Nvidia. This move follows Arista's strategy of acquiring SDN vendors to bolster its networking capabilities.",
+      "url": "https://www.techtarget.com/searchnetworking/news/252523483/Arista-acquires-Pluribus-Networks-for-cloud-fabric-product",
+      "source": "TechTarget",
+      "published": "20220804T160659",
+      "overall_sentiment_score": 0.304464,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.202684,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.631501
     },
     {
       "title": "Arista Buys Pluribus Networks To Grow Cloud Networking Offering",
@@ -77,30 +101,6 @@
       "ticker_sentiment_score": 0.045756,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.335071
-    },
-    {
-      "title": "Thematic Times: Semiconductors Power Thematic Indexes",
-      "summary": "The article discusses how semiconductor stocks are crucial to many thematic indexes, particularly after the CHIPS and Science Act. It highlights direct and indirect exposure of various thematic indexes to semiconductors and the long-term benefits of the CHIPS Act for the industry and end users. The growth of the semiconductor market is primarily driven by the automotive sector, data storage, and wireless communications.",
-      "url": "https://etfdb.com/thematic-investing-channel/thematic-times-semiconductors-power-thematic-indexes/",
-      "source": "ETF Database",
-      "published": "20220811T175633",
-      "overall_sentiment_score": 0.284645,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.347552,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.827936
-    },
-    {
-      "title": "Arista acquires Pluribus Networks for cloud fabric product",
-      "summary": "Arista Networks has acquired Pluribus Networks to enhance its Unified Cloud Fabric product and gain entry into the telco market. The acquisition will integrate Pluribus's technology to create a software-defined network across various hardware components, targeting 4G/5G telco operators and leveraging relationships with partners like Ericsson and Nvidia. This move follows Arista's strategy of acquiring SDN vendors to bolster its networking capabilities.",
-      "url": "https://www.techtarget.com/searchnetworking/news/252523483/Arista-acquires-Pluribus-Networks-for-cloud-fabric-product",
-      "source": "TechTarget",
-      "published": "20220804T160659",
-      "overall_sentiment_score": 0.304464,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.202684,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.631501
     }
   ]
 }

@@ -31,18 +31,6 @@
       "relevance_score": 0.865588
     },
     {
-      "title": "iShares Global Healthcare ETF (IXJ) Stock Price, Holdings, Dividend Yield",
-      "summary": "This article provides a comprehensive overview of the iShares Global Healthcare ETF (IXJ), detailing its stock price, holdings, dividend yield, and key statistics. As of September 30, 2025, IXJ holds 114 stocks with a total portfolio value of $3.85 billion, featuring top holdings like Eli Lilly and Co, Johnson & Johnson, and AbbVie Inc. The ETF's current PE Ratio is 26.75 and its dividend yield is 1.43%.",
-      "url": "https://www.gurufocus.com/etf/IXJ/summary",
-      "source": "GuruFocus",
-      "published": "20230403T040332",
-      "overall_sentiment_score": 0.242898,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.312356,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.712584
-    },
-    {
       "title": "Amgen-Sanofi patent case divides makers of antibody drugs",
       "summary": "A U.S. Supreme Court case involving Amgen's cholesterol drug Repatha and Sanofi/Regeneron's Praluent is dividing antibody drugmakers. The ruling will determine how much information companies must disclose in patents and could reshape U.S. patent law, impacting competition in the $181 billion monoclonal antibodies market. Companies on each side are advocating for either broad or narrow patent protection, with significant implications for future drug development and market exclusivity.",
       "url": "https://www.reuters.com/legal/amgen-sanofi-patent-case-divides-makers-antibody-drugs-2023-03-27/",
@@ -53,6 +41,18 @@
       "ticker_sentiment_score": -0.140697,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.744248
+    },
+    {
+      "title": "iShares Global Healthcare ETF (IXJ) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a comprehensive overview of the iShares Global Healthcare ETF (IXJ), detailing its stock price, holdings, dividend yield, and key statistics. As of September 30, 2025, IXJ holds 114 stocks with a total portfolio value of $3.85 billion, featuring top holdings like Eli Lilly and Co, Johnson & Johnson, and AbbVie Inc. The ETF's current PE Ratio is 26.75 and its dividend yield is 1.43%.",
+      "url": "https://www.gurufocus.com/etf/IXJ/summary",
+      "source": "GuruFocus",
+      "published": "20230403T040332",
+      "overall_sentiment_score": 0.242898,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.312356,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.712584
     },
     {
       "title": "United States Condom Market Size to Reach $879.43 Million by 2030 | At 12.79% CAGR",

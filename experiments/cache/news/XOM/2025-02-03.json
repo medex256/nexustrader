@@ -7,30 +7,6 @@
   "article_count": 4,
   "articles": [
     {
-      "title": "Viper Energy, Inc., A Subsidiary of Diamondback Energy, Inc., Announces Drop Down Transaction and Operations Update",
-      "summary": "Viper Energy, Inc. announced Q4 2024 financial and operating results, highlighted by strong production and a dividend declaration. The company also disclosed two significant acquisition agreements: a $1.0 billion \"Drop Down\" transaction with its parent company Diamondback Energy, and a separate $211 million acquisition from Morita Ranches Minerals LLC, both aimed at expanding its mineral and royalty interests. These strategic moves are expected to substantially increase Viper's production and financial metrics, with pro forma average daily production anticipated to be significantly higher by Q2 2025.",
-      "url": "https://www.globenewswire.com/news-release/2025/01/30/3018409/0/en/Viper-Energy-Inc-A-Subsidiary-of-Diamondback-Energy-Inc-Announces-Drop-Down-Transaction-and-Operations-Update.html",
-      "source": "GlobeNewswire",
-      "published": "20250130T160100",
-      "overall_sentiment_score": 0.274224,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.149009,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.617212
-    },
-    {
-      "title": "Palantir: A Strong Position in the AI Value Chain Warrants Enthusiasm",
-      "summary": "Morningstar has drastically raised its fair value estimate for Palantir stock from $21 to $79, driven by the belief that Palantir is well-positioned to benefit disproportionately from the AI revolution. The company is seen as disrupting traditional data analytics by creating a \"read-write loop\" in which its software learns and improves, similar to Salesforce's impact on sales teams in the 2010s. Palantir's ability to orchestrate large language models with customer-specific data is expected to drive significant productivity gains and market penetration.",
-      "url": "https://www.morningstar.com/stocks/palantir-strong-position-ai-value-chain-warrants-enthusiasm",
-      "source": "Morningstar",
-      "published": "20250130T000000",
-      "overall_sentiment_score": 0.282443,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.126161,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.60154
-    },
-    {
       "title": "Altria Group (MO) Q4 2024 Earnings: Key financials and quarterly highlights",
       "summary": "Altria Group (MO) reported flat net revenues of $5.9 billion for Q4 2024, but saw a significant increase in net earnings by 47.5% to $3 billion and EPS jumped 54.3% to $1.79. Adjusted EPS rose 9.3% to $1.29, beating estimates. The company forecasts adjusted EPS of $5.22-5.37 for the full year 2025.",
       "url": "https://news.alphastreet.com/altria-group-mo-q4-2024-earnings-key-financials-and-quarterly-highlights/",
@@ -43,6 +19,18 @@
       "relevance_score": 0.647417
     },
     {
+      "title": "Viper Energy, Inc., A Subsidiary of Diamondback Energy, Inc., Announces Drop Down Transaction and Operations Update",
+      "summary": "Viper Energy, Inc. announced Q4 2024 financial and operating results, highlighted by strong production and a dividend declaration. The company also disclosed two significant acquisition agreements: a $1.0 billion \"Drop Down\" transaction with its parent company Diamondback Energy, and a separate $211 million acquisition from Morita Ranches Minerals LLC, both aimed at expanding its mineral and royalty interests. These strategic moves are expected to substantially increase Viper's production and financial metrics, with pro forma average daily production anticipated to be significantly higher by Q2 2025.",
+      "url": "https://www.globenewswire.com/news-release/2025/01/30/3018409/0/en/Viper-Energy-Inc-A-Subsidiary-of-Diamondback-Energy-Inc-Announces-Drop-Down-Transaction-and-Operations-Update.html",
+      "source": "GlobeNewswire",
+      "published": "20250130T160100",
+      "overall_sentiment_score": 0.274224,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.149009,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.617212
+    },
+    {
       "title": "VOC Energy Trust stock hits 52-week low at $4.4 amid market shifts",
       "summary": "VOC Energy Trust stock (NYSE: VOC) has fallen to a 52-week low of $4.4, reflecting a significant 37.62% decline over the past year. Despite this downturn, the company maintains an attractive 14.15% dividend yield for income-focused investors. This performance highlights broader market trends and volatility within the energy sector, prompting investors to assess potential value opportunities or reconsider their positions.",
       "url": "https://uk.investing.com/news/company-news/voc-energy-trust-stock-hits-52week-low-at-44-amid-market-shifts-93CH-3883384",
@@ -53,6 +41,18 @@
       "ticker_sentiment_score": 0.226701,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.614286
+    },
+    {
+      "title": "Palantir: A Strong Position in the AI Value Chain Warrants Enthusiasm",
+      "summary": "Morningstar has drastically raised its fair value estimate for Palantir stock from $21 to $79, driven by the belief that Palantir is well-positioned to benefit disproportionately from the AI revolution. The company is seen as disrupting traditional data analytics by creating a \"read-write loop\" in which its software learns and improves, similar to Salesforce's impact on sales teams in the 2010s. Palantir's ability to orchestrate large language models with customer-specific data is expected to drive significant productivity gains and market penetration.",
+      "url": "https://www.morningstar.com/stocks/palantir-strong-position-ai-value-chain-warrants-enthusiasm",
+      "source": "Morningstar",
+      "published": "20250130T000000",
+      "overall_sentiment_score": 0.282443,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.126161,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.60154
     }
   ]
 }

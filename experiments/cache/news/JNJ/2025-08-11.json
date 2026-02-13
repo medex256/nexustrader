@@ -7,28 +7,40 @@
   "article_count": 11,
   "articles": [
     {
-      "title": "DGRO ETF Surges as Dividend Growth Leaders Outperform Amid Market Volatility",
-      "summary": "The iShares Core Dividend Growth ETF (DGRO) has seen record inflows, bringing its assets under management to $32.5 billion and pushing its value to a new record of $46.82. Its year-to-date return of 10.8% has surpassed the S&P 500 and the MSCI World High Dividend Yield Index, driven by strategic allocations to financials and technology. DGRO's focus on companies with consistent dividend increases and a low expense ratio makes it an appealing option for investors seeking resilient income and capital appreciation.",
-      "url": "https://www.tradingnews.com/news/dividend-growth-etf-grdo-drwas-record-inflows",
-      "source": "TradingNews",
-      "published": "20250806T214130",
-      "overall_sentiment_score": 0.370839,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.337442,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.618884
+      "title": "Johnson & Johnson ordered to pay $42M after jury finds talc caused man’s cancer",
+      "summary": "A Massachusetts jury ordered Johnson & Johnson to pay over $42 million to a man who developed mesothelioma after using the company’s talc products. The lawsuit claimed J&J products contained asbestos and that the company failed to warn consumers of the risks. J&J plans to appeal the verdict, maintaining its products are safe and do not cause cancer, despite facing tens of thousands of similar lawsuits.",
+      "url": "https://www.reuters.com/legal/litigation/johnson-johnson-ordered-pay-42m-after-jury-finds-talc-caused-mans-cancer-2025-07-29/",
+      "source": "Reuters",
+      "published": "20250729T215600",
+      "overall_sentiment_score": -0.40043,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.429184,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
     },
     {
-      "title": "Stryker lowers expected tariff impact to $175M",
-      "summary": "Stryker has lowered its expected tariff impact for 2025 to $175 million from a previous forecast of $200 million, following reductions in U.S. and China levies. The company also raised its earnings outlook, anticipating organic sales growth of 9.5% to 10% and increased adjusted earnings per share, driven by strong procedural demand and capital equipment sales. Stryker reported a record quarter for Mako robot installations and provided updates on new Mako 4 applications.",
-      "url": "https://www.medtechdive.com/news/stryker-q2-earnings-tariffs-robots/756606/",
-      "source": "MedTech Dive",
-      "published": "20250801T000000",
-      "overall_sentiment_score": 0.228942,
+      "title": "The Zacks Analyst Blog Highlights Adobe, Disney, Intuit, Rollins and Johnson & Johnson",
+      "summary": "This Zacks Analyst Blog highlights five \"Wide Moat\" stocks: Adobe, Disney, Intuit, Rollins, and Johnson & Johnson, recommending them as \"Buy\" due to their strong competitive advantages and potential for stable returns. The article details each company's strategic strengths and positive financial outlook, emphasizing their ability to maintain market dominance and weather economic fluctuations.",
+      "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-adobe-092600873.html",
+      "source": "Yahoo Finance",
+      "published": "20250804T092600",
+      "overall_sentiment_score": 0.395539,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.263326,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.964269
+    },
+    {
+      "title": "The best specialist funds in some of the worst performing sectors.",
+      "summary": "This article identifies the best-performing specialist funds within the struggling healthcare and infrastructure sectors over the past five years. Despite being among the worst equity sectors, some funds like Polar Capital Healthcare Opportunities and BNY Mellon Global Infrastructure Income have delivered significant returns by focusing on specific strategies and market niches within their respective fields. The piece highlights key funds, their investment approaches, and their recent performance, offering insights for investors looking for resilient options in challenging sectors.",
+      "url": "https://www.investments.halifax.co.uk/get-inspired/news/article/13455329",
+      "source": "Halifax",
+      "published": "20250811T225834",
+      "overall_sentiment_score": 0.288361,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.124212,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.63086
+      "ticker_sentiment_score": 0.395012,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.746092
     },
     {
       "title": "Band-Aid maker Kenvue cuts annual sales forecast amid strategic review",
@@ -55,6 +67,18 @@
       "relevance_score": 0.727619
     },
     {
+      "title": "Beyond Broad Healthcare: A Smarter Prescription for Growth",
+      "summary": "This article argues for a targeted, technology-focused approach to healthcare investing, exemplified by the ROBO Global Healthcare Technology and Innovation Index (HTEC). It highlights the pitfalls of broad healthcare ETFs biased towards big pharma and insurance, emphasizing HTEC's focus on innovative companies addressing healthcare challenges. The author suggests that despite the overall growth trajectory of healthcare, investors should prioritize technology leaders for potentially superior and differentiated performance.",
+      "url": "https://www.etftrends.com/disruptive-technology-channel/beyond-broad-healthcare-smarter-prescription-growth/",
+      "source": "ETF Trends",
+      "published": "20250801T090927",
+      "overall_sentiment_score": 0.208304,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.123503,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.690541
+    },
+    {
       "title": "GE HealthCare raises annual profit forecast on smaller tariff impact",
       "summary": "GE HealthCare raised its annual profit forecast for 2025 due to a smaller-than-expected impact from tariffs. Despite this, the company's shares fell due to concerns over market share loss and slower order growth compared to competitors. GE HealthCare also reported better-than-expected Q2 profit and revenue.",
       "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/ge-healthcare-raises-annual-profit-forecast-smaller-tariff-impact-2025-07-30/",
@@ -65,30 +89,6 @@
       "ticker_sentiment_score": 0.225614,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.648066
-    },
-    {
-      "title": "Johnson & Johnson ordered to pay $42M after jury finds talc caused man’s cancer",
-      "summary": "A Massachusetts jury ordered Johnson & Johnson to pay over $42 million to a man who developed mesothelioma after using the company’s talc products. The lawsuit claimed J&J products contained asbestos and that the company failed to warn consumers of the risks. J&J plans to appeal the verdict, maintaining its products are safe and do not cause cancer, despite facing tens of thousands of similar lawsuits.",
-      "url": "https://www.reuters.com/legal/litigation/johnson-johnson-ordered-pay-42m-after-jury-finds-talc-caused-mans-cancer-2025-07-29/",
-      "source": "Reuters",
-      "published": "20250729T215600",
-      "overall_sentiment_score": -0.40043,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.429184,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "The best specialist funds in some of the worst performing sectors.",
-      "summary": "This article identifies the best-performing specialist funds within the struggling healthcare and infrastructure sectors over the past five years. Despite being among the worst equity sectors, some funds like Polar Capital Healthcare Opportunities and BNY Mellon Global Infrastructure Income have delivered significant returns by focusing on specific strategies and market niches within their respective fields. The piece highlights key funds, their investment approaches, and their recent performance, offering insights for investors looking for resilient options in challenging sectors.",
-      "url": "https://www.investments.halifax.co.uk/get-inspired/news/article/13455329",
-      "source": "Halifax",
-      "published": "20250811T225834",
-      "overall_sentiment_score": 0.288361,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.395012,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.746092
     },
     {
       "title": "Starbucks Plans Kiosks to Cut Long Lines at Airport Locations",
@@ -103,6 +103,30 @@
       "relevance_score": 0.634408
     },
     {
+      "title": "Stryker lowers expected tariff impact to $175M",
+      "summary": "Stryker has lowered its expected tariff impact for 2025 to $175 million from a previous forecast of $200 million, following reductions in U.S. and China levies. The company also raised its earnings outlook, anticipating organic sales growth of 9.5% to 10% and increased adjusted earnings per share, driven by strong procedural demand and capital equipment sales. Stryker reported a record quarter for Mako robot installations and provided updates on new Mako 4 applications.",
+      "url": "https://www.medtechdive.com/news/stryker-q2-earnings-tariffs-robots/756606/",
+      "source": "MedTech Dive",
+      "published": "20250801T000000",
+      "overall_sentiment_score": 0.228942,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.124212,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.63086
+    },
+    {
+      "title": "DGRO ETF Surges as Dividend Growth Leaders Outperform Amid Market Volatility",
+      "summary": "The iShares Core Dividend Growth ETF (DGRO) has seen record inflows, bringing its assets under management to $32.5 billion and pushing its value to a new record of $46.82. Its year-to-date return of 10.8% has surpassed the S&P 500 and the MSCI World High Dividend Yield Index, driven by strategic allocations to financials and technology. DGRO's focus on companies with consistent dividend increases and a low expense ratio makes it an appealing option for investors seeking resilient income and capital appreciation.",
+      "url": "https://www.tradingnews.com/news/dividend-growth-etf-grdo-drwas-record-inflows",
+      "source": "TradingNews",
+      "published": "20250806T214130",
+      "overall_sentiment_score": 0.370839,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.337442,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.618884
+    },
+    {
       "title": "Astra CEO Breaks With Peers on Aligning Drug Prices Globally",
       "summary": "AstraZeneca CEO Pascal Soriot has stated he is open to aligning drug prices globally, breaking ranks with other pharmaceutical industry leaders. He believes the current disparity in drug pricing, particularly in the US, is unsustainable and that the industry should be involved in shaping future regulations rather than being surprised by them.",
       "url": "https://www.bloomberg.com/news/articles/2025-07-29/astra-ceo-breaks-with-peers-on-aligning-drug-prices-globally",
@@ -113,30 +137,6 @@
       "ticker_sentiment_score": 0.135739,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.600425
-    },
-    {
-      "title": "The Zacks Analyst Blog Highlights Adobe, Disney, Intuit, Rollins and Johnson & Johnson",
-      "summary": "This Zacks Analyst Blog highlights five \"Wide Moat\" stocks: Adobe, Disney, Intuit, Rollins, and Johnson & Johnson, recommending them as \"Buy\" due to their strong competitive advantages and potential for stable returns. The article details each company's strategic strengths and positive financial outlook, emphasizing their ability to maintain market dominance and weather economic fluctuations.",
-      "url": "https://finance.yahoo.com/news/zacks-analyst-blog-highlights-adobe-092600873.html",
-      "source": "Yahoo Finance",
-      "published": "20250804T092600",
-      "overall_sentiment_score": 0.395539,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.263326,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.964269
-    },
-    {
-      "title": "Beyond Broad Healthcare: A Smarter Prescription for Growth",
-      "summary": "This article argues for a targeted, technology-focused approach to healthcare investing, exemplified by the ROBO Global Healthcare Technology and Innovation Index (HTEC). It highlights the pitfalls of broad healthcare ETFs biased towards big pharma and insurance, emphasizing HTEC's focus on innovative companies addressing healthcare challenges. The author suggests that despite the overall growth trajectory of healthcare, investors should prioritize technology leaders for potentially superior and differentiated performance.",
-      "url": "https://www.etftrends.com/disruptive-technology-channel/beyond-broad-healthcare-smarter-prescription-growth/",
-      "source": "ETF Trends",
-      "published": "20250801T090927",
-      "overall_sentiment_score": 0.208304,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.123503,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.690541
     }
   ]
 }

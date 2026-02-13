@@ -7,66 +7,6 @@
   "article_count": 8,
   "articles": [
     {
-      "title": "ConocoPhillips considers exit from US Gulf of Mexico",
-      "summary": "ConocoPhillips is reportedly considering selling its minority stake in the Shell-operated Ursa platform and the Princess well in the US Gulf of Mexico, a move that would mark its exit from US offshore operations. This potential sale, valued in the high hundreds of millions of dollars, is driven by ConocoPhillips's recent focus on expanding its footprint in US shale basins, particularly the Permian. The company may retain the assets if a suitable offer is not received.",
-      "url": "https://www.offshore-mag.com/regional-reports/us-gulf-of-mexico/article/14280143/conocophillips-considers-exit-from-us-gulf-of-mexico",
-      "source": "Offshore Magazine",
-      "published": "20220723T162650",
-      "overall_sentiment_score": -0.102075,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.02243,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.614043
-    },
-    {
-      "title": "Taiwan edge AI company Gorilla Technology IPO surges 123% on first day of Nasdaq trading",
-      "summary": "Taiwanese edge AI company Gorilla Technology Group saw its IPO surge 123% on its first day of Nasdaq trading, closing at US$33.43 under the ticker \"GRRR.\" The company plans to use the proceeds from its business combination with Global SPAC Partners for working capital and international expansion, aiming to form a \"Smart City Diverse Industry Alliance\" to expand global markets for edge AI analytics solutions. Gorilla Technology has developed its edge AI technology over 20 years, holding 31 patents, and provides comprehensive video-centric and content management solutions across various sectors with key partnerships including Softbank, Intel, and Dell.",
-      "url": "https://www.digitimes.com/news/a20220715VL202/edge-ai-gorilla-technology.html",
-      "source": "digitimes",
-      "published": "20220715T165604",
-      "overall_sentiment_score": 0.581335,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.538457,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.599934
-    },
-    {
-      "title": "Pioneer, Devon and ConocoPhillips Join OGMP 2.0, Commit to Leading Methane Performance and Increased Transparency in Emissions Reporting",
-      "summary": "Pioneer Natural Resources Company, Devon Energy Corp., and ConocoPhillips have joined the Oil and Gas Methane Partnership (OGMP) 2.0 Initiative, committing to enhanced transparency in methane emissions reporting and reduction. This move aims to establish a global standard for methane performance and demonstrate their dedication to climate mitigation and responsible energy production. The companies express their commitment to leveraging this framework to advance their emissions reduction goals and encourage industry-wide improvements.",
-      "url": "https://www.businesswire.com/news/home/20220714005248/en/Pioneer-Devon-and-ConocoPhillips-Join-OGMP-2.0-Commit-to-Leading-Methane-Performance-and-Increased-Transparency-in-Emissions-Reporting",
-      "source": "Business Wire",
-      "published": "20220714T163207",
-      "overall_sentiment_score": 0.363209,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.308869,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.617576
-    },
-    {
-      "title": "ConocoPhillips eyes U.S. Gulf of Mexico exit -sources",
-      "summary": "ConocoPhillips is reportedly exploring a sale of its stake in the Ursa platform and Princess subsea well in the U.S. Gulf of Mexico, signaling its exit from deepwater energy production in the region. This move aligns with the company's strategy to divest assets, targeting $4 billion to $5 billion by the end of 2023, as it shifts focus to the Permian Basin. The divestment, potentially valued in the high hundreds of millions of dollars, would further solidify Conoco's presence as a major Permian operator.",
-      "url": "https://www.reuters.com/business/energy/conocophillips-eyes-us-gulf-mexico-exit-sources-2022-07-20/",
-      "source": "Reuters",
-      "published": "20220721T162100",
-      "overall_sentiment_score": 0.016298,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.148783,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.62719
-    },
-    {
-      "title": "Hedge funds bet on Brazil oil and gas output surging 122%",
-      "summary": "Hedge funds and investors are increasingly backing \"junior producers\" in Brazil's oil and gas sector, seeking alternatives to the turmoil-prone state-owned Petroleo Brasileiro SA. These junior companies are acquiring fields divested by Petrobras and are projected to significantly boost Brazil's oil and gas output, with ANP forecasting a 122% increase by 2025 from these assets. Despite risks like market volatility and past bankruptcies, investors see substantial profit potential due to anticipated production growth and attractive share prices.",
-      "url": "https://www.worldoil.com/news/2022/7/15/hedge-funds-bet-on-brazil-oil-and-gas-output-surging-122/",
-      "source": "World Oil",
-      "published": "20220715T164647",
-      "overall_sentiment_score": 0.326478,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.228906,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.605505
-    },
-    {
       "title": "Hilcorp Energy, Exxon Mobil and ConocoPhillips release the most greenhouse gasses among U.S. oil and gas companies",
       "summary": "According to a new report based on U.S. government data, Hilcorp Energy, Exxon Mobil, and ConocoPhillips are the leading emitters of greenhouse gases among 303 U.S. oil and gas companies that report to the EPA. While these companies rank high in absolute emissions, they often emphasize emissions intensity, which measures emissions per unit of energy produced, as a more accurate reflection of their efforts to decarbonize. The report, commissioned by Clean Air Task Force and Ceres, highlights a significant divergence in emissions intensity among producers, underscoring the role of operational decisions in climate impact.",
       "url": "https://www.cnbc.com/2022/07/14/hilcorp-exxon-mobil-conocophillips-are-top-greenhouse-gas-emitters.html",
@@ -77,6 +17,18 @@
       "ticker_sentiment_score": -0.211085,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 0.810001
+    },
+    {
+      "title": "Sasol Outage Means All South African Oil Refineries Are Now Shut",
+      "summary": "Sasol Ltd. has declared force majeure on petroleum product supplies due to crude delivery delays at its Natref refinery, co-owned with TotalEnergies SE. This outage effectively shuts down almost all of South Africa's oil refining capacity, following a series of similar closures across the country. The temporary closure significantly impacts the nation's fuel production.",
+      "url": "https://www.bloomberg.com/news/articles/2022-07-17/sasol-outage-means-all-south-african-oil-refineries-are-now-shut",
+      "source": "Bloomberg.com",
+      "published": "20220717T083200",
+      "overall_sentiment_score": -0.283025,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.427954,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.730291
     },
     {
       "title": "CenterPoint's Lesar tops list of Houston's best-paid corporate executives in male-dominated lineup",
@@ -91,16 +43,64 @@
       "relevance_score": 0.71045
     },
     {
-      "title": "Sasol Outage Means All South African Oil Refineries Are Now Shut",
-      "summary": "Sasol Ltd. has declared force majeure on petroleum product supplies due to crude delivery delays at its Natref refinery, co-owned with TotalEnergies SE. This outage effectively shuts down almost all of South Africa's oil refining capacity, following a series of similar closures across the country. The temporary closure significantly impacts the nation's fuel production.",
-      "url": "https://www.bloomberg.com/news/articles/2022-07-17/sasol-outage-means-all-south-african-oil-refineries-are-now-shut",
-      "source": "Bloomberg.com",
-      "published": "20220717T083200",
-      "overall_sentiment_score": -0.283025,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.427954,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.730291
+      "title": "ConocoPhillips eyes U.S. Gulf of Mexico exit -sources",
+      "summary": "ConocoPhillips is reportedly exploring a sale of its stake in the Ursa platform and Princess subsea well in the U.S. Gulf of Mexico, signaling its exit from deepwater energy production in the region. This move aligns with the company's strategy to divest assets, targeting $4 billion to $5 billion by the end of 2023, as it shifts focus to the Permian Basin. The divestment, potentially valued in the high hundreds of millions of dollars, would further solidify Conoco's presence as a major Permian operator.",
+      "url": "https://www.reuters.com/business/energy/conocophillips-eyes-us-gulf-mexico-exit-sources-2022-07-20/",
+      "source": "Reuters",
+      "published": "20220721T162100",
+      "overall_sentiment_score": 0.016298,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.148783,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62719
+    },
+    {
+      "title": "Pioneer, Devon and ConocoPhillips Join OGMP 2.0, Commit to Leading Methane Performance and Increased Transparency in Emissions Reporting",
+      "summary": "Pioneer Natural Resources Company, Devon Energy Corp., and ConocoPhillips have joined the Oil and Gas Methane Partnership (OGMP) 2.0 Initiative, committing to enhanced transparency in methane emissions reporting and reduction. This move aims to establish a global standard for methane performance and demonstrate their dedication to climate mitigation and responsible energy production. The companies express their commitment to leveraging this framework to advance their emissions reduction goals and encourage industry-wide improvements.",
+      "url": "https://www.businesswire.com/news/home/20220714005248/en/Pioneer-Devon-and-ConocoPhillips-Join-OGMP-2.0-Commit-to-Leading-Methane-Performance-and-Increased-Transparency-in-Emissions-Reporting",
+      "source": "Business Wire",
+      "published": "20220714T163207",
+      "overall_sentiment_score": 0.363209,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.308869,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.617576
+    },
+    {
+      "title": "ConocoPhillips considers exit from US Gulf of Mexico",
+      "summary": "ConocoPhillips is reportedly considering selling its minority stake in the Shell-operated Ursa platform and the Princess well in the US Gulf of Mexico, a move that would mark its exit from US offshore operations. This potential sale, valued in the high hundreds of millions of dollars, is driven by ConocoPhillips's recent focus on expanding its footprint in US shale basins, particularly the Permian. The company may retain the assets if a suitable offer is not received.",
+      "url": "https://www.offshore-mag.com/regional-reports/us-gulf-of-mexico/article/14280143/conocophillips-considers-exit-from-us-gulf-of-mexico",
+      "source": "Offshore Magazine",
+      "published": "20220723T162650",
+      "overall_sentiment_score": -0.102075,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.02243,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.614043
+    },
+    {
+      "title": "Hedge funds bet on Brazil oil and gas output surging 122%",
+      "summary": "Hedge funds and investors are increasingly backing \"junior producers\" in Brazil's oil and gas sector, seeking alternatives to the turmoil-prone state-owned Petroleo Brasileiro SA. These junior companies are acquiring fields divested by Petrobras and are projected to significantly boost Brazil's oil and gas output, with ANP forecasting a 122% increase by 2025 from these assets. Despite risks like market volatility and past bankruptcies, investors see substantial profit potential due to anticipated production growth and attractive share prices.",
+      "url": "https://www.worldoil.com/news/2022/7/15/hedge-funds-bet-on-brazil-oil-and-gas-output-surging-122/",
+      "source": "World Oil",
+      "published": "20220715T164647",
+      "overall_sentiment_score": 0.326478,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.228906,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.605505
+    },
+    {
+      "title": "Taiwan edge AI company Gorilla Technology IPO surges 123% on first day of Nasdaq trading",
+      "summary": "Taiwanese edge AI company Gorilla Technology Group saw its IPO surge 123% on its first day of Nasdaq trading, closing at US$33.43 under the ticker \"GRRR.\" The company plans to use the proceeds from its business combination with Global SPAC Partners for working capital and international expansion, aiming to form a \"Smart City Diverse Industry Alliance\" to expand global markets for edge AI analytics solutions. Gorilla Technology has developed its edge AI technology over 20 years, holding 31 patents, and provides comprehensive video-centric and content management solutions across various sectors with key partnerships including Softbank, Intel, and Dell.",
+      "url": "https://www.digitimes.com/news/a20220715VL202/edge-ai-gorilla-technology.html",
+      "source": "digitimes",
+      "published": "20220715T165604",
+      "overall_sentiment_score": 0.581335,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.538457,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.599934
     }
   ]
 }

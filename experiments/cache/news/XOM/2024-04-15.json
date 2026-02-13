@@ -7,40 +7,28 @@
   "article_count": 11,
   "articles": [
     {
-      "title": "M&T Bank Earnings: A Steady Start to 2024",
-      "summary": "M&T Bank reported a decent start to 2024 with revenue in line with expectations and adjusted EPS topping estimates. The bank increased its full-year 2024 net interest income guidance and is proactively building its allowance for future losses. Despite some pressure in nonauto dealer loans, credit metrics appear mostly healthy, and the bank maintains its narrow moat rating and $160 fair value estimate.",
-      "url": "https://www.morningstar.com/stocks/mt-bank-earnings-steady-start-2024",
-      "source": "Morningstar",
-      "published": "20240415T000000",
-      "overall_sentiment_score": 0.219833,
+      "title": "Why Oil Prices Have Been Rising Recently",
+      "summary": "Oil prices have increased significantly this year, with Brent crude rising over 20 percent since mid-December, due to geopolitical tensions in Ukraine and the Middle East, alongside supply constraints and stronger than expected demand. This rise is sending gasoline prices higher, potentially complicating efforts to control inflation and creating political challenges for the Biden administration. Analysts suggest the momentum could continue, despite the possibility of short-term retreats.",
+      "url": "https://www.nytimes.com/2024/04/09/business/oil-price-rise.html",
+      "source": "The New York Times",
+      "published": "20240409T000000",
+      "overall_sentiment_score": 0.27805,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.104356,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.600583
-    },
-    {
-      "title": "Global Partners Closes $212MM Acquisition of 4 Gulf Oil Terminals",
-      "summary": "Global Partners LP has completed a $212.3 million acquisition of four liquid energy terminals from Gulf Oil Limited Partnership, strategically located in the Northeast. This acquisition expands Global's storage and distribution capabilities for gasoline, distillates, and ethanol, adding approximately 3.0 million barrels in shell capacity. This follows another major acquisition in December 2023 of 25 liquid energy terminals from Motiva Enterprises LLC, significantly expanding Global's operational footprint across the USA.",
-      "url": "https://www.rigzone.com/news/global_partners_closes_212mm_acquisition_of_4_gulf_oil_terminals-11-apr-2024-176371-article/",
-      "source": "Rigzone",
-      "published": "20240411T035700",
-      "overall_sentiment_score": 0.391398,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.338864,
+      "ticker_sentiment_score": 0.331655,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.642968
+      "relevance_score": 0.837446
     },
     {
-      "title": "FAST Earnings: Fastenal reports modest growth in Q1 revenue and profit",
-      "summary": "Fastenal Company (NASDAQ: FAST) announced its first-quarter 2024 financial results, reporting a modest growth in revenue and net income. The company's net income reached $297.7 million, or $0.52 per share, on net sales of $1.90 billion, which was a 2% increase year-over-year despite negative impacts from adverse weather conditions. Fastenal also expanded its presence by signing 102 new onsite locations, ending the quarter with 1,872 active sites.",
-      "url": "https://news.alphastreet.com/fast-earnings-fastenal-reports-modest-growth-in-q1-revenue-and-profit/",
-      "source": "AlphaStreet",
+      "title": "General Motors recognizes top global suppliers at Supplier of the Year event",
+      "summary": "General Motors recognized 86 global suppliers with its annual Supplier of the Year award and an additional eight with Overdrive Awards for exceeding expectations. The selection process emphasizes performance, innovation, and alignment with GM's values, including safety, inclusion, and relationships. This recognition highlights the critical role these suppliers play in GM's transformation towards an all-electric future and its commitment to quality vehicles.",
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/apr/0411-supplier.html",
+      "source": "General Motors",
       "published": "20240411T000000",
-      "overall_sentiment_score": -0.093613,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.317195,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.597992
+      "overall_sentiment_score": 0.28862,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.300031,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.735154
     },
     {
       "title": "Here’s why the COWZ ETF constantly beats SCHD and SPY",
@@ -55,30 +43,6 @@
       "relevance_score": 0.724099
     },
     {
-      "title": "APA Completes $4.5B Acquisition of Callon",
-      "summary": "APA Corp. has finalized its $4.5-billion acquisition of Callon Petroleum Co., significantly boosting its production to approximately 500,000 boepd and expanding its Permian Basin holdings. The merger, approved by shareholders last month, is expected to enhance capital productivity, improve well performance, and generate substantial cost synergies. As part of the deal, Callon board chair Matthew Bob and former Bank of America Merrill Lynch vice chair Anya Weaving have been appointed to APA's board of directors.",
-      "url": "https://www.rigzone.com/news/apa_completes_45b_acquisition_of_callon-03-apr-2024-176284-article/",
-      "source": "Rigzone",
-      "published": "20240403T042600",
-      "overall_sentiment_score": 0.108474,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.122288,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.645663
-    },
-    {
-      "title": "Why Oil Prices Have Been Rising Recently",
-      "summary": "Oil prices have increased significantly this year, with Brent crude rising over 20 percent since mid-December, due to geopolitical tensions in Ukraine and the Middle East, alongside supply constraints and stronger than expected demand. This rise is sending gasoline prices higher, potentially complicating efforts to control inflation and creating political challenges for the Biden administration. Analysts suggest the momentum could continue, despite the possibility of short-term retreats.",
-      "url": "https://www.nytimes.com/2024/04/09/business/oil-price-rise.html",
-      "source": "The New York Times",
-      "published": "20240409T000000",
-      "overall_sentiment_score": 0.27805,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.331655,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.837446
-    },
-    {
       "title": "Chesapeake, Southwestern delay merger closing after FTC seeks more information",
       "summary": "Chesapeake Energy and Southwestern Energy have delayed the closing of their $7.4 billion merger to the second half of the year after the U.S. Federal Trade Commission sought additional information. This delay follows increased scrutiny by the FTC on multi-billion dollar deals in the oil and gas sector. The combined entity is expected to become the largest independent natural gas exploration and production company in the U.S. by market value and output.",
       "url": "https://www.reuters.com/markets/deals/chesapeake-southwestern-say-deal-delayed-after-second-ftc-request-information-2024-04-05/",
@@ -91,28 +55,28 @@
       "relevance_score": 0.67444
     },
     {
-      "title": "SLB To Acquire ChampionX, Return $7 Billion To Shareholders; CHX Stock Jumps",
-      "summary": "Oilfield services giant SLB announced plans to acquire ChampionX in an all-stock transaction, with ChampionX's board unanimously approving the deal. SLB also intends to return $7 billion to shareholders. Following the announcement, SLB stock eased while ChampionX (CHX) stock, an S&P Midcap 400 component, saw a significant jump.",
-      "url": "https://www.investors.com/news/slb-to-acquire-championx-chx-stock-spikes/",
-      "source": "Investor's Business Daily",
-      "published": "20240403T072600",
-      "overall_sentiment_score": 0.186495,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.010309,
+      "title": "APA Completes $4.5B Acquisition of Callon",
+      "summary": "APA Corp. has finalized its $4.5-billion acquisition of Callon Petroleum Co., significantly boosting its production to approximately 500,000 boepd and expanding its Permian Basin holdings. The merger, approved by shareholders last month, is expected to enhance capital productivity, improve well performance, and generate substantial cost synergies. As part of the deal, Callon board chair Matthew Bob and former Bank of America Merrill Lynch vice chair Anya Weaving have been appointed to APA's board of directors.",
+      "url": "https://www.rigzone.com/news/apa_completes_45b_acquisition_of_callon-03-apr-2024-176284-article/",
+      "source": "Rigzone",
+      "published": "20240403T042600",
+      "overall_sentiment_score": 0.108474,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.122288,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.613703
+      "relevance_score": 0.645663
     },
     {
-      "title": "Chemical recycling plants are on the rise. What does it mean for MRF operators?",
-      "summary": "Chemical recycling plants are increasing, presenting new opportunities and challenges for Materials Recovery Facility (MRF) operators. These plants seek \"hard-to-recycle\" plastics as feedstock, potentially transforming how MRFs process and market certain materials. However, the market's long-term viability and transparency issues regarding chemical recyclers' operations and environmental impact remain key concerns.",
-      "url": "https://www.wastedive.com/news/chemical-recycling-collection-plastic-rumpke-eastman-cyclyx/711551/",
-      "source": "Waste Dive",
-      "published": "20240401T000000",
-      "overall_sentiment_score": 0.292694,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.218319,
+      "title": "Global Partners Closes $212MM Acquisition of 4 Gulf Oil Terminals",
+      "summary": "Global Partners LP has completed a $212.3 million acquisition of four liquid energy terminals from Gulf Oil Limited Partnership, strategically located in the Northeast. This acquisition expands Global's storage and distribution capabilities for gasoline, distillates, and ethanol, adding approximately 3.0 million barrels in shell capacity. This follows another major acquisition in December 2023 of 25 liquid energy terminals from Motiva Enterprises LLC, significantly expanding Global's operational footprint across the USA.",
+      "url": "https://www.rigzone.com/news/global_partners_closes_212mm_acquisition_of_4_gulf_oil_terminals-11-apr-2024-176371-article/",
+      "source": "Rigzone",
+      "published": "20240411T035700",
+      "overall_sentiment_score": 0.391398,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.338864,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.616834
+      "relevance_score": 0.642968
     },
     {
       "title": "NVIDIA’s Rapid Rise Fueled by Chip Giants TSMC and SK Hynix",
@@ -127,16 +91,52 @@
       "relevance_score": 0.64264
     },
     {
-      "title": "General Motors recognizes top global suppliers at Supplier of the Year event",
-      "summary": "General Motors recognized 86 global suppliers with its annual Supplier of the Year award and an additional eight with Overdrive Awards for exceeding expectations. The selection process emphasizes performance, innovation, and alignment with GM's values, including safety, inclusion, and relationships. This recognition highlights the critical role these suppliers play in GM's transformation towards an all-electric future and its commitment to quality vehicles.",
-      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2024/apr/0411-supplier.html",
-      "source": "General Motors",
-      "published": "20240411T000000",
-      "overall_sentiment_score": 0.28862,
+      "title": "Chemical recycling plants are on the rise. What does it mean for MRF operators?",
+      "summary": "Chemical recycling plants are increasing, presenting new opportunities and challenges for Materials Recovery Facility (MRF) operators. These plants seek \"hard-to-recycle\" plastics as feedstock, potentially transforming how MRFs process and market certain materials. However, the market's long-term viability and transparency issues regarding chemical recyclers' operations and environmental impact remain key concerns.",
+      "url": "https://www.wastedive.com/news/chemical-recycling-collection-plastic-rumpke-eastman-cyclyx/711551/",
+      "source": "Waste Dive",
+      "published": "20240401T000000",
+      "overall_sentiment_score": 0.292694,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.300031,
+      "ticker_sentiment_score": 0.218319,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.735154
+      "relevance_score": 0.616834
+    },
+    {
+      "title": "SLB To Acquire ChampionX, Return $7 Billion To Shareholders; CHX Stock Jumps",
+      "summary": "Oilfield services giant SLB announced plans to acquire ChampionX in an all-stock transaction, with ChampionX's board unanimously approving the deal. SLB also intends to return $7 billion to shareholders. Following the announcement, SLB stock eased while ChampionX (CHX) stock, an S&P Midcap 400 component, saw a significant jump.",
+      "url": "https://www.investors.com/news/slb-to-acquire-championx-chx-stock-spikes/",
+      "source": "Investor's Business Daily",
+      "published": "20240403T072600",
+      "overall_sentiment_score": 0.186495,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.010309,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.613703
+    },
+    {
+      "title": "M&T Bank Earnings: A Steady Start to 2024",
+      "summary": "M&T Bank reported a decent start to 2024 with revenue in line with expectations and adjusted EPS topping estimates. The bank increased its full-year 2024 net interest income guidance and is proactively building its allowance for future losses. Despite some pressure in nonauto dealer loans, credit metrics appear mostly healthy, and the bank maintains its narrow moat rating and $160 fair value estimate.",
+      "url": "https://www.morningstar.com/stocks/mt-bank-earnings-steady-start-2024",
+      "source": "Morningstar",
+      "published": "20240415T000000",
+      "overall_sentiment_score": 0.219833,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.104356,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.600583
+    },
+    {
+      "title": "FAST Earnings: Fastenal reports modest growth in Q1 revenue and profit",
+      "summary": "Fastenal Company (NASDAQ: FAST) announced its first-quarter 2024 financial results, reporting a modest growth in revenue and net income. The company's net income reached $297.7 million, or $0.52 per share, on net sales of $1.90 billion, which was a 2% increase year-over-year despite negative impacts from adverse weather conditions. Fastenal also expanded its presence by signing 102 new onsite locations, ending the quarter with 1,872 active sites.",
+      "url": "https://news.alphastreet.com/fast-earnings-fastenal-reports-modest-growth-in-q1-revenue-and-profit/",
+      "source": "AlphaStreet",
+      "published": "20240411T000000",
+      "overall_sentiment_score": -0.093613,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.317195,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.597992
     }
   ]
 }

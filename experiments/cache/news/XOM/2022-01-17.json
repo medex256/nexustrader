@@ -19,18 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Beyond Local: Imperial Oil continues to innovate bitumen extraction while reducing environmental impact",
-      "summary": "Imperial Oil is advancing its bitumen extraction methods at its Cold Lake Operations to improve environmental performance. The company is implementing technologies like LASER and SA-SAGD to reduce greenhouse gas emissions and water usage, with the first phase of the SA-SAGD expansion project expected to produce 15,000 barrels per day by 2023. These innovations aim to increase efficiency and reduce the environmental impact of heavy oil recovery.",
-      "url": "https://www.stalbertgazette.com/beyond-local/imperial-oil-continues-to-innovate-bitumen-extraction-while-reducing-environmental-impact-4959702",
-      "source": "St. Albert Gazette",
-      "published": "20220116T071500",
-      "overall_sentiment_score": 0.379924,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.348194,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.611828
-    },
-    {
       "title": "Exxon plans to shut Baytown, Texas, crude unit by late next week -sources",
       "summary": "Exxon Mobil Corp plans to shut down the 135,000-bpd Pipestill-7 crude distillation unit (CDU) at its Baytown, Texas refinery by late next week for a planned overhaul. This comes as the refinery, Exxon's largest in the U.S., continues to operate at reduced levels following a December 23 explosion.",
       "url": "https://www.reuters.com/business/energy/exxon-plans-shut-baytown-texas-crude-unit-by-late-next-week-sources-2022-01-14/",
@@ -41,54 +29,6 @@
       "ticker_sentiment_score": -0.131947,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 1.0
-    },
-    {
-      "title": "W&T Offshore expands in Gulf of Mexico with $47M acquisition",
-      "summary": "W&T Offshore is expanding its operations in the Gulf of Mexico through a new $47 million acquisition. CEO Tracy Krohn stated that the current environment for acquisitions in the Gulf remains favorable. This move highlights the company's continued investment and growth strategy in the region.",
-      "url": "https://www.bizjournals.com/houston/news/2022/01/13/w-t-offshore-shallow-acquisition-deal.html",
-      "source": "The Business Journals",
-      "published": "20220113T191646",
-      "overall_sentiment_score": 0.184362,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.104232,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.581634
-    },
-    {
-      "title": "AT&T Shares Deserve a Return Call",
-      "summary": "AT&T is considered significantly undervalued despite an expected dividend cut, offering an attractive yield after refocusing on its core communications business. The planned spin-off of WarnerMedia into Warner Bros. Discovery provides shareholders with shares in a new media company while allowing AT&T to invest heavily in its wireless and fixed-line networks. Investors relying on the current dividend may be disappointed, but the strategic shifts position the company for future growth and a competitive dividend yield even post-cut.",
-      "url": "https://www.morningstar.com/stocks/att-shares-deserve-return-call",
-      "source": "Morningstar",
-      "published": "20220113T184646",
-      "overall_sentiment_score": 0.195925,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.091649,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.51741
-    },
-    {
-      "title": "Exxon, Imperial Oil to market up to $1 billion in Canadian assets",
-      "summary": "Exxon Mobil and its affiliate Imperial Oil Ltd are planning to sell shale oil and gas properties in Western Canada, which could fetch between $500 million and $1 billion. This divestiture would make oil sands their largest Canadian onshore production business and is part of a broader effort by Exxon to sell smaller operations to pay down debt. XTO Energy Canada, jointly owned by Exxon and Imperial Oil, currently pumps about 9,000 barrels of liquids and 140 million cubic feet of natural gas per day in Canada.",
-      "url": "https://www.reuters.com/business/energy/canadas-imperial-oil-market-xto-energy-interests-2022-01-12/",
-      "source": "Reuters",
-      "published": "20220112T235200",
-      "overall_sentiment_score": 0.142507,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.118533,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.949686
-    },
-    {
-      "title": "Commodities Notched Their Best Year Since 2009, Despite Precious Metals Weakness",
-      "summary": "Commodities experienced their best year since 2009, with the Bloomberg Commodity Spot Index gaining 27% in 2021, driven largely by energy prices. Precious metals, however, were the worst-performing category, with gold down 3.6% blamed on expectations of the Federal Reserve raising interest rates. The article highlights the resurgence of fossil fuels due to increased demand and discusses various market trends across emerging markets, energy, and digital currencies.",
-      "url": "https://www.usfunds.com/resource/commodities-notched-their-best-year-since-2009-despite-precious-metals-weakness/",
-      "source": "U.S. Global Investors",
-      "published": "20220107T165545",
-      "overall_sentiment_score": 0.146822,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.24654,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.558888
     },
     {
       "title": "Iraq to acquire Exxon Mobil's stake in West Qurna oilfield -minister",
@@ -103,16 +43,16 @@
       "relevance_score": 1.0
     },
     {
-      "title": "DI People: JCPenney, 7-Eleven, Recode Therapeutics, Hawkeye, PCCI, and Others Make Moves",
-      "summary": "This article details numerous executive appointments and promotions across various companies in North Texas, including JCPenney, 7-Eleven, Recode Therapeutics, Hawkeye, and PwC. Key moves include new CEOs for Hawkeye, Harver, and Recode Therapeutics, and significant leadership changes in e-commerce, technology, and operations at other notable firms, reflecting a dynamic period of innovation and growth in the region.",
-      "url": "https://dallasinnovates.com/di-people-jcpenney-7-eleven-recode-therapeutics-hawkeye-pcci-and-others-make-moves-2/",
-      "source": "Dallas Innovates",
-      "published": "20220114T162215",
-      "overall_sentiment_score": 0.183895,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.12859,
+      "title": "Exxon, Imperial Oil to market up to $1 billion in Canadian assets",
+      "summary": "Exxon Mobil and its affiliate Imperial Oil Ltd are planning to sell shale oil and gas properties in Western Canada, which could fetch between $500 million and $1 billion. This divestiture would make oil sands their largest Canadian onshore production business and is part of a broader effort by Exxon to sell smaller operations to pay down debt. XTO Energy Canada, jointly owned by Exxon and Imperial Oil, currently pumps about 9,000 barrels of liquids and 140 million cubic feet of natural gas per day in Canada.",
+      "url": "https://www.reuters.com/business/energy/canadas-imperial-oil-market-xto-energy-interests-2022-01-12/",
+      "source": "Reuters",
+      "published": "20220112T235200",
+      "overall_sentiment_score": 0.142507,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.118533,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.588526
+      "relevance_score": 0.949686
     },
     {
       "title": "Insight: Harmful soot unchecked as Big Oil battles EPA over testing",
@@ -137,6 +77,66 @@
       "ticker_sentiment_score": 0.251924,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.618295
+    },
+    {
+      "title": "Beyond Local: Imperial Oil continues to innovate bitumen extraction while reducing environmental impact",
+      "summary": "Imperial Oil is advancing its bitumen extraction methods at its Cold Lake Operations to improve environmental performance. The company is implementing technologies like LASER and SA-SAGD to reduce greenhouse gas emissions and water usage, with the first phase of the SA-SAGD expansion project expected to produce 15,000 barrels per day by 2023. These innovations aim to increase efficiency and reduce the environmental impact of heavy oil recovery.",
+      "url": "https://www.stalbertgazette.com/beyond-local/imperial-oil-continues-to-innovate-bitumen-extraction-while-reducing-environmental-impact-4959702",
+      "source": "St. Albert Gazette",
+      "published": "20220116T071500",
+      "overall_sentiment_score": 0.379924,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.348194,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.611828
+    },
+    {
+      "title": "DI People: JCPenney, 7-Eleven, Recode Therapeutics, Hawkeye, PCCI, and Others Make Moves",
+      "summary": "This article details numerous executive appointments and promotions across various companies in North Texas, including JCPenney, 7-Eleven, Recode Therapeutics, Hawkeye, and PwC. Key moves include new CEOs for Hawkeye, Harver, and Recode Therapeutics, and significant leadership changes in e-commerce, technology, and operations at other notable firms, reflecting a dynamic period of innovation and growth in the region.",
+      "url": "https://dallasinnovates.com/di-people-jcpenney-7-eleven-recode-therapeutics-hawkeye-pcci-and-others-make-moves-2/",
+      "source": "Dallas Innovates",
+      "published": "20220114T162215",
+      "overall_sentiment_score": 0.183895,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.12859,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.588526
+    },
+    {
+      "title": "W&T Offshore expands in Gulf of Mexico with $47M acquisition",
+      "summary": "W&T Offshore is expanding its operations in the Gulf of Mexico through a new $47 million acquisition. CEO Tracy Krohn stated that the current environment for acquisitions in the Gulf remains favorable. This move highlights the company's continued investment and growth strategy in the region.",
+      "url": "https://www.bizjournals.com/houston/news/2022/01/13/w-t-offshore-shallow-acquisition-deal.html",
+      "source": "The Business Journals",
+      "published": "20220113T191646",
+      "overall_sentiment_score": 0.184362,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.104232,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.581634
+    },
+    {
+      "title": "Commodities Notched Their Best Year Since 2009, Despite Precious Metals Weakness",
+      "summary": "Commodities experienced their best year since 2009, with the Bloomberg Commodity Spot Index gaining 27% in 2021, driven largely by energy prices. Precious metals, however, were the worst-performing category, with gold down 3.6% blamed on expectations of the Federal Reserve raising interest rates. The article highlights the resurgence of fossil fuels due to increased demand and discusses various market trends across emerging markets, energy, and digital currencies.",
+      "url": "https://www.usfunds.com/resource/commodities-notched-their-best-year-since-2009-despite-precious-metals-weakness/",
+      "source": "U.S. Global Investors",
+      "published": "20220107T165545",
+      "overall_sentiment_score": 0.146822,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.24654,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.558888
+    },
+    {
+      "title": "AT&T Shares Deserve a Return Call",
+      "summary": "AT&T is considered significantly undervalued despite an expected dividend cut, offering an attractive yield after refocusing on its core communications business. The planned spin-off of WarnerMedia into Warner Bros. Discovery provides shareholders with shares in a new media company while allowing AT&T to invest heavily in its wireless and fixed-line networks. Investors relying on the current dividend may be disappointed, but the strategic shifts position the company for future growth and a competitive dividend yield even post-cut.",
+      "url": "https://www.morningstar.com/stocks/att-shares-deserve-return-call",
+      "source": "Morningstar",
+      "published": "20220113T184646",
+      "overall_sentiment_score": 0.195925,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.091649,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.51741
     }
   ]
 }

@@ -7,16 +7,16 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "AMD launches MI300, claims AI performance lead over Nvidia ...",
-      "summary": "AMD has launched its Instinct MI300 series data center AI accelerators and ROCm 6 software stack, claiming a significant performance advantage over Nvidia's H100. The MI300 series comes in two variants, MI300x and MI300A, offering substantial memory and processing power for AI and high-performance computing. AMD highlights strong demand and adoption by major tech companies, positioning the MI300 as a leading solution for generative AI.",
-      "url": "https://www.eenewseurope.com/en/amd-launches-mi300-claims-ai-performance-lead-over-nvidia/",
-      "source": "eeNews Europe",
-      "published": "20231210T000000",
-      "overall_sentiment_score": 0.229863,
+      "title": "NVIDIA Corporation (NVDA) Morgan Stanley Raises Target Forecast",
+      "summary": "Morgan Stanley has increased its 12-month target price for NVIDIA Corporation (NVDA) from $235.00 to $250.00, while re-iterating an \"Overweight\" rating. This upgrade indicates strong confidence in NVIDIA's fundamentals, driven by AI and data-center demand, despite market concerns about U.S.–China export restrictions and competitive pressures. The target hike acts as a counterweight to bearish sentiment, suggesting the recent stock pullback may be overdone relative to NVIDIA’s long-term earnings potential.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/36399114/nvidia-corporation-nvda-morgan-stanley-raises-target-forecast/",
+      "source": "The Globe and Mail",
+      "published": "20231201T232400",
+      "overall_sentiment_score": 0.225914,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.149839,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.870007
+      "ticker_sentiment_score": 0.401155,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "Opinion: AMD’s new products represent the first real threat to Nvidia’s AI dominance",
@@ -31,52 +31,16 @@
       "relevance_score": 0.876378
     },
     {
-      "title": "AMD's highly anticipated MI300X AI chips hit general availability along with new Ryzen 8040 CPUs",
-      "summary": "AMD announced the general availability of its new Instinct MI300X series data center AI accelerators and the Ryzen 8040 Series chips for smaller devices, marking a significant push into the AI market to challenge Nvidia. The MI300X series focuses on generative AI workloads and HPC performance, supported by launch partners like Microsoft, Oracle, and Meta, while the Ryzen 8040 CPUs bring AI capabilities directly to personal computers. AMD also introduced the ROCm 6 open software stack and previewed next-generation \"Strix Point\" CPUs, emphasizing AI as a top priority.",
-      "url": "https://siliconangle.com/2023/12/06/amds-highly-anticipated-mi300x-ai-chips-hit-general-availability-along-new-ryzen-8040-cpus/",
-      "source": "SiliconANGLE",
-      "published": "20231206T150000",
-      "overall_sentiment_score": 0.398483,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.232071,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.82779
-    },
-    {
-      "title": "Oracle Recognized as a Leader in the 2023 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services",
-      "summary": "Oracle has been recognized as a Leader in the 2023 Gartner Magic Quadrant for Strategic Cloud Platform Services, highlighting its growth and position among global hyperscale cloud providers. The recognition underscores Oracle's distributed cloud strategy, which offers flexibility, performance, and built-in security for diverse customer needs, including specialized offerings like Oracle Database@Azure and Oracle EU Sovereign Cloud. OCI's robust infrastructure also supports AI integration, offering advanced generative AI capabilities across its applications and database portfolio.",
-      "url": "https://www.oracle.com/news/announcement/oracle-recognized-as-a-leader-in-the-2023-gartner-magic-quadrant-for-strategic-cloud-platform-services-2023-12-06/",
-      "source": "Oracle",
-      "published": "20231206T145603",
-      "overall_sentiment_score": 0.266931,
+      "title": "AMD launches MI300, claims AI performance lead over Nvidia ...",
+      "summary": "AMD has launched its Instinct MI300 series data center AI accelerators and ROCm 6 software stack, claiming a significant performance advantage over Nvidia's H100. The MI300 series comes in two variants, MI300x and MI300A, offering substantial memory and processing power for AI and high-performance computing. AMD highlights strong demand and adoption by major tech companies, positioning the MI300 as a leading solution for generative AI.",
+      "url": "https://www.eenewseurope.com/en/amd-launches-mi300-claims-ai-performance-lead-over-nvidia/",
+      "source": "eeNews Europe",
+      "published": "20231210T000000",
+      "overall_sentiment_score": 0.229863,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.22893,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.644949
-    },
-    {
-      "title": "NVIDIA Corporation (NVDA) Morgan Stanley Raises Target Forecast",
-      "summary": "Morgan Stanley has increased its 12-month target price for NVIDIA Corporation (NVDA) from $235.00 to $250.00, while re-iterating an \"Overweight\" rating. This upgrade indicates strong confidence in NVIDIA's fundamentals, driven by AI and data-center demand, despite market concerns about U.S.–China export restrictions and competitive pressures. The target hike acts as a counterweight to bearish sentiment, suggesting the recent stock pullback may be overdone relative to NVIDIA’s long-term earnings potential.",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/36399114/nvidia-corporation-nvda-morgan-stanley-raises-target-forecast/",
-      "source": "The Globe and Mail",
-      "published": "20231201T232400",
-      "overall_sentiment_score": 0.225914,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.401155,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "One ETF that focuses on employee happiness is outperforming the market this year",
-      "summary": "An ETF focused on companies with high employee happiness, the Harbor Human Capital Factor U.S. Large Cap ETF (HAPI), has outperformed the S&P 500 this year, climbing nearly 25% compared to the benchmark's less than 20% gain. The fund's strategy is based on Irrational Capital's extensive employee surveys and publicly available data, creating a \"human capital score\" that is considered a novel and uncorrelated investment factor. While the large-cap HAPI fund includes major tech stocks contributing to its performance, a similar small-cap ETF (HAPS) is also available, offering potential for future growth.",
-      "url": "https://www.cnbc.com/2023/12/01/one-etf-focused-on-employee-happiness-is-beating-the-market-in-2023.html",
-      "source": "CNBC",
-      "published": "20231201T150300",
-      "overall_sentiment_score": 0.330288,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.344677,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.614696
+      "ticker_sentiment_score": -0.149839,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.870007
     },
     {
       "title": "AMD releases new chips to power faster AI training",
@@ -91,6 +55,18 @@
       "relevance_score": 0.836165
     },
     {
+      "title": "AMD's highly anticipated MI300X AI chips hit general availability along with new Ryzen 8040 CPUs",
+      "summary": "AMD announced the general availability of its new Instinct MI300X series data center AI accelerators and the Ryzen 8040 Series chips for smaller devices, marking a significant push into the AI market to challenge Nvidia. The MI300X series focuses on generative AI workloads and HPC performance, supported by launch partners like Microsoft, Oracle, and Meta, while the Ryzen 8040 CPUs bring AI capabilities directly to personal computers. AMD also introduced the ROCm 6 open software stack and previewed next-generation \"Strix Point\" CPUs, emphasizing AI as a top priority.",
+      "url": "https://siliconangle.com/2023/12/06/amds-highly-anticipated-mi300x-ai-chips-hit-general-availability-along-new-ryzen-8040-cpus/",
+      "source": "SiliconANGLE",
+      "published": "20231206T150000",
+      "overall_sentiment_score": 0.398483,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.232071,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.82779
+    },
+    {
       "title": "Netflix Stock Breaks Below 20-Day Moving Average Amid Selloff. Should You Buy the Dip?",
       "summary": "Netflix (NFLX) is experiencing a selloff, trading below its 20-day moving average, following Reed Hastings' sale of over 375,000 shares. This sale is not seen as negative as it was prearranged and Hastings maintains significant ownership, but technical indicators suggest bearish momentum with potential further declines. Despite this, Wall Street retains a \"Moderate Buy\" rating with a target price indicating significant upside.",
       "url": "https://www.barchart.com/story/news/36439846/netflix-stock-breaks-below-20-day-moving-average-amid-selloff-should-you-buy-the-dip",
@@ -101,6 +77,30 @@
       "ticker_sentiment_score": 0.106909,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.645924
+    },
+    {
+      "title": "Oracle Recognized as a Leader in the 2023 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services",
+      "summary": "Oracle has been recognized as a Leader in the 2023 Gartner Magic Quadrant for Strategic Cloud Platform Services, highlighting its growth and position among global hyperscale cloud providers. The recognition underscores Oracle's distributed cloud strategy, which offers flexibility, performance, and built-in security for diverse customer needs, including specialized offerings like Oracle Database@Azure and Oracle EU Sovereign Cloud. OCI's robust infrastructure also supports AI integration, offering advanced generative AI capabilities across its applications and database portfolio.",
+      "url": "https://www.oracle.com/news/announcement/oracle-recognized-as-a-leader-in-the-2023-gartner-magic-quadrant-for-strategic-cloud-platform-services-2023-12-06/",
+      "source": "Oracle",
+      "published": "20231206T145603",
+      "overall_sentiment_score": 0.266931,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.22893,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.644949
+    },
+    {
+      "title": "One ETF that focuses on employee happiness is outperforming the market this year",
+      "summary": "An ETF focused on companies with high employee happiness, the Harbor Human Capital Factor U.S. Large Cap ETF (HAPI), has outperformed the S&P 500 this year, climbing nearly 25% compared to the benchmark's less than 20% gain. The fund's strategy is based on Irrational Capital's extensive employee surveys and publicly available data, creating a \"human capital score\" that is considered a novel and uncorrelated investment factor. While the large-cap HAPI fund includes major tech stocks contributing to its performance, a similar small-cap ETF (HAPS) is also available, offering potential for future growth.",
+      "url": "https://www.cnbc.com/2023/12/01/one-etf-focused-on-employee-happiness-is-beating-the-market-in-2023.html",
+      "source": "CNBC",
+      "published": "20231201T150300",
+      "overall_sentiment_score": 0.330288,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.344677,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.614696
     },
     {
       "title": "Why Investors Should Keep An Eye on Small-Cap Stocks",

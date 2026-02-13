@@ -7,28 +7,28 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "Asesoramos en la reestructuración de pasivos financieros de San Antonio Internacional S.A. y Servicios Especiales San Antonio S.A.",
-      "summary": "Bruchou & Funes de Rioja advised a consortium of banks on the financial debt restructuring of San Antonio Internacional S.A. and Servicios Especiales San Antonio S.A., totaling approximately $7 billion. The restructuring involved three distinct transactions, including debt cancellation with a write-off, a syndicated refinancing agreement, and a separate refinancing deal. The firm also provided tax advice, and other legal and financial advisors were involved in the process.",
-      "url": "https://bruchoufunes.com/asesoramos-en-la-reestructuracion-de-pasivos-financieros-de-san-antonio-internacional-s-a-y-servicios-especiales-san-antonio-s-a/",
-      "source": "Bruchou & Funes de Rioja",
-      "published": "20221230T161158",
-      "overall_sentiment_score": 0.299795,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.273904,
+      "title": "BlackRock, Citigroup among firms named as fossil-fuel boycotters by Kentucky",
+      "summary": "Kentucky has named 11 financial institutions, including BlackRock, Citigroup, and JPMorgan Chase & Co., as fossil-fuel boycotters, requiring state entities to divest from them. This action stems from a state law aimed at combating what Kentucky Treasurer Allison Ball calls \"energy company boycotts\" and reflects a broader GOP pushback against ESG investing. The listed firms have an opportunity to clarify their positions to avoid divestment, though some, like BlackRock and JPMorgan, assert their significant investments in the energy sector.",
+      "url": "https://www.investmentnews.com/regulation-and-legislation/blackrock-citigroup-among-firms-named-as-fossil-fuel-boycotters-by-kentucky/232337",
+      "source": "InvestmentNews",
+      "published": "20230104T000000",
+      "overall_sentiment_score": 0.085355,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.226236,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.530787
+      "relevance_score": 0.889946
     },
     {
-      "title": "'Banking while Black': Woman wins casino jackpot, but Livonia bank won't cash check",
-      "summary": "Lizzie Pugh, a 71-year-old Black woman, is suing Fifth Third Bank in Livonia, Michigan, after employees allegedly refused to cash her five-figure casino jackpot check, claiming it was fraudulent. Pugh, a Detroit public schools retiree, eventually deposited the check at a Chase bank, where it cleared the next day. Her lawsuit alleges blatant racism, and her attorney describes the incident as \"Banking while Black.\"",
-      "url": "https://www.freep.com/story/news/local/michigan/wayne/2022/09/05/black-woman-sues-bank-casino-check/65469311007/",
-      "source": "Detroit Free Press",
+      "title": "Hedging Against Currency Swings Separates Winners From Losers This Year",
+      "summary": "This article discusses how hedging against currency swings, particularly with the strengthening dollar, has become crucial for investors in overseas stocks. The rising dollar can significantly impact returns for US-based investors holding international equities, as it erodes gains when foreign currencies are converted back to fewer dollars. The article highlights that investors can use stock funds that hedge currency exposure to mitigate this effect.",
+      "url": "https://www.wsj.com/articles/hedging-against-currency-swings-separates-winners-from-losers-this-year-11667732554?gaa_at=eafs&gaa_n=AWEtsqdpI2n9Z7veFbteIfWBLZ3eSXhXAW6i1BpO3o2gV-R3DuZjiC4vmqiy&gaa_ts=69078c90&gaa_sig=Ojb_qqwmq-mdHzpffmZjs1qPM5yBXtCxXQMtQRwIGdDsRwMvbCCF-zB873DS6Zur4pefv2JORZoVF-8sYQy2yA%3D%3D",
+      "source": "The Wall Street Journal",
       "published": "20221231T235959",
-      "overall_sentiment_score": -0.342479,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.126413,
+      "overall_sentiment_score": 0.111708,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.112999,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.616258
+      "relevance_score": 0.648896
     },
     {
       "title": "Billionaire George Kaiser’s Bank Drills Deeper Into the Oil Patch",
@@ -41,6 +41,30 @@
       "ticker_sentiment_score": 0.116146,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.641065
+    },
+    {
+      "title": "Fake Caller ID in utility shut-off scam cost Troy woman $700 via Zelle",
+      "summary": "A Troy woman lost $700 in a utility shut-off scam after scammers spoofed DTE Energy's caller ID and demanded Zelle payment. This incident highlights a growing trend of utility imposter scams where fraudsters pressure victims into immediate payments via money transfer apps like Zelle, which offer no protection for authorized payments. Authorities and utility companies urge consumers to be vigilant, verify calls, and never provide banking information unless they initiate the contact to a known legitimate number.",
+      "url": "https://www.freep.com/story/money/personal-finance/susan-tompor/2022/05/05/zelle-caller-id-utility-scam/9613693002/",
+      "source": "Detroit Free Press",
+      "published": "20221231T235959",
+      "overall_sentiment_score": -0.211967,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.121783,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.639082
+    },
+    {
+      "title": "'Banking while Black': Woman wins casino jackpot, but Livonia bank won't cash check",
+      "summary": "Lizzie Pugh, a 71-year-old Black woman, is suing Fifth Third Bank in Livonia, Michigan, after employees allegedly refused to cash her five-figure casino jackpot check, claiming it was fraudulent. Pugh, a Detroit public schools retiree, eventually deposited the check at a Chase bank, where it cleared the next day. Her lawsuit alleges blatant racism, and her attorney describes the incident as \"Banking while Black.\"",
+      "url": "https://www.freep.com/story/news/local/michigan/wayne/2022/09/05/black-woman-sues-bank-casino-check/65469311007/",
+      "source": "Detroit Free Press",
+      "published": "20221231T235959",
+      "overall_sentiment_score": -0.342479,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.126413,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.616258
     },
     {
       "title": "Goldman junior bankers are publicly threatening to leave Wall Street for tech as CEO demands full-time return to office",
@@ -67,6 +91,18 @@
       "relevance_score": 0.599861
     },
     {
+      "title": "Asesoramos en la reestructuración de pasivos financieros de San Antonio Internacional S.A. y Servicios Especiales San Antonio S.A.",
+      "summary": "Bruchou & Funes de Rioja advised a consortium of banks on the financial debt restructuring of San Antonio Internacional S.A. and Servicios Especiales San Antonio S.A., totaling approximately $7 billion. The restructuring involved three distinct transactions, including debt cancellation with a write-off, a syndicated refinancing agreement, and a separate refinancing deal. The firm also provided tax advice, and other legal and financial advisors were involved in the process.",
+      "url": "https://bruchoufunes.com/asesoramos-en-la-reestructuracion-de-pasivos-financieros-de-san-antonio-internacional-s-a-y-servicios-especiales-san-antonio-s-a/",
+      "source": "Bruchou & Funes de Rioja",
+      "published": "20221230T161158",
+      "overall_sentiment_score": 0.299795,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.273904,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.530787
+    },
+    {
       "title": "U.S.V.I. Sues JPMorgan Chase for Facilitating Epstein Trafficking",
       "summary": "The U.S. Virgin Islands has filed a lawsuit against JPMorgan Chase, alleging the bank facilitated Jeffrey Epstein's sex trafficking enterprise. The lawsuit claims JPMorgan Chase knowingly, negligently, and unlawfully provided financial services crucial to Epstein's operation, despite numerous red flags regarding his activities. The government seeks damages, punitive damages, restitution, and injunctive relief for the bank's alleged violations of federal and Virgin Islands laws, including the Trafficking Victims Protection Act and the Bank Secrecy Act.",
       "url": "https://www.taxnotes.com/lr/resolve/tax-notes-today-federal/u-s-v-i-sues-jpmorgan-chase-for-facilitating-epstein-trafficking/7grs7",
@@ -77,42 +113,6 @@
       "ticker_sentiment_score": 0.044007,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.32975
-    },
-    {
-      "title": "BlackRock, Citigroup among firms named as fossil-fuel boycotters by Kentucky",
-      "summary": "Kentucky has named 11 financial institutions, including BlackRock, Citigroup, and JPMorgan Chase & Co., as fossil-fuel boycotters, requiring state entities to divest from them. This action stems from a state law aimed at combating what Kentucky Treasurer Allison Ball calls \"energy company boycotts\" and reflects a broader GOP pushback against ESG investing. The listed firms have an opportunity to clarify their positions to avoid divestment, though some, like BlackRock and JPMorgan, assert their significant investments in the energy sector.",
-      "url": "https://www.investmentnews.com/regulation-and-legislation/blackrock-citigroup-among-firms-named-as-fossil-fuel-boycotters-by-kentucky/232337",
-      "source": "InvestmentNews",
-      "published": "20230104T000000",
-      "overall_sentiment_score": 0.085355,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.226236,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.889946
-    },
-    {
-      "title": "Hedging Against Currency Swings Separates Winners From Losers This Year",
-      "summary": "This article discusses how hedging against currency swings, particularly with the strengthening dollar, has become crucial for investors in overseas stocks. The rising dollar can significantly impact returns for US-based investors holding international equities, as it erodes gains when foreign currencies are converted back to fewer dollars. The article highlights that investors can use stock funds that hedge currency exposure to mitigate this effect.",
-      "url": "https://www.wsj.com/articles/hedging-against-currency-swings-separates-winners-from-losers-this-year-11667732554?gaa_at=eafs&gaa_n=AWEtsqdpI2n9Z7veFbteIfWBLZ3eSXhXAW6i1BpO3o2gV-R3DuZjiC4vmqiy&gaa_ts=69078c90&gaa_sig=Ojb_qqwmq-mdHzpffmZjs1qPM5yBXtCxXQMtQRwIGdDsRwMvbCCF-zB873DS6Zur4pefv2JORZoVF-8sYQy2yA%3D%3D",
-      "source": "The Wall Street Journal",
-      "published": "20221231T235959",
-      "overall_sentiment_score": 0.111708,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.112999,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.648896
-    },
-    {
-      "title": "Fake Caller ID in utility shut-off scam cost Troy woman $700 via Zelle",
-      "summary": "A Troy woman lost $700 in a utility shut-off scam after scammers spoofed DTE Energy's caller ID and demanded Zelle payment. This incident highlights a growing trend of utility imposter scams where fraudsters pressure victims into immediate payments via money transfer apps like Zelle, which offer no protection for authorized payments. Authorities and utility companies urge consumers to be vigilant, verify calls, and never provide banking information unless they initiate the contact to a known legitimate number.",
-      "url": "https://www.freep.com/story/money/personal-finance/susan-tompor/2022/05/05/zelle-caller-id-utility-scam/9613693002/",
-      "source": "Detroit Free Press",
-      "published": "20221231T235959",
-      "overall_sentiment_score": -0.211967,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.121783,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.639082
     }
   ]
 }

@@ -7,16 +7,40 @@
   "article_count": 16,
   "articles": [
     {
-      "title": "Sea Change",
-      "summary": "The author, with 53 years in investment, identifies three \"sea changes\" in the investment world: the shift to risk/return thinking in the 70s, the four-decade decline in interest rates starting in the early 80s, and the current reversal of these trends. The memo details how declining rates fueled investment success and how the current environment of higher inflation and interest rates marks a significant departure from the recent past, necessitating new investment strategies.",
-      "url": "https://www.oaktreecapital.com/insights/memo/sea-change",
-      "source": "Oaktree Capital Management",
-      "published": "20221213T175626",
-      "overall_sentiment_score": 0.114129,
+      "title": "J.P. Morgan looks to offer active ETF focused on China",
+      "summary": "J.P. Morgan is planning to launch an actively managed Exchange Traded Fund (ETF) that will focus its investments on China. This initiative by J.P. Morgan indicates a strategic move to offer investors specialized exposure to the Chinese market through an ETF structure. The announcement was made by Kathie O'Donnell on December 5, 2022.",
+      "url": "https://www.pionline.com/exchange-traded-funds/jp-morgan-looks-offer-active-etf-focused-china/",
+      "source": "Pensions & Investments",
+      "published": "20221205T180900",
+      "overall_sentiment_score": 0.122066,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.14958,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.622746
+      "ticker_sentiment_score": 0.215519,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "J.P. Morgan and Lincoln Financial Merge Insurance Trust Funds, Joining Forces to Enhance Offerings in the Variable Insurance Trust Space",
+      "summary": "J.P. Morgan Asset Management and Lincoln Financial Group announced a strengthened partnership to merge four JPMorgan Insurance Trust Portfolios into newly formed series of Lincoln Financial Variable Insurance Products Trust. This initiative aims to enhance Lincoln's variable insurance, retirement, and annuity solutions platform by incorporating J.P. Morgan's investment capabilities. J.P. Morgan will serve as the subadvisor for the acquiring funds, continuing to manage them with their existing portfolio management teams.",
+      "url": "https://www.prnewswire.com/news-releases/jp-morgan-and-lincoln-financial-merge-insurance-trust-funds-joining-forces-to-enhance-offerings-in-the-variable-insurance-trust-space-301706247.html",
+      "source": "PR Newswire",
+      "published": "20221219T110500",
+      "overall_sentiment_score": 0.38328,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.338754,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.948107
+    },
+    {
+      "title": "Mutual Fund to ETF Conversions May Accelerate, CFRA Says",
+      "summary": "The article discusses the accelerating trend of mutual fund to ETF conversions, with CFRA predicting a \"tidal wave\" in 2023. It highlights the advantages of ETFs, such as tax efficiency and lower costs, and details the historical growth of ETFs compared to mutual funds. Over $40 billion in mutual funds have already converted, led by firms like JPMorgan and Dimensional, driven by changes like the SEC's 2019 \"ETF Rule.\"",
+      "url": "https://www.etf.com/sections/etfcom-analysis/mutual-fund-etf-conversions-may-accelerate-cfra-says",
+      "source": "ETF.com",
+      "published": "20221213T171624",
+      "overall_sentiment_score": 0.239962,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.306393,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.864534
     },
     {
       "title": "NYCB to keep HQ on Long Island, unify brands under Flagstar name after $2.6B merger",
@@ -31,16 +55,64 @@
       "relevance_score": 0.649208
     },
     {
-      "title": "First Trust/abrdn Emerging Opportunity Fund Announces Termination and Liquidation",
-      "summary": "The First Trust/abrdn Emerging Opportunity Fund (NYSE: FEO) completed its termination and liquidation on December 7, 2022, as consistent with its plan announced on September 20, 2022. Shareholders received a liquidating distribution of $9.635572 per common share. Investors are advised to consult a tax advisor regarding the tax implications of this liquidation.",
-      "url": "https://markets.financialcontent.com/lethbridgeherald/article/bizwire-2022-12-8-first-trustabrdn-emerging-opportunity-fund-announces-termination-and-liquidation",
-      "source": "FinancialContent",
-      "published": "20221208T092500",
-      "overall_sentiment_score": 0.082726,
+      "title": "Akros Technologies, an AI-powered asset management platform, raises funding from Z Holdings",
+      "summary": "Akros Technologies, an AI-powered asset management platform, has secured $2.3 million from Z Venture Capital, a subsidiary of Z Holdings, bringing its total funding to $6.1 million since 2021. The startup plans to use the funds to scale its AI-driven asset management software and PMaaS product, aiming to onboard over five B2B clients in Q1 2023. Akros's technology reduces fund development costs by over 80% and applies generative AI and GPT-3 NLP to create investment strategies and analyze market data.",
+      "url": "https://techcrunch.com/2022/12/08/akros-technologies-an-ai-powered-asset-management-platform-raises-funding-from-z-holdings/",
+      "source": "TechCrunch",
+      "published": "20221208T160000",
+      "overall_sentiment_score": 0.054031,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.517007,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.604023
+      "ticker_sentiment_score": 0.141333,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.645571
+    },
+    {
+      "title": "BlackRock Plans More ETF Fee Cuts as War of Tiny Trims Rolls On",
+      "summary": "BlackRock Inc., the world's largest ETF issuer, is implementing further fee reductions across eight of its exchange-traded funds amidst the ongoing industry trend of competitive fee cuts. This move impacts several bond and equity ETFs, including the iShares 1-5 Year Investment Grade Corporate Bond ETF, which will see its expense ratio reduced from 0.06% to 0.04%. This strategic decision continues the \"war of tiny trims\" seen across major financial players like Schwab, Vanguard, and State Street.",
+      "url": "https://www.bloomberg.com/news/articles/2022-12-16/blackrock-plans-more-etf-fee-cuts-as-war-of-tiny-trims-rolls-on",
+      "source": "Bloomberg.com",
+      "published": "20221216T151100",
+      "overall_sentiment_score": 0.308465,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.231341,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.635586
+    },
+    {
+      "title": "Delaware District Court: Using Contract Rights to Strategic Advantage Not Grounds for Equitable Subordination in Bankruptcy",
+      "summary": "The U.S. District Court for the District of Delaware affirmed that using contractual rights to strategic advantage is not grounds for equitable subordination in bankruptcy, a ruling welcomed by lenders. The case, *Tilton v. MBIA Inc. (In re Zohar III, Corp.)*, reinforces that courts require a high bar for misconduct, especially for non-insiders, to justify equitable subordination. This decision provides comfort to lenders looking to enforce their contractual rights without undue exposure to broad lender liability claims.",
+      "url": "https://www.jonesday.com/en/insights/2022/12/delaware-district-court-using-contract-rights-to-strategic-advantage-not-grounds-for-equitable-subordination-in-bankrupt",
+      "source": "Jones Day",
+      "published": "20221205T173625",
+      "overall_sentiment_score": 0.076686,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.112417,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62918
+    },
+    {
+      "title": "Entergy New Orleans replenishes storm recovery coffers with $209.3 million issuance",
+      "summary": "Entergy New Orleans (ENO) is issuing approximately $209.3 million in storm recovery bonds to replenish funds depleted by Hurricanes Zeta and Ida. These bonds, secured by storm recovery property, will be repaid through storm recovery charges on ENO's retail electric customers, with the charges adjusted semiannually. Both Moody's and S&P Global Ratings are assigning high ratings to the single tranche issuance, citing ENO's stability and experience as a servicer.",
+      "url": "https://asreport.americanbanker.com/news/entergy-new-orleans-replenishes-storm-recovery-coffers-with-209-3-million-issuance",
+      "source": "Asset Securitization Report",
+      "published": "20221206T130900",
+      "overall_sentiment_score": 0.261046,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.211383,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.625216
+    },
+    {
+      "title": "Sea Change",
+      "summary": "The author, with 53 years in investment, identifies three \"sea changes\" in the investment world: the shift to risk/return thinking in the 70s, the four-decade decline in interest rates starting in the early 80s, and the current reversal of these trends. The memo details how declining rates fueled investment success and how the current environment of higher inflation and interest rates marks a significant departure from the recent past, necessitating new investment strategies.",
+      "url": "https://www.oaktreecapital.com/insights/memo/sea-change",
+      "source": "Oaktree Capital Management",
+      "published": "20221213T175626",
+      "overall_sentiment_score": 0.114129,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.14958,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.622746
     },
     {
       "title": "Vietnam's EV maker Vinfast files for U.S. IPO to fuel global expansion",
@@ -67,42 +139,6 @@
       "relevance_score": 0.614789
     },
     {
-      "title": "J.P. Morgan looks to offer active ETF focused on China",
-      "summary": "J.P. Morgan is planning to launch an actively managed Exchange Traded Fund (ETF) that will focus its investments on China. This initiative by J.P. Morgan indicates a strategic move to offer investors specialized exposure to the Chinese market through an ETF structure. The announcement was made by Kathie O'Donnell on December 5, 2022.",
-      "url": "https://www.pionline.com/exchange-traded-funds/jp-morgan-looks-offer-active-etf-focused-china/",
-      "source": "Pensions & Investments",
-      "published": "20221205T180900",
-      "overall_sentiment_score": 0.122066,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.215519,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "Delaware District Court: Using Contract Rights to Strategic Advantage Not Grounds for Equitable Subordination in Bankruptcy",
-      "summary": "The U.S. District Court for the District of Delaware affirmed that using contractual rights to strategic advantage is not grounds for equitable subordination in bankruptcy, a ruling welcomed by lenders. The case, *Tilton v. MBIA Inc. (In re Zohar III, Corp.)*, reinforces that courts require a high bar for misconduct, especially for non-insiders, to justify equitable subordination. This decision provides comfort to lenders looking to enforce their contractual rights without undue exposure to broad lender liability claims.",
-      "url": "https://www.jonesday.com/en/insights/2022/12/delaware-district-court-using-contract-rights-to-strategic-advantage-not-grounds-for-equitable-subordination-in-bankrupt",
-      "source": "Jones Day",
-      "published": "20221205T173625",
-      "overall_sentiment_score": 0.076686,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.112417,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.62918
-    },
-    {
-      "title": "J.P. Morgan and Lincoln Financial Merge Insurance Trust Funds, Joining Forces to Enhance Offerings in the Variable Insurance Trust Space",
-      "summary": "J.P. Morgan Asset Management and Lincoln Financial Group announced a strengthened partnership to merge four JPMorgan Insurance Trust Portfolios into newly formed series of Lincoln Financial Variable Insurance Products Trust. This initiative aims to enhance Lincoln's variable insurance, retirement, and annuity solutions platform by incorporating J.P. Morgan's investment capabilities. J.P. Morgan will serve as the subadvisor for the acquiring funds, continuing to manage them with their existing portfolio management teams.",
-      "url": "https://www.prnewswire.com/news-releases/jp-morgan-and-lincoln-financial-merge-insurance-trust-funds-joining-forces-to-enhance-offerings-in-the-variable-insurance-trust-space-301706247.html",
-      "source": "PR Newswire",
-      "published": "20221219T110500",
-      "overall_sentiment_score": 0.38328,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.338754,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.948107
-    },
-    {
       "title": "What Will Happen to the Dollar in 2023?",
       "summary": "The U.S. dollar, after a strong performance in 2022, is showing signs of weakening as 2023 approaches, which could introduce new inflation risks, particularly through rising commodity prices. This potential decline is influenced by changing Federal Reserve policies, expecting a slower pace of rate hikes, and improving growth expectations outside the U.S., especially in China. A weaker dollar could benefit exporters and international investments but poses challenges for the Fed by potentially reigniting inflation and increasing import costs.",
       "url": "https://www.morningstar.com/markets/what-will-happen-dollar-2023",
@@ -115,28 +151,28 @@
       "relevance_score": 0.609575
     },
     {
-      "title": "Akros Technologies, an AI-powered asset management platform, raises funding from Z Holdings",
-      "summary": "Akros Technologies, an AI-powered asset management platform, has secured $2.3 million from Z Venture Capital, a subsidiary of Z Holdings, bringing its total funding to $6.1 million since 2021. The startup plans to use the funds to scale its AI-driven asset management software and PMaaS product, aiming to onboard over five B2B clients in Q1 2023. Akros's technology reduces fund development costs by over 80% and applies generative AI and GPT-3 NLP to create investment strategies and analyze market data.",
-      "url": "https://techcrunch.com/2022/12/08/akros-technologies-an-ai-powered-asset-management-platform-raises-funding-from-z-holdings/",
-      "source": "TechCrunch",
-      "published": "20221208T160000",
-      "overall_sentiment_score": 0.054031,
+      "title": "First Trust/abrdn Emerging Opportunity Fund Announces Termination and Liquidation",
+      "summary": "The First Trust/abrdn Emerging Opportunity Fund (NYSE: FEO) completed its termination and liquidation on December 7, 2022, as consistent with its plan announced on September 20, 2022. Shareholders received a liquidating distribution of $9.635572 per common share. Investors are advised to consult a tax advisor regarding the tax implications of this liquidation.",
+      "url": "https://markets.financialcontent.com/lethbridgeherald/article/bizwire-2022-12-8-first-trustabrdn-emerging-opportunity-fund-announces-termination-and-liquidation",
+      "source": "FinancialContent",
+      "published": "20221208T092500",
+      "overall_sentiment_score": 0.082726,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.141333,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.645571
+      "ticker_sentiment_score": 0.517007,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.604023
     },
     {
-      "title": "Wells Fargo Archives",
-      "summary": "This archive of Finovate articles details Wells Fargo's digital transformation efforts, including the launch of its Vantage digital banking platform for commercial clients and the Flex Loan small dollar financing solution. It also covers Wells Fargo's participation in the Akoya Data Access Network for API-based data aggregation and historical analyses of its website design and mobile banking strategies. The collection highlights the bank's initiatives to enhance customer experience, manage short-term cash needs, and improve digital engagement.",
-      "url": "https://finovate.com/category/wells-fargo/",
-      "source": "Finovate",
-      "published": "20221206T191621",
-      "overall_sentiment_score": 0.190576,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.13897,
+      "title": "DFA Lists 2 New ETFs",
+      "summary": "DFA has launched two new actively managed exchange-traded funds (ETFs) focused on core equity. The DFA U.S. Core Equity ETF and the DFA World ex-U.S. Core Equity ETF aim to provide broad market exposure with a systematic investment approach. These new offerings expand DFA's suite of active ETF products.",
+      "url": "https://www.thinkadvisor.com/2022/12/12/dfa-lists-2-new-etfs/",
+      "source": "ThinkAdvisor",
+      "published": "20221212T102800",
+      "overall_sentiment_score": -0.069909,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.14742,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.563528
+      "relevance_score": 0.590218
     },
     {
       "title": "Bank of Hope data breach class action settlement",
@@ -151,52 +187,16 @@
       "relevance_score": 0.587518
     },
     {
-      "title": "Entergy New Orleans replenishes storm recovery coffers with $209.3 million issuance",
-      "summary": "Entergy New Orleans (ENO) is issuing approximately $209.3 million in storm recovery bonds to replenish funds depleted by Hurricanes Zeta and Ida. These bonds, secured by storm recovery property, will be repaid through storm recovery charges on ENO's retail electric customers, with the charges adjusted semiannually. Both Moody's and S&P Global Ratings are assigning high ratings to the single tranche issuance, citing ENO's stability and experience as a servicer.",
-      "url": "https://asreport.americanbanker.com/news/entergy-new-orleans-replenishes-storm-recovery-coffers-with-209-3-million-issuance",
-      "source": "Asset Securitization Report",
-      "published": "20221206T130900",
-      "overall_sentiment_score": 0.261046,
+      "title": "Wells Fargo Archives",
+      "summary": "This archive of Finovate articles details Wells Fargo's digital transformation efforts, including the launch of its Vantage digital banking platform for commercial clients and the Flex Loan small dollar financing solution. It also covers Wells Fargo's participation in the Akoya Data Access Network for API-based data aggregation and historical analyses of its website design and mobile banking strategies. The collection highlights the bank's initiatives to enhance customer experience, manage short-term cash needs, and improve digital engagement.",
+      "url": "https://finovate.com/category/wells-fargo/",
+      "source": "Finovate",
+      "published": "20221206T191621",
+      "overall_sentiment_score": 0.190576,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.211383,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.625216
-    },
-    {
-      "title": "BlackRock Plans More ETF Fee Cuts as War of Tiny Trims Rolls On",
-      "summary": "BlackRock Inc., the world's largest ETF issuer, is implementing further fee reductions across eight of its exchange-traded funds amidst the ongoing industry trend of competitive fee cuts. This move impacts several bond and equity ETFs, including the iShares 1-5 Year Investment Grade Corporate Bond ETF, which will see its expense ratio reduced from 0.06% to 0.04%. This strategic decision continues the \"war of tiny trims\" seen across major financial players like Schwab, Vanguard, and State Street.",
-      "url": "https://www.bloomberg.com/news/articles/2022-12-16/blackrock-plans-more-etf-fee-cuts-as-war-of-tiny-trims-rolls-on",
-      "source": "Bloomberg.com",
-      "published": "20221216T151100",
-      "overall_sentiment_score": 0.308465,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.231341,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.635586
-    },
-    {
-      "title": "Mutual Fund to ETF Conversions May Accelerate, CFRA Says",
-      "summary": "The article discusses the accelerating trend of mutual fund to ETF conversions, with CFRA predicting a \"tidal wave\" in 2023. It highlights the advantages of ETFs, such as tax efficiency and lower costs, and details the historical growth of ETFs compared to mutual funds. Over $40 billion in mutual funds have already converted, led by firms like JPMorgan and Dimensional, driven by changes like the SEC's 2019 \"ETF Rule.\"",
-      "url": "https://www.etf.com/sections/etfcom-analysis/mutual-fund-etf-conversions-may-accelerate-cfra-says",
-      "source": "ETF.com",
-      "published": "20221213T171624",
-      "overall_sentiment_score": 0.239962,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.306393,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.864534
-    },
-    {
-      "title": "DFA Lists 2 New ETFs",
-      "summary": "DFA has launched two new actively managed exchange-traded funds (ETFs) focused on core equity. The DFA U.S. Core Equity ETF and the DFA World ex-U.S. Core Equity ETF aim to provide broad market exposure with a systematic investment approach. These new offerings expand DFA's suite of active ETF products.",
-      "url": "https://www.thinkadvisor.com/2022/12/12/dfa-lists-2-new-etfs/",
-      "source": "ThinkAdvisor",
-      "published": "20221212T102800",
-      "overall_sentiment_score": -0.069909,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.14742,
+      "ticker_sentiment_score": 0.13897,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.590218
+      "relevance_score": 0.563528
     }
   ]
 }

@@ -7,6 +7,90 @@
   "article_count": 12,
   "articles": [
     {
+      "title": "YieldMax Writes Call Options on JPMorgan Chase With JPMO ETF",
+      "summary": "YieldMax has launched the YieldMax JPM Option Income Strategy ETF (JPMO), an actively managed fund that aims to generate monthly income by writing call options on JPMorgan Chase & Co. Corp. (JPM). The fund seeks to harvest compelling yields with capped participation in JPM's price gains and is managed by ZEGA Financial with an expense ratio of 0.99%. This new ETF expands YieldMax's growing suite of option income strategy ETFs.",
+      "url": "https://www.nasdaq.com/articles/yieldmax-writes-call-options-on-jpmorgan-chase-with-jpmo-etf",
+      "source": "Nasdaq",
+      "published": "20230912T060936",
+      "overall_sentiment_score": 0.202245,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.218696,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.856137
+    },
+    {
+      "title": "Bank of America most favored for activism defense in first half of 2023, LSEG data show",
+      "summary": "Bank of America has emerged as the top financial adviser for companies facing activist investors in the first half of 2023, advising on 33 campaigns, according to LSEG data. This marks a significant jump from its fifth-place ranking a year ago, surpassing rivals like Goldman Sachs and JPMorgan Chase. Sidley Austin remained the leading law firm for corporations in defense, while Olshan Frome Wolosky was the busiest working for activists.",
+      "url": "https://www.reuters.com/business/finance/bank-america-most-favored-activism-defense-h1-2023-lseg-data-2023-09-06/",
+      "source": "Reuters",
+      "published": "20230906T193200",
+      "overall_sentiment_score": 0.207758,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.133449,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.717451
+    },
+    {
+      "title": "Broadridge Appoints Paul Simpson as Vice Chairman of Global Technology and Operations Business",
+      "summary": "Broadridge Financial Solutions, Inc. (NYSE: BR) has appointed Paul Simpson as Vice Chairman of its Global Technology and Operations (GTO) business. In this new role, Simpson will leverage his three decades of financial services experience to enhance client focus and accelerate go-to-market initiatives for Broadridge's capital markets and wealth management businesses. He previously served as Global Banking & Markets Operations and Regions Executive for Bank of America.",
+      "url": "https://www.prnewswire.com/news-releases/broadridge-appoints-paul-simpson-as-vice-chairman-of-global-technology-and-operations-business-301925400.html",
+      "source": "PR Newswire",
+      "published": "20230912T163000",
+      "overall_sentiment_score": 0.226559,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.104961,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.648159
+    },
+    {
+      "title": "Smith Douglas Goes Big And Bold With A $100-Mil IPO In The Works",
+      "summary": "Smith Douglas Homes Corp., a 15-year-old homebuilder from Woodstock, GA, has filed for a $100 million initial public offering (IPO) of its Class A common stock, making it the first traditional private builder IPO since January 2021. The move follows its recent acquisition of Houston-based Devon Street Homes and aims to capitalize on a market where tighter credit conditions are stressing other builders. The company plans to use the IPO proceeds to repay borrowings, redeem outstanding units, and for general corporate purposes, focusing on its competitive advantages like an efficient manufacturing platform and a land-light business model to achieve its goal of becoming a $1 billion, 4,000-completion homebuilder by mid-2024.",
+      "url": "https://www.housingwire.com/articles/smith-douglas-goes-big-and-bold-with-a-100-mil-ipo-in-the-works/",
+      "source": "HousingWire",
+      "published": "20230911T082600",
+      "overall_sentiment_score": 0.203117,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.147617,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.647822
+    },
+    {
+      "title": "Pen Factory Sold for $166M",
+      "summary": "JPMorgan Chase & Co. has purchased the Pen Factory, a Santa Monica office property housing Activision Blizzard Inc. and GoodRx Holdings Inc., for approximately $166 million. The 219,571-square-foot Class A office space, previously owned by the California State Retirement Systems, sold for $754 per square foot. This sale occurs shortly before Microsoft's acquisition of Activision.",
+      "url": "https://labusinessjournal.com/real-estate/pen-factory/",
+      "source": "Los Angeles Business Journal",
+      "published": "20230911T144506",
+      "overall_sentiment_score": 0.14378,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.146541,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.645288
+    },
+    {
+      "title": "Klaudio Nikolla Joins Peapack Private as Senior Managing Director, Commercial Private Banker",
+      "summary": "Peapack-Gladstone Financial Corporation and its division, Peapack Private, announced the appointment of Klaudio Nikolla as Senior Managing Director, Commercial Private Banker. Nikolla brings over 16 years of experience, previously serving as Senior Vice President/Head of Commodity Finance for Valley National Bank, where he significantly grew assets. He will contribute to Peapack Private's commercial and industrial lending efforts.",
+      "url": "https://www.globenewswire.com/news-release/2023/09/13/2742624/0/en/Klaudio-Nikolla-Joins-Peapack-Private-as-Senior-Managing-Director-Commercial-Private-Banker.html",
+      "source": "GlobeNewswire",
+      "published": "20230913T100000",
+      "overall_sentiment_score": 0.256732,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.107015,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.64119
+    },
+    {
+      "title": "Dutch Bros Inc. Announces Proposed Public Offering of Class A Common Stock",
+      "summary": "Dutch Bros Inc. announced a proposed underwritten public offering of $300 million of its Class A Common Stock, with an option for underwriters to purchase an additional $45 million. The offering is subject to market conditions and is being made pursuant to an automatic shelf registration statement filed with the SEC. BofA Securities, J.P. Morgan Securities LLC, and Jefferies LLC are acting as lead book-running managers.",
+      "url": "https://www.stocktitan.net/news/BROS/dutch-bros-inc-announces-proposed-public-offering-of-class-a-common-ft88ne34vgnc.html",
+      "source": "Stock Titan",
+      "published": "20230906T161500",
+      "overall_sentiment_score": 0.082622,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.113783,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.640787
+    },
+    {
       "title": "Morgan Stanley kicks off generative AI era on Wall Street with assistant for financial advisors",
       "summary": "Morgan Stanley is launching its AI @ Morgan Stanley Assistant, created with OpenAI's GPT-4, for all financial advisors and their support staff. This tool provides speedy access to a 100,000-document database, aiming to improve client interactions and efficiency by freeing up advisors' time. It marks the first major Wall Street firm to deploy such a bespoke generative AI solution for employees.",
       "url": "https://www.cnbc.com/2023/09/18/morgan-stanley-chatgpt-financial-advisors.html",
@@ -31,40 +115,16 @@
       "relevance_score": 0.612606
     },
     {
-      "title": "Klaudio Nikolla Joins Peapack Private as Senior Managing Director, Commercial Private Banker",
-      "summary": "Peapack-Gladstone Financial Corporation and its division, Peapack Private, announced the appointment of Klaudio Nikolla as Senior Managing Director, Commercial Private Banker. Nikolla brings over 16 years of experience, previously serving as Senior Vice President/Head of Commodity Finance for Valley National Bank, where he significantly grew assets. He will contribute to Peapack Private's commercial and industrial lending efforts.",
-      "url": "https://www.globenewswire.com/news-release/2023/09/13/2742624/0/en/Klaudio-Nikolla-Joins-Peapack-Private-as-Senior-Managing-Director-Commercial-Private-Banker.html",
-      "source": "GlobeNewswire",
-      "published": "20230913T100000",
-      "overall_sentiment_score": 0.256732,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.107015,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.64119
-    },
-    {
-      "title": "Smith Douglas Goes Big And Bold With A $100-Mil IPO In The Works",
-      "summary": "Smith Douglas Homes Corp., a 15-year-old homebuilder from Woodstock, GA, has filed for a $100 million initial public offering (IPO) of its Class A common stock, making it the first traditional private builder IPO since January 2021. The move follows its recent acquisition of Houston-based Devon Street Homes and aims to capitalize on a market where tighter credit conditions are stressing other builders. The company plans to use the IPO proceeds to repay borrowings, redeem outstanding units, and for general corporate purposes, focusing on its competitive advantages like an efficient manufacturing platform and a land-light business model to achieve its goal of becoming a $1 billion, 4,000-completion homebuilder by mid-2024.",
-      "url": "https://www.housingwire.com/articles/smith-douglas-goes-big-and-bold-with-a-100-mil-ipo-in-the-works/",
-      "source": "HousingWire",
-      "published": "20230911T082600",
-      "overall_sentiment_score": 0.203117,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.147617,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.647822
-    },
-    {
-      "title": "Dutch Bros Inc. Announces Proposed Public Offering of Class A Common Stock",
-      "summary": "Dutch Bros Inc. announced a proposed underwritten public offering of $300 million of its Class A Common Stock, with an option for underwriters to purchase an additional $45 million. The offering is subject to market conditions and is being made pursuant to an automatic shelf registration statement filed with the SEC. BofA Securities, J.P. Morgan Securities LLC, and Jefferies LLC are acting as lead book-running managers.",
-      "url": "https://www.stocktitan.net/news/BROS/dutch-bros-inc-announces-proposed-public-offering-of-class-a-common-ft88ne34vgnc.html",
-      "source": "Stock Titan",
-      "published": "20230906T161500",
-      "overall_sentiment_score": 0.082622,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.113783,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.640787
+      "title": "As the BRICS Rise Again, its Funds Fall",
+      "summary": "Despite the BRICS group's recent expansion, equity funds investing in these emerging countries are experiencing significant declines, with many being closed or merged. This trend, which predates the conflict in Ukraine, stems from a decade of investor disinterest and the diverse, often disappointing, economic performances among BRICS nations. The article highlights that fears of the group challenging dollar hegemony are likely exaggerated due to members' competing geopolitical objectives and varied economic interests.",
+      "url": "https://global.morningstar.com/en-gb/funds/as-the-brics-rise-again-its-funds-fall",
+      "source": "Morningstar Canada",
+      "published": "20230906T000000",
+      "overall_sentiment_score": -0.328022,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.44879,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.608001
     },
     {
       "title": "BlackRock lists Singapore's largest-ever equity ETF at record US$426m to drive climate action",
@@ -79,42 +139,6 @@
       "relevance_score": 0.559833
     },
     {
-      "title": "Broadridge Appoints Paul Simpson as Vice Chairman of Global Technology and Operations Business",
-      "summary": "Broadridge Financial Solutions, Inc. (NYSE: BR) has appointed Paul Simpson as Vice Chairman of its Global Technology and Operations (GTO) business. In this new role, Simpson will leverage his three decades of financial services experience to enhance client focus and accelerate go-to-market initiatives for Broadridge's capital markets and wealth management businesses. He previously served as Global Banking & Markets Operations and Regions Executive for Bank of America.",
-      "url": "https://www.prnewswire.com/news-releases/broadridge-appoints-paul-simpson-as-vice-chairman-of-global-technology-and-operations-business-301925400.html",
-      "source": "PR Newswire",
-      "published": "20230912T163000",
-      "overall_sentiment_score": 0.226559,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.104961,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.648159
-    },
-    {
-      "title": "YieldMax Writes Call Options on JPMorgan Chase With JPMO ETF",
-      "summary": "YieldMax has launched the YieldMax JPM Option Income Strategy ETF (JPMO), an actively managed fund that aims to generate monthly income by writing call options on JPMorgan Chase & Co. Corp. (JPM). The fund seeks to harvest compelling yields with capped participation in JPM's price gains and is managed by ZEGA Financial with an expense ratio of 0.99%. This new ETF expands YieldMax's growing suite of option income strategy ETFs.",
-      "url": "https://www.nasdaq.com/articles/yieldmax-writes-call-options-on-jpmorgan-chase-with-jpmo-etf",
-      "source": "Nasdaq",
-      "published": "20230912T060936",
-      "overall_sentiment_score": 0.202245,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.218696,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.856137
-    },
-    {
-      "title": "Pen Factory Sold for $166M",
-      "summary": "JPMorgan Chase & Co. has purchased the Pen Factory, a Santa Monica office property housing Activision Blizzard Inc. and GoodRx Holdings Inc., for approximately $166 million. The 219,571-square-foot Class A office space, previously owned by the California State Retirement Systems, sold for $754 per square foot. This sale occurs shortly before Microsoft's acquisition of Activision.",
-      "url": "https://labusinessjournal.com/real-estate/pen-factory/",
-      "source": "Los Angeles Business Journal",
-      "published": "20230911T144506",
-      "overall_sentiment_score": 0.14378,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.146541,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.645288
-    },
-    {
       "title": "ETFs to Note as Hedge Funds Trim Short Bets on Regional Banks",
       "summary": "Hedge funds are reducing their short positions on regional banks, indicating a potential upside for these institutions as fears of further rate hikes subside and the banking crisis fallout diminishes. Investors could consider long positions in regional banks through ETFs like Direxion Daily Regional Banks Bull 3X Shares (DPST) or a broader financial sector play with Direxion Daily Financial Bull 3X ETF (FAS). The iShares U.S. Regional Banks ETF (IAT) shows an upward trend since May, further supporting a more positive outlook for the sector.",
       "url": "https://etftrends.com/leveraged-inverse-channel/etfs-note-hedge-funds-trim-short-bets-regional-banks/",
@@ -125,30 +149,6 @@
       "ticker_sentiment_score": 0.222957,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.553658
-    },
-    {
-      "title": "Bank of America most favored for activism defense in first half of 2023, LSEG data show",
-      "summary": "Bank of America has emerged as the top financial adviser for companies facing activist investors in the first half of 2023, advising on 33 campaigns, according to LSEG data. This marks a significant jump from its fifth-place ranking a year ago, surpassing rivals like Goldman Sachs and JPMorgan Chase. Sidley Austin remained the leading law firm for corporations in defense, while Olshan Frome Wolosky was the busiest working for activists.",
-      "url": "https://www.reuters.com/business/finance/bank-america-most-favored-activism-defense-h1-2023-lseg-data-2023-09-06/",
-      "source": "Reuters",
-      "published": "20230906T193200",
-      "overall_sentiment_score": 0.207758,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.133449,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.717451
-    },
-    {
-      "title": "As the BRICS Rise Again, its Funds Fall",
-      "summary": "Despite the BRICS group's recent expansion, equity funds investing in these emerging countries are experiencing significant declines, with many being closed or merged. This trend, which predates the conflict in Ukraine, stems from a decade of investor disinterest and the diverse, often disappointing, economic performances among BRICS nations. The article highlights that fears of the group challenging dollar hegemony are likely exaggerated due to members' competing geopolitical objectives and varied economic interests.",
-      "url": "https://global.morningstar.com/en-gb/funds/as-the-brics-rise-again-its-funds-fall",
-      "source": "Morningstar Canada",
-      "published": "20230906T000000",
-      "overall_sentiment_score": -0.328022,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.44879,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.608001
     }
   ]
 }

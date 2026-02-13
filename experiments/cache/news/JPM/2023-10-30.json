@@ -7,28 +7,28 @@
   "article_count": 17,
   "articles": [
     {
-      "title": "Dallas-Based Spirit Realty Capital Acquired in $9.3 Billion Deal",
-      "summary": "Dallas-based Spirit Realty Capital is being acquired by San Diego-based Realty Income Corporation in an all-stock transaction valued at $9.3 billion. This merger will create a combined company with an enterprise value of approximately $63 billion, enhancing Realty Income's size, scale, and diversification. Spirit shareholders will receive 0.762 newly-issued Realty Income common shares for each Spirit common share they own, resulting in them owning approximately 13% of the combined company.",
-      "url": "https://dallasinnovates.com/dallas-based-spirit-realty-capital-acquired-in-9-3-billion-deal/",
-      "source": "Dallas Innovates",
-      "published": "20231030T152005",
-      "overall_sentiment_score": 0.174508,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.114343,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.618385
+      "title": "Bank of America Voted Best US Sell-Side Research Firm, Ending JPMorgan’s Reign",
+      "summary": "Bank of America Corp. has been voted the best US sell-side research firm in the latest Institutional Investor survey, ending JPMorgan Chase & Co.'s seven-year reign. BofA secured 49 positions in the leaders table, with analysts Craig Siegenthaler and Julien Dumoulin-Smith receiving top honors in their respective fields. JPMorgan followed with 46 spots, and Morgan Stanley with 44.",
+      "url": "https://www.bloomberg.com/news/articles/2023-10-24/bofa-tops-ii-analyst-survey-ending-jpmorgan-s-seven-year-reign",
+      "source": "Bloomberg.com",
+      "published": "20231024T100000",
+      "overall_sentiment_score": 0.094162,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.345056,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.916167
     },
     {
-      "title": "AAA - Alternative Access First Priority CLO Bond ETF Stock Price and Quote",
-      "summary": "This article provides the stock price and quote for AAA - Alternative Access First Priority CLO Bond ETF (AAA), an actively managed ETF focusing on capital preservation and income. It invests primarily in AAA rated first priority debt tranches of U.S. dollar-denominated collateralized loan obligations (CLOs). The page also includes financial data, performance metrics, and recent news headlines related to asset-backed finance and CLOs.",
-      "url": "https://finviz.com/quote.ashx?t=AAA",
-      "source": "Finviz",
-      "published": "20231028T152909",
-      "overall_sentiment_score": 0.128679,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.148311,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.623749
+      "title": "JPMorgan Income ETF (JPIE): JEPI’s cousin is beating BND, TLT",
+      "summary": "The JPMorgan Income ETF (JPIE), a bond fund with over $660 million in assets and a 6.5% yield, is currently outperforming traditional bond ETFs like TLT and BND. Although newer and less stress-tested, JPIE has demonstrated lower volatility and better performance during the 2022 stock market crash and subsequent interest rate hikes. While acknowledging its exposure to junk bonds, the article suggests a small allocation to JPIE could benefit diversified portfolios, especially those employing a 60/40 stock-to-bond approach.",
+      "url": "https://invezz.com/news/2023/10/16/jpmorgan-income-etf-jpie-jepis-cousin-is-beating-bnd-tlt/",
+      "source": "Invezz",
+      "published": "20231016T050917",
+      "overall_sentiment_score": 0.260567,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.202855,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.898886
     },
     {
       "title": "Goldman’s JPMorgan Copycat ETF Launches in ‘Early Days’ of Boom",
@@ -43,28 +43,16 @@
       "relevance_score": 0.885136
     },
     {
-      "title": "Mizuho Securities upgrades Coinbase Global (COIN) to a Buy",
-      "summary": "Mizuho Securities analyst Dan Dolev upgraded Coinbase Global (COIN) to a Buy rating with a price target of $404.00, noting the company's shares closed at $322.76 the day prior. This upgrade follows a reported quarterly revenue of $1.5 billion and a net profit of $1.43 billion for Coinbase. J.P. Morgan also issued a Buy rating, while another analyst reiterated a Hold.",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/COIN/pressreleases/30754984/mizuho-securities-upgrades-coinbase-global-coin-to-a-buy/",
-      "source": "The Globe and Mail",
-      "published": "20231025T132000",
-      "overall_sentiment_score": 0.362469,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.325985,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.624267
-    },
-    {
-      "title": "SEC Fines BlackRock Advisors $2.5M for Disclosure Violation",
-      "summary": "The SEC has fined BlackRock Advisors LLC $2.5 million for misrepresenting one of the assets in its Multi-Sector Income Trust (BIT) fund. From 2015 to 2019, BlackRock inaccurately described Aviron, a company to which BIT had lent nearly $75 million, as a \"well diversified financial services firm,\" when it actually provided film marketing services. BlackRock Advisors discovered and corrected the discrepancy in 2019.",
-      "url": "https://www.planadviser.com/sec-fines-blackrock-advisors-2-5m-disclosure-violation/",
-      "source": "planadviser",
-      "published": "20231025T000000",
-      "overall_sentiment_score": -0.050362,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.132487,
+      "title": "Bank of America's unrealized losses on securities rose to $131.6 bln",
+      "summary": "Bank of America reported an increase in unrealized losses on securities to $131.6 billion in the third quarter, compared to $106 billion in the second quarter. Despite these paper losses, the bank does not anticipate actual losses because it intends to hold these government-guaranteed securities until maturity, a strategy supported by its strong liquidity. This situation highlights the broader issue within the U.S. banking sector, which faces an estimated $650 billion in unrealized losses across securities portfolios due to rising interest rates.",
+      "url": "https://www.reuters.com/business/finance/bank-americas-unrealized-losses-securities-rose-1316-bln-2023-10-17/",
+      "source": "Reuters",
+      "published": "20231017T215800",
+      "overall_sentiment_score": -0.172021,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.130378,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.618035
+      "relevance_score": 0.696775
     },
     {
       "title": "3M raises full-year profit forecast aided by cost cuts, price hikes",
@@ -79,28 +67,16 @@
       "relevance_score": 0.649991
     },
     {
-      "title": "Home BancShares Income Falls 9% in Q3",
-      "summary": "Home BancShares Inc. reported a 9.4% net income decline in the third quarter of 2023, totaling $98.5 million, with deposits continuing to slide amidst a challenging economic environment. Despite the drop, adjusted earnings per share of 47 cents met Wall Street expectations. The bank's net revenue also fell 4.3% to $245.4 million, just shy of forecasts.",
-      "url": "https://www.arkansasbusiness.com/article/home-bancshares-income-falls-9-in-q3/",
-      "source": "Arkansas Business",
-      "published": "20231019T100100",
-      "overall_sentiment_score": -0.249518,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.107908,
+      "title": "Is JPMorgan Diversified Return Emerging Markets Equity ETF (JPEM) a Strong ETF Right Now?",
+      "summary": "The article analyzes the JPMorgan Diversified Return Emerging Markets Equity ETF (JPEM), a smart beta ETF launched in 2015 that tracks the FTSE Emerging Diversified Factor Index. With $291.70 million in assets and a 0.44% expense ratio, JPEM focuses on diversified factor characteristics like value, momentum, and quality. While it offers medium risk and diversifies company-specific risk with 539 holdings, its performance has been moderate, and the article suggests alternatives like IEMG and VWO for investors seeking lower-cost, lower-risk options in the Broad Developed Market ETFs segment.",
+      "url": "https://sg.finance.yahoo.com/news/jpmorgan-diversified-return-emerging-markets-102007952.html",
+      "source": "Yahoo Finance Singapore",
+      "published": "20231017T195811",
+      "overall_sentiment_score": 0.109902,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.122807,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.568172
-    },
-    {
-      "title": "Morgan Stanley shares fall over 6% as wealth management results disappoint",
-      "summary": "Morgan Stanley reported mixed third-quarter results, topping profit expectations due to strong trading revenue but disappointing in its crucial wealth management division. Shares fell over 6% as wealth management revenue missed estimates by more than $200 million and net interest income declined. CEO James Gorman cited a \"mixed\" environment and the attractiveness of money market funds impacting new asset generation in wealth management.",
-      "url": "https://www.cnbc.com/2023/10/18/morgan-stanley-ms-earnings-3q-2023.html",
-      "source": "CNBC",
-      "published": "20231018T070500",
-      "overall_sentiment_score": 0.19895,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.254877,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.619845
+      "relevance_score": 0.640638
     },
     {
       "title": "Goldman Sachs tops estimates on stronger-than-expected bond trading",
@@ -127,64 +103,76 @@
       "relevance_score": 0.629702
     },
     {
-      "title": "Bank of America Voted Best US Sell-Side Research Firm, Ending JPMorgan’s Reign",
-      "summary": "Bank of America Corp. has been voted the best US sell-side research firm in the latest Institutional Investor survey, ending JPMorgan Chase & Co.'s seven-year reign. BofA secured 49 positions in the leaders table, with analysts Craig Siegenthaler and Julien Dumoulin-Smith receiving top honors in their respective fields. JPMorgan followed with 46 spots, and Morgan Stanley with 44.",
-      "url": "https://www.bloomberg.com/news/articles/2023-10-24/bofa-tops-ii-analyst-survey-ending-jpmorgan-s-seven-year-reign",
-      "source": "Bloomberg.com",
-      "published": "20231024T100000",
-      "overall_sentiment_score": 0.094162,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.345056,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.916167
-    },
-    {
-      "title": "Bank of America's unrealized losses on securities rose to $131.6 bln",
-      "summary": "Bank of America reported an increase in unrealized losses on securities to $131.6 billion in the third quarter, compared to $106 billion in the second quarter. Despite these paper losses, the bank does not anticipate actual losses because it intends to hold these government-guaranteed securities until maturity, a strategy supported by its strong liquidity. This situation highlights the broader issue within the U.S. banking sector, which faces an estimated $650 billion in unrealized losses across securities portfolios due to rising interest rates.",
-      "url": "https://www.reuters.com/business/finance/bank-americas-unrealized-losses-securities-rose-1316-bln-2023-10-17/",
-      "source": "Reuters",
-      "published": "20231017T215800",
-      "overall_sentiment_score": -0.172021,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.130378,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.696775
-    },
-    {
-      "title": "Is JPMorgan Diversified Return Emerging Markets Equity ETF (JPEM) a Strong ETF Right Now?",
-      "summary": "The article analyzes the JPMorgan Diversified Return Emerging Markets Equity ETF (JPEM), a smart beta ETF launched in 2015 that tracks the FTSE Emerging Diversified Factor Index. With $291.70 million in assets and a 0.44% expense ratio, JPEM focuses on diversified factor characteristics like value, momentum, and quality. While it offers medium risk and diversifies company-specific risk with 539 holdings, its performance has been moderate, and the article suggests alternatives like IEMG and VWO for investors seeking lower-cost, lower-risk options in the Broad Developed Market ETFs segment.",
-      "url": "https://sg.finance.yahoo.com/news/jpmorgan-diversified-return-emerging-markets-102007952.html",
-      "source": "Yahoo Finance Singapore",
-      "published": "20231017T195811",
-      "overall_sentiment_score": 0.109902,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.122807,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.640638
-    },
-    {
-      "title": "Surveillance: Bank of America Shows How Wall St. Is Diverging From Main St.",
-      "summary": "This article discusses how results from major US banks, particularly Bank of America (BAC), are no longer accurately reflecting the state of the average US consumer. Historically, big bank earnings served as a preliminary indicator for the broader economy, but this trend appears to be changing. The Bloomberg Surveillance newsletter offers insights into this evolving relationship between Wall Street and Main Street.",
-      "url": "https://www.bloomberg.com/news/newsletters/2023-10-17/bofa-bac-stock-what-bank-earnings-say-about-us-consumers-economy",
-      "source": "Bloomberg.com",
-      "published": "20231017T153100",
-      "overall_sentiment_score": -0.067811,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.001184,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.615108
-    },
-    {
-      "title": "JPMorgan Income ETF (JPIE): JEPI’s cousin is beating BND, TLT",
-      "summary": "The JPMorgan Income ETF (JPIE), a bond fund with over $660 million in assets and a 6.5% yield, is currently outperforming traditional bond ETFs like TLT and BND. Although newer and less stress-tested, JPIE has demonstrated lower volatility and better performance during the 2022 stock market crash and subsequent interest rate hikes. While acknowledging its exposure to junk bonds, the article suggests a small allocation to JPIE could benefit diversified portfolios, especially those employing a 60/40 stock-to-bond approach.",
-      "url": "https://invezz.com/news/2023/10/16/jpmorgan-income-etf-jpie-jepis-cousin-is-beating-bnd-tlt/",
-      "source": "Invezz",
-      "published": "20231016T050917",
-      "overall_sentiment_score": 0.260567,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.202855,
+      "title": "Mizuho Securities upgrades Coinbase Global (COIN) to a Buy",
+      "summary": "Mizuho Securities analyst Dan Dolev upgraded Coinbase Global (COIN) to a Buy rating with a price target of $404.00, noting the company's shares closed at $322.76 the day prior. This upgrade follows a reported quarterly revenue of $1.5 billion and a net profit of $1.43 billion for Coinbase. J.P. Morgan also issued a Buy rating, while another analyst reiterated a Hold.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/COIN/pressreleases/30754984/mizuho-securities-upgrades-coinbase-global-coin-to-a-buy/",
+      "source": "The Globe and Mail",
+      "published": "20231025T132000",
+      "overall_sentiment_score": 0.362469,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.325985,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.898886
+      "relevance_score": 0.624267
+    },
+    {
+      "title": "AAA - Alternative Access First Priority CLO Bond ETF Stock Price and Quote",
+      "summary": "This article provides the stock price and quote for AAA - Alternative Access First Priority CLO Bond ETF (AAA), an actively managed ETF focusing on capital preservation and income. It invests primarily in AAA rated first priority debt tranches of U.S. dollar-denominated collateralized loan obligations (CLOs). The page also includes financial data, performance metrics, and recent news headlines related to asset-backed finance and CLOs.",
+      "url": "https://finviz.com/quote.ashx?t=AAA",
+      "source": "Finviz",
+      "published": "20231028T152909",
+      "overall_sentiment_score": 0.128679,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.148311,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.623749
+    },
+    {
+      "title": "Morgan Stanley shares fall over 6% as wealth management results disappoint",
+      "summary": "Morgan Stanley reported mixed third-quarter results, topping profit expectations due to strong trading revenue but disappointing in its crucial wealth management division. Shares fell over 6% as wealth management revenue missed estimates by more than $200 million and net interest income declined. CEO James Gorman cited a \"mixed\" environment and the attractiveness of money market funds impacting new asset generation in wealth management.",
+      "url": "https://www.cnbc.com/2023/10/18/morgan-stanley-ms-earnings-3q-2023.html",
+      "source": "CNBC",
+      "published": "20231018T070500",
+      "overall_sentiment_score": 0.19895,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.254877,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.619845
+    },
+    {
+      "title": "Hartford Funds Jumps on ETF-Conversion Bandwagon",
+      "summary": "Hartford Funds has converted its Hartford Quality Value mutual fund into an actively-managed ETF, the Hartford Quality Value ETF (QUVU), joining a growing trend of mutual fund conversions to ETFs. This move allows the firm to cater to financial advisors seeking lower-cost, more tax-efficient, and user-friendly ETF wrappers. The conversion, which brought $165 million of the original mutual fund's $250 million assets into the QUVU ETF, demonstrates a strategic shift toward the ETF structure to meet evolving investor preferences.",
+      "url": "https://www.etf.com/sections/features/hartford-funds-jumps-etf-conversion-bandwagon",
+      "source": "ETF.com",
+      "published": "20231017T045230",
+      "overall_sentiment_score": 0.328187,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.31926,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.619494
+    },
+    {
+      "title": "Dallas-Based Spirit Realty Capital Acquired in $9.3 Billion Deal",
+      "summary": "Dallas-based Spirit Realty Capital is being acquired by San Diego-based Realty Income Corporation in an all-stock transaction valued at $9.3 billion. This merger will create a combined company with an enterprise value of approximately $63 billion, enhancing Realty Income's size, scale, and diversification. Spirit shareholders will receive 0.762 newly-issued Realty Income common shares for each Spirit common share they own, resulting in them owning approximately 13% of the combined company.",
+      "url": "https://dallasinnovates.com/dallas-based-spirit-realty-capital-acquired-in-9-3-billion-deal/",
+      "source": "Dallas Innovates",
+      "published": "20231030T152005",
+      "overall_sentiment_score": 0.174508,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.114343,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.618385
+    },
+    {
+      "title": "SEC Fines BlackRock Advisors $2.5M for Disclosure Violation",
+      "summary": "The SEC has fined BlackRock Advisors LLC $2.5 million for misrepresenting one of the assets in its Multi-Sector Income Trust (BIT) fund. From 2015 to 2019, BlackRock inaccurately described Aviron, a company to which BIT had lent nearly $75 million, as a \"well diversified financial services firm,\" when it actually provided film marketing services. BlackRock Advisors discovered and corrected the discrepancy in 2019.",
+      "url": "https://www.planadviser.com/sec-fines-blackrock-advisors-2-5m-disclosure-violation/",
+      "source": "planadviser",
+      "published": "20231025T000000",
+      "overall_sentiment_score": -0.050362,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.132487,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.618035
     },
     {
       "title": "An Introduction to Stablecoins",
@@ -199,16 +187,28 @@
       "relevance_score": 0.615792
     },
     {
-      "title": "Hartford Funds Jumps on ETF-Conversion Bandwagon",
-      "summary": "Hartford Funds has converted its Hartford Quality Value mutual fund into an actively-managed ETF, the Hartford Quality Value ETF (QUVU), joining a growing trend of mutual fund conversions to ETFs. This move allows the firm to cater to financial advisors seeking lower-cost, more tax-efficient, and user-friendly ETF wrappers. The conversion, which brought $165 million of the original mutual fund's $250 million assets into the QUVU ETF, demonstrates a strategic shift toward the ETF structure to meet evolving investor preferences.",
-      "url": "https://www.etf.com/sections/features/hartford-funds-jumps-etf-conversion-bandwagon",
-      "source": "ETF.com",
-      "published": "20231017T045230",
-      "overall_sentiment_score": 0.328187,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.31926,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.619494
+      "title": "Surveillance: Bank of America Shows How Wall St. Is Diverging From Main St.",
+      "summary": "This article discusses how results from major US banks, particularly Bank of America (BAC), are no longer accurately reflecting the state of the average US consumer. Historically, big bank earnings served as a preliminary indicator for the broader economy, but this trend appears to be changing. The Bloomberg Surveillance newsletter offers insights into this evolving relationship between Wall Street and Main Street.",
+      "url": "https://www.bloomberg.com/news/newsletters/2023-10-17/bofa-bac-stock-what-bank-earnings-say-about-us-consumers-economy",
+      "source": "Bloomberg.com",
+      "published": "20231017T153100",
+      "overall_sentiment_score": -0.067811,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.001184,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.615108
+    },
+    {
+      "title": "Home BancShares Income Falls 9% in Q3",
+      "summary": "Home BancShares Inc. reported a 9.4% net income decline in the third quarter of 2023, totaling $98.5 million, with deposits continuing to slide amidst a challenging economic environment. Despite the drop, adjusted earnings per share of 47 cents met Wall Street expectations. The bank's net revenue also fell 4.3% to $245.4 million, just shy of forecasts.",
+      "url": "https://www.arkansasbusiness.com/article/home-bancshares-income-falls-9-in-q3/",
+      "source": "Arkansas Business",
+      "published": "20231019T100100",
+      "overall_sentiment_score": -0.249518,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.107908,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.568172
     }
   ]
 }

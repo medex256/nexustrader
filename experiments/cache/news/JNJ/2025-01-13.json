@@ -43,6 +43,30 @@
       "relevance_score": 1.0
     },
     {
+      "title": "10 drugmakers that rule the pharmaceutical industry",
+      "summary": "S&P Global ranked the world's top pharmaceutical companies based on business strength and financial risk. Johnson & Johnson and Roche led the list with excellent business and minimal financial risk profiles. The article details the strengths and weaknesses of 10 major drugmakers, including their revenue, product diversity, and market position.",
+      "url": "https://qz.com/s-p-global-pharma-ratings-1851622593",
+      "source": "Quartz",
+      "published": "20241231T235959",
+      "overall_sentiment_score": 0.134903,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.319803,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.902887
+    },
+    {
+      "title": "Why Takeda no longer has an 'IT department' as part of the drug maker's digital and data transformation",
+      "summary": "Takeda Pharmaceutical, under Chief Data and Technology Officer Gabriele Ricci, has eliminated the term \"IT department\" to emphasize technology as a core business function. The company has substantially reorganized its technology division, bringing most technical work in-house by hiring thousands of engineers and data scientists, and investing heavily in digital and AI transformation to adapt to a volatile pharmaceutical environment. Takeda is actively upskilling its workforce in new technologies, including generative AI tools like \"myAibou,\" and is building and buying AI models while ensuring ethical AI practices.",
+      "url": "https://fortune.com/2024/11/13/takeda-pharmaceutical-tech-ai-gabriele-ricci/",
+      "source": "Fortune",
+      "published": "20241231T235959",
+      "overall_sentiment_score": 0.220546,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.227367,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.766499
+    },
+    {
       "title": "Contineum Therapeutics Completes Enrollment in Phase 2 PIPE-307 VISTA Trial for the Treatment of Relapsing-Remitting Multiple Sclerosis (RRMS)",
       "summary": "Contineum Therapeutics has completed target enrollment of 168 patients for its Phase 2 PIPE-307 VISTA trial for relapsing-remitting multiple sclerosis (RRMS) ahead of schedule. PIPE-307 is an M1 receptor antagonist designed to show evidence of remyelination. Topline data from the trial, expected to conclude in Q3 2025, will assess the drug's safety and efficacy.",
       "url": "https://www.biospace.com/press-releases/contineum-therapeutics-completes-enrollment-in-phase-2-pipe-307-vista-trial-for-the-treatment-of-relapsing-remitting-multiple-sclerosis-rrms",
@@ -53,6 +77,18 @@
       "ticker_sentiment_score": 0.340496,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.730234
+    },
+    {
+      "title": "Partnering with Customers and Leveraging Data to Boost Health",
+      "summary": "Kenvue, spun off from Johnson & Johnson, has focused on leveraging data and strategic partnerships with retailers to optimize its supply chain operations. This approach has led to reduced unloading times, overages, damages, shortages, and improved on-time shipment arrivals. The company utilizes technology, including AI, to enhance order-to-cash processes, automate order intake, improve picking/packing efficiency, and implement a \"Perfect Store\" solution to prevent out-of-stocks at the retail shelf level.",
+      "url": "https://www.inboundlogistics.com/articles/partnering-with-customers-and-leveraging-data-to-boost-health/",
+      "source": "Inbound Logistics",
+      "published": "20241231T235959",
+      "overall_sentiment_score": 0.309752,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.119952,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.708215
     },
     {
       "title": "Moderna | History, Innovation, Challenges, & Facts",
@@ -79,42 +115,6 @@
       "relevance_score": 0.640106
     },
     {
-      "title": "McKesson, Cencora slapped with $266M in damages in Baltimore opioid lawsuit",
-      "summary": "A Baltimore court has ordered McKesson and Cencora (formerly AmerisourceBergen) to pay $266 million in damages to the city for their role in the opioid crisis. The judgment comes after a 2022 ruling that found the two drug distributors liable for causing a public nuisance. This decision adds to billions of dollars already paid by opioid manufacturers and distributors to settle similar lawsuits across the country.",
-      "url": "https://www.msn.com/en-us/money/companies/mckesson-cencora-slapped-with-266m-in-damages-in-baltimore-opioid-lawsuit/ar-AA1u1Eze",
-      "source": "MSN",
-      "published": "20241231T235959",
-      "overall_sentiment_score": -0.48796,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.43868,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.617702
-    },
-    {
-      "title": "Why Takeda no longer has an 'IT department' as part of the drug maker's digital and data transformation",
-      "summary": "Takeda Pharmaceutical, under Chief Data and Technology Officer Gabriele Ricci, has eliminated the term \"IT department\" to emphasize technology as a core business function. The company has substantially reorganized its technology division, bringing most technical work in-house by hiring thousands of engineers and data scientists, and investing heavily in digital and AI transformation to adapt to a volatile pharmaceutical environment. Takeda is actively upskilling its workforce in new technologies, including generative AI tools like \"myAibou,\" and is building and buying AI models while ensuring ethical AI practices.",
-      "url": "https://fortune.com/2024/11/13/takeda-pharmaceutical-tech-ai-gabriele-ricci/",
-      "source": "Fortune",
-      "published": "20241231T235959",
-      "overall_sentiment_score": 0.220546,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.227367,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.766499
-    },
-    {
-      "title": "10 drugmakers that rule the pharmaceutical industry",
-      "summary": "S&P Global ranked the world's top pharmaceutical companies based on business strength and financial risk. Johnson & Johnson and Roche led the list with excellent business and minimal financial risk profiles. The article details the strengths and weaknesses of 10 major drugmakers, including their revenue, product diversity, and market position.",
-      "url": "https://qz.com/s-p-global-pharma-ratings-1851622593",
-      "source": "Quartz",
-      "published": "20241231T235959",
-      "overall_sentiment_score": 0.134903,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.319803,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.902887
-    },
-    {
       "title": "GLP-1 boom makes Eli Lilly the first $1 trillion pharma company",
       "summary": "Eli Lilly has become the first healthcare or pharma company to achieve a $1 trillion valuation, largely driven by the success of its GLP-1 drugs, Mounjaro and Zepbound. The company's market cap has more than doubled that of its closest competitor, Johnson & Johnson, and significantly surpassed rival Novo Nordisk, whose market cap has declined due to slowing sales of its GLP-1 drugs and increased competition from compounded versions. This achievement highlights the transformative impact of the obesity drug market and underscores the importance of innovative drug development and market anticipation in maintaining leadership within the pharmaceutical industry.",
       "url": "https://www.emarketer.com/content/glp-1-boom-makes-eli-lilly-first--1-trillion-pharma-company",
@@ -127,28 +127,16 @@
       "relevance_score": 0.638523
     },
     {
-      "title": "Nina Barton",
-      "summary": "Nina Barton is the Executive Vice President and Group President – Care & Connection at The Clorox Company, a position she assumed in July 2024. In this role, she is responsible for driving the company's Care & Connection businesses, including Brita, Burt’s Bees, Food, Glad, Kingsford and Litter. Barton brings over 25 years of consumer packaged goods experience, previously serving as CEO of Vytalogy Wellness and global chief growth officer at The Kraft Heinz Company.",
-      "url": "https://www.thecloroxcompany.com/company/corporate-governance/executive-team/nina-barton/",
-      "source": "The Clorox Company",
+      "title": "McKesson, Cencora slapped with $266M in damages in Baltimore opioid lawsuit",
+      "summary": "A Baltimore court has ordered McKesson and Cencora (formerly AmerisourceBergen) to pay $266 million in damages to the city for their role in the opioid crisis. The judgment comes after a 2022 ruling that found the two drug distributors liable for causing a public nuisance. This decision adds to billions of dollars already paid by opioid manufacturers and distributors to settle similar lawsuits across the country.",
+      "url": "https://www.msn.com/en-us/money/companies/mckesson-cencora-slapped-with-266m-in-damages-in-baltimore-opioid-lawsuit/ar-AA1u1Eze",
+      "source": "MSN",
       "published": "20241231T235959",
-      "overall_sentiment_score": 0.282157,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.130966,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.572492
-    },
-    {
-      "title": "Partnering with Customers and Leveraging Data to Boost Health",
-      "summary": "Kenvue, spun off from Johnson & Johnson, has focused on leveraging data and strategic partnerships with retailers to optimize its supply chain operations. This approach has led to reduced unloading times, overages, damages, shortages, and improved on-time shipment arrivals. The company utilizes technology, including AI, to enhance order-to-cash processes, automate order intake, improve picking/packing efficiency, and implement a \"Perfect Store\" solution to prevent out-of-stocks at the retail shelf level.",
-      "url": "https://www.inboundlogistics.com/articles/partnering-with-customers-and-leveraging-data-to-boost-health/",
-      "source": "Inbound Logistics",
-      "published": "20241231T235959",
-      "overall_sentiment_score": 0.309752,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.119952,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.708215
+      "overall_sentiment_score": -0.48796,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.43868,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.617702
     },
     {
       "title": "AI revolutionising everything from patient care to health communication: Delhi AIIMS director",
@@ -173,6 +161,18 @@
       "ticker_sentiment_score": -0.127036,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.605865
+    },
+    {
+      "title": "Nina Barton",
+      "summary": "Nina Barton is the Executive Vice President and Group President – Care & Connection at The Clorox Company, a position she assumed in July 2024. In this role, she is responsible for driving the company's Care & Connection businesses, including Brita, Burt’s Bees, Food, Glad, Kingsford and Litter. Barton brings over 25 years of consumer packaged goods experience, previously serving as CEO of Vytalogy Wellness and global chief growth officer at The Kraft Heinz Company.",
+      "url": "https://www.thecloroxcompany.com/company/corporate-governance/executive-team/nina-barton/",
+      "source": "The Clorox Company",
+      "published": "20241231T235959",
+      "overall_sentiment_score": 0.282157,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.130966,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.572492
     }
   ]
 }

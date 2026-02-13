@@ -7,18 +7,6 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "Jabil expects to hit over $8B in net revenue in Q1 of 2022",
-      "summary": "Jabil Inc. (NYSE: JBL) reported strong financial results for the fourth quarter and fiscal year, with net revenue of $7.4 billion and $29.3 billion respectively, despite supply chain challenges. Looking ahead to Q1 2022, the company projects net revenue between $8 billion and $8.6 billion, driven by its diversified business model and opportunities in vehicle electrification, connected healthcare, and infrastructure development. Jabil continues to work with major clients such as Amazon, Tesla, Apple, and Johnson & Johnson.",
-      "url": "https://stpetecatalyst.com/jabil-expects-to-hit-over-8b-in-net-revenue-in-q1-of-2022/",
-      "source": "St Pete Catalyst",
-      "published": "20210929T203627",
-      "overall_sentiment_score": 0.289219,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.202718,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.616585
-    },
-    {
       "title": "Activists Shame Johnson & Johnson over Pharma Greed",
       "summary": "Activists protested at Johnson & Johnson's New Jersey headquarters, demanding the pharmaceutical giant cease \"pandemic profiteering\" and share its vaccine technology. The protest highlighted J&J's decision to shift its one-shot COVID-19 vaccine production from South Africa to Europe while less than 4% of Africans are fully vaccinated. Concerns were also raised about J&J's plan to end nonprofit pricing for its vaccine by the end of 2021.",
       "url": "https://www.aidshealth.org/2021/09/activists-shame-johnson-johnson-over-pharma-greed/",
@@ -31,18 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "New Johnson & Johnson data shows second shot boosts antibodies and protection against COVID-19 – but one dose is still strong against delta variant",
-      "summary": "Johnson & Johnson released new data on its COVID-19 vaccine, confirming that a single dose provides strong protection against the delta variant, with 79% efficacy against infection and 81% against hospitalization based on a real-world study. The data also showed that a booster shot significantly increases antibody levels and protection against moderate to severe disease, raising efficacy to 94% when given two months after the initial dose. While a single dose offers durable protection, boosters are suggested to further enhance the vaccine's effectiveness.",
-      "url": "https://theconversation.com/new-johnson-and-johnson-data-shows-second-shot-boosts-antibodies-and-protection-against-covid-19-but-one-dose-is-still-strong-against-delta-variant-168463",
-      "source": "The Conversation",
-      "published": "20210925T091200",
-      "overall_sentiment_score": 0.017809,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.006515,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.345245
-    },
-    {
       "title": "Johnson & Johnson says additional dose boosts Covid vaccine efficacy",
       "summary": "Johnson & Johnson announced that a global study revealed its Covid-19 vaccine is more effective as a two-dose regimen, showing 75% efficacy against moderate to severe cases globally and 94% in the U.S., with 100% effectiveness against severe disease. The company also stated that the efficacy of its single-shot vaccine does not wane and that a booster dose further enhances protection, submitting this data to the FDA and other regulators. These findings could support broader booster availability and increase the vaccine's usage.",
       "url": "https://www.statnews.com/2021/09/21/johnson-johnson-says-additional-dose-boosts-covid-vaccine-efficacy/",
@@ -53,18 +29,6 @@
       "ticker_sentiment_score": 0.507104,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Seagen, Genmab win speedy FDA approval for cervical cancer drug",
-      "summary": "The FDA has granted accelerated approval to Seagen and Genmab's drug Tivdak for cervical cancer patients whose tumors have relapsed or spread after chemotherapy. Tivdak targets a protein frequently expressed on cancerous cells and is the fourth approval for both companies. The drug's list price is set at approximately $34,000 per month, and further trials are underway to confirm its long-term benefits and effectiveness in combination therapies.",
-      "url": "https://www.biopharmadive.com/news/seagen-genmab-fda-approval-cervical-cancer-tivdak/606926/",
-      "source": "BioPharma Dive",
-      "published": "20210921T202208",
-      "overall_sentiment_score": 0.180206,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.146553,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.726514
     },
     {
       "title": "Johnson & Johnson Says Its Booster Shot Provides Increased Protection From COVID-19",
@@ -103,6 +67,30 @@
       "relevance_score": 0.907706
     },
     {
+      "title": "Seagen, Genmab win speedy FDA approval for cervical cancer drug",
+      "summary": "The FDA has granted accelerated approval to Seagen and Genmab's drug Tivdak for cervical cancer patients whose tumors have relapsed or spread after chemotherapy. Tivdak targets a protein frequently expressed on cancerous cells and is the fourth approval for both companies. The drug's list price is set at approximately $34,000 per month, and further trials are underway to confirm its long-term benefits and effectiveness in combination therapies.",
+      "url": "https://www.biopharmadive.com/news/seagen-genmab-fda-approval-cervical-cancer-tivdak/606926/",
+      "source": "BioPharma Dive",
+      "published": "20210921T202208",
+      "overall_sentiment_score": 0.180206,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.146553,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.726514
+    },
+    {
+      "title": "Jabil expects to hit over $8B in net revenue in Q1 of 2022",
+      "summary": "Jabil Inc. (NYSE: JBL) reported strong financial results for the fourth quarter and fiscal year, with net revenue of $7.4 billion and $29.3 billion respectively, despite supply chain challenges. Looking ahead to Q1 2022, the company projects net revenue between $8 billion and $8.6 billion, driven by its diversified business model and opportunities in vehicle electrification, connected healthcare, and infrastructure development. Jabil continues to work with major clients such as Amazon, Tesla, Apple, and Johnson & Johnson.",
+      "url": "https://stpetecatalyst.com/jabil-expects-to-hit-over-8b-in-net-revenue-in-q1-of-2022/",
+      "source": "St Pete Catalyst",
+      "published": "20210929T203627",
+      "overall_sentiment_score": 0.289219,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.202718,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.616585
+    },
+    {
       "title": "Vicarious Surgical Starts Trading As It Prepares To Launch Its Surgical Robots — And Take On Intuitive",
       "summary": "Vicarious Surgical has gone public via SPAC, trading under the ticker RBOT, with the goal of revolutionizing abdominal surgery with its miniature robotic system. Co-founder and CEO Adam Sachs aims to challenge Intuitive Surgical's dominance in the market. The company plans to use its recent $220 million funding from the SPAC merger for product development, FDA clearance, and projects $1 billion in annual revenue by 2027.",
       "url": "https://www.forbes.com/sites/aayushipratap/2021/09/20/vicarious-surgical-starts-trading-as-it-prepares-to-launch-its-surgical-robots---and-take-on-intuitive/",
@@ -113,6 +101,18 @@
       "ticker_sentiment_score": 0.128999,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.60246
+    },
+    {
+      "title": "New Johnson & Johnson data shows second shot boosts antibodies and protection against COVID-19 – but one dose is still strong against delta variant",
+      "summary": "Johnson & Johnson released new data on its COVID-19 vaccine, confirming that a single dose provides strong protection against the delta variant, with 79% efficacy against infection and 81% against hospitalization based on a real-world study. The data also showed that a booster shot significantly increases antibody levels and protection against moderate to severe disease, raising efficacy to 94% when given two months after the initial dose. While a single dose offers durable protection, boosters are suggested to further enhance the vaccine's effectiveness.",
+      "url": "https://theconversation.com/new-johnson-and-johnson-data-shows-second-shot-boosts-antibodies-and-protection-against-covid-19-but-one-dose-is-still-strong-against-delta-variant-168463",
+      "source": "The Conversation",
+      "published": "20210925T091200",
+      "overall_sentiment_score": 0.017809,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.006515,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.345245
     }
   ]
 }

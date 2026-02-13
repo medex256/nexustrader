@@ -7,54 +7,6 @@
   "article_count": 19,
   "articles": [
     {
-      "title": "Does Your Portfolio Need Private Equity?",
-      "summary": "This article explores whether private equity is a suitable investment for individual investors, highlighting its potential for higher returns but also its complexities and high barriers to entry. It discusses various aspects of private equity, including how its returns are measured, the wide dispersion of returns, and alternative options for gaining exposure to this asset class for different investor profiles. Ultimately, it concludes that while private equity offers potential benefits, its risks and high costs make it generally unsuitable for most individual investors.",
-      "url": "https://www.morningstar.com/portfolios/does-your-portfolio-need-private-equity",
-      "source": "Morningstar",
-      "published": "20220321T180643",
-      "overall_sentiment_score": -0.034921,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.00289,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.646396
-    },
-    {
-      "title": "BNY Mellon expects $100-mln revenue hit in first quarter from Russia pullback",
-      "summary": "BNY Mellon anticipates a $100 million revenue impact in the first quarter and an annual reduction of $80 million to $100 million due to pausing new banking business in Russia. This move follows Russia's invasion of Ukraine and aligns with other companies pulling out of the country. The bank has also halted buying Russian securities under its investment management business.",
-      "url": "https://www.reuters.com/business/finance/bny-mellon-expects-100-mln-revenue-hit-first-quarter-russia-pullback-2022-03-17/",
-      "source": "Reuters",
-      "published": "20220317T085000",
-      "overall_sentiment_score": -0.311294,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.247498,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.700596
-    },
-    {
-      "title": "Metals Acquisition clinches $1.1 billion deal for Glencore’s CSA copper mine",
-      "summary": "Metals Acquisition Corp has secured a $1.1 billion deal to acquire Glencore's CSA copper mine in Australia, outbidding competitors like IGO Ltd. The acquisition provides access to a high-grade copper mine expected to produce 41,000 to 49,000 tonnes of copper annually, capitalizing on strong demand fueled by electric vehicle production. For Glencore, this sale contributes to its business streamlining efforts, with analysts noting the attractive price received for the asset.",
-      "url": "https://www.mining.com/web/metals-acquisition-clinches-1-1-billion-deal-for-glencores-csa-copper-mine/",
-      "source": "Mining.com",
-      "published": "20220317T074100",
-      "overall_sentiment_score": 0.340929,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.210957,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.636208
-    },
-    {
-      "title": "Webroot sues CrowdStrike, Sophos, others over alleged patent infringement",
-      "summary": "Webroot and its parent company OpenText are suing Trend Micro, Sophos, Kaspersky, and CrowdStrike for alleged infringement of several malware detection patents, some dating back to 2005. The lawsuits, filed in the Western District of Texas, claim these defendants infringe upon Webroot's intellectual property related to endpoint security products and platforms. Competitors and observers criticized the move, with CrowdStrike calling it typical of a \"patent troll\" and others viewing it as \"patent bullying.\"",
-      "url": "https://www.thestack.technology/webroot-sues-competitors-for-patent-infringement/",
-      "source": "The Stack",
-      "published": "20220315T180604",
-      "overall_sentiment_score": 0.01074,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.032331,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.601639
-    },
-    {
       "title": "J.P. Morgan agrees to acquire Global Shares, a leading provider of share plan management software",
       "summary": "J.P. Morgan announced an agreement to acquire Global Shares, a cloud-based provider of share plan management software, to bolster its services for corporate clients and expand wealth management client acquisition. The acquisition, which is subject to regulatory approvals and expected to close in the second half of 2022, will integrate Global Shares into J.P. Morgan's Asset & Wealth Management business. Global Shares will retain its headquarters in Cork, Ireland, and continue its growth trajectory with J.P. Morgan's support.",
       "url": "https://www.jpmorganchase.com/newsroom/press-releases/2022/JP-morgan-agrees-to-acquire-global-shares",
@@ -65,30 +17,6 @@
       "ticker_sentiment_score": 0.440081,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "KWEB Aims to Fully Transition to Hong Kong Shares In Coming Months",
-      "summary": "The KraneShares CSI China Internet ETF (KWEB) is transitioning its holdings to Hong Kong-listed counterparts to address delisting risks for Chinese American Depository Receipts (ADRs) under the Holding Foreign Companies Accountable Act (HFCAA). KraneShares expects KWEB's portfolio to be solely comprised of Hong Kong listings by the end of the year, providing daily updates on its conversion progress. This strategy aims to protect client interests amidst unresolved regulatory issues between US and Chinese authorities regarding audit paper access.",
-      "url": "https://kraneshares.com/kweb-aims-to-fully-transition-to-hong-kong-shares-in-coming-months/",
-      "source": "KraneShares",
-      "published": "20220311T172627",
-      "overall_sentiment_score": 0.10134,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.114876,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.561157
-    },
-    {
-      "title": "Stanley Black & Decker shutting down Russian business",
-      "summary": "Stanley Black & Decker announced it is shutting down its business operations in Russia. The toolmaker, with a significant presence in Greater Baltimore, stated it stands in solidarity with the people of Ukraine. This decision follows similar actions by other major companies in response to the conflict.",
-      "url": "https://www.bizjournals.com/baltimore/news/2022/03/10/stanley-black-decker-shuts-down-russia-business.html",
-      "source": "The Business Journals",
-      "published": "20220310T184639",
-      "overall_sentiment_score": -0.070599,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.111323,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.606628
     },
     {
       "title": "JPMorgan joins Goldman Sachs in pulling back from Russia",
@@ -103,16 +31,16 @@
       "relevance_score": 0.977777
     },
     {
-      "title": "JPMorgan is winding down its Russia operations amid widening business exodus over Ukraine war",
-      "summary": "JPMorgan Chase is winding down its operations in Russia, following directives from governments globally and amid a broader business exodus due to the Ukraine war. The bank's remaining dealings in Russia are limited to helping global clients manage existing obligations, risks, and taking care of employees, with fewer than 200 staff primarily in the corporate and investment bank. This move by JPMorgan comes shortly after Goldman Sachs also announced its exit from the country.",
-      "url": "https://www.cnbc.com/2022/03/10/jpmorgan-is-winding-down-its-russia-operations-amid-widening-business-exodus-over-ukraine-war.html",
-      "source": "CNBC",
-      "published": "20220310T150900",
-      "overall_sentiment_score": 0.007056,
+      "title": "JP Morgan AM to merge global emerging market index fund with ESG ETF",
+      "summary": "JP Morgan Asset Management (JPMAM) is merging its $47m Global Emerging Markets Research Enhanced Index Equity fund with the $686m JP Morgan Global Emerging Markets Research Enhanced Index Equity ESG UCITS ETF (JREM), effective May 20. This merger aims to benefit shareholders by combining into a larger ETF with lower total expenses, reducing ongoing charges from 0.40% to 0.30% for investors. JREM is an actively managed ESG ETF that seeks to outperform the MSCI Emerging Market index and is classified as Article 8 under SFDR.",
+      "url": "https://www.etfstream.com/articles/jp-morgan-am-to-merge-global-emerging-market-index-fund-with-esg-etf",
+      "source": "ETF Stream",
+      "published": "20220310T163636",
+      "overall_sentiment_score": 0.148608,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.023487,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.330448
+      "ticker_sentiment_score": 0.255101,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.963868
     },
     {
       "title": "Goldman Sachs becomes first Wall St. firm to exit Russia",
@@ -125,42 +53,6 @@
       "ticker_sentiment_score": -0.075443,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.81057
-    },
-    {
-      "title": "Tetra Tech Appoints Prashant Gandhi as New Board Member",
-      "summary": "Tetra Tech Inc., a Pasadena-based consulting and engineering company, has appointed Prashant Gandhi to its Board of Directors, effective May 1. Mr. Gandhi brings over 20 years of experience in digital systems, data analytics, and digital transformation from his roles at McKinsey and Co., JP Morgan Chase, and Melio Payments. He will serve on the Nominating and Corporate Governance Committee and the Compensation Committee, contributing his expertise to Tetra Tech's strategic focus on expanding its Delta technologies.",
-      "url": "https://pasadenanow.com/main/tetra-tech-appoints-prashant-gandhi-as-new-board-member",
-      "source": "Pasadena Now",
-      "published": "20220309T175100",
-      "overall_sentiment_score": 0.265435,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.104953,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.646147
-    },
-    {
-      "title": "Wells Fargo CEO Scharf's 2021 compensation up by 20% at $24.5 mln",
-      "summary": "Wells Fargo & Co CEO Charles Scharf's total compensation for 2021 increased by nearly 20% to $24.5 million, as disclosed in a regulatory filing. This rise follows a recovery year for the bank, with its shares jumping almost 59% in 2021, and compares to compensation packages of other major Wall Street bank CEOs like JPMorgan Chase & Co's Jamie Dimon and Citigroup Inc's Jane Fraser.",
-      "url": "https://www.reuters.com/business/finance/wells-fargo-ceo-scharfs-2021-compensation-up-by-20-245-mln-2022-03-14/",
-      "source": "Reuters",
-      "published": "20220314T231400",
-      "overall_sentiment_score": 0.117533,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.140964,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.70369
-    },
-    {
-      "title": "JPMorgan Chase Appoints Michael Woodfield as Market Executive for Middle Market Banking in Southern Nevada",
-      "summary": "JPMorgan Chase Commercial Banking announced the appointment of Michael Woodfield as Market Executive of Middle Market Banking & Specialized Industries in southern Nevada. With 17 years of experience, Woodfield will focus on serving the financial needs of middle market companies in the region, leveraging JPMorgan Chase's global capabilities. This appointment aims to strengthen the bank's commitment to businesses in southern Nevada.",
-      "url": "https://nevadabusiness.com/2022/03/jpmorgan-chase-appoints-michael-woodfield-as-market-executive-for-middle-market-banking-in-southern-nevada/",
-      "source": "Nevada Business Magazine",
-      "published": "20220309T171647",
-      "overall_sentiment_score": 0.024295,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.00024,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.337969
     },
     {
       "title": "Rivian is sued for allegedly misleading investors about electric vehicle prices",
@@ -187,28 +79,64 @@
       "relevance_score": 0.734586
     },
     {
-      "title": "Inside Volatility Trading: Sometimes, Smaller is Better",
-      "summary": "This article discusses the Cboe's introduction of \"Nanos,\" a smaller, more affordable index option product designed to make options trading more accessible to a wider range of investors. It highlights the historical trend towards shorter-dated maturities and smaller contract sizes in options trading, emphasizing how Nanos can cater to individual traders with smaller portfolios and lower risk tolerances. The author also touches on the concept of \"VIX Backwardation\" and how starting small is beneficial for learning and adapting in volatile markets.",
-      "url": "https://www.cboe.com/insights/posts/inside-volatility-trading-sometimes-smaller-is-better/",
-      "source": "Cboe Global Markets",
-      "published": "20220315T162156",
-      "overall_sentiment_score": 0.167766,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.134353,
+      "title": "Wells Fargo CEO Scharf's 2021 compensation up by 20% at $24.5 mln",
+      "summary": "Wells Fargo & Co CEO Charles Scharf's total compensation for 2021 increased by nearly 20% to $24.5 million, as disclosed in a regulatory filing. This rise follows a recovery year for the bank, with its shares jumping almost 59% in 2021, and compares to compensation packages of other major Wall Street bank CEOs like JPMorgan Chase & Co's Jamie Dimon and Citigroup Inc's Jane Fraser.",
+      "url": "https://www.reuters.com/business/finance/wells-fargo-ceo-scharfs-2021-compensation-up-by-20-245-mln-2022-03-14/",
+      "source": "Reuters",
+      "published": "20220314T231400",
+      "overall_sentiment_score": 0.117533,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.140964,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.632422
+      "relevance_score": 0.70369
     },
     {
-      "title": "JP Morgan AM to merge global emerging market index fund with ESG ETF",
-      "summary": "JP Morgan Asset Management (JPMAM) is merging its $47m Global Emerging Markets Research Enhanced Index Equity fund with the $686m JP Morgan Global Emerging Markets Research Enhanced Index Equity ESG UCITS ETF (JREM), effective May 20. This merger aims to benefit shareholders by combining into a larger ETF with lower total expenses, reducing ongoing charges from 0.40% to 0.30% for investors. JREM is an actively managed ESG ETF that seeks to outperform the MSCI Emerging Market index and is classified as Article 8 under SFDR.",
-      "url": "https://www.etfstream.com/articles/jp-morgan-am-to-merge-global-emerging-market-index-fund-with-esg-etf",
-      "source": "ETF Stream",
-      "published": "20220310T163636",
-      "overall_sentiment_score": 0.148608,
+      "title": "BNY Mellon expects $100-mln revenue hit in first quarter from Russia pullback",
+      "summary": "BNY Mellon anticipates a $100 million revenue impact in the first quarter and an annual reduction of $80 million to $100 million due to pausing new banking business in Russia. This move follows Russia's invasion of Ukraine and aligns with other companies pulling out of the country. The bank has also halted buying Russian securities under its investment management business.",
+      "url": "https://www.reuters.com/business/finance/bny-mellon-expects-100-mln-revenue-hit-first-quarter-russia-pullback-2022-03-17/",
+      "source": "Reuters",
+      "published": "20220317T085000",
+      "overall_sentiment_score": -0.311294,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.247498,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.700596
+    },
+    {
+      "title": "Does Your Portfolio Need Private Equity?",
+      "summary": "This article explores whether private equity is a suitable investment for individual investors, highlighting its potential for higher returns but also its complexities and high barriers to entry. It discusses various aspects of private equity, including how its returns are measured, the wide dispersion of returns, and alternative options for gaining exposure to this asset class for different investor profiles. Ultimately, it concludes that while private equity offers potential benefits, its risks and high costs make it generally unsuitable for most individual investors.",
+      "url": "https://www.morningstar.com/portfolios/does-your-portfolio-need-private-equity",
+      "source": "Morningstar",
+      "published": "20220321T180643",
+      "overall_sentiment_score": -0.034921,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.255101,
+      "ticker_sentiment_score": 0.00289,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.646396
+    },
+    {
+      "title": "Tetra Tech Appoints Prashant Gandhi as New Board Member",
+      "summary": "Tetra Tech Inc., a Pasadena-based consulting and engineering company, has appointed Prashant Gandhi to its Board of Directors, effective May 1. Mr. Gandhi brings over 20 years of experience in digital systems, data analytics, and digital transformation from his roles at McKinsey and Co., JP Morgan Chase, and Melio Payments. He will serve on the Nominating and Corporate Governance Committee and the Compensation Committee, contributing his expertise to Tetra Tech's strategic focus on expanding its Delta technologies.",
+      "url": "https://pasadenanow.com/main/tetra-tech-appoints-prashant-gandhi-as-new-board-member",
+      "source": "Pasadena Now",
+      "published": "20220309T175100",
+      "overall_sentiment_score": 0.265435,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.104953,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.646147
+    },
+    {
+      "title": "Metals Acquisition clinches $1.1 billion deal for Glencore’s CSA copper mine",
+      "summary": "Metals Acquisition Corp has secured a $1.1 billion deal to acquire Glencore's CSA copper mine in Australia, outbidding competitors like IGO Ltd. The acquisition provides access to a high-grade copper mine expected to produce 41,000 to 49,000 tonnes of copper annually, capitalizing on strong demand fueled by electric vehicle production. For Glencore, this sale contributes to its business streamlining efforts, with analysts noting the attractive price received for the asset.",
+      "url": "https://www.mining.com/web/metals-acquisition-clinches-1-1-billion-deal-for-glencores-csa-copper-mine/",
+      "source": "Mining.com",
+      "published": "20220317T074100",
+      "overall_sentiment_score": 0.340929,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.210957,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.963868
+      "relevance_score": 0.636208
     },
     {
       "title": "Russia risks \"imminent\" default on its debt, Wall Street analysts say",
@@ -223,6 +151,42 @@
       "relevance_score": 0.636098
     },
     {
+      "title": "Inside Volatility Trading: Sometimes, Smaller is Better",
+      "summary": "This article discusses the Cboe's introduction of \"Nanos,\" a smaller, more affordable index option product designed to make options trading more accessible to a wider range of investors. It highlights the historical trend towards shorter-dated maturities and smaller contract sizes in options trading, emphasizing how Nanos can cater to individual traders with smaller portfolios and lower risk tolerances. The author also touches on the concept of \"VIX Backwardation\" and how starting small is beneficial for learning and adapting in volatile markets.",
+      "url": "https://www.cboe.com/insights/posts/inside-volatility-trading-sometimes-smaller-is-better/",
+      "source": "Cboe Global Markets",
+      "published": "20220315T162156",
+      "overall_sentiment_score": 0.167766,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.134353,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.632422
+    },
+    {
+      "title": "Stanley Black & Decker shutting down Russian business",
+      "summary": "Stanley Black & Decker announced it is shutting down its business operations in Russia. The toolmaker, with a significant presence in Greater Baltimore, stated it stands in solidarity with the people of Ukraine. This decision follows similar actions by other major companies in response to the conflict.",
+      "url": "https://www.bizjournals.com/baltimore/news/2022/03/10/stanley-black-decker-shuts-down-russia-business.html",
+      "source": "The Business Journals",
+      "published": "20220310T184639",
+      "overall_sentiment_score": -0.070599,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.111323,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.606628
+    },
+    {
+      "title": "Webroot sues CrowdStrike, Sophos, others over alleged patent infringement",
+      "summary": "Webroot and its parent company OpenText are suing Trend Micro, Sophos, Kaspersky, and CrowdStrike for alleged infringement of several malware detection patents, some dating back to 2005. The lawsuits, filed in the Western District of Texas, claim these defendants infringe upon Webroot's intellectual property related to endpoint security products and platforms. Competitors and observers criticized the move, with CrowdStrike calling it typical of a \"patent troll\" and others viewing it as \"patent bullying.\"",
+      "url": "https://www.thestack.technology/webroot-sues-competitors-for-patent-infringement/",
+      "source": "The Stack",
+      "published": "20220315T180604",
+      "overall_sentiment_score": 0.01074,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.032331,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.601639
+    },
+    {
       "title": "Metals Acquisition clinches $1.1 bln deal for Glencore's CSA copper mine",
       "summary": "Metals Acquisition Corp has acquired Glencore's CSA copper mine in Australia for $1.1 billion, winning a years-long race for the asset. The deal allows Glencore to continue streamlining its portfolio and provides Metals Acquisition access to a high-grade copper mine, a critical commodity for electric vehicle production and the global energy transition. Metals Acquisition will fund the deal through IPO proceeds and debt, with Glencore receiving both cash and shares.",
       "url": "https://www.reuters.com/business/metals-acquisition-buy-csa-copper-mine-glencore-11-bln-2022-03-17/",
@@ -233,6 +197,42 @@
       "ticker_sentiment_score": 0.12293,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.588532
+    },
+    {
+      "title": "KWEB Aims to Fully Transition to Hong Kong Shares In Coming Months",
+      "summary": "The KraneShares CSI China Internet ETF (KWEB) is transitioning its holdings to Hong Kong-listed counterparts to address delisting risks for Chinese American Depository Receipts (ADRs) under the Holding Foreign Companies Accountable Act (HFCAA). KraneShares expects KWEB's portfolio to be solely comprised of Hong Kong listings by the end of the year, providing daily updates on its conversion progress. This strategy aims to protect client interests amidst unresolved regulatory issues between US and Chinese authorities regarding audit paper access.",
+      "url": "https://kraneshares.com/kweb-aims-to-fully-transition-to-hong-kong-shares-in-coming-months/",
+      "source": "KraneShares",
+      "published": "20220311T172627",
+      "overall_sentiment_score": 0.10134,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.114876,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.561157
+    },
+    {
+      "title": "JPMorgan Chase Appoints Michael Woodfield as Market Executive for Middle Market Banking in Southern Nevada",
+      "summary": "JPMorgan Chase Commercial Banking announced the appointment of Michael Woodfield as Market Executive of Middle Market Banking & Specialized Industries in southern Nevada. With 17 years of experience, Woodfield will focus on serving the financial needs of middle market companies in the region, leveraging JPMorgan Chase's global capabilities. This appointment aims to strengthen the bank's commitment to businesses in southern Nevada.",
+      "url": "https://nevadabusiness.com/2022/03/jpmorgan-chase-appoints-michael-woodfield-as-market-executive-for-middle-market-banking-in-southern-nevada/",
+      "source": "Nevada Business Magazine",
+      "published": "20220309T171647",
+      "overall_sentiment_score": 0.024295,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.00024,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.337969
+    },
+    {
+      "title": "JPMorgan is winding down its Russia operations amid widening business exodus over Ukraine war",
+      "summary": "JPMorgan Chase is winding down its operations in Russia, following directives from governments globally and amid a broader business exodus due to the Ukraine war. The bank's remaining dealings in Russia are limited to helping global clients manage existing obligations, risks, and taking care of employees, with fewer than 200 staff primarily in the corporate and investment bank. This move by JPMorgan comes shortly after Goldman Sachs also announced its exit from the country.",
+      "url": "https://www.cnbc.com/2022/03/10/jpmorgan-is-winding-down-its-russia-operations-amid-widening-business-exodus-over-ukraine-war.html",
+      "source": "CNBC",
+      "published": "20220310T150900",
+      "overall_sentiment_score": 0.007056,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.023487,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.330448
     }
   ]
 }

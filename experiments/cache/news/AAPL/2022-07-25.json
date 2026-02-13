@@ -7,66 +7,6 @@
   "article_count": 13,
   "articles": [
     {
-      "title": "Tuya Announces Matter-compatible Solutions in Close Collaboration with Amazon Alexa",
-      "summary": "Tuya Smart announced its collaboration with Amazon Alexa to implement Frustration-Free Setup (FFS) based on the Matter connectivity protocol, aiming to enhance the IoT device setup experience and allow direct Wi-Fi connections to Amazon Echo devices. Tuya, an initial FFS partner for Matter, is participating in interoperability tests with Amazon, Google, and Apple and plans to launch Matter-compatible devices by the end of 2022. The company is committed to promoting universal open standards in IoT and supporting its ecosystem partners in adopting Matter, enabling a wider variety of smart home solutions for consumers.",
-      "url": "https://www.stocktitan.net/news/TUYA/tuya-announces-matter-compatible-solutions-in-close-collaboration-delck7hjae63.html",
-      "source": "Stock Titan",
-      "published": "20220725T085200",
-      "overall_sentiment_score": 0.355273,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.248866,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.59331
-    },
-    {
-      "title": "iRhythm Technologies receives another FDA 510(k) for AFib monitoring system",
-      "summary": "iRhythm Technologies has received another FDA 510(k) clearance for its ZEUS System, developed in partnership with Verily, which monitors atrial fibrillation. The latest clearance is for an algorithm that characterizes the amount of AFib a patient experiences over time using PPG-based bio-signals. The ZEUS System is not yet commercially available but is expected to have a limited market release in 2023.",
-      "url": "https://www.mobihealthnews.com/news/irhythm-technologies-receives-another-fda-510k-afib-monitoring-system",
-      "source": "Mobi Health News",
-      "published": "20220722T130800",
-      "overall_sentiment_score": 0.240348,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.103389,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.622331
-    },
-    {
-      "title": "Netflix Lost Nearly 1 Million Subscribers Last Quarter. Here’s What That Means for Its Future",
-      "summary": "Netflix reported a loss of nearly 1 million subscribers in the second quarter of 2022, compounding its 200,000 subscriber loss from the previous quarter. Despite this, the total loss was less than projected, leading to a temporary stock surge, though shares remain significantly down for the year. In response, Netflix is pursuing efforts like an ad-supported tier and focusing on high-quality original content to drive future growth and revenue.",
-      "url": "https://time.com/6198354/netflix-subscribers-loss-second-quarter-future/",
-      "source": "Time Magazine",
-      "published": "20220720T164100",
-      "overall_sentiment_score": 0.091886,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.097931,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.554923
-    },
-    {
-      "title": "Staple x Fossil Nate Sundial wristwatch",
-      "summary": "The article discusses how Fossil Group Inc. has been significantly impacted by the Apple Watch's release, leading to a substantial drop in its stock price. It highlights the launch of a unique limited-edition Fossil x Staple Nate Sundial watch, questioning whether this collaboration could mark a turnaround for the brand. Fossil's challenges are contrasted with the success of other traditional watch brands that have adapted to the market.",
-      "url": "https://professionalwatches.com/staple-x-fossil-nate-sundial-wristwatch/",
-      "source": "Professional Watches",
-      "published": "20220719T164600",
-      "overall_sentiment_score": -0.218479,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.125996,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.71388
-    },
-    {
-      "title": "Metaverse ETF Full of Long-Term Potential",
-      "summary": "The article discusses the long-term potential of the metaverse as an investment opportunity, particularly through the Fidelity Metaverse ETF (FMET). Despite a challenging year for growth stocks, the metaverse market is projected to grow significantly, reaching trillions by 2030, according to major investment banks. FMET offers a diversified approach to capitalize on this growth, including holdings in major tech companies like Alphabet, Apple, Meta Platforms, and Tencent.",
-      "url": "https://etfdb.com/crypto-channel/metaverse-etf-full-of-long-term-potential/",
-      "source": "ETF Database",
-      "published": "20220725T182726",
-      "overall_sentiment_score": 0.318039,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.250017,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.640093
-    },
-    {
       "title": "Apple, Koss Reach Deal in AirPods Patent Case on Eve of Trial",
       "summary": "Apple Inc. and headphone maker Koss Corp. have reached a settlement in their patent-infringement dispute over Apple's AirPods. The agreement, whose terms were not disclosed, led to the cancellation of a trial that was scheduled to begin in a Texas federal court. Koss had sued Apple, alleging infringement of five technology patents.",
       "url": "https://news.bloomberglaw.com/ip-law/apple-koss-reach-deal-in-airpods-patent-case-on-eve-of-trial",
@@ -77,18 +17,6 @@
       "ticker_sentiment_score": 0.240458,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.952905
-    },
-    {
-      "title": "GM trails far behind Tesla in EV sales — CEO Mary Barra bet the company that will change",
-      "summary": "GM CEO Mary Barra is betting the company's future on electric vehicles, despite currently trailing far behind Tesla in sales. GM plans to invest $30 billion in EVs by 2025, launch 30 electric models globally, and believes its Ultium platform will enable it to surpass Tesla by mid-decade or 2029. Barra's legacy is tied to transforming GM into an electric leader, building on past efforts to make the company leaner and more agile.",
-      "url": "https://www.cnbc.com/2022/07/24/why-ceo-mary-barra-is-confident-gm-can-beat-tesla-in-electric-vehicles.html",
-      "source": "CNBC",
-      "published": "20220724T080000",
-      "overall_sentiment_score": 0.084048,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.04791,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.634996
     },
     {
       "title": "T-Mobile And Apple To Sell Small-business Connectivity Plan",
@@ -103,6 +31,18 @@
       "relevance_score": 0.909478
     },
     {
+      "title": "Metaverse ETF Full of Long-Term Potential",
+      "summary": "Despite recent underperformance by growth stocks, the metaverse investment thesis is still in its early stages, presenting a long-term opportunity. The Fidelity Metaverse ETF (FMET A-) is highlighted as a potentially well-timed investment, given forecasts predicting the metaverse market could grow from $40-60 billion in 2021 to $8-13 trillion by 2030. FMET offers broad exposure to companies like Alphabet, Apple, Meta Platforms, and Tencent, which are integral to the metaverse's growth across various technologies.",
+      "url": "https://etfdb.com/crypto-content-hub/metaverse-etf-full-of-long-term-potential/",
+      "source": "ETF Database",
+      "published": "20220725T145832",
+      "overall_sentiment_score": 0.359498,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.312379,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.734752
+    },
+    {
       "title": "3 Reasons Why Investing in the Nasdaq-100 Is Effective",
       "summary": "This article highlights three core reasons why investing in the Nasdaq-100 is effective for long-term asset management. It explains how index investing, particularly in the Nasdaq-100, offers exposure to rapidly growing, innovative global companies with strong brand power and historically high growth rates. The article details various investment products available, such as mutual funds and ETFs, and discusses strategies like currency hedging and leverage.",
       "url": "https://www.nasdaq.com/articles/3-reasons-why-investing-in-the-nasdaq-100-is-effective",
@@ -113,30 +53,6 @@
       "ticker_sentiment_score": 0.400923,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.724012
-    },
-    {
-      "title": "JPMorgan adds former J&J chief Gorsky to board",
-      "summary": "JPMorgan Chase & Co has elected Alex Gorsky, the former chief executive officer of Johnson & Johnson, as a director of the bank. Gorsky, who is currently an executive chairman at J&J, previously led the development of J&J's COVID-19 vaccine and steered the company through significant crises. His appointment to JPMorgan's board is effective immediately.",
-      "url": "https://www.reuters.com/business/finance/jpmorgan-adds-former-jj-chief-gorsky-board-2022-07-19/",
-      "source": "Reuters",
-      "published": "20220719T204100",
-      "overall_sentiment_score": 0.221794,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.101798,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.640158
-    },
-    {
-      "title": "Verizon Communications Inc. stock rises Friday, still underperforms market",
-      "summary": "Verizon Communications Inc. stock increased by 1.05% on Friday to $51.02, despite a strong day for the broader market indexes. The stock's rise ended a two-day losing streak, yet it still closed short of its 52-week high and underperformed key competitors like Apple, Alphabet, and AT&T. Trading volume for Verizon was lower than its 50-day average.",
-      "url": "https://www.marketwatch.com/data-news/verizon-communications-inc-stock-rises-friday-still-underperforms-market-01657920463-4629fe5278d7?gaa_at=eafs&gaa_n=AWEtsqfrL6bs37BBt143Zfdmxsr_kf1g3WNpmqGQhmBMRJ-pX-t03_CHQR1C&gaa_ts=6907b121&gaa_sig=uOo1omP05N1kxUg3AIxNhbAH3g0BZ4gFWrdg-mXtUbUwJbcftHSBW-DI81D4-a1dSO18lbz9_9RgHJOTgaC7sQ%3D%3D",
-      "source": "MarketWatch",
-      "published": "20220715T172700",
-      "overall_sentiment_score": 0.105318,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.114149,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.61586
     },
     {
       "title": "Unity to Buy IronSource in $4.4 Billion Deal to Boost Ad Tech",
@@ -151,16 +67,100 @@
       "relevance_score": 0.718244
     },
     {
+      "title": "Staple x Fossil Nate Sundial wristwatch",
+      "summary": "The article discusses how Fossil Group Inc. has been significantly impacted by the Apple Watch's release, leading to a substantial drop in its stock price. It highlights the launch of a unique limited-edition Fossil x Staple Nate Sundial watch, questioning whether this collaboration could mark a turnaround for the brand. Fossil's challenges are contrasted with the success of other traditional watch brands that have adapted to the market.",
+      "url": "https://professionalwatches.com/staple-x-fossil-nate-sundial-wristwatch/",
+      "source": "Professional Watches",
+      "published": "20220719T164600",
+      "overall_sentiment_score": -0.218479,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.125996,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.71388
+    },
+    {
+      "title": "JPMorgan adds former J&J chief Gorsky to board",
+      "summary": "JPMorgan Chase & Co has elected Alex Gorsky, the former chief executive officer of Johnson & Johnson, as a director of the bank. Gorsky, who is currently an executive chairman at J&J, previously led the development of J&J's COVID-19 vaccine and steered the company through significant crises. His appointment to JPMorgan's board is effective immediately.",
+      "url": "https://www.reuters.com/business/finance/jpmorgan-adds-former-jj-chief-gorsky-board-2022-07-19/",
+      "source": "Reuters",
+      "published": "20220719T204100",
+      "overall_sentiment_score": 0.221794,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.101798,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.640158
+    },
+    {
       "title": "Metaverse ETF Full of Long-Term Potential",
-      "summary": "Despite recent underperformance by growth stocks, the metaverse investment thesis is still in its early stages, presenting a long-term opportunity. The Fidelity Metaverse ETF (FMET A-) is highlighted as a potentially well-timed investment, given forecasts predicting the metaverse market could grow from $40-60 billion in 2021 to $8-13 trillion by 2030. FMET offers broad exposure to companies like Alphabet, Apple, Meta Platforms, and Tencent, which are integral to the metaverse's growth across various technologies.",
-      "url": "https://etfdb.com/crypto-content-hub/metaverse-etf-full-of-long-term-potential/",
+      "summary": "The article discusses the long-term potential of the metaverse as an investment opportunity, particularly through the Fidelity Metaverse ETF (FMET). Despite a challenging year for growth stocks, the metaverse market is projected to grow significantly, reaching trillions by 2030, according to major investment banks. FMET offers a diversified approach to capitalize on this growth, including holdings in major tech companies like Alphabet, Apple, Meta Platforms, and Tencent.",
+      "url": "https://etfdb.com/crypto-channel/metaverse-etf-full-of-long-term-potential/",
       "source": "ETF Database",
-      "published": "20220725T145832",
-      "overall_sentiment_score": 0.359498,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.312379,
+      "published": "20220725T182726",
+      "overall_sentiment_score": 0.318039,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.250017,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.734752
+      "relevance_score": 0.640093
+    },
+    {
+      "title": "GM trails far behind Tesla in EV sales — CEO Mary Barra bet the company that will change",
+      "summary": "GM CEO Mary Barra is betting the company's future on electric vehicles, despite currently trailing far behind Tesla in sales. GM plans to invest $30 billion in EVs by 2025, launch 30 electric models globally, and believes its Ultium platform will enable it to surpass Tesla by mid-decade or 2029. Barra's legacy is tied to transforming GM into an electric leader, building on past efforts to make the company leaner and more agile.",
+      "url": "https://www.cnbc.com/2022/07/24/why-ceo-mary-barra-is-confident-gm-can-beat-tesla-in-electric-vehicles.html",
+      "source": "CNBC",
+      "published": "20220724T080000",
+      "overall_sentiment_score": 0.084048,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.04791,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.634996
+    },
+    {
+      "title": "iRhythm Technologies receives another FDA 510(k) for AFib monitoring system",
+      "summary": "iRhythm Technologies has received another FDA 510(k) clearance for its ZEUS System, developed in partnership with Verily, which monitors atrial fibrillation. The latest clearance is for an algorithm that characterizes the amount of AFib a patient experiences over time using PPG-based bio-signals. The ZEUS System is not yet commercially available but is expected to have a limited market release in 2023.",
+      "url": "https://www.mobihealthnews.com/news/irhythm-technologies-receives-another-fda-510k-afib-monitoring-system",
+      "source": "Mobi Health News",
+      "published": "20220722T130800",
+      "overall_sentiment_score": 0.240348,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.103389,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.622331
+    },
+    {
+      "title": "Verizon Communications Inc. stock rises Friday, still underperforms market",
+      "summary": "Verizon Communications Inc. stock increased by 1.05% on Friday to $51.02, despite a strong day for the broader market indexes. The stock's rise ended a two-day losing streak, yet it still closed short of its 52-week high and underperformed key competitors like Apple, Alphabet, and AT&T. Trading volume for Verizon was lower than its 50-day average.",
+      "url": "https://www.marketwatch.com/data-news/verizon-communications-inc-stock-rises-friday-still-underperforms-market-01657920463-4629fe5278d7?gaa_at=eafs&gaa_n=AWEtsqfrL6bs37BBt143Zfdmxsr_kf1g3WNpmqGQhmBMRJ-pX-t03_CHQR1C&gaa_ts=6907b121&gaa_sig=uOo1omP05N1kxUg3AIxNhbAH3g0BZ4gFWrdg-mXtUbUwJbcftHSBW-DI81D4-a1dSO18lbz9_9RgHJOTgaC7sQ%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220715T172700",
+      "overall_sentiment_score": 0.105318,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.114149,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.61586
+    },
+    {
+      "title": "Tuya Announces Matter-compatible Solutions in Close Collaboration with Amazon Alexa",
+      "summary": "Tuya Smart announced its collaboration with Amazon Alexa to implement Frustration-Free Setup (FFS) based on the Matter connectivity protocol, aiming to enhance the IoT device setup experience and allow direct Wi-Fi connections to Amazon Echo devices. Tuya, an initial FFS partner for Matter, is participating in interoperability tests with Amazon, Google, and Apple and plans to launch Matter-compatible devices by the end of 2022. The company is committed to promoting universal open standards in IoT and supporting its ecosystem partners in adopting Matter, enabling a wider variety of smart home solutions for consumers.",
+      "url": "https://www.stocktitan.net/news/TUYA/tuya-announces-matter-compatible-solutions-in-close-collaboration-delck7hjae63.html",
+      "source": "Stock Titan",
+      "published": "20220725T085200",
+      "overall_sentiment_score": 0.355273,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.248866,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.59331
+    },
+    {
+      "title": "Netflix Lost Nearly 1 Million Subscribers Last Quarter. Here’s What That Means for Its Future",
+      "summary": "Netflix reported a loss of nearly 1 million subscribers in the second quarter of 2022, compounding its 200,000 subscriber loss from the previous quarter. Despite this, the total loss was less than projected, leading to a temporary stock surge, though shares remain significantly down for the year. In response, Netflix is pursuing efforts like an ad-supported tier and focusing on high-quality original content to drive future growth and revenue.",
+      "url": "https://time.com/6198354/netflix-subscribers-loss-second-quarter-future/",
+      "source": "Time Magazine",
+      "published": "20220720T164100",
+      "overall_sentiment_score": 0.091886,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.097931,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.554923
     }
   ]
 }

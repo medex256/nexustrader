@@ -7,16 +7,16 @@
   "article_count": 10,
   "articles": [
     {
-      "title": "Shell and APA among winners for deepwater oil & gas exploration blocks off Uruguay",
-      "summary": "Uruguay's state-owned oil and gas company ANCAP has awarded deepwater offshore exploration blocks OFF-4 and OFF-5 to a consortium of Shell and APA Corporation, and to Argentina's YPF, respectively. This expands the presence of major international players in Uruguay's offshore oil and gas sector. The total nominal investment for work on these blocks is estimated at $31 million, with ANCAP highlighting that companies bear all exploration risks and costs.",
-      "url": "https://www.offshore-energy.biz/shell-and-apa-among-winners-for-deepwater-oil-gas-exploration-blocks-off-uruguay/",
-      "source": "Offshore Energy",
-      "published": "20230104T000000",
-      "overall_sentiment_score": 0.349816,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.256356,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.650819
+      "title": "Exxon sues EU in move to block new windfall tax on oil companies",
+      "summary": "Exxon Mobil Corp is suing the European Union to block its new windfall tax on oil groups, arguing the levy is \"counter-productive\" and undermines investor confidence. The company warned that the tax could impact future multibillion-euro investments in Europe, while the EU maintains the measure is compliant with its laws and will generate around 25 billion euros for redistribution. Other oil majors like Chevron have also voiced concerns about the tax discouraging energy supply investments.",
+      "url": "https://www.reuters.com/markets/commodities/exxon-sues-eu-move-block-new-windfall-tax-oil-companies-ft-2022-12-28/",
+      "source": "Reuters",
+      "published": "20221229T105400",
+      "overall_sentiment_score": -0.158558,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.316229,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
     },
     {
       "title": "Exxon, Chevron, Shell Report Record Profits on High Energy Prices",
@@ -31,30 +31,6 @@
       "relevance_score": 0.926666
     },
     {
-      "title": "WisdomTree U.S. Dividend Growth Fund (DGRW) Stock Price, Holdings, Dividend Yield",
-      "summary": "This article provides a detailed overview of the WisdomTree U.S. Dividend Growth Fund (DGRW), including its stock price, holdings, and dividend yield. As of the latest N-PORT filing on September 30, 2025, the fund holds 301 stocks with a total value of $16.30 billion, with top holdings being Microsoft, Apple, NVIDIA, Exxon Mobil, and Chevron. The article also presents key statistics, performance data, and historical breakdowns of the fund's portfolio.",
-      "url": "https://www.gurufocus.com/etf/DGRW/summary",
-      "source": "GuruFocus",
-      "published": "20221231T034508",
-      "overall_sentiment_score": 0.225978,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.234907,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.613899
-    },
-    {
-      "title": "Exxon sues EU in move to block new windfall tax on oil companies",
-      "summary": "Exxon Mobil Corp is suing the European Union to block its new windfall tax on oil groups, arguing the levy is \"counter-productive\" and undermines investor confidence. The company warned that the tax could impact future multibillion-euro investments in Europe, while the EU maintains the measure is compliant with its laws and will generate around 25 billion euros for redistribution. Other oil majors like Chevron have also voiced concerns about the tax discouraging energy supply investments.",
-      "url": "https://www.reuters.com/markets/commodities/exxon-sues-eu-move-block-new-windfall-tax-oil-companies-ft-2022-12-28/",
-      "source": "Reuters",
-      "published": "20221229T105400",
-      "overall_sentiment_score": -0.158558,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.316229,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 1.0
-    },
-    {
       "title": "Shell, APA JV, YPF Win Offshore Blocks in Uruguay",
       "summary": "Uruguay's state oil company ANCAP has awarded two offshore blocks to Argentina's YPF and a consortium of Shell and APA, following previous awards in 2020 and 2022. Challenger Energy, an earlier awardee, welcomed the news, highlighting that most available offshore exploration blocks in Uruguay are now licensed, primarily to global oil and gas majors. Challenger also asserts that Uruguay's offshore potential is analogous to significant discoveries in Namibia's Orange Basin, leading to increased interest and substantial investment in the region.",
       "url": "https://www.oedigital.com/news/501940-shell-apa-jv-ypf-win-offshore-blocks-in-uruguay",
@@ -67,40 +43,16 @@
       "relevance_score": 0.684094
     },
     {
-      "title": "Chevron sending two oil tankers to Venezuela under U.S. approval",
-      "summary": "Chevron is sending two oil tankers to Venezuela, with one destined to load the first crude cargo for the U.S. in nearly four years, following U.S. authorization. This move signifies an easing of sanctions as an incentive for Venezuela to engage in political negotiations for a presidential election. Analysts believe the license could become more flexible as political talks progress, potentially allowing Chevron a more significant role in Venezuela's oil production.",
-      "url": "https://www.reuters.com/business/energy/chevron-load-venezuelan-oil-exports-supply-diluents-joint-venture-2022-12-30/",
-      "source": "Reuters",
-      "published": "20221230T192600",
-      "overall_sentiment_score": 0.306659,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.210513,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.622005
-    },
-    {
-      "title": "Woodside, Western Gas Eyeing More Australian Supply, Pluto LNG Exports",
-      "summary": "Woodside Energy Group Ltd. and Western Gas have formed non-binding agreements to explore processing gas from the Equus Gas Project through Woodside's Pluto LNG terminal. This partnership aims to increase Australian gas supply and boost Woodside's LNG exports, with first cargoes from Equus gas through Pluto anticipated in 2027. The collaboration also supports Woodside's $12 billion expansion plan for Pluto LNG, seeking to maximize infrastructure utilization and extend its operational lifespan.",
-      "url": "https://naturalgasintel.com/news/woodside-western-gas-eyeing-more-australian-supply-pluto-lng-exports/",
-      "source": "Natural Gas Intelligence",
-      "published": "20221228T111100",
-      "overall_sentiment_score": 0.260894,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.409657,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.603428
-    },
-    {
-      "title": "Midway announces redevelopment of ConocoPhillips office park",
-      "summary": "Midway has announced its plans to redevelop the former ConocoPhillips office park in Houston, transforming the 63-acre campus into a mixed-use project called the Watermark District at Woodcreek. The redevelopment will repurpose original structures, add new office space, residential units, retail, and restaurants, while prioritizing sustainability and preserving much of the existing natural landscape. The project aims to create an urbanized suburban experience, reflecting post-pandemic workforce preferences for low-rise, low-density environments.",
-      "url": "https://www.archpaper.com/2023/01/midway-redevelopment-kevin-roche-conocophillips-office-park-houston/",
-      "source": "The Architect’s Newspaper",
+      "title": "Shell and APA among winners for deepwater oil & gas exploration blocks off Uruguay",
+      "summary": "Uruguay's state-owned oil and gas company ANCAP has awarded deepwater offshore exploration blocks OFF-4 and OFF-5 to a consortium of Shell and APA Corporation, and to Argentina's YPF, respectively. This expands the presence of major international players in Uruguay's offshore oil and gas sector. The total nominal investment for work on these blocks is estimated at $31 million, with ANCAP highlighting that companies bear all exploration risks and costs.",
+      "url": "https://www.offshore-energy.biz/shell-and-apa-among-winners-for-deepwater-oil-gas-exploration-blocks-off-uruguay/",
+      "source": "Offshore Energy",
       "published": "20230104T000000",
-      "overall_sentiment_score": 0.089709,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.05705,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.622169
+      "overall_sentiment_score": 0.349816,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.256356,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.650819
     },
     {
       "title": "Oil-Shipping Costs Soar as Ukraine War Reshapes Global Trade",
@@ -125,6 +77,54 @@
       "ticker_sentiment_score": 0.133106,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.635618
+    },
+    {
+      "title": "Midway announces redevelopment of ConocoPhillips office park",
+      "summary": "Midway has announced its plans to redevelop the former ConocoPhillips office park in Houston, transforming the 63-acre campus into a mixed-use project called the Watermark District at Woodcreek. The redevelopment will repurpose original structures, add new office space, residential units, retail, and restaurants, while prioritizing sustainability and preserving much of the existing natural landscape. The project aims to create an urbanized suburban experience, reflecting post-pandemic workforce preferences for low-rise, low-density environments.",
+      "url": "https://www.archpaper.com/2023/01/midway-redevelopment-kevin-roche-conocophillips-office-park-houston/",
+      "source": "The Architect’s Newspaper",
+      "published": "20230104T000000",
+      "overall_sentiment_score": 0.089709,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.05705,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.622169
+    },
+    {
+      "title": "Chevron sending two oil tankers to Venezuela under U.S. approval",
+      "summary": "Chevron is sending two oil tankers to Venezuela, with one destined to load the first crude cargo for the U.S. in nearly four years, following U.S. authorization. This move signifies an easing of sanctions as an incentive for Venezuela to engage in political negotiations for a presidential election. Analysts believe the license could become more flexible as political talks progress, potentially allowing Chevron a more significant role in Venezuela's oil production.",
+      "url": "https://www.reuters.com/business/energy/chevron-load-venezuelan-oil-exports-supply-diluents-joint-venture-2022-12-30/",
+      "source": "Reuters",
+      "published": "20221230T192600",
+      "overall_sentiment_score": 0.306659,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.210513,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.622005
+    },
+    {
+      "title": "WisdomTree U.S. Dividend Growth Fund (DGRW) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of the WisdomTree U.S. Dividend Growth Fund (DGRW), including its stock price, holdings, and dividend yield. As of the latest N-PORT filing on September 30, 2025, the fund holds 301 stocks with a total value of $16.30 billion, with top holdings being Microsoft, Apple, NVIDIA, Exxon Mobil, and Chevron. The article also presents key statistics, performance data, and historical breakdowns of the fund's portfolio.",
+      "url": "https://www.gurufocus.com/etf/DGRW/summary",
+      "source": "GuruFocus",
+      "published": "20221231T034508",
+      "overall_sentiment_score": 0.225978,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.234907,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.613899
+    },
+    {
+      "title": "Woodside, Western Gas Eyeing More Australian Supply, Pluto LNG Exports",
+      "summary": "Woodside Energy Group Ltd. and Western Gas have formed non-binding agreements to explore processing gas from the Equus Gas Project through Woodside's Pluto LNG terminal. This partnership aims to increase Australian gas supply and boost Woodside's LNG exports, with first cargoes from Equus gas through Pluto anticipated in 2027. The collaboration also supports Woodside's $12 billion expansion plan for Pluto LNG, seeking to maximize infrastructure utilization and extend its operational lifespan.",
+      "url": "https://naturalgasintel.com/news/woodside-western-gas-eyeing-more-australian-supply-pluto-lng-exports/",
+      "source": "Natural Gas Intelligence",
+      "published": "20221228T111100",
+      "overall_sentiment_score": 0.260894,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.409657,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.603428
     }
   ]
 }

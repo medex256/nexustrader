@@ -7,42 +7,6 @@
   "article_count": 10,
   "articles": [
     {
-      "title": "GE reveals brand names for 3 new companies following reorganization",
-      "summary": "General Electric has announced the brand names for the three new companies that will result from its major reorganization. The new spinoffs will be called GE HealthCare and GE Vernova, while the remaining legacy firm will be renamed GE Aerospace. This move is part of GE's strategy to reduce debt, improve operational performance, and grow profits, with the three new companies initially valued at nearly $20 billion.",
-      "url": "https://www.upi.com/Top_News/US/2022/07/18/GE-brand-names-new-companies-reorganization/5821658166985/",
-      "source": "upi",
-      "published": "20220718T145100",
-      "overall_sentiment_score": 0.31198,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.116021,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.63812
-    },
-    {
-      "title": "Shares of HCA Healthcare Rise on Earnings Report",
-      "summary": "HCA Healthcare Inc. reported second-quarter earnings that surpassed analyst expectations, leading to a significant rise in its stock price. Despite the quarterly earnings beat, the company's shares are down year-to-date and over the last 52 weeks. For investors seeking diversified healthcare exposure beyond market-cap weighted ETFs, the Invesco S&P 500 Equal Weight Health Care ETF (RYH) offers an alternative with equal weighting for all holdings.",
-      "url": "https://etfdb.com/portfolio-strategies-content-hub/shares-of-hca-healthcare-rise-on-earnings-report/",
-      "source": "ETF Database",
-      "published": "20220725T071219",
-      "overall_sentiment_score": 0.193583,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.107066,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.631002
-    },
-    {
-      "title": "JPMorgan adds former J&J chief Gorsky to board",
-      "summary": "JPMorgan Chase & Co has elected Alex Gorsky, the former chief executive officer of Johnson & Johnson, as a director of the bank. Gorsky, who is currently an executive chairman at J&J, previously led the development of J&J's COVID-19 vaccine and steered the company through significant crises. His appointment to JPMorgan's board is effective immediately.",
-      "url": "https://www.reuters.com/business/finance/jpmorgan-adds-former-jj-chief-gorsky-board-2022-07-19/",
-      "source": "Reuters",
-      "published": "20220719T204100",
-      "overall_sentiment_score": 0.208897,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.268298,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.911883
-    },
-    {
       "title": "Johnson & Johnson Reports Q2 2022 Results",
       "summary": "Johnson & Johnson reported Q2 2022 results with total sales growth of 3.0% to $24.0 billion and adjusted earnings per share increasing 4.4% to $2.59. The company maintained its 2022 full-year guidance for adjusted operational sales and earnings per share while acknowledging the impact of a strengthening U.S. dollar on reported results. Key growth drivers included pharmaceutical products like DARZALEX and STELARA, and notable regulatory announcements were made regarding CARVYKTI and talquetamab.",
       "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-reports-q2-2022-results",
@@ -53,30 +17,6 @@
       "ticker_sentiment_score": 0.321193,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Haleon makes market debut as GSK and Pfizer complete consumer health spin-off",
-      "summary": "Haleon PLC has made its stock market debut as the largest company to list in London in over a decade, following its spin-out from GSK PLC and Pfizer. Existing GSK investors received shares in Haleon, with GSK retaining a 13.5% stake and Pfizer holding 32%. The consumer health company, known for brands like Sensodyne and Panadol, generated £9.5bn in sales last year and is expected to have an enterprise valuation of £40bn to £45bn, placing it in the top quarter of the FTSE 100.",
-      "url": "https://www.proactiveinvestors.co.uk/companies/news/987650/haleon-makes-market-debut-as-gsk-and-pfizer-complete-consumer-health-spin-off-987650.html",
-      "source": "Proactive Investors",
-      "published": "20220718T074000",
-      "overall_sentiment_score": 0.233683,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.130647,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.576406
-    },
-    {
-      "title": "Allergan, Teva to Pay $54M in San Francisco Opioid Lawsuit",
-      "summary": "Opioid manufacturers Allergan and Teva have agreed to a $54 million settlement with San Francisco in a federal lawsuit alleging they fueled the opioid crisis. The settlement includes $34 million in cash and $20 million worth of Narcan. This agreement comes as closing arguments against the remaining defendant, Walgreens, are set to begin.",
-      "url": "https://www.nbcbayarea.com/news/local/allergan-teva-san-francisco-opioid-lawsuit/2942112/",
-      "source": "NBC Bay Area",
-      "published": "20220712T115600",
-      "overall_sentiment_score": -0.35421,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.322613,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.619937
     },
     {
       "title": "Johnson & Johnson leans on beauty trends to create Vivvi & Bloom baby care brand",
@@ -115,6 +55,54 @@
       "relevance_score": 1.0
     },
     {
+      "title": "JPMorgan adds former J&J chief Gorsky to board",
+      "summary": "JPMorgan Chase & Co has elected Alex Gorsky, the former chief executive officer of Johnson & Johnson, as a director of the bank. Gorsky, who is currently an executive chairman at J&J, previously led the development of J&J's COVID-19 vaccine and steered the company through significant crises. His appointment to JPMorgan's board is effective immediately.",
+      "url": "https://www.reuters.com/business/finance/jpmorgan-adds-former-jj-chief-gorsky-board-2022-07-19/",
+      "source": "Reuters",
+      "published": "20220719T204100",
+      "overall_sentiment_score": 0.208897,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.268298,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.911883
+    },
+    {
+      "title": "GE reveals brand names for 3 new companies following reorganization",
+      "summary": "General Electric has announced the brand names for the three new companies that will result from its major reorganization. The new spinoffs will be called GE HealthCare and GE Vernova, while the remaining legacy firm will be renamed GE Aerospace. This move is part of GE's strategy to reduce debt, improve operational performance, and grow profits, with the three new companies initially valued at nearly $20 billion.",
+      "url": "https://www.upi.com/Top_News/US/2022/07/18/GE-brand-names-new-companies-reorganization/5821658166985/",
+      "source": "upi",
+      "published": "20220718T145100",
+      "overall_sentiment_score": 0.31198,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.116021,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.63812
+    },
+    {
+      "title": "Shares of HCA Healthcare Rise on Earnings Report",
+      "summary": "HCA Healthcare Inc. reported second-quarter earnings that surpassed analyst expectations, leading to a significant rise in its stock price. Despite the quarterly earnings beat, the company's shares are down year-to-date and over the last 52 weeks. For investors seeking diversified healthcare exposure beyond market-cap weighted ETFs, the Invesco S&P 500 Equal Weight Health Care ETF (RYH) offers an alternative with equal weighting for all holdings.",
+      "url": "https://etfdb.com/portfolio-strategies-content-hub/shares-of-hca-healthcare-rise-on-earnings-report/",
+      "source": "ETF Database",
+      "published": "20220725T071219",
+      "overall_sentiment_score": 0.193583,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.107066,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.631002
+    },
+    {
+      "title": "Allergan, Teva to Pay $54M in San Francisco Opioid Lawsuit",
+      "summary": "Opioid manufacturers Allergan and Teva have agreed to a $54 million settlement with San Francisco in a federal lawsuit alleging they fueled the opioid crisis. The settlement includes $34 million in cash and $20 million worth of Narcan. This agreement comes as closing arguments against the remaining defendant, Walgreens, are set to begin.",
+      "url": "https://www.nbcbayarea.com/news/local/allergan-teva-san-francisco-opioid-lawsuit/2942112/",
+      "source": "NBC Bay Area",
+      "published": "20220712T115600",
+      "overall_sentiment_score": -0.35421,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.322613,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.619937
+    },
+    {
       "title": "Georgia families accuse opioid distributors of illegal drug dealing",
       "summary": "Families of opioid addicts in Georgia are suing Cardinal Health Inc, McKesson Corp, and JM Smith Corp, accusing them of acting as illegal drug dealers and contributing to the destruction of their families. They claim the companies filled illegitimate pharmacy orders and failed to report suspicious opioid purchases. This trial is distinct from many other opioid lawsuits as it seeks civil damages for individuals under Georgia's Drug Dealer Liability Act.",
       "url": "https://www.reuters.com/legal/government/georgia-families-accuse-opioid-distributors-illegal-drug-dealing-2022-07-19/",
@@ -125,6 +113,18 @@
       "ticker_sentiment_score": -0.210224,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 0.615239
+    },
+    {
+      "title": "Haleon makes market debut as GSK and Pfizer complete consumer health spin-off",
+      "summary": "Haleon PLC has made its stock market debut as the largest company to list in London in over a decade, following its spin-out from GSK PLC and Pfizer. Existing GSK investors received shares in Haleon, with GSK retaining a 13.5% stake and Pfizer holding 32%. The consumer health company, known for brands like Sensodyne and Panadol, generated £9.5bn in sales last year and is expected to have an enterprise valuation of £40bn to £45bn, placing it in the top quarter of the FTSE 100.",
+      "url": "https://www.proactiveinvestors.co.uk/companies/news/987650/haleon-makes-market-debut-as-gsk-and-pfizer-complete-consumer-health-spin-off-987650.html",
+      "source": "Proactive Investors",
+      "published": "20220718T074000",
+      "overall_sentiment_score": 0.233683,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.130647,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.576406
     }
   ]
 }

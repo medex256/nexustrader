@@ -31,18 +31,6 @@
       "relevance_score": 0.645567
     },
     {
-      "title": "Occidental's 1PointFive receives permits to sequester CO2 at Texas facility",
-      "summary": "Occidental Petroleum's 1PointFive unit has received approval from the U.S. Environmental Protection Agency to sequester carbon dioxide at its direct air capture facility, Stratos, in Texas. This facility, a joint venture with BlackRock, is expected to begin commercial operations later this year and aims to capture 500,000 metric tons of CO2 annually. The permits are a significant milestone for the company and its efforts to develop vital infrastructure for energy security and climate change mitigation.",
-      "url": "https://www.reuters.com/sustainability/climate-energy/occidentals-1pointfive-receives-permits-sequester-co2-texas-facility-2025-04-07/",
-      "source": "Reuters",
-      "published": "20250407T210900",
-      "overall_sentiment_score": 0.263165,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.115427,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.603528
-    },
-    {
       "title": "Monthly Dividend Stock In Focus: Cross Timbers Royalty Trust",
       "summary": "Cross Timbers Royalty Trust (CRT) is a micro-cap stock with a high dividend yield of 8.1% and monthly payouts, but its business model is highly risky and dependent on fluctuating oil and gas prices. The trust's distributable income has varied significantly with commodity prices, and its future growth is expected to be challenged by natural production decline and the global shift towards renewable energy. Investors considering CRT should be risk-tolerant and understand the volatility associated with royalty trusts and micro-caps.",
       "url": "https://www.suredividend.com/monthly-dividend-stock-crt/",
@@ -65,6 +53,18 @@
       "ticker_sentiment_score": 0.136757,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.629783
+    },
+    {
+      "title": "Occidental's 1PointFive receives permits to sequester CO2 at Texas facility",
+      "summary": "Occidental Petroleum's 1PointFive unit has received approval from the U.S. Environmental Protection Agency to sequester carbon dioxide at its direct air capture facility, Stratos, in Texas. This facility, a joint venture with BlackRock, is expected to begin commercial operations later this year and aims to capture 500,000 metric tons of CO2 annually. The permits are a significant milestone for the company and its efforts to develop vital infrastructure for energy security and climate change mitigation.",
+      "url": "https://www.reuters.com/sustainability/climate-energy/occidentals-1pointfive-receives-permits-sequester-co2-texas-facility-2025-04-07/",
+      "source": "Reuters",
+      "published": "20250407T210900",
+      "overall_sentiment_score": 0.263165,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.115427,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.603528
     }
   ]
 }

@@ -7,126 +7,6 @@
   "article_count": 17,
   "articles": [
     {
-      "title": "Walmart and Capital One break up",
-      "summary": "Walmart and Capital One have announced the termination of their credit card partnership, following a federal judge's ruling that Walmart could end the agreement due to Capital One's repeated customer service failures. Existing cardholders can continue to use their Capital One Walmart Rewards cards, with Capital One retaining ownership of the $8.5 billion card loan portfolio. This breakup occurs as Capital One pursues an acquisition of Discover Financial Services, which would make it the largest credit card issuer in the U.S.",
-      "url": "https://www.paymentsdive.com/news/walmart-capital-one-credit-card-discover-payments/717135/",
-      "source": "Payments Dive",
-      "published": "20240524T000000",
-      "overall_sentiment_score": -0.093754,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.050719,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.569723
-    },
-    {
-      "title": "Intercontinental Exchange Fined $10M for Failing to Inform SEC of Cyber Intrusion",
-      "summary": "Intercontinental Exchange (ICE), parent company of the NYSE, was fined $10 million by the SEC for failing to report a 2021 cyber intrusion in a timely manner. ICE allegedly waited four days to inform nine of its subsidiaries and did not immediately notify the SEC, violating Regulation Systems Compliance and Integrity rules. While ICE stated the incursion had zero impact on market operations, the SEC emphasized the importance of swift reporting to protect markets and investors.",
-      "url": "https://www.ai-cio.com/news/intercontinental-exchange-fined-10m-for-failing-to-inform-sec-of-cyber-intrusion/",
-      "source": "Chief Investment Officer",
-      "published": "20240523T000000",
-      "overall_sentiment_score": -0.107947,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.14134,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.62073
-    },
-    {
-      "title": "JPMorgan's New JADE ETF Highlights Emerging Markets",
-      "summary": "JPMorgan Asset Management launched the JPMorgan Active Developing Markets Equity ETF (JADE), an actively managed fund targeting long-term capital appreciation through emerging markets. JADE has a net expense ratio of 0.65% and its benchmark is the MSCI Emerging Markets Index. The ETF aims to provide investors with diversified exposure to emerging market securities, capitalizing on attractive valuations after years of underperformance.",
-      "url": "https://www.etftrends.com/jp-morgans-new-jade-etf-highlights-emerging-markets/",
-      "source": "ETF Trends",
-      "published": "20240517T000000",
-      "overall_sentiment_score": 0.370982,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.327149,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.700388
-    },
-    {
-      "title": "Jacobs Announces New Chief Financial Officer",
-      "summary": "Jacobs announced the appointment of Venk Nathamuni as its new Chief Financial Officer, effective June 3, 2024. Nathamuni brings over 30 years of experience, including 15 years in executive-level finance and strategic leadership roles, having previously served as CFO at Cirrus Logic. He will oversee Jacobs’ financial operations, enterprise-wide optimization, capital allocation, and investor relations activities to support long-term growth and enhance shareholder value.",
-      "url": "https://www.jacobs.com/newsroom/press-release/jacobs-announces-new-chief-financial-officer",
-      "source": "Jacobs",
-      "published": "20240516T000000",
-      "overall_sentiment_score": 0.342292,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.219039,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.609196
-    },
-    {
-      "title": "Morgan Stanley to buy $700 mln property loans tied to Signature Bank, Bloomberg reports",
-      "summary": "Morgan Stanley is set to acquire $700 million in property loans associated with the defunct Signature Bank, according to a Bloomberg News report. These loans were previously held by an investor group including Blackstone and Canada Pension Plan Investment Board, which owned a stake in a venture holding Signature Bank's commercial real estate loan portfolio. Morgan Stanley, Blackstone, and CPPIB have all declined to comment on the report.",
-      "url": "https://www.reuters.com/business/finance/morgan-stanley-buy-700-mln-property-loans-tied-failed-signature-bank-bloomberg-2024-05-15/",
-      "source": "Reuters",
-      "published": "20240515T183200",
-      "overall_sentiment_score": 0.12508,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.091069,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.555988
-    },
-    {
-      "title": "Johnson & Johnson is selling its remaining Kenvue shares",
-      "summary": "Johnson & Johnson is divesting its remaining stake in Kenvue Inc., the consumer-health business it spun off last year. The company will execute a debt-for-equity exchange involving 182.3 million Kenvue shares with Goldman Sachs and J.P. Morgan, which will be followed by a secondary offering of these shares. This move signifies the complete separation of Kenvue from Johnson & Johnson.",
-      "url": "https://www.marketwatch.com/story/kenvues-stock-falls-after-company-announces-182-3-million-secondary-stock-offering-1c5dd50f?gaa_at=eafs&gaa_n=AWEtsqd7OzgRfzJ36QzgpRvCV39hkfHPwC4Qb0mvBPHSE1BZsgLt6PUL36A1&gaa_ts=69075914&gaa_sig=HPjmUfZSwN2W8NsQ6I_iT8RCubR-Ah0pzS9xSuPH64EMSHFcQ7U9_fv1WmUkA5ML_FJK8HaSjm8KnDkYNmVLDA%3D%3D",
-      "source": "MarketWatch",
-      "published": "20240513T080900",
-      "overall_sentiment_score": 0.14363,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.100256,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.722311
-    },
-    {
-      "title": "RBC rolls out AI-based tools to financial advisors",
-      "summary": "RBC's U.S. wealth management arm has partnered with TIFIN AG to provide its financial advisors with AI tools designed to deepen client relationships and identify missed opportunities. The technology helps create ideal client profiles and detect significant financial events like inheritances, aiming to make it easier for advisors to prioritize client outreach and generate leads. The tool, which officially debuted in February to 2,200 advisors, analyzes money-in-motion events and demographic data to find prospects similar to ideal clients, reinforcing RBC's belief that AI enhances, rather than replaces, wealth management.",
-      "url": "https://www.americanbanker.com/news/rbc-rolls-out-ai-based-tools-to-financial-advisors",
-      "source": "American Banker",
-      "published": "20240522T145800",
-      "overall_sentiment_score": 0.153441,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.125333,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.640479
-    },
-    {
-      "title": "BlackRock whistleblower sues over firing, shutdown of China monitoring tool",
-      "summary": "A former BlackRock vice president is suing the company for $20 million, alleging he was fired after objecting to a colleague's self-dealing and being forced to shut down a China monitoring tool. The whistleblower claims the tool, \"Trend Spotter,\" could have identified illegal investments in China, contradicting BlackRock's statement that it was for marketing. This lawsuit comes amidst scrutiny from a House committee regarding BlackRock's and MSCI's investments in blacklisted Chinese companies.",
-      "url": "https://www.reuters.com/legal/blackrock-whistleblower-alleges-cover-up-search-engine-spot-chinese-investments-2024-05-20/",
-      "source": "Reuters",
-      "published": "20240521T203100",
-      "overall_sentiment_score": -0.228633,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.148157,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.618011
-    },
-    {
-      "title": "MasterBrand acquires Supreme Cabinetry Brands for $520 million",
-      "summary": "MasterBrand Inc. is set to acquire Supreme Cabinetry Brands Inc. for $520 million in cash, a deal expected to close in Q3 2024. This acquisition combines MasterBrand, the largest cabinet company, with Supreme Cabinetry's premium brands, Dura Supreme and Bertch, aiming for significant annual cost synergies and commercial benefits. The transaction will be funded through cash on hand and existing credit facilities, with an incremental debt commitment from JPMorgan Chase supplementing liquidity.",
-      "url": "https://www.woodworkingnetwork.com/management/fdmc-300/masterbrand-acquires-supreme-cabinetry-brands-520-million",
-      "source": "Woodworking Network",
-      "published": "20240521T084600",
-      "overall_sentiment_score": 0.294759,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.104318,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.63279
-    },
-    {
-      "title": "3 High-Yield Dividend ETFs to Buy to Generate Passive Income",
-      "summary": "This article examines three high-yield dividend ETFs that can help generate passive income for investors. It details the JPMorgan Equity Premium Income ETF (JEPI), the SPDR Portfolio S&P 500 High Dividend ETF (SPYD), and the Invesco High Yield Equity Dividend Achievers ETF (PEY), outlining their yields, holdings, expense ratios, and historical performance to guide income-focused investment decisions.",
-      "url": "https://www.fool.com/investing/2024/05/19/3-high-yield-dividend-etfs-to-buy-to-generate-pass/",
-      "source": "The Motley Fool",
-      "published": "20240519T055100",
-      "overall_sentiment_score": 0.238517,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.275803,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.647708
-    },
-    {
       "title": "J.P. Morgan Asset Management Launches Active Developing Markets Equity ETF: JADE",
       "summary": "J.P. Morgan Asset Management announced the launch of a new actively managed ETF, JPMorgan Active Developing Markets Equity ETF (JADE), which will invest in emerging markets equity securities. The fund utilizes a fundamental, bottom-up approach focusing on growth and value stocks, aiming for long-term capital appreciation with rigorous stock selection. Priced at 65 basis points, JADE is benchmarked to the MSCI Emerging Markets Index and leverages the expertise of portfolio managers Leon Eidelman and Omar Negyal.",
       "url": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-launches-active-developing-markets-equity-etf-jade-302148938.html",
@@ -137,18 +17,6 @@
       "ticker_sentiment_score": 0.215142,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.844895
-    },
-    {
-      "title": "CoreWeave: $7.5 Billion Debt Financing Facility Signed",
-      "summary": "AI hyperscaler CoreWeave has secured a $7.5 billion debt financing facility led by Blackstone, with significant participation from Magnetar and Coatue, among others. This funding will be used to expand its high-performance computing fleet to fulfill existing contracts and support its rapid growth, which includes quadrupling its data center presence in 2023 and planning to double it again by the end of 2024. The company aims to reshape the cloud landscape and power the next generation of AI innovation.",
-      "url": "https://pulse2.com/coreweave-7-5-billion-debt-financing-facility-signed/",
-      "source": "Pulse 2.0",
-      "published": "20240517T000000",
-      "overall_sentiment_score": 0.286559,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.23818,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.620568
     },
     {
       "title": "Chase Travel Is Growing as Fast as Booking Holdings But Faces ‘Headwinds’",
@@ -163,6 +31,54 @@
       "relevance_score": 0.814019
     },
     {
+      "title": "Johnson & Johnson is selling its remaining Kenvue shares",
+      "summary": "Johnson & Johnson is divesting its remaining stake in Kenvue Inc., the consumer-health business it spun off last year. The company will execute a debt-for-equity exchange involving 182.3 million Kenvue shares with Goldman Sachs and J.P. Morgan, which will be followed by a secondary offering of these shares. This move signifies the complete separation of Kenvue from Johnson & Johnson.",
+      "url": "https://www.marketwatch.com/story/kenvues-stock-falls-after-company-announces-182-3-million-secondary-stock-offering-1c5dd50f?gaa_at=eafs&gaa_n=AWEtsqd7OzgRfzJ36QzgpRvCV39hkfHPwC4Qb0mvBPHSE1BZsgLt6PUL36A1&gaa_ts=69075914&gaa_sig=HPjmUfZSwN2W8NsQ6I_iT8RCubR-Ah0pzS9xSuPH64EMSHFcQ7U9_fv1WmUkA5ML_FJK8HaSjm8KnDkYNmVLDA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20240513T080900",
+      "overall_sentiment_score": 0.14363,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.100256,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.722311
+    },
+    {
+      "title": "JPMorgan's New JADE ETF Highlights Emerging Markets",
+      "summary": "JPMorgan Asset Management launched the JPMorgan Active Developing Markets Equity ETF (JADE), an actively managed fund targeting long-term capital appreciation through emerging markets. JADE has a net expense ratio of 0.65% and its benchmark is the MSCI Emerging Markets Index. The ETF aims to provide investors with diversified exposure to emerging market securities, capitalizing on attractive valuations after years of underperformance.",
+      "url": "https://www.etftrends.com/jp-morgans-new-jade-etf-highlights-emerging-markets/",
+      "source": "ETF Trends",
+      "published": "20240517T000000",
+      "overall_sentiment_score": 0.370982,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.327149,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.700388
+    },
+    {
+      "title": "3 High-Yield Dividend ETFs to Buy to Generate Passive Income",
+      "summary": "This article examines three high-yield dividend ETFs that can help generate passive income for investors. It details the JPMorgan Equity Premium Income ETF (JEPI), the SPDR Portfolio S&P 500 High Dividend ETF (SPYD), and the Invesco High Yield Equity Dividend Achievers ETF (PEY), outlining their yields, holdings, expense ratios, and historical performance to guide income-focused investment decisions.",
+      "url": "https://www.fool.com/investing/2024/05/19/3-high-yield-dividend-etfs-to-buy-to-generate-pass/",
+      "source": "The Motley Fool",
+      "published": "20240519T055100",
+      "overall_sentiment_score": 0.238517,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.275803,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.647708
+    },
+    {
+      "title": "RBC rolls out AI-based tools to financial advisors",
+      "summary": "RBC's U.S. wealth management arm has partnered with TIFIN AG to provide its financial advisors with AI tools designed to deepen client relationships and identify missed opportunities. The technology helps create ideal client profiles and detect significant financial events like inheritances, aiming to make it easier for advisors to prioritize client outreach and generate leads. The tool, which officially debuted in February to 2,200 advisors, analyzes money-in-motion events and demographic data to find prospects similar to ideal clients, reinforcing RBC's belief that AI enhances, rather than replaces, wealth management.",
+      "url": "https://www.americanbanker.com/news/rbc-rolls-out-ai-based-tools-to-financial-advisors",
+      "source": "American Banker",
+      "published": "20240522T145800",
+      "overall_sentiment_score": 0.153441,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.125333,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.640479
+    },
+    {
       "title": "How to immunize your bond ETF if interest rates turn back up",
       "summary": "This article discusses the strategy of hedging a bond ETF against potential rises in interest rates. It suggests that the opportune moment to insure against such a risk is when it seems unlikely. The author raises the question of whether investors should hedge their bond portfolios given that the U.S. Federal Reserve could reinstate rate hikes despite recent tamer inflation data.",
       "url": "https://www.marketwatch.com/story/how-to-immunize-your-bond-etf-if-interest-rates-turn-back-up-dae8d49b?gaa_at=eafs&gaa_n=AWEtsqd1bV-WGtoP5kzScpryzab5C2QX9IqTtcQ91p0ny-V5bwXliunAD-SO&gaa_ts=69075a29&gaa_sig=LmbHiKpqyaFob9gPXmSWpQ6ZWRLx5XIzFSJxyEOQA3UmCbKPnt7FLg3AUDSVtA2FhIpv6dMGuEM62mIwalC01Q%3D%3D",
@@ -175,16 +91,76 @@
       "relevance_score": 0.635956
     },
     {
-      "title": "Compliance is an ‘opportunity to showcase integrity’: Maast CEO Jonathan O’Connor",
-      "summary": "Jonathan O’Connor, the new CEO of Maast and chief third-party payments officer of Synovus Financial, discusses his new roles and the future of fintech. He emphasizes that compliance should be seen as an opportunity for integrity and trust-building, not just a requirement. O'Connor also highlights the convergence of financial products with new technologies like AI and blockchain as key innovations.",
-      "url": "https://www.bankingdive.com/news/compliance-is-an-opportunity-to-showcase-integrity-maast-ceo-jonathan-o/716892/",
-      "source": "Banking Dive",
-      "published": "20240522T000000",
-      "overall_sentiment_score": 0.19127,
+      "title": "MasterBrand acquires Supreme Cabinetry Brands for $520 million",
+      "summary": "MasterBrand Inc. is set to acquire Supreme Cabinetry Brands Inc. for $520 million in cash, a deal expected to close in Q3 2024. This acquisition combines MasterBrand, the largest cabinet company, with Supreme Cabinetry's premium brands, Dura Supreme and Bertch, aiming for significant annual cost synergies and commercial benefits. The transaction will be funded through cash on hand and existing credit facilities, with an incremental debt commitment from JPMorgan Chase supplementing liquidity.",
+      "url": "https://www.woodworkingnetwork.com/management/fdmc-300/masterbrand-acquires-supreme-cabinetry-brands-520-million",
+      "source": "Woodworking Network",
+      "published": "20240521T084600",
+      "overall_sentiment_score": 0.294759,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.225944,
+      "ticker_sentiment_score": 0.104318,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.63279
+    },
+    {
+      "title": "United Way honors Central 9 Logistics Park, Kenvue headquarters while marking 25 years of support from New Jersey commercial real estate leaders – Real Estate NJ",
+      "summary": "The United Way of Northern New Jersey honored Central 9 Logistics Park and Kenvue's world headquarters at its 25th annual Legacy Event. The event celebrated 25 years of support from the New Jersey commercial real estate industry, which has helped raise over $4.5 million for the ALICE population, and recognized projects for their industrial and commercial impact.",
+      "url": "https://re-nj.com/united-way-honors-central-9-logistics-park-kenvue-headquarters-while-marking-25-years-of-support-from-new-jersey-commercial-real-estate-leaders/",
+      "source": "Real Estate NJ",
+      "published": "20240513T000000",
+      "overall_sentiment_score": 0.343873,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.216545,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.574404
+      "relevance_score": 0.631418
+    },
+    {
+      "title": "Intercontinental Exchange Fined $10M for Failing to Inform SEC of Cyber Intrusion",
+      "summary": "Intercontinental Exchange (ICE), parent company of the NYSE, was fined $10 million by the SEC for failing to report a 2021 cyber intrusion in a timely manner. ICE allegedly waited four days to inform nine of its subsidiaries and did not immediately notify the SEC, violating Regulation Systems Compliance and Integrity rules. While ICE stated the incursion had zero impact on market operations, the SEC emphasized the importance of swift reporting to protect markets and investors.",
+      "url": "https://www.ai-cio.com/news/intercontinental-exchange-fined-10m-for-failing-to-inform-sec-of-cyber-intrusion/",
+      "source": "Chief Investment Officer",
+      "published": "20240523T000000",
+      "overall_sentiment_score": -0.107947,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.14134,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62073
+    },
+    {
+      "title": "CoreWeave: $7.5 Billion Debt Financing Facility Signed",
+      "summary": "AI hyperscaler CoreWeave has secured a $7.5 billion debt financing facility led by Blackstone, with significant participation from Magnetar and Coatue, among others. This funding will be used to expand its high-performance computing fleet to fulfill existing contracts and support its rapid growth, which includes quadrupling its data center presence in 2023 and planning to double it again by the end of 2024. The company aims to reshape the cloud landscape and power the next generation of AI innovation.",
+      "url": "https://pulse2.com/coreweave-7-5-billion-debt-financing-facility-signed/",
+      "source": "Pulse 2.0",
+      "published": "20240517T000000",
+      "overall_sentiment_score": 0.286559,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.23818,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.620568
+    },
+    {
+      "title": "BlackRock whistleblower sues over firing, shutdown of China monitoring tool",
+      "summary": "A former BlackRock vice president is suing the company for $20 million, alleging he was fired after objecting to a colleague's self-dealing and being forced to shut down a China monitoring tool. The whistleblower claims the tool, \"Trend Spotter,\" could have identified illegal investments in China, contradicting BlackRock's statement that it was for marketing. This lawsuit comes amidst scrutiny from a House committee regarding BlackRock's and MSCI's investments in blacklisted Chinese companies.",
+      "url": "https://www.reuters.com/legal/blackrock-whistleblower-alleges-cover-up-search-engine-spot-chinese-investments-2024-05-20/",
+      "source": "Reuters",
+      "published": "20240521T203100",
+      "overall_sentiment_score": -0.228633,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.148157,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.618011
+    },
+    {
+      "title": "Jacobs Announces New Chief Financial Officer",
+      "summary": "Jacobs announced the appointment of Venk Nathamuni as its new Chief Financial Officer, effective June 3, 2024. Nathamuni brings over 30 years of experience, including 15 years in executive-level finance and strategic leadership roles, having previously served as CFO at Cirrus Logic. He will oversee Jacobs’ financial operations, enterprise-wide optimization, capital allocation, and investor relations activities to support long-term growth and enhance shareholder value.",
+      "url": "https://www.jacobs.com/newsroom/press-release/jacobs-announces-new-chief-financial-officer",
+      "source": "Jacobs",
+      "published": "20240516T000000",
+      "overall_sentiment_score": 0.342292,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.219039,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.609196
     },
     {
       "title": "How to immunize your bond ETF if interest rates turn back up",
@@ -199,16 +175,40 @@
       "relevance_score": 0.60136
     },
     {
-      "title": "United Way honors Central 9 Logistics Park, Kenvue headquarters while marking 25 years of support from New Jersey commercial real estate leaders – Real Estate NJ",
-      "summary": "The United Way of Northern New Jersey honored Central 9 Logistics Park and Kenvue's world headquarters at its 25th annual Legacy Event. The event celebrated 25 years of support from the New Jersey commercial real estate industry, which has helped raise over $4.5 million for the ALICE population, and recognized projects for their industrial and commercial impact.",
-      "url": "https://re-nj.com/united-way-honors-central-9-logistics-park-kenvue-headquarters-while-marking-25-years-of-support-from-new-jersey-commercial-real-estate-leaders/",
-      "source": "Real Estate NJ",
-      "published": "20240513T000000",
-      "overall_sentiment_score": 0.343873,
+      "title": "Compliance is an ‘opportunity to showcase integrity’: Maast CEO Jonathan O’Connor",
+      "summary": "Jonathan O’Connor, the new CEO of Maast and chief third-party payments officer of Synovus Financial, discusses his new roles and the future of fintech. He emphasizes that compliance should be seen as an opportunity for integrity and trust-building, not just a requirement. O'Connor also highlights the convergence of financial products with new technologies like AI and blockchain as key innovations.",
+      "url": "https://www.bankingdive.com/news/compliance-is-an-opportunity-to-showcase-integrity-maast-ceo-jonathan-o/716892/",
+      "source": "Banking Dive",
+      "published": "20240522T000000",
+      "overall_sentiment_score": 0.19127,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.216545,
+      "ticker_sentiment_score": 0.225944,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.631418
+      "relevance_score": 0.574404
+    },
+    {
+      "title": "Walmart and Capital One break up",
+      "summary": "Walmart and Capital One have announced the termination of their credit card partnership, following a federal judge's ruling that Walmart could end the agreement due to Capital One's repeated customer service failures. Existing cardholders can continue to use their Capital One Walmart Rewards cards, with Capital One retaining ownership of the $8.5 billion card loan portfolio. This breakup occurs as Capital One pursues an acquisition of Discover Financial Services, which would make it the largest credit card issuer in the U.S.",
+      "url": "https://www.paymentsdive.com/news/walmart-capital-one-credit-card-discover-payments/717135/",
+      "source": "Payments Dive",
+      "published": "20240524T000000",
+      "overall_sentiment_score": -0.093754,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.050719,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.569723
+    },
+    {
+      "title": "Morgan Stanley to buy $700 mln property loans tied to Signature Bank, Bloomberg reports",
+      "summary": "Morgan Stanley is set to acquire $700 million in property loans associated with the defunct Signature Bank, according to a Bloomberg News report. These loans were previously held by an investor group including Blackstone and Canada Pension Plan Investment Board, which owned a stake in a venture holding Signature Bank's commercial real estate loan portfolio. Morgan Stanley, Blackstone, and CPPIB have all declined to comment on the report.",
+      "url": "https://www.reuters.com/business/finance/morgan-stanley-buy-700-mln-property-loans-tied-failed-signature-bank-bloomberg-2024-05-15/",
+      "source": "Reuters",
+      "published": "20240515T183200",
+      "overall_sentiment_score": 0.12508,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.091069,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.555988
     }
   ]
 }

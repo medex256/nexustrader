@@ -7,30 +7,6 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "Teva Pharmaceuticals and Alvotech Provide Update on Strategic Biosimilars Partnership",
-      "summary": "Teva Pharmaceuticals and Alvotech have expanded their existing strategic partnership for biosimilars, with Teva acquiring $40 million in Alvotech's subordinated convertible bonds. The expanded agreement covers exclusive U.S. commercialization of new biosimilar candidates and line extensions, along with increased Teva involvement in Alvotech's manufacturing processes to prepare for FDA inspection. The companies continue to work on pending U.S. approvals for biosimilar candidates like AVT02 (Humira) and AVT04 (Stelara).",
-      "url": "https://www.businesswire.com/news/home/20230724198201/en/Teva-Pharmaceuticals-and-Alvotech-Provide-Update-on-Strategic-Biosimilars-Partnership",
-      "source": "Business Wire",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.352769,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.116401,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.64783
-    },
-    {
-      "title": "Trial launches exploring combinations of NTD inhibitor and antiandrogens in prostate cancer",
-      "summary": "A new phase 1 trial is investigating EPI-7386, an investigational N-terminal domain androgen receptor inhibitor, in combination with either apalutamide or abiraterone acetate for patients with prostate cancer. The study, supported by ESSA Pharma Inc. and Janssen Research & Development, LLC, will assess safety, pharmacokinetics, drug-drug interactions, and preliminary anti-tumor activity across different prostate cancer populations. EPI-7386 previously received FDA fast track designation for metastatic castration-resistant prostate cancer.",
-      "url": "https://www.urologytimes.com/view/trial-exploring-combinations-of-ntd-inhibitor-and-anti-androgens-in-prostate-cancer",
-      "source": "Urology Times",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.339825,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.330493,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.712458
-    },
-    {
       "title": "Johnson & Johnson Targets Sales Growth in Years Ahead",
       "summary": "Johnson & Johnson is targeting annual sales growth of up to 7% in the coming years, driven by its innovative medicine and MedTech operations. For 2024, the company anticipates operational sales growth of 5% to 6% and adjusted operational per-share earnings of $10.55 to $10.75. This outlook indicates a focus on continued expansion into high-growth markets for its MedTech segment.",
       "url": "https://www.wsj.com/health/healthcare/johnson-johnson-targets-sales-growth-in-years-ahead-50745d61?gaa_at=eafs&gaa_n=AWEtsqcJhsS0B_l6iWaE9mGEt8PFcolXEabyUnS2AgI86pGp0O09Uz7rmVgo&gaa_ts=6907752e&gaa_sig=pGaVxAZrjwUwS8OlCjO7ARPOD1xHOeGtfDiYkDULdSRP9dQyaSgp7PUMTKgW98ghA4C4i7XdTFo0_WkmW3a6ag%3D%3D",
@@ -39,6 +15,18 @@
       "overall_sentiment_score": 0.412346,
       "overall_sentiment_label": "Bullish",
       "ticker_sentiment_score": 0.421496,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "13 innovations that inspired us in 2023",
+      "summary": "Johnson & Johnson highlights 13 healthcare innovations from 2023 that are improving global health. These advancements range from new treatments for incurable cancers and improved surgical tools to AI-driven approaches and personalized medicine, reflecting the company's commitment to patient care as outlined in its Credo.",
+      "url": "https://www.jnj.com/innovation/innovations-that-inspired-us-in-2023",
+      "source": "Johnson & Johnson",
+      "published": "20231220T145943",
+      "overall_sentiment_score": 0.612999,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.853988,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
     },
@@ -55,16 +43,28 @@
       "relevance_score": 0.730915
     },
     {
-      "title": "13 innovations that inspired us in 2023",
-      "summary": "Johnson & Johnson highlights 13 healthcare innovations from 2023 that are improving global health. These advancements range from new treatments for incurable cancers and improved surgical tools to AI-driven approaches and personalized medicine, reflecting the company's commitment to patient care as outlined in its Credo.",
-      "url": "https://www.jnj.com/innovation/innovations-that-inspired-us-in-2023",
-      "source": "Johnson & Johnson",
-      "published": "20231220T145943",
-      "overall_sentiment_score": 0.612999,
+      "title": "Trial launches exploring combinations of NTD inhibitor and antiandrogens in prostate cancer",
+      "summary": "A new phase 1 trial is investigating EPI-7386, an investigational N-terminal domain androgen receptor inhibitor, in combination with either apalutamide or abiraterone acetate for patients with prostate cancer. The study, supported by ESSA Pharma Inc. and Janssen Research & Development, LLC, will assess safety, pharmacokinetics, drug-drug interactions, and preliminary anti-tumor activity across different prostate cancer populations. EPI-7386 previously received FDA fast track designation for metastatic castration-resistant prostate cancer.",
+      "url": "https://www.urologytimes.com/view/trial-exploring-combinations-of-ntd-inhibitor-and-anti-androgens-in-prostate-cancer",
+      "source": "Urology Times",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.339825,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.330493,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.712458
+    },
+    {
+      "title": "Teva Pharmaceuticals and Alvotech Provide Update on Strategic Biosimilars Partnership",
+      "summary": "Teva Pharmaceuticals and Alvotech have expanded their existing strategic partnership for biosimilars, with Teva acquiring $40 million in Alvotech's subordinated convertible bonds. The expanded agreement covers exclusive U.S. commercialization of new biosimilar candidates and line extensions, along with increased Teva involvement in Alvotech's manufacturing processes to prepare for FDA inspection. The companies continue to work on pending U.S. approvals for biosimilar candidates like AVT02 (Humira) and AVT04 (Stelara).",
+      "url": "https://www.businesswire.com/news/home/20230724198201/en/Teva-Pharmaceuticals-and-Alvotech-Provide-Update-on-Strategic-Biosimilars-Partnership",
+      "source": "Business Wire",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.352769,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.853988,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
+      "ticker_sentiment_score": 0.116401,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.64783
     }
   ]
 }

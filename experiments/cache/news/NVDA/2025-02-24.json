@@ -7,28 +7,16 @@
   "article_count": 13,
   "articles": [
     {
-      "title": "Roundhill Launches 5 Leveraged Weekly Income ETFs",
-      "summary": "Roundhill Investments has launched five new WeeklyPay ETFs (NVW, TSW, AAPW, COIW, PLTW) on the Cboe Exchange, offering weekly distributions and leveraged exposure to specific single stocks like Nvidia, Tesla, and Apple. These actively managed funds aim to generate 1.2 times the weekly returns of their underlying companies, providing income-focused investors with amplified returns and potential tax advantages through return of capital distributions. This innovation expands Roundhill's portfolio of weekly income strategies, with plans for additional leveraged WeeklyPay ETFs covering other major companies.",
-      "url": "https://etfdb.com/news/2025/02/19/5-leveraged-weekly-income-etfs-roundhill/",
-      "source": "ETF Database",
-      "published": "20250219T051226",
-      "overall_sentiment_score": 0.249927,
+      "title": "How Fidelity Growth Company’s Big Nvidia Bet Influences Its Rating",
+      "summary": "Fidelity Growth Company's performance is heavily influenced by its significant investment in Nvidia, which constitutes about 16% of its assets. While lead manager Steve Wymer has an excellent track record and the fund has consistently outperformed, the high concentration in Nvidia introduces risk due to the stock's volatile history and reliance on the nascent AI GPU market. Despite the fund's large size limiting agility, its exceptional leadership and long-term performance continue to earn it a Silver Morningstar Medalist Rating.",
+      "url": "https://www.morningstar.com/funds/how-fidelity-growth-companys-big-nvidia-bet-influences-its-rating-2",
+      "source": "Morningstar",
+      "published": "20250213T000000",
+      "overall_sentiment_score": 0.323666,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.333952,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.620044
-    },
-    {
-      "title": "Data Center Demand Is Exploding Thanks to AI: 1 Stock and 2 ETFs to Profit From It",
-      "summary": "The rapid advancement of artificial intelligence (AI) is causing an explosive growth in data center demand due to the massive computing power required. Investors looking to capitalize on this trend can consider Vistra (NYSE: VST) for its role in providing power, especially nuclear energy, to hyperscalers. Additionally, two ETFs, the Global X Data Center & Digital Infrastructure ETF (NASDAQ: DTCR) and the Global X MLP & Energy Infrastructure ETF (NYSEMKT: MLPX), offer diversified exposure to data center operators, digital infrastructure, and the energy sources powering them.",
-      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/30998470/data-center-demand-is-exploding-thanks-to-ai-1-stock-and-2-etfs-to-profit-from-it/",
-      "source": "The Globe and Mail",
-      "published": "20250219T050831",
-      "overall_sentiment_score": 0.318549,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.308484,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.624637
+      "ticker_sentiment_score": 0.402998,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "This Innovative ETF Lets You Follow Republican Politicians’ Trades | KRUZ ETF",
@@ -55,16 +43,16 @@
       "relevance_score": 0.746415
     },
     {
-      "title": "Schwab Expands 24-Hour Trading to All Retail Clients",
-      "summary": "Charles Schwab is expanding its overnight trading services to all retail clients, allowing them to trade a wider range of securities 24 hours a day, five days a week. This move follows a successful pilot program and aims to meet the demand from investors keen to react to market-moving events promptly. The expansion includes trading in S&P 500 and Nasdaq-100 companies, as well as hundreds of ETFs.",
-      "url": "https://www.wealthmanagement.com/equities/charles-schwab-expands-24-hour-trading-to-all-its-retail-clients",
-      "source": "WealthManagement.com",
-      "published": "20250212T000000",
-      "overall_sentiment_score": 0.238588,
+      "title": "8 Best Quantum Computing Stocks to Buy in 2025",
+      "summary": "Quantum computing, while still largely in an R&D phase, holds immense potential to revolutionize technology with its ability to accelerate computing speeds far beyond current capabilities. Despite a projected commercialization timeline closer to the mid-2040s, advancements in cloud computing are increasing accessibility for developers, making it a promising, albeit speculative, investment area. The article highlights key companies such as IonQ, Microsoft, Nvidia, Alphabet, Intel, Honeywell, IBM, and Rigetti Computing, suggesting that investors can gain exposure through these tech giants or specialized quantum computing ETFs.",
+      "url": "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks/quantum-computing-stocks/",
+      "source": "The Motley Fool",
+      "published": "20250220T130910",
+      "overall_sentiment_score": 0.294177,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.224639,
+      "ticker_sentiment_score": 0.329056,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.624619
+      "relevance_score": 0.659934
     },
     {
       "title": "Digihost to Develop HPC and AI-Tier Data Centers",
@@ -91,6 +79,30 @@
       "relevance_score": 0.630437
     },
     {
+      "title": "Data Center Demand Is Exploding Thanks to AI: 1 Stock and 2 ETFs to Profit From It",
+      "summary": "The rapid advancement of artificial intelligence (AI) is causing an explosive growth in data center demand due to the massive computing power required. Investors looking to capitalize on this trend can consider Vistra (NYSE: VST) for its role in providing power, especially nuclear energy, to hyperscalers. Additionally, two ETFs, the Global X Data Center & Digital Infrastructure ETF (NASDAQ: DTCR) and the Global X MLP & Energy Infrastructure ETF (NYSEMKT: MLPX), offer diversified exposure to data center operators, digital infrastructure, and the energy sources powering them.",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/30998470/data-center-demand-is-exploding-thanks-to-ai-1-stock-and-2-etfs-to-profit-from-it/",
+      "source": "The Globe and Mail",
+      "published": "20250219T050831",
+      "overall_sentiment_score": 0.318549,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.308484,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.624637
+    },
+    {
+      "title": "Schwab Expands 24-Hour Trading to All Retail Clients",
+      "summary": "Charles Schwab is expanding its overnight trading services to all retail clients, allowing them to trade a wider range of securities 24 hours a day, five days a week. This move follows a successful pilot program and aims to meet the demand from investors keen to react to market-moving events promptly. The expansion includes trading in S&P 500 and Nasdaq-100 companies, as well as hundreds of ETFs.",
+      "url": "https://www.wealthmanagement.com/equities/charles-schwab-expands-24-hour-trading-to-all-its-retail-clients",
+      "source": "WealthManagement.com",
+      "published": "20250212T000000",
+      "overall_sentiment_score": 0.238588,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.224639,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.624619
+    },
+    {
       "title": "Digihost to Develop High-Performance Computing and AI-Tier",
       "summary": "Digihost Technology Inc. announced the formation of US Data Centers, Inc., a new subsidiary dedicated to developing high-performance computing (HPC) and artificial intelligence (AI)-focused data centers. Their first project involves transforming an existing site in Columbiana, Alabama, into a 55 MW Tier 3 data center with an estimated total capital expenditure of $440 million, planned for completion by Q1 2027. This strategic investment aims to meet the escalating demand for AI-driven computing power and cloud services.",
       "url": "https://www.globenewswire.com/news-release/2025/02/11/3024064/0/en/Digihost-to-Develop-High-Performance-Computing-and-AI-Tier-Data-Centers-Through-Wholly-Owned-Subsidiary-US-Data-Centers-Inc.html",
@@ -101,30 +113,6 @@
       "ticker_sentiment_score": 0.342562,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.6228
-    },
-    {
-      "title": "Amphenol Corporation (APH) Surged due to Rapid Growth In Data Centre Construction",
-      "summary": "Amphenol Corporation (NYSE: APH) experienced significant growth in 2024, attributed to the rapid expansion of data center construction, which accounts for approximately 20% of its sales. The company specializes in manufacturing electrical, electronic, and fiber optic connectors used across various industries. Despite its strong performance, Aoris Investment Management, while acknowledging Amphenol's potential, believes AI stocks offer higher and quicker returns for investors.",
-      "url": "https://www.insidermonkey.com/blog/amphenol-corporation-aph-surged-due-to-rapid-growth-in-data-centre-construction-1452736/",
-      "source": "Insider Monkey",
-      "published": "20250214T100200",
-      "overall_sentiment_score": 0.301334,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.332637,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.61614
-    },
-    {
-      "title": "How Fidelity Growth Company’s Big Nvidia Bet Influences Its Rating",
-      "summary": "Fidelity Growth Company's performance is heavily influenced by its significant investment in Nvidia, which constitutes about 16% of its assets. While lead manager Steve Wymer has an excellent track record and the fund has consistently outperformed, the high concentration in Nvidia introduces risk due to the stock's volatile history and reliance on the nascent AI GPU market. Despite the fund's large size limiting agility, its exceptional leadership and long-term performance continue to earn it a Silver Morningstar Medalist Rating.",
-      "url": "https://www.morningstar.com/funds/how-fidelity-growth-companys-big-nvidia-bet-influences-its-rating-2",
-      "source": "Morningstar",
-      "published": "20250213T000000",
-      "overall_sentiment_score": 0.323666,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.402998,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
     },
     {
       "title": "SMCY Is A High-Risk, High-Reward Bet On AI (NYSEARCA:SMCY)",
@@ -139,16 +127,28 @@
       "relevance_score": 0.621854
     },
     {
-      "title": "8 Best Quantum Computing Stocks to Buy in 2025",
-      "summary": "Quantum computing, while still largely in an R&D phase, holds immense potential to revolutionize technology with its ability to accelerate computing speeds far beyond current capabilities. Despite a projected commercialization timeline closer to the mid-2040s, advancements in cloud computing are increasing accessibility for developers, making it a promising, albeit speculative, investment area. The article highlights key companies such as IonQ, Microsoft, Nvidia, Alphabet, Intel, Honeywell, IBM, and Rigetti Computing, suggesting that investors can gain exposure through these tech giants or specialized quantum computing ETFs.",
-      "url": "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks/quantum-computing-stocks/",
-      "source": "The Motley Fool",
-      "published": "20250220T130910",
-      "overall_sentiment_score": 0.294177,
+      "title": "Roundhill Launches 5 Leveraged Weekly Income ETFs",
+      "summary": "Roundhill Investments has launched five new WeeklyPay ETFs (NVW, TSW, AAPW, COIW, PLTW) on the Cboe Exchange, offering weekly distributions and leveraged exposure to specific single stocks like Nvidia, Tesla, and Apple. These actively managed funds aim to generate 1.2 times the weekly returns of their underlying companies, providing income-focused investors with amplified returns and potential tax advantages through return of capital distributions. This innovation expands Roundhill's portfolio of weekly income strategies, with plans for additional leveraged WeeklyPay ETFs covering other major companies.",
+      "url": "https://etfdb.com/news/2025/02/19/5-leveraged-weekly-income-etfs-roundhill/",
+      "source": "ETF Database",
+      "published": "20250219T051226",
+      "overall_sentiment_score": 0.249927,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.329056,
+      "ticker_sentiment_score": 0.333952,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.659934
+      "relevance_score": 0.620044
+    },
+    {
+      "title": "Amphenol Corporation (APH) Surged due to Rapid Growth In Data Centre Construction",
+      "summary": "Amphenol Corporation (NYSE: APH) experienced significant growth in 2024, attributed to the rapid expansion of data center construction, which accounts for approximately 20% of its sales. The company specializes in manufacturing electrical, electronic, and fiber optic connectors used across various industries. Despite its strong performance, Aoris Investment Management, while acknowledging Amphenol's potential, believes AI stocks offer higher and quicker returns for investors.",
+      "url": "https://www.insidermonkey.com/blog/amphenol-corporation-aph-surged-due-to-rapid-growth-in-data-centre-construction-1452736/",
+      "source": "Insider Monkey",
+      "published": "20250214T100200",
+      "overall_sentiment_score": 0.301334,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.332637,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.61614
     },
     {
       "title": "Jones Lang LaSalle (JLL) Reports Strong Q4 Earnings, Advances AI-Powered Real Estate Solutions",

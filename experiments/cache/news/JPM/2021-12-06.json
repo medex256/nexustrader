@@ -7,6 +7,30 @@
   "article_count": 17,
   "articles": [
     {
+      "title": "Closing in on UK Banking: JPMorgan Chase Takes on UK Financial Institutions with its own Digital Bank",
+      "summary": "JPMorgan Chase has launched its digital bank in the UK, entering into direct competition with established British banks and fintech startups. This strategic move, following months of speculation, is aimed at providing UK customers with a new banking choice and capitalizing on the vibrant UK consumer banking marketplace. Despite intense competition, JPMorgan Chase is optimistic about its prospects, leveraging its strong reputation and a focus on reliability and exceptional customer service.",
+      "url": "https://www.paymentsjournal.com/closing-in-on-uk-banking-jpmorgan-chase-takes-on-uk-financial-institutions-with-its-own-digital-bank/",
+      "source": "PaymentsJournal",
+      "published": "20211126T193543",
+      "overall_sentiment_score": 0.176161,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.430168,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Cowen buys M&A advisory firm Portico to beef up investment banking",
+      "summary": "Cowen Inc announced its acquisition of Portico Capital Advisors, an M&A advisory firm specializing in the software industry, to expand its investment banking business. The deal, comprising 75% cash and 25% stock, is expected to boost Cowen's M&A advisory revenue by nearly 20% in fiscal 2022. This move aligns with a broader trend of increased dealmaking activity benefiting major Wall Street banks.",
+      "url": "https://www.reuters.com/markets/deals/cowen-buys-ma-advisory-firm-portico-beef-up-investment-banking-2021-11-23/",
+      "source": "Reuters",
+      "published": "20211123T175700",
+      "overall_sentiment_score": 0.205276,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.328925,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.732223
+    },
+    {
       "title": "This big bank is getting rid of overdraft fees, saving customers $150 million a year",
       "summary": "Capital One Bank announced it will eliminate overdraft fees and penalties for non-sufficient funds on all its accounts, effective early next year. This move makes Capital One the first major bank to do so, potentially saving customers $150 million annually. The decision comes amidst increased scrutiny by the U.S. Consumer Financial Protection Bureau and consumer groups regarding overdraft fee practices, which disproportionately affect low-income customers.",
       "url": "https://www.azcentral.com/story/money/business/consumers/2021/12/03/capitol-one-bank-first-big-bank-eliminate-overdraft-fees/8831068002/",
@@ -19,28 +43,40 @@
       "relevance_score": 0.71342
     },
     {
-      "title": "DocuSign shares plunge 42% after the company gave weak guidance",
-      "summary": "Shares of e-signature software maker DocuSign plunged 42.2% after the company issued weaker-than-expected guidance for the fourth quarter. While DocuSign beat third-quarter analyst estimates, its Q4 revenue forecast of $557 million to $563 million fell short of the anticipated $573.8 million. CEO Dan Springer attributed the slowed growth to execution issues rather than macro forces, stating that the company pulled back from demand generation, but expects things to improve quickly.",
-      "url": "https://www.cnbc.com/2021/12/03/docusign-stock-plunges-after-the-company-gave-weak-q4-guidance.html",
-      "source": "CNBC",
-      "published": "20211203T090000",
-      "overall_sentiment_score": -0.366235,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.207708,
+      "title": "Capital One is the first big bank to get rid of overdraft fees",
+      "summary": "Capital One became the first major US bank to eliminate all overdraft and non-sufficient funds fees, effective immediately. This move makes Capital One, the sixth-largest retail bank, a pioneer among top-tier financial institutions in ending these charges, which have drawn criticism from consumer advocacy groups and lawmakers for burdening vulnerable customers. The decision is expected to put pressure on other large banks to follow suit or risk regulatory action, as these fees have historically generated billions in revenue for the industry.",
+      "url": "https://www.cnn.com/2021/12/01/investing/capital-one-overdraft-fees",
+      "source": "CNN",
+      "published": "20211202T080100",
+      "overall_sentiment_score": -0.105914,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.223367,
       "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.616156
+      "relevance_score": 0.709108
     },
     {
-      "title": "EXCLUSIVE: Morgan Stanley Leaves 2022 Grid Unchanged, Sharpens Focus on Asset Growth and Lending",
-      "summary": "Morgan Stanley is keeping its core broker payout grid unchanged for 2022 but will introduce modified incentives to encourage brokers to grow asset and loan balances and promote E*Trade for self-directed accounts. The changes, taking effect in stages from January to September, include adjustments to bonuses for net acquired assets and liabilities, new ways for teams to qualify for bonuses, and revised payouts for lending and mortgages. These tweaks are part of Morgan Stanley's strategy to align with its modern wealth approach and deepen client relationships, mirroring a similar approach by competitor Merrill Lynch.",
-      "url": "https://www.advisorhub.com/exclusive-morgan-stanley-leaves-2022-grid-unchanged-sharpens-focus-on-asset-growth-and-lending/",
-      "source": "AdvisorHub",
-      "published": "20211201T204734",
-      "overall_sentiment_score": 0.140448,
+      "title": "Kosciusko County Court News",
+      "summary": "This article details court news from Kosciusko County, Indiana, as of November 2021. It lists numerous small claims, civil collections, plenaries, and evictions, including the involved parties and awarded financial amounts. Additionally, it reports on various infractions recorded in Superior Court II, such as speeding, driving while suspended, and other traffic and minor offenses.",
+      "url": "https://www.inkfreenews.com/2021/11/23/kosciusko-county-court-news-455/",
+      "source": "InkFreeNews.com",
+      "published": "20211124T151200",
+      "overall_sentiment_score": -0.120934,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.075148,
+      "ticker_sentiment_score": -0.212519,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.647306
+    },
+    {
+      "title": "Companies are telling unvaccinated workers to pay more for health insurance",
+      "summary": "Some companies are implementing policies to charge unvaccinated workers more for health insurance, citing the high costs associated with COVID-19 illnesses. This trend involves using \"wellness programs\" to levy surcharges or fees on employees who decline vaccination, aiming to incentivize vaccination and mitigate financial risks from COVID-related hospitalizations. Companies like Delta Air Lines and Mercyhealth have seen increases in vaccination rates after implementing such surcharges or fees.",
+      "url": "https://www.npr.org/2021/11/22/1056238770/covid-delta-unvaccinated-higher-health-insurance-premiums",
+      "source": "NPR",
+      "published": "20211122T101500",
+      "overall_sentiment_score": -0.161926,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.137316,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.590164
+      "relevance_score": 0.64699
     },
     {
       "title": "Ally Financial closes acquisition of credit card platform Fair Square Financial",
@@ -67,90 +103,6 @@
       "relevance_score": 0.633467
     },
     {
-      "title": "Goldman to Offer Asia-Pacific Staff $5,000 for Quarantine Costs",
-      "summary": "Goldman Sachs Group Inc. is introducing a reimbursement plan to provide a one-time subsidy of up to $5,000 for its Asia-Pacific employees to cover hotel quarantine costs. This initiative, effective December 1, is a response to the \"additional burden of multiple lockdowns and some of the strictest quarantine measures in the world\" faced by staff in the region, particularly in Hong Kong due to its strict Covid-Zero strategy, and aims to help retain talent. JPMorgan and Morgan Stanley have made similar offers.",
-      "url": "https://www.bloomberg.com/news/articles/2021-11-27/goldman-to-offer-asia-pacific-staff-5-000-for-quarantine-costs",
-      "source": "Bloomberg.com",
-      "published": "20211127T101100",
-      "overall_sentiment_score": 0.123886,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.116565,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.615667
-    },
-    {
-      "title": "Closing in on UK Banking: JPMorgan Chase Takes on UK Financial Institutions with its own Digital Bank",
-      "summary": "JPMorgan Chase has launched its digital bank in the UK, entering into direct competition with established British banks and fintech startups. This strategic move, following months of speculation, is aimed at providing UK customers with a new banking choice and capitalizing on the vibrant UK consumer banking marketplace. Despite intense competition, JPMorgan Chase is optimistic about its prospects, leveraging its strong reputation and a focus on reliability and exceptional customer service.",
-      "url": "https://www.paymentsjournal.com/closing-in-on-uk-banking-jpmorgan-chase-takes-on-uk-financial-institutions-with-its-own-digital-bank/",
-      "source": "PaymentsJournal",
-      "published": "20211126T193543",
-      "overall_sentiment_score": 0.176161,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.430168,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "With UAW strike concluded, Deere reports record profits",
-      "summary": "John Deere announced record profits for the fiscal year ending November 1, totaling $5.96 billion, despite a five-week UAW strike and ongoing supply chain issues. The company surpassed Wall Street expectations and projects another record year in 2022, driven by strong demand in agricultural and construction equipment, precision agriculture, and favorable market conditions. Deere is also passing increased costs from supply challenges and the new UAW contract onto customers and raised prices in 2021.",
-      "url": "https://www.desmoinesregister.com/story/money/business/2021/11/24/john-deere-reports-record-profits-uaw-strike-concluded-supply-chain/8742810002/",
-      "source": "The Des Moines Register",
-      "published": "20211124T200235",
-      "overall_sentiment_score": 0.237071,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.230161,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.587203
-    },
-    {
-      "title": "Kosciusko County Court News",
-      "summary": "This article details court news from Kosciusko County, Indiana, as of November 2021. It lists numerous small claims, civil collections, plenaries, and evictions, including the involved parties and awarded financial amounts. Additionally, it reports on various infractions recorded in Superior Court II, such as speeding, driving while suspended, and other traffic and minor offenses.",
-      "url": "https://www.inkfreenews.com/2021/11/23/kosciusko-county-court-news-455/",
-      "source": "InkFreeNews.com",
-      "published": "20211124T151200",
-      "overall_sentiment_score": -0.120934,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.212519,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.647306
-    },
-    {
-      "title": "Dunamu evolves from outlier to qualified investor in Woori",
-      "summary": "Dunamu Inc., operator of South Korea's Upbit crypto exchange, is buying a 1% stake in Woori Financial Group, signaling its evolution into a qualified financial investor. This strategic investment aims to provide Dunamu with access to inside financial information and foster business cooperation, while also helping Woori draw a picture for digital business and potentially building a future business model for cryptocurrency adoption. Dunamu, which became a decacorn earlier this year, has been diversifying its investments beyond crypto, including stakes in entertainment companies like JYP Entertainment and HYBE, and plans to aggressively invest in areas creating synergy.",
-      "url": "https://www.kedglobal.com/cryptocurrencies/newsView/ked202111230021",
-      "source": "The Korea Economic Daily Global Edition",
-      "published": "20211123T200438",
-      "overall_sentiment_score": 0.247564,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.139057,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.55854
-    },
-    {
-      "title": "Cowen buys M&A advisory firm Portico to beef up investment banking",
-      "summary": "Cowen Inc announced its acquisition of Portico Capital Advisors, an M&A advisory firm specializing in the software industry, to expand its investment banking business. The deal, comprising 75% cash and 25% stock, is expected to boost Cowen's M&A advisory revenue by nearly 20% in fiscal 2022. This move aligns with a broader trend of increased dealmaking activity benefiting major Wall Street banks.",
-      "url": "https://www.reuters.com/markets/deals/cowen-buys-ma-advisory-firm-portico-beef-up-investment-banking-2021-11-23/",
-      "source": "Reuters",
-      "published": "20211123T175700",
-      "overall_sentiment_score": 0.205276,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.328925,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.732223
-    },
-    {
-      "title": "Capital One is the first big bank to get rid of overdraft fees",
-      "summary": "Capital One became the first major US bank to eliminate all overdraft and non-sufficient funds fees, effective immediately. This move makes Capital One, the sixth-largest retail bank, a pioneer among top-tier financial institutions in ending these charges, which have drawn criticism from consumer advocacy groups and lawmakers for burdening vulnerable customers. The decision is expected to put pressure on other large banks to follow suit or risk regulatory action, as these fees have historically generated billions in revenue for the industry.",
-      "url": "https://www.cnn.com/2021/12/01/investing/capital-one-overdraft-fees",
-      "source": "CNN",
-      "published": "20211202T080100",
-      "overall_sentiment_score": -0.105914,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.223367,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.709108
-    },
-    {
       "title": "No More Overdraft Fees? Capital One Becomes First Large Bank To Pledge End To Fines",
       "summary": "Capital One announced it will eliminate all overdraft fees for retail customers, becoming the largest bank to do so. This move is expected to cost the company $150 million in lost revenue but aligns with pressure from critics and smaller banks to end practices that disproportionately affect vulnerable consumers. Other banks like Ally have also ended overdraft fees, while some, such as PNC and Bank of America, have introduced features to help prevent overdrafts.",
       "url": "https://www.forbes.com/sites/annakaplan/2021/12/01/no-more-overdraft-fees-capital-one-becomes-first-large-bank-to-pledge-end-to-fines/",
@@ -163,16 +115,52 @@
       "relevance_score": 0.63107
     },
     {
-      "title": "Tompkins Mahopac Bank Adds Surprise Gift to Banksgiving Donations",
-      "summary": "Tompkins Mahopac Bank celebrated its annual \"Banksgiving\" by donating $7,500 to three Hudson Valley nonprofits focused on food insecurity: Dutchess Outreach, Feeding Westchester, and Second Chance Foods. This year, the bank added three surprise $1,000 donations to nonprofits chosen by its employees, namely Sparrow’s Nest of Wappingers Falls, Pawling Resource Center, and Gullotta House of Briarcliff Manor. These additional gifts aim to support causes important to their employees and further help communities during a challenging time.",
-      "url": "https://www.citybiz.co/article/181616/tompkins-mahopac-bank-adds-surprise-gift-to-banksgiving-donations/",
-      "source": "citybiz",
-      "published": "20211130T212239",
-      "overall_sentiment_score": 0.313362,
+      "title": "DocuSign shares plunge 42% after the company gave weak guidance",
+      "summary": "Shares of e-signature software maker DocuSign plunged 42.2% after the company issued weaker-than-expected guidance for the fourth quarter. While DocuSign beat third-quarter analyst estimates, its Q4 revenue forecast of $557 million to $563 million fell short of the anticipated $573.8 million. CEO Dan Springer attributed the slowed growth to execution issues rather than macro forces, stating that the company pulled back from demand generation, but expects things to improve quickly.",
+      "url": "https://www.cnbc.com/2021/12/03/docusign-stock-plunges-after-the-company-gave-weak-q4-guidance.html",
+      "source": "CNBC",
+      "published": "20211203T090000",
+      "overall_sentiment_score": -0.366235,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.207708,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.616156
+    },
+    {
+      "title": "Goldman to Offer Asia-Pacific Staff $5,000 for Quarantine Costs",
+      "summary": "Goldman Sachs Group Inc. is introducing a reimbursement plan to provide a one-time subsidy of up to $5,000 for its Asia-Pacific employees to cover hotel quarantine costs. This initiative, effective December 1, is a response to the \"additional burden of multiple lockdowns and some of the strictest quarantine measures in the world\" faced by staff in the region, particularly in Hong Kong due to its strict Covid-Zero strategy, and aims to help retain talent. JPMorgan and Morgan Stanley have made similar offers.",
+      "url": "https://www.bloomberg.com/news/articles/2021-11-27/goldman-to-offer-asia-pacific-staff-5-000-for-quarantine-costs",
+      "source": "Bloomberg.com",
+      "published": "20211127T101100",
+      "overall_sentiment_score": 0.123886,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.116565,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.615667
+    },
+    {
+      "title": "EXCLUSIVE: Morgan Stanley Leaves 2022 Grid Unchanged, Sharpens Focus on Asset Growth and Lending",
+      "summary": "Morgan Stanley is keeping its core broker payout grid unchanged for 2022 but will introduce modified incentives to encourage brokers to grow asset and loan balances and promote E*Trade for self-directed accounts. The changes, taking effect in stages from January to September, include adjustments to bonuses for net acquired assets and liabilities, new ways for teams to qualify for bonuses, and revised payouts for lending and mortgages. These tweaks are part of Morgan Stanley's strategy to align with its modern wealth approach and deepen client relationships, mirroring a similar approach by competitor Merrill Lynch.",
+      "url": "https://www.advisorhub.com/exclusive-morgan-stanley-leaves-2022-grid-unchanged-sharpens-focus-on-asset-growth-and-lending/",
+      "source": "AdvisorHub",
+      "published": "20211201T204734",
+      "overall_sentiment_score": 0.140448,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.075148,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.590164
+    },
+    {
+      "title": "With UAW strike concluded, Deere reports record profits",
+      "summary": "John Deere announced record profits for the fiscal year ending November 1, totaling $5.96 billion, despite a five-week UAW strike and ongoing supply chain issues. The company surpassed Wall Street expectations and projects another record year in 2022, driven by strong demand in agricultural and construction equipment, precision agriculture, and favorable market conditions. Deere is also passing increased costs from supply challenges and the new UAW contract onto customers and raised prices in 2021.",
+      "url": "https://www.desmoinesregister.com/story/money/business/2021/11/24/john-deere-reports-record-profits-uaw-strike-concluded-supply-chain/8742810002/",
+      "source": "The Des Moines Register",
+      "published": "20211124T200235",
+      "overall_sentiment_score": 0.237071,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.229543,
+      "ticker_sentiment_score": 0.230161,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.551473
+      "relevance_score": 0.587203
     },
     {
       "title": "OppFi to pay more than $2M to settle D.C. interest rate cap suit",
@@ -199,16 +187,28 @@
       "relevance_score": 0.572966
     },
     {
-      "title": "Companies are telling unvaccinated workers to pay more for health insurance",
-      "summary": "Some companies are implementing policies to charge unvaccinated workers more for health insurance, citing the high costs associated with COVID-19 illnesses. This trend involves using \"wellness programs\" to levy surcharges or fees on employees who decline vaccination, aiming to incentivize vaccination and mitigate financial risks from COVID-related hospitalizations. Companies like Delta Air Lines and Mercyhealth have seen increases in vaccination rates after implementing such surcharges or fees.",
-      "url": "https://www.npr.org/2021/11/22/1056238770/covid-delta-unvaccinated-higher-health-insurance-premiums",
-      "source": "NPR",
-      "published": "20211122T101500",
-      "overall_sentiment_score": -0.161926,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.137316,
+      "title": "Dunamu evolves from outlier to qualified investor in Woori",
+      "summary": "Dunamu Inc., operator of South Korea's Upbit crypto exchange, is buying a 1% stake in Woori Financial Group, signaling its evolution into a qualified financial investor. This strategic investment aims to provide Dunamu with access to inside financial information and foster business cooperation, while also helping Woori draw a picture for digital business and potentially building a future business model for cryptocurrency adoption. Dunamu, which became a decacorn earlier this year, has been diversifying its investments beyond crypto, including stakes in entertainment companies like JYP Entertainment and HYBE, and plans to aggressively invest in areas creating synergy.",
+      "url": "https://www.kedglobal.com/cryptocurrencies/newsView/ked202111230021",
+      "source": "The Korea Economic Daily Global Edition",
+      "published": "20211123T200438",
+      "overall_sentiment_score": 0.247564,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.139057,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.64699
+      "relevance_score": 0.55854
+    },
+    {
+      "title": "Tompkins Mahopac Bank Adds Surprise Gift to Banksgiving Donations",
+      "summary": "Tompkins Mahopac Bank celebrated its annual \"Banksgiving\" by donating $7,500 to three Hudson Valley nonprofits focused on food insecurity: Dutchess Outreach, Feeding Westchester, and Second Chance Foods. This year, the bank added three surprise $1,000 donations to nonprofits chosen by its employees, namely Sparrow’s Nest of Wappingers Falls, Pawling Resource Center, and Gullotta House of Briarcliff Manor. These additional gifts aim to support causes important to their employees and further help communities during a challenging time.",
+      "url": "https://www.citybiz.co/article/181616/tompkins-mahopac-bank-adds-surprise-gift-to-banksgiving-donations/",
+      "source": "citybiz",
+      "published": "20211130T212239",
+      "overall_sentiment_score": 0.313362,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.229543,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.551473
     }
   ]
 }

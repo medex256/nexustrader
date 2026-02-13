@@ -19,18 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Exxon, Chevron to spend billions more on oil projects next year",
-      "summary": "Exxon Mobil Corp and Chevron Corp plan to increase their project investments next year, allocating more funds towards energy projects amidst high oil demand and prices. Despite increased spending, this will not immediately translate to higher oil production for Exxon, though Chevron anticipates a compound annual increase through 2026. Both companies expect significant cash generation, with a focus on shareholder returns and lower-carbon initiatives.",
-      "url": "https://www.reuters.com/business/energy/exxon-chevron-spend-billions-more-oil-projects-next-year-2022-12-08/",
-      "source": "Reuters",
-      "published": "20221208T162400",
-      "overall_sentiment_score": 0.38423,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.329573,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.998074
-    },
-    {
       "title": "Exxon Mobil gives employees massive pay raises",
       "summary": "Exxon Mobil is significantly raising employee salaries by an average of 9% and granting restricted stock options to 14,000 employees globally, marking its largest salary increase in 15 years. This comes amidst record-breaking profits for the oil giant in 2022. The article contrasts Exxon's good fortune with mass layoffs occurring in the tech, housing, and financial sectors at companies like Morgan Stanley, Goldman Sachs, PepsiCo, Intel, and BuzzFeed.",
       "url": "https://www.hcamag.com/us/specialization/payroll/exxon-mobil-gives-employees-massive-pay-raises/429978",
@@ -41,18 +29,6 @@
       "ticker_sentiment_score": 0.519126,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Hess Signs $750M REDD+ Carbon Credits Deal with Guyana",
-      "summary": "Hess Corporation has signed a $750 million deal with Guyana to purchase REDD+ carbon credits over the next decade, supporting the South American nation's efforts to protect its Amazonian rainforests. This agreement, running from 2022 to 2032, involves Hess buying 37.5 million REDD+ jurisdictional carbon credits and aligns with Guyana's Low Carbon Development Strategy 2030 and Hess's net-zero emissions target by 2050. Approximately 30% of Hess's investment will be allocated to developing Indigenous Amerindian communities in Guyana.",
-      "url": "https://carboncredits.com/hess-signs-750m-redd-carbon-credits-deal-with-guyana/",
-      "source": "CarbonCredits.com",
-      "published": "20221205T165640",
-      "overall_sentiment_score": 0.363755,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.254821,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.736755
     },
     {
       "title": "ExxonMobil CEO Gets Pay Raise",
@@ -91,6 +67,18 @@
       "relevance_score": 1.0
     },
     {
+      "title": "Exxon, Chevron to spend billions more on oil projects next year",
+      "summary": "Exxon Mobil Corp and Chevron Corp plan to increase their project investments next year, allocating more funds towards energy projects amidst high oil demand and prices. Despite increased spending, this will not immediately translate to higher oil production for Exxon, though Chevron anticipates a compound annual increase through 2026. Both companies expect significant cash generation, with a focus on shareholder returns and lower-carbon initiatives.",
+      "url": "https://www.reuters.com/business/energy/exxon-chevron-spend-billions-more-oil-projects-next-year-2022-12-08/",
+      "source": "Reuters",
+      "published": "20221208T162400",
+      "overall_sentiment_score": 0.38423,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.329573,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.998074
+    },
+    {
       "title": "Technical Pulse: US Market Sector Analysis Which sectors could outperform in 2023?",
       "summary": "The article analyzes the performance of US market sectors in 2022, identifying Energy, Healthcare, and Aerospace & Defence as top performers, while Technology, Consumer Cyclicals, and Banks underperformed. It discusses sector rotation analysis based on the business and stock market cycles, suggesting that Utilities, Financials, and Real Estate sectors could outperform in 2023 as the market potentially enters a recessionary phase, especially if interest rates ease. The report concludes by highlighting the shift from value and defensive stocks in 2022 towards rate-sensitive sectors for the upcoming year.",
       "url": "https://www.stocksbnb.com/reports/technical-pulse-us-market-sector-analysis-which-sectors-could-outperform-in-2023/",
@@ -101,6 +89,18 @@
       "ticker_sentiment_score": 0.427986,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.802115
+    },
+    {
+      "title": "Hess Signs $750M REDD+ Carbon Credits Deal with Guyana",
+      "summary": "Hess Corporation has signed a $750 million deal with Guyana to purchase REDD+ carbon credits over the next decade, supporting the South American nation's efforts to protect its Amazonian rainforests. This agreement, running from 2022 to 2032, involves Hess buying 37.5 million REDD+ jurisdictional carbon credits and aligns with Guyana's Low Carbon Development Strategy 2030 and Hess's net-zero emissions target by 2050. Approximately 30% of Hess's investment will be allocated to developing Indigenous Amerindian communities in Guyana.",
+      "url": "https://carboncredits.com/hess-signs-750m-redd-carbon-credits-deal-with-guyana/",
+      "source": "CarbonCredits.com",
+      "published": "20221205T165640",
+      "overall_sentiment_score": 0.363755,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.254821,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.736755
     }
   ]
 }

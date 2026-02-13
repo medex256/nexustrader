@@ -7,30 +7,6 @@
   "article_count": 17,
   "articles": [
     {
-      "title": "The 10 Hottest Semiconductor Startups Of 2023",
-      "summary": "CRN highlights the 10 hottest semiconductor startups of 2023, showcasing companies that are challenging established players in AI computing, addressing memory and data transfer bottlenecks, and innovating in cloud-native processors and telecom. These startups have achieved significant milestones this year, including major funding rounds, product launches, and growing customer and partner momentum, positioning them for success in a rapidly evolving industry. The article details each company's offerings and recent achievements.",
-      "url": "https://www.crn.com/news/components-peripherals/10-hottest-semiconductor-startups-2023",
-      "source": "CRN Magazine",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.289326,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.341259,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.879372
-    },
-    {
-      "title": "The Cheap Trick Alphabet Is Using To Boost Its Share Price",
-      "summary": "Alphabet's 20-for-1 stock split, following similar moves by Apple and Tesla, is unlikely to fundamentally change the company's valuation but aims to make shares more accessible to smaller investors and potentially gain entry into the Dow Jones Industrial Average. While some tech giants saw significant share price boosts post-split, Alphabet's future success might be tempered by changing market conditions. The article suggests Amazon could be the next tech giant to undertake a similar split to boost its stock.",
-      "url": "https://finimize.com/content/cheap-trick-alphabet-using-boost-its-share-price",
-      "source": "Finimize",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.282654,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.209875,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.618618
-    },
-    {
       "title": "Inflection AI Announces $1.3 Billion of Funding Led by Current Investors, Microsoft, and NVIDIA",
       "summary": "Inflection AI announced a $1.3 billion funding round led by Microsoft, Reid Hoffman, Bill Gates, Eric Schmidt, and NVIDIA, bringing its total raised to $1.525 billion. The funding will support the company's work on Pi, a personal AI designed for natural text and voice conversations. Inflection AI is also building the world's largest AI cluster with 22,000 NVIDIA H100 Tensor Core GPUs in partnership with CoreWeave and NVIDIA.",
       "url": "https://www.businesswire.com/news/home/20230629810313/en/Inflection-AI-Announces-%241.3-Billion-of-Funding-Led-by-Current-Investors-Microsoft-and-NVIDIA",
@@ -41,126 +17,6 @@
       "ticker_sentiment_score": 0.401586,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF ETF Price, Holdings, & News (NASDAQ:ZZZ)",
-      "summary": "The Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF (ZZZ) is an exchange-traded fund launched on December 28, 2023, by Onefund, which invests in a 75/25 blend of US large-cap stocks and front-month CME Bitcoin futures. It does not directly invest in Bitcoin's spot price. The ETF has an aggregate rating of \"Moderate Buy,\" assets under management of $6.02 million, and a net expense ratio of 1.01%.",
-      "url": "https://www.marketbeat.com/stocks/NASDAQ/ZZZ/",
-      "source": "MarketBeat",
-      "published": "20231230T201003",
-      "overall_sentiment_score": 0.241371,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.325848,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.615143
-    },
-    {
-      "title": "Apple's stock underperformed top tech peers in 2023 due to longest revenue slide in 22 years",
-      "summary": "Apple's stock underperformed its mega-cap tech peers in 2023, experiencing its longest revenue slide in 22 years with four consecutive quarters of declining sales. This decline was attributed to a combination of a weak economic environment for smartphones and PCs, and company-specific issues such as the lack of new iPad models and an Apple Watch sales ban. Despite a 49% stock rally for the year, Apple lagged behind competitors like Nvidia, Meta, Tesla, Amazon, Alphabet, and Microsoft.",
-      "url": "https://www.cnbc.com/2023/12/29/apple-underperformed-mega-cap-peers-in-2023-due-to-revenue-slide.html",
-      "source": "CNBC",
-      "published": "20231229T083000",
-      "overall_sentiment_score": 0.162583,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.302318,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.630965
-    },
-    {
-      "title": "Wall Street’s 10 favorite stocks for 2024",
-      "summary": "This article identifies Wall Street's top 10 stock picks for 2024 based on analyst ratings and implied upside potential. The list, derived from S&P 500 companies with at least 75% \"buy\" ratings, includes stocks like Nvidia, First Solar, and Halliburton, highlighting the optimistic outlook following investor confidence in the Federal Reserve's interest rate decisions.",
-      "url": "https://www.marketwatch.com/visual-stories/wall-streets-10-favorite-stocks-for-2024-ecdb380c?gaa_at=eafs&gaa_n=AWEtsqe_aXcANE-lQaZqOzBZP037wnozbZdWdgoNfmVGTVg95HTAXVwWnmzq&gaa_ts=69076984&gaa_sig=Xyb57hsFByeX0LXE7ACGm0dKsILDtRyVTig0HQb1hwHyTg1NAIYacBDfla06sQO9kzQ73Y8GtliSnRHWx94-RQ%3D%3D",
-      "source": "MarketWatch.com Webstory",
-      "published": "20231227T000000",
-      "overall_sentiment_score": 0.361193,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.419128,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.933352
-    },
-    {
-      "title": "Megatrends: How to Invest in the AI Boom",
-      "summary": "This article from Morgan Stanley discusses investment opportunities in the rapidly growing artificial intelligence (AI) industry, projected to reach $3 trillion. It identifies four types of AI leaders for investors to watch: Margin Expanders, Trailblazers, Price Raisers, and Input Suppliers, while also cautioning about potential risks and the need for selective investing.",
-      "url": "https://www.morganstanley.com/articles/ai-investing-opportunities",
-      "source": "Morgan Stanley",
-      "published": "20231222T151050",
-      "overall_sentiment_score": 0.365572,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.416643,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.868475
-    },
-    {
-      "title": "Best Flying Cars Stocks 2024: 3 Names to Add to Your Must-Buy List",
-      "summary": "This article identifies three top investment opportunities in the emerging flying car market for 2024. It highlights Joby Aviation (JOBY) for its strong earnings and potential commercial flight by 2025, Lilium (LILM) due to recent regulatory approvals and partnership MoUs, and the SmartETFs Smart Transportation & Technology ETF (MOTO) for diversified exposure to the sector. The author suggests these stocks are poised for growth in a market projected to reach $1.5 trillion by 2040.",
-      "url": "https://investorplace.com/2023/12/best-flying-cars-stocks-2024-3-names-to-add-to-your-must-buy-list/",
-      "source": "InvestorPlace",
-      "published": "20231221T193135",
-      "overall_sentiment_score": 0.357017,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.319774,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.611299
-    },
-    {
-      "title": "Supermicro 30th Anniversary - A Letter from Our CEO",
-      "summary": "Supermicro CEO Charles Liang reflects on the company's 30-year journey, highlighting its evolution from designing motherboards to becoming a leader in advanced server systems and total IT solutions. He emphasizes Supermicro's commitment to innovation, green computing, and its \"Building Block Solutions®\" design methodology, while also outlining future strategies such as \"Supermicro 4.0\" focusing on AI solutions, liquid cooling, and global manufacturing expansion. The letter underscores the company's dedication to providing high-performance, energy-efficient infrastructure from the data center to the edge.",
-      "url": "https://www.supermicro.com/en/about/30th-anniversary-open-letter-charles-liang",
-      "source": "Supermicro",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.398554,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.346795,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.644284
-    },
-    {
-      "title": "Taiwan Semiconductor Manufacturing to delay chip production in Phoenix for a year. Here's why",
-      "summary": "Taiwan Semiconductor Manufacturing (TSMC) announced a one-year delay in the start of chip production at its Phoenix facility, pushing the timeline to 2025 due to a lack of skilled employees for specialized equipment installation. The company also anticipates higher production costs in Phoenix compared to Taiwan and is sending more specialized workers to address the issues. This delay comes as TSMC reported its first quarterly profit decline in nearly four years amid lower demand for consumer electronics.",
-      "url": "https://www.azcentral.com/story/money/business/tech/2023/07/20/taiwan-semiconductor-manufacturing-to-delay-chip-production-in-phoenix/70440555007/",
-      "source": "azcentral.com and The Arizona Republic",
-      "published": "20231231T235959",
-      "overall_sentiment_score": -0.157947,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.119482,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.596933
-    },
-    {
-      "title": "One of the best-performing stocks of 2023 averted disaster to surge 1,000%",
-      "summary": "The article highlights that the top-performing stock of 2023 rose nearly 2,000%, while the second-best achieved a tenfold gain by averting disaster. It notes that the best performers were tied to biotech, crypto, and a car-related company, contrasting with the focus on the \"Magnificent Seven\" and AI throughout the year. Nvidia Corp. (NVDA), a prominent AI-linked chip maker, also saw significant gains, surging over 200%.",
-      "url": "https://www.marketwatch.com/story/the-best-performing-stock-of-the-year-rose-nearly-10-fold-while-the-second-best-averted-disaster-to-surge-1-000-in-a-wild-2023-ce26b559?gaa_at=eafs&gaa_n=AWEtsqdxsvB_xaPXbCfXSy1lLrcjzoST9UxjwS6sXspEQYWQiRlFlwVkg5gC&gaa_ts=69076cf7&gaa_sig=widhIV0UCbD4fL_wyQ6NGq29RVukF-FMIdZqHTBmgwslJEMyhYhf_bFZHlRRL3xppCEzJQrBr3LyVh--Ol82ag%3D%3D",
-      "source": "MarketWatch",
-      "published": "20231227T144600",
-      "overall_sentiment_score": 0.579101,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.347081,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.604982
-    },
-    {
-      "title": "Wall Street’s 10 favorite stocks for 2024",
-      "summary": "This article identifies Wall Street's top 10 favorite stocks for 2024, based on analyst ratings and implied upside potential. The selection process began with S&P 500 companies that have at least 75% \"buy\" or equivalent ratings. The list includes companies such as Nvidia, First Solar, and Halliburton, with implied upside potentials ranging from 27% to 37%.",
-      "url": "https://www.marketwatch.com/visual-stories/wall-streets-10-favorite-stocks-for-2024-ecdb380c?gaa_at=eafs&gaa_n=AWEtsqdZ4TAajTEgEqaA4DbjRZgedDLeV5e8YIZlAIFlSLu_x-pkoIy1C2Or&gaa_ts=69076983&gaa_sig=R7v9FTwSjQKbMQ7BZMibLy_YUmHRY8gnJ6vNmKta9u2UUMkIZjR4p9DflF5sc81n0hPsjuAqgcZ-1rxEE1Mf-g%3D%3D",
-      "source": "MarketWatch.com Webstory",
-      "published": "20231227T000000",
-      "overall_sentiment_score": 0.376182,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.36233,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.921552
-    },
-    {
-      "title": "AU Focus: Real-Time 3D and Designing for the Metaverse",
-      "summary": "This article discusses the transformative impact of Real-Time 3D (RT3D) visualization technologies beyond gaming, specifically highlighting its applications in architecture, engineering, construction, manufacturing, and media. It emphasizes how RT3D enables immersive and interactive digital experiences, making it foundational for the development of the metaverse. The piece also references several Autodesk University (AU) 2022 sessions that provide insights into building skills and understanding the potential of RT3D.",
-      "url": "https://www.autodesk.com/autodesk-university/article/AU-Focus-Real-Time-3D-and-Designing-Metaverse-2023",
-      "source": "Autodesk",
-      "published": "20231231T235959",
-      "overall_sentiment_score": 0.180178,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.101045,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.590877
     },
     {
       "title": "Cathie Wood says ARK dumped Nvidia shares before 160% surge because it’s ‘just pivoting’ to other A.I. plays",
@@ -175,6 +31,66 @@
       "relevance_score": 1.0
     },
     {
+      "title": "Wall Street’s 10 favorite stocks for 2024",
+      "summary": "This article identifies Wall Street's top 10 stock picks for 2024 based on analyst ratings and implied upside potential. The list, derived from S&P 500 companies with at least 75% \"buy\" ratings, includes stocks like Nvidia, First Solar, and Halliburton, highlighting the optimistic outlook following investor confidence in the Federal Reserve's interest rate decisions.",
+      "url": "https://www.marketwatch.com/visual-stories/wall-streets-10-favorite-stocks-for-2024-ecdb380c?gaa_at=eafs&gaa_n=AWEtsqe_aXcANE-lQaZqOzBZP037wnozbZdWdgoNfmVGTVg95HTAXVwWnmzq&gaa_ts=69076984&gaa_sig=Xyb57hsFByeX0LXE7ACGm0dKsILDtRyVTig0HQb1hwHyTg1NAIYacBDfla06sQO9kzQ73Y8GtliSnRHWx94-RQ%3D%3D",
+      "source": "MarketWatch.com Webstory",
+      "published": "20231227T000000",
+      "overall_sentiment_score": 0.361193,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.419128,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.933352
+    },
+    {
+      "title": "Wall Street’s 10 favorite stocks for 2024",
+      "summary": "This article identifies Wall Street's top 10 favorite stocks for 2024, based on analyst ratings and implied upside potential. The selection process began with S&P 500 companies that have at least 75% \"buy\" or equivalent ratings. The list includes companies such as Nvidia, First Solar, and Halliburton, with implied upside potentials ranging from 27% to 37%.",
+      "url": "https://www.marketwatch.com/visual-stories/wall-streets-10-favorite-stocks-for-2024-ecdb380c?gaa_at=eafs&gaa_n=AWEtsqdZ4TAajTEgEqaA4DbjRZgedDLeV5e8YIZlAIFlSLu_x-pkoIy1C2Or&gaa_ts=69076983&gaa_sig=R7v9FTwSjQKbMQ7BZMibLy_YUmHRY8gnJ6vNmKta9u2UUMkIZjR4p9DflF5sc81n0hPsjuAqgcZ-1rxEE1Mf-g%3D%3D",
+      "source": "MarketWatch.com Webstory",
+      "published": "20231227T000000",
+      "overall_sentiment_score": 0.376182,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.36233,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.921552
+    },
+    {
+      "title": "The 10 Hottest Semiconductor Startups Of 2023",
+      "summary": "CRN highlights the 10 hottest semiconductor startups of 2023, showcasing companies that are challenging established players in AI computing, addressing memory and data transfer bottlenecks, and innovating in cloud-native processors and telecom. These startups have achieved significant milestones this year, including major funding rounds, product launches, and growing customer and partner momentum, positioning them for success in a rapidly evolving industry. The article details each company's offerings and recent achievements.",
+      "url": "https://www.crn.com/news/components-peripherals/10-hottest-semiconductor-startups-2023",
+      "source": "CRN Magazine",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.289326,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.341259,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.879372
+    },
+    {
+      "title": "Megatrends: How to Invest in the AI Boom",
+      "summary": "This article from Morgan Stanley discusses investment opportunities in the rapidly growing artificial intelligence (AI) industry, projected to reach $3 trillion. It identifies four types of AI leaders for investors to watch: Margin Expanders, Trailblazers, Price Raisers, and Input Suppliers, while also cautioning about potential risks and the need for selective investing.",
+      "url": "https://www.morganstanley.com/articles/ai-investing-opportunities",
+      "source": "Morgan Stanley",
+      "published": "20231222T151050",
+      "overall_sentiment_score": 0.365572,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.416643,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.868475
+    },
+    {
+      "title": "The Best Artificial Intelligence ETFs of 2023",
+      "summary": "The article highlights the top-performing Artificial Intelligence (AI) ETFs of 2023, with returns as high as 71%. It details five specific AI ETFs, including thematic funds that invest in companies benefiting from AI growth and AI-powered funds that use AI to select stocks, identifying key holdings and year-to-date performance for each.",
+      "url": "https://www.etf.com/sections/features/best-artificial-intelligence-etfs-2023",
+      "source": "ETF.com",
+      "published": "20231219T000000",
+      "overall_sentiment_score": 0.65368,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.646761,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.837439
+    },
+    {
       "title": "Cotações de Ações Americanas (STOCKS)",
       "summary": "The article provides a comprehensive list of American stock quotes (STOCKS), including company names and their respective stock symbols. It also features related news and analyses concerning major tech companies like Nvidia, Microsoft, Apple, Meta, and financial institutions like Coinbase and Visa, along with investment recommendations for international stocks.",
       "url": "https://www.moneytimes.com.br/cotacoes/acoes-americanas/",
@@ -185,6 +101,54 @@
       "ticker_sentiment_score": 0.132512,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.748679
+    },
+    {
+      "title": "Supermicro 30th Anniversary - A Letter from Our CEO",
+      "summary": "Supermicro CEO Charles Liang reflects on the company's 30-year journey, highlighting its evolution from designing motherboards to becoming a leader in advanced server systems and total IT solutions. He emphasizes Supermicro's commitment to innovation, green computing, and its \"Building Block Solutions®\" design methodology, while also outlining future strategies such as \"Supermicro 4.0\" focusing on AI solutions, liquid cooling, and global manufacturing expansion. The letter underscores the company's dedication to providing high-performance, energy-efficient infrastructure from the data center to the edge.",
+      "url": "https://www.supermicro.com/en/about/30th-anniversary-open-letter-charles-liang",
+      "source": "Supermicro",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.398554,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.346795,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.644284
+    },
+    {
+      "title": "Apple's stock underperformed top tech peers in 2023 due to longest revenue slide in 22 years",
+      "summary": "Apple's stock underperformed its mega-cap tech peers in 2023, experiencing its longest revenue slide in 22 years with four consecutive quarters of declining sales. This decline was attributed to a combination of a weak economic environment for smartphones and PCs, and company-specific issues such as the lack of new iPad models and an Apple Watch sales ban. Despite a 49% stock rally for the year, Apple lagged behind competitors like Nvidia, Meta, Tesla, Amazon, Alphabet, and Microsoft.",
+      "url": "https://www.cnbc.com/2023/12/29/apple-underperformed-mega-cap-peers-in-2023-due-to-revenue-slide.html",
+      "source": "CNBC",
+      "published": "20231229T083000",
+      "overall_sentiment_score": 0.162583,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.302318,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630965
+    },
+    {
+      "title": "The Cheap Trick Alphabet Is Using To Boost Its Share Price",
+      "summary": "Alphabet's 20-for-1 stock split, following similar moves by Apple and Tesla, is unlikely to fundamentally change the company's valuation but aims to make shares more accessible to smaller investors and potentially gain entry into the Dow Jones Industrial Average. While some tech giants saw significant share price boosts post-split, Alphabet's future success might be tempered by changing market conditions. The article suggests Amazon could be the next tech giant to undertake a similar split to boost its stock.",
+      "url": "https://finimize.com/content/cheap-trick-alphabet-using-boost-its-share-price",
+      "source": "Finimize",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.282654,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.209875,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.618618
+    },
+    {
+      "title": "Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF ETF Price, Holdings, & News (NASDAQ:ZZZ)",
+      "summary": "The Cyber Hornet S&P 500 and Bitcoin 75/25 Strategy ETF (ZZZ) is an exchange-traded fund launched on December 28, 2023, by Onefund, which invests in a 75/25 blend of US large-cap stocks and front-month CME Bitcoin futures. It does not directly invest in Bitcoin's spot price. The ETF has an aggregate rating of \"Moderate Buy,\" assets under management of $6.02 million, and a net expense ratio of 1.01%.",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ZZZ/",
+      "source": "MarketBeat",
+      "published": "20231230T201003",
+      "overall_sentiment_score": 0.241371,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.325848,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.615143
     },
     {
       "title": "The Rise of Smart Machines",
@@ -199,16 +163,52 @@
       "relevance_score": 0.611715
     },
     {
-      "title": "The Best Artificial Intelligence ETFs of 2023",
-      "summary": "The article highlights the top-performing Artificial Intelligence (AI) ETFs of 2023, with returns as high as 71%. It details five specific AI ETFs, including thematic funds that invest in companies benefiting from AI growth and AI-powered funds that use AI to select stocks, identifying key holdings and year-to-date performance for each.",
-      "url": "https://www.etf.com/sections/features/best-artificial-intelligence-etfs-2023",
-      "source": "ETF.com",
-      "published": "20231219T000000",
-      "overall_sentiment_score": 0.65368,
+      "title": "Best Flying Cars Stocks 2024: 3 Names to Add to Your Must-Buy List",
+      "summary": "This article identifies three top investment opportunities in the emerging flying car market for 2024. It highlights Joby Aviation (JOBY) for its strong earnings and potential commercial flight by 2025, Lilium (LILM) due to recent regulatory approvals and partnership MoUs, and the SmartETFs Smart Transportation & Technology ETF (MOTO) for diversified exposure to the sector. The author suggests these stocks are poised for growth in a market projected to reach $1.5 trillion by 2040.",
+      "url": "https://investorplace.com/2023/12/best-flying-cars-stocks-2024-3-names-to-add-to-your-must-buy-list/",
+      "source": "InvestorPlace",
+      "published": "20231221T193135",
+      "overall_sentiment_score": 0.357017,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.646761,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.837439
+      "ticker_sentiment_score": 0.319774,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.611299
+    },
+    {
+      "title": "One of the best-performing stocks of 2023 averted disaster to surge 1,000%",
+      "summary": "The article highlights that the top-performing stock of 2023 rose nearly 2,000%, while the second-best achieved a tenfold gain by averting disaster. It notes that the best performers were tied to biotech, crypto, and a car-related company, contrasting with the focus on the \"Magnificent Seven\" and AI throughout the year. Nvidia Corp. (NVDA), a prominent AI-linked chip maker, also saw significant gains, surging over 200%.",
+      "url": "https://www.marketwatch.com/story/the-best-performing-stock-of-the-year-rose-nearly-10-fold-while-the-second-best-averted-disaster-to-surge-1-000-in-a-wild-2023-ce26b559?gaa_at=eafs&gaa_n=AWEtsqdxsvB_xaPXbCfXSy1lLrcjzoST9UxjwS6sXspEQYWQiRlFlwVkg5gC&gaa_ts=69076cf7&gaa_sig=widhIV0UCbD4fL_wyQ6NGq29RVukF-FMIdZqHTBmgwslJEMyhYhf_bFZHlRRL3xppCEzJQrBr3LyVh--Ol82ag%3D%3D",
+      "source": "MarketWatch",
+      "published": "20231227T144600",
+      "overall_sentiment_score": 0.579101,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.347081,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.604982
+    },
+    {
+      "title": "Taiwan Semiconductor Manufacturing to delay chip production in Phoenix for a year. Here's why",
+      "summary": "Taiwan Semiconductor Manufacturing (TSMC) announced a one-year delay in the start of chip production at its Phoenix facility, pushing the timeline to 2025 due to a lack of skilled employees for specialized equipment installation. The company also anticipates higher production costs in Phoenix compared to Taiwan and is sending more specialized workers to address the issues. This delay comes as TSMC reported its first quarterly profit decline in nearly four years amid lower demand for consumer electronics.",
+      "url": "https://www.azcentral.com/story/money/business/tech/2023/07/20/taiwan-semiconductor-manufacturing-to-delay-chip-production-in-phoenix/70440555007/",
+      "source": "azcentral.com and The Arizona Republic",
+      "published": "20231231T235959",
+      "overall_sentiment_score": -0.157947,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.119482,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.596933
+    },
+    {
+      "title": "AU Focus: Real-Time 3D and Designing for the Metaverse",
+      "summary": "This article discusses the transformative impact of Real-Time 3D (RT3D) visualization technologies beyond gaming, specifically highlighting its applications in architecture, engineering, construction, manufacturing, and media. It emphasizes how RT3D enables immersive and interactive digital experiences, making it foundational for the development of the metaverse. The piece also references several Autodesk University (AU) 2022 sessions that provide insights into building skills and understanding the potential of RT3D.",
+      "url": "https://www.autodesk.com/autodesk-university/article/AU-Focus-Real-Time-3D-and-Designing-Metaverse-2023",
+      "source": "Autodesk",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.180178,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.101045,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.590877
     }
   ]
 }

@@ -7,42 +7,6 @@
   "article_count": 7,
   "articles": [
     {
-      "title": "FDA committee OKs Novavax's late-to-the-game COVID-19 vaccine",
-      "summary": "An independent FDA committee has voted to recommend Novavax's COVID-19 vaccine for emergency use authorization in the U.S. This vaccine, a protein-based shot, has already been approved in 41 other countries and could become the fourth FDA-approved coronavirus vaccine on the U.S. market. The decision aims to increase vaccine uptake, especially among those hesitant about mRNA technology.",
-      "url": "https://www.cbsnews.com/news/covid-19-vaccine-fda-to-review-novavax-shot/",
-      "source": "CBS News",
-      "published": "20220607T190400",
-      "overall_sentiment_score": 0.172853,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.147492,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.585716
-    },
-    {
-      "title": "Pfizer to exit GSK consumer health joint venture after spinoff",
-      "summary": "Pfizer plans to sell its 32% stake in the consumer health joint venture with GlaxoSmithKline after it spins off into a new standalone corporation called Haleon. GSK will contribute at least 80% of its 68% holding to Haleon, which is set to begin trading on the London Stock Exchange on July 18. Both companies aim to focus on vaccines and new medicine development, with Pfizer exiting in a \"disciplined manner\" to maximize shareholder value.",
-      "url": "https://www.biopharmadive.com/news/pfizer-gsk-consumer-health-exit-stake/624714/",
-      "source": "BioPharma Dive",
-      "published": "20220601T180645",
-      "overall_sentiment_score": 0.100229,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.106079,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.645639
-    },
-    {
-      "title": "Dupilumab FDA Approved for AD Patients 6 months to 5 years",
-      "summary": "The FDA has approved dupilumab (Dupixent) for children aged 6 months to 5 years with moderate-to-severe atopic dermatitis, marking it as the first biologic medicine for this age group. This approval is supported by data from the LIBERTY AD trial, which showed significant improvement in skin condition, itch, and quality of life for patients treated with dupilumab. The drug offers a new targeted treatment option for young children, addressing a significant unmet need.",
-      "url": "https://www.dermatologytimes.com/view/dupilumab-fda-approved-for-ad-patients-6-months-to-5-years",
-      "source": "Dermatology Times",
-      "published": "20220608T182549",
-      "overall_sentiment_score": 0.416282,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.100563,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.584482
-    },
-    {
       "title": "Johnson & Johnson aims to transform the experience of clinical research with new ClinApp platform",
       "summary": "Johnson & Johnson is developing a new platform called ClinApp, built on Pega Infinity, to streamline and enhance the clinical research process. This initiative aims to address the complexity and inefficiencies associated with clinical trials, which involve managing millions of data points and numerous stakeholders. The ClinApp platform seeks to provide a unified user experience, improve operational oversight, and reduce costs throughout the clinical trial lifecycle.",
       "url": "https://diginomica.com/johnson-johnson-aims-transform-experience-clinical-research-new-clinapp-platform",
@@ -53,6 +17,18 @@
       "ticker_sentiment_score": 0.421671,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.98771
+    },
+    {
+      "title": "Top 10 Players of the Internet of Medical Things (IoMT) Changing the Industry’s Face",
+      "summary": "This article identifies the top 10 players in the Internet of Medical Things (IoMT) sector as of 2022, highlighting their contributions and financial performance. It discusses how the IoMT market is rapidly growing, especially accelerated by the COVID-19 pandemic, and details the strategies and key product developments of leading companies like Medtronic, Philips, and Boston Scientific.",
+      "url": "https://www.fortunebusinessinsights.com/blog/top-players-in-the-internet-of-medical-things-iomt-sector-10684",
+      "source": "Fortune Business Insights",
+      "published": "20220530T164640",
+      "overall_sentiment_score": 0.333233,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.269802,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.757556
     },
     {
       "title": "Big Tobacco Is Funding Opposition to Global Covid Vaccine Access",
@@ -67,6 +43,18 @@
       "relevance_score": 0.648255
     },
     {
+      "title": "Pfizer to exit GSK consumer health joint venture after spinoff",
+      "summary": "Pfizer plans to sell its 32% stake in the consumer health joint venture with GlaxoSmithKline after it spins off into a new standalone corporation called Haleon. GSK will contribute at least 80% of its 68% holding to Haleon, which is set to begin trading on the London Stock Exchange on July 18. Both companies aim to focus on vaccines and new medicine development, with Pfizer exiting in a \"disciplined manner\" to maximize shareholder value.",
+      "url": "https://www.biopharmadive.com/news/pfizer-gsk-consumer-health-exit-stake/624714/",
+      "source": "BioPharma Dive",
+      "published": "20220601T180645",
+      "overall_sentiment_score": 0.100229,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.106079,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.645639
+    },
+    {
       "title": "What Can a Multi-Factor Screening Methodology Do for Your Core Equity Exposure?",
       "summary": "This article discusses how applying a multi-factor screening methodology can improve risk-adjusted returns for large-cap equity portfolios. It highlights factors such as value, quality, and momentum, and introduces the FlexShares US Quality Large Cap Index Fund (QLC) which integrates these factors. The fund aims to provide benefits of these factor exposures while maintaining a similar risk profile to the broader large-cap market.",
       "url": "https://www.etftrends.com/multi-asset-channel/what-can-a-multi-factor-screening-methodology-do-for-your-core-equity-exposure/",
@@ -79,16 +67,28 @@
       "relevance_score": 0.596171
     },
     {
-      "title": "Top 10 Players of the Internet of Medical Things (IoMT) Changing the Industry’s Face",
-      "summary": "This article identifies the top 10 players in the Internet of Medical Things (IoMT) sector as of 2022, highlighting their contributions and financial performance. It discusses how the IoMT market is rapidly growing, especially accelerated by the COVID-19 pandemic, and details the strategies and key product developments of leading companies like Medtronic, Philips, and Boston Scientific.",
-      "url": "https://www.fortunebusinessinsights.com/blog/top-players-in-the-internet-of-medical-things-iomt-sector-10684",
-      "source": "Fortune Business Insights",
-      "published": "20220530T164640",
-      "overall_sentiment_score": 0.333233,
+      "title": "FDA committee OKs Novavax's late-to-the-game COVID-19 vaccine",
+      "summary": "An independent FDA committee has voted to recommend Novavax's COVID-19 vaccine for emergency use authorization in the U.S. This vaccine, a protein-based shot, has already been approved in 41 other countries and could become the fourth FDA-approved coronavirus vaccine on the U.S. market. The decision aims to increase vaccine uptake, especially among those hesitant about mRNA technology.",
+      "url": "https://www.cbsnews.com/news/covid-19-vaccine-fda-to-review-novavax-shot/",
+      "source": "CBS News",
+      "published": "20220607T190400",
+      "overall_sentiment_score": 0.172853,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.269802,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.757556
+      "ticker_sentiment_score": 0.147492,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.585716
+    },
+    {
+      "title": "Dupilumab FDA Approved for AD Patients 6 months to 5 years",
+      "summary": "The FDA has approved dupilumab (Dupixent) for children aged 6 months to 5 years with moderate-to-severe atopic dermatitis, marking it as the first biologic medicine for this age group. This approval is supported by data from the LIBERTY AD trial, which showed significant improvement in skin condition, itch, and quality of life for patients treated with dupilumab. The drug offers a new targeted treatment option for young children, addressing a significant unmet need.",
+      "url": "https://www.dermatologytimes.com/view/dupilumab-fda-approved-for-ad-patients-6-months-to-5-years",
+      "source": "Dermatology Times",
+      "published": "20220608T182549",
+      "overall_sentiment_score": 0.416282,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.100563,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.584482
     }
   ]
 }

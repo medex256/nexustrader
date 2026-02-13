@@ -7,6 +7,102 @@
   "article_count": 17,
   "articles": [
     {
+      "title": "Apple cuts iPad production to feed chips to iPhone 13 -Nikkei",
+      "summary": "Apple has reduced its iPad production by 50% for the past two months to reallocate components to the iPhone 13, according to Nikkei. This move highlights the impact of the global chip supply crunch on Apple, despite its strong purchasing power and supplier agreements. The company is prioritizing iPhone 13 production due to forecasted stronger demand as Western markets recover from the pandemic and increased demand in China.",
+      "url": "https://www.reuters.com/technology/apple-cuts-ipad-production-feed-chips-iphone-13-nikkei-2021-11-02/",
+      "source": "Reuters",
+      "published": "20211102T112800",
+      "overall_sentiment_score": -0.197158,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.216249,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Apple adds suppliers to clean-energy pledge, including more chip firms",
+      "summary": "Apple announced that 175 of its suppliers have committed to using clean energy for their work, bringing over 9 gigawatts of clean energy to power grids, as part of its goal to achieve a carbon-neutral supply chain by 2030. This expansion includes key chip manufacturers like SK Hynix Inc and STMicroelectronics, adding to previous commitments from major suppliers like Foxconn and Taiwan Semiconductor Manufacturing Co. Apple is also funding 10 smaller renewable energy projects in under-resourced communities globally.",
+      "url": "https://www.reuters.com/business/sustainable-business/apple-adds-suppliers-clean-energy-pledge-including-more-chip-firms-2021-10-27/",
+      "source": "Reuters",
+      "published": "20211102T165200",
+      "overall_sentiment_score": 0.373062,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.414265,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Another Apple Worker Says the Company Retaliated Against Her (Published 2021)",
+      "summary": "Janneke Parrish, a former Apple Maps program manager and leader of the #AppleToo activist movement, has filed a complaint with the National Labor Relations Board, alleging Apple fired her in retaliation for her activism. This escalation marks a growing conflict between Apple and some of its employees who have been vocal about workplace concerns. The situation signals a notable shift for Apple, which has historically avoided the kind of worker unrest observed at other major tech companies.",
+      "url": "https://www.nytimes.com/2021/11/02/technology/apple-worker-retaliation.html",
+      "source": "The New York Times",
+      "published": "20211102T192605",
+      "overall_sentiment_score": -0.315201,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.342913,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.993425
+    },
+    {
+      "title": "Apple's original computer fetches $400,000 at US auction",
+      "summary": "An original Apple-1 computer, built by Steve Wozniak and Steve Jobs in 1976, was sold for $400,000 at a US auction. The rare, functioning computer with a Hawaiian koa wood case is one of only 200 made and had only two previous owners. This model is considered a \"holy grail\" for vintage electronics collectors, though it wasn't the highest-selling Apple-1 to date.",
+      "url": "https://www.bbc.com/news/technology-59222749",
+      "source": "BBC",
+      "published": "20211110T192603",
+      "overall_sentiment_score": 0.265375,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.255446,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.989339
+    },
+    {
+      "title": "An original Apple-1 computer sells for $400,000",
+      "summary": "An original Apple-1 computer, one of only 200 designed by Steve Wozniak and Steve Jobs, was sold for $400,000 at auction. The computer, known as the \"Chaffey College\" Apple-1, was initially sold for $666.66 in 1976 and represents a significant piece of personal computing history. Its koa wood case is one of only six known to exist, making it a rare collector's item.",
+      "url": "https://www.npr.org/2021/11/09/1053895250/an-original-apple-1-computer-sells-for-400-000",
+      "source": "NPR",
+      "published": "20211109T164300",
+      "overall_sentiment_score": 0.214957,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.242426,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.954349
+    },
+    {
+      "title": "The Future of Netflix’s Gaming Service Rests With Apple’s App Store Rules",
+      "summary": "Netflix's ambitious plans for its gaming service, aimed at customer retention and acquisition, face a significant hurdle: Apple's App Store rules. While Netflix's gaming offering is currently limited, particularly on Android, its expansion on iOS could be severely constrained by Apple's policies. This highlights a potential conflict between Netflix's strategic growth in gaming and Apple's control over its ecosystem.",
+      "url": "https://www.bloomberg.com/news/newsletters/2021-11-07/apple-aapl-may-eventually-limit-netflix-nflx-gaming-push-on-iphone-ipad-kvploqtj",
+      "source": "Bloomberg.com",
+      "published": "20211107T190000",
+      "overall_sentiment_score": -0.218705,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.247995,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.923068
+    },
+    {
+      "title": "How To Target Your Audience Without Third-Party Cookie Data",
+      "summary": "This article explores the impending demise of third-party cookies by late 2023 and its implications for digital advertising. It discusses how advertisers will face challenges in targeting ads and measuring performance, and outlines three potential scenarios for digital ad targeting: walled gardens, a consent economy, and identity innovation. The article also provides strategies for marketers to adapt, focusing on first-party data, direct publisher relationships, and contextual advertising.",
+      "url": "https://www.gartner.com/en/digital-markets/insights/digital-advertising-without-third-party-cookies",
+      "source": "Gartner",
+      "published": "20211104T203218",
+      "overall_sentiment_score": 0.277234,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.285969,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.747866
+    },
+    {
+      "title": "Adobe issued a DMCA request to remove Clean Flash, an open source project that continued to support Flash",
+      "summary": "Adobe has issued a DMCA request to shut down the \"Clean Flash\" open-source project, which aimed to continue supporting Adobe Flash Player worldwide after its official end-of-life on December 31, 2020. While Adobe officially stopped global distribution of Flash, it still supports the technology in China and for businesses, leading Clean Flash to provide a working and updated version independently. This move highlights ongoing debate within the developer community about the preservation of Flash content versus moving entirely to open standards like HTML5.",
+      "url": "https://blog.desdelinux.net/en/adobe-issued-a-dmca-request-to-remove-clean-flash-an-open-source-project-that-continued-to-support-flash/",
+      "source": "Desde Linux",
+      "published": "20211108T192628",
+      "overall_sentiment_score": 0.056456,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.139797,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.743023
+    },
+    {
       "title": "Google-owner Alphabet breaches $2 trillion market cap, joins Apple and Microsoft",
       "summary": "Google's parent company, Alphabet Inc., reached a $2 trillion market capitalization for the first time, driven by increased digital ad spending and growth in its cloud business. This achievement places Alphabet alongside Apple and Microsoft in the exclusive $2 trillion club. The company reported a record third quarter in 2021 with $65.1 billion in earnings.",
       "url": "https://english.aaj.tv/news/30270995/",
@@ -17,6 +113,30 @@
       "ticker_sentiment_score": 0.507741,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.736246
+    },
+    {
+      "title": "Monthly Market Wrap - October 2021",
+      "summary": "The October 2021 market wrap highlights a month of economic observations including rising inflation, the Federal Reserve's anticipated tapering, and varied performance across domestic and international equities. It also covers positive trends in alternative investments and the increasing integration of ESG factors into investment strategies. The report details specific market indices and economic indicators, providing a comprehensive overview of the financial landscape during the month.",
+      "url": "https://www.etftrends.com/etf-strategist-channel/monthly-market-wrap-october-2021/",
+      "source": "ETF Trends",
+      "published": "20211103T201126",
+      "overall_sentiment_score": 0.208668,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.020389,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.714857
+    },
+    {
+      "title": "Moviegoers Can Now Use Bitcoin, Ether at AMC Theatres",
+      "summary": "AMC Theatres now accepts Bitcoin, Ether, and several other cryptocurrencies and digital payment platforms for movie tickets, aiming to attract crypto-savvy customers. This move highlights the growing acceptance of digital currencies in mainstream business, creating new opportunities for exchange-traded funds (ETFs) that offer exposure to cryptocurrency or blockchain technology. Investors can gain exposure through ETFs like Amplify Transformational Data Sharing ETF (BLOK) for blockchain or by investing in companies like AMC via the SoFi Social 50 ETF (SFYF).",
+      "url": "https://etfdb.com/crypto-channel/moviegoers-can-now-use-bitcoin-ether-at-amc-theatres/",
+      "source": "ETF Database",
+      "published": "20211115T195130",
+      "overall_sentiment_score": 0.291425,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.222484,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.713739
     },
     {
       "title": "Google’s parent Alphabet breaches $2 trillion in market value",
@@ -43,54 +163,6 @@
       "relevance_score": 0.703759
     },
     {
-      "title": "Salesforce CEO Benioff invests in search engine startup You.com",
-      "summary": "Salesforce CEO Marc Benioff has invested $20 million in You.com, a startup aiming to challenge Google's dominance in search with a more customizable and privacy-focused engine. Benioff transferred ownership of the You.com domain name, which he had owned since the 1990s, to the startup. You.com, founded by former Salesforce AI scientists, plans to differentiate itself by not tracking users or selling \"privacy-invasive ads,\" instead focusing on revenue from transactions and helping publishers generate ad revenue.",
-      "url": "https://www.reuters.com/technology/salesforce-ceo-benioff-invests-search-engine-startup-youcom-2021-11-09/",
-      "source": "Reuters",
-      "published": "20211109T171000",
-      "overall_sentiment_score": 0.249919,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.140717,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.606915
-    },
-    {
-      "title": "The Future of Netflix’s Gaming Service Rests With Apple’s App Store Rules",
-      "summary": "Netflix's ambitious plans for its gaming service, aimed at customer retention and acquisition, face a significant hurdle: Apple's App Store rules. While Netflix's gaming offering is currently limited, particularly on Android, its expansion on iOS could be severely constrained by Apple's policies. This highlights a potential conflict between Netflix's strategic growth in gaming and Apple's control over its ecosystem.",
-      "url": "https://www.bloomberg.com/news/newsletters/2021-11-07/apple-aapl-may-eventually-limit-netflix-nflx-gaming-push-on-iphone-ipad-kvploqtj",
-      "source": "Bloomberg.com",
-      "published": "20211107T190000",
-      "overall_sentiment_score": -0.218705,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.247995,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.923068
-    },
-    {
-      "title": "‘Business needs a noble purpose and a human-centric approach — these core principles revived Best Buy’",
-      "summary": "Hubert Joly, former CEO of Best Buy, discusses how a human-centric approach and noble purpose revived the company, leading its share price to rise 11-fold. He emphasizes that putting people at the center and embracing all stakeholders is crucial for businesses today, especially in navigating challenges like the pandemic and climate change. Joly argues that the \"Milton Friedman doctrine\" of profit-first is outdated and highlights companies like Microsoft, Ralph Lauren, and Unilever as examples of successful human-centric models.",
-      "url": "https://m.economictimes.com/news/et-evoke/business-needs-a-noble-purpose-and-a-human-centric-approach-these-core-principles-revived-best-buy/articleshow/87543159.cms",
-      "source": "The Economic Times",
-      "published": "20211105T220300",
-      "overall_sentiment_score": 0.306647,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.266016,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.583162
-    },
-    {
-      "title": "How To Target Your Audience Without Third-Party Cookie Data",
-      "summary": "This article explores the impending demise of third-party cookies by late 2023 and its implications for digital advertising. It discusses how advertisers will face challenges in targeting ads and measuring performance, and outlines three potential scenarios for digital ad targeting: walled gardens, a consent economy, and identity innovation. The article also provides strategies for marketers to adapt, focusing on first-party data, direct publisher relationships, and contextual advertising.",
-      "url": "https://www.gartner.com/en/digital-markets/insights/digital-advertising-without-third-party-cookies",
-      "source": "Gartner",
-      "published": "20211104T203218",
-      "overall_sentiment_score": 0.277234,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.285969,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.747866
-    },
-    {
       "title": "Netflix Adds Mobile Games to Its App for Some Users",
       "summary": "Netflix has begun rolling out mobile games to its app for Android users, including titles based on its popular show \"Stranger Things.\" This move is part of the streaming company's strategy to attract new subscribers and increase engagement among current users. Games are expected to become available for Apple iOS devices in the coming months.",
       "url": "https://www.wsj.com/business/media/netflix-adds-mobile-games-to-its-app-for-some-users-11635889214?gaa_at=eafs&gaa_n=AWEtsqfz-jcoFaGGga-6MI35EySpCEbmZCCkQsiJZs2DRXNDwt_VAYiMWpH-&gaa_ts=6907c790&gaa_sig=v_CHL_u1Vkvk4Pdos8_cgsFz98VOxK-Rgn4Y9Jj3iepuzs7Y69354FJxq-Umeph-f1C7lI2Me7m1oBEqdBn8dg%3D%3D",
@@ -103,16 +175,16 @@
       "relevance_score": 0.620051
     },
     {
-      "title": "Apple cuts iPad production to feed chips to iPhone 13 -Nikkei",
-      "summary": "Apple has reduced its iPad production by 50% for the past two months to reallocate components to the iPhone 13, according to Nikkei. This move highlights the impact of the global chip supply crunch on Apple, despite its strong purchasing power and supplier agreements. The company is prioritizing iPhone 13 production due to forecasted stronger demand as Western markets recover from the pandemic and increased demand in China.",
-      "url": "https://www.reuters.com/technology/apple-cuts-ipad-production-feed-chips-iphone-13-nikkei-2021-11-02/",
+      "title": "Salesforce CEO Benioff invests in search engine startup You.com",
+      "summary": "Salesforce CEO Marc Benioff has invested $20 million in You.com, a startup aiming to challenge Google's dominance in search with a more customizable and privacy-focused engine. Benioff transferred ownership of the You.com domain name, which he had owned since the 1990s, to the startup. You.com, founded by former Salesforce AI scientists, plans to differentiate itself by not tracking users or selling \"privacy-invasive ads,\" instead focusing on revenue from transactions and helping publishers generate ad revenue.",
+      "url": "https://www.reuters.com/technology/salesforce-ceo-benioff-invests-search-engine-startup-youcom-2021-11-09/",
       "source": "Reuters",
-      "published": "20211102T112800",
-      "overall_sentiment_score": -0.197158,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.216249,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 1.0
+      "published": "20211109T171000",
+      "overall_sentiment_score": 0.249919,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.140717,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.606915
     },
     {
       "title": "5 Charts on General Electric's Fall From Grace",
@@ -127,88 +199,16 @@
       "relevance_score": 0.601857
     },
     {
-      "title": "Moviegoers Can Now Use Bitcoin, Ether at AMC Theatres",
-      "summary": "AMC Theatres now accepts Bitcoin, Ether, and several other cryptocurrencies and digital payment platforms for movie tickets, aiming to attract crypto-savvy customers. This move highlights the growing acceptance of digital currencies in mainstream business, creating new opportunities for exchange-traded funds (ETFs) that offer exposure to cryptocurrency or blockchain technology. Investors can gain exposure through ETFs like Amplify Transformational Data Sharing ETF (BLOK) for blockchain or by investing in companies like AMC via the SoFi Social 50 ETF (SFYF).",
-      "url": "https://etfdb.com/crypto-channel/moviegoers-can-now-use-bitcoin-ether-at-amc-theatres/",
-      "source": "ETF Database",
-      "published": "20211115T195130",
-      "overall_sentiment_score": 0.291425,
+      "title": "‘Business needs a noble purpose and a human-centric approach — these core principles revived Best Buy’",
+      "summary": "Hubert Joly, former CEO of Best Buy, discusses how a human-centric approach and noble purpose revived the company, leading its share price to rise 11-fold. He emphasizes that putting people at the center and embracing all stakeholders is crucial for businesses today, especially in navigating challenges like the pandemic and climate change. Joly argues that the \"Milton Friedman doctrine\" of profit-first is outdated and highlights companies like Microsoft, Ralph Lauren, and Unilever as examples of successful human-centric models.",
+      "url": "https://m.economictimes.com/news/et-evoke/business-needs-a-noble-purpose-and-a-human-centric-approach-these-core-principles-revived-best-buy/articleshow/87543159.cms",
+      "source": "The Economic Times",
+      "published": "20211105T220300",
+      "overall_sentiment_score": 0.306647,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.222484,
+      "ticker_sentiment_score": 0.266016,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.713739
-    },
-    {
-      "title": "An original Apple-1 computer sells for $400,000",
-      "summary": "An original Apple-1 computer, one of only 200 designed by Steve Wozniak and Steve Jobs, was sold for $400,000 at auction. The computer, known as the \"Chaffey College\" Apple-1, was initially sold for $666.66 in 1976 and represents a significant piece of personal computing history. Its koa wood case is one of only six known to exist, making it a rare collector's item.",
-      "url": "https://www.npr.org/2021/11/09/1053895250/an-original-apple-1-computer-sells-for-400-000",
-      "source": "NPR",
-      "published": "20211109T164300",
-      "overall_sentiment_score": 0.214957,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.242426,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.954349
-    },
-    {
-      "title": "Adobe issued a DMCA request to remove Clean Flash, an open source project that continued to support Flash",
-      "summary": "Adobe has issued a DMCA request to shut down the \"Clean Flash\" open-source project, which aimed to continue supporting Adobe Flash Player worldwide after its official end-of-life on December 31, 2020. While Adobe officially stopped global distribution of Flash, it still supports the technology in China and for businesses, leading Clean Flash to provide a working and updated version independently. This move highlights ongoing debate within the developer community about the preservation of Flash content versus moving entirely to open standards like HTML5.",
-      "url": "https://blog.desdelinux.net/en/adobe-issued-a-dmca-request-to-remove-clean-flash-an-open-source-project-that-continued-to-support-flash/",
-      "source": "Desde Linux",
-      "published": "20211108T192628",
-      "overall_sentiment_score": 0.056456,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.139797,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.743023
-    },
-    {
-      "title": "Monthly Market Wrap - October 2021",
-      "summary": "The October 2021 market wrap highlights a month of economic observations including rising inflation, the Federal Reserve's anticipated tapering, and varied performance across domestic and international equities. It also covers positive trends in alternative investments and the increasing integration of ESG factors into investment strategies. The report details specific market indices and economic indicators, providing a comprehensive overview of the financial landscape during the month.",
-      "url": "https://www.etftrends.com/etf-strategist-channel/monthly-market-wrap-october-2021/",
-      "source": "ETF Trends",
-      "published": "20211103T201126",
-      "overall_sentiment_score": 0.208668,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.020389,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.714857
-    },
-    {
-      "title": "Another Apple Worker Says the Company Retaliated Against Her (Published 2021)",
-      "summary": "Janneke Parrish, a former Apple Maps program manager and leader of the #AppleToo activist movement, has filed a complaint with the National Labor Relations Board, alleging Apple fired her in retaliation for her activism. This escalation marks a growing conflict between Apple and some of its employees who have been vocal about workplace concerns. The situation signals a notable shift for Apple, which has historically avoided the kind of worker unrest observed at other major tech companies.",
-      "url": "https://www.nytimes.com/2021/11/02/technology/apple-worker-retaliation.html",
-      "source": "The New York Times",
-      "published": "20211102T192605",
-      "overall_sentiment_score": -0.315201,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.342913,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.993425
-    },
-    {
-      "title": "Apple adds suppliers to clean-energy pledge, including more chip firms",
-      "summary": "Apple announced that 175 of its suppliers have committed to using clean energy for their work, bringing over 9 gigawatts of clean energy to power grids, as part of its goal to achieve a carbon-neutral supply chain by 2030. This expansion includes key chip manufacturers like SK Hynix Inc and STMicroelectronics, adding to previous commitments from major suppliers like Foxconn and Taiwan Semiconductor Manufacturing Co. Apple is also funding 10 smaller renewable energy projects in under-resourced communities globally.",
-      "url": "https://www.reuters.com/business/sustainable-business/apple-adds-suppliers-clean-energy-pledge-including-more-chip-firms-2021-10-27/",
-      "source": "Reuters",
-      "published": "20211102T165200",
-      "overall_sentiment_score": 0.373062,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.414265,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "Apple's original computer fetches $400,000 at US auction",
-      "summary": "An original Apple-1 computer, built by Steve Wozniak and Steve Jobs in 1976, was sold for $400,000 at a US auction. The rare, functioning computer with a Hawaiian koa wood case is one of only 200 made and had only two previous owners. This model is considered a \"holy grail\" for vintage electronics collectors, though it wasn't the highest-selling Apple-1 to date.",
-      "url": "https://www.bbc.com/news/technology-59222749",
-      "source": "BBC",
-      "published": "20211110T192603",
-      "overall_sentiment_score": 0.265375,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.255446,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.989339
+      "relevance_score": 0.583162
     }
   ]
 }

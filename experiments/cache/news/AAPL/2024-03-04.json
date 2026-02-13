@@ -7,28 +7,16 @@
   "article_count": 11,
   "articles": [
     {
-      "title": "Butterfly iQ+ Ultrasound System",
-      "summary": "Butterfly iQ+ is a second-generation handheld, single-probe ultrasound system developed by Butterfly Network, utilizing Ultrasound-on-Chip™ semiconductor technology for diagnostic imaging. It has received regulatory approvals in the US and Canada and offers enhanced features for various medical applications, with subsequent generations (iQ3) further improving performance and imaging capabilities. Partnerships with Sientra and Abdul Latif Jameel Health aim to expand its distribution and application.",
-      "url": "https://www.medicaldevice-network.com/projects/butterfly-iq-ultrasound-system/",
-      "source": "Medical Device Network",
-      "published": "20240301T000000",
-      "overall_sentiment_score": 0.108578,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.100997,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.303117
-    },
-    {
-      "title": "NANC ETF Tracking Democrat Stock Trades Beating S&P 500 on Tech Bets",
-      "summary": "The Unusual Whales Democratic ETF (NANC), which tracks stock trades by Democrats in Congress, has outperformed the S&P 500 since its launch in February 2023, returning 30% compared to the S&P 500's 24%. This outperformance is largely attributed to its significant holdings in mega-cap tech stocks like Microsoft, Amazon, Apple, and Nvidia. In contrast, a similar ETF tracking Republican trades (KRUZ) has only gained about 15% over the same period.",
-      "url": "https://markets.businessinsider.com/news/etf/congress-democrats-stock-market-trades-nanc-etf-democrats-outperforms-sp500-2024-2",
-      "source": "markets.businessinsider.com",
-      "published": "20240228T042138",
-      "overall_sentiment_score": 0.395155,
+      "title": "Episode #522: Wes Gray & Robert Elwood on How to Convert a Separately Managed Account (SMA) to an ETF",
+      "summary": "This podcast episode features Wes Gray and Robert Elwood discussing their experience in converting Separately Managed Accounts (SMAs) to Exchange Traded Funds (ETFs) via Section 351, including a recent conversion of $770 million. They delve into the process, advantages, and challenges of such conversions, highlighting tax efficiencies and the broader implications for financial advisors and family offices. The discussion also touches upon the future of asset management and the rising trend of SMA to ETF conversions.",
+      "url": "https://mebfaber.com/2024/02/23/sma-etf-conv/",
+      "source": "Meb Faber Research",
+      "published": "20240223T000000",
+      "overall_sentiment_score": 0.444186,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.315273,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.643591
+      "ticker_sentiment_score": 0.616151,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.745744
     },
     {
       "title": "How Nvidia grew to a trillion-dollar company fueling the AI revolution",
@@ -41,6 +29,66 @@
       "ticker_sentiment_score": 0.333405,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.743546
+    },
+    {
+      "title": "A Wonderful Options-Based Dividend-Focused ETF?",
+      "summary": "This article discusses the new Swan Global Enhanced Dividend Income Strategy (SCLZ) ETF, which combines Swan Global's options expertise with O'Shares Investment's stock selection. The ETF aims to provide sustainable retirement income through active management of options on dividend-growing companies, focusing on profitability and quality stocks. Key takeaways from a recent webcast highlighted the importance of active management, a profitability-based stock index, and a preference for \"boring companies\" that consistently generate dividends.",
+      "url": "https://www.etftrends.com/wonderful-options-based-dividend-focused-etf/",
+      "source": "ETF Trends",
+      "published": "20240228T000000",
+      "overall_sentiment_score": 0.310011,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.329326,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.743277
+    },
+    {
+      "title": "The Companies We’re Watching During Proxy-Voting Season 2024",
+      "summary": "The 2024 proxy-voting season is marked by increased shareholder activism, particularly focusing on environmental, social, and governance (ESG) issues like climate impacts, workers' rights, and AI oversight. Key companies like Tesla, Apple, and Applied Materials are under scrutiny for their board governance, compensation, and ethical AI guidelines, amid growing regulatory momentum for climate disclosures. The season also highlights new opportunities for individual investors and increased scrutiny of \"anti-ESG\" resolutions.",
+      "url": "https://www.morningstar.com/sustainable-investing/its-proxy-voting-season-2024-get-out-vote",
+      "source": "Morningstar",
+      "published": "20240222T000000",
+      "overall_sentiment_score": 0.107076,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.132905,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.742016
+    },
+    {
+      "title": "Magnificent Seven vs. the ‘Granolas’: How does Europe’s version stack up?",
+      "summary": "This article compares the U.S. \"Magnificent Seven\" stocks with Europe's \"Granolas,\" highlighting their differences in market value, sector diversity, and profitability. While the Magnificent Seven are largely tech-driven and exceptionally profitable, the Granolas offer broader sector representation and solid returns, often trading at a discount despite their strong performance. The piece examines historical returns, valuation ratios, and individual stock assessments for both groups.",
+      "url": "https://www.morningstar.com.au/stocks/magnificent-seven-vs-the-granolas-how-does-europes-version-stack-up",
+      "source": "Morningstar",
+      "published": "20240304T000000",
+      "overall_sentiment_score": 0.127433,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.138333,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.718517
+    },
+    {
+      "title": "Nvidia skyrocketed over the past 5 years, but 3 stocks performed even better—and none is Apple or Tesla",
+      "summary": "While Nvidia has achieved an impressive 1,904% return over the past five years, three mid-cap stocks have significantly outpaced it: e.l.f. Beauty (2,491%), Super Micro Computer (4,175%), and Celsius Holdings (over 5,300%). The article highlights that smaller companies (mid-caps) often show greater growth potential and less media coverage than large-cap stocks like Nvidia, suggesting diversification into these smaller companies can boost long-term returns. Investors are advised to use diversified funds (ETFs and mutual funds) to mitigate volatility and risk associated with individual small-cap stock picks.",
+      "url": "https://www.cnbc.com/2024/02/29/mid-cap-stocks-that-have-outperformed-nvidia-over-past-5-years.html",
+      "source": "CNBC",
+      "published": "20240229T151800",
+      "overall_sentiment_score": 0.394599,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.1097,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.64745
+    },
+    {
+      "title": "NANC ETF Tracking Democrat Stock Trades Beating S&P 500 on Tech Bets",
+      "summary": "The Unusual Whales Democratic ETF (NANC), which tracks stock trades by Democrats in Congress, has outperformed the S&P 500 since its launch in February 2023, returning 30% compared to the S&P 500's 24%. This outperformance is largely attributed to its significant holdings in mega-cap tech stocks like Microsoft, Amazon, Apple, and Nvidia. In contrast, a similar ETF tracking Republican trades (KRUZ) has only gained about 15% over the same period.",
+      "url": "https://markets.businessinsider.com/news/etf/congress-democrats-stock-market-trades-nanc-etf-democrats-outperforms-sp500-2024-2",
+      "source": "markets.businessinsider.com",
+      "published": "20240228T042138",
+      "overall_sentiment_score": 0.395155,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.315273,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.643591
     },
     {
       "title": "Dimensional ETFs and More: New on Syfe Custom Portfolio",
@@ -79,64 +127,16 @@
       "relevance_score": 0.603845
     },
     {
-      "title": "Episode #522: Wes Gray & Robert Elwood on How to Convert a Separately Managed Account (SMA) to an ETF",
-      "summary": "This podcast episode features Wes Gray and Robert Elwood discussing their experience in converting Separately Managed Accounts (SMAs) to Exchange Traded Funds (ETFs) via Section 351, including a recent conversion of $770 million. They delve into the process, advantages, and challenges of such conversions, highlighting tax efficiencies and the broader implications for financial advisors and family offices. The discussion also touches upon the future of asset management and the rising trend of SMA to ETF conversions.",
-      "url": "https://mebfaber.com/2024/02/23/sma-etf-conv/",
-      "source": "Meb Faber Research",
-      "published": "20240223T000000",
-      "overall_sentiment_score": 0.444186,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.616151,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.745744
-    },
-    {
-      "title": "Magnificent Seven vs. the ‘Granolas’: How does Europe’s version stack up?",
-      "summary": "This article compares the U.S. \"Magnificent Seven\" stocks with Europe's \"Granolas,\" highlighting their differences in market value, sector diversity, and profitability. While the Magnificent Seven are largely tech-driven and exceptionally profitable, the Granolas offer broader sector representation and solid returns, often trading at a discount despite their strong performance. The piece examines historical returns, valuation ratios, and individual stock assessments for both groups.",
-      "url": "https://www.morningstar.com.au/stocks/magnificent-seven-vs-the-granolas-how-does-europes-version-stack-up",
-      "source": "Morningstar",
-      "published": "20240304T000000",
-      "overall_sentiment_score": 0.127433,
+      "title": "Butterfly iQ+ Ultrasound System",
+      "summary": "Butterfly iQ+ is a second-generation handheld, single-probe ultrasound system developed by Butterfly Network, utilizing Ultrasound-on-Chip™ semiconductor technology for diagnostic imaging. It has received regulatory approvals in the US and Canada and offers enhanced features for various medical applications, with subsequent generations (iQ3) further improving performance and imaging capabilities. Partnerships with Sientra and Abdul Latif Jameel Health aim to expand its distribution and application.",
+      "url": "https://www.medicaldevice-network.com/projects/butterfly-iq-ultrasound-system/",
+      "source": "Medical Device Network",
+      "published": "20240301T000000",
+      "overall_sentiment_score": 0.108578,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.138333,
+      "ticker_sentiment_score": 0.100997,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.718517
-    },
-    {
-      "title": "Nvidia skyrocketed over the past 5 years, but 3 stocks performed even better—and none is Apple or Tesla",
-      "summary": "While Nvidia has achieved an impressive 1,904% return over the past five years, three mid-cap stocks have significantly outpaced it: e.l.f. Beauty (2,491%), Super Micro Computer (4,175%), and Celsius Holdings (over 5,300%). The article highlights that smaller companies (mid-caps) often show greater growth potential and less media coverage than large-cap stocks like Nvidia, suggesting diversification into these smaller companies can boost long-term returns. Investors are advised to use diversified funds (ETFs and mutual funds) to mitigate volatility and risk associated with individual small-cap stock picks.",
-      "url": "https://www.cnbc.com/2024/02/29/mid-cap-stocks-that-have-outperformed-nvidia-over-past-5-years.html",
-      "source": "CNBC",
-      "published": "20240229T151800",
-      "overall_sentiment_score": 0.394599,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.1097,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.64745
-    },
-    {
-      "title": "The Companies We’re Watching During Proxy-Voting Season 2024",
-      "summary": "The 2024 proxy-voting season is marked by increased shareholder activism, particularly focusing on environmental, social, and governance (ESG) issues like climate impacts, workers' rights, and AI oversight. Key companies like Tesla, Apple, and Applied Materials are under scrutiny for their board governance, compensation, and ethical AI guidelines, amid growing regulatory momentum for climate disclosures. The season also highlights new opportunities for individual investors and increased scrutiny of \"anti-ESG\" resolutions.",
-      "url": "https://www.morningstar.com/sustainable-investing/its-proxy-voting-season-2024-get-out-vote",
-      "source": "Morningstar",
-      "published": "20240222T000000",
-      "overall_sentiment_score": 0.107076,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.132905,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.742016
-    },
-    {
-      "title": "A Wonderful Options-Based Dividend-Focused ETF?",
-      "summary": "This article discusses the new Swan Global Enhanced Dividend Income Strategy (SCLZ) ETF, which combines Swan Global's options expertise with O'Shares Investment's stock selection. The ETF aims to provide sustainable retirement income through active management of options on dividend-growing companies, focusing on profitability and quality stocks. Key takeaways from a recent webcast highlighted the importance of active management, a profitability-based stock index, and a preference for \"boring companies\" that consistently generate dividends.",
-      "url": "https://www.etftrends.com/wonderful-options-based-dividend-focused-etf/",
-      "source": "ETF Trends",
-      "published": "20240228T000000",
-      "overall_sentiment_score": 0.310011,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.329326,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.743277
+      "relevance_score": 0.303117
     }
   ]
 }

@@ -7,18 +7,6 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "Expect Midstream Industry to Continue Growth in 2022",
-      "summary": "North American midstream companies are projected to continue growing in 2022 due to economic recovery, increased activity, and constructive commodity prices, according to Fitch Ratings. The industry has seen strong free cash flow, enabling debt reduction and balance sheet improvement. Investors can gain exposure to this growth through the Alerian Energy Infrastructure ETF (ENFR), which tracks midstream energy companies involved in storage, pipeline transportation, and processing.",
-      "url": "https://www.etftrends.com/energy-infrastructure-content-hub/expect-midstream-industry-to-continue-growth-in-2022/",
-      "source": "ETF Trends",
-      "published": "20211206T201131",
-      "overall_sentiment_score": 0.367163,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.336126,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.593325
-    },
-    {
       "title": "Halliburton says not buying Exxon stake in Iraqi oilfield",
       "summary": "Halliburton has denied claims by a senior official from Iraq's Basra Oil Co. that it proposed buying Exxon Mobil's stake in the West Qurna 1 oilfield. Halliburton spokesperson Emily Mir explicitly stated the company is not acquiring or partnering to acquire any oil fields. Meanwhile, Iraq plans to upgrade its oil export infrastructure to boost capacity to six million barrels per day by 2025.",
       "url": "https://www.reuters.com/business/energy/halliburton-proposed-purchase-exxonmobil-stake-iraqs-west-qurna-1-oilfield-2021-12-01/",
@@ -31,16 +19,16 @@
       "relevance_score": 0.930634
     },
     {
-      "title": "John Richard Hall Obituary",
-      "summary": "John Richard Hall, retired Chairman and CEO of Ashland Inc., passed away on November 25, 2021, at the age of 88. He was recognized for his integrity, strong leadership during crises, and his significant contributions to education and various corporate and philanthropic boards. His career at Ashland spanned 40 years, where he implemented the company's first Code of Business Conduct and successfully guided it through profitability and a hostile takeover attempt.",
-      "url": "https://www.tennessean.com/obituaries/ten213290",
-      "source": "The Tennessean",
-      "published": "20211130T193622",
-      "overall_sentiment_score": 0.160016,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.090324,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.633313
+      "title": "New York Utilities Polarize Over Push to Ban Natural Gas",
+      "summary": "A proposed ban on natural gas hook-ups in new New York City buildings has created a divide among utilities, with Con Edison supporting the ban while others, like National Grid and Buffalo-based National Fuel, resist it. ConEd's support stems from seeing electrification as an opportunity for combined gas and electric utilities, though it still has ties to gas infrastructure. The article highlights the broader national struggle between cities pushing for decarbonization and gas companies lobbying against such measures, particularly in states like Pennsylvania.",
+      "url": "https://nysfocus.com/2021/12/01/coned-gas-ban",
+      "source": "New York Focus",
+      "published": "20211201T205132",
+      "overall_sentiment_score": -0.063109,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.400184,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.738359
     },
     {
       "title": "ConocoPhillips buys Shell’s Permian business for $9.5bn",
@@ -55,16 +43,28 @@
       "relevance_score": 0.647012
     },
     {
-      "title": "New York Utilities Polarize Over Push to Ban Natural Gas",
-      "summary": "A proposed ban on natural gas hook-ups in new New York City buildings has created a divide among utilities, with Con Edison supporting the ban while others, like National Grid and Buffalo-based National Fuel, resist it. ConEd's support stems from seeing electrification as an opportunity for combined gas and electric utilities, though it still has ties to gas infrastructure. The article highlights the broader national struggle between cities pushing for decarbonization and gas companies lobbying against such measures, particularly in states like Pennsylvania.",
-      "url": "https://nysfocus.com/2021/12/01/coned-gas-ban",
-      "source": "New York Focus",
-      "published": "20211201T205132",
-      "overall_sentiment_score": -0.063109,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.400184,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.738359
+      "title": "John Richard Hall Obituary",
+      "summary": "John Richard Hall, retired Chairman and CEO of Ashland Inc., passed away on November 25, 2021, at the age of 88. He was recognized for his integrity, strong leadership during crises, and his significant contributions to education and various corporate and philanthropic boards. His career at Ashland spanned 40 years, where he implemented the company's first Code of Business Conduct and successfully guided it through profitability and a hostile takeover attempt.",
+      "url": "https://www.tennessean.com/obituaries/ten213290",
+      "source": "The Tennessean",
+      "published": "20211130T193622",
+      "overall_sentiment_score": 0.160016,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.090324,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.633313
+    },
+    {
+      "title": "Expect Midstream Industry to Continue Growth in 2022",
+      "summary": "North American midstream companies are projected to continue growing in 2022 due to economic recovery, increased activity, and constructive commodity prices, according to Fitch Ratings. The industry has seen strong free cash flow, enabling debt reduction and balance sheet improvement. Investors can gain exposure to this growth through the Alerian Energy Infrastructure ETF (ENFR), which tracks midstream energy companies involved in storage, pipeline transportation, and processing.",
+      "url": "https://www.etftrends.com/energy-infrastructure-content-hub/expect-midstream-industry-to-continue-growth-in-2022/",
+      "source": "ETF Trends",
+      "published": "20211206T201131",
+      "overall_sentiment_score": 0.367163,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.336126,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.593325
     }
   ]
 }

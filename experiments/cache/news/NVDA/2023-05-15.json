@@ -19,6 +19,30 @@
       "relevance_score": 0.873467
     },
     {
+      "title": "Here's how AI is driving the rise of GPU cloud specialists",
+      "summary": "The rise of AI is fueling a new class of cloud providers specializing in GPU compute, offering lower prices than generalized cloud competitors. Companies like CoreWeave, Lambda Labs, RunPod, and Arc Compute are catering to AI workloads that require substantial GPU resources. These niche providers differentiate themselves through competitive pricing, strategic locations, and ready access to scarce compute resources amidst supply chain challenges.",
+      "url": "https://www.fierce-network.com/data-center/heres-how-ai-driving-rise-gpu-cloud-specialists",
+      "source": "Fierce Network",
+      "published": "20230512T073000",
+      "overall_sentiment_score": 0.326409,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.300247,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.829229
+    },
+    {
+      "title": "Msci Kld 400 Social Index: Meaning, Example, FAQs",
+      "summary": "The MSCI KLD 400 Social Index is a market capitalization-weighted stock index that focuses on large, mid, and small-cap U.S. companies with high environmental, social, and governance (ESG) standards, excluding certain industries. Founded as the Domini 400 Social Index, it was a pioneer in socially responsible investing. The index is reviewed quarterly and tends to be dominated by large American technology companies like Microsoft, NVIDIA, Alphabet, Tesla, and Visa.",
+      "url": "https://www.investopedia.com/terms/d/domini_400.asp",
+      "source": "Investopedia",
+      "published": "20230503T143016",
+      "overall_sentiment_score": 0.285205,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.357925,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.636909
+    },
+    {
       "title": "Growing chip supply helps Baxter slash backlog",
       "summary": "Baxter International significantly reduced its backlog for Front Line Care products by half in Q1, thanks to an improved supply of electromechanical components, including semiconductor chips. This improved availability has allowed the healthcare company to reduce spot purchasing, lower costs, and enhance operational predictability, though an elevated backlog still remains which the company aims to address throughout the year. Despite facing continued pressure from rising supply chain costs from suppliers, Baxter expresses cautious optimism about turning the corner on component supply.",
       "url": "https://www.supplychaindive.com/news/growing-chip-supply-baxter-slash-backlog/649338/",
@@ -41,30 +65,6 @@
       "ticker_sentiment_score": 0.335656,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.606118
-    },
-    {
-      "title": "Msci Kld 400 Social Index: Meaning, Example, FAQs",
-      "summary": "The MSCI KLD 400 Social Index is a market capitalization-weighted stock index that focuses on large, mid, and small-cap U.S. companies with high environmental, social, and governance (ESG) standards, excluding certain industries. Founded as the Domini 400 Social Index, it was a pioneer in socially responsible investing. The index is reviewed quarterly and tends to be dominated by large American technology companies like Microsoft, NVIDIA, Alphabet, Tesla, and Visa.",
-      "url": "https://www.investopedia.com/terms/d/domini_400.asp",
-      "source": "Investopedia",
-      "published": "20230503T143016",
-      "overall_sentiment_score": 0.285205,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.357925,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.636909
-    },
-    {
-      "title": "Here's how AI is driving the rise of GPU cloud specialists",
-      "summary": "The rise of AI is fueling a new class of cloud providers specializing in GPU compute, offering lower prices than generalized cloud competitors. Companies like CoreWeave, Lambda Labs, RunPod, and Arc Compute are catering to AI workloads that require substantial GPU resources. These niche providers differentiate themselves through competitive pricing, strategic locations, and ready access to scarce compute resources amidst supply chain challenges.",
-      "url": "https://www.fierce-network.com/data-center/heres-how-ai-driving-rise-gpu-cloud-specialists",
-      "source": "Fierce Network",
-      "published": "20230512T073000",
-      "overall_sentiment_score": 0.326409,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.300247,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.829229
     }
   ]
 }

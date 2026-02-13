@@ -7,52 +7,16 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "4 Gold Stocks to Consider",
-      "summary": "Morningstar has recommenced coverage on four senior gold miners: Newmont Corp (NEM), Barrick Gold (GOLD), Agnico Eagle Mines (AEM), and Kinross Gold (KGC), providing fair value estimates and analysis. The article notes that while gold prices are rising, concerns remain about increasing interest rates and cost inflation affecting miners' margins. None of these companies are assessed to have an economic moat, with Newmont and Barrick Gold shares currently considered undervalued.",
-      "url": "https://www.morningstar.com/stocks/4-gold-stocks-consider",
-      "source": "Morningstar",
-      "published": "20230419T000000",
-      "overall_sentiment_score": 0.130023,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.05342,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.642289
-    },
-    {
-      "title": "RBC surpasses JPMorgan as top fossil-fuel financier: study",
-      "summary": "Royal Bank of Canada (RBC) became the world's top financier to fossil-fuel companies in 2022, surpassing JPMorgan Chase, according to a report by the Rainforest Action Network (RAN). RBC's fossil-fuel funding increased by 4.2% to $42.1 billion, while U.S. banks like JPMorgan, Citi, and Wells Fargo significantly reduced their financing in this sector. The article examines the implications of RBC's increased funding and its climate goals amidst criticism from environmental groups.",
-      "url": "https://www.bankingdive.com/news/rbc-jpmorgan-citi-wells-fargo-fossil-fuel-oil-gas-tar-sands-rainforest-action-network/647609/",
-      "source": "Banking Dive",
-      "published": "20230413T153517",
-      "overall_sentiment_score": -0.043094,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.306442,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.649056
-    },
-    {
-      "title": "Elevated Demand for Oil Could Push Commodities Even Higher",
-      "summary": "Global oil demand is projected to reach a new record this year, primarily driven by China's reopening, even amidst the transition to renewable energy. This increased demand, coupled with supply cuts from OPEC+, is expected to drive crude prices higher. Investors seeking exposure to this trend can consider diversified commodity ETFs like the Neuberger Berman Commodity Strategy ETF (NBCM), which actively manages a portfolio including crude oil and other commodities.",
-      "url": "https://www.etftrends.com/commodities-channel/elevated-demand-for-oil-could-push-commodities-even-higher/",
-      "source": "ETF Trends",
-      "published": "20230418T063215",
-      "overall_sentiment_score": 0.321616,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.338425,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.633949
-    },
-    {
-      "title": "The Search for Yield – Equity Income Whitepaper",
-      "summary": "This whitepaper explores strategies for investors seeking yield during times of economic uncertainty, particularly in a potentially recessionary U.S. market. It emphasizes focusing on quality dividends, defensive sectors, and flexible equity income portfolios. The article also discusses the benefits of preferred stocks, covered calls, MLPs, and REITs as solutions for generating yield and managing risk in various market conditions.",
-      "url": "https://www.globalxetfs.com/portfolios/the-search-for-yield-equity-income-whitepaper/",
-      "source": "Global X ETFs",
-      "published": "20230410T143036",
-      "overall_sentiment_score": 0.202826,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.32552,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.647039
+      "title": "U.S. oil refiners to post strong Q1 earnings, but demand outlook dims",
+      "summary": "U.S. fuelmakers are projected to report strong first-quarter earnings due to robust fuel exports and margins, despite a slump in domestic diesel demand. However, analysts predict a weaker second quarter for refiners, citing declining exports and increased global capacity, alongside long-term demand concerns. Major companies like Valero Energy, Marathon Petroleum, Phillips 66, and Exxon Mobil are expected to show significant profit increases for Q1 compared to the previous year.",
+      "url": "https://www.reuters.com/business/energy/us-oil-refiners-post-strong-q1-earnings-demand-outlook-dims-2023-04-24/",
+      "source": "Reuters",
+      "published": "20230424T092800",
+      "overall_sentiment_score": 0.531143,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.545673,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.81985
     },
     {
       "title": "How to Invest in Commodities: Complete Guide 2023",
@@ -67,16 +31,52 @@
       "relevance_score": 0.695678
     },
     {
-      "title": "U.S. oil refiners to post strong Q1 earnings, but demand outlook dims",
-      "summary": "U.S. fuelmakers are projected to report strong first-quarter earnings due to robust fuel exports and margins, despite a slump in domestic diesel demand. However, analysts predict a weaker second quarter for refiners, citing declining exports and increased global capacity, alongside long-term demand concerns. Major companies like Valero Energy, Marathon Petroleum, Phillips 66, and Exxon Mobil are expected to show significant profit increases for Q1 compared to the previous year.",
-      "url": "https://www.reuters.com/business/energy/us-oil-refiners-post-strong-q1-earnings-demand-outlook-dims-2023-04-24/",
-      "source": "Reuters",
-      "published": "20230424T092800",
-      "overall_sentiment_score": 0.531143,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.545673,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.81985
+      "title": "RBC surpasses JPMorgan as top fossil-fuel financier: study",
+      "summary": "Royal Bank of Canada (RBC) became the world's top financier to fossil-fuel companies in 2022, surpassing JPMorgan Chase, according to a report by the Rainforest Action Network (RAN). RBC's fossil-fuel funding increased by 4.2% to $42.1 billion, while U.S. banks like JPMorgan, Citi, and Wells Fargo significantly reduced their financing in this sector. The article examines the implications of RBC's increased funding and its climate goals amidst criticism from environmental groups.",
+      "url": "https://www.bankingdive.com/news/rbc-jpmorgan-citi-wells-fargo-fossil-fuel-oil-gas-tar-sands-rainforest-action-network/647609/",
+      "source": "Banking Dive",
+      "published": "20230413T153517",
+      "overall_sentiment_score": -0.043094,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.306442,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.649056
+    },
+    {
+      "title": "The Search for Yield – Equity Income Whitepaper",
+      "summary": "This whitepaper explores strategies for investors seeking yield during times of economic uncertainty, particularly in a potentially recessionary U.S. market. It emphasizes focusing on quality dividends, defensive sectors, and flexible equity income portfolios. The article also discusses the benefits of preferred stocks, covered calls, MLPs, and REITs as solutions for generating yield and managing risk in various market conditions.",
+      "url": "https://www.globalxetfs.com/portfolios/the-search-for-yield-equity-income-whitepaper/",
+      "source": "Global X ETFs",
+      "published": "20230410T143036",
+      "overall_sentiment_score": 0.202826,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.32552,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.647039
+    },
+    {
+      "title": "4 Gold Stocks to Consider",
+      "summary": "Morningstar has recommenced coverage on four senior gold miners: Newmont Corp (NEM), Barrick Gold (GOLD), Agnico Eagle Mines (AEM), and Kinross Gold (KGC), providing fair value estimates and analysis. The article notes that while gold prices are rising, concerns remain about increasing interest rates and cost inflation affecting miners' margins. None of these companies are assessed to have an economic moat, with Newmont and Barrick Gold shares currently considered undervalued.",
+      "url": "https://www.morningstar.com/stocks/4-gold-stocks-consider",
+      "source": "Morningstar",
+      "published": "20230419T000000",
+      "overall_sentiment_score": 0.130023,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.05342,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.642289
+    },
+    {
+      "title": "Elevated Demand for Oil Could Push Commodities Even Higher",
+      "summary": "Global oil demand is projected to reach a new record this year, primarily driven by China's reopening, even amidst the transition to renewable energy. This increased demand, coupled with supply cuts from OPEC+, is expected to drive crude prices higher. Investors seeking exposure to this trend can consider diversified commodity ETFs like the Neuberger Berman Commodity Strategy ETF (NBCM), which actively manages a portfolio including crude oil and other commodities.",
+      "url": "https://www.etftrends.com/commodities-channel/elevated-demand-for-oil-could-push-commodities-even-higher/",
+      "source": "ETF Trends",
+      "published": "20230418T063215",
+      "overall_sentiment_score": 0.321616,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.338425,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.633949
     }
   ]
 }

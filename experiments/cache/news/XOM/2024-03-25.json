@@ -7,52 +7,16 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "Greenfire Resources Announces Q4 2023 Results, Year-end 2023 Reserves and Continued Success of the Company's Multi-year Drilling Program in Q1 2024, Including the Inaugural Extended Reach Refill Well at the Demo Asset",
-      "summary": "Greenfire Resources Ltd. announced strong Q4 and year-end 2023 results, with consolidated bitumen production of 17,335 bbls/d in Q4 2023 and 17,639 bbls/d for the year. The company highlighted the success of its Refill drilling program and optimizations at the Expansion Asset, and its 2023 year-end proved plus probable (2P) reserves totaled 237.7 MMbbl with a net present value (discounted at 10%) of $2.4 billion. Greenfire also detailed its Q1 2024 operational update, including a seven-well extended reach Refill drilling program at the Demo Asset and an increase in consolidated bitumen production to approximately 20,000 bbls/d in the first two months of 2024.",
-      "url": "https://www.newsfilecorp.com/release/202535/Greenfire-Resources-Announces-Q4-2023-Results-Yearend-2023-Reserves-and-Continued-Success-of-the-Companys-Multiyear-Drilling-Program-in-Q1-2024-Including-the-Inaugural-Extended-Reach-Refill-Well-at-the-Demo-Asset?lang=fr",
-      "source": "TMX Newsfile",
-      "published": "20240320T220900",
-      "overall_sentiment_score": 0.18918,
+      "title": "Noble drillship going to Philippines for offshore drilling campaign",
+      "summary": "Noble Corporation's Noble Viking drillship has secured a new contract with Prime Energy to drill three wells, with an option for a fourth, at the Malampaya-Camago field offshore the Philippines. The contract's firm duration is valued at $69.9 million, with an additional $10.98 million for the option period. This drilling campaign is expected to begin in Q2 2025, following the drillship's current work with Shell in Malaysia.",
+      "url": "https://www.offshore-energy.biz/noble-drillship-going-to-philippines-for-offshore-drilling-campaign/",
+      "source": "Offshore Energy",
+      "published": "20240315T000000",
+      "overall_sentiment_score": 0.157673,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.109019,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.597497
-    },
-    {
-      "title": "Ag Plus, Inc. -",
-      "summary": "This article discusses three royalty trusts—Sabine Royalty Trust (SBR), Permian Basin Royalty Trust (PBT), and PermRock Royalty Trust (PRT)—as potential investment options due to rallying oil prices. It provides an overview of each trust's assets, financial performance in 2023, and outlook. The author highlights the volatility of these trusts' cash flows due to oil and gas price fluctuations and notes the impact of production cuts and geopolitical events on the oil market.",
-      "url": "https://www.agplusinc.com/news/story/24762350/3-royalty-trusts-with-high-yields",
-      "source": "Ag Plus, Inc.",
-      "published": "20240313T092708",
-      "overall_sentiment_score": 0.226698,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.295261,
+      "ticker_sentiment_score": 0.343577,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.623993
-    },
-    {
-      "title": "AI Promises Faster Oil Drilling and Even More US Crude Supply",
-      "summary": "The US oil industry is beginning to adopt AI to cut costs and accelerate drilling operations. Companies like Nabors Industries are using AI programs from Corva LLC to automate drilling rigs, significantly reducing human commands and increasing drilling speed. This technological shift is expected to lower costs and potentially boost US crude supply.",
-      "url": "https://www.bloomberg.com/news/articles/2024-03-14/ai-promises-faster-oil-drilling-and-even-more-us-crude-supply",
-      "source": "Bloomberg.com",
-      "published": "20240314T120000",
-      "overall_sentiment_score": 0.349226,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.218392,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.661289
-    },
-    {
-      "title": "11 Best Energy ETFs: Top Oil, Gas and Renewable Energy Funds",
-      "summary": "This article discusses the 11 best energy ETFs, covering oil, gas, and renewable energy sectors. It highlights the significant M&A activity in oil and gas, the growing adoption of AI in the energy sector, and the rapid expansion of renewable electricity generation capacity, particularly solar PV and wind. The article provides a ranked list of ETFs with their 5-year share price performance, expense ratios, and top holdings, offering insights for investors.",
-      "url": "https://www.insidermonkey.com/blog/11-best-energy-etfs-top-oil-gas-and-renewable-energy-funds-1274257/",
-      "source": "Insider Monkey",
-      "published": "20240319T083100",
-      "overall_sentiment_score": 0.421405,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.379895,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.698815
+      "relevance_score": 0.747707
     },
     {
       "title": "Bargains Abound in This Energy ETF",
@@ -67,16 +31,52 @@
       "relevance_score": 0.73117
     },
     {
-      "title": "Noble drillship going to Philippines for offshore drilling campaign",
-      "summary": "Noble Corporation's Noble Viking drillship has secured a new contract with Prime Energy to drill three wells, with an option for a fourth, at the Malampaya-Camago field offshore the Philippines. The contract's firm duration is valued at $69.9 million, with an additional $10.98 million for the option period. This drilling campaign is expected to begin in Q2 2025, following the drillship's current work with Shell in Malaysia.",
-      "url": "https://www.offshore-energy.biz/noble-drillship-going-to-philippines-for-offshore-drilling-campaign/",
-      "source": "Offshore Energy",
-      "published": "20240315T000000",
-      "overall_sentiment_score": 0.157673,
+      "title": "11 Best Energy ETFs: Top Oil, Gas and Renewable Energy Funds",
+      "summary": "This article discusses the 11 best energy ETFs, covering oil, gas, and renewable energy sectors. It highlights the significant M&A activity in oil and gas, the growing adoption of AI in the energy sector, and the rapid expansion of renewable electricity generation capacity, particularly solar PV and wind. The article provides a ranked list of ETFs with their 5-year share price performance, expense ratios, and top holdings, offering insights for investors.",
+      "url": "https://www.insidermonkey.com/blog/11-best-energy-etfs-top-oil-gas-and-renewable-energy-funds-1274257/",
+      "source": "Insider Monkey",
+      "published": "20240319T083100",
+      "overall_sentiment_score": 0.421405,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.379895,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.698815
+    },
+    {
+      "title": "AI Promises Faster Oil Drilling and Even More US Crude Supply",
+      "summary": "The US oil industry is beginning to adopt AI to cut costs and accelerate drilling operations. Companies like Nabors Industries are using AI programs from Corva LLC to automate drilling rigs, significantly reducing human commands and increasing drilling speed. This technological shift is expected to lower costs and potentially boost US crude supply.",
+      "url": "https://www.bloomberg.com/news/articles/2024-03-14/ai-promises-faster-oil-drilling-and-even-more-us-crude-supply",
+      "source": "Bloomberg.com",
+      "published": "20240314T120000",
+      "overall_sentiment_score": 0.349226,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.343577,
+      "ticker_sentiment_score": 0.218392,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.747707
+      "relevance_score": 0.661289
+    },
+    {
+      "title": "Ag Plus, Inc. -",
+      "summary": "This article discusses three royalty trusts—Sabine Royalty Trust (SBR), Permian Basin Royalty Trust (PBT), and PermRock Royalty Trust (PRT)—as potential investment options due to rallying oil prices. It provides an overview of each trust's assets, financial performance in 2023, and outlook. The author highlights the volatility of these trusts' cash flows due to oil and gas price fluctuations and notes the impact of production cuts and geopolitical events on the oil market.",
+      "url": "https://www.agplusinc.com/news/story/24762350/3-royalty-trusts-with-high-yields",
+      "source": "Ag Plus, Inc.",
+      "published": "20240313T092708",
+      "overall_sentiment_score": 0.226698,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.295261,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.623993
+    },
+    {
+      "title": "Greenfire Resources Announces Q4 2023 Results, Year-end 2023 Reserves and Continued Success of the Company's Multi-year Drilling Program in Q1 2024, Including the Inaugural Extended Reach Refill Well at the Demo Asset",
+      "summary": "Greenfire Resources Ltd. announced strong Q4 and year-end 2023 results, with consolidated bitumen production of 17,335 bbls/d in Q4 2023 and 17,639 bbls/d for the year. The company highlighted the success of its Refill drilling program and optimizations at the Expansion Asset, and its 2023 year-end proved plus probable (2P) reserves totaled 237.7 MMbbl with a net present value (discounted at 10%) of $2.4 billion. Greenfire also detailed its Q1 2024 operational update, including a seven-well extended reach Refill drilling program at the Demo Asset and an increase in consolidated bitumen production to approximately 20,000 bbls/d in the first two months of 2024.",
+      "url": "https://www.newsfilecorp.com/release/202535/Greenfire-Resources-Announces-Q4-2023-Results-Yearend-2023-Reserves-and-Continued-Success-of-the-Companys-Multiyear-Drilling-Program-in-Q1-2024-Including-the-Inaugural-Extended-Reach-Refill-Well-at-the-Demo-Asset?lang=fr",
+      "source": "TMX Newsfile",
+      "published": "20240320T220900",
+      "overall_sentiment_score": 0.18918,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.109019,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.597497
     }
   ]
 }

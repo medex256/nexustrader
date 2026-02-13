@@ -7,6 +7,30 @@
   "article_count": 9,
   "articles": [
     {
+      "title": "JPMorgan Chase, Microsoft among growing number of companies turning to neurodiverse workers to help meet need for talent",
+      "summary": "A growing number of companies, including JPMorgan Chase and Microsoft, are actively recruiting neurodiverse individuals to fill talent needs and leverage their unique skills. This trend is driven by an increasing recognition of the neurodiverse population, their problem-solving abilities, and the ongoing demand for talent, with companies implementing structured programs for interviewing, hiring, and onboarding. These initiatives not only provide career opportunities for neurodiverse workers but also positively impact company culture and team dynamics.",
+      "url": "https://www.cnbc.com/2022/04/20/-neurodivergent-workers-help-companies-meet-the-demand-for-talent.html",
+      "source": "CNBC",
+      "published": "20220420T150300",
+      "overall_sentiment_score": 0.377506,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.446127,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Government contracting trends: Surviving economic challenges",
+      "summary": "Government contractors are currently grappling with significant economic challenges including inflation, supply chain disruptions, and a tight labor market. These issues are particularly problematic for contractors whose existing agreements may prevent them from passing on increased costs to the government. To mitigate these pressures, the article suggests strategies such as employee incentives and a reevaluation of contract types.",
+      "url": "https://www.jpmorgan.com/insights/business-planning/economic-challenges-facing-government-contractors",
+      "source": "J.P. Morgan",
+      "published": "20220419T171647",
+      "overall_sentiment_score": 0.101249,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.128367,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.903786
+    },
+    {
       "title": "Cboe Global Markets Completes Acquisition of ErisX, Entering Digital Asset Market",
       "summary": "Cboe Global Markets announced it has completed the acquisition of ErisX, a U.S. based digital asset spot market and regulated derivatives exchange and clearinghouse. This acquisition provides Cboe with an entry into the digital asset market, aiming to build a comprehensive digital asset market data offering and develop further derivative products. Cboe plans to operate ErisX as a subsidiary, with Thomas Chippas remaining as head of the digital asset business, focusing on regulatory compliance and transparency to mature the digital asset market globally.",
       "url": "https://ir.cboe.com/news/news-details/2022/Cboe-Global-Markets-Completes-Acquisition-of-ErisX-Entering-Digital-Asset-Market-05-02-2022/default.aspx",
@@ -17,6 +41,18 @@
       "ticker_sentiment_score": 0.228797,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.639877
+    },
+    {
+      "title": "Charles Schwab (SCHW) Q1 revenue down 1%; earnings miss estimates",
+      "summary": "The Charles Schwab Corporation reported lower earnings and revenues for the first quarter of 2022, missing Wall Street's forecasts. Total revenues decreased 1% to $4.67 billion, and adjusted net profit dropped to $0.77 per share. The company's stock experienced a decline following the earnings release.",
+      "url": "https://news.alphastreet.com/charles-schwab-schw-q1-revenue-down-1-earnings-miss-estimates/",
+      "source": "AlphaStreet",
+      "published": "20220418T183553",
+      "overall_sentiment_score": -0.172711,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.03879,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.636381
     },
     {
       "title": "Frank Sorrentino III Of ConnectOne Bank On The Future Of Money and Banking",
@@ -55,30 +91,6 @@
       "relevance_score": 0.622065
     },
     {
-      "title": "Charles Schwab (SCHW) Q1 revenue down 1%; earnings miss estimates",
-      "summary": "The Charles Schwab Corporation reported lower earnings and revenues for the first quarter of 2022, missing Wall Street's forecasts. Total revenues decreased 1% to $4.67 billion, and adjusted net profit dropped to $0.77 per share. The company's stock experienced a decline following the earnings release.",
-      "url": "https://news.alphastreet.com/charles-schwab-schw-q1-revenue-down-1-earnings-miss-estimates/",
-      "source": "AlphaStreet",
-      "published": "20220418T183553",
-      "overall_sentiment_score": -0.172711,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.03879,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.636381
-    },
-    {
-      "title": "FAT Brands Adds Nine Restaurant Chains in $1B Buying Spree",
-      "summary": "FAT Brands acquired nine restaurant chains over 18 months for $917.5 million, reaching $2.2 billion in system sales from 2,300 restaurants across 17 chains. CEO Andy Wiederhorn plans to \"digest\" these acquisitions, increase production at their manufacturing business, and refinance debt to lower capital costs, despite concerns raised by a Seeking Alpha analyst about the company's high leverage and ongoing SEC and U.S. Attorney's Office investigations related to Wiederhorn.",
-      "url": "https://www.franchisetimes.com/dealmakers/fat-brands-adds-nine-restaurant-chains-in-1b-buying-spree/article_79f0d100-c01f-11ec-9642-bfb37537439c.html",
-      "source": "franchisetimes.com",
-      "published": "20220428T164131",
-      "overall_sentiment_score": 0.086913,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.108217,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.569084
-    },
-    {
       "title": "Petrucci, PGIM sell 511,000 sq. ft. Phillipsburg warehouse for $110 million",
       "summary": "A joint venture between J.G. Petrucci Inc. and PGIM Real Estate has sold a newly constructed 511,200-square-foot industrial building in Phillipsburg for $110 million to Cabot Properties. The transaction, which involved brokers from JLL, marked the largest investment sale in New Jersey’s industrial market during the first quarter. The property at 39 Strykers Road was recently leased to national logistics firm Alan Ritchey.",
       "url": "https://re-nj.com/petrucci-pgim-sell-511000-sq-ft-phillipsburg-warehouse-for-110-million/",
@@ -91,28 +103,16 @@
       "relevance_score": 0.585906
     },
     {
-      "title": "Government contracting trends: Surviving economic challenges",
-      "summary": "Government contractors are currently grappling with significant economic challenges including inflation, supply chain disruptions, and a tight labor market. These issues are particularly problematic for contractors whose existing agreements may prevent them from passing on increased costs to the government. To mitigate these pressures, the article suggests strategies such as employee incentives and a reevaluation of contract types.",
-      "url": "https://www.jpmorgan.com/insights/business-planning/economic-challenges-facing-government-contractors",
-      "source": "J.P. Morgan",
-      "published": "20220419T171647",
-      "overall_sentiment_score": 0.101249,
+      "title": "FAT Brands Adds Nine Restaurant Chains in $1B Buying Spree",
+      "summary": "FAT Brands acquired nine restaurant chains over 18 months for $917.5 million, reaching $2.2 billion in system sales from 2,300 restaurants across 17 chains. CEO Andy Wiederhorn plans to \"digest\" these acquisitions, increase production at their manufacturing business, and refinance debt to lower capital costs, despite concerns raised by a Seeking Alpha analyst about the company's high leverage and ongoing SEC and U.S. Attorney's Office investigations related to Wiederhorn.",
+      "url": "https://www.franchisetimes.com/dealmakers/fat-brands-adds-nine-restaurant-chains-in-1b-buying-spree/article_79f0d100-c01f-11ec-9642-bfb37537439c.html",
+      "source": "franchisetimes.com",
+      "published": "20220428T164131",
+      "overall_sentiment_score": 0.086913,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.128367,
+      "ticker_sentiment_score": -0.108217,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.903786
-    },
-    {
-      "title": "JPMorgan Chase, Microsoft among growing number of companies turning to neurodiverse workers to help meet need for talent",
-      "summary": "A growing number of companies, including JPMorgan Chase and Microsoft, are actively recruiting neurodiverse individuals to fill talent needs and leverage their unique skills. This trend is driven by an increasing recognition of the neurodiverse population, their problem-solving abilities, and the ongoing demand for talent, with companies implementing structured programs for interviewing, hiring, and onboarding. These initiatives not only provide career opportunities for neurodiverse workers but also positively impact company culture and team dynamics.",
-      "url": "https://www.cnbc.com/2022/04/20/-neurodivergent-workers-help-companies-meet-the-demand-for-talent.html",
-      "source": "CNBC",
-      "published": "20220420T150300",
-      "overall_sentiment_score": 0.377506,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.446127,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
+      "relevance_score": 0.569084
     }
   ]
 }

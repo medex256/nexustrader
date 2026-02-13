@@ -19,100 +19,16 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Jabil opens 516,000 sqft manufacturing site in Croatia",
-      "summary": "Jabil, a US electronic components maker, has opened a 516,000 square feet manufacturing site in Osijek, Croatia, its first greenfield investment in Europe in 20 years. The facility aims to support customers in the automotive, transportation, and healthcare industries, leveraging Osijek's strategic location and a highly skilled workforce. Jabil also provided financial forecasts for fiscal year 2025, anticipating $27 billion in revenue and restructuring costs between $150 million and $200 million.",
-      "url": "https://evertiq.com/news/56558",
-      "source": "Evertiq",
-      "published": "20241014T000000",
-      "overall_sentiment_score": 0.158781,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.007295,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.743532
-    },
-    {
-      "title": "3 Powerful ETFs for Income Seekers Looking to Maximize Gains",
-      "summary": "This article highlights three ETFs, VOO, XLE, and PEY, that offer income-seeking investors a combination of long-term growth and dividend income. VOO provides broad market exposure with a low expense ratio, XLE offers exposure to the energy sector with a strong dividend yield and potential upside from geopolitical tensions, and PEY focuses on high-dividend-paying stocks with potential for capital appreciation. Each ETF is presented as a suitable option for conservative, buy-and-hold investors looking for stability and income.",
-      "url": "https://www.marketbeat.com/stock-ideas/3-powerful-etfs-for-income-seekers-looking-to-maximize-gains/",
-      "source": "MarketBeat",
-      "published": "20241009T000000",
-      "overall_sentiment_score": 0.309069,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.221683,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.659157
-    },
-    {
-      "title": "MAGS: An Efficient Way To Invest In The Magnificent Seven (NASDAQ:MAGS)",
-      "summary": "The Roundhill Magnificent Seven ETF (MAGS) offers a diversified, quarterly rebalanced investment strategy focused on the Magnificent Seven tech giants, which are expected to lead market growth. Despite some bubble concerns, MAGS has shown strong performance, appreciating 45.01% in 2024, with reasonable valuations and expected earnings growth of 47.17% over two years. While MAGS carries risks like concentration and derivative-related imbalances, it presents a compelling investment opportunity in a favorable economic environment.",
-      "url": "https://seekingalpha.com/article/4727849-mags-an-efficient-way-to-invest-in-the-magnificent-seven",
-      "source": "Seeking Alpha",
-      "published": "20241021T090000",
-      "overall_sentiment_score": 0.330176,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.322337,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.700924
-    },
-    {
-      "title": "State Street Corp's Strategic Acquisition of John Wiley & Sons Inc Shares",
-      "summary": "State Street Corp acquired 1,688,156 shares of John Wiley & Sons Inc (NYSE:WLY) on September 30, 2024, at $48.25 per share, significantly boosting its investment in the media-diversified industry. This strategic move increases State Street's holdings in WLY to 3.70% of its portfolio. Despite WLY being currently overvalued according to GF Value, State Street's acquisition suggests a positive long-term outlook for the academic publishing and online education provider.",
-      "url": "https://finance.yahoo.com/news/state-street-corps-strategic-acquisition-150158066.html",
-      "source": "Yahoo Finance",
-      "published": "20241018T105845",
-      "overall_sentiment_score": 0.176166,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.148655,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.628371
-    },
-    {
-      "title": "Data Breach Investigation on Cisco",
-      "summary": "CYFIRMA's investigation revealed a significant data leak at Cisco involving the threat actor \"IntelBroker,\" who claimed responsibility for compromising sensitive data including GitHub and GitLab projects, source code, hardcoded credentials, and customer information. This incident poses substantial security, reputational, and supply chain risks to Cisco and its B2B clients, as evidence suggests continued access despite Cisco's security measures. The breach also impacted numerous B2B clients, with potential exposure of their production source codes, and highlights the ongoing threat from the CyberNiggers hacking group.",
-      "url": "https://www.cyfirma.com/research/data-breach-investigation-on-cisco/",
-      "source": "CYFIRMA",
-      "published": "20241018T000000",
-      "overall_sentiment_score": -0.268212,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.166824,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.641887
-    },
-    {
-      "title": "Trump says Apple CEO Cook called him with concerns about EU penalties",
-      "summary": "Donald Trump stated that Apple CEO Tim Cook contacted him to express concerns about significant financial penalties levied by the European Union against the iPhone maker. Trump mentioned that Cook cited fines totaling $17 billion related to back taxes and an antitrust ruling. Trump reassured Cook that if elected, he would prevent such exploitation of American companies.",
-      "url": "https://www.reuters.com/world/us/trump-says-apple-ceo-cook-called-him-with-concerns-about-eu-penalties-2024-10-17/",
-      "source": "Reuters",
-      "published": "20241017T224200",
-      "overall_sentiment_score": -0.259385,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.262223,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.976392
-    },
-    {
-      "title": "How much money you'd have now if you invested $1,000 in Netflix 10 years ago",
-      "summary": "This article analyzes the returns on a $1,000 investment in Netflix over various periods, including one, five, and ten years ago, as well as since its IPO. It highlights Netflix's recent stock performance due to password sharing crackdowns and new initiatives, and also discusses the company's decision to stop providing quarterly subscriber numbers. The article also recommends passive investing strategies like low-cost index funds as an alternative to hand-selecting individual stocks.",
-      "url": "https://www.cnbc.com/2024/10/17/how-much-netflix-stock-is-worth.html",
-      "source": "CNBC",
-      "published": "20241017T084500",
-      "overall_sentiment_score": 0.318923,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.230128,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.557471
-    },
-    {
-      "title": "State Street Corp's Strategic Acquisition of Evergy Inc Shares",
-      "summary": "State Street Corp increased its holdings in Evergy Inc by acquiring an additional 10,955 shares for $62.01 each, bringing its total to 16,465,218 shares. This strategic move, representing a 0.04% portfolio position, reinforces State Street Corp's investment in the stable utilities sector and Evergy's focus on renewable energy. The acquisition highlights Evergy's fair valuation and strong future potential according to its GF Score of 77.",
-      "url": "https://finance.yahoo.com/news/state-street-corps-strategic-acquisition-170549564.html",
-      "source": "Yahoo Finance",
-      "published": "20241016T000000",
-      "overall_sentiment_score": 0.249348,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.12415,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.726448
+      "title": "Apple Dips as Jefferies Says Hopes for AI Phone Are Overblown",
+      "summary": "Apple Inc. shares fell after a Jefferies analyst, Edison Lee, stated that investor expectations for the AI-powered iPhone 16/17 are \"premature\" and \"overblown.\" Jefferies downgraded its rating on Apple stock to \"hold,\" citing a lack of material new features and limited AI coverage that suggests high market expectations for unit growth will not be met.",
+      "url": "https://www.bloomberg.com/news/articles/2024-10-07/apple-dips-as-jefferies-says-hopes-for-ai-phone-are-overblown",
+      "source": "Bloomberg.com",
+      "published": "20241007T142200",
+      "overall_sentiment_score": -0.38421,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.395701,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
     },
     {
       "title": "Prepare for the rebound in stock prices! Evercore believes the market has exaggerated pessimism about apple.",
@@ -127,30 +43,6 @@
       "relevance_score": 0.991894
     },
     {
-      "title": "Nvidia notches record close, could unseat Apple as most valuable company",
-      "summary": "Nvidia's shares closed at a record high, positioning the AI chipmaker to potentially surpass Apple as the world's most valuable company. Strong demand for its AI processors propelled Nvidia's market value to $3.39 trillion, just shy of Apple's $3.52 trillion, while analysts predict significant revenue growth due to AI data center spending.",
-      "url": "https://www.reuters.com/technology/nvidia-rallies-poised-dethrone-apple-most-valuable-company-2024-10-14/",
-      "source": "Reuters",
-      "published": "20241015T051600",
-      "overall_sentiment_score": 0.356982,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.298156,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.900522
-    },
-    {
-      "title": "Wearable Devices Announces the Launch of Mudra Band for Apple Watch on Walmart.com, Expanding Access to Its Innovative Gesture-Controlled Wearable Technology",
-      "summary": "Wearable Devices Ltd. launched its Mudra Band for Apple Watch on Walmart.com, significantly expanding its market reach in the U.S. This move follows a successful introduction on Amazon, making the AI-powered neural-based gesture control technology more accessible to Apple users nationwide. The Mudra Band allows hands-free interaction with Apple devices using simple neural gestures.",
-      "url": "https://finance.yahoo.com/news/wearable-devices-announces-launch-mudra-125000746.html",
-      "source": "Yahoo Finance",
-      "published": "20241011T125000",
-      "overall_sentiment_score": 0.281865,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.219978,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.727111
-    },
-    {
       "title": "Unafraid of Wall Street's pessimism! Apple's stock price approaching a new high, has it shaken off the shadow of the \"Stock God\"'s shareholding?",
       "summary": "Despite Wall Street's pessimism, Apple's stock price is nearing a new high, seemingly unaffected by Buffett's recent shareholding reduction. The iPhone 16 series, particularly the Pro models, are performing better than expected, although material costs have increased. Analysts remain cautious about short-term sales growth due to limited AI innovation and high valuation.",
       "url": "https://news.futunn.com/en/post/48574248/unafraid-of-wall-street-s-pessimism-apple-s-stock-price",
@@ -163,28 +55,16 @@
       "relevance_score": 0.986219
     },
     {
-      "title": "Here’s why I’d avoid the DGRO ETF and buy VOO instead",
-      "summary": "The article advises investors to prefer the Vanguard S&P 500 ETF (VOO) over the iShares Core Dividend Growth ETF (DGRO) for long-term investments. Although DGRO has performed well, VOO has demonstrated superior returns and a lower expense ratio. The author argues that DGRO's low dividend yield makes it less attractive compared to government bonds or other dividend-focused ETFs.",
-      "url": "https://invezz.com/news/2024/10/08/heres-why-id-avoid-the-dgro-etf-and-buy-voo-instead/",
-      "source": "Invezz",
-      "published": "20241008T220844",
-      "overall_sentiment_score": 0.137904,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.21485,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.604138
-    },
-    {
-      "title": "Apple Dips as Jefferies Says Hopes for AI Phone Are Overblown",
-      "summary": "Apple Inc. shares fell after a Jefferies analyst, Edison Lee, stated that investor expectations for the AI-powered iPhone 16/17 are \"premature\" and \"overblown.\" Jefferies downgraded its rating on Apple stock to \"hold,\" citing a lack of material new features and limited AI coverage that suggests high market expectations for unit growth will not be met.",
-      "url": "https://www.bloomberg.com/news/articles/2024-10-07/apple-dips-as-jefferies-says-hopes-for-ai-phone-are-overblown",
-      "source": "Bloomberg.com",
-      "published": "20241007T142200",
-      "overall_sentiment_score": -0.38421,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.395701,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 1.0
+      "title": "Trump says Apple CEO Cook called him with concerns about EU penalties",
+      "summary": "Donald Trump stated that Apple CEO Tim Cook contacted him to express concerns about significant financial penalties levied by the European Union against the iPhone maker. Trump mentioned that Cook cited fines totaling $17 billion related to back taxes and an antitrust ruling. Trump reassured Cook that if elected, he would prevent such exploitation of American companies.",
+      "url": "https://www.reuters.com/world/us/trump-says-apple-ceo-cook-called-him-with-concerns-about-eu-penalties-2024-10-17/",
+      "source": "Reuters",
+      "published": "20241017T224200",
+      "overall_sentiment_score": -0.259385,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.262223,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.976392
     },
     {
       "title": "US labor board accuses Apple of restricting workers' Slack, social media use",
@@ -211,16 +91,16 @@
       "relevance_score": 0.904392
     },
     {
-      "title": "How Masimo’s 20-year CEO was ousted by activist investors",
-      "summary": "This article details how activist investor firm Politan Capital successfully ousted Masimo’s long-standing CEO and founder, Joe Kiani, after a two-year battle. The conflict arose from Masimo's controversial acquisition of Sound United, which led to a significant drop in stock value and concerns from investors. Ultimately, Politan Capital gained majority control of the company's board, leading to Kiani's resignation.",
-      "url": "https://www.medicaldevice-network.com/features/how-masimos-20-year-ceo-was-ousted-by-activist-investors/",
-      "source": "Medical Device Network",
-      "published": "20241009T000000",
-      "overall_sentiment_score": 0.017826,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.099625,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.722866
+      "title": "Nvidia notches record close, could unseat Apple as most valuable company",
+      "summary": "Nvidia's shares closed at a record high, positioning the AI chipmaker to potentially surpass Apple as the world's most valuable company. Strong demand for its AI processors propelled Nvidia's market value to $3.39 trillion, just shy of Apple's $3.52 trillion, while analysts predict significant revenue growth due to AI data center spending.",
+      "url": "https://www.reuters.com/technology/nvidia-rallies-poised-dethrone-apple-most-valuable-company-2024-10-14/",
+      "source": "Reuters",
+      "published": "20241015T051600",
+      "overall_sentiment_score": 0.356982,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.298156,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.900522
     },
     {
       "title": "Top Stock Movers Now: Humana, Amazon, Apple, and More",
@@ -235,6 +115,18 @@
       "relevance_score": 0.805682
     },
     {
+      "title": "Jabil opens 516,000 sqft manufacturing site in Croatia",
+      "summary": "Jabil, a US electronic components maker, has opened a 516,000 square feet manufacturing site in Osijek, Croatia, its first greenfield investment in Europe in 20 years. The facility aims to support customers in the automotive, transportation, and healthcare industries, leveraging Osijek's strategic location and a highly skilled workforce. Jabil also provided financial forecasts for fiscal year 2025, anticipating $27 billion in revenue and restructuring costs between $150 million and $200 million.",
+      "url": "https://evertiq.com/news/56558",
+      "source": "Evertiq",
+      "published": "20241014T000000",
+      "overall_sentiment_score": 0.158781,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.007295,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.743532
+    },
+    {
       "title": "Options Backtesting Now Available on tastytrade",
       "summary": "tastytrade has launched a free options backtesting tool for account holders, allowing users to test options strategies against historical market data dating back to 2013 across various time intervals and market events. The platform also enables a detailed download of logs, orders, transactions, and daily settlements in CSV format for a wide range of popular symbols. Additionally, the article features upcoming earnings announcements for several major companies.",
       "url": "https://www.tastylive.com/news-insights/options-backtesting-now-available-tastytrade",
@@ -245,6 +137,114 @@
       "ticker_sentiment_score": 0.10243,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.739107
+    },
+    {
+      "title": "Wearable Devices Announces the Launch of Mudra Band for Apple Watch on Walmart.com, Expanding Access to Its Innovative Gesture-Controlled Wearable Technology",
+      "summary": "Wearable Devices Ltd. launched its Mudra Band for Apple Watch on Walmart.com, significantly expanding its market reach in the U.S. This move follows a successful introduction on Amazon, making the AI-powered neural-based gesture control technology more accessible to Apple users nationwide. The Mudra Band allows hands-free interaction with Apple devices using simple neural gestures.",
+      "url": "https://finance.yahoo.com/news/wearable-devices-announces-launch-mudra-125000746.html",
+      "source": "Yahoo Finance",
+      "published": "20241011T125000",
+      "overall_sentiment_score": 0.281865,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.219978,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.727111
+    },
+    {
+      "title": "State Street Corp's Strategic Acquisition of Evergy Inc Shares",
+      "summary": "State Street Corp increased its holdings in Evergy Inc by acquiring an additional 10,955 shares for $62.01 each, bringing its total to 16,465,218 shares. This strategic move, representing a 0.04% portfolio position, reinforces State Street Corp's investment in the stable utilities sector and Evergy's focus on renewable energy. The acquisition highlights Evergy's fair valuation and strong future potential according to its GF Score of 77.",
+      "url": "https://finance.yahoo.com/news/state-street-corps-strategic-acquisition-170549564.html",
+      "source": "Yahoo Finance",
+      "published": "20241016T000000",
+      "overall_sentiment_score": 0.249348,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.12415,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.726448
+    },
+    {
+      "title": "How Masimo’s 20-year CEO was ousted by activist investors",
+      "summary": "This article details how activist investor firm Politan Capital successfully ousted Masimo’s long-standing CEO and founder, Joe Kiani, after a two-year battle. The conflict arose from Masimo's controversial acquisition of Sound United, which led to a significant drop in stock value and concerns from investors. Ultimately, Politan Capital gained majority control of the company's board, leading to Kiani's resignation.",
+      "url": "https://www.medicaldevice-network.com/features/how-masimos-20-year-ceo-was-ousted-by-activist-investors/",
+      "source": "Medical Device Network",
+      "published": "20241009T000000",
+      "overall_sentiment_score": 0.017826,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.099625,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.722866
+    },
+    {
+      "title": "MAGS: An Efficient Way To Invest In The Magnificent Seven (NASDAQ:MAGS)",
+      "summary": "The Roundhill Magnificent Seven ETF (MAGS) offers a diversified, quarterly rebalanced investment strategy focused on the Magnificent Seven tech giants, which are expected to lead market growth. Despite some bubble concerns, MAGS has shown strong performance, appreciating 45.01% in 2024, with reasonable valuations and expected earnings growth of 47.17% over two years. While MAGS carries risks like concentration and derivative-related imbalances, it presents a compelling investment opportunity in a favorable economic environment.",
+      "url": "https://seekingalpha.com/article/4727849-mags-an-efficient-way-to-invest-in-the-magnificent-seven",
+      "source": "Seeking Alpha",
+      "published": "20241021T090000",
+      "overall_sentiment_score": 0.330176,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.322337,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.700924
+    },
+    {
+      "title": "3 Powerful ETFs for Income Seekers Looking to Maximize Gains",
+      "summary": "This article highlights three ETFs, VOO, XLE, and PEY, that offer income-seeking investors a combination of long-term growth and dividend income. VOO provides broad market exposure with a low expense ratio, XLE offers exposure to the energy sector with a strong dividend yield and potential upside from geopolitical tensions, and PEY focuses on high-dividend-paying stocks with potential for capital appreciation. Each ETF is presented as a suitable option for conservative, buy-and-hold investors looking for stability and income.",
+      "url": "https://www.marketbeat.com/stock-ideas/3-powerful-etfs-for-income-seekers-looking-to-maximize-gains/",
+      "source": "MarketBeat",
+      "published": "20241009T000000",
+      "overall_sentiment_score": 0.309069,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.221683,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.659157
+    },
+    {
+      "title": "Data Breach Investigation on Cisco",
+      "summary": "CYFIRMA's investigation revealed a significant data leak at Cisco involving the threat actor \"IntelBroker,\" who claimed responsibility for compromising sensitive data including GitHub and GitLab projects, source code, hardcoded credentials, and customer information. This incident poses substantial security, reputational, and supply chain risks to Cisco and its B2B clients, as evidence suggests continued access despite Cisco's security measures. The breach also impacted numerous B2B clients, with potential exposure of their production source codes, and highlights the ongoing threat from the CyberNiggers hacking group.",
+      "url": "https://www.cyfirma.com/research/data-breach-investigation-on-cisco/",
+      "source": "CYFIRMA",
+      "published": "20241018T000000",
+      "overall_sentiment_score": -0.268212,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.166824,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.641887
+    },
+    {
+      "title": "State Street Corp's Strategic Acquisition of John Wiley & Sons Inc Shares",
+      "summary": "State Street Corp acquired 1,688,156 shares of John Wiley & Sons Inc (NYSE:WLY) on September 30, 2024, at $48.25 per share, significantly boosting its investment in the media-diversified industry. This strategic move increases State Street's holdings in WLY to 3.70% of its portfolio. Despite WLY being currently overvalued according to GF Value, State Street's acquisition suggests a positive long-term outlook for the academic publishing and online education provider.",
+      "url": "https://finance.yahoo.com/news/state-street-corps-strategic-acquisition-150158066.html",
+      "source": "Yahoo Finance",
+      "published": "20241018T105845",
+      "overall_sentiment_score": 0.176166,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.148655,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.628371
+    },
+    {
+      "title": "Here’s why I’d avoid the DGRO ETF and buy VOO instead",
+      "summary": "The article advises investors to prefer the Vanguard S&P 500 ETF (VOO) over the iShares Core Dividend Growth ETF (DGRO) for long-term investments. Although DGRO has performed well, VOO has demonstrated superior returns and a lower expense ratio. The author argues that DGRO's low dividend yield makes it less attractive compared to government bonds or other dividend-focused ETFs.",
+      "url": "https://invezz.com/news/2024/10/08/heres-why-id-avoid-the-dgro-etf-and-buy-voo-instead/",
+      "source": "Invezz",
+      "published": "20241008T220844",
+      "overall_sentiment_score": 0.137904,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.21485,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.604138
+    },
+    {
+      "title": "How much money you'd have now if you invested $1,000 in Netflix 10 years ago",
+      "summary": "This article analyzes the returns on a $1,000 investment in Netflix over various periods, including one, five, and ten years ago, as well as since its IPO. It highlights Netflix's recent stock performance due to password sharing crackdowns and new initiatives, and also discusses the company's decision to stop providing quarterly subscriber numbers. The article also recommends passive investing strategies like low-cost index funds as an alternative to hand-selecting individual stocks.",
+      "url": "https://www.cnbc.com/2024/10/17/how-much-netflix-stock-is-worth.html",
+      "source": "CNBC",
+      "published": "20241017T084500",
+      "overall_sentiment_score": 0.318923,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.230128,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.557471
     }
   ]
 }

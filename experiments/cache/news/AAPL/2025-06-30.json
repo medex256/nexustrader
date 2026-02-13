@@ -7,78 +7,6 @@
   "article_count": 16,
   "articles": [
     {
-      "title": "APLY vs. SCHD: Apple’s Mega Yield ETF or Dividend Aristocrat Power",
-      "summary": "This article compares two ETFs, YieldMax AAPL Option Income Strategy ETF (APLY) and Schwab U.S. Dividend Equity ETF (SCHD), for passive income investors. APLY offers a significantly higher yield through an options trading strategy focused on Apple, but comes with higher risks and capped upside. SCHD, conversely, provides more reliable, lower-risk income through diversification across mature dividend-paying companies.",
-      "url": "https://247wallst.com/investing/2025/06/27/aply-vs-schd-apples-mega-yield-etf-or-dividend-aristocrat-power/",
-      "source": "24/7 Wall St.",
-      "published": "20250627T152000",
-      "overall_sentiment_score": 0.184835,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.337063,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.736545
-    },
-    {
-      "title": "Playstudios's agena sells $57,576 in stock By Investing.com",
-      "summary": "Joel Agena, General Counsel at Playstudios, Inc., sold 40,980 shares of Class A Common Stock for a total of $57,576 in two transactions on June 20 and June 23, 2025. These sales were executed under a pre-arranged Rule 10b5-1 trading plan. Despite the insider sale, PlayStudios has recently received analyst upgrades from Craig-Hallum and Benchmark, citing optimism for new product offerings and a strong balance sheet.",
-      "url": "https://m.za.investing.com/news/insider-trading-news/playstudioss-agena-sells-57576-in-stock-93CH-3767648?ampMode=1",
-      "source": "Investing.com South Africa",
-      "published": "20250624T062939",
-      "overall_sentiment_score": 0.1616,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.239994,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.612085
-    },
-    {
-      "title": "IWF Is a Great Choice for Most, But I Like VUG ETF Better",
-      "summary": "The article compares two growth-focused ETFs, the iShares Russell 1000 Growth ETF (IWF) and the Vanguard Growth ETF (VUG). While both offer similar top holdings, VUG is favored due to its significantly lower expense ratio and historically better returns across most periods. The author recommends VUG for investors seeking to add growth to their portfolios due to its cost-efficiency and superior performance.",
-      "url": "https://finviz.com/news/85861/iwf-is-a-great-choice-for-most-but-i-like-vug-etf-better",
-      "source": "Finviz",
-      "published": "20250623T092200",
-      "overall_sentiment_score": 0.364872,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.344828,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.631738
-    },
-    {
-      "title": "Texas Instruments plans to invest $60B in semiconductor fabs",
-      "summary": "Texas Instruments announced plans to invest over $60 billion in seven semiconductor fabrication plants across Texas and Utah, marking one of the largest investments in the sector. This investment will significantly increase U.S. manufacturing capacity for 300mm chips, supported by $1.6 billion in funding from the CHIPS and Science Act, and will create more than 60,000 new jobs. The new fabs will produce chips for major companies like Apple, Ford, Medtronic, and Nvidia, enhancing the country's position in advanced semiconductor technology.",
-      "url": "https://www.constructiondive.com/news/texas-instruments-semiconductor-fabs-utah/751292/",
-      "source": "Construction Dive",
-      "published": "20250623T000000",
-      "overall_sentiment_score": 0.374274,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.322371,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.701745
-    },
-    {
-      "title": "Texas Instruments to Put $60 Billion Toward Semiconductor Manufacturing in North Texas",
-      "summary": "Texas Instruments plans to invest over $60 billion in semiconductor manufacturing, establishing \"mega-sites\" in Sherman, Richardson, and Lehi, Utah, which is expected to create over 60,000 jobs. This investment is supported by the Trump administration to boost American manufacturing and involves partnerships with major companies like Apple, Ford, Medtronic, NVIDIA, and SpaceX. Additionally, the article covers BGSF's sale of its professional division for $99 million and the upcoming opening of Flight Club, a social entertainment concept, in Addison.",
-      "url": "https://www.dmagazine.com/business-economy/2025/06/texas-instruments-to-put-60-billion-toward-semiconductor-manufacturing-in-north-texas/",
-      "source": "D Magazine",
-      "published": "20250620T130700",
-      "overall_sentiment_score": 0.347687,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.344675,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.649571
-    },
-    {
-      "title": "Accenture is worst-performing stock in the S&P 500 on Friday",
-      "summary": "Accenture became the worst-performing stock in the S&P 500 on Friday, despite reporting strong revenue and profits, along with optimistic guidance. The decline was attributed to investors' concerns over a 6% decrease in third-quarter bookings, which totaled $19.7 billion. Shares of Accenture PLC Class A were down 8.2% and on pace for their biggest drop since March 2024, having fallen 20% year-to-date.",
-      "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-and-nasdaq-set-for-opening-drop/card/accenture-is-worst-performing-stock-in-the-s-p-500-on-friday-1o3FF1yIJaTErYvBjOji?gaa_at=eafs&gaa_n=AWEtsqcSdEFIaxASAEx6OVrCW_oLN2meHg_hipHhw8qiHLIwrP9i3Ip4Up_O&gaa_ts=6911a93a&gaa_sig=r3Eka4_Y0p2l47hlEktiYFiqQvzkQ_cwLgqtXpcxwh-hAI0p1xcUQTzqiZQiv9blgjO94phzFJehe5XbgaTu4Q%3D%3D",
-      "source": "MarketWatch",
-      "published": "20250620T000000",
-      "overall_sentiment_score": -0.150701,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.027844,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.553492
-    },
-    {
       "title": "Forget Monthly Dividends, These 5 ETFs Pay Investors Every Week",
       "summary": "This article highlights several ETFs that offer weekly dividend payments, catering to investors seeking regular income. It details specific ETFs like AAPL WeeklyPay (AAPW), NVDA WeeklyPay (NVDW), PLTR WeeklyPay (PLTW), TSLA WeeklyPay (TSLW), and the Weekly T-Bill ETF (WEEK), outlining their expense ratios, distribution rates, and underlying investments, which often include swap agreements and major tech stocks. The article also mentions the YieldMax AI & Tech Portfolio Option Income ETF (GPTY) as another option for weekly income.",
       "url": "https://247wallst.com/investing/2025/06/19/forget-monthly-dividends-these-5-etfs-pay-investors-every-week/",
@@ -89,66 +17,6 @@
       "ticker_sentiment_score": 0.321362,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.901142
-    },
-    {
-      "title": "Should iShares S&P 500 Value ETF (IVE) Be on Your Investing Radar?",
-      "summary": "The iShares S&P 500 Value ETF (IVE) offers broad exposure to the Large Cap Value segment of the US equity market, launched in 2000 and managed by Blackrock with over $38 billion in assets. It maintains a low expense ratio of 0.18% and has a Zacks ETF Rank of 2 (Buy), making it a suitable option for investors seeking exposure to large-cap value stocks. The ETF primarily invests in Information Technology, Financials, and Healthcare sectors, with Apple, Microsoft, and Amazon as top holdings, offering diversification and medium risk.",
-      "url": "https://www.sharewise.com/us/news_articles/Should_iShares_SP_500_Value_ETF_IVE_Be_on_Your_Investing_Radar_Zacks_20250618_1220",
-      "source": "sharewise.com",
-      "published": "20250618T011026",
-      "overall_sentiment_score": 0.319674,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.334209,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.64046
-    },
-    {
-      "title": "Texas Instruments commits $60B to domestic chip manufacturing",
-      "summary": "Texas Instruments plans to invest over $60 billion in domestic chip manufacturing, building seven fabrication facilities across Texas and Utah. This initiative, supported by $1.6 billion in CHIPS Act funding, aims to produce foundational semiconductors for major tech and automotive companies like Apple, Ford, and Nvidia. The investment addresses rising compute demand driven by AI adoption and geopolitical considerations to boost U.S. chip production.",
-      "url": "https://www.ciodive.com/news/texas-instruments-domestic-semiconductor-manufacturing-nvidia/751122/",
-      "source": "CIO Dive",
-      "published": "20250618T000000",
-      "overall_sentiment_score": 0.365029,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.322398,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.620234
-    },
-    {
-      "title": "Texas Instruments injects $60B into U.S. chip manufacturing",
-      "summary": "Texas Instruments announced a $60 billion plan to bolster domestic semiconductor manufacturing across seven facilities in Utah and Texas, marking the largest effort by a single U.S. company. This investment aims to create a domestic supply chain for chips used in various electronics and is expected to generate 60,000 new U.S. jobs through partnerships with companies like Nvidia, Apple, Ford, and SpaceX. While the initiative is substantial for the semiconductor supply, industry analysts note that realizing gains from increased manufacturing will take time.",
-      "url": "https://www.techtarget.com/searchdatacenter/news/366626281/Texas-Instruments-injects-60B-into-US-chip-manufacturing",
-      "source": "TechTarget",
-      "published": "20250618T000000",
-      "overall_sentiment_score": 0.327306,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.347701,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.726049
-    },
-    {
-      "title": "IVE ETF: How It Tracks the S&P 500 Value Index",
-      "summary": "The iShares S&P 500 Value ETF (IVE) is a popular choice for investors seeking exposure to large-cap US value stocks. This article explains how IVE tracks the S&P 500 Value Index using a passive, full replication strategy with periodic rebalancing, highlighting its cost-efficiency and diversification benefits. Key features, top holdings, and performance data are provided to assist traders in understanding its role in portfolio construction.",
-      "url": "https://www.ebc.com/forex/ive-etf-how-it-tracks-the-s-and-amp-p--value-index",
-      "source": "EBC Financial Group",
-      "published": "20250626T000000",
-      "overall_sentiment_score": 0.334437,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.343588,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.678605
-    },
-    {
-      "title": "It’s official: T-Mobile has the best network in America",
-      "summary": "T-Mobile has officially been named the best mobile network in America by Ookla, a global leader in connectivity intelligence, marking a significant milestone after 12 years of investment and innovation. The company is celebrating by launching its T-Satellite service commercially on July 23rd, offering satellite-to-mobile connectivity, and providing a free year of DashPass by DoorDash to most of its customers starting July 8th. T-Mobile is also introducing an \"Easy Upgrade\" program to entice AT&T and Verizon customers to switch to its network.",
-      "url": "https://www.police1.com/police-products/police-technology/wireless-communications/its-official-t-mobile-has-the-best-network-in-america",
-      "source": "Police1",
-      "published": "20250625T171500",
-      "overall_sentiment_score": 0.281612,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.226948,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.630617
     },
     {
       "title": "Duolingo director hacker sells $4.7m in stock",
@@ -163,6 +31,18 @@
       "relevance_score": 0.740932
     },
     {
+      "title": "APLY vs. SCHD: Apple’s Mega Yield ETF or Dividend Aristocrat Power",
+      "summary": "This article compares two ETFs, YieldMax AAPL Option Income Strategy ETF (APLY) and Schwab U.S. Dividend Equity ETF (SCHD), for passive income investors. APLY offers a significantly higher yield through an options trading strategy focused on Apple, but comes with higher risks and capped upside. SCHD, conversely, provides more reliable, lower-risk income through diversification across mature dividend-paying companies.",
+      "url": "https://247wallst.com/investing/2025/06/27/aply-vs-schd-apples-mega-yield-etf-or-dividend-aristocrat-power/",
+      "source": "24/7 Wall St.",
+      "published": "20250627T152000",
+      "overall_sentiment_score": 0.184835,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.337063,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.736545
+    },
+    {
       "title": "Texas Instruments Partners With Apple, NVIDIA in Historic $60B US Semiconductor Expansion",
       "summary": "Texas Instruments (TXN) announced a historic investment of over $60 billion in seven U.S. semiconductor fabs across three mega-sites in Texas and Utah. This expansion, the largest of its kind in U.S. history, will create more than 60,000 U.S. jobs and produce foundational analog and embedded processing chips essential for various electronic devices. TI has also strengthened partnerships with major companies like Apple, Ford, Medtronic, NVIDIA, and SpaceX, showcasing a commitment to securing domestic supply chains and advancing American innovation.",
       "url": "https://www.stocktitan.net/news/TXN/texas-instruments-plans-to-invest-more-than-60-billion-to-vlk2erv1qxua.html",
@@ -173,6 +53,66 @@
       "ticker_sentiment_score": 0.315077,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.733198
+    },
+    {
+      "title": "Apple supplier Jabil plans $500M venture for AI infrastructure",
+      "summary": "Jabil, an electronics component maker and Apple supplier, is investing $500 million over the next several years to expand its cloud and artificial intelligence data center infrastructure in the Southeastern U.S. This investment includes large-scale production facilities expected to be operational by mid-2026. The move aligns with similar U.S. infrastructure investments by tech giants like Apple, Nvidia, and Foxconn, aimed at strengthening domestic manufacturing and diversifying Jabil's commercial portfolio to meet surging AI infrastructure demand.",
+      "url": "https://www.freightwaves.com/news/apple-supplier-jabil-plans-500m-venture-to-build-ai-data-centers",
+      "source": "FreightWaves",
+      "published": "20250617T000000",
+      "overall_sentiment_score": 0.341232,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.319149,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.729791
+    },
+    {
+      "title": "Texas Instruments injects $60B into U.S. chip manufacturing",
+      "summary": "Texas Instruments announced a $60 billion plan to bolster domestic semiconductor manufacturing across seven facilities in Utah and Texas, marking the largest effort by a single U.S. company. This investment aims to create a domestic supply chain for chips used in various electronics and is expected to generate 60,000 new U.S. jobs through partnerships with companies like Nvidia, Apple, Ford, and SpaceX. While the initiative is substantial for the semiconductor supply, industry analysts note that realizing gains from increased manufacturing will take time.",
+      "url": "https://www.techtarget.com/searchdatacenter/news/366626281/Texas-Instruments-injects-60B-into-US-chip-manufacturing",
+      "source": "TechTarget",
+      "published": "20250618T000000",
+      "overall_sentiment_score": 0.327306,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.347701,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.726049
+    },
+    {
+      "title": "Texas Instruments plans to invest $60B in semiconductor fabs",
+      "summary": "Texas Instruments announced plans to invest over $60 billion in seven semiconductor fabrication plants across Texas and Utah, marking one of the largest investments in the sector. This investment will significantly increase U.S. manufacturing capacity for 300mm chips, supported by $1.6 billion in funding from the CHIPS and Science Act, and will create more than 60,000 new jobs. The new fabs will produce chips for major companies like Apple, Ford, Medtronic, and Nvidia, enhancing the country's position in advanced semiconductor technology.",
+      "url": "https://www.constructiondive.com/news/texas-instruments-semiconductor-fabs-utah/751292/",
+      "source": "Construction Dive",
+      "published": "20250623T000000",
+      "overall_sentiment_score": 0.374274,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.322371,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.701745
+    },
+    {
+      "title": "IVE ETF: How It Tracks the S&P 500 Value Index",
+      "summary": "The iShares S&P 500 Value ETF (IVE) is a popular choice for investors seeking exposure to large-cap US value stocks. This article explains how IVE tracks the S&P 500 Value Index using a passive, full replication strategy with periodic rebalancing, highlighting its cost-efficiency and diversification benefits. Key features, top holdings, and performance data are provided to assist traders in understanding its role in portfolio construction.",
+      "url": "https://www.ebc.com/forex/ive-etf-how-it-tracks-the-s-and-amp-p--value-index",
+      "source": "EBC Financial Group",
+      "published": "20250626T000000",
+      "overall_sentiment_score": 0.334437,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.343588,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.678605
+    },
+    {
+      "title": "Texas Instruments to Put $60 Billion Toward Semiconductor Manufacturing in North Texas",
+      "summary": "Texas Instruments plans to invest over $60 billion in semiconductor manufacturing, establishing \"mega-sites\" in Sherman, Richardson, and Lehi, Utah, which is expected to create over 60,000 jobs. This investment is supported by the Trump administration to boost American manufacturing and involves partnerships with major companies like Apple, Ford, Medtronic, NVIDIA, and SpaceX. Additionally, the article covers BGSF's sale of its professional division for $99 million and the upcoming opening of Flight Club, a social entertainment concept, in Addison.",
+      "url": "https://www.dmagazine.com/business-economy/2025/06/texas-instruments-to-put-60-billion-toward-semiconductor-manufacturing-in-north-texas/",
+      "source": "D Magazine",
+      "published": "20250620T130700",
+      "overall_sentiment_score": 0.347687,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.344675,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.649571
     },
     {
       "title": "Tech Tactically Trimmed: Why I'm Holding MAGS But With Caution",
@@ -187,16 +127,76 @@
       "relevance_score": 0.643064
     },
     {
-      "title": "Apple supplier Jabil plans $500M venture for AI infrastructure",
-      "summary": "Jabil, an electronics component maker and Apple supplier, is investing $500 million over the next several years to expand its cloud and artificial intelligence data center infrastructure in the Southeastern U.S. This investment includes large-scale production facilities expected to be operational by mid-2026. The move aligns with similar U.S. infrastructure investments by tech giants like Apple, Nvidia, and Foxconn, aimed at strengthening domestic manufacturing and diversifying Jabil's commercial portfolio to meet surging AI infrastructure demand.",
-      "url": "https://www.freightwaves.com/news/apple-supplier-jabil-plans-500m-venture-to-build-ai-data-centers",
-      "source": "FreightWaves",
-      "published": "20250617T000000",
-      "overall_sentiment_score": 0.341232,
+      "title": "Should iShares S&P 500 Value ETF (IVE) Be on Your Investing Radar?",
+      "summary": "The iShares S&P 500 Value ETF (IVE) offers broad exposure to the Large Cap Value segment of the US equity market, launched in 2000 and managed by Blackrock with over $38 billion in assets. It maintains a low expense ratio of 0.18% and has a Zacks ETF Rank of 2 (Buy), making it a suitable option for investors seeking exposure to large-cap value stocks. The ETF primarily invests in Information Technology, Financials, and Healthcare sectors, with Apple, Microsoft, and Amazon as top holdings, offering diversification and medium risk.",
+      "url": "https://www.sharewise.com/us/news_articles/Should_iShares_SP_500_Value_ETF_IVE_Be_on_Your_Investing_Radar_Zacks_20250618_1220",
+      "source": "sharewise.com",
+      "published": "20250618T011026",
+      "overall_sentiment_score": 0.319674,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.319149,
+      "ticker_sentiment_score": 0.334209,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.729791
+      "relevance_score": 0.64046
+    },
+    {
+      "title": "IWF Is a Great Choice for Most, But I Like VUG ETF Better",
+      "summary": "The article compares two growth-focused ETFs, the iShares Russell 1000 Growth ETF (IWF) and the Vanguard Growth ETF (VUG). While both offer similar top holdings, VUG is favored due to its significantly lower expense ratio and historically better returns across most periods. The author recommends VUG for investors seeking to add growth to their portfolios due to its cost-efficiency and superior performance.",
+      "url": "https://finviz.com/news/85861/iwf-is-a-great-choice-for-most-but-i-like-vug-etf-better",
+      "source": "Finviz",
+      "published": "20250623T092200",
+      "overall_sentiment_score": 0.364872,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.344828,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.631738
+    },
+    {
+      "title": "It’s official: T-Mobile has the best network in America",
+      "summary": "T-Mobile has officially been named the best mobile network in America by Ookla, a global leader in connectivity intelligence, marking a significant milestone after 12 years of investment and innovation. The company is celebrating by launching its T-Satellite service commercially on July 23rd, offering satellite-to-mobile connectivity, and providing a free year of DashPass by DoorDash to most of its customers starting July 8th. T-Mobile is also introducing an \"Easy Upgrade\" program to entice AT&T and Verizon customers to switch to its network.",
+      "url": "https://www.police1.com/police-products/police-technology/wireless-communications/its-official-t-mobile-has-the-best-network-in-america",
+      "source": "Police1",
+      "published": "20250625T171500",
+      "overall_sentiment_score": 0.281612,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.226948,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630617
+    },
+    {
+      "title": "Texas Instruments commits $60B to domestic chip manufacturing",
+      "summary": "Texas Instruments plans to invest over $60 billion in domestic chip manufacturing, building seven fabrication facilities across Texas and Utah. This initiative, supported by $1.6 billion in CHIPS Act funding, aims to produce foundational semiconductors for major tech and automotive companies like Apple, Ford, and Nvidia. The investment addresses rising compute demand driven by AI adoption and geopolitical considerations to boost U.S. chip production.",
+      "url": "https://www.ciodive.com/news/texas-instruments-domestic-semiconductor-manufacturing-nvidia/751122/",
+      "source": "CIO Dive",
+      "published": "20250618T000000",
+      "overall_sentiment_score": 0.365029,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.322398,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.620234
+    },
+    {
+      "title": "Playstudios's agena sells $57,576 in stock By Investing.com",
+      "summary": "Joel Agena, General Counsel at Playstudios, Inc., sold 40,980 shares of Class A Common Stock for a total of $57,576 in two transactions on June 20 and June 23, 2025. These sales were executed under a pre-arranged Rule 10b5-1 trading plan. Despite the insider sale, PlayStudios has recently received analyst upgrades from Craig-Hallum and Benchmark, citing optimism for new product offerings and a strong balance sheet.",
+      "url": "https://m.za.investing.com/news/insider-trading-news/playstudioss-agena-sells-57576-in-stock-93CH-3767648?ampMode=1",
+      "source": "Investing.com South Africa",
+      "published": "20250624T062939",
+      "overall_sentiment_score": 0.1616,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.239994,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.612085
+    },
+    {
+      "title": "Accenture is worst-performing stock in the S&P 500 on Friday",
+      "summary": "Accenture became the worst-performing stock in the S&P 500 on Friday, despite reporting strong revenue and profits, along with optimistic guidance. The decline was attributed to investors' concerns over a 6% decrease in third-quarter bookings, which totaled $19.7 billion. Shares of Accenture PLC Class A were down 8.2% and on pace for their biggest drop since March 2024, having fallen 20% year-to-date.",
+      "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-and-nasdaq-set-for-opening-drop/card/accenture-is-worst-performing-stock-in-the-s-p-500-on-friday-1o3FF1yIJaTErYvBjOji?gaa_at=eafs&gaa_n=AWEtsqcSdEFIaxASAEx6OVrCW_oLN2meHg_hipHhw8qiHLIwrP9i3Ip4Up_O&gaa_ts=6911a93a&gaa_sig=r3Eka4_Y0p2l47hlEktiYFiqQvzkQ_cwLgqtXpcxwh-hAI0p1xcUQTzqiZQiv9blgjO94phzFJehe5XbgaTu4Q%3D%3D",
+      "source": "MarketWatch",
+      "published": "20250620T000000",
+      "overall_sentiment_score": -0.150701,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.027844,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.553492
     }
   ]
 }

@@ -7,54 +7,6 @@
   "article_count": 21,
   "articles": [
     {
-      "title": "What’s Inside Direxion’s Daily Semiconductor Bull and Bear 3x shares?",
-      "summary": "This article describes the Direxion Daily Semiconductor Bull (SOXL) and Bear 3X Shares (SOXS) ETFs. It explains that these funds aim for daily investment results of 300%, or 300% of the inverse, of the performance of the NYSE Semiconductor Index, while cautioning that investment objectives are not guaranteed. The article also provides a link for more information about Direxion.",
-      "url": "https://www.etfguide.com/whats-inside-direxions-daily-semiconductor-bull-and-bear-3x-shares/",
-      "source": "ETFguide",
-      "published": "20240325T000000",
-      "overall_sentiment_score": 0.047855,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.008397,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.737556
-    },
-    {
-      "title": "3 ETFs That Could Turn Your Portfolio Into a Tech Powerhouse",
-      "summary": "This article recommends three ETFs to create a diversified tech portfolio, moving beyond reliance on \"Magnificent 7\" mega-caps. It highlights the iShares U.S. Medical Devices ETF (IHI) for healthcare tech, the SPDR Portfolio S&P 600 Small Cap ETF (SPSM) for overlooked small-cap tech, and the iShares Global Tech ETF (IXN) for international exposure. The author emphasizes diversification to mitigate risks associated with concentrated tech holdings and inflated valuations.",
-      "url": "https://investorplace.com/2024/03/3-etfs-that-could-turn-your-portfolio-into-a-tech-powerhouse/",
-      "source": "InvestorPlace",
-      "published": "20240321T151000",
-      "overall_sentiment_score": 0.126024,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.21265,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.594364
-    },
-    {
-      "title": "ServiceNow injects more generative AI capabilities into its workflow platform",
-      "summary": "ServiceNow announced its new Washington D.C. release, integrating enhanced generative AI capabilities across its workflow platform. Key improvements include Now Assist for IT Operations Management AIOps for quicker issue resolution, and updates to the Virtual Agent feature with dynamic translation. The company also introduced Impact AI Accelerators and partnered with Nvidia to simplify and accelerate AI deployment.",
-      "url": "https://siliconangle.com/2024/03/20/servicenow-injects-generative-ai-capabilities-workflow-platform-washington-dc-release/",
-      "source": "SiliconANGLE",
-      "published": "20240320T090000",
-      "overall_sentiment_score": 0.358086,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.34344,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.61888
-    },
-    {
-      "title": "ServiceNow Named a Leader in Customer Service Solutions by Independent Research Firm",
-      "summary": "ServiceNow (NYSE: NOW) has been named a Leader in the Forrester Wave™: Customer Service Solutions, Q1 2024 for its Customer Service Management (CSM) solution. The recognition highlights ServiceNow's unique focus on \"resolution-centric customer service\" and its vision to improve customer experience and costs through intelligent self-service and assisted service solutions. The company's AI-powered platform with a single data model is noted for enabling seamless orchestration of customer workflows across various departments.",
-      "url": "https://www.businesswire.com/news/home/20240319773702/en/ServiceNow-Named-a-Leader-in-Customer-Service-Solutions-by-Independent-Research-Firm",
-      "source": "Business Wire",
-      "published": "20240319T000000",
-      "overall_sentiment_score": 0.349796,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.12471,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.604332
-    },
-    {
       "title": "NVIDIA, Huang Win Top Honors in Innovation, Engineering",
       "summary": "NVIDIA has been named the world's most innovative company by Fast Company magazine, recognizing its transformative work in putting AI to use across various industries. This accolade follows NVIDIA founder and CEO Jensen Huang's induction into the U.S. National Academy of Engineering for his contributions to high-powered graphics processing units and fueling the AI revolution. Leaders from Microsoft, Stanford University, and TSMC have praised Huang's visionary leadership and enduring impact on computing and AI.",
       "url": "https://blogs.nvidia.com/blog/fast-company-nae-honors/",
@@ -103,18 +55,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "NVIDIA DRIVE Powers Next Generation of Transportation — From Cars and Trucks to Robotaxis and Autonomous Delivery Vehicles",
-      "summary": "NVIDIA announced that major transportation companies are adopting its DRIVE Thor centralized car computer for next-generation consumer and commercial vehicles, including EVs, trucks, and robotaxis. DRIVE Thor, featuring the new Blackwell architecture for generative AI, will power advanced autonomous driving and AI-enabled functionalities. Companies like BYD, Hyper, XPENG, Nuro, Plus, Waabi, and WeRide are integrating the platform into their future vehicle roadmaps.",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-drive-powers-next-generation-transportation",
-      "source": "NVIDIA Newsroom",
-      "published": "20240318T000000",
-      "overall_sentiment_score": 0.021939,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.000242,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.336187
-    },
-    {
       "title": "NVIDIA Announces Project GR00T Foundation Model for Humanoid Robots and Major Isaac Robotics Platform Update",
       "summary": "NVIDIA has announced Project GR00T, a general-purpose foundation model for humanoid robots, along with significant updates to its Isaac robotics platform. This initiative includes a new Jetson Thor computer designed for humanoid robots and enhancements to the Isaac platform with generative AI foundation models and simulation tools. Robots powered by GR00T will be capable of understanding natural language and learning skills by observing human actions, marking a major step towards artificial general robotics.",
       "url": "https://nvidianews.nvidia.com/news/foundation-model-isaac-robotics-platform",
@@ -139,16 +79,52 @@
       "relevance_score": 0.991326
     },
     {
-      "title": "Dell Stock Has Tripled on AI Hopes. Is It a Buy or a Sell?",
-      "summary": "Dell's stock has surged over 200% on optimism surrounding its AI server sales, but Morningstar analyst William Kerwin believes the potential benefit to Dell's bottom line is overhyped. Kerwin has a fair value estimate of $55 for Dell, considering the stock significantly overvalued at its current trading price of around $110. He points out that Dell's core businesses are commoditized and that AI servers represent a small portion of its overall sales, with high costs impacting margins.",
-      "url": "https://www.morningstar.com/stocks/dell-stock-has-tripled-ai-hopes-is-it-buy-or-sell",
+      "title": "These Bad Habits Hold Investors Back From Peak Performance",
+      "summary": "This article discusses how common investor bad habits, such as poorly timed buying and selling decisions driven by emotion and excessive activity, lead to underperformance compared to funds. It highlights the \"behavior gap\" and advises investors to focus on good habits and long-term goals rather than reacting to short-term market noise, political turbulence, or fear of missing out on high-performing stocks.",
+      "url": "https://www.morningstar.com/financial-advisors/these-bad-habits-hold-investors-back-peak-performance",
       "source": "Morningstar",
       "published": "20240313T000000",
-      "overall_sentiment_score": -0.098991,
+      "overall_sentiment_score": 0.263522,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.296635,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.894203
+    },
+    {
+      "title": "Aclara joins Nvidia and Utilidata in bringing AI to the smart meter",
+      "summary": "Aclara Technologies has partnered with Utilidata and Nvidia to embed AI modules directly into smart meters, marking the first hardware collaboration for Utilidata's Nvidia-powered distributed AI platform, Karman. This initiative aims to provide utilities with real-time grid insights and significantly more processing power than traditional solutions, accelerating the adoption of AI-driven applications at scale. The partnership expands on earlier efforts to bring AI into smart meters and addresses the need to replace aging meters across the U.S.",
+      "url": "https://www.latitudemedia.com/news/aclara-joins-nvidia-and-utilidata-in-bringing-ai-to-the-smart-meter/",
+      "source": "Latitude Media",
+      "published": "20240312T000000",
+      "overall_sentiment_score": 0.324651,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.426318,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.883994
+    },
+    {
+      "title": "Democratic ETF outpaces Republican peer on Big Tech bets",
+      "summary": "An exchange-traded fund tracking Democratic lawmakers' stock trades has significantly outperformed a Republican-oriented fund since its launch last year, driven by strategic investments in megacap technology companies like Nvidia and Microsoft. The Democratic ETF, called NANC, has surged nearly 35%, benefiting from its tilt towards growth stocks, while the Republican ETF, KRUZ, which favors energy and value stocks, gained 18.1%. This performance gap highlights the differing investment strategies based on political affiliations and coincides with growing scrutiny over congressional stock trading.",
+      "url": "https://www.reuters.com/markets/us/democratic-etf-outpaces-republican-peer-big-tech-bets-2024-03-14/",
+      "source": "Reuters",
+      "published": "20240314T143400",
+      "overall_sentiment_score": 0.255056,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.330557,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.821694
+    },
+    {
+      "title": "What’s Inside Direxion’s Daily Semiconductor Bull and Bear 3x shares?",
+      "summary": "This article describes the Direxion Daily Semiconductor Bull (SOXL) and Bear 3X Shares (SOXS) ETFs. It explains that these funds aim for daily investment results of 300%, or 300% of the inverse, of the performance of the NYSE Semiconductor Index, while cautioning that investment objectives are not guaranteed. The article also provides a link for more information about Direxion.",
+      "url": "https://www.etfguide.com/whats-inside-direxions-daily-semiconductor-bull-and-bear-3x-shares/",
+      "source": "ETFguide",
+      "published": "20240325T000000",
+      "overall_sentiment_score": 0.047855,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.131332,
+      "ticker_sentiment_score": 0.008397,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.672443
+      "relevance_score": 0.737556
     },
     {
       "title": "AMD CEO Lisa Su Talks the Invisible Role of A.I. Chips in Oscar-Winning Films",
@@ -163,16 +139,76 @@
       "relevance_score": 0.705788
     },
     {
-      "title": "Aclara joins Nvidia and Utilidata in bringing AI to the smart meter",
-      "summary": "Aclara Technologies has partnered with Utilidata and Nvidia to embed AI modules directly into smart meters, marking the first hardware collaboration for Utilidata's Nvidia-powered distributed AI platform, Karman. This initiative aims to provide utilities with real-time grid insights and significantly more processing power than traditional solutions, accelerating the adoption of AI-driven applications at scale. The partnership expands on earlier efforts to bring AI into smart meters and addresses the need to replace aging meters across the U.S.",
-      "url": "https://www.latitudemedia.com/news/aclara-joins-nvidia-and-utilidata-in-bringing-ai-to-the-smart-meter/",
-      "source": "Latitude Media",
-      "published": "20240312T000000",
-      "overall_sentiment_score": 0.324651,
+      "title": "Dell Stock Has Tripled on AI Hopes. Is It a Buy or a Sell?",
+      "summary": "Dell's stock has surged over 200% on optimism surrounding its AI server sales, but Morningstar analyst William Kerwin believes the potential benefit to Dell's bottom line is overhyped. Kerwin has a fair value estimate of $55 for Dell, considering the stock significantly overvalued at its current trading price of around $110. He points out that Dell's core businesses are commoditized and that AI servers represent a small portion of its overall sales, with high costs impacting margins.",
+      "url": "https://www.morningstar.com/stocks/dell-stock-has-tripled-ai-hopes-is-it-buy-or-sell",
+      "source": "Morningstar",
+      "published": "20240313T000000",
+      "overall_sentiment_score": -0.098991,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.131332,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.672443
+    },
+    {
+      "title": "The Next Big Theme: March 2024",
+      "summary": "This article highlights key trends and developments across several transformative themes in March 2024, including advancements in humanoid robotics, continued growth in electric vehicle sales despite headwinds, breakthroughs in generative AI for audio and video, the scaling up of the global hydrogen industry, and AI-driven innovation in telemedicine and digital health. It also addresses the intensification of ransomware attacks and fortifying cybersecurity defenses. The article concludes by presenting performance and sales growth expectations for these themes, referencing corresponding ETFs.",
+      "url": "https://www.globalxetfs.com/articles/the-next-big-theme-march-2024/",
+      "source": "Global X ETFs",
+      "published": "20240319T000000",
+      "overall_sentiment_score": 0.294778,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.426318,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.883994
+      "ticker_sentiment_score": 0.26551,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.669343
+    },
+    {
+      "title": "Cadence Reality Digital Twin platform to transform data center design for the AI era",
+      "summary": "Cadence Design Systems, Inc. has launched the Cadence Reality Digital Twin Platform, an AI-driven solution for sustainable data center design and modernization. This platform aims to improve energy efficiency by up to 30 percent through AI, HPC, and physics-based simulation, addressing issues of stranded capacity and the environmental impact of AI workloads. Industry leaders like Kao Data and Vertiv are praising its ability to optimize operations and prepare for future AI demands.",
+      "url": "https://www.datacenterdynamics.com/en/product-news/cadence-reality-digital-twin-platform-to-transform-data-center-design-for-the-ai-era/",
+      "source": "Data Center Dynamics",
+      "published": "20240319T000000",
+      "overall_sentiment_score": 0.364073,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.347905,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.641468
+    },
+    {
+      "title": "ServiceNow injects more generative AI capabilities into its workflow platform",
+      "summary": "ServiceNow announced its new Washington D.C. release, integrating enhanced generative AI capabilities across its workflow platform. Key improvements include Now Assist for IT Operations Management AIOps for quicker issue resolution, and updates to the Virtual Agent feature with dynamic translation. The company also introduced Impact AI Accelerators and partnered with Nvidia to simplify and accelerate AI deployment.",
+      "url": "https://siliconangle.com/2024/03/20/servicenow-injects-generative-ai-capabilities-workflow-platform-washington-dc-release/",
+      "source": "SiliconANGLE",
+      "published": "20240320T090000",
+      "overall_sentiment_score": 0.358086,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.34344,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.61888
+    },
+    {
+      "title": "Why Is Jim Simons Betting Big on Meta?",
+      "summary": "Jim Simons' Renaissance Technologies significantly increased its Meta [META] holdings in Q4 2023, purchasing over 2 million shares, making it a major investor in the company. This move reflects a broader bullish stance on the tech sector, with the firm also increasing stakes in Uber and Nvidia, while Meta pivots its focus towards AI and returns capital to shareholders. The article notes Meta's strong stock performance, driven by AI hype, and suggests ETFs for investors seeking exposure to Meta within the AI theme.",
+      "url": "https://www.cmcmarkets.com/en-au/opto-partners/why-is-jim-simons-betting-big-on-meta",
+      "source": "CMC Markets",
+      "published": "20240319T032000",
+      "overall_sentiment_score": 0.312913,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.314261,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.610719
+    },
+    {
+      "title": "ServiceNow Named a Leader in Customer Service Solutions by Independent Research Firm",
+      "summary": "ServiceNow (NYSE: NOW) has been named a Leader in the Forrester Wave™: Customer Service Solutions, Q1 2024 for its Customer Service Management (CSM) solution. The recognition highlights ServiceNow's unique focus on \"resolution-centric customer service\" and its vision to improve customer experience and costs through intelligent self-service and assisted service solutions. The company's AI-powered platform with a single data model is noted for enabling seamless orchestration of customer workflows across various departments.",
+      "url": "https://www.businesswire.com/news/home/20240319773702/en/ServiceNow-Named-a-Leader-in-Customer-Service-Solutions-by-Independent-Research-Firm",
+      "source": "Business Wire",
+      "published": "20240319T000000",
+      "overall_sentiment_score": 0.349796,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.12471,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.604332
     },
     {
       "title": "Navitas unveils plans for 8–10kW power platform supporting 2025 AI power requirements",
@@ -199,64 +235,28 @@
       "relevance_score": 0.59445
     },
     {
-      "title": "Why Is Jim Simons Betting Big on Meta?",
-      "summary": "Jim Simons' Renaissance Technologies significantly increased its Meta [META] holdings in Q4 2023, purchasing over 2 million shares, making it a major investor in the company. This move reflects a broader bullish stance on the tech sector, with the firm also increasing stakes in Uber and Nvidia, while Meta pivots its focus towards AI and returns capital to shareholders. The article notes Meta's strong stock performance, driven by AI hype, and suggests ETFs for investors seeking exposure to Meta within the AI theme.",
-      "url": "https://www.cmcmarkets.com/en-au/opto-partners/why-is-jim-simons-betting-big-on-meta",
-      "source": "CMC Markets",
-      "published": "20240319T032000",
-      "overall_sentiment_score": 0.312913,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.314261,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.610719
+      "title": "3 ETFs That Could Turn Your Portfolio Into a Tech Powerhouse",
+      "summary": "This article recommends three ETFs to create a diversified tech portfolio, moving beyond reliance on \"Magnificent 7\" mega-caps. It highlights the iShares U.S. Medical Devices ETF (IHI) for healthcare tech, the SPDR Portfolio S&P 600 Small Cap ETF (SPSM) for overlooked small-cap tech, and the iShares Global Tech ETF (IXN) for international exposure. The author emphasizes diversification to mitigate risks associated with concentrated tech holdings and inflated valuations.",
+      "url": "https://investorplace.com/2024/03/3-etfs-that-could-turn-your-portfolio-into-a-tech-powerhouse/",
+      "source": "InvestorPlace",
+      "published": "20240321T151000",
+      "overall_sentiment_score": 0.126024,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.21265,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.594364
     },
     {
-      "title": "Cadence Reality Digital Twin platform to transform data center design for the AI era",
-      "summary": "Cadence Design Systems, Inc. has launched the Cadence Reality Digital Twin Platform, an AI-driven solution for sustainable data center design and modernization. This platform aims to improve energy efficiency by up to 30 percent through AI, HPC, and physics-based simulation, addressing issues of stranded capacity and the environmental impact of AI workloads. Industry leaders like Kao Data and Vertiv are praising its ability to optimize operations and prepare for future AI demands.",
-      "url": "https://www.datacenterdynamics.com/en/product-news/cadence-reality-digital-twin-platform-to-transform-data-center-design-for-the-ai-era/",
-      "source": "Data Center Dynamics",
-      "published": "20240319T000000",
-      "overall_sentiment_score": 0.364073,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.347905,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.641468
-    },
-    {
-      "title": "The Next Big Theme: March 2024",
-      "summary": "This article highlights key trends and developments across several transformative themes in March 2024, including advancements in humanoid robotics, continued growth in electric vehicle sales despite headwinds, breakthroughs in generative AI for audio and video, the scaling up of the global hydrogen industry, and AI-driven innovation in telemedicine and digital health. It also addresses the intensification of ransomware attacks and fortifying cybersecurity defenses. The article concludes by presenting performance and sales growth expectations for these themes, referencing corresponding ETFs.",
-      "url": "https://www.globalxetfs.com/articles/the-next-big-theme-march-2024/",
-      "source": "Global X ETFs",
-      "published": "20240319T000000",
-      "overall_sentiment_score": 0.294778,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.26551,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.669343
-    },
-    {
-      "title": "Democratic ETF outpaces Republican peer on Big Tech bets",
-      "summary": "An exchange-traded fund tracking Democratic lawmakers' stock trades has significantly outperformed a Republican-oriented fund since its launch last year, driven by strategic investments in megacap technology companies like Nvidia and Microsoft. The Democratic ETF, called NANC, has surged nearly 35%, benefiting from its tilt towards growth stocks, while the Republican ETF, KRUZ, which favors energy and value stocks, gained 18.1%. This performance gap highlights the differing investment strategies based on political affiliations and coincides with growing scrutiny over congressional stock trading.",
-      "url": "https://www.reuters.com/markets/us/democratic-etf-outpaces-republican-peer-big-tech-bets-2024-03-14/",
-      "source": "Reuters",
-      "published": "20240314T143400",
-      "overall_sentiment_score": 0.255056,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.330557,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.821694
-    },
-    {
-      "title": "These Bad Habits Hold Investors Back From Peak Performance",
-      "summary": "This article discusses how common investor bad habits, such as poorly timed buying and selling decisions driven by emotion and excessive activity, lead to underperformance compared to funds. It highlights the \"behavior gap\" and advises investors to focus on good habits and long-term goals rather than reacting to short-term market noise, political turbulence, or fear of missing out on high-performing stocks.",
-      "url": "https://www.morningstar.com/financial-advisors/these-bad-habits-hold-investors-back-peak-performance",
-      "source": "Morningstar",
-      "published": "20240313T000000",
-      "overall_sentiment_score": 0.263522,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.296635,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.894203
+      "title": "NVIDIA DRIVE Powers Next Generation of Transportation — From Cars and Trucks to Robotaxis and Autonomous Delivery Vehicles",
+      "summary": "NVIDIA announced that major transportation companies are adopting its DRIVE Thor centralized car computer for next-generation consumer and commercial vehicles, including EVs, trucks, and robotaxis. DRIVE Thor, featuring the new Blackwell architecture for generative AI, will power advanced autonomous driving and AI-enabled functionalities. Companies like BYD, Hyper, XPENG, Nuro, Plus, Waabi, and WeRide are integrating the platform into their future vehicle roadmaps.",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-drive-powers-next-generation-transportation",
+      "source": "NVIDIA Newsroom",
+      "published": "20240318T000000",
+      "overall_sentiment_score": 0.021939,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.000242,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.336187
     }
   ]
 }

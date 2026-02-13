@@ -7,52 +7,16 @@
   "article_count": 10,
   "articles": [
     {
-      "title": "A breakdown of the changes to the Nasdaq-100 and what it means for mega-cap tech stocks",
-      "summary": "Nasdaq announced a special rebalance of the Nasdaq-100 Index to dilute the weightings of mega-cap tech stocks that have outperformed in 2023. The seven largest stocks in the Nasdaq-100 will see their combined weighting reduced from 56% to 44%, with Nvidia and Microsoft being most affected. Historically, similar rebalances have not had a significant impact on stock prices.",
-      "url": "https://www.cnbc.com/2023/07/17/what-changes-to-nasdaq-100-mean-for-megacap-tech-stocks.html",
-      "source": "CNBC",
-      "published": "20230717T110100",
-      "overall_sentiment_score": 0.08376,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.133981,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.692442
-    },
-    {
-      "title": "For Long-Term EM Growth, India Answers the Bell",
-      "summary": "India is positioned to become the world's second-largest economy by 2075 and is already among the top-performing emerging markets. The VanEck India Growth Leaders ETF (GLIN) offers investors exposure to Indian equities, utilizing a growth at a reasonable price (GARP) methodology. India's economic growth, a large and growing population, and government efforts to attract manufacturing contribute to its long-term investment appeal.",
-      "url": "https://www.etftrends.com/tactical-allocation-content-hub/for-long-term-em-growth-india-answers-the-bell/",
-      "source": "ETF Trends",
-      "published": "20230713T153308",
-      "overall_sentiment_score": 0.36328,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.33665,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.745638
-    },
-    {
-      "title": "RSPT: Right Idea for More Balanced Approach to Tech",
-      "summary": "The article discusses the growing concentration risk in the technology sector, highlighted by the outperformance of a few mega-cap stocks in the cap-weighted S&P 500 Information Technology Index. It presents the Invesco S&P 500 Equal Weight Technology ETF (RSPT) as a solution for investors seeking a more diversified approach, noting its strong year-to-date performance despite its equal-weighting strategy. The article suggests that historical trends of tech concentration reversing could favor equal-weighted strategies like RSPT.",
-      "url": "https://www.etftrends.com/portfolio-strategies-channel/rspt-right-idea-for-more-balanced-approach-to-tech/",
-      "source": "ETF Trends",
-      "published": "20230713T135841",
-      "overall_sentiment_score": 0.152381,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.114328,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.713698
-    },
-    {
-      "title": "SIT Investment Associates Inc Acquires Stake in Neuberger Berman High Yield Strategies Fund",
-      "summary": "SIT Investment Associates Inc acquired 2,043,847 shares of Neuberger Berman High Yield Strategies Fund on July 12, 2023. The transaction, valued at $7.59 per share, had a 0.42% impact on SIT's portfolio. Despite the target company's stock being deemed significantly overvalued with poor financial health indicators by GuruFocus, SIT's investment may represent a long-term strategic move.",
-      "url": "https://www.gurufocus.com/news/2039310/sit-investment-associates-inc-acquires-stake-in-neuberger-berman-high-yield-strategies-fund?mobile=true",
-      "source": "GuruFocus",
-      "published": "20230712T050924",
-      "overall_sentiment_score": 0.115138,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.130186,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.636139
+      "title": "Apple loses London appeal in 4G patent dispute with Optis",
+      "summary": "London's Court of Appeal dismissed Apple's appeal in a patent dispute with Optis Cellular Technology LLC, ruling that Apple infringed two 4G telecommunications patents. Texas-based Optis sued Apple in 2019, alleging that the patents are essential to certain technological standards used in devices like iPhones and iPads. This ruling is the latest decision in a legal battle that has involved multiple trials and appeals in Britain.",
+      "url": "https://www.reuters.com/technology/apple-loses-london-appeal-4g-patent-dispute-with-optis-2023-07-04/",
+      "source": "Reuters",
+      "published": "20230705T090500",
+      "overall_sentiment_score": -0.252686,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.267331,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
     },
     {
       "title": "Apple opens store on China's WeChat platform",
@@ -67,28 +31,28 @@
       "relevance_score": 0.962102
     },
     {
-      "title": "If You Like JEPI, You’ll Love This ETF With an 11.9% Dividend Yield",
-      "summary": "This article introduces the JPMorgan Nasdaq Equity Premium Income ETF (JEPQ) as an alternative to the JPMorgan Equity Premium Income ETF (JEPI), highlighting its 11.9% dividend yield. JEPQ invests in Nasdaq 100 stocks, focusing on tech giants, and uses a covered-call strategy similar to JEPI to generate income. While offering a high yield and potential downside protection, JEPQ has lagged behind a comparable Nasdaq ETF (QQQ) in total return during a bull market.",
-      "url": "https://finance.yahoo.com/news/jepi-ll-love-etf-11-024800391.html",
-      "source": "Yahoo Finance",
-      "published": "20230710T060000",
-      "overall_sentiment_score": 0.299288,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.328078,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.633323
+      "title": "Apple executives fight subpoenas in shareholders' lawsuit against Qualcomm",
+      "summary": "Apple Inc.'s chief operating officer and a top corporate lawyer are attempting to quash subpoenas in a private securities class action lawsuit against chipmaker Qualcomm. They argue that their previous testimony and documents provided in an FTC antitrust case against Qualcomm make further questioning irrelevant to the current shareholder litigation. Apple contends that Qualcomm is using the subpoenas to harass the company.",
+      "url": "https://www.reuters.com/legal/transactional/apple-executives-fight-subpoenas-shareholders-lawsuit-against-qualcomm-2023-07-10/",
+      "source": "Reuters",
+      "published": "20230710T211200",
+      "overall_sentiment_score": 0.087029,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.134606,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.961089
     },
     {
-      "title": "Apple loses London appeal in 4G patent dispute with Optis",
-      "summary": "London's Court of Appeal dismissed Apple's appeal in a patent dispute with Optis Cellular Technology LLC, ruling that Apple infringed two 4G telecommunications patents. Texas-based Optis sued Apple in 2019, alleging that the patents are essential to certain technological standards used in devices like iPhones and iPads. This ruling is the latest decision in a legal battle that has involved multiple trials and appeals in Britain.",
-      "url": "https://www.reuters.com/technology/apple-loses-london-appeal-4g-patent-dispute-with-optis-2023-07-04/",
-      "source": "Reuters",
-      "published": "20230705T090500",
-      "overall_sentiment_score": -0.252686,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.267331,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 1.0
+      "title": "For Long-Term EM Growth, India Answers the Bell",
+      "summary": "India is positioned to become the world's second-largest economy by 2075 and is already among the top-performing emerging markets. The VanEck India Growth Leaders ETF (GLIN) offers investors exposure to Indian equities, utilizing a growth at a reasonable price (GARP) methodology. India's economic growth, a large and growing population, and government efforts to attract manufacturing contribute to its long-term investment appeal.",
+      "url": "https://www.etftrends.com/tactical-allocation-content-hub/for-long-term-em-growth-india-answers-the-bell/",
+      "source": "ETF Trends",
+      "published": "20230713T153308",
+      "overall_sentiment_score": 0.36328,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.33665,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.745638
     },
     {
       "title": "For Long-Term EM Growth, India Answers the Bell",
@@ -103,16 +67,16 @@
       "relevance_score": 0.725919
     },
     {
-      "title": "Apple executives fight subpoenas in shareholders' lawsuit against Qualcomm",
-      "summary": "Apple Inc.'s chief operating officer and a top corporate lawyer are attempting to quash subpoenas in a private securities class action lawsuit against chipmaker Qualcomm. They argue that their previous testimony and documents provided in an FTC antitrust case against Qualcomm make further questioning irrelevant to the current shareholder litigation. Apple contends that Qualcomm is using the subpoenas to harass the company.",
-      "url": "https://www.reuters.com/legal/transactional/apple-executives-fight-subpoenas-shareholders-lawsuit-against-qualcomm-2023-07-10/",
-      "source": "Reuters",
-      "published": "20230710T211200",
-      "overall_sentiment_score": 0.087029,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.134606,
+      "title": "RSPT: Right Idea for More Balanced Approach to Tech",
+      "summary": "The article discusses the growing concentration risk in the technology sector, highlighted by the outperformance of a few mega-cap stocks in the cap-weighted S&P 500 Information Technology Index. It presents the Invesco S&P 500 Equal Weight Technology ETF (RSPT) as a solution for investors seeking a more diversified approach, noting its strong year-to-date performance despite its equal-weighting strategy. The article suggests that historical trends of tech concentration reversing could favor equal-weighted strategies like RSPT.",
+      "url": "https://www.etftrends.com/portfolio-strategies-channel/rspt-right-idea-for-more-balanced-approach-to-tech/",
+      "source": "ETF Trends",
+      "published": "20230713T135841",
+      "overall_sentiment_score": 0.152381,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.114328,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.961089
+      "relevance_score": 0.713698
     },
     {
       "title": "Kopin Corp is the Technology Seen Behind Smart AR Glasses",
@@ -125,6 +89,42 @@
       "ticker_sentiment_score": 0.339649,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.712551
+    },
+    {
+      "title": "A breakdown of the changes to the Nasdaq-100 and what it means for mega-cap tech stocks",
+      "summary": "Nasdaq announced a special rebalance of the Nasdaq-100 Index to dilute the weightings of mega-cap tech stocks that have outperformed in 2023. The seven largest stocks in the Nasdaq-100 will see their combined weighting reduced from 56% to 44%, with Nvidia and Microsoft being most affected. Historically, similar rebalances have not had a significant impact on stock prices.",
+      "url": "https://www.cnbc.com/2023/07/17/what-changes-to-nasdaq-100-mean-for-megacap-tech-stocks.html",
+      "source": "CNBC",
+      "published": "20230717T110100",
+      "overall_sentiment_score": 0.08376,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.133981,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.692442
+    },
+    {
+      "title": "SIT Investment Associates Inc Acquires Stake in Neuberger Berman High Yield Strategies Fund",
+      "summary": "SIT Investment Associates Inc acquired 2,043,847 shares of Neuberger Berman High Yield Strategies Fund on July 12, 2023. The transaction, valued at $7.59 per share, had a 0.42% impact on SIT's portfolio. Despite the target company's stock being deemed significantly overvalued with poor financial health indicators by GuruFocus, SIT's investment may represent a long-term strategic move.",
+      "url": "https://www.gurufocus.com/news/2039310/sit-investment-associates-inc-acquires-stake-in-neuberger-berman-high-yield-strategies-fund?mobile=true",
+      "source": "GuruFocus",
+      "published": "20230712T050924",
+      "overall_sentiment_score": 0.115138,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.130186,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.636139
+    },
+    {
+      "title": "If You Like JEPI, You’ll Love This ETF With an 11.9% Dividend Yield",
+      "summary": "This article introduces the JPMorgan Nasdaq Equity Premium Income ETF (JEPQ) as an alternative to the JPMorgan Equity Premium Income ETF (JEPI), highlighting its 11.9% dividend yield. JEPQ invests in Nasdaq 100 stocks, focusing on tech giants, and uses a covered-call strategy similar to JEPI to generate income. While offering a high yield and potential downside protection, JEPQ has lagged behind a comparable Nasdaq ETF (QQQ) in total return during a bull market.",
+      "url": "https://finance.yahoo.com/news/jepi-ll-love-etf-11-024800391.html",
+      "source": "Yahoo Finance",
+      "published": "20230710T060000",
+      "overall_sentiment_score": 0.299288,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.328078,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.633323
     }
   ]
 }

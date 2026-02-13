@@ -7,18 +7,6 @@
   "article_count": 2,
   "articles": [
     {
-      "title": "T. Rowe Price's New ETF, TCAF, Is Worthy of Appreciation",
-      "summary": "T. Rowe Price launched a new actively managed ETF, TCAF, run by experienced portfolio manager David Giroux. TCAF builds on the success of Giroux's $50 billion T. Rowe Price Capital Appreciation PRWCX mutual fund, which has consistently outperformed its peers but is closed to new investors and has incurred capital gains. TCAF differentiates itself by focusing solely on equities, holding approximately 100 stocks, and offering a more tax-efficient structure compared to mutual funds, making it an attractive option for advisors seeking active management.",
-      "url": "https://etfdb.com/active-etf-content-hub/tcaf-is-worthy-appreciation/",
-      "source": "ETF Database",
-      "published": "20230615T150912",
-      "overall_sentiment_score": 0.265178,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.347775,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.575847
-    },
-    {
       "title": "The 3 Best ETFs to Buy to Balance Risk and Reward",
       "summary": "This article recommends three ETFs for a balanced portfolio, particularly for those interested in a 60/40 equity-to-bond split. The suggested ETFs are the Vanguard Total World Stock Fund ETF (VT) for global equity diversification, the VanEck Morningstar SMID Moat ETF (SMOT) for small and mid-cap stocks with competitive advantages, and the Fidelity Total Bond ETF (FBND) for fixed-income exposure. The author references market analysis suggesting a potential rebound for the 60/40 portfolio and provides detailed insights into each ETF's holdings, performance, and expense ratios.",
       "url": "https://investorplace.com/2023/06/the-3-best-etfs-to-buy-to-balance-risk-and-reward/",
@@ -29,6 +17,18 @@
       "ticker_sentiment_score": 0.342229,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.606704
+    },
+    {
+      "title": "T. Rowe Price's New ETF, TCAF, Is Worthy of Appreciation",
+      "summary": "T. Rowe Price launched a new actively managed ETF, TCAF, run by experienced portfolio manager David Giroux. TCAF builds on the success of Giroux's $50 billion T. Rowe Price Capital Appreciation PRWCX mutual fund, which has consistently outperformed its peers but is closed to new investors and has incurred capital gains. TCAF differentiates itself by focusing solely on equities, holding approximately 100 stocks, and offering a more tax-efficient structure compared to mutual funds, making it an attractive option for advisors seeking active management.",
+      "url": "https://etfdb.com/active-etf-content-hub/tcaf-is-worthy-appreciation/",
+      "source": "ETF Database",
+      "published": "20230615T150912",
+      "overall_sentiment_score": 0.265178,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.347775,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.575847
     }
   ]
 }

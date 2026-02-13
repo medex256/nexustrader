@@ -7,54 +7,6 @@
   "article_count": 12,
   "articles": [
     {
-      "title": "Should You Buy the Invesco QQQ ETF With the Nasdaq At An All-Time High? History Offers a Clear Answer.",
-      "summary": "This article discusses the Invesco QQQ ETF and whether it's a good investment despite the Nasdaq Composite being at an all-time high. It analyzes historical data of the Nasdaq's performance after reaching new highs, suggesting that further gains are common. The article concludes that dollar-cost averaging into QQQ is a sensible strategy regardless of market highs, as it tracks the Nasdaq 100 which tends to rise over time.",
-      "url": "https://www.msn.com/en-us/money/topstocks/should-you-buy-the-invesco-qqq-etf-with-the-nasdaq-at-an-all-time-high-history-offers-a-clear-answer/ar-AA1PQmgK",
-      "source": "MSN",
-      "published": "20231120T170000",
-      "overall_sentiment_score": 0.4582,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.417178,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.725972
-    },
-    {
-      "title": "FMR LLC Bolsters Portfolio with Fidelity International Value Fac",
-      "summary": "FMR LLC, also known as Fidelity, has significantly expanded its investment portfolio by acquiring 350,126 shares of the Fidelity International Value Factor ETF (FIVA) at $21.95 per share. This transaction, executed on October 31, 2023, increases FMR LLC's holdings in FIVA to 1,099,261 shares, representing a 32.33% position in its portfolio. The move reflects Fidelity's strategic investment in an ETF that has shown a 9.1% year-to-date performance.",
-      "url": "https://www.gurufocus.com/news/2123851/fmr-llc-bolsters-portfolio-with-fidelity-international-value-factor-etf-fiva-shares",
-      "source": "GuruFocus",
-      "published": "20231114T040223",
-      "overall_sentiment_score": 0.215313,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.122732,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.639052
-    },
-    {
-      "title": "Booking.com settles Italian tax dispute with 94-million euro payment",
-      "summary": "Travel website Booking.com has agreed to pay approximately 94 million euros ($100.25 million) to settle a tax dispute in Italy covering the period from 2013 to 2021. The settlement follows an investigation by Genoa prosecutors into the company's handling of VAT on properties rented through its platform. As part of the agreement, Booking.com also filed its VAT return in Italy for 2022 and committed to acting as a tax substitute for transactions with private individuals not registered for VAT.",
-      "url": "https://www.reuters.com/business/retail-consumer/bookingcom-pay-94-million-euros-settle-italian-tax-dispute-2023-11-10/",
-      "source": "Reuters",
-      "published": "20231110T184200",
-      "overall_sentiment_score": -0.153803,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.105478,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.622079
-    },
-    {
-      "title": "Why Warren Buffett has done more to educate investors than any other corporate executive",
-      "summary": "Warren Buffett, CEO of Berkshire Hathaway and a prominent figure on the MarketWatch 50 list, is recognized for his significant influence on investors. He is known for his candid communication, explaining complex business operations, and openly discussing his successes and failures, which has made him an exceptional educator in the investment world.",
-      "url": "https://www.marketwatch.com/story/why-warren-buffett-has-done-more-to-educate-investors-than-any-other-corporate-executive-1b5a0ea2?gaa_at=eafs&gaa_n=AWEtsqd5L403WSt2AbOWAbe1AfxsaSv-lpOeAQUcPMKkKU-Yu1n_blujWrJR&gaa_ts=69076a9b&gaa_sig=n9-K9KMA48OZ45TXdu7WyZ-Qnb8Qjh8xNh0UkId8pVvDmlyG0NWPliQ-dBRIBle_D-yqErcMByHkJNuWhfjcBQ%3D%3D",
-      "source": "MarketWatch",
-      "published": "20231107T153300",
-      "overall_sentiment_score": 0.199353,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.300079,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.700461
-    },
-    {
       "title": "Apple’s In-House Technologies Team Still Has Plenty of Work to Do",
       "summary": "This article discusses Apple's intensive efforts to design and manufacture its own core hardware components, such as cameras, screens, modems, and batteries, for its products. It also touches on Apple's adoption of the RCS texting standard, the revelation of its revenue share from the Google search deal, and a key health executive's move to Oura. The piece highlights that Apple's in-house technologies team has extensive work ahead in its strategic initiative to control major parts of its devices.",
       "url": "https://www.bloomberg.com/news/newsletters/2023-11-19/apple-in-house-technologies-team-eyes-making-cameras-screens-modems-batteries-lp5j5h6b",
@@ -65,18 +17,6 @@
       "ticker_sentiment_score": 0.12932,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 1.0
-    },
-    {
-      "title": "FMR LLC Acquires New Stake in Magenta Therapeutics Inc",
-      "summary": "FMR LLC, through its flagship company Fidelity Investments, has acquired a new stake in Magenta Therapeutics Inc (MGTA) by purchasing 2,218,212 shares at $0.6996 per share. This transaction gives FMR LLC a 14.97% ownership stake in the clinical-stage biotechnology company, indicating a strategic investment aligning with the firm's focus on technology and healthcare sectors. Despite Magenta Therapeutics currently operating at a loss, FMR LLC's move suggests a belief in the company's long-term value and transformative potential in stem cell and gene therapy.",
-      "url": "https://www.gurufocus.com/news/2123848/fmr-llc-acquires-new-stake-in-magenta-therapeutics-inc?mobile=true",
-      "source": "GuruFocus",
-      "published": "20231114T042430",
-      "overall_sentiment_score": 0.179188,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.125616,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.63162
     },
     {
       "title": "Spotlight on illegal hiring practices: Apple pays $25M for recruiting, job ad mistakes",
@@ -91,6 +31,30 @@
       "relevance_score": 1.0
     },
     {
+      "title": "Venmo, Cash App users sue Apple over peer-to-peer payment fees",
+      "summary": "Venmo and Cash App customers have filed a proposed class-action lawsuit against Apple Inc. alleging the company abused its market power in mobile peer-to-peer payments, leading to \"rapidly inflating prices.\" The lawsuit claims Apple's agreements with PayPal's Venmo and Block's Cash App violate U.S. antitrust law by limiting \"feature competition,\" including prohibiting decentralized cryptocurrency technology. This case adds to Apple's ongoing antitrust legal challenges, seeking an injunction that could force Apple to divest or segregate its Apple Cash business.",
+      "url": "https://www.reuters.com/legal/transactional/venmo-cash-app-users-sue-apple-over-peer-to-peer-payment-fees-2023-11-20/",
+      "source": "Reuters",
+      "published": "20231120T162000",
+      "overall_sentiment_score": -0.217657,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.343305,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.980289
+    },
+    {
+      "title": "FAANG Gives Way to the ‘Magnificent Seven’",
+      "summary": "The \"FAANG\" stock group has evolved into the \"Magnificent Seven,\" with Netflix replaced by Nvidia, and Microsoft and Tesla added to the mix of top U.S. market names. ETF issuers are beginning to launch products specifically targeting these seven stocks, while existing ETFs like the Vanguard Mega Cap Growth ETF (MGK) already hold significant concentrations of them. Investors have various options, from highly concentrated ETFs to diversified funds, to gain exposure to these influential companies.",
+      "url": "https://www.etftrends.com/faang-gives-way-magnificent-seven/",
+      "source": "ETF Trends",
+      "published": "20231113T145614",
+      "overall_sentiment_score": 0.306682,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.33894,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.921362
+    },
+    {
       "title": "Why Warren Buffett has done more to educate investors than any other corporate executive",
       "summary": "Warren Buffett is recognized not only for his success as CEO of Berkshire Hathaway and his strategic investments in companies like Apple and Occidental Petroleum, but also for his exceptional candor with investors. The article highlights his significant role in educating investors about the intricacies of businesses and his willingness to discuss both successes and mistakes. This transparency sets him apart, making his biggest legacy potentially his contribution to investor education.",
       "url": "https://www.marketwatch.com/story/why-warren-buffett-has-done-more-to-educate-investors-than-any-other-corporate-executive-1b5a0ea2?gaa_at=eafs&gaa_n=AWEtsqfjICocHsPtwt59MT62xJVeP2etdfrG3KZRkMlGcScVtpoi68GGyulz&gaa_ts=69076a97&gaa_sig=aSDM_OG1gdG39z4eGgdJdkEeK9aidq2bvK0q1UHco9xq-q0fM9Gi_Kp0I4sKCKBW9WSah1fCGwCcvKLoSE1bAA%3D%3D",
@@ -101,6 +65,18 @@
       "ticker_sentiment_score": 0.340743,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.730472
+    },
+    {
+      "title": "Should You Buy the Invesco QQQ ETF With the Nasdaq At An All-Time High? History Offers a Clear Answer.",
+      "summary": "This article discusses the Invesco QQQ ETF and whether it's a good investment despite the Nasdaq Composite being at an all-time high. It analyzes historical data of the Nasdaq's performance after reaching new highs, suggesting that further gains are common. The article concludes that dollar-cost averaging into QQQ is a sensible strategy regardless of market highs, as it tracks the Nasdaq 100 which tends to rise over time.",
+      "url": "https://www.msn.com/en-us/money/topstocks/should-you-buy-the-invesco-qqq-etf-with-the-nasdaq-at-an-all-time-high-history-offers-a-clear-answer/ar-AA1PQmgK",
+      "source": "MSN",
+      "published": "20231120T170000",
+      "overall_sentiment_score": 0.4582,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.417178,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.725972
     },
     {
       "title": "Warren Buffet's latest buys and sells",
@@ -115,16 +91,52 @@
       "relevance_score": 0.720717
     },
     {
-      "title": "Venmo, Cash App users sue Apple over peer-to-peer payment fees",
-      "summary": "Venmo and Cash App customers have filed a proposed class-action lawsuit against Apple Inc. alleging the company abused its market power in mobile peer-to-peer payments, leading to \"rapidly inflating prices.\" The lawsuit claims Apple's agreements with PayPal's Venmo and Block's Cash App violate U.S. antitrust law by limiting \"feature competition,\" including prohibiting decentralized cryptocurrency technology. This case adds to Apple's ongoing antitrust legal challenges, seeking an injunction that could force Apple to divest or segregate its Apple Cash business.",
-      "url": "https://www.reuters.com/legal/transactional/venmo-cash-app-users-sue-apple-over-peer-to-peer-payment-fees-2023-11-20/",
+      "title": "Why Warren Buffett has done more to educate investors than any other corporate executive",
+      "summary": "Warren Buffett, CEO of Berkshire Hathaway and a prominent figure on the MarketWatch 50 list, is recognized for his significant influence on investors. He is known for his candid communication, explaining complex business operations, and openly discussing his successes and failures, which has made him an exceptional educator in the investment world.",
+      "url": "https://www.marketwatch.com/story/why-warren-buffett-has-done-more-to-educate-investors-than-any-other-corporate-executive-1b5a0ea2?gaa_at=eafs&gaa_n=AWEtsqd5L403WSt2AbOWAbe1AfxsaSv-lpOeAQUcPMKkKU-Yu1n_blujWrJR&gaa_ts=69076a9b&gaa_sig=n9-K9KMA48OZ45TXdu7WyZ-Qnb8Qjh8xNh0UkId8pVvDmlyG0NWPliQ-dBRIBle_D-yqErcMByHkJNuWhfjcBQ%3D%3D",
+      "source": "MarketWatch",
+      "published": "20231107T153300",
+      "overall_sentiment_score": 0.199353,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.300079,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.700461
+    },
+    {
+      "title": "FMR LLC Bolsters Portfolio with Fidelity International Value Fac",
+      "summary": "FMR LLC, also known as Fidelity, has significantly expanded its investment portfolio by acquiring 350,126 shares of the Fidelity International Value Factor ETF (FIVA) at $21.95 per share. This transaction, executed on October 31, 2023, increases FMR LLC's holdings in FIVA to 1,099,261 shares, representing a 32.33% position in its portfolio. The move reflects Fidelity's strategic investment in an ETF that has shown a 9.1% year-to-date performance.",
+      "url": "https://www.gurufocus.com/news/2123851/fmr-llc-bolsters-portfolio-with-fidelity-international-value-factor-etf-fiva-shares",
+      "source": "GuruFocus",
+      "published": "20231114T040223",
+      "overall_sentiment_score": 0.215313,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.122732,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.639052
+    },
+    {
+      "title": "FMR LLC Acquires New Stake in Magenta Therapeutics Inc",
+      "summary": "FMR LLC, through its flagship company Fidelity Investments, has acquired a new stake in Magenta Therapeutics Inc (MGTA) by purchasing 2,218,212 shares at $0.6996 per share. This transaction gives FMR LLC a 14.97% ownership stake in the clinical-stage biotechnology company, indicating a strategic investment aligning with the firm's focus on technology and healthcare sectors. Despite Magenta Therapeutics currently operating at a loss, FMR LLC's move suggests a belief in the company's long-term value and transformative potential in stem cell and gene therapy.",
+      "url": "https://www.gurufocus.com/news/2123848/fmr-llc-acquires-new-stake-in-magenta-therapeutics-inc?mobile=true",
+      "source": "GuruFocus",
+      "published": "20231114T042430",
+      "overall_sentiment_score": 0.179188,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.125616,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.63162
+    },
+    {
+      "title": "Booking.com settles Italian tax dispute with 94-million euro payment",
+      "summary": "Travel website Booking.com has agreed to pay approximately 94 million euros ($100.25 million) to settle a tax dispute in Italy covering the period from 2013 to 2021. The settlement follows an investigation by Genoa prosecutors into the company's handling of VAT on properties rented through its platform. As part of the agreement, Booking.com also filed its VAT return in Italy for 2022 and committed to acting as a tax substitute for transactions with private individuals not registered for VAT.",
+      "url": "https://www.reuters.com/business/retail-consumer/bookingcom-pay-94-million-euros-settle-italian-tax-dispute-2023-11-10/",
       "source": "Reuters",
-      "published": "20231120T162000",
-      "overall_sentiment_score": -0.217657,
+      "published": "20231110T184200",
+      "overall_sentiment_score": -0.153803,
       "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.343305,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.980289
+      "ticker_sentiment_score": -0.105478,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.622079
     },
     {
       "title": "Apple agrees to $25 million settlement with US over hiring of immigrants",
@@ -137,18 +149,6 @@
       "ticker_sentiment_score": 0.009827,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.306572
-    },
-    {
-      "title": "FAANG Gives Way to the ‘Magnificent Seven’",
-      "summary": "The \"FAANG\" stock group has evolved into the \"Magnificent Seven,\" with Netflix replaced by Nvidia, and Microsoft and Tesla added to the mix of top U.S. market names. ETF issuers are beginning to launch products specifically targeting these seven stocks, while existing ETFs like the Vanguard Mega Cap Growth ETF (MGK) already hold significant concentrations of them. Investors have various options, from highly concentrated ETFs to diversified funds, to gain exposure to these influential companies.",
-      "url": "https://www.etftrends.com/faang-gives-way-magnificent-seven/",
-      "source": "ETF Trends",
-      "published": "20231113T145614",
-      "overall_sentiment_score": 0.306682,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.33894,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.921362
     }
   ]
 }

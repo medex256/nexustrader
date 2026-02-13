@@ -7,6 +7,18 @@
   "article_count": 10,
   "articles": [
     {
+      "title": "iPhone 14 Emergency SOS via satellite tested: Here's what it's like to use",
+      "summary": "This article details a test of the iPhone 14's Emergency SOS via satellite feature, showcasing its functionality and user experience. It explains how the feature works, from leveraging Apple's investment in Globalstar's satellite network to guiding users through emergency questions. The article also covers manually sharing locations via satellite through the Find My app and the availability of a demo mode for practice.",
+      "url": "https://www.tomsguide.com/news/emergency-sos-via-satellite-iphone-14-demo",
+      "source": "Tom's Guide",
+      "published": "20221115T165609",
+      "overall_sentiment_score": 0.228002,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.448509,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.950607
+    },
+    {
       "title": "iPhone 15 might feature \"no buttons\" - AppleMagazine",
       "summary": "Apple is rumored to be planning to remove physical buttons from its iPhone 15 by 2023, possibly using solid-state haptic buttons instead. This move, supported by reports from Cirrus Logic and analyst Ming-Chi Kuo, could lead to cost savings, improved water resistance, and a sleeker design for future iPhones. The technology would function similarly to the Touch ID home button on older iPhone models.",
       "url": "https://applemagazine.com/iphone-15-might-feature-no-buttons/",
@@ -31,40 +43,16 @@
       "relevance_score": 0.912399
     },
     {
-      "title": "Taiwan’s TSMC eyeing advanced chips base in Arizona, founder says",
-      "summary": "Taiwanese chipmaker TSMC is planning to produce chips with advanced 3-nanometre technology at its new Arizona factory, according to company founder Morris Chang. This second phase of development would follow the initial 5-nanometre production, reflecting a broader global awakening to the importance of advanced chip manufacturing. Both the US and Europe are offering incentives to attract chip production to their countries.",
-      "url": "https://www.aljazeera.com/economy/2022/11/21/taiwans-tsmc-eyeing-advanced-chip-base-in-arizona-found-says",
-      "source": "Al Jazeera",
-      "published": "20221121T210000",
-      "overall_sentiment_score": 0.333816,
+      "title": "Bull vs. Bear: An Indian Century in India Equities ETFs?",
+      "summary": "This article presents a \"Bull vs. Bear\" debate on the investment case for India equities ETFs. While the bull argument highlights India's rapid economic growth, digital transformation, and favorable demographics, the bear perspective raises concerns about climate change impacts, political stability, and an uneven distribution of economic growth. The debate explores various ETFs and individual stocks relevant to investing in India.",
+      "url": "https://www.etftrends.com/tactical-allocation-channel/bull-vs-bear-an-indian-century-in-india-equities-etfs/",
+      "source": "ETF Trends",
+      "published": "20221115T163131",
+      "overall_sentiment_score": 0.187969,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.310758,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.717995
-    },
-    {
-      "title": "Moody's closing its consulting business in China, laying off staff: Report",
-      "summary": "Moody's Corp is reportedly shutting down its consulting business, Moody's Analytics, in China and laying off over 100 employees across its Beijing, Shanghai, and Shenzhen offices. This move comes as China's zero-Covid policy and subsequent lockdowns are causing many multinational firms to reconsider their operations in the country. However, Moody's credit rating business will continue to operate in China.",
-      "url": "https://www.business-standard.com/article/international/moody-s-closing-its-consulting-business-in-china-laying-off-staff-report-122112000048_1.html",
-      "source": "Business Standard",
-      "published": "20221120T063500",
-      "overall_sentiment_score": -0.225072,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.133718,
+      "ticker_sentiment_score": 0.106805,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.727724
-    },
-    {
-      "title": "Samsung Secures 3-nm Advanced Chip Orders From NVIDIA, Qualcomm – Report",
-      "summary": "Samsung Foundry has reportedly secured orders from major firms like NVIDIA, Qualcomm, IBM, and Baidu to manufacture advanced 3-nanometer chips. This move, leveraging Samsung's gate-all-around (GAA) transistor technology developed with IBM, aims to position Samsung ahead of TSMC in advanced chip manufacturing and diversify the semiconductor supply chain amidst geopolitical tensions. Deliveries in large quantities are expected to begin in early 2024.",
-      "url": "https://wccftech.com/samsung-secures-3-nm-advanced-chip-orders-from-nvidia-qualcomm-report/",
-      "source": "Wccftech",
-      "published": "20221123T081400",
-      "overall_sentiment_score": 0.181409,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.106618,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.639417
+      "relevance_score": 0.73521
     },
     {
       "title": "NASDAQ Trading - How to invest in NASDAQ (US100) index?",
@@ -79,28 +67,40 @@
       "relevance_score": 0.728886
     },
     {
-      "title": "iPhone 14 Emergency SOS via satellite tested: Here's what it's like to use",
-      "summary": "This article details a test of the iPhone 14's Emergency SOS via satellite feature, showcasing its functionality and user experience. It explains how the feature works, from leveraging Apple's investment in Globalstar's satellite network to guiding users through emergency questions. The article also covers manually sharing locations via satellite through the Find My app and the availability of a demo mode for practice.",
-      "url": "https://www.tomsguide.com/news/emergency-sos-via-satellite-iphone-14-demo",
-      "source": "Tom's Guide",
-      "published": "20221115T165609",
-      "overall_sentiment_score": 0.228002,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.448509,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.950607
+      "title": "Moody's closing its consulting business in China, laying off staff: Report",
+      "summary": "Moody's Corp is reportedly shutting down its consulting business, Moody's Analytics, in China and laying off over 100 employees across its Beijing, Shanghai, and Shenzhen offices. This move comes as China's zero-Covid policy and subsequent lockdowns are causing many multinational firms to reconsider their operations in the country. However, Moody's credit rating business will continue to operate in China.",
+      "url": "https://www.business-standard.com/article/international/moody-s-closing-its-consulting-business-in-china-laying-off-staff-report-122112000048_1.html",
+      "source": "Business Standard",
+      "published": "20221120T063500",
+      "overall_sentiment_score": -0.225072,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.133718,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.727724
     },
     {
-      "title": "Bull vs. Bear: An Indian Century in India Equities ETFs?",
-      "summary": "This article presents a \"Bull vs. Bear\" debate on the investment case for India equities ETFs. While the bull argument highlights India's rapid economic growth, digital transformation, and favorable demographics, the bear perspective raises concerns about climate change impacts, political stability, and an uneven distribution of economic growth. The debate explores various ETFs and individual stocks relevant to investing in India.",
-      "url": "https://www.etftrends.com/tactical-allocation-channel/bull-vs-bear-an-indian-century-in-india-equities-etfs/",
-      "source": "ETF Trends",
-      "published": "20221115T163131",
-      "overall_sentiment_score": 0.187969,
+      "title": "Taiwan’s TSMC eyeing advanced chips base in Arizona, founder says",
+      "summary": "Taiwanese chipmaker TSMC is planning to produce chips with advanced 3-nanometre technology at its new Arizona factory, according to company founder Morris Chang. This second phase of development would follow the initial 5-nanometre production, reflecting a broader global awakening to the importance of advanced chip manufacturing. Both the US and Europe are offering incentives to attract chip production to their countries.",
+      "url": "https://www.aljazeera.com/economy/2022/11/21/taiwans-tsmc-eyeing-advanced-chip-base-in-arizona-found-says",
+      "source": "Al Jazeera",
+      "published": "20221121T210000",
+      "overall_sentiment_score": 0.333816,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.106805,
+      "ticker_sentiment_score": 0.310758,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.717995
+    },
+    {
+      "title": "Samsung Secures 3-nm Advanced Chip Orders From NVIDIA, Qualcomm – Report",
+      "summary": "Samsung Foundry has reportedly secured orders from major firms like NVIDIA, Qualcomm, IBM, and Baidu to manufacture advanced 3-nanometer chips. This move, leveraging Samsung's gate-all-around (GAA) transistor technology developed with IBM, aims to position Samsung ahead of TSMC in advanced chip manufacturing and diversify the semiconductor supply chain amidst geopolitical tensions. Deliveries in large quantities are expected to begin in early 2024.",
+      "url": "https://wccftech.com/samsung-secures-3-nm-advanced-chip-orders-from-nvidia-qualcomm-report/",
+      "source": "Wccftech",
+      "published": "20221123T081400",
+      "overall_sentiment_score": 0.181409,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.106618,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.73521
+      "relevance_score": 0.639417
     },
     {
       "title": "The $98 Roku Smart TV sold out in minutes, but you can still save big on a TV from Walmart",

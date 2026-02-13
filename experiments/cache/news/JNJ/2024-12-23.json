@@ -7,16 +7,16 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "Applied Therapeutics Appoints John H. Johnson as Executive Chairman",
-      "summary": "Applied Therapeutics, Inc. announced significant leadership changes, appointing John H. Johnson as Executive Chairman and Les Funtleyder as Interim Chief Executive Officer. Dr. Shoshana Shendelman has stepped down as Chair and CEO. The company also provided updates on its govorestat drug for Classic Galactosemia and Sorbitol Dehydrogenase (SORD) Deficiency, including receiving a Complete Response Letter from the FDA and withdrawing its European MAA for govorestat for Classic Galactosemia.",
-      "url": "https://www.citybiz.co/article/641738/applied-therapeutics-appoints-john-h-johnson-as-executive-chairman/",
-      "source": "citybiz",
-      "published": "20241220T000000",
-      "overall_sentiment_score": 0.183668,
+      "title": "8 New 4-Star Stocks",
+      "summary": "This article identifies eight new 4-star rated stocks and three new 5-star rated stocks according to Morningstar's valuation metrics for the week ended December 6. Companies like Johnson & Johnson and General Dynamics are highlighted as newly undervalued, with detailed metrics on their returns, fair value estimates, and uncertainty ratings. The broader market context shows that while the US market is moderately overvalued, a significant portion of Morningstar-covered stocks are still considered undervalued.",
+      "url": "https://www.morningstar.com/stocks/8-new-4-star-stocks",
+      "source": "Morningstar",
+      "published": "20241209T000000",
+      "overall_sentiment_score": 0.273946,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.28401,
+      "ticker_sentiment_score": 0.20523,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.559067
+      "relevance_score": 0.854185
     },
     {
       "title": "Merck (NYSE:MRK) Has A Pretty Healthy Balance Sheet",
@@ -43,18 +43,6 @@
       "relevance_score": 0.600249
     },
     {
-      "title": "8 New 4-Star Stocks",
-      "summary": "This article identifies eight new 4-star rated stocks and three new 5-star rated stocks according to Morningstar's valuation metrics for the week ended December 6. Companies like Johnson & Johnson and General Dynamics are highlighted as newly undervalued, with detailed metrics on their returns, fair value estimates, and uncertainty ratings. The broader market context shows that while the US market is moderately overvalued, a significant portion of Morningstar-covered stocks are still considered undervalued.",
-      "url": "https://www.morningstar.com/stocks/8-new-4-star-stocks",
-      "source": "Morningstar",
-      "published": "20241209T000000",
-      "overall_sentiment_score": 0.273946,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.20523,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.854185
-    },
-    {
       "title": "Pharmaceutical Packaging Market Is Expected To Reach Revenue Of USD 583.5 Bn By 2033, At 16.0% CAGR: Dimension Market Research",
       "summary": "The global pharmaceutical packaging market is projected to reach USD 583.5 billion by 2033, growing at a CAGR of 16.0% from USD 153.7 billion in 2024. This growth is driven by the increasing need for advanced, sustainable, and specialized packaging for various drug types, especially biologics and personalized medicine. North America is expected to hold the largest market share, with primary packaging and plastic/polymer materials dominating their respective segments.",
       "url": "https://www.globenewswire.com/news-release/2024/12/09/2993994/0/en/Pharmaceutical-Packaging-Market-Is-Expected-To-Reach-Revenue-Of-USD-583-5-Bn-By-2033-At-16-0-CAGR-Dimension-Market-Research.html",
@@ -65,6 +53,18 @@
       "ticker_sentiment_score": 0.269085,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.56261
+    },
+    {
+      "title": "Applied Therapeutics Appoints John H. Johnson as Executive Chairman",
+      "summary": "Applied Therapeutics, Inc. announced significant leadership changes, appointing John H. Johnson as Executive Chairman and Les Funtleyder as Interim Chief Executive Officer. Dr. Shoshana Shendelman has stepped down as Chair and CEO. The company also provided updates on its govorestat drug for Classic Galactosemia and Sorbitol Dehydrogenase (SORD) Deficiency, including receiving a Complete Response Letter from the FDA and withdrawing its European MAA for govorestat for Classic Galactosemia.",
+      "url": "https://www.citybiz.co/article/641738/applied-therapeutics-appoints-john-h-johnson-as-executive-chairman/",
+      "source": "citybiz",
+      "published": "20241220T000000",
+      "overall_sentiment_score": 0.183668,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.28401,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.559067
     }
   ]
 }

@@ -7,18 +7,6 @@
   "article_count": 10,
   "articles": [
     {
-      "title": "Take-Two Interactive Software (TTWO) Earnings: 4Q25 Key Numbers",
-      "summary": "Take-Two Interactive Software (TTWO) reported its fourth-quarter 2025 earnings, with net revenue up 13% to $1.58 billion and net bookings growing 17% to $1.58 billion. The company posted a net loss of $3.73 billion, or $21.08 per share. Take-Two provided guidance for Q1 and the full fiscal year 2026, anticipating continued revenue and bookings growth despite projected net losses.",
-      "url": "https://news.alphastreet.com/take-two-interactive-software-ttwo-earnings-4q25-key-numbers/",
-      "source": "AlphaStreet",
-      "published": "20250516T000000",
-      "overall_sentiment_score": -0.102165,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.117123,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.589144
-    },
-    {
       "title": "ExxonMobil announces leadership appointments",
       "summary": "ExxonMobil's Board of Directors has appointed Dan L. Ammann as president of ExxonMobil Upstream Co. and VP of Exxon Mobil Corp., and Barry L. Engle as president of Low Carbon Solutions (LCS) and VP of ExxonMobil Corp. Ammann joined ExxonMobil in 2022 and Engle in 2024, both bringing significant automotive industry experience to their new roles.",
       "url": "https://www.bicmagazine.com/resources/people-going-places/exxonmobil-announces-leadership-appointments/",
@@ -29,78 +17,6 @@
       "ticker_sentiment_score": 0.220671,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Brighthouse Financial, Payoneer Global, Voya Financial",
-      "summary": "Wall Street analysts from firms like KBW, Canaccord Genuity, RBC, and HSBC have revised their ratings and price targets for several US-listed companies. Notable changes include KBW raising price targets for Brighthouse Financial (BHF), Payoneer Global (PAYO), and Voya Financial (VOYA), and increasing Payoneer Global's rating to \"outperform.\" Other analysts adjusted targets for companies like Arcturus Therapeutics, Chevron, and Exxon Mobil.",
-      "url": "https://fr.tradingview.com/news/reuters.com%2C2025%3Anewsml_L1N3RL082%3A0/",
-      "source": "TradingView - Suivez tous les marchés",
-      "published": "20250513T101152",
-      "overall_sentiment_score": -0.080658,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.237189,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.743372
-    },
-    {
-      "title": "Aemetis, Inc. (NASDAQ:AMTX) Analysts Are Pretty Bullish On The Stock After Recent Results",
-      "summary": "Aemetis, Inc. (NASDAQ:AMTX) reported first-quarter results that missed revenue expectations but showed a significant reduction in anticipated losses per share for 2025. Despite the revenue miss, analysts have raised their consensus price target for the stock by 83% to US$23.50, indicating a bullish outlook based on the narrowing loss forecasts and projected revenue growth. The company is expected to grow revenue much faster than the industry, leading to an improved intrinsic value.",
-      "url": "https://simplywall.st/stocks/us/energy/nasdaq-amtx/aemetis/news/aemetis-inc-nasdaqamtx-analysts-are-pretty-bullish-on-the-st",
-      "source": "Simply Wall Street",
-      "published": "20250511T000000",
-      "overall_sentiment_score": 0.202367,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.126377,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.583404
-    },
-    {
-      "title": "What to expect when Take-Two Interactive (TTWO) reports Q4 2025 earnings results",
-      "summary": "Take-Two Interactive (TTWO) is scheduled to report its Q4 2025 earnings on May 15. The company has guided for revenues between $1.52-1.62 billion and net bookings between $1.48-1.58 billion. Analysts project a loss of $0.05 per share for Q4 2025, compared to a loss of $17.02 per share in Q4 2024.",
-      "url": "https://news.alphastreet.com/what-to-expect-when-take-two-interactive-ttwo-reports-q4-2025-earnings-results/",
-      "source": "AlphaStreet",
-      "published": "20250509T000000",
-      "overall_sentiment_score": -0.022799,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.094469,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.625429
-    },
-    {
-      "title": "Should Pacer US Cash Cows 100 ETF (COWZ) Be on Your Investing Radar?",
-      "summary": "The Pacer US Cash Cows 100 ETF (COWZ), a passively managed fund launched in 2016, offers broad exposure to the Large Cap Value segment of the US equity market. With over $20.97 billion in assets, it an expense ratio of 0.49% and aims to track the Pacer US Cash Cows 100 Index, focusing on companies with high free cash flow yields. While it has experienced a yearly loss of -7.63% and a one-year decline of -3.98% as of May 7, 2025, it holds a Zacks ETF Rank of 3 (Hold) and serves as a viable option for investors seeking exposure to large-cap value stocks.",
-      "url": "https://www.sharewise.com/us/news_articles/Should_Pacer_US_Cash_Cows_100_ETF_COWZ_Be_on_Your_Investing_Radar_Zacks_20250507_1220",
-      "source": "sharewise.com",
-      "published": "20250507T230855",
-      "overall_sentiment_score": 0.136632,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.104771,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.643103
-    },
-    {
-      "title": "Imperial Oil's Renewable Diesel Project Nears Launch in Alberta",
-      "summary": "Imperial Oil's large-scale renewable diesel facility at the Strathcona refinery near Edmonton, Alberta, is expected to begin operations in mid-2025. Construction of the 20,000-barrel-per-day complex is slated for completion in the second quarter of 2025, aiming to produce over 1 billion liters of renewable diesel annually. This project highlights Imperial Oil's commitment to lower-carbon fuel alternatives and leveraging existing infrastructure for greener energy solutions.",
-      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/imperial-oil-renewable-diesel-project-nears-launch-in-alberta-36427",
-      "source": "ChemAnalyst",
-      "published": "20250507T000000",
-      "overall_sentiment_score": 0.21027,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.411869,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.733432
-    },
-    {
-      "title": "BP-Shell Megadeal Would Create European Rival to Exxon Mobil",
-      "summary": "A potential acquisition of BP Plc by Shell Plc would create a massive European oil major capable of challenging industry leaders like Exxon Mobil and Chevron. While BP's struggling share price might make it an opportune target, analysts highlight both the significant upsides, such as increased production and LNG dominance, and the major challenges including BP's high debt, Macondo liabilities, and potential competition concerns. The deal's high cost and the need for extensive asset sales present considerable hurdles for Shell despite potential synergies.",
-      "url": "https://www.rigzone.com/news/wire/bpshell_megadeal_would_create_european_rival_to_exxon_mobil-08-may-2025-180472-article/",
-      "source": "Rigzone",
-      "published": "20250508T100900",
-      "overall_sentiment_score": 0.040688,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.138096,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.642058
     },
     {
       "title": "Court asks for government’s views in decades-old Exxon dispute with Cuba",
@@ -125,6 +41,90 @@
       "ticker_sentiment_score": 0.117124,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.919166
+    },
+    {
+      "title": "Brighthouse Financial, Payoneer Global, Voya Financial",
+      "summary": "Wall Street analysts from firms like KBW, Canaccord Genuity, RBC, and HSBC have revised their ratings and price targets for several US-listed companies. Notable changes include KBW raising price targets for Brighthouse Financial (BHF), Payoneer Global (PAYO), and Voya Financial (VOYA), and increasing Payoneer Global's rating to \"outperform.\" Other analysts adjusted targets for companies like Arcturus Therapeutics, Chevron, and Exxon Mobil.",
+      "url": "https://fr.tradingview.com/news/reuters.com%2C2025%3Anewsml_L1N3RL082%3A0/",
+      "source": "TradingView - Suivez tous les marchés",
+      "published": "20250513T101152",
+      "overall_sentiment_score": -0.080658,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.237189,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.743372
+    },
+    {
+      "title": "Imperial Oil's Renewable Diesel Project Nears Launch in Alberta",
+      "summary": "Imperial Oil's large-scale renewable diesel facility at the Strathcona refinery near Edmonton, Alberta, is expected to begin operations in mid-2025. Construction of the 20,000-barrel-per-day complex is slated for completion in the second quarter of 2025, aiming to produce over 1 billion liters of renewable diesel annually. This project highlights Imperial Oil's commitment to lower-carbon fuel alternatives and leveraging existing infrastructure for greener energy solutions.",
+      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/imperial-oil-renewable-diesel-project-nears-launch-in-alberta-36427",
+      "source": "ChemAnalyst",
+      "published": "20250507T000000",
+      "overall_sentiment_score": 0.21027,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.411869,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.733432
+    },
+    {
+      "title": "Should Pacer US Cash Cows 100 ETF (COWZ) Be on Your Investing Radar?",
+      "summary": "The Pacer US Cash Cows 100 ETF (COWZ), a passively managed fund launched in 2016, offers broad exposure to the Large Cap Value segment of the US equity market. With over $20.97 billion in assets, it an expense ratio of 0.49% and aims to track the Pacer US Cash Cows 100 Index, focusing on companies with high free cash flow yields. While it has experienced a yearly loss of -7.63% and a one-year decline of -3.98% as of May 7, 2025, it holds a Zacks ETF Rank of 3 (Hold) and serves as a viable option for investors seeking exposure to large-cap value stocks.",
+      "url": "https://www.sharewise.com/us/news_articles/Should_Pacer_US_Cash_Cows_100_ETF_COWZ_Be_on_Your_Investing_Radar_Zacks_20250507_1220",
+      "source": "sharewise.com",
+      "published": "20250507T230855",
+      "overall_sentiment_score": 0.136632,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.104771,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.643103
+    },
+    {
+      "title": "BP-Shell Megadeal Would Create European Rival to Exxon Mobil",
+      "summary": "A potential acquisition of BP Plc by Shell Plc would create a massive European oil major capable of challenging industry leaders like Exxon Mobil and Chevron. While BP's struggling share price might make it an opportune target, analysts highlight both the significant upsides, such as increased production and LNG dominance, and the major challenges including BP's high debt, Macondo liabilities, and potential competition concerns. The deal's high cost and the need for extensive asset sales present considerable hurdles for Shell despite potential synergies.",
+      "url": "https://www.rigzone.com/news/wire/bpshell_megadeal_would_create_european_rival_to_exxon_mobil-08-may-2025-180472-article/",
+      "source": "Rigzone",
+      "published": "20250508T100900",
+      "overall_sentiment_score": 0.040688,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.138096,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.642058
+    },
+    {
+      "title": "What to expect when Take-Two Interactive (TTWO) reports Q4 2025 earnings results",
+      "summary": "Take-Two Interactive (TTWO) is scheduled to report its Q4 2025 earnings on May 15. The company has guided for revenues between $1.52-1.62 billion and net bookings between $1.48-1.58 billion. Analysts project a loss of $0.05 per share for Q4 2025, compared to a loss of $17.02 per share in Q4 2024.",
+      "url": "https://news.alphastreet.com/what-to-expect-when-take-two-interactive-ttwo-reports-q4-2025-earnings-results/",
+      "source": "AlphaStreet",
+      "published": "20250509T000000",
+      "overall_sentiment_score": -0.022799,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.094469,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.625429
+    },
+    {
+      "title": "Take-Two Interactive Software (TTWO) Earnings: 4Q25 Key Numbers",
+      "summary": "Take-Two Interactive Software (TTWO) reported its fourth-quarter 2025 earnings, with net revenue up 13% to $1.58 billion and net bookings growing 17% to $1.58 billion. The company posted a net loss of $3.73 billion, or $21.08 per share. Take-Two provided guidance for Q1 and the full fiscal year 2026, anticipating continued revenue and bookings growth despite projected net losses.",
+      "url": "https://news.alphastreet.com/take-two-interactive-software-ttwo-earnings-4q25-key-numbers/",
+      "source": "AlphaStreet",
+      "published": "20250516T000000",
+      "overall_sentiment_score": -0.102165,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.117123,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.589144
+    },
+    {
+      "title": "Aemetis, Inc. (NASDAQ:AMTX) Analysts Are Pretty Bullish On The Stock After Recent Results",
+      "summary": "Aemetis, Inc. (NASDAQ:AMTX) reported first-quarter results that missed revenue expectations but showed a significant reduction in anticipated losses per share for 2025. Despite the revenue miss, analysts have raised their consensus price target for the stock by 83% to US$23.50, indicating a bullish outlook based on the narrowing loss forecasts and projected revenue growth. The company is expected to grow revenue much faster than the industry, leading to an improved intrinsic value.",
+      "url": "https://simplywall.st/stocks/us/energy/nasdaq-amtx/aemetis/news/aemetis-inc-nasdaqamtx-analysts-are-pretty-bullish-on-the-st",
+      "source": "Simply Wall Street",
+      "published": "20250511T000000",
+      "overall_sentiment_score": 0.202367,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.126377,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.583404
     }
   ]
 }

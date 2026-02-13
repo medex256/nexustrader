@@ -7,18 +7,6 @@
   "article_count": 11,
   "articles": [
     {
-      "title": "CVR Energy begins operations of feedstock pretreatment unit, continues to consider SAF projects",
-      "summary": "CVR Energy has commenced operations of its feedstock pretreatment unit and is actively evaluating the development of Sustainable Aviation Fuel (SAF) projects. This news comes as other companies in the renewable fuels sector are also making progress, with XCF Global signing a deal for SAF biorefineries in Australia and PBF Energy anticipating expanded renewable diesel production. Despite previously announcing a halt to renewable diesel production in Q4 2025, CVR Energy's focus on SAF suggests a strategic pivot within the renewable energy landscape.",
-      "url": "https://biodieselmagazine.com//articles/cvr-energy-begins-operations-of-feedstock-pretreatment-unit-continues-to-consider-saf-projects",
-      "source": "Biodiesel Magazine",
-      "published": "20240502T000000",
-      "overall_sentiment_score": 0.181148,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.083989,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.578586
-    },
-    {
       "title": "Chevron to resolve ExxonMobil arbitration over Guyana discovery soon following $53 billion Hess acquisition, CEO predicts",
       "summary": "Chevron anticipates a resolution to its dispute with Exxon Mobil over a Guyana oil contract in the coming months, which is crucial for completing its $53 billion acquisition of Hess Corp. Chevron CEO Mike Wirth expects the arbitration process, initiated by Exxon claiming a right of first refusal, to clarify contract provisions within five to six months. The outcome will determine whether Chevron's acquisition of Hess, intended to help it catch up to rivals, can proceed.",
       "url": "https://www.worldoil.com/news/2024/4/29/chevron-to-resolve-exxonmobil-arbitration-over-guyana-discovery-soon-following-53-billion-hess-acquisition-ceo-predicts/",
@@ -41,18 +29,6 @@
       "ticker_sentiment_score": 0.32418,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.717239
-    },
-    {
-      "title": "Earnings: Ford Motor Company Q1 2024 adjusted profit falls; revenue up 3%",
-      "summary": "Ford Motor Company (NYSE: F) reported a modest 3% increase in revenue to $42.8 billion for Q1 2024, driven by strong growth in its Ford Pro division. However, adjusted earnings declined 22% year-over-year to $0.49 per share. Unadjusted net income for the quarter was $1.33 billion, or $0.33 per share.",
-      "url": "https://news.alphastreet.com/earnings-ford-motor-company-q1-2024-adjusted-profit-falls-revenue-up-3/",
-      "source": "AlphaStreet",
-      "published": "20240426T000000",
-      "overall_sentiment_score": -0.145127,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.097837,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.608365
     },
     {
       "title": "Hess Corporation increases oil and gas production from success in U.S. Bakken, offshore Guyana",
@@ -79,18 +55,6 @@
       "relevance_score": 0.638881
     },
     {
-      "title": "Comstock’s Haynesville-to-Gulf Coast Strategy On Track, but Coping with Low Natural Gas Prices Job No. 1",
-      "summary": "Comstock Resources Inc. is positioning itself to be a major LNG supplier with its Haynesville-to-Gulf Coast strategy, but the immediate challenge is managing assets during a period of low natural gas prices. The company has secured significant financial support from shareholders, bondholders, and its bank group to maintain liquidity and continue operations. Comstock is also increasing its hedged positions to protect against price volatility while anticipating future demand growth from power generation, data centers, and LNG exports.",
-      "url": "https://naturalgasintel.com/news/comstocks-haynesville-to-gulf-coast-strategy-on-track-but-coping-with-low-natural-gas-prices-job-no-1/",
-      "source": "Natural Gas Intelligence",
-      "published": "20240506T140300",
-      "overall_sentiment_score": -0.118212,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.14837,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.584722
-    },
-    {
       "title": "ConocoPhillips Exploring Sale of Port Arthur LNG Equity Stake Amid Broader Global Ambitions",
       "summary": "ConocoPhillips is considering selling part of its 30% equity stake in Sempra Infrastructure’s Port Arthur LNG export plant as it focuses on securing additional regasification capacity and long-term LNG supplies rather than liquefaction capital. The company reported first-quarter production of 1.9 million boe/d but faced volatility in Permian differentials, with natural gas prices in the region experiencing significant fluctuations. Management expects continued Permian volatility in 2Q2024 but anticipates normalization by year-end, while also highlighting progress on its Willow project in Alaska.",
       "url": "https://naturalgasintel.com/news/conocophillips-exploring-sale-of-port-arthur-lng-equity-stake-amid-broader-global-ambitions/",
@@ -101,6 +65,18 @@
       "ticker_sentiment_score": 0.094428,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.635468
+    },
+    {
+      "title": "Imperial Oil: Strathcona biorefinery remains on track for 2025 startup",
+      "summary": "Imperial Oil announced that its Strathcona biorefinery project is still on schedule to begin operations in 2025. The article highlights other developments in the renewable fuels sector, including new SAF facilities and changes in renewable diesel production plans by various companies.",
+      "url": "https://biodieselmagazine.com/articles/imperial-oil-strathcona-biorefinery-remains-on-track-for-2025-startup",
+      "source": "Biodiesel Magazine",
+      "published": "20240430T000000",
+      "overall_sentiment_score": 0.250426,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.155928,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.634826
     },
     {
       "title": "Up 7% This Year, Will EOG’s Gains Continue Following Q1 Results?",
@@ -115,16 +91,40 @@
       "relevance_score": 0.631589
     },
     {
-      "title": "Imperial Oil: Strathcona biorefinery remains on track for 2025 startup",
-      "summary": "Imperial Oil announced that its Strathcona biorefinery project is still on schedule to begin operations in 2025. The article highlights other developments in the renewable fuels sector, including new SAF facilities and changes in renewable diesel production plans by various companies.",
-      "url": "https://biodieselmagazine.com/articles/imperial-oil-strathcona-biorefinery-remains-on-track-for-2025-startup",
+      "title": "Earnings: Ford Motor Company Q1 2024 adjusted profit falls; revenue up 3%",
+      "summary": "Ford Motor Company (NYSE: F) reported a modest 3% increase in revenue to $42.8 billion for Q1 2024, driven by strong growth in its Ford Pro division. However, adjusted earnings declined 22% year-over-year to $0.49 per share. Unadjusted net income for the quarter was $1.33 billion, or $0.33 per share.",
+      "url": "https://news.alphastreet.com/earnings-ford-motor-company-q1-2024-adjusted-profit-falls-revenue-up-3/",
+      "source": "AlphaStreet",
+      "published": "20240426T000000",
+      "overall_sentiment_score": -0.145127,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.097837,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.608365
+    },
+    {
+      "title": "Comstock’s Haynesville-to-Gulf Coast Strategy On Track, but Coping with Low Natural Gas Prices Job No. 1",
+      "summary": "Comstock Resources Inc. is positioning itself to be a major LNG supplier with its Haynesville-to-Gulf Coast strategy, but the immediate challenge is managing assets during a period of low natural gas prices. The company has secured significant financial support from shareholders, bondholders, and its bank group to maintain liquidity and continue operations. Comstock is also increasing its hedged positions to protect against price volatility while anticipating future demand growth from power generation, data centers, and LNG exports.",
+      "url": "https://naturalgasintel.com/news/comstocks-haynesville-to-gulf-coast-strategy-on-track-but-coping-with-low-natural-gas-prices-job-no-1/",
+      "source": "Natural Gas Intelligence",
+      "published": "20240506T140300",
+      "overall_sentiment_score": -0.118212,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.14837,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.584722
+    },
+    {
+      "title": "CVR Energy begins operations of feedstock pretreatment unit, continues to consider SAF projects",
+      "summary": "CVR Energy has commenced operations of its feedstock pretreatment unit and is actively evaluating the development of Sustainable Aviation Fuel (SAF) projects. This news comes as other companies in the renewable fuels sector are also making progress, with XCF Global signing a deal for SAF biorefineries in Australia and PBF Energy anticipating expanded renewable diesel production. Despite previously announcing a halt to renewable diesel production in Q4 2025, CVR Energy's focus on SAF suggests a strategic pivot within the renewable energy landscape.",
+      "url": "https://biodieselmagazine.com//articles/cvr-energy-begins-operations-of-feedstock-pretreatment-unit-continues-to-consider-saf-projects",
       "source": "Biodiesel Magazine",
-      "published": "20240430T000000",
-      "overall_sentiment_score": 0.250426,
+      "published": "20240502T000000",
+      "overall_sentiment_score": 0.181148,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.155928,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.634826
+      "ticker_sentiment_score": 0.083989,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.578586
     },
     {
       "title": "Oil Retreats, But Bullish Momentum Remains for These ETFs",

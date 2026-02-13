@@ -19,28 +19,16 @@
       "relevance_score": 0.93606
     },
     {
-      "title": "3 Healthcare Investing Trends to Watch",
-      "summary": "The Morgan Stanley Global Healthcare Conference highlighted three key investing trends: a rebounding M&A environment driven by potential interest rate reductions and capital deployment, the increasing investment in AI for productivity, cost reduction, and drug discovery, and innovations in digital health and biotechnology coupled with positive utilization trends for healthcare services and products. These trends suggest an evolving landscape for healthcare investing, with a focus on efficiency, technological advancement, and strategic mergers to unlock capital and drive growth.",
-      "url": "https://www.morganstanley.com/ideas/healthcare-investing-trends-2024-beyond",
-      "source": "Morgan Stanley",
-      "published": "20240925T000000",
-      "overall_sentiment_score": 0.225627,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.214629,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.600037
-    },
-    {
-      "title": "Politan prevails in Masimo proxy fight, gaining 2 board seats and ousting CEO Joe Kiani",
-      "summary": "Activist investor Politan Capital Management secured two new board seats at Masimo's annual meeting, leading to the ouster of founder and CEO Joe Kiani and fellow board member Chris Chavez. This victory doubles Politan's previous board representation and follows criticism over Masimo's acquisition of Sound United and its plans to spin out consumer businesses. Following the vote, Masimo's stock price saw a 3.4% increase.",
-      "url": "https://www.fiercebiotech.com/medtech/politan-prevails-masimo-proxy-fight-gaining-2-board-seats-and-ousting-ceo-joe-kiani",
-      "source": "Fierce Biotech",
-      "published": "20240920T110000",
-      "overall_sentiment_score": 0.132128,
+      "title": "Baltimore to take drug distributors to trial over opioids",
+      "summary": "The city of Baltimore is proceeding with a $11 billion lawsuit against drug distributors McKesson and Cencora, accusing them of fueling the opioid epidemic. This comes after Baltimore opted out of national settlements to pursue greater compensation individually. The trial is set to begin this week, while the city recently settled with Johnson & Johnson, Walgreens, and Teva for a combined $402.5 million.",
+      "url": "https://www.reuters.com/legal/government/baltimore-take-drug-distributors-jj-trial-over-opioids-2024-09-16/",
+      "source": "Reuters",
+      "published": "20240916T131000",
+      "overall_sentiment_score": -0.108731,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.149872,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.609196
+      "ticker_sentiment_score": 0.25721,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.737891
     },
     {
       "title": "Bausch + Lomb considers sale: FT",
@@ -79,16 +67,28 @@
       "relevance_score": 0.609319
     },
     {
-      "title": "Baltimore to take drug distributors to trial over opioids",
-      "summary": "The city of Baltimore is proceeding with a $11 billion lawsuit against drug distributors McKesson and Cencora, accusing them of fueling the opioid epidemic. This comes after Baltimore opted out of national settlements to pursue greater compensation individually. The trial is set to begin this week, while the city recently settled with Johnson & Johnson, Walgreens, and Teva for a combined $402.5 million.",
-      "url": "https://www.reuters.com/legal/government/baltimore-take-drug-distributors-jj-trial-over-opioids-2024-09-16/",
-      "source": "Reuters",
-      "published": "20240916T131000",
-      "overall_sentiment_score": -0.108731,
+      "title": "Politan prevails in Masimo proxy fight, gaining 2 board seats and ousting CEO Joe Kiani",
+      "summary": "Activist investor Politan Capital Management secured two new board seats at Masimo's annual meeting, leading to the ouster of founder and CEO Joe Kiani and fellow board member Chris Chavez. This victory doubles Politan's previous board representation and follows criticism over Masimo's acquisition of Sound United and its plans to spin out consumer businesses. Following the vote, Masimo's stock price saw a 3.4% increase.",
+      "url": "https://www.fiercebiotech.com/medtech/politan-prevails-masimo-proxy-fight-gaining-2-board-seats-and-ousting-ceo-joe-kiani",
+      "source": "Fierce Biotech",
+      "published": "20240920T110000",
+      "overall_sentiment_score": 0.132128,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.25721,
+      "ticker_sentiment_score": 0.149872,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.609196
+    },
+    {
+      "title": "3 Healthcare Investing Trends to Watch",
+      "summary": "The Morgan Stanley Global Healthcare Conference highlighted three key investing trends: a rebounding M&A environment driven by potential interest rate reductions and capital deployment, the increasing investment in AI for productivity, cost reduction, and drug discovery, and innovations in digital health and biotechnology coupled with positive utilization trends for healthcare services and products. These trends suggest an evolving landscape for healthcare investing, with a focus on efficiency, technological advancement, and strategic mergers to unlock capital and drive growth.",
+      "url": "https://www.morganstanley.com/ideas/healthcare-investing-trends-2024-beyond",
+      "source": "Morgan Stanley",
+      "published": "20240925T000000",
+      "overall_sentiment_score": 0.225627,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.214629,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.737891
+      "relevance_score": 0.600037
     }
   ]
 }

@@ -7,18 +7,6 @@
   "article_count": 13,
   "articles": [
     {
-      "title": "Thoma Bravo to acquire SailPoint for overall $6.9 Billion",
-      "summary": "Thoma Bravo has entered into a definitive agreement to acquire SailPoint Technologies Holdings, Inc. in an all-cash transaction valued at approximately $6.9 billion. SailPoint stockholders will receive $65.25 per share, representing a 48% premium to its 90-day volume-weighted average price. The acquisition will take SailPoint private, allowing it to leverage Thoma Bravo's resources and expertise to accelerate growth and innovation in the identity security market.",
-      "url": "https://worldbusinessoutlook.com/thoma-bravo-to-acquire-sailpoint-for-overall-6-9-billion/",
-      "source": "World Business Outlook",
-      "published": "20220411T182647",
-      "overall_sentiment_score": 0.194998,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.103257,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.603468
-    },
-    {
       "title": "JPMorgan Chase backs $100M Tech Equity Miami initiative",
       "summary": "JPMorgan Chase & Co. has announced its support for the $100 million Tech Equity Miami initiative, aimed at fostering technological equity opportunities in Miami. This move by the financial services giant highlights a significant investment in the city's tech scene.",
       "url": "https://www.bizjournals.com/southflorida/news/2022/04/06/jpmorgan-chase-backs-tech-equity-miami-initiative.html",
@@ -31,78 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Dave & Buster’s Announces Acquisition of Main Event for $835 Million; Chris Morris to become CEO of Combined Entity Upon Closing",
-      "summary": "Dave & Buster's Entertainment, Inc. announced its acquisition of Main Event from Ardent Leisure Group Limited and RedBird Capital Partners for $835 million. Chris Morris, the current CEO of Main Event, will become CEO of the combined entity upon closing. This acquisition aims to expand Dave & Buster's demographic reach by targeting families with younger children while also creating significant growth opportunities for both brands.",
-      "url": "https://www.globenewswire.com/news-release/2022/04/06/2417387/22805/en/Dave-Buster-s-Announces-Acquisition-of-Main-Event-for-835-Million-Chris-Morris-to-become-CEO-of-Combined-Entity-Upon-Closing.html",
-      "source": "GlobeNewswire",
-      "published": "20220406T063000",
-      "overall_sentiment_score": 0.364595,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.312687,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.585335
-    },
-    {
-      "title": "HDFC Bank creates Indian lending behemoth in $40 billion deal",
-      "summary": "HDFC Bank is acquiring its largest shareholder, HDFC Ltd, in a $40 billion deal to create India's biggest financial services entity. This merger will expand HDFC Bank's customer base and home loan portfolio, aiming to better compete with rivals and tap into rising credit demand. The combined company will boast a balance sheet of $237 billion and a market value of approximately $160 billion.",
-      "url": "https://www.reuters.com/world/india/indias-hdfc-bank-mortgage-lender-hdfc-ltd-merge-2022-04-04/",
-      "source": "Reuters",
-      "published": "20220404T123200",
-      "overall_sentiment_score": 0.189798,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.128469,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.617827
-    },
-    {
-      "title": "Barclays ETN snafu could cost it £450 million",
-      "summary": "Barclays is facing a £450 million after-tax loss due to a blunder in its exchange-traded notes (ETN) business, where it exceeded its US shelf registration for securities issuance. This error has led to the temporary suspension of new ETN issuances, causing significant market disruption and a potential reputational hit for the bank and its CEO, CS \"Venkat\" Venkatakrishnan. Regulators are now investigating the incident.",
-      "url": "https://www.euromoney.com/article/29w6t3mufn6eyr879ucjk/opinion/barclays-etn-snafu-could-cost-it-450-million/",
-      "source": "Euromoney",
-      "published": "20220328T191556",
-      "overall_sentiment_score": -0.116408,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.142366,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.627177
-    },
-    {
-      "title": "Banking & Finance Roundup: Seacoast to acquire Miami’s Apollo Bank",
-      "summary": "This article covers the banking and finance news roundup for the week, highlighting Seacoast's acquisition of Apollo Bank in Miami. It also lists other related articles about regional banking news, including Pitcairn hiring a local executive and Amerant Bank joining a blockchain network.",
-      "url": "https://www.bizjournals.com/southflorida/news/2022/04/04/banking-finance-roundup-04-01-22.html",
-      "source": "The Business Journals",
-      "published": "20220404T182651",
-      "overall_sentiment_score": 0.153311,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.144629,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.639255
-    },
-    {
-      "title": "Arkansas Eyes Upon Texas Lending",
-      "summary": "Arkansas banks are increasingly expanding their operations into Texas, drawn by its larger banking market and growth opportunities. Major players like Home BancShares (Centennial Bank), Simmons First National Corp., and Bank OZK have made significant acquisitions and branch expansions. Other banks like Farmers Bank & Trust, Encore Bank, Bodcaw Bank, and Diamond Bank are also establishing a presence, utilizing both acquisitions and new branch development.",
-      "url": "https://www.arkansasbusiness.com/article/arkansas-eyes-upon-texas-lending/",
-      "source": "Arkansas Business",
-      "published": "20220404T120000",
-      "overall_sentiment_score": 0.298321,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.212404,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.521563
-    },
-    {
-      "title": "Dakota Gold Corp. Announces Merger Closing as Part of a Specific Focus on Revitalizing the Homestake District in Lead, South Dakota",
-      "summary": "Dakota Gold Corp. announced the completion of its merger between Dakota Territory Resource Corp. and JR Resources Corp., focusing on revitalizing the Homestake District in Lead, South Dakota. The company's common stock is expected to begin trading on the NYSE American under the symbol \"DC\" on or about April 5, 2022, following a significant expansion of its land package and establishment of an ESG fund. This strategic move aims to leverage the Homestake District's 145-year gold mining legacy for new discoveries and opportunities.",
-      "url": "https://finance.yahoo.com/news/dakota-gold-corp-announces-merger-110000014.html",
-      "source": "Yahoo Finance",
-      "published": "20220331T100000",
-      "overall_sentiment_score": 0.302422,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.1223,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.598257
-    },
-    {
       "title": "Techstars and J.P. Morgan Partner to Invest in Diverse Entrepreneurs",
       "summary": "Techstars and J.P. Morgan have partnered to invest over $80 million in diverse entrepreneurs through a new accelerator program, aiming to address disparities in venture capital funding. This multi-year initiative will support more than 400 companies through 37 programs in 9 U.S. cities, focusing on Black, Hispanic and Latino, Indigenous American, and Pacific Islander founders. The program seeks to provide equitable access to capital, mentorship, and customized programming to foster wealth creation and economic opportunity in underserved communities.",
       "url": "https://www.techstars.com/newsroom/techstars-and-j-p-morgan-partner-to-invest-in-diverse-entrepreneurs",
@@ -113,18 +29,6 @@
       "ticker_sentiment_score": 0.425959,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "These income strategies can help protect your stock investments from inflation and a recession",
-      "summary": "This article discusses two income strategies for protecting stock investments from inflation and recession. These strategies include selecting stocks of companies with rapidly increasing dividend payouts and augmenting dividend income with covered call options. The author suggests these methods offer downside protection while retaining upside potential in a changing economic environment.",
-      "url": "https://www.marketwatch.com/story/these-income-strategies-can-help-protect-your-stock-investments-from-inflation-and-a-recession-11649173093?gaa_at=eafs&gaa_n=AWEtsqeLjc0lRX89rKFHCEFw6aikhdemCW3tWbTHrAXdcPLyWNjVnWOi_hpI&gaa_ts=6907a32d&gaa_sig=SA3SaOYA4_w-yCoZ3hHCXksiscVTP6h8FkuYIyhyEXGh81rd5LuFYMWy8v4QzKfufleMepIDmfHMYrPS_kpSkA%3D%3D",
-      "source": "MarketWatch",
-      "published": "20220405T113800",
-      "overall_sentiment_score": 0.232165,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.24888,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.603156
     },
     {
       "title": "Growth Headwinds - List Gets Longer",
@@ -151,6 +55,42 @@
       "relevance_score": 0.646419
     },
     {
+      "title": "Banking & Finance Roundup: Seacoast to acquire Miami’s Apollo Bank",
+      "summary": "This article covers the banking and finance news roundup for the week, highlighting Seacoast's acquisition of Apollo Bank in Miami. It also lists other related articles about regional banking news, including Pitcairn hiring a local executive and Amerant Bank joining a blockchain network.",
+      "url": "https://www.bizjournals.com/southflorida/news/2022/04/04/banking-finance-roundup-04-01-22.html",
+      "source": "The Business Journals",
+      "published": "20220404T182651",
+      "overall_sentiment_score": 0.153311,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.144629,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.639255
+    },
+    {
+      "title": "Barclays ETN snafu could cost it £450 million",
+      "summary": "Barclays is facing a £450 million after-tax loss due to a blunder in its exchange-traded notes (ETN) business, where it exceeded its US shelf registration for securities issuance. This error has led to the temporary suspension of new ETN issuances, causing significant market disruption and a potential reputational hit for the bank and its CEO, CS \"Venkat\" Venkatakrishnan. Regulators are now investigating the incident.",
+      "url": "https://www.euromoney.com/article/29w6t3mufn6eyr879ucjk/opinion/barclays-etn-snafu-could-cost-it-450-million/",
+      "source": "Euromoney",
+      "published": "20220328T191556",
+      "overall_sentiment_score": -0.116408,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.142366,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.627177
+    },
+    {
+      "title": "HDFC Bank creates Indian lending behemoth in $40 billion deal",
+      "summary": "HDFC Bank is acquiring its largest shareholder, HDFC Ltd, in a $40 billion deal to create India's biggest financial services entity. This merger will expand HDFC Bank's customer base and home loan portfolio, aiming to better compete with rivals and tap into rising credit demand. The combined company will boast a balance sheet of $237 billion and a market value of approximately $160 billion.",
+      "url": "https://www.reuters.com/world/india/indias-hdfc-bank-mortgage-lender-hdfc-ltd-merge-2022-04-04/",
+      "source": "Reuters",
+      "published": "20220404T123200",
+      "overall_sentiment_score": 0.189798,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.128469,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.617827
+    },
+    {
       "title": "The Fed Is on the March. Can Your Bond Fund Keep Up?",
       "summary": "This article discusses the impact of the Federal Reserve's aggressive interest rate hikes on bond investors and how they can protect their portfolios. It highlights that while rising rates can lead to bond price declines, they also result in significantly higher future yields for investors. The piece notes the bond market's recent poor performance and the shift in investor flows from bond funds as yields become more attractive.",
       "url": "https://www.wsj.com/finance/investing/fed-raising-rates-bond-fund-strategy-11648825117?gaa_at=eafs&gaa_n=AWEtsqcJOP1wVIPZWx38L6sz1LN9fQqkGrrTCNXpy1H7OF4__O6FSs0Qjd_s&gaa_ts=6907a7d6&gaa_sig=OzpqFoFJFvwTeAwaEodkySP4Ay7JEfUmweDfqm6Y_W8hIHJKukHiaFlGTgNsM2F4zLursB7So9J5jmCR9LYrHw%3D%3D",
@@ -161,6 +101,66 @@
       "ticker_sentiment_score": 0.204031,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.616571
+    },
+    {
+      "title": "Thoma Bravo to acquire SailPoint for overall $6.9 Billion",
+      "summary": "Thoma Bravo has entered into a definitive agreement to acquire SailPoint Technologies Holdings, Inc. in an all-cash transaction valued at approximately $6.9 billion. SailPoint stockholders will receive $65.25 per share, representing a 48% premium to its 90-day volume-weighted average price. The acquisition will take SailPoint private, allowing it to leverage Thoma Bravo's resources and expertise to accelerate growth and innovation in the identity security market.",
+      "url": "https://worldbusinessoutlook.com/thoma-bravo-to-acquire-sailpoint-for-overall-6-9-billion/",
+      "source": "World Business Outlook",
+      "published": "20220411T182647",
+      "overall_sentiment_score": 0.194998,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.103257,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.603468
+    },
+    {
+      "title": "These income strategies can help protect your stock investments from inflation and a recession",
+      "summary": "This article discusses two income strategies for protecting stock investments from inflation and recession. These strategies include selecting stocks of companies with rapidly increasing dividend payouts and augmenting dividend income with covered call options. The author suggests these methods offer downside protection while retaining upside potential in a changing economic environment.",
+      "url": "https://www.marketwatch.com/story/these-income-strategies-can-help-protect-your-stock-investments-from-inflation-and-a-recession-11649173093?gaa_at=eafs&gaa_n=AWEtsqeLjc0lRX89rKFHCEFw6aikhdemCW3tWbTHrAXdcPLyWNjVnWOi_hpI&gaa_ts=6907a32d&gaa_sig=SA3SaOYA4_w-yCoZ3hHCXksiscVTP6h8FkuYIyhyEXGh81rd5LuFYMWy8v4QzKfufleMepIDmfHMYrPS_kpSkA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220405T113800",
+      "overall_sentiment_score": 0.232165,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.24888,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.603156
+    },
+    {
+      "title": "Dakota Gold Corp. Announces Merger Closing as Part of a Specific Focus on Revitalizing the Homestake District in Lead, South Dakota",
+      "summary": "Dakota Gold Corp. announced the completion of its merger between Dakota Territory Resource Corp. and JR Resources Corp., focusing on revitalizing the Homestake District in Lead, South Dakota. The company's common stock is expected to begin trading on the NYSE American under the symbol \"DC\" on or about April 5, 2022, following a significant expansion of its land package and establishment of an ESG fund. This strategic move aims to leverage the Homestake District's 145-year gold mining legacy for new discoveries and opportunities.",
+      "url": "https://finance.yahoo.com/news/dakota-gold-corp-announces-merger-110000014.html",
+      "source": "Yahoo Finance",
+      "published": "20220331T100000",
+      "overall_sentiment_score": 0.302422,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.1223,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.598257
+    },
+    {
+      "title": "Dave & Buster’s Announces Acquisition of Main Event for $835 Million; Chris Morris to become CEO of Combined Entity Upon Closing",
+      "summary": "Dave & Buster's Entertainment, Inc. announced its acquisition of Main Event from Ardent Leisure Group Limited and RedBird Capital Partners for $835 million. Chris Morris, the current CEO of Main Event, will become CEO of the combined entity upon closing. This acquisition aims to expand Dave & Buster's demographic reach by targeting families with younger children while also creating significant growth opportunities for both brands.",
+      "url": "https://www.globenewswire.com/news-release/2022/04/06/2417387/22805/en/Dave-Buster-s-Announces-Acquisition-of-Main-Event-for-835-Million-Chris-Morris-to-become-CEO-of-Combined-Entity-Upon-Closing.html",
+      "source": "GlobeNewswire",
+      "published": "20220406T063000",
+      "overall_sentiment_score": 0.364595,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.312687,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.585335
+    },
+    {
+      "title": "Arkansas Eyes Upon Texas Lending",
+      "summary": "Arkansas banks are increasingly expanding their operations into Texas, drawn by its larger banking market and growth opportunities. Major players like Home BancShares (Centennial Bank), Simmons First National Corp., and Bank OZK have made significant acquisitions and branch expansions. Other banks like Farmers Bank & Trust, Encore Bank, Bodcaw Bank, and Diamond Bank are also establishing a presence, utilizing both acquisitions and new branch development.",
+      "url": "https://www.arkansasbusiness.com/article/arkansas-eyes-upon-texas-lending/",
+      "source": "Arkansas Business",
+      "published": "20220404T120000",
+      "overall_sentiment_score": 0.298321,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.212404,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.521563
     }
   ]
 }

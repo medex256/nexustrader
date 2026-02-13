@@ -7,42 +7,6 @@
   "article_count": 13,
   "articles": [
     {
-      "title": "CastleArk Enters ETF Market With Large Growth ETF CARK",
-      "summary": "CastleArk has launched its first exchange-traded fund, the CastleArk Large Growth ETF (CARK), an actively managed ETF focused on large-cap growth companies. The fund targets 25-30 leading growth companies, identifying competitive strength and seeking to optimize risk through quantitative inputs. CastleArk aims to provide an actively managed alternative to index-heavy portfolios, especially given the concentration of \"Magnificent Seven\" stocks in the large-cap growth sector.",
-      "url": "https://www.etftrends.com/castleark-large-growth-etf-cark/",
-      "source": "ETF Trends",
-      "published": "20231207T213849",
-      "overall_sentiment_score": 0.334235,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.305424,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.613976
-    },
-    {
-      "title": "Amex CEO talks co-brand partnerships after Apple reports",
-      "summary": "American Express CEO Steve Squeri discussed co-branded partnerships, emphasizing that Amex's \"premium\" card designation means it doesn't align with all potential partners, a point highlighted amidst reports of Amex potentially replacing Goldman Sachs as Apple's credit card partner. Squeri noted that Amex seeks partnerships that offer strong value propositions, target premium customers, and provide distribution while yielding \"premium economics.\" Analysts have speculated on several potential suitors for Apple's card partnership, including Amex, JPMorgan Chase, Synchrony Financial, Capital One, and Bread.",
-      "url": "https://www.paymentsdive.com/news/amex-ceo-steve-squeri-apple-credit-card-partner-goldman/701656/",
-      "source": "Payments Dive",
-      "published": "20231206T000000",
-      "overall_sentiment_score": 0.145654,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.138219,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.752691
-    },
-    {
-      "title": "One ETF that focuses on employee happiness is outperforming the market this year",
-      "summary": "An ETF focused on companies with high employee happiness, the Harbor Human Capital Factor U.S. Large Cap ETF (HAPI), has outperformed the S&P 500 this year, climbing nearly 25% compared to the benchmark's less than 20% gain. The fund's strategy is based on Irrational Capital's extensive employee surveys and publicly available data, creating a \"human capital score\" that is considered a novel and uncorrelated investment factor. While the large-cap HAPI fund includes major tech stocks contributing to its performance, a similar small-cap ETF (HAPS) is also available, offering potential for future growth.",
-      "url": "https://www.cnbc.com/2023/12/01/one-etf-focused-on-employee-happiness-is-beating-the-market-in-2023.html",
-      "source": "CNBC",
-      "published": "20231201T150300",
-      "overall_sentiment_score": 0.345324,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.316707,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.646268
-    },
-    {
       "title": "Who says corporate bonds are dull? Apple’s bonds have seen equity-like returns in the past month",
       "summary": "Apple Inc. bonds have generated equity-like returns for investors in the past month, with prices climbing as Treasury yields have tumbled. This rally, fueled by hopes for Federal Reserve rate cuts in 2024, has led to significant gains in the broader fixed-income market, with the Bloomberg US Aggregate Bond Index seeing its biggest monthly gain since May 1985.",
       "url": "https://www.marketwatch.com/story/who-says-corporate-bonds-are-dull-apples-bonds-have-seen-equity-like-returns-in-the-past-month-925360c2?gaa_at=eafs&gaa_n=AWEtsqf8Qah9AHp-AaVapdOedC7ubmrtVosR49UmYgZ0ltryfAeOM1g_ZQZR&gaa_ts=69076736&gaa_sig=YGqs4neZRiMoHAeNuHgJ4R0vDNvyIBJQWrS28CLUOgOcb5bCVLp4sKzxxqAy1xa4zqnzsJy7SYAtrqaj7SsSSQ%3D%3D",
@@ -53,30 +17,6 @@
       "ticker_sentiment_score": 0.478185,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "$2 billion semiconductor testing and packaging facility planned for Peoria",
-      "summary": "Amkor Technology Inc. plans to build a $2 billion semiconductor testing and advanced packaging facility in Peoria, Arizona, near the TSMC plant. This facility, expected to create 2,000 jobs, will test and package chips for Apple and aims to strengthen the domestic semiconductor supply chain. The project is seen as a crucial step for Arizona's semiconductor ecosystem and national security.",
-      "url": "https://www.axios.com/local/phoenix/2023/11/30/amkor-2-billion-semiconductor-facility-peoria",
-      "source": "Axios",
-      "published": "20231130T000000",
-      "overall_sentiment_score": 0.575126,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.307949,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.702183
-    },
-    {
-      "title": "Amkor to build $2 billion semiconductor testing plant in Peoria. 2,000 jobs promised",
-      "summary": "Amkor Technology Inc. plans to build a $2 billion advanced semiconductor packaging and testing facility in Peoria, Arizona, creating approximately 2,000 jobs. The plant will partner with TSMC, testing chips produced for Apple Inc., and is expected to begin production within two to three years. This investment is seen as a significant step in bolstering the U.S. semiconductor supply chain and is supported by the CHIPS and Science Act.",
-      "url": "https://www.azcentral.com/story/money/business/tech/2023/11/30/amkor-build-semiconductor-testing-plant-peoria-2000-jobs/71752922007/",
-      "source": "azcentral.com and The Arizona Republic",
-      "published": "20231130T000000",
-      "overall_sentiment_score": 0.29832,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.311715,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.731215
     },
     {
       "title": "Apple announces expanded partnership with Amkor for advanced silicon packaging in the U.S.",
@@ -91,40 +31,40 @@
       "relevance_score": 0.969596
     },
     {
-      "title": "Amkor Announces U.S. Advanced Packaging and Test Facility In Peoria",
-      "summary": "Amkor Technology, Inc. announced a $2 billion investment to build an advanced packaging and test facility in Peoria, Arizona, creating 2,000 new jobs. This facility will be the largest outsourced advanced packaging facility in the US, bolstering America's national security and semiconductor supply chain. Apple will be the first and largest customer, and Amkor has applied for CHIPS funding to support the project.",
-      "url": "https://www.azcommerce.com/news-events/news/2023/11/amkor-announces-us-advanced-packaging-and-test-facility-in-peoria/",
-      "source": "Arizona Commerce Authority",
+      "title": "Just 3 of the \"Magnificent Seven\" Have Outperformed the S&P 500 Since 2022. Here's the One I'd Buy for 2024 and 2025.",
+      "summary": "This article analyzes the performance of the \"Magnificent Seven\" tech stocks against the S&P 500 since 2022. It identifies Nvidia, Microsoft, and Apple as the only three that have outperformed the S&P 500. The author argues that Alphabet, despite underperforming recently, is the best buy for 2024 and 2025 due to its valuation, potential in digital advertising, and cloud segment growth.",
+      "url": "https://www.barchart.com/story/news/22600200/just-3-of-the-magnificent-seven-have-outperformed-the-sp-500-since-2022-heres-the-one-id-buy-for-2024-and-2025",
+      "source": "Barchart.com",
+      "published": "20231208T000000",
+      "overall_sentiment_score": 0.274601,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.32412,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.926358
+    },
+    {
+      "title": "Amex CEO talks co-brand partnerships after Apple reports",
+      "summary": "American Express CEO Steve Squeri discussed co-branded partnerships, emphasizing that Amex's \"premium\" card designation means it doesn't align with all potential partners, a point highlighted amidst reports of Amex potentially replacing Goldman Sachs as Apple's credit card partner. Squeri noted that Amex seeks partnerships that offer strong value propositions, target premium customers, and provide distribution while yielding \"premium economics.\" Analysts have speculated on several potential suitors for Apple's card partnership, including Amex, JPMorgan Chase, Synchrony Financial, Capital One, and Bread.",
+      "url": "https://www.paymentsdive.com/news/amex-ceo-steve-squeri-apple-credit-card-partner-goldman/701656/",
+      "source": "Payments Dive",
+      "published": "20231206T000000",
+      "overall_sentiment_score": 0.145654,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.138219,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.752691
+    },
+    {
+      "title": "Amkor to build $2 billion semiconductor testing plant in Peoria. 2,000 jobs promised",
+      "summary": "Amkor Technology Inc. plans to build a $2 billion advanced semiconductor packaging and testing facility in Peoria, Arizona, creating approximately 2,000 jobs. The plant will partner with TSMC, testing chips produced for Apple Inc., and is expected to begin production within two to three years. This investment is seen as a significant step in bolstering the U.S. semiconductor supply chain and is supported by the CHIPS and Science Act.",
+      "url": "https://www.azcentral.com/story/money/business/tech/2023/11/30/amkor-build-semiconductor-testing-plant-peoria-2000-jobs/71752922007/",
+      "source": "azcentral.com and The Arizona Republic",
       "published": "20231130T000000",
-      "overall_sentiment_score": 0.491683,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.44021,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.71345
-    },
-    {
-      "title": "Tesla’s Dojo Supercomputer Head Exits in Blow to Efforts",
-      "summary": "Ganesh Venkataramanan, the head of Tesla's Dojo supercomputer project, has left the company after five years, posing a significant setback to the automaker's self-driving technology endeavors. Peter Bannon, a long-time Tesla director and former Apple executive, has taken over leadership of the project. This departure comes as Tesla plans to invest over $1 billion in Dojo by the end of 2024, a project analysts believe could add $500 billion to Tesla's valuation.",
-      "url": "https://www.ttnews.com/articles/tesla-dojo-head-exits",
-      "source": "Transport Topics",
-      "published": "20231207T144400",
-      "overall_sentiment_score": -0.102086,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.130497,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.555081
-    },
-    {
-      "title": "Deere must face US farmers' 'right-to-repair' lawsuits, judge rules",
-      "summary": "A U.S. judge has ruled that Deere & Co must face consolidated lawsuits from farmers accusing the agricultural machinery maker of unlawfully conspiring to restrict maintenance and repair services. The judge rejected Deere's arguments for dismissal, stating that the plaintiffs met the legal thresholds to pursue their antitrust claims. This case is part of a broader \"right-to-repair\" movement challenging restrictive repair practices across various industries.",
-      "url": "https://www.reuters.com/legal/litigation/deere-must-face-us-farmers-right-to-repair-lawsuits-judge-rules-2023-11-27/",
-      "source": "Reuters",
-      "published": "20231127T220900",
-      "overall_sentiment_score": -0.041736,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.134519,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.588995
+      "overall_sentiment_score": 0.29832,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.311715,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.731215
     },
     {
       "title": "AI ETFs see huge performance dispersion in 2023",
@@ -139,6 +79,42 @@
       "relevance_score": 0.728302
     },
     {
+      "title": "Amkor Announces U.S. Advanced Packaging and Test Facility In Peoria",
+      "summary": "Amkor Technology, Inc. announced a $2 billion investment to build an advanced packaging and test facility in Peoria, Arizona, creating 2,000 new jobs. This facility will be the largest outsourced advanced packaging facility in the US, bolstering America's national security and semiconductor supply chain. Apple will be the first and largest customer, and Amkor has applied for CHIPS funding to support the project.",
+      "url": "https://www.azcommerce.com/news-events/news/2023/11/amkor-announces-us-advanced-packaging-and-test-facility-in-peoria/",
+      "source": "Arizona Commerce Authority",
+      "published": "20231130T000000",
+      "overall_sentiment_score": 0.491683,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.44021,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.71345
+    },
+    {
+      "title": "$2 billion semiconductor testing and packaging facility planned for Peoria",
+      "summary": "Amkor Technology Inc. plans to build a $2 billion semiconductor testing and advanced packaging facility in Peoria, Arizona, near the TSMC plant. This facility, expected to create 2,000 jobs, will test and package chips for Apple and aims to strengthen the domestic semiconductor supply chain. The project is seen as a crucial step for Arizona's semiconductor ecosystem and national security.",
+      "url": "https://www.axios.com/local/phoenix/2023/11/30/amkor-2-billion-semiconductor-facility-peoria",
+      "source": "Axios",
+      "published": "20231130T000000",
+      "overall_sentiment_score": 0.575126,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.307949,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.702183
+    },
+    {
+      "title": "One ETF that focuses on employee happiness is outperforming the market this year",
+      "summary": "An ETF focused on companies with high employee happiness, the Harbor Human Capital Factor U.S. Large Cap ETF (HAPI), has outperformed the S&P 500 this year, climbing nearly 25% compared to the benchmark's less than 20% gain. The fund's strategy is based on Irrational Capital's extensive employee surveys and publicly available data, creating a \"human capital score\" that is considered a novel and uncorrelated investment factor. While the large-cap HAPI fund includes major tech stocks contributing to its performance, a similar small-cap ETF (HAPS) is also available, offering potential for future growth.",
+      "url": "https://www.cnbc.com/2023/12/01/one-etf-focused-on-employee-happiness-is-beating-the-market-in-2023.html",
+      "source": "CNBC",
+      "published": "20231201T150300",
+      "overall_sentiment_score": 0.345324,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.316707,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.646268
+    },
+    {
       "title": "Why Investors Should Keep An Eye on Small-Cap Stocks",
       "summary": "This article discusses how the increasing concentration of market-cap-weighted indexes, particularly driven by large-cap tech stocks, is creating historical levels of concentration. It explores the implications for the size premium, suggesting that higher market concentration leads to increased expected returns for small-cap stocks due to capital misallocation and reduced investor demand for smaller firms, making them an attractive area for investors.",
       "url": "https://www.morningstar.com/markets/increasing-index-concentration-size-premium",
@@ -151,16 +127,40 @@
       "relevance_score": 0.627003
     },
     {
-      "title": "Just 3 of the \"Magnificent Seven\" Have Outperformed the S&P 500 Since 2022. Here's the One I'd Buy for 2024 and 2025.",
-      "summary": "This article analyzes the performance of the \"Magnificent Seven\" tech stocks against the S&P 500 since 2022. It identifies Nvidia, Microsoft, and Apple as the only three that have outperformed the S&P 500. The author argues that Alphabet, despite underperforming recently, is the best buy for 2024 and 2025 due to its valuation, potential in digital advertising, and cloud segment growth.",
-      "url": "https://www.barchart.com/story/news/22600200/just-3-of-the-magnificent-seven-have-outperformed-the-sp-500-since-2022-heres-the-one-id-buy-for-2024-and-2025",
-      "source": "Barchart.com",
-      "published": "20231208T000000",
-      "overall_sentiment_score": 0.274601,
+      "title": "CastleArk Enters ETF Market With Large Growth ETF CARK",
+      "summary": "CastleArk has launched its first exchange-traded fund, the CastleArk Large Growth ETF (CARK), an actively managed ETF focused on large-cap growth companies. The fund targets 25-30 leading growth companies, identifying competitive strength and seeking to optimize risk through quantitative inputs. CastleArk aims to provide an actively managed alternative to index-heavy portfolios, especially given the concentration of \"Magnificent Seven\" stocks in the large-cap growth sector.",
+      "url": "https://www.etftrends.com/castleark-large-growth-etf-cark/",
+      "source": "ETF Trends",
+      "published": "20231207T213849",
+      "overall_sentiment_score": 0.334235,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.32412,
+      "ticker_sentiment_score": 0.305424,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.926358
+      "relevance_score": 0.613976
+    },
+    {
+      "title": "Deere must face US farmers' 'right-to-repair' lawsuits, judge rules",
+      "summary": "A U.S. judge has ruled that Deere & Co must face consolidated lawsuits from farmers accusing the agricultural machinery maker of unlawfully conspiring to restrict maintenance and repair services. The judge rejected Deere's arguments for dismissal, stating that the plaintiffs met the legal thresholds to pursue their antitrust claims. This case is part of a broader \"right-to-repair\" movement challenging restrictive repair practices across various industries.",
+      "url": "https://www.reuters.com/legal/litigation/deere-must-face-us-farmers-right-to-repair-lawsuits-judge-rules-2023-11-27/",
+      "source": "Reuters",
+      "published": "20231127T220900",
+      "overall_sentiment_score": -0.041736,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.134519,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.588995
+    },
+    {
+      "title": "Tesla’s Dojo Supercomputer Head Exits in Blow to Efforts",
+      "summary": "Ganesh Venkataramanan, the head of Tesla's Dojo supercomputer project, has left the company after five years, posing a significant setback to the automaker's self-driving technology endeavors. Peter Bannon, a long-time Tesla director and former Apple executive, has taken over leadership of the project. This departure comes as Tesla plans to invest over $1 billion in Dojo by the end of 2024, a project analysts believe could add $500 billion to Tesla's valuation.",
+      "url": "https://www.ttnews.com/articles/tesla-dojo-head-exits",
+      "source": "Transport Topics",
+      "published": "20231207T144400",
+      "overall_sentiment_score": -0.102086,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.130497,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.555081
     }
   ]
 }

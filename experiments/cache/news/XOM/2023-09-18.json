@@ -7,18 +7,6 @@
   "article_count": 3,
   "articles": [
     {
-      "title": "Vivek Ramaswamy's 'anti-woke' investment firm now manages assets worth more than $1 billion",
-      "summary": "Vivek Ramaswamy's \"anti-woke\" investment firm, Strive Asset Management, which was founded in 2022 to counter ESG-focused investing, has grown to manage over $1 billion in assets. The firm's success comes despite challenges, including a lawsuit from former employees, and its focus is on encouraging companies to prioritize excellence over ESG concerns. Ramaswamy has also criticized major investment firms like BlackRock for pushing ESG agendas.",
-      "url": "https://markets.businessinsider.com/news/etf/vivek-ramaswamy-anti-woke-investment-firm-assets-1-billion-2023-9",
-      "source": "markets.businessinsider.com",
-      "published": "20230906T102718",
-      "overall_sentiment_score": -0.085519,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.344137,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.612413
-    },
-    {
       "title": "XOMO - YieldMax XOM Option Income Strategy ETF Stock Price and Quote",
       "summary": "This article provides a detailed quote and financial data for the XOMO - YieldMax XOM Option Income Strategy ETF. It includes current stock price, performance metrics, dividend information, fund characteristics, and recent news announcements related to YieldMax ETFs. The fund aims for current income and indirect exposure to Exxon Mobil Corporation (XOM) through a synthetic covered call strategy.",
       "url": "https://finviz.com/quote.ashx?t=XOMO",
@@ -29,6 +17,18 @@
       "ticker_sentiment_score": 0.025019,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.711746
+    },
+    {
+      "title": "Vivek Ramaswamy's 'anti-woke' investment firm now manages assets worth more than $1 billion",
+      "summary": "Vivek Ramaswamy's \"anti-woke\" investment firm, Strive Asset Management, which was founded in 2022 to counter ESG-focused investing, has grown to manage over $1 billion in assets. The firm's success comes despite challenges, including a lawsuit from former employees, and its focus is on encouraging companies to prioritize excellence over ESG concerns. Ramaswamy has also criticized major investment firms like BlackRock for pushing ESG agendas.",
+      "url": "https://markets.businessinsider.com/news/etf/vivek-ramaswamy-anti-woke-investment-firm-assets-1-billion-2023-9",
+      "source": "markets.businessinsider.com",
+      "published": "20230906T102718",
+      "overall_sentiment_score": -0.085519,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.344137,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.612413
     },
     {
       "title": "YieldMax Writes Call Options on JPMorgan Chase With JPMO ETF",

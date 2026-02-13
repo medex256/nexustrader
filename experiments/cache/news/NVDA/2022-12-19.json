@@ -7,6 +7,18 @@
   "article_count": 7,
   "articles": [
     {
+      "title": "5 Charts on Big Tech Stocks’ Collapse",
+      "summary": "In 2022, Big Tech stocks collectively lost nearly $4 trillion in market value, with the Morningstar US Technology Index down 28.7%. This collapse significantly impacted overall market returns, contributing 7 percentage points to the U.S. market index's 18.7% loss. Factors like recession fears, advertising slowdowns, and changes in consumer spending led to substantial declines for companies such as Meta Platforms, Amazon, Alphabet, Microsoft, and Nvidia.",
+      "url": "https://www.morningstar.com/markets/5-charts-big-tech-stocks-collapse",
+      "source": "Morningstar",
+      "published": "20221214T165548",
+      "overall_sentiment_score": -0.274614,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.322244,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.876907
+    },
+    {
       "title": "NVDL Stock Fund Price and Chart — NASDAQ:NVDL",
       "summary": "This article provides detailed information about the GraniteShares 2x Long NVDA Daily ETF (NVDL), including its current price, performance metrics, key statistics like AUM and expense ratio, and issuer details. It also offers insights into the fund's investment strategy, classification, and answers frequently asked questions about ETFs. The analysis presents a comprehensive overview for potential investors.",
       "url": "https://www.tradingview.com/symbols/NASDAQ-NVDL/",
@@ -17,30 +29,6 @@
       "ticker_sentiment_score": 0.14482,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.871536
-    },
-    {
-      "title": "DI wealth advisor hits Wall Street, launches fund on NYSE",
-      "summary": "Daniel Island resident Adam Curran, founder of Curran Financial Partners, has launched a new ETF on the NYSE called the \"God Bless America ETF\" under the ticker \"YALL.\" The fund, valued at over $25 million, invests in American-based companies that prioritize profits over political activism. This achievement marks a lifelong dream for Curran, who plans to ring the NYSE bell in January to celebrate.",
-      "url": "https://www.thedanielislandnews.com/news/di-wealth-advisor-hits-wall-street-launches-fund-nyse",
-      "source": "The Daniel Island News",
-      "published": "20221214T210908",
-      "overall_sentiment_score": 0.406166,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.312901,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.61967
-    },
-    {
-      "title": "First Trust/abrdn Emerging Opportunity Fund Announces Termination and Liquidation",
-      "summary": "The First Trust/abrdn Emerging Opportunity Fund (NYSE: FEO) completed its termination and liquidation on December 7, 2022, as consistent with its plan announced on September 20, 2022. Shareholders received a liquidating distribution of $9.635572 per common share. Investors are advised to consult a tax advisor regarding the tax implications of this liquidation.",
-      "url": "https://markets.financialcontent.com/lethbridgeherald/article/bizwire-2022-12-8-first-trustabrdn-emerging-opportunity-fund-announces-termination-and-liquidation",
-      "source": "FinancialContent",
-      "published": "20221208T092500",
-      "overall_sentiment_score": 0.090575,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.253143,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.597305
     },
     {
       "title": "GraniteShares goes live with three leveraged single stock ETFs on NASDAQ",
@@ -55,18 +43,6 @@
       "relevance_score": 0.862518
     },
     {
-      "title": "5 Charts on Big Tech Stocks’ Collapse",
-      "summary": "In 2022, Big Tech stocks collectively lost nearly $4 trillion in market value, with the Morningstar US Technology Index down 28.7%. This collapse significantly impacted overall market returns, contributing 7 percentage points to the U.S. market index's 18.7% loss. Factors like recession fears, advertising slowdowns, and changes in consumer spending led to substantial declines for companies such as Meta Platforms, Amazon, Alphabet, Microsoft, and Nvidia.",
-      "url": "https://www.morningstar.com/markets/5-charts-big-tech-stocks-collapse",
-      "source": "Morningstar",
-      "published": "20221214T165548",
-      "overall_sentiment_score": -0.274614,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.322244,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.876907
-    },
-    {
       "title": "BlackRock seeks to capitalise on metaverse through new ETF",
       "summary": "BlackRock has launched a new exchange-traded fund (ETF) called iShare Metaverse UCITS to allow European clients exposure to companies developing metaverse technologies. This ETF tracks the STOXX Global Metaverse Index, which identifies market leaders and innovators through patent data analysis. The initiative aims to capitalize on the rapidly growing metaverse market, predicted to reach US$4-5 trillion by 2030, offering investors a diversified portfolio in this emerging technological space.",
       "url": "https://fintechmagazine.com/venture-capital/blackrock-seeks-to-capitalises-on-metaverse-through-new-eTF",
@@ -79,6 +55,18 @@
       "relevance_score": 0.620733
     },
     {
+      "title": "DI wealth advisor hits Wall Street, launches fund on NYSE",
+      "summary": "Daniel Island resident Adam Curran, founder of Curran Financial Partners, has launched a new ETF on the NYSE called the \"God Bless America ETF\" under the ticker \"YALL.\" The fund, valued at over $25 million, invests in American-based companies that prioritize profits over political activism. This achievement marks a lifelong dream for Curran, who plans to ring the NYSE bell in January to celebrate.",
+      "url": "https://www.thedanielislandnews.com/news/di-wealth-advisor-hits-wall-street-launches-fund-nyse",
+      "source": "The Daniel Island News",
+      "published": "20221214T210908",
+      "overall_sentiment_score": 0.406166,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.312901,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.61967
+    },
+    {
       "title": "How suite of dividend growth ETFs brings quality to the fore",
       "summary": "In an environment of market volatility and economic uncertainty, CI WisdomTree ETFs offer a quality-focused core portfolio solution that has outperformed benchmarks. These dividend growth ETFs, managed by CI Global Asset Management, employ a unique methodology to identify companies with strong fundamentals, sustainable earnings, and resilient business models, screening for quality and growth metrics. This strategy aims to provide diversified large-cap exposure and long-term stability by avoiding overvalued companies and focusing on profitable dividend payers, proving particularly effective during periods of economic contraction.",
       "url": "https://www.wealthprofessional.ca/news/features/how-suite-of-dividend-growth-etfs-brings-quality-to-the-fore/372038",
@@ -89,6 +77,18 @@
       "ticker_sentiment_score": -0.12276,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.609658
+    },
+    {
+      "title": "First Trust/abrdn Emerging Opportunity Fund Announces Termination and Liquidation",
+      "summary": "The First Trust/abrdn Emerging Opportunity Fund (NYSE: FEO) completed its termination and liquidation on December 7, 2022, as consistent with its plan announced on September 20, 2022. Shareholders received a liquidating distribution of $9.635572 per common share. Investors are advised to consult a tax advisor regarding the tax implications of this liquidation.",
+      "url": "https://markets.financialcontent.com/lethbridgeherald/article/bizwire-2022-12-8-first-trustabrdn-emerging-opportunity-fund-announces-termination-and-liquidation",
+      "source": "FinancialContent",
+      "published": "20221208T092500",
+      "overall_sentiment_score": 0.090575,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.253143,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.597305
     }
   ]
 }

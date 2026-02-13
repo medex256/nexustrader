@@ -7,28 +7,100 @@
   "article_count": 21,
   "articles": [
     {
-      "title": "Equitable Chairman Departs Over Communications That Didn’t Meet Standards",
-      "summary": "Ramon de Oliveira resigned as independent chairman of Equitable Holdings and AllianceBernstein Holding LP due to \"communications that were inconsistent with\" company standards. Equitable stated the departure was unrelated to the company’s operations, financial integrity, or controls. Joan Lamm-Tennant has replaced Mr. de Oliveira as independent chairman for both companies.",
-      "url": "https://www.wsj.com/finance/investing/equitable-chairman-departs-over-communications-that-didnt-meet-standards-11635178406?gaa_at=eafs&gaa_n=AWEtsqcgZ8k1BKlJaM_jqRRLX11yCDsgf2GSycxFRaVAHFZBH_c7AvGgC45x&gaa_ts=6907be19&gaa_sig=dRscNstMeMhmzxg2r674SPVnl8B4L17Q1BOoRn8R4ejpSj6x4U_ci63IHd_8VuROWf519bz9aDyESrCBGkKIPQ%3D%3D",
-      "source": "The Wall Street Journal",
-      "published": "20211025T201141",
-      "overall_sentiment_score": 0.077194,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.137695,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.645695
+      "title": "JPMorgan Chase and Goldman Sachs start earnings season strong. (Published 2021)",
+      "summary": "JPMorgan Chase and Goldman Sachs both significantly exceeded analysts' earnings expectations in the second quarter, signaling a strong start to earnings season. JPMorgan reported a profit of $11.9 billion, while Goldman Sachs earned nearly $5.5 billion, buoyed by increased consumer spending, robust business conditions, and a hot market for mergers and acquisitions. Both banks released significant funds from loan loss reserves, reflecting confidence in the economic rebound.",
+      "url": "https://www.nytimes.com/2021/07/13/business/jpmorgan-chase-goldman-sachs-earnings.html",
+      "source": "The New York Times",
+      "published": "20211015T203643",
+      "overall_sentiment_score": 0.505263,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.89457,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
-      "title": "Ventyx Biosciences Announces Closing of Upsized Initial Public Offering and Full Exercise of Underwriters’ Option to Purchase Additional Shares",
-      "summary": "Ventyx Biosciences, Inc. announced the closing of its upsized initial public offering, raising approximately $174.3 million. The offering included the full exercise of the underwriters’ option to purchase additional shares, with 10,893,554 shares sold at $16.00 per share. The company, focused on inflammatory diseases and autoimmune disorders, began trading on the Nasdaq Global Select Market on October 21, 2021, under the ticker symbol “VTYX.”",
-      "url": "https://www.stocktitan.net/news/VTYX/ventyx-biosciences-announces-closing-of-upsized-initial-public-ge9rl6dml2au.html",
-      "source": "Stock Titan",
-      "published": "20211025T165800",
-      "overall_sentiment_score": 0.274624,
+      "title": "Louisiana Bond Commission delays refinancing of state debt over ‘gun rights’ questions",
+      "summary": "The Louisiana State Bond Commission delayed the refinancing of $700 million in state debt after Attorney General Jeff Landry raised questions about JPMorgan Chase's policies regarding companies that sell military-style weapons. State Treasurer John Schroder postponed the vote to investigate the bank's stance, despite JPMorgan stating it complies with Louisiana's gun rights requirements. This situation highlights an ongoing political rivalry and potential higher costs for taxpayers if Louisiana rejects JPMorgan, who initially offered the best deal.",
+      "url": "https://lailluminator.com/2021/10/22/louisiana-bond-commission-delays-refinancing-of-state-debt-over-gun-rights-questions/",
+      "source": "Louisiana Illuminator",
+      "published": "20211022T163600",
+      "overall_sentiment_score": -0.176281,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.238788,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Italy's Falck family sells green business to JPMorgan-advised fund",
+      "summary": "Italy's Falck family is selling its controlling stake in Falck Renewables for 1.5 billion euros to an infrastructure fund advised by JPMorgan Investment Management. The sale, driven by the significant investments and expertise required for renewable projects, values Falck Renewables at around 3.4 billion euros enterprise value and is expected to lead to the company's delisting from the Milan market.",
+      "url": "https://www.reuters.com/legal/transactional/italys-falck-family-sells-green-energy-firm-jpmorgan-fund-2021-10-20/",
+      "source": "Reuters",
+      "published": "20211020T180300",
+      "overall_sentiment_score": 0.156372,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.126299,
+      "ticker_sentiment_score": 0.159741,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Planning for Austin growth, JPMorgan Chase leases two floors in downtown tower",
+      "summary": "JPMorgan Chase & Co. has leased the top two floors of the 405 Colorado office tower in downtown Austin, signaling its commitment to grow with Central Texas. The company plans to increase its private bank headcount by 70% and move its Austin headquarters to the new building by the fourth quarter of next year, accommodating 141 employees with room for expansion. This move comes as JPMorgan Chase continues to expand its presence in the Austin metro, currently holding an 18.7% market share with nearly $11.6 billion in deposits.",
+      "url": "https://www.statesman.com/story/business/2021/10/12/jpmorgan-chase-leases-two-floors-downtown-austin-tower/8425309002/",
+      "source": "Austin American-Statesman",
+      "published": "20211012T193543",
+      "overall_sentiment_score": 0.22975,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.402456,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Head of Project Maven to depart for JPMorgan Chase & Co.",
+      "summary": "Col. Drew Cukor, the head of Project Maven, is departing the Department of Defense to join JPMorgan Chase & Co. Project Maven is a high-profile military artificial intelligence initiative that processes drone footage and has previously drawn scrutiny regarding AI's role in military operations.",
+      "url": "https://fedscoop.com/head-of-project-maven-to-depart-for-jp-morgan/",
+      "source": "FedScoop",
+      "published": "20211025T203643",
+      "overall_sentiment_score": 0.100928,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.148388,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.647642
+      "relevance_score": 0.915816
+    },
+    {
+      "title": "Chase and Southwest Airlines® Expand Benefits for Southwest® Rapid Rewards® Cardmembers",
+      "summary": "Chase and Southwest Airlines announced enhanced benefits for their Southwest® Rapid Rewards® Credit Cards, celebrating their 25th year of partnership. These enhancements include new rewards categories, increased travel benefits like EarlyBird Check-In® credits and A-List status spend, and boosted points offers for new consumer and business cardmembers. The updates aim to offer more points, benefits, and travel possibilities for cardholders without increasing annual fees.",
+      "url": "https://www.businesswire.com/news/home/20211019005758/en/Chase-and-Southwest-Airlines-Expand-Benefits-for-Southwest-Rapid-Rewards-Cardmembers",
+      "source": "Business Wire",
+      "published": "20211019T204227",
+      "overall_sentiment_score": 0.444209,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.405927,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.889111
+    },
+    {
+      "title": "PAI Said Set to Hire BofA, Goldman, JPMorgan for Refresco Exit",
+      "summary": "PAI Partners is reportedly preparing to hire Bank of America Corp., Goldman Sachs Group Inc., and JPMorgan Chase & Co. to advise on exit options for its bottling business, Refresco. The private equity firm may explore a U.S. initial public offering for Rotterdam-based Refresco as early as next year. PAI is also considering bringing in additional banks to assess various exit strategies, including a potential sale of the €6 billion bottler.",
+      "url": "https://www.bloomberg.com/news/articles/2021-10-18/pai-said-set-to-hire-bofa-goldman-jpmorgan-for-refresco-exit",
+      "source": "Bloomberg.com",
+      "published": "20211018T152500",
+      "overall_sentiment_score": 0.136757,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.102664,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.876669
+    },
+    {
+      "title": "P10 Announces Pricing of its IPO",
+      "summary": "P10, Inc., a private markets solutions provider, announced the pricing of its initial public offering (IPO) of 20,000,000 shares of Class A common stock at $12.00 per share. The company will sell 11,500,000 shares, with selling stockholders offering an additional 8,500,000 shares. P10's Class A common stock is expected to start trading on the NYSE under the ticker symbol \"PX\" on October 21, 2021.",
+      "url": "https://www.citybiz.co/article/162105/p10-announces-pricing-of-its-ipo/",
+      "source": "citybiz",
+      "published": "20211021T120918",
+      "overall_sentiment_score": 0.336077,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.272316,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.736704
     },
     {
       "title": "Venezuela: ConocoPhillips Closer to Enforcing $9.7B Award After Guaidó Opposition Misses Payments",
@@ -43,16 +115,40 @@
       "relevance_score": 0.648633
     },
     {
-      "title": "Chase and Southwest Airlines® Expand Benefits for Southwest® Rapid Rewards® Cardmembers",
-      "summary": "Chase and Southwest Airlines announced enhanced benefits for their Southwest® Rapid Rewards® Credit Cards, celebrating their 25th year of partnership. These enhancements include new rewards categories, increased travel benefits like EarlyBird Check-In® credits and A-List status spend, and boosted points offers for new consumer and business cardmembers. The updates aim to offer more points, benefits, and travel possibilities for cardholders without increasing annual fees.",
-      "url": "https://www.businesswire.com/news/home/20211019005758/en/Chase-and-Southwest-Airlines-Expand-Benefits-for-Southwest-Rapid-Rewards-Cardmembers",
-      "source": "Business Wire",
-      "published": "20211019T204227",
-      "overall_sentiment_score": 0.444209,
+      "title": "Ventyx Biosciences Announces Closing of Upsized Initial Public Offering and Full Exercise of Underwriters’ Option to Purchase Additional Shares",
+      "summary": "Ventyx Biosciences, Inc. announced the closing of its upsized initial public offering, raising approximately $174.3 million. The offering included the full exercise of the underwriters’ option to purchase additional shares, with 10,893,554 shares sold at $16.00 per share. The company, focused on inflammatory diseases and autoimmune disorders, began trading on the Nasdaq Global Select Market on October 21, 2021, under the ticker symbol “VTYX.”",
+      "url": "https://www.stocktitan.net/news/VTYX/ventyx-biosciences-announces-closing-of-upsized-initial-public-ge9rl6dml2au.html",
+      "source": "Stock Titan",
+      "published": "20211025T165800",
+      "overall_sentiment_score": 0.274624,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.126299,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.647642
+    },
+    {
+      "title": "Equitable Chairman Departs Over Communications That Didn’t Meet Standards",
+      "summary": "Ramon de Oliveira resigned as independent chairman of Equitable Holdings and AllianceBernstein Holding LP due to \"communications that were inconsistent with\" company standards. Equitable stated the departure was unrelated to the company’s operations, financial integrity, or controls. Joan Lamm-Tennant has replaced Mr. de Oliveira as independent chairman for both companies.",
+      "url": "https://www.wsj.com/finance/investing/equitable-chairman-departs-over-communications-that-didnt-meet-standards-11635178406?gaa_at=eafs&gaa_n=AWEtsqcgZ8k1BKlJaM_jqRRLX11yCDsgf2GSycxFRaVAHFZBH_c7AvGgC45x&gaa_ts=6907be19&gaa_sig=dRscNstMeMhmzxg2r674SPVnl8B4L17Q1BOoRn8R4ejpSj6x4U_ci63IHd_8VuROWf519bz9aDyESrCBGkKIPQ%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20211025T201141",
+      "overall_sentiment_score": 0.077194,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.137695,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.645695
+    },
+    {
+      "title": "Goldman Sachs traders deliver surprise surge",
+      "summary": "Goldman Sachs reported a surprise jump in its trading business revenue, up 23%, contributing to a stellar quarter for the firm and defying analyst expectations. The company also saw significant growth in its consumer and wealth management business and is on track for its best revenue year ever. Goldman's overall companywide revenue climbed 26% to $13.6 billion, significantly surpassing average estimates.",
+      "url": "https://www.investmentnews.com/ria-news/goldman-sachs-traders-deliver-surprise-surge/212844",
+      "source": "InvestmentNews",
+      "published": "20211015T202232",
+      "overall_sentiment_score": 0.440564,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.405927,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.889111
+      "ticker_sentiment_score": 0.20476,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.643416
     },
     {
       "title": "Zanetti Beverage looks for private equity support to pursue new investments",
@@ -79,90 +175,6 @@
       "relevance_score": 0.637718
     },
     {
-      "title": "Minas Buenaventura emite bonos por 550 millones de dólares con el apoyo de García Sayán, Miranda & Amado y Milbank",
-      "summary": "Compañía de Minas Buenaventura SAA, la principal minera de metales preciosos en Perú, ha emitido pagarés senior no garantizados por 550 millones de dólares. Los fondos se utilizarán para prepagar la deuda tributaria de la empresa y fortalecer su perfil crediticio, reduciendo costos y liberando líneas de crédito. La operación contó con el asesoramiento legal de Milbank LLP y García Sayán Abogados para Buenaventura, y Cleary, Gottlieb, Steen & Hamilton LLP y Miranda & Amado para los coordinadores globales de la emisión.",
-      "url": "https://liderlegal.com/minas-buenaventura-emite-bonos-por-550-millones-de-dolares-con-el-apoyo-de-garcia-sayan-miranda-amado-y-milbank/",
-      "source": "Líder Legal",
-      "published": "20211017T172817",
-      "overall_sentiment_score": 0.394489,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.198271,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.562208
-    },
-    {
-      "title": "JPMorgan Chase and Goldman Sachs start earnings season strong. (Published 2021)",
-      "summary": "JPMorgan Chase and Goldman Sachs both significantly exceeded analysts' earnings expectations in the second quarter, signaling a strong start to earnings season. JPMorgan reported a profit of $11.9 billion, while Goldman Sachs earned nearly $5.5 billion, buoyed by increased consumer spending, robust business conditions, and a hot market for mergers and acquisitions. Both banks released significant funds from loan loss reserves, reflecting confidence in the economic rebound.",
-      "url": "https://www.nytimes.com/2021/07/13/business/jpmorgan-chase-goldman-sachs-earnings.html",
-      "source": "The New York Times",
-      "published": "20211015T203643",
-      "overall_sentiment_score": 0.505263,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.89457,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "Goldman Sachs’s profit surges on record merger activity. (Published 2021)",
-      "summary": "Goldman Sachs reported a significant surge in profit for the third quarter, fueled by record merger and acquisition activity and strong performance in equities trading. The Wall Street giant's earnings of $5.38 billion, or $14.93 a share, surpassed analysts' expectations, similar to other major banks like Bank of America, Morgan Stanley, Citigroup, and JPMorgan. CEO David M. Solomon highlighted strategic acquisitions and expressed optimism for an ongoing economic rebound despite lingering economic uncertainties.",
-      "url": "https://www.nytimes.com/2021/10/15/business/goldman-sachs-earnings.html",
-      "source": "The New York Times",
-      "published": "20211015T202233",
-      "overall_sentiment_score": 0.639508,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.561403,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.597008
-    },
-    {
-      "title": "Goldman Sachs traders deliver surprise surge",
-      "summary": "Goldman Sachs reported a surprise jump in its trading business revenue, up 23%, contributing to a stellar quarter for the firm and defying analyst expectations. The company also saw significant growth in its consumer and wealth management business and is on track for its best revenue year ever. Goldman's overall companywide revenue climbed 26% to $13.6 billion, significantly surpassing average estimates.",
-      "url": "https://www.investmentnews.com/ria-news/goldman-sachs-traders-deliver-surprise-surge/212844",
-      "source": "InvestmentNews",
-      "published": "20211015T202232",
-      "overall_sentiment_score": 0.440564,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.20476,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.643416
-    },
-    {
-      "title": "Head of Project Maven to depart for JPMorgan Chase & Co.",
-      "summary": "Col. Drew Cukor, the head of Project Maven, is departing the Department of Defense to join JPMorgan Chase & Co. Project Maven is a high-profile military artificial intelligence initiative that processes drone footage and has previously drawn scrutiny regarding AI's role in military operations.",
-      "url": "https://fedscoop.com/head-of-project-maven-to-depart-for-jp-morgan/",
-      "source": "FedScoop",
-      "published": "20211025T203643",
-      "overall_sentiment_score": 0.100928,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.148388,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.915816
-    },
-    {
-      "title": "Deutsche Bank v Busto: The latest chapter in the Italian swaps saga",
-      "summary": "The English High Court ruled that interest rate swaps between Deutsche Bank AG London and the Italian municipality Comune di Busto Arsizio were valid and binding, obliging Busto to continue payments until 2031. This decision is significant as it's the first time an English court has considered the application of the Italian Supreme Court's \"Cattolica\" decision on the validity of swaps under Italian law to an English law contract. The court addressed key issues including the capacity of Italian public bodies to execute swap contracts and the interpretation of the Cattolica decision.",
-      "url": "https://www.traverssmith.com/knowledge/knowledge-container/deutsche-bank-v-busto-the-latest-chapter-in-the-italian-swaps-saga/",
-      "source": "Travers Smith",
-      "published": "20211022T200250",
-      "overall_sentiment_score": 0.181061,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.22261,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.595558
-    },
-    {
-      "title": "Louisiana Bond Commission delays refinancing of state debt over ‘gun rights’ questions",
-      "summary": "The Louisiana State Bond Commission delayed the refinancing of $700 million in state debt after Attorney General Jeff Landry raised questions about JPMorgan Chase's policies regarding companies that sell military-style weapons. State Treasurer John Schroder postponed the vote to investigate the bank's stance, despite JPMorgan stating it complies with Louisiana's gun rights requirements. This situation highlights an ongoing political rivalry and potential higher costs for taxpayers if Louisiana rejects JPMorgan, who initially offered the best deal.",
-      "url": "https://lailluminator.com/2021/10/22/louisiana-bond-commission-delays-refinancing-of-state-debt-over-gun-rights-questions/",
-      "source": "Louisiana Illuminator",
-      "published": "20211022T163600",
-      "overall_sentiment_score": -0.176281,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.238788,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 1.0
-    },
-    {
       "title": "TaskUs Announces Upsizing and Pricing of Secondary Offering of Class a Common Stock",
       "summary": "TaskUs, Inc. announced the upsizing and pricing of a secondary public offering of 12,077,480 shares of its Class A common stock by selling stockholders at $63.50 per share. The selling stockholders have also granted underwriters an option to purchase an additional 1,811,622 shares. TaskUs will not sell any shares or receive proceeds from this offering, which is expected to close on October 25, 2021.",
       "url": "https://aithority.com/technology/financial-services/taskus-announces-upsizing-and-pricing-of-secondary-offering-of-class-a-common-stock/",
@@ -175,40 +187,16 @@
       "relevance_score": 0.622457
     },
     {
-      "title": "P10 Announces Pricing of its IPO",
-      "summary": "P10, Inc., a private markets solutions provider, announced the pricing of its initial public offering (IPO) of 20,000,000 shares of Class A common stock at $12.00 per share. The company will sell 11,500,000 shares, with selling stockholders offering an additional 8,500,000 shares. P10's Class A common stock is expected to start trading on the NYSE under the ticker symbol \"PX\" on October 21, 2021.",
-      "url": "https://www.citybiz.co/article/162105/p10-announces-pricing-of-its-ipo/",
-      "source": "citybiz",
-      "published": "20211021T120918",
-      "overall_sentiment_score": 0.336077,
+      "title": "Value stocks are unloved, unsexy, and poised to make a killing over the next decade",
+      "summary": "This article argues that \"value stocks,\" despite being currently overlooked, are set to significantly outperform \"growth stocks\" over the next decade. Research Affiliates' study indicates that value stocks are priced at their lowest relative to growth stocks since the dot-com bubble, suggesting potential inflation-adjusted returns of 5% to 10%. The report highlights energy, retailers, and auto parts as key value plays and suggests specific funds like T. Rowe Price Value Fund (TRVLX) and Vanguard Value ETF (VTV) for investors.",
+      "url": "https://fortune.com/2021/10/14/value-stocks-outlook-investing-what-stocks-to-buy-radmfent-vtv-dflvx/",
+      "source": "Fortune",
+      "published": "20211014T204638",
+      "overall_sentiment_score": 0.347865,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.272316,
+      "ticker_sentiment_score": 0.315511,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.736704
-    },
-    {
-      "title": "Italy's Falck family sells green business to JPMorgan-advised fund",
-      "summary": "Italy's Falck family is selling its controlling stake in Falck Renewables for 1.5 billion euros to an infrastructure fund advised by JPMorgan Investment Management. The sale, driven by the significant investments and expertise required for renewable projects, values Falck Renewables at around 3.4 billion euros enterprise value and is expected to lead to the company's delisting from the Milan market.",
-      "url": "https://www.reuters.com/legal/transactional/italys-falck-family-sells-green-energy-firm-jpmorgan-fund-2021-10-20/",
-      "source": "Reuters",
-      "published": "20211020T180300",
-      "overall_sentiment_score": 0.156372,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.159741,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "PAI Said Set to Hire BofA, Goldman, JPMorgan for Refresco Exit",
-      "summary": "PAI Partners is reportedly preparing to hire Bank of America Corp., Goldman Sachs Group Inc., and JPMorgan Chase & Co. to advise on exit options for its bottling business, Refresco. The private equity firm may explore a U.S. initial public offering for Rotterdam-based Refresco as early as next year. PAI is also considering bringing in additional banks to assess various exit strategies, including a potential sale of the €6 billion bottler.",
-      "url": "https://www.bloomberg.com/news/articles/2021-10-18/pai-said-set-to-hire-bofa-goldman-jpmorgan-for-refresco-exit",
-      "source": "Bloomberg.com",
-      "published": "20211018T152500",
-      "overall_sentiment_score": 0.136757,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.102664,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.876669
+      "relevance_score": 0.620623
     },
     {
       "title": "Watch PennantPark Founder on Global Supply Chain Issues",
@@ -223,6 +211,30 @@
       "relevance_score": 0.607839
     },
     {
+      "title": "Goldman Sachs’s profit surges on record merger activity. (Published 2021)",
+      "summary": "Goldman Sachs reported a significant surge in profit for the third quarter, fueled by record merger and acquisition activity and strong performance in equities trading. The Wall Street giant's earnings of $5.38 billion, or $14.93 a share, surpassed analysts' expectations, similar to other major banks like Bank of America, Morgan Stanley, Citigroup, and JPMorgan. CEO David M. Solomon highlighted strategic acquisitions and expressed optimism for an ongoing economic rebound despite lingering economic uncertainties.",
+      "url": "https://www.nytimes.com/2021/10/15/business/goldman-sachs-earnings.html",
+      "source": "The New York Times",
+      "published": "20211015T202233",
+      "overall_sentiment_score": 0.639508,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.561403,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.597008
+    },
+    {
+      "title": "Deutsche Bank v Busto: The latest chapter in the Italian swaps saga",
+      "summary": "The English High Court ruled that interest rate swaps between Deutsche Bank AG London and the Italian municipality Comune di Busto Arsizio were valid and binding, obliging Busto to continue payments until 2031. This decision is significant as it's the first time an English court has considered the application of the Italian Supreme Court's \"Cattolica\" decision on the validity of swaps under Italian law to an English law contract. The court addressed key issues including the capacity of Italian public bodies to execute swap contracts and the interpretation of the Cattolica decision.",
+      "url": "https://www.traverssmith.com/knowledge/knowledge-container/deutsche-bank-v-busto-the-latest-chapter-in-the-italian-swaps-saga/",
+      "source": "Travers Smith",
+      "published": "20211022T200250",
+      "overall_sentiment_score": 0.181061,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.22261,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.595558
+    },
+    {
       "title": "MainStreet Bank Unveils Avenu™ Platform to Serve Fintech Partners",
       "summary": "MainStreet Bank has launched its new Avenu™ platform, a technology solution designed to provide \"Banking as a Service\" (BaaS) for fintech partners. Avenu™ aims to streamline banking and payment needs for fintechs, helping them manage risk, meet compliance, and accept deposits. This initiative leverages MainStreet Bank's decade of experience in BaaS to serve the growing fintech market.",
       "url": "https://www.prnewswire.com/news-releases/mainstreet-bank-unveils-avenu-platform-to-serve-fintech-partners-301407057.html",
@@ -235,28 +247,16 @@
       "relevance_score": 0.56935
     },
     {
-      "title": "Planning for Austin growth, JPMorgan Chase leases two floors in downtown tower",
-      "summary": "JPMorgan Chase & Co. has leased the top two floors of the 405 Colorado office tower in downtown Austin, signaling its commitment to grow with Central Texas. The company plans to increase its private bank headcount by 70% and move its Austin headquarters to the new building by the fourth quarter of next year, accommodating 141 employees with room for expansion. This move comes as JPMorgan Chase continues to expand its presence in the Austin metro, currently holding an 18.7% market share with nearly $11.6 billion in deposits.",
-      "url": "https://www.statesman.com/story/business/2021/10/12/jpmorgan-chase-leases-two-floors-downtown-austin-tower/8425309002/",
-      "source": "Austin American-Statesman",
-      "published": "20211012T193543",
-      "overall_sentiment_score": 0.22975,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.402456,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "Value stocks are unloved, unsexy, and poised to make a killing over the next decade",
-      "summary": "This article argues that \"value stocks,\" despite being currently overlooked, are set to significantly outperform \"growth stocks\" over the next decade. Research Affiliates' study indicates that value stocks are priced at their lowest relative to growth stocks since the dot-com bubble, suggesting potential inflation-adjusted returns of 5% to 10%. The report highlights energy, retailers, and auto parts as key value plays and suggests specific funds like T. Rowe Price Value Fund (TRVLX) and Vanguard Value ETF (VTV) for investors.",
-      "url": "https://fortune.com/2021/10/14/value-stocks-outlook-investing-what-stocks-to-buy-radmfent-vtv-dflvx/",
-      "source": "Fortune",
-      "published": "20211014T204638",
-      "overall_sentiment_score": 0.347865,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.315511,
+      "title": "Minas Buenaventura emite bonos por 550 millones de dólares con el apoyo de García Sayán, Miranda & Amado y Milbank",
+      "summary": "Compañía de Minas Buenaventura SAA, la principal minera de metales preciosos en Perú, ha emitido pagarés senior no garantizados por 550 millones de dólares. Los fondos se utilizarán para prepagar la deuda tributaria de la empresa y fortalecer su perfil crediticio, reduciendo costos y liberando líneas de crédito. La operación contó con el asesoramiento legal de Milbank LLP y García Sayán Abogados para Buenaventura, y Cleary, Gottlieb, Steen & Hamilton LLP y Miranda & Amado para los coordinadores globales de la emisión.",
+      "url": "https://liderlegal.com/minas-buenaventura-emite-bonos-por-550-millones-de-dolares-con-el-apoyo-de-garcia-sayan-miranda-amado-y-milbank/",
+      "source": "Líder Legal",
+      "published": "20211017T172817",
+      "overall_sentiment_score": 0.394489,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.198271,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.620623
+      "relevance_score": 0.562208
     }
   ]
 }

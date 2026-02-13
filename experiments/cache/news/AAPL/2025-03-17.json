@@ -43,18 +43,6 @@
       "relevance_score": 0.633343
     },
     {
-      "title": "Why FCF ETF 'VFLO' Looks Strong in 2025",
-      "summary": "The VictoryShares Free Cash Flow ETF (VFLO) demonstrated strong demand in 2024 and is well-positioned for 2025, offering diversification, attractive valuations, and strong historical returns. VFLO targets large-cap U.S. companies with high free cash flow yields, excluding \"Magnificent Seven\" stocks, making it a valuable complement to broad benchmarks. Its performance in 2024, generating a nearly 22% return, highlights its potential to improve value exposure in portfolios.",
-      "url": "https://www.etftrends.com/free-cash-flow-channel/fcf-etf-vflo-looks-strong-heading-2025/",
-      "source": "ETF Trends",
-      "published": "20250310T050921",
-      "overall_sentiment_score": 0.066871,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.148485,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.606541
-    },
-    {
       "title": "Rockwell Automation Poised to Gain From U.S. Tariffs & Onshoring",
       "summary": "Rockwell Automation stands to benefit significantly from U.S. tariffs and the growing trend of onshoring manufacturing back to the United States. The company, which produces industrial automation equipment and has over 70% of its products \"Made in America,\" is well-positioned to capitalize on increased domestic production spurred by trade policies. Despite conservative guidance, analysts maintain a \"Moderate Buy\" rating, anticipating that Rockwell will mitigate tariff impacts and emerge as a net beneficiary.",
       "url": "https://www.marketbeat.com/originals/rockwell-automation-poised-to-gain-from-us-tariffs-and-onshoring/",
@@ -65,6 +53,18 @@
       "ticker_sentiment_score": 0.208713,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.61844
+    },
+    {
+      "title": "Why FCF ETF 'VFLO' Looks Strong in 2025",
+      "summary": "The VictoryShares Free Cash Flow ETF (VFLO) demonstrated strong demand in 2024 and is well-positioned for 2025, offering diversification, attractive valuations, and strong historical returns. VFLO targets large-cap U.S. companies with high free cash flow yields, excluding \"Magnificent Seven\" stocks, making it a valuable complement to broad benchmarks. Its performance in 2024, generating a nearly 22% return, highlights its potential to improve value exposure in portfolios.",
+      "url": "https://www.etftrends.com/free-cash-flow-channel/fcf-etf-vflo-looks-strong-heading-2025/",
+      "source": "ETF Trends",
+      "published": "20250310T050921",
+      "overall_sentiment_score": 0.066871,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.148485,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.606541
     }
   ]
 }

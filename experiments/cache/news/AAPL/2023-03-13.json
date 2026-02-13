@@ -19,6 +19,18 @@
       "relevance_score": 1.0
     },
     {
+      "title": "From Apple to Boeing, India is being put to the test as China manufacturing alternative",
+      "summary": "India is emerging as a potential manufacturing alternative to China, attracting major companies like Boeing and Apple. While significant deals, such as Boeing's record-breaking aircraft order, signal growing ties, India faces substantial hurdles including bureaucracy, lagging infrastructure, and red tape in its ambition to become a global manufacturing hub. Despite these challenges, India's economic growth projections and strategic partnerships indicate a strong push towards self-reliance and increased integration into global supply chains.",
+      "url": "https://www.cnbc.com/2023/03/12/from-apple-to-boeing-india-is-being-put-to-the-test-as-the-new-china.html",
+      "source": "CNBC",
+      "published": "20230312T105900",
+      "overall_sentiment_score": 0.211787,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.228494,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.760597
+    },
+    {
       "title": "VT vs ACWI ETF: Which is the Best World ETF?",
       "summary": "This article compares two popular World ETFs, Vanguard's Total World Stock Index Fund ETF (VT) and iShares' MSCI ACWI ETF (ACWI), to help investors decide which is best for their portfolio. It delves into their differences in expense ratios, underlying indices, geographical breakdown, number of constituents, dividend yields, and fund managers, as well as their similarities in strategy, purpose, returns, liquidity, and sector breakdown. The author concludes that VT offers a lower expense ratio and exposure to smaller-cap companies, which might appeal to investors seeking that longer-tail exposure.",
       "url": "https://drwealth.com/vt-vs-acwi-etf/",
@@ -65,18 +77,6 @@
       "ticker_sentiment_score": 0.216959,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.617281
-    },
-    {
-      "title": "From Apple to Boeing, India is being put to the test as China manufacturing alternative",
-      "summary": "India is emerging as a potential manufacturing alternative to China, attracting major companies like Boeing and Apple. While significant deals, such as Boeing's record-breaking aircraft order, signal growing ties, India faces substantial hurdles including bureaucracy, lagging infrastructure, and red tape in its ambition to become a global manufacturing hub. Despite these challenges, India's economic growth projections and strategic partnerships indicate a strong push towards self-reliance and increased integration into global supply chains.",
-      "url": "https://www.cnbc.com/2023/03/12/from-apple-to-boeing-india-is-being-put-to-the-test-as-the-new-china.html",
-      "source": "CNBC",
-      "published": "20230312T105900",
-      "overall_sentiment_score": 0.211787,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.228494,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.760597
     },
     {
       "title": "Virtual try-on is being hit by class actions. Should brands worry?",

@@ -7,64 +7,28 @@
   "article_count": 14,
   "articles": [
     {
-      "title": "ADSK Earnings: Autodesk Q3 2025 earnings rise on double-digit revenue growth",
-      "summary": "Autodesk (NASDAQ: ADSK) reported a significant increase in adjusted earnings for the third quarter of 2025, driven by double-digit revenue growth. The company's net income rose to $275 million, or $1.27 per share, while adjusted earnings reached $2.17 per share, marking a 5% year-over-year increase. Third-quarter revenues climbed 11% annually to $1.57 billion, with its core Subscription business also experiencing an 11% growth.",
-      "url": "https://news.alphastreet.com/adsk-earnings-autodesk-q3-2025-earnings-rise-on-double-digit-revenue-growth/",
-      "source": "AlphaStreet",
-      "published": "20241127T000000",
-      "overall_sentiment_score": 0.195038,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.132674,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.645458
+      "title": "Exxon-LyondellBasell JV Cyclyx plans 2nd recycling facility after developing one in Houston",
+      "summary": "Cyclyx International LLC, a joint venture involving Exxon Mobil Corp., LyondellBasell, and Agilyx, is planning its second recycling facility in the Fort Worth area. This new center represents a $135 million investment. This follows the development of their first facility in Houston.",
+      "url": "https://www.bizjournals.com/houston/news/2024/11/26/cyclyx-plans-second-recycling-facility-dallas-area.html",
+      "source": "The Business Journals",
+      "published": "20241126T000000",
+      "overall_sentiment_score": 0.434997,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.401533,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.949542
     },
     {
-      "title": "Occidental CEO warns U.S. at risk of shale plateau, losing energy independence",
-      "summary": "The CEO of Occidental Petroleum warns that the U.S. risks losing its energy independence if shale output plateaus and declines, which could happen within the next five years. While the U.S. currently produces over 13 million bpd, experts project the Permian Basin to peak at just over 7 million bpd by the end of the decade before a gradual decline. The article highlights concerns about the lifespan of drilling inventory in both the Delaware and Midland sub-basins of the Permian.",
-      "url": "https://worldoil.com/news/2024/11/22/occidental-ceo-warns-u-s-at-risk-of-shale-plateau-losing-energy-independence/",
-      "source": "World Oil",
+      "title": "Putin’s pipeline: How the Kremlin outmaneuvered Western oil companies to wrest control of vast flows of Kazakhstan’s crude",
+      "summary": "This article details how the Kremlin gradually gained control over the Caspian Pipeline Consortium (CPC), outmaneuvering Western oil companies like Chevron, despite significant financial investments and environmental concerns. It highlights allegations of corruption, the use of strong-arm tactics by Russia, and how the pipeline became a geopolitical tool for Putin, especially amid the war in Ukraine. The investigation also reveals how Western companies and governments lobbied to keep the CPC pipeline exempt from sanctions due to its critical role in global oil supply.",
+      "url": "https://www.icij.org/investigations/caspian-cabals/kazakhstan-caspian-oil-pipeline-russia-chevron/",
+      "source": "International Consortium of Investigative Journalists - ICIJ",
       "published": "20241122T000000",
-      "overall_sentiment_score": 0.169065,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.138192,
+      "overall_sentiment_score": -0.138123,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.008519,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.605905
-    },
-    {
-      "title": "INTU Earnings: Intuit Q1 2025 adj. profit rises on higher revenues",
-      "summary": "Intuit Inc. (NASDAQ: INTU) reported its Q1 2025 results, showing a modest increase in adjusted earnings to $2.50 per share, up from $2.47 per share in Q1 2024. The company's revenue grew to $3.28 billion, driven by a 9% increase in the Global Business Solutions segment. However, unadjusted net income per share decreased to $0.70 from $0.85 in the prior-year quarter.",
-      "url": "https://news.alphastreet.com/intu-earnings-intuit-q1-2025-adj-profit-drops-despite-higher-revenues/",
-      "source": "AlphaStreet",
-      "published": "20241121T000000",
-      "overall_sentiment_score": 0.219588,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.142052,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.626232
-    },
-    {
-      "title": "The geothermal industry has a potential ally in Chris Wright",
-      "summary": "The article discusses the potential implications of Chris Wright's nomination as the next Secretary of Energy for the enhanced geothermal industry. Wright, CEO of fracking company Liberty Energy and an investor in Fervo Energy, brings a background in oil and gas technologies that are increasingly being adopted by advanced geothermal companies. While some in the geothermal sector see his appointment as a potential boon for increased funding and regulatory support, others express concerns about his climate change skepticism and its implications for broader energy policy.",
-      "url": "https://www.latitudemedia.com/news/chris-wright-and-the-fate-of-geothermal/",
-      "source": "Latitude Media",
-      "published": "20241120T000000",
-      "overall_sentiment_score": 0.232327,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.111562,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.556394
-    },
-    {
-      "title": "MDT Earnings: Highlights of Medtronic’s Q2 2025 financial results",
-      "summary": "Medtronic (NYSE: MDT) reported a modest increase in revenues and adjusted profit for the second quarter of 2025, with adjusted earnings growing 1% year-over-year to $1.26 per share. All four operating segments contributed to the revenue increase, bringing total revenues to approximately $8.4 billion, and the company expects organic revenue growth of 4.75-5.0% for fiscal 2025.",
-      "url": "https://news.alphastreet.com/mdt-earnings-highlights-of-medtronics-q2-2025-financial-results/",
-      "source": "AlphaStreet",
-      "published": "20241119T000000",
-      "overall_sentiment_score": 0.204119,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.188597,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.628641
+      "relevance_score": 0.748179
     },
     {
       "title": "Trump picks oil services CEO Chris Wright to lead Energy Department, alarming climate groups",
@@ -91,16 +55,16 @@
       "relevance_score": 0.70638
     },
     {
-      "title": "Putin’s pipeline: How the Kremlin outmaneuvered Western oil companies to wrest control of vast flows of Kazakhstan’s crude",
-      "summary": "This article details how the Kremlin gradually gained control over the Caspian Pipeline Consortium (CPC), outmaneuvering Western oil companies like Chevron, despite significant financial investments and environmental concerns. It highlights allegations of corruption, the use of strong-arm tactics by Russia, and how the pipeline became a geopolitical tool for Putin, especially amid the war in Ukraine. The investigation also reveals how Western companies and governments lobbied to keep the CPC pipeline exempt from sanctions due to its critical role in global oil supply.",
-      "url": "https://www.icij.org/investigations/caspian-cabals/kazakhstan-caspian-oil-pipeline-russia-chevron/",
-      "source": "International Consortium of Investigative Journalists - ICIJ",
-      "published": "20241122T000000",
-      "overall_sentiment_score": -0.138123,
+      "title": "Global Partners to preserve East Providence golf course in ExxonMobil land deal",
+      "summary": "Global Partners LP, which recently acquired 730 acres from ExxonMobil Oil Corp. in East Providence, has been asked by Mayor Bob DaSilva to consider public use in their land decisions. This acquisition includes the land where the Silver Spring Golf Club is located. The future of the golf course is a point of discussion following this significant land deal.",
+      "url": "https://www.bizjournals.com/rhodeisland/news/2024/11/20/global-partners-buys-730-acres-in-east-providence.html",
+      "source": "The Business Journals",
+      "published": "20241120T000000",
+      "overall_sentiment_score": 0.110662,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.008519,
+      "ticker_sentiment_score": 0.140136,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.748179
+      "relevance_score": 0.7033
     },
     {
       "title": "Baker Hughes Opens Largest Liquid Mud Plant in Namibia to Support Energy Industry Growth | BKR Stock News",
@@ -115,6 +79,18 @@
       "relevance_score": 0.679923
     },
     {
+      "title": "ADSK Earnings: Autodesk Q3 2025 earnings rise on double-digit revenue growth",
+      "summary": "Autodesk (NASDAQ: ADSK) reported a significant increase in adjusted earnings for the third quarter of 2025, driven by double-digit revenue growth. The company's net income rose to $275 million, or $1.27 per share, while adjusted earnings reached $2.17 per share, marking a 5% year-over-year increase. Third-quarter revenues climbed 11% annually to $1.57 billion, with its core Subscription business also experiencing an 11% growth.",
+      "url": "https://news.alphastreet.com/adsk-earnings-autodesk-q3-2025-earnings-rise-on-double-digit-revenue-growth/",
+      "source": "AlphaStreet",
+      "published": "20241127T000000",
+      "overall_sentiment_score": 0.195038,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.132674,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.645458
+    },
+    {
       "title": "Henry Schein shake-up sought by investment fund that calls for cost cuts, higher profits, new board",
       "summary": "An investment fund, Ananym Capital Management LP, is pushing for significant changes at Henry Schein Inc., including a shake-up of its board of directors, cost reductions, and increased profits. This comes after Henry Schein reported a decline in profits and revenue last year. Ananym also suggests selling the medical distribution unit and developing a succession plan for longtime CEO Stanley M. Bergman.",
       "url": "https://www.newsday.com/business/henry-schein-board-stock-price-x7y7i9iq",
@@ -125,6 +101,30 @@
       "ticker_sentiment_score": 0.126796,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.637761
+    },
+    {
+      "title": "MDT Earnings: Highlights of Medtronic’s Q2 2025 financial results",
+      "summary": "Medtronic (NYSE: MDT) reported a modest increase in revenues and adjusted profit for the second quarter of 2025, with adjusted earnings growing 1% year-over-year to $1.26 per share. All four operating segments contributed to the revenue increase, bringing total revenues to approximately $8.4 billion, and the company expects organic revenue growth of 4.75-5.0% for fiscal 2025.",
+      "url": "https://news.alphastreet.com/mdt-earnings-highlights-of-medtronics-q2-2025-financial-results/",
+      "source": "AlphaStreet",
+      "published": "20241119T000000",
+      "overall_sentiment_score": 0.204119,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.188597,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.628641
+    },
+    {
+      "title": "INTU Earnings: Intuit Q1 2025 adj. profit rises on higher revenues",
+      "summary": "Intuit Inc. (NASDAQ: INTU) reported its Q1 2025 results, showing a modest increase in adjusted earnings to $2.50 per share, up from $2.47 per share in Q1 2024. The company's revenue grew to $3.28 billion, driven by a 9% increase in the Global Business Solutions segment. However, unadjusted net income per share decreased to $0.70 from $0.85 in the prior-year quarter.",
+      "url": "https://news.alphastreet.com/intu-earnings-intuit-q1-2025-adj-profit-drops-despite-higher-revenues/",
+      "source": "AlphaStreet",
+      "published": "20241121T000000",
+      "overall_sentiment_score": 0.219588,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.142052,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.626232
     },
     {
       "title": "Repsol sells Colombian oil and gas assets for $530 million",
@@ -139,30 +139,6 @@
       "relevance_score": 0.62387
     },
     {
-      "title": "Exxon-LyondellBasell JV Cyclyx plans 2nd recycling facility after developing one in Houston",
-      "summary": "Cyclyx International LLC, a joint venture involving Exxon Mobil Corp., LyondellBasell, and Agilyx, is planning its second recycling facility in the Fort Worth area. This new center represents a $135 million investment. This follows the development of their first facility in Houston.",
-      "url": "https://www.bizjournals.com/houston/news/2024/11/26/cyclyx-plans-second-recycling-facility-dallas-area.html",
-      "source": "The Business Journals",
-      "published": "20241126T000000",
-      "overall_sentiment_score": 0.434997,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.401533,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.949542
-    },
-    {
-      "title": "Global Partners to preserve East Providence golf course in ExxonMobil land deal",
-      "summary": "Global Partners LP, which recently acquired 730 acres from ExxonMobil Oil Corp. in East Providence, has been asked by Mayor Bob DaSilva to consider public use in their land decisions. This acquisition includes the land where the Silver Spring Golf Club is located. The future of the golf course is a point of discussion following this significant land deal.",
-      "url": "https://www.bizjournals.com/rhodeisland/news/2024/11/20/global-partners-buys-730-acres-in-east-providence.html",
-      "source": "The Business Journals",
-      "published": "20241120T000000",
-      "overall_sentiment_score": 0.110662,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.140136,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.7033
-    },
-    {
       "title": "New York’s plastic lawsuit against PepsiCo has been dismissed. What’s next?",
       "summary": "A New York state Supreme Court judge dismissed a plastic pollution lawsuit against PepsiCo, labeling it \"predatory.\" This decision raises questions about similar pending lawsuits nationwide, though environmental attorneys express confidence that analogous litigation can still succeed elsewhere, citing potential appeals and the legal merits of public nuisance and consumer protection claims related to plastic waste.",
       "url": "https://grist.org/accountability/new-yorks-plastic-lawsuit-against-pepsico-has-been-dismissed-whats-next/",
@@ -173,6 +149,30 @@
       "ticker_sentiment_score": -0.111719,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.613345
+    },
+    {
+      "title": "Occidental CEO warns U.S. at risk of shale plateau, losing energy independence",
+      "summary": "The CEO of Occidental Petroleum warns that the U.S. risks losing its energy independence if shale output plateaus and declines, which could happen within the next five years. While the U.S. currently produces over 13 million bpd, experts project the Permian Basin to peak at just over 7 million bpd by the end of the decade before a gradual decline. The article highlights concerns about the lifespan of drilling inventory in both the Delaware and Midland sub-basins of the Permian.",
+      "url": "https://worldoil.com/news/2024/11/22/occidental-ceo-warns-u-s-at-risk-of-shale-plateau-losing-energy-independence/",
+      "source": "World Oil",
+      "published": "20241122T000000",
+      "overall_sentiment_score": 0.169065,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.138192,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.605905
+    },
+    {
+      "title": "The geothermal industry has a potential ally in Chris Wright",
+      "summary": "The article discusses the potential implications of Chris Wright's nomination as the next Secretary of Energy for the enhanced geothermal industry. Wright, CEO of fracking company Liberty Energy and an investor in Fervo Energy, brings a background in oil and gas technologies that are increasingly being adopted by advanced geothermal companies. While some in the geothermal sector see his appointment as a potential boon for increased funding and regulatory support, others express concerns about his climate change skepticism and its implications for broader energy policy.",
+      "url": "https://www.latitudemedia.com/news/chris-wright-and-the-fate-of-geothermal/",
+      "source": "Latitude Media",
+      "published": "20241120T000000",
+      "overall_sentiment_score": 0.232327,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.111562,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.556394
     }
   ]
 }

@@ -19,6 +19,18 @@
       "relevance_score": 1.0
     },
     {
+      "title": "JPMorgan is fined $200 million after staff used personal chats for company business.",
+      "summary": "JPMorgan Chase was fined $200 million by regulators for failing to track work-related communications made by employees on personal devices, including text messages and WhatsApp, from 2018 to 2020. The Securities and Exchange Commission (SEC) issued a $125 million fine, while the Commodity Futures Trading Commission (CFTC) fined the bank $75 million for similar misconduct dating back to 2015. This action serves as a warning to Wall Street and has prompted investigations into other financial firms regarding their record-keeping practices.",
+      "url": "https://www.nytimes.com/2021/12/17/business/jpmorgan-chase-fine.html",
+      "source": "The New York Times",
+      "published": "20211217T193543",
+      "overall_sentiment_score": -0.149558,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.328489,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
+    },
+    {
       "title": "JPMorgan hit with $200 million in fines for letting employees use WhatsApp to evade regulators' reach",
       "summary": "JPMorgan Chase has been fined $200 million by two U.S. banking regulators for allowing its employees to use WhatsApp and other unauthorized platforms for business communications, violating federal record-keeping laws. The SEC levied a $125 million fine, and the CFTC an additional $75 million, highlighting a widespread practice across the firm, including among compliance managers. This action signals a ratcheting up of enforcement by regulators against banks using unapproved messaging channels, especially as remote work became prevalent during the pandemic.",
       "url": "https://www.cnbc.com/2021/12/17/jpmorgan-agrees-to-125-million-fine-for-letting-employees-use-whatsapp-to-evade-regulators.html",
@@ -29,30 +41,6 @@
       "ticker_sentiment_score": -0.426574,
       "ticker_sentiment_label": "Bearish",
       "relevance_score": 0.988458
-    },
-    {
-      "title": "Samsara IPO: 5 things about the cloud-based operations company",
-      "summary": "Samsara Inc. announced its initial public offering priced at $23 a share, aiming to tap into an estimated $55 billion market for digitizing non-tech company operations. The stock will trade on the New York Stock Exchange under the ticker \"IOT\". Morgan Stanley, Goldman Sachs, JPMorgan, and Allen & Co. served as lead underwriters for the deal.",
-      "url": "https://www.marketwatch.com/story/samsara-ipo-5-things-about-the-cloud-based-operations-company-11639435572?gaa_at=eafs&gaa_n=AWEtsqddQc_O8lGJ5V2ujCce5tZkB4OgLQQyoJuX2E-yiQjSDyoLMgwJRRzc&gaa_ts=6907c2e9&gaa_sig=xn1dpvGwWk-Vk0Rj28x0FFGjbo0InB-k_Wy52JMsvgTaqdBkL0pFXulRCxirbXYrthj_EO6hwUwGbmAtopdpAQ%3D%3D",
-      "source": "MarketWatch",
-      "published": "20211213T174600",
-      "overall_sentiment_score": 0.222083,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.192393,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.606881
-    },
-    {
-      "title": "Capital One Is Nation’s No. 1 Bank in Customer Satisfaction, Says JD Power",
-      "summary": "Capital One has been named the top retail bank in the US for overall customer satisfaction for the second consecutive year by J.D. Power, outscoring eight other national banks. The study highlights convenience, tailored account offerings, and helping customers save time or money as core drivers of satisfaction, with Capital One's elimination of overdraft fees cited as a key personalizing move. The bank achieved a score of 692 out of 1,000, performing highest in digital channels, helping customers save money, and flexible banking options.",
-      "url": "https://futurumgroup.com/news/capital-one-is-nations-no-1-bank-in-customer-satisfaction-says-jd-power/",
-      "source": "The Futurum Group",
-      "published": "20211227T195752",
-      "overall_sentiment_score": 0.161554,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.140209,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.617324
     },
     {
       "title": "New middle market banking leader at JPMorgan Chase in Pittsburgh",
@@ -67,90 +55,6 @@
       "relevance_score": 0.915782
     },
     {
-      "title": "Biotech company Senti Bio to go public via $600 mln SPAC deal",
-      "summary": "Biotechnology company Senti Biosciences Inc. is set to go public through a merger with the blank-check firm Dynamics Special Purpose Corp (DYNS.O) in a deal valued at $601 million. Senti Bio, known for its gene circuit technology platform, specializes in engineering DNA to create cell and gene therapies capable of sensing and responding to ailments within the human body. The deal is expected to generate over $296 million in gross proceeds, including a $66 million PIPE investment from Amgen Inc (AMGN.O) and other funds, with the merger anticipated to close in Q2 2022.",
-      "url": "https://www.reuters.com/markets/us/biotech-company-senti-bio-go-public-via-600-mln-spac-deal-2021-12-20/",
-      "source": "Reuters",
-      "published": "20211220T165700",
-      "overall_sentiment_score": 0.322292,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.323929,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.62505
-    },
-    {
-      "title": "Medical City-Plano CEO Appointed to American Hospital Association Board",
-      "summary": "Medical City-Plano CEO Jyric Sims has been appointed to the American Hospital Association's Regional Policy 7 Board for a two-year term. The article also details several other significant personnel moves across various companies, including new CFOs, COOs, VPs, and partners at firms like Texas Capital Bancshares, Meritize, Jamco Interests, Service King, Sidley Austin, and Whitley Penn.",
-      "url": "https://www.dmagazine.com/business-economy/2021/12/medical-city-plano-ceo-appointed-to-american-hospital-association-board/",
-      "source": "D Magazine",
-      "published": "20211220T100000",
-      "overall_sentiment_score": 0.189157,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.136652,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.620948
-    },
-    {
-      "title": "Wilson Sonsini AdviSes Samsara on $805 Million IPO",
-      "summary": "Wilson Sonsini represented Samsara in its initial public offering, which raised $805 million by pricing 35,000,000 shares of Class A common stock at $23 per share. The shares began trading on the New York Stock Exchange under the symbol \"IOT\" on December 15, 2021, and the offering closed on December 17. Morgan Stanley, Goldman Sachs & Co. LLC, J.P. Morgan, and Allen & Company LLC served as lead book-running managers.",
-      "url": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-samsara-on-dollar805-million-ipo.html",
-      "source": "Wilson Sonsini",
-      "published": "20211217T203200",
-      "overall_sentiment_score": 0.389499,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.311358,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.610895
-    },
-    {
-      "title": "JPMorgan is fined $200 million after staff used personal chats for company business.",
-      "summary": "JPMorgan Chase was fined $200 million by regulators for failing to track work-related communications made by employees on personal devices, including text messages and WhatsApp, from 2018 to 2020. The Securities and Exchange Commission (SEC) issued a $125 million fine, while the Commodity Futures Trading Commission (CFTC) fined the bank $75 million for similar misconduct dating back to 2015. This action serves as a warning to Wall Street and has prompted investigations into other financial firms regarding their record-keeping practices.",
-      "url": "https://www.nytimes.com/2021/12/17/business/jpmorgan-chase-fine.html",
-      "source": "The New York Times",
-      "published": "20211217T193543",
-      "overall_sentiment_score": -0.149558,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.328489,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 1.0
-    },
-    {
-      "title": "Ralph Giacobbe Joins Cigna as Head of Investor Relations",
-      "summary": "Cigna Corporation announced that Ralph Giacobbe will join the company as Senior Vice President and Head of Investor Relations, effective January 2022. Mr. Giacobbe, previously Head of U.S. Health Care at Citigroup, brings over two decades of experience in the healthcare sector. He will report to Cigna CFO Brian Evanko and is expected to be a valuable asset due to his industry expertise and strong relationships in the investment community.",
-      "url": "https://newsroom.thecignagroup.com/2021-12-16-Ralph-Giacobbe-Joins-Cigna-as-Head-of-Investor-Relations",
-      "source": "The Cigna Group Newsroom",
-      "published": "20211216T195705",
-      "overall_sentiment_score": 0.176941,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.10028,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.626755
-    },
-    {
-      "title": "LEO LIEBOWITZ Obituary (2021) - New York, NY - New York Times",
-      "summary": "Leo Liebowitz, a remarkable entrepreneur, passed away on December 12, 2021, at the age of 94. He built a vast business empire starting from a gas station, eventually acquiring Getty trademark and establishing Getty Petroleum Corp as the largest independent marketer of gasoline on the East Coast. Leo, known for his integrity, kindness, and dedication to family, left a lasting legacy through his business acumen and philanthropic endeavors.",
-      "url": "https://www.legacy.com/us/obituaries/nytimes/name/leo-liebowitz-obituary?id=31880247",
-      "source": "Legacy obituary",
-      "published": "20211215T202242",
-      "overall_sentiment_score": 0.347621,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.218738,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.645401
-    },
-    {
-      "title": "Morgan Stanley-backed Bitcoin firm NYDIG raises $1 billion",
-      "summary": "NYDIG, a Bitcoin servicer backed by Morgan Stanley, raised $1 billion in its latest funding round, valuing the company at over $7 billion. This significant investment highlights increasing Wall Street interest in the crypto space and will be used to develop NYDIG's Bitcoin platform and accelerate client onboarding. The firm offers private wealth clients of major banks access to Bitcoin funds and expects to expand its crypto product offerings through various financial institutions in 2022.",
-      "url": "https://www.investmentnews.com/alternatives/morgan-stanley-backed-bitcoin-firm-nydig-raises-1-billion/215108",
-      "source": "InvestmentNews",
-      "published": "20211214T204734",
-      "overall_sentiment_score": 0.311184,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.336822,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.618871
-    },
-    {
       "title": "Bank of America says New York employees may work from home over holidays",
       "summary": "Bank of America announced that its New York-based employees can work from home during the holidays due to the spreading Omicron variant. The bank will also provide free COVID-19 test kits and offer booster shots, following similar measures by other financial firms like Citigroup and JPMorgan Chase. This comes as financial institutions adjust plans amid rising coronavirus infections and the World Health Organization warns about the Omicron variant's rapid spread.",
       "url": "https://www.reuters.com/markets/europe/us-banks-tighten-covid-19-precautions-omicron-variant-spreads-2021-12-16/",
@@ -163,16 +67,16 @@
       "relevance_score": 0.648528
     },
     {
-      "title": "Packaging maker Sonoco to acquire Ball Metalpack for $1.35 bln",
-      "summary": "Sonoco Products Co announced it will acquire Ball Metalpack for $1.35 billion in cash to expand its sustainable packing portfolio. The acquisition is expected to generate significant tax benefits and strengthen Sonoco's cash flow and earnings. Ball Metalpack's current boss, Jim Peterson, will continue to lead the company within Sonoco's consumer packaging division.",
-      "url": "https://www.reuters.com/markets/deals/sonoco-acquire-ball-metalpack-135-bln-2021-12-20/",
-      "source": "Reuters",
-      "published": "20211220T172000",
-      "overall_sentiment_score": 0.126098,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.146435,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.62137
+      "title": "LEO LIEBOWITZ Obituary (2021) - New York, NY - New York Times",
+      "summary": "Leo Liebowitz, a remarkable entrepreneur, passed away on December 12, 2021, at the age of 94. He built a vast business empire starting from a gas station, eventually acquiring Getty trademark and establishing Getty Petroleum Corp as the largest independent marketer of gasoline on the East Coast. Leo, known for his integrity, kindness, and dedication to family, left a lasting legacy through his business acumen and philanthropic endeavors.",
+      "url": "https://www.legacy.com/us/obituaries/nytimes/name/leo-liebowitz-obituary?id=31880247",
+      "source": "Legacy obituary",
+      "published": "20211215T202242",
+      "overall_sentiment_score": 0.347621,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.218738,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.645401
     },
     {
       "title": "Dividends Will Be Important Inflation Buffers in 2022",
@@ -199,6 +103,90 @@
       "relevance_score": 0.645082
     },
     {
+      "title": "Ralph Giacobbe Joins Cigna as Head of Investor Relations",
+      "summary": "Cigna Corporation announced that Ralph Giacobbe will join the company as Senior Vice President and Head of Investor Relations, effective January 2022. Mr. Giacobbe, previously Head of U.S. Health Care at Citigroup, brings over two decades of experience in the healthcare sector. He will report to Cigna CFO Brian Evanko and is expected to be a valuable asset due to his industry expertise and strong relationships in the investment community.",
+      "url": "https://newsroom.thecignagroup.com/2021-12-16-Ralph-Giacobbe-Joins-Cigna-as-Head-of-Investor-Relations",
+      "source": "The Cigna Group Newsroom",
+      "published": "20211216T195705",
+      "overall_sentiment_score": 0.176941,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.10028,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.626755
+    },
+    {
+      "title": "Biotech company Senti Bio to go public via $600 mln SPAC deal",
+      "summary": "Biotechnology company Senti Biosciences Inc. is set to go public through a merger with the blank-check firm Dynamics Special Purpose Corp (DYNS.O) in a deal valued at $601 million. Senti Bio, known for its gene circuit technology platform, specializes in engineering DNA to create cell and gene therapies capable of sensing and responding to ailments within the human body. The deal is expected to generate over $296 million in gross proceeds, including a $66 million PIPE investment from Amgen Inc (AMGN.O) and other funds, with the merger anticipated to close in Q2 2022.",
+      "url": "https://www.reuters.com/markets/us/biotech-company-senti-bio-go-public-via-600-mln-spac-deal-2021-12-20/",
+      "source": "Reuters",
+      "published": "20211220T165700",
+      "overall_sentiment_score": 0.322292,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.323929,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.62505
+    },
+    {
+      "title": "Packaging maker Sonoco to acquire Ball Metalpack for $1.35 bln",
+      "summary": "Sonoco Products Co announced it will acquire Ball Metalpack for $1.35 billion in cash to expand its sustainable packing portfolio. The acquisition is expected to generate significant tax benefits and strengthen Sonoco's cash flow and earnings. Ball Metalpack's current boss, Jim Peterson, will continue to lead the company within Sonoco's consumer packaging division.",
+      "url": "https://www.reuters.com/markets/deals/sonoco-acquire-ball-metalpack-135-bln-2021-12-20/",
+      "source": "Reuters",
+      "published": "20211220T172000",
+      "overall_sentiment_score": 0.126098,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.146435,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62137
+    },
+    {
+      "title": "Medical City-Plano CEO Appointed to American Hospital Association Board",
+      "summary": "Medical City-Plano CEO Jyric Sims has been appointed to the American Hospital Association's Regional Policy 7 Board for a two-year term. The article also details several other significant personnel moves across various companies, including new CFOs, COOs, VPs, and partners at firms like Texas Capital Bancshares, Meritize, Jamco Interests, Service King, Sidley Austin, and Whitley Penn.",
+      "url": "https://www.dmagazine.com/business-economy/2021/12/medical-city-plano-ceo-appointed-to-american-hospital-association-board/",
+      "source": "D Magazine",
+      "published": "20211220T100000",
+      "overall_sentiment_score": 0.189157,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.136652,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.620948
+    },
+    {
+      "title": "Morgan Stanley-backed Bitcoin firm NYDIG raises $1 billion",
+      "summary": "NYDIG, a Bitcoin servicer backed by Morgan Stanley, raised $1 billion in its latest funding round, valuing the company at over $7 billion. This significant investment highlights increasing Wall Street interest in the crypto space and will be used to develop NYDIG's Bitcoin platform and accelerate client onboarding. The firm offers private wealth clients of major banks access to Bitcoin funds and expects to expand its crypto product offerings through various financial institutions in 2022.",
+      "url": "https://www.investmentnews.com/alternatives/morgan-stanley-backed-bitcoin-firm-nydig-raises-1-billion/215108",
+      "source": "InvestmentNews",
+      "published": "20211214T204734",
+      "overall_sentiment_score": 0.311184,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.336822,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.618871
+    },
+    {
+      "title": "Capital One Is Nation’s No. 1 Bank in Customer Satisfaction, Says JD Power",
+      "summary": "Capital One has been named the top retail bank in the US for overall customer satisfaction for the second consecutive year by J.D. Power, outscoring eight other national banks. The study highlights convenience, tailored account offerings, and helping customers save time or money as core drivers of satisfaction, with Capital One's elimination of overdraft fees cited as a key personalizing move. The bank achieved a score of 692 out of 1,000, performing highest in digital channels, helping customers save money, and flexible banking options.",
+      "url": "https://futurumgroup.com/news/capital-one-is-nations-no-1-bank-in-customer-satisfaction-says-jd-power/",
+      "source": "The Futurum Group",
+      "published": "20211227T195752",
+      "overall_sentiment_score": 0.161554,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.140209,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.617324
+    },
+    {
+      "title": "Wilson Sonsini AdviSes Samsara on $805 Million IPO",
+      "summary": "Wilson Sonsini represented Samsara in its initial public offering, which raised $805 million by pricing 35,000,000 shares of Class A common stock at $23 per share. The shares began trading on the New York Stock Exchange under the symbol \"IOT\" on December 15, 2021, and the offering closed on December 17. Morgan Stanley, Goldman Sachs & Co. LLC, J.P. Morgan, and Allen & Company LLC served as lead book-running managers.",
+      "url": "https://www.wsgr.com/en/insights/wilson-sonsini-advises-samsara-on-dollar805-million-ipo.html",
+      "source": "Wilson Sonsini",
+      "published": "20211217T203200",
+      "overall_sentiment_score": 0.389499,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.311358,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.610895
+    },
+    {
       "title": "Is now the time to consider Chinese government bonds?",
       "summary": "Despite ongoing issues in China's property debt market, Chinese government bonds (CGBs) offer global investors higher yields and diversification potential compared to other major markets. The article highlights China's differing economic cycle, monetary easing efforts, and low correlation with other bond markets as key attractions for CGBs. Increasing foreign demand and inclusion in major global bond indices further bolster their appeal.",
       "url": "https://www.invesco.com/apac/en/institutional/insights/china/chinese-government-bonds.html",
@@ -209,6 +197,18 @@
       "ticker_sentiment_score": 0.231876,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.606981
+    },
+    {
+      "title": "Samsara IPO: 5 things about the cloud-based operations company",
+      "summary": "Samsara Inc. announced its initial public offering priced at $23 a share, aiming to tap into an estimated $55 billion market for digitizing non-tech company operations. The stock will trade on the New York Stock Exchange under the ticker \"IOT\". Morgan Stanley, Goldman Sachs, JPMorgan, and Allen & Co. served as lead underwriters for the deal.",
+      "url": "https://www.marketwatch.com/story/samsara-ipo-5-things-about-the-cloud-based-operations-company-11639435572?gaa_at=eafs&gaa_n=AWEtsqddQc_O8lGJ5V2ujCce5tZkB4OgLQQyoJuX2E-yiQjSDyoLMgwJRRzc&gaa_ts=6907c2e9&gaa_sig=xn1dpvGwWk-Vk0Rj28x0FFGjbo0InB-k_Wy52JMsvgTaqdBkL0pFXulRCxirbXYrthj_EO6hwUwGbmAtopdpAQ%3D%3D",
+      "source": "MarketWatch",
+      "published": "20211213T174600",
+      "overall_sentiment_score": 0.222083,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.192393,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.606881
     }
   ]
 }

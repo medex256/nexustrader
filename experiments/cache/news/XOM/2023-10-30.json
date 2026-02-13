@@ -7,28 +7,28 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "Aon Earnings: Growth Lags Peers",
-      "summary": "Aon reported solid third-quarter results with 10% year-over-year revenue growth, yet its performance continued to lag its closest peer. While organic growth exceeds long-term expectations, shares are deemed slightly overvalued at the current $291 fair value estimate. The company announced a cost savings plan including a $900 million charge, aiming for $350 million in annual run-rate savings by 2026.",
-      "url": "https://www.morningstar.com/stocks/aon-earnings-growth-lags-peers",
-      "source": "Morningstar",
-      "published": "20231030T000000",
-      "overall_sentiment_score": 0.125776,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.116325,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.585404
+      "title": "After Exxon's Huge Pioneer Natural Resources Buy, Could These 5 'Strong Buy' Energy Stocks Be Next?",
+      "summary": "Following Exxon Mobil's significant acquisition of Pioneer Natural Resources, this article explores five other \"Strong Buy\" energy stocks that could become takeover targets for competitors like Chevron and ConocoPhillips. The selected companies—APA Corp., Coterra Energy, Devon Energy, Diamondback Energy, and Marathon Oil—all pay substantial dividends and have a strong presence in key U.S. oil and gas basins. The piece suggests that the Exxon-Pioneer deal might trigger a new wave of mergers and acquisitions in the energy sector as companies strive to maintain competitiveness.",
+      "url": "https://247wallst.com/investing/2023/10/18/after-exxons-huge-acquisition-could-these-5-top-energy-picks-be-next/",
+      "source": "24/7 Wall St.",
+      "published": "20231018T070600",
+      "overall_sentiment_score": 0.363999,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.441525,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.860343
     },
     {
-      "title": "Chevron’s $53 billion acquisition of Hess is mostly about Guyana",
-      "summary": "Chevron's $53 billion acquisition of Hess Corp. is primarily driven by Hess's partnership in a massive Guyanese offshore oil project. The article criticizes the one-sided contract heavily favoring ExxonMobil, Hess, and CNOOC, suggesting that Guyana receives minimal benefits from these deals. It highlights several instances of Guyana's mismanagement and lack of favorable terms in its oil agreements.",
-      "url": "https://ieefa.org/resources/chevrons-53-billion-acquisition-hess-mostly-about-guyana",
-      "source": "Institute for Energy Economics and Financial Analysis (IEEFA)",
-      "published": "20231027T144953",
-      "overall_sentiment_score": 0.161284,
+      "title": "Top 10 Women in Energy Companies",
+      "summary": "This article highlights the top 10 women in energy companies, featuring leaders from major firms like ExxonMobil, Deloitte, and Devon Energy Corporation. It discusses their significant contributions to the energy industry and their efforts in addressing the global energy crisis while also working to close the gender equality gap. The piece emphasizes the ongoing need to increase female representation in senior leadership roles despite some progress.",
+      "url": "https://energydigital.com/top10/top-10-women-in-energy-companies",
+      "source": "Energy Digital Magazine",
+      "published": "20231018T143030",
+      "overall_sentiment_score": 0.250098,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.105627,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.703104
+      "ticker_sentiment_score": 0.240615,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.749563
     },
     {
       "title": "Chevron to buy Hess Corp for $53 billion in all-stock deal",
@@ -43,6 +43,18 @@
       "relevance_score": 0.749444
     },
     {
+      "title": "Chevron to buy Hess for $53 billion, marking the second giant oil deal this month",
+      "summary": "Chevron announced it will acquire Hess Corp. for $53 billion, making it the second major oil deal this month after Exxon Mobil's acquisition of Pioneer Natural Resources. This acquisition will add significant oil fields in Guyana and North Dakota to Chevron's portfolio, aligning with a trend of consolidation in the oil industry spurred by rising oil prices. The deal is expected to increase shareholder returns and is subject to regulatory and Hess shareholder approval, though an advocacy group has expressed concerns about corporate consolidation and its potential impact on gas prices.",
+      "url": "https://www.cbsnews.com/news/chevron-hess-acquisition-53-billion/",
+      "source": "CBS News",
+      "published": "20231023T124900",
+      "overall_sentiment_score": 0.32158,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.22536,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.739778
+    },
+    {
       "title": "Chevron buys Hess Corporation for $53 billion, another acquisition in oil, gas industry",
       "summary": "Chevron announced it will acquire Hess Corporation for $53 billion in an all-stock transaction, furthering consolidation in the oil and gas industry. This acquisition comes weeks after Exxon Mobil's $60 billion purchase of Pioneer Natural Resources. The deal is expected to boost Chevron's production and free cash flow, while John Hess, current CEO of Hess Corporation, is slated to join Chevron's Board of Directors.",
       "url": "https://www.usatoday.com/story/money/2023/10/23/chevron-buys-hess-corporation/71286618007/",
@@ -55,16 +67,16 @@
       "relevance_score": 0.729053
     },
     {
-      "title": "Chevron to buy Hess for $53 billion, marking the second giant oil deal this month",
-      "summary": "Chevron announced it will acquire Hess Corp. for $53 billion, making it the second major oil deal this month after Exxon Mobil's acquisition of Pioneer Natural Resources. This acquisition will add significant oil fields in Guyana and North Dakota to Chevron's portfolio, aligning with a trend of consolidation in the oil industry spurred by rising oil prices. The deal is expected to increase shareholder returns and is subject to regulatory and Hess shareholder approval, though an advocacy group has expressed concerns about corporate consolidation and its potential impact on gas prices.",
-      "url": "https://www.cbsnews.com/news/chevron-hess-acquisition-53-billion/",
-      "source": "CBS News",
-      "published": "20231023T124900",
-      "overall_sentiment_score": 0.32158,
+      "title": "Chevron’s $53 billion acquisition of Hess is mostly about Guyana",
+      "summary": "Chevron's $53 billion acquisition of Hess Corp. is primarily driven by Hess's partnership in a massive Guyanese offshore oil project. The article criticizes the one-sided contract heavily favoring ExxonMobil, Hess, and CNOOC, suggesting that Guyana receives minimal benefits from these deals. It highlights several instances of Guyana's mismanagement and lack of favorable terms in its oil agreements.",
+      "url": "https://ieefa.org/resources/chevrons-53-billion-acquisition-hess-mostly-about-guyana",
+      "source": "Institute for Energy Economics and Financial Analysis (IEEFA)",
+      "published": "20231027T144953",
+      "overall_sentiment_score": 0.161284,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.22536,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.739778
+      "ticker_sentiment_score": -0.105627,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.703104
     },
     {
       "title": "Exclusive: ConocoPhillips weighs CrownRock bid to challenge rivals",
@@ -91,28 +103,16 @@
       "relevance_score": 0.617432
     },
     {
-      "title": "Top 10 Women in Energy Companies",
-      "summary": "This article highlights the top 10 women in energy companies, featuring leaders from major firms like ExxonMobil, Deloitte, and Devon Energy Corporation. It discusses their significant contributions to the energy industry and their efforts in addressing the global energy crisis while also working to close the gender equality gap. The piece emphasizes the ongoing need to increase female representation in senior leadership roles despite some progress.",
-      "url": "https://energydigital.com/top10/top-10-women-in-energy-companies",
-      "source": "Energy Digital Magazine",
-      "published": "20231018T143030",
-      "overall_sentiment_score": 0.250098,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.240615,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.749563
-    },
-    {
-      "title": "After Exxon's Huge Pioneer Natural Resources Buy, Could These 5 'Strong Buy' Energy Stocks Be Next?",
-      "summary": "Following Exxon Mobil's significant acquisition of Pioneer Natural Resources, this article explores five other \"Strong Buy\" energy stocks that could become takeover targets for competitors like Chevron and ConocoPhillips. The selected companies—APA Corp., Coterra Energy, Devon Energy, Diamondback Energy, and Marathon Oil—all pay substantial dividends and have a strong presence in key U.S. oil and gas basins. The piece suggests that the Exxon-Pioneer deal might trigger a new wave of mergers and acquisitions in the energy sector as companies strive to maintain competitiveness.",
-      "url": "https://247wallst.com/investing/2023/10/18/after-exxons-huge-acquisition-could-these-5-top-energy-picks-be-next/",
-      "source": "24/7 Wall St.",
-      "published": "20231018T070600",
-      "overall_sentiment_score": 0.363999,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.441525,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.860343
+      "title": "Aon Earnings: Growth Lags Peers",
+      "summary": "Aon reported solid third-quarter results with 10% year-over-year revenue growth, yet its performance continued to lag its closest peer. While organic growth exceeds long-term expectations, shares are deemed slightly overvalued at the current $291 fair value estimate. The company announced a cost savings plan including a $900 million charge, aiming for $350 million in annual run-rate savings by 2026.",
+      "url": "https://www.morningstar.com/stocks/aon-earnings-growth-lags-peers",
+      "source": "Morningstar",
+      "published": "20231030T000000",
+      "overall_sentiment_score": 0.125776,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.116325,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.585404
     }
   ]
 }

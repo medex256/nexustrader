@@ -7,16 +7,28 @@
   "article_count": 7,
   "articles": [
     {
-      "title": "AbbVie Earnings: Firm Sees Strong Next-Generation Immunology Drugs Sales",
-      "summary": "AbbVie's latest earnings exceeded expectations primarily due to strong sales of its next-generation immunology drugs, Skyrizi and Rinvoq, which are effectively offsetting the impact of biosimilar competition on Humira. Morningstar has increased its fair value estimate for AbbVie stock to $176 per share, reinforcing its conviction in the company's wide economic moat and projecting mid-single-digit sales growth. The company anticipates these new drugs to surpass $27 billion in combined sales by 2027 and has time to develop its pipeline as patent losses for Skyrizi and Rinvoq are not expected until 2033.",
-      "url": "https://www.morningstar.com/stocks/abbvie-earnings-firm-sees-strong-next-generation-immunology-drugs-sales",
-      "source": "Morningstar",
-      "published": "20240725T000000",
-      "overall_sentiment_score": 0.345849,
+      "title": "Top 10 Nanomedicine Companies | Best Health Technology",
+      "summary": "This article provides an overview of the nanomedicine market, detailing its drivers, size, and profiling the top ten companies operating within this sector. It highlights how nanomedicine, combining nanotechnology with medicine, offers innovative methods for diagnosing and treating diseases through precise drug delivery, imaging, and advanced therapies. The market is projected to reach $358 billion by 2032, driven by advancements in nanotechnology, rising chronic diseases, and increased R&D investments.",
+      "url": "https://media.market.us/top-10-nanomedicine-companies/",
+      "source": "Market.us Media",
+      "published": "20240718T000000",
+      "overall_sentiment_score": 0.283419,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.146348,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.701445
+      "ticker_sentiment_score": 0.292173,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.782042
+    },
+    {
+      "title": "Top 10: MedTech Companies",
+      "summary": "This article lists the top 10 MedTech companies by market capitalization, highlighting their origins, global operations, key products, and employee numbers. The companies featured include industry giants like Johnson & Johnson, UnitedHealth Group, Thermo Fisher Scientific, Abbott Laboratories, and Danaher, all contributing significantly to medical technology advancements worldwide. The MedTech industry encompasses diverse products and solutions from prevention to treatment, improving global healthcare.",
+      "url": "https://healthcare-digital.com/technology-and-ai/top-10-medtech-companies",
+      "source": "Healthcare Digital",
+      "published": "20240717T000000",
+      "overall_sentiment_score": 0.433323,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.435986,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.71439
     },
     {
       "title": "AC Immune bags FDA fast track designation",
@@ -31,28 +43,16 @@
       "relevance_score": 0.707992
     },
     {
-      "title": "Boston Scientific tips strong growth for Farapulse after successful launch",
-      "summary": "Boston Scientific is projecting strong growth for its Farapulse pulsed field ablation (PFA) system after a successful initial launch, with CEO Mike Mahoney highlighting high physician adoption rates and efficiency. The company views Farapulse as a major growth driver, contributing to a 122% increase in electrophysiology sales, and plans further international expansion and acquisitions to bolster its position in the medtech market.",
-      "url": "https://www.medtechdive.com/news/boston-scientific-growth-farapulse/722226/",
-      "source": "MedTech Dive",
-      "published": "20240724T000000",
-      "overall_sentiment_score": 0.169562,
+      "title": "AbbVie Earnings: Firm Sees Strong Next-Generation Immunology Drugs Sales",
+      "summary": "AbbVie's latest earnings exceeded expectations primarily due to strong sales of its next-generation immunology drugs, Skyrizi and Rinvoq, which are effectively offsetting the impact of biosimilar competition on Humira. Morningstar has increased its fair value estimate for AbbVie stock to $176 per share, reinforcing its conviction in the company's wide economic moat and projecting mid-single-digit sales growth. The company anticipates these new drugs to surpass $27 billion in combined sales by 2027 and has time to develop its pipeline as patent losses for Skyrizi and Rinvoq are not expected until 2033.",
+      "url": "https://www.morningstar.com/stocks/abbvie-earnings-firm-sees-strong-next-generation-immunology-drugs-sales",
+      "source": "Morningstar",
+      "published": "20240725T000000",
+      "overall_sentiment_score": 0.345849,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.120515,
+      "ticker_sentiment_score": 0.146348,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.61747
-    },
-    {
-      "title": "Top 10 Nanomedicine Companies | Best Health Technology",
-      "summary": "This article provides an overview of the nanomedicine market, detailing its drivers, size, and profiling the top ten companies operating within this sector. It highlights how nanomedicine, combining nanotechnology with medicine, offers innovative methods for diagnosing and treating diseases through precise drug delivery, imaging, and advanced therapies. The market is projected to reach $358 billion by 2032, driven by advancements in nanotechnology, rising chronic diseases, and increased R&D investments.",
-      "url": "https://media.market.us/top-10-nanomedicine-companies/",
-      "source": "Market.us Media",
-      "published": "20240718T000000",
-      "overall_sentiment_score": 0.283419,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.292173,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.782042
+      "relevance_score": 0.701445
     },
     {
       "title": "Legend Buyout Report Boosts, Validates China Biotech",
@@ -67,6 +67,18 @@
       "relevance_score": 0.636627
     },
     {
+      "title": "Boston Scientific tips strong growth for Farapulse after successful launch",
+      "summary": "Boston Scientific is projecting strong growth for its Farapulse pulsed field ablation (PFA) system after a successful initial launch, with CEO Mike Mahoney highlighting high physician adoption rates and efficiency. The company views Farapulse as a major growth driver, contributing to a 122% increase in electrophysiology sales, and plans further international expansion and acquisitions to bolster its position in the medtech market.",
+      "url": "https://www.medtechdive.com/news/boston-scientific-growth-farapulse/722226/",
+      "source": "MedTech Dive",
+      "published": "20240724T000000",
+      "overall_sentiment_score": 0.169562,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.120515,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.61747
+    },
+    {
       "title": "David J. Bearss, PhD Celebrated for Dedication to the Pharmaceutical Industry",
       "summary": "David J. Bearss, PhD, a seasoned business owner with extensive experience in education, medicine, and pharmaceuticals, has been recognized in Marquis Who's Who for his dedication to the pharmaceutical industry. He is celebrated for his leadership roles at Halia Therapeutics, Biolexis Therapeutics, and the University of Utah's Therapeutics Accelerator, and for authoring hundreds of articles in professional journals. Dr. Bearss's career highlights include multiple awards and significant contributions to cancer research and drug development.",
       "url": "https://www.24-7pressrelease.com/press-release/512673/david-j-bearss-phd-celebrated-for-dedication-to-the-pharmaceutical-industry",
@@ -77,18 +89,6 @@
       "ticker_sentiment_score": 0.210761,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.583337
-    },
-    {
-      "title": "Top 10: MedTech Companies",
-      "summary": "This article lists the top 10 MedTech companies by market capitalization, highlighting their origins, global operations, key products, and employee numbers. The companies featured include industry giants like Johnson & Johnson, UnitedHealth Group, Thermo Fisher Scientific, Abbott Laboratories, and Danaher, all contributing significantly to medical technology advancements worldwide. The MedTech industry encompasses diverse products and solutions from prevention to treatment, improving global healthcare.",
-      "url": "https://healthcare-digital.com/technology-and-ai/top-10-medtech-companies",
-      "source": "Healthcare Digital",
-      "published": "20240717T000000",
-      "overall_sentiment_score": 0.433323,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.435986,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.71439
     }
   ]
 }

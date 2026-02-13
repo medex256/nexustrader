@@ -7,30 +7,6 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "As New Services Roil P2P, Fiserv Gets Set to Shut Down Its Popmoney Network",
-      "summary": "Fiserv Inc. is discontinuing its Popmoney peer-to-peer payments service on June 30, prioritizing the bank-owned Zelle network due to its success and growing demand for faster payments. The move comes amidst an increasingly competitive P2P market, with pressure from services like Zelle, PayPal, Venmo, and the upcoming real-time payments service from the Federal Reserve, as well as Visa's new interoperability network. Fiserv acquired Popmoney's originator, CashEdge, in 2011 and integrated it into its services.",
-      "url": "https://www.digitaltransactions.net/as-new-services-roil-p2p-fiserv-gets-set-to-shut-down-its-popmoney-network/",
-      "source": "Digital Transactions",
-      "published": "20230531T143940",
-      "overall_sentiment_score": 0.119934,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.088529,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.593109
-    },
-    {
-      "title": "Franklin to Add Retirement AUM With Putnam Acquisition",
-      "summary": "Franklin Templeton announced its agreement to acquire Putnam Investments for $925 million from Power Corp. of Canada. This acquisition aims to boost Franklin Templeton's asset management scale and capabilities in the retirement plan sector, increasing its defined contribution assets under management to approximately $90 billion. The deal also includes Great-West committing $25 billion to Franklin Templeton's specialist investment managers and taking a 6.2% stake in Franklin.",
-      "url": "https://www.plansponsor.com/franklin-to-add-retirement-aum-with-putnam-acquisition/",
-      "source": "plansponsor",
-      "published": "20230531T000000",
-      "overall_sentiment_score": 0.191438,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.109381,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.614657
-    },
-    {
       "title": "Latham & Watkins Advises the Underwriters in EVgo’s Public Equity Offering",
       "summary": "Latham & Watkins LLP advised the underwriters in EVgo Inc.'s public offering of 29,411,765 shares of Class A common stock priced at US$4.25 per share. J.P. Morgan, Evercore ISI, and Goldman Sachs & Co. LLC were lead book-running managers. The offering, which included a 30-day option for underwriters to purchase additional shares, closed on May 22, 2023.",
       "url": "https://www.lw.com/en/news/2023/05/latham-watkins-advises-the-underwriters-in-evgos-public-equity-offering",
@@ -55,16 +31,28 @@
       "relevance_score": 0.633675
     },
     {
-      "title": "Cummins Spinoff Atmus Raises $275 Million in IPO",
-      "summary": "Cummins Inc. spinoff Atmus Filtration Technologies Inc. raised $275 million in its initial public offering, with shares rising 11% in their trading debut. The company, which manufactures filters for commercial vehicles and other equipment, has a market value of $1.8 billion and its IPO marks the seventh-biggest on a U.S. exchange this year. Cummins retains an 83% ownership stake in Atmus.",
-      "url": "https://www.ttnews.com/articles/cummins-spinoff-atmus-ipo",
-      "source": "Transport Topics",
-      "published": "20230526T151400",
-      "overall_sentiment_score": 0.143909,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.062302,
+      "title": "Franklin to Add Retirement AUM With Putnam Acquisition",
+      "summary": "Franklin Templeton announced its agreement to acquire Putnam Investments for $925 million from Power Corp. of Canada. This acquisition aims to boost Franklin Templeton's asset management scale and capabilities in the retirement plan sector, increasing its defined contribution assets under management to approximately $90 billion. The deal also includes Great-West committing $25 billion to Franklin Templeton's specialist investment managers and taking a 6.2% stake in Franklin.",
+      "url": "https://www.plansponsor.com/franklin-to-add-retirement-aum-with-putnam-acquisition/",
+      "source": "plansponsor",
+      "published": "20230531T000000",
+      "overall_sentiment_score": 0.191438,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.109381,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.557609
+      "relevance_score": 0.614657
+    },
+    {
+      "title": "As New Services Roil P2P, Fiserv Gets Set to Shut Down Its Popmoney Network",
+      "summary": "Fiserv Inc. is discontinuing its Popmoney peer-to-peer payments service on June 30, prioritizing the bank-owned Zelle network due to its success and growing demand for faster payments. The move comes amidst an increasingly competitive P2P market, with pressure from services like Zelle, PayPal, Venmo, and the upcoming real-time payments service from the Federal Reserve, as well as Visa's new interoperability network. Fiserv acquired Popmoney's originator, CashEdge, in 2011 and integrated it into its services.",
+      "url": "https://www.digitaltransactions.net/as-new-services-roil-p2p-fiserv-gets-set-to-shut-down-its-popmoney-network/",
+      "source": "Digital Transactions",
+      "published": "20230531T143940",
+      "overall_sentiment_score": 0.119934,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.088529,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.593109
     },
     {
       "title": "Culture Wars Hit Capital One",
@@ -77,6 +65,18 @@
       "ticker_sentiment_score": -0.073775,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.591923
+    },
+    {
+      "title": "Cummins Spinoff Atmus Raises $275 Million in IPO",
+      "summary": "Cummins Inc. spinoff Atmus Filtration Technologies Inc. raised $275 million in its initial public offering, with shares rising 11% in their trading debut. The company, which manufactures filters for commercial vehicles and other equipment, has a market value of $1.8 billion and its IPO marks the seventh-biggest on a U.S. exchange this year. Cummins retains an 83% ownership stake in Atmus.",
+      "url": "https://www.ttnews.com/articles/cummins-spinoff-atmus-ipo",
+      "source": "Transport Topics",
+      "published": "20230526T151400",
+      "overall_sentiment_score": 0.143909,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.062302,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.557609
     }
   ]
 }

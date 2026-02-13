@@ -7,30 +7,6 @@
   "article_count": 7,
   "articles": [
     {
-      "title": "Corning announces $139M expansion in Monroe County; 270 new jobs expected",
-      "summary": "Corning Inc. announced a $139 million expansion in Monroe County, New York, which is expected to create 270 new jobs. This investment will support the production of equipment vital for semiconductor manufacturers, with new facilities planned for Fairport and Gates. The expansion aims to enhance domestic semiconductor manufacturing capabilities, address global chip shortages, and solidify the Finger Lakes region as a leader in optics and photonics.",
-      "url": "https://www.democratandchronicle.com/story/money/business/2022/07/08/corning-inc-expand-in-fairport-gates-ny-create-270-jobs/65369410007/",
-      "source": "Democrat and Chronicle",
-      "published": "20221231T235959",
-      "overall_sentiment_score": 0.299682,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.202314,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.626066
-    },
-    {
-      "title": "WisdomTree U.S. Dividend Growth Fund (DGRW) Stock Price, Holdings, Dividend Yield",
-      "summary": "This article provides a detailed overview of the WisdomTree U.S. Dividend Growth Fund (DGRW), including its stock price, holdings, and dividend yield. As of the latest N-PORT filing on September 30, 2025, the fund holds 301 stocks with a total value of $16.30 billion, with top holdings being Microsoft, Apple, NVIDIA, Exxon Mobil, and Chevron. The article also presents key statistics, performance data, and historical breakdowns of the fund's portfolio.",
-      "url": "https://www.gurufocus.com/etf/DGRW/summary",
-      "source": "GuruFocus",
-      "published": "20221231T034508",
-      "overall_sentiment_score": 0.238987,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.201856,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.7184
-    },
-    {
       "title": "Sales of computer graphics cards slump to lowest level in two decades",
       "summary": "Sales of computer graphics cards hit a 20-year low in Q3 2022 due to a global economic slowdown and the impact of the Ethereum merge on cryptocurrency mining. Major chipmakers like AMD and Nvidia experienced significant declines in discrete desktop GPU shipments, with AMD particularly hard hit. Despite the slump, new high-end GPU launches and Intel's entry into the market (grabbing a 4% share) offer potential for future sales boosts.",
       "url": "https://siliconangle.com/2022/12/29/sales-computer-graphics-cards-slump-lowest-level-two-decades/",
@@ -41,18 +17,6 @@
       "ticker_sentiment_score": -0.342792,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 0.992554
-    },
-    {
-      "title": "Micron Technology Sees Chip Recovery by the End of 2023",
-      "summary": "Micron Technology Inc. stock has fallen significantly in 2022 due to weak demand for DRAM chips and an oversupply in the market. Despite a challenging fiscal Q1 2023 with missed earnings and lowered guidance, Micron expects improving customer inventories to lead to increased revenue in the fiscal second half of 2023. Analysts have revised their ratings and price targets, with some maintaining overweight or buy ratings despite the current downturn.",
-      "url": "https://www.entrepreneur.com/finance/micron-technology-sees-chip-recovery-by-the-end-of-2023/441919?ocid=wispr",
-      "source": "Entrepreneur",
-      "published": "20221227T174632",
-      "overall_sentiment_score": -0.197055,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.102471,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.629826
     },
     {
       "title": "CES 2023: AMD, Nvidia, auto applications get the hype, but analysts say this one chip maker ruled",
@@ -67,16 +31,16 @@
       "relevance_score": 0.83314
     },
     {
-      "title": "Stock Market Outlook 2023 for the Worst Performing S&P 500 Sectors",
-      "summary": "This article provides an outlook for the worst-performing S&P 500 sectors in 2022, including Technology, Real Estate, Consumer Discretionary, and Communication Services. It analyzes the performance of key holdings within each sector, their outlook for 2023, and analyst sentiment with options market probabilities for recovery. The forecast indicates that a full recovery to previous highs for these sectors and their major constituents is unlikely in the short term.",
-      "url": "https://www.tastylive.com/news-insights/stock-market-outlook-2023-worst-performing-sp500-sectors",
-      "source": "tastylive",
-      "published": "20221227T190623",
-      "overall_sentiment_score": 0.040807,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.31814,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.641374
+      "title": "WisdomTree U.S. Dividend Growth Fund (DGRW) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of the WisdomTree U.S. Dividend Growth Fund (DGRW), including its stock price, holdings, and dividend yield. As of the latest N-PORT filing on September 30, 2025, the fund holds 301 stocks with a total value of $16.30 billion, with top holdings being Microsoft, Apple, NVIDIA, Exxon Mobil, and Chevron. The article also presents key statistics, performance data, and historical breakdowns of the fund's portfolio.",
+      "url": "https://www.gurufocus.com/etf/DGRW/summary",
+      "source": "GuruFocus",
+      "published": "20221231T034508",
+      "overall_sentiment_score": 0.238987,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.201856,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.7184
     },
     {
       "title": "Cloudflare didn’t want cybersecurity companies silencing speech. Anti-trans trolls took advantage of the generosity",
@@ -89,6 +53,42 @@
       "ticker_sentiment_score": 6.2e-05,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.683411
+    },
+    {
+      "title": "Stock Market Outlook 2023 for the Worst Performing S&P 500 Sectors",
+      "summary": "This article provides an outlook for the worst-performing S&P 500 sectors in 2022, including Technology, Real Estate, Consumer Discretionary, and Communication Services. It analyzes the performance of key holdings within each sector, their outlook for 2023, and analyst sentiment with options market probabilities for recovery. The forecast indicates that a full recovery to previous highs for these sectors and their major constituents is unlikely in the short term.",
+      "url": "https://www.tastylive.com/news-insights/stock-market-outlook-2023-worst-performing-sp500-sectors",
+      "source": "tastylive",
+      "published": "20221227T190623",
+      "overall_sentiment_score": 0.040807,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.31814,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.641374
+    },
+    {
+      "title": "Micron Technology Sees Chip Recovery by the End of 2023",
+      "summary": "Micron Technology Inc. stock has fallen significantly in 2022 due to weak demand for DRAM chips and an oversupply in the market. Despite a challenging fiscal Q1 2023 with missed earnings and lowered guidance, Micron expects improving customer inventories to lead to increased revenue in the fiscal second half of 2023. Analysts have revised their ratings and price targets, with some maintaining overweight or buy ratings despite the current downturn.",
+      "url": "https://www.entrepreneur.com/finance/micron-technology-sees-chip-recovery-by-the-end-of-2023/441919?ocid=wispr",
+      "source": "Entrepreneur",
+      "published": "20221227T174632",
+      "overall_sentiment_score": -0.197055,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.102471,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.629826
+    },
+    {
+      "title": "Corning announces $139M expansion in Monroe County; 270 new jobs expected",
+      "summary": "Corning Inc. announced a $139 million expansion in Monroe County, New York, which is expected to create 270 new jobs. This investment will support the production of equipment vital for semiconductor manufacturers, with new facilities planned for Fairport and Gates. The expansion aims to enhance domestic semiconductor manufacturing capabilities, address global chip shortages, and solidify the Finger Lakes region as a leader in optics and photonics.",
+      "url": "https://www.democratandchronicle.com/story/money/business/2022/07/08/corning-inc-expand-in-fairport-gates-ny-create-270-jobs/65369410007/",
+      "source": "Democrat and Chronicle",
+      "published": "20221231T235959",
+      "overall_sentiment_score": 0.299682,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.202314,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.626066
     }
   ]
 }

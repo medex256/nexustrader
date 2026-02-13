@@ -7,16 +7,16 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "World’s first oil tanker shipping ETF starts trading in New York",
-      "summary": "John Kartsonas-led Breakwave Advisors has launched the world’s first tanker shipping exchange traded fund (ETF) on the New York Stock Exchange. The Breakwave Tanker Shipping ETF (BWET) offers exposure to the crude oil tanker shipping market using near-dated futures contracts. This launch capitalizes on high demand for oil transportation, limited vessel orderbooks, and geopolitical disruptions affecting oil markets.",
-      "url": "https://splash247.com/worlds-first-oil-tanker-shipping-etf-starts-trading-in-new-york/",
-      "source": "Splash247",
-      "published": "20230504T052251",
-      "overall_sentiment_score": 0.580622,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.538438,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.567655
+      "title": "The Alaskan gambit: $44 billion LNG project decades in the making",
+      "summary": "A planned $44 billion natural gas project in Alaska, decades in the making, aims to pipe gas from the North Slope to an LNG terminal near Anchorage for export to Asian markets. This initiative, supported by the Biden administration, seeks to revitalize Alaska's declining oil and gas industry and provide a reliable energy source to allies like South Korea and Japan, despite environmental concerns and financing challenges. The project faces questions about its necessity amidst a flood of Gulf Coast LNG projects and the long-term demand for natural gas as nations shift to renewables.",
+      "url": "https://www.houstonchronicle.com/business/energy/article/alaska-lng-exxon-conoco-pipeline-planning-18079041.php",
+      "source": "Houston Chronicle",
+      "published": "20230508T000000",
+      "overall_sentiment_score": 0.191811,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.124071,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.719957
     },
     {
       "title": "Curtiss-Wright signs subsea canned motor pump agreement with Shell",
@@ -29,18 +29,6 @@
       "ticker_sentiment_score": 0.338907,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.642107
-    },
-    {
-      "title": "B.C. innovators charting routes to greener fuel options for the global marine industry",
-      "summary": "B.C. companies, including Methanex Corp., Atlas Corp. (Seaspan), and Robert Allan Ltd., are leading the charge in developing greener fuel options for the global marine industry. Methanol and LNG are frontrunners in the transition to low-carbon shipping, with a mix of fuels expected to be the long-term solution. These innovators are addressing the challenge of decarbonizing the international shipping fleet through technological advancements and strategic partnerships.",
-      "url": "https://www.biv.com/news/transportation/bc-innovators-charting-routes-greener-fuel-options-global-marine-industry-8271586",
-      "source": "Business in Vancouver",
-      "published": "20230509T092400",
-      "overall_sentiment_score": 0.149903,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.106886,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.367613
     },
     {
       "title": "Strive Asset Management fills leadership vacuum created by CEO's run for president",
@@ -67,16 +55,28 @@
       "relevance_score": 0.612723
     },
     {
-      "title": "The Alaskan gambit: $44 billion LNG project decades in the making",
-      "summary": "A planned $44 billion natural gas project in Alaska, decades in the making, aims to pipe gas from the North Slope to an LNG terminal near Anchorage for export to Asian markets. This initiative, supported by the Biden administration, seeks to revitalize Alaska's declining oil and gas industry and provide a reliable energy source to allies like South Korea and Japan, despite environmental concerns and financing challenges. The project faces questions about its necessity amidst a flood of Gulf Coast LNG projects and the long-term demand for natural gas as nations shift to renewables.",
-      "url": "https://www.houstonchronicle.com/business/energy/article/alaska-lng-exxon-conoco-pipeline-planning-18079041.php",
-      "source": "Houston Chronicle",
-      "published": "20230508T000000",
-      "overall_sentiment_score": 0.191811,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.124071,
+      "title": "World’s first oil tanker shipping ETF starts trading in New York",
+      "summary": "John Kartsonas-led Breakwave Advisors has launched the world’s first tanker shipping exchange traded fund (ETF) on the New York Stock Exchange. The Breakwave Tanker Shipping ETF (BWET) offers exposure to the crude oil tanker shipping market using near-dated futures contracts. This launch capitalizes on high demand for oil transportation, limited vessel orderbooks, and geopolitical disruptions affecting oil markets.",
+      "url": "https://splash247.com/worlds-first-oil-tanker-shipping-etf-starts-trading-in-new-york/",
+      "source": "Splash247",
+      "published": "20230504T052251",
+      "overall_sentiment_score": 0.580622,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.538438,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.567655
+    },
+    {
+      "title": "B.C. innovators charting routes to greener fuel options for the global marine industry",
+      "summary": "B.C. companies, including Methanex Corp., Atlas Corp. (Seaspan), and Robert Allan Ltd., are leading the charge in developing greener fuel options for the global marine industry. Methanol and LNG are frontrunners in the transition to low-carbon shipping, with a mix of fuels expected to be the long-term solution. These innovators are addressing the challenge of decarbonizing the international shipping fleet through technological advancements and strategic partnerships.",
+      "url": "https://www.biv.com/news/transportation/bc-innovators-charting-routes-greener-fuel-options-global-marine-industry-8271586",
+      "source": "Business in Vancouver",
+      "published": "20230509T092400",
+      "overall_sentiment_score": 0.149903,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.106886,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.719957
+      "relevance_score": 0.367613
     }
   ]
 }

@@ -7,28 +7,28 @@
   "article_count": 7,
   "articles": [
     {
-      "title": "Johnson & Johnson to pay New Hampshire $40.5 million in another opioid settlement",
-      "summary": "Johnson & Johnson has agreed to pay New Hampshire $40.5 million to settle an opioid lawsuit, avoiding a trial scheduled for a week later. The settlement addresses allegations that J&J aggressively marketed opioids and misrepresented their safety and addictiveness. This payment will fund opioid abatement programs within the state.",
-      "url": "https://www.nhbr.com/johnson-johnson-to-pay-new-hampshire-40-5-million-in-another-opioid-settlement/",
-      "source": "NH Business Review",
-      "published": "20220901T171641",
-      "overall_sentiment_score": 0.029173,
+      "title": "Johnson & Johnson lost to Pfizer in bidding war for Global Blood Therapeutics: Bloomberg",
+      "summary": "Johnson & Johnson was the mysterious \"company A\" that battled Pfizer for Global Blood Therapeutics (GBT), initially offering $55 per share and raising it multiple times before losing out to Pfizer's final $67.50 bid. This would have been J&J's largest acquisition in two years and the first under new CEO Joaquin Duato. For Pfizer, the acquisition brings an FDA-approved sickle cell disease drug, Oxbryta, and pipeline candidates, with SVB Securities analysts projecting GBT's SCD franchise sales to reach $2.7 billion by 2030.",
+      "url": "https://www.fiercepharma.com/pharma/johnson-johnson-lost-pfizer-global-blood-therapeutics-bidding-war-bloomberg",
+      "source": "Fierce Pharma",
+      "published": "20220824T101500",
+      "overall_sentiment_score": 0.076002,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.018048,
+      "ticker_sentiment_score": -0.113773,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.325795
+      "relevance_score": 1.0
     },
     {
-      "title": "Takeda ends deal with Finch as bumpy ride continues for microbiome drugs",
-      "summary": "Takeda has terminated its 2017 deal with Finch Therapeutics to develop microbiome-based medicines for inflammatory bowel disease, handing back rights to two preclinical experimental drugs. This decision marks another setback for Finch, whose share price has significantly fallen since its IPO, following other challenges in the microbiome drug development field. Despite ending this partnership, Takeda confirmed its continued interest in microbiome-targeting drugs and is advancing other programs in this area.",
-      "url": "https://www.biopharmadive.com/news/finch-takeda-end-ibd-microbiome-drug-deal/630592/",
-      "source": "BioPharma Dive",
-      "published": "20220826T184649",
-      "overall_sentiment_score": 0.05266,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.134108,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.609239
+      "title": "Female Disruptors: Susan Nicholson of Johnson & Johnson On The Three Things You Need To Shake Up Your Industry",
+      "summary": "This article features an interview with Dr. Susan Nicholson, Vice President of the Health of Women team at Johnson & Johnson, discussing her work in disrupting the healthcare industry to better address women's health. She highlights the importance of sex-specific data insights, addressing the Black maternal health crisis, and offers advice on persistence, leveraging strengths, and being relentless in driving change. Dr. Nicholson emphasizes the need for advocacy for women's equitable treatment in healthcare and beyond.",
+      "url": "https://medium.com/authority-magazine/female-disruptors-yourname-and-company-on-the-three-things-you-need-to-shake-up-your-industry-880832532c",
+      "source": "Medium",
+      "published": "20220826T171641",
+      "overall_sentiment_score": 0.405842,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.408347,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "J&J bags first nod for multiple myeloma bispecific to complement its own CAR-T offering",
@@ -43,30 +43,6 @@
       "relevance_score": 0.962652
     },
     {
-      "title": "Medtronic Announces Partnership with BioIntelliSense for Exclusive U.S. Distribution of Multi-Parameter Wearable for Continuous Remote Patient Monitoring from in-Hospital to Home",
-      "summary": "Medtronic has partnered with BioIntelliSense for the exclusive U.S. distribution of the BioButton multi-parameter wearable, enabling continuous remote patient monitoring from in-hospital to home. This collaboration aims to provide continuous vital sign measurements, support workflow automation, and address staffing shortages for general care patients. The BioButton device offers up to 1,440 vital sign measurements daily and can help clinicians detect early signs of patient deterioration or identify stable patients for earlier discharge.",
-      "url": "https://www.dicardiology.com/content/medtronic-announces-partnership-biointellisense-exclusive-us-distribution-multi-parameter",
-      "source": "Diagnostic and Interventional Cardiology",
-      "published": "20220831T173639",
-      "overall_sentiment_score": 0.212319,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.116815,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.59327
-    },
-    {
-      "title": "Johnson & Johnson lost to Pfizer in bidding war for Global Blood Therapeutics: Bloomberg",
-      "summary": "Johnson & Johnson was the mysterious \"company A\" that battled Pfizer for Global Blood Therapeutics (GBT), initially offering $55 per share and raising it multiple times before losing out to Pfizer's final $67.50 bid. This would have been J&J's largest acquisition in two years and the first under new CEO Joaquin Duato. For Pfizer, the acquisition brings an FDA-approved sickle cell disease drug, Oxbryta, and pipeline candidates, with SVB Securities analysts projecting GBT's SCD franchise sales to reach $2.7 billion by 2030.",
-      "url": "https://www.fiercepharma.com/pharma/johnson-johnson-lost-pfizer-global-blood-therapeutics-bidding-war-bloomberg",
-      "source": "Fierce Pharma",
-      "published": "20220824T101500",
-      "overall_sentiment_score": 0.076002,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.113773,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 1.0
-    },
-    {
       "title": "McDonald's Announces Key Changes to Board of Directors",
       "summary": "McDonald's Corporation announced changes to its Board of Directors, with Sheila A. Penrose retiring after 15 years of service. Three new members, Tony Capuano (Marriott International), Jennifer Taubert (Johnson & Johnson), and Amy Weaver (Salesforce), have been elected to the Board. These changes aim to bring diverse and experienced leadership to guide the company's continued growth, particularly in areas like sustainability, global business, and digital customer engagement.",
       "url": "https://www.prnewswire.com/news-releases/mcdonalds-announces-key-changes-to-board-of-directors-301609612.html",
@@ -79,16 +55,40 @@
       "relevance_score": 0.655498
     },
     {
-      "title": "Female Disruptors: Susan Nicholson of Johnson & Johnson On The Three Things You Need To Shake Up Your Industry",
-      "summary": "This article features an interview with Dr. Susan Nicholson, Vice President of the Health of Women team at Johnson & Johnson, discussing her work in disrupting the healthcare industry to better address women's health. She highlights the importance of sex-specific data insights, addressing the Black maternal health crisis, and offers advice on persistence, leveraging strengths, and being relentless in driving change. Dr. Nicholson emphasizes the need for advocacy for women's equitable treatment in healthcare and beyond.",
-      "url": "https://medium.com/authority-magazine/female-disruptors-yourname-and-company-on-the-three-things-you-need-to-shake-up-your-industry-880832532c",
-      "source": "Medium",
-      "published": "20220826T171641",
-      "overall_sentiment_score": 0.405842,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.408347,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
+      "title": "Takeda ends deal with Finch as bumpy ride continues for microbiome drugs",
+      "summary": "Takeda has terminated its 2017 deal with Finch Therapeutics to develop microbiome-based medicines for inflammatory bowel disease, handing back rights to two preclinical experimental drugs. This decision marks another setback for Finch, whose share price has significantly fallen since its IPO, following other challenges in the microbiome drug development field. Despite ending this partnership, Takeda confirmed its continued interest in microbiome-targeting drugs and is advancing other programs in this area.",
+      "url": "https://www.biopharmadive.com/news/finch-takeda-end-ibd-microbiome-drug-deal/630592/",
+      "source": "BioPharma Dive",
+      "published": "20220826T184649",
+      "overall_sentiment_score": 0.05266,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.134108,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.609239
+    },
+    {
+      "title": "Medtronic Announces Partnership with BioIntelliSense for Exclusive U.S. Distribution of Multi-Parameter Wearable for Continuous Remote Patient Monitoring from in-Hospital to Home",
+      "summary": "Medtronic has partnered with BioIntelliSense for the exclusive U.S. distribution of the BioButton multi-parameter wearable, enabling continuous remote patient monitoring from in-hospital to home. This collaboration aims to provide continuous vital sign measurements, support workflow automation, and address staffing shortages for general care patients. The BioButton device offers up to 1,440 vital sign measurements daily and can help clinicians detect early signs of patient deterioration or identify stable patients for earlier discharge.",
+      "url": "https://www.dicardiology.com/content/medtronic-announces-partnership-biointellisense-exclusive-us-distribution-multi-parameter",
+      "source": "Diagnostic and Interventional Cardiology",
+      "published": "20220831T173639",
+      "overall_sentiment_score": 0.212319,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.116815,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.59327
+    },
+    {
+      "title": "Johnson & Johnson to pay New Hampshire $40.5 million in another opioid settlement",
+      "summary": "Johnson & Johnson has agreed to pay New Hampshire $40.5 million to settle an opioid lawsuit, avoiding a trial scheduled for a week later. The settlement addresses allegations that J&J aggressively marketed opioids and misrepresented their safety and addictiveness. This payment will fund opioid abatement programs within the state.",
+      "url": "https://www.nhbr.com/johnson-johnson-to-pay-new-hampshire-40-5-million-in-another-opioid-settlement/",
+      "source": "NH Business Review",
+      "published": "20220901T171641",
+      "overall_sentiment_score": 0.029173,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.018048,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.325795
     }
   ]
 }

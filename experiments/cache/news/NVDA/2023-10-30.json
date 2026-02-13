@@ -7,52 +7,28 @@
   "article_count": 11,
   "articles": [
     {
-      "title": "Bitcoin Miner Bit Digital Diversifies Into AI for 'Substantially Higher Margin' Than Mining",
-      "summary": "Bitcoin miner Bit Digital (BTBT) is diversifying its revenue streams by expanding into the artificial intelligence (AI) infrastructure business, anticipating \"substantially higher margins\" than its traditional bitcoin mining and ether staking operations. The company signed a deal with an AI firm to provide cloud-based GPU resources, expected to generate over $250 million in additional revenue over three years, funded by a $35 million investment in GPUs. This strategic move aims to create a reliable income stream uncorrelated to bitcoin prices, helping the company weather potential downturns in the crypto market and upcoming halving events.",
-      "url": "https://www.coindesk.com/business/2023/10/23/bitcoin-miner-bit-digital-diversifies-into-ai-for-substantially-higher-margin-than-mining",
-      "source": "CoinDesk",
-      "published": "20231023T120000",
-      "overall_sentiment_score": 0.605131,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.322136,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.636228
-    },
-    {
-      "title": "Cathie Wood explains how the artificial intelligence boom could propel Ark's Innovation ETF",
-      "summary": "Cathie Wood believes the artificial intelligence boom could significantly boost Ark Invest's flagship Ark Innovation ETF (ARKK). While the fund has gained 17% this year, Wood emphasized that AI represents a reality, not just a dream, and that its disruptive nature will create new industry leaders. She cautioned investors to be discerning with their AI bets, highlighting Tesla as a key holding while expressing reservations about some other \"Magnificent Seven\" stocks.",
-      "url": "https://www.cnbc.com/2023/10/20/cathie-wood-explains-ai-boom-could-propel-ark-innovation-etf.html",
-      "source": "CNBC",
-      "published": "20231020T113400",
-      "overall_sentiment_score": 0.121369,
+      "title": "Nvidia to take on Intel, Qualcomm with Arm-based processors for PC; availability pegged for 2025",
+      "summary": "Nvidia is developing Arm-based processors for personal computers, aiming to compete with Intel and Qualcomm, with availability expected as soon as 2025. This move intensifies competition in the PC chip market, especially as AMD is also reportedly working on Arm-based processors for PCs. The initiative follows Apple's successful transition to in-house Arm-based chips, boosting Mac sales, and poses a significant challenge to Intel's dominant position.",
+      "url": "https://www.financialexpress.com/life/technology-nvidia-to-take-on-intel-qualcomm-with-arm-based-processors-for-pc-availability-pegged-for-2025-3285212/",
+      "source": "The Financial Express",
+      "published": "20231024T134500",
+      "overall_sentiment_score": 0.084913,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.109849,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.629413
+      "ticker_sentiment_score": 0.305431,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.902826
     },
     {
-      "title": "BPAS - REX Shares Partners with Tuttle Capital Management to Launch T-REX Single-Stock ETFs",
-      "summary": "REX Shares and Tuttle Capital Management have partnered to launch T-REX Single-Stock ETFs, offering targeted 200% and -200% daily exposure to Tesla (TSLA) and NVIDIA (NVDA) stocks. This new suite of ETFs, including TSLT, TSLZ, NVDX, and NVDQ, caters to sophisticated traders seeking enhanced returns through pinpoint positioning. The launch follows REX Shares' recent introduction of the REX FANG & Innovation Equity Premium Income ETF (FEPI), which provides income from top U.S. technology stocks.",
-      "url": "https://markets.financialcontent.com/bpas/article/bizwire-2023-10-19-rex-shares-partners-with-tuttle-capital-management-to-launch-t-rex-single-stock-etfs",
-      "source": "FinancialContent",
-      "published": "20231019T080000",
-      "overall_sentiment_score": 0.244703,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.238342,
+      "title": "Supermicro Starts Shipments of NVIDIA GH200 Grace Hopper Superchip-Based Servers, the Industry's First Family of NVIDIA MGX Systems",
+      "summary": "Supermicro announces the shipment of new GPU systems based on the NVIDIA reference architecture, featuring NVIDIA GH200 Grace Hopper and NVIDIA Grace CPU Superchip. These systems, designed with a modular architecture for AI infrastructure, are the industry's first family of NVIDIA MGX Systems. Supermicro highlights their advanced liquid-cooling technology and ability to deliver thousands of rack-scale AI servers per month, accelerating time to market for AI-enabled applications.",
+      "url": "https://ir.supermicro.com/news/news-details/2023/Supermicro-Starts-Shipments-of-NVIDIA-GH200-Grace-Hopper-Superchip-Based-Servers-the-Industrys-First-Family-of-NVIDIA-MGX-Systems/default.aspx",
+      "source": "Supermicro",
+      "published": "20231018T154058",
+      "overall_sentiment_score": 0.385798,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.324095,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.604352
-    },
-    {
-      "title": "REX Shares Partners with Tuttle Capital Management to Launch T-REX Single-Stock ETFs",
-      "summary": "REX Shares and Tuttle Capital Management have partnered to launch T-REX Single-Stock ETFs, offering targeted 200% and -200% exposure to Tesla and NVIDIA. These ETFs, including TSLT, TSLZ, NVDX, and NVDQ, are designed for sophisticated traders seeking enhanced returns. This launch follows REX Shares' recent introduction of the REX FANG & Innovation Equity Premium Income ETF (FEPI) and highlights the companies' commitment to innovative financial products.",
-      "url": "https://markets.financialcontent.com/workboat/article/bizwire-2023-10-19-rex-shares-partners-with-tuttle-capital-management-to-launch-t-rex-single-stock-etfs",
-      "source": "FinancialContent",
-      "published": "20231019T080000",
-      "overall_sentiment_score": 0.241168,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.250107,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.715951
+      "relevance_score": 0.88585
     },
     {
       "title": "REX Shares Partners with Tuttle Capital Management to Launch T-REX Single-Stock ETFs",
@@ -79,16 +55,28 @@
       "relevance_score": 0.811515
     },
     {
-      "title": "Supermicro Starts Shipments of NVIDIA GH200 Grace Hopper Superchip-Based Servers, the Industry's First Family of NVIDIA MGX Systems",
-      "summary": "Supermicro announces the shipment of new GPU systems based on the NVIDIA reference architecture, featuring NVIDIA GH200 Grace Hopper and NVIDIA Grace CPU Superchip. These systems, designed with a modular architecture for AI infrastructure, are the industry's first family of NVIDIA MGX Systems. Supermicro highlights their advanced liquid-cooling technology and ability to deliver thousands of rack-scale AI servers per month, accelerating time to market for AI-enabled applications.",
-      "url": "https://ir.supermicro.com/news/news-details/2023/Supermicro-Starts-Shipments-of-NVIDIA-GH200-Grace-Hopper-Superchip-Based-Servers-the-Industrys-First-Family-of-NVIDIA-MGX-Systems/default.aspx",
-      "source": "Supermicro",
-      "published": "20231018T154058",
-      "overall_sentiment_score": 0.385798,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.324095,
+      "title": "REX Shares Partners with Tuttle Capital Management to Launch T-REX Single-Stock ETFs",
+      "summary": "REX Shares and Tuttle Capital Management have partnered to launch T-REX Single-Stock ETFs, offering targeted 200% and -200% exposure to Tesla and NVIDIA. These ETFs, including TSLT, TSLZ, NVDX, and NVDQ, are designed for sophisticated traders seeking enhanced returns. This launch follows REX Shares' recent introduction of the REX FANG & Innovation Equity Premium Income ETF (FEPI) and highlights the companies' commitment to innovative financial products.",
+      "url": "https://markets.financialcontent.com/workboat/article/bizwire-2023-10-19-rex-shares-partners-with-tuttle-capital-management-to-launch-t-rex-single-stock-etfs",
+      "source": "FinancialContent",
+      "published": "20231019T080000",
+      "overall_sentiment_score": 0.241168,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.250107,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.88585
+      "relevance_score": 0.715951
+    },
+    {
+      "title": "Bitcoin Miner Bit Digital Diversifies Into AI for 'Substantially Higher Margin' Than Mining",
+      "summary": "Bitcoin miner Bit Digital (BTBT) is diversifying its revenue streams by expanding into the artificial intelligence (AI) infrastructure business, anticipating \"substantially higher margins\" than its traditional bitcoin mining and ether staking operations. The company signed a deal with an AI firm to provide cloud-based GPU resources, expected to generate over $250 million in additional revenue over three years, funded by a $35 million investment in GPUs. This strategic move aims to create a reliable income stream uncorrelated to bitcoin prices, helping the company weather potential downturns in the crypto market and upcoming halving events.",
+      "url": "https://www.coindesk.com/business/2023/10/23/bitcoin-miner-bit-digital-diversifies-into-ai-for-substantially-higher-margin-than-mining",
+      "source": "CoinDesk",
+      "published": "20231023T120000",
+      "overall_sentiment_score": 0.605131,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.322136,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.636228
     },
     {
       "title": "Beamr Issues Q3-2023 CEO Letter to Shareholders",
@@ -103,16 +91,28 @@
       "relevance_score": 0.632102
     },
     {
-      "title": "Microsoft will hold a 27% stake in OpenAI and gain access to its AI models.",
-      "summary": "Microsoft and OpenAI have finalized a new agreement where Microsoft will acquire a 27% stake in OpenAI, valued at $135 billion. This agreement grants Microsoft access to OpenAI's AI technology, including AGI models, until 2032. OpenAI has also committed to investing an additional $250 billion in purchasing Azure services.",
-      "url": "https://news.futunn.com/en/flash/19546015/microsoft-will-hold-a-27-stake-in-openai-and-gain",
-      "source": "富途牛牛",
-      "published": "20231028T132400",
-      "overall_sentiment_score": 0.342085,
+      "title": "Cathie Wood explains how the artificial intelligence boom could propel Ark's Innovation ETF",
+      "summary": "Cathie Wood believes the artificial intelligence boom could significantly boost Ark Invest's flagship Ark Innovation ETF (ARKK). While the fund has gained 17% this year, Wood emphasized that AI represents a reality, not just a dream, and that its disruptive nature will create new industry leaders. She cautioned investors to be discerning with their AI bets, highlighting Tesla as a key holding while expressing reservations about some other \"Magnificent Seven\" stocks.",
+      "url": "https://www.cnbc.com/2023/10/20/cathie-wood-explains-ai-boom-could-propel-ark-innovation-etf.html",
+      "source": "CNBC",
+      "published": "20231020T113400",
+      "overall_sentiment_score": 0.121369,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.109849,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.629413
+    },
+    {
+      "title": "BPAS - REX Shares Partners with Tuttle Capital Management to Launch T-REX Single-Stock ETFs",
+      "summary": "REX Shares and Tuttle Capital Management have partnered to launch T-REX Single-Stock ETFs, offering targeted 200% and -200% daily exposure to Tesla (TSLA) and NVIDIA (NVDA) stocks. This new suite of ETFs, including TSLT, TSLZ, NVDX, and NVDQ, caters to sophisticated traders seeking enhanced returns through pinpoint positioning. The launch follows REX Shares' recent introduction of the REX FANG & Innovation Equity Premium Income ETF (FEPI), which provides income from top U.S. technology stocks.",
+      "url": "https://markets.financialcontent.com/bpas/article/bizwire-2023-10-19-rex-shares-partners-with-tuttle-capital-management-to-launch-t-rex-single-stock-etfs",
+      "source": "FinancialContent",
+      "published": "20231019T080000",
+      "overall_sentiment_score": 0.244703,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.290642,
+      "ticker_sentiment_score": 0.238342,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.328273
+      "relevance_score": 0.604352
     },
     {
       "title": "BlackLine (BL) Strengthens Portfolio With Microsoft Teams Integration",
@@ -127,16 +127,16 @@
       "relevance_score": 0.571805
     },
     {
-      "title": "Nvidia to take on Intel, Qualcomm with Arm-based processors for PC; availability pegged for 2025",
-      "summary": "Nvidia is developing Arm-based processors for personal computers, aiming to compete with Intel and Qualcomm, with availability expected as soon as 2025. This move intensifies competition in the PC chip market, especially as AMD is also reportedly working on Arm-based processors for PCs. The initiative follows Apple's successful transition to in-house Arm-based chips, boosting Mac sales, and poses a significant challenge to Intel's dominant position.",
-      "url": "https://www.financialexpress.com/life/technology-nvidia-to-take-on-intel-qualcomm-with-arm-based-processors-for-pc-availability-pegged-for-2025-3285212/",
-      "source": "The Financial Express",
-      "published": "20231024T134500",
-      "overall_sentiment_score": 0.084913,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.305431,
+      "title": "Microsoft will hold a 27% stake in OpenAI and gain access to its AI models.",
+      "summary": "Microsoft and OpenAI have finalized a new agreement where Microsoft will acquire a 27% stake in OpenAI, valued at $135 billion. This agreement grants Microsoft access to OpenAI's AI technology, including AGI models, until 2032. OpenAI has also committed to investing an additional $250 billion in purchasing Azure services.",
+      "url": "https://news.futunn.com/en/flash/19546015/microsoft-will-hold-a-27-stake-in-openai-and-gain",
+      "source": "富途牛牛",
+      "published": "20231028T132400",
+      "overall_sentiment_score": 0.342085,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.290642,
       "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.902826
+      "relevance_score": 0.328273
     }
   ]
 }

@@ -19,30 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "After Earnings, Is Broadcom Stock a Buy, a Sell, or Fairly Valued?",
-      "summary": "Broadcom's third-quarter earnings report, released on December 12, 2024, has led Morningstar to raise its fair value estimate for the company's stock to $190 per share, up from $155, driven by an increased AI revenue growth forecast. Despite the upward revision, Morningstar now considers Broadcom's shares to be roughly fairly valued after a significant post-earnings jump, giving it a 2-star rating. The article highlights Broadcom's strong potential in AI chips, its wide economic moat from intangible assets and switching costs, and its financial strength, while also noting risks related to market cycles and supply chain reliance on Taiwan Semiconductor Manufacturing.",
-      "url": "https://www.morningstar.com/stocks/after-earnings-is-broadcom-stock-buy-sell-or-fairly-valued-3",
-      "source": "Morningstar",
-      "published": "20241219T000000",
-      "overall_sentiment_score": 0.194152,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.292368,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.718643
-    },
-    {
-      "title": "A new investment fund is saying ‘no’ to DEI-focused companies — and ‘yes’ to others",
-      "summary": "Azoria, a new investment firm, is launching an ETF that will exclude S&P 500 companies with explicit racial and gender hiring targets. The firm believes companies hiring based on skill and ability will financially outperform those focused on DEI, citing examples like Best Buy and the underperformance of DEI-focused companies. Azoria aims to provide investors with a meritocracy-rooted alternative, investing in companies that abandon such hiring practices.",
-      "url": "https://nypost.com/2024/12/14/opinion/a-new-investment-fund-is-saying-no-to-dei-focused-companies/",
-      "source": "New York Post",
-      "published": "20241214T080000",
-      "overall_sentiment_score": 0.088633,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.532435,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.61691
-    },
-    {
       "title": "Apple Inc. (NASDAQ:AAPL) is favoured by institutional owners who hold 61% of the company",
       "summary": "Institutional investors hold 61% of Apple Inc. (NASDAQ:AAPL), making them the most powerful shareholder group with significant influence on the company's share price. The Vanguard Group, Inc. is the largest shareholder with 8.9% of shares, while insiders own less than 1% and the general public holds a 37% stake.",
       "url": "https://simplywall.st/stocks/us/tech/nasdaq-aapl/apple/news/apple-inc-nasdaqaapl-is-favoured-by-institutional-owners-who-1",
@@ -53,30 +29,6 @@
       "ticker_sentiment_score": 0.315887,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Should You Invest in the Fidelity MSCI Information Technology Index ETF (FTEC)?",
-      "summary": "This article evaluates the Fidelity MSCI Information Technology Index ETF (FTEC) as an investment option for broad exposure to the Technology - Broad sector. It highlights FTEC's passive management, low expense ratio (0.08%), and strong year-to-date performance (up 31.10%). The piece also details its top holdings, risk profile, and compares it with alternative technology ETFs like XLK and VGT, ultimately giving FTEC a \"Strong Buy\" Zacks ETF Rank.",
-      "url": "https://www.nasdaq.com/articles/should-you-invest-fidelity-msci-information-technology-index-etf-ftec-2",
-      "source": "Nasdaq",
-      "published": "20241211T062000",
-      "overall_sentiment_score": 0.37595,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.345438,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.665061
-    },
-    {
-      "title": "NYC ad agencies Omnicom, Interpublic to form $30bn marketing powerhouse",
-      "summary": "Omnicom is set to acquire Interpublic Group in a stock-for-stock deal, creating the world's largest advertising agency with combined annual revenue of almost $26bn and a market worth of over $30bn. The merger aims to accelerate innovation, leverage new technologies like AI, and achieve annual cost savings of $750m. The deal, which could face regulatory scrutiny, positions the combined entity, Omnicom, to better compete with tech giants and adapt to the evolving advertising landscape.",
-      "url": "https://www.aljazeera.com/economy/2024/12/9/nyc-ad-agencies-omnicom-interpublic-to-form-30bn-marketing-powerhouse",
-      "source": "Al Jazeera",
-      "published": "20241209T000000",
-      "overall_sentiment_score": 0.206151,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.306068,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.617581
     },
     {
       "title": "Apple approaches $4 trillion valuation as investors bet on AI momentum",
@@ -91,30 +43,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "‘Synaptics plans to assemble 10% chips in India’",
-      "summary": "US semiconductor company Synaptics Inc. plans to assemble and package 10% of its chips in India by 2027 to diversify its supply chain and reduce reliance on China. The company will use an OSAT facility in Hyderabad and partner with embed UR to develop edge AI solutions, aiming for the process to begin in late 2025 or early 2026. This move also addresses concerns about proposed US tariffs and the need for supply chain alternatives.",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/synaptics-plans-to-assemble-10-chips-in-india/articleshow/116492556.cms",
-      "source": "Times of India",
-      "published": "20241220T113300",
-      "overall_sentiment_score": 0.248095,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.244629,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.60164
-    },
-    {
-      "title": "Jabil’s Winning Streak Begins: Market Bottom Set, Future in Focus",
-      "summary": "Jabil's fiscal Q1 2025 report indicates that the company has hit its market bottom, with a strong outlook for future growth despite a top-line contraction. The company outperformed expectations for both revenue and earnings, providing optimistic guidance and benefiting from strength in cloud, data center, and digital commerce segments. Analyst and institutional investor trends are positive, supporting a potential new all-time high for the stock.",
-      "url": "https://www.theglobeandmail.com/investing/markets/stocks/JBL/pressreleases/30160342/jabils-winning-streak-begins-market-bottom-set-future-in-focus/",
-      "source": "The Globe and Mail",
-      "published": "20241220T000000",
-      "overall_sentiment_score": 0.422154,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.309377,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.705145
-    },
-    {
       "title": "Apple Inc. (NASDAQ:AAPL) is a favorite amongst institutional investors who own 61%",
       "summary": "Institutional investors own 61% of Apple Inc. (NASDAQ:AAPL), making it a favored stock among this group. While this signifies credibility, the concentration of ownership among a few large investors means their trading actions can significantly impact the stock price. Insiders, despite owning less than 1%, hold a substantial dollar value in shares and have been recent sellers.",
       "url": "https://finance.yahoo.com/news/apple-inc-nasdaq-aapl-favorite-130015255.html",
@@ -125,30 +53,6 @@
       "ticker_sentiment_score": 0.28529,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Pattern Energy Announces Equity Investment from Consortium Headed by APG and ART",
-      "summary": "Pattern Energy announced that a consortium led by APG Asset Management and Australian Retirement Trust will acquire Riverstone Holdings LLC’s equity stake in the company. This investment strengthens Pattern Energy's position, allowing it to advance its development pipeline of over 25-gigawatts of renewable energy and transmission projects. The transaction is expected to close in the first half of 2025.",
-      "url": "https://finance.yahoo.com/news/pattern-energy-announces-equity-investment-123000041.html",
-      "source": "Yahoo Finance",
-      "published": "20241216T123000",
-      "overall_sentiment_score": 0.179683,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.312843,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.605331
-    },
-    {
-      "title": "Broadcom's AI Chip Leadership Puts Pressure on Nvidia and Marvell, Analysts Say",
-      "summary": "Broadcom's stock surged after reporting strong Q4 adjusted EPS results and raising its dividend, driven by its leadership in AI custom Application-Specific Integrated Circuits (ASICs). Analysts upgraded Broadcom's price targets, highlighting its expanding AI opportunities and advanced 3nm silicon technology, which puts it ahead of competitors like Nvidia and Marvell. The company anticipates significant growth in its AI revenues, expecting to reach $30 billion by calendar 2027 based on strong demand from hyperscalers.",
-      "url": "https://finance.yahoo.com/news/broadcoms-ai-chip-leadership-puts-181057394.html",
-      "source": "Yahoo Finance",
-      "published": "20241213T181057",
-      "overall_sentiment_score": 0.25286,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.144205,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.591909
     },
     {
       "title": "Report: Apple working with Broadcom to develop custom chipset for AI",
@@ -163,52 +67,16 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Match Group Warns Negative Currency Impacts Will Bring Down Revenue",
-      "summary": "Match Group announced that unfavorable currency exchange rates will cause its current-quarter revenue to be below earlier estimates, reducing fourth-quarter revenue by $15 million more than anticipated, primarily impacting Tinder. The company also noted that Tinder's new user declines on Apple iOS have not fully recovered, though it did announce an additional $1.5 billion in stock buybacks. Match Group shares fell over 5% on the news and are down about 14% year-to-date.",
-      "url": "https://www.investopedia.com/match-group-warns-negative-currency-impacts-will-bring-down-revenue-8759779",
-      "source": "Investopedia",
-      "published": "20241211T132000",
-      "overall_sentiment_score": -0.309336,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.208924,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.632361
-    },
-    {
-      "title": "Taiwan Semiconductor Extends Lead As Top Chipmaker",
-      "summary": "Taiwan Semiconductor Manufacturing Co. (TSM) has solidified its position as the top global wafer foundry, increasing its market share to 64.9% in Q3 2024 due to strong demand for smartphone products and high-performance computing. The company reported $23.5 billion in revenue, a 39% increase, driven by 3nm and 5nm technologies. This growth contrasts with Samsung's market share decline and highlights the rising demand for advanced chip technologies and the impact of U.S. chip subsidies on key players like TSM and GlobalFoundries.",
-      "url": "https://www.sahmcapital.com/news/content/taiwan-semiconductor-extends-lead-as-top-chipmaker-2024-12-09",
-      "source": "Sahm",
-      "published": "20241209T141029",
-      "overall_sentiment_score": 0.275159,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.304018,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.706594
-    },
-    {
-      "title": "Big Advertising just got bigger with Omnicom’s Interpublic merger",
-      "summary": "Omnicom Group has agreed to acquire Interpublic Group, aiming to create the world's largest advertising company, bringing together agencies for major brands like Apple, McDonald’s, and Pepsi. This merger seeks to accelerate innovation and leverage new technologies, expecting to generate $750 million in annual cost synergies and increase adjusted earnings per share for both companies. The move reflects the advertising holding company model's continuous evolution to keep pace with technology and client demands, while Omnicom also focuses on scaling AI efforts and maintaining agency brand independence.",
-      "url": "https://www.fastcompany.com/91243054/omnicom-interpublic-merger-biggest-ad-shop",
-      "source": "Fast Company",
-      "published": "20241209T000000",
-      "overall_sentiment_score": 0.318875,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.260793,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.651933
-    },
-    {
-      "title": "Apple says it has told suppliers to stop buying minerals from Congo",
-      "summary": "Apple has instructed its suppliers to halt the purchase of tin, tantalum, tungsten, and gold from the Democratic Republic of Congo and Rwanda due to escalating conflict in the region. This decision comes in response to allegations from the Congolese government that Apple uses conflict minerals laundered through international supply chains. Apple strongly disputes these allegations.",
-      "url": "https://www.reuters.com/markets/commodities/apple-says-it-has-told-suppliers-stop-buying-minerals-congo-2024-12-17/",
-      "source": "Reuters",
-      "published": "20241217T213800",
-      "overall_sentiment_score": 0.011418,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.043355,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.347582
+      "title": "Apple honors 2024 App Store Award winners",
+      "summary": "Apple announced the winners of the 2024 App Store Awards, recognizing 17 apps and games for their exceptional user experiences, design, and innovation. The awards include categories for various Apple devices, the inaugural Apple Vision Pro category, and Cultural Impact winners, highlighting developers who have enriched users' lives and communities. The winning selections showcase the diverse opportunities available across the App Store and the Apple ecosystem.",
+      "url": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
+      "source": "Apple",
+      "published": "20241211T000000",
+      "overall_sentiment_score": 0.393038,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.459464,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "3 Vanguard ETFs That Can Help Build Your Perfect Portfolio",
@@ -223,16 +91,16 @@
       "relevance_score": 0.744868
     },
     {
-      "title": "Victoria’s Secret Is PETA’s ‘Company of the Year’ for its Fabulously Innovative Feather-Free Fashion Show",
-      "summary": "PETA has named Victoria’s Secret its 2024 Company of the Year for its innovative use of feather-free materials in its fashion show, showcasing vegan Angel wings made from 3-D printed materials, quilted satin, soda can tabs, and Swarovski crystals. This decision followed PETA's communication with the retailer about the cruelty involved in obtaining feathers from birds. The move is applauded by PETA as an example for designers and consumers to adopt animal-friendly practices in fashion.",
-      "url": "https://www.peta.org/media/news-releases/victorias-secret-is-petas-company-of-the-year-for-its-fabulously-innovative-feather-free-fashion-show/",
-      "source": "PETA",
-      "published": "20241216T000000",
-      "overall_sentiment_score": 0.225319,
+      "title": "After Earnings, Is Broadcom Stock a Buy, a Sell, or Fairly Valued?",
+      "summary": "Broadcom's third-quarter earnings report, released on December 12, 2024, has led Morningstar to raise its fair value estimate for the company's stock to $190 per share, up from $155, driven by an increased AI revenue growth forecast. Despite the upward revision, Morningstar now considers Broadcom's shares to be roughly fairly valued after a significant post-earnings jump, giving it a 2-star rating. The article highlights Broadcom's strong potential in AI chips, its wide economic moat from intangible assets and switching costs, and its financial strength, while also noting risks related to market cycles and supply chain reliance on Taiwan Semiconductor Manufacturing.",
+      "url": "https://www.morningstar.com/stocks/after-earnings-is-broadcom-stock-buy-sell-or-fairly-valued-3",
+      "source": "Morningstar",
+      "published": "20241219T000000",
+      "overall_sentiment_score": 0.194152,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.428756,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.60521
+      "ticker_sentiment_score": 0.292368,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.718643
     },
     {
       "title": "Broadcom ETFs Surge on Strong AI Demand",
@@ -247,16 +115,148 @@
       "relevance_score": 0.710461
     },
     {
-      "title": "Apple honors 2024 App Store Award winners",
-      "summary": "Apple announced the winners of the 2024 App Store Awards, recognizing 17 apps and games for their exceptional user experiences, design, and innovation. The awards include categories for various Apple devices, the inaugural Apple Vision Pro category, and Cultural Impact winners, highlighting developers who have enriched users' lives and communities. The winning selections showcase the diverse opportunities available across the App Store and the Apple ecosystem.",
-      "url": "https://www.apple.com/newsroom/2024/12/apple-honors-2024-app-store-award-winners/",
-      "source": "Apple",
-      "published": "20241211T000000",
-      "overall_sentiment_score": 0.393038,
+      "title": "Taiwan Semiconductor Extends Lead As Top Chipmaker",
+      "summary": "Taiwan Semiconductor Manufacturing Co. (TSM) has solidified its position as the top global wafer foundry, increasing its market share to 64.9% in Q3 2024 due to strong demand for smartphone products and high-performance computing. The company reported $23.5 billion in revenue, a 39% increase, driven by 3nm and 5nm technologies. This growth contrasts with Samsung's market share decline and highlights the rising demand for advanced chip technologies and the impact of U.S. chip subsidies on key players like TSM and GlobalFoundries.",
+      "url": "https://www.sahmcapital.com/news/content/taiwan-semiconductor-extends-lead-as-top-chipmaker-2024-12-09",
+      "source": "Sahm",
+      "published": "20241209T141029",
+      "overall_sentiment_score": 0.275159,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.304018,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.706594
+    },
+    {
+      "title": "Jabil’s Winning Streak Begins: Market Bottom Set, Future in Focus",
+      "summary": "Jabil's fiscal Q1 2025 report indicates that the company has hit its market bottom, with a strong outlook for future growth despite a top-line contraction. The company outperformed expectations for both revenue and earnings, providing optimistic guidance and benefiting from strength in cloud, data center, and digital commerce segments. Analyst and institutional investor trends are positive, supporting a potential new all-time high for the stock.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/JBL/pressreleases/30160342/jabils-winning-streak-begins-market-bottom-set-future-in-focus/",
+      "source": "The Globe and Mail",
+      "published": "20241220T000000",
+      "overall_sentiment_score": 0.422154,
       "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.459464,
+      "ticker_sentiment_score": 0.309377,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.705145
+    },
+    {
+      "title": "Should You Invest in the Fidelity MSCI Information Technology Index ETF (FTEC)?",
+      "summary": "This article evaluates the Fidelity MSCI Information Technology Index ETF (FTEC) as an investment option for broad exposure to the Technology - Broad sector. It highlights FTEC's passive management, low expense ratio (0.08%), and strong year-to-date performance (up 31.10%). The piece also details its top holdings, risk profile, and compares it with alternative technology ETFs like XLK and VGT, ultimately giving FTEC a \"Strong Buy\" Zacks ETF Rank.",
+      "url": "https://www.nasdaq.com/articles/should-you-invest-fidelity-msci-information-technology-index-etf-ftec-2",
+      "source": "Nasdaq",
+      "published": "20241211T062000",
+      "overall_sentiment_score": 0.37595,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.345438,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.665061
+    },
+    {
+      "title": "Big Advertising just got bigger with Omnicom’s Interpublic merger",
+      "summary": "Omnicom Group has agreed to acquire Interpublic Group, aiming to create the world's largest advertising company, bringing together agencies for major brands like Apple, McDonald’s, and Pepsi. This merger seeks to accelerate innovation and leverage new technologies, expecting to generate $750 million in annual cost synergies and increase adjusted earnings per share for both companies. The move reflects the advertising holding company model's continuous evolution to keep pace with technology and client demands, while Omnicom also focuses on scaling AI efforts and maintaining agency brand independence.",
+      "url": "https://www.fastcompany.com/91243054/omnicom-interpublic-merger-biggest-ad-shop",
+      "source": "Fast Company",
+      "published": "20241209T000000",
+      "overall_sentiment_score": 0.318875,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.260793,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.651933
+    },
+    {
+      "title": "Match Group Warns Negative Currency Impacts Will Bring Down Revenue",
+      "summary": "Match Group announced that unfavorable currency exchange rates will cause its current-quarter revenue to be below earlier estimates, reducing fourth-quarter revenue by $15 million more than anticipated, primarily impacting Tinder. The company also noted that Tinder's new user declines on Apple iOS have not fully recovered, though it did announce an additional $1.5 billion in stock buybacks. Match Group shares fell over 5% on the news and are down about 14% year-to-date.",
+      "url": "https://www.investopedia.com/match-group-warns-negative-currency-impacts-will-bring-down-revenue-8759779",
+      "source": "Investopedia",
+      "published": "20241211T132000",
+      "overall_sentiment_score": -0.309336,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.208924,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.632361
+    },
+    {
+      "title": "NYC ad agencies Omnicom, Interpublic to form $30bn marketing powerhouse",
+      "summary": "Omnicom is set to acquire Interpublic Group in a stock-for-stock deal, creating the world's largest advertising agency with combined annual revenue of almost $26bn and a market worth of over $30bn. The merger aims to accelerate innovation, leverage new technologies like AI, and achieve annual cost savings of $750m. The deal, which could face regulatory scrutiny, positions the combined entity, Omnicom, to better compete with tech giants and adapt to the evolving advertising landscape.",
+      "url": "https://www.aljazeera.com/economy/2024/12/9/nyc-ad-agencies-omnicom-interpublic-to-form-30bn-marketing-powerhouse",
+      "source": "Al Jazeera",
+      "published": "20241209T000000",
+      "overall_sentiment_score": 0.206151,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.306068,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.617581
+    },
+    {
+      "title": "A new investment fund is saying ‘no’ to DEI-focused companies — and ‘yes’ to others",
+      "summary": "Azoria, a new investment firm, is launching an ETF that will exclude S&P 500 companies with explicit racial and gender hiring targets. The firm believes companies hiring based on skill and ability will financially outperform those focused on DEI, citing examples like Best Buy and the underperformance of DEI-focused companies. Azoria aims to provide investors with a meritocracy-rooted alternative, investing in companies that abandon such hiring practices.",
+      "url": "https://nypost.com/2024/12/14/opinion/a-new-investment-fund-is-saying-no-to-dei-focused-companies/",
+      "source": "New York Post",
+      "published": "20241214T080000",
+      "overall_sentiment_score": 0.088633,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.532435,
       "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
+      "relevance_score": 0.61691
+    },
+    {
+      "title": "Pattern Energy Announces Equity Investment from Consortium Headed by APG and ART",
+      "summary": "Pattern Energy announced that a consortium led by APG Asset Management and Australian Retirement Trust will acquire Riverstone Holdings LLC’s equity stake in the company. This investment strengthens Pattern Energy's position, allowing it to advance its development pipeline of over 25-gigawatts of renewable energy and transmission projects. The transaction is expected to close in the first half of 2025.",
+      "url": "https://finance.yahoo.com/news/pattern-energy-announces-equity-investment-123000041.html",
+      "source": "Yahoo Finance",
+      "published": "20241216T123000",
+      "overall_sentiment_score": 0.179683,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.312843,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.605331
+    },
+    {
+      "title": "Victoria’s Secret Is PETA’s ‘Company of the Year’ for its Fabulously Innovative Feather-Free Fashion Show",
+      "summary": "PETA has named Victoria’s Secret its 2024 Company of the Year for its innovative use of feather-free materials in its fashion show, showcasing vegan Angel wings made from 3-D printed materials, quilted satin, soda can tabs, and Swarovski crystals. This decision followed PETA's communication with the retailer about the cruelty involved in obtaining feathers from birds. The move is applauded by PETA as an example for designers and consumers to adopt animal-friendly practices in fashion.",
+      "url": "https://www.peta.org/media/news-releases/victorias-secret-is-petas-company-of-the-year-for-its-fabulously-innovative-feather-free-fashion-show/",
+      "source": "PETA",
+      "published": "20241216T000000",
+      "overall_sentiment_score": 0.225319,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.428756,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.60521
+    },
+    {
+      "title": "‘Synaptics plans to assemble 10% chips in India’",
+      "summary": "US semiconductor company Synaptics Inc. plans to assemble and package 10% of its chips in India by 2027 to diversify its supply chain and reduce reliance on China. The company will use an OSAT facility in Hyderabad and partner with embed UR to develop edge AI solutions, aiming for the process to begin in late 2025 or early 2026. This move also addresses concerns about proposed US tariffs and the need for supply chain alternatives.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/synaptics-plans-to-assemble-10-chips-in-india/articleshow/116492556.cms",
+      "source": "Times of India",
+      "published": "20241220T113300",
+      "overall_sentiment_score": 0.248095,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.244629,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.60164
+    },
+    {
+      "title": "Broadcom's AI Chip Leadership Puts Pressure on Nvidia and Marvell, Analysts Say",
+      "summary": "Broadcom's stock surged after reporting strong Q4 adjusted EPS results and raising its dividend, driven by its leadership in AI custom Application-Specific Integrated Circuits (ASICs). Analysts upgraded Broadcom's price targets, highlighting its expanding AI opportunities and advanced 3nm silicon technology, which puts it ahead of competitors like Nvidia and Marvell. The company anticipates significant growth in its AI revenues, expecting to reach $30 billion by calendar 2027 based on strong demand from hyperscalers.",
+      "url": "https://finance.yahoo.com/news/broadcoms-ai-chip-leadership-puts-181057394.html",
+      "source": "Yahoo Finance",
+      "published": "20241213T181057",
+      "overall_sentiment_score": 0.25286,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.144205,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.591909
+    },
+    {
+      "title": "Apple says it has told suppliers to stop buying minerals from Congo",
+      "summary": "Apple has instructed its suppliers to halt the purchase of tin, tantalum, tungsten, and gold from the Democratic Republic of Congo and Rwanda due to escalating conflict in the region. This decision comes in response to allegations from the Congolese government that Apple uses conflict minerals laundered through international supply chains. Apple strongly disputes these allegations.",
+      "url": "https://www.reuters.com/markets/commodities/apple-says-it-has-told-suppliers-stop-buying-minerals-congo-2024-12-17/",
+      "source": "Reuters",
+      "published": "20241217T213800",
+      "overall_sentiment_score": 0.011418,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.043355,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.347582
     }
   ]
 }

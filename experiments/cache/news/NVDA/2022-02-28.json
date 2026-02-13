@@ -7,6 +7,18 @@
   "article_count": 7,
   "articles": [
     {
+      "title": "Nvidia Posts Record Sales Amid Broad Chip Demand",
+      "summary": "Nvidia Corp. reported record quarterly sales of $7.64 billion, a 53% increase from the previous year, and projected further growth. The graphics-chip maker also more than doubled its net income to $3 billion, surpassing Wall Street expectations for both profit and sales. This strong performance comes amidst broad chip demand, despite the company moving past its failed takeover bid for Arm Ltd.",
+      "url": "https://www.wsj.com/business/earnings/nvidia-posts-record-sales-amid-broad-chip-demand-11645048020?gaa_at=eafs&gaa_n=AWEtsqdtuXhb1eYb_x07vxJVQ9HprSieCfWzRVQtAYoGbZRY9g92JFQiCktV&gaa_ts=69079e78&gaa_sig=vezeqs3S8NZLFwt2TZSg4rW1_L4OZ6XQwRIYQ2Z_aTx3UMO_KaU84JId972wyti-RpXJRVE4JmTAFvCQp6sqww%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20220216T175611",
+      "overall_sentiment_score": 0.507779,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.89782,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
       "title": "Use WGMI to Enter the Crypto Economy",
       "summary": "The crypto economy is diversifying beyond direct Bitcoin ownership, with new ETFs like the Valkyrie Bitcoin Miners ETF (WGMI) offering access. WGMI focuses on bitcoin mining equities and is actively managed, allowing it to adapt to a nascent asset class with high growth potential. The ETF also incorporates a renewable energy overlay for its mining components, addressing environmental concerns associated with bitcoin mining.",
       "url": "https://etfdb.com/crypto-channel/use-wgmi-to-enter-the-crypto-economy/",
@@ -31,18 +43,6 @@
       "relevance_score": 0.712712
     },
     {
-      "title": "Nvidia Posts Record Sales Amid Broad Chip Demand",
-      "summary": "Nvidia Corp. reported record quarterly sales of $7.64 billion, a 53% increase from the previous year, and projected further growth. The graphics-chip maker also more than doubled its net income to $3 billion, surpassing Wall Street expectations for both profit and sales. This strong performance comes amidst broad chip demand, despite the company moving past its failed takeover bid for Arm Ltd.",
-      "url": "https://www.wsj.com/business/earnings/nvidia-posts-record-sales-amid-broad-chip-demand-11645048020?gaa_at=eafs&gaa_n=AWEtsqdtuXhb1eYb_x07vxJVQ9HprSieCfWzRVQtAYoGbZRY9g92JFQiCktV&gaa_ts=69079e78&gaa_sig=vezeqs3S8NZLFwt2TZSg4rW1_L4OZ6XQwRIYQ2Z_aTx3UMO_KaU84JId972wyti-RpXJRVE4JmTAFvCQp6sqww%3D%3D",
-      "source": "The Wall Street Journal",
-      "published": "20220216T175611",
-      "overall_sentiment_score": 0.507779,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.89782,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
       "title": "Will Cisco Buy Splunk? Big Tech Bids $20 Billion on Public Company",
       "summary": "Cisco Systems has reportedly offered $20 billion to acquire software company Splunk, aiming to expand its presence in the software industry. The potential acquisition faces regulatory hurdles and comes as Splunk navigates a leadership transition and business model shifts. Both companies' stocks reacted differently to the news, with Cisco's stock slightly down and Splunk's significantly up due to investor sentiment regarding financial backing.",
       "url": "https://marketrealist.com/p/will-cisco-buy-splunk/",
@@ -55,16 +55,16 @@
       "relevance_score": 0.62661
     },
     {
-      "title": "Nvidia is set to spend at least $10B to secure its share of limited 5nm chip supply",
-      "summary": "Nvidia is reportedly planning to spend at least $10 billion to secure a significant share of TSMC's limited 5nm chip supply for its upcoming Ada Lovelace GPUs (RTX 40 series). This substantial investment is crucial for Nvidia to potentially achieve higher clock speeds and better power efficiency, giving them a competitive edge over rivals like AMD. The move highlights the intense competition among fabless companies for advanced chip manufacturing capacity, with Nvidia having already spent $9 billion on inventory and prepayments in a recent quarter.",
-      "url": "https://www.pcgamer.com/nvidia-is-set-to-spend-at-least-dollar10b-to-secure-its-share-of-limited-5nm-chip-supply/",
-      "source": "PC Gamer",
-      "published": "20220221T175612",
-      "overall_sentiment_score": 0.019115,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.031203,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.300312
+      "title": "Veritas NetBackup 10, IBM FlashSystem Cyber Vault And Rambus HBM3",
+      "summary": "This article discusses key announcements from Veritas, IBM, and Rambus in the technology sector. Veritas introduced NetBackup 10, an evolution in cloud-based data protection with enhanced features. IBM unveiled its FlashSystem Cyber Vault and new FlashSystems, while Rambus detailed its HBM3 high-performance memory.",
+      "url": "https://www.forbes.com/sites/tomcoughlin/2022/02/23/veritas-netbackup-10-ibm-flashsystem-cyber-vault-and-rambus-hbm3/",
+      "source": "Forbes",
+      "published": "20220223T074500",
+      "overall_sentiment_score": 0.34963,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.203603,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.620922
     },
     {
       "title": "Intel to Buy Israel’s Tower Semiconductor for $5.4 Billion",
@@ -79,16 +79,16 @@
       "relevance_score": 0.600838
     },
     {
-      "title": "Veritas NetBackup 10, IBM FlashSystem Cyber Vault And Rambus HBM3",
-      "summary": "This article discusses key announcements from Veritas, IBM, and Rambus in the technology sector. Veritas introduced NetBackup 10, an evolution in cloud-based data protection with enhanced features. IBM unveiled its FlashSystem Cyber Vault and new FlashSystems, while Rambus detailed its HBM3 high-performance memory.",
-      "url": "https://www.forbes.com/sites/tomcoughlin/2022/02/23/veritas-netbackup-10-ibm-flashsystem-cyber-vault-and-rambus-hbm3/",
-      "source": "Forbes",
-      "published": "20220223T074500",
-      "overall_sentiment_score": 0.34963,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.203603,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.620922
+      "title": "Nvidia is set to spend at least $10B to secure its share of limited 5nm chip supply",
+      "summary": "Nvidia is reportedly planning to spend at least $10 billion to secure a significant share of TSMC's limited 5nm chip supply for its upcoming Ada Lovelace GPUs (RTX 40 series). This substantial investment is crucial for Nvidia to potentially achieve higher clock speeds and better power efficiency, giving them a competitive edge over rivals like AMD. The move highlights the intense competition among fabless companies for advanced chip manufacturing capacity, with Nvidia having already spent $9 billion on inventory and prepayments in a recent quarter.",
+      "url": "https://www.pcgamer.com/nvidia-is-set-to-spend-at-least-dollar10b-to-secure-its-share-of-limited-5nm-chip-supply/",
+      "source": "PC Gamer",
+      "published": "20220221T175612",
+      "overall_sentiment_score": 0.019115,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.031203,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.300312
     }
   ]
 }

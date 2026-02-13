@@ -7,42 +7,6 @@
   "article_count": 11,
   "articles": [
     {
-      "title": "Citigroup's Russia exit removes one obstacle for CEO, but challenges remain",
-      "summary": "Citigroup CEO Jane Fraser is working to simplify the bank's structure and focus on core businesses by exiting Russia and paring down consumer operations in other countries. While investors and analysts acknowledge the positive direction, Fraser faces significant challenges, including overhauling risk management systems mandated by U.S. regulators and a potentially deteriorating economic environment. Despite these hurdles, some investors are showing patience with her long-term strategy for a \"simpler, sounder bank.\"",
-      "url": "https://www.thedailyherald.sx/business/citigroup-s-russia-exit-removes-one-obstacle-for-ceo-but-challenges-remain",
-      "source": "www.thedailyherald.sx",
-      "published": "20220901T162139",
-      "overall_sentiment_score": -0.059645,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.140373,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.68347
-    },
-    {
-      "title": "Atlantic Union Bank Names Sherry Williams Chief Risk Officer",
-      "summary": "Atlantic Union Bank has appointed Sherry Williams as its new Chief Risk Officer, effective by October 2022. Williams will oversee the company's enterprise and regulatory risk management functions. She brings 26 years of experience from previous roles at Amalgamated Bank, PwC, SunTrust Bank, State of Georgia, and Ernst & Young LLP, holding a doctorate in business administration and several professional certifications.",
-      "url": "https://www.citybiz.co/article/313814/atlantic-union-bank-names-sherry-williams-chief-risk-officer/",
-      "source": "citybiz",
-      "published": "20220829T161134",
-      "overall_sentiment_score": -0.087111,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.051983,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.593665
-    },
-    {
-      "title": "MetLife Investment Management to acquire ESG fixed-income manager Affirmative Investment Management",
-      "summary": "MetLife Investment Management is set to acquire Affirmative Investment Management, an ESG-focused fixed-income manager. The acquisition strengthens MetLife's offerings in the growing ESG investment space. This move will allow MetLife to expand its capabilities in responsible and sustainable investing.",
-      "url": "https://www.pionline.com/money-management/metlife-investment-management-acquire-esg-fixed-income-manager-affirmative/",
-      "source": "Pensions & Investments",
-      "published": "20220829T152300",
-      "overall_sentiment_score": -0.036018,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.101581,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.649659
-    },
-    {
       "title": "JPMorgan Chase Applies to Open Its First Downtown Baltimore Branch",
       "summary": "JPMorgan Chase & Co. is set to open its first downtown Baltimore branch at 100 S. Charles St. in 2023, following an application filed with the federal Office of the Comptroller of the Currency. This move is part of the bank's aggressive expansion strategy in the region, aiming to open 70 new branches across Maryland, Washington, D.C., and Virginia by the end of 2025, doubling its initial goal. The new downtown branch will be Chase's seventh in Baltimore City and contributes to 13 total in Greater Baltimore.",
       "url": "https://www.jpmorganchase.com/newsroom/stories/Baltimore-branch",
@@ -53,18 +17,6 @@
       "ticker_sentiment_score": 0.446078,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "CBOE's Weekly Market Recap: August 15 To August 19",
-      "summary": "The CBOE's weekly market recap for August 15-19 indicates a potential end to the recent market rally, with experts from BlackRock and JPMorgan warning of resistance due to worsening global economic conditions. Major ETFs like SPY and several European ETFs, along with cryptocurrencies Bitcoin and Ethereum, experienced declines. Zoom Video Communications also saw its stock tumble after a revenue miss despite positive EPS.",
-      "url": "https://markets.financialcontent.com/lethbridgeherald/article/thenewswire-2022-8-31-cboes-weekly-market-recap-august-15-to-august-19",
-      "source": "FinancialContent",
-      "published": "20220831T121100",
-      "overall_sentiment_score": -0.097241,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.039263,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.744169
     },
     {
       "title": "Meet the Most Trusted Financial Companies for 2022, according to MarketWatch and IBD survey",
@@ -79,16 +31,52 @@
       "relevance_score": 0.820417
     },
     {
-      "title": "Heartland Express acquires CFI assets for $525 million",
-      "summary": "Heartland Express acquired Contract Freighters Inc.'s (CFI) truckload and Mexican logistics units from TFI International for $525 million, making it the eighth-largest truckload fleet in the U.S. The deal, funded by cash and debt, is expected to immediately boost Heartland's earnings and increase its annual revenue to approximately $1.3 billion. CFI will continue to operate under its existing brand and management team, with Heartland aiming for an 85% or better adjusted operating ratio within three years.",
-      "url": "https://www.freightwaves.com/news/heartland-express-acquires-cfi-assets-for-525-million",
-      "source": "FreightWaves",
-      "published": "20220822T170606",
-      "overall_sentiment_score": 0.256444,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.128759,
+      "title": "CBOE's Weekly Market Recap: August 15 To August 19",
+      "summary": "The CBOE's weekly market recap for August 15-19 indicates a potential end to the recent market rally, with experts from BlackRock and JPMorgan warning of resistance due to worsening global economic conditions. Major ETFs like SPY and several European ETFs, along with cryptocurrencies Bitcoin and Ethereum, experienced declines. Zoom Video Communications also saw its stock tumble after a revenue miss despite positive EPS.",
+      "url": "https://markets.financialcontent.com/lethbridgeherald/article/thenewswire-2022-8-31-cboes-weekly-market-recap-august-15-to-august-19",
+      "source": "FinancialContent",
+      "published": "20220831T121100",
+      "overall_sentiment_score": -0.097241,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.039263,
       "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.551681
+      "relevance_score": 0.744169
+    },
+    {
+      "title": "Citigroup's Russia exit removes one obstacle for CEO, but challenges remain",
+      "summary": "Citigroup CEO Jane Fraser is working to simplify the bank's structure and focus on core businesses by exiting Russia and paring down consumer operations in other countries. While investors and analysts acknowledge the positive direction, Fraser faces significant challenges, including overhauling risk management systems mandated by U.S. regulators and a potentially deteriorating economic environment. Despite these hurdles, some investors are showing patience with her long-term strategy for a \"simpler, sounder bank.\"",
+      "url": "https://www.thedailyherald.sx/business/citigroup-s-russia-exit-removes-one-obstacle-for-ceo-but-challenges-remain",
+      "source": "www.thedailyherald.sx",
+      "published": "20220901T162139",
+      "overall_sentiment_score": -0.059645,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.140373,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.68347
+    },
+    {
+      "title": "While mutual funds suffer losses, active ETFs continue to flourish",
+      "summary": "Despite significant outflows and market declines impacting mutual funds, active Exchange Traded Funds (ETFs) are experiencing strong growth. Investors worldwide withdrew a net US$640 billion from actively managed mutual funds in H1 2022, while active ETFs drew a net US$51.8 billion, demonstrating their increasing appeal, partly due to regulatory changes and structural advantages.",
+      "url": "https://www.wealthprofessional.ca/investments/etfs/while-mutual-funds-suffer-losses-active-etfs-continue-to-flourish/369210",
+      "source": "Wealth Professional",
+      "published": "20220823T171624",
+      "overall_sentiment_score": 0.1501,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.307472,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.649755
+    },
+    {
+      "title": "MetLife Investment Management to acquire ESG fixed-income manager Affirmative Investment Management",
+      "summary": "MetLife Investment Management is set to acquire Affirmative Investment Management, an ESG-focused fixed-income manager. The acquisition strengthens MetLife's offerings in the growing ESG investment space. This move will allow MetLife to expand its capabilities in responsible and sustainable investing.",
+      "url": "https://www.pionline.com/money-management/metlife-investment-management-acquire-esg-fixed-income-manager-affirmative/",
+      "source": "Pensions & Investments",
+      "published": "20220829T152300",
+      "overall_sentiment_score": -0.036018,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.101581,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.649659
     },
     {
       "title": "UBS, Wealthfront Call Off Merger",
@@ -103,18 +91,6 @@
       "relevance_score": 0.647134
     },
     {
-      "title": "Morgan Stanley Advisor Uses Lessons From Growing Up In India To Manage $10 Billion For Clients",
-      "summary": "Ron Basu, a Managing Director at Morgan Stanley Private Wealth Management, manages $10.4 billion in assets for clients, applying lessons learned from his upbringing in India, such as the importance of diversification due to currency depreciation and instability. Basu's investment philosophy emphasizes cashflow and compounding, and he prioritizes fundamental investing in tangible assets. He is currently navigating market volatility and geopolitical challenges by working with clients on hedging strategies and raising cash, while dealing with the stress of an interconnected global market.",
-      "url": "https://www.forbes.com/sites/jasonbisnoff/2022/08/24/morgan-stanley-advisor-uses-lessons-from-growing-up-in-india-to-manage-10-billion-for-clients/",
-      "source": "Forbes",
-      "published": "20220824T094500",
-      "overall_sentiment_score": 0.04943,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.118631,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.550258
-    },
-    {
       "title": "TD Ameritrade: Roxanna Islam Talks Generating Income with CEFs",
       "summary": "Roxanna Islam of VettaFi discussed closed-end funds (CEFs) on TD Ameritrade Network, highlighting their appeal for income generation despite investor concerns about rising rates due to leverage. She noted that while prices and asset values fell during previous rate hikes, distribution cuts were less severe than expected and that CEFs like Invesco Senior Income Trust CEF VVR and PIMCO Dynamic Income Opportunities Fund PDO offer strong income potential and are less sensitive to rising rates.",
       "url": "https://etfdb.com/news/2022/09/01/td-ameritrade-roxana-islam-talks-generating-income-with-cefs/",
@@ -127,16 +103,40 @@
       "relevance_score": 0.598529
     },
     {
-      "title": "While mutual funds suffer losses, active ETFs continue to flourish",
-      "summary": "Despite significant outflows and market declines impacting mutual funds, active Exchange Traded Funds (ETFs) are experiencing strong growth. Investors worldwide withdrew a net US$640 billion from actively managed mutual funds in H1 2022, while active ETFs drew a net US$51.8 billion, demonstrating their increasing appeal, partly due to regulatory changes and structural advantages.",
-      "url": "https://www.wealthprofessional.ca/investments/etfs/while-mutual-funds-suffer-losses-active-etfs-continue-to-flourish/369210",
-      "source": "Wealth Professional",
-      "published": "20220823T171624",
-      "overall_sentiment_score": 0.1501,
+      "title": "Atlantic Union Bank Names Sherry Williams Chief Risk Officer",
+      "summary": "Atlantic Union Bank has appointed Sherry Williams as its new Chief Risk Officer, effective by October 2022. Williams will oversee the company's enterprise and regulatory risk management functions. She brings 26 years of experience from previous roles at Amalgamated Bank, PwC, SunTrust Bank, State of Georgia, and Ernst & Young LLP, holding a doctorate in business administration and several professional certifications.",
+      "url": "https://www.citybiz.co/article/313814/atlantic-union-bank-names-sherry-williams-chief-risk-officer/",
+      "source": "citybiz",
+      "published": "20220829T161134",
+      "overall_sentiment_score": -0.087111,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.051983,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.593665
+    },
+    {
+      "title": "Heartland Express acquires CFI assets for $525 million",
+      "summary": "Heartland Express acquired Contract Freighters Inc.'s (CFI) truckload and Mexican logistics units from TFI International for $525 million, making it the eighth-largest truckload fleet in the U.S. The deal, funded by cash and debt, is expected to immediately boost Heartland's earnings and increase its annual revenue to approximately $1.3 billion. CFI will continue to operate under its existing brand and management team, with Heartland aiming for an 85% or better adjusted operating ratio within three years.",
+      "url": "https://www.freightwaves.com/news/heartland-express-acquires-cfi-assets-for-525-million",
+      "source": "FreightWaves",
+      "published": "20220822T170606",
+      "overall_sentiment_score": 0.256444,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.307472,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.649755
+      "ticker_sentiment_score": 0.128759,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.551681
+    },
+    {
+      "title": "Morgan Stanley Advisor Uses Lessons From Growing Up In India To Manage $10 Billion For Clients",
+      "summary": "Ron Basu, a Managing Director at Morgan Stanley Private Wealth Management, manages $10.4 billion in assets for clients, applying lessons learned from his upbringing in India, such as the importance of diversification due to currency depreciation and instability. Basu's investment philosophy emphasizes cashflow and compounding, and he prioritizes fundamental investing in tangible assets. He is currently navigating market volatility and geopolitical challenges by working with clients on hedging strategies and raising cash, while dealing with the stress of an interconnected global market.",
+      "url": "https://www.forbes.com/sites/jasonbisnoff/2022/08/24/morgan-stanley-advisor-uses-lessons-from-growing-up-in-india-to-manage-10-billion-for-clients/",
+      "source": "Forbes",
+      "published": "20220824T094500",
+      "overall_sentiment_score": 0.04943,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.118631,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.550258
     }
   ]
 }

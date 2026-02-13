@@ -7,18 +7,6 @@
   "article_count": 13,
   "articles": [
     {
-      "title": "ExxonMobil 'Back on Track' to Meet Target to Double Earnings -CEO",
-      "summary": "ExxonMobil CEO Darren Woods stated that the company is confident it will achieve its 2018 target to double earnings and cash flow by 2025 (initially pushed to 2027), attributing this to recent cost-cutting and higher energy prices. Woods also emphasized that the pace of the energy transition to cleaner fuels is a decision for consumers and governments, not oil producers.",
-      "url": "https://www.oedigital.com/news/492004-exxonmobil-back-on-track-to-meet-target-to-double-earnings-ceo",
-      "source": "Offshore Engineer Magazine",
-      "published": "20211110T161500",
-      "overall_sentiment_score": 0.497314,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.490544,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.99947
-    },
-    {
       "title": "Exxon warns some assets may be at risk for impairment due to climate change",
       "summary": "Exxon Mobil Corp announced that some of its oil and gas assets could face impairment due to climate change, a first such acknowledgment in a securities filing. The company's board, recently overhauled after a proxy battle, will now test assets for climate-related impairments as part of its annual review. This shift comes as Exxon plans to increase spending on carbon emission reduction technologies and faces pressure to address its climate strategy.",
       "url": "https://www.reuters.com/business/energy/exxon-warns-some-assets-may-risk-impairment-due-climate-change-filing-2021-11-03/",
@@ -31,52 +19,40 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Phillips 66 Converting Louisiana Refinery",
-      "summary": "Phillips 66 announced plans to convert its Alliance Refinery in Belle Chasse, Louisiana, to a terminal facility in 2022. This decision was made after evaluating repair costs following Hurricane Ida and considering the site's value as a midstream asset. The conversion will impact approximately 900 employees and contractors, and Phillips 66 plans to support them through the transition while maintaining its role as a major refiner.",
-      "url": "https://www.rigzone.com/news/phillips_66_converting_louisiana_refinery-15-nov-2021-167016-article/",
-      "source": "Rigzone",
-      "published": "20211115T092000",
-      "overall_sentiment_score": 0.049323,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.04531,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.628483
+      "title": "ExxonMobil states non-union employees get higher pay at Beaumont refinery",
+      "summary": "ExxonMobil informed locked-out union workers at its Beaumont, Texas, refinery that non-union employees at comparable sites receive 5% to 7% higher pay and similar benefits. This message comes ahead of a decertification vote for the United Steelworkers union Local 13-243, which represents 585 workers locked out since May 1. Exxon has stated the lockout will end if the union either accepts its proposed contract or is decertified, with the company aiming for changes to enhance competitiveness.",
+      "url": "https://www.bicmagazine.com/departments/operations/exxonmobil-states-non-union-employees-get-higher-pay-at-beau/",
+      "source": "BIC Magazine",
+      "published": "20211101T060000",
+      "overall_sentiment_score": -0.240914,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.209741,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
     },
     {
-      "title": "NextEra Energy Stock Forecast: Sunny and Windy",
-      "summary": "This article provides an in-depth forecast for NextEra Energy (NEE), positioning it as a leading renewable energy stock that offers both growth and dividend income. It highlights NextEra Energy's dual business model as the world's largest utility company (FPL) and largest generator of renewable energy (NextEra Energy Resources), and discusses how it stands to benefit from the $1.2 Trillion Infrastructure Bill and global shifts towards nuclear and wind energy. The article also benchmarks NEE's performance against various indices, concluding that its future looks bright given current market and political landscapes.",
-      "url": "https://www.nanalyze.com/2021/11/nextera-energy-stock-forecast/",
-      "source": "Nanalyze",
-      "published": "20211106T000000",
-      "overall_sentiment_score": 0.206181,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.225791,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.731247
+      "title": "Howard Hughes, The Woodlands officials search for tenants to replace Exxon in Hughes Landing",
+      "summary": "As ExxonMobil plans to vacate its offices in the Hughes Landing mixed-use district in The Woodlands, Howard Hughes and The Woodlands officials are actively seeking new tenants to fill the void. This move by Exxon will see its workers relocate to its main Houston-area campus, prompting a search for new companies to occupy the significant office space. The departure impacts The Woodlands' office market, necessitating efforts to attract different businesses to the area.",
+      "url": "https://www.bizjournals.com/houston/news/2021/11/03/what-happen-to-the-woodlands-exxon-office-towers.html",
+      "source": "The Business Journals",
+      "published": "20211103T213644",
+      "overall_sentiment_score": -0.418457,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.418541,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
     },
     {
-      "title": "Speakers see opportunities in energy transition",
-      "summary": "Speakers at the Executive Oil Conference in Midland, Texas, assert that oil and gas will be essential for decades, despite calls for a low-carbon future. ConocoPhillips and Devon Energy executives highlighted the Permian Basin's crucial role in U.S. energy production, emphasizing the need for technology and innovation to reduce emissions while meeting growing global energy demand, especially for populations experiencing energy poverty. They see opportunities in the energy transition for the industry and adjacent businesses.",
-      "url": "https://www.mrt.com/business/oil/article/Speakers-see-opportunities-in-energy-transition-16593556.php",
-      "source": "Midland Reporter-Telegram",
-      "published": "20211104T200658",
-      "overall_sentiment_score": 0.312078,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.23838,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.631624
-    },
-    {
-      "title": "Phillips 66 to begin repairs next week on two units at shut Louisiana refinery -sources",
-      "summary": "Phillips 66 plans to start repairs next week on a catalytic reformer and a hydrotreater at its storm-damaged Alliance, Louisiana, refinery, which has been shut since Hurricane Ida. Repairs for other major units, including the crude distillation unit and fluidic catalytic cracking unit, are slated for January. The company is also evaluating options for the refinery's future, including a potential sale or closure.",
-      "url": "https://www.reuters.com/business/energy/phillips-66-begin-repairs-next-week-two-units-shut-louisiana-refinery-sources-2021-11-03/",
-      "source": "Reuters",
-      "published": "20211103T214500",
-      "overall_sentiment_score": 0.048248,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.138104,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.61088
+      "title": "ExxonMobil 'Back on Track' to Meet Target to Double Earnings -CEO",
+      "summary": "ExxonMobil CEO Darren Woods stated that the company is confident it will achieve its 2018 target to double earnings and cash flow by 2025 (initially pushed to 2027), attributing this to recent cost-cutting and higher energy prices. Woods also emphasized that the pace of the energy transition to cleaner fuels is a decision for consumers and governments, not oil producers.",
+      "url": "https://www.oedigital.com/news/492004-exxonmobil-back-on-track-to-meet-target-to-double-earnings-ceo",
+      "source": "Offshore Engineer Magazine",
+      "published": "20211110T161500",
+      "overall_sentiment_score": 0.497314,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.490544,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.99947
     },
     {
       "title": "These are the Fortune 500 companies that call Irving home",
@@ -91,16 +67,28 @@
       "relevance_score": 0.918492
     },
     {
-      "title": "ExxonMobil states non-union employees get higher pay at Beaumont refinery",
-      "summary": "ExxonMobil informed locked-out union workers at its Beaumont, Texas, refinery that non-union employees at comparable sites receive 5% to 7% higher pay and similar benefits. This message comes ahead of a decertification vote for the United Steelworkers union Local 13-243, which represents 585 workers locked out since May 1. Exxon has stated the lockout will end if the union either accepts its proposed contract or is decertified, with the company aiming for changes to enhance competitiveness.",
-      "url": "https://www.bicmagazine.com/departments/operations/exxonmobil-states-non-union-employees-get-higher-pay-at-beau/",
-      "source": "BIC Magazine",
-      "published": "20211101T060000",
-      "overall_sentiment_score": -0.240914,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.209741,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 1.0
+      "title": "Argentina bets on natural gas despite climate commitments",
+      "summary": "Argentina is prioritizing the expansion of natural gas production and its pipeline network from the Vaca Muerta fields, despite its climate commitments to reduce emissions. President Alberto Fernández's government views natural gas as a key fuel for energy transition and export, aiming to save money on imports and boost the economy. Environmental organizations, however, argue that these plans contradict emission reduction targets and could lead to stranded assets, while highlighting environmental and social risks for local communities.",
+      "url": "https://batimes.com.ar/news/economy/argentina-bets-on-natural-gas-despite-climate-commitments.phtml",
+      "source": "Buenos Aires Times",
+      "published": "20211101T080000",
+      "overall_sentiment_score": 0.228401,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.242794,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.732475
+    },
+    {
+      "title": "NextEra Energy Stock Forecast: Sunny and Windy",
+      "summary": "This article provides an in-depth forecast for NextEra Energy (NEE), positioning it as a leading renewable energy stock that offers both growth and dividend income. It highlights NextEra Energy's dual business model as the world's largest utility company (FPL) and largest generator of renewable energy (NextEra Energy Resources), and discusses how it stands to benefit from the $1.2 Trillion Infrastructure Bill and global shifts towards nuclear and wind energy. The article also benchmarks NEE's performance against various indices, concluding that its future looks bright given current market and political landscapes.",
+      "url": "https://www.nanalyze.com/2021/11/nextera-energy-stock-forecast/",
+      "source": "Nanalyze",
+      "published": "20211106T000000",
+      "overall_sentiment_score": 0.206181,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.225791,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.731247
     },
     {
       "title": "Oil prices are up, but do not expect a gas-like crunch",
@@ -127,16 +115,28 @@
       "relevance_score": 0.63741
     },
     {
-      "title": "Howard Hughes, The Woodlands officials search for tenants to replace Exxon in Hughes Landing",
-      "summary": "As ExxonMobil plans to vacate its offices in the Hughes Landing mixed-use district in The Woodlands, Howard Hughes and The Woodlands officials are actively seeking new tenants to fill the void. This move by Exxon will see its workers relocate to its main Houston-area campus, prompting a search for new companies to occupy the significant office space. The departure impacts The Woodlands' office market, necessitating efforts to attract different businesses to the area.",
-      "url": "https://www.bizjournals.com/houston/news/2021/11/03/what-happen-to-the-woodlands-exxon-office-towers.html",
-      "source": "The Business Journals",
-      "published": "20211103T213644",
-      "overall_sentiment_score": -0.418457,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.418541,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 1.0
+      "title": "Speakers see opportunities in energy transition",
+      "summary": "Speakers at the Executive Oil Conference in Midland, Texas, assert that oil and gas will be essential for decades, despite calls for a low-carbon future. ConocoPhillips and Devon Energy executives highlighted the Permian Basin's crucial role in U.S. energy production, emphasizing the need for technology and innovation to reduce emissions while meeting growing global energy demand, especially for populations experiencing energy poverty. They see opportunities in the energy transition for the industry and adjacent businesses.",
+      "url": "https://www.mrt.com/business/oil/article/Speakers-see-opportunities-in-energy-transition-16593556.php",
+      "source": "Midland Reporter-Telegram",
+      "published": "20211104T200658",
+      "overall_sentiment_score": 0.312078,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.23838,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.631624
+    },
+    {
+      "title": "Phillips 66 Converting Louisiana Refinery",
+      "summary": "Phillips 66 announced plans to convert its Alliance Refinery in Belle Chasse, Louisiana, to a terminal facility in 2022. This decision was made after evaluating repair costs following Hurricane Ida and considering the site's value as a midstream asset. The conversion will impact approximately 900 employees and contractors, and Phillips 66 plans to support them through the transition while maintaining its role as a major refiner.",
+      "url": "https://www.rigzone.com/news/phillips_66_converting_louisiana_refinery-15-nov-2021-167016-article/",
+      "source": "Rigzone",
+      "published": "20211115T092000",
+      "overall_sentiment_score": 0.049323,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.04531,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.628483
     },
     {
       "title": "Oklahoma’s Harold Hamm among world’s richest oil men",
@@ -151,16 +151,16 @@
       "relevance_score": 0.61173
     },
     {
-      "title": "Argentina bets on natural gas despite climate commitments",
-      "summary": "Argentina is prioritizing the expansion of natural gas production and its pipeline network from the Vaca Muerta fields, despite its climate commitments to reduce emissions. President Alberto Fernández's government views natural gas as a key fuel for energy transition and export, aiming to save money on imports and boost the economy. Environmental organizations, however, argue that these plans contradict emission reduction targets and could lead to stranded assets, while highlighting environmental and social risks for local communities.",
-      "url": "https://batimes.com.ar/news/economy/argentina-bets-on-natural-gas-despite-climate-commitments.phtml",
-      "source": "Buenos Aires Times",
-      "published": "20211101T080000",
-      "overall_sentiment_score": 0.228401,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.242794,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.732475
+      "title": "Phillips 66 to begin repairs next week on two units at shut Louisiana refinery -sources",
+      "summary": "Phillips 66 plans to start repairs next week on a catalytic reformer and a hydrotreater at its storm-damaged Alliance, Louisiana, refinery, which has been shut since Hurricane Ida. Repairs for other major units, including the crude distillation unit and fluidic catalytic cracking unit, are slated for January. The company is also evaluating options for the refinery's future, including a potential sale or closure.",
+      "url": "https://www.reuters.com/business/energy/phillips-66-begin-repairs-next-week-two-units-shut-louisiana-refinery-sources-2021-11-03/",
+      "source": "Reuters",
+      "published": "20211103T214500",
+      "overall_sentiment_score": 0.048248,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.138104,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.61088
     }
   ]
 }

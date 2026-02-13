@@ -7,18 +7,6 @@
   "article_count": 18,
   "articles": [
     {
-      "title": "Applied Materials scales AI chips as revenue stagnates",
-      "summary": "Applied Materials is expanding its production of advanced AI-powering chips, particularly focusing on its gate-all-around transistor design, to counter stagnating revenue. The company aims to double revenue from this technology to $5 billion by 2025, despite U.S. sanctions potentially impacting its significant business in China. Applied Materials is also heavily investing in R&D to accelerate customer integration of its AI chip technology.",
-      "url": "https://www.manufacturingdive.com/news/applied-materials-expands-ai-chips-high-volume-manufacturing-q2-2024/717007/",
-      "source": "Manufacturing Dive",
-      "published": "20240524T000000",
-      "overall_sentiment_score": 0.236038,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.317358,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.630412
-    },
-    {
       "title": "This Nvidia-heavy investing strategy has been outperforming the S&P 500",
       "summary": "An investing strategy focusing on an Nvidia-heavy ETF, the Invesco S&P 500 Momentum ETF (SPMO), has consistently outperformed the S&P 500. This low-cost index strategy tracks stocks with the highest risk-weighted returns within the S&P 500 and has performed well during a period of high inflation and strong leadership in the technology sector. The fund, which rebalances twice a year, holds 99 S&P 500 companies with high momentum scores.",
       "url": "https://www.marketwatch.com/story/this-nvidia-heavy-investing-strategy-has-been-outperforming-the-s-p-500-073d692b?gaa_at=eafs&gaa_n=AWEtsqfyeyKNQRZp2pjT9RuEF1ZXAbZTlVX-UsOi6Np77nIdpLHmfkHo0Vzq&gaa_ts=69076261&gaa_sig=e1qNOcr8ONfT_TXKKVERt0VUunbvtkKs3P7AmAl5mY5vh-UepiP7M6tbCu7BqwLTiJjPU1qxaH1GvIkC1KTU5w%3D%3D",
@@ -43,42 +31,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Advanced Micro Devices to set up an R&D center in Taiwan, ministry says",
-      "summary": "Advanced Micro Devices (AMD) has applied to establish a research and development (R&D) center in Taiwan under the government's \"A+ Industrial Innovative R&D Program.\" The investment is estimated at NT$5 billion (US$155 million), with the ministry setting conditions such as collaborating with Taiwanese IC designers and recruiting foreign talent. This move is part of Taiwan's broader strategy to become a global R&D hub, attracting major tech companies like ASML, Lam Research, Applied Materials, and Nvidia.",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2024/05/21/2003818150",
-      "source": "Taipei Times",
-      "published": "20240521T000000",
-      "overall_sentiment_score": 0.354263,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.30861,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.622016
-    },
-    {
-      "title": "This Might Just Be YieldMax’s Craziest ETF Yet (104.56% Dividend Yield)",
-      "summary": "YieldMax has introduced a new ETF, ULTY, which offers an impressive 104.56% dividend yield. The company is known for its synthetic covered call strategy on individual stocks, generating high double-digit to triple-digit dividend yields. This strategy has led to significant interest from income investors and continues to drive the launch of new products.",
-      "url": "https://medium.datadriveninvestor.com/this-might-just-be-yieldmaxs-craziest-etf-yet-104-56-dividend-yield-07b80d18f16e",
-      "source": "DataDrivenInvestor",
-      "published": "20240520T000000",
-      "overall_sentiment_score": 0.271488,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.305083,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.703139
-    },
-    {
-      "title": "Liqid composability tech aims to turn Dell servers into GPU powerhouses",
-      "summary": "Liqid's composability technology aims to transform Dell servers into powerful AI model training systems by enabling a single Dell R760 server to access up to 30 NVIDIA L40S GPUs. This UltraStack configuration, developed with Dell and NVIDIA, promises significant reductions in capital and operational expenses while boosting AI performance, efficiency, and sustainability. Liqid's SmartStack technology also allows efficient allocation of GPU resources to multiple clients or modular server nodes, supporting various Dell PowerEdge systems.",
-      "url": "https://blocksandfiles.com/2024/05/20/liqid-composability-tech-turns-dell-servers-into-gpu-powerhouses/",
-      "source": "Blocks and Files",
-      "published": "20240520T000000",
-      "overall_sentiment_score": 0.31095,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.421107,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.802453
-    },
-    {
       "title": "Every Company to Be an ‘Intelligence Manufacturer,’ Declares NVIDIA CEO Jensen Huang at Dell Technologies World",
       "summary": "NVIDIA CEO Jensen Huang announced at Dell Technologies World that every company is fundamentally an \"intelligence manufacturer,\" emphasizing generative AI's transformative potential. He highlighted updates to the Dell AI Factory with NVIDIA, including new hardware and software tools aimed at simplifying AI deployment and accelerating AI application development. Huang also likened data centers to \"AI factories\" that convert data and electricity into valuable digital intelligence.",
       "url": "https://blogs.nvidia.com/blog/dell-technologies-world-2024/",
@@ -89,114 +41,6 @@
       "ticker_sentiment_score": 0.428206,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "SoundHound AI Spotlights Voice AI Innovation at 2024 Viva Technology Conference",
-      "summary": "SoundHound AI will showcase its voice AI solutions, including Dynamic Drive Thru and SoundHound Chat AI Automotive, at the 2024 Viva Technology conference in Paris. The company will demonstrate its advanced AI-driven voice technology for restaurant ordering and in-vehicle experiences, including the global debut of Vehicle Intelligence. Pedram Faghfouri, Senior Director of Product, Automotive & IoT for SoundHound AI, will also speak about the company's voice AI use cases.",
-      "url": "https://www.soundhound.com/newsroom/press-releases/soundhound-ai-spotlights-voice-ai-innovation-at-2024-viva-technology-conference/",
-      "source": "SoundHound",
-      "published": "20240517T000000",
-      "overall_sentiment_score": 0.312026,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.173714,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.633157
-    },
-    {
-      "title": "NetApp Unveils Unified Data Storage Built for the AI Era",
-      "summary": "NetApp has announced new leading AFF A-Series systems designed for unified data storage in the AI era, capable of handling demanding IT workloads including GenAI and VMware. The company is expanding its portfolio with enhanced capabilities and new features like StorageGRID models and a cyber vault reference architecture to help organizations efficiently manage data and drive innovation. These advancements aim to provide powerful, intelligent, and secure enterprise data infrastructure for modern workloads.",
-      "url": "https://laotiantimes.com/2024/05/15/netapp-unveils-unified-data-storage-built-for-the-ai-era/",
-      "source": "Laotian Times",
-      "published": "20240515T000000",
-      "overall_sentiment_score": 0.36183,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.322546,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.568688
-    },
-    {
-      "title": "NetApp and Lenovo Offer Converged Infrastructure Solution Optimized for GenAI",
-      "summary": "NetApp and Lenovo have introduced NetApp AIPod with Lenovo ThinkSystem servers for NVIDIA OVX, a converged infrastructure solution optimized for generative AI. This solution is designed to make AI more accessible and affordable for enterprises by enabling AI inference and retrieval-augmented generation (RAG) using private data, addressing challenges of cost and integration complexity. The partnership aims to simplify AI deployment and maximize the value of enterprise data, with the solution becoming available by summer 2024.",
-      "url": "https://laotiantimes.com/2024/05/15/netapp-and-lenovo-offer-converged-infrastructure-solution-optimized-for-genai/",
-      "source": "Laotian Times",
-      "published": "20240515T000000",
-      "overall_sentiment_score": 0.401856,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.410197,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.810301
-    },
-    {
-      "title": "CaLLM, Cool and Connected: Cerence Uses Generative AI to Transform the In-Car Experience",
-      "summary": "Cerence is collaborating with NVIDIA to integrate generative AI into automotive experiences, launching the Cerence Automotive Large Language Model (CaLLM) as the foundation for its next-gen in-car computing platform. This platform, running on NVIDIA DRIVE, aims to redefine in-car interaction by enabling vehicles to comprehend and respond to human language with remarkable accuracy. Cerence leverages NVIDIA DGX Cloud on Microsoft Azure to train its AI models, aspiring to transform vehicles into intelligent companions and make driving a personalized, connected, and safer experience.",
-      "url": "https://blogs.nvidia.com/blog/cerence-generative-ai-in-car-experience/",
-      "source": "NVIDIA Blog",
-      "published": "20240514T000000",
-      "overall_sentiment_score": 0.739604,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.708043,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.842719
-    },
-    {
-      "title": "HVAC Stock Tumbles On Earnings, Guidance Mixed Despite Increased AI Data Center Demand",
-      "summary": "Modine Manufacturing (MOD) reported mixed fiscal fourth-quarter results, beating earnings estimates but falling short on revenue. Despite forecasting fiscal 2025 revenue growth driven by increased AI data center demand, the company's shares declined following the announcement. Fiscal Q4 earnings grew 15% to 77 cents per share for the Wisconsin-based HVAC company.",
-      "url": "https://www.investors.com/news/modine-manufacturing-earnings-ai-data-center/",
-      "source": "Investor's Business Daily",
-      "published": "20240522T165800",
-      "overall_sentiment_score": 0.095091,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.407432,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.623587
-    },
-    {
-      "title": "Modine Manufacturing Stock Drops After Weak Quarterly Sales, Mixed Guidance",
-      "summary": "Modine Manufacturing shares fell after reporting weaker-than-expected quarterly sales and issuing mixed guidance, despite efforts to expand into the AI data center market. The company's revenue of $603.5 million missed analyst expectations, although adjusted earnings per share slightly surpassed estimates. Investors are advised to watch the $94 support level, as a close below it could lead to further declines for the stock.",
-      "url": "https://www.investopedia.com/modine-manufacturing-stock-drops-after-weak-quarterly-sales-mixed-guidance-8652194",
-      "source": "Investopedia",
-      "published": "20240522T071600",
-      "overall_sentiment_score": -0.027506,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.130154,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.624542
-    },
-    {
-      "title": "Three insights from theCUBE on latest news from NetApp",
-      "summary": "NetApp's recent \"Unified Data Storage Built for the AI Era\" event highlighted the company's strategies for leveraging intelligent data infrastructure to drive innovation and productivity. The CUBE's coverage revealed NetApp's focus on unified data storage, intelligent data services, and operational capabilities to meet the evolving data management landscape, particularly for generative AI workloads. Key insights also include NetApp's commitment to partner-first strategies, exemplified by collaborations like the AI Pod initiative with Nvidia and Lenovo.",
-      "url": "https://siliconangle.com/2024/05/20/netapp-ai-storage-george-kurian-netappdatastorage/",
-      "source": "SiliconANGLE",
-      "published": "20240520T172100",
-      "overall_sentiment_score": 0.388975,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.325995,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.61902
-    },
-    {
-      "title": "5 Biggest Robotics ETFs",
-      "summary": "The robotics market is poised for significant growth, with the industrial robotics market projected to reach US$79.87 billion by 2029 and the global service robot sector expected to hit US$84.8 billion by 2028. This article highlights five of the biggest robotics ETFs, categorized by assets under management (AUM), offering investors exposure to this expanding sector. Key ETFs discussed include Global X Robotics & Artificial Intelligence Thematic ETF (NASDAQ:BOTZ), ROBO Global Robotics & Automation Index ETF (ARCA:ROBO), and iShares Robotics and Artificial Intelligence ETF (ARCA:IRBO).",
-      "url": "https://investingnews.com/daily/tech-investing/emerging-tech-investing/robotics-investing/robotics-etfs/",
-      "source": "Investing News Network",
-      "published": "20240520T133000",
-      "overall_sentiment_score": 0.328867,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.34296,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.821209
-    },
-    {
-      "title": "NVIDIA, Teradyne and Siemens Gather in the ‘City of Robotics’ to Discuss Autonomous Machines and AI",
-      "summary": "Senior executives from NVIDIA, Siemens, and Teradyne Robotics gathered in Odense, Denmark, to celebrate the launch of Teradyne Robotics’ new headquarters and discuss the future of AI and autonomous machines. The discussion highlighted the transformative impact of generative AI, simulation, and digital twin technology on robotics, emphasizing collaboration as key to innovation in the rapidly growing global robotics market. Panelists discussed how physical AI is enhancing robot capabilities, improving navigation, and increasing safety across industries, particularly in manufacturing.",
-      "url": "https://blogs.nvidia.com/blog/nvidia-teradyne-siemens-robotics-autonomous-machines-ai/",
-      "source": "NVIDIA Blog",
-      "published": "20240515T000000",
-      "overall_sentiment_score": 0.375299,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.430388,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.905616
     },
     {
       "title": "With the rise of Ethernet, Nvidia Infiniband is being encroached upon",
@@ -211,6 +55,138 @@
       "relevance_score": 0.957803
     },
     {
+      "title": "NVIDIA, Teradyne and Siemens Gather in the ‘City of Robotics’ to Discuss Autonomous Machines and AI",
+      "summary": "Senior executives from NVIDIA, Siemens, and Teradyne Robotics gathered in Odense, Denmark, to celebrate the launch of Teradyne Robotics’ new headquarters and discuss the future of AI and autonomous machines. The discussion highlighted the transformative impact of generative AI, simulation, and digital twin technology on robotics, emphasizing collaboration as key to innovation in the rapidly growing global robotics market. Panelists discussed how physical AI is enhancing robot capabilities, improving navigation, and increasing safety across industries, particularly in manufacturing.",
+      "url": "https://blogs.nvidia.com/blog/nvidia-teradyne-siemens-robotics-autonomous-machines-ai/",
+      "source": "NVIDIA Blog",
+      "published": "20240515T000000",
+      "overall_sentiment_score": 0.375299,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.430388,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.905616
+    },
+    {
+      "title": "CaLLM, Cool and Connected: Cerence Uses Generative AI to Transform the In-Car Experience",
+      "summary": "Cerence is collaborating with NVIDIA to integrate generative AI into automotive experiences, launching the Cerence Automotive Large Language Model (CaLLM) as the foundation for its next-gen in-car computing platform. This platform, running on NVIDIA DRIVE, aims to redefine in-car interaction by enabling vehicles to comprehend and respond to human language with remarkable accuracy. Cerence leverages NVIDIA DGX Cloud on Microsoft Azure to train its AI models, aspiring to transform vehicles into intelligent companions and make driving a personalized, connected, and safer experience.",
+      "url": "https://blogs.nvidia.com/blog/cerence-generative-ai-in-car-experience/",
+      "source": "NVIDIA Blog",
+      "published": "20240514T000000",
+      "overall_sentiment_score": 0.739604,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.708043,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.842719
+    },
+    {
+      "title": "5 Biggest Robotics ETFs",
+      "summary": "The robotics market is poised for significant growth, with the industrial robotics market projected to reach US$79.87 billion by 2029 and the global service robot sector expected to hit US$84.8 billion by 2028. This article highlights five of the biggest robotics ETFs, categorized by assets under management (AUM), offering investors exposure to this expanding sector. Key ETFs discussed include Global X Robotics & Artificial Intelligence Thematic ETF (NASDAQ:BOTZ), ROBO Global Robotics & Automation Index ETF (ARCA:ROBO), and iShares Robotics and Artificial Intelligence ETF (ARCA:IRBO).",
+      "url": "https://investingnews.com/daily/tech-investing/emerging-tech-investing/robotics-investing/robotics-etfs/",
+      "source": "Investing News Network",
+      "published": "20240520T133000",
+      "overall_sentiment_score": 0.328867,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.34296,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.821209
+    },
+    {
+      "title": "NetApp and Lenovo Offer Converged Infrastructure Solution Optimized for GenAI",
+      "summary": "NetApp and Lenovo have introduced NetApp AIPod with Lenovo ThinkSystem servers for NVIDIA OVX, a converged infrastructure solution optimized for generative AI. This solution is designed to make AI more accessible and affordable for enterprises by enabling AI inference and retrieval-augmented generation (RAG) using private data, addressing challenges of cost and integration complexity. The partnership aims to simplify AI deployment and maximize the value of enterprise data, with the solution becoming available by summer 2024.",
+      "url": "https://laotiantimes.com/2024/05/15/netapp-and-lenovo-offer-converged-infrastructure-solution-optimized-for-genai/",
+      "source": "Laotian Times",
+      "published": "20240515T000000",
+      "overall_sentiment_score": 0.401856,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.410197,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.810301
+    },
+    {
+      "title": "Liqid composability tech aims to turn Dell servers into GPU powerhouses",
+      "summary": "Liqid's composability technology aims to transform Dell servers into powerful AI model training systems by enabling a single Dell R760 server to access up to 30 NVIDIA L40S GPUs. This UltraStack configuration, developed with Dell and NVIDIA, promises significant reductions in capital and operational expenses while boosting AI performance, efficiency, and sustainability. Liqid's SmartStack technology also allows efficient allocation of GPU resources to multiple clients or modular server nodes, supporting various Dell PowerEdge systems.",
+      "url": "https://blocksandfiles.com/2024/05/20/liqid-composability-tech-turns-dell-servers-into-gpu-powerhouses/",
+      "source": "Blocks and Files",
+      "published": "20240520T000000",
+      "overall_sentiment_score": 0.31095,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.421107,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.802453
+    },
+    {
+      "title": "This Might Just Be YieldMax’s Craziest ETF Yet (104.56% Dividend Yield)",
+      "summary": "YieldMax has introduced a new ETF, ULTY, which offers an impressive 104.56% dividend yield. The company is known for its synthetic covered call strategy on individual stocks, generating high double-digit to triple-digit dividend yields. This strategy has led to significant interest from income investors and continues to drive the launch of new products.",
+      "url": "https://medium.datadriveninvestor.com/this-might-just-be-yieldmaxs-craziest-etf-yet-104-56-dividend-yield-07b80d18f16e",
+      "source": "DataDrivenInvestor",
+      "published": "20240520T000000",
+      "overall_sentiment_score": 0.271488,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.305083,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.703139
+    },
+    {
+      "title": "SoundHound AI Spotlights Voice AI Innovation at 2024 Viva Technology Conference",
+      "summary": "SoundHound AI will showcase its voice AI solutions, including Dynamic Drive Thru and SoundHound Chat AI Automotive, at the 2024 Viva Technology conference in Paris. The company will demonstrate its advanced AI-driven voice technology for restaurant ordering and in-vehicle experiences, including the global debut of Vehicle Intelligence. Pedram Faghfouri, Senior Director of Product, Automotive & IoT for SoundHound AI, will also speak about the company's voice AI use cases.",
+      "url": "https://www.soundhound.com/newsroom/press-releases/soundhound-ai-spotlights-voice-ai-innovation-at-2024-viva-technology-conference/",
+      "source": "SoundHound",
+      "published": "20240517T000000",
+      "overall_sentiment_score": 0.312026,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.173714,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.633157
+    },
+    {
+      "title": "Applied Materials scales AI chips as revenue stagnates",
+      "summary": "Applied Materials is expanding its production of advanced AI-powering chips, particularly focusing on its gate-all-around transistor design, to counter stagnating revenue. The company aims to double revenue from this technology to $5 billion by 2025, despite U.S. sanctions potentially impacting its significant business in China. Applied Materials is also heavily investing in R&D to accelerate customer integration of its AI chip technology.",
+      "url": "https://www.manufacturingdive.com/news/applied-materials-expands-ai-chips-high-volume-manufacturing-q2-2024/717007/",
+      "source": "Manufacturing Dive",
+      "published": "20240524T000000",
+      "overall_sentiment_score": 0.236038,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.317358,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630412
+    },
+    {
+      "title": "Modine Manufacturing Stock Drops After Weak Quarterly Sales, Mixed Guidance",
+      "summary": "Modine Manufacturing shares fell after reporting weaker-than-expected quarterly sales and issuing mixed guidance, despite efforts to expand into the AI data center market. The company's revenue of $603.5 million missed analyst expectations, although adjusted earnings per share slightly surpassed estimates. Investors are advised to watch the $94 support level, as a close below it could lead to further declines for the stock.",
+      "url": "https://www.investopedia.com/modine-manufacturing-stock-drops-after-weak-quarterly-sales-mixed-guidance-8652194",
+      "source": "Investopedia",
+      "published": "20240522T071600",
+      "overall_sentiment_score": -0.027506,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.130154,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.624542
+    },
+    {
+      "title": "HVAC Stock Tumbles On Earnings, Guidance Mixed Despite Increased AI Data Center Demand",
+      "summary": "Modine Manufacturing (MOD) reported mixed fiscal fourth-quarter results, beating earnings estimates but falling short on revenue. Despite forecasting fiscal 2025 revenue growth driven by increased AI data center demand, the company's shares declined following the announcement. Fiscal Q4 earnings grew 15% to 77 cents per share for the Wisconsin-based HVAC company.",
+      "url": "https://www.investors.com/news/modine-manufacturing-earnings-ai-data-center/",
+      "source": "Investor's Business Daily",
+      "published": "20240522T165800",
+      "overall_sentiment_score": 0.095091,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.407432,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.623587
+    },
+    {
+      "title": "Advanced Micro Devices to set up an R&D center in Taiwan, ministry says",
+      "summary": "Advanced Micro Devices (AMD) has applied to establish a research and development (R&D) center in Taiwan under the government's \"A+ Industrial Innovative R&D Program.\" The investment is estimated at NT$5 billion (US$155 million), with the ministry setting conditions such as collaborating with Taiwanese IC designers and recruiting foreign talent. This move is part of Taiwan's broader strategy to become a global R&D hub, attracting major tech companies like ASML, Lam Research, Applied Materials, and Nvidia.",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2024/05/21/2003818150",
+      "source": "Taipei Times",
+      "published": "20240521T000000",
+      "overall_sentiment_score": 0.354263,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.30861,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.622016
+    },
+    {
       "title": "Autonomous Operations Could Threaten Intuitive Surgical's Moat in Robotic Surgery",
       "summary": "This article examines how the rise of autonomous operations and advanced AI in robotics could pose a significant threat to Intuitive Surgical's dominant position in the robotic surgery market despite its current strong moat. While Intuitive Surgical boasts impressive financials and a well-established product (da Vinci system), the author warns that newer, more technologically advanced competitors offering fully autonomous or deeply AI-assisted services could disrupt its long-term competitive advantage. The article advises that Intuitive Surgical must strategically adapt by focusing more on machine learning and software development to maintain its market leadership.",
       "url": "https://finance.yahoo.com/news/autonomous-operations-could-threaten-intuitive-140002778.html",
@@ -221,6 +197,30 @@
       "ticker_sentiment_score": 0.33171,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.619233
+    },
+    {
+      "title": "Three insights from theCUBE on latest news from NetApp",
+      "summary": "NetApp's recent \"Unified Data Storage Built for the AI Era\" event highlighted the company's strategies for leveraging intelligent data infrastructure to drive innovation and productivity. The CUBE's coverage revealed NetApp's focus on unified data storage, intelligent data services, and operational capabilities to meet the evolving data management landscape, particularly for generative AI workloads. Key insights also include NetApp's commitment to partner-first strategies, exemplified by collaborations like the AI Pod initiative with Nvidia and Lenovo.",
+      "url": "https://siliconangle.com/2024/05/20/netapp-ai-storage-george-kurian-netappdatastorage/",
+      "source": "SiliconANGLE",
+      "published": "20240520T172100",
+      "overall_sentiment_score": 0.388975,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.325995,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.61902
+    },
+    {
+      "title": "NetApp Unveils Unified Data Storage Built for the AI Era",
+      "summary": "NetApp has announced new leading AFF A-Series systems designed for unified data storage in the AI era, capable of handling demanding IT workloads including GenAI and VMware. The company is expanding its portfolio with enhanced capabilities and new features like StorageGRID models and a cyber vault reference architecture to help organizations efficiently manage data and drive innovation. These advancements aim to provide powerful, intelligent, and secure enterprise data infrastructure for modern workloads.",
+      "url": "https://laotiantimes.com/2024/05/15/netapp-unveils-unified-data-storage-built-for-the-ai-era/",
+      "source": "Laotian Times",
+      "published": "20240515T000000",
+      "overall_sentiment_score": 0.36183,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.322546,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.568688
     }
   ]
 }

@@ -19,18 +19,6 @@
       "relevance_score": 0.973843
     },
     {
-      "title": "Intel’s Terminated $5.4B Tower Acquisition: 5 Big Things To Know",
-      "summary": "Intel terminated its $5.4 billion acquisition of Tower Semiconductor due to regulatory approval issues, a setback for CEO Pat Gelsinger's IDM 2.0 strategy and Intel Foundry Services. The deal's failure, possibly due to U.S.-China geopolitical tensions, resulted in a $353 million termination fee. Despite this, Intel remains committed to its foundry business, aiming to become the second-largest global external foundry by 2030, though Tower's capacity and customer base would have provided a significant boost.",
-      "url": "https://www.crn.com/news/components-peripherals/intel-s-terminated-5-4b-tower-acquisition-5-big-things-to-know",
-      "source": "CRN Magazine",
-      "published": "20230816T123200",
-      "overall_sentiment_score": -0.049909,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.067571,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.307623
-    },
-    {
       "title": "4 AI-powered ETFs: Pros and cons of AI stockpicking funds",
       "summary": "This article explores AI-powered Exchange Traded Funds (ETFs), discussing how they use machine learning to select stocks and the potential benefits and drawbacks. It details four specific AI-driven ETFs, highlighting their assets under management and expense ratios. The piece emphasizes that while AI stock-picking is thrilling, it's still in its early stages and investors should consider their needs and costs.",
       "url": "https://finance.yahoo.com/news/4-ai-powered-etfs-pros-224759917.html",
@@ -41,6 +29,18 @@
       "ticker_sentiment_score": 0.00689,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.646539
+    },
+    {
+      "title": "Intel’s Terminated $5.4B Tower Acquisition: 5 Big Things To Know",
+      "summary": "Intel terminated its $5.4 billion acquisition of Tower Semiconductor due to regulatory approval issues, a setback for CEO Pat Gelsinger's IDM 2.0 strategy and Intel Foundry Services. The deal's failure, possibly due to U.S.-China geopolitical tensions, resulted in a $353 million termination fee. Despite this, Intel remains committed to its foundry business, aiming to become the second-largest global external foundry by 2030, though Tower's capacity and customer base would have provided a significant boost.",
+      "url": "https://www.crn.com/news/components-peripherals/intel-s-terminated-5-4b-tower-acquisition-5-big-things-to-know",
+      "source": "CRN Magazine",
+      "published": "20230816T123200",
+      "overall_sentiment_score": -0.049909,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.067571,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.307623
     }
   ]
 }

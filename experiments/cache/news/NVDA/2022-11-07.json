@@ -7,64 +7,16 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "How Taiwan won the semiconductor race",
-      "summary": "This article explains how Taiwan became a dominant force in the global semiconductor industry, despite starting as an agricultural economy. It attributes Taiwan's success to globalization's impact on electronics, East Asia's skilled workforce and infrastructure, and a unique business model focused on contract manufacturing rather than brand development. The piece highlights TSMC's role in supplying advanced chips globally, creating a significant dependency on Taiwan.",
-      "url": "https://engelsbergideas.com/notebook/how-taiwan-won-the-semiconductor-race/",
-      "source": "Engelsberg Ideas",
-      "published": "20221103T185714",
-      "overall_sentiment_score": 0.356581,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.331825,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.642164
-    },
-    {
-      "title": "Micron Ships World's Most Advanced DRAM Technology With 1-Beta Node",
-      "summary": "Micron Technology has announced it is shipping qualification samples of its 1β (1-beta) DRAM technology to select smartphone manufacturers and chipset partners, achieving mass production readiness for the world's most advanced DRAM technology node. This LPDDR5X mobile memory delivers top speeds of 8.5 gigabits per second, with significant gains in power efficiency (15% improvement) and bit density (over 35% improvement) at 16Gb per die capacity. The 1β node is poised to support highly responsive applications from mobile to data centers and intelligent vehicles, stemming from Micron's pioneering R&D and nanomanufacturing capabilities.",
-      "url": "https://www.techpowerup.com/300551/micron-ships-worlds-most-advanced-dram-technology-with-1-beta-node",
-      "source": "TechPowerUp",
-      "published": "20221101T145500",
-      "overall_sentiment_score": 0.311945,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.259982,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.664648
-    },
-    {
-      "title": "Lowe’s opens tech hub",
-      "summary": "Lowe's has opened a new 357,000-sq.-ft. tech hub in Charlotte, N.C., centralizing its technology development activities to support its goal of becoming the most customer-centric omnichannel retailer. The facility, designed for innovation and collaboration, will employ up to 2,000 tech professionals and focus on projects like its interactive virtual store models (\"digital twins\") and the \"Measure Your Space\" app feature. This move aligns with Lowe's commitment to leveraging emerging technology to evolve its brand and services.",
-      "url": "https://chainstoreage.com/lowes-opens-tech-hub",
-      "source": "Chain Store Age",
-      "published": "20221026T172735",
-      "overall_sentiment_score": 0.340938,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.340807,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.638591
-    },
-    {
-      "title": "Mobileye pops more than 37% in market debut after spinning out of Intel",
-      "summary": "Mobileye, Intel's self-driving car technology company, saw its shares surge over 37% in its stock market debut after spinning out of Intel. The IPO, which valued Mobileye at around $17 billion, raised $861 million, with Intel planning to use some proceeds to build chip factories. This market debut provides a notable tech IPO in a slow year, despite Mobileye's valuation being below Intel's initial expectations.",
-      "url": "https://www.cnbc.com/2022/10/26/mobileye-pops-more-than-30percent-in-ipo-after-spinning-out-of-intel.html",
-      "source": "CNBC",
-      "published": "20221026T131900",
-      "overall_sentiment_score": 0.163699,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.228942,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.553526
-    },
-    {
-      "title": "Rambus announces next-gen PCIe 6.0 interface for data centers, AI systems",
-      "summary": "Rambus has unveiled its next-generation PCIe 6.0 Interface Subsystem, designed for high-performance data centers and AI SoCs, offering speeds up to 64 GT/s. This subsystem includes PHY and controller IP, supports CXL 3.0, and is optimized for advanced heterogeneous computing architectures with features like an Integrity and Data Encryption engine. It ensures compatibility with previous PCIe generations while introducing innovations like low-latency Forward Error Correction.",
-      "url": "https://www.tweaktown.com/news/89112/rambus-announces-next-gen-pcie-6-0-interface-for-data-centers-ai-systems/index.html",
-      "source": "TweakTown",
-      "published": "20221024T191200",
-      "overall_sentiment_score": 0.44933,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.305814,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.614536
+      "title": "Why Are Semiconductor Shares Being Crushed?",
+      "summary": "Semiconductor stocks are facing significant declines in 2022 due to multiple factors, including recession fears, weak PC sales, and strict US export restrictions on sales to China. These restrictions are expected to heavily impact major companies like Nvidia and AMD, although the long-term growth outlook for the overall semiconductor market remains positive, albeit with near-term uncertainties.",
+      "url": "https://global.morningstar.com/en-gb/stocks/why-are-semiconductor-shares-being-crushed",
+      "source": "Morningstar Canada",
+      "published": "20221025T183620",
+      "overall_sentiment_score": -0.524322,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.614772,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.944813
     },
     {
       "title": "Intel's Mobileye unit valued at $22 bln as shares cruise higher",
@@ -79,28 +31,16 @@
       "relevance_score": 0.745092
     },
     {
-      "title": "Silicon Labs CEO Transforms Company to IoT Chip Designer",
-      "summary": "Silicon Labs CEO Matt Johnson is transforming the company into a \"pure-play\" IoT chip designer, focusing solely on wireless connectivity and IoT devices. The company aims to become the undisputed leader in this space, having doubled its revenue in two years and being an early adopter in unifying various IoT standards like Matter, Zigbee, and Zwave. Despite facing competition from larger players and a recent softening of demand, Johnson sees significant growth potential, particularly in areas like digital retail labels and secure hardware.",
-      "url": "https://www.eetimes.com/silicon-labs-ceo-transforms-company-to-iot-chip-designer/",
-      "source": "EE Times",
-      "published": "20221026T183638",
-      "overall_sentiment_score": 0.089239,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.13139,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.639294
-    },
-    {
-      "title": "Why Are Semiconductor Shares Being Crushed?",
-      "summary": "Semiconductor stocks are facing significant declines in 2022 due to multiple factors, including recession fears, weak PC sales, and strict US export restrictions on sales to China. These restrictions are expected to heavily impact major companies like Nvidia and AMD, although the long-term growth outlook for the overall semiconductor market remains positive, albeit with near-term uncertainties.",
-      "url": "https://global.morningstar.com/en-gb/stocks/why-are-semiconductor-shares-being-crushed",
-      "source": "Morningstar Canada",
-      "published": "20221025T183620",
-      "overall_sentiment_score": -0.524322,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.614772,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.944813
+      "title": "Micron Ships World's Most Advanced DRAM Technology With 1-Beta Node",
+      "summary": "Micron Technology has announced it is shipping qualification samples of its 1β (1-beta) DRAM technology to select smartphone manufacturers and chipset partners, achieving mass production readiness for the world's most advanced DRAM technology node. This LPDDR5X mobile memory delivers top speeds of 8.5 gigabits per second, with significant gains in power efficiency (15% improvement) and bit density (over 35% improvement) at 16Gb per die capacity. The 1β node is poised to support highly responsive applications from mobile to data centers and intelligent vehicles, stemming from Micron's pioneering R&D and nanomanufacturing capabilities.",
+      "url": "https://www.techpowerup.com/300551/micron-ships-worlds-most-advanced-dram-technology-with-1-beta-node",
+      "source": "TechPowerUp",
+      "published": "20221101T145500",
+      "overall_sentiment_score": 0.311945,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.259982,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.664648
     },
     {
       "title": "Lotus Eletre to debut ECARX's next-generation digital head unit",
@@ -113,6 +53,66 @@
       "ticker_sentiment_score": 0.345239,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.644227
+    },
+    {
+      "title": "How Taiwan won the semiconductor race",
+      "summary": "This article explains how Taiwan became a dominant force in the global semiconductor industry, despite starting as an agricultural economy. It attributes Taiwan's success to globalization's impact on electronics, East Asia's skilled workforce and infrastructure, and a unique business model focused on contract manufacturing rather than brand development. The piece highlights TSMC's role in supplying advanced chips globally, creating a significant dependency on Taiwan.",
+      "url": "https://engelsbergideas.com/notebook/how-taiwan-won-the-semiconductor-race/",
+      "source": "Engelsberg Ideas",
+      "published": "20221103T185714",
+      "overall_sentiment_score": 0.356581,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.331825,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.642164
+    },
+    {
+      "title": "Silicon Labs CEO Transforms Company to IoT Chip Designer",
+      "summary": "Silicon Labs CEO Matt Johnson is transforming the company into a \"pure-play\" IoT chip designer, focusing solely on wireless connectivity and IoT devices. The company aims to become the undisputed leader in this space, having doubled its revenue in two years and being an early adopter in unifying various IoT standards like Matter, Zigbee, and Zwave. Despite facing competition from larger players and a recent softening of demand, Johnson sees significant growth potential, particularly in areas like digital retail labels and secure hardware.",
+      "url": "https://www.eetimes.com/silicon-labs-ceo-transforms-company-to-iot-chip-designer/",
+      "source": "EE Times",
+      "published": "20221026T183638",
+      "overall_sentiment_score": 0.089239,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.13139,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.639294
+    },
+    {
+      "title": "Lowe’s opens tech hub",
+      "summary": "Lowe's has opened a new 357,000-sq.-ft. tech hub in Charlotte, N.C., centralizing its technology development activities to support its goal of becoming the most customer-centric omnichannel retailer. The facility, designed for innovation and collaboration, will employ up to 2,000 tech professionals and focus on projects like its interactive virtual store models (\"digital twins\") and the \"Measure Your Space\" app feature. This move aligns with Lowe's commitment to leveraging emerging technology to evolve its brand and services.",
+      "url": "https://chainstoreage.com/lowes-opens-tech-hub",
+      "source": "Chain Store Age",
+      "published": "20221026T172735",
+      "overall_sentiment_score": 0.340938,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.340807,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.638591
+    },
+    {
+      "title": "Rambus announces next-gen PCIe 6.0 interface for data centers, AI systems",
+      "summary": "Rambus has unveiled its next-generation PCIe 6.0 Interface Subsystem, designed for high-performance data centers and AI SoCs, offering speeds up to 64 GT/s. This subsystem includes PHY and controller IP, supports CXL 3.0, and is optimized for advanced heterogeneous computing architectures with features like an Integrity and Data Encryption engine. It ensures compatibility with previous PCIe generations while introducing innovations like low-latency Forward Error Correction.",
+      "url": "https://www.tweaktown.com/news/89112/rambus-announces-next-gen-pcie-6-0-interface-for-data-centers-ai-systems/index.html",
+      "source": "TweakTown",
+      "published": "20221024T191200",
+      "overall_sentiment_score": 0.44933,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.305814,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.614536
+    },
+    {
+      "title": "Mobileye pops more than 37% in market debut after spinning out of Intel",
+      "summary": "Mobileye, Intel's self-driving car technology company, saw its shares surge over 37% in its stock market debut after spinning out of Intel. The IPO, which valued Mobileye at around $17 billion, raised $861 million, with Intel planning to use some proceeds to build chip factories. This market debut provides a notable tech IPO in a slow year, despite Mobileye's valuation being below Intel's initial expectations.",
+      "url": "https://www.cnbc.com/2022/10/26/mobileye-pops-more-than-30percent-in-ipo-after-spinning-out-of-intel.html",
+      "source": "CNBC",
+      "published": "20221026T131900",
+      "overall_sentiment_score": 0.163699,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.228942,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.553526
     }
   ]
 }

@@ -7,52 +7,16 @@
   "article_count": 7,
   "articles": [
     {
-      "title": "CoreWeave Secures $2.3 Billion Debt Financing Facility led by Magnetar Capital and Blackstone to Meet Surging Demand and Ongoing Expansion of Specialized Cloud Infrastructure to Power AI",
-      "summary": "CoreWeave has secured a $2.3 billion debt financing facility led by Magnetar Capital and Blackstone to fuel its expansion of specialized cloud infrastructure for AI. This funding will enable CoreWeave to purchase more compute resources, open new data centers, and grow its staff to meet the surging demand for large-scale GPU-accelerated workloads in the generative AI space. The company plans to have 14 data centers by the end of 2023 and recently unveiled the world's fastest AI supercomputer.",
-      "url": "https://www.blackstone.com/news/press/coreweave-secures-2-3-billion-debt-financing-facility-led-by-magnetar-capital-and-blackstone-to-meet-surging-demand-and-ongoing-expansion-of-specialized-cloud-infrastructure-to-power-ai/",
-      "source": "Blackstone",
-      "published": "20230803T000000",
-      "overall_sentiment_score": 0.313296,
+      "title": "AI as an investment theme",
+      "summary": "The article discusses Artificial Intelligence (AI) as a significant investment theme due to its potential to revolutionize industries and create new opportunities. It highlights the booming AI sector, strong investor interest, and the impact of AI on technology stocks and the broader market. The author also touches upon various ways to invest in AI, including specific ETFs, and emphasizes the importance of careful research despite the vast potential.",
+      "url": "https://bm.ge/en/news/ai-as-an-investment-theme",
+      "source": "BM.GE",
+      "published": "20230807T194000",
+      "overall_sentiment_score": 0.33111,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.328869,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.633217
-    },
-    {
-      "title": "Beating the benchmark? How AI-driven ETFs stack up",
-      "summary": "The article discusses the performance of AI-driven ETFs and whether they offer an information advantage in stock selection compared to traditional benchmarks. It highlights examples like the QRAFT AI-Enhanced U.S. Large Cap Momentum ETF (AMOM) and the AI Powered Equity ETF (AIEQ), noting AMOM's outperformance against a momentum benchmark while AIEQ trails the S&P 500. The piece also explores the potential benefits of AI in portfolio management, such as a lack of emotion and more frequent rebalancing.",
-      "url": "https://www.cnbc.com/2023/08/02/beating-the-benchmark-how-ai-driven-etfs-stack-up.html",
-      "source": "CNBC",
-      "published": "20230802T111700",
-      "overall_sentiment_score": 0.199977,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.394244,
+      "ticker_sentiment_score": 0.527401,
       "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.617942
-    },
-    {
-      "title": "U.S. chipmaker AMD to invest $400 million in India by 2028",
-      "summary": "U.S. chipmaker Advanced Micro Devices (AMD.O) announced a significant investment of $400 million in India over the next five years, including the establishment of its largest design center in Bengaluru, creating 3,000 new engineering jobs. This move aligns with India's efforts to become a chipmaking hub, attracting other major players like Applied Materials and Micron with its incentive programs. AMD's expansion underscores the country's growing importance in the global semiconductor industry.",
-      "url": "https://www.reuters.com/technology/us-chipmaker-amd-invest-400-mln-india-by-2028-2023-07-28/",
-      "source": "Reuters",
-      "published": "20230728T101800",
-      "overall_sentiment_score": 0.242211,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.121405,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.57563
-    },
-    {
-      "title": "Qualcomm's fiscal 3Q results fall short as slowing smartphone demand takes its toll",
-      "summary": "Qualcomm's fiscal third-quarter results missed sales expectations and guidance due to softening smartphone demand, causing its stock to dip. The company, a major processor supplier for Android devices, reported adjusted earnings above Street expectations but significantly down year-over-year. CEO Cristiano Amon is banking on Qualcomm's artificial intelligence strategy to drive future growth.",
-      "url": "https://www.proactiveinvestors.com/companies/news/1022461/qualcomm-s-fiscal-3q-results-fall-short-as-slowing-smartphone-demand-takes-its-toll-1022461.html",
-      "source": "Proactive financial news",
-      "published": "20230802T170200",
-      "overall_sentiment_score": -0.188004,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.137394,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.622854
+      "relevance_score": 0.880308
     },
     {
       "title": "Pixar, Apple and Nvidia are teaming up to promote a 3D file format that could help boost Apple's upcoming Vision Pro",
@@ -79,16 +43,52 @@
       "relevance_score": 0.641906
     },
     {
-      "title": "AI as an investment theme",
-      "summary": "The article discusses Artificial Intelligence (AI) as a significant investment theme due to its potential to revolutionize industries and create new opportunities. It highlights the booming AI sector, strong investor interest, and the impact of AI on technology stocks and the broader market. The author also touches upon various ways to invest in AI, including specific ETFs, and emphasizes the importance of careful research despite the vast potential.",
-      "url": "https://bm.ge/en/news/ai-as-an-investment-theme",
-      "source": "BM.GE",
-      "published": "20230807T194000",
-      "overall_sentiment_score": 0.33111,
+      "title": "CoreWeave Secures $2.3 Billion Debt Financing Facility led by Magnetar Capital and Blackstone to Meet Surging Demand and Ongoing Expansion of Specialized Cloud Infrastructure to Power AI",
+      "summary": "CoreWeave has secured a $2.3 billion debt financing facility led by Magnetar Capital and Blackstone to fuel its expansion of specialized cloud infrastructure for AI. This funding will enable CoreWeave to purchase more compute resources, open new data centers, and grow its staff to meet the surging demand for large-scale GPU-accelerated workloads in the generative AI space. The company plans to have 14 data centers by the end of 2023 and recently unveiled the world's fastest AI supercomputer.",
+      "url": "https://www.blackstone.com/news/press/coreweave-secures-2-3-billion-debt-financing-facility-led-by-magnetar-capital-and-blackstone-to-meet-surging-demand-and-ongoing-expansion-of-specialized-cloud-infrastructure-to-power-ai/",
+      "source": "Blackstone",
+      "published": "20230803T000000",
+      "overall_sentiment_score": 0.313296,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.527401,
+      "ticker_sentiment_score": 0.328869,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.633217
+    },
+    {
+      "title": "Qualcomm's fiscal 3Q results fall short as slowing smartphone demand takes its toll",
+      "summary": "Qualcomm's fiscal third-quarter results missed sales expectations and guidance due to softening smartphone demand, causing its stock to dip. The company, a major processor supplier for Android devices, reported adjusted earnings above Street expectations but significantly down year-over-year. CEO Cristiano Amon is banking on Qualcomm's artificial intelligence strategy to drive future growth.",
+      "url": "https://www.proactiveinvestors.com/companies/news/1022461/qualcomm-s-fiscal-3q-results-fall-short-as-slowing-smartphone-demand-takes-its-toll-1022461.html",
+      "source": "Proactive financial news",
+      "published": "20230802T170200",
+      "overall_sentiment_score": -0.188004,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.137394,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.622854
+    },
+    {
+      "title": "Beating the benchmark? How AI-driven ETFs stack up",
+      "summary": "The article discusses the performance of AI-driven ETFs and whether they offer an information advantage in stock selection compared to traditional benchmarks. It highlights examples like the QRAFT AI-Enhanced U.S. Large Cap Momentum ETF (AMOM) and the AI Powered Equity ETF (AIEQ), noting AMOM's outperformance against a momentum benchmark while AIEQ trails the S&P 500. The piece also explores the potential benefits of AI in portfolio management, such as a lack of emotion and more frequent rebalancing.",
+      "url": "https://www.cnbc.com/2023/08/02/beating-the-benchmark-how-ai-driven-etfs-stack-up.html",
+      "source": "CNBC",
+      "published": "20230802T111700",
+      "overall_sentiment_score": 0.199977,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.394244,
       "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.880308
+      "relevance_score": 0.617942
+    },
+    {
+      "title": "U.S. chipmaker AMD to invest $400 million in India by 2028",
+      "summary": "U.S. chipmaker Advanced Micro Devices (AMD.O) announced a significant investment of $400 million in India over the next five years, including the establishment of its largest design center in Bengaluru, creating 3,000 new engineering jobs. This move aligns with India's efforts to become a chipmaking hub, attracting other major players like Applied Materials and Micron with its incentive programs. AMD's expansion underscores the country's growing importance in the global semiconductor industry.",
+      "url": "https://www.reuters.com/technology/us-chipmaker-amd-invest-400-mln-india-by-2028-2023-07-28/",
+      "source": "Reuters",
+      "published": "20230728T101800",
+      "overall_sentiment_score": 0.242211,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.121405,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.57563
     }
   ]
 }

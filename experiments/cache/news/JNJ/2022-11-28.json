@@ -7,76 +7,16 @@
   "article_count": 9,
   "articles": [
     {
-      "title": "Church & Dwight Co. stock rises Wednesday, outperforms market",
-      "summary": "Church & Dwight Co. (CHD) stock increased by 0.61% to $78.57 on Wednesday, outperforming the broader market indexes like the S&P 500 and Dow Jones Industrial Average. This marked the stock's fourth consecutive day of gains, although it remained below its 52-week high. The company's performance was mixed when compared to competitors like Johnson & Johnson, Procter & Gamble Co., and Reckitt Benckiser Group PLC.",
-      "url": "https://www.marketwatch.com/story/church-dwight-co-stock-rises-wednesday-outperforms-market-01669239816?gaa_at=eafs&gaa_n=AWEtsqfGv-6yUA1ewN-vaoR-lT0RJxoy-ZBvYSdgbVwfl-c2MkOzQvL9c_kS&gaa_ts=69078847&gaa_sig=yF_tVoHG7958WSE3SR-vHHnKp3AFWy3jINDvOMHWoiqzC7UvnVDKUYTGScgdLuNmaN1dLcn6bNrIv5ynOA3jOA%3D%3D",
-      "source": "MarketWatch",
-      "published": "20221123T164300",
-      "overall_sentiment_score": 0.300746,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.232422,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.701737
-    },
-    {
-      "title": "Keurig Dr Pepper Adds Seasoned J&J Executive to Its Board of Directors",
-      "summary": "Keurig Dr Pepper announced the election of Oray Boston, a seasoned Johnson & Johnson executive, to its Board of Directors. Boston brings 30 years of leadership experience in operations, sales, and marketing from his tenure at Johnson & Johnson, including his current role as worldwide president of trauma, extremities, craniomaxillofacial, and animal health at DePuy Synthes. KDP Chairman and CEO Bob Gamgort highlighted Boston's extensive experience as a valuable addition to the board.",
-      "url": "https://dallasinnovates.com/keurig-dr-pepper-adds-seasoned-jj-executive-to-its-board-of-directors/",
-      "source": "Dallas Innovates",
-      "published": "20221118T172604",
-      "overall_sentiment_score": 0.198683,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.112737,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.721456
-    },
-    {
-      "title": "Kidney Therapeutics to Halt CKD Progression Make Late-Stage Push Toward NDA",
-      "summary": "Several therapeutics aimed at halting the progression of chronic kidney disease (CKD) are in advanced clinical trials, with potential NDAs as early as 2024. Chinook Therapeutics is advancing atrasentan and BION-1301 for IgA nephropathy, showing significant proteinuria reductions. Boehringer Ingelheim's Jardiance has demonstrated a reduced risk of kidney disease progression and cardiovascular death in CKD patients, while ProKidney's autologous cell therapy, REACT, aims to repair and restore kidney function, with Phase III data expected in 2025.",
-      "url": "https://www.biospace.com/kidney-therapeutics-to-halt-disease-progression-make-late-stage-push-toward-nda",
-      "source": "BioSpace",
-      "published": "20221118T172603",
-      "overall_sentiment_score": 0.240683,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.10256,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.609376
-    },
-    {
-      "title": "Zanubrutinib Versus Ibrutinib in Relapsed/Refractory Chronic Lymphocytic Leukemia and Small Lymphocytic Lymphoma: Interim Analysis of a Randomized Phase III Trial",
-      "summary": "An interim analysis of the randomized Phase III ALPINE trial compared zanubrutinib and ibrutinib in patients with relapsed/refractory chronic lymphocytic leukemia (CLL) and small lymphocytic lymphoma (SLL). Zanubrutinib demonstrated a significantly higher overall response rate (ORR), improved progression-free survival (PFS), and a lower rate of atrial fibrillation compared to ibrutinib. These results suggest a more favorable efficacy and safety profile for zanubrutinib due to its increased selectivity in BTK inhibition.",
-      "url": "https://ascopubs.org/jco/doi/abs/10.1200/JCO.22.00510",
-      "source": "ASCO Publications",
-      "published": "20221117T175643",
-      "overall_sentiment_score": 0.250235,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.31409,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.63137
-    },
-    {
-      "title": "[Latest] Global Mosquito Repellent Market Size/Share Worth USD 10.3 Billion by 2030 at a 7% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth, Growth Rate, Value, Analysis, Outlook)",
-      "summary": "The global mosquito repellent market is projected to reach USD 10.3 billion by 2030, growing at a CAGR of 7% from its 2021 valuation of USD 5.1 billion. This growth is driven by increased urbanization, e-commerce adoption, rising awareness of natural products, and outdoor activities. The Asia-Pacific region is expected to dominate the market due to its large population, increasing disposable income, and government initiatives against mosquito-borne diseases.",
-      "url": "https://www.globenewswire.com/news-release/2022/11/17/2558647/0/en/Latest-Global-Mosquito-Repellent-Market-Size-Share-Worth-USD-10-3-Billion-by-2030-at-a-7-CAGR-Custom-Market-Insights-Analysis-Outlook-Leaders-Report-Trends-Forecast-Segmentation-Gr.html",
-      "source": "GlobeNewswire",
-      "published": "20221117T141600",
-      "overall_sentiment_score": 0.268192,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.296263,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.725542
-    },
-    {
-      "title": "Walmart to Settle State, Local Opioid Claims for $3.1 Billion",
-      "summary": "Walmart has announced a $3.1 billion settlement with 43 states to resolve claims that its pharmacies contributed to the opioid crisis. This settlement includes the retailer in a larger $54 billion total paid by opioid manufacturers, distributors, and other pharmacy chains like Walgreens and CVS. Despite the settlement, Walmart denies wrongdoing and still faces a federal lawsuit regarding similar claims.",
-      "url": "https://www.investopedia.com/walmart-opioid-settlement-6829203",
-      "source": "Investopedia",
-      "published": "20221115T191636",
-      "overall_sentiment_score": -0.127781,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.104298,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.61569
+      "title": "Improving access to medicine around the world",
+      "summary": "Johnson & Johnson has secured the #2 spot on the Access to Medicine Index, recognizing its long-standing commitment to making life-saving medicines available and accessible in low- and middle-income nations. The company's efforts include significant investments in addressing diseases like TB, Ebola, and flaviviruses, alongside initiatives to strengthen local health systems and patient support programs. This consistent high ranking underscores J&J's dedication to global health equity and its Credo values.",
+      "url": "https://www.jnj.com/latest-news/improving-access-to-medicine-around-the-world",
+      "source": "Johnson & Johnson",
+      "published": "20221115T171640",
+      "overall_sentiment_score": 0.491192,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.495119,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
     },
     {
       "title": "16 surgical robotics companies you need to know",
@@ -91,6 +31,30 @@
       "relevance_score": 0.751494
     },
     {
+      "title": "[Latest] Global Mosquito Repellent Market Size/Share Worth USD 10.3 Billion by 2030 at a 7% CAGR: Custom Market Insights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth, Growth Rate, Value, Analysis, Outlook)",
+      "summary": "The global mosquito repellent market is projected to reach USD 10.3 billion by 2030, growing at a CAGR of 7% from its 2021 valuation of USD 5.1 billion. This growth is driven by increased urbanization, e-commerce adoption, rising awareness of natural products, and outdoor activities. The Asia-Pacific region is expected to dominate the market due to its large population, increasing disposable income, and government initiatives against mosquito-borne diseases.",
+      "url": "https://www.globenewswire.com/news-release/2022/11/17/2558647/0/en/Latest-Global-Mosquito-Repellent-Market-Size-Share-Worth-USD-10-3-Billion-by-2030-at-a-7-CAGR-Custom-Market-Insights-Analysis-Outlook-Leaders-Report-Trends-Forecast-Segmentation-Gr.html",
+      "source": "GlobeNewswire",
+      "published": "20221117T141600",
+      "overall_sentiment_score": 0.268192,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.296263,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.725542
+    },
+    {
+      "title": "Keurig Dr Pepper Adds Seasoned J&J Executive to Its Board of Directors",
+      "summary": "Keurig Dr Pepper announced the election of Oray Boston, a seasoned Johnson & Johnson executive, to its Board of Directors. Boston brings 30 years of leadership experience in operations, sales, and marketing from his tenure at Johnson & Johnson, including his current role as worldwide president of trauma, extremities, craniomaxillofacial, and animal health at DePuy Synthes. KDP Chairman and CEO Bob Gamgort highlighted Boston's extensive experience as a valuable addition to the board.",
+      "url": "https://dallasinnovates.com/keurig-dr-pepper-adds-seasoned-jj-executive-to-its-board-of-directors/",
+      "source": "Dallas Innovates",
+      "published": "20221118T172604",
+      "overall_sentiment_score": 0.198683,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.112737,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.721456
+    },
+    {
       "title": "Pharmacies, drug companies settle lawsuits over U.S. opioid crisis",
       "summary": "Major pharmacy chains like CVS, Walgreens, and Walmart, along with drug distributors and manufacturers, have reached significant settlements in the sprawling U.S. opioid crisis litigation. These agreements, valued in the billions of dollars, aim to resolve claims from state, local, and tribal governments, although some smaller pharmacy operators and individual lawsuits remain ongoing. The article details major companies involved and the status of their settlements, highlighting the substantial financial impact of the crisis.",
       "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/pharmacies-drug-companies-settle-lawsuits-over-us-opioid-crisis-2022-11-22/",
@@ -103,16 +67,52 @@
       "relevance_score": 0.713401
     },
     {
-      "title": "Improving access to medicine around the world",
-      "summary": "Johnson & Johnson has secured the #2 spot on the Access to Medicine Index, recognizing its long-standing commitment to making life-saving medicines available and accessible in low- and middle-income nations. The company's efforts include significant investments in addressing diseases like TB, Ebola, and flaviviruses, alongside initiatives to strengthen local health systems and patient support programs. This consistent high ranking underscores J&J's dedication to global health equity and its Credo values.",
-      "url": "https://www.jnj.com/latest-news/improving-access-to-medicine-around-the-world",
-      "source": "Johnson & Johnson",
-      "published": "20221115T171640",
-      "overall_sentiment_score": 0.491192,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.495119,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
+      "title": "Church & Dwight Co. stock rises Wednesday, outperforms market",
+      "summary": "Church & Dwight Co. (CHD) stock increased by 0.61% to $78.57 on Wednesday, outperforming the broader market indexes like the S&P 500 and Dow Jones Industrial Average. This marked the stock's fourth consecutive day of gains, although it remained below its 52-week high. The company's performance was mixed when compared to competitors like Johnson & Johnson, Procter & Gamble Co., and Reckitt Benckiser Group PLC.",
+      "url": "https://www.marketwatch.com/story/church-dwight-co-stock-rises-wednesday-outperforms-market-01669239816?gaa_at=eafs&gaa_n=AWEtsqfGv-6yUA1ewN-vaoR-lT0RJxoy-ZBvYSdgbVwfl-c2MkOzQvL9c_kS&gaa_ts=69078847&gaa_sig=yF_tVoHG7958WSE3SR-vHHnKp3AFWy3jINDvOMHWoiqzC7UvnVDKUYTGScgdLuNmaN1dLcn6bNrIv5ynOA3jOA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20221123T164300",
+      "overall_sentiment_score": 0.300746,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.232422,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.701737
+    },
+    {
+      "title": "Zanubrutinib Versus Ibrutinib in Relapsed/Refractory Chronic Lymphocytic Leukemia and Small Lymphocytic Lymphoma: Interim Analysis of a Randomized Phase III Trial",
+      "summary": "An interim analysis of the randomized Phase III ALPINE trial compared zanubrutinib and ibrutinib in patients with relapsed/refractory chronic lymphocytic leukemia (CLL) and small lymphocytic lymphoma (SLL). Zanubrutinib demonstrated a significantly higher overall response rate (ORR), improved progression-free survival (PFS), and a lower rate of atrial fibrillation compared to ibrutinib. These results suggest a more favorable efficacy and safety profile for zanubrutinib due to its increased selectivity in BTK inhibition.",
+      "url": "https://ascopubs.org/jco/doi/abs/10.1200/JCO.22.00510",
+      "source": "ASCO Publications",
+      "published": "20221117T175643",
+      "overall_sentiment_score": 0.250235,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.31409,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.63137
+    },
+    {
+      "title": "Walmart to Settle State, Local Opioid Claims for $3.1 Billion",
+      "summary": "Walmart has announced a $3.1 billion settlement with 43 states to resolve claims that its pharmacies contributed to the opioid crisis. This settlement includes the retailer in a larger $54 billion total paid by opioid manufacturers, distributors, and other pharmacy chains like Walgreens and CVS. Despite the settlement, Walmart denies wrongdoing and still faces a federal lawsuit regarding similar claims.",
+      "url": "https://www.investopedia.com/walmart-opioid-settlement-6829203",
+      "source": "Investopedia",
+      "published": "20221115T191636",
+      "overall_sentiment_score": -0.127781,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.104298,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.61569
+    },
+    {
+      "title": "Kidney Therapeutics to Halt CKD Progression Make Late-Stage Push Toward NDA",
+      "summary": "Several therapeutics aimed at halting the progression of chronic kidney disease (CKD) are in advanced clinical trials, with potential NDAs as early as 2024. Chinook Therapeutics is advancing atrasentan and BION-1301 for IgA nephropathy, showing significant proteinuria reductions. Boehringer Ingelheim's Jardiance has demonstrated a reduced risk of kidney disease progression and cardiovascular death in CKD patients, while ProKidney's autologous cell therapy, REACT, aims to repair and restore kidney function, with Phase III data expected in 2025.",
+      "url": "https://www.biospace.com/kidney-therapeutics-to-halt-disease-progression-make-late-stage-push-toward-nda",
+      "source": "BioSpace",
+      "published": "20221118T172603",
+      "overall_sentiment_score": 0.240683,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.10256,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.609376
     }
   ]
 }

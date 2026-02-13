@@ -7,18 +7,6 @@
   "article_count": 5,
   "articles": [
     {
-      "title": "TELA Bio Appoints Jeffrey Blizard to its Board of Directors",
-      "summary": "TELA Bio, Inc. (Nasdaq: TELA) has appointed Jeffrey Blizard, Global Head of Surgical Sales for Abiomed, to its Board of Directors, effective June 4, 2024. Mr. Blizard brings extensive sales leadership experience from Abiomed and other medical device companies, which CEO Antony Koblish believes will be a significant asset to TELA Bio's ongoing growth. Mr. Blizard expressed enthusiasm for contributing his sales expertise during this dynamic period for the company.",
-      "url": "https://www.citybiz.co/article/563227/tela-bio-appoints-jeffrey-blizard-to-its-board-of-directors/",
-      "source": "citybiz",
-      "published": "20240604T000000",
-      "overall_sentiment_score": 0.210668,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.11173,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.63077
-    },
-    {
       "title": "4 Wide-Moat Stocks to Buy for the Long Term While They’re Undervalued Today",
       "summary": "Morningstar's Chief US Market Strategist Dave Sekera discusses his process for selecting stock picks and answers viewer questions on lithium stocks, AI and data center growth's impact on utilities, and specific companies like Palantir, Intel, Snowflake, and Toronto-Dominion Bank. He also highlights four wide-moat stocks (Nike, Zimmer Biomet, Clorox, and Johnson & Johnson) that Morningstar considers undervalued for long-term investors.",
       "url": "https://www.morningstar.com/markets/4-wide-moat-stocks-buy-long-term-while-theyre-undervalued-today",
@@ -31,16 +19,28 @@
       "relevance_score": 0.762344
     },
     {
-      "title": "Inside Eli Lilly’s Gateway Labs Newest Incubator for Biotech Startups",
-      "summary": "Eli Lilly and Company launched its third Gateway Labs incubator in San Diego, aiming to support 10-15 local biotech startups with lab space, mentorship, and potential partnerships, while allowing startups to retain full ownership of their intellectual property. The initiative is part of Eli Lilly's strategy to engage with innovative life science companies, source new talent, and leverage advanced technologies like AI and ML in drug discovery. This new 62,000 square-foot facility near UCSD expands Eli Lilly's significant investment and long-standing presence in San Diego's booming biotech scene, building on its sites in San Francisco and Boston.",
-      "url": "https://businessofsandiego.substack.com/p/inside-eli-lillys-gateway-labs-san",
-      "source": "Fred Grier | Substack",
-      "published": "20240611T000000",
-      "overall_sentiment_score": 0.332264,
+      "title": "LA500 2024: Alan Auerbach",
+      "summary": "This article profiles Alan Auerbach, Chair and Chief Executive of Puma Biotechnology Inc., as part of the LA500 2024 list. It details his entrepreneurial history, including founding Puma Biotechnology and previously selling Cougar Biotechnology to Johnson & Johnson. The profile also highlights his company's key product, Nerlynx, and his personal aspirations and insights.",
+      "url": "https://labusinessjournal.com/la500-2024/health-care-2024/la500-2024-alan-auerbach/",
+      "source": "Los Angeles Business Journal",
+      "published": "20240606T000000",
+      "overall_sentiment_score": 0.334012,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.243051,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.60147
+      "ticker_sentiment_score": 0.11127,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.708654
+    },
+    {
+      "title": "TELA Bio Appoints Jeffrey Blizard to its Board of Directors",
+      "summary": "TELA Bio, Inc. (Nasdaq: TELA) has appointed Jeffrey Blizard, Global Head of Surgical Sales for Abiomed, to its Board of Directors, effective June 4, 2024. Mr. Blizard brings extensive sales leadership experience from Abiomed and other medical device companies, which CEO Antony Koblish believes will be a significant asset to TELA Bio's ongoing growth. Mr. Blizard expressed enthusiasm for contributing his sales expertise during this dynamic period for the company.",
+      "url": "https://www.citybiz.co/article/563227/tela-bio-appoints-jeffrey-blizard-to-its-board-of-directors/",
+      "source": "citybiz",
+      "published": "20240604T000000",
+      "overall_sentiment_score": 0.210668,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.11173,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.63077
     },
     {
       "title": "AbbVie's tight grip on Humira market raises concerns about biosimilars",
@@ -55,16 +55,16 @@
       "relevance_score": 0.610973
     },
     {
-      "title": "LA500 2024: Alan Auerbach",
-      "summary": "This article profiles Alan Auerbach, Chair and Chief Executive of Puma Biotechnology Inc., as part of the LA500 2024 list. It details his entrepreneurial history, including founding Puma Biotechnology and previously selling Cougar Biotechnology to Johnson & Johnson. The profile also highlights his company's key product, Nerlynx, and his personal aspirations and insights.",
-      "url": "https://labusinessjournal.com/la500-2024/health-care-2024/la500-2024-alan-auerbach/",
-      "source": "Los Angeles Business Journal",
-      "published": "20240606T000000",
-      "overall_sentiment_score": 0.334012,
+      "title": "Inside Eli Lilly’s Gateway Labs Newest Incubator for Biotech Startups",
+      "summary": "Eli Lilly and Company launched its third Gateway Labs incubator in San Diego, aiming to support 10-15 local biotech startups with lab space, mentorship, and potential partnerships, while allowing startups to retain full ownership of their intellectual property. The initiative is part of Eli Lilly's strategy to engage with innovative life science companies, source new talent, and leverage advanced technologies like AI and ML in drug discovery. This new 62,000 square-foot facility near UCSD expands Eli Lilly's significant investment and long-standing presence in San Diego's booming biotech scene, building on its sites in San Francisco and Boston.",
+      "url": "https://businessofsandiego.substack.com/p/inside-eli-lillys-gateway-labs-san",
+      "source": "Fred Grier | Substack",
+      "published": "20240611T000000",
+      "overall_sentiment_score": 0.332264,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.11127,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.708654
+      "ticker_sentiment_score": 0.243051,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.60147
     }
   ]
 }

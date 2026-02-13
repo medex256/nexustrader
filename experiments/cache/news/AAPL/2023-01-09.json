@@ -7,6 +7,54 @@
   "article_count": 9,
   "articles": [
     {
+      "title": "Tuesday's ETF with Unusual Volume: IWL",
+      "summary": "The iShares Russell Top 200 ETF (IWL) experienced unusually high trading volume on Tuesday, with shares down about 0.8%. Tesla and Apple, major components of the ETF, saw significant trading volume and share price drops, while PayPal Holdings performed best, rising 4.3%.",
+      "url": "https://www.nasdaq.com/articles/tuesdays-etf-with-unusual-volume:-iwl",
+      "source": "Nasdaq",
+      "published": "20230103T120500",
+      "overall_sentiment_score": -0.131534,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.34413,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.799323
+    },
+    {
+      "title": "WisdomTree U.S. Dividend Growth Fund (DGRW) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of the WisdomTree U.S. Dividend Growth Fund (DGRW), including its stock price, holdings, and dividend yield. As of the latest N-PORT filing on September 30, 2025, the fund holds 301 stocks with a total value of $16.30 billion, with top holdings being Microsoft, Apple, NVIDIA, Exxon Mobil, and Chevron. The article also presents key statistics, performance data, and historical breakdowns of the fund's portfolio.",
+      "url": "https://www.gurufocus.com/etf/DGRW/summary",
+      "source": "GuruFocus",
+      "published": "20221231T034508",
+      "overall_sentiment_score": 0.216811,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.208907,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.720544
+    },
+    {
+      "title": "Stock Market Outlook 2023 for the Worst Performing S&P 500 Sectors",
+      "summary": "This article provides an outlook for the worst-performing S&P 500 sectors in 2022, including Technology, Real Estate, Consumer Discretionary, and Communication Services. It analyzes the performance of key holdings within each sector, their outlook for 2023, and analyst sentiment with options market probabilities for recovery. The forecast indicates that a full recovery to previous highs for these sectors and their major constituents is unlikely in the short term.",
+      "url": "https://www.tastylive.com/news-insights/stock-market-outlook-2023-worst-performing-sp500-sectors",
+      "source": "tastylive",
+      "published": "20221227T190623",
+      "overall_sentiment_score": 0.067203,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.313497,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.713008
+    },
+    {
+      "title": "What the Stock Split by Google’s Parent, Alphabet, Means - WSJ",
+      "summary": "Alphabet announced a 20-for-1 stock split, its first since 2014, making its shares more accessible to individual investors. This move follows similar actions taken by Apple and Tesla since the pandemic, signaling a renewed interest in stock splits among major tech companies. The split will apply to all three classes of Alphabet stock.",
+      "url": "https://www.wsj.com/finance/stocks/google-parent-alphabet-stock-split-11643761853?gaa_at=eafs&gaa_n=AWEtsqdUJBmw2Vj0RPyigBHeonIkTi4CFAZiHJXHLVaYubq05RtdMVejU4oI&gaa_ts=69079057&gaa_sig=IRPnGbJAdPBivnEDG9KUaa0gJk27onO8kGLlfKdqAcI1DzXKSRqCLmqm4w1TY999vqsyNtUWnJyth8fibOZKCQ%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20221231T235959",
+      "overall_sentiment_score": 0.32324,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.317804,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.70843
+    },
+    {
       "title": "Android has a response to iPhone’s satellite connection, thanks to Qualcomm",
       "summary": "Qualcomm is introducing Snapdragon Satellite service, a new emergency satellite phone service for Android smartphones. This service aims to compete with Apple's existing satellite connectivity, with specific product announcements expected by mid-year. The service requires at least one ground gateway to connect smartphones to satellites.",
       "url": "https://www.marketwatch.com/story/qualcomm-jumps-into-emergency-services-with-snapdragon-satellite-working-with-iridium-11672950590?gaa_at=eafs&gaa_n=AWEtsqdWBoo2_Z1B0hu9Ixp25YQJPdBKKPECNX93vSMFf0dRgg2DKTejJXgN&gaa_ts=69077c2f&gaa_sig=_iPxJi7fTcnihywU0lRvKN3cmsO-xppGE-uwtRo997D5HI-iF8viEkxpDqlEc075w4q7A9LrgLX2uU1IbhmYkQ%3D%3D",
@@ -31,28 +79,16 @@
       "relevance_score": 0.702862
     },
     {
-      "title": "HP Posts Steady Q2, Despite Notebook Slump",
-      "summary": "HP Inc. reported modest gains in Q2 with $16.5 billion in revenue, up 3.9 percent year-over-year, despite a significant slump in notebook sales and overall consumer PC and printer revenue. Strong commercial sales, particularly in personal systems, peripherals, and gaming, buoyed the results. CEO Enrique Lores acknowledged impacts from China's COVID lockdowns but stated HP's impact was smaller than competitors, and a partner expressed concerns about future economic slowdowns and shifted focus to diversification.",
-      "url": "https://www.crn.com/news/components-peripherals/hp-posts-steady-q2-despite-notebook-slump",
-      "source": "CRN Magazine",
+      "title": "GM tells remote workers to ‘pivot’ in return-to-office mandate",
+      "summary": "General Motors has mandated that its corporate employees return to the office three days a week, requiring remote workers to \"pivot to a more regular in-person work cycle.\" This decision aligns GM with other major corporations like Apple and Peloton, which have also implemented return-to-office policies since Labor Day. The move contrasts with more flexible policies from companies such as Ford and Mitsubishi, as well as Tesla's CEO Elon Musk's strict in-office requirement.",
+      "url": "https://fortune.com/2022/09/24/gm-return-to-office-mandate-remote-workers-three-days-week/",
+      "source": "Fortune",
       "published": "20221231T235959",
-      "overall_sentiment_score": 0.069354,
+      "overall_sentiment_score": 0.03641,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.202977,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.615909
-    },
-    {
-      "title": "WisdomTree U.S. Dividend Growth Fund (DGRW) Stock Price, Holdings, Dividend Yield",
-      "summary": "This article provides a detailed overview of the WisdomTree U.S. Dividend Growth Fund (DGRW), including its stock price, holdings, and dividend yield. As of the latest N-PORT filing on September 30, 2025, the fund holds 301 stocks with a total value of $16.30 billion, with top holdings being Microsoft, Apple, NVIDIA, Exxon Mobil, and Chevron. The article also presents key statistics, performance data, and historical breakdowns of the fund's portfolio.",
-      "url": "https://www.gurufocus.com/etf/DGRW/summary",
-      "source": "GuruFocus",
-      "published": "20221231T034508",
-      "overall_sentiment_score": 0.216811,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.208907,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.720544
+      "ticker_sentiment_score": 0.008893,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.670583
     },
     {
       "title": "Should John Hancock Multifactor Large Cap ETF (JHML) Be on Your Investing Radar?",
@@ -67,52 +103,16 @@
       "relevance_score": 0.649834
     },
     {
-      "title": "Tuesday's ETF with Unusual Volume: IWL",
-      "summary": "The iShares Russell Top 200 ETF (IWL) experienced unusually high trading volume on Tuesday, with shares down about 0.8%. Tesla and Apple, major components of the ETF, saw significant trading volume and share price drops, while PayPal Holdings performed best, rising 4.3%.",
-      "url": "https://www.nasdaq.com/articles/tuesdays-etf-with-unusual-volume:-iwl",
-      "source": "Nasdaq",
-      "published": "20230103T120500",
-      "overall_sentiment_score": -0.131534,
+      "title": "HP Posts Steady Q2, Despite Notebook Slump",
+      "summary": "HP Inc. reported modest gains in Q2 with $16.5 billion in revenue, up 3.9 percent year-over-year, despite a significant slump in notebook sales and overall consumer PC and printer revenue. Strong commercial sales, particularly in personal systems, peripherals, and gaming, buoyed the results. CEO Enrique Lores acknowledged impacts from China's COVID lockdowns but stated HP's impact was smaller than competitors, and a partner expressed concerns about future economic slowdowns and shifted focus to diversification.",
+      "url": "https://www.crn.com/news/components-peripherals/hp-posts-steady-q2-despite-notebook-slump",
+      "source": "CRN Magazine",
+      "published": "20221231T235959",
+      "overall_sentiment_score": 0.069354,
       "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.34413,
+      "ticker_sentiment_score": -0.202977,
       "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.799323
-    },
-    {
-      "title": "What the Stock Split by Google’s Parent, Alphabet, Means - WSJ",
-      "summary": "Alphabet announced a 20-for-1 stock split, its first since 2014, making its shares more accessible to individual investors. This move follows similar actions taken by Apple and Tesla since the pandemic, signaling a renewed interest in stock splits among major tech companies. The split will apply to all three classes of Alphabet stock.",
-      "url": "https://www.wsj.com/finance/stocks/google-parent-alphabet-stock-split-11643761853?gaa_at=eafs&gaa_n=AWEtsqdUJBmw2Vj0RPyigBHeonIkTi4CFAZiHJXHLVaYubq05RtdMVejU4oI&gaa_ts=69079057&gaa_sig=IRPnGbJAdPBivnEDG9KUaa0gJk27onO8kGLlfKdqAcI1DzXKSRqCLmqm4w1TY999vqsyNtUWnJyth8fibOZKCQ%3D%3D",
-      "source": "The Wall Street Journal",
-      "published": "20221231T235959",
-      "overall_sentiment_score": 0.32324,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.317804,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.70843
-    },
-    {
-      "title": "GM tells remote workers to ‘pivot’ in return-to-office mandate",
-      "summary": "General Motors has mandated that its corporate employees return to the office three days a week, requiring remote workers to \"pivot to a more regular in-person work cycle.\" This decision aligns GM with other major corporations like Apple and Peloton, which have also implemented return-to-office policies since Labor Day. The move contrasts with more flexible policies from companies such as Ford and Mitsubishi, as well as Tesla's CEO Elon Musk's strict in-office requirement.",
-      "url": "https://fortune.com/2022/09/24/gm-return-to-office-mandate-remote-workers-three-days-week/",
-      "source": "Fortune",
-      "published": "20221231T235959",
-      "overall_sentiment_score": 0.03641,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.008893,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.670583
-    },
-    {
-      "title": "Stock Market Outlook 2023 for the Worst Performing S&P 500 Sectors",
-      "summary": "This article provides an outlook for the worst-performing S&P 500 sectors in 2022, including Technology, Real Estate, Consumer Discretionary, and Communication Services. It analyzes the performance of key holdings within each sector, their outlook for 2023, and analyst sentiment with options market probabilities for recovery. The forecast indicates that a full recovery to previous highs for these sectors and their major constituents is unlikely in the short term.",
-      "url": "https://www.tastylive.com/news-insights/stock-market-outlook-2023-worst-performing-sp500-sectors",
-      "source": "tastylive",
-      "published": "20221227T190623",
-      "overall_sentiment_score": 0.067203,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.313497,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.713008
+      "relevance_score": 0.615909
     }
   ]
 }

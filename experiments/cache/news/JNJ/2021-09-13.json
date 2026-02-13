@@ -7,6 +7,42 @@
   "article_count": 7,
   "articles": [
     {
+      "title": "What Investors Should Know About the $26 Billion Opioid Settlement",
+      "summary": "This article examines the potential impact of the $26 billion opioid settlement on the valuations of four major companies: Johnson & Johnson, Cardinal Health, McKesson, and AmerisourceBergen. It reviews how Morningstar and Sustainalytics assess the ongoing opioid-related risks for these companies, considering potential financial impacts and mitigation steps. The analysis concludes that while significant, the litigation costs are generally manageable relative to the companies' total profits, though specific outlooks vary.",
+      "url": "https://www.morningstar.com/sustainable-investing/what-investors-should-know-about-26-billion-opioid-settlement",
+      "source": "Morningstar",
+      "published": "20210913T195220",
+      "overall_sentiment_score": -0.186588,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.22321,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.9203
+    },
+    {
+      "title": "US drug companies say $26bn opioid settlement will proceed",
+      "summary": "Three major US drug distributors and Johnson & Johnson have announced that a proposed $26bn settlement resolving claims they fueled the opioid epidemic will proceed after enough states joined the agreement. The settlement aims to provide funds for opioid treatment and other services, with the first annual payment expected by September 30. While a complex formula envisioned 44 states, the companies ultimately decided that a \"critical mass\" had joined to finalize the deal.",
+      "url": "https://www.aljazeera.com/news/2021/9/4/us-drug-companies-say-26bn-opioid-settlement-will-proceed",
+      "source": "Al Jazeera",
+      "published": "20210904T204621",
+      "overall_sentiment_score": 0.24329,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.22405,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.800998
+    },
+    {
+      "title": "Moderna stock extends rally after price target gets a 77% boost at Morgan Stanley",
+      "summary": "Moderna's stock extended its rally after Morgan Stanley analyst Matthew Harrison significantly increased his price target on the company, citing an improved outlook for its COVID-19 vaccine sales. Despite the boost to Moderna, Harrison downgraded several other biopharma stocks including Johnson & Johnson, Merck, and Amgen, based on valuation concerns and lack of potential upside catalysts. All three of the downgraded stocks are components of the Dow Jones Industrial Average.",
+      "url": "https://www.marketwatch.com/story/moderna-stock-extends-rally-after-price-target-gets-a-77-boost-at-morgan-stanley-11631043323?gaa_at=eafs&gaa_n=AWEtsqc2875Dj5ZFzo5qHA3ggcFfsOphZQNyZtYpfP2RZ8pB_LmbR6HlNDYz&gaa_ts=6907c67d&gaa_sig=q3lHfqhr1sw7kt5OhJZk1GPPnKIa1Hz1o1DPZTJl_90Hsg08RXrRmTxTFhq1cI5uSnpc_XThrFZ1u_AkCp-XTw%3D%3D",
+      "source": "MarketWatch",
+      "published": "20210907T153500",
+      "overall_sentiment_score": -0.159578,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.417143,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.744736
+    },
+    {
       "title": "Bill Gates-backed Vicarious Surgical targets Intuitive, J&J, Medtronic in abdominal robotic surgery",
       "summary": "Vicarious Surgical, backed by Bill Gates and BD, aims to disrupt the abdominal robotic surgery market by offering a cost-effective and efficient alternative to current systems from giants like Intuitive Surgical, Johnson & Johnson, and Medtronic. The company plans a 510(k) submission in 2023 with a goal of $1 billion in sales by 2027, leveraging its breakthrough-designated robotic device that offers enhanced maneuverability through a single 1.5 cm incision. CEO Adam Sachs emphasizes the new technology's ability to overcome the limitations and high costs associated with existing surgical robots.",
       "url": "https://www.medtechdive.com/news/bill-gates-backed-vicarious-surgical-targets-intuitive-jj-medtronic/606122/",
@@ -31,28 +67,16 @@
       "relevance_score": 0.619708
     },
     {
-      "title": "Moderna stock extends rally after price target gets a 77% boost at Morgan Stanley",
-      "summary": "Moderna's stock extended its rally after Morgan Stanley analyst Matthew Harrison significantly increased his price target on the company, citing an improved outlook for its COVID-19 vaccine sales. Despite the boost to Moderna, Harrison downgraded several other biopharma stocks including Johnson & Johnson, Merck, and Amgen, based on valuation concerns and lack of potential upside catalysts. All three of the downgraded stocks are components of the Dow Jones Industrial Average.",
-      "url": "https://www.marketwatch.com/story/moderna-stock-extends-rally-after-price-target-gets-a-77-boost-at-morgan-stanley-11631043323?gaa_at=eafs&gaa_n=AWEtsqc2875Dj5ZFzo5qHA3ggcFfsOphZQNyZtYpfP2RZ8pB_LmbR6HlNDYz&gaa_ts=6907c67d&gaa_sig=q3lHfqhr1sw7kt5OhJZk1GPPnKIa1Hz1o1DPZTJl_90Hsg08RXrRmTxTFhq1cI5uSnpc_XThrFZ1u_AkCp-XTw%3D%3D",
-      "source": "MarketWatch",
-      "published": "20210907T153500",
-      "overall_sentiment_score": -0.159578,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": -0.417143,
-      "ticker_sentiment_label": "Bearish",
-      "relevance_score": 0.744736
-    },
-    {
-      "title": "US drug companies say $26bn opioid settlement will proceed",
-      "summary": "Three major US drug distributors and Johnson & Johnson have announced that a proposed $26bn settlement resolving claims they fueled the opioid epidemic will proceed after enough states joined the agreement. The settlement aims to provide funds for opioid treatment and other services, with the first annual payment expected by September 30. While a complex formula envisioned 44 states, the companies ultimately decided that a \"critical mass\" had joined to finalize the deal.",
-      "url": "https://www.aljazeera.com/news/2021/9/4/us-drug-companies-say-26bn-opioid-settlement-will-proceed",
-      "source": "Al Jazeera",
-      "published": "20210904T204621",
-      "overall_sentiment_score": 0.24329,
+      "title": "NEXGEL Appoints Miranda Toledano to Board of Directors",
+      "summary": "NEXGEL, Inc. announced the appointment of Miranda Toledano to its Board of Directors, bringing over 20 years of biotech, principal investment, and capital markets experience. Ms. Toledano previously served as COO, CFO, and Board member at TRIGR Therapeutics and held executive roles at Sorrento Therapeutics and MLV & Co. Her expertise is expected to be invaluable as NEXGEL continues to develop its hydrogel technology for healthcare and consumer markets.",
+      "url": "https://www.citybiz.co/article/138228/nexgel-appoints-miranda-toledano-to-board-of-directors/",
+      "source": "citybiz",
+      "published": "20210909T195735",
+      "overall_sentiment_score": 0.161374,
       "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.22405,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.800998
+      "ticker_sentiment_score": 0.14853,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.617412
     },
     {
       "title": "Johnson & Johnson’s HIV vaccine fails first efficacy trial",
@@ -65,30 +89,6 @@
       "ticker_sentiment_score": 0.003212,
       "ticker_sentiment_label": "Neutral",
       "relevance_score": 0.345854
-    },
-    {
-      "title": "What Investors Should Know About the $26 Billion Opioid Settlement",
-      "summary": "This article examines the potential impact of the $26 billion opioid settlement on the valuations of four major companies: Johnson & Johnson, Cardinal Health, McKesson, and AmerisourceBergen. It reviews how Morningstar and Sustainalytics assess the ongoing opioid-related risks for these companies, considering potential financial impacts and mitigation steps. The analysis concludes that while significant, the litigation costs are generally manageable relative to the companies' total profits, though specific outlooks vary.",
-      "url": "https://www.morningstar.com/sustainable-investing/what-investors-should-know-about-26-billion-opioid-settlement",
-      "source": "Morningstar",
-      "published": "20210913T195220",
-      "overall_sentiment_score": -0.186588,
-      "overall_sentiment_label": "Somewhat-Bearish",
-      "ticker_sentiment_score": 0.22321,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.9203
-    },
-    {
-      "title": "NEXGEL Appoints Miranda Toledano to Board of Directors",
-      "summary": "NEXGEL, Inc. announced the appointment of Miranda Toledano to its Board of Directors, bringing over 20 years of biotech, principal investment, and capital markets experience. Ms. Toledano previously served as COO, CFO, and Board member at TRIGR Therapeutics and held executive roles at Sorrento Therapeutics and MLV & Co. Her expertise is expected to be invaluable as NEXGEL continues to develop its hydrogel technology for healthcare and consumer markets.",
-      "url": "https://www.citybiz.co/article/138228/nexgel-appoints-miranda-toledano-to-board-of-directors/",
-      "source": "citybiz",
-      "published": "20210909T195735",
-      "overall_sentiment_score": 0.161374,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.14853,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.617412
     }
   ]
 }

@@ -7,30 +7,6 @@
   "article_count": 6,
   "articles": [
     {
-      "title": "Fortinet (FTNT) to Split Stock in 5 to Attract More Investors",
-      "summary": "Fortinet (FTNT) announced a five-for-one forward stock split to make its shares more accessible to employees and retail investors, with stockholder approval scheduled for June 17. If approved, the stock price will drop from approximately $300 to $60 per share. This move follows similar stock splits by other major tech companies like Alphabet, Amazon, and NVIDIA, aiming to boost demand and potentially increase share prices.",
-      "url": "https://finance.yahoo.com/news/fortinet-ftnt-split-stock-5-142902983.html",
-      "source": "Yahoo Finance",
-      "published": "20220610T142902",
-      "overall_sentiment_score": 0.216856,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.16698,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.610695
-    },
-    {
-      "title": "Is the Roundhill Ball Metaverse ETF (METV) Right for You?",
-      "summary": "The Roundhill Ball Metaverse ETF (METV) offers investors diversified exposure to companies benefiting from the metaverse's growth. This article examines METV's top holdings, including Meta Platforms, Nvidia, Roblox, Microsoft, and Autodesk, highlighting their roles in the metaverse ecosystem. It also discusses the fund's expense ratio and the potential market size of the metaverse industry.",
-      "url": "https://marketrealist.com/p/roundhill-ball-metaverse-etf-metv-holdings/",
-      "source": "Market Realist",
-      "published": "20220610T125100",
-      "overall_sentiment_score": 0.318665,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.329804,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.772472
-    },
-    {
       "title": "Los Alamos National Laboratory Announces Details Of Supercomputer Collaboration With Nvidia",
       "summary": "Los Alamos National Laboratory (LANL) announced new details of its supercomputer collaboration with Nvidia and HPE, resulting in the \"Venado\" system. Venado will be the first U.S. customer to receive an Nvidia Grace central processing unit and will utilize a balanced architecture optimized for diverse scientific research, from materials science to power-grid modeling. It represents a significant step in developing a robust software ecosystem and leadership-class computing capabilities for the Laboratory, with delivery expected in 2023.",
       "url": "https://losalamosreporter.com/2022/05/31/los-alamos-national-laboratory-announces-details-of-supercomputer-collaboration-with-nvidia/",
@@ -41,18 +17,6 @@
       "ticker_sentiment_score": 0.44086,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 1.0
-    },
-    {
-      "title": "Hewlett Packard Enterprise (HPE) Announces the 12 Winners of its 8th Accelerator Program",
-      "summary": "Hewlett Packard Enterprise (HPE) has announced the 12 winners of its 8th accelerator program, selected from around 50 companies. This program, launched in 2014, provides one year of personalized support, including mentorship from senior HPE managers and access to HPE's ecosystem, for young innovative French companies. The selected companies are primarily focused on responsible digital, artificial intelligence (especially for industry 4.0), health, and cybersecurity.",
-      "url": "https://www.actuia.com/en/news/hewlett-packard-enterprise-hpe-announces-the-12-winners-of-its-8th-accelerator-program/",
-      "source": "ActuIA",
-      "published": "20220610T165704",
-      "overall_sentiment_score": 0.407034,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.348947,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.619744
     },
     {
       "title": "Nvidia TAO Toolkit update aims to simplify deep learning model development",
@@ -77,6 +41,42 @@
       "ticker_sentiment_score": 0.335388,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.854087
+    },
+    {
+      "title": "Is the Roundhill Ball Metaverse ETF (METV) Right for You?",
+      "summary": "The Roundhill Ball Metaverse ETF (METV) offers investors diversified exposure to companies benefiting from the metaverse's growth. This article examines METV's top holdings, including Meta Platforms, Nvidia, Roblox, Microsoft, and Autodesk, highlighting their roles in the metaverse ecosystem. It also discusses the fund's expense ratio and the potential market size of the metaverse industry.",
+      "url": "https://marketrealist.com/p/roundhill-ball-metaverse-etf-metv-holdings/",
+      "source": "Market Realist",
+      "published": "20220610T125100",
+      "overall_sentiment_score": 0.318665,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.329804,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.772472
+    },
+    {
+      "title": "Hewlett Packard Enterprise (HPE) Announces the 12 Winners of its 8th Accelerator Program",
+      "summary": "Hewlett Packard Enterprise (HPE) has announced the 12 winners of its 8th accelerator program, selected from around 50 companies. This program, launched in 2014, provides one year of personalized support, including mentorship from senior HPE managers and access to HPE's ecosystem, for young innovative French companies. The selected companies are primarily focused on responsible digital, artificial intelligence (especially for industry 4.0), health, and cybersecurity.",
+      "url": "https://www.actuia.com/en/news/hewlett-packard-enterprise-hpe-announces-the-12-winners-of-its-8th-accelerator-program/",
+      "source": "ActuIA",
+      "published": "20220610T165704",
+      "overall_sentiment_score": 0.407034,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.348947,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.619744
+    },
+    {
+      "title": "Fortinet (FTNT) to Split Stock in 5 to Attract More Investors",
+      "summary": "Fortinet (FTNT) announced a five-for-one forward stock split to make its shares more accessible to employees and retail investors, with stockholder approval scheduled for June 17. If approved, the stock price will drop from approximately $300 to $60 per share. This move follows similar stock splits by other major tech companies like Alphabet, Amazon, and NVIDIA, aiming to boost demand and potentially increase share prices.",
+      "url": "https://finance.yahoo.com/news/fortinet-ftnt-split-stock-5-142902983.html",
+      "source": "Yahoo Finance",
+      "published": "20220610T142902",
+      "overall_sentiment_score": 0.216856,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.16698,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.610695
     }
   ]
 }

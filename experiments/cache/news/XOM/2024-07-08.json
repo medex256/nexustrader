@@ -7,6 +7,18 @@
   "article_count": 4,
   "articles": [
     {
+      "title": "5 Stocks to Buy for 3Q 2024",
+      "summary": "Morningstar Chief US Markets Strategist Dave Sekera discusses the Q3 2024 stock and bond market outlook and recommends five stocks for the quarter: ExxonMobil, Fortinet, International Flavors and Fragrances, Baxter International, and Ventas Inc. He also reviews recent earnings reports, key economic data, and Morningstar's fair value estimates for several companies, including Taiwan Semiconductor and Chipotle. The discussion highlights concerns about consumer spending, market concentration in large-cap tech stocks, and opportunities in undervalued sectors like small-cap and value stocks.",
+      "url": "https://www.morningstar.com/markets/5-stocks-buy-3q-2024",
+      "source": "Morningstar",
+      "published": "20240701T000000",
+      "overall_sentiment_score": 0.075601,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.408568,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.718941
+    },
+    {
       "title": "Chevron Inks PSCs for Two Blocks Offshore Equatorial Guinea",
       "summary": "Chevron Corp. and Equatorial Guinea’s state-owned GEPetrol have signed production sharing contracts (PSCs) for offshore blocks EG06 and EG11. These contracts aim to revitalize exploration and production offshore Equatorial Guinea, particularly near the producing Block B which houses the Zafiro field. This initiative is part of an effort to reverse the country's hydrocarbon production decline and boost energy security in West Africa, with Chevron also involved in the Gas Mega Hub project.",
       "url": "https://www.rigzone.com/news/chevron_inks_pscs_for_two_blocks_offshore_equatorial_guinea-24-jun-2024-177188-article/",
@@ -29,18 +41,6 @@
       "ticker_sentiment_score": 0.211611,
       "ticker_sentiment_label": "Somewhat-Bullish",
       "relevance_score": 0.6323
-    },
-    {
-      "title": "5 Stocks to Buy for 3Q 2024",
-      "summary": "Morningstar Chief US Markets Strategist Dave Sekera discusses the Q3 2024 stock and bond market outlook and recommends five stocks for the quarter: ExxonMobil, Fortinet, International Flavors and Fragrances, Baxter International, and Ventas Inc. He also reviews recent earnings reports, key economic data, and Morningstar's fair value estimates for several companies, including Taiwan Semiconductor and Chipotle. The discussion highlights concerns about consumer spending, market concentration in large-cap tech stocks, and opportunities in undervalued sectors like small-cap and value stocks.",
-      "url": "https://www.morningstar.com/markets/5-stocks-buy-3q-2024",
-      "source": "Morningstar",
-      "published": "20240701T000000",
-      "overall_sentiment_score": 0.075601,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.408568,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.718941
     },
     {
       "title": "Digital Innovation: TotalEnergies to Partner with SLB for a more sustainable energy",

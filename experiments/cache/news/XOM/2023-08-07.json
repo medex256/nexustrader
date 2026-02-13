@@ -7,6 +7,18 @@
   "article_count": 4,
   "articles": [
     {
+      "title": "Italy's antitrust drops fuel prices probe on Eni, Exxon and others",
+      "summary": "Italy's antitrust authority has closed a probe into several energy groups, including Eni and Exxon Mobil's ESSO Italiana unit, regarding alleged fuel price violations, without imposing sanctions. The companies have agreed to take actions to address competition concerns. However, a separate investigation into an alleged cartel over the sale of transport fuel, involving many of the same companies, was opened earlier this month.",
+      "url": "https://www.reuters.com/business/energy/italys-antitrust-drops-fuel-prices-probe-eni-exxon-others-2023-07-31/",
+      "source": "Reuters",
+      "published": "20230731T211300",
+      "overall_sentiment_score": 0.146953,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.121489,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.719349
+    },
+    {
       "title": "Imperial Oil shares rise as company renews share buybacks",
       "summary": "Imperial Oil's shares rose as the company announced renewed share buybacks despite a 72% drop in quarterly earnings due to maintenance and lower energy prices. The company's earnings met analyst expectations, and management expressed optimism for stronger volumes in the second half of the year, leading to investor confidence in future buybacks.",
       "url": "https://www.reuters.com/markets/commodities/imperial-oil-quarterly-profit-plunges-72-production-prices-drop-2023-07-28/",
@@ -29,18 +41,6 @@
       "ticker_sentiment_score": -0.184689,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 0.602986
-    },
-    {
-      "title": "Italy's antitrust drops fuel prices probe on Eni, Exxon and others",
-      "summary": "Italy's antitrust authority has closed a probe into several energy groups, including Eni and Exxon Mobil's ESSO Italiana unit, regarding alleged fuel price violations, without imposing sanctions. The companies have agreed to take actions to address competition concerns. However, a separate investigation into an alleged cartel over the sale of transport fuel, involving many of the same companies, was opened earlier this month.",
-      "url": "https://www.reuters.com/business/energy/italys-antitrust-drops-fuel-prices-probe-eni-exxon-others-2023-07-31/",
-      "source": "Reuters",
-      "published": "20230731T211300",
-      "overall_sentiment_score": 0.146953,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.121489,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.719349
     },
     {
       "title": "EQT Advancing Gulf Coast LNG Strategy and Eyeing (Eventual) MVP Opportunities",

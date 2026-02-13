@@ -19,30 +19,6 @@
       "relevance_score": 1.0
     },
     {
-      "title": "Products and Services",
-      "summary": "This SLB page details the company's extensive range of products and services, categorized into key areas such as Decarbonizing Industry, Innovating in Oil and Gas, Scaling New Energy Systems, and Delivering Digital at Scale. It highlights technologies and solutions aimed at energy innovation, emissions reduction, and operational efficiency across various sectors. The page also features new market offerings and recent news releases from SLB.",
-      "url": "https://www.slb.com/products-and-services",
-      "source": "SLB",
-      "published": "20221014T183638",
-      "overall_sentiment_score": 0.329769,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.254069,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.565571
-    },
-    {
-      "title": "Is AT&T Stock a Buy Ahead of Earnings?",
-      "summary": "This article evaluates AT&T stock ahead of its earnings report, highlighting its renewed focus on telecom, improved financial position, and attractive dividend yield. Morningstar considers AT&T T undervalued with a $25 fair value estimate and a narrow economic moat. The analysis also covers the bulls' and bears' perspectives on the company's prospects and risks.",
-      "url": "https://www.morningstar.com/stocks/is-att-stock-buy-ahead-earnings",
-      "source": "Morningstar",
-      "published": "20221012T184646",
-      "overall_sentiment_score": 0.222156,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.122085,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.573666
-    },
-    {
       "title": "33 Undervalued Stocks for 2022",
       "summary": "Morningstar has released its list of 33 top analyst picks for undervalued stocks heading into the fourth quarter of 2022. The U.S. stock market was down significantly for the year, with the median stock in Morningstar's North American coverage trading at more than a 20% discount to fair value. The article highlights undervalued sectors and provides a detailed list of stock picks across various industries, along with Morningstar's economic moat ratings, price-to-fair value ratios, uncertainty ratings, and star ratings for each.",
       "url": "https://www.morningstar.com/stocks/33-undervalued-stocks-2022",
@@ -53,78 +29,6 @@
       "ticker_sentiment_score": 0.518293,
       "ticker_sentiment_label": "Bullish",
       "relevance_score": 0.945415
-    },
-    {
-      "title": "Eni (E) Begins Vegetable Oil Export From Kenya's Agri-hub",
-      "summary": "Eni (E) has commenced exporting vegetable oil from its Makueni agri-hub in Kenya for bio-refining at its Gela bio-refinery in Sicily. This initiative is part of Eni's strategy to expand biofuel production, with targets of 2,500 tons by year-end 2022 and 20,000 tons by 2023, contributing to global efforts for cleaner energy and net-zero emissions. The company also exports Used Cooking Oil and aims to cover 35% of its biorefineries’ supply by 2025 through vertical integration of agri-feedstock.",
-      "url": "https://finance.yahoo.com/news/eni-e-begins-vegetable-oil-144202551.html",
-      "source": "Yahoo Finance",
-      "published": "20221012T163611",
-      "overall_sentiment_score": 0.30244,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.32336,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.717784
-    },
-    {
-      "title": "ETF 360: Rosenbluth and Minter Build the Case For Industrial Metals",
-      "summary": "In this episode of ETF 360, Todd Rosenbluth and Robert Minter discuss the abrdn Bloomberg Industrial Metals Strategy K-1 Free ETF (BCIM). They highlight the resurgence in demand for commodity ETFs in 2022 due to their inflation-hedging benefits and strong performance compared to traditional assets. Minter emphasizes that industrial metals are crucial for the global energy transition, driven by major economies' push for renewable energy, and points out the tax benefits of BCIM as a K-1-free product.",
-      "url": "https://www.etftrends.com/etf-360-content-hub/etf-360-rosenbluth-and-minter-build-the-case-for-industrial-metals/",
-      "source": "ETF Trends",
-      "published": "20221011T113125",
-      "overall_sentiment_score": 0.37557,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment_score": 0.306655,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.636024
-    },
-    {
-      "title": "Jefferies's Bowden Takes Over Global Industrial, Energy Banking",
-      "summary": "Jefferies Financial Group Inc. has appointed Pete Bowden as its global head of industrial, energy, and infrastructure banking. Bowden, who has been with Jefferies since 2012, previously served as global head of energy since 2018. This move signifies an expansion of his role to cover a broader range of crucial sectors for the investment bank.",
-      "url": "https://financialpost.com/pmn/business-pmn/jefferiess-bowden-takes-over-global-industrial-energy-banking",
-      "source": "Financial Post",
-      "published": "20221010T171632",
-      "overall_sentiment_score": 0.268384,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.107704,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.647219
-    },
-    {
-      "title": "Two US companies commit to tax transparency. When will others make the move?",
-      "summary": "Hess Corporation and Newmont Corporation have become the first US companies to publicly disclose key financial information through country-by-country reporting, aligning with the Global Reporting Initiative (GRI) tax standard. This move marks a significant step towards greater tax transparency in the US, an area where American companies have historically lagged behind their international peers. The article highlights the benefits of such disclosures for investors and civil society, and encourages other US companies to follow suit, potentially influenced by proposed regulatory actions from the SEC and Congress.",
-      "url": "https://thefactcoalition.org/two-us-companies-commit-to-tax-transparency-when-will-others-make-the-move/",
-      "source": "The FACT Coalition",
-      "published": "20221006T165641",
-      "overall_sentiment_score": 0.232139,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": -0.133283,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.612743
-    },
-    {
-      "title": "Broken promises: Insurance giants Sun Life and Manulife are deep into coal, oil and gas",
-      "summary": "Despite net-zero pledges, Canadian insurance giants Sun Life and Manulife have significantly increased their investments in fossil fuels, particularly coal, with holdings reaching US$15.9 billion and $9.9 billion respectively. This deep entanglement in coal, oil, and gas contradicts their climate commitments and positions them as major contributors to greenhouse gas emissions, raising concerns about the tension between their mission and financial goals. Shareholder advocacy groups are calling for stronger accountability and clear decarbonization strategies from these companies.",
-      "url": "https://www.nationalobserver.com/2022/10/05/investigations/insurance-giants-sun-life-manulife-are-deep-coal-oil-gas",
-      "source": "Canada's National Observer",
-      "published": "20221005T173648",
-      "overall_sentiment_score": -0.381196,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment_score": -0.317308,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.632583
-    },
-    {
-      "title": "As permafrost thaws, a Biden-supported drilling plan is on unstable ground",
-      "summary": "This article examines how thawing permafrost in Alaska's Arctic poses significant threats to oil and gas drilling projects, particularly ConocoPhillips' Willow project. It details a recent gas leak at ConocoPhillips' Alpine Field, where permafrost thaw exacerbated the incident, raising concerns about the stability and safety of new developments. The piece highlights the complex interplay between climate change, geological challenges, state oversight, and the economic and environmental impacts on local indigenous communities like Nuiqsut.",
-      "url": "https://grist.org/energy/permafrost-thaw-conocophillips-willow-project-alpine-leak/",
-      "source": "Grist",
-      "published": "20221003T162650",
-      "overall_sentiment_score": -0.146991,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.105164,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.577455
     },
     {
       "title": "Profits over politics: the case for anti-ESG ETFs",
@@ -139,16 +43,16 @@
       "relevance_score": 0.739064
     },
     {
-      "title": "Who’s to blame for California’s high gas prices?",
-      "summary": "Governor Gavin Newsom has blamed oil companies for high gas prices in California, proposing a windfall tax on their profits. However, the article argues that unique factors like the state's specific refining requirements, high taxes, decreasing refining capacity due to a shift towards \"zero emission\" vehicles, and the reluctance of refiners to invest in upgrades are more likely causes. Legislative leaders are reportedly lukewarm to the idea of a windfall tax, questioning the evidence of oil company malfeasance and concerned that such a tax could be passed on to consumers or further constrict supply.",
-      "url": "https://calmatters.org/commentary/2022/10/whos-to-blame-for-californias-high-gas-prices/",
-      "source": "CalMatters",
-      "published": "20221011T181624",
-      "overall_sentiment_score": -0.099669,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": -0.19556,
-      "ticker_sentiment_label": "Somewhat-Bearish",
-      "relevance_score": 0.614239
+      "title": "Eni (E) Begins Vegetable Oil Export From Kenya's Agri-hub",
+      "summary": "Eni (E) has commenced exporting vegetable oil from its Makueni agri-hub in Kenya for bio-refining at its Gela bio-refinery in Sicily. This initiative is part of Eni's strategy to expand biofuel production, with targets of 2,500 tons by year-end 2022 and 20,000 tons by 2023, contributing to global efforts for cleaner energy and net-zero emissions. The company also exports Used Cooking Oil and aims to cover 35% of its biorefineries’ supply by 2025 through vertical integration of agri-feedstock.",
+      "url": "https://finance.yahoo.com/news/eni-e-begins-vegetable-oil-144202551.html",
+      "source": "Yahoo Finance",
+      "published": "20221012T163611",
+      "overall_sentiment_score": 0.30244,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.32336,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.717784
     },
     {
       "title": "Tesla's a 'key stock in everyone’s ESG portfolio.' So why is that so controversial?",
@@ -161,6 +65,102 @@
       "ticker_sentiment_score": -0.176545,
       "ticker_sentiment_label": "Somewhat-Bearish",
       "relevance_score": 0.648311
+    },
+    {
+      "title": "Jefferies's Bowden Takes Over Global Industrial, Energy Banking",
+      "summary": "Jefferies Financial Group Inc. has appointed Pete Bowden as its global head of industrial, energy, and infrastructure banking. Bowden, who has been with Jefferies since 2012, previously served as global head of energy since 2018. This move signifies an expansion of his role to cover a broader range of crucial sectors for the investment bank.",
+      "url": "https://financialpost.com/pmn/business-pmn/jefferiess-bowden-takes-over-global-industrial-energy-banking",
+      "source": "Financial Post",
+      "published": "20221010T171632",
+      "overall_sentiment_score": 0.268384,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.107704,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.647219
+    },
+    {
+      "title": "ETF 360: Rosenbluth and Minter Build the Case For Industrial Metals",
+      "summary": "In this episode of ETF 360, Todd Rosenbluth and Robert Minter discuss the abrdn Bloomberg Industrial Metals Strategy K-1 Free ETF (BCIM). They highlight the resurgence in demand for commodity ETFs in 2022 due to their inflation-hedging benefits and strong performance compared to traditional assets. Minter emphasizes that industrial metals are crucial for the global energy transition, driven by major economies' push for renewable energy, and points out the tax benefits of BCIM as a K-1-free product.",
+      "url": "https://www.etftrends.com/etf-360-content-hub/etf-360-rosenbluth-and-minter-build-the-case-for-industrial-metals/",
+      "source": "ETF Trends",
+      "published": "20221011T113125",
+      "overall_sentiment_score": 0.37557,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.306655,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.636024
+    },
+    {
+      "title": "Broken promises: Insurance giants Sun Life and Manulife are deep into coal, oil and gas",
+      "summary": "Despite net-zero pledges, Canadian insurance giants Sun Life and Manulife have significantly increased their investments in fossil fuels, particularly coal, with holdings reaching US$15.9 billion and $9.9 billion respectively. This deep entanglement in coal, oil, and gas contradicts their climate commitments and positions them as major contributors to greenhouse gas emissions, raising concerns about the tension between their mission and financial goals. Shareholder advocacy groups are calling for stronger accountability and clear decarbonization strategies from these companies.",
+      "url": "https://www.nationalobserver.com/2022/10/05/investigations/insurance-giants-sun-life-manulife-are-deep-coal-oil-gas",
+      "source": "Canada's National Observer",
+      "published": "20221005T173648",
+      "overall_sentiment_score": -0.381196,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.317308,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.632583
+    },
+    {
+      "title": "Who’s to blame for California’s high gas prices?",
+      "summary": "Governor Gavin Newsom has blamed oil companies for high gas prices in California, proposing a windfall tax on their profits. However, the article argues that unique factors like the state's specific refining requirements, high taxes, decreasing refining capacity due to a shift towards \"zero emission\" vehicles, and the reluctance of refiners to invest in upgrades are more likely causes. Legislative leaders are reportedly lukewarm to the idea of a windfall tax, questioning the evidence of oil company malfeasance and concerned that such a tax could be passed on to consumers or further constrict supply.",
+      "url": "https://calmatters.org/commentary/2022/10/whos-to-blame-for-californias-high-gas-prices/",
+      "source": "CalMatters",
+      "published": "20221011T181624",
+      "overall_sentiment_score": -0.099669,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.19556,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.614239
+    },
+    {
+      "title": "Two US companies commit to tax transparency. When will others make the move?",
+      "summary": "Hess Corporation and Newmont Corporation have become the first US companies to publicly disclose key financial information through country-by-country reporting, aligning with the Global Reporting Initiative (GRI) tax standard. This move marks a significant step towards greater tax transparency in the US, an area where American companies have historically lagged behind their international peers. The article highlights the benefits of such disclosures for investors and civil society, and encourages other US companies to follow suit, potentially influenced by proposed regulatory actions from the SEC and Congress.",
+      "url": "https://thefactcoalition.org/two-us-companies-commit-to-tax-transparency-when-will-others-make-the-move/",
+      "source": "The FACT Coalition",
+      "published": "20221006T165641",
+      "overall_sentiment_score": 0.232139,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.133283,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.612743
+    },
+    {
+      "title": "As permafrost thaws, a Biden-supported drilling plan is on unstable ground",
+      "summary": "This article examines how thawing permafrost in Alaska's Arctic poses significant threats to oil and gas drilling projects, particularly ConocoPhillips' Willow project. It details a recent gas leak at ConocoPhillips' Alpine Field, where permafrost thaw exacerbated the incident, raising concerns about the stability and safety of new developments. The piece highlights the complex interplay between climate change, geological challenges, state oversight, and the economic and environmental impacts on local indigenous communities like Nuiqsut.",
+      "url": "https://grist.org/energy/permafrost-thaw-conocophillips-willow-project-alpine-leak/",
+      "source": "Grist",
+      "published": "20221003T162650",
+      "overall_sentiment_score": -0.146991,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.105164,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.577455
+    },
+    {
+      "title": "Is AT&T Stock a Buy Ahead of Earnings?",
+      "summary": "This article evaluates AT&T stock ahead of its earnings report, highlighting its renewed focus on telecom, improved financial position, and attractive dividend yield. Morningstar considers AT&T T undervalued with a $25 fair value estimate and a narrow economic moat. The analysis also covers the bulls' and bears' perspectives on the company's prospects and risks.",
+      "url": "https://www.morningstar.com/stocks/is-att-stock-buy-ahead-earnings",
+      "source": "Morningstar",
+      "published": "20221012T184646",
+      "overall_sentiment_score": 0.222156,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.122085,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.573666
+    },
+    {
+      "title": "Products and Services",
+      "summary": "This SLB page details the company's extensive range of products and services, categorized into key areas such as Decarbonizing Industry, Innovating in Oil and Gas, Scaling New Energy Systems, and Delivering Digital at Scale. It highlights technologies and solutions aimed at energy innovation, emissions reduction, and operational efficiency across various sectors. The page also features new market offerings and recent news releases from SLB.",
+      "url": "https://www.slb.com/products-and-services",
+      "source": "SLB",
+      "published": "20221014T183638",
+      "overall_sentiment_score": 0.329769,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.254069,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.565571
     }
   ]
 }

@@ -7,6 +7,42 @@
   "article_count": 7,
   "articles": [
     {
+      "title": "JPMorganChase launches global pledge to improve security across sectors and borders",
+      "summary": "JPMorganChase has signed the Cyber Risk Management Pledge by the Coalition to Reduce Cyber Risk (CR2) along with 37 other organizations. This commitment aims to improve cybersecurity practices across various industries and borders by advancing common frameworks and international standards. The initiative seeks to address the growing complexity of cyber threats and the fragmented regulatory landscape that makes global cybersecurity management challenging.",
+      "url": "https://www.jpmorganchase.com/about/technology/blog/jpmc-launches-global-pledge-to-improve-security-across-sectors-and-borders",
+      "source": "JPMorganChase",
+      "published": "20230619T000000",
+      "overall_sentiment_score": 0.26406,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.429972,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Enhancing Returns and Flexibility: The Case for Switching to Active Fixed Income ETFs",
+      "summary": "This article argues that active management in fixed income, particularly through active Fixed Income ETFs, outperforms passive strategies due to flaws in traditional bond indexes and the benefits of ETFs like lower costs and increased liquidity. A J.P. Morgan report is cited as evidence, showing active intermediate core and core plus funds providing excess annualized returns over the Bloomberg US Aggregate Bond Index. The author recommends that investors consider switching to active fixed income ETFs for a portion of their portfolios, listing several top-performing options.",
+      "url": "https://www.dividend.com/active-etfs-channel/enhancing-returns-and-flexibility-case-for-switching-to-active-fixed-income-etfs/",
+      "source": "Dividend.com",
+      "published": "20230612T000000",
+      "overall_sentiment_score": 0.280725,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.41371,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.841068
+    },
+    {
+      "title": "Issuer League: VanEck, Capital Group Hit ETF AUM Milestones",
+      "summary": "VanEck and Capital Group achieved significant ETF AUM milestones, collectively adding over $1.5 billion in inflows. VanEck's Morningstar Wide Moat ETF (MOAT) saw substantial inflows, boosting the firm's AUM past $60 billion, while Capital Group surpassed $10 billion in AUM, largely due to its Capital Group Dividend Value ETF (CGDV). This growth highlights strong performance in specific ETFs for both firms.",
+      "url": "https://www.etftrends.com/beyond-basic-beta-content-hub/issuer-league-vaneck-capital-group-hit-etf-aum-milestones/",
+      "source": "ETF Trends",
+      "published": "20230616T000000",
+      "overall_sentiment_score": 0.297112,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.292295,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.63619
+    },
+    {
       "title": "Financial service hub to open in Stamford CT office complex",
       "summary": "Three financial services firms—Altrinsic Global Advisors, Cramer Rosenthal McGlynn, and Valitana—have signed leases at First Stamford Place, one of Connecticut's largest office complexes, relocating from Greenwich. The move is attributed to Stamford's compelling proposition, including high-quality office space, convenient location, access to transit, and amenities, with some firms citing excessive Greenwich cost premiums. This relocation highlights Stamford's efforts to attract businesses, despite its higher office vacancy rates compared to Greenwich.",
       "url": "https://www.ctinsider.com/business/article/three-financial-services-firms-lease-stamford-18159815.php",
@@ -31,30 +67,6 @@
       "relevance_score": 0.624551
     },
     {
-      "title": "Customers Bank Buys $631M Venture Loan Portfolio from FDIC",
-      "summary": "Customers Bank has acquired a $631 million venture loan portfolio from the FDIC, along with 30 staff members who previously managed these loans for Signature Bank. This acquisition expands Customers Bank's venture banking services into new regions and is expected to improve its liquidity profile through the addition of low-cost, core deposits. The deal is part of the FDIC's larger sale of assets from the collapsed Signature Bank and Silicon Valley Bank.",
-      "url": "https://www.bankingexchange.com/news-feed/item/9693-customers-bank-buys-631m-venture-loan-portfolio-from-fdic",
-      "source": "Banking Exchange",
-      "published": "20230621T060300",
-      "overall_sentiment_score": 0.09506,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment_score": 0.123655,
-      "ticker_sentiment_label": "Neutral",
-      "relevance_score": 0.606251
-    },
-    {
-      "title": "JPMorganChase launches global pledge to improve security across sectors and borders",
-      "summary": "JPMorganChase has signed the Cyber Risk Management Pledge by the Coalition to Reduce Cyber Risk (CR2) along with 37 other organizations. This commitment aims to improve cybersecurity practices across various industries and borders by advancing common frameworks and international standards. The initiative seeks to address the growing complexity of cyber threats and the fragmented regulatory landscape that makes global cybersecurity management challenging.",
-      "url": "https://www.jpmorganchase.com/about/technology/blog/jpmc-launches-global-pledge-to-improve-security-across-sectors-and-borders",
-      "source": "JPMorganChase",
-      "published": "20230619T000000",
-      "overall_sentiment_score": 0.26406,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.429972,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 1.0
-    },
-    {
       "title": "What Is Racial Justice Investing & Why Should You Consider It?",
       "summary": "Racial justice investing is a method of socially responsible investing (SRI) that focuses on companies actively supporting racial justice for Black, Indigenous, and People of Colour (BIPOC) communities. This approach allows investors to make a positive social impact while diversifying their portfolios, addressing issues such as racial equality in management, gun control, prison reform, and police reform. Investors can participate by directly investing in BIPOC-owned businesses, selecting companies with strong racial justice policies, or utilizing specialized ETFs and robo-advisors.",
       "url": "https://moneywise.com/investing/investing-basics/what-is-racial-justice-investing",
@@ -67,28 +79,16 @@
       "relevance_score": 0.619684
     },
     {
-      "title": "Issuer League: VanEck, Capital Group Hit ETF AUM Milestones",
-      "summary": "VanEck and Capital Group achieved significant ETF AUM milestones, collectively adding over $1.5 billion in inflows. VanEck's Morningstar Wide Moat ETF (MOAT) saw substantial inflows, boosting the firm's AUM past $60 billion, while Capital Group surpassed $10 billion in AUM, largely due to its Capital Group Dividend Value ETF (CGDV). This growth highlights strong performance in specific ETFs for both firms.",
-      "url": "https://www.etftrends.com/beyond-basic-beta-content-hub/issuer-league-vaneck-capital-group-hit-etf-aum-milestones/",
-      "source": "ETF Trends",
-      "published": "20230616T000000",
-      "overall_sentiment_score": 0.297112,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.292295,
-      "ticker_sentiment_label": "Somewhat-Bullish",
-      "relevance_score": 0.63619
-    },
-    {
-      "title": "Enhancing Returns and Flexibility: The Case for Switching to Active Fixed Income ETFs",
-      "summary": "This article argues that active management in fixed income, particularly through active Fixed Income ETFs, outperforms passive strategies due to flaws in traditional bond indexes and the benefits of ETFs like lower costs and increased liquidity. A J.P. Morgan report is cited as evidence, showing active intermediate core and core plus funds providing excess annualized returns over the Bloomberg US Aggregate Bond Index. The author recommends that investors consider switching to active fixed income ETFs for a portion of their portfolios, listing several top-performing options.",
-      "url": "https://www.dividend.com/active-etfs-channel/enhancing-returns-and-flexibility-case-for-switching-to-active-fixed-income-etfs/",
-      "source": "Dividend.com",
-      "published": "20230612T000000",
-      "overall_sentiment_score": 0.280725,
-      "overall_sentiment_label": "Somewhat-Bullish",
-      "ticker_sentiment_score": 0.41371,
-      "ticker_sentiment_label": "Bullish",
-      "relevance_score": 0.841068
+      "title": "Customers Bank Buys $631M Venture Loan Portfolio from FDIC",
+      "summary": "Customers Bank has acquired a $631 million venture loan portfolio from the FDIC, along with 30 staff members who previously managed these loans for Signature Bank. This acquisition expands Customers Bank's venture banking services into new regions and is expected to improve its liquidity profile through the addition of low-cost, core deposits. The deal is part of the FDIC's larger sale of assets from the collapsed Signature Bank and Silicon Valley Bank.",
+      "url": "https://www.bankingexchange.com/news-feed/item/9693-customers-bank-buys-631m-venture-loan-portfolio-from-fdic",
+      "source": "Banking Exchange",
+      "published": "20230621T060300",
+      "overall_sentiment_score": 0.09506,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.123655,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.606251
     }
   ]
 }
