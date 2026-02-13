@@ -211,7 +211,7 @@ def news_harvester_agent(state: dict):
                 rel=float(article.get('relevance_score', 0.0) or 0.0),
             )
         )
-        news_summary += f"   Summary: {(article.get('summary') or '')[:150]}...\n\n"
+        news_summary += f"   Summary: {article.get('summary', '')}\n\n"
     
     # Calculate average sentiment
     if articles:
