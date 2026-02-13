@@ -38,10 +38,10 @@ class SimpleCache:
         return hashlib.md5(key_str.encode()).hexdigest()
     
     def get(self, key: str) -> Any:
-        """Retrieve cached value if not expired."""
+        """Retrieve cached value if not expired. ttl_seconds=0 means never expire."""
         if key in self.cache:
             value, timestamp = self.cache[key]
-            if time.time() - timestamp < self.ttl_seconds:
+            if self.ttl_seconds == 0 or time.time() - timestamp < self.ttl_seconds:
                 return value
             else:
                 # Expired, remove from cache

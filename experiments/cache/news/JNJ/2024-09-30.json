@@ -1,0 +1,94 @@
+{
+  "ticker": "JNJ",
+  "date": "2024-09-30",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:57:02.431519",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "AI Centers of Excellence drive innovation at Johnson & Johnson",
+      "summary": "Johnson & Johnson Innovative Medicine is leveraging AI Centers of Excellence, in collaboration with NetApp Inc., to manage and scale AI operations while ensuring data governance and compliance. This approach allows them to handle complex healthcare challenges by breaking down large language models into smaller, more manageable components. The initiative highlights the critical role of robust data infrastructure and governance in unlocking the potential of enterprise data through AI, leading to significant advancements in business outcomes and human health.",
+      "url": "https://siliconangle.com/2024/09/25/ai-centers-of-excellence-drive-innovation-johnson-johnson-netappinsight/",
+      "source": "SiliconANGLE",
+      "published": "20240925T155800",
+      "overall_sentiment_score": 0.454303,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.44005,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.93606
+    },
+    {
+      "title": "3 Healthcare Investing Trends to Watch",
+      "summary": "The Morgan Stanley Global Healthcare Conference highlighted three key investing trends: a rebounding M&A environment driven by potential interest rate reductions and capital deployment, the increasing investment in AI for productivity, cost reduction, and drug discovery, and innovations in digital health and biotechnology coupled with positive utilization trends for healthcare services and products. These trends suggest an evolving landscape for healthcare investing, with a focus on efficiency, technological advancement, and strategic mergers to unlock capital and drive growth.",
+      "url": "https://www.morganstanley.com/ideas/healthcare-investing-trends-2024-beyond",
+      "source": "Morgan Stanley",
+      "published": "20240925T000000",
+      "overall_sentiment_score": 0.225627,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.214629,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.600037
+    },
+    {
+      "title": "Politan prevails in Masimo proxy fight, gaining 2 board seats and ousting CEO Joe Kiani",
+      "summary": "Activist investor Politan Capital Management secured two new board seats at Masimo's annual meeting, leading to the ouster of founder and CEO Joe Kiani and fellow board member Chris Chavez. This victory doubles Politan's previous board representation and follows criticism over Masimo's acquisition of Sound United and its plans to spin out consumer businesses. Following the vote, Masimo's stock price saw a 3.4% increase.",
+      "url": "https://www.fiercebiotech.com/medtech/politan-prevails-masimo-proxy-fight-gaining-2-board-seats-and-ousting-ceo-joe-kiani",
+      "source": "Fierce Biotech",
+      "published": "20240920T110000",
+      "overall_sentiment_score": 0.132128,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.149872,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.609196
+    },
+    {
+      "title": "Bausch + Lomb considers sale: FT",
+      "summary": "Bausch + Lomb is exploring a potential sale to separate from its parent company, Bausch Health, according to the Financial Times. Analysts suggest a private equity firm is the most likely buyer due to potential antitrust challenges with strategic acquirers. The sale could help Bausch Health address its significant debt, though questions remain about its overall solvency even after such a transaction.",
+      "url": "https://www.medtechdive.com/news/bausch-lomb-considers-sale/727111/",
+      "source": "MedTech Dive",
+      "published": "20240916T000000",
+      "overall_sentiment_score": -0.090652,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.108347,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.722524
+    },
+    {
+      "title": "Fulcrum Therapeutics to cut jobs after dystrophy drug failure",
+      "summary": "Fulcrum Therapeutics will lay off employees following the failure of its facioscapulohumeral muscular dystrophy drug in a late-stage trial. The Cambridge biotech's drug did not meet expectations, leading to job cuts. This decision comes shortly after Alex Sapir joined as CEO in July 2023.",
+      "url": "https://www.bizjournals.com/boston/news/2024/09/25/fulcrum-layoffs-dystrophy-drug.html",
+      "source": "The Business Journals",
+      "published": "20240925T000000",
+      "overall_sentiment_score": 0.268998,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.301891,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.617748
+    },
+    {
+      "title": "Zevra Therapeutics' Drug Becomes First FDA-Approved Treatment For Ultra-Rare Neurodegenerative Disease",
+      "summary": "The FDA has approved Zevra Therapeutics' Miplyffa (arimoclomol) for the treatment of Niemann-Pick disease, type C (NPC), making it the first FDA-approved drug for this ultra-rare neurodegenerative disease. Miplyffa, in combination with Johnson & Johnson's Zavesca, treats neurological symptoms in adults and children aged two and older. The approval follows a favorable vote from the Genetic Metabolic Diseases Advisory Committee (GeMDAC) and demonstrated slower disease progression in trials.",
+      "url": "https://finance.yahoo.com/news/zevra-therapeutics-drug-becomes-first-172725043.html",
+      "source": "Yahoo Finance",
+      "published": "20240920T172725",
+      "overall_sentiment_score": 0.408545,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.139159,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.609319
+    },
+    {
+      "title": "Baltimore to take drug distributors to trial over opioids",
+      "summary": "The city of Baltimore is proceeding with a $11 billion lawsuit against drug distributors McKesson and Cencora, accusing them of fueling the opioid epidemic. This comes after Baltimore opted out of national settlements to pursue greater compensation individually. The trial is set to begin this week, while the city recently settled with Johnson & Johnson, Walgreens, and Teva for a combined $402.5 million.",
+      "url": "https://www.reuters.com/legal/government/baltimore-take-drug-distributors-jj-trial-over-opioids-2024-09-16/",
+      "source": "Reuters",
+      "published": "20240916T131000",
+      "overall_sentiment_score": -0.108731,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.25721,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.737891
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "ticker": "NVDA",
+  "date": "2022-11-28",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:26:00.273951",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "Chip Maker Nvidia Issues Tepid Earnings Forecast as Videogaming Business Slows",
+      "summary": "Nvidia Corp. issued a muted earnings outlook and reported a significant decline in quarterly sales, primarily due to decreased consumer demand for its videogaming chips. The company's revenue fell 17% to $5.93 billion in its fiscal third quarter, with gaming-segment sales more than halving. While sales exceeded analyst expectations, net profit at $680 million fell short.",
+      "url": "https://www.wsj.com/articles/nvidia-nvda-q3-earnings-report-2023-11668636320?gaa_at=eafs&gaa_n=AWEtsqcM-HPvYM-WCPASRH4hb0KDUQ_hUGym0cqpwpvZjK4pskkOBtxU73FX&gaa_ts=69079e73&gaa_sig=Y-LCA3j6kQbL9WLZqUW9aKnbM_s5zdmTrC5yzwoRl3shz1PK-jCSHAUwWulwm9yfUZAUUAXx5qewl05A4VRxjg%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20221116T175611",
+      "overall_sentiment_score": 0.02841,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.013239,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.309687
+    },
+    {
+      "title": "Nvidia says it is working with Microsoft to build 'massive' cloud AI computer",
+      "summary": "Nvidia Corp is partnering with Microsoft Corp to build a \"massive\" cloud AI computer on Microsoft's Azure cloud, utilizing thousands of Nvidia's powerful H100 and A100 GPUs. This collaboration aims to handle intense artificial intelligence computing work, driven by the increasing demand for faster processing from AI models. Nvidia will also be a customer of Microsoft's AI cloud computer, developing AI applications for its own services.",
+      "url": "https://www.reuters.com/technology/nvidia-says-it-is-working-with-microsoft-build-massive-cloud-ai-computer-2022-11-16/",
+      "source": "Reuters",
+      "published": "20221116T082700",
+      "overall_sentiment_score": 0.351672,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.427447,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Buffett’s Taiwan Semiconductor Stake Highlights Beaten-Down Semi Stocks",
+      "summary": "Warren Buffett's Berkshire Hathaway has invested $4.1 billion in Taiwan Semiconductor Manufacturing, drawing attention to the semiconductor industry, which Morningstar analysts consider largely undervalued. Following a significant selloff in 2022 due to recession fears and U.S. restrictions on sales to China, many semiconductor companies, including Skyworks Solutions, Teradyne, and Taiwan Semiconductor, are rated as significantly undervalued. The article details Morningstar's perspectives on Nvidia, Taiwan Semiconductor Manufacturing, ASML, Broadcom, and Texas Instruments, highlighting investment opportunities despite industry challenges.",
+      "url": "https://www.morningstar.com/markets/buffetts-taiwan-semiconductor-stake-highlights-beaten-down-semi-stocks",
+      "source": "Morningstar",
+      "published": "20221115T185559",
+      "overall_sentiment_score": 0.217621,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.301102,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.74314
+    },
+    {
+      "title": "Samsung Secures 3-nm Advanced Chip Orders From NVIDIA, Qualcomm – Report",
+      "summary": "Samsung Foundry has reportedly secured orders from major firms like NVIDIA, Qualcomm, IBM, and Baidu to manufacture advanced 3-nanometer chips. This move, leveraging Samsung's gate-all-around (GAA) transistor technology developed with IBM, aims to position Samsung ahead of TSMC in advanced chip manufacturing and diversify the semiconductor supply chain amidst geopolitical tensions. Deliveries in large quantities are expected to begin in early 2024.",
+      "url": "https://wccftech.com/samsung-secures-3-nm-advanced-chip-orders-from-nvidia-qualcomm-report/",
+      "source": "Wccftech",
+      "published": "20221123T081400",
+      "overall_sentiment_score": 0.194556,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.319414,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.93575
+    },
+    {
+      "title": "Ciena Deepens Foray Into Access with Two Acquisitions",
+      "summary": "Ciena Corp. is expanding its broadband access portfolio with two key acquisitions: Tibit Communications and Benu Networks. Tibit, acquired for approximately $210 million, specializes in pluggable optical line terminals for PONs, while Benu Networks, purchased for an undisclosed sum, offers a cloud-native platform for edge functions including virtual Broadband Network Gateways. These acquisitions aim to strengthen Ciena's presence in the lucrative broadband access market, which is a growing segment of its overall sales.",
+      "url": "https://www.futuriom.com/articles/news/ciena-deepens-foray-into-access-with-two-acquisitions/2022/11",
+      "source": "Futuriom",
+      "published": "20221122T162231",
+      "overall_sentiment_score": 0.227269,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.25697,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.582121
+    },
+    {
+      "title": "These 2 ETFs show why owning small-cap stocks is key to beating the market at times like this",
+      "summary": "Small-cap stocks within the S&P 500 have significantly outperformed larger-cap stocks this year, with the eight largest market cap stocks experiencing an average loss of 40.4% compared to a 9.5% average loss for the remaining stocks. This highlights how an equal-weight strategy can be more beneficial for S&P 500 investors when the biggest names are struggling. The article suggests that owning small-cap stocks is crucial for beating the market in such conditions.",
+      "url": "https://www.marketwatch.com/story/these-2-etfs-show-why-owning-small-cap-stocks-is-key-to-beating-the-market-at-times-like-this-11669147046?gaa_at=eafs&gaa_n=AWEtsqea6BA6PxjnWacQ6s7vFbXM0-BpHLtsgMvgGnGwLyMhPghtlwpm1dRW&gaa_ts=6907a579&gaa_sig=i3-UiZdX1HKD8p1wkcY0-AGQWzXv640W2B2lyxXU54Kgo1GCnXl09g8tnVF6nGzDA1dBsMnDyCouvrChCU9IUg%3D%3D",
+      "source": "MarketWatch",
+      "published": "20221122T145700",
+      "overall_sentiment_score": -0.259178,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.442156,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.818941
+    },
+    {
+      "title": "Buffet’s Investment Could Enhance Allure of Chip-Heavy QQQ",
+      "summary": "Warren Buffett's Berkshire Hathaway recently took a significant position in Taiwan Semiconductor Manufacturing, stirring interest in the semiconductor space. This investment could enhance the appeal of chip-heavy ETFs like the Invesco QQQ Trust (QQQ) and Invesco NASDAQ 100 ETF (QQQM), which offer semiconductor exposure without the commitment to a single stock. Analysts also note other undervalued semiconductor opportunities within these ETFs, including Nvidia and Broadcom Inc.",
+      "url": "https://www.etftrends.com/etf-education-channel/buffets-investment-could-enhance-allure-of-chip-heavy-qqq/",
+      "source": "ETF Trends",
+      "published": "20221121T181616",
+      "overall_sentiment_score": 0.117168,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.205707,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.653925
+    }
+  ]
+}

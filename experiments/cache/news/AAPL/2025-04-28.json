@@ -1,0 +1,70 @@
+{
+  "ticker": "AAPL",
+  "date": "2025-04-28",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:20:59.747635",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "The Magnificent Seven receives another ETF focused on covered calls",
+      "summary": "Roundhill Investments has launched a new exchange-traded fund, the Roundhill Magnificent Seven Covered Call ETF (MAGY), which focuses on covered calls for the mega-cap tech stocks known as the Magnificent Seven. This actively managed ETF is the latest financial product inspired by the strong performance of these prominent technology companies.",
+      "url": "https://seekingalpha.com/news/4435859-the-magnificent-seven-receives-another-etf-focused-on-covered-calls",
+      "source": "Seeking Alpha",
+      "published": "20250425T145800",
+      "overall_sentiment_score": 0.112444,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.12137,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.710201
+    },
+    {
+      "title": "Why Fidelity’s Dividend ETF (FDVV) Is a Safe Haven in Today’s Market",
+      "summary": "The Fidelity High Dividend ETF (FDVV) offers investors a blend of safety and income through exposure to diversified large-cap dividend-paying businesses. Its significant yield of 3.28% and relative resilience make it attractive for those seeking compounding opportunities and portfolio growth, especially in uncertain economic times. With a low expense ratio of 0.16%, FDVV provides a cost-effective way to invest in established companies that can withstand market volatility.",
+      "url": "https://247wallst.com/investing/2025/04/22/why-fidelitys-dividend-etf-fdvv-is-a-safe-haven-in-todays-market/",
+      "source": "24/7 Wall St.",
+      "published": "20250422T113300",
+      "overall_sentiment_score": 0.327315,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.310123,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.726653
+    },
+    {
+      "title": "Mitigating Tariffs: 3 Stocks to Gain From a Weaker U.S. Dollar",
+      "summary": "This article identifies three stocks — Coca-Cola, Apple, and Caterpillar — that could benefit significantly from a weaker U.S. dollar, counteracting the effects of tariffs. A weaker dollar makes U.S. products cheaper for international buyers, potentially increasing demand and turning currency headwinds into tailwinds for companies with substantial overseas revenue. The author explains how companies often report \"currency headwinds\" but that a weaker dollar can lead to higher sales volumes abroad despite lower margins.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/COKE/pressreleases/31949009/mitigating-tariffs-3-stocks-to-gain-from-a-weaker-us-dollar/",
+      "source": "The Globe and Mail",
+      "published": "20250417T012927",
+      "overall_sentiment_score": 0.193185,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.349204,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.873984
+    },
+    {
+      "title": "Is Occidental Petroleum Corp (OXY) the Best Stock to Buy According to Billionaire Warren Buffett?",
+      "summary": "This article examines Occidental Petroleum Corp (OXY) as a top holding in Warren Buffett's portfolio, detailing his increased stake and the company's financial performance. It discusses Buffett's investment philosophy and OXY's operations, including its recent acquisition of CrownRock and expansion into carbon capture. Despite OXY's strong position with Buffett, the article also presents a counter-argument from Jim Cramer and suggests superior prospects in certain AI stocks.",
+      "url": "https://www.insidermonkey.com/blog/is-occidental-petroleum-corp-oxy-the-best-stock-to-buy-according-to-billionaire-warren-buffett-1519026/",
+      "source": "Insider Monkey",
+      "published": "20250428T181100",
+      "overall_sentiment_score": 0.239925,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.324747,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.711284
+    },
+    {
+      "title": "3 High-Value Companies With Triple-Digit Upside Potential",
+      "summary": "Following an early April market selloff, several companies are presenting as undervalued investment opportunities. This article highlights three specific firms—Impinj (PI), Northern Technologies International (NTIC), and Seadrill (SDRL)—that experienced significant share price declines but possess strong growth potential due to improving fundamentals, new partnerships, or substantial backlogs. Each company presents a case for bullish investors to consider at their current comparably low price points, with analysts projecting triple-digit upside potential for some.",
+      "url": "https://www.marketbeat.com/stock-ideas/3-high-value-companies-with-triple-digit-upside-potential/",
+      "source": "MarketBeat",
+      "published": "20250416T052918",
+      "overall_sentiment_score": 0.211754,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.116296,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.729953
+    }
+  ]
+}

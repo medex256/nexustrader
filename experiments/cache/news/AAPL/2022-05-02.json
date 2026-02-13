@@ -1,0 +1,142 @@
+{
+  "ticker": "AAPL",
+  "date": "2022-05-02",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-12T23:56:14.377429",
+  "source": "alpha_vantage",
+  "article_count": 11,
+  "articles": [
+    {
+      "title": "LG Display quarterly profit plunges as demand shrinks and prices slide",
+      "summary": "LG Display Co Ltd reported a 93% plunge in first-quarter operating profit, far below forecasts, due to shrinking demand for TVs, smartphones, and laptops, and fierce competition leading to declining panel prices. The company announced a strategic shift towards higher-end products and a reduction in the production of commoditized LCD TV panels, where Chinese rivals have a competitive edge. This downturn was exacerbated by China's COVID-19 lockdowns, which caused supply chain disruptions.",
+      "url": "https://www.reuters.com/business/lg-display-quarterly-profit-plummets-demand-shrinks-prices-decline-2022-04-27/",
+      "source": "Reuters",
+      "published": "20220427T091300",
+      "overall_sentiment_score": -0.297884,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.13502,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.72856
+    },
+    {
+      "title": "Netflix shares slide after it loses 200,000 subscribers",
+      "summary": "Netflix shares plummeted after the company reported losing 200,000 subscribers in the first quarter of 2022, its first subscriber loss in over a decade. The decline was attributed to increased competition, economic headwinds, market saturation, and the withdrawal from Russia, leading to a significant drop in stock price and concerns about future growth. Netflix plans to address the issue by cracking down on password sharing and exploring new revenue streams like video games.",
+      "url": "https://www.cbsnews.com/news/netflix-losing-subscribers-stock-drop/",
+      "source": "CBS News",
+      "published": "20220420T191100",
+      "overall_sentiment_score": -0.278567,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.203253,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.656515
+    },
+    {
+      "title": "Netflix Loses $54 Billion in Market Cap After Biggest One-Day Stock Drop Ever",
+      "summary": "Netflix experienced its biggest one-day stock drop ever, losing $54 billion in market capitalization after announcing its first subscriber loss in over a decade and projecting further losses. Analysts downgraded the stock, citing market saturation, increased competition, and the impact of account sharing, leading to a significant reassessment of the company's growth prospects.",
+      "url": "https://variety.com/2022/digital/news/netflix-stock-three-year-low-subscriber-miss-1235236618/",
+      "source": "Variety",
+      "published": "20220420T051700",
+      "overall_sentiment_score": -0.417732,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.448096,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.632123
+    },
+    {
+      "title": "Warren Buffett and Berkshire Hathaway are once again outperforming the stock market. Apple is one big reason but these other 10 stocks also helped",
+      "summary": "Warren Buffett and Berkshire Hathaway are once again outperforming the stock market, with Apple being a significant contributor. This article highlights Berkshire's excellent performance in 2022, contrasting it with the broader market's struggles. It also suggests that the idea of Buffett's investing style being outdated is itself becoming outdated.",
+      "url": "https://www.marketwatch.com/story/warren-buffett-and-berkshire-hathaway-are-once-again-outperforming-the-stock-market-apple-is-one-big-reason-but-these-other-10-stocks-also-helped-11651068182?gaa_at=eafs&gaa_n=AWEtsqcXbzaEym1wT55B1pKQZdw2CiV3YguwEZaMyr00Shc2aHCrQHNKup4o&gaa_ts=69078701&gaa_sig=tRKBRRVeb_lcdZlcx1ZXZlWD2wG9jk82oDCAQgwcgOq4NIvXAg9qiZwy2VJr_pfIKXDoS6jCQMBraf3lg0Ojlw%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220427T100300",
+      "overall_sentiment_score": 0.216046,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.42666,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.700773
+    },
+    {
+      "title": "Netflix loses 200,000 subscribers in first quarter",
+      "summary": "Netflix reported a loss of 200,000 subscribers in the first quarter, missing its own projections and marking its first decline in over a decade. The company attributes the subscriber loss to password sharing, increased competition from other streaming services, and geopolitical events. Netflix is exploring new strategies to regain subscribers, including a lower-priced ad-supported service and cracking down on password sharing.",
+      "url": "https://www.latimes.com/entertainment-arts/business/story/2022-04-19/lat-et-ct-netflix-loses-subscriber-first-quarter",
+      "source": "Los Angeles Times",
+      "published": "20220419T170500",
+      "overall_sentiment_score": -0.048975,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.138136,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.638584
+    },
+    {
+      "title": "Top 10 Growth Stocks by Market Capitalization",
+      "summary": "This article defines growth stocks and explains how they differ from other investment types, highlighting their potential for capital appreciation and typical reinvestment strategies. It then presents a list of the top 10 large-cap growth stocks as of April 2022, detailing their market capitalization, forward P/E ratio, dividend status, and specific growth drivers for each company. The article also touches on general market performance of growth stocks and factors influencing their volatility.",
+      "url": "https://insights.masterworks.com/finance/top-10-growth-stocks-by-market-capitalization/",
+      "source": "Masterworks",
+      "published": "20220429T165704",
+      "overall_sentiment_score": 0.3093,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.414462,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Fidelity Enters the Metaverse with New Financial Education Experience: Invest Quest at The Fidelity Stack",
+      "summary": "Fidelity Investments has launched a new gamified financial education experience called \"The Fidelity Stack\" in Decentraland, an eight-story virtual building designed to teach users about ETF investing through an \"Invest Quest\" challenge. This initiative aims to engage younger audiences, particularly the 18-35 age range, following the company's recent introduction of a metaverse-themed ETF, FMET. Fidelity views this as a significant step in providing financial education in decentralized, virtual communities.",
+      "url": "https://finovate.com/fidelity-enters-the-metaverse-with-new-financial-education-experience-invest-quest-at-the-fidelity-stack/",
+      "source": "Finovate",
+      "published": "20220427T164138",
+      "overall_sentiment_score": 0.383462,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.343602,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.70734
+    },
+    {
+      "title": "Nasdaq 100 Index: Tech Stocks Lose $1.8 Trillion in a Month Thanks to Fed",
+      "summary": "Tech investors have experienced the worst start to the year in two decades, with the Nasdaq 100 Index losing over $1.8 trillion in value in April alone. This decline is attributed to a tumultuous earnings season, fears of an economic slowdown, and aggressive expectations regarding the Federal Reserve's rate-hike trajectory, with another hike anticipated next week. Investors are bracing for continued volatility in the market.",
+      "url": "https://www.bloomberg.com/news/articles/2022-04-29/fed-casts-long-shadow-over-1-8-trillion-stock-rout-tech-watch",
+      "source": "Bloomberg.com",
+      "published": "20220429T104600",
+      "overall_sentiment_score": -0.349124,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.406965,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.727381
+    },
+    {
+      "title": "Low Volatility Stocks Usually Do Well—But There Are Traps",
+      "summary": "A Northern Trust Asset Management paper warns that while low-volatility stocks generally outperform over time, they can present traps, particularly in real estate, utilities, and consumer staples sectors. Rising interest rates and economic vulnerability can negatively impact these types of low-volatility holdings. NTAM advises focusing on companies with strong cash flows, profitability, and solid balance sheets to mitigate these risks.",
+      "url": "https://www.ai-cio.com/news/low-volatility-stocks-usually-do-well-but-there-are-traps/",
+      "source": "Chief Investment Officer",
+      "published": "20220425T181642",
+      "overall_sentiment_score": 0.213594,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.245145,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.626772
+    },
+    {
+      "title": "Apple planning to spend $19.3 million upgrading MetLife building in Cary",
+      "summary": "Apple is planning to invest $19.3 million to upgrade a MetLife building in Cary, one year after announcing its new headquarters in Research Triangle Park. The renovations primarily involve interior work on floors 2-6 and 1,7 while the company recruits technical staff and engineers. This development is expected to significantly impact the local job market, housing, and bring further economic and philanthropic engagement to the Triangle region.",
+      "url": "https://wraltechwire.com/2022/04/25/apple-planning-to-spend-19-3-million-upgrading-metlife-building-in-cary/",
+      "source": "WRAL Techwire",
+      "published": "20220425T173645",
+      "overall_sentiment_score": 0.322456,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.319076,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.921411
+    },
+    {
+      "title": "Advisors Are Powering Portfolios With Thematic ETFs",
+      "summary": "Thematic ETFs, which invest in companies poised to benefit from long-term transformative changes, are increasingly being adopted by financial advisors as a replacement for traditional sector funds. These ETFs offer more precise exposure to growth trends like blockchain, emergent food, robotics, and electric vehicles. Asset managers are expanding their thematic ETF offerings, with BlackRock (iShares) recently launching two new products in this space, highlighting a growing conviction in the long-term benefits of thematic investing despite some recent market volatility.",
+      "url": "https://etfdb.com/news/2022/04/28/advisors-are-powering-portfolios-with-thematic-etfs/",
+      "source": "ETF Database",
+      "published": "20220428T155909",
+      "overall_sentiment_score": 0.295767,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.31848,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.735619
+    }
+  ]
+}

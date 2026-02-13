@@ -1,0 +1,58 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-06-05",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:51:28.311689",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "5 keys to Mike Mahoney and Boston Scientific’s success",
+      "summary": "This article details five key leadership principles demonstrated by Mike Mahoney, CEO of Boston Scientific, that have contributed to the company's significant growth since 2011. These principles include courage to take on challenges, fostering a startup mentality, willingness to take risks for innovation, understanding the company's core strengths, and prioritizing local company culture. Mahoney's strategies have led to a nearly tenfold increase in Boston Scientific's market capitalization and strong sales growth, even during a challenging period for the medical device industry.",
+      "url": "https://www.medicaldesignandoutsourcing.com/5-keys-to-mike-mahoney-and-boston-scientifics-success/",
+      "source": "Medical Design & Outsourcing",
+      "published": "20230605T000000",
+      "overall_sentiment_score": 0.050673,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.109299,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.580598
+    },
+    {
+      "title": "Farallon Capital succeeds in refreshing Exelixis board",
+      "summary": "Farallon Capital, an activist hedge fund owning 7.8% of Exelixis stock, successfully refreshed the oncology biotech company's board after a shareholder vote. All three of Farallon's independent candidates were elected, including Tomas Heyman, Robert Oliver, and David Johnson. This move addresses Farallon's concerns over unfocused R&D spending and aims to improve capital allocation and strategic focus at Exelixis.",
+      "url": "https://www.mmm-online.com/home/channel/farallon-capital-succeeds-in-refreshing-exelixis-board/",
+      "source": "Medical Marketing and Media",
+      "published": "20230601T152700",
+      "overall_sentiment_score": 0.190919,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.140419,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.633444
+    },
+    {
+      "title": "Cummins Spinoff Atmus Raises $275 Million in IPO",
+      "summary": "Cummins Inc. spinoff Atmus Filtration Technologies Inc. raised $275 million in its initial public offering, with shares rising 11% in their trading debut. The company, which manufactures filters for commercial vehicles and other equipment, has a market value of $1.8 billion and its IPO marks the seventh-biggest on a U.S. exchange this year. Cummins retains an 83% ownership stake in Atmus.",
+      "url": "https://www.ttnews.com/articles/cummins-spinoff-atmus-ipo",
+      "source": "Transport Topics",
+      "published": "20230526T151400",
+      "overall_sentiment_score": 0.170795,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.125423,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.601854
+    },
+    {
+      "title": "Fast Five: Medtronic’s nearly $740M acquisition, Boston Scientific bows out of an acquisition",
+      "summary": "This article covers key developments in the medical technology industry, including Medtronic's acquisition of EOFlow for $738 million and Boston Scientific's decision to withdraw from acquiring a majority stake in M.I. Tech. It also highlights HeartBeam's AI-related patent for a handheld vector ECG device and the FDA's approval of Zoll therapy for sleep apnea patients undergoing MRI scans. The Fast Five hosts discuss the implications of these strategic moves and technological advancements.",
+      "url": "https://www.massdevice.com/fast-five-medtronics-nearly-740m-acquisition-boston-scientific-bows-out-of-an-acquisition/",
+      "source": "MassDevice",
+      "published": "20230526T000000",
+      "overall_sentiment_score": 0.168739,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.147352,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.627594
+    }
+  ]
+}

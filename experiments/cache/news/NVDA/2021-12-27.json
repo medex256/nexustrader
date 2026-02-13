@@ -1,0 +1,58 @@
+{
+  "ticker": "NVDA",
+  "date": "2021-12-27",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:06:48.636662",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "Intel to invest $7 billion in new plant in Malaysia, creating 9,000 jobs",
+      "summary": "Intel Chief Executive Pat Gelsinger announced a $7 billion investment to build a new chip-packaging and testing factory in Malaysia, creating over 4,000 Intel jobs and more than 5,000 construction jobs. This expansion aims to address the global semiconductor shortage, which Gelsinger expects to persist into 2023. The new advanced packaging facility is projected to begin production in 2024.",
+      "url": "https://www.cnbc.com/2021/12/16/intel-to-invest-7-billion-in-new-malaysia-plant-creating-9000-jobs.html",
+      "source": "CNBC",
+      "published": "20211215T215700",
+      "overall_sentiment_score": 0.205235,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.164672,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.55915
+    },
+    {
+      "title": "Here are the top-performing technology stocks of 2021",
+      "summary": "This article highlights the top-performing technology stocks of 2021, despite a challenging end to the year for the sector. It focuses on companies like Upstart, Synaptics, Asana, Fortinet, and Nvidia, detailing their impressive growth, revenue figures, and contributions to areas like online lending, IoT, collaboration software, cybersecurity, and high-performance computing. The report underscores how specific companies thrived amidst broader market volatility, with several achieving triple-digit gains.",
+      "url": "https://www.cnbc.com/2021/12/24/these-are-the-best-technology-stocks-of-2021.html",
+      "source": "CNBC",
+      "published": "20211224T090000",
+      "overall_sentiment_score": 0.438587,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.356591,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.847917
+    },
+    {
+      "title": "Desktop computers and All-in-One PCs",
+      "summary": "HP offers a wide range of desktop computers and All-in-One PCs designed for various uses, including work, entertainment, gaming, and creative tasks. The article highlights new AI PC models like the HP OmniDesk and OmniStudio X, alongside established lines such as HP Pavilion, Envy, OMEN, and VICTUS, detailing their specifications and intended applications. Customers can filter choices by use case, series, operating system, product type, and screen size to find the perfect device.",
+      "url": "https://www.hp.com/us-en/desktops-and-all-in-ones.html",
+      "source": "HP",
+      "published": "20211216T202746",
+      "overall_sentiment_score": 0.323321,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.342761,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.639078
+    },
+    {
+      "title": "Federated learning: Intelligence versus privacy—can we have both?",
+      "summary": "This article discusses federated learning (FL) as a solution for machine learning at scale while addressing data privacy concerns. It highlights FL's benefits in industries like banking and healthcare, enabling shared AI model training without sharing sensitive data. The article also covers design challenges related to privacy in FL and how NetApp's infrastructure solutions can help in data protection and governance.",
+      "url": "https://www.netapp.com/blog/federated-learning-intelligence-vs-privacy/",
+      "source": "NetApp",
+      "published": "20211217T205206",
+      "overall_sentiment_score": 0.356022,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.338023,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.627365
+    }
+  ]
+}

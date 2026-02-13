@@ -1,0 +1,118 @@
+{
+  "ticker": "JNJ",
+  "date": "2021-10-04",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:41:46.401344",
+  "source": "alpha_vantage",
+  "article_count": 9,
+  "articles": [
+    {
+      "title": "Jabil expects to hit over $8B in net revenue in Q1 of 2022",
+      "summary": "Jabil Inc. (NYSE: JBL) reported strong financial results for the fourth quarter and fiscal year, with net revenue of $7.4 billion and $29.3 billion respectively, despite supply chain challenges. Looking ahead to Q1 2022, the company projects net revenue between $8 billion and $8.6 billion, driven by its diversified business model and opportunities in vehicle electrification, connected healthcare, and infrastructure development. Jabil continues to work with major clients such as Amazon, Tesla, Apple, and Johnson & Johnson.",
+      "url": "https://stpetecatalyst.com/jabil-expects-to-hit-over-8b-in-net-revenue-in-q1-of-2022/",
+      "source": "St Pete Catalyst",
+      "published": "20210929T203627",
+      "overall_sentiment_score": 0.289219,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.202718,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.616585
+    },
+    {
+      "title": "Activists Shame Johnson & Johnson over Pharma Greed",
+      "summary": "Activists protested at Johnson & Johnson's New Jersey headquarters, demanding the pharmaceutical giant cease \"pandemic profiteering\" and share its vaccine technology. The protest highlighted J&J's decision to shift its one-shot COVID-19 vaccine production from South Africa to Europe while less than 4% of Africans are fully vaccinated. Concerns were also raised about J&J's plan to end nonprofit pricing for its vaccine by the end of 2021.",
+      "url": "https://www.aidshealth.org/2021/09/activists-shame-johnson-johnson-over-pharma-greed/",
+      "source": "AIDS Healthcare Foundation",
+      "published": "20210927T203637",
+      "overall_sentiment_score": -0.416394,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.642918,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "New Johnson & Johnson data shows second shot boosts antibodies and protection against COVID-19 – but one dose is still strong against delta variant",
+      "summary": "Johnson & Johnson released new data on its COVID-19 vaccine, confirming that a single dose provides strong protection against the delta variant, with 79% efficacy against infection and 81% against hospitalization based on a real-world study. The data also showed that a booster shot significantly increases antibody levels and protection against moderate to severe disease, raising efficacy to 94% when given two months after the initial dose. While a single dose offers durable protection, boosters are suggested to further enhance the vaccine's effectiveness.",
+      "url": "https://theconversation.com/new-johnson-and-johnson-data-shows-second-shot-boosts-antibodies-and-protection-against-covid-19-but-one-dose-is-still-strong-against-delta-variant-168463",
+      "source": "The Conversation",
+      "published": "20210925T091200",
+      "overall_sentiment_score": 0.017809,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.006515,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.345245
+    },
+    {
+      "title": "Johnson & Johnson says additional dose boosts Covid vaccine efficacy",
+      "summary": "Johnson & Johnson announced that a global study revealed its Covid-19 vaccine is more effective as a two-dose regimen, showing 75% efficacy against moderate to severe cases globally and 94% in the U.S., with 100% effectiveness against severe disease. The company also stated that the efficacy of its single-shot vaccine does not wane and that a booster dose further enhances protection, submitting this data to the FDA and other regulators. These findings could support broader booster availability and increase the vaccine's usage.",
+      "url": "https://www.statnews.com/2021/09/21/johnson-johnson-says-additional-dose-boosts-covid-vaccine-efficacy/",
+      "source": "STAT",
+      "published": "20210921T203639",
+      "overall_sentiment_score": 0.297011,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.507104,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Seagen, Genmab win speedy FDA approval for cervical cancer drug",
+      "summary": "The FDA has granted accelerated approval to Seagen and Genmab's drug Tivdak for cervical cancer patients whose tumors have relapsed or spread after chemotherapy. Tivdak targets a protein frequently expressed on cancerous cells and is the fourth approval for both companies. The drug's list price is set at approximately $34,000 per month, and further trials are underway to confirm its long-term benefits and effectiveness in combination therapies.",
+      "url": "https://www.biopharmadive.com/news/seagen-genmab-fda-approval-cervical-cancer-tivdak/606926/",
+      "source": "BioPharma Dive",
+      "published": "20210921T202208",
+      "overall_sentiment_score": 0.180206,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.146553,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.726514
+    },
+    {
+      "title": "Johnson & Johnson Says Its Booster Shot Provides Increased Protection From COVID-19",
+      "summary": "Johnson & Johnson announced data from its Phase 3 trial indicating their COVID-19 booster shot offers increased protection. A booster administered six months after the initial single dose resulted in a 12-fold increase in antibodies. The company shared that a booster two months after the initial dose increased protection against COVID-19 to 94%, with overall efficacy against severe or critical infections at 75% across all age groups.",
+      "url": "https://www.npr.org/2021/09/21/1039168781/johnson-johnson-booster-shot-provides-increased-protection-from-covid",
+      "source": "NPR",
+      "published": "20210921T063000",
+      "overall_sentiment_score": 0.446517,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.423667,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Extra Shots from J. & J. and Pfizer Give Immune Boost, Companies Report (Published 2021)",
+      "summary": "New studies from Johnson & Johnson and Pfizer-BioNTech demonstrate that booster shots can significantly increase antibodies against the coronavirus. Both companies are submitting this new data to the FDA for evaluation, with Pfizer formally requesting authorization for a booster shot. The data supports the Biden administration's push for a booster shot strategy, which initially excluded the Johnson & Johnson vaccine but now includes new data from the company.",
+      "url": "https://www.nytimes.com/2021/08/25/health/johnson-johnson-vaccine-booster-shot.html",
+      "source": "The New York Times",
+      "published": "20211004T203638",
+      "overall_sentiment_score": 0.281623,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.319622,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.962741
+    },
+    {
+      "title": "Two dose version of Johnson & Johnson shot 94% effective against Covid-19, study finds",
+      "summary": "Johnson & Johnson announced that a two-dose regimen of its coronavirus vaccine provides 94% protection against symptomatic infection, comparable to Moderna's and Pfizer's two-dose vaccines. The company also stated that a booster dose significantly increases immunity. These findings were based on three studies examining various aspects of the Janssen vaccine's efficacy and longevity.",
+      "url": "https://www.cnn.com/2021/09/21/health/johnson-vaccine-two-doses-booster",
+      "source": "CNN",
+      "published": "20210921T064000",
+      "overall_sentiment_score": 0.414444,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.545905,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.907706
+    },
+    {
+      "title": "Vicarious Surgical Starts Trading As It Prepares To Launch Its Surgical Robots — And Take On Intuitive",
+      "summary": "Vicarious Surgical has gone public via SPAC, trading under the ticker RBOT, with the goal of revolutionizing abdominal surgery with its miniature robotic system. Co-founder and CEO Adam Sachs aims to challenge Intuitive Surgical's dominance in the market. The company plans to use its recent $220 million funding from the SPAC merger for product development, FDA clearance, and projects $1 billion in annual revenue by 2027.",
+      "url": "https://www.forbes.com/sites/aayushipratap/2021/09/20/vicarious-surgical-starts-trading-as-it-prepares-to-launch-its-surgical-robots---and-take-on-intuitive/",
+      "source": "Forbes",
+      "published": "20210920T092300",
+      "overall_sentiment_score": 0.134715,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.128999,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.60246
+    }
+  ]
+}

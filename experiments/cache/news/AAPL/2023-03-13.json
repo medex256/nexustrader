@@ -1,0 +1,94 @@
+{
+  "ticker": "AAPL",
+  "date": "2023-03-13",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T00:23:45.226794",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "Apple Inc. to Launch Apple Music Classical App",
+      "summary": "Apple Inc. is launching a new standalone app called Apple Music Classical, specifically designed for classical music enthusiasts. This app will feature over 5 million tracks, immersive spatial audio, curated playlists, composer biographies, and complete metadata for accurate displays. It will be available for pre-order and officially launch on March 28, 2023, at no extra cost for existing Apple Music subscribers.",
+      "url": "https://theviolinchannel.com/apple-inc-to-launch-apple-music-classical-app/",
+      "source": "The Violin Channel",
+      "published": "20230310T000000",
+      "overall_sentiment_score": -0.049545,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.059256,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "VT vs ACWI ETF: Which is the Best World ETF?",
+      "summary": "This article compares two popular World ETFs, Vanguard's Total World Stock Index Fund ETF (VT) and iShares' MSCI ACWI ETF (ACWI), to help investors decide which is best for their portfolio. It delves into their differences in expense ratios, underlying indices, geographical breakdown, number of constituents, dividend yields, and fund managers, as well as their similarities in strategy, purpose, returns, liquidity, and sector breakdown. The author concludes that VT offers a lower expense ratio and exposure to smaller-cap companies, which might appeal to investors seeking that longer-tail exposure.",
+      "url": "https://drwealth.com/vt-vs-acwi-etf/",
+      "source": "Dr Wealth",
+      "published": "20230303T000000",
+      "overall_sentiment_score": 0.176996,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.215534,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.727873
+    },
+    {
+      "title": "Lightsource bp Places Multi-Year Order for 4GW of First Solar Modules",
+      "summary": "Lightsource bp has placed a multi-year order for 4 gigawatts (GW) DC of advanced thin film solar modules from First Solar, to be delivered between 2026 and 2028 for projects in the US. This marks a significant commitment, building on a previous 4.3 GW order, and highlights the companies' collaboration in advancing US solar manufacturing and sustainability efforts. The deal includes First Solar’s Series 6 Plus and next-generation Series 7 modules, with Lightsource bp also committing to First Solar’s advanced high-value recycling program.",
+      "url": "https://lightsourcebp.com/news/lightsource-bp-places-multi-year-order-for-4-gw-of-first-solar-modules/",
+      "source": "Lightsource bp",
+      "published": "20230228T144041",
+      "overall_sentiment_score": 0.600754,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.343865,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.647821
+    },
+    {
+      "title": "Sonos CEO Patrick Spence on right to repair, spatial audio and those never-ending lawsuits",
+      "summary": "Sonos CEO Patrick Spence discusses the company's new Era 100 and Era 300 speakers, focusing on the emergence of spatial audio and its mainstream adoption challenges. He also addresses Sonos' commitment to right-to-repair principles, its premium pricing strategy, the future of the smart home market, and ongoing lawsuits with Google.",
+      "url": "https://techcrunch.com/2023/03/07/sonos-ceo-patrick-spence-on-right-to-repair-spatial-audio-and-those-never-ending-lawsuits/",
+      "source": "TechCrunch",
+      "published": "20230307T060000",
+      "overall_sentiment_score": 0.0781,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.203802,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.629715
+    },
+    {
+      "title": "Why Target says 2022 was rougher than 2020",
+      "summary": "Target Coo John Mulligan stated that 2022 was the most challenging operating environment of his career, even more so than 2020 during the height of the pandemic. Soaring inflation, supply chain issues, and changing consumer patterns led to significant drops in operating income and gross margins. In response, Target plans to cut $2 billion to $3 billion in costs, invest in customer-facing upgrades, expand owned brands and retail media, focus on price points and loyalty programs, and enhance convenience with expanded drive-up returns and store remodels.",
+      "url": "https://www.supermarketnews.com/foodservice-retail/why-target-says-2022-was-rougher-than-2020",
+      "source": "Supermarket News",
+      "published": "20230301T000000",
+      "overall_sentiment_score": 0.110377,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.216959,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.617281
+    },
+    {
+      "title": "From Apple to Boeing, India is being put to the test as China manufacturing alternative",
+      "summary": "India is emerging as a potential manufacturing alternative to China, attracting major companies like Boeing and Apple. While significant deals, such as Boeing's record-breaking aircraft order, signal growing ties, India faces substantial hurdles including bureaucracy, lagging infrastructure, and red tape in its ambition to become a global manufacturing hub. Despite these challenges, India's economic growth projections and strategic partnerships indicate a strong push towards self-reliance and increased integration into global supply chains.",
+      "url": "https://www.cnbc.com/2023/03/12/from-apple-to-boeing-india-is-being-put-to-the-test-as-the-new-china.html",
+      "source": "CNBC",
+      "published": "20230312T105900",
+      "overall_sentiment_score": 0.211787,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.228494,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.760597
+    },
+    {
+      "title": "Virtual try-on is being hit by class actions. Should brands worry?",
+      "summary": "Fashion and beauty brands like Dior, Louis Vuitton, and Estée Lauder are facing class-action lawsuits over their use of biometric data collected through virtual try-on technology under the Illinois Biometric Information Privacy Act (BIPA). These lawsuits highlight the need for brands to prioritize clear disclosure and consent regarding customer data, particularly sensitive biometric information, even as virtual try-on continues to grow in popularity and benefits. While legal challenges may represent \"teething problems\" for the industry, experts emphasize the importance of robust security and transparency practices to navigate evolving privacy regulations.",
+      "url": "https://www.voguebusiness.com/technology/virtual-try-on-is-being-hit-by-class-actions-should-brands-worry",
+      "source": "Vogue Business",
+      "published": "20230307T143114",
+      "overall_sentiment_score": -0.089379,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.130139,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.612954
+    }
+  ]
+}

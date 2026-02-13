@@ -1,0 +1,82 @@
+{
+  "ticker": "XOM",
+  "date": "2023-05-15",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:32:53.276366",
+  "source": "alpha_vantage",
+  "article_count": 6,
+  "articles": [
+    {
+      "title": "World’s first oil tanker shipping ETF starts trading in New York",
+      "summary": "John Kartsonas-led Breakwave Advisors has launched the world’s first tanker shipping exchange traded fund (ETF) on the New York Stock Exchange. The Breakwave Tanker Shipping ETF (BWET) offers exposure to the crude oil tanker shipping market using near-dated futures contracts. This launch capitalizes on high demand for oil transportation, limited vessel orderbooks, and geopolitical disruptions affecting oil markets.",
+      "url": "https://splash247.com/worlds-first-oil-tanker-shipping-etf-starts-trading-in-new-york/",
+      "source": "Splash247",
+      "published": "20230504T052251",
+      "overall_sentiment_score": 0.580622,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.538438,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.567655
+    },
+    {
+      "title": "Curtiss-Wright signs subsea canned motor pump agreement with Shell",
+      "summary": "Curtiss-Wright Corp has secured an agreement with Shell Exploration & Production Company to manufacture, test, and provide operational support for an Electro-Submersible Pump (ESP) for an offshore platform in the Gulf of Mexico. This initiative aims to demonstrate Curtiss-Wright's canned motor technology as a reliable alternative to current subsea pump technologies, reducing outages. A test facility will also be constructed to demonstrate the pump's capability before deployment, with the first ESP expected to be ready for delivery by year-end.",
+      "url": "https://www.worldpumps.com/content/news/curtiss-wright-signs-subsea-canned-motor-pump-agreement-with-shell",
+      "source": "World Pumps",
+      "published": "20230501T000000",
+      "overall_sentiment_score": 0.403128,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.338907,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.642107
+    },
+    {
+      "title": "B.C. innovators charting routes to greener fuel options for the global marine industry",
+      "summary": "B.C. companies, including Methanex Corp., Atlas Corp. (Seaspan), and Robert Allan Ltd., are leading the charge in developing greener fuel options for the global marine industry. Methanol and LNG are frontrunners in the transition to low-carbon shipping, with a mix of fuels expected to be the long-term solution. These innovators are addressing the challenge of decarbonizing the international shipping fleet through technological advancements and strategic partnerships.",
+      "url": "https://www.biv.com/news/transportation/bc-innovators-charting-routes-greener-fuel-options-global-marine-industry-8271586",
+      "source": "Business in Vancouver",
+      "published": "20230509T092400",
+      "overall_sentiment_score": 0.149903,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.106886,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.367613
+    },
+    {
+      "title": "Strive Asset Management fills leadership vacuum created by CEO's run for president",
+      "summary": "Matt Cole has been appointed CEO of Strive Asset Management, taking over from co-founder Vivek Ramaswamy who resigned to pursue a presidential bid. Cole, previously CIO, will continue Strive's mission to prioritize shareholder value over stakeholder value, emphasizing an \"anti-woke\" approach to investing and proxy voting. Strive has launched eight ETFs totaling over $700 million and aims to offer an alternative to traditional ESG-focused asset managers.",
+      "url": "https://www.investmentnews.com/ria-news/strive-asset-management-fills-leadership-vacuum-created-by-ceos-run-for-president/237188",
+      "source": "InvestmentNews",
+      "published": "20230504T143012",
+      "overall_sentiment_score": 0.239742,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.143093,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.636765
+    },
+    {
+      "title": "Welcome to the DIG Drilling Intelligence Group moves into new space",
+      "summary": "ConocoPhillips' Drilling Intelligence Group (DIG) officially moved into its new, redesigned space in Midland, transforming a former storage area into an advanced technology center. The new facility, named the DIG, allows directional drillers, operations personnel, and engineers to monitor drilling activity, analyze data, and provide real-time support to enhance overall drilling performance and leverage rig-automation capabilities. The space was designed for future growth, with plans to integrate more disciplines to further improve learnings and performance.",
+      "url": "https://www.conocophillips.com/spiritnow/story/welcome-to-the-dig-drilling-intelligence-group-moves-into-new-space/",
+      "source": "ConocoPhillips",
+      "published": "20230504T000000",
+      "overall_sentiment_score": 0.361871,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.308599,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.612723
+    },
+    {
+      "title": "The Alaskan gambit: $44 billion LNG project decades in the making",
+      "summary": "A planned $44 billion natural gas project in Alaska, decades in the making, aims to pipe gas from the North Slope to an LNG terminal near Anchorage for export to Asian markets. This initiative, supported by the Biden administration, seeks to revitalize Alaska's declining oil and gas industry and provide a reliable energy source to allies like South Korea and Japan, despite environmental concerns and financing challenges. The project faces questions about its necessity amidst a flood of Gulf Coast LNG projects and the long-term demand for natural gas as nations shift to renewables.",
+      "url": "https://www.houstonchronicle.com/business/energy/article/alaska-lng-exxon-conoco-pipeline-planning-18079041.php",
+      "source": "Houston Chronicle",
+      "published": "20230508T000000",
+      "overall_sentiment_score": 0.191811,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.124071,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.719957
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "ticker": "JNJ",
+  "date": "2022-09-26",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:48:18.797296",
+  "source": "alpha_vantage",
+  "article_count": 11,
+  "articles": [
+    {
+      "title": "J&J launches Bay Area science and technology campus",
+      "summary": "Johnson & Johnson (NYSE:JNJ) has opened a new 200,000 sq ft science and technology campus in the San Francisco Bay Area, doubling its presence in the region. The campus will unite Janssen Research and Development, Johnson & Johnson Innovation, and Johnson & Johnson Technology to foster collaboration and accelerate drug discovery and development, particularly focusing on data science, gene and RNA therapies, and emerging therapies for retinal and infectious diseases. This strategic move aims to enhance efficiency, recruit world-class data scientists, and foster in-person collaboration to expedite the development of transformative medicines.",
+      "url": "https://www.drugdiscoverytrends.com/johnson-johnson-launches-bay-area-science-and-technology-campus/",
+      "source": "www.drugdiscoverytrends.com",
+      "published": "20220920T171642",
+      "overall_sentiment_score": 0.480511,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.499507,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Theravance, flush with royalty cash, buys shares from GSK",
+      "summary": "Theravance Biopharma is buying back all 9.6 million shares owned by GSK as part of a $250 million stock repurchase plan, aiming to pivot away from legacy respiratory products developed in their long-standing collaboration. This move follows Theravance's sale of royalty rights from GSK’s blockbuster asthma drug Trelegy Ellipta to Royalty Pharma for $1.1 billion upfront. The share buyback will further unwind the 2002 collaboration with GSK, which had resulted in marketed drugs like Breo, Anoro, and Trelegy.",
+      "url": "https://www.biopharmadive.com/news/theravance-gsk-share-buyback-asthma/632146/",
+      "source": "BioPharma Dive",
+      "published": "20220919T184654",
+      "overall_sentiment_score": 0.133958,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.024627,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.621067
+    },
+    {
+      "title": "Johnson & Johnson Vision announces €100m investment in Limerick",
+      "summary": "Johnson & Johnson Vision Care Ireland UC announced a €100 million investment to expand its existing facility in Limerick, Ireland. This expansion aims to create 80 new jobs and increase manufacturing capacity for its ACUVUE® Astigmatism product family and future product pipeline. Production is expected to commence in 2024, reinforcing the company's commitment to the Irish MedTech sector and global eye health.",
+      "url": "https://www.idaireland.com/latest-news/press-release/johnson-johnson-vision-announces-100m-investment-in-limerick",
+      "source": "IDA Ireland",
+      "published": "20220916T171643",
+      "overall_sentiment_score": 0.498329,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.474921,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "J&J reaches $205 million settlement in Australian pelvic mesh class action",
+      "summary": "Johnson & Johnson has agreed to a A$300 million ($204.90 million) settlement in two Australian class action lawsuits concerning defective pelvic mesh implants. This marks the largest product-liability class action settlement in Australian history, impacting over 11,000 claimants and J&J's subsidiary Ethicon. The settlement addresses claims that the company sold the implants without adequate warnings about risks and prematurely brought them to market.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/shine-lawyers-reach-settlement-with-jj-australian-pelvic-mesh-class-action-2022-09-12/",
+      "source": "Reuters",
+      "published": "20220912T152400",
+      "overall_sentiment_score": -0.418929,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.400691,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "J&J opens new research hub near San Francisco",
+      "summary": "Johnson & Johnson has opened a new 200,000-square-foot R&D facility in Brisbane, California, near San Francisco, to consolidate its presence in the Bay Area biotech hub. The site will house approximately 400 employees from Janssen R&D, J&J Technology, and J&J Innovation, focusing on gene and RNA therapies, infectious diseases, retinal diseases, digital health, and data science. This expansion aims to enhance collaboration and accelerate the development of innovative medicines.",
+      "url": "https://www.biopharmadive.com/news/johnson-johnson-research-facility-open-san-francisco/632237/",
+      "source": "BioPharma Dive",
+      "published": "20220920T171642",
+      "overall_sentiment_score": 0.421171,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.401877,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Johnson & Johnson opens 400-person R&D facility to strengthen Bay Area presence",
+      "summary": "Johnson & Johnson has opened a new 200,000-square-foot R&D facility in San Francisco's Bay Campus, more than doubling its presence in the Bay Area. The facility will house up to 400 employees focusing on Janssen’s R&D priorities, including gene and RNA therapies, and utilizing AI and machine learning in drug development. This move aims to strengthen J&J's R&D capabilities, similar to the success seen with its California Innovation Center.",
+      "url": "https://www.fiercebiotech.com/biotech/jjs-rd-units-move-200k-sq-ft-facility-strengthen-bay-area-presence",
+      "source": "Fierce Biotech",
+      "published": "20220920T103600",
+      "overall_sentiment_score": 0.44988,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.40329,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Johnson & Johnson and a New War on Consumer Protection",
+      "summary": "This article details Johnson & Johnson's legal battles regarding allegations that its talcum powder caused cancer in consumers. It highlights the company's controversial \"Texas two-step\" bankruptcy strategy to manage tens of thousands of lawsuits and discusses the broader implications for consumer protection laws and corporate accountability.",
+      "url": "https://www.newyorker.com/magazine/2022/09/19/johnson-johnson-and-a-new-war-on-consumer-protection",
+      "source": "The New Yorker",
+      "published": "20220912T171640",
+      "overall_sentiment_score": -0.333766,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.702906,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Never Mind Growth vs. Value Stocks, Look to Beta",
+      "summary": "This article argues that investors should focus on stock volatility, represented by beta, rather than the traditional growth vs. value distinction, especially given the current economic uncertainty. It highlights that high-beta stocks, despite their risk, are currently undervalued, particularly in cyclical sectors, presenting potential opportunities. The author also suggests that low-beta stocks can offer a haven for risk-averse investors in uncertain times.",
+      "url": "https://www.morningstar.com/markets/never-mind-growth-vs-value-stocks-look-beta",
+      "source": "Morningstar",
+      "published": "20220920T165548",
+      "overall_sentiment_score": -0.069326,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.071665,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.688662
+    },
+    {
+      "title": "Canadian biotech venture capital firm Lumira starts hedge fund to target oversold public companies",
+      "summary": "Lumira Ventures, a prominent Canadian biotech venture capital firm, is launching a new hedge fund, Lumira Ventures Opportunity Fund 1, to invest in publicly traded health sciences companies it believes are oversold. This move diversifies its investment strategy beyond private startups, following a trend seen among U.S. biotech investors. The fund will primarily target established biotherapeutics and medical technology firms, seeking to capitalize on a recent deep sell-off in the biotech market, despite strong underlying industry fundamentals.",
+      "url": "https://www.theglobeandmail.com/business/article-canadian-biotech-venture-capital-firm-lumira-starts-hedge-fund-to/",
+      "source": "The Globe and Mail",
+      "published": "20220918T161135",
+      "overall_sentiment_score": 0.266996,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.271197,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.575617
+    },
+    {
+      "title": "GSK Eases Cervarix Out Of India, Eyes On Trajectory Of Synflorix",
+      "summary": "GSK is withdrawing its HPV vaccine Cervarix from the Indian market, reflecting changing dynamics for HPV vaccines in the country. The company's focus will now shift to the trajectory of its pneumococcal vaccine, Synflorix. This move comes amidst increased competition and evolving market conditions for vaccines in India.",
+      "url": "https://insights.citeline.com/SC147038/GSK-Eases-Cervarix-Out-Of-India-Eyes-On-Trajectory-Of-Synflorix/",
+      "source": "Citeline News & Insights",
+      "published": "20220912T171552",
+      "overall_sentiment_score": 0.175968,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.242549,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.874309
+    },
+    {
+      "title": "As Covid recedes, the nuclear medicine equipment market bounces back",
+      "summary": "The nuclear medicine equipment market is rebounding after the COVID-19 pandemic, driven by technological advancements, increasing disease prevalence, and growing awareness of early diagnosis. While the Indian market experienced a decline in 2021, sales of PET scanners and SPECT units have significantly picked up in 2022, with PET-CT scanners dominating the segment. The global market is projected for substantial growth despite challenges like high equipment costs and reimbursement issues.",
+      "url": "https://medicalbuyer.co.in/as-covid-recedes-the-nuclear-medicine-equipment-market-bounces-back/",
+      "source": "Medical Buyer",
+      "published": "20220926T164641",
+      "overall_sentiment_score": 0.365279,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.250144,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.575221
+    }
+  ]
+}

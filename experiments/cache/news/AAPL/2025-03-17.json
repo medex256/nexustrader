@@ -1,0 +1,70 @@
+{
+  "ticker": "AAPL",
+  "date": "2025-03-17",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:20:30.899502",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Deadline Alert: Skyworks Solutions, Inc. (SWKS) Investors Who Lost Money Urged To Contact Glancy Prongay & Murray LLP About Securities Fraud Lawsuit",
+      "summary": "Glancy Prongay & Murray LLP is reminding investors of Skyworks Solutions, Inc. (NASDAQ: SWKS) who suffered losses to contact them regarding a securities fraud lawsuit. The lawsuit alleges that Skyworks made misleading statements about its business operations and prospects, particularly concerning its relationship with Apple and its ability to capitalize on AI. Investors who purchased Skyworks securities between July 30, 2024, and February 5, 2025, have until May 5, 2025, to file a lead plaintiff motion.",
+      "url": "https://www.everythinglubbock.com/business/press-releases/globenewswire/9395067/deadline-alert-skyworks-solutions-inc-swks-investors-who-lost-money-urged-to-contact-glancy-prongay-murray-llp-about-securities-fraud-lawsuit/",
+      "source": "EverythingLubbock.com",
+      "published": "20250317T120000",
+      "overall_sentiment_score": -0.456206,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.235562,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.725422
+    },
+    {
+      "title": "US Vs. Europe ETFs: Is The Tide Turning?",
+      "summary": "European equities have notably outperformed U.S. equities since the beginning of 2025, leading to a shift in investor sentiment, with European investors pulling out of U.S. equity ETFs. This divergence is attributed to geopolitical developments, China's economic rebound supporting European exports, and concerns over U.S. mega-cap tech valuations and tariffs. Despite these shifts, both U.S. and European ETF markets are experiencing robust growth, although European ETFs have grown faster due to lower percentages of registered funds historically.",
+      "url": "https://www.benzinga.com/etfs/specialty-etfs/25/03/44330587/us-vs-europe-etfs-is-the-tide-turning",
+      "source": "Benzinga",
+      "published": "20250314T042135",
+      "overall_sentiment_score": 0.142005,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.198489,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.642338
+    },
+    {
+      "title": "Live Nation Loses Bid to Narrow DOJ Ticketmaster Case",
+      "summary": "A federal judge in New York denied Live Nation Entertainment Inc.'s attempt to narrow the Justice Department’s antitrust case against it, which seeks to break off Ticketmaster. The DOJ and some 30 states allege Live Nation has illegally monopolized the live events industry, controlling a significant portion of concert venues and ticketing. A trial is scheduled for March 2026.",
+      "url": "https://www.claimsjournal.com/news/national/2025/03/14/329490.htm",
+      "source": "Claims Journal",
+      "published": "20250314T000000",
+      "overall_sentiment_score": -0.207507,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.114227,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.633343
+    },
+    {
+      "title": "Why FCF ETF 'VFLO' Looks Strong in 2025",
+      "summary": "The VictoryShares Free Cash Flow ETF (VFLO) demonstrated strong demand in 2024 and is well-positioned for 2025, offering diversification, attractive valuations, and strong historical returns. VFLO targets large-cap U.S. companies with high free cash flow yields, excluding \"Magnificent Seven\" stocks, making it a valuable complement to broad benchmarks. Its performance in 2024, generating a nearly 22% return, highlights its potential to improve value exposure in portfolios.",
+      "url": "https://www.etftrends.com/free-cash-flow-channel/fcf-etf-vflo-looks-strong-heading-2025/",
+      "source": "ETF Trends",
+      "published": "20250310T050921",
+      "overall_sentiment_score": 0.066871,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.148485,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.606541
+    },
+    {
+      "title": "Rockwell Automation Poised to Gain From U.S. Tariffs & Onshoring",
+      "summary": "Rockwell Automation stands to benefit significantly from U.S. tariffs and the growing trend of onshoring manufacturing back to the United States. The company, which produces industrial automation equipment and has over 70% of its products \"Made in America,\" is well-positioned to capitalize on increased domestic production spurred by trade policies. Despite conservative guidance, analysts maintain a \"Moderate Buy\" rating, anticipating that Rockwell will mitigate tariff impacts and emerge as a net beneficiary.",
+      "url": "https://www.marketbeat.com/originals/rockwell-automation-poised-to-gain-from-us-tariffs-and-onshoring/",
+      "source": "MarketBeat",
+      "published": "20250312T000000",
+      "overall_sentiment_score": 0.319548,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.208713,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.61844
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-04-24",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:51:00.836464",
+  "source": "alpha_vantage",
+  "article_count": 2,
+  "articles": [
+    {
+      "title": "Cue Biopharma Appoints Patrick Verheyen to its Board of Directors",
+      "summary": "Cue Biopharma has appointed Patrick Verheyen, an industry veteran with over 35 years of experience from Janssen Pharmaceutical Companies, to its Board of Directors. Mr. Verheyen's expertise in business development, licensing, and M&A, including significant acquisitions for Janssen, is expected to guide Cue Biopharma's corporate development and strategic initiatives. He will contribute to advancing the company's clinical drug candidates and platform technologies in immunotherapy for cancer and autoimmune diseases.",
+      "url": "https://www.citybiz.co/article/403059/cue-biopharma-appoints-patrick-verheyen-to-its-board-of-directors/",
+      "source": "citybiz",
+      "published": "20230412T000000",
+      "overall_sentiment_score": 0.296369,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.32979,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.73139
+    },
+    {
+      "title": "Big Pharma-partnered Evotec on high alert after cyberattack takes systems offline",
+      "summary": "German biotech Evotec shut down its network after detecting unusual activity on its IT systems on April 6, prompting a forensic examination. The company, which has lucrative partnerships with major pharmaceutical companies like Bristol Myers Squibb and Johnson & Johnson's Janssen Pharmaceuticals, states that business continuity is being upheld despite potential delays. This incident highlights the increasing vulnerability of the healthcare and biotech sectors to cyberattacks, with previous incidents affecting vaccine manufacturers.",
+      "url": "https://www.fiercebiotech.com/biotech/big-pharma-partnered-evotec-closes-down-hatchets-after-cyber-attack",
+      "source": "Fierce Biotech",
+      "published": "20230410T102400",
+      "overall_sentiment_score": -0.149346,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.143522,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.632468
+    }
+  ]
+}

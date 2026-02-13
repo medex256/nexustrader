@@ -1,0 +1,82 @@
+{
+  "ticker": "JNJ",
+  "date": "2024-05-27",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:55:38.390943",
+  "source": "alpha_vantage",
+  "article_count": 6,
+  "articles": [
+    {
+      "title": "How to Find the Right Value Fund for Your Portfolio",
+      "summary": "This article by Russel Kinnel discusses how to find the right value fund, categorizing them into deep value, equity income, classic value, and focused/flexible approaches. It analyzes various funds based on Morningstar Risk rating, value/growth score, 2022 performance, yield, and portfolio value percentage, providing insights into their strategies and suitability for an investment portfolio. The author emphasizes that the optimal choice depends on an individual's existing portfolio and financial goals.",
+      "url": "https://www.morningstar.com/funds/find-right-value-fund-your-portfolio",
+      "source": "Morningstar",
+      "published": "20240520T000000",
+      "overall_sentiment_score": 0.064684,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.14992,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.728341
+    },
+    {
+      "title": "Johnson & Johnson is selling its remaining Kenvue shares",
+      "summary": "Johnson & Johnson is divesting its remaining stake in Kenvue Inc., the consumer-health business it spun off last year. The company will execute a debt-for-equity exchange involving 182.3 million Kenvue shares with Goldman Sachs and J.P. Morgan, which will be followed by a secondary offering of these shares. This move signifies the complete separation of Kenvue from Johnson & Johnson.",
+      "url": "https://www.marketwatch.com/story/kenvues-stock-falls-after-company-announces-182-3-million-secondary-stock-offering-1c5dd50f?gaa_at=eafs&gaa_n=AWEtsqd7OzgRfzJ36QzgpRvCV39hkfHPwC4Qb0mvBPHSE1BZsgLt6PUL36A1&gaa_ts=69075914&gaa_sig=HPjmUfZSwN2W8NsQ6I_iT8RCubR-Ah0pzS9xSuPH64EMSHFcQ7U9_fv1WmUkA5ML_FJK8HaSjm8KnDkYNmVLDA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20240513T080900",
+      "overall_sentiment_score": 0.101857,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.144414,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.90638
+    },
+    {
+      "title": "Takeda shells out $100m to license AC Immune’s Phase II Alzheimer’s therapy",
+      "summary": "Takeda has entered into an exclusive, worldwide option and license agreement with AC Immune for its amyloid beta-targeting Alzheimer’s disease immunotherapy, ACI-24.060. The deal includes an upfront payment of $100 million to AC Immune and potential milestone payments of up to $2.1 billion. AC Immune’s stock surged over 57% following the announcement of this agreement, which will see Takeda take over clinical development and commercialization after the completion of the ongoing Phase Ib/II ABATE trial.",
+      "url": "https://www.pharmaceutical-technology.com/news/takeda-shells-out-100m-to-license-ac-immunes-phase-ii-alzheimers-therapy/",
+      "source": "Pharmaceutical Technology",
+      "published": "20240513T000000",
+      "overall_sentiment_score": 0.374202,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.284496,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.616837
+    },
+    {
+      "title": "Pharma company moves headquarters from Midwest to Miami Beach",
+      "summary": "SAB Bio, a public pharmaceutical company, has relocated its headquarters from the Midwest to Miami Beach. The company also announced that it has received FDA clearance to commence a new clinical trial. This move marks a significant update for the company's operational base and research activities.",
+      "url": "https://www.bizjournals.com/southflorida/news/2024/05/25/biotech-company-moves-headquarters-miami-beach.html",
+      "source": "The Business Journals",
+      "published": "20240525T000000",
+      "overall_sentiment_score": 0.244077,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.221062,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.626775
+    },
+    {
+      "title": "Amgen/AstraZeneca’s Tezspire Shows Efficacy In Broader COPD Population",
+      "summary": "Amgen/AstraZeneca's Tezspire has demonstrated greater efficacy in a broader population of COPD patients, specifically those with blood eosinophil counts of 150 or greater. This development is significant as Phase III planning for Tezspire is currently underway, indicating potential advancements in COPD treatment.",
+      "url": "https://insights.citeline.com/SC150290/AmgenAstraZenecas-Tezspire-Shows-Efficacy-In-Broader-COPD-Population/",
+      "source": "Citeline News & Insights",
+      "published": "20240520T000000",
+      "overall_sentiment_score": 0.193128,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.120362,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.702696
+    },
+    {
+      "title": "Autonomous Operations Could Threaten Intuitive Surgical's Moat in Robotic Surgery",
+      "summary": "This article examines how the rise of autonomous operations and advanced AI in robotics could pose a significant threat to Intuitive Surgical's dominant position in the robotic surgery market despite its current strong moat. While Intuitive Surgical boasts impressive financials and a well-established product (da Vinci system), the author warns that newer, more technologically advanced competitors offering fully autonomous or deeply AI-assisted services could disrupt its long-term competitive advantage. The article advises that Intuitive Surgical must strategically adapt by focusing more on machine learning and software development to maintain its market leadership.",
+      "url": "https://finance.yahoo.com/news/autonomous-operations-could-threaten-intuitive-140002778.html",
+      "source": "Yahoo Finance",
+      "published": "20240514T140002",
+      "overall_sentiment_score": 0.171182,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.130698,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.606268
+    }
+  ]
+}

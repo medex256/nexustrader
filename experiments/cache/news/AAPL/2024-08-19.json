@@ -1,0 +1,130 @@
+{
+  "ticker": "AAPL",
+  "date": "2024-08-19",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:18:04.285735",
+  "source": "alpha_vantage",
+  "article_count": 10,
+  "articles": [
+    {
+      "title": "Big XR News from Meta, Vuzix, Pico, Apple",
+      "summary": "The XR industry is abuzz with upcoming hardware announcements from Meta, Pico, and HTC VIVE, coinciding with a new wave of mainstream interest. Meta is expected to reveal more about its Quest 3s MR headset, while Pico's new 4S MR headset has been leaked. Concurrently, Vuzix Corporation reported a significant 77 percent revenue drop in Q2 2024 but anticipates improvement, and rumors suggest a lower-priced Apple Vision Pro could launch next year.",
+      "url": "https://www.xrtoday.com/augmented-reality/big-xr-nes-from-meta-vuzix-pico-apple/",
+      "source": "XR Today",
+      "published": "20240816T000000",
+      "overall_sentiment_score": -0.070955,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.124545,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.710785
+    },
+    {
+      "title": "IUSG: A Growth ETF With An Impressive 12% IRR Potential (NASDAQ:IUSG)",
+      "summary": "The iShares Core S&P U.S. Growth ETF (IUSG) aims to replicate the S&P 900 Growth Index, holding 483 constituents and managing $18.6 billion in assets. Despite its recent underperformance compared to the S&P 500, the ETF boasts a low expense ratio and bid/ask spread. Its current portfolio, heavily weighted in tech giants like Apple, Microsoft, and Amazon, suggests a potential internal rate of return exceeding 12%, though this concentration also introduces higher risk.",
+      "url": "https://seekingalpha.com/article/4714876-iusg-growth-etf-with-impressive-12-percent-irr-potential",
+      "source": "Seeking Alpha",
+      "published": "20240815T124000",
+      "overall_sentiment_score": 0.357179,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.312413,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.632139
+    },
+    {
+      "title": "Berkshire Hathaway Takes Stake in Ulta Beauty",
+      "summary": "Berkshire Hathaway Inc. acquired new stakes in Ulta Beauty Inc. and Heico Corp. during the second quarter, allocating approximately $227 million to Ulta shares and $247 million to Heico shares. This comes amidst a broader selling spree where Berkshire significantly reduced its Apple Inc. holdings and increased its record cash pile to $276.9 billion. Ulta's stock surged 12 percent following the news.",
+      "url": "https://www.businessoffashion.com/news/beauty/berkshire-hathaway-takes-stake-in-ulta-beauty/",
+      "source": "The Business of Fashion",
+      "published": "20240815T000000",
+      "overall_sentiment_score": -0.077142,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.43447,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.71341
+    },
+    {
+      "title": "Warren Buffett Still Holds 400M Apple Shares, Reveals New Investments In Ulta Beauty And Heico — Elon Musk Calls Berkshire Hathaway's $277B Cash Reserves 'Wild'",
+      "summary": "Warren Buffett's Berkshire Hathaway Inc. significantly reduced its Apple Inc. holdings in Q2, selling over 389 million shares while still retaining 400 million. The company also disclosed new investments in Ulta Beauty and Heico, along with adjustments to other positions, leading Elon Musk to comment on Berkshire's substantial $277 billion cash reserves. These moves come amid a period where Berkshire's stock has performed well year-to-date, despite a decline in Q2 net earnings.",
+      "url": "https://finance.yahoo.com/news/warren-buffett-still-holds-400m-220016387.html",
+      "source": "Yahoo Finance",
+      "published": "20240815T000000",
+      "overall_sentiment_score": 0.126505,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.093122,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.925553
+    },
+    {
+      "title": "Apple Stock Is Gaining Momentum, Is AAPL Stock a Buy?",
+      "summary": "Apple's stock (AAPL) is showing renewed momentum after lagging the broader market for much of the year, driven by strong Q3 performance and an expanded U.S. investment to ease tariff concerns. Despite macro challenges, Apple's product demand and services business are robust, yet analysts maintain a \"Moderate Buy\" rating due to the stock's current valuation reflecting much of the positive outlook. The company's strategic balancing act between U.S. manufacturing and its global supply chain, coupled with solid growth in iPhone, Mac, and services, positions it well, although trade tensions could still impact margins.",
+      "url": "https://www.barchart.com/story/news/34123177/apple-stock-is-gaining-momentum-is-aapl-stock-a-buy",
+      "source": "Barchart.com",
+      "published": "20240813T172400",
+      "overall_sentiment_score": 0.160723,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.330075,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "3 Principal Financial Group Mutual Fund for Strong Returns",
+      "summary": "This article recommends three Principal Financial Group mutual funds for strong returns, emphasizing their sustainable investing approach and favorable Zacks Mutual Fund Ranks. It details each fund's investment strategy, top holdings, annualized returns, and expense ratios, suggesting them as judicious long-term investment options.",
+      "url": "https://www.nasdaq.com/articles/3-principal-financial-group-mutual-fund-strong-returns",
+      "source": "Nasdaq",
+      "published": "20240812T080500",
+      "overall_sentiment_score": 0.353334,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.309543,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.60256
+    },
+    {
+      "title": "VFQY: A Diversified But Underperforming Quality ETF",
+      "summary": "The Vanguard U.S. Quality Factor ETF (VFQY) offers a diversified portfolio across market cap categories but has underperformed the broader market and other quality ETFs. Despite having attractive valuations and a unique screening model, VFQY exhibits higher volatility and has not delivered superior returns. The ETF resembles a value fund due to its low price/earnings ratio.",
+      "url": "https://seekingalpha.com/article/4713108-vfqy-diversified-underperforming-quality-etf",
+      "source": "Seeking Alpha",
+      "published": "20240810T050327",
+      "overall_sentiment_score": -0.114467,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.006143,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.60869
+    },
+    {
+      "title": "Should Vanguard Russell 1000 Growth ETF (VONG) Be on Your Investing Radar?",
+      "summary": "This article examines the Vanguard Russell 1000 Growth ETF (VONG), a passively managed ETF focusing on large-cap US growth stocks. It highlights VONG's low expense ratio, significant exposure to the Information Technology sector, and strong performance over the past year. The piece also compares VONG to alternative ETFs like VUG and QQQ, making a case for VONG as an excellent option for investors targeting the Large Cap Growth segment.",
+      "url": "https://www.nasdaq.com/articles/should-vanguard-russell-1000-growth-etf-vong-be-your-investing-radar-0",
+      "source": "Nasdaq",
+      "published": "20240809T062000",
+      "overall_sentiment_score": 0.362933,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.303365,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.629665
+    },
+    {
+      "title": "Should You Invest in the Fidelity MSCI Information Technology Index ETF (FTEC)?",
+      "summary": "This article evaluates the Fidelity MSCI Information Technology Index ETF (FTEC) as an investment option. It details FTEC's passive management, low expense ratio, top holdings like Apple and Microsoft, and strong performance, recommending it as a \"Strong Buy\" for investors seeking exposure to the Technology ETFs segment.",
+      "url": "https://www.nasdaq.com/articles/should-you-invest-fidelity-msci-information-technology-index-etf-ftec-0",
+      "source": "Nasdaq",
+      "published": "20240806T062000",
+      "overall_sentiment_score": 0.35964,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.309344,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.74076
+    },
+    {
+      "title": "Growth Beats Yield at This T. Rowe Price Mutual Fund",
+      "summary": "The T. Rowe Price Dividend Growth Fund (PRDGX) has lagged the S&P 500 over the past year due to its focus on dividend-growing companies rather than the mega-cap tech stocks that have driven market gains. Manager Tom Huber prioritizes companies with increasing dividends over high yields, anticipating a shift in investor attention towards dividend stocks as interest rates are expected to fall. He is currently investing in discounted sectors like consumer staples, energy, and healthcare.",
+      "url": "https://www.kiplinger.com/investing/mutual-funds/growth-beats-yield-at-this-t-rowe-price-mutual-fund",
+      "source": "Kiplinger",
+      "published": "20240813T000000",
+      "overall_sentiment_score": -0.108829,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.119628,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.619847
+    }
+  ]
+}

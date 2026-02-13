@@ -1,0 +1,94 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-08-07",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:52:09.531650",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "Alvotech Expands Biosimilar Collaboration with Teva Amid Manufacturing Woes",
+      "summary": "Alvotech is expanding its biosimilar collaboration with Teva Pharmaceuticals after facing two BLA rejections for its Humira biosimilar due to manufacturing deficiencies at its Iceland facility. Teva will increase its involvement in Alvotech's manufacturing and quality control and has invested $40 million in Alvotech's subordinated convertible bonds. The expanded agreement also grants Teva exclusive U.S. commercialization rights to two new biosimilar candidates and line extensions for two existing ones.",
+      "url": "https://www.biospace.com/alvotech-expands-biosimilar-collaboration-with-teva-amid-manufacturing-woes",
+      "source": "BioSpace",
+      "published": "20230725T000000",
+      "overall_sentiment_score": -0.094932,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.044744,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.567021
+    },
+    {
+      "title": "Johnson & Johnson to reduce its Kenvue stake by at least 80% through exchange offer",
+      "summary": "Johnson & Johnson announced an exchange offer to reduce its stake in Kenvue by at least 80%, allowing J&J shareholders to swap their shares for Kenvue stock at a 7% discount. This move, expected to close on August 18, 2023, is earlier than anticipated due to a waiver dismissing the share lockup period. The split-off aims to sharpen J&J's focus on its pharmaceutical and medtech businesses.",
+      "url": "https://www.cnbc.com/2023/07/24/jj-to-reduce-kenvue-stake-by-80percent-through-stock-exchange-offer.html",
+      "source": "CNBC",
+      "published": "20230724T090300",
+      "overall_sentiment_score": 0.037673,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.259367,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Teva CEO says not too late to launch Humira biosimilar in 2024",
+      "summary": "Teva Pharmaceutical Industries plans to launch its biosimilar version of AbbVie's Humira in 2024, despite a competitive market that saw eight companies launch similar products in 2023. CEO Richard Francis believes the market still offers opportunities, emphasizing Teva's autoinjector as a competitive advantage and the high quality of their biosimilar. He also noted that while the Humira biosimilar might not achieve initial forecasts, Teva's broader biosimilar pipeline, including a Stelara biosimilar in 2025, remains strong.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/teva-pharm-ceo-not-too-late-launch-humira-biosimilar-2024-2023-08-02/",
+      "source": "Reuters",
+      "published": "20230802T110500",
+      "overall_sentiment_score": -0.094676,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.114702,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.618721
+    },
+    {
+      "title": "BD Names Joanne Waldstreicher to Board of Directors",
+      "summary": "BD (Becton, Dickinson and Company) announced the appointment of Dr. Joanne Waldstreicher, former chief medical officer for Johnson & Johnson, to its board of directors. Her extensive experience in clinical and strategic leadership, particularly in R&D, regulatory affairs, and clinical evidence generation, is expected to support BD's innovation agenda and enhance quality and safety in the MedTech industry. Dr. Waldstreicher brings over 30 years of experience from leading healthcare companies and currently serves on other boards and expert panels.",
+      "url": "https://www.prnewswire.com/news-releases/bd-names-joanne-waldstreicher-to-board-of-directors-301884244.html",
+      "source": "PR Newswire",
+      "published": "20230724T161500",
+      "overall_sentiment_score": 0.343334,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.321632,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.748763
+    },
+    {
+      "title": "BD Names Joanne Waldstreicher to Board of Directors",
+      "summary": "BD (Becton, Dickinson and Company) has appointed Dr. Joanne Waldstreicher to its board of directors. Dr. Waldstreicher previously served as the chief medical officer for Johnson & Johnson, bringing extensive experience in clinical, strategic, and regulatory leadership within the healthcare industry. Her expertise in R&D, regulatory affairs, clinical evidence generation, and safety aligns with BD's innovation agenda and its commitment to quality and safety in MedTech.",
+      "url": "https://news.bd.com/2023-07-24-BD-Names-Joanne-Waldstreicher-to-Board-of-Directors",
+      "source": "BD Newsroom",
+      "published": "20230724T000000",
+      "overall_sentiment_score": 0.197843,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.128487,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.714488
+    },
+    {
+      "title": "Glaucoma Market Size, Share, Growth, Industry Analysis 2023 to 2032",
+      "summary": "The global glaucoma market was valued at USD 8.06 billion in 2022 and is projected to reach USD 12.69 billion by 2032, growing at a CAGR of 4.64%. North America held the largest revenue share in 2022, while open-angle glaucoma and prostaglandin analogs dominated disease type and drug class segments, respectively. The market growth is driven by pipeline drugs, product launches, and the increasing prevalence of age-associated eye disorders.",
+      "url": "https://www.biospace.com/glaucoma-market-size-share-growth-industry-analysis-2023-to-2032",
+      "source": "BioSpace",
+      "published": "20230803T154048",
+      "overall_sentiment_score": 0.253169,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.24112,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.631861
+    },
+    {
+      "title": "Johnson & Johnson’s innovation, Irvine roots and credo to give back",
+      "summary": "Celine Martin, Group Chairman of J&J MedTech, discusses why Irvine has been the company's home base for over 30 years, highlighting its access to world-class talent and its contributions to medical technology innovation, particularly in cardiovascular devices. She emphasizes J&J's \"Our Credo\" which guides their culture to prioritize patient well-being and community giving. The article also showcases specific innovations like the QDOT MICRO for AFib treatment and includes testimonials from other medtech leaders on Irvine's significance as an industry hub.",
+      "url": "https://www.irvinestandard.com/2023/johnson-johnsons-innovation-irvine-roots-and-credo-to-give-back/",
+      "source": "Irvine Standard",
+      "published": "20230801T145941",
+      "overall_sentiment_score": 0.375601,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.414393,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

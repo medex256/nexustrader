@@ -12,7 +12,7 @@ from urllib.request import Request, urlopen
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 EXPERIMENTS_DIR = os.path.dirname(SCRIPT_DIR)
 DEFAULT_TICKERS_FILE = os.path.join(EXPERIMENTS_DIR, "inputs", "tickers.txt")
-DEFAULT_DATES_FILE = os.path.join(EXPERIMENTS_DIR, "inputs", "dates.txt")
+DEFAULT_DATES_FILE = os.path.join(EXPERIMENTS_DIR, "inputs", "dates_expanded.txt")
 DEFAULT_OUT_DIR = os.path.join(EXPERIMENTS_DIR, "results", "raw")
 
 
@@ -106,32 +106,17 @@ def build_payload(ticker: str, market: str, simulated_date: str, horizon: str, f
     }
 
 
-def _parse_horizons(horizon: str, horizons: str) -> List[str]:
-    """Resolve horizon(s) from CLI args.
-
-    - If `horizons` is provided, it wins.
-    - Supports `all` -> short,medium,long.
+def _validate_horizon(horizon: str) -> str:
+    """Validate and return a single horizon for the experiment.
+    
+    Single-horizon design ensures clean i.i.d. benchmarks without 
+    confounding from multi-horizon mixing.
     """
-    if horizons:
-        raw = horizons.strip().lower()
-        if raw == "all":
-            return ["short", "medium", "long"]
-        items = [h.strip().lower() for h in raw.split(",") if h.strip()]
-        valid = {"short", "medium", "long"}
-        bad = [h for h in items if h not in valid]
-        if bad:
-            raise ValueError(f"Invalid horizon(s): {bad}. Valid: short,medium,long")
-        # De-duplicate while preserving order
-        seen = set()
-        resolved: List[str] = []
-        for h in items:
-            if h not in seen:
-                seen.add(h)
-                resolved.append(h)
-        return resolved
-
-    # Fallback to single horizon
-    return [horizon.strip().lower() or "short"]
+    h = horizon.strip().lower()
+    valid = {"short", "medium", "long"}
+    if h not in valid:
+        raise ValueError(f"Invalid horizon '{h}'. Valid: short, medium, long")
+    return h
 
 
 def _run_single(
@@ -185,7 +170,7 @@ def run_batch(
     tickers: List[str],
     dates: List[str],
     market: str,
-    horizons: List[str],
+    horizon: str,
     flags: Dict[str, Any],
     out_dir: str,
     tag: str,
@@ -197,21 +182,21 @@ def run_batch(
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     out_path = os.path.join(out_dir, f"batch_{tag}_{timestamp}.jsonl")
 
-    jobs: List[Tuple[str, str, str]] = [(t, d, h) for t in tickers for d in dates for h in horizons]
+    jobs: List[Tuple[str, str]] = [(t, d) for t in tickers for d in dates]
     total = len(jobs)
     completed = 0
 
     with open(out_path, "w", encoding="utf-8") as out:
         if workers <= 1:
             # Sequential execution (original behavior)
-            for ticker, simulated_date, horizon in jobs:
+            for ticker, simulated_date in jobs:
                 record = _run_single(
                     api_base, ticker, simulated_date, market, horizon, flags, output_mode, truncate_chars
                 )
                 out.write(json.dumps(record) + "\n")
                 out.flush()
                 completed += 1
-                print(f"[{completed}/{total}] {ticker} @ {simulated_date} [{horizon}]")
+                print(f"[{completed}/{total}] {ticker} @ {simulated_date} [horizon={horizon}]")
         else:
             # Parallel execution
             with ThreadPoolExecutor(max_workers=workers) as executor:
@@ -226,11 +211,11 @@ def run_batch(
                         flags,
                         output_mode,
                         truncate_chars,
-                    ): (ticker, simulated_date, horizon)
-                    for ticker, simulated_date, horizon in jobs
+                    ): (ticker, simulated_date)
+                    for ticker, simulated_date in jobs
                 }
                 for future in as_completed(future_to_job):
-                    ticker, simulated_date, horizon = future_to_job[future]
+                    ticker, simulated_date = future_to_job[future]
                     try:
                         record = future.result()
                     except Exception as exc:
@@ -245,7 +230,7 @@ def run_batch(
                     out.write(json.dumps(record) + "\n")
                     out.flush()
                     completed += 1
-                    print(f"[{completed}/{total}] {ticker} @ {simulated_date} [{horizon}]")
+                    print(f"[{completed}/{total}] {ticker} @ {simulated_date} [horizon={horizon}]")
 
     return out_path
 
@@ -266,11 +251,11 @@ def main() -> int:
         help="File with one date per line (default: nexustrader/experiments/inputs/dates.txt)",
     )
     parser.add_argument("--market", default="US", help="Market code")
-    parser.add_argument("--horizon", default="short", choices=["short", "medium", "long"], help="Trading horizon")
     parser.add_argument(
-        "--horizons",
-        default="",
-        help="Comma-separated horizons to run in one batch (e.g., short,medium,long) or 'all'",
+        "--horizon",
+        default="short",
+        choices=["short", "medium", "long"],
+        help="Trading horizon (single-horizon experiment design; k=10 for short, k=21 for medium, k=126 for long)",
     )
     parser.add_argument("--debate-rounds", type=int, default=1, help="Number of debate rounds (0, 1, or 2)")
     parser.add_argument("--memory-on", action="store_true", default=True)
@@ -280,7 +265,7 @@ def main() -> int:
     parser.add_argument("--social-on", action="store_true", default=False)
     parser.add_argument("--social-off", action="store_false", dest="social_on")
     parser.add_argument("--out", default=DEFAULT_OUT_DIR, help="Output directory")
-    parser.add_argument("--tag", default="run", help="Tag to include in output filename")
+    parser.add_argument("--tag", default="experiment", help="Tag to include in output filename (e.g., baseline, memory_on, debate_2)")
     parser.add_argument(
         "--output",
         choices=["full", "compact"],
@@ -303,7 +288,7 @@ def main() -> int:
     args = parser.parse_args()
 
     try:
-        horizons = _parse_horizons(args.horizon, args.horizons)
+        horizon = _validate_horizon(args.horizon)
     except ValueError as exc:
         print(str(exc))
         return 1
@@ -330,7 +315,7 @@ def main() -> int:
         tickers=tickers,
         dates=dates,
         market=args.market,
-        horizons=horizons,
+        horizon=horizon,
         flags=flags,
         out_dir=args.out,
         tag=args.tag,

@@ -1,0 +1,46 @@
+{
+  "ticker": "XOM",
+  "date": "2025-03-17",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:41:43.286170",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "North American Energy Opportunities Corp. Acquires Equus Energy, LLC, Strengthening its Upstream Oil & Gas Portfolio",
+      "summary": "North American Energy Opportunities Corp. (NAEOC) has acquired Equus Energy, LLC, significantly enhancing its upstream oil and gas assets. This acquisition, finalized on March 4, 2025, involves a cash payment and preferred stock, granting NAEOC ownership of 136 wells across 21,520 acres in Texas and Oklahoma. NAEOC plans to invest further in infrastructure and drilling to maximize recovery and generate strong financial returns while supporting North American energy security.",
+      "url": "https://aijourn.com/north-american-energy-opportunities-corp-acquires-equus-energy-llc-strengthening-its-upstream-oil-gas-portfolio/",
+      "source": "The AI Journal",
+      "published": "20250314T054045",
+      "overall_sentiment_score": 0.265279,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.201513,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.616919
+    },
+    {
+      "title": "Forging sustainable steel and more: A talk with Nucor CEO Leon Topalian",
+      "summary": "Nucor CEO Leon Topalian discusses the company's aggressive sustainability goals, its role in decarbonizing the steel industry, and its expansion into areas like data center solutions. He highlights Nucor's historic commitment to recycled steel, partnerships for carbon capture and clean energy, and a distinctive company culture that prioritizes team members. The article also covers Nucor's growth strategy through M&A and organic growth, alongside Topalian's personal leadership journey.",
+      "url": "https://www.mckinsey.com/industries/metals-and-mining/our-insights/forging-sustainable-steel-and-more-a-talk-with-nucor-ceo-leon-topalian",
+      "source": "McKinsey & Company",
+      "published": "20250305T000000",
+      "overall_sentiment_score": 0.531547,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.347506,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.640475
+    },
+    {
+      "title": "Investing in the US: Profit, patriotism and populism",
+      "summary": "Australian pension fund investment in the US is projected to surge to over US$1 trillion by 2035, with a significant portion directed to US public markets. This article explores investment approaches in a US landscape increasingly shaped by populist and \"American-first\" themes, highlighting various ETFs that align with these ideologies, including those with anti-ESG stances, and funds tracking congressional trading activities. It examines how these funds aim to capitalize on political and cultural trends, reflecting a shift in investment strategies due to the current political climate.",
+      "url": "https://www.investmentmagazine.com.au/2025/03/investing-in-the-us-profit-patriotism-and-populism/",
+      "source": "Investment Magazine",
+      "published": "20250311T110930",
+      "overall_sentiment_score": 0.189334,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.13888,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.756755
+    }
+  ]
+}

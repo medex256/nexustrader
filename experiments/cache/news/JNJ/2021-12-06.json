@@ -1,0 +1,70 @@
+{
+  "ticker": "JNJ",
+  "date": "2021-12-06",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:42:28.685256",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Monte Rosa Therapeutics Appoints Jullian G. Jones, Ph.D., J.D., MBA, as Chief Business Officer",
+      "summary": "Monte Rosa Therapeutics has announced the promotion of Jullian Jones, Ph.D., J.D., MBA, to Chief Business Officer. Dr. Jones brings over a decade of experience in life sciences business development, including a significant role in Monte Rosa's $255.6 million IPO and previous M&A activities at Eli Lilly and Company. Her expertise is expected to advance the company's clinical development plan and leverage its proprietary QuEEN™ platform.",
+      "url": "https://www.citybiz.co/article/183277/monte-rosa-therapeutics-appoints-jullian-g-jones-ph-d-j-d-mba-as-chief-business-officer/",
+      "source": "citybiz",
+      "published": "20211202T202202",
+      "overall_sentiment_score": 0.289164,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.231537,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.626545
+    },
+    {
+      "title": "Target’s Up & Up ‘reef-conscious’ sunscreen harms, kill reefs, class action lawsuit alleges",
+      "summary": "A class action lawsuit has been filed against Target and Fruit of the Earth, alleging their Up & Up \"reef-conscious\" sunscreens falsely advertise reef-friendliness while containing chemicals harmful to reefs. Plaintiff Martin Locklin claims the companies profited from this alleged misrepresentation in the billion-dollar sunscreen market. The lawsuit seeks to represent consumers nationwide and requests an injunction, damages, and fees.",
+      "url": "https://topclassactions.com/lawsuit-settlements/consumer-products/beauty-products/targets-up-up-reef-conscious-sunscreen-harm-kill-reefs-class-action-lawsuit-alleges/",
+      "source": "Class Action Lawsuits",
+      "published": "20211201T212220",
+      "overall_sentiment_score": -0.425772,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.4437,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.631256
+    },
+    {
+      "title": "Halozyme Announces Janssen Receives U.S. FDA Approval of DARZALEX FASPRO® (daratumumab and hyaluronidase-fihj) in Combination with Carfilzomib and Dexamethasone for Patients with Multiple Myeloma After First or Subsequent Relapse",
+      "summary": "Halozyme announced that Janssen has received U.S. FDA approval for DARZALEX FASPRO® in combination with Kyprolis® and dexamethasone for patients with relapsed or refractory multiple myeloma. This marks the ninth indication for DARZALEX FASPRO®, which utilizes Halozyme's ENHANZE® drug delivery technology for a rapid subcutaneous administration. The approval is based on data from Janssen's PLEIADES Study, expanding treatment options for multiple myeloma patients.",
+      "url": "https://www.prnewswire.com/news-releases/halozyme-announces-janssen-receives-us-fda-approval-of-darzalex-faspro-daratumumab-and-hyaluronidase-fihj-in-combination-with-carfilzomib-and-dexamethasone-for-patients-with-multiple-myeloma-after-first-or-subsequent-relapse-301435510.html",
+      "source": "PR Newswire",
+      "published": "20211201T142100",
+      "overall_sentiment_score": 0.362475,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.29153,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.639161
+    },
+    {
+      "title": "BD Names Dr. Joseph M. Smith as Chief Scientific Officer",
+      "summary": "BD (Becton, Dickinson and Company) announced the appointment of Dr. Joseph M. Smith as Senior Vice President and Chief Scientific Officer, effective November 29, 2021. Dr. Smith will focus on external innovation, aligning BD's technology roadmap with smart connected care, new care settings, and chronic disease management. He will also establish and co-chair the BD Scientific Advisory Board, leveraging his extensive background in digital health and medical technology.",
+      "url": "https://news.bd.com/2021-11-29-BD-Names-Dr-Joseph-M-Smith-as-Chief-Scientific-Officer",
+      "source": "BD Newsroom",
+      "published": "20211129T194727",
+      "overall_sentiment_score": 0.232798,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.130488,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.625277
+    },
+    {
+      "title": "Walmart, CVS, Walgreens helped fuel US opioid crisis, jury finds",
+      "summary": "A federal jury in Cleveland, Ohio, found Walmart, CVS Health Corp., and Walgreens Boots Alliance Inc. liable for contributing to the US opioid crisis by failing to monitor illegitimate prescriptions. The decision marks the first jury verdict in the four-year opioid litigation against pharmacy chains, with counties seeking billions in reimbursement for addiction and overdose costs. All three companies announced immediate plans to appeal the verdict, arguing a misapplication of public nuisance law and flawed trial proceedings.",
+      "url": "https://www.aljazeera.com/economy/2021/11/23/walmart-cvs-walgreens-helped-fuel-us-opioid-crisis-jury-finds",
+      "source": "Al Jazeera",
+      "published": "20211123T200200",
+      "overall_sentiment_score": -0.335064,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.119709,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.613155
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "JPM",
+  "date": "2023-05-15",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:12:20.441372",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Institutional investors in Ameriprise Financial, Inc. (NYSE:AMP) lost 3.8% last week but have reaped the benefits of longer-term growth",
+      "summary": "Institutional investors holding Ameriprise Financial, Inc. (NYSE:AMP) experienced a 3.8% loss last week, despite having benefited from longer-term growth. Institutions collectively own 86% of the company, indicating significant influence over its share price. The Vanguard Group, Inc., BlackRock, Inc., and State Street Global Advisors, Inc. are the largest shareholders, with the top 15 shareholders owning 50% of the company.",
+      "url": "https://finance.yahoo.com/news/institutional-investors-ameriprise-financial-inc-120023347.html",
+      "source": "Yahoo Finance",
+      "published": "20230508T120023",
+      "overall_sentiment_score": 0.11424,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.124938,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.60654
+    },
+    {
+      "title": "BankUnited seizes recruiting opportunity in wake of failure",
+      "summary": "BankUnited has capitalized on recent regional bank failures by hiring a new corporate banking team from the defunct First Republic Bank. This move expands BankUnited's presence in the New York metropolitan area and aligns with its strategy to grow its commercial-and-industrial loan portfolio and attract deposits. The company's executives view the current market \"chaos\" as an opportunity for expansion and talent acquisition.",
+      "url": "https://www.americanbanker.com/news/bankunited-seizes-recruiting-opportunity-in-wake-of-failure",
+      "source": "American Banker",
+      "published": "20230511T134200",
+      "overall_sentiment_score": 0.145526,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.14261,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.724809
+    },
+    {
+      "title": "U.S. banking system ‘is the envy of the world,’ Apollo Global Management CEO says",
+      "summary": "Apollo Global Management CEO Marc Rowan discusses the state of the U.S. banking system, the acquisition of First Republic Bank by JPMorgan, and the future of regional banking. He highlights the strength of the U.S. capital system and the opportunities for alternative investments like private credit in the current economic environment. Rowan suggests that while the asset world might feel a recession, the wider economy shows strong employment and wage gains.",
+      "url": "https://finance.yahoo.com/video/u-banking-system-envy-world-153128876.html",
+      "source": "Yahoo Finance",
+      "published": "20230501T153128",
+      "overall_sentiment_score": 0.338139,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.304447,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.830422
+    },
+    {
+      "title": "President holds meeting with world's largest investment company on creation of fund for rebuilding Ukraine",
+      "summary": "Ukrainian President Volodymyr Zelenskyy met with BlackRock, the world's largest asset management company, to discuss establishing an investment fund for Ukraine's economic recovery. This fund aims to attract substantial public and private capital for large-scale business projects in various sectors, including energy, agriculture, and IT. Both parties emphasized the historic opportunity this presents for strengthening Ukraine's investment climate and initiating active reconstruction immediately after the cessation of hostilities.",
+      "url": "https://www.president.gov.ua/en/news/prezident-proviv-zustrich-iz-kerivnictvom-najbilshoyi-u-svit-82725",
+      "source": "Офіційне інтернет-представництво Президента України",
+      "published": "20230505T220800",
+      "overall_sentiment_score": 0.398357,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.31216,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.643359
+    },
+    {
+      "title": "Bank failures make construction loans even more challenging",
+      "summary": "The recent bank failures have exacerbated the difficulty for developers to secure construction loans, particularly impacting the multifamily sector. This tightening of lending standards by regional banks, coupled with higher interest rates from the Federal Reserve, is expected to significantly reduce new apartment construction starts. While private lenders are attempting to fill the void, their capacity is insufficient to fully offset the reduced lending from traditional banks.",
+      "url": "https://www.multifamilydive.com/news/multifamily-finance-apartment-construction-starts/649487/",
+      "source": "Multifamily Dive",
+      "published": "20230508T000000",
+      "overall_sentiment_score": 0.074305,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.114417,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.607309
+    }
+  ]
+}

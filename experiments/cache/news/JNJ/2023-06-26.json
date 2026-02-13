@@ -1,0 +1,82 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-06-26",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:51:42.055218",
+  "source": "alpha_vantage",
+  "article_count": 6,
+  "articles": [
+    {
+      "title": "Intuitive’s Ion platform may provide ‘most exciting advancements in robotic technology’: analysts",
+      "summary": "Analysts at BTIG believe Intuitive Surgical's Ion robotic bronchoscopy platform could see significant advancements in the coming years, potentially expanding beyond lung biopsy to tumor ablation. Despite only contributing an estimated $115 million to last year's revenue, Ion's install base is growing, and it has already been used in almost 41,000 procedures, with forecasts for further sales growth. The platform is seen as a strategic move to serve as both a diagnostic and therapeutic tool, especially given its potential expansion into treating inoperable lung cancers.",
+      "url": "https://www.medtechdive.com/news/intuitive-ISRG-JNJ-ion-platform-robot-surgery/653750/",
+      "source": "MedTech Dive",
+      "published": "20230623T145557",
+      "overall_sentiment_score": 0.190293,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.130138,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.709685
+    },
+    {
+      "title": "GE HealthCare and DePuy Synthes are partnering in spine surgery",
+      "summary": "GE HealthCare has partnered with Johnson & Johnson’s DePuy Synthes to expand the distribution of GE HealthCare’s OEC 3D Imaging System to spine surgeons and patients across the U.S. This collaboration aims to enhance surgical precision and efficiency through advanced imaging technology. The agreement is part of GE HealthCare's broader strategy of forming partnerships to boost competitiveness in the medical device market.",
+      "url": "https://www.massdevice.com/ge-healthcare-and-depuy-synthes-spine-surgery-partnership/",
+      "source": "MassDevice",
+      "published": "20230621T144510",
+      "overall_sentiment_score": 0.374809,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.310923,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.708482
+    },
+    {
+      "title": "FDA Lifts Partial Hold on Arcellx’s Multiple Myeloma Trial After Patient Death",
+      "summary": "The FDA has lifted a partial clinical hold on Arcellx’s iMMagine-1 Phase II trial for its CART-ddBCMA treatment for relapsed or refractory multiple myeloma, a trial conducted in partnership with Gilead’s Kite Pharma. The hold was initially placed following the death of a patient who was later determined to be ineligible for the treatment under the trial protocol. Arcellx has since retrained clinical sites and adjusted procedures to prevent recurrence, and expects preliminary data in the second half of 2024.",
+      "url": "https://www.biospace.com/fda-hold-on-arcellx-s-multiple-myeloma-cell-therapy-trial-after-patient-death",
+      "source": "BioSpace",
+      "published": "20230620T000000",
+      "overall_sentiment_score": 0.228367,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.11264,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.630261
+    },
+    {
+      "title": "Built from biotech parts, Beacon launches with $120M to develop eye gene therapies",
+      "summary": "Beacon Therapeutics, a new biotechnology company, has launched with $120 million in funding to develop gene therapies for eye diseases causing blindness. The company is led by former executives from ocular gene therapy developers Nightstar, Gyroscope, and AGTC, and its most advanced program, acquired from AGTC, is in human testing for X-linked retinitis pigmentosa. Beacon will also pursue treatments for dry AMD and cone-rod dystrophy, leveraging insights from University of Oxford and its investors like Syncona Limited.",
+      "url": "https://www.biopharmadive.com/news/beacon-biotech-gene-therapy-eye-launch-agtc/652710/",
+      "source": "BioPharma Dive",
+      "published": "20230612T000000",
+      "overall_sentiment_score": 0.089011,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.145832,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.588845
+    },
+    {
+      "title": "Eye on Pharma: First PBM to Cover Yusimry; Celltrion to Test Ocrevus Biosimilar; Another Stelara Settlement",
+      "summary": "SmithRx is the first PBM to announce coverage of Yusimry, an adalimumab biosimilar, offering it at over a 90% discount. Celltrion Healthcare received FDA approval for a phase 3 study of its ocrelizumab biosimilar, CT-P53, targeting the over $4.7 billion Ocrevus market. Additionally, Alvotech and Teva Pharmaceuticals settled with Johnson & Johnson regarding their Stelara biosimilar, AVT04, setting a US launch date of February 21, 2025.",
+      "url": "https://www.centerforbiosimilars.com/view/eye-on-pharma-first-pbm-to-cover-yusimry-celltrion-to-test-ocrevus-biosimilar-another-stelara-settlement",
+      "source": "Center for Biosimilars",
+      "published": "20230615T000000",
+      "overall_sentiment_score": -0.009745,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.215626,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.713959
+    },
+    {
+      "title": "Alkermes To Spin-Off Mural Oncology In 2H23",
+      "summary": "Alkermes announced its plan to spin off its oncology business into a new, publicly-traded company called Mural Oncology plc in the second half of 2023. This separation aims to unlock shareholder value by allowing both Alkermes (neuroscience focus) and Mural Oncology (cancer therapies) to pursue distinct strategic goals and attract specialized investor bases. The move follows Alkermes' strategic review and is expected to enhance profitability for the parent company, with Mural Oncology focusing on developing nemvaleukin alfa and other preclinical engineered cytokines.",
+      "url": "https://www.forbes.com/sites/joecornell/2023/06/14/alkermes-to-spin-off-mural-oncology-in-2h23/",
+      "source": "Forbes",
+      "published": "20230614T111100",
+      "overall_sentiment_score": 0.243822,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.229694,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.655022
+    }
+  ]
+}

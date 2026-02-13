@@ -1,0 +1,130 @@
+{
+  "ticker": "AAPL",
+  "date": "2022-03-21",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-12T23:55:47.576802",
+  "source": "alpha_vantage",
+  "article_count": 10,
+  "articles": [
+    {
+      "title": "Netflix stock has now lost all its gains from the pandemic",
+      "summary": "Netflix's stock has lost all its gains from the pandemic, with shares falling to a 52-week low of around $332 and being more than 50% down from its mid-November high of $700.99. This decline is attributed to consumers returning to out-of-home entertainment, increased competition from other streaming platforms, and underwhelming subscriber growth forecasts, prompting Netflix to rethink its strategy and raise prices. Analyst Michael Pachter suggests that competition makes it harder to retain customers and increases content costs, while competitors are less likely to license content to Netflix now that they have their own platforms.",
+      "url": "https://www.cnbc.com/2022/03/14/netflix-shares-hit-lowest-point-since-march-2020-when-covid-pandemic-started.html",
+      "source": "CNBC",
+      "published": "20220314T115000",
+      "overall_sentiment_score": -0.111205,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.104247,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.629458
+    },
+    {
+      "title": "Autodesk Inc. stock falls Friday, underperforms market",
+      "summary": "Autodesk Inc. (ADSK) stock dropped 3.74% on Friday, closing at $192.31, underperforming the broader market which also saw declines with the S&P 500 Index and Dow Jones Industrial Average falling. This marks the second consecutive day of losses for Autodesk, leaving it significantly below its 52-week high. The stock's performance was also mixed compared to competitors like Apple, Adobe, and Synopsys, all of which also experienced declines.",
+      "url": "https://www.marketwatch.com/data-news/autodesk-inc-stock-falls-friday-underperforms-market-01647034435-9f12459f74e6?gaa_at=eafs&gaa_n=AWEtsqe-PNfqPLTF_MvJIZB9fFpBUrXOZiGmEu9gfzcw4BBXW34aEM7wzUvZ&gaa_ts=69078469&gaa_sig=WyaJq_F2RLperLA0qgxI0VdxEnUj4YUAyHAkpGT-UKoy7zxlV9jjQs6JkuczCQvMHcWY6jCEb8G9pLnhLPUzbw%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220311T163300",
+      "overall_sentiment_score": -0.351285,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.320166,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.643792
+    },
+    {
+      "title": "Why Nvidia sees a future in software and services: Recurring revenue",
+      "summary": "Nvidia is shifting its business model to focus on software and services to generate recurring revenue, moving beyond its traditional hardware sales. CFO Colette Kress highlighted opportunities in autonomous vehicles, where Nvidia's software will be monetized over the life of the car, and the metaverse, envisioning annual revenues of $1,000 per creative user and per digital twin bot. This strategic pivot aims to create more predictable income streams, leveraging existing hardware with new software offerings and expanding into new markets.",
+      "url": "https://www.theregister.com/2022/03/10/nvidia_software_services/",
+      "source": "The Register",
+      "published": "20220310T083400",
+      "overall_sentiment_score": 0.106382,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.149526,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.61134
+    },
+    {
+      "title": "Electronic Arts stops sales in Russia, bans Russian teams from esports events",
+      "summary": "Electronic Arts has ceased sales of its games, content, and virtual currency in Russia and Belarus in response to the ongoing conflict in Ukraine. The company has also removed Russian teams from its sports video games FIFA 22 and NHL 22, and banned teams from both Russia and Belarus from competing in official esports events. This action comes amidst a broader trend of companies, including Microsoft and CD Projekt Group, pulling out of the Russian market and following an appeal from Ukraine's deputy prime minister.",
+      "url": "https://www.polygon.com/22961678/electronic-arts-stopping-sales-russia-belarus-sanctions-ukraine/",
+      "source": "Polygon",
+      "published": "20220316T163614",
+      "overall_sentiment_score": -0.146499,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.108793,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62504
+    },
+    {
+      "title": "EPAM Shares Continue to Fall on Ukraine Crisis & Russia Exit",
+      "summary": "EPAM Systems' shares fell significantly due to the escalating Russia-Ukraine crisis and the company's decision to exit Russia. EPAM, with substantial exposure in Eastern Europe, announced it would discontinue services in Russia and offer humanitarian aid to Ukrainian employees, aligning with U.S. sanctions. The conflict is expected to impact the company's revenues and profitability due to its large workforce in the affected regions.",
+      "url": "https://www.nasdaq.com/articles/epam-shares-continue-to-fall-on-ukraine-crisis-russia-exit",
+      "source": "Nasdaq",
+      "published": "20220307T155100",
+      "overall_sentiment_score": 0.101235,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.407887,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.62861
+    },
+    {
+      "title": "IonQ to Present Research at American Physical Society (APS) Annual Meeting 2022",
+      "summary": "IonQ announced its participation in the American Physical Society (APS) March Meeting 2022, where co-founder and CTO Jungsang Kim will be honored for his pioneering contributions to quantum computing. IonQ researchers will present new advances in quantum chemistry simulations, risk aggregation using quantum generative modeling, and general quantum learning of joint probability distribution functions. The company will also discuss application-oriented performance benchmarks for quantum computing, including its new #AQ single-number benchmark.",
+      "url": "https://ionq.com/news/march-11-2022-ionq-to-present-at-march-meeting",
+      "source": "IonQ",
+      "published": "20220311T171544",
+      "overall_sentiment_score": 0.312354,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.296727,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.63222
+    },
+    {
+      "title": "Our Ultimate Stock-Pickers' Top 10 Buys and Sells",
+      "summary": "This article identifies the top 10 high-conviction buys and sells among Morningstar's Ultimate Stock-Pickers for the fourth quarter of 2021, based on an aggregate analysis of their holdings. It highlights key companies like Microsoft and 3M as top buys and Marsh & McLennan as a prominent sell, detailing the Morningstar analysts' fair value estimates, economic moats, and investment theses for these firms. The report assists investors by providing insights into attractive investment ideas and valuation considerations.",
+      "url": "https://www.morningstar.com/stocks/our-ultimate-stock-pickers-top-10-buys-sells-9",
+      "source": "Morningstar",
+      "published": "20220308T165548",
+      "overall_sentiment_score": 0.358894,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.13396,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.605502
+    },
+    {
+      "title": "Metaverse Technology Redefining Digital Experience",
+      "summary": "The metaverse is emerging as a significant technological advancement, moving beyond gaming to redefine digital experiences across various industries. Companies like Facebook (Meta), Nike, and Microsoft are investing heavily, with projections indicating global metaverse revenue could approach $800 billion by 2024. While offering potential for retail, enterprise solutions, and new markets like virtual real estate and entertainment, the metaverse also faces challenges related to data security, legal frameworks, skilled resources, VR device limitations, and potential negative societal impacts.",
+      "url": "https://www.wipro.com/consumer-packaged-goods/the-metaverse-redefining-the-digital-experience/",
+      "source": "Wipro",
+      "published": "20220311T191627",
+      "overall_sentiment_score": 0.290155,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.31223,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.742658
+    },
+    {
+      "title": "Autodesk Inc. stock falls Friday, underperforms market",
+      "summary": "Autodesk Inc. (ADSK) stock fell 3.74% on Friday, closing at $192.31, underperforming the broader market as the S&P 500 and Dow Jones also declined. This marked the second consecutive day of losses for the company, with its stock trading significantly below its 52-week high. Competitors like Apple, Adobe, and Synopsys also experienced declines, while Autodesk's trading volume exceeded its 50-day average.",
+      "url": "https://www.marketwatch.com/data-news/autodesk-inc-stock-falls-friday-underperforms-market-01647034435-9f12459f74e6?gaa_at=eafs&gaa_n=AWEtsqfVOTQu5vxrBviN1dSSM3-PNMj9_ZDFvMWXArZpiLqTzD_N2Q4edX4Q&gaa_ts=6907a806&gaa_sig=69IeX32gjJCrvfJkCmATpSwrbuVVFTyCRd4tN8Jl7vDLaUGFyNC1LoPeHVXhjGsf8_qOJnekUNX-b_sdRUJZsw%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220311T163300",
+      "overall_sentiment_score": -0.291343,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.338167,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.744032
+    },
+    {
+      "title": "Amazon announces 20-for-1 stock split",
+      "summary": "Amazon announced a 20-for-1 stock split, following similar moves by other major tech companies like Alphabet, Apple, and Tesla. The article explains that a stock split divides existing shares into multiple, smaller-priced shares without changing the overall value of an investor's holdings or the company's market capitalization. Stock splits are often done to increase a stock's liquidity and make it more accessible to a wider range of investors, though in an era of fractional shares, some of the practical impact is diminished.",
+      "url": "https://www.morningstar.com.au/stocks/amazon-announces-20-for-1-stock-split",
+      "source": "Morningstar",
+      "published": "20220310T165548",
+      "overall_sentiment_score": 0.098388,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.122715,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.714673
+    }
+  ]
+}

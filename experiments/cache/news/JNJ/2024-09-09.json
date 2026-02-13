@@ -1,0 +1,70 @@
+{
+  "ticker": "JNJ",
+  "date": "2024-09-09",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:56:48.390136",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Undervalued by 16%, This Dividend Stock Is a Buy for the Long Term",
+      "summary": "Kenvue, the consumer health company spun off from Johnson & Johnson, is highlighted as an attractive dividend stock, trading 16% below its fair value estimate of $26. Morningstar assigns Kenvue a wide economic moat due to strong brand power and economies of scale, projecting competitiveness for at least 20 years. The article discusses growth drivers such as innovation, an aging population, and digital investments, while also addressing risks like market competition and past talc litigation.",
+      "url": "https://www.morningstar.com/stocks/undervalued-by-16-this-dividend-stock-is-buy-long-term",
+      "source": "Morningstar",
+      "published": "20240829T000000",
+      "overall_sentiment_score": 0.223214,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.121093,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.715562
+    },
+    {
+      "title": "Penumbra axes virtual reality division, will lay off 71 people",
+      "summary": "Penumbra is discontinuing its Immersive Healthcare business, which focuses on virtual reality-based rehabilitation and mindfulness, leading to 71 layoffs. The company cited changing business needs and the need to focus on its core thrombectomy business, taking a $110.3 million impairment charge and reducing its 2024 sales forecast by $60 million. This move is expected to save over $20 million in operating expenses annually and contribute to the company's operating margin in 2025.",
+      "url": "https://www.medtechdive.com/news/penumbra-layoffs-virtual-reality-immersive-healthcare/725645/",
+      "source": "MedTech Dive",
+      "published": "20240829T000000",
+      "overall_sentiment_score": -0.215576,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.138688,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.601621
+    },
+    {
+      "title": "Legend Biotech’s CAR-T Carvykti Approved for R/R MM Indication in China",
+      "summary": "Legend Biotech's CAR-T therapy, Carvykti (ciltacabtagene autoleucel), has received approval from China's National Medical Products Administration (NMPA) for treating adults with relapsed or refractory multiple myeloma. This approval is based on positive results from the phase 2 CARTIFAN-1 clinical trial conducted in China. Carvykti has also seen expanded indications in the US and Europe, reflecting its growing recognition as an effective treatment for multiple myeloma.",
+      "url": "https://www.cgtlive.com/view/legend-biotech-car-t-carvykti-approved-mm-indication-china",
+      "source": "CGTLive®",
+      "published": "20240828T000000",
+      "overall_sentiment_score": 0.3929,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.320069,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.736933
+    },
+    {
+      "title": "Moderna Lays Foundations for Growth, but Can It Turn Strategy Into Execution?",
+      "summary": "Moderna faces significant challenges in the respiratory vaccine market as it navigates declining COVID-19 vaccine sales and competes with established rivals in flu and RSV. The company is trying to establish new growth drivers, including a combination flu-COVID vaccine and its mRESVIA RSV vaccine, but faces hurdles like soft demand, strong competition, and issues with market timing. Analysts express concerns about Moderna's revenue guidance and its ability to execute its growth strategy effectively against well-resourced competitors.",
+      "url": "https://www.biospace.com/business/moderna-lays-foundations-for-growth-but-can-it-turn-strategy-into-execution",
+      "source": "BioSpace",
+      "published": "20240828T000000",
+      "overall_sentiment_score": -0.01962,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.071987,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.587701
+    },
+    {
+      "title": "Enovis Appoints Tim Czartoski as President, U.S. Surgical and Global Product and Enabling Technologies",
+      "summary": "Enovis Corporation (NYSE: ENOV) has appointed Tim Czartoski as President, U.S. Surgical and Global Product and Enabling Technologies. Mr. Czartoski brings over 22 years of experience from Depuy Synthes, where he held various leadership roles. He will be responsible for Enovis' U.S. Surgical business, including global surgical product and enabling technologies, reporting to Louie Vogt, Group President of Enovis’ Reconstructive Business Group.",
+      "url": "https://orthospinenews.com/2024/09/09/enovis-appoints-tim-czartoski-as-president-u-s-surgical-and-global-product-and-enabling-technologies/",
+      "source": "Ortho Spine News",
+      "published": "20240909T000000",
+      "overall_sentiment_score": 0.410055,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.320776,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.621494
+    }
+  ]
+}

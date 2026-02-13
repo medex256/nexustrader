@@ -1,6 +1,6 @@
 # In nexustrader/backend/app/agents/research_team.py
 
-from ..llm import invoke_llm as call_llm
+from ..llm import invoke_llm as call_llm, invoke_llm_deep
 from ..utils.memory import get_memory
 
 
@@ -326,7 +326,7 @@ Deliverables:
 FORMAT: Use Markdown headers (##) and bullet points. Be structured, professional, and direct. NO conversational filler (e.g., "Alright team", "Here is my thought process")."""
     
     # 2. Call the LLM to generate the decision
-    manager_decision = call_llm(prompt)
+    manager_decision = invoke_llm_deep(prompt)
     
     # 3. Update the state
     debate_state['judge_decision'] = manager_decision

@@ -1,0 +1,70 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-02-20",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:49:55.236912",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Arrowhead Eager To Take On ‘Straightforward’ NASH Approach Abandoned By J&J",
+      "summary": "Arrowhead Pharmaceuticals is taking over a NASH (Non-alcoholic steatohepatitis) candidate previously licensed to Johnson & Johnson, following J&J's abandonment of the program. This move positions Arrowhead to pursue an RNAi-based treatment for NASH, a liver disease. The article highlights Arrowhead's continued interest in this \"straightforward\" approach for a significant medical need.",
+      "url": "https://insights.citeline.com/SC147917/Arrowhead-Eager-To-Take-On-Straightforward-NASH-Approach-Abandoned-By-JJ/",
+      "source": "Citeline News & Insights",
+      "published": "20230215T000000",
+      "overall_sentiment_score": 0.264182,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.105313,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.92222
+    },
+    {
+      "title": "Alcon pays $199M to settle femtosecond laser cataract surgery claims",
+      "summary": "Alcon has agreed to pay Johnson & Johnson (J&J) $199 million to resolve legal disputes regarding the use of femtosecond lasers in cataract surgery. The settlement includes a cross-licensing deal for intellectual property related to their ultrafast laser technologies, which both companies acquired through significant buyouts of other firms. Despite the widespread use of femtosecond laser-assisted cataract surgery (FLACS), reports on its cost-effectiveness compared to traditional methods are mixed, though it may offer benefits in specific patient cases.",
+      "url": "https://optics.org/news/14/2/12",
+      "source": "Optics.org",
+      "published": "20230214T000000",
+      "overall_sentiment_score": 0.090743,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.127871,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.823634
+    },
+    {
+      "title": "Distinguished Alum, Scientist, and CEO Thomas Butler",
+      "summary": "Thomas Butler, a distinguished alum of Chico State and now CEO of Biomea Fusion, Inc., discusses his career path from organic chemistry to leading a biopharmaceutical company. He highlights the impact of his foundational experiences at Chico State, especially one-on-one professor interactions and the value of hard work, on his journey to developing treatments for cancer and metabolic diseases. Butler emphasizes the importance of passion, inclusive leadership, and a service-oriented mindset in his work.",
+      "url": "https://today.csuchico.edu/distinguished-alum-thomas-butler/",
+      "source": "Chico State Today",
+      "published": "20230210T000000",
+      "overall_sentiment_score": 0.550041,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.325344,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.638144
+    },
+    {
+      "title": "Aligos' hep B functional cure dream fizzles out as cash crunch and layoffs force focus on NASH, COVID-19",
+      "summary": "Aligos Therapeutics is significantly scaling back its hepatitis B programs due to a cash crunch, deprioritizing its two remaining assets and laying off staff. The company will now focus its resources on its nonalcoholic steatohepatitis (NASH) and COVID-19 drug candidates, aiming to extend its cash runway to the end of 2024. These strategic shifts come as Aligos faces a legal battle with Johnson & Johnson regarding intellectual property.",
+      "url": "https://www.fiercebiotech.com/biotech/aligos-hep-b-functional-cure-dream-fizzles-out-cash-crunch-and-layoffs-force-focus-nash",
+      "source": "Fierce Biotech",
+      "published": "20230209T073000",
+      "overall_sentiment_score": -0.162103,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.113009,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.619675
+    },
+    {
+      "title": "J&J, Medtronic, Boston Scientific gird for battle over US cardiac ablation market with new trials",
+      "summary": "Johnson & Johnson, Medtronic, and Boston Scientific are competing to gain market share in the U.S. cardiac ablation market with pulsed-field ablation (PFA) devices, which they claim are safer and more effective for treating atrial fibrillation. While these devices are approved in Europe, they are awaiting FDA clearance in the U.S., with each company conducting clinical trials and reporting promising early results. Analysts expect PFA technology to disrupt the electrophysiology market, potentially taking share from existing thermal ablation methods.",
+      "url": "https://www.medtechdive.com/news/JNJ-MDT-BSX-biosense-webster-afib-ablation-studies/642104/",
+      "source": "MedTech Dive",
+      "published": "20230208T000000",
+      "overall_sentiment_score": 0.31892,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.306414,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.913398
+    }
+  ]
+}

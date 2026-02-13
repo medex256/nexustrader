@@ -1,0 +1,58 @@
+{
+  "ticker": "XOM",
+  "date": "2023-08-07",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:33:49.264332",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "Imperial Oil shares rise as company renews share buybacks",
+      "summary": "Imperial Oil's shares rose as the company announced renewed share buybacks despite a 72% drop in quarterly earnings due to maintenance and lower energy prices. The company's earnings met analyst expectations, and management expressed optimism for stronger volumes in the second half of the year, leading to investor confidence in future buybacks.",
+      "url": "https://www.reuters.com/markets/commodities/imperial-oil-quarterly-profit-plunges-72-production-prices-drop-2023-07-28/",
+      "source": "Reuters",
+      "published": "20230728T193900",
+      "overall_sentiment_score": 0.238368,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.127033,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.703251
+    },
+    {
+      "title": "Procter & Gamble Earnings: Margins Rebuild Even as Investments Persist",
+      "summary": "Procter & Gamble's fourth-quarter earnings showed significant gross margin expansion to 48.4%, driven by higher prices and productivity savings. The company continues to invest in R&D and marketing, supporting its wide economic moat. While Morningstar expects to slightly raise its fair value estimate of P&G stock, shares are currently considered unattractive, trading at a premium to their intrinsic valuation.",
+      "url": "https://www.morningstar.com/stocks/procter-gamble-earnings-margins-rebuild-even-investments-persist",
+      "source": "Morningstar",
+      "published": "20230728T152507",
+      "overall_sentiment_score": 0.1224,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.184689,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.602986
+    },
+    {
+      "title": "Italy's antitrust drops fuel prices probe on Eni, Exxon and others",
+      "summary": "Italy's antitrust authority has closed a probe into several energy groups, including Eni and Exxon Mobil's ESSO Italiana unit, regarding alleged fuel price violations, without imposing sanctions. The companies have agreed to take actions to address competition concerns. However, a separate investigation into an alleged cartel over the sale of transport fuel, involving many of the same companies, was opened earlier this month.",
+      "url": "https://www.reuters.com/business/energy/italys-antitrust-drops-fuel-prices-probe-eni-exxon-others-2023-07-31/",
+      "source": "Reuters",
+      "published": "20230731T211300",
+      "overall_sentiment_score": 0.146953,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.121489,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.719349
+    },
+    {
+      "title": "EQT Advancing Gulf Coast LNG Strategy and Eyeing (Eventual) MVP Opportunities",
+      "summary": "EQT Corp., the largest natural gas producer in the U.S., has secured an agreement to supply the proposed Lake Charles LNG project in Louisiana with 1 million metric tons/year, aligning with its strategy to deliver Appalachia production to overseas markets. The company is actively pursuing further sales and purchase agreements with international buyers and is optimistic about the long-delayed Mountain Valley Pipeline's completion, which is expected to improve price realizations and free cash flow. Despite declining sales volumes and a net loss in the second quarter, EQT is maintaining its 2023 production forecast and capital expenditures, while also focusing on greenhouse gas emission reductions.",
+      "url": "https://naturalgasintel.com/news/eqt-advancing-gulf-coast-lng-strategy-and-eyeing-eventual-mvp-opportunities/",
+      "source": "Natural Gas Intelligence",
+      "published": "20230726T113500",
+      "overall_sentiment_score": 0.131238,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.060291,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.588847
+    }
+  ]
+}

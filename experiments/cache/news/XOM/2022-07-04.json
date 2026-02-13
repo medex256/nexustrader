@@ -1,0 +1,94 @@
+{
+  "ticker": "XOM",
+  "date": "2022-07-04",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:07:19.764260",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "Chevron CEO urges Biden to stop criticizing Big Oil, take new approach",
+      "summary": "Chevron CEO Michael Wirth urged President Biden to stop criticizing the oil industry and adopt a new approach to address high energy costs. Wirth's letter comes amid ongoing blame over rising fuel prices, with Biden accusing oil companies of profiting excessively while not increasing production. The CEO highlighted the industry's need for consistent policy regarding leases, permits, and infrastructure to meet energy demands.",
+      "url": "https://www.reuters.com/business/energy/chevron-ceo-calls-white-house-stop-criticizing-oil-industry-2022-06-21/",
+      "source": "Reuters",
+      "published": "20220621T222900",
+      "overall_sentiment_score": -0.103897,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.349846,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.745551
+    },
+    {
+      "title": "Eni SpA becomes second foreign firm to win $29 billion Qatari gas project stake",
+      "summary": "Eni SpA has secured a 3.1% stake in Qatar's $29 billion North Field East expansion project, becoming the second foreign firm to join, following TotalEnergies SE. This expansion will increase Qatar's LNG production capacity significantly by 2026, amidst escalating energy crises in Europe and high demand for LNG. Other major players like China's Sinopec, China National Petroleum Corp., Exxon Mobil Corp., ConocoPhillips, and Shell Plc are also expected to invest in the project.",
+      "url": "https://www.worldoil.com/news/2022/6/20/eni-spa-becomes-second-foreign-firm-to-win-29-billion-qatari-gas-project-stake/",
+      "source": "World Oil",
+      "published": "20220620T163611",
+      "overall_sentiment_score": 0.244123,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.226037,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.748992
+    },
+    {
+      "title": "Exxon Mobil to Sell Canadian Shale Gas Assets for About $1.5 Billion",
+      "summary": "Exxon Mobil and its subsidiary Imperial Oil are selling their Canadian shale gas business, XTO Energy Canada, to Whitecap Resources for approximately $1.5 billion in an all-cash deal. This sale marks Exxon's exit from certain Canadian natural gas regions and reflects a broader industry trend of consolidating oil-field investments in Western Canada. The transaction, involving over 600,000 net acres, is anticipated to close in the third quarter.",
+      "url": "https://www.wsj.com/business/energy-oil/exxon-mobil-to-sell-canadian-shale-gas-assets-for-about-1-5-billion-11656540724?gaa_at=eafs&gaa_n=AWEtsqe8JpY319nae2ipZbi0hwlbB-8UhKU56J4Pcrcr-_JtcJZOdgvKUHNN&gaa_ts=6907b163&gaa_sig=w7SJSMdk9NL-ze-riascGT-uZTb86VYlG5zQzQCz-u1Afl6jx1vYAiJytkDWuGKIzBLb2u3qh_bfQ7j1a4xXug%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20220629T191701",
+      "overall_sentiment_score": -0.385513,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.381821,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Exxon CEO says carbon removal is climate cure with oil perks",
+      "summary": "Exxon Mobil CEO Darren Woods views direct air capture (DAC) technology as \"the holy grail\" for addressing climate change, allowing oil companies to remain profitable. This stance is likely to increase skepticism among environmentalists who fear such technologies could slow the transition away from fossil fuels, while Exxon continues to invest in both oil and gas production and emissions-cutting innovations. Environmental justice advocates also raise concerns about \"technofixes\" like DAC disproportionately affecting communities of color.",
+      "url": "https://www.eenews.net/articles/exxon-ceo-says-carbon-removal-is-climate-cure-with-oil-perks/",
+      "source": "E&E News by POLITICO",
+      "published": "20220628T064800",
+      "overall_sentiment_score": 0.083152,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.125254,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Former UGI vice president shares supply lessons learned",
+      "summary": "Steve Kossuth, former vice president of global LPG supply for UGI, shared insights on energy independence and diversity after nearly 15 years in the propane industry. He highlighted that the conflict in Europe underscores the importance of diverse energy sources and advocated for LPG's role in a carbon-reduced world. Kossuth also reflected on lessons learned from past events like the 2013-14 polar vortex, emphasizing the value of optionality and supply security in preparing for natural disasters and geopolitical events.",
+      "url": "https://www.lpgasmagazine.com/departed-vp-shares-supply-lessons-learned/",
+      "source": "LP Gas Magazine",
+      "published": "20220620T190543",
+      "overall_sentiment_score": -0.106953,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.10127,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.617471
+    },
+    {
+      "title": "A ‘carbon bomb’ or desperately needed energy? Alaskan village holds key to Biden’s climate policy.",
+      "summary": "The article discusses the difficult decision facing the Biden administration regarding ConocoPhillips's Willow project in Alaska's North Slope. This project presents a conflict between energy needs and environmental concerns, particularly for the Alaskan village of Nuiqsut, which has already experienced the impact of oil development. The outcome will be a key indicator of Biden's climate policy direction.",
+      "url": "https://www.washingtonpost.com/climate-environment/2022/06/26/fast-warming-alaskan-village-fate-bidens-climate-policy-could-be-decided/",
+      "source": "The Washington Post",
+      "published": "20220626T162651",
+      "overall_sentiment_score": -0.136562,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.146351,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.628656
+    },
+    {
+      "title": "Is XLE ETF A Good Buy Now?",
+      "summary": "The article analyzes the Energy Select Sector SPDR® Fund ETF (XLE), questioning its efficacy as an inflation hedge and its competitive dividend yield compared to individual oil stocks. It highlights that XLE holds a small number of large-cap oil and gas stocks, and its performance has been inconsistent over the last decade, often underperforming an equal-weighted holding of its top two stocks, XOM and CVX. The author suggests broader commodity strategies might be more preferable.",
+      "url": "https://seekingalpha.com/article/4519584-is-xle-etf-good-buy-now",
+      "source": "Seeking Alpha",
+      "published": "20220622T084500",
+      "overall_sentiment_score": 0.163015,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.344882,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.74023
+    }
+  ]
+}

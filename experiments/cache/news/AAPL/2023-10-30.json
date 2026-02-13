@@ -1,0 +1,70 @@
+{
+  "ticker": "AAPL",
+  "date": "2023-10-30",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T00:26:20.196535",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Apple unveils M3, M3 Pro, and M3 Max, the most advanced chips for a personal computer",
+      "summary": "Apple announced its new M3, M3 Pro, and M3 Max chips, touting them as the most advanced chips for a personal computer. Built on 3-nanometer process technology, these chips introduce a next-generation GPU architecture with features like Dynamic Caching, hardware-accelerated ray tracing, and mesh shading, delivering significant performance improvements over the M1 family of chips. The M3 family also boasts faster CPU performance, an enhanced Neural Engine for AI/ML tasks, and an unrivaled unified memory architecture supporting up to 128GB, along with improved power efficiency for longer battery life and a reduced environmental impact.",
+      "url": "https://www.apple.com/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/",
+      "source": "Apple",
+      "published": "20231030T000000",
+      "overall_sentiment_score": 0.433749,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.44679,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "FDA Clears Omnipod 5 App for iPhones",
+      "summary": "The FDA has granted 510(k) Clearance to the Omnipod 5 app for iPhone, making Insulet Corporation the first to offer a tubeless AID system with full control from compatible Android and iOS smartphones. This clearance follows the Omnipod 5 Automated Insulin Delivery system's initial FDA clearance for patients aged 6 years and older with type 1 diabetes in January 2022, and subsequent approval for children aged 2 years and older. The iOS app will offer the same functionality as the Android version, plus a new custom food feature, with a full market release expected in 2024.",
+      "url": "https://www.hcplive.com/view/fda-clears-omnipod-5-app-for-iphones",
+      "source": "HCPLive",
+      "published": "20231024T152543",
+      "overall_sentiment_score": 0.303513,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.226791,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.748212
+    },
+    {
+      "title": "It's Not Just Lithium: Tesla, Rivian, And The Green Revolution Rely On These Precious Metals",
+      "summary": "This article highlights the critical role of precious metals beyond lithium in powering the green revolution, particularly in electric vehicle batteries. It details how cobalt, nickel, silver, and graphite are essential components for companies like Tesla and Rivian, impacting battery performance, energy density, and efficiency. The piece also touches on future trends, such as solid-state batteries, and discusses investment opportunities in the materials driving the EV industry.",
+      "url": "https://www.nasdaq.com/articles/its-not-just-lithium:-tesla-rivian-and-the-green-revolution-rely-on-these-precious-metals",
+      "source": "Nasdaq",
+      "published": "20231024T062600",
+      "overall_sentiment_score": 0.214071,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.111102,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.432345
+    },
+    {
+      "title": "‘Fundamental rethink:’ Investors dump China shares despite new efforts to shore up the economy",
+      "summary": "Global investors are offloading Chinese shares at an \"unprecedented\" rate due to concerns over China's economic slowdown, a lack of convincing policy responses, and an opaque business environment. Despite Beijing's efforts to stimulate growth through bond issuance and sovereign wealth fund purchases, these measures have failed to restore investor confidence. Experts suggest that a fundamental rethinking of China investment is underway, driven by a collapse of trust in the Chinese Communist Party and rising US-China tensions.",
+      "url": "https://www.cnn.com/2023/10/25/economy/china-stock-rout-global-investors-intl-hnk",
+      "source": "CNN",
+      "published": "20231025T053300",
+      "overall_sentiment_score": 0.097065,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.145586,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.615454
+    },
+    {
+      "title": "Nvidia to take on Intel, Qualcomm with Arm-based processors for PC; availability pegged for 2025",
+      "summary": "Nvidia is developing Arm-based processors for personal computers, aiming to compete with Intel and Qualcomm, with availability expected as soon as 2025. This move intensifies competition in the PC chip market, especially as AMD is also reportedly working on Arm-based processors for PCs. The initiative follows Apple's successful transition to in-house Arm-based chips, boosting Mac sales, and poses a significant challenge to Intel's dominant position.",
+      "url": "https://www.financialexpress.com/life/technology-nvidia-to-take-on-intel-qualcomm-with-arm-based-processors-for-pc-availability-pegged-for-2025-3285212/",
+      "source": "The Financial Express",
+      "published": "20231024T134500",
+      "overall_sentiment_score": 0.0864,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.301299,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.628588
+    }
+  ]
+}

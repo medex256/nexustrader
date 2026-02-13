@@ -1,0 +1,22 @@
+{
+  "ticker": "NVDA",
+  "date": "2023-02-20",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:26:57.071616",
+  "source": "alpha_vantage",
+  "article_count": 1,
+  "articles": [
+    {
+      "title": "Long AI Short Hype for CME_MINI:MNQM2023 by mintdotfinance",
+      "summary": "This article analyzes the current hype surrounding generative AI, using the iShares Exponential Technologies ETF (XT) as a proxy for innovation. It proposes a spread trade—long on CME Micro E-Mini Nasdaq Futures (MNQ) and short on XT—to capitalize on the expected normalization after the initial hype cycle, aiming for a 1.49x reward-to-risk ratio. The strategy is designed to generate alpha by neutralizing beta in an uncertain market.",
+      "url": "https://www.tradingview.com/chart/MNQM2023/NMebKLnq-Long-AI-Short-Hype/",
+      "source": "TradingView — Track All Markets",
+      "published": "20230219T200919",
+      "overall_sentiment_score": 0.06231,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.071653,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.566886
+    }
+  ]
+}

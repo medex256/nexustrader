@@ -1,0 +1,106 @@
+{
+  "ticker": "JNJ",
+  "date": "2024-10-21",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:57:16.480548",
+  "source": "alpha_vantage",
+  "article_count": 8,
+  "articles": [
+    {
+      "title": "Kenvue shares surge after activist Starboard takes stake",
+      "summary": "Activist investor Starboard Value has acquired a significant stake in Kenvue, prompting a 5% surge in Kenvue's share price. Starboard's Jeff Smith is expected to elaborate on their plans for Kenvue at an upcoming summit, just weeks after Starboard also amassed a $1 billion stake in Pfizer. Kenvue, which spun out of Johnson & Johnson in mid-2023, has seen its shares largely unchanged this year, with a market value currently around $41.6 billion.",
+      "url": "https://www.cnbc.com/2024/10/21/kenvue-activist-starboard-stake-johnson-and-johnson.html",
+      "source": "CNBC",
+      "published": "20241021T081300",
+      "overall_sentiment_score": 0.129104,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.130968,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.643864
+    },
+    {
+      "title": "Jabil to close Kentucky plant, lay off 108 workers",
+      "summary": "Electronics maker Jabil is closing one of its three facilities in Florence, Kentucky, resulting in 108 layoffs, effective December 6th. The closure is due to a customer relocating operations to another Jabil site. The company plans to offer severance benefits and career outplacement assistance to impacted employees, and two other Florence facilities will remain open.",
+      "url": "https://www.manufacturingdive.com/news/jabil-closing-cams-florence-kentucky-plant/729627/",
+      "source": "Manufacturing Dive",
+      "published": "20241014T000000",
+      "overall_sentiment_score": 0.079287,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.122203,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.616999
+    },
+    {
+      "title": "Poseida Therapeutics’ Allogeneic CAR-T P-BCMA-ALLO1 Demonstrates 91% ORR in Enhanced Lymphodepletion Arm of R/R MM Study",
+      "summary": "Poseida Therapeutics' allogeneic CAR-T therapy, P-BCMA-ALLO1, achieved a 91% overall response rate (ORR) in the enhanced lymphodepletion arm of its phase 1/1b trial for relapsed/refractory multiple myeloma. This therapy demonstrated significant efficacy and a favorable safety profile even in heavily pre-treated patients, including those who had prior BCMA-targeting therapies. The rapid treatment initiation and lack of need for bridging therapy highlight the advantages of this off-the-shelf allogeneic CAR-T product.",
+      "url": "https://www.cgtlive.com/view/poseida-therapeutics-allogeneic-car-t-p-bcma-allo1-demonstrates-91-orr-enhanced-lymphodepletion-arm-mm-study",
+      "source": "CGTLive®",
+      "published": "20241010T060858",
+      "overall_sentiment_score": 0.346255,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.024452,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.595276
+    },
+    {
+      "title": "Starboard takes stake in consumer products maker Kenvue, sources say",
+      "summary": "Hedge fund Starboard Value has acquired a stake in Kenvue, the consumer products company spun off from Johnson & Johnson, according to sources. Starboard may seek to influence Kenvue's brand positioning and pricing strategies to improve performance, following a significant drop in its stock price since its 2023 IPO. This news comes ahead of a conference where Starboard's chief investment officer is also expected to discuss a new investment in Pfizer.",
+      "url": "https://www.reuters.com/markets/deals/activist-investor-starboard-value-takes-stake-consumer-products-maker-kenvue-2024-10-21/",
+      "source": "Reuters",
+      "published": "20241021T020100",
+      "overall_sentiment_score": -0.161833,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.147928,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.718181
+    },
+    {
+      "title": "Sales Booming for RxSight’s Trail Blazing Lenses",
+      "summary": "RxSight Inc. is experiencing significant revenue growth, driven by its unique Light Adjustable Lenses (LAL) for cataract surgery. The company's innovative technology, which allows post-surgery vision adjustment, has positioned it as a leader in the cataract surgery market, despite competing with larger players. Analysts predict continued strong growth, and Wall Street has responded positively, with shares significantly increasing in value.",
+      "url": "https://www.ocbj.com/healthcare/sales-booming-for-rxsights-trail-blazing-lenses/",
+      "source": "Orange County Business Journal",
+      "published": "20241020T000000",
+      "overall_sentiment_score": 0.492409,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.124837,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.582926
+    },
+    {
+      "title": "Myriad and Flatiron Integrate Genetic Testing with Electronic Medical Record Platform",
+      "summary": "Myriad Genetics and Flatiron Health have integrated Myriad's MyRisk Hereditary Cancer Test with Flatiron's OncoEMR platform, allowing physicians to order tests and view results directly within the EMR. This collaboration aims to streamline workflows for 4,200 providers at over 800 community-based cancer care locations, making germline testing more accessible and user-friendly for personalized patient care. The integration is expected to reduce administrative burdens, improve turnaround times, and facilitate better patient outcomes in precision medicine.",
+      "url": "https://www.insideprecisionmedicine.com/topics/oncology/myriad-and-flatiron-integrate-genetic-testing-with-electronic-medical-record-platform/",
+      "source": "Inside Precision Medicine",
+      "published": "20241017T000000",
+      "overall_sentiment_score": 0.266904,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.116146,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.555019
+    },
+    {
+      "title": "NetApp’s intelligent data solutions for hybrid cloud efficiency",
+      "summary": "NetApp Insight 2024 highlighted the importance of intelligent data solutions for efficient and secure hybrid cloud environments. Key themes included NetApp’s focus on cloud partnerships, intelligent data solutions, and security, as well as the simplification of IT infrastructure with all-flash SAN arrays. The article also featured Johnson & Johnson's collaboration with NetApp for global data management and AI-driven initiatives.",
+      "url": "https://siliconangle.com/2024/10/07/netapp-intelligent-data-solutions-hybrid-cloud-efficiency-netappinsight/",
+      "source": "SiliconANGLE",
+      "published": "20241007T170500",
+      "overall_sentiment_score": 0.321428,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.313279,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.745867
+    },
+    {
+      "title": "How Masimo’s 20-year CEO was ousted by activist investors",
+      "summary": "This article details how activist investor firm Politan Capital successfully ousted Masimo’s long-standing CEO and founder, Joe Kiani, after a two-year battle. The conflict arose from Masimo's controversial acquisition of Sound United, which led to a significant drop in stock value and concerns from investors. Ultimately, Politan Capital gained majority control of the company's board, leading to Kiani's resignation.",
+      "url": "https://www.medicaldevice-network.com/features/how-masimos-20-year-ceo-was-ousted-by-activist-investors/",
+      "source": "Medical Device Network",
+      "published": "20241009T000000",
+      "overall_sentiment_score": 0.030964,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.084395,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.566459
+    }
+  ]
+}

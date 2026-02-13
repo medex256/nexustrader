@@ -1,0 +1,130 @@
+{
+  "ticker": "JPM",
+  "date": "2023-04-24",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:11:00.645266",
+  "source": "alpha_vantage",
+  "article_count": 10,
+  "articles": [
+    {
+      "title": "자산운용사, 달러 파킹 놓고 격돌…이자 쏠쏠한 금리 ETF 다양화",
+      "summary": "국내 자산운용사들이 미국 기준금리 인상 전망에 따라 미국 무위험지표금리(SOFR)에 투자하는 상장지수펀드(ETF) 상품을 잇달아 출시하고 있다. 한국투자신탁운용과 삼성자산운용이 이미 상품을 내놓았으며, 미래에셋, 한화, KB자산운용도 SOFR ETF 출시를 앞두고 있다. 이 상품들은 달러 변동성을 줄이고 연 4.8% 수준의 무위험 금리를 수취할 수 있어 개인 및 기관 투자자들에게 매력적인 '달러 파킹' 수단으로 주목받고 있다.",
+      "url": "https://www.ajunews.com/view/20230424131045708",
+      "source": "아주경제",
+      "published": "20230424T045129",
+      "overall_sentiment_score": 0.377752,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.301189,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.637698
+    },
+    {
+      "title": "Check out Jpmorgan Betabuilders U.S. Treasury Bond 1-3 Year ETF's stock price (BBSB) in real time",
+      "summary": "This article provides real-time stock price information for the Jpmorgan Betabuilders U.S. Treasury Bond 1-3 Year ETF (BBSB). It includes key financial metrics such as the current price, 52-week range, dividend yield, and trading volume. The article also lists essential dates like the ex-dividend date and provides a summary of company news and events.",
+      "url": "https://www.cnbc.com/quotes/BBSB",
+      "source": "CNBC",
+      "published": "20230420T000902",
+      "overall_sentiment_score": 0.066667,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.108369,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.641327
+    },
+    {
+      "title": "Canada’s RBC Tops List of Banks Financing the Climate Crisis",
+      "summary": "A report titled “Banking on Climate Chaos” reveals that Canada’s Royal Bank of Canada (RBC) was the world's worst funder of fossil fuel projects in 2022, providing $42.5 billion, despite its public climate commitments. Globally, the 60 largest banks have funneled $5.5 trillion to fossil fuel companies since the 2015 Paris Agreement, often using loopholes to finance projects like the Coastal GasLink Pipeline and the Willow project. The article highlights a disconnect between banks' greenwashing efforts and their continued substantial financial support for the fossil fuel industry, calling for systemic change to shift capital towards decarbonization.",
+      "url": "https://www.sierraclub.org/sierra/canada-s-rbc-tops-list-banks-financing-climate-crisis",
+      "source": "Sierra Club",
+      "published": "20230413T153517",
+      "overall_sentiment_score": -0.144636,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.238446,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.837708
+    },
+    {
+      "title": "Glencore sweetens bid for Teck as April 26 vote looms | Hotter Commodities",
+      "summary": "Glencore has enhanced its offer for Teck Resources by including a cash component in its bid, as a crucial shareholder vote approaches on April 26. Teck's dual-class share structure gives significant voting power to its A shareholders, primarily the Keevil family and Sumitomo Metal Mining Co, who have already rejected Glencore's proposal. Glencore's strategy now focuses on convincing Teck's B shareholders to vote against Teck's proposed separation, potentially strengthening Glencore's future bargaining position.",
+      "url": "https://www.fastmarkets.com/insights/glencore-sweetens-bid-for-teck-andrea-hotter/",
+      "source": "Fastmarkets",
+      "published": "20230412T050344",
+      "overall_sentiment_score": 0.056998,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.146251,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.608945
+    },
+    {
+      "title": "Pavilion Payments plots growth",
+      "summary": "Pavilion Payments, recently acquired by Parthenon Capital Partners from Global Payments, plans significant growth by investing in technology and expanding its workforce. The company aims to capitalize on the digital transformation within the cash-heavy gaming payments industry and is actively exploring acquisition opportunities. Pavilion Payments processed approximately $10 billion last year and serves around 400 customers in the casino and online gaming sectors.",
+      "url": "https://www.paymentsdive.com/news/pavilion-payments-plots-growth-parthenon-global-payments-gaming-online-betting/647276/",
+      "source": "Payments Dive",
+      "published": "20230411T144557",
+      "overall_sentiment_score": 0.144455,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.10659,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.614283
+    },
+    {
+      "title": "Gold price (monthly chart), amid the noise",
+      "summary": "This article analyzes the gold price from a monthly chart perspective, suggesting a potential breakout despite recent market \"noise\" and a $22/oz drop. The author highlights the Sprott Physical Gold and Silver Trust (CEF) and positive technical indicators, while downplaying the \"banking crisis\" as a long-term driver for gold, emphasizing broader macro factors. The piece also touches on managing risk and opportunity for subscribers.",
+      "url": "https://www.kitco.com/opinion/2023-04-17/gold-price-monthly-chart-amid-noise",
+      "source": "KITCO",
+      "published": "20230417T203900",
+      "overall_sentiment_score": 0.072135,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.12323,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.623003
+    },
+    {
+      "title": "'We've seen this movie before,' says Waterfall Asset co-founder on trouble in commercial real estate",
+      "summary": "Tom Capasse, co-founder of Waterfall Asset Management and CEO of Ready Capital, believes a wave of distress is imminent in the estimated $21 trillion U.S. commercial real-estate market. He attributes this to higher interest rates, tighter credit, and lingering pandemic effects, despite not predicting a complete market crash. Waterfall Asset recently closed a new $485 million Atlas Fund specifically to invest in commercial real estate, distressed loans, and bonds.",
+      "url": "https://www.marketwatch.com/story/weve-seen-this-movie-before-says-waterfall-asset-co-founder-on-trouble-in-commercial-real-estate-67b1d1f8?gaa_at=eafs&gaa_n=AWEtsqc8umud_ayuTibFPzxTegRFMbvXO3gNiITD6SZHgzaUXpLnFNdCQBf1&gaa_ts=69077c31&gaa_sig=7oXjFUyCk44NBFq_9dvVdTU9exKHvzpXVyap_SntSRHdKRmiwPihMRADY56MJHpeey7IiqmJ1U_6DG5DPKsApw%3D%3D",
+      "source": "MarketWatch",
+      "published": "20230414T121000",
+      "overall_sentiment_score": 0.243718,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.132602,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.613757
+    },
+    {
+      "title": "Amid banking industry turmoil, JPMorgan Chase profits jump 52 percent",
+      "summary": "JPMorgan Chase & Co. reported a 52% increase in first-quarter profits, driven by higher interest rates and a significant influx of deposits following the failures of Silicon Valley Bank and Signature Bank. This strong performance, along with solid results from Citigroup and Wells Fargo, suggests stability among major financial institutions despite broader banking turmoil. CEO Jamie Dimon noted the generally healthy U.S. economy but cautioned about looming \"storm clouds\" given the recent industry unrest.",
+      "url": "https://www.pbs.org/newshour/nation/amid-banking-industry-turmoil-jpmorgan-chase-profits-jump-52-percent",
+      "source": "PBS",
+      "published": "20230414T104100",
+      "overall_sentiment_score": 0.479723,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.853881,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Royal Bank of Canada becomes top financier for fossil fuel industry",
+      "summary": "Royal Bank of Canada has surpassed JPMorgan as the largest financier of the fossil fuel industry in 2022, providing $42.1bn in funding. Canadian banks are increasingly taking on the role of \"lenders of last resort\" for carbon-intensive projects, with Canadian banks having provided $862bn to fossil fuel companies since the signing of the Paris Agreement. Despite a 16% drop in overall fossil fuel financing from the world's 60 largest banks in 2022, the report highlights the continued significant role banks play in funding the industry.",
+      "url": "https://www.ft.com/content/63ebd477-5327-422d-8121-9acc477b138c",
+      "source": "Financial Times",
+      "published": "20230413T153517",
+      "overall_sentiment_score": -0.203571,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.298262,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.835947
+    },
+    {
+      "title": "La presidenta del Banco Santander se reúne con Boric en su fugaz visita a Chile",
+      "summary": "Ana Botín, president of Banco Santander, made a brief visit to Chile, where she met with President Gabriel Boric and Finance Minister Mario Marcel. Her visit aimed to reaffirm Santander's commitment to Chile and to learn about new initiatives led by Román Blanco, the new CEO in the country since August 2022. Santander's operations in Chile have been highly profitable, with utility reaching $808 million last year, representing about 8% of the holding's global profits.",
+      "url": "https://elpais.com/chile/2023-04-12/la-presidenta-del-banco-santander-se-reune-con-boric-en-su-fugaz-visita-a-chile.html",
+      "source": "EL PAÍS",
+      "published": "20230412T033200",
+      "overall_sentiment_score": 0.14079,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.129453,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62629
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "ticker": "XOM",
+  "date": "2025-02-24",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:41:29.494199",
+  "source": "alpha_vantage",
+  "article_count": 2,
+  "articles": [
+    {
+      "title": "Diamondback Energy Announces Midland Basin Deal",
+      "summary": "Diamondback Energy is acquiring certain subsidiaries of Double Eagle IV Midco LLC for approximately 6.9 million shares of Diamondback common stock and $3 billion in cash, subject to adjustments and regulatory approval. This acquisition is significant as it represents the first major Permian Basin deal of 2025, adding 27,000 barrels per day of net oil production and 40,000 net acres in the Midland Basin. Diamondback plans to fund the cash portion through existing resources and intends to sell at least $1.5 billion of non-core assets to reduce debt.",
+      "url": "https://www.rigzone.com/news/diamondback_energy_announces_midland_basin_deal-19-feb-2025-179680-article/",
+      "source": "Rigzone",
+      "published": "20250219T104000",
+      "overall_sentiment_score": 0.190062,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.107098,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.744247
+    },
+    {
+      "title": "ADI Earnings: A snapshot of Analog Devices (ADI) Q1 2025 report",
+      "summary": "Analog Devices, Inc. (ADI) reported lower revenues and adjusted profit for the first quarter of 2025. Adjusted earnings declined 6% to $1.63 per share, and revenues decreased by 4% to $2.42 billion compared to the prior year. Despite the decline, the company noted gradual improvement in bookings, particularly in Industrial and Automotive sectors, positioning them for sequential and year-over-year growth in the second fiscal quarter.",
+      "url": "https://news.alphastreet.com/adi-earnings-a-snapshot-of-analog-devices-adi-q1-2025-report/",
+      "source": "AlphaStreet",
+      "published": "20250219T000000",
+      "overall_sentiment_score": -0.118754,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.152536,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.629358
+    }
+  ]
+}

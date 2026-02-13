@@ -1,0 +1,94 @@
+{
+  "ticker": "JNJ",
+  "date": "2022-12-19",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:49:13.959849",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "Staar Surgical CEO Caren Mason retires, replacement named",
+      "summary": "Staar Surgical announced that President and CEO Caren Mason will retire at the end of 2022 after more than seven years, during which she oversaw significant growth and shareholder value increase. Thomas G. Frinzi, a veteran of the ophthalmic industry and current board chair, will succeed her on January 1, 2023. The company also provided its Q4 revenue projection, which analysts viewed positively despite a dip in STAA shares following the announcement.",
+      "url": "https://www.massdevice.com/staar-surgical-ceo-caren-mason-retires/",
+      "source": "MassDevice",
+      "published": "20221219T184621",
+      "overall_sentiment_score": -0.019758,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.144362,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.647082
+    },
+    {
+      "title": "Story from Pacira BioScience: Local surgeon enhances mastectomy patients’ recovery with non-opioid options",
+      "summary": "This article highlights how Dr. Quintessa Miller in Destin, Florida, is improving mastectomy patients' recovery by using non-opioid pain management options. She incorporates EXPAREL into her Enhanced Recovery After Surgery (ERAS) protocols, significantly reducing the need for opioids post-operatively. The article emphasizes the importance of non-opioid options in mitigating the risks associated with the opioid epidemic while enhancing patient recovery.",
+      "url": "https://www.pnj.com/story/sponsor-story/pacira-biosciences/2022/12/19/local-surgeon-enhances-mastectomy-patients-recovery-with-non-opioid-options/69734241007/",
+      "source": "Pensacola News Journal",
+      "published": "20221219T180632",
+      "overall_sentiment_score": 0.303861,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.219136,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.615695
+    },
+    {
+      "title": "Zimmer Biomet Holdings Inc. stock outperforms market despite losses on the day",
+      "summary": "Zimmer Biomet Holdings Inc. stock (ZBH) fell 0.49% to $124.96 on Monday, experiencing its fourth consecutive day of losses, yet still outperformed the broader market indices like the S&P 500 and Dow Jones Industrial Average. The stock closed $10.09 below its 52-week high but underperformed some competitors, such as Johnson & Johnson, Medtronic PLC, and Stryker Corp., on the same day. Trading volume was below its 50-day average.",
+      "url": "https://www.marketwatch.com/data-news/zimmer-biomet-holdings-inc-stock-outperforms-market-despite-losses-on-the-day-01671489290-7974522ce951?gaa_at=eafs&gaa_n=AWEtsqf1Dqhx-zaPwldEV6G8Ftkdl0tHJGWt6Y05IO95thazSsowb8UXvWO_&gaa_ts=6907b37b&gaa_sig=0szrWy0PBPfNgMqHOxd9OdanL7sW-fl5BFJG1GuzfCcxbsTjaHtPzzDWauka-sMO4P61q2GPYuI473gsVfwJvA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20221219T173400",
+      "overall_sentiment_score": -0.095954,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.120352,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.64494
+    },
+    {
+      "title": "Johnson & Johnson extends tender offer for Abiomed acquisition",
+      "summary": "Johnson & Johnson (NYSE:JNJ) announced an extension of its tender offer to acquire Abiomed (Nasdaq:ABMD) for approximately $16.6 billion, pushing the expiration date to December 21, 2022. The deal includes an upfront payment of $380 per share and a contingent value right up to $35 per share based on commercial and clinical milestones. This acquisition aims to bolster J&J's MedTech business and its cardiovascular innovation portfolio.",
+      "url": "https://www.massdevice.com/johnson-johnson-extends-tender-offer-abiomed-acquisition/",
+      "source": "MassDevice",
+      "published": "20221214T171642",
+      "overall_sentiment_score": 0.339761,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.331365,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Palo Alto Networks Unveils Zero Trust Security Solution for Medical Devices",
+      "summary": "Palo Alto Networks has introduced Medical IoT Security, a zero trust solution designed to help healthcare organizations securely deploy and manage connected medical technologies. This solution, available in January 2023, leverages machine learning to offer automated security responses, zero trust policy recommendations, and network segmentation. The news follows Palo Alto Networks' plan to acquire Cider Security for $195 million to enhance its application and supply chain security capabilities.",
+      "url": "https://www.msspalert.com/news/palo-alto-networks-unveils-zero-trust-security-solution-for-medical-devices",
+      "source": "MSSP Alert",
+      "published": "20221206T180617",
+      "overall_sentiment_score": 0.266314,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.100391,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.569114
+    },
+    {
+      "title": "State Street Health Care Select Sector SPDR ETF (XLV) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of the Health Care Select Sector SPDR Fund (XLV), including its current stock price, key statistics, holdings, dividend data, and historical performance. As of Q3 2025, XLV has 60 holdings with a total value of $33.97 billion, with top holdings being Eli Lilly and Co, Johnson & Johnson, AbbVie Inc, UnitedHealth Group Inc, and Abbott Laboratories. The article also provides historical data for Price-to-Earnings, Price-to-Book, and Dividend Yield.",
+      "url": "https://www.gurufocus.com/etf/XLV/summary",
+      "source": "GuruFocus",
+      "published": "20221214T051044",
+      "overall_sentiment_score": 0.124069,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.111233,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.742659
+    },
+    {
+      "title": "Edison Electrification Software Health Platform | GE News",
+      "summary": "This page compiles articles related to GE HealthCare's Edison Electrification Software Health Platform, highlighting its role in enhancing patient care and data integration. Key themes include GE HealthCare's spin-off from GE, partnerships aimed at improving cardiac care through integrated data, and the broader utility of new digital health platforms for clinicians. The content emphasizes the company's focus on growth and innovation in the healthcare technology sector.",
+      "url": "https://www.ge.com/news/taxonomy/term/9093",
+      "source": "General Electric",
+      "published": "20221208T164659",
+      "overall_sentiment_score": 0.334722,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.285807,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.567209
+    }
+  ]
+}

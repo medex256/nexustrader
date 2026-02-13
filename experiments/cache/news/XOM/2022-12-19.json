@@ -1,0 +1,106 @@
+{
+  "ticker": "XOM",
+  "date": "2022-12-19",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:09:14.783955",
+  "source": "alpha_vantage",
+  "article_count": 8,
+  "articles": [
+    {
+      "title": "Exxon Mobil starts operations at first large-scale plastic recycling plant in Baytown",
+      "summary": "Exxon Mobil has commenced operations at its first large-scale plastic recycling plant in Baytown, Texas. The facility is designed to process over 80 million pounds of plastic waste annually. This marks a significant move for the company into advanced recycling.",
+      "url": "https://www.bizjournals.com/houston/news/2022/12/14/exxon-mobil-advanced-plastic-recycle-baytown-start.html",
+      "source": "The Business Journals",
+      "published": "20221214T191702",
+      "overall_sentiment_score": 0.446643,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.416847,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Exxon, Chevron to spend billions more on oil projects next year",
+      "summary": "Exxon Mobil Corp and Chevron Corp plan to increase their project investments next year, allocating more funds towards energy projects amidst high oil demand and prices. Despite increased spending, this will not immediately translate to higher oil production for Exxon, though Chevron anticipates a compound annual increase through 2026. Both companies expect significant cash generation, with a focus on shareholder returns and lower-carbon initiatives.",
+      "url": "https://www.reuters.com/business/energy/exxon-chevron-spend-billions-more-oil-projects-next-year-2022-12-08/",
+      "source": "Reuters",
+      "published": "20221208T162400",
+      "overall_sentiment_score": 0.38423,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.329573,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.998074
+    },
+    {
+      "title": "Exxon Mobil gives employees massive pay raises",
+      "summary": "Exxon Mobil is significantly raising employee salaries by an average of 9% and granting restricted stock options to 14,000 employees globally, marking its largest salary increase in 15 years. This comes amidst record-breaking profits for the oil giant in 2022. The article contrasts Exxon's good fortune with mass layoffs occurring in the tech, housing, and financial sectors at companies like Morgan Stanley, Goldman Sachs, PepsiCo, Intel, and BuzzFeed.",
+      "url": "https://www.hcamag.com/us/specialization/payroll/exxon-mobil-gives-employees-massive-pay-raises/429978",
+      "source": "HRD America",
+      "published": "20221207T191701",
+      "overall_sentiment_score": -0.123058,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.519126,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Hess Signs $750M REDD+ Carbon Credits Deal with Guyana",
+      "summary": "Hess Corporation has signed a $750 million deal with Guyana to purchase REDD+ carbon credits over the next decade, supporting the South American nation's efforts to protect its Amazonian rainforests. This agreement, running from 2022 to 2032, involves Hess buying 37.5 million REDD+ jurisdictional carbon credits and aligns with Guyana's Low Carbon Development Strategy 2030 and Hess's net-zero emissions target by 2050. Approximately 30% of Hess's investment will be allocated to developing Indigenous Amerindian communities in Guyana.",
+      "url": "https://carboncredits.com/hess-signs-750m-redd-carbon-credits-deal-with-guyana/",
+      "source": "CarbonCredits.com",
+      "published": "20221205T165640",
+      "overall_sentiment_score": 0.363755,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.254821,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.736755
+    },
+    {
+      "title": "ExxonMobil CEO Gets Pay Raise",
+      "summary": "Exxon Mobil Corp announced an increase in the annual salaries of its top executives, including CEO Darren Woods, whose salary will rise to $1.88 million from $1.70 million, effective January 1, 2023. This pay hike follows record quarterly profits for the oil major and comes amidst accusations of war profiteering from U.S. President Joe Biden. The company also raised the pay of its CFO and senior vice presidents.",
+      "url": "https://www.oedigital.com/news/501377-exxonmobil-ceo-gets-pay-raise",
+      "source": "Offshore Engineer Magazine",
+      "published": "20221205T083900",
+      "overall_sentiment_score": -0.065485,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.092261,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Exxon completes sale of Chad, Cameroon operations for $407 million",
+      "summary": "Exxon Mobil Corp completed the $407 million sale of its operations in Chad and Cameroon to London-listed Savannah Energy PLC. This move is part of Exxon's strategy to exit African operations with declining crude oil production, focusing instead on its Mozambique LNG project and more profitable ventures in the Americas. Savannah Energy acquired Exxon's 40% stake in the Doba oil project and its indirect interest in the Chad-Cameroon export transportation system.",
+      "url": "https://www.reuters.com/business/energy/exxon-completes-sale-chad-cameroon-operations-407-million-2022-12-09/",
+      "source": "Reuters",
+      "published": "20221209T094100",
+      "overall_sentiment_score": 0.281073,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.437211,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Exxon Lifts Share Buyback to $50 Billion After Record Profit",
+      "summary": "Exxon Mobil Corp. has increased its annual share buyback program to $50 billion through 2024, expanding its previous plan of $30 billion through 2023. This decision comes six weeks after the oil giant reported its highest profit in its 152-year history. The buyback will include $15 billion in share repurchases for the current year, marking the highest annual total since 2013.",
+      "url": "https://www.bloomberg.com/news/articles/2022-12-08/exxon-mobil-expands-share-buyback-plan-to-50-billion",
+      "source": "Bloomberg.com",
+      "published": "20221208T113600",
+      "overall_sentiment_score": 0.406893,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.438104,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Technical Pulse: US Market Sector Analysis Which sectors could outperform in 2023?",
+      "summary": "The article analyzes the performance of US market sectors in 2022, identifying Energy, Healthcare, and Aerospace & Defence as top performers, while Technology, Consumer Cyclicals, and Banks underperformed. It discusses sector rotation analysis based on the business and stock market cycles, suggesting that Utilities, Financials, and Real Estate sectors could outperform in 2023 as the market potentially enters a recessionary phase, especially if interest rates ease. The report concludes by highlighting the shift from value and defensive stocks in 2022 towards rate-sensitive sectors for the upcoming year.",
+      "url": "https://www.stocksbnb.com/reports/technical-pulse-us-market-sector-analysis-which-sectors-could-outperform-in-2023/",
+      "source": "StocksBNB",
+      "published": "20221208T165647",
+      "overall_sentiment_score": 0.401551,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.427986,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.802115
+    }
+  ]
+}

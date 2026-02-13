@@ -1,0 +1,46 @@
+{
+  "ticker": "NVDA",
+  "date": "2023-10-09",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:29:33.667191",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "CHPS ETF Analysis: Dividends, Returns NEO:CHPS",
+      "summary": "This article provides a detailed analysis of the CHPS ETF, Global X Artificial Intelligence Semiconductor Index ETF Class A. It covers key statistics such as Assets Under Management, expense ratio, dividend yield, and issuer information. The article also breaks down the fund's holdings by sector and region, discusses its performance, and answers frequently asked questions regarding its investments, dividends, and AUM.",
+      "url": "https://www.tradingview.com/symbols/NEO-CHPS/analysis/",
+      "source": "TradingView — Track All Markets",
+      "published": "20231003T230854",
+      "overall_sentiment_score": 0.261866,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.312757,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.732279
+    },
+    {
+      "title": "Supermicro At 30: From Designing AI Chips To Selling AI Systems",
+      "summary": "Supermicro, founded 30 years ago, began with Charles Liang's vision to improve server motherboards and power supplies after working on an AI processor design. The company has grown into a $10 billion systems business with global manufacturing facilities and aims for $20 billion in the next three years, continuously expanding its operations and exploring new factory locations.",
+      "url": "https://www.nextplatform.com/2023/09/28/supermicro-at-30-from-designing-ai-chips-to-selling-ai-systems/",
+      "source": "The Next Platform",
+      "published": "20230928T154059",
+      "overall_sentiment_score": 0.281995,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.241499,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.647547
+    },
+    {
+      "title": "Palantir: Implications Of The $28B Mega Cisco-Splunk Deal (NYSE:PLTR)",
+      "summary": "Cisco's $28 billion acquisition of Splunk underscores the increasing value of AI capabilities in the industry, raising questions about potential takeover targets. Palantir Technologies, with its aggressive focus on AI and growth in Business Intelligence, is identified as a possible acquisition candidate. This deal highlights the broader trend of large corporations seeking to acquire advanced AI capabilities for long-term revenue growth.",
+      "url": "https://seekingalpha.com/article/4639030-palantir-implications-of-28b-mega-cisco-splunk-deal",
+      "source": "Seeking Alpha",
+      "published": "20231004T162900",
+      "overall_sentiment_score": 0.246818,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.118812,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.642284
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "ticker": "JNJ",
+  "date": "2025-05-19",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:00:50.793201",
+  "source": "alpha_vantage",
+  "article_count": 9,
+  "articles": [
+    {
+      "title": "Atara Biotherapeutics Appoints James Huang and Nachi Subramanian to Board of Directors",
+      "summary": "Atara Biotherapeutics announced the appointment of James Huang and Nachi Subramanian to its Board of Directors, effective after its recently closed $16 million offering. James Huang brings over 37 years of biotech experience, including founding Panacea Venture and senior roles at Kleiner Perkins and Vivo Ventures. Nachi Subramanian is a Managing Director at Redmile Group, with previous senior roles at J.P. Morgan and Bear Stearns.",
+      "url": "https://www.biospace.com/press-releases/atara-biotherapeutics-appoints-james-huang-and-nachi-subramanian-to-board-of-directors",
+      "source": "BioSpace",
+      "published": "20250519T000000",
+      "overall_sentiment_score": 0.206017,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.14275,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.576422
+    },
+    {
+      "title": "Earnings Update: Lexicon Pharmaceuticals, Inc. (NASDAQ:LXRX) Just Reported And Analysts Are Boosting Their Estimates",
+      "summary": "Lexicon Pharmaceuticals (NASDAQ:LXRX) reported strong latest results, with revenues exceeding analyst forecasts and statutory losses being smaller than expected. Analysts have significantly increased their revenue forecasts for 2025 to US$13.8m and reduced estimated losses to US$0.33 per share, although expected revenues still reflect a decline over the past 12 months and are projected to grow slower than the wider industry. The consensus price target remained unchanged despite the improved outlook, with a wide range of individual analyst valuations highlighting divergent views on the company's future performance.",
+      "url": "https://simplywall.st/stocks/us/pharmaceuticals-biotech/nasdaq-lxrx/lexicon-pharmaceuticals/news/earnings-update-lexicon-pharmaceuticals-inc-nasdaqlxrx-just",
+      "source": "Simply Wall Street",
+      "published": "20250517T000000",
+      "overall_sentiment_score": 0.152132,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.039635,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.630903
+    },
+    {
+      "title": "LAVA Reports First Quarter 2025 Financial Results, Provides Business Update",
+      "summary": "LAVA Therapeutics N.V. reported its first-quarter 2025 financial results, emphasizing its focus on evaluating strategic alternatives, restructuring, and closing Netherlands operations. The company maintains $66.6 million in cash, cash equivalents, and short-term investments, projected to fund operations into 2027. LAVA also provided updates on its clinical-stage programs, including LAVA-1266, J&J's JNJ-89853413, and Pfizer's PF08046052, while detailing financial outcomes such as a net loss of $3.5 million for the quarter.",
+      "url": "https://www.globenewswire.com/news-release/2025/05/14/3081036/0/en/LAVA-Reports-First-Quarter-2025-Financial-Results-Provides-Business-Update.html",
+      "source": "GlobeNewswire",
+      "published": "20250514T073000",
+      "overall_sentiment_score": 0.165433,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.2548,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.719234
+    },
+    {
+      "title": "Royalty Pharma Announces Shareholder Approval of its External Manager Acquisition",
+      "summary": "Royalty Pharma plc (Nasdaq: RPRX) announced that its shareholders have overwhelmingly approved the acquisition of its external manager, marking a significant step towards internalizing its management. This move is expected to enhance corporate governance, increase transparency, and create substantial financial benefits for shareholders, including over $1.6 billion in cumulative savings over ten years. The transaction will transition the company from an external management model to an integrated corporate structure, with current employees of the manager becoming direct employees of Royalty Pharma.",
+      "url": "https://www.citybiz.co/article/693676/royalty-pharma-announces-shareholder-approval-of-its-external-manager-acquisition/",
+      "source": "citybiz",
+      "published": "20250512T095741",
+      "overall_sentiment_score": 0.328135,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.221683,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.565613
+    },
+    {
+      "title": "Nanobiotix Shares Positive Data from MD Anderson-Led Phase I Study in Pancreatic Cancer",
+      "summary": "Nanobiotix announced positive full results from a Phase I study for its novel oncology therapy, JNJ-1900 (NBTXR3), in patients with locally advanced or borderline resectable pancreatic cancer. The study, conducted by The University of Texas MD Anderson Cancer Center, demonstrated a favorable safety profile, injection feasibility, and a median overall survival of 23 months from diagnosis. These results, presented at ESTRO 2025, suggest the therapy could be a meaningful addition to existing treatment options, with further evaluation ongoing.",
+      "url": "https://www.appliedclinicaltrialsonline.com/view/nanobiotix-positive-data-md-anderson-study-pancreatic-cancer",
+      "source": "Applied Clinical Trials",
+      "published": "20250506T160930",
+      "overall_sentiment_score": 0.390512,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.259879,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.621089
+    },
+    {
+      "title": "RMAT designation for Opus’ OPGx-LCA5 gene therapy candidate",
+      "summary": "Opus Genetics has received a Regenerative Medicine Advanced Therapy (RMAT) designation from the US FDA for its investigational gene therapy, OPGx-LCA5, which treats Leber congenital amaurosis (LCA) caused by LCA5 gene variations. This designation is supported by early clinical evidence from an ongoing Phase I/II trial, recognizing the therapy's potential and addressing an unmet need for patients with severe vision loss. Opus Genetics was formed through a merger with Ocuphire Pharma in October of the previous year.",
+      "url": "https://www.thepharmaletter.com/rmat-designation-for-opus-opgx-lca5-gen-therapy-candidate",
+      "source": "The Pharma Letter",
+      "published": "20250506T055818",
+      "overall_sentiment_score": 0.269754,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.132439,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.606927
+    },
+    {
+      "title": "Embolization Market to Get an Explosive Growth | Stryker Corporation, Medtronic plc, and Boston Scientific Corporation",
+      "summary": "The Embolization market is projected to grow significantly from USD 2.40 billion in 2025 to USD 4.28 billion by 2032, exhibiting a CAGR of 8.6%. A new research study by Coherent Market Insights provides a comprehensive analysis of the market dynamics, segmentation, growth opportunities, trends, and competitive landscape, including key players like Stryker Corporation, Medtronic plc, and Boston Scientific Corporation. The report details market drivers, restraints, future trends, and strategic insights for market participants.",
+      "url": "https://www.openpr.com/news/4254276/embolization-market-to-get-an-explosive-growth-stryker",
+      "source": "openPR.com",
+      "published": "20250511T070500",
+      "overall_sentiment_score": 0.337829,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.303908,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.645999
+    },
+    {
+      "title": "How Johnson & Johnson researchers are working to help patients at risk of developing multiple myeloma",
+      "summary": "Johnson & Johnson researchers are focusing on early intervention for patients at high risk of developing multiple myeloma (MM) from smoldering multiple myeloma (SMM). This initiative aims to address the current \"watch and wait\" approach, which leaves high-risk SMM patients without approved therapies, leading to significant emotional distress. By pioneering early therapeutic interventions, J&J hopes to delay the progression to active MM, potentially allowing patients to live without requiring active treatment for longer.",
+      "url": "https://www.jnj.com/oncology/early-intervention-how-johnson-johnson-researchers-are-working-to-help-patients-at-risk-of-developing-multiple-myeloma",
+      "source": "Johnson & Johnson",
+      "published": "20250514T000000",
+      "overall_sentiment_score": 0.449691,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.444593,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Johnson & Johnson appears to scrub most DEI information from website",
+      "summary": "Johnson & Johnson has quietly removed much of its public Diversity, Equity, and Inclusion (DEI) information from its website in recent months, rebranded employee resource groups, and deleted information on racial health disparities. This move follows a $100 million diversity pledge in 2020 and mirrors similar actions by other corporations, though J&J maintains some disability initiatives. The changes occurred amidst increased scrutiny and threats of investigation into DEI programs and a corporate trend accelerated by the 2023 Supreme Court decision on affirmative action.",
+      "url": "https://www.hr-brew.com/stories/2025/05/09/exclusive-johnson-and-johnson-appears-to-scrub-most-dei-information-from-website",
+      "source": "HR Brew",
+      "published": "20250509T000000",
+      "overall_sentiment_score": 0.03018,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.044532,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.337863
+    }
+  ]
+}

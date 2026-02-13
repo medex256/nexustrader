@@ -1,0 +1,22 @@
+{
+  "ticker": "JNJ",
+  "date": "2025-02-24",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:59:53.645822",
+  "source": "alpha_vantage",
+  "article_count": 1,
+  "articles": [
+    {
+      "title": "Teva and Alvotech launch ustekinumab biosimilar injection in US",
+      "summary": "Teva Pharmaceuticals and Alvotech have launched Selarsdi (ustekinumab-aekn) injection, a biosimilar to Johnson & Johnson’s Stelara, in the US. This marks the second biosimilar launched under their strategic collaboration, indicated for various immune-mediated and inflammatory conditions. Selarsdi has received FDA approval in four presentations and is provisionally deemed interchangeable with Stelara from April 30, 2025.",
+      "url": "https://www.pharmaceutical-technology.com/news/teva-alvotech-ustekinumab-biosimilar/",
+      "source": "Pharmaceutical Technology",
+      "published": "20250224T000000",
+      "overall_sentiment_score": 0.326531,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.208728,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.938106
+    }
+  ]
+}

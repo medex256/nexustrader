@@ -1,0 +1,46 @@
+{
+  "ticker": "JNJ",
+  "date": "2022-04-11",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:45:34.159427",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "Vertex CEO Kewalramani nabs more than $15M in 2021 pay, rivaling some male Big Pharma peers",
+      "summary": "Vertex Pharmaceuticals CEO Reshma Kewalramani earned over $15 million in total compensation in 2021, a 50% increase from the previous year. This pay package positions her compensation favorably against that of several male Big Pharma CEOs. The company praised her leadership for achieving financial goals and expanding its cystic fibrosis business.",
+      "url": "https://www.fiercepharma.com/pharma/vertex-ceo-kewalramani-nabs-more-15m-2021-pay-rivaling-male-peers",
+      "source": "Fierce Pharma",
+      "published": "20220408T111000",
+      "overall_sentiment_score": 0.338387,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.31476,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.581988
+    },
+    {
+      "title": "J&J scores one-two royalty punch against Genmab in blockbuster Darzalex fight",
+      "summary": "An arbitration tribunal has sided with Johnson & Johnson on two key issues in its royalty dispute with Genmab over the blockbuster multiple myeloma drug Darzalex. J&J will pay royalties only through Genmab's last-held patent, not J&J's own, and can reduce royalty payments to Genmab to offset its obligations to Halozyme for drug delivery technology used in Darzalex Faspro. This decision follows J&J scaling back its payments in 2020, costing Genmab approximately $73.16 million to date.",
+      "url": "https://www.fiercepharma.com/pharma/jj-scores-one-two-royalty-punch-against-genmab-megablockbuster-darzalex-arbitration",
+      "source": "Fierce Pharma",
+      "published": "20220408T095500",
+      "overall_sentiment_score": 0.08255,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.317504,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.911776
+    },
+    {
+      "title": "CVS, Others To Pay Florida $860M To Settle Opioid Case",
+      "summary": "CVS and other pharmaceutical companies have agreed to pay Florida a combined $860 million to settle an opioid epidemic case. CVS Health Corp. and CVS Pharmacy Inc. will contribute $484 million, while Teva Pharmaceuticals Industries Ltd. will pay $195 million and provide $84 million worth of Narcan nasal spray. This settlement aims to help remediate the harm caused by the opioid crisis in Florida, with the funds allocated to state and local efforts to combat the epidemic.",
+      "url": "https://www.cbsnews.com/miami/news/cvs-others-to-pay-florida-860m-to-settle-opioid-case/",
+      "source": "CBS News",
+      "published": "20220330T113000",
+      "overall_sentiment_score": -0.087828,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.13389,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.725393
+    }
+  ]
+}

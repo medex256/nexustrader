@@ -1,0 +1,142 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-09-18",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:52:36.940402",
+  "source": "alpha_vantage",
+  "article_count": 11,
+  "articles": [
+    {
+      "title": "Johnson & Johnson's rebrand: Focusing on pharma innovation",
+      "summary": "Johnson & Johnson has rebranded its Janssen pharma division as Johnson & Johnson Innovative Medicine, signaling a strategic shift to prioritize higher-margin prescription drugs and innovation. This move follows significant legal challenges, including talcum powder lawsuits, and the spin-off of its consumer health division, Kenvue. J&J aims for continued growth in its pharma sector, focusing on key therapeutic areas despite upcoming patent expirations for drugs like Stelara.",
+      "url": "https://www.drugdiscoverytrends.com/johnson-johnson-rebrand-pharma-focus/",
+      "source": "www.drugdiscoverytrends.com",
+      "published": "20230914T145943",
+      "overall_sentiment_score": 0.023935,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.003319,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.316053
+    },
+    {
+      "title": "Johnson & Johnson drops 136-year-old logo and renames Janssen",
+      "summary": "Johnson & Johnson has unveiled a new logo, replacing its 136-year-old cursive design with a more modern look, and renamed its Janssen pharmaceutical business to Johnson & Johnson Innovative Medicine. These changes follow the recent spin-off of its consumer health business and aim to highlight the company's focus on innovative medicine and medtech. The new branding strategy seeks to unite its pharmaceutical and medical device segments under a single, iconic name to better reflect its commitment to healthcare solutions.",
+      "url": "https://www.medicaldesignandoutsourcing.com/johnson-johnson-new-logo-janssen-renamed-innovative-medicine/",
+      "source": "Medical Design & Outsourcing",
+      "published": "20230914T145941",
+      "overall_sentiment_score": 0.179155,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.261445,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Mayo Clinic and GE HealthCare enter strategic collaboration to advance innovation in medical imaging and theranostics",
+      "summary": "Mayo Clinic and GE HealthCare have announced a strategic collaboration to advance innovation in medical imaging and theranostics. This partnership will focus on research and product development to transform patient and clinician experiences in radiology, aiming to accelerate the clinical translation of advanced technologies. The collaboration will concentrate on four core areas, including advanced MR technologies, precise cancer imaging, improved interventional ultrasound, and personalized patient imaging experiences through AI and digital health platforms.",
+      "url": "https://newsnetwork.mayoclinic.org/discussion/mayo-clinic-and-ge-healthcare-enter-strategic-collaboration-to-advance-innovation-in-medical-imaging-and-theranostics/",
+      "source": "Mayo Clinic News Network",
+      "published": "20230914T144509",
+      "overall_sentiment_score": 0.399871,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.309489,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.621932
+    },
+    {
+      "title": "Contact - The Lethbridge Herald - News and Sports from around Lethbridge",
+      "summary": "First Trust Advisors L.P. announced the monthly distribution for the First Trust Income Opportunities ETF (FCEF). The distribution amount is $0.1175 per share, with an expected ex-dividend date of September 12, 2023. The article also details the investment objectives, risks, charges, and expenses associated with investing in the Fund, advising potential investors to read the prospectus carefully.",
+      "url": "https://markets.financialcontent.com/lethbridgeherald/article/bizwire-2023-9-11-first-trust-advisors-lp-announces-distribution-for-first-trust-income-opportunities-etf",
+      "source": "FinancialContent",
+      "published": "20230911T160500",
+      "overall_sentiment_score": 0.317233,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.322959,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.607464
+    },
+    {
+      "title": "Janssen rebrands its identity",
+      "summary": "Johnson & Johnson is rebranding its Janssen pharmaceutical division as Johnson & Johnson Innovative Medicine, aligning it more closely with the overall J&J brand. This move is part of an effort to modernize its pharmaceutical and medtech segments. Simultaneously, the company's medical technology segment will remain as Johnson & Johnson MedTech and Novartis also finalized the spin-off of Sandoz.",
+      "url": "https://www.europeanpharmaceuticalreview.com/news/186733/janssen-rebrands-its-identity/",
+      "source": "European Pharmaceutical Review",
+      "published": "20230915T145944",
+      "overall_sentiment_score": 0.272804,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.260374,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "The Daily Scoop: Johnson & Johnson plays it safe with new logo change",
+      "summary": "Johnson & Johnson is changing its 136-year-old cursive logo to a plainer font in a brighter red, aiming to highlight its focus on medical devices and pharmaceuticals and to modernize its brand for a digital age. This rebrand also helps distance the company from controversies surrounding its talcum-based baby powder. While some marketing professionals praise the change for readability, others criticize it for being generic, demonstrating the challenges of evolving an iconic brand.",
+      "url": "https://www.prdaily.com/johnson-johnson-plays-it-safe-with-new-logo-change/",
+      "source": "PR Daily",
+      "published": "20230915T145944",
+      "overall_sentiment_score": 0.003011,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.019799,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.348615
+    },
+    {
+      "title": "Johnson & Johnson Marks New Era as Global Healthcare Company with Updated Visual Identity",
+      "summary": "Johnson & Johnson is updating its brand identity to reflect its exclusive focus on healthcare innovation, uniting its medtech and pharmaceutical segments under a single Johnson & Johnson brand. The company's pharmaceutical segment will now be known as Johnson & Johnson Innovative Medicine, and the medical technology segment as Johnson & Johnson MedTech. This rebranding includes a modernized logo, refreshed color palette, and new art direction, aiming to communicate its bold approach to healthcare innovation while maintaining its caring nature.",
+      "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-marks-new-era-as-global-healthcare-company-with-updated-visual-identity",
+      "source": "Johnson & Johnson",
+      "published": "20230914T145940",
+      "overall_sentiment_score": 0.466209,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.495036,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "IBM notifies J&J unit Janssen CarePath's customers of unauthorized data access",
+      "summary": "IBM has notified customers of Janssen CarePath, a Johnson & Johnson unit, about a \"data incident\" involving unauthorized access to personal information stored in a database managed by IBM. The incident did not involve Social Security numbers or financial account information, but may have exposed names, contact details, and health-related information provided to the Janssen CarePath application. IBM stated it was unable to determine the full extent of the unauthorized access.",
+      "url": "https://www.reuters.com/technology/ibm-notifies-jj-unit-janssen-carepaths-customers-unauthorized-data-access-2023-09-06/",
+      "source": "Reuters",
+      "published": "20230906T203500",
+      "overall_sentiment_score": -0.246501,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.226099,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.831076
+    },
+    {
+      "title": "Here's why Johnson & Johnson just ditched one of the world's oldest logos",
+      "summary": "Johnson & Johnson has replaced its iconic 135-year-old cursive logo with a cleaner, sans-serif design. This change reflects the company's shift in focus to innovative pharmaceuticals and medical devices after spinning off its consumer healthcare business. The new logo aims for better legibility and a more modern identity aligned with its updated corporate strategy.",
+      "url": "https://www.creativebloq.com/news/new-johnson-and-johnson-logo",
+      "source": "Creative Bloq",
+      "published": "20230916T145942",
+      "overall_sentiment_score": 0.034631,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.146126,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Active Ingredient in Hundreds of Cold and Flu Meds Is ‘Entirely Ineffective,’ Class Action Says",
+      "summary": "A class action lawsuit has been filed against fourteen companies for selling over-the-counter cold and flu medicines containing phenylephrine, an active ingredient that an FDA advisory panel deemed \"entirely ineffective\" at treating nasal congestion. The lawsuit claims that these companies, including makers of popular brands like Tylenol and Sudafed, have long marketed their products as effective despite knowing the ingredient works no better than a placebo. This legal action follows a unanimous FDA advisory committee vote that phenylephrine does not work to treat nasal congestion, raising questions about its continued use in numerous products.",
+      "url": "https://www.classaction.org/news/active-ingredient-in-hundreds-of-cold-and-flu-meds-is-entirely-ineffective-class-action-says",
+      "source": "ClassAction.org",
+      "published": "20230913T000000",
+      "overall_sentiment_score": -0.306995,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.363426,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.947748
+    },
+    {
+      "title": "Are super-personalized solutions the future of healthcare?",
+      "summary": "Johnson & Johnson is pioneering precision medicine, aiming to develop individualized treatments based on a patient’s genetic profile to move beyond the traditional one-size-fits-all approach. The company is actively working on targeted therapies for various diseases, partnering with diagnostic companies, and focusing on educating patients and physicians to overcome barriers to access. This approach promises more effective treatments and better outcomes by ensuring patients receive the right test and the right therapy at the right time.",
+      "url": "https://www.jnj.com/innovation/are-super-personalized-solutions-the-future-of-healthcare",
+      "source": "Johnson & Johnson",
+      "published": "20230914T145941",
+      "overall_sentiment_score": 0.401527,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.527967,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "ticker": "NVDA",
+  "date": "2021-09-13",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:05:40.974243",
+  "source": "alpha_vantage",
+  "article_count": 1,
+  "articles": [
+    {
+      "title": "PayPal, Workday Lead New Names On IBD Breakout Stocks Index",
+      "summary": "PayPal (PYPL) and Workday (WDAY) are identified as leading growth stocks on the IBD Breakout Stocks Index, both charging toward new buy points. Their inclusion also highlights the IBD Breakout Opportunities ETF (BOUT), which is also demonstrating breakout potential. JPMorgan recently downgraded PayPal, citing a slower-than-expected turnaround under its new CEO.",
+      "url": "https://www.investors.com/research/breakout-stocks-technical-analysis/paypal-stock-workday-stock-lead-growth-stocks-on-bout-etf/",
+      "source": "Investor's Business Daily",
+      "published": "20210908T190948",
+      "overall_sentiment_score": 0.097968,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.145013,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.626057
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "ticker": "XOM",
+  "date": "2022-09-05",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:08:03.072884",
+  "source": "alpha_vantage",
+  "article_count": 9,
+  "articles": [
+    {
+      "title": "Dow temporarily cutting PE production by 15 percent",
+      "summary": "Dow Inc., one of the world's largest polyethylene resin makers, is temporarily reducing its global PE production capacity by approximately 15 percent due to global logistics constraints, including port and rail congestions. This move aims to balance elevated inventories and improve logistics resiliency, particularly ahead of the hurricane season in the U.S. Industry analysts suggest the cuts are a temporary solution to PE overcapacity and declining prices but may not be widely followed by competitors.",
+      "url": "https://www.plasticsnews.com/materials/dow-temporarily-cutting-pe-production-15-percent",
+      "source": "Plastics News",
+      "published": "20220825T124800",
+      "overall_sentiment_score": 0.001536,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.106912,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.640101
+    },
+    {
+      "title": "Will Friday’s weak gain in crude oil prices grow this week?",
+      "summary": "Crude oil prices saw a weak gain on Friday amidst investor nervousness about China's COVID-19 shutdowns and the global economy, ahead of an OPEC+ meeting. West Texas Intermediate and Brent crude futures rose marginally, while natural gas prices fell. Various Oklahoma and other energy stocks experienced gains, with some utility stocks declining.",
+      "url": "https://www.okenergytoday.com/2022/09/will-fridays-weak-gain-in-crude-oil-prices-grow-this-week/",
+      "source": "Oklahoma Energy Today",
+      "published": "20220904T163648",
+      "overall_sentiment_score": 0.287873,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.266285,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.645688
+    },
+    {
+      "title": "Blackstone and Carlyle take different sides on oil and gas investment",
+      "summary": "Private equity giants Blackstone and Carlyle Group are taking differing approaches to oil and gas investments amidst pressure to divest from fossil fuels and invest in cleaner energy. Blackstone is largely pulling back from new oil and gas exploration and production investments, while Carlyle Group and Brookfield Asset Management Inc. advocate for transforming existing traditional energy producers into more climate-friendly businesses, emphasizing \"invest, not divest\" strategies. This divergence reflects the challenges of volatile returns, a fraught political climate, and difficulties in financing and exiting fossil fuel assets, contrasting with the growing investment in renewable energy.",
+      "url": "https://brazilenergyinsight.com/2022/09/02/blackstone-and-carlyle-take-different-sides-on-oil-and-gas-investment/",
+      "source": "Brazil Energy Insight",
+      "published": "20220902T162130",
+      "overall_sentiment_score": 0.056114,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.198092,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.573673
+    },
+    {
+      "title": "WSJ News Exclusive | Exxon Escalates Dispute With Russia Over Barred Exit From Giant Oil Project",
+      "summary": "Exxon Mobil Corp. has notified Russian officials of its intent to sue the government if it is not allowed to exit the Sakhalin-1 oil-and-gas project. A Russian decree enacted in early August has prevented Exxon from transferring operatorship and selling its 30% stake in the venture, despite the company's prior plans to divest following Russia's invasion of Ukraine.",
+      "url": "https://www.wsj.com/business/energy-oil/exxon-escalates-dispute-with-russia-over-barred-exit-from-giant-oil-project-11661851802?gaa_at=eafs&gaa_n=AWEtsqfisKle_TxYFAKGUbgVGK3c3nF2xxy46vqxrRt039btUj3US9EKtjJy&gaa_ts=6907b14e&gaa_sig=dxR7tCLXgZ8f4K2EB-SPAYJ5vV1zW46SKzNhIrXetehktNc1JSwDc7qytuVewepmcrVulXQa2WQ-wxrrJxkC7w%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20220830T191700",
+      "overall_sentiment_score": -0.30264,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.34302,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.95794
+    },
+    {
+      "title": "Exxon, Shell, Chevron end lawsuits against Nigeria's state-owned oil company",
+      "summary": "Four major oil companies, including Exxon, Shell, and Chevron, have agreed to end U.S. lawsuits seeking to enforce multi-billion dollar arbitration awards against Nigeria's state-owned oil company, NNPC. This decision follows new deepwater oil production sharing agreements between the companies and NNPC, with the lawsuits expected to be terminated after the agreements take effect. The disputes stemmed from accusations that NNPC drew more oil than permitted under previous contracts, with awards totaling nearly $4 billion.",
+      "url": "https://www.reuters.com/markets/commodities/exxon-shell-chevron-end-lawsuits-against-nigerias-state-owned-oil-company-2022-08-24/",
+      "source": "Reuters",
+      "published": "20220824T190500",
+      "overall_sentiment_score": 0.128652,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.117173,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.862509
+    },
+    {
+      "title": "Chart Industries CEO Expects LNG Plants to Go Up Faster as Projects Utilize New Designs",
+      "summary": "Chart Industries CEO Jillian Evanko anticipates a rapid acceleration in LNG plant construction due to a shift towards smaller, modular designs that reduce costs and construction times. This modular approach, first adopted in the US and now gaining international traction, is helping to meet the escalating global demand for LNG, especially in light of recent geopolitical events. Evanko also highlighted hydrogen and carbon capture as key long-term growth areas for the company.",
+      "url": "https://naturalgasintel.com/news/chart-industries-ceo-expects-lng-plants-to-go-up-faster-as-projects-utilize-new-designs/",
+      "source": "Natural Gas Intelligence",
+      "published": "20220824T112800",
+      "overall_sentiment_score": 0.185885,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.342587,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.628766
+    },
+    {
+      "title": "Exxon plans January coker, crude unit work at Louisiana refinery -sources",
+      "summary": "Exxon Mobil Corp plans to shut down a coker and crude distillation units at its 520,000 barrel-per-day Baton Rouge, Louisiana, refinery for maintenance in January. The maintenance will begin with the 50,000-bpd Far East Coker, which will be shut for 68 days to replace all four of its coke drums. Subsequently, work will be performed on the refinery's four crude distillation units.",
+      "url": "https://www.reuters.com/markets/commodities/exxon-plans-january-coker-crude-unit-work-louisiana-refinery-sources-2022-08-23/",
+      "source": "Reuters",
+      "published": "20220823T173600",
+      "overall_sentiment_score": -0.108588,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.142639,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Exxon Beaumont, Texas, chemical plant upset triggered flaring -sources",
+      "summary": "A malfunction at Exxon Mobil Corp's Beaumont, Texas, chemical plant led to flaring on Friday, according to sources familiar with the plant's operations. The chemical plant utilized portions of the adjoining refinery's safety flare system, though the refinery's operations remained normal. Exxon issued community notices regarding the flaring, which is a safety measure used by plants when they cannot process hydrocarbons normally.",
+      "url": "https://www.reuters.com/business/energy/exxon-warns-flaring-beaumont-texas-refinery-chemical-plant-community-website-2022-09-02/",
+      "source": "Reuters",
+      "published": "20220902T211800",
+      "overall_sentiment_score": 0.040125,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.028427,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.302151
+    },
+    {
+      "title": "Direxion Plans Energy-Focused Single-Stock ETFs",
+      "summary": "Direxion has filed for eight new single-stock ETFs focused on major energy companies like Chevron, ConocoPhillips, ExxonMobil, and EOG Resources. These funds will offer leveraged and inverse exposure, allowing investors to bet on both the upside and downside of these key energy stocks. The move comes as the energy sector, while having strong year-to-date performance, has recently faced significant outflows from the largest energy ETF (XLE).",
+      "url": "https://finance.yahoo.com/news/direxion-plans-energy-focused-single-160000770.html",
+      "source": "Yahoo Finance",
+      "published": "20220902T072939",
+      "overall_sentiment_score": 0.172026,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.299598,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

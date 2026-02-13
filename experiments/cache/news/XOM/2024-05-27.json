@@ -1,0 +1,70 @@
+{
+  "ticker": "XOM",
+  "date": "2024-05-27",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:37:05.371594",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Big Lithium Processing Plant Planned in Oklahoma",
+      "summary": "Stardust Power plans to build a large lithium processing plant in Muskogee, Oklahoma, aiming to process 50,000 tons of lithium annually to supply 1.1 million electric vehicles. This $1.2 billion project is driven by federal incentives promoting domestic sourcing of critical minerals and seeks to address the refining bottleneck in the North American lithium supply chain. The company is pursuing funding through a SPAC deal, government grants, and state incentives, with construction slated to begin in 2025.",
+      "url": "https://www.autoweek.com/news/a60875619/stardust-power-lithium-plant-oklahoma/",
+      "source": "Autoweek",
+      "published": "20240524T080000",
+      "overall_sentiment_score": 0.235882,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.342801,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.616111
+    },
+    {
+      "title": "Vivek Ramaswamy spent $3.3 million to buy 8% of BuzzFeed. How much damage could he do with that stake?",
+      "summary": "Vivek Ramaswamy recently acquired an 8% stake in BuzzFeed for $3.3 million, making him the fourth-largest shareholder of its class A shares. While a significant stake, BuzzFeed's dual-class stock structure and the majority control held by CEO Jonah Peretti may limit his influence. Ramaswamy's history as an activist investor suggests he intends to push for strategic changes despite the company's structure designed to protect its editorial integrity from such interventions.",
+      "url": "https://www.fastcompany.com/91130074/vivek-ramaswamy-buzzfeed-purchase-stake-explained",
+      "source": "Fast Company",
+      "published": "20240523T000000",
+      "overall_sentiment_score": 0.033132,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.108003,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.645865
+    },
+    {
+      "title": "Hess CEO rallies support as $53 billion Chevron deal approaches investor vote amid ExxonMobil arbitration",
+      "summary": "John Hess is actively lobbying shareholders to support Chevron's $53 billion acquisition of Hess Corp. ahead of a May 28 vote, despite lingering doubts due to an ExxonMobil arbitration claim over Hess's Guyana stake. The deal faces opposition from some large investors and a proxy adviser, while another recommends approval, as the arbitration could delay dividend payments to Hess shareholders. The arbitration outcome is crucial as Chevron has indicated it would walk away if it loses.",
+      "url": "https://worldoil.com/news/2024/5/23/hess-ceo-rallies-support-as-53-billion-chevron-deal-approaches-investor-vote-amid-exxonmobil-arbitration/",
+      "source": "World Oil",
+      "published": "20240523T000000",
+      "overall_sentiment_score": -0.278032,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.305237,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.829672
+    },
+    {
+      "title": "Crescent Energy to Acquire SilverBow Resources for $2.1 Billion, Creating a Leading Growth Through Acquisition Company with a Premier Eagle Ford Position",
+      "summary": "Crescent Energy is set to acquire SilverBow Resources for $2.1 billion, a move advised by Vinson & Elkins. SilverBow shareholders will receive 3.125 shares of Crescent Class A Common Stock per share or a cash alternative of $38 per share. The merger, subject to shareholder approval, is expected to close in the third quarter of 2024, aiming to create a leading growth-through-acquisition company with a key Eagle Ford position.",
+      "url": "https://www.velaw.com/news/crescent-energy-to-acquire-silverbow-resources-for-2-1-billion-creating-a-leading-growth-through-acquisition-company-with-a-premier-eagle-ford-position/",
+      "source": "Vinson & Elkins LLP",
+      "published": "20240516T000000",
+      "overall_sentiment_score": 0.337328,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.295878,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.595082
+    },
+    {
+      "title": "ProPetro Appoints Alex Volkov to Board of Directors",
+      "summary": "ProPetro Holding Corp. announced the appointment of Alex Volkov to its Board of Directors, effective May 8, 2024, as ExxonMobil's designee. Mr. Volkov, currently a Transition Executive for ExxonMobil's integration of Pioneer Natural Resources, brings nearly three decades of experience from ExxonMobil. Mark Berg, a previous designee, will remain on the Board as an independent director.",
+      "url": "https://www.citybiz.co/article/554158/propetro-appoints-alex-volkov-to-board-of-directors/",
+      "source": "citybiz",
+      "published": "20240513T000000",
+      "overall_sentiment_score": 0.276696,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.22079,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.826159
+    }
+  ]
+}

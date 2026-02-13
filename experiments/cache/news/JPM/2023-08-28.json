@@ -1,0 +1,142 @@
+{
+  "ticker": "JPM",
+  "date": "2023-08-28",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:13:31.992472",
+  "source": "alpha_vantage",
+  "article_count": 11,
+  "articles": [
+    {
+      "title": "Are Regional Bank ETFs in Deep Trouble?",
+      "summary": "The U.S. regional banking sector has experienced a recent downturn, with ETFs like SPDR S&P Regional Banking ETF (KRE), iShares U.S. Regional Banks ETF (IAT), and Invesco KBW Regional Banking ETF (KBWR) declining due to bank downgrades. Rating agencies S&P Global, Moody's, and Fitch have cut or warned of downgrades for several banks, citing a tough lending environment, rising funding costs, and commercial real estate exposure. Despite challenges, the article suggests that banks are in a better position with healthier balance sheets and that a resilient economy could support future growth for regional banks.",
+      "url": "https://247wallst.com/investing/2023/08/23/are-regional-bank-etfs-in-deep-trouble/",
+      "source": "24/7 Wall St.",
+      "published": "20230823T223700",
+      "overall_sentiment_score": -0.130122,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.119724,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.611593
+    },
+    {
+      "title": "Jeremy Grantham's GMO to launch first ETF",
+      "summary": "Jeremy Grantham's firm GMO is set to launch its first actively-managed ETF, focusing on quality US stocks, in response to growing demand for ETFs over traditional mutual funds. This move marks GMO's entry into the competitive ETF industry, broadening its product line beyond its existing mutual funds, despite being a late entrant. The fund will assess companies based on both systemic and judgmental factors to determine suitability.",
+      "url": "https://www.etfstream.com/articles/jeremy-grantham-s-gmo-to-launch-first-etf",
+      "source": "ETF Stream",
+      "published": "20230822T153009",
+      "overall_sentiment_score": 0.203118,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.143346,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.603735
+    },
+    {
+      "title": "Pasadena’s East West Bancorp Earns Top Spot in 2023 Bank Director Performance Ranking",
+      "summary": "Pasadena-based East West Bancorp, Inc. has been recognized as the No. 1 Performing Bank in Bank Director’s 2023 RankingBanking study for banks with $50 billion and above in assets. This marks a continued trend of strong performance, following its recognition as Best Board in 2022 and No. 1 Performing Bank in 2021. The achievements highlight the company's strong balance sheet, financial performance, and dedicated team.",
+      "url": "https://pasadenanow.com/main/pasadenas-east-west-bancorp-earns-top-spot-in-2023-bank-director-performance-ranking",
+      "source": "Pasadena Now",
+      "published": "20230818T052200",
+      "overall_sentiment_score": 0.778162,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.742746,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.59688
+    },
+    {
+      "title": "Wheatland Bank to be acquired by Glacier Bancorp",
+      "summary": "Wheatland Bank, with a branch in Pasco, is slated to be acquired by Glacier Bancorp, pending approval from shareholders and banking regulators, with an expected completion in Q4 2023. This acquisition marks Glacier's 25th since 2000, creating a combined division with $1.6 billion in assets and 23 branches under the leadership of Wheatland's current CEO, Susan Horton. The move will significantly expand Glacier's presence in eastern and central Washington.",
+      "url": "https://www.tricitiesbusinessnews.com/articles/4628",
+      "source": "Tri-Cities Area Journal of Business",
+      "published": "20230814T144114",
+      "overall_sentiment_score": 0.200165,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.251303,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.57534
+    },
+    {
+      "title": "US Steel Becomes Target of Takeover by Cleveland-Cliffs, Rejects Deal as 'Unacceptable\"",
+      "summary": "Cleveland-Cliffs Inc. publicly announced its intention to acquire US Steel in a cash and stock deal valued at approximately $7.5 billion, which US Steel promptly rejected as \"unacceptable\" and \"unreasonable.\" Despite the rejection, Cleveland-Cliffs aims to put pressure on US Steel's board through its shareholders, highlighting the potential for creating one of the world's largest steel producers outside of China and significant advantages for the combined entity. The Unite Steelworkers union has endorsed the proposed acquisition by Cleveland-Cliffs.",
+      "url": "https://www.roofingcontractor.com/articles/98589-us-steel-becomes-target-of-takeover-by-cleveland-cliffs-rejects-deal-as-unacceptable",
+      "source": "Roofing Contractor",
+      "published": "20230814T000000",
+      "overall_sentiment_score": 0.220803,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.213318,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.837813
+    },
+    {
+      "title": "HPS: Good Income Fund, But Premium Valuation A Turn-Off",
+      "summary": "The John Hancock Preferred Income Fund III (HPS) offers a high current income with a 9.60% yield, appealing to income-focused investors despite negative impacts from rising interest rates. While the fund has a respectable long-term performance, its heavy investment in the banking sector and a recent failure to fully cover distributions might be a concern. The primary drawback identified is its current premium valuation, making it appear expensive.",
+      "url": "https://seekingalpha.com/article/4631030-hps-good-income-fund-but-premium-valuation-a-turn-off",
+      "source": "Seeking Alpha",
+      "published": "20230825T030929",
+      "overall_sentiment_score": -0.134244,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.127634,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.631557
+    },
+    {
+      "title": "Markets News, Aug. 15, 2023: Dow Drops More Than 350 Points on U.S. Banking Concerns, Weakening Chinese Economy",
+      "summary": "U.S. stocks, including the Dow, S&P 500, and Nasdaq, fell due to concerns over the creditworthiness of U.S. banks, a potential downgrade by Fitch Ratings, and a weakening Chinese economy. The Chinese central bank cut a key interest rate, while the U.K. saw record wage growth. Individual stock movers included Amgen and Home Depot rising, while JPMorgan Chase, American Express, Goldman Sachs, Dow Inc., Caterpillar, 3M, Chevron, and Walt Disney Co. declined.",
+      "url": "https://www.investopedia.com/dow-jones-today-08152023-7643476",
+      "source": "Investopedia",
+      "published": "20230815T162500",
+      "overall_sentiment_score": -0.099601,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.321835,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.709028
+    },
+    {
+      "title": "Ark Invest files for crypto ETFs, Grayscale discount narrows, and SEC-linked coins pop",
+      "summary": "Ark Invest has filed for several new crypto-related ETFs, including two Bitcoin-related funds and one focused on digital asset and blockchain technology equities, amid the SEC's delayed decision on its spot Bitcoin application. Concurrently, the Grayscale Bitcoin Trust's discount to net asset value has narrowed significantly as a ruling in its legal battle with the SEC is anticipated soon. Cryptocurrencies linked to SEC cases have also seen price increases.",
+      "url": "https://www.dlnews.com/articles/snapshot/ark-invest-files-for-crypto-etfs-and-grayscale-discount-narrows/",
+      "source": "DL News",
+      "published": "20230815T124200",
+      "overall_sentiment_score": 0.146267,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.144176,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.584257
+    },
+    {
+      "title": "As potential crypto ETF ‘fee war’ looms, what will spot bitcoin ETFs cost?",
+      "summary": "The proposed management fee of a planned ether futures ETF, set at 0.19% by Roundhill Investments, suggests a potential fee war in the crypto fund market. This low fee could impact the cost structure of spot bitcoin ETFs, with some industry watchers anticipating brutal competition to drive costs significantly lower than current futures-based bitcoin ETFs. The actual expense ratios for spot bitcoin ETFs are still unknown, but their success will likely depend on a combination of expense ratios and trading volumes, especially if multiple products launch simultaneously.",
+      "url": "https://blockworks.co/news/fund-fee-war-spot-bitcoin-etf",
+      "source": "Blockworks",
+      "published": "20230823T141600",
+      "overall_sentiment_score": 0.124338,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.115391,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.647219
+    },
+    {
+      "title": "Markets News, Aug. 22, 2023: Tech Buoys Nasdaq; Nvidia, Banks Weigh on S&P 500",
+      "summary": "U.S. markets closed mixed on August 22, 2023, with the Nasdaq Composite Index slightly up due to tech stocks, while the S&P 500 and Dow Jones Industrial Average declined. Financial stocks were hit by another downgrade from S&P, affecting several regional banks. Companies like Boeing, Apple, and Baidu saw gains, while Merck, Nike, and several retailers experienced drops.",
+      "url": "https://www.investopedia.com/dow-jones-today-08222023-7724773",
+      "source": "Investopedia",
+      "published": "20230822T171600",
+      "overall_sentiment_score": -0.10441,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.424034,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.615613
+    },
+    {
+      "title": "China shadow bank crisis sparks calls for policy response",
+      "summary": "Concerns over missed payments on shadow banking trust products and worsening consumer sentiment in China are driving calls for a policy response to support the struggling property sector. The crisis, particularly involving Zhongrong International Trust Co., highlights the property sector's significant exposure to the $3 trillion shadow banking industry. Analysts suggest that while a systemic shock is unlikely, the economic downward pressure will intensify without prompt and aggressive government intervention to contain the risks.",
+      "url": "https://www.reuters.com/business/finance/china-trust-deficit-crisis-spurs-shadow-banking-policy-response-calls-2023-08-15/",
+      "source": "Reuters",
+      "published": "20230818T103100",
+      "overall_sentiment_score": 0.141434,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.101559,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.618385
+    }
+  ]
+}

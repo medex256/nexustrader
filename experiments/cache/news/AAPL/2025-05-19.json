@@ -1,0 +1,106 @@
+{
+  "ticker": "AAPL",
+  "date": "2025-05-19",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:21:14.278278",
+  "source": "alpha_vantage",
+  "article_count": 8,
+  "articles": [
+    {
+      "title": "Is iShares Paris-Aligned Climate MSCI USA ETF (PABU) a Strong ETF Right Now?",
+      "summary": "The iShares Paris-Aligned Climate MSCI USA ETF (PABU), launched on April 8, 2022, is a smart beta ETF focused on the Style Box - All Cap Blend category, aiming to align with Paris Agreement objectives through decarbonization and reduced climate-related risks. With over $2.12 billion in assets and a low expense ratio of 0.10%, PABU primarily invests in Information Technology, with Apple, Nvidia, and Microsoft as top holdings. The ETF has shown strong performance, up 13.72% over the last year, offering a diversified option for investors in climate-aligned strategies.",
+      "url": "https://www.sharewise.com/us/news_articles/Is_iShares_ParisAligned_Climate_MSCI_USA_ETF_PABU_a_Strong_ETF_Right_Now_Zacks_20250519_122020469",
+      "source": "sharewise.com",
+      "published": "20250519T090833",
+      "overall_sentiment_score": 0.328511,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.304722,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.701821
+    },
+    {
+      "title": "The Best ETFs for Tech Stock Investors | Morningstar Europe",
+      "summary": "The technology sector experienced a recovery in early 2025 following a challenging start, driven by positive earnings and a China trade deal. Morningstar identifies seven highly-rated ETFs, including offerings from Xtrackers, iShares, SPDR, and Amundi, that provide investors with exposure to this rebounding sector. These ETFs are highlighted for their potential to outperform, with detailed performance metrics provided for the largest strategies.",
+      "url": "https://global.morningstar.com/en-eu/etfs/best-etfs-tech-stock-investors",
+      "source": "Morningstar Canada",
+      "published": "20250516T000000",
+      "overall_sentiment_score": 0.302641,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.408164,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.622687
+    },
+    {
+      "title": "Here’s Why Every Investor Should Consider Vanguard’s VIG ETF",
+      "summary": "The Vanguard Dividend Appreciation ETF (VIG) is a compelling investment for stability, growth, and income, especially in volatile markets. Launched in 2006, VIG tracks the S&P U.S. Dividend Growers Index, holding 338 stocks of companies with a decade-long record of dividend increases, excluding high-yield stocks to avoid yield traps. With a low expense ratio of 0.05% and strong performance, VIG offers a diversified, low-cost, and resilient option for investors seeking long-term financial success through dividend growth.",
+      "url": "https://247wallst.com/investing/2025/05/14/heres-why-every-investor-should-consider-vanguards-vig-etf/",
+      "source": "24/7 Wall St.",
+      "published": "20250514T145200",
+      "overall_sentiment_score": 0.53677,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.405026,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.702534
+    },
+    {
+      "title": "Is SPDR MSCI USA StrategicFactors ETF (QUS) a Strong ETF Right Now?",
+      "summary": "The SPDR MSCI USA StrategicFactors ETF (QUS), launched on April 15, 2015, offers exposure to the Style Box - Large Cap Blend category with a smart beta strategy. Managed by State Street Global Advisors, it has over $1.49 billion in assets and seeks to match the performance of the MSCI USA Factor Mix A-Series Index, with an expense ratio of 0.15%. The ETF's top holdings include Apple Inc., Microsoft Corp, and Meta Platforms Inc., and it has shown strong performance, adding 2.29% year-to-date and 11.24% over the last 12 months as of May 13, 2025.",
+      "url": "https://www.sharewise.com/de/news_articles/Is_SPDR_MSCI_USA_StrategicFactors_ETF_QUS_a_Strong_ETF_Right_Now_Zacks_20250513_1220/amp",
+      "source": "sharewise.com",
+      "published": "20250513T122000",
+      "overall_sentiment_score": 0.149136,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.103308,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.737404
+    },
+    {
+      "title": "Alphabet: Testimony From Apple Search Executive Rattles Investors",
+      "summary": "Apple's Eddy Cue testified in the DOJ lawsuit against Alphabet, indicating Apple may end its long-term Google Search partnership for Safari. This news caused investor concern, given Google's significant revenue-sharing agreement with Apple. Despite potential changes and AI's impact on search, Morningstar maintains its fair value estimate for Alphabet, believing the market's reaction is overblown and that Google will adapt with AI-infused offerings.",
+      "url": "https://www.morningstar.com/stocks/alphabet-apple-search-executives-testimony-makes-investors-restive-about-searchs-future",
+      "source": "Morningstar",
+      "published": "20250508T000000",
+      "overall_sentiment_score": 0.081396,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.032609,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.932035
+    },
+    {
+      "title": "Google's parent company Alphabet shares plunge over 8% amid AI search competition, malware threats",
+      "summary": "Alphabet Inc. shares dropped over 8% following revelations from an antitrust trial, citing increased AI search competition and new malware threats. Apple executive Eddy Cue testified about declining Google search traffic due to AI alternatives and announced future AI choices in Safari. Google also disclosed a new malware strain, LOSTKEYS, linked to a Russian hacking group, and partnered with Elementl Power to build nuclear plants to power AI data centers, addressing the anticipated surge in electricity usage.",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/googles-parent-company-alphabet-shares-plunge-over-5-amid-ai-search-competition-malware-threats/articleshow/120970730.cms",
+      "source": "The Times of India",
+      "published": "20250507T225800",
+      "overall_sentiment_score": -0.147744,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.11598,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.734509
+    },
+    {
+      "title": "Will Macroeconomic Shocks Lead To Business Cycle Recession?",
+      "summary": "James Kostohryz discusses how individual investors can achieve alpha through asset allocation, particularly by avoiding bear markets and re-entering at favorable valuations. He identifies three major shocks facing the U.S. economy: trade war tariffs, fiscal spending cuts, and labor supply shocks due to reduced immigration, all of which could lead to a business cycle recession. Kostohryz advises investors to monitor real-time economic indicators, maintain cash reserves, and consider defensive positions or inverse ETFs to navigate potential market downturns.",
+      "url": "https://seekingalpha.com/article/4781965-will-macroeconomic-shocks-lead-to-business-cycle-recession",
+      "source": "Seeking Alpha",
+      "published": "20250506T080000",
+      "overall_sentiment_score": -0.060362,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.12368,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.633608
+    },
+    {
+      "title": "As Investors Brace for Volatility, Look to Dividend ETF FDVV",
+      "summary": "Given current market uncertainties like sticky inflation, high interest rates, and geopolitical tensions, many investors anticipate continued volatility. Dividend ETFs, such as the Fidelity High Dividend ETF (FDVV), offer a potential solution for stability and income generation. FDVV invests in large- and mid-cap dividend-paying companies and can provide diversification benefits, offering a consistent revenue stream that can help offset market volatility.",
+      "url": "https://www.etftrends.com/etf-investing-channel/investors-brace-volatility-look-dividend-etf-fdvv/",
+      "source": "ETF Trends",
+      "published": "20250506T000000",
+      "overall_sentiment_score": 0.383907,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.318958,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.605934
+    }
+  ]
+}

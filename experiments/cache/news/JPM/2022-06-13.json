@@ -1,0 +1,142 @@
+{
+  "ticker": "JPM",
+  "date": "2022-06-13",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:07:16.286665",
+  "source": "alpha_vantage",
+  "article_count": 11,
+  "articles": [
+    {
+      "title": "Bank of New York Mellon Corp. stock outperforms market despite losses on the day",
+      "summary": "Bank of New York Mellon Corp. (BK) stock experienced a 2.84% drop on Friday, June 10, 2022, closing at $42.79, amidst a general market downturn. Despite its losses and marking its third consecutive day of decline, the stock outperformed major competitors like JPMorgan Chase & Co., Citigroup Inc., and Wells Fargo & Co., which saw larger percentage drops. The company's stock is currently $21.84 short of its 52-week high of $64.63.",
+      "url": "https://www.marketwatch.com/data-news/bank-of-new-york-mellon-corp-stock-outperforms-market-despite-losses-on-the-day-01654893601-973d27eccdf0?tesla=y&gaa_at=eafs&gaa_n=AWEtsqcjCL9YcY45jxFm0JPar8nwUi6GsVP6r_yebs8YU4Xg9rysBvBo1WsJ&gaa_ts=690786dd&gaa_sig=c6-at7OvBeSqLaUoJlz4dy6K1kUUOuSMmPDXvWI92VwOqRIejvlR44BLCADAy_DeVPOb7fervCfNZjuN5dJqww%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220610T164000",
+      "overall_sentiment_score": -0.183661,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.206487,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.739424
+    },
+    {
+      "title": "Talkspace CFO: Cerebral's Controlled Substances Pivot Could Create More Daylight in Virtual Mental Health Market",
+      "summary": "Talkspace CFO Jennifer Fulk believes that Cerebral's pivot away from prescribing controlled substances could create new opportunities for Talkspace in the virtual mental health market. Talkspace has never prescribed controlled substances and sees Cerebral's recent issues as a potential advantage due to its focus on a full-stack behavioral health care platform. The article also touches on Talkspace's financial turnaround plan and analyst speculation about it being an acquisition target.",
+      "url": "https://bhbusiness.com/2022/06/07/talkspace-cfo-cerebrals-controlled-substances-pivot-could-create-more-daylight-in-virtual-mental-health-market/",
+      "source": "Behavioral Health Business",
+      "published": "20220607T184649",
+      "overall_sentiment_score": 0.118425,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.093635,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.597727
+    },
+    {
+      "title": "Jonathan Baliff Named Redwire CFO",
+      "summary": "Jonathan Baliff, formerly chairman of Redwire’s audit committee, has been appointed as the new Chief Financial Officer of the space infrastructure technology company, succeeding Bill Read. Baliff was previously president of Genesis Park Acquisition, which merged with Redwire in September 2021, and has a background that includes leadership roles at Bristow Group and executive positions at Texas Capital Bancshares and NRG Energy. David Kornblatt will replace Baliff as the head of the board’s audit committee.",
+      "url": "https://www.govconwire.com/articles/jonathan-baliff-to-replace-bill-read-as-cfo-of-redwire",
+      "source": "GovCon Wire",
+      "published": "20220602T182545",
+      "overall_sentiment_score": 0.168746,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.127372,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.61415
+    },
+    {
+      "title": "Abdul Kahsai Joins Pinnacle's Growing Restaurant and Franchise Team",
+      "summary": "Pinnacle Financial Partners has expanded its restaurant and franchise finance team by adding Abdul Kahsai as an experienced banker. Based in Phoenix, Arizona, Kahsai will cover the Western U.S., focusing on franchised restaurant and fitness operators. He brings 15 years of financial services experience, having previously worked at JPMorgan Chase and GE Capital.",
+      "url": "https://pnfp.com/about-pinnacle/media-room/news-releases/abdul-kahsai-joins-pinnacles-growing-restaurant-and-franchise-team/",
+      "source": "Pinnacle Financial Partners",
+      "published": "20220531T180732",
+      "overall_sentiment_score": 0.235168,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.132125,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.64593
+    },
+    {
+      "title": "¿Cuánto valen las oficinas del Santander en el centro de Santiago?: Banco pondrá a la venta su actual edificio corporativo",
+      "summary": "Banco Santander plans to sell its current corporate headquarters in downtown Santiago after deciding to relocate to a new building in Las Condes. The fiscal appraisal for the two addresses of the current building, Bandera 140 and Bandera 150, totals approximately $70 billion Chilean pesos. Real estate agents anticipate a challenging sale due to an oversupply of office space in the city center.",
+      "url": "https://www.latercera.com/pulso-pm/noticia/cuanto-valen-las-oficinas-del-santander-en-el-centro-de-santiago-banco-pondra-a-la-venta-su-actual-edificio-corporativo/RXBORGBBWNAYLAMRRMN6JOZWSU/",
+      "source": "La Tercera",
+      "published": "20220610T161708",
+      "overall_sentiment_score": 0.030115,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.013229,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.602419
+    },
+    {
+      "title": "The SPDR S&P 500 ETF Trust Is Still Overvalued",
+      "summary": "The author argues that the recent surge in the SPDR S&P 500 ETF Trust (SPY) is premature because the S&P 500 remains overvalued. Utilizing the Fed Valuation Model and considering sector weightings, the article suggests that key metrics are not aligned for sustained index success in the near term, anticipating a plateau rather than a continued recovery. Divergent analyst opinions and a low VIX further support the uncertainty in the market.",
+      "url": "https://news.yahoo.com/spdr-p-500-etf-trust-121541783.html",
+      "source": "Yahoo News",
+      "published": "20220603T184610",
+      "overall_sentiment_score": -0.188987,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.233497,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.611038
+    },
+    {
+      "title": "AUD/USD Forex Technical Analysis – Sustained Move Under .7143 Puts .7029 on Radar",
+      "summary": "The Australian Dollar is showing a bearish bias against the US Dollar due to inflation fears, slower economic growth, and warnings from JPMorgan CEO Jamie Dimon about an economic \"hurricane.\" Technical analysis indicates that a sustained move below .7143 could lead the AUD/USD pair to .7029, while upcoming US economic data, particularly ADP Non-Farm Employment Change, will be crucial for market direction.",
+      "url": "https://finance.yahoo.com/news/aud-usd-forex-technical-analysis-065043851.html",
+      "source": "Yahoo Finance",
+      "published": "20220602T030000",
+      "overall_sentiment_score": -0.285918,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.322582,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.627736
+    },
+    {
+      "title": "JPMorgan CEO Dimon calls for raising minimum wage, more education to address racial gaps",
+      "summary": "JPMorgan Chase CEO Jamie Dimon advocates for raising the minimum wage, expanding education, and making mortgages more affordable to address racial gaps that cost the Columbus economy $10 billion annually. He also discusses the current economic outlook, noting a strong economy despite \"storm clouds\" like inflation, and emphasizes the importance of local initiatives and returning semiconductor production to the U.S.",
+      "url": "https://www.jpmorganchase.com/newsroom/stories/calls-for-raising-minimum-wage-more-education",
+      "source": "JPMorganChase",
+      "published": "20220601T171646",
+      "overall_sentiment_score": 0.303784,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.282952,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Will Corporate Credits Crack as Growth Slows?",
+      "summary": "Despite concerns about slowing global growth and central bank rate hikes, the article argues against a wave of corporate downgrades and defaults. It suggests that corporate balance sheets are healthier, the default cycle has cleaned up weaker companies, M&A risk is muted, and maturity runways have been extended, making corporates resilient to a slowdown. The article concludes that strong fundamentals and attractive valuations present a good opportunity for investors in corporate credit.",
+      "url": "https://www.alliancebernstein.com/apac/en/institutions/insights/investment-insights/will-corporate-credits-crack-as-growth-slows.html",
+      "source": "AllianceBernstein",
+      "published": "20220603T184644",
+      "overall_sentiment_score": 0.338348,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.320318,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.616105
+    },
+    {
+      "title": "Accepting her inner truth and sparking joy, from iconic toy company co-founder Melissa Bernstein",
+      "summary": "Melissa Bernstein, co-founder of Melissa and Doug Toys, discusses her journey of self-discovery, fueled by a diagnosis of existential angst. She explains how this led her to co-found LifeLines, a company focused on wellbeing and helping others find meaning through self-expression, stemming from her own experiences of channeling her struggles into creative endeavors.",
+      "url": "https://www.jpmorganchase.com/newsroom/stories/melissa-bernstein",
+      "source": "JPMorganChase",
+      "published": "20220609T171646",
+      "overall_sentiment_score": 0.026599,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.010033,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.319737
+    },
+    {
+      "title": "Go Active as Investors Dive Back Into Corporate Bonds",
+      "summary": "The bond market, particularly corporate bonds, is showing signs of recovery after a downturn, leading investors to cautiously re-enter the market for potential bargains. Active management, such as through the American Century Diversified Corporate Bond ETF (KORP), is suggested as a way for wary investors to navigate the changing corporate bond landscape and balance risk. This approach allows for dynamic adjustments to investment-grade and high-yield components, aiming for current income while managing interest rate and credit risk.",
+      "url": "https://etfdb.com/core-strategies-channel/go-active-as-investors-dive-back-into-corporate-bonds/",
+      "source": "ETF Database",
+      "published": "20220608T172637",
+      "overall_sentiment_score": 0.286538,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.228629,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.59106
+    }
+  ]
+}

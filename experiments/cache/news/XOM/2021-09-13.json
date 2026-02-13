@@ -1,0 +1,46 @@
+{
+  "ticker": "XOM",
+  "date": "2021-09-13",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:02:55.621160",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "Oil-soaked birds found near oil spill at refinery in wake of Hurricane Ida",
+      "summary": "Louisiana wildlife officials have documented over 100 oil-soaked birds near the Phillips 66 Alliance Refinery in Belle Chasse following an oil spill caused by Hurricane Ida's flooding. Efforts are underway to rescue and rehabilitate affected wildlife, including black-bellied whistling ducks, blue-winged teal, and egrets. The incident is part of a larger picture of numerous oil and chemical spills reported to the EPA and Coast Guard in the aftermath of the hurricane.",
+      "url": "https://www.cbsnews.com/news/hurricane-ida-oil-soaked-birds-oil-spill-refinery-belle-chasse-louisiana/",
+      "source": "CBS News",
+      "published": "20210909T211200",
+      "overall_sentiment_score": -0.200735,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.103017,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.644502
+    },
+    {
+      "title": "GOOD NEWS: MC students receive scholarships",
+      "summary": "Midland College (MC) announced a new partnership with Ovintiv USA, Inc., which includes $8,000 in scholarships for Energy Technology students. The scholarships recognize students with GPAs over 3.0 who are also employed, highlighting Ovintiv's commitment to Permian Basin workforce development. Ovintiv, a North American oil and natural gas producer, is supporting MC's program that prepares students for careers in the oil and gas industry.",
+      "url": "https://www.oaoa.com/community/good-news-community/good-news-mc-students-receive-scholarships/",
+      "source": "Odessa American",
+      "published": "20210902T205706",
+      "overall_sentiment_score": 0.289096,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.137473,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62281
+    },
+    {
+      "title": "Offshore oil and gas producer Beacon makes major final investment decision in Gulf of Mexico",
+      "summary": "Beacon Offshore Energy has made its first final investment decision (FID) on the deepwater Shenandoah discovery project in the Gulf of Mexico. This decision could elevate Beacon Offshore Energy to become one of the top 10 offshore producers in the U.S. Gulf of Mexico. The project marks a significant milestone for the Houston-based oil and gas producer.",
+      "url": "https://www.bizjournals.com/houston/news/2021/08/30/beacon-offshore-fid-shenandoah.html",
+      "source": "The Business Journals",
+      "published": "20210830T210646",
+      "overall_sentiment_score": 0.327774,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.345424,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.642496
+    }
+  ]
+}

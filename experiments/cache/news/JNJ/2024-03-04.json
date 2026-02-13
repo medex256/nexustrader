@@ -1,0 +1,58 @@
+{
+  "ticker": "JNJ",
+  "date": "2024-03-04",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:54:42.184122",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "Janux Soars On Early Efficacy, Safety For ‘Masked’ T-Cell Engagers",
+      "summary": "Janux Therapeutics reported early efficacy and safety data for its 'masked' T-cell engagers from Phase Ia studies, showing promising results with low rates of Cytokine Release Syndrome (CRS). The positive news has significantly impacted the company's stock, with shares approaching $50 after having gone public at $17 in 2021. This development highlights the potential of their platform technology in immuno-oncology, particularly in cancer treatment.",
+      "url": "https://insights.citeline.com/SC149860/Janux-Soars-On-Early-Efficacy-Safety-For-Masked-TCell-Engagers/",
+      "source": "Citeline News & Insights",
+      "published": "20240228T000000",
+      "overall_sentiment_score": 0.502305,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.146725,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.721436
+    },
+    {
+      "title": "Integra Lifesciences to cut about 60 jobs as it closes Indiana site",
+      "summary": "Integra Lifesciences announced it will close its manufacturing facility in Lafayette, Indiana, by late April, resulting in approximately 60 job cuts. Manufacturing operations for tissue products will be transferred to a plant in Columbia, Maryland, as part of an effort to enhance operational efficiency. This move follows a July 2023 warning letter from the FDA regarding quality issues at Integra's Boston plant and a subsequent product recall.",
+      "url": "https://www.medtechdive.com/news/integra-lifesciences-layoffs-plant-closure-indiana/708607/",
+      "source": "MedTech Dive",
+      "published": "20240227T000000",
+      "overall_sentiment_score": -0.082469,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.107689,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.631756
+    },
+    {
+      "title": "Integra Lifesciences announces a plant closure",
+      "summary": "Integra Lifesciences (NASDAQ: IART) is closing its ACell plant in Lafayette, Indiana, resulting in the layoff of 60 workers. The company is relocating its Urinary Bladder Matrix manufacturing to its Columbia, Maryland facility. This move is part of Integra's strategy to enhance operational efficiency.",
+      "url": "https://www.massdevice.com/integra-lifesciences-announces-a-plant-closure/",
+      "source": "MassDevice",
+      "published": "20240226T000000",
+      "overall_sentiment_score": -0.089265,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.100133,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.606452
+    },
+    {
+      "title": "Icon acquires HumanFirst to boost support for digital tools in clinical trials",
+      "summary": "Clinical trials giant Icon has acquired HumanFirst, a company that helps pharmaceutical companies integrate wearables and other digital technologies into their clinical trials. HumanFirst's platform, Atlas, provides a library of digital measurement tools and their underlying evidence to aid trial sponsors in efficiently selecting and utilizing these technologies. This acquisition allows Icon to enhance its offerings by providing better support for digital tools, an area where many large drug companies are reevaluating their strategies.",
+      "url": "https://www.statnews.com/2024/02/29/icon-acquires-humanfirst-digital-tools-clinical-trials/",
+      "source": "STAT",
+      "published": "20240229T000000",
+      "overall_sentiment_score": 0.239139,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.133517,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.589672
+    }
+  ]
+}

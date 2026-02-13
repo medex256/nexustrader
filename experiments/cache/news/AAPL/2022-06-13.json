@@ -1,0 +1,46 @@
+{
+  "ticker": "AAPL",
+  "date": "2022-06-13",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-12T23:56:41.370093",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "With shares of Kansas City’s Cerner turned over, sale to Oracle will close Wednesday",
+      "summary": "Oracle's acquisition of Cerner Corporation for $28.3 billion is set to formally close on Wednesday, June 8th, following a successful stock tender offer. This acquisition marks Oracle's largest ever and signifies its entry into the healthcare market, with Cerner continuing as a dedicated subsidiary and Oracle pledging to grow jobs in Kansas City. The deal concludes Cerner's status as the largest private employer under local control in Kansas City, a company founded in 1979.",
+      "url": "https://www.kansascity.com/news/business/article262242962.html",
+      "source": "Kansas City Star",
+      "published": "20220607T124300",
+      "overall_sentiment_score": 0.195138,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.118898,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.625352
+    },
+    {
+      "title": "What Can a Multi-Factor Screening Methodology Do for Your Core Equity Exposure?",
+      "summary": "This article discusses how applying a multi-factor screening methodology can improve risk-adjusted returns for large-cap equity portfolios. It highlights factors such as value, quality, and momentum, and introduces the FlexShares US Quality Large Cap Index Fund (QLC) which integrates these factors. The fund aims to provide benefits of these factor exposures while maintaining a similar risk profile to the broader large-cap market.",
+      "url": "https://www.etftrends.com/multi-asset-channel/what-can-a-multi-factor-screening-methodology-do-for-your-core-equity-exposure/",
+      "source": "ETF Trends",
+      "published": "20220603T123622",
+      "overall_sentiment_score": 0.323127,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.314246,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.705517
+    },
+    {
+      "title": "What Can a Multi-Factor Screening Methodology Do for Your Core Equity Exposure?",
+      "summary": "This article discusses how applying a multi-factor screening methodology, focusing on value, quality, and momentum, can enhance core equity exposure for large-cap stock portfolios. It highlights research from FlexShares suggesting that this approach can deliver superior risk-adjusted returns compared to the broad large-cap market. The FlexShares US Quality Large Cap Index Fund (QLC) is presented as an example of an ETF that utilizes these factors.",
+      "url": "https://www.etftrends.com/multi-asset-content-hub/what-can-a-multi-factor-screening-methodology-do-for-your-core-equity-exposure/",
+      "source": "ETF Trends",
+      "published": "20220603T081101",
+      "overall_sentiment_score": 0.337788,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.302934,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.727092
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "ticker": "NVDA",
+  "date": "2022-07-25",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:09:05.070334",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "Intel To Hike Chip Prices As Semiconductor Giant Deals With Inflation",
+      "summary": "Intel has announced price increases across its product lines, including chipsets and microprocessors, by as much as 20 percent, effective in Q4 2022. The company attributes these hikes to inflationary pressures, rising material costs, and increased production expenses. Other companies in the semiconductor industry, including TSMC and various material suppliers, are also implementing price increases, suggesting a broader trend of rising costs in the tech sector.",
+      "url": "https://www.crn.com/news/components-peripherals/intel-to-hike-chip-prices-as-semiconductor-giant-deals-with-inflation",
+      "source": "CRN Magazine",
+      "published": "20220714T170702",
+      "overall_sentiment_score": -0.16002,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.143668,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.632811
+    },
+    {
+      "title": "Teledyne FLIR Introduces Prism AI, Software for the Development of Automotive Thermal Perception Systems",
+      "summary": "Teledyne FLIR has introduced Prism AI, a software framework designed to help automotive engineers integrate thermal cameras into advanced driver assistance systems (ADAS) and autonomous vehicle (AV) systems. Prism AI offers features like visible and thermal image fusion, enhancing detection of pedestrians and animals, especially in low-light conditions. This development aims to improve road safety and assist OEMs in meeting upcoming regulatory requirements for nighttime collision prevention.",
+      "url": "https://www.actuia.com/en/news/teledyne-flir-introduces-prism-ai-software-for-the-development-of-automotive-thermal-perception-systems/",
+      "source": "ActuIA",
+      "published": "20220711T185554",
+      "overall_sentiment_score": 0.229764,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.133099,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.605201
+    },
+    {
+      "title": "Nvidia leased a 100,000-square-foot building in Santa Clara",
+      "summary": "Nvidia has leased a 100,000-square-foot building in Santa Clara's newly renovated Mission Technology Park, further expanding its footprint in the area. This lease follows another building acquisition by Nvidia in May, located next door to the recently leased structure. The move highlights the semiconductor giant's continued growth and investment in Silicon Valley.",
+      "url": "https://www.bizjournals.com/sanjose/news/2022/07/20/nvidia-leases-santa-clara-building.html",
+      "source": "The Business Journals",
+      "published": "20220720T175612",
+      "overall_sentiment_score": 0.300047,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.346938,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "If You Are Shorting Tesla via the AXS TSLA Bear Daily ETF (TSLQ), You Are in for Chronic Underperformance and Years of Toil",
+      "summary": "AXS Investments has launched single-stock ETFs, including the AXS TSLA Bear Daily ETF (TSLQ), which allows investors to short Tesla. However, the article highlights that these ETFs are a \"mind-numbingly dumb\" and \"very risky\" investment due to exorbitant expense ratios (1.15%), daily resets leading to chronic underperformance, and a lack of diversification. The author warns that shorting Tesla via TSLQ is likely to result in chronic underperformance and significant losses over time despite its intended purpose.",
+      "url": "https://wccftech.com/if-you-are-shorting-tesla-via-the-axs-tsla-bear-daily-etf-tslq-you-are-in-for-chronic-underperformance-and-years-of-toil/",
+      "source": "Wccftech",
+      "published": "20220714T163300",
+      "overall_sentiment_score": -0.183563,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.146983,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.646579
+    }
+  ]
+}

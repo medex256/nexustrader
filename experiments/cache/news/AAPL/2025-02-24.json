@@ -1,0 +1,70 @@
+{
+  "ticker": "AAPL",
+  "date": "2025-02-24",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:20:15.466051",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "What's Going On With FiscalNote Holdings Stock Monday?",
+      "summary": "FiscalNote Holdings Inc (NYSE: NOTE) saw its shares trading higher after announcing a definitive agreement to divest two non-core assets, Oxford Analytica and Dragonfly, to Dow Jones for $40 million. This move is expected to reduce the company's senior term loan, strengthen its balance sheet, and streamline operations, focusing on core Policy solutions. Additionally, FiscalNote engaged John Lee, former head of contracts for Palantir’s U.S. government vertical, as a senior strategic advisor to support its AI and data-driven solutions for the public sector.",
+      "url": "https://www.sahmcapital.com/news/content/whats-going-on-with-fiscalnote-holdings-stock-monday-2025-02-24",
+      "source": "Sahm",
+      "published": "20250224T183300",
+      "overall_sentiment_score": 0.234221,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.134485,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.618166
+    },
+    {
+      "title": "Mark Zuckerberg Offloads Meta Shares Worth $14.4 Million In February",
+      "summary": "Mark Zuckerberg sold 17,855 shares of Meta Platforms Inc. Class A common stock worth approximately $14.4 million on February 14, at prices between $726.68 and $740.71. These transactions were executed under a pre-established trading plan and follow previous sales in late December 2024. Despite these sales, Meta demonstrates strong financial health with a high gross profit margin and increased quarterly dividends.",
+      "url": "https://www.benzinga.com/tech/25/02/43810048/mark-zuckerberg-offloads-meta-shares-worth-14-4-million-in-february",
+      "source": "Benzinga",
+      "published": "20250219T075200",
+      "overall_sentiment_score": -0.065824,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.089865,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.692273
+    },
+    {
+      "title": "Roundhill Launches 5 Leveraged Weekly Income ETFs",
+      "summary": "Roundhill Investments has launched five new WeeklyPay ETFs (NVW, TSW, AAPW, COIW, PLTW) on the Cboe Exchange, offering weekly distributions and leveraged exposure to specific single stocks like Nvidia, Tesla, and Apple. These actively managed funds aim to generate 1.2 times the weekly returns of their underlying companies, providing income-focused investors with amplified returns and potential tax advantages through return of capital distributions. This innovation expands Roundhill's portfolio of weekly income strategies, with plans for additional leveraged WeeklyPay ETFs covering other major companies.",
+      "url": "https://etfdb.com/news/2025/02/19/5-leveraged-weekly-income-etfs-roundhill/",
+      "source": "ETF Database",
+      "published": "20250219T051226",
+      "overall_sentiment_score": 0.273768,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.323242,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.73436
+    },
+    {
+      "title": "Major Aviation Merger: flyExclusive's $22M Strategic Takeover Reshapes Private Charter Market",
+      "summary": "flyExclusive (NYSE: FLYX) is set to acquire Jet.AI's (NASDAQ: JTAI) aviation business for $12-22 million in an all-stock deal, transforming Jet.AI into a pure-play AI company. The transaction, expected to close in Q2 2025, involves spinning off Jet.AI's charter business into a new entity which flyExclusive will then acquire, while Jet.AI shareholders will retain their stock and receive new flyExclusive shares. This strategic move aims to provide flyExclusive with growth capital and enhanced shareholder liquidity, leveraging synergies between the two companies.",
+      "url": "https://www.stocktitan.net/news/JTAI/fly-exclusive-reaches-definitive-agreement-to-acquire-jet-ai-nefohwae3jir.html",
+      "source": "Stock Titan",
+      "published": "20250214T060919",
+      "overall_sentiment_score": 0.115813,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.133798,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.572021
+    },
+    {
+      "title": "Berkshire’s Earnings: Diamond Hands or Paper Hands?",
+      "summary": "This article examines the upcoming Berkshire Hathaway earnings report in late February, outlining both bullish and bearish catalysts for its stock (BRK.B). It highlights Berkshire's strategic investments, record cash reserves, and strong operating businesses as bullish factors, while portfolio reductions in Apple and Bank of America, legal challenges, and leadership transition uncertainty are identified as bearish concerns. The article emphasizes Berkshire's role as a diversified, non-tech investment with exposure to financials, energy, and industrials, suggesting that the earnings call will provide critical insights into its future direction.",
+      "url": "https://www.direxion.com/xchange/berkshires-earnings-diamond-hands-or-paper-hands",
+      "source": "Direxion",
+      "published": "20250224T000000",
+      "overall_sentiment_score": 0.083048,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.238645,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.723907
+    }
+  ]
+}

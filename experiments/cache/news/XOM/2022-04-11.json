@@ -1,0 +1,94 @@
+{
+  "ticker": "XOM",
+  "date": "2022-04-11",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:06:22.672451",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "‘The Future is Bleak, and the Future is Bright.’ What It’s Like to Be a Clean Energy CEO as Gas Prices Skyrocket",
+      "summary": "This article interviews Jason Few, CEO of FuelCell Energy, about the challenges and opportunities for clean energy amidst rising gas prices. Few discusses the slow adoption of fuel-cell technology, the importance of government policies and cost reduction, and the role of carbon capture in achieving global climate goals. He also shares his personal clean energy commitments and thoughts on the broader energy transition.",
+      "url": "https://time.com/6164004/fuelcell-energy-ceo-jason-few-interview/",
+      "source": "Time Magazine",
+      "published": "20220403T070000",
+      "overall_sentiment_score": 0.209685,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.118618,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.624918
+    },
+    {
+      "title": "Exxon to invest $10 billion in massive Guyana offshore oil project",
+      "summary": "Exxon Mobil Corp announced a $10 billion investment in its fourth oil production project, Yellowtail, off the coast of Guyana. This project is part of Exxon's strategy to produce up to 1.2 million barrels per day of oil and gas by 2027 from Guyana, with contributions from partners Hess Corp and CNOOC Ltd. Yellowtail is expected to produce about 250,000 barrels of oil per day starting in 2025 and will include six drill centers and up to 26 production and 25 injection wells.",
+      "url": "https://www.reuters.com/business/energy/exxon-invest-10-billion-massive-guyana-offshore-oil-project-2022-04-04/",
+      "source": "Reuters",
+      "published": "20220404T141900",
+      "overall_sentiment_score": 0.367017,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.489131,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Exxon Mobil gets Guyana's approval for fourth offshore oil project",
+      "summary": "Exxon Mobil has received approval from Guyana's Environmental Protection Agency to begin work on its fourth offshore oil project, Yellowtail, in the South American country. This approval allows for construction and operation, with production expected to start in 2025 and pump up to 250,000 barrels of oil and gas per day. The permit includes strict environmental conditions, such as prohibiting routine gas flaring and requiring insurance for environmental damages.",
+      "url": "https://www.reuters.com/business/energy/exxon-mobils-fourth-guyana-offshore-oil-project-gets-environmental-permit-2022-04-01/",
+      "source": "Reuters",
+      "published": "20220402T125200",
+      "overall_sentiment_score": 0.402604,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.499131,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Huge HPE Campus Acquired by Mexcor",
+      "summary": "Mexcor International has acquired a 2 million-square-foot former Hewlett Packard Enterprise corporate campus in Northwest Houston, marking one of the largest transactions in the area in years. This acquisition significantly expands Mexcor's footprint, adding 66 acres and over 2 million square feet to its existing 28-acre facility, positioning the liquor and beverage distributor for continued growth and diversification into technology ventures. Meanwhile, Hewlett Packard Enterprise has relocated its global headquarters to a new facility at City Place, where Exxon Mobil is also establishing its headquarters.",
+      "url": "https://realtynewsreport.com/huge-hpe-campus-acquired-by-mexcor/",
+      "source": "Realty News Report",
+      "published": "20220331T165705",
+      "overall_sentiment_score": 0.179127,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.103912,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.72479
+    },
+    {
+      "title": "Permian Basin land sought after by oil and gas companies Russia conflict grows fuel demand",
+      "summary": "Oil and gas companies are actively acquiring land in the Permian Basin to increase production amid rising fuel demand spurred by the conflict in Russia. Orion Diversified Holdings recently purchased 320 acres in Ward County, Texas, to expand its oil and gas operations and wastewater disposal capabilities. The region is also seeing advancements in produced water recycling, driven by partnerships like Texas Pacific Land Corporation and Aris Water Solutions, to address environmental concerns and support increased drilling activity.",
+      "url": "https://www.usatoday.com/story/news/2022/03/29/permian-basin-oil-gas-companies-russia-conflict-fossil-fuel-new-mexico-texas/7158588001/",
+      "source": "USA Today",
+      "published": "20220329T185641",
+      "overall_sentiment_score": 0.301165,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.318937,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.618274
+    },
+    {
+      "title": "TGS ampliará el gasoducto Vaca Muerta Norte",
+      "summary": "Transportadora Gas del Sur (TGS) will invest $60 million to expand the Vaca Muerta Norte gas pipeline, increasing its capacity by 17 million cubic meters daily. This project will connect Los Toldos and El Trapial to the Tratayén plant, addressing a key bottleneck in transporting gas from the Vaca Muerta formation. The expansion is crucial for supporting the growing natural gas production in the region, with operations expected to begin by June of the following year.",
+      "url": "https://www.cronista.com/negocios/tgs-ampliara-el-gasoducto-vaca-muerta-norte/",
+      "source": "El Cronista",
+      "published": "20220328T134400",
+      "overall_sentiment_score": 0.181103,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.343894,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.746387
+    },
+    {
+      "title": "Here's Where I'd Pump a Trade in Exxon",
+      "summary": "The author suggests a trade opportunity in Exxon Mobil (XOM) due to the ongoing energy rally. The article recommends buying April 22, $85 calls for XOM, expecting the stock to approach $90 again in the next month. This trade is based on the belief that the energy market is still in the early stages of its rally.",
+      "url": "https://pro.thestreet.com/investing/stocks/energy-is-a-hot-play-so-here-s-where-i-d-pump-a-trade-in-exxon-15957289",
+      "source": "TheStreet Pro",
+      "published": "20220331T145300",
+      "overall_sentiment_score": 0.294715,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.424871,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.939112
+    }
+  ]
+}

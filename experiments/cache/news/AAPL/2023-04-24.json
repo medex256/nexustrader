@@ -1,0 +1,94 @@
+{
+  "ticker": "AAPL",
+  "date": "2023-04-24",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T00:24:13.313717",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "YieldMax APLY ETF Seeks Income Through Call Options on Apple Stock",
+      "summary": "The YieldMax APLY Option Income Strategy ETF (APLY) has launched, aiming to generate monthly income by selling call options on Apple (AAPL) stock. APLY, managed by Toroso Investments and ZEGA Financial, uses a synthetic covered call strategy to provide exposure to AAPL’s returns and income from option premiums, without directly investing in the stock. It operates with an expense ratio of 0.99% and maintains its strategy regardless of market conditions.",
+      "url": "https://etftrends.com/yieldmax-aply-etf-call-options-apple/",
+      "source": "ETF Trends",
+      "published": "20230418T050927",
+      "overall_sentiment_score": 0.176628,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.100719,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.909742
+    },
+    {
+      "title": "Apple will use 100 percent recycled cobalt in batteries by 2025",
+      "summary": "Apple announced a significant acceleration of its efforts to use recycled materials in its products, setting a goal to use 100% recycled cobalt in all Apple-designed batteries by 2025. By the same year, magnets in Apple devices will use entirely recycled rare earth elements, and all Apple-designed printed circuit boards will incorporate 100% recycled tin soldering and gold plating. This initiative is part of Apple's broader commitment to eventually make all products with only recycled and renewable materials and achieve carbon neutrality by 2030.",
+      "url": "https://www.apple.com/newsroom/2023/04/apple-will-use-100-percent-recycled-cobalt-in-batteries-by-2025/",
+      "source": "Apple",
+      "published": "20230413T000000",
+      "overall_sentiment_score": 0.456698,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.497098,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Introducing Domino's® on Apple CarPlay®: The Easiest Way to Order Pizza on the Go",
+      "summary": "Domino's Pizza has launched a new ordering feature through its iOS app on Apple CarPlay, allowing customers to easily order pizza on the go through \"Tap to Order\" or \"Call to Order\" options. This integration highlights Domino's leadership in combining technology with pizza ordering convenience, aiming to enhance customer experience and offering an alternative to traditional drive-thru waiting. The company reported global retail sales exceeding $17.5 billion in 2022, with a substantial portion from digital channels, underscoring its strong market presence and reliance on tech-driven solutions for ordering.",
+      "url": "https://www.stocktitan.net/news/DPZ/introducing-domino-s-r-on-apple-car-play-r-the-easiest-way-to-order-1vginc504mjo.html",
+      "source": "Stock Titan",
+      "published": "20230410T070700",
+      "overall_sentiment_score": 0.33171,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.345317,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.711688
+    },
+    {
+      "title": "Eye on Tap to Pay: MagicCube Teams Up With ACI; Fiserv Offers Tap to Pay on Clover",
+      "summary": "MagicCube and Fiserv are expanding the adoption of tap-to-pay technology on smartphones for merchants. MagicCube partnered with ACI Worldwide to enable small and mid-sized merchants to accept contactless payments with or without a PIN, enhancing payment acceptance without additional POS terminals. Simultaneously, Fiserv introduced Tap to Pay on iPhone for its Clover merchants, allowing them to accept contactless payments via the Clover Go iOS app, increasing flexibility and customer engagement.",
+      "url": "https://www.digitaltransactions.net/eye-on-tap-to-pay-magiccube-teams-up-with-aci-fiserv-offers-tap-to-pay-on-clover/",
+      "source": "Digital Transactions",
+      "published": "20230424T143940",
+      "overall_sentiment_score": 0.314448,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.321175,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.749633
+    },
+    {
+      "title": "Domino’s Introduces In-Car Ordering",
+      "summary": "Domino's Pizza has launched a new in-car ordering system through its iOS app on Apple CarPlay, allowing customers to place orders without waiting in drive-thru lines. This new feature, part of Domino's AnyWare ordering platforms, offers \"Tap to Order\" for saved meals or \"Call to Order\" for hands-free placement. Domino's is among the first quick-service restaurants to offer this convenient on-the-go ordering method.",
+      "url": "https://www.qsrmagazine.com/news/dominos-introduces-car-ordering/",
+      "source": "QSR Magazine",
+      "published": "20230410T143006",
+      "overall_sentiment_score": 0.377833,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.329589,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.731535
+    },
+    {
+      "title": "Evaluating ESG’s Role in Creating Value",
+      "summary": "This article examines the increasing demand for ESG commitments from companies and evaluates their impact on financial performance. A Bain & Company study suggests that while not always directly correlated, ESG activities are associated with positive financial outcomes like revenue growth and improved EBITDA margins. The article emphasizes that ESG efforts, particularly in social and governance areas like diversity, contribute to the overall success and profitability of companies.",
+      "url": "https://www.etftrends.com/etf-education-channel/evaluating-esgs-role-in-creating-value/",
+      "source": "ETF Trends",
+      "published": "20230421T170901",
+      "overall_sentiment_score": 0.372449,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.304937,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.747351
+    },
+    {
+      "title": "Autodesk Technology Engagement Center breaks ground at CSUN",
+      "summary": "California State University, Northridge has broken ground on the $50-million Autodesk Technology Engagement Center, which will house the Global Hispanic Serving Institution Equity Innovation Hub. This new facility aims to steer Latinos and other underserved communities into STEM careers through research labs, a maker space, and student showcase areas. Funded by Autodesk, the State of California, and Apple, the center will leverage XR technology and address the underrepresentation of the Latino community in the tech industry.",
+      "url": "https://la.urbanize.city/post/autodesk-technology-engagement-center-breaks-ground-csun",
+      "source": "Urbanize LA",
+      "published": "20230417T093000",
+      "overall_sentiment_score": 0.405856,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.348533,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.729106
+    }
+  ]
+}

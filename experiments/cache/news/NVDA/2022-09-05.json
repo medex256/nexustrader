@@ -1,0 +1,106 @@
+{
+  "ticker": "NVDA",
+  "date": "2022-09-05",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:09:32.736518",
+  "source": "alpha_vantage",
+  "article_count": 8,
+  "articles": [
+    {
+      "title": "Nvidia could take a $400M revenue hit from new government restrictions on AI chips",
+      "summary": "New government restrictions on the sale of AI chips to China could cost Nvidia an estimated $400 million in revenue. Both Nvidia and AMD are facing these limitations on their ability to sell advanced data center chips in the Chinese market.",
+      "url": "https://www.bizjournals.com/sanjose/news/2022/09/01/government-restrictions-set-to-cost-nvidia-400m.html",
+      "source": "The Business Journals",
+      "published": "20220901T163900",
+      "overall_sentiment_score": 0.007347,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.040946,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.337094
+    },
+    {
+      "title": "Nvidia Warns of Sales Hit From New U.S. Chip Licensing Requirements for China",
+      "summary": "Nvidia Corp. announced that new U.S. licensing requirements for shipping advanced chips to China could result in a loss of up to $400 million in quarterly sales. The company was notified on Friday that it would need a license from the U.S. government for certain cutting-edge chip sales to China and Russia. This development follows President Biden's recent signing of the Chips and Science Act of 2022.",
+      "url": "https://www.wsj.com/tech/nvidia-warns-of-sales-hit-from-new-u-s-chip-licensing-requirements-for-china-11661984074?gaa_at=eafs&gaa_n=AWEtsqfqlG9S2g3O4HajcjKd5sEyh_1basBcJJOuZkOuhHFtY13P7-IJPDHc&gaa_ts=69079e73&gaa_sig=_zPmf-s4AbchiY58eAfJ2lLX3cE9BvCYyfLYeDfSPIKC3bnuRMirGNyJouOBnwByLZdHfmEz0XlwyRPEpjlAQg%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20220831T175611",
+      "overall_sentiment_score": 0.021304,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.014735,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.344515
+    },
+    {
+      "title": "Gaming industry advancing development of virtual ecosystem: Co-Founder of Roundhill Ball Metaverse ETF",
+      "summary": "Matthew Ball, CEO and Co-Founder of the Roundhill Ball Metaverse ETF, discusses the progress of the gaming industry in developing a virtual ecosystem. The discussion covers the future of virtual real estate companies, the capabilities of 3D rendering, and the practical aspects of building a virtual world.",
+      "url": "https://www.cnbc.com/video/2022/08/30/gaming-industry-advancing-development-of-virtual-ecosystem-co-founder-of-roundhill-ball-metaverse-etf.html",
+      "source": "CNBC",
+      "published": "20220830T120700",
+      "overall_sentiment_score": 0.185355,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.154744,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.612586
+    },
+    {
+      "title": "Nvidia sales forecast falls about $1 billion short of expectations, stock falls",
+      "summary": "Nvidia's sales forecast for the current quarter fell approximately $1 billion short of analyst expectations, leading to a drop in its stock. The company confirmed a sharp reduction in profit and is working through inventory before releasing its new chip architecture. For the fiscal third quarter, Nvidia predicted revenue between $5.78 billion to $6.02 billion, while analysts had projected $6.91 billion.",
+      "url": "https://www.marketwatch.com/story/nvidia-sales-forecast-falls-about-1-billion-short-of-wall-street-expectations-11661373933?gaa_at=eafs&gaa_n=AWEtsqdL2VRhiXz7WrnGn8q3GD2oKMIOW2HGMg1vjnXHB0VfFLO5KYZwpqhM&gaa_ts=69079e73&gaa_sig=OBM1PeDUmj3ZwPMmK94X9cjSV99NdV3Y4JbJvncOJbg-RunRyExVmaAPBqeOpNoJtoptUPgbgk8o3MGDD-8XLA%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220824T164500",
+      "overall_sentiment_score": 0.016939,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.026943,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.346581
+    },
+    {
+      "title": "Nvidia Halting Chip Production to China, Fiber in Hawaii, Broadband Data Deadline Today",
+      "summary": "The US government has instructed Nvidia to stop exporting two advanced computing chips to China, citing concerns over potential military use and impact on China's AI advancements. Meanwhile, Hawaiian Telecom is expanding its fiber internet service to nearly 10,000 homes and businesses on Kaua'i and participating in the Affordable Connectivity Program. Additionally, Thursday marks the deadline for providers to submit their broadband availability data for FCC maps as part of the Broadband Data Collection.",
+      "url": "https://broadbandbreakfast.com/nvidia-halting-chip-production-to-china-fiber-in-hawaii-broadband-data-deadline-today/",
+      "source": "Broadband Breakfast",
+      "published": "20220901T175611",
+      "overall_sentiment_score": -0.41365,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.419269,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "New U.S. curbs on sales of Nvidia AI chips to China spark selloff",
+      "summary": "New U.S. restrictions on exports of advanced AI chips from Nvidia and AMD to China have caused Nvidia's stock to fall over 11%. The curbs, aimed at limiting China's technological prowess, specifically target Nvidia's H100 and A100 chips which are crucial for AI and machine learning applications. While potentially impacting Nvidia's business in China, the U.S. government has made some allowances for the completion and support of the H100 chip.",
+      "url": "https://www.reuters.com/technology/us-allows-nvidia-do-exports-transfers-needed-develop-its-ai-chip-2022-09-01/",
+      "source": "Reuters",
+      "published": "20220901T151800",
+      "overall_sentiment_score": -0.211815,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.332818,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Major stock averages slide for third week, Nasdaq posts six-day losing streak",
+      "summary": "U.S. equities concluded their third consecutive weekly decline, with the Dow Jones Industrial Average, S&P 500, and Nasdaq Composite all falling. The Nasdaq recorded its first six-day losing streak since 2019. Despite a solid August jobs report, fears persist that the Federal Reserve will continue aggressive interest rate hikes to combat inflation, leading to market nervousness and concerns about retesting June lows.",
+      "url": "https://www.cnbc.com/2022/09/01/stock-futures-are-flat-ahead-of-key-august-jobs-report-due-friday.html",
+      "source": "CNBC",
+      "published": "20220902T172700",
+      "overall_sentiment_score": -0.365402,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.321815,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.603908
+    },
+    {
+      "title": "ARM is suing Qualcomm for licensing and trademark violations",
+      "summary": "ARM is suing Qualcomm for breach of contract and trademark infringement over Qualcomm's acquisition of chip startup Nuvia Inc. ARM claims Nuvia's licenses, which are critical for chip design, cannot be transferred to Qualcomm without permission and were terminated after negotiations failed. The lawsuit threatens Qualcomm's strategy to expand into the laptop and server processor markets, and highlights a growing conflict between two major players in the chip industry.",
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/arm-is-suing-qualcomm-for-licensing-and-trademark-violations-8124324/",
+      "source": "The Indian Express",
+      "published": "20220901T110200",
+      "overall_sentiment_score": -0.086693,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.030488,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.608281
+    }
+  ]
+}

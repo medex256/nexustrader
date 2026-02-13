@@ -1,0 +1,94 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-12-11",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:53:46.366625",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "Edwards to spin off its critical care business",
+      "summary": "Edwards Lifesciences plans to spin off its critical care unit as an independent company by the end of next year, allowing Edwards to focus on its cardiac businesses like TAVR and TMTT. This move follows a trend among medtech companies to create spin-offs to concentrate on specific markets. The critical care business generated $855 million in sales in 2022 and is projected to have a 2024 sales range of $900 million to $1 billion.",
+      "url": "https://www.medtechdive.com/news/edwards-spinoff-critical-care/701996/",
+      "source": "MedTech Dive",
+      "published": "20231208T143537",
+      "overall_sentiment_score": 0.175468,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.130397,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.632825
+    },
+    {
+      "title": "Vanda expands commercial presence with $100M deal for US rights to J&J multiple sclerosis drug",
+      "summary": "Vanda Pharmaceuticals has acquired U.S. and Canadian rights to Johnson & Johnson's multiple sclerosis drug Ponvory for $100 million, marking a significant expansion of Vanda's commercial portfolio. Ponvory, approved in 2021 for relapsing forms of multiple sclerosis, could also treat other inflammatory and autoimmune disorders. This deal follows J&J's recent layoffs within its MS sales team and adds a new asset to Vanda's pipeline, which also includes potential label expansions for Hetlioz and Fanapt, and a new gastroparesis drug.",
+      "url": "https://www.fiercepharma.com/pharma/vanda-scoops-johnson-johnsons-multiple-sclerosis-med-ponvory-100m",
+      "source": "Fierce Pharma",
+      "published": "20231207T235700",
+      "overall_sentiment_score": 0.258485,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.112326,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.747293
+    },
+    {
+      "title": "CollPlant Biotechnologies Announces Third Quarter Financial Results for 2023",
+      "summary": "CollPlant Biotechnologies announced its financial results for the third quarter of 2023, highlighting a $10 million milestone payment from AbbVie for a dermal filler product candidate. The company plans to initiate a large-animal study for commercial-sized breast implants by year-end and reported cash and cash equivalents of $29 million, providing an estimated cash runway of at least two years. The report also detailed revenue of $10.7 million and an operating loss of $2.4 million for the first nine months of 2023.",
+      "url": "https://www.biospace.com/collplant-biotechnologies-announces-third-quarter-financial-results-for-2023",
+      "source": "BioSpace",
+      "published": "20231129T052258",
+      "overall_sentiment_score": 0.220756,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.132759,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.569302
+    },
+    {
+      "title": "Biopharma’s top 5 IPOs of 2023 (so far)",
+      "summary": "This article reviews the top five biopharma IPOs of 2023, highlighting that despite Kenvue's massive $4.24 billion IPO, the biopharma sector saw much smaller IPOs ranging from $192 million to $540 million. It features companies like Acelyrin, Apogee Therapeutics, RayzeBio, Neumora Therapeutics, and Mineralys Therapeutics, detailing their IPO values, areas of focus, and lead programs. Patricia Giglio, director of deals intelligence at Citeline, provides insights into these selections based on value or clinical relevance.",
+      "url": "https://www.pharmavoice.com/news/biggest-biopharma-ipo-2023-kenvue/700762/",
+      "source": "PharmaVoice",
+      "published": "20231128T150106",
+      "overall_sentiment_score": 0.14998,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.222611,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.704383
+    },
+    {
+      "title": "Medtronic to chase Boston Scientific, Abbott in left atrial appendage closure market",
+      "summary": "Medtronic is entering the fast-growing left atrial appendage closure (LAAC) market with its new Penditure LAA clip, challenging established players like Boston Scientific and Abbott. The company acquired the Penditure system from Syntheon and aims to capture a share of the market, which is projected to quadruple to over $6 billion by 2030. Medtronic's device offers a unique repositioning feature and has received 510(k) clearance from the FDA.",
+      "url": "https://www.medtechdive.com/news/medtronic-boston-scientific-abbott-left-atrial-appendage-closu/700802/",
+      "source": "MedTech Dive",
+      "published": "20231128T000000",
+      "overall_sentiment_score": 0.20914,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.129661,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.625047
+    },
+    {
+      "title": "Sanofi CEO under pressure to woo investors after spending shock",
+      "summary": "Sanofi's CEO, Paul Hudson, is under pressure from investors to provide more details on planned increased R&D spending after shares tumbled 15% following an unexpected abandonment of 2025 margin targets. Investors are seeking clarity on how much will be spent on experimental drugs and their commercial opportunities, especially given the company's reliance on Dupixent and past development setbacks. Hudson is expected to unveil more details and strategies at an investor day on December 7.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/sanofi-ceo-under-pressure-woo-investors-after-spending-shock-2023-12-05/",
+      "source": "Reuters",
+      "published": "20231205T073500",
+      "overall_sentiment_score": 0.020776,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.110637,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.627564
+    },
+    {
+      "title": "Driving an evidence-rich strategy to strengthen the resilience and well-being of frontline health workers in East Africa",
+      "summary": "Johnson & Johnson, in collaboration with Aga Khan University's Institute for Human Development (IHD) and UNICEF, is implementing a project to strengthen the resilience and well-being of frontline health workers (FHWs) in East Africa. Phase 1 focused on building an evidence base through surveys, synthesizing policy evidence, and increasing immediate psychosocial support via an SMS-based program. The project aims to advance policy changes, build a robust community of practice, and advocate for sustained investment in FHW mental health programs.",
+      "url": "https://www.jnj.com/global-health-equity/driving-an-evidence-rich-strategy-to-strengthen-the-resilience-and-well-being-of-frontline-health-workers-in-east-africa",
+      "source": "Johnson & Johnson",
+      "published": "20231211T145943",
+      "overall_sentiment_score": 0.434943,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.402624,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

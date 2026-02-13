@@ -1,0 +1,82 @@
+{
+  "ticker": "AAPL",
+  "date": "2022-10-17",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-12T23:58:03.183796",
+  "source": "alpha_vantage",
+  "article_count": 6,
+  "articles": [
+    {
+      "title": "Spotify Technology S.A. – Leading global audio platform with pricing power",
+      "summary": "This report initiates coverage on Spotify Technology S.A. with a BUY recommendation and a target price of US$117.00. The company is highlighted as a leading global audio platform with significant pricing power, supported by a growing user base, increasing ARPU, and a recurring revenue business model. Future revenue growth is expected to be driven by subscriber conversions, price increases, and expanding higher-margin advertising revenue from podcasts and audiobooks.",
+      "url": "https://www.stocksbnb.com/reports/spotify-technology-s-a-leading-global-audio-platform-with-pricing-power/",
+      "source": "StocksBNB",
+      "published": "20221003T184607",
+      "overall_sentiment_score": 0.399941,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.315426,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.614785
+    },
+    {
+      "title": "InterDigital inks seven-year, $938M patent deal with Apple",
+      "summary": "InterDigital has renewed its patent license agreement with Apple for seven years, a deal expected to generate $134 million annually for a total of $938 million. This agreement comes as InterDigital's deal with Samsung is also up for renewal and amidst Apple's ongoing patent licensing battles with Ericsson and potential negotiations with Nokia. The renewal highlights Apple's continued engagement in patent licensing and the growing importance of high-end technologies in connected devices.",
+      "url": "https://www.lightreading.com/5g/interdigital-inks-seven-year-938m-patent-deal-with-apple",
+      "source": "Light Reading",
+      "published": "20221003T170632",
+      "overall_sentiment_score": 0.278558,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.310461,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.995958
+    },
+    {
+      "title": "Invesco Nasdaq 100 ETF: Stash This ETF Away In Your Roth IRA (NASDAQ:QQQM)",
+      "summary": "This article recommends investing in the Invesco Nasdaq 100 ETF (QQQM) for a Roth IRA, especially given market turmoil. The author highlights why QQQM was chosen over the more common QQQ and discusses its appeal after significant price declines in quality tech stocks like Apple, Amazon, and Microsoft. The author also mentions a collaboration with Hoya Capital for an income-focused investing service.",
+      "url": "https://seekingalpha.com/article/4545891-qqqm-stash-etf-away-roth-ira",
+      "source": "Seeking Alpha",
+      "published": "20221011T133000",
+      "overall_sentiment_score": 0.258408,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.339599,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.737309
+    },
+    {
+      "title": "What’s up with… InterDigital, Orange, Calix",
+      "summary": "InterDigital announced improved Q3 financial guidance and a new 7-year licensing deal with Apple worth $938 million, sending its stock up. Orange initiated an energy-saving plan in France for the winter, while Calix appointed Michael Weening as its new CEO. The article also touches on other telecom news, including a Telstra data breach, Vodafone M&A activity, BSNL's 5G plans with TCS, and Lumen Technologies' $7.5 billion ILEC sale.",
+      "url": "https://www.telecomtv.com/content/5g/what-s-up-with-interdigital-orange-calix-45575/",
+      "source": "TelecomTV",
+      "published": "20221004T170632",
+      "overall_sentiment_score": 0.319698,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.325402,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.721634
+    },
+    {
+      "title": "Identity Theft Monitoring Offered to Microsoft 365 Consumer Users",
+      "summary": "Microsoft has launched a new Identity Theft Monitoring service for its U.S. Microsoft 365 Personal and Family subscribers, offered at no extra charge. The service is largely outsourced to Experian, which provides up to $1 million in insurance for stolen funds and $100,000 for identity theft. Users will need to provide personal information to Experian, not Microsoft, to utilize the monitoring service.",
+      "url": "https://redmondmag.com/articles/2022/10/04/identity-theft-monitoring-offered-to-microsoft-365-consumer-users.aspx",
+      "source": "Redmondmag.com",
+      "published": "20221004T160633",
+      "overall_sentiment_score": 0.181293,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.117438,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.569744
+    },
+    {
+      "title": "App Store experienced sharp revenue drop in September, Morgan Stanley says",
+      "summary": "Apple's App Store experienced its steepest year-on-year net revenue decline in September, dropping 5% according to Morgan Stanley analyst Erik Woodring, largely due to a 14% plunge in gaming revenue. Sensor Tower data supports this, showing Apple's September revenue at $6.9 billion, down from $7.2 billion last year, and Morgan Stanley attributes this trend to consumers reallocating discretionary income amidst a global economic downturn. Despite a predicted potential rebound in the December quarter due to an extra selling week and currency fluctuations, Apple's services revenue for the September-ending quarter also fell short of Wall Street expectations.",
+      "url": "https://techcrunch.com/2022/10/04/app-store-experienced-sharp-revenue-drop-in-september-morgan-stanley-says/",
+      "source": "TechCrunch",
+      "published": "20221004T010700",
+      "overall_sentiment_score": -0.163296,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.212621,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.995278
+    }
+  ]
+}

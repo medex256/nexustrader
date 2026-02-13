@@ -1,0 +1,106 @@
+{
+  "ticker": "NVDA",
+  "date": "2021-12-06",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:06:35.281051",
+  "source": "alpha_vantage",
+  "article_count": 8,
+  "articles": [
+    {
+      "title": "U.S. FTC sues to block Nvidia deal to buy Arm",
+      "summary": "The U.S. Federal Trade Commission (FTC) has sued to block Nvidia Corp's more than $80 billion acquisition of British chip technology provider Arm, citing concerns that the deal would give Nvidia undue control over crucial computing technology and designs. This move complicates an already challenging regulatory path for the acquisition, which has faced opposition from the chip industry and scrutiny from British and European Union regulators. The FTC argues the merger would harm competition, reduce innovation, and lead to higher prices by giving Nvidia the ability and incentive to undermine competitors who rely on Arm's technology.",
+      "url": "https://www.reuters.com/technology/us-ftc-sues-block-40-billion-nvidia-deal-buy-arm-2021-12-02/",
+      "source": "Reuters",
+      "published": "20211203T053200",
+      "overall_sentiment_score": -0.088908,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.299479,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Regulators in US, UK, EU All Alarmed By Chip Maker Nvidia’s $40B Deal to Buy Chip Designer",
+      "summary": "Regulators in the U.S., U.K., and E.U. are expressing alarm over Nvidia Corporation's $40 billion proposed acquisition of chip designer Arm Ltd. The U.S. Federal Trade Commission (FTC) has filed a lawsuit to block the deal, citing concerns that it would grant Nvidia too much power and stifle competition and innovation in the semiconductor industry. Nvidia, however, maintains that the merger would benefit the industry, promote competition, and preserve Arm's open licensing model.",
+      "url": "https://www.newsweek.com/regulators-us-uk-eu-all-alarmed-chip-maker-nvidias-40b-deal-buy-chip-designer-1655659",
+      "source": "Newsweek",
+      "published": "20211202T224700",
+      "overall_sentiment_score": -0.22429,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.400796,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "FTC Sues To Block $40 Billion Nvidia - Arm Computer Chip Deal",
+      "summary": "The Federal Trade Commission has sued to block Nvidia's $40 billion acquisition of chip designer Arm Ltd., citing concerns that the deal would stifle competition and innovation in the semiconductor industry. Regulators in the U.K. and EU are also investigating the proposed merger. Nvidia, based in Santa Clara, California, vowed to contest the lawsuit and preserve Arm's open licensing model.",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/nvidia-arm-ltd-chip-deal-ftc-lawsuit/",
+      "source": "CBS News",
+      "published": "20211202T142800",
+      "overall_sentiment_score": -0.323101,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.322722,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.974486
+    },
+    {
+      "title": "Nasdaq dives over 2% as tech stocks slide at end of volatile week",
+      "summary": "Wall Street's major indexes, particularly the Nasdaq, experienced a significant decline as tech stocks slid at the end of a volatile week. This downturn was influenced by mixed jobs data, uncertainty surrounding the Omicron coronavirus variant, and the Federal Reserve's policy tightening signals. Major tech companies such as Apple, Meta Platforms, Alphabet, Amazon, Microsoft, Nvidia, and Tesla all saw their shares fall, contributing to the broader market dip.",
+      "url": "https://www.reuters.com/markets/europe/futures-edge-lower-ahead-payrolls-report-2021-12-03/",
+      "source": "Reuters",
+      "published": "20211204T010800",
+      "overall_sentiment_score": 0.252131,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.408109,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.609996
+    },
+    {
+      "title": "US sues to block Nvidia deal to buy British chipmaker Arm",
+      "summary": "The United States Federal Trade Commission (FTC) has sued to block Nvidia's planned $75bn acquisition of British chip design provider Arm, citing concerns that the deal would give Nvidia control over crucial computing technology and design relied upon by competitors. The FTC argues that the merger could undermine competition, leading to reduced product quality, less innovation, higher prices, and limited choices for consumers. Despite the legal challenge and opposition from other regulators, Nvidia shares remained largely unchanged due to investor focus on its growing data center business.",
+      "url": "https://www.aljazeera.com/economy/2021/12/2/us-sues-to-block-nvidia-deal-to-british-chip-maker-arm",
+      "source": "Al Jazeera",
+      "published": "20211202T205219",
+      "overall_sentiment_score": 0.008886,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.041435,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.304177
+    },
+    {
+      "title": "U.S. sues to block Nvidia’s $40-billion chip takeover of Arm",
+      "summary": "U.S. antitrust officials have sued to block Nvidia's proposed $40-billion acquisition of Arm Ltd., citing concerns that the deal would stifle innovation and undermine competition in the semiconductor industry. The Federal Trade Commission argues that the merger would grant Nvidia excessive control over chip designs widely used across various technologies. The acquisition, initially valued at $40 billion in September 2020, has faced regulatory hurdles globally due to Arm's critical role as a technology licensor to hundreds of companies including Nvidia's rivals.",
+      "url": "https://www.latimes.com/business/story/2021-12-02/u-s-sues-to-block-nvidias-40-billion-chip-takeover-of-arm",
+      "source": "Los Angeles Times",
+      "published": "20211202T171900",
+      "overall_sentiment_score": 0.02333,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.406637,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "How a Stanford couple created Taiwan’s best-known AI start-up",
+      "summary": "This article details how a Stanford couple, Chih-Han Yu and Winnie Lee, founded Appier, Taiwan's first AI unicorn. After eight failed attempts and nearly two decades, their company, which develops AI-based precision marketing solutions, went public on the Tokyo Stock Exchange in March, becoming a success story for both Taiwan's tech scene and Japan's IPO market.",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3157914/how-stanford-couple-taiwan-created-islands-first-ai-unicorn-after",
+      "source": "South China Morning Post",
+      "published": "20211201T070000",
+      "overall_sentiment_score": 0.263652,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.317803,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.645593
+    },
+    {
+      "title": "Amazon's cloud unit launches new chips to take on Intel, Nvidia",
+      "summary": "Amazon Web Services (AWS) has introduced two new custom computing chips, Graviton3 and Trainium, aimed at competing with offerings from Intel, AMD, and Nvidia. AWS claims its new chips offer better performance per dollar and lower costs for machine learning model training compared to its rivals. This move signals AWS's continued drive to develop its own hardware and intensify competition in the cloud computing and chip markets.",
+      "url": "https://www.reuters.com/technology/amazons-cloud-unit-launches-new-chips-take-intel-nvidia-2021-11-30/",
+      "source": "Reuters",
+      "published": "20211130T215400",
+      "overall_sentiment_score": -0.073152,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.305344,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.876254
+    }
+  ]
+}

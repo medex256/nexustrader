@@ -1,0 +1,118 @@
+{
+  "ticker": "JNJ",
+  "date": "2022-10-17",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:48:32.522307",
+  "source": "alpha_vantage",
+  "article_count": 9,
+  "articles": [
+    {
+      "title": "Viatris weighs sale of consumer health assets in Europe – Bloomberg News",
+      "summary": "Viatris Inc. is reportedly considering selling its European consumer health assets in a deal potentially worth over 3 billion euros ($2.9 billion). The drugmaker is working with Jefferies Financial Group Inc to find suitors, including private equity groups. This move aligns with a broader trend of drugmakers separating consumer health businesses to focus on pharmaceuticals.",
+      "url": "https://www.pharmalive.com/viatris-weighs-sale-of-consumer-health-assets-in-europe-bloomberg-news/",
+      "source": "PharmaLive",
+      "published": "20221011T070613",
+      "overall_sentiment_score": 0.129412,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.145314,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.739959
+    },
+    {
+      "title": "Johnson & Johnson 2022: Driving change, collaboration, and innovation",
+      "summary": "Johnson & Johnson's 2022 overview highlights the first year under CEO Joaquin Duato and the planned separation of its consumer health business. The article details the company's financial performance, top-selling prescription products, and significant R&D investments, emphasizing its commitment to innovation. Key product approvals, pipeline updates across oncology, immunology, and HIV, and medical device advancements are also covered, alongside a renewed commitment to fighting neglected tropical diseases.",
+      "url": "https://www.pharmalive.com/johnson-johnson-2022-driving-change-collaboration-and-innovation/",
+      "source": "PharmaLive",
+      "published": "20221011T031511",
+      "overall_sentiment_score": 0.380962,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.414502,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Johnson & Johnson sells baby powder plant it never opened to Hetero",
+      "summary": "Johnson & Johnson has sold a manufacturing facility in India to Hetero eight years after breaking ground, a plant designed to produce cosmetic products including baby powder but never opened. Hetero plans to invest Rs 600 crore ($73 million) into restoring and upgrading the facility to become its flagship plant for biopharma products, creating 2,000 new jobs. The sale comes as J&J faces extensive litigation over its talc-based baby powder and has ceased its sales in the U.S. and Canada, with a global discontinuation planned for 2023.",
+      "url": "https://www.fiercepharma.com/manufacturing/johnson-johnson-sells-baby-powder-plant-it-never-opened-hetero",
+      "source": "Fierce Pharma",
+      "published": "20221017T114700",
+      "overall_sentiment_score": -0.147354,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.114367,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.968267
+    },
+    {
+      "title": "‘The Magic of J&J’: Announcing HRE’s HR Executive of the Year",
+      "summary": "Peter Fasolo, Chief HR Officer at Johnson & Johnson, has been named HRE's HR Executive of the Year for his leadership, particularly during the COVID-19 pandemic. The article highlights his strategic initiatives, including prioritizing employee well-being, advancing diversity, equity, and inclusion (DEI), and guiding the HR organization through significant restructuring and the upcoming separation of the consumer health business. Fasolo emphasizes J&J's Credo and values as foundational to his leadership approach and the company's success.",
+      "url": "https://hrexecutive.com/the-magic-of-jj-announcing-hres-hr-executive-of-the-year/",
+      "source": "HR Executive",
+      "published": "20221017T171643",
+      "overall_sentiment_score": 0.267917,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.466125,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Stevanato Group and IL Group Partner to Improve Safe Processing & Handling of Hazardous Injectables",
+      "summary": "Stevanato Group and IL Group have partnered to develop an integrated and automated solution for the safe processing and handling of hazardous injectable drugs. This collaboration aims to enhance inspection capabilities and containment for sensitive drugs, improving safety for healthcare professionals and patients. The solution combines Stevanato Group's Vision Robot Unit (VRU) with IL Group’s labeling technology and their Vial Protect Pack.",
+      "url": "https://www.contractpharma.com/breaking-news/stevanato-group-and-il-group-partner-to-improve-safe-processing-handling-of-hazardous-injectables/",
+      "source": "Contract Pharma",
+      "published": "20221014T184631",
+      "overall_sentiment_score": 0.305421,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.267491,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.594607
+    },
+    {
+      "title": "HCA funds $1.5 million in scholarships at Tennessee State University",
+      "summary": "HCA Healthcare is funding $1.5 million in scholarships at Tennessee State University. This initiative addresses long-standing racial inequities in health care that were highlighted by the Covid-19 pandemic. The scholarships will support students at the university.",
+      "url": "https://www.bizjournals.com/nashville/news/2022/10/10/hca-funds-scholarships-at-tennessee-state.html",
+      "source": "The Business Journals",
+      "published": "20221010T165631",
+      "overall_sentiment_score": 0.365051,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.334801,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.739378
+    },
+    {
+      "title": "Biogen CEO search focuses on scientists, with former J&J exec as a leading candidate",
+      "summary": "Biogen is reportedly considering Mathai Mammen, former head of R&D at Johnson & Johnson, as a leading candidate for its next CEO. This potential selection would mark a significant shift for Biogen, emphasizing scientific credentials to help the company recover from the troubled launch of Aduhelm. While discussions are serious, a formal offer has not yet been extended.",
+      "url": "https://www.statnews.com/2022/10/07/biogen-ceo-search-focuses-on-scientists-with-former-jj-exec-as-a-leading-candidate/",
+      "source": "www.statnews.com",
+      "published": "20221007T171642",
+      "overall_sentiment_score": 0.086168,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.125198,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.926897
+    },
+    {
+      "title": "Jennifer Taubert Makes Fortune 2022 Most Powerful Women List",
+      "summary": "Jennifer Taubert, Executive Vice President and Worldwide Chairman, Pharmaceuticals at Johnson & Johnson, has been named to Fortune’s 2022 Most Powerful Women list for the seventh consecutive year. The recognition highlights her leadership in guiding Janssen's global efforts to develop innovative medicines and her commitment to diversity, equity, and inclusion within Johnson & Johnson, including advocating for healthcare worker mental health. The article details her dedication to patients and the company's values, noting Janssen's significant investment in R&D under her leadership.",
+      "url": "https://www.jnj.com/latest-news/johnson-johnson-executive-jennifer-taubert-named-to-fortunes-2022-most-powerful-women-list",
+      "source": "Johnson & Johnson",
+      "published": "20221004T171640",
+      "overall_sentiment_score": 0.448773,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.448664,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "How Johnson & Johnson is supporting mental healthcare in the Hispanic and Latino communities",
+      "summary": "Johnson & Johnson is actively working to address the mental healthcare challenges faced by Hispanic and Latino communities, including cultural stigma, language barriers, and lack of insurance. The company supports research into healthcare gaps, helps develop Spanish-language resources like \"La Salud Mental\" with the APA, mentors medical students from these communities, and engages with local organizations through initiatives like the HOLA employee resource group. These efforts aim to improve access to culturally competent mental health support and increase diversity within the medical field.",
+      "url": "https://www.jnj.com/caring-and-giving/how-johnson-johnson-is-supporting-mental-healthcare-in-the-hispanic-and-latino-communities",
+      "source": "Johnson & Johnson",
+      "published": "20221005T171640",
+      "overall_sentiment_score": 0.401691,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.436826,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

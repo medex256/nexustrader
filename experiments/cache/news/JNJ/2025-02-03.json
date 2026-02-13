@@ -1,0 +1,58 @@
+{
+  "ticker": "JNJ",
+  "date": "2025-02-03",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:59:39.461903",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "Johnson & Johnson Earnings: Maintaining Fair Value Estimate Despite Heavy Stelara Hit in 2025",
+      "summary": "Morningstar is maintaining its fair value estimate of $164 per share for Johnson & Johnson despite an expected significant decline in Stelara sales in 2025 due to biosimilar competition. The company's 2024 results were in line, and while 2025 growth is anticipated to slow, J&J's long-term guidance of 5%-7% revenue growth for 2025-30 will depend on the success of its innovative medicine and medtech portfolios.",
+      "url": "https://www.morningstar.com/stocks/johnson-johnson-earnings-maintaining-fair-value-estimate-despite-heavy-stelara-hit-2025",
+      "source": "Morningstar",
+      "published": "20250122T000000",
+      "overall_sentiment_score": 0.222647,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.235513,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Why Johnson & Johnson’s CEO Welcomes Scrutiny",
+      "summary": "Johnson & Johnson CEO Joaquin Duato discusses the company's strategic shift after spinning off its consumer-health arm, focusing on pharmaceuticals and medical technology with significant R&D investments. He addresses ongoing lawsuits related to talc products, the company's commitment to prioritizing patient safety, and its approach to drug pricing and corporate social responsibility. Duato also outlines priorities for 2025, emphasizing innovation and multi-decade success.",
+      "url": "https://time.com/7212011/joaquin-duato-johnson-and-johnson-interview/",
+      "source": "Time Magazine",
+      "published": "20250202T070000",
+      "overall_sentiment_score": -0.034189,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.063521,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Healthcare Stocks Could Merit Prescriptions in 2025",
+      "summary": "Healthcare and biotechnology stocks have underperformed recently compared to the broader market, but analysts suggest 2025 could bring a rebound. Potential catalysts include reduced policy uncertainty following the election, increased AI integration in research and development, and a more favorable environment for mergers and acquisitions within the sector. These factors could benefit funds like SBIO, particularly as large pharma companies seek to replenish their product pipelines.",
+      "url": "https://www.etftrends.com/etf-building-blocks-channel/healthcare-stocks-could-merit-prescriptions-2025/",
+      "source": "ETF Trends",
+      "published": "20250123T000000",
+      "overall_sentiment_score": 0.326953,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.300065,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.429693
+    },
+    {
+      "title": "Johnson & Johnson named a 2025 Fortune World’s Most Admired Company",
+      "summary": "Johnson & Johnson has been named a Fortune World's Most Admired Company for the 23rd consecutive year, recognized for its dedication to innovation and social responsibility. The company's exclusive focus on healthcare, through its Innovative Medicine and MedTech businesses, contributed to this accolade. The recognition highlights J&J's effectiveness in global business, social responsibility, innovativeness, and value as a long-term investment.",
+      "url": "https://www.jnj.com/latest-news/johnson-johnson-named-a-2025-fortune-worlds-most-admired-company",
+      "source": "Johnson & Johnson",
+      "published": "20250130T000000",
+      "overall_sentiment_score": 0.406053,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.407635,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

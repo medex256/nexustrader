@@ -1,0 +1,34 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-08-28",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:52:23.186394",
+  "source": "alpha_vantage",
+  "article_count": 2,
+  "articles": [
+    {
+      "title": "Rapport Therapeutics Snags $150M to Develop Precision Neurology Meds",
+      "summary": "Rapport Therapeutics, a clinical-stage biotech established last year, successfully raised $150 million in Series B financing, bringing its total funding to $250 million. The company aims to develop precision neurology medicines by leveraging receptor-associated proteins to target specific disease-driving circuits and cell types in the brain, thereby reducing broad-acting side effects. Its lead asset is currently in Phase I testing for drug-resistant seizure disorders, with Phase II trials anticipated next year.",
+      "url": "https://medcitynews.com/2023/08/neurology-drugs-venture-capital/",
+      "source": "MedCity News",
+      "published": "20230825T123000",
+      "overall_sentiment_score": 0.143548,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.246772,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.64245
+    },
+    {
+      "title": "Kenvue Becomes a Fully Independent Company Following Final Separation from Johnson & Johnson",
+      "summary": "Kenvue has officially become a fully independent company following its final separation from Johnson & Johnson. Johnson & Johnson accepted 190,955,436 shares of its common stock in exchange for 1,533,830,450 shares of Kenvue common stock, reducing its ownership in Kenvue to 9.5%. Kenvue is also expected to be added to the S&P 500 index prior to August 25, 2023.",
+      "url": "https://kommunikasjon.ntb.no/pressemelding/17992905/kenvue-becomes-a-fully-independent-company-following-final-separation-from-johnson-johnson?publisherId=90063",
+      "source": "NTB Kommunikasjon",
+      "published": "20230823T122500",
+      "overall_sentiment_score": 0.31752,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.138902,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.729221
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "JNJ",
+  "date": "2025-06-09",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:01:05.111034",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "America First Legal Files Federal Civil Rights Complaint Against Johnson & Johnson Over Illegal DEI Policies Across Company Operations",
+      "summary": "America First Legal (AFL) has filed a federal civil rights complaint against Johnson & Johnson (J&J) with the U.S. Department of Health and Human Services (HHS) Office of Civil Rights. AFL alleges that J&J systematically violates federal discrimination laws through its unlawful diversity, equity, and inclusion (DEI) policies in hiring, promotions, employee training, and clinical trials. The complaint highlights J&J's purported use of race and sex-based hiring practices for vendors, numerical goals for DEI, and the embedding of DEI policies in clinical trials, despite receiving federal taxpayer dollars.",
+      "url": "https://aflegal.org/press-release/america-first-legal-files-federal-civil-rights-complaint-against-johnson-johnson-over-illegal-dei-policies-across-company-operations/",
+      "source": "America First Legal",
+      "published": "20250609T000000",
+      "overall_sentiment_score": -0.647582,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.605608,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "PYPD: Assessing & Advancing Lead Candidate D-PLEX₁₀₀, Through Clinical Trials to Improve Surgical Outcomes, Enhance Treatment Efficacy, Minimize Side Effects",
+      "summary": "PolyPid Ltd. (NASDAQ:PYPD) is a late clinical-stage biopharma company focused on developing locally administered, prolonged-release therapeutics using its proprietary PLEX technology. Their lead asset, D-PLEX 100, is currently in a pivotal Phase 3 clinical trial (SHIELD II) to prevent surgical site infections after abdominal colorectal surgery, with top-line results expected by the end of Q2 2025. PolyPid is also pursuing strategic commercial and R&D collaborations, including a licensing agreement with ADVANZ PHARMA Corp. for D-PLEX 100 in Europe, and exploring partnerships in the U.S.",
+      "url": "https://scr.zacks.com/news/news-details/2025/PYPD-Assessing--Advancing-Lead-Candidate-D-PLEX-Through-Clinical-Trials-to-Improve-Surgical-Outcomes-Enhance-Treatment-Efficacy-Minimize-Side-Effects/default.aspx",
+      "source": "Zacks Small Cap Research",
+      "published": "20250602T021258",
+      "overall_sentiment_score": 0.215565,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.111757,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.584388
+    },
+    {
+      "title": "CEO Shareholder Letter 2025",
+      "summary": "Christophe Weber, CEO of Takeda, announces his upcoming retirement in June 2026, introducing Julie Kim as his successor and reflecting on Takeda's transformation into a global biopharmaceutical leader. The letter discusses crucial issues in healthcare, Takeda's financial performance, its pipeline advancements, and commitments to digital transformation, sustainability, and people-first culture. Weber expresses confidence in Takeda's future despite geopolitical and economic challenges.",
+      "url": "https://www.takeda.com/investors/events/shareholder-letter-2025/",
+      "source": "Takeda Pharmaceuticals",
+      "published": "20250528T150953",
+      "overall_sentiment_score": 0.194999,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.122771,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.57853
+    },
+    {
+      "title": "ASCO25: Johnson & Johnson reports data from Phase I trial of prostate cancer drug",
+      "summary": "Johnson & Johnson has reported positive data from its Phase I trial of pasritamig, a bispecific antibody for metastatic castration-resistant prostate cancer (mCRPC). The trial involving 174 subjects demonstrated the drug's potential anti-tumor activity and good tolerability, particularly in patients who had undergone multiple previous therapies. Recommended Phase II doses have been established, and the data was presented at the American Society of Clinical Oncology Annual Meeting.",
+      "url": "https://www.clinicaltrialsarena.com/news/johnson-prostate-cancer/",
+      "source": "Clinical Trials Arena",
+      "published": "20250602T000000",
+      "overall_sentiment_score": 0.025414,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.017285,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.342678
+    },
+    {
+      "title": "Inflection Points: Rethinking Your Core",
+      "summary": "This article suggests that investors use the current market calm to reassess their core equity positioning, given increased exposure to foreign revenues, higher stock concentration, and increased volatility in major indexes like the S&P 500. It proposes that factor-based strategies, particularly those focusing on quality metrics or dynamic factor rotation, can help mitigate these risks, potentially leading to better risk-adjusted returns and a more targeted exposure to U.S. economic strength. The author highlights how core indexes have changed significantly over the past 25 years and offers strategies to address these shifts.",
+      "url": "https://www.globalxetfs.com/articles/inflection-points-rethinking-your-core/",
+      "source": "Global X ETFs",
+      "published": "20250528T000000",
+      "overall_sentiment_score": -0.133453,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.032835,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.444667
+    }
+  ]
+}

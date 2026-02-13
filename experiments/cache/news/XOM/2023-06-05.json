@@ -1,0 +1,58 @@
+{
+  "ticker": "XOM",
+  "date": "2023-06-05",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:33:07.233442",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "ExxonMobil Sells Williston Assets",
+      "summary": "Chord Energy Corp. has entered a definitive agreement to acquire hydrocarbon development areas in the Williston Basin from ExxonMobil Corp. for $375 million, adding approximately 62,000 net acres. The acquisition will be funded through cash on hand and is expected to close in June, significantly expanding Chord's inventory runway in the low-cost, tier-one asset region. This deal follows Chord's previous acquisition of Diamondback Energy Inc.’s assets in the Williston Basin and comes as Chord also divests non-core assets.",
+      "url": "https://www.rigzone.com/news/exxonmobil_sells_williston_assets-24-may-2023-172850-article/",
+      "source": "Rigzone",
+      "published": "20230524T034900",
+      "overall_sentiment_score": 0.235232,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.146558,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.938334
+    },
+    {
+      "title": "Chord Energy Announces Strategic Acquisition of Williston Basin Assets",
+      "summary": "Chord Energy Corporation announced the strategic acquisition of Williston Basin assets from XTO Energy Inc., a subsidiary of Exxon Mobil Corporation, for $375 million. This acquisition adds approximately 62,000 net acres, primarily undeveloped, and current high-margin production to Chord's portfolio. The company expects the transaction to be accretive to cash flow, free cash flow, and return metrics, while extending its inventory life.",
+      "url": "https://www.prnewswire.com/news-releases/chord-energy-announces-strategic-acquisition-of-williston-basin-assets-301830425.html",
+      "source": "PR Newswire",
+      "published": "20230522T080000",
+      "overall_sentiment_score": 0.23956,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.135834,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.631317
+    },
+    {
+      "title": "Chord Energy acquires Williston basin assets for $375 million",
+      "summary": "Chord Energy Corporation has acquired assets in the Williston basin from XTO Energy Inc. and affiliates, subsidiaries of Exxon Mobil Corporation, for $375 million. The deal includes approximately 62,000 net acres with 123 estimated net 10,000-foot equivalent locations and current high-margin production, funded by existing cash on hand. This acquisition expands Chord's inventory, enhances capital and operating efficiencies, and is expected to be accretive to shareholders.",
+      "url": "https://www.worldoil.com/news/2023/5/22/chord-energy-acquires-williston-basin-assets-for-375-million/",
+      "source": "World Oil",
+      "published": "20230522T000000",
+      "overall_sentiment_score": 0.27846,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.13209,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.874387
+    },
+    {
+      "title": "Exxon Mobil subsidiaries selling Williston Basin assets to Chord Energy",
+      "summary": "Chord Energy Corp. is set to acquire approximately 62,000 net acres in the Williston Basin from Exxon Mobil subsidiaries, including XTO Energy Inc. This acquisition comes after Chord Energy was formed through the merger of Oasis Petroleum Inc. and Whiting Petroleum Corp., aiming to create a leading operator in the Williston Basin.",
+      "url": "https://www.bizjournals.com/houston/news/2023/05/22/chord-energy-williston-basin-assets-exxon-xto.html",
+      "source": "The Business Journals",
+      "published": "20230523T111100",
+      "overall_sentiment_score": 0.336137,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.238077,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.944922
+    }
+  ]
+}

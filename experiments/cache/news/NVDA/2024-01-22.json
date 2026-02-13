@@ -1,0 +1,82 @@
+{
+  "ticker": "NVDA",
+  "date": "2024-01-22",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:30:45.148041",
+  "source": "alpha_vantage",
+  "article_count": 6,
+  "articles": [
+    {
+      "title": "Synopsys to acquire Ansys to join forces for silicon-to-system design, simulation, and analysis",
+      "summary": "Synopsys announced its acquisition of Ansys for approximately $35 billion, aiming to combine Ansys' simulation and analysis capabilities with Synopsys' electronic design automation (EDA) solutions. This merger seeks to create a leader in silicon-to-systems design solutions, addressing the growing complexity in technology R&D, particularly with advancements in AI, silicon proliferation, and software-defined systems. The deal is expected to expand Synopsys' total addressable market, enhance its silicon-to-systems strategy, and generate significant synergies.",
+      "url": "https://www.therobotreport.com/synopsys-acquiring-ansys-for-silicon-to-system-design-simulation-analysis/",
+      "source": "The Robot Report",
+      "published": "20240117T000000",
+      "overall_sentiment_score": 0.352209,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.136905,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.613234
+    },
+    {
+      "title": "CORSAIR Pledges PSU Support for GeForce RTX 40 SUPER Series GPUs",
+      "summary": "Corsair has announced full power supply unit (PSU) support for NVIDIA's new RTX 40 SUPER Series graphics cards, including the RTX 4080 Super, RTX 4070 Ti Super, and RTX 4070 Super. Corsair recommends specific PSU models like the HX1000i, RM1000e, and SF850L for these new GPUs, noting their power delivery and included PCIe 5.0 12VHPWR cables. The company also offers a range of compatible hardware and will soon provide pre-built gaming PCs featuring these new graphics cards.",
+      "url": "https://www.techpowerup.com/317713/corsair-pledges-psu-support-for-geforce-rtx-40-super-series-gpus",
+      "source": "TechPowerUp",
+      "published": "20240111T191800",
+      "overall_sentiment_score": 0.3243,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.439183,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.84581
+    },
+    {
+      "title": "Upcoming Events",
+      "summary": "REX Shares, in collaboration with Tuttle Capital Management, has expanded its T-REX Single-Stock ETF suite with new offerings providing 200% daily targeted exposure to Apple, Alphabet, and Microsoft. These ETFs (AAPX, GOOX, MSFX) are designed for seasoned traders to give leveraged exposure to major tech stocks. The T-REX suite, which debuted in October 2023, now covers diverse tech sectors and has already attracted over $100 million in assets.",
+      "url": "https://markets.financialcontent.com/pennwell.hydroworld/article/bizwire-2024-1-11-rex-shares-and-tuttle-capital-management-expand-t-rex-single-stock-etf-suite-with-apple-alphabet-and-microsoft-offerings",
+      "source": "FinancialContent",
+      "published": "20240111T080000",
+      "overall_sentiment_score": 0.371645,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.309221,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.612984
+    },
+    {
+      "title": "Luminar expands partnership with Mercedes-Benz and debuts LiDAR-enabled AES",
+      "summary": "Luminar announced an expanded partnership with Mercedes-Benz, including integrating LiDAR technology into the Official FIA F1® Safety Car and next-generation Mercedes vehicles. The company also debuted LiDAR-enabled Automatic Emergency Steering (AES) and Automated Valet software, powered by its new Iris+ LiDAR, and highlighted its commercial growth and year-end industrialization milestone with Volvo for the EX90. Luminar further showcased its innovations at the chip level and collaborations with technology partners like NVIDIA and Mobileye.",
+      "url": "https://worldbusinessoutlook.com/luminar-expands-partnership-with-mercedes-benz-and-debuts-lidar-enabled-aes/",
+      "source": "World Business Outlook",
+      "published": "20240110T000000",
+      "overall_sentiment_score": 0.278806,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.335388,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.857712
+    },
+    {
+      "title": "Kodiak Unveils First 'Driverless-Ready' Semi-Truck Designed for Scaled Deployment, Plans Commercial Runs on I-45 This Year",
+      "summary": "Kodiak Robotics introduced its sixth-generation 'driverless-ready' semi-truck, designed for scaled deployment, which includes redundant safety-critical hardware and advanced software. The company plans to launch driverless operations between Dallas and Houston later this year using this new truck, building on five years of real-world testing. This development positions Kodiak as a leader in autonomous trucking, with its technology being deployment-ready and truck manufacturer-agnostic.",
+      "url": "https://dallasinnovates.com/kodiak-unveils-first-driverless-ready-semi-truck-designed-for-scaled-deployment-plans-commercial-runs-on-i-45-this-year/",
+      "source": "Dallas Innovates",
+      "published": "20240109T000000",
+      "overall_sentiment_score": 0.489514,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.306205,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.636998
+    },
+    {
+      "title": "NVIDIA Corporation (NVDA) Stock Rocketed Over 200% in 2023",
+      "summary": "Polen Capital's \"Polen Focus Growth Strategy\" fund saw significant returns in 2023, with NVIDIA Corporation (NVDA) being a key contributor as its stock rocketed over 200%. The article highlights NVIDIA's crucial role in the generative AI boom, providing the processing power for large language models and AI factories. NVIDIA was held by 180 hedge fund portfolios at the end of Q3 2023, up from 175 in the previous quarter.",
+      "url": "https://finance.yahoo.com/news/nvidia-corporation-nvda-stock-rocketed-080753404.html",
+      "source": "Yahoo Finance",
+      "published": "20240122T000000",
+      "overall_sentiment_score": 0.213258,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.457705,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

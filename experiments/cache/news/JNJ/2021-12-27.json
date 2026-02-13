@@ -1,0 +1,130 @@
+{
+  "ticker": "JNJ",
+  "date": "2021-12-27",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:42:43.375264",
+  "source": "alpha_vantage",
+  "article_count": 10,
+  "articles": [
+    {
+      "title": "Moody's gives Apple top 'AAA' credit rating on growth promise",
+      "summary": "Ratings agency Moody's upgraded Apple Inc.'s long-term credit rating to 'AAA' with a stable outlook, citing its exceptional liquidity and robust earnings. This places Apple in an elite group of companies with the highest rating. While Apple's financial performance was strong in fiscal 2021, the company faces execution risks from short product cycles, shifting consumer preferences, and supply chain management.",
+      "url": "https://www.reuters.com/technology/moodys-gives-apple-top-aaa-credit-rating-growth-promise-2021-12-21/",
+      "source": "Reuters",
+      "published": "20211222T102800",
+      "overall_sentiment_score": 0.45899,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.343175,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.599046
+    },
+    {
+      "title": "Dyadic Announces Research, License and Collaboration",
+      "summary": "Dyadic International, Inc. announced a Research, License and Collaboration Agreement with Janssen Biotech, Inc., a Johnson & Johnson Pharmaceutical Company. Under the agreement, Janssen will pay Dyadic an upfront payment for non-exclusive rights to use Dyadic's C1 platform for developing therapeutic protein candidates and will provide R&D funding. The agreement also includes options for Janssen to secure exclusive licenses, milestone payments to Dyadic upon option exercise, technology transfer, and additional development, regulatory, and commercial milestones based on product development and manufacturing.",
+      "url": "https://www.globenewswire.com/de/news-release/2021/12/17/2354376/0/en/Dyadic-Announces-Research-License-and-Collaboration-Agreement-with-Janssen-for-the-Manufacture-of-Therapeutic-Protein-Candidates-using-its-C1-Platform.html?%3Futm_source=dutchit",
+      "source": "GlobeNewswire",
+      "published": "20211217T211019",
+      "overall_sentiment_score": 0.377383,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.333415,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.81311
+    },
+    {
+      "title": "CDC recommends people not get J&J vaccine if Pfizer, Moderna are available",
+      "summary": "The CDC has recommended that people prioritize Pfizer or Moderna Covid-19 vaccines over Johnson & Johnson due to the mRNA vaccines' greater protection and lower risk of rare but serious blood clots. This guidance came after the CDC's Advisory Committee on Immunization Practices unanimously voted to declare the mRNA vaccines as \"preferred\" options for adults. While not prohibiting J&J's use, the recommendation emphasizes the superior safety and efficacy profile of the Pfizer and Moderna shots when available.",
+      "url": "https://www.nbcnews.com/health/health-news/cdc-panel-recommends-people-not-get-jj-vaccine-pfizer-moderna-availabl-rcna8987",
+      "source": "NBC News",
+      "published": "20211216T154600",
+      "overall_sentiment_score": 0.09993,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.428941,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Japan health panel approves Merck's oral COVID-19 treatment",
+      "summary": "A Japanese health ministry panel has recommended the approval of Merck's oral COVID-19 antiviral pill, molnupiravir, paving the way for its distribution across the country from this weekend. This move is part of Prime Minister Fumio Kishida's strategy to introduce new treatments by year-end amidst concerns about the Omicron variant. Japan has already secured substantial doses of Merck's drug and is also procuring treatments from Pfizer and developing its own with Shionogi.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/japan-health-panel-approves-mercks-oral-covid-19-treatment-nhk-2021-12-24/",
+      "source": "Reuters",
+      "published": "20211224T112100",
+      "overall_sentiment_score": 0.208836,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.102586,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.636234
+    },
+    {
+      "title": "Apple’s long-term credit rating upgraded to AAA by Moody’s",
+      "summary": "Moody’s Investors Service upgraded Apple Inc.’s long-term credit rating to Aaa, placing it in an exclusive group with Microsoft and Johnson & Johnson as the only U.S. S&P 500 corporations with the highest possible credit score. This upgrade reflects Apple's exceptional liquidity, robust earnings, and strong business profile, as the company continues to focus on a net cash-neutral position and expand into new markets like augmented reality and cars. Despite potential chip-related supply shortages impacting revenue, investors remain optimistic about Apple's long-term prospects.",
+      "url": "https://www.aljazeera.com/economy/2021/12/21/apples-long-term-credit-rating-upgraded-to-aaa-by-moodys",
+      "source": "Al Jazeera",
+      "published": "20211221T192603",
+      "overall_sentiment_score": 0.641618,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.549964,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.582752
+    },
+    {
+      "title": "The Path That Brought Lara Sullivan To Biopharma",
+      "summary": "This article details the career path of Lara Sullivan, M.D., CEO of Pyxis Oncology, from her origins as the child of physicians in rural upstate New York to her current role in biopharma. It highlights her initial pivot away from medicine, her experiences on Wall Street, and her eventual return to healthcare through an M.D./MBA program at Penn and Wharton, which led her to roles at McKinsey, Pfizer, SpringWorks Therapeutics, and Pyxis Oncology. The piece emphasizes how her diverse background shaped her journey into leading biopharmaceutical companies.",
+      "url": "https://www.lifescienceleader.com/doc/the-path-that-brought-lara-sullivan-to-biopharma-0001",
+      "source": "Life Science Leader",
+      "published": "20211220T210610",
+      "overall_sentiment_score": 0.219943,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.122015,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.604679
+    },
+    {
+      "title": "P&G recalls some conditioner, shampoo sprays on finding carcinogens",
+      "summary": "Procter & Gamble Co (PG.N) has voluntarily recalled some dry conditioner and shampoo sprays from several brands, including Pantene and Herbal Essences, in the United States and Canada due to the detection of a cancer-causing chemical, benzene. While the company stated that daily exposure to the detected benzene levels is not expected to cause negative health consequences, the products represented less than 1% of its overall hair care portfolio. This recall follows a similar action earlier in the year by Johnson & Johnson, which also detected benzene in some of its sunscreen products.",
+      "url": "https://www.reuters.com/business/retail-consumer/pg-recalls-some-conditioner-shampoo-sprays-due-potential-cancer-risk-2021-12-17/",
+      "source": "Reuters",
+      "published": "20211217T220800",
+      "overall_sentiment_score": -0.396325,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.345116,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.613868
+    },
+    {
+      "title": "The tragedy of Johnson & Johnson’s Covid vaccine",
+      "summary": "This article discusses the downfall of Johnson & Johnson's Covid-19 vaccine, once anticipated as a global solution. Despite initial hopes, its lower efficacy compared to mRNA vaccines, rare but serious blood clot side effects, and distribution issues led to a unanimous CDC advisory panel recommendation favoring Pfizer and Moderna shots. The piece reflects on the challenges J&J faced in drug development, highlighting how biology, bad luck, and strategic decisions ultimately hampered its success.",
+      "url": "https://www.statnews.com/2021/12/17/the-tragedy-of-johnson-johnsons-covid-vaccine/",
+      "source": "STAT",
+      "published": "20211217T203638",
+      "overall_sentiment_score": -0.144996,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.376269,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Nasally inhaled therapeutics and vaccination for COVID‐19: Developments and challenges - Xi - 2021 - MedComm",
+      "summary": "This review article explores the developments and challenges of nasally inhaled therapeutics and vaccination for COVID-19. It highlights the advantages of nasal delivery, such as local immunity and ease of administration, especially for low-income countries. The authors also discuss the physiological factors affecting nasal spray efficacy and the urgent need for effective delivery systems targeting ACE2-rich regions.",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/mco2.101",
+      "source": "Wiley Online Library",
+      "published": "20211214T193545",
+      "overall_sentiment_score": 0.333933,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.343398,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.62969
+    },
+    {
+      "title": "Chief Executive Leadership Institute Honors Dr. Albert Bourla of Pfizer and Alex Gorsky of Johnson & Johnson with Legend in Leadership Award",
+      "summary": "The Yale Chief Executive Leadership Institute (CELI) awarded Dr. Albert Bourla of Pfizer and Alex Gorsky of Johnson & Johnson with the Legend in Leadership Award during its virtual CEO Summit on December 15, 2021. The award recognizes their instrumental roles in developing and distributing COVID-19 vaccines and therapeutics in record time, saving millions of lives globally. Jeffrey Sonnenfeld, senior associate dean for leadership studies at the Yale School of Management, praised their foresight in R&D investment and their leadership in navigating scientific and political challenges during the pandemic.",
+      "url": "https://som.yale.edu/news/2021/12/chief-executive-leadership-institute-honors-dr-albert-bourla-of-pfizer-and-alex-gorsky-of-johnson-johnson-with-legend-in-leadership-award",
+      "source": "Yale School of Management",
+      "published": "20211214T210208",
+      "overall_sentiment_score": 0.296599,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.428575,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.972899
+    }
+  ]
+}

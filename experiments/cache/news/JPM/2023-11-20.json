@@ -1,0 +1,130 @@
+{
+  "ticker": "JPM",
+  "date": "2023-11-20",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:14:29.472485",
+  "source": "alpha_vantage",
+  "article_count": 10,
+  "articles": [
+    {
+      "title": "AI Boosting Payments Efficiency & Cutting Fraud",
+      "summary": "J.P. Morgan highlights how artificial intelligence is enhancing payment efficiency and reducing fraud, especially within non-bank financial institutions. The article discusses AI's role in boosting productivity, cutting costs, and improving fraud detection, citing examples from J.P. Morgan and Microsoft. It also emphasizes the importance of data governance and ethical considerations for a successful AI rollout.",
+      "url": "https://www.jpmorgan.com/insights/payments/payments-optimization/ai-payments-efficiency-fraud-reduction",
+      "source": "J.P. Morgan",
+      "published": "20231120T000000",
+      "overall_sentiment_score": 0.258555,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.406793,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.95491
+    },
+    {
+      "title": "RBC Capital Remains a Buy on Emerson Electric Company (EMR)",
+      "summary": "RBC Capital analyst Deane Dray maintained a Buy rating on Emerson Electric Company (EMR) with a price target of $153.00, citing Dray's strong track record. This positive outlook is supported by a recent Buy rating from TR | OpenAI – 4o’s Garrick Presswyn, despite a Hold rating from J.P. Morgan. The company's latest quarterly revenue was $4.86 billion with a net profit of $637 million.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/EMR-N/pressreleases/36196725/rbc-capital-remains-a-buy-on-emerson-electric-company-emr/",
+      "source": "The Globe and Mail",
+      "published": "20231118T200000",
+      "overall_sentiment_score": 0.204295,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.13528,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.649384
+    },
+    {
+      "title": "Webull Securities Australia honoured with the prestigious \"Best Investing Solutions\" award",
+      "summary": "Webull Securities (Australia) Pty Ltd was awarded the \"Best Investing Solution\" at the Adam Smith Awards Asia 2023, recognizing its commitment to providing reliable and intelligent products for self-directed investors. Rob Talevski, CEO of Webull Securities Australia, highlighted the team's innovation and collaboration with J.P. Morgan as key to this achievement. The award underscores Webull's focus on user experience and technology innovation in the APAC region.",
+      "url": "https://www.macaubusiness.com/webull-securities-australia-honoured-with-the-prestigious-best-investing-solutions-award/",
+      "source": "Macau Business",
+      "published": "20231116T000000",
+      "overall_sentiment_score": 0.189741,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.324323,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.635435
+    },
+    {
+      "title": "BBVA will transfer its New York headquarters to more sustainable offices",
+      "summary": "BBVA is relocating its New York headquarters to a more sustainable building at Two Manhattan West, aiming to provide a better experience for its 350 employees and reinforce its commitment to sustainability. The new office space, powered by renewable energy, is part of BBVA's broader strategy to reduce its environmental impact through a Global Eco-Efficiency Plan. The move is planned for the last quarter of 2024, joining other major tenants in the LEED-Gold certified building.",
+      "url": "https://www.bbva.com/en/sustainability/bbva-will-transfer-its-new-york-headquarters-to-more-sustainable-offices/",
+      "source": "BBVA",
+      "published": "20231120T000000",
+      "overall_sentiment_score": 0.260047,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.172569,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.583644
+    },
+    {
+      "title": "How Wholesalers Can Use 13F Reports with YCharts to Boost ETF AUM",
+      "summary": "This article explains how wholesalers can leverage 13F reports and YCharts tools to identify prospective advisors, research competitor ETFs, and develop tailored strategies to boost their ETF AUM. It details how to use 13F filings for prospecting and YCharts for detailed fund comparisons and creating personalized proposals, emphasizing strategic engagement over focusing solely on high-profile 13F news.",
+      "url": "https://get.ycharts.com/resources/blog/how-wholesalers-can-use-13f-reports-with-ycharts-to-boost-etf-aum/",
+      "source": "YCharts",
+      "published": "20231117T000000",
+      "overall_sentiment_score": 0.158216,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.347436,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.613043
+    },
+    {
+      "title": "4 New Businesses Coming To Huntington Shopping Center",
+      "summary": "Four new businesses, including Williams Sonoma, J.Crew, Paris Baguette, and BFT Fitness, are set to open at the Huntington Shopping Center in Huntington, NY. This expansion follows the successful introduction of new tenants like REI and Lovesac in early 2022. The redevelopment aims to attract premier national brands and will result in a total of 277,000 square feet of retail space upon completion in 2024.",
+      "url": "https://patch.com/new-york/huntington/4-new-businesses-coming-huntington-shopping-center",
+      "source": "Patch",
+      "published": "20231114T172600",
+      "overall_sentiment_score": 0.22646,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.079608,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.315741
+    },
+    {
+      "title": "Blackrock May Be Considering an Ether ETF, Ether Price Jumps",
+      "summary": "Blackrock appears to be exploring an Ether ETF, evidenced by a \"iShares Ethereum Trust\" filing in Delaware, which caused Ether's price to jump. This move mirrors Blackrock's actions prior to its spot Bitcoin ETF application, suggesting a similar potential path for Ether. If approved, a spot Ether ETF could significantly impact the crypto asset's regulatory standing.",
+      "url": "https://www.investopedia.com/blackrock-may-be-considering-an-ether-etf-ether-price-jumps-8400047",
+      "source": "Investopedia",
+      "published": "20231109T145800",
+      "overall_sentiment_score": 0.196456,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.246181,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.628089
+    },
+    {
+      "title": "Jack Henry lands more FedNow clients",
+      "summary": "Jack Henry & Associates has connected 40 customers to the FedNow instant payments system, with 150 more in the implementation queue, though all current live customers are in receive-only mode. The company expects to have approximately 150 live customers by early 2024 and anticipates more will add send capabilities. While FedNow adoption has been slow overall, Jack Henry also noted a significant increase in RTP network transactions, primarily from digital wallets and other specific payment types.",
+      "url": "https://www.paymentsdive.com/news/jack-henry-fednow-instant-realtime-payments-earnings/699150/",
+      "source": "Payments Dive",
+      "published": "20231108T145936",
+      "overall_sentiment_score": 0.173947,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.120606,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.55187
+    },
+    {
+      "title": "Creating Job Opportunities for Over 72,000 Detroiters",
+      "summary": "JPMorgan Chase, in collaboration with partners like Detroit at Work, has significantly contributed to job creation in Detroit, helping over 72,000 residents secure employment and apprenticeships. This effort, spurred by a $200 million investment, addresses the city's economic transformation from manufacturing to technology and arts, providing training and connecting job seekers to in-demand roles, including a virtual customer service program for JPMorgan Chase. The initiative has helped reduce Detroit's unemployment rate to under 7% in 2023, fostering generational wealth and community revitalization.",
+      "url": "https://www.jpmorganchase.com/newsroom/stories/detroit-jobs-and-skills",
+      "source": "JPMorganChase",
+      "published": "20231115T000000",
+      "overall_sentiment_score": 0.260164,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.471072,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "JPMorgan UK small and mid-cap trusts to merge",
+      "summary": "JPMorgan is merging its UK Smaller Companies and Mid Cap investment trusts to form a new £430m JPMorgan UK Small Cap Growth & Income trust. This consolidation aims to create a larger, more liquid investment company with lower costs and fees, and a wider investment universe. The merger, awaiting shareholder approval, will be managed by existing portfolio managers Georgina Brittain and Katen Patel, and includes an enhanced dividend policy targeting a 4% yield on net asset value.",
+      "url": "https://www.trustnet.com/news/13396591/jpmorgan-uk-small-and-mid-cap-trusts-to-merge",
+      "source": "Trustnet",
+      "published": "20231114T145938",
+      "overall_sentiment_score": 0.230083,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.400944,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

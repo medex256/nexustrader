@@ -1,0 +1,58 @@
+{
+  "ticker": "AAPL",
+  "date": "2023-01-30",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-12T23:59:11.030239",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "IBM Is Tech’s Most Beaten-Down Company",
+      "summary": "This article argues that IBM has significantly fallen from its former prominence, ranking 49th on the Fortune 500 compared to 8th in 1980. Its recent financial results show flat revenue and modest net income, trailing far behind other tech giants like Apple, Amazon, and Microsoft. The author criticizes IBM for missing key technological advancements such as cloud computing, search, e-commerce, and operating systems despite its past R&D capabilities.",
+      "url": "https://247wallst.com/technology-3/2023/01/26/ibm-is-techs-most-beaten-down-company/",
+      "source": "24/7 Wall St.",
+      "published": "20230126T073000",
+      "overall_sentiment_score": -0.377914,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.312989,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.63924
+    },
+    {
+      "title": "AST SpaceMobile raises $75 million, partners with TIM Brasil",
+      "summary": "AST SpaceMobile has raised $75 million through an offering of Class A Common Stock and formed a partnership with Brazilian telco TIM Brasil. The funds will support the production and launch of the company's commercial satellites, while the partnership will enable TIM Brasil to test AST SpaceMobile's satellite-based 4G services in remote Brazilian locations. This move highlights AST SpaceMobile's mission to connect unserved areas and positions it alongside other companies in the growing satellite-to-phone connectivity market.",
+      "url": "https://www.datacenterdynamics.com/en/news/ast-spacemobile-raises-75-million-partners-with-tim-brasil/",
+      "source": "Data Center Dynamics",
+      "published": "20230126T000000",
+      "overall_sentiment_score": 0.300317,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.204937,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.559357
+    },
+    {
+      "title": "Apple’s Reliance On China Poses A Problem For The Company",
+      "summary": "This article discusses Apple's significant reliance on its supply chain in China and the challenges this poses for the company amidst growing geopolitical tensions and trade barriers between the US and China. It highlights how Apple's deep integration with Chinese manufacturing, including specialized labor and R&D, makes disentanglement difficult, even as the US government increases pressure through tariffs, forced labor prevention acts, and technology export controls. The article suggests that while Apple is starting to move some operations, achieving true independence from China will be a slow and arduous process.",
+      "url": "https://www.forbes.com/sites/stevebanker/2023/01/19/apples-china-problem/",
+      "source": "Forbes",
+      "published": "20230119T131200",
+      "overall_sentiment_score": -0.304228,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.311136,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Big Tech to Congress: Listen to Taylor Swift and Go After Ticketmaster, Not Us",
+      "summary": "Lobbyists for major technology companies capitalized on public outrage over Ticketmaster's handling of Taylor Swift concert tickets to deflect congressional antitrust scrutiny away from Big Tech. They argued that Congress should focus on clear monopolies like Ticketmaster, implying that existing antitrust laws are sufficient and that efforts to reform them to target tech giants are misguided. This strategy led to a Senate Judiciary Committee hearing focusing on Live Nation/Ticketmaster's monopolistic practices instead of Big Tech.",
+      "url": "https://theintercept.com/2023/01/25/taylor-swift-ticketmaster-big-tech-lobby/",
+      "source": "The Intercept",
+      "published": "20230125T070000",
+      "overall_sentiment_score": -0.255165,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.14002,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.63695
+    }
+  ]
+}

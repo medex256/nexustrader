@@ -1,24 +1,27 @@
 # In nexustrader/backend/app/agents/execution_core.py
 
 """
-Execution Core Agents
+Execution Core — Trader Agent
 
-This module contains agents responsible for converting research insights 
-into actionable trading strategies.
+Architecture (Feb 12, 2026 — aligned with TradingAgents paper):
 
-Active Agents:
-- Trading Strategy Synthesizer: Converts research manager's decision into 
-  structured trading plan (entry, exit, stop-loss, position size)
+The Trader is an INDEPENDENT decision-maker, not a rubber-stamp.
+It receives the Research Manager's investment plan as a *suggestion*
+and makes its OWN BUY/SELL/HOLD call based on:
+  1. The investment plan (context, not constraint)
+  2. Current price + risk metrics
+  3. Its own judgement
+
+The Trader's action may DIFFER from the Research Manager's.
+This creates the decision-tension that the Risk Debate needs to function.
 
 Removed Agents (Redundant):
 - Arbitrage Trader: Required complex options data not available
 - Value Trader: Duplicated Fundamental Analyst's work (95% overlap)
 - Bull Trader: Duplicated Bull Researcher's perspective (90% overlap)
-
-See documentation/claude_context/WHY_TRADERS_REDUNDANT.md for details.
 """
 
-from ..llm import invoke_llm as call_llm
+from ..llm import invoke_llm as call_llm, invoke_llm_quick
 from typing import Optional, Literal
 from pydantic import BaseModel, Field, ValidationError
 from ..tools.portfolio_tools import calculate_ticker_risk_metrics
@@ -85,7 +88,8 @@ INSTRUCTIONS:
 Return ONLY: BUY, SELL, or HOLD (no punctuation, no explanation)"""
     
     try:
-        signal = call_llm(prompt).strip().upper()
+        # Use minimal thinking — this is a trivial extraction task
+        signal = invoke_llm_quick(prompt).strip().upper()
         # Validate the response
         if signal in ["BUY", "SELL", "HOLD"]:
             return signal
@@ -103,8 +107,12 @@ Return ONLY: BUY, SELL, or HOLD (no punctuation, no explanation)"""
 
 def trading_strategy_synthesizer_agent(state: dict):
     """
-    The Trading Strategy Synthesizer Agent.
-    Now uses the investment_plan from the Research Manager.
+    The Trader Agent (formerly "Strategy Synthesizer").
+    
+    Architecture (Feb 12, 2026 — aligned with TradingAgents paper):
+    Receives the Research Manager's investment plan as CONTEXT (not constraint).
+    Makes its OWN independent BUY/SELL/HOLD decision.
+    This creates decision-tension for the downstream Risk Debate.
     """
     # Get the investment plan from research manager
     investment_plan = state.get('investment_plan', '')
@@ -116,7 +124,7 @@ def trading_strategy_synthesizer_agent(state: dict):
     try:
         simulated_date = state.get("simulated_date") or state.get("run_config", {}).get("simulated_date")
         risk_metrics = calculate_ticker_risk_metrics(ticker, as_of=simulated_date)
-        current_price_str = risk_metrics.get("current_price", "Unknown") # e.g. "$135.50"
+        current_price_str = risk_metrics.get("current_price", "Unknown")
     except Exception:
         current_price_str = "Unknown"
     
@@ -129,40 +137,27 @@ def trading_strategy_synthesizer_agent(state: dict):
     else:
         context = f"Research Manager's Investment Plan:\n{investment_plan}"
     
-    # 1. Construct the prompt for the LLM
-    # Extract the Research Manager's action directive using LLM signal extractor
-    # Only used as a constraint to keep Strategy Synthesizer aligned with Research Manager
-    # NOTE: Only call extract_signal if we have a substantive investment plan to extract from
-    manager_action = None
-    if investment_plan and len(investment_plan.strip()) > 50:
-        try:
-            manager_action = extract_signal(investment_plan, ticker)
-        except Exception:
-            manager_action = None
+    # NOTE: No extract_signal call here — we don't force alignment.
+    # The Trader reads the plan and makes its own call.
     
-    action_constraint = ""
-    if manager_action:
-        action_constraint = f"\n\n⚠️ CRITICAL: The Research Manager has recommended {manager_action}. You MUST set 'action' to '{manager_action}' unless there are extreme execution impossibilities (e.g., no liquidity, circuit breaker). Your role is to translate the strategic decision into tactical parameters (entry, stop, take profit, position size), NOT to override the strategic decision.\n"
-    
-    prompt = f"""Create an actionable trading strategy based on research analysis for {ticker}.
+    prompt = f"""You are the Trader for {ticker}. You have received an investment plan from the Research Manager.
+Your job is to make your OWN independent trading decision. You may AGREE or DISAGREE with the plan.
 
 TRADING HORIZON: {horizon.upper()} ({horizon_days} trading days)
 
 CONTEXT:
 Current Market Price: {current_price_str}
-Research Plan:
 {context}
-{action_constraint}
+
 INSTRUCTIONS:
-1. Decide on a strategy: BUY, SELL, or HOLD for the next {horizon_days} trading days.
-2. IF BUY/SELL: Set 'entry_price' CLOSE to the Current Market Price ({current_price_str}).
+1. Evaluate the Research Manager's plan critically. Do you agree with the direction?
+2. Make YOUR OWN decision: BUY, SELL, or HOLD for the next {horizon_days} trading days.
+3. IF BUY/SELL: Set 'entry_price' CLOSE to the Current Market Price ({current_price_str}).
    - For LONG (Buy): Take Profit > Entry > Stop Loss.
    - For SHORT (Sell): Stop Loss > Entry > Take Profit.
-3. HOLD is allowed, but only if BOTH are true:
-    - The evidence is genuinely mixed/insufficient to choose direction, AND
-    - You can state at least two concrete blockers (e.g., conflicting signals, missing key info, imminent event risk).
-    If there is a slight edge but uncertainty remains, prefer BUY/SELL with a SMALLER position_size_pct (e.g., 5–15) rather than HOLD.
-4. Your recommendation is explicitly for a {horizon} horizon ({horizon_days} trading days).
+4. HOLD is valid when evidence is genuinely mixed, but prefer a directional call
+   with smaller position_size_pct (5-15%) over HOLD when there is any edge.
+5. If you DISAGREE with the Research Manager, explain why in rationale.
 
 Return ONLY valid JSON (no commentary or Markdown) in this exact schema:
 {{
@@ -180,13 +175,14 @@ Keep response under 200 words."""
     strategy_response = call_llm(prompt)
     
     # 3. Parse and validate JSON output
+    parse_failed = False
     try:
         json_text = _extract_json_from_text(strategy_response)
         strategy_model = TradingStrategy.model_validate_json(json_text)
         strategy = strategy_model.model_dump()
     except (ValueError, ValidationError) as exc:
+        parse_failed = True
         # JSON parsing failed - use LLM signal extractor as fallback
-        # This prevents blind HOLD defaults when LLM gave valid recommendation in prose
         try:
             extracted_action = extract_signal(strategy_response, ticker)
             strategy = {
@@ -194,11 +190,10 @@ Keep response under 200 words."""
                 "entry_price": None,
                 "take_profit": None,
                 "stop_loss": None,
-                "position_size_pct": 10 if extracted_action != "HOLD" else 0,  # Conservative 10% if BUY/SELL
+                "position_size_pct": 10 if extracted_action != "HOLD" else 0,
                 "rationale": f"Extracted from prose after JSON parse failure: {exc}. Original response: {strategy_response[:200]}...",
             }
         except Exception as extract_exc:
-            # If signal extraction also fails, then default to HOLD
             strategy = {
                 "action": "HOLD",
                 "entry_price": None,
@@ -208,17 +203,23 @@ Keep response under 200 words."""
                 "rationale": f"Fallback due to parse error ({exc}) and extraction error ({extract_exc}). Raw: {strategy_response[:200]}...",
             }
     
-    # 4. ENFORCE consistency with Research Manager's decision
-    # If Research Manager gave a clear directive, Strategy Synthesizer MUST respect it
-    # Only Risk Manager can override this decision (not Strategy Synthesizer)
-    if manager_action and manager_action != "HOLD":
-        # Force alignment if LLM ignored the constraint
-        if strategy.get("action") != manager_action:
-            print(f"[CONSISTENCY] Strategy Synthesizer tried to override {manager_action} with {strategy.get('action')}. Enforcing Research Manager's decision.")
-            strategy["action"] = manager_action
-            # Adjust rationale to reflect enforcement
-            original_rationale = strategy.get("rationale", "")
-            strategy["rationale"] = f"[Enforced: Research Manager recommended {manager_action}] {original_rationale}"
+    # NO forced alignment — Trader is independent.
+    # Extract what the Research Manager recommended for metadata/risk debate context
+    manager_action = None
+    if investment_plan and len(investment_plan.strip()) > 50:
+        # Simple keyword extraction (no LLM call needed)
+        plan_upper = investment_plan.upper()
+        if "RECOMMENDATION: BUY" in plan_upper or "RECOMMENDATION:** BUY" in plan_upper or "**BUY**" in plan_upper:
+            manager_action = "BUY"
+        elif "RECOMMENDATION: SELL" in plan_upper or "RECOMMENDATION:** SELL" in plan_upper or "**SELL**" in plan_upper:
+            manager_action = "SELL"
+        elif "RECOMMENDATION: HOLD" in plan_upper or "RECOMMENDATION:** HOLD" in plan_upper or "**HOLD**" in plan_upper:
+            manager_action = "HOLD"
+    
+    trader_action = strategy.get("action", "HOLD")
+    disagreed = manager_action and trader_action != manager_action
+    if disagreed:
+        print(f"[TRADER] Independent decision: Trader chose {trader_action}, Research Manager recommended {manager_action}")
     
     # Normalize HOLD to avoid misleading price fields
     if (strategy.get("action") or "").upper() == "HOLD":
@@ -230,9 +231,19 @@ Keep response under 200 words."""
     # 5. Update the state
     state['trading_strategy'] = strategy
     
-    # Store Research Manager's original recommendation for Risk Manager to see
-    if manager_action:
-        state['research_manager_recommendation'] = manager_action
+    # Store both recommendations for Risk Manager to see the tension
+    state['research_manager_recommendation'] = manager_action or "UNKNOWN"
+    state['trader_recommendation'] = trader_action
+
+    # Record run metadata for evaluation/debug
+    if 'run_metadata' not in state:
+        state['run_metadata'] = {}
+    state['run_metadata'].update({
+        "strategy_action": trader_action,
+        "strategy_json_parse_failed": parse_failed,
+        "research_manager_action": manager_action,
+        "trader_disagreed_with_manager": disagreed,
+    })
     
     return state
 

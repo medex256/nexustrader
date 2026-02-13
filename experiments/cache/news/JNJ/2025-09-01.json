@@ -1,0 +1,142 @@
+{
+  "ticker": "JNJ",
+  "date": "2025-09-01",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:02:02.850526",
+  "source": "alpha_vantage",
+  "article_count": 11,
+  "articles": [
+    {
+      "title": "Johnson & Johnson MedTech hit with permanent injunction as fallout over antitrust lawsuit continues",
+      "summary": "Johnson & Johnson MedTech has been hit with a permanent injunction preventing it from withholding clinical support for cardiac mapping devices when customers purchase them from reprocessing companies. This follows a previous ruling where the company was ordered to pay $442.2 million in damages for antitrust violations. The injunction also bars J&J MedTech from implementing technology to disable reprocessed devices and requires an executive to report compliance to the court for five years.",
+      "url": "https://cardiovascularbusiness.com/topics/healthcare-management/legal-news/johnson-johnson-medtech-hit-permanent-injunction-fallout-over-antitrust-lawsuit-continues",
+      "source": "Cardiovascular Business",
+      "published": "20250828T000000",
+      "overall_sentiment_score": -0.351233,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.383572,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "As the Market Rotates, This Healthcare ETF Is Leading the Way",
+      "summary": "The market is experiencing a rotation from tech to defensive sectors, with healthcare leading gains. The iShares U.S. Healthcare ETF (IYH) offers broad exposure to previously beaten-down healthcare stocks like UnitedHealth Group, Eli Lilly, Johnson & Johnson, and AbbVie, which are now showing promise. This ETF provides exposure to a less volatile, Buffett-backed sector with significant upside potential.",
+      "url": "https://finviz.com/news/149842/as-the-market-rotates-this-healthcare-etf-is-leading-the-way",
+      "source": "Finviz",
+      "published": "20250826T093500",
+      "overall_sentiment_score": 0.359351,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.349307,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.72815
+    },
+    {
+      "title": "Johnson & Johnson to invest $2B in North Carolina plant as Trump’s 250% drug tariffs loom",
+      "summary": "Johnson & Johnson announced a $2 billion investment to build a new factory in North Carolina, aiming to boost domestic production. This move comes as President Donald Trump threatens to impose tariffs of up to 250% on imported pharmaceuticals. Other healthcare giants like Eli Lilly and AstraZeneca are also expanding US manufacturing in response to these potential tariffs.",
+      "url": "https://nypost.com/2025/08/22/business/johnson-amp-johnson-to-invest-2b-in-north-carolina-plant/",
+      "source": "New York Post",
+      "published": "20250822T173400",
+      "overall_sentiment_score": 0.334477,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.34123,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "J&J builds on US manufacturing pledge with $2bn Fuji investment",
+      "summary": "Johnson & Johnson has signed a $2 billion, ten-year deal with Fujifilm Biotechnologies to expand its US manufacturing capabilities, utilizing a facility at Fujifilm's North Carolina site. This move aims to onshore production, create 120 new jobs, and aligns with US government incentives to redirect investment towards domestic manufacturing, following J&J's broader commitment of $55 billion to boost US infrastructure.",
+      "url": "https://www.europeanpharmaceuticalreview.com/news/264935/johnson-johnson-builds-on-us-manufacturing-pledge-with-2bn-fujifilm-investment/",
+      "source": "European Pharmaceutical Review",
+      "published": "20250822T000000",
+      "overall_sentiment_score": 0.002934,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.025079,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.326132
+    },
+    {
+      "title": "In US manufacturing push, J&J earmarks $2B for Fujifilm in 10-year deal in North Carolina",
+      "summary": "Johnson & Johnson is investing $2 billion over 10 years for a manufacturing facility at Fujifilm Biotechnologies' campus in Holly Springs, North Carolina. This deal, creating 120 new jobs, is part of J&J's broader $55 billion U.S. investment plan and comes amidst a push for U.S. manufacturing and potential tariffs on foreign-made medicines.",
+      "url": "https://www.fiercepharma.com/manufacturing/us-manufacturing-push-jj-earmarks-2b-fujifilm-10-year-deal",
+      "source": "Fierce Pharma",
+      "published": "20250821T094900",
+      "overall_sentiment_score": 0.349652,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.4684,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Johnson & Johnson Commits $2 Billion to North Carolina Manufacturing Expansion",
+      "summary": "Johnson & Johnson announced a $2 billion investment to build a new biopharmaceutical facility in Holly Springs, NC, creating 120 jobs. This investment is part of J&J's broader $55 billion commitment to strengthen U.S. manufacturing, R&D, and innovation, influenced by legislation like the One Big Beautiful Bill Act. Other pharmaceutical companies, such as AbbVie, Regeneron, AstraZeneca, Merck, and Thermo Fisher, are also increasing their U.S. investments to avoid tariffs and enhance domestic infrastructure.",
+      "url": "https://www.pharmaceuticalcommerce.com/view/johnson-johnson-commits-2-billion-north-carolina-manufacturing-expansion",
+      "source": "Pharmaceutical Commerce",
+      "published": "20250821T000000",
+      "overall_sentiment_score": 0.357792,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.454912,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Insulet promotes Eric Benjamin to chief operating officer",
+      "summary": "Insulet has promoted Eric Benjamin to chief operating officer and hired Manoj Raghunandanan as chief growth officer. These appointments are among the first changes made by new CEO Ashley McEvoy and are aimed at strengthening the company's global expansion and innovation efforts. Benjamin will oversee strategy, R&D, and the new growth organization, while Raghunandanan will lead efforts to accelerate global growth through strategy, brand, and customer experience.",
+      "url": "https://www.medtechdive.com/news/insulet-eric-benjamin-manoj-raghunandanan-appointments/758668/",
+      "source": "MedTech Dive",
+      "published": "20250826T000000",
+      "overall_sentiment_score": 0.24896,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.136734,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.607397
+    },
+    {
+      "title": "Johnson & Johnson to increase Holly Springs manufacturing",
+      "summary": "Johnson & Johnson is expanding its manufacturing presence in Holly Springs, North Carolina, with a 160,000-square-foot plant at a Fujifilm Diosynth Biotechnologies site, creating 120 jobs. This expansion is part of a larger $2 billion commitment over the next 10 years by J&J for U.S. manufacturing. Additionally, J&J is constructing a $2 billion facility in Wilson, expected to employ over 500 people and focus on biologic medicines for oncology, immunology, and neuroscience.",
+      "url": "https://www.wral.com/story/johnson-johnson-to-increase-holly-springs-manufacturing/22128103/",
+      "source": "WRAL.com",
+      "published": "20250822T222426",
+      "overall_sentiment_score": 0.429939,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.418372,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Johnson & Johnson investing $2B in US manufacturing, creating new jobs",
+      "summary": "Johnson & Johnson is investing $2 billion over 10 years to expand a biopharmaceutical manufacturing facility in North Carolina, creating approximately 120 new jobs. This move aligns with a broader company initiative to onshore biopharmaceutical manufacturing and an earlier pledge of $55 billion for U.S. investments, responding to policies aimed at boosting domestic production. The investment contributes to the debate about reshoring manufacturing, with economists noting challenges like high labor costs but advantages such as abundant energy.",
+      "url": "https://www.foxbusiness.com/lifestyle/johnson-johnson-investing-2b-us-manufacturing-creating-new-jobs",
+      "source": "Fox Business",
+      "published": "20250821T140500",
+      "overall_sentiment_score": 0.34587,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.415676,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Should You Invest in the VHT ETF in 2025?",
+      "summary": "The article examines the Vanguard Health Care ETF (VHT) as a potential investment in 2025, highlighting its role as a defensive play with growth potential due to demographic trends and medical innovation. It discusses the VHT's broad diversification across the healthcare sector, its comparison to other ETFs, and the inherent risks like regulatory changes and valuation concerns. The piece concludes that VHT is a strong candidate for diversified portfolios seeking stability and exposure to cutting-edge medical advancements.",
+      "url": "https://www.ebc.com/forex/should-you-invest-in-the-vht-etf-in-2025",
+      "source": "EBC Financial Group",
+      "published": "20250820T045117",
+      "overall_sentiment_score": 0.323601,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.344985,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.621827
+    },
+    {
+      "title": "Stryker's Robotics and Global Gains Offset by Macro Concerns",
+      "summary": "Stryker (SYK) reported strong Q2 2025 results with an 11.1% increase in net sales and adjusted EPS of $3.13, driven by orthopaedics, Mako robotic platform adoption, MedSurg, and Neurotechnology segments. Despite raising full-year guidance, the company faces competitive pressures in robotics, macroeconomic headwinds affecting margins, and regulatory/supply-chain risks. The article concludes that while Stryker is a high-quality medtech leader, its premium valuation and market risks suggest patience for investors.",
+      "url": "https://finance.yahoo.com/news/strykers-robotics-global-gains-offset-135300405.html",
+      "source": "Yahoo Finance",
+      "published": "20250822T000000",
+      "overall_sentiment_score": 0.242798,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.217855,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.823739
+    }
+  ]
+}

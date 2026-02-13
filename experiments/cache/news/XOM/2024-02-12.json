@@ -1,0 +1,118 @@
+{
+  "ticker": "XOM",
+  "date": "2024-02-12",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:35:55.223783",
+  "source": "alpha_vantage",
+  "article_count": 9,
+  "articles": [
+    {
+      "title": "Diamondback sets $26 billion deal for shale oil rival Endeavor Energy",
+      "summary": "U.S. oil producer Diamondback Energy announced a $26 billion cash-and-stock acquisition of privately held rival Endeavor Energy Partners, continuing the rapid consolidation in the Permian Basin. This deal will create the third-largest oil and gas producer in the region, behind Exxon Mobil and Chevron, and is expected to close in the fourth quarter. The combined entity will be the only pure-play Permian oil producer outside of Exxon's acquisition of Pioneer.",
+      "url": "https://www.reuters.com/markets/deals/diamondback-energy-buy-endeavor-energy-26-billion-deal-2024-02-12/",
+      "source": "Reuters",
+      "published": "20240212T161900",
+      "overall_sentiment_score": 0.504935,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.312233,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.707594
+    },
+    {
+      "title": "Diamondback Energy beats ConocoPhillips to land $26bn Endeavor Energy",
+      "summary": "Diamondback Energy has agreed to acquire Endeavor Energy Resources for $26 billion, outbidding ConocoPhillips. This acquisition significantly boosts Diamondback's position in the Permian Basin, expanding its footprint in the US oilfield. The deal is part of a series of major transactions in the US shale oil industry.",
+      "url": "https://www.proactiveinvestors.com/companies/news/1040743/diamondback-energy-beats-conocophillips-to-land-26bn-endeavor-energy-1040743.html",
+      "source": "Proactive financial news",
+      "published": "20240212T085600",
+      "overall_sentiment_score": 0.323834,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.345236,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.729038
+    },
+    {
+      "title": "Diamondback, Endeavor Energy in talks to create $50 billion company, sources say",
+      "summary": "Diamondback Energy and Endeavor Energy Resources are reportedly nearing a $25 billion cash-and-stock deal to form an oil and gas company valued at over $50 billion. This merger would create the largest pure-play oil producer in the Permian shale field, becoming the third-largest overall producer in the region. The deal, which could be announced as early as Monday, is expected to intensify the trend of consolidation among Permian producers aiming for greater efficiencies and scale.",
+      "url": "https://www.reuters.com/markets/deals/diamondback-energy-endeavor-energy-finalizing-merger-create-50-bln-company-wall-2024-02-11/",
+      "source": "Reuters",
+      "published": "20240211T232900",
+      "overall_sentiment_score": 0.233877,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.219591,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.70436
+    },
+    {
+      "title": "Nauticus Robotics secures over $12M to propel Aquanaut’s autonomous exploration",
+      "summary": "Nauticus Robotics has secured over $12 million in investment to accelerate the commercialization of its Aquanaut robot, designed for subsea inspection and maintenance. The company is preparing Aquanaut for its first commercial job in the Gulf of Mexico and has realigned its management team and go-to-market strategy, including a focus on \"tethered/augmented autonomy\" for existing subsea vehicles using its toolKITT software. This strategy aims to improve efficiency, lower emissions, and continue funding the development of fully autonomous Aquanaut platforms.",
+      "url": "https://www.therobotreport.com/nauticus-robotics-secures-investment-propel-aquanauts-autonomous-exploration/",
+      "source": "The Robot Report",
+      "published": "20240209T000000",
+      "overall_sentiment_score": 0.287402,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.202378,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.649199
+    },
+    {
+      "title": "Santos, Woodside Abandon Potential Merger as Search for More Global LNG Supply Continues",
+      "summary": "Santos Ltd. and Woodside Energy Group Ltd. have ended merger talks for a potential $52 billion Australian LNG super giant, citing insufficient combination benefits. Both companies, key players in the global LNG market, will continue independent efforts to increase production and secure more LNG volumes despite facing similar industry challenges. This decision follows independent massive mergers in 2022 by both companies and comes amidst a global search for increased LNG supply.",
+      "url": "https://naturalgasintel.com/news/santos-woodside-abandon-potential-merger-as-search-for-more-global-lng-supply-continues/",
+      "source": "Natural Gas Intelligence",
+      "published": "20240208T132300",
+      "overall_sentiment_score": 0.186308,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.329228,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.643559
+    },
+    {
+      "title": "Diamondback Energy Stock Rises After Deal to Acquire Endeavor—Key Chart Pattern to Watch",
+      "summary": "Diamondback Energy's shares rose following its announced $26 billion merger deal with Endeavor Energy Resources, creating a combined entity valued at $53 billion. This acquisition is part of a trend of consolidation in the energy sector, particularly in the Permian Basin, as companies seek to expand production amidst high oil prices. The article notes a key ascending triangle chart pattern for Diamondback Energy stock, suggesting a potential continuation of its long-term uptrend.",
+      "url": "https://www.investopedia.com/diamondback-energy-stock-rises-after-deal-to-acquire-endeavor-key-chart-pattern-to-watch-8575861",
+      "source": "Investopedia",
+      "published": "20240212T091200",
+      "overall_sentiment_score": 0.234788,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.146338,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.587411
+    },
+    {
+      "title": "Why US large cap growth’s banner year didn’t look the same across index providers",
+      "summary": "This article explains why US large-cap growth index performance varied significantly among providers in 2023, despite a banner year for the segment. The key differentiator is methodology, particularly how factors like momentum influence constituent classification, as exemplified by Meta's stock performance. Different index construction rules lead to varying index compositions and thus different returns.",
+      "url": "https://www.lseg.com/en/insights/ftse-russell/why-us-large-cap-growths-banner-year-didnt-look-the-same-across-index-providers",
+      "source": "LSEG",
+      "published": "20240206T000000",
+      "overall_sentiment_score": 0.141066,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.407746,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.740664
+    },
+    {
+      "title": "Best U.S. Energy Stocks to Buy",
+      "summary": "This article identifies seven undervalued U.S. energy stocks that Morningstar rates highly due to their economic moats and attractive valuations as of January 23, 2024. Despite a challenging 2023 for energy stocks, rising oil prices in 2024 make these companies appealing for investors seeking undervalued opportunities in the sector. The article provides detailed commentary on each selected stock, including financial metrics and analyst insights.",
+      "url": "https://global.morningstar.com/en-ca/stocks/best-u-s-energy-stocks-to-buy",
+      "source": "Morningstar Canada",
+      "published": "20240206T000000",
+      "overall_sentiment_score": 0.333137,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.308879,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.711654
+    },
+    {
+      "title": "acquisition of Neptune completed",
+      "summary": "Eni S.p.A. announced the completion of its acquisition of Neptune Energy Group Limited, excluding its operations in Norway and Germany. This acquisition aligns with Eni's strategy for affordable, secure, and low-carbon energy, primarily through natural gas, integrating a high-quality, low-carbon-intensity portfolio. The deal is expected to increase gas production in North Africa and Northern Europe, offering new CCS opportunities.",
+      "url": "https://www.eni.com/en-IT/media/press-release/2024/01/eni-acquisition-neptune-completed.html",
+      "source": "Eni",
+      "published": "20240131T173500",
+      "overall_sentiment_score": 0.331034,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.286038,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.625796
+    }
+  ]
+}

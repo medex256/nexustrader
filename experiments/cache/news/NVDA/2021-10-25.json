@@ -1,0 +1,58 @@
+{
+  "ticker": "NVDA",
+  "date": "2021-10-25",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:06:07.997938",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "Check out Cipher Mining Equity Warrant Exp 26th Aug 2026's stock price (CIFRW) in real time",
+      "summary": "This article provides real-time stock information for Cipher Mining Equity Warrant Exp 26th Aug 2026 (CIFRW), including its current price, historical performance metrics, key financial stats, and recent news. It highlights the company's profile as an industrial-scale data center construction and operations firm focused on bitcoin mining and high-performance computing, along with insights from analyst calls.",
+      "url": "https://www.cnbc.com/quotes/CIFRW",
+      "source": "CNBC",
+      "published": "20211018T030906",
+      "overall_sentiment_score": 0.061951,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.113485,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.625317
+    },
+    {
+      "title": "Aruba introduces the distributed data center switch",
+      "summary": "Aruba has partnered with Pensando to unveil the CX 10000, a 48-port L2/L3 Ethernet switch featuring embedded Pensando ASICs for security services, load balancing, and firewalls. This distributed data center switch allows companies to build a switching fabric across multiple locations and integrates security directly at the leaf level to enhance performance. While it pushes for a change in traditional separate management of switching and security, analysts predict a significant future market for such integrated distributed switches, especially for large enterprises.",
+      "url": "https://www.techtarget.com/searchnetworking/news/252508382/Aruba-introduces-the-distributed-data-center-switch",
+      "source": "TechTarget",
+      "published": "20211020T202744",
+      "overall_sentiment_score": 0.278915,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.145563,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.640591
+    },
+    {
+      "title": "EU to investigate Nvidia's $54 bln ARM bid after remedies fall short - sources",
+      "summary": "The EU is expected to launch an extended antitrust investigation into Nvidia's $54 billion bid for British chip designer ARM. This comes after remedies offered by Nvidia last week failed to address competition concerns, marking a second setback for the company after a similar warning from Britain's antitrust agency. The European Commission is scheduled to end its preliminary review on October 27, initiating a four-month investigation.",
+      "url": "https://www.reuters.com/technology/eu-open-probe-into-nvidias-54-billion-bid-arm-sources-2021-10-12/",
+      "source": "Reuters",
+      "published": "20211012T100300",
+      "overall_sentiment_score": -0.360992,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.717947,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Understanding the Buzz Around the BUZZ ETF",
+      "summary": "The article discusses the VanEck Vectors Social Sentiment ETF (BUZZ), which debuted in March 2021 and capitalizes on the \"meme stock\" phenomenon. It examines BUZZ's methodology, noting that its longer lookback period means it doesn't solely focus on highly speculative meme stocks like GameStop and AMC. Instead, BUZZ's portfolio includes quality names like AMD, Apple, Nvidia, and Pfizer, and exhibits low single-stock risk.",
+      "url": "https://etfdb.com/tactical-allocation-content-hub/understanding-the-buzz-around-the-buzz-etf/",
+      "source": "ETF Database",
+      "published": "20211012T053040",
+      "overall_sentiment_score": 0.30994,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.333627,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.738907
+    }
+  ]
+}

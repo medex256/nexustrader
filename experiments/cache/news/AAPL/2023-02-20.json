@@ -1,0 +1,70 @@
+{
+  "ticker": "AAPL",
+  "date": "2023-02-20",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T00:23:31.203532",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Navigate 2023 With Recession-Resistant ETF ZECP",
+      "summary": "The Zacks Earnings Consistent Portfolio ETF (ZECP) is presented as a recession-resistant strategy for investors concerned about a potential economic downturn in 2023. ZECP, Zacks Investment Management's first ETF, identifies companies with strong balance sheets and consistent earnings, having demonstrated resilience through past recessions. The fund seeks to offer an active approach to navigate market volatility, focusing on quality companies with stable historic and forecasted earnings per share.",
+      "url": "https://www.etftrends.com/exchange-an-etf-experience/navigate-2023-with-recession-resistant-etf-zecp/",
+      "source": "ETF Trends",
+      "published": "20230210T112703",
+      "overall_sentiment_score": 0.285509,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.342624,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.714778
+    },
+    {
+      "title": "Calamos Investments Launches New Sustainable Equities ETF SROI",
+      "summary": "Calamos Investments has launched the Calamos Antetokounmpo Global Sustainable Equities ETF (SROI) on NYSE ARCA, in collaboration with NBA star Giannis Antetokounmpo. This actively managed ETF aims for long-term capital appreciation by investing in quality growth companies that integrate ESG principles, utilizing both traditional financial and nonfinancial indicators. The fund will also donate a portion of its profits to charity, reflecting a commitment to community impact.",
+      "url": "https://etftrends.com/calamos-investments-launches-new-sustainable-equities-etf-sroi/",
+      "source": "ETF Trends",
+      "published": "20230206T111033",
+      "overall_sentiment_score": 0.339586,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.346473,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.720519
+    },
+    {
+      "title": "Groupon Outsources Legal Executive Role to Winston & Strawn (1)",
+      "summary": "Groupon's general counsel, Dane Drobny, is stepping down next week to rejoin Winston & Strawn as a partner. Drobny will continue to serve as Groupon's outside general counsel through the end of the year, as the company undergoes restructuring and workforce reductions. His departure follows two rounds of layoffs at the e-commerce marketplace.",
+      "url": "https://news.bloomberglaw.com/business-and-practice/groupon-outsources-top-legal-executive-role-to-winston-strawn",
+      "source": "Bloomberg Law News",
+      "published": "20230217T155900",
+      "overall_sentiment_score": -0.055515,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.1431,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.625397
+    },
+    {
+      "title": "Familiar Faces Powering Growth Stock Resurgence",
+      "summary": "Growth stocks are experiencing a resurgence in early 2023, primarily driven by large- and mega-cap names like Apple, Amazon, and Tesla, according to Morningstar research. This trend is significantly boosting ETFs such as the Invesco QQQ Trust (QQQ) and the Invesco NASDAQ 100 ETF (QQQM). The rally is further supported by the strong performance of tech sectors like software infrastructure, software applications, and semiconductors, alongside investor optimism that the Federal Reserve may soon conclude its interest rate hikes, potentially averting a recession.",
+      "url": "https://www.etftrends.com/etf-education-content-hub/familiar-faces-powering-growth-stock-resurgence/?utm_source=etfdb.com",
+      "source": "ETF Trends",
+      "published": "20230217T203012",
+      "overall_sentiment_score": 0.32918,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.42171,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.898887
+    },
+    {
+      "title": "BioSig Appoints Steve Buhaly as CFO",
+      "summary": "BioSig Technologies, Inc. has announced the retirement of its long-serving CFO, Steve Chaussy, after 12 years of service. Steve Buhaly, with 15 years of public company CFO experience, including a significant tenure at Qorvo, has been appointed as his successor. Buhaly's expertise in financial leadership, corporate expansion, and value creation is expected to support BioSig's commercial rollout of its PURE EP™ System and national scaling efforts.",
+      "url": "https://www.citybiz.co/article/378653/biosig-appoints-steve-buhaly-as-cfo/",
+      "source": "citybiz",
+      "published": "20230207T153016",
+      "overall_sentiment_score": 0.220758,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.117344,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.637813
+    }
+  ]
+}

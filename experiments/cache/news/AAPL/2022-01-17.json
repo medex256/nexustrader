@@ -1,0 +1,94 @@
+{
+  "ticker": "AAPL",
+  "date": "2022-01-17",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-12T23:55:06.570955",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "Netflix raises monthly subscription prices in U.S., Canada",
+      "summary": "Netflix has increased its monthly subscription prices in the U.S. and Canada by $1 to $2, depending on the plan, to fund new programming and maintain competitiveness in the streaming market. The standard U.S. plan now costs $15.49, up from $13.99, while the Canadian standard plan rose to C$16.49 from C$14.99. These increases, the first since October 2020 in these markets, reflect Netflix's pricing power as it faces growing competition from other major streaming services.",
+      "url": "https://www.reuters.com/technology/exclusive-netflix-raises-monthly-subscription-prices-us-canada-2022-01-14/",
+      "source": "Reuters",
+      "published": "20220114T234200",
+      "overall_sentiment_score": 0.068492,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.045794,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.608011
+    },
+    {
+      "title": "Here’s Why the UPRO and TQQQ Stock Prices Fell 50.1% Premarket Despite Calm Markets",
+      "summary": "The ProShares UltraPro S&P500 (UPRO) and ProShares UltraPro QQQ (TQQQ) ETFs both fell about 50% in premarket trading. This significant drop was due to previously announced forward stock splits by ProShares, intended to make the shares more affordable to a wider range of investors, not due to market instability. The splits ensure the total value of investors' holdings remains unchanged, similar to traditional stock splits seen with companies like Apple and Tesla.",
+      "url": "https://www.asktraders.com/analysis/heres-why-the-upro-and-tqqq-stock-prices-fell-50-1-premarket-despite-calm-markets/",
+      "source": "AskTraders.com",
+      "published": "20220113T190600",
+      "overall_sentiment_score": 0.088491,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.112828,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.633603
+    },
+    {
+      "title": "Behind the Scenes With Cigna Ventures: Giving Great Ideas the Momentum To Make an Impact",
+      "summary": "Cigna Ventures, the strategic venture fund of Cigna Corporation, focuses on improving health care affordability, simplicity, and predictability by partnering with innovative entrepreneurs. The fund invests across three key areas: Health Care Insights and Analytics, Digital Health and Experiences, and Care Delivery and Enablement. Through these investments, Cigna Ventures aims to accelerate Cigna's strategy, bring innovation into the organization, and bring differentiated value to Cigna customers and the healthcare system.",
+      "url": "https://newsroom.thecignagroup.com/cigna-ventures-giving-great-ideas-momentum-to-make-an-impact",
+      "source": "The Cigna Group Newsroom",
+      "published": "20220113T162229",
+      "overall_sentiment_score": 0.320123,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.267152,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.569218
+    },
+    {
+      "title": "Lumentum hooks up with Hesai on auto lidar",
+      "summary": "Lumentum has partnered with Hesai Technology to ramp up production of VCSEL-based lidar sensors for automotive applications, specifically the AT128 hybrid solid-state lidar units. These sensors, using Lumentum's 905 nm vertical emitter arrays, are designed for advanced driver assistance systems (ADAS) and aim to significantly improve lidar cost competitiveness and scalability. Both companies anticipate volume shipments of these sensors to begin this year from Hesai's new manufacturing center, which has a planned capacity of over 1 million units.",
+      "url": "https://optics.org/news/13/1/6",
+      "source": "Optics.org",
+      "published": "20220105T165716",
+      "overall_sentiment_score": 0.278155,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.114353,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.748625
+    },
+    {
+      "title": "An Under the Radar High Quality ETF",
+      "summary": "The Fidelity Quality Factor ETF (FQAL) received a five-star rating from CFRA, outperforming its peers and the S&P 500 in 2021 despite its smaller asset size. The fund focuses on free cash flow and return on invested capital with a sector-neutral approach, and CFRA expects it to continue outperforming. Eight of its top-10 holdings are considered undervalued by CFRA analysts.",
+      "url": "https://www.etftrends.com/an-under-the-radar-high-quality-etf/",
+      "source": "ETF Trends",
+      "published": "20220104T152945",
+      "overall_sentiment_score": 0.363095,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.301048,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.717575
+    },
+    {
+      "title": "Smart Water for a Smarter Home: Moen Leads the Way with Industry's First Whole-Home Connected Water Product Suite",
+      "summary": "Moen introduces the industry's first whole-home smart water ecosystem, the Moen Smart Water Network, which allows consumers to control, monitor, and conserve water throughout their homes using a single smartphone app. The network includes new and expanded smart products like the Flo Smart Water Monitor and Shutoff, Smart Leak Detector, Smart Sump Pump Monitor, Smart Faucet with Motion Control, and Smart Shower, all designed to provide peace of mind, security, and personalized water experiences. These innovations offer automated water security, water usage education, personalized settings, and voice activation capabilities for a truly connected home water system.",
+      "url": "https://www.prnewswire.com/news-releases/smart-water-for-a-smarter-home-moen-leads-the-way-with-industrys-first-whole-home-connected-water-product-suite-301451938.html",
+      "source": "PR Newswire",
+      "published": "20220103T200000",
+      "overall_sentiment_score": 0.294442,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.215543,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.639662
+    },
+    {
+      "title": "JVAL Stock Price | JPMorgan U.S. Value Factor ETF",
+      "summary": "This article provides detailed information about the JPMorgan U.S. Value Factor ETF (JVAL), including its current stock price, trading exchange (NYSE), and comprehensive financial metrics such as dividend yield, expense ratio, and market capitalization. It also offers technical analysis insights and lists the ETF's top holdings, outlining its investment strategy as a value-focused equity fund targeting the U.S. market.",
+      "url": "https://www.investing.com/etfs/jval",
+      "source": "Investing.com",
+      "published": "20220107T103607",
+      "overall_sentiment_score": 0.330966,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.308964,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.601866
+    }
+  ]
+}

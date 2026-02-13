@@ -1,0 +1,46 @@
+{
+  "ticker": "XOM",
+  "date": "2021-12-27",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:05:10.551739",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "Four injured in fire at Exxon's Baytown, Texas, oil refinery",
+      "summary": "A fire at Exxon Mobil Corp's Baytown, Texas, refinery complex injured four contract workers, two of whom remain hospitalized in stable condition. The blaze, which erupted in a hydrotreater unit, has been extinguished, and its cause is under investigation. The Baytown facility is one of the largest refining and petrochemical facilities in the United States.",
+      "url": "https://www.reuters.com/world/us/some-injuries-after-fire-exxons-baytown-texas-facility-2021-12-23/",
+      "source": "Reuters",
+      "published": "20211223T222200",
+      "overall_sentiment_score": -0.272398,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.271371,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Iraq says Halliburton, Exxon in talks for stake in oil field",
+      "summary": "Iraq's energy minister stated that Halliburton Co. and Exxon Mobil Corp. are discussing Exxon's sale of its stake in the West Qurna-1 oil field. Iraq prefers a U.S. partner for Exxon's stake but would buy it through Basra Oil Co. if talks with Halliburton fail. The article also mentions current OPEC+ production plans and Chevron's potential investment in southern Iraq.",
+      "url": "https://www.houstonchronicle.com/business/energy/article/Halliburton-Exxon-in-Talks-for-Stake-in-Iraq-Oil-16697423.php",
+      "source": "Houston Chronicle",
+      "published": "20211213T202706",
+      "overall_sentiment_score": 0.194348,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.150603,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.932626
+    },
+    {
+      "title": "Nigeria Overhauls Its Oil and Gas Laws with Petroleum Industry Act – Publications",
+      "summary": "Nigeria has passed the Petroleum Industry Act (PIA) to overhaul its oil and gas laws, aiming to foster a business-friendly environment and make its economy gas-powered by 2030. The PIA introduces significant reforms in governance, upstream operations, gas exploitation, fiscal regimes, and host community protection. These changes are designed to adapt to global energy transitions while addressing the economic prospects of oil-producing regions.",
+      "url": "https://www.morganlewis.com/pubs/2021/12/nigeria-overhauls-its-oil-and-gas-laws-with-petroleum-industry-act",
+      "source": "Morgan Lewis",
+      "published": "20211214T212750",
+      "overall_sentiment_score": 0.027568,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.234417,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.749744
+    }
+  ]
+}

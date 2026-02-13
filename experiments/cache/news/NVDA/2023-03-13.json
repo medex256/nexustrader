@@ -1,0 +1,46 @@
+{
+  "ticker": "NVDA",
+  "date": "2023-03-13",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:27:11.271370",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "Applied Materials stock rises on new chip-making system that helps lower costs",
+      "summary": "Applied Materials Inc. shares rose after the company unveiled a new chip-making system designed to lower manufacturing costs for semiconductors. The system, called Centura Sculpta, promises to save fabs like TSMC and Intel $50 per wafer. This innovation led to a notable outperformance of Applied Materials stock compared to its peers and the broader semiconductor market.",
+      "url": "https://www.marketwatch.com/story/applied-materials-stock-rises-on-new-chip-making-system-that-helps-lower-costs-ff5c8df6?gaa_at=eafs&gaa_n=AWEtsqcmzIGz-j_GdY0vocAsrVzcFFP82CSevV4X7fZ5QK60HfK43XbVsGyV&gaa_ts=69076842&gaa_sig=JE8jSV6DQfGebfA0aaUCsTrH_ErrdOLNxrW2YV1FLHvWxQWu3FeJ_4Y1e4LqIL0t8lJT3gijrJbNXzW2OFEF3Q%3D%3D",
+      "source": "MarketWatch",
+      "published": "20230228T140000",
+      "overall_sentiment_score": 0.361724,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.324024,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.613136
+    },
+    {
+      "title": "A Comprehensive Guide to Video Gaming ETFs",
+      "summary": "The video game industry, despite a post-pandemic slowdown in momentum, continues to show significant growth potential, driven by innovation, eSports, and the metaverse. Consumer spending on video games totaled $56.6 billion in 2022, with eSports projected to expand by $3.5 billion by 2027 and the metaverse gaming market estimated to reach $663.8 billion by 2030. The article highlights several video-gaming ETFs for investors looking to capitalize on this growing market, including NERD, ESPO, HERO, and GAMR.",
+      "url": "https://www.nasdaq.com/articles/a-comprehensive-guide-to-video-gaming-etfs-0",
+      "source": "Nasdaq",
+      "published": "20230302T113200",
+      "overall_sentiment_score": 0.11033,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.223406,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.648018
+    },
+    {
+      "title": "iShares U.S. Tech Independence Focused ETF Holdings List (BATS:IETC)",
+      "summary": "This article provides a comprehensive list of the top holdings for the iShares U.S. Tech Independence Focused ETF (IETC) as of February 28, 2023. It details the company, current price, weight, and shares held for each of the top 25 companies, alongside breakdowns of geographic, currency, sector, industry, and sub-industry exposures. The ETF is heavily weighted towards technology, software, and semiconductor companies.",
+      "url": "https://www.marketbeat.com/stocks/BATS/IETC/holdings/",
+      "source": "MarketBeat",
+      "published": "20230228T020920",
+      "overall_sentiment_score": 0.130594,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.066788,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.630555
+    }
+  ]
+}

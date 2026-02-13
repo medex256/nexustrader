@@ -1,0 +1,106 @@
+{
+  "ticker": "XOM",
+  "date": "2022-09-26",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:08:17.373964",
+  "source": "alpha_vantage",
+  "article_count": 8,
+  "articles": [
+    {
+      "title": "Exxon Mobil shuts Fos-Sur-Mer refinery in France due to strike",
+      "summary": "ExxonMobil is gradually shutting down its 235,000 barrel per day (bpd) Fos-Sur-Mer refinery in France due to ongoing strike action. This follows the shutdown of its Port Jerome-Gravenchon refinery and petrochemical site. The strikes were called by French unions CGT and Force Ouvriere over wage negotiations related to rising inflation.",
+      "url": "https://www.reuters.com/business/energy/exxon-mobil-shuts-fos-sur-mer-refinery-france-due-strike-2022-09-22/",
+      "source": "Reuters",
+      "published": "20220922T134800",
+      "overall_sentiment_score": -0.387694,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.394574,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Exclusive: Exxon boosts Guyana oil output, undecided on future auction bid",
+      "summary": "Exxon Mobil Corp is uncertain about bidding for new offshore areas in Guyana, as it ramps up production faster than expected and Guyana grapples with new oil lease terms. The Exxon-led consortium has significantly increased output to a record 390,000 barrels per day (boepd) on August 10, exceeding its initial 2022 target. Guyana is considering whether to hold an auction or partner with a national oil company for new properties, while also crafting a new Production Sharing Agreement to provide more economic benefits to the nation.",
+      "url": "https://www.reuters.com/business/energy/exclusive-exxon-boosts-guyana-oil-output-undecided-future-auction-bid-source-2022-09-20/",
+      "source": "Reuters",
+      "published": "20220920T113900",
+      "overall_sentiment_score": 0.309348,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.345398,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Crude oil tanker floats new dividend policy",
+      "summary": "Bermudian-based DHT Holdings Inc, a crude oil tanker company, has announced a new dividend policy to return 100 per cent of net income to shareholders quarterly, effective from Q3. Meanwhile, Bermuda-based offshore drilling services company Valaris Limited received a $40 million partial early repayment from its joint venture ARO Drilling and authorized a $100 million share repurchase program. Additionally, executives at Bermudian-based LNG shipping company Flex LNG Ltd exercised and sold share options.",
+      "url": "https://www.royalgazette.com/international-business/business/article/20220920/crude-oil-tanker-floats-new-dividend-policy/",
+      "source": "Royal Gazette | Bermuda",
+      "published": "20220920T080000",
+      "overall_sentiment_score": 0.302665,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.24887,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.59717
+    },
+    {
+      "title": "JX Nippon to buy NRG's stake in Petra Nova carbon capture plant near Houston",
+      "summary": "JX Nippon, a co-developer of the Petra Nova carbon capture unit, is set to assume full ownership of the facility. The Petra Nova plant near Houston is described as the largest carbon capture unit of its kind globally, with an estimated development cost of $1 billion, partially funded by a $195 million grant from the Department of Energy.",
+      "url": "https://www.bizjournals.com/houston/news/2022/09/19/jx-nippon-nrg-petra-nova-carbon-capture-buyout.html",
+      "source": "The Business Journals",
+      "published": "20220919T155000",
+      "overall_sentiment_score": 0.149329,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.102045,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.627234
+    },
+    {
+      "title": "Look to SPLV for Stability in Your Portfolio",
+      "summary": "Investors are increasingly turning to the Invesco S&P 500 Low Volatility ETF (SPLV) for portfolio stability, with the fund attracting significant inflows in recent months. SPLV invests in the 100 least volatile securities from the S&P 500, focusing on established \"blue-chip\" companies known for their stability and dividends rather than high growth. The ETF is positioned as a defensive option that may outperform during bear markets and underperform in bull markets.",
+      "url": "https://www.etftrends.com/innovative-etfs-channel/look-to-splv-for-stability-in-your-portfolio/",
+      "source": "ETF Trends",
+      "published": "20220912T184606",
+      "overall_sentiment_score": 0.157617,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.080688,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.582057
+    },
+    {
+      "title": "Hydrocracker upgrade boosts Wood River",
+      "summary": "The Wood River Refinery, a 50-50 joint venture between Phillips 66 and Cenovus, has completed a major upgrade to its hydrocracker unit. This enhancement, including two new 3-million-pound reactors, allows the refinery to produce a higher percentage of in-demand fuels like diesel and jet fuel by optimizing low-value feedstocks and increasing clean-product yield. The project was completed safely, on schedule, and under budget, significantly strengthening the refinery's operations and positioning Phillips 66 to meet future liquid fuel needs.",
+      "url": "https://www.phillips66.com/newsroom/hydrocracker-upgrade-boosts-wood-river/",
+      "source": "Phillips 66",
+      "published": "20220922T181621",
+      "overall_sentiment_score": 0.25335,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.218705,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.619495
+    },
+    {
+      "title": "NS Recognizes 48 Safe Shippers",
+      "summary": "Norfolk Southern (NS) honored 48 customers with its 2021 Thoroughbred Chemical Safety Award for safely transporting hazardous materials without incident. This award, now in its 25th year, recognizes 43 corporate chemical manufacturers and five plants for their commitment to safety, aligning with Rail Safety Week. NS emphasizes strong working relationships with customers and its participation in the American Chemistry Council’s Responsible Care® Partner Program to ensure safe chemical transport.",
+      "url": "https://www.railwayage.com/freight/class-i/ns-recognizes-48-safe-shippers/",
+      "source": "Railway Age",
+      "published": "20220922T175556",
+      "overall_sentiment_score": 0.27498,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.207199,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.744783
+    },
+    {
+      "title": "Opinion: Are Oklahoma 401(k) Plans Helping to Destroy State’s Energy Business?",
+      "summary": "This opinion piece argues that Oklahoma 401(k) plan participants might unknowingly be investing in funds that work against the state's vital energy industry. The author, Terry Morgan of Ok401k, highlights the trend of large mutual fund companies adopting ESG investing criteria, which he claims can force corporations to comply with \"woke\" agendas and potentially harm the profitability of energy companies. He urges Oklahomans to be aware of how their investments are being used and suggests alternative funds like those from STRIVE Asset Management.",
+      "url": "https://401kspecialistmag.com/opinion-are-oklahoma-401k-plans-helping-to-destroy-states-energy-business/",
+      "source": "401k Specialist",
+      "published": "20220912T050943",
+      "overall_sentiment_score": -0.134863,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.212597,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.718615
+    }
+  ]
+}

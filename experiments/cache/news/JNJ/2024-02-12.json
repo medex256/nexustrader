@@ -1,0 +1,46 @@
+{
+  "ticker": "JNJ",
+  "date": "2024-02-12",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:54:28.241692",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "LivaNova picks longtime J&J exec as new CEO",
+      "summary": "LivaNova has appointed Vladimir A. Makatsaria, a former longtime Johnson & Johnson MedTech executive, as its new CEO and a member of its board, effective March 1, 2024. Makatsaria brings 27 years of experience from J&J, leading its global Ethicon surgery business and serving in key roles in Asia Pacific and China. His appointment comes as LivaNova winds down its advanced circulatory support business to focus on its core cardiopulmonary and neuromodulation units.",
+      "url": "https://www.massdevice.com/livanova-picks-longtime-jj-exec-ceo/",
+      "source": "MassDevice",
+      "published": "20240205T000000",
+      "overall_sentiment_score": 0.159529,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.144705,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.73534
+    },
+    {
+      "title": "How Dr. Ted Love Went From Studying Molecular Biology To Becoming The Former CEO Of A Company Acquired By Pfizer For $5.4B",
+      "summary": "Dr. Ted Love transitioned from molecular biology and medicine to a successful career in biotechnology, culminating in his role as CEO of Global Blood Therapeutics (GBT). Under his leadership, GBT developed Oxbryta® for sickle cell disease and was later acquired by Pfizer for $5.4 billion. Following the acquisition, Dr. Love retired but remains active in the sickle cell community and serves on several boards.",
+      "url": "https://afrotech.com/dr-ted-love-global-therapeutics-acquisition",
+      "source": "AfroTech",
+      "published": "20240207T000000",
+      "overall_sentiment_score": 0.223734,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.132475,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.348643
+    },
+    {
+      "title": "10 surgical robotics companies you need to know",
+      "summary": "This article highlights 10 prominent surgical robotics companies, detailing their current systems and recent developments in a competitive market. Despite challenges, Intuitive Surgical remains the leader, while other companies like Medtronic, J&J, and Stryker are pushing forward with new platforms and expansions. The overview also touches upon emerging players and recent innovations in the field.",
+      "url": "https://www.massdevice.com/10-surgical-robotics-companies-you-need-to-know-2024/",
+      "source": "MassDevice",
+      "published": "20240202T000000",
+      "overall_sentiment_score": 0.274882,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.22856,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.734024
+    }
+  ]
+}

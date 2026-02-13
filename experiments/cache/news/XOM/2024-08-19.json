@@ -1,0 +1,94 @@
+{
+  "ticker": "XOM",
+  "date": "2024-08-19",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:38:01.832297",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "Autry Stephens, Endeavor Energy founder and richest U.S. oilman, dies at 86",
+      "summary": "Autry Stephens, the founder of Endeavor Energy Resources LP and the richest U.S. oilman, has died at the age of 86. Stephens built Endeavor into one of the largest closely held producers in the Permian Basin, eventually agreeing to sell it to Diamondback Energy Inc. for $26 billion in February 2024. His career spanned from a petroleum engineer to an oil tycoon, navigating industry challenges including the 2008 financial crisis.",
+      "url": "https://www.worldoil.com/news/2024/8/16/autry-stephens-endeavor-energy-founder-and-richest-u-s-oilman-dies-at-86/",
+      "source": "World Oil",
+      "published": "20240816T000000",
+      "overall_sentiment_score": 0.20756,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.14856,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.707096
+    },
+    {
+      "title": "Infographic: Highlights of Deere & Company’s (DE) Q3 2024 earnings report",
+      "summary": "Deere & Company reported a significant decline in revenue and profit for Q3 2024, with net sales and revenues down 17% year-over-year to $13.2 billion and net income falling to $1.73 billion. Despite challenging conditions in the agricultural and construction sectors, the company projects approximately $7 billion in net income attributable to Deere & Company for fiscal year 2024. CEO John May highlighted disciplined execution in response to market difficulties.",
+      "url": "https://news.alphastreet.com/infographic-highlights-of-deere-companys-de-q3-2024-earnings-report/",
+      "source": "AlphaStreet",
+      "published": "20240815T000000",
+      "overall_sentiment_score": -0.222196,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.114167,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.64986
+    },
+    {
+      "title": "1,000% stock increase: The story behind Eli Lilly’s pharmaceutical dominance",
+      "summary": "Eli Lilly's stock has surged by nearly 1,000% in a decade, reaching a record value of $840 billion, driven by the success of its weight loss and diabetes drugs, Zepbound and Mounjaro. The company, now one of the ten largest globally by market cap, has invested heavily in innovation and new manufacturing facilities to meet overwhelming demand, even surpassing competitors like Novo Nordisk in some drug sales. Eli Lilly aims to become the first healthcare company worth a trillion dollars, planning to launch over 20 new drugs in the next decade.",
+      "url": "https://www.calcalistech.com/ctechnews/article/aqtbdq00f",
+      "source": "CTech",
+      "published": "20240814T142700",
+      "overall_sentiment_score": 0.317668,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.146274,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.63959
+    },
+    {
+      "title": "Falling commodity prices are indicating there is trouble brewing with the economy",
+      "summary": "Commodity prices, particularly copper and crude oil, have significantly tumbled over the past month, signaling underlying weakness in the global economy despite a rebound in U.S. stock markets. Analysts like Rob Ginsberg of Wolfe Research and Bart Melek of TD Securities view this broad decline as a warning, attributing it partly to weakness in China's economy and increased protectionism. The article suggests that markets are facing potential surpluses rather than expected tight supply, with implications for upcoming economic data and central bank decisions.",
+      "url": "https://www.cnbcafrica.com/2024/falling-commodity-prices-are-indicating-there-is-trouble-brewing-with-the-economy/",
+      "source": "CNBC Africa",
+      "published": "20240813T102825",
+      "overall_sentiment_score": -0.190382,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.216986,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.629289
+    },
+    {
+      "title": "Commodity prices plunge, raising concerns over global economic health",
+      "summary": "Commodity prices have significantly declined over the past month, signaling potential global economic weakness despite a recovery in the US stock market. This downturn is particularly evident in base metals like copper and crude oil, with analysts pointing to weakening demand from China and protectionist trade policies as key contributing factors. The situation is being closely watched as market participants await key economic data and central bank commentary.",
+      "url": "https://www.benefitsandpensionsmonitor.com/news/industry-news/commodity-prices-plunge-raising-concerns-over-global-economic-health/387848",
+      "source": "Benefits and Pensions Monitor",
+      "published": "20240813T000000",
+      "overall_sentiment_score": -0.450401,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.337168,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.602505
+    },
+    {
+      "title": "Top 10: Energy Leaders in the US",
+      "summary": "This article identifies the top 10 energy leaders in the US, featuring CEOs from major companies like ExxonMobil, Chevron, NextEra Energy, and Duke Energy. It highlights the US's position as the second-largest electricity producer and consumer globally and its progress towards a clean energy system. Each leader's profile includes their company, market cap, and career highlights.",
+      "url": "https://energydigital.com/top10/top-10-energy-leaders-in-the-us",
+      "source": "Energy Digital Magazine",
+      "published": "20240814T000000",
+      "overall_sentiment_score": 0.325346,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.318925,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.917901
+    },
+    {
+      "title": "Energy: The Wildest Sector in Today’s ETF Market",
+      "summary": "The energy sector is highlighted as the most volatile and top-performing sector in the ETF market, particularly since 2022. The article discusses various energy ETFs beyond the common XLE, including MLPs, clean energy funds, and how these alternatives can offer portfolio diversification for investors.",
+      "url": "https://www.etf.com/sections/advisor-center/energy-wildest-sector-todays-etf-market",
+      "source": "ETF.com",
+      "published": "20240806T200851",
+      "overall_sentiment_score": 0.090317,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.126855,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.576679
+    }
+  ]
+}

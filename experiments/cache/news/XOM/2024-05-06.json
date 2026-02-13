@@ -1,0 +1,142 @@
+{
+  "ticker": "XOM",
+  "date": "2024-05-06",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:36:51.336151",
+  "source": "alpha_vantage",
+  "article_count": 11,
+  "articles": [
+    {
+      "title": "CVR Energy begins operations of feedstock pretreatment unit, continues to consider SAF projects",
+      "summary": "CVR Energy has commenced operations of its feedstock pretreatment unit and is actively evaluating the development of Sustainable Aviation Fuel (SAF) projects. This news comes as other companies in the renewable fuels sector are also making progress, with XCF Global signing a deal for SAF biorefineries in Australia and PBF Energy anticipating expanded renewable diesel production. Despite previously announcing a halt to renewable diesel production in Q4 2025, CVR Energy's focus on SAF suggests a strategic pivot within the renewable energy landscape.",
+      "url": "https://biodieselmagazine.com//articles/cvr-energy-begins-operations-of-feedstock-pretreatment-unit-continues-to-consider-saf-projects",
+      "source": "Biodiesel Magazine",
+      "published": "20240502T000000",
+      "overall_sentiment_score": 0.181148,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.083989,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.578586
+    },
+    {
+      "title": "Chevron to resolve ExxonMobil arbitration over Guyana discovery soon following $53 billion Hess acquisition, CEO predicts",
+      "summary": "Chevron anticipates a resolution to its dispute with Exxon Mobil over a Guyana oil contract in the coming months, which is crucial for completing its $53 billion acquisition of Hess Corp. Chevron CEO Mike Wirth expects the arbitration process, initiated by Exxon claiming a right of first refusal, to clarify contract provisions within five to six months. The outcome will determine whether Chevron's acquisition of Hess, intended to help it catch up to rivals, can proceed.",
+      "url": "https://www.worldoil.com/news/2024/4/29/chevron-to-resolve-exxonmobil-arbitration-over-guyana-discovery-soon-following-53-billion-hess-acquisition-ceo-predicts/",
+      "source": "World Oil",
+      "published": "20240429T000000",
+      "overall_sentiment_score": -0.077963,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.053393,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.946423
+    },
+    {
+      "title": "ProPetro to deploy electric-powered hydraulic fracturing fleets on ExxonMobil’s Permian operations",
+      "summary": "ProPetro Holding Corp. has secured a three-year agreement with ExxonMobil to provide electric hydraulic fracturing services in the Permian basin. This partnership involves the deployment of ProPetro's FORCE electric-powered hydraulic fracturing fleets, along with Silvertip wireline and pumpdown services, to ExxonMobil's operations. The collaboration aims to deliver more sustainable, cost-effective, and environmentally friendly energy service solutions.",
+      "url": "https://www.worldoil.com/news/2024/4/29/propetro-to-deploy-electric-powered-hydraulic-fracturing-fleets-on-exxonmobil-s-permian-operations/",
+      "source": "World Oil",
+      "published": "20240429T000000",
+      "overall_sentiment_score": 0.385941,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.32418,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.717239
+    },
+    {
+      "title": "Earnings: Ford Motor Company Q1 2024 adjusted profit falls; revenue up 3%",
+      "summary": "Ford Motor Company (NYSE: F) reported a modest 3% increase in revenue to $42.8 billion for Q1 2024, driven by strong growth in its Ford Pro division. However, adjusted earnings declined 22% year-over-year to $0.49 per share. Unadjusted net income for the quarter was $1.33 billion, or $0.33 per share.",
+      "url": "https://news.alphastreet.com/earnings-ford-motor-company-q1-2024-adjusted-profit-falls-revenue-up-3/",
+      "source": "AlphaStreet",
+      "published": "20240426T000000",
+      "overall_sentiment_score": -0.145127,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.097837,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.608365
+    },
+    {
+      "title": "Hess Corporation increases oil and gas production from success in U.S. Bakken, offshore Guyana",
+      "summary": "Hess Corporation reported increased income and production in Q1 2024, largely driven by strong performance in offshore Guyana and the U.S. Bakken shale region. E&P net income rose significantly to $997 million, with net production hitting 476,000 boed, up from the prior year. The company expects continued growth in Bakken, with several new developments planned for the Stabroek Block in Guyana.",
+      "url": "https://worldoil.com/news/2024/4/25/hess-corporation-increases-oil-and-gas-production-from-success-in-u-s-bakken-offshore-guyana/",
+      "source": "World Oil",
+      "published": "20240425T000000",
+      "overall_sentiment_score": 0.478172,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.346942,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.708898
+    },
+    {
+      "title": "Verizon Earnings: Price Increases Drive Solid Wireless Revenue Growth",
+      "summary": "Verizon's first-quarter results largely met expectations, with strong wireless revenue growth driven by recent price increases. The company saw a reduction in net phone customer losses and increased average revenue per postpaid consumer account, leading to an expansion in segment EBITDA margin despite a decline in business services revenue. Management reiterated its 2024 forecast for free cash flow and the fair value estimate remains $54 per share, with the stock believed to be undervalued.",
+      "url": "https://www.morningstar.com/stocks/verizon-earnings-price-increases-drive-solid-wireless-revenue-growth",
+      "source": "Morningstar",
+      "published": "20240422T000000",
+      "overall_sentiment_score": 0.258965,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.143294,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.638881
+    },
+    {
+      "title": "Comstock’s Haynesville-to-Gulf Coast Strategy On Track, but Coping with Low Natural Gas Prices Job No. 1",
+      "summary": "Comstock Resources Inc. is positioning itself to be a major LNG supplier with its Haynesville-to-Gulf Coast strategy, but the immediate challenge is managing assets during a period of low natural gas prices. The company has secured significant financial support from shareholders, bondholders, and its bank group to maintain liquidity and continue operations. Comstock is also increasing its hedged positions to protect against price volatility while anticipating future demand growth from power generation, data centers, and LNG exports.",
+      "url": "https://naturalgasintel.com/news/comstocks-haynesville-to-gulf-coast-strategy-on-track-but-coping-with-low-natural-gas-prices-job-no-1/",
+      "source": "Natural Gas Intelligence",
+      "published": "20240506T140300",
+      "overall_sentiment_score": -0.118212,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.14837,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.584722
+    },
+    {
+      "title": "ConocoPhillips Exploring Sale of Port Arthur LNG Equity Stake Amid Broader Global Ambitions",
+      "summary": "ConocoPhillips is considering selling part of its 30% equity stake in Sempra Infrastructure’s Port Arthur LNG export plant as it focuses on securing additional regasification capacity and long-term LNG supplies rather than liquefaction capital. The company reported first-quarter production of 1.9 million boe/d but faced volatility in Permian differentials, with natural gas prices in the region experiencing significant fluctuations. Management expects continued Permian volatility in 2Q2024 but anticipates normalization by year-end, while also highlighting progress on its Willow project in Alaska.",
+      "url": "https://naturalgasintel.com/news/conocophillips-exploring-sale-of-port-arthur-lng-equity-stake-amid-broader-global-ambitions/",
+      "source": "Natural Gas Intelligence",
+      "published": "20240503T091400",
+      "overall_sentiment_score": 0.054861,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.094428,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.635468
+    },
+    {
+      "title": "Up 7% This Year, Will EOG’s Gains Continue Following Q1 Results?",
+      "summary": "EOG Resources is set to announce its Q1 results, with expectations of revenues beating but earnings falling short of market expectations. The company has shown strong gains historically and has a strategy focused on organic growth, low breakeven costs, and returning capital to shareholders, despite recent underperformance compared to the S&P 500 in 2023. Trefis analysis estimates EOG's valuation to be in line with its current market price, suggesting little to no immediate movement post-Q1 results.",
+      "url": "https://www.forbes.com/sites/greatspeculations/2024/05/02/up-7-this-year-will-eogs-gains-continue-following-q1-results/",
+      "source": "Forbes",
+      "published": "20240502T110000",
+      "overall_sentiment_score": 0.006629,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.019993,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.631589
+    },
+    {
+      "title": "Imperial Oil: Strathcona biorefinery remains on track for 2025 startup",
+      "summary": "Imperial Oil announced that its Strathcona biorefinery project is still on schedule to begin operations in 2025. The article highlights other developments in the renewable fuels sector, including new SAF facilities and changes in renewable diesel production plans by various companies.",
+      "url": "https://biodieselmagazine.com/articles/imperial-oil-strathcona-biorefinery-remains-on-track-for-2025-startup",
+      "source": "Biodiesel Magazine",
+      "published": "20240430T000000",
+      "overall_sentiment_score": 0.250426,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.155928,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.634826
+    },
+    {
+      "title": "Oil Retreats, But Bullish Momentum Remains for These ETFs",
+      "summary": "Despite a recent retreat in oil prices, bullish momentum remains for ETFs like the Invesco DB Oil Fund (DBO) and the Invesco Dynamic Oil & Gas Services ETF (PXJ), driven by increased institutional demand in oil-focused futures. Geopolitical tensions in the Middle East have already factored into current oil prices, with potential for further rises if supply disruptions occur. Investors may see the current retreat as a buying opportunity before further escalation.",
+      "url": "https://www.etftrends.com/innovative-etfs-channel/oil-retreats-bullish-momentum-remains-etfs/",
+      "source": "ETF Trends",
+      "published": "20240422T000000",
+      "overall_sentiment_score": 0.398719,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.216745,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.555999
+    }
+  ]
+}

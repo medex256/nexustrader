@@ -1,0 +1,58 @@
+{
+  "ticker": "XOM",
+  "date": "2023-10-09",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:34:31.224413",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "Venezuela: ConocoPhillips Targets CITGO as Opposition Authorities Try to Stall Auction",
+      "summary": "ConocoPhillips is seeking to join a court-mandated auction of CITGO shares to collect on an $8.5 billion arbitration award. This move comes as US-backed Venezuelan opposition authorities are accused of stalling the sale, which involves numerous creditors and substantial sums. The impending breakup of CITGO, a critical foreign asset, highlights suspicious practices by the US-backed opposition regarding Venezuela's foreign holdings.",
+      "url": "https://venezuelanalysis.com/news/venezuela-conocophillips-targets-citgo-as-opposition-authorities-try-to-stall-auction/",
+      "source": "Venezuelanalysis",
+      "published": "20230930T000000",
+      "overall_sentiment_score": 0.203066,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.112394,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.72812
+    },
+    {
+      "title": "Chemical recycling aims to scale fast in effort to manage plastic waste, even as questions remain",
+      "summary": "Chemical recycling companies like Dow, Eastman, and ExxonMobil are investing heavily to scale up technology for processing hard-to-recycle plastics, aiming to meet rising demand for recycled content and address plastic waste. While proponents highlight its potential to complement mechanical recycling and divert significant amounts of plastic from landfills, environmental and health experts raise concerns about its sustainability, health impacts, and potential for greenwashing, alongside regulatory uncertainties. The coming years will be crucial in determining the commercial viability and widespread adoption of chemical recycling within the broader waste industry.",
+      "url": "https://www.wastedive.com/news/chemical-recycling-plastic-waste-acc-exxonmobil-dow-eastman/651168/",
+      "source": "Waste Dive",
+      "published": "20231009T143126",
+      "overall_sentiment_score": 0.288295,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.292666,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.884075
+    },
+    {
+      "title": "Canada: TotalEnergies closes the sale of its 50% interest in Surmont to ConocoPhillips and sells the remainder of its Upstream Canadian assets to Suncor",
+      "summary": "TotalEnergies has finalized the sale of its 50% interest in the Surmont oil sands asset to ConocoPhillips for a base amount of C$4.03 billion, with potential additional contingent payments. The company also signed an agreement to sell its remaining Upstream Canadian assets, including its participation in the Fort Hills oil sands asset, to Suncor for C$1.47 billion. These divestments align with TotalEnergies' strategy to focus on oil and gas assets with low breakeven points and will contribute to shareholder buybacks.",
+      "url": "https://totalenergies.com/media/news/press-releases/canada-totalenergies-closes-sale-its-50-interest-surmont-conocophillips",
+      "source": "TotalEnergies.com",
+      "published": "20231004T000000",
+      "overall_sentiment_score": 0.275146,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.290956,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.775986
+    },
+    {
+      "title": "2 ETFs to Play the Ebb and Flow of Oil Prices",
+      "summary": "Oil prices have seen significant fluctuations recently, rallying as equities took a breather, but also facing potential downward pressures. This article suggests two leveraged ETFs, GUSH for bullish traders and DRIP for bearish traders, to capitalize on the dynamic movements in oil prices. These ETFs allow investors to take amplified positions on the S&P Oil & Gas Exploration & Production Select Industry Index.",
+      "url": "https://www.etftrends.com/leveraged-inverse-content-hub/2-etfs-play-ebb-flow-oil-prices/",
+      "source": "ETF Trends",
+      "published": "20230929T060910",
+      "overall_sentiment_score": 0.057094,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.101315,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.522977
+    }
+  ]
+}

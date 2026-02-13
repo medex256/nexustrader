@@ -1,0 +1,58 @@
+{
+  "ticker": "XOM",
+  "date": "2022-06-13",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:07:05.487696",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "International Seaways Sells Stake in Al Shaheen Oil Field FSOs to Euronav",
+      "summary": "International Seaways has sold its 50% stake in two FSO vessels, FSO Asia and FSO Africa, to its joint venture partner Euronav NV for approximately $140 million in cash. The transaction, approved by North Oil Company, values the vessels at $300 million and secures their operation at the Al Shaheen oil field until Q3 2032 under a new ten-year contract. This move aims to strengthen International Seaways' balance sheet and support its long-term value creation strategy.",
+      "url": "https://www.oedigital.com/news/497185-international-seaways-sells-stake-in-al-shaheen-oil-field-fsos-to-euronav",
+      "source": "Offshore Engineer Magazine",
+      "published": "20220608T103000",
+      "overall_sentiment_score": 0.360871,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.260741,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.555605
+    },
+    {
+      "title": "Mean Markets? Commodities May Be a Nice Alternative.",
+      "summary": "The article discusses the poor performance of traditional asset classes in 2022, highlighting commodities as a potential bright spot due to their historically low correlation to other assets and their ability to act as an inflation hedge. It suggests that commodities could be a wise alternative for investors facing inflationary pressures and slower growth. Direxion offers specific ETFs (BRKY and COM) designed to capitalize on rising commodity prices and diversify portfolios.",
+      "url": "https://www.direxion.com/spotlight/mean-markets-commodities-may-be-a-nice-alternative",
+      "source": "Direxion",
+      "published": "20220610T162646",
+      "overall_sentiment_score": 0.153049,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.140007,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.643431
+    },
+    {
+      "title": "Oil producer Sabinal Energy divvying up Permian assets for possible sale",
+      "summary": "Sabinal Energy, an oil producer backed by Kayne Anderson, is preparing its Permian assets for a potential sale that could exceed $1 billion, possibly reaching $1.5 billion. The company is marketing approximately 132,000 net acres with a daily production of 13,000 barrels of oil equivalent, expected to generate over $400 million in EBITDA in the next year. This move aligns with a broader trend of consolidation in the Permian Basin and accelerated dealmaking in the shale patch as oil prices rise.",
+      "url": "https://www.worldoil.com/news/2022/6/10/oil-producer-sabinal-energy-divvying-up-permian-assets-for-possible-sale/",
+      "source": "World Oil",
+      "published": "20220610T172650",
+      "overall_sentiment_score": 0.037927,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.132831,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.738613
+    },
+    {
+      "title": "Southern Company knew about climate change before it funded denial",
+      "summary": "This report details a nearly 60-year history of Southern Company's awareness of climate change risks and its subsequent funding of climate disinformation campaigns. Despite early warnings dating back to 1964, the utility company engaged in a multi-million-dollar effort to discredit climate science, oppose emissions limits, and promote \"clean coal\" as a false solution. The report highlights financial contributions to various groups involved in climate denial and Southern Company's role in influencing public perception and policy.",
+      "url": "https://energyandpolicy.org/southern-company-knew-climate-change/",
+      "source": "Energy and Policy Institute",
+      "published": "20220608T160617",
+      "overall_sentiment_score": -0.340865,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.400995,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 0.639925
+    }
+  ]
+}

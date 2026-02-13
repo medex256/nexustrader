@@ -1,27 +1,19 @@
 [project]
 name = "nexustrader-backend"
-version = "0.1.0"
+version = "0.2.0"
 description = "The backend for the NexusTrader multi-agent trading system."
 dependencies = [
     "fastapi",
     "uvicorn[standard]",
-    "celery",
-    "redis",
     "langgraph",
     "chromadb",
     "pydantic",
     "python-dotenv",
-    "openai",
     "yfinance",
-    "alpha_vantage",
     "pandas-ta",
     "mplfinance",
-    "google-generativeai",
-    "pygooglenews",
-    "praw",
-    "chromadb",
+    "google-genai",
     "requests",
-    "ntscraper",
 ]
 
 [project.optional-dependencies]

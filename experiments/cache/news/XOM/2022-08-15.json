@@ -1,0 +1,142 @@
+{
+  "ticker": "XOM",
+  "date": "2022-08-15",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:07:48.729899",
+  "source": "alpha_vantage",
+  "article_count": 11,
+  "articles": [
+    {
+      "title": "Strive Launches U.S. Energy Index Fund (DRLL) to Deliver a New Shareholder Mandate to U.S. Energy Companies",
+      "summary": "Strive Asset Management has launched its U.S. Energy ETF (DRLL), aiming to refocus American energy companies on long-term profitability and increased oil and gas production, rather than ESG-driven political agendas. The firm plans to use its shareholder engagement to push for maximizing shareholder value by capitalizing on global energy demand. Strive anticipates significant appreciation in U.S. energy stocks due to factors like easing lockdown policies and supply shortages.",
+      "url": "https://markets.financialcontent.com/pennwell.laserfocusworld/article/bizwire-2022-8-10-strive-launches-us-energy-index-fund-drll-to-deliver-a-new-shareholder-mandate-to-us-energy-companies",
+      "source": "FinancialContent",
+      "published": "20220810T092100",
+      "overall_sentiment_score": 0.356651,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.300628,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.736721
+    },
+    {
+      "title": "Yum! Brands (YUM) has what it takes to satisfy investor appetite",
+      "summary": "Yum! Brands (YUM) showed positive revenue performance in Q2, primarily driven by Taco Bell, despite weakness in KFC and Pizza Hut and challenges in Russia and China. Despite recent earnings misses and market volatility, observers suggest buying and holding the stock due to its competitive dividend, global scale, and digital capabilities. The company's Q2 revenue increased 2% to $1.63 billion, with adjusted earnings down 9% annually to $1.05 per share.",
+      "url": "https://news.alphastreet.com/yum-brands-yum-has-what-it-takes-to-satisfy-investor-appetite/",
+      "source": "AlphaStreet",
+      "published": "20220808T192546",
+      "overall_sentiment_score": 0.099916,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.014345,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.615839
+    },
+    {
+      "title": "Producing zero-emission hydrogen with natural gas",
+      "summary": "Williams recently invested in Aurora Hydrogen, a company focused on technology that converts natural gas to hydrogen without carbon dioxide emissions. This investment supports Williams' strategy to leverage natural gas for decarbonization and will help scale Aurora Hydrogen's production to a demonstration plant by 2023. The technology promises to reduce global CO2 emissions significantly while using less electricity and not requiring water.",
+      "url": "https://www.williams.com/2022/08/04/producing-zero-emission-hydrogen-with-natural-gas/",
+      "source": "Williams Companies",
+      "published": "20220804T191632",
+      "overall_sentiment_score": 0.259821,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.20216,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.631289
+    },
+    {
+      "title": "Ohio-based Marathon Petroleum reports profits soar amid high fuel prices during second quarter",
+      "summary": "Marathon Petroleum reported a significant increase in profits during the second quarter of 2022, with its per-barrel profit margin tripling amidst high fuel prices. The company's adjusted net income reached $5.7 billion, up from $437 million in the same period last year, and Marathon refined at 100% capacity to meet strong demand. CEO Michael Hennigan attributed high prices to outside factors and noted the company's efforts to drive down costs.",
+      "url": "https://www.cleveland.com/business/2022/08/ohio-based-marathon-petroleum-reports-profits-soar-amid-high-fuel-prices-during-second-quarter.html",
+      "source": "Cleveland.com",
+      "published": "20220802T140900",
+      "overall_sentiment_score": 0.274699,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.233064,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.610124
+    },
+    {
+      "title": "Executive Viewpoint: The solution to our energy crisis does exist",
+      "summary": "Jeremy D. Thigpen of Transocean Ltd. argues that the solution to the current energy crisis, characterized by high prices and geopolitical risks, is to safely and responsibly produce more oil and gas. He highlights that years of underinvestment and pressure to transition away from hydrocarbons have led to supply exceeding demand, despite global consumption projections indicating continued reliance on these energy sources. Thigpen emphasizes the need for increased capital investment in traditional energy, regulatory support, and public advocacy to ensure energy security and meet global demand, while also urging the development of all energy sources to prevent future crises.",
+      "url": "https://worldoil.com/magazine/2022/july-2022/columns/executive-viewpoint-the-solution-to-our-energy-crisis-does-exist/",
+      "source": "World Oil",
+      "published": "20220801T182605",
+      "overall_sentiment_score": 0.283467,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.266128,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.73831
+    },
+    {
+      "title": "Exxon, Chevron Post Blowout Earnings, Oil Majors Bet on Buybacks",
+      "summary": "Exxon Mobil Corp and Chevron Corp reported record revenues and profits due to surging crude oil and natural gas prices, with Exxon posting an all-time high quarterly profit for an international oil major. The major oil companies, including Shell and TotalEnergies, returned $23 billion to shareholders through buybacks, capitalizing on high margins, while facing criticism from politicians and consumer advocates over soaring profits amid high consumer fuel prices. Companies argue prices reflect global supply issues and underinvestment rather than gouging, resisting increased capital expenditure in favor of shareholder returns.",
+      "url": "https://www.oedigital.com/news/498407-exxon-chevron-post-blowout-earnings-oil-majors-bet-on-buybacks",
+      "source": "Offshore Engineer Magazine",
+      "published": "20220801T091300",
+      "overall_sentiment_score": 0.473867,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.494255,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "The Inflation Reduction Act Includes a Bonanza for the Carbon Capture Industry",
+      "summary": "The Inflation Reduction Act significantly boosts the carbon capture industry by increasing tax credits for capturing CO2 from polluting sources to $85 per metric ton and for removing CO2 directly from the atmosphere to $180 per ton. This legislation, along with prior infrastructure investments, is expected to drive substantial growth in the sector, despite skepticism from environmentalists regarding the technology's effectiveness and its implications for fossil fuel companies. The new incentives are also likely to fuel local controversies, particularly concerning the construction of CO2 pipelines.",
+      "url": "https://time.com/6205570/inflation-reduction-act-carbon-capture/",
+      "source": "Time Magazine",
+      "published": "20220811T183200",
+      "overall_sentiment_score": 0.135014,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.219693,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.605421
+    },
+    {
+      "title": "Meet the energy and climate bigwigs with White House access",
+      "summary": "This article details the increased in-person meetings between Biden administration officials and energy executives, environmental leaders, and other stakeholders. Visitor logs reveal discussions between top White House advisers like Brian Deese and Gina McCarthy with CEOs from Chevron and Exxon Mobil, as well as various utility and environmental group representatives. These meetings provide insight into the efforts to shape the administration's energy and climate policies.",
+      "url": "https://www.eenews.net/articles/meet-the-energy-and-climate-bigwigs-with-white-house-access/",
+      "source": "E&E News by POLITICO",
+      "published": "20220810T132200",
+      "overall_sentiment_score": 0.038122,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.149388,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.713227
+    },
+    {
+      "title": "Mexican-American Advisor Managing $1.9 Billion Helps Clients At Morgan Stanley Diversify Away From Energy",
+      "summary": "Arturo Karakowsky, a Mexican-American Managing Director at Morgan Stanley Wealth Management overseeing $1.9 billion in AUM, focuses on diversifying his Houston-based clients away from a heavy concentration in the energy sector. He emphasizes the importance of diversity within his 12-person team and his own background as an asset. Karakowsky is bullish on a long-term outlook for fixed income, equities, and alternatives, despite expecting short-term market volatility.",
+      "url": "https://www.forbes.com/sites/jasonbisnoff/2022/08/03/mexican-american-advisor-managing-19-billion-helps-clients-at-morgan-stanley-diversify-away-from-energy/",
+      "source": "Forbes",
+      "published": "20220803T094500",
+      "overall_sentiment_score": -0.069084,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.218854,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.558752
+    },
+    {
+      "title": "Hafnia tanker involved in bunker oil spill in Mississippi River",
+      "summary": "A Hafnia tanker, Hafnia Rhine, discharged an estimated 9,500 litres of bunker oil into the Mississippi River near Kenner, Louisiana, during a fuelling operation with a fuel barge. The US Coast Guard is overseeing the clean-up efforts with National Response Corp and Environmental Safety and Health Consulting Services, which have deployed containment and sorbent booms. Hafnia immediately activated its Vessel Response Plan and is cooperating with federal and state agencies, with the cause of the discharge still under investigation.",
+      "url": "https://www.rivieramm.com/news-content-hub/news-content-hub/hafnia-tanker-involved-in-bunker-oil-spill-in-mississippi-river-72241",
+      "source": "Riviera Maritime Media",
+      "published": "20220801T165621",
+      "overall_sentiment_score": -0.267288,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.107734,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.630838
+    },
+    {
+      "title": "Corporations Join the Nuclear Fusion Craze",
+      "summary": "Major corporations like Google, Chevron, and Sumitomo are investing in nuclear fusion technology, indicating a growing belief in its potential as a viable source of clean energy. This corporate interest coincides with a broader resurgence of nuclear energy, as Europe considers green bonds for the power source and Germany rethinks its nuclear facility shutdown plans amidst an energy crisis. Silicon Valley, in particular, is embracing nuclear fusion as a future source of abundant, cheap, and clean energy.",
+      "url": "https://www.bloomberg.com/news/articles/2022-08-08/google-chevron-sumitomo-among-companies-joining-nuclear-fusion-craze",
+      "source": "Bloomberg.com",
+      "published": "20220808T100000",
+      "overall_sentiment_score": 0.314065,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.331152,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.613591
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "ticker": "JNJ",
+  "date": "2024-08-19",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:56:34.366408",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "FDA approves Incyte's treatment for chronic graft-versus-host disease",
+      "summary": "The FDA has approved Incyte's Niktimvo for chronic graft-versus-host disease (GvHD), a significant development as Incyte faces the loss of exclusivity for its top-selling drug, Jakafi. This approval provides clinicians with a new treatment option for adult and pediatric chronic GvHD patients who have not responded to at least two prior therapies. Industry analysts view this approval as a \"comparatively small win\" but still a positive step for Incyte in diversifying its pipeline.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/fda-approves-incytes-treatment-chronic-graft-versus-host-disease-2024-08-14/",
+      "source": "Reuters",
+      "published": "20240814T104700",
+      "overall_sentiment_score": 0.217546,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.128724,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.620329
+    },
+    {
+      "title": "Cidara Therapeutics Provides Corporate Update and Reports Second Quarter 2024 Financial Results",
+      "summary": "Cidara Therapeutics reported financial results for the second quarter ended June 30, 2024, highlighting recent corporate activities and product pipeline advancements. The company reacquired global rights to CD388, closed a $240.0 million private placement, and divested rezafungin to Mundipharma. Cidara plans to initiate a Phase 2b study for CD388 in Fall 2024 and received IND clearance for CBO421.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1610618/000161061824000117/ex9912024-08x13.htm",
+      "source": "SEC.gov",
+      "published": "20240813T000000",
+      "overall_sentiment_score": 0.28966,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.296867,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.726092
+    },
+    {
+      "title": "AC Immune receives FDA Fast Track designation for Alzheimer’s disease therapy",
+      "summary": "AC Immune's Alzheimer's therapy, ACI-35.030 (now JNJ-2056), has received Fast Track designation from the FDA. This active immunotherapy targets the pathological Tau protein and aims to reduce aggregation and slow disease progression. The designation underscores the therapy's potential value for patients, with a Phase 2b trial currently underway.",
+      "url": "https://ggba.swiss/en/ac-immune-receives-fda-fast-track-designation-for-alzheimers-disease-therapy/",
+      "source": "Greater Geneva Bern area",
+      "published": "20240806T000000",
+      "overall_sentiment_score": 0.591224,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.324191,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.628022
+    }
+  ]
+}

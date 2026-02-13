@@ -1,0 +1,22 @@
+{
+  "ticker": "JNJ",
+  "date": "2022-07-04",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:47:23.844141",
+  "source": "alpha_vantage",
+  "article_count": 1,
+  "articles": [
+    {
+      "title": "Johnson & Johnson Opens First Satellite Center for Global Health Discovery in Asia Pacific at Duke-NUS to Advance Dengue Research",
+      "summary": "Johnson & Johnson has opened its first Satellite Center for Global Health Discovery in Asia Pacific at Singapore's Duke-NUS Medical School to advance research against flaviviruses, including dengue. This initiative builds on existing collaborations and aims to develop new solutions for these diseases, which disproportionately affect the region. The center will also complement a QuickFire Challenge to crowdsource innovative ideas for treating, controlling, or preventing flavivirus infections.",
+      "url": "https://www.prnewswire.com/news-releases/johnson--johnson-opens-first-satellite-center-for-global-health-discovery-in-asia-pacific-at-duke-nus-to-advance-dengue-research-301571141.html",
+      "source": "PR Newswire",
+      "published": "20220620T200000",
+      "overall_sentiment_score": 0.409056,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.407248,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

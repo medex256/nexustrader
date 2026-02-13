@@ -1,0 +1,130 @@
+{
+  "ticker": "JPM",
+  "date": "2023-07-17",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:13:03.372080",
+  "source": "alpha_vantage",
+  "article_count": 10,
+  "articles": [
+    {
+      "title": "Citigroup profit drops 36% on trading slump, rising expenses",
+      "summary": "Citigroup's second-quarter profit fell 36% to $2.92 billion, or $1.33 per share, largely due to a trading slump and rising expenses including layoffs and credit loss provisions. Despite this, the bank beat analyst estimates for adjusted profit per share and saw an 18% increase in net interest income, raising its full-year guidance for NII. CEO Jane Fraser noted a delayed rebound in investment banking and client caution due to the debt ceiling.",
+      "url": "https://www.reuters.com/business/finance/citigroup-profit-drops-36-trading-slump-casts-cloud-over-earnings-2023-07-14/",
+      "source": "Reuters",
+      "published": "20230714T151900",
+      "overall_sentiment_score": -0.045365,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.124612,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.61283
+    },
+    {
+      "title": "The Supreme Court's judgment in Philipp v Barclays: key takeaways for financial institutions executing customer payments",
+      "summary": "The Supreme Court's judgment in Philipp v Barclays Bank UK plc has clarified the scope of the Quincecare duty, particularly regarding \"authorised push payment\" (APP) fraud. The Court ruled that banks do not owe an alleged duty to prevent customers from making payments they themselves have authorized, even if those customers are victims of fraud, because a bank's primary duty is to execute valid instructions promptly. However, it confirmed the Quincecare duty applies when an agent of the customer provides instructions and there are reasonable grounds to suspect fraud, requiring the bank to make inquiries.",
+      "url": "https://www.hsfkramer.com/notes/bankinglitigation/2023-07/the-supreme-courts-judgment-in-philipp-v-barclays-key-takeaways-for-financial-institutions-executing-customer-payments",
+      "source": "Herbert Smith Freehills Kramer",
+      "published": "20230714T000000",
+      "overall_sentiment_score": 0.146908,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.12183,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.621902
+    },
+    {
+      "title": "Sonida Senior Living Defaults on Fannie Mae Debt",
+      "summary": "Sonida Senior Living has defaulted on a $427 million loan package from Fannie Mae, leading to a forbearance agreement covering more than half of its properties. The Dallas-based operator will make a $5 million payment and received loan extensions on 18 properties, with Conversant Capital providing an additional $13.5 million equity investment as a guarantee. Sonida is also negotiating to resolve \"non-compliance\" on $72 million in debt with Protective Life Insurance, following $54 million in losses in 2022.",
+      "url": "https://therealdeal.com/texas/dallas/2023/07/10/sonida-defaults-on-fannie-mae-debt/",
+      "source": "The Real Deal",
+      "published": "20230710T130000",
+      "overall_sentiment_score": -0.205403,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.129151,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.608208
+    },
+    {
+      "title": "Invest in Emerging Markets Debt With Confidence Through XEMD",
+      "summary": "Institutional investors are increasingly interested in emerging markets debt due to high yields and strong growth potential. The BondBloxx JP Morgan USD Emerging Markets 1-10 Year Bond ETF (XEMD) offers a way to invest in short- to intermediate-term EM bonds, allowing for better management of duration exposure, especially in a rising rate environment. BondBloxx, founded in 2021 by ETF industry leaders, has launched 19 fixed income ETFs including XEMD, focusing on precision exposure for fixed income investors.",
+      "url": "https://www.etftrends.com/institutional-income-strategies-channel/invest-emerging-markets-debt-confidence-xemd/",
+      "source": "ETF Trends",
+      "published": "20230713T205733",
+      "overall_sentiment_score": 0.366758,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.221401,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.606208
+    },
+    {
+      "title": "BBCA ETF: Structurally Better Than EWC, But Limited Incentive To Go Long Now",
+      "summary": "The JPMorgan BetaBuilders Canada ETF (BBCA) offers coverage to over 82 stocks from the broad Canadian market and has accumulated nearly twice the assets under management (AUM) of the iShares MSCI Canada ETF (EWC) despite being younger, largely due to its lower expense ratio and superior yield differential. However, the article suggests limited incentive to invest in BBCA currently, citing potential challenges for Canadian banks in H2-23 and valuations that are not considered cheap.",
+      "url": "https://seekingalpha.com/article/4616904-bbca-etf-structurally-better-than-ewc-but-limited-incentive-to-go-long-now",
+      "source": "Seeking Alpha",
+      "published": "20230713T124400",
+      "overall_sentiment_score": -0.063827,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.136956,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.609462
+    },
+    {
+      "title": "Alexandria's Burke & Herbert Bank to close Crystal City branch",
+      "summary": "Alexandria's Burke & Herbert Bank, one of the region's oldest banks, plans to close its Crystal City branch. The bank, founded in 1852, intends to replace the 40-year-old branch with a smaller, technology-focused location.",
+      "url": "https://www.bizjournals.com/washington/news/2023/07/03/burke-herbert-to-close-crystal-city-branch.html",
+      "source": "The Business Journals",
+      "published": "20230703T000000",
+      "overall_sentiment_score": 0.121335,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.142655,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.617941
+    },
+    {
+      "title": "PlainsCapital Bank Data Breach Confirmed, 16M Users At Risk",
+      "summary": "PlainsCapital Bank, a subsidiary of Hilltop Holdings Inc., confirmed a data breach linked to the MOVEit vulnerability, potentially exposing the personal information of over 16 million individuals. The compromised data includes sensitive customer details such as social security and account numbers, although the bank states there's no evidence of identity theft or fraudulent activity detected so far. The Clop ransomware group exploited the MOVEit vulnerability, leading to a series of data breaches impacting numerous companies.",
+      "url": "https://thecyberexpress.com/plainscapital-bank-data-breach-moveit/",
+      "source": "The Cyber Express",
+      "published": "20230704T145045",
+      "overall_sentiment_score": -0.162708,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.135376,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.638562
+    },
+    {
+      "title": "J.P. Morgan Asset Management Hires Rachel Betton as Senior Fixed Income Portfolio Manager",
+      "summary": "J.P. Morgan Asset Management has hired Rachel Betton as a managing director and senior portfolio manager for its Municipal Strategies Team, focusing on municipal high yield within its Global Fixed Income, Currency & Commodities business. Betton joins from PIMCO, where she spent ten years as a portfolio manager for various municipal strategies. Rick Taormina, Head of Tax Aware Strategies, expressed enthusiasm for her extensive experience and its potential to identify opportunities for clients.",
+      "url": "https://seekingalpha.com/pr/19393548-j-p-morgan-asset-management-hires-rachel-betton-as-senior-fixed-income-portfolio-manager",
+      "source": "Seeking Alpha",
+      "published": "20230711T090000",
+      "overall_sentiment_score": 0.485768,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.466609,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.954244
+    },
+    {
+      "title": "James Crown, Chicago Businessman and Avid Philanthropist, Dies at 70 (Published 2023)",
+      "summary": "James Crown, a prominent Chicago businessman and philanthropist, died at age 70 in a single-car accident. A scion of the wealthy Crown family, he held significant positions at companies like General Dynamics and JPMorgan Chase, and was an early supporter of Barack Obama's political career. He was also the chief executive of the family's investment firm, Henry Crown & Company.",
+      "url": "https://www.nytimes.com/2023/06/27/business/james-crown-dead.html",
+      "source": "The New York Times",
+      "published": "20230703T144504",
+      "overall_sentiment_score": 0.101496,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.124114,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.718183
+    },
+    {
+      "title": "Blockchain Tech Gains Important Supporters",
+      "summary": "Major financial institutions and professional investors are showing increased enthusiasm for blockchain technology and its applications, benefiting ETFs like the Invesco Alerian Galaxy Blockchain Users and Decentralized Commerce ETF (BLKC). Companies like JPMorgan Chase and Goldman Sachs are expanding their blockchain-based solutions for payments and asset tokenization, signaling growing adoption. This trend highlights blockchain's potential to create trading efficiencies and new opportunities, as well as enhance payment processes for both fintech and traditional financial firms.",
+      "url": "https://etftrends.com/crypto-channel/blockchain-tech-gains-important-supporters/",
+      "source": "ETF Trends",
+      "published": "20230710T180929",
+      "overall_sentiment_score": 0.365165,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.316841,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.720578
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-04-03",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:50:46.792063",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "India rejects Johnson & Johnson’s attempt to extend monopoly on lifesaving TB drug",
+      "summary": "India's Patent Office has rejected Johnson & Johnson's attempt to extend its monopoly on the vital tuberculosis (TB) drug bedaquiline through a secondary patent. This decision is expected to pave the way for generic manufacturing, potentially reducing drug prices by 80% and increasing access for patients, particularly in low- and middle-income nations. The ruling is a significant victory for TB-affected communities and advocates against pharmaceutical \"evergreening\" tactics that restrict access to life-saving medications.",
+      "url": "https://www.eatg.org/hiv-news/india-rejects-johnson-johnsons-attempt-to-extend-monopoly-on-lifesaving-tb-drug/",
+      "source": "European AIDS Treatment Group",
+      "published": "20230328T145943",
+      "overall_sentiment_score": -0.494758,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.477048,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Intuitive’s ecosystem means it will take J&J, Medtronic years to win surgical robot market share: analysts",
+      "summary": "Analysts from William Blair suggest that Intuitive Surgical's well-established ecosystem of hardware, software, training, and support will allow it to maintain its leading position in the surgical robot market for years. Despite growing competition from companies like Medtronic and Johnson & Johnson, these rivals will struggle to gain significant market share without first replicating Intuitive's comprehensive system. The analysts also noted that increased regulatory scrutiny from the FDA acts as another \"competitive moat\" for Intuitive, as new entrants will face higher barriers to approval.",
+      "url": "https://www.medtechdive.com/news/intuitive-robotic-surgery-market-share-ISRG-MDT-JNJ-/645907/",
+      "source": "MedTech Dive",
+      "published": "20230324T145557",
+      "overall_sentiment_score": -0.046927,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.262557,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.865588
+    },
+    {
+      "title": "iShares Global Healthcare ETF (IXJ) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a comprehensive overview of the iShares Global Healthcare ETF (IXJ), detailing its stock price, holdings, dividend yield, and key statistics. As of September 30, 2025, IXJ holds 114 stocks with a total portfolio value of $3.85 billion, featuring top holdings like Eli Lilly and Co, Johnson & Johnson, and AbbVie Inc. The ETF's current PE Ratio is 26.75 and its dividend yield is 1.43%.",
+      "url": "https://www.gurufocus.com/etf/IXJ/summary",
+      "source": "GuruFocus",
+      "published": "20230403T040332",
+      "overall_sentiment_score": 0.242898,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.312356,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.712584
+    },
+    {
+      "title": "Amgen-Sanofi patent case divides makers of antibody drugs",
+      "summary": "A U.S. Supreme Court case involving Amgen's cholesterol drug Repatha and Sanofi/Regeneron's Praluent is dividing antibody drugmakers. The ruling will determine how much information companies must disclose in patents and could reshape U.S. patent law, impacting competition in the $181 billion monoclonal antibodies market. Companies on each side are advocating for either broad or narrow patent protection, with significant implications for future drug development and market exclusivity.",
+      "url": "https://www.reuters.com/legal/amgen-sanofi-patent-case-divides-makers-antibody-drugs-2023-03-27/",
+      "source": "Reuters",
+      "published": "20230327T231600",
+      "overall_sentiment_score": -0.146309,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.140697,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.744248
+    },
+    {
+      "title": "United States Condom Market Size to Reach $879.43 Million by 2030 | At 12.79% CAGR",
+      "summary": "The United States condom market is projected to reach $879.43 million by 2030, growing at a CAGR of 12.79% from its 2022 value of $437.01 million. This growth is driven by increasing demand for HIV and STI prevention, government initiatives for sexual health education, and the widespread availability of affordable condoms. The COVID-19 pandemic initially caused a decline in sales due to lockdowns, but the market rebounded as restrictions eased.",
+      "url": "https://finance.yahoo.com/news/united-states-condom-market-size-095600190.html",
+      "source": "Yahoo Finance",
+      "published": "20230403T095600",
+      "overall_sentiment_score": 0.276233,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.202552,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.588663
+    }
+  ]
+}

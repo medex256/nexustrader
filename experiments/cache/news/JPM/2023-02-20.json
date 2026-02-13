@@ -1,0 +1,58 @@
+{
+  "ticker": "JPM",
+  "date": "2023-02-20",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:10:07.100618",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "ImmunityBio Lines Up Another $50M Equity Investment",
+      "summary": "ImmunityBio Inc. announced another financing package, expected to net $50 million for clinical trials, with potential additional funds from warrants. This follows a previous $157 million package, including a significant investment from founder Patrick Soon-Shiong. Despite the new funding, the company's shares fell and Soon-Shiong's stake has seen a substantial decline since the company went public.",
+      "url": "https://labusinessjournal.com/healthcare/immunitybio-lines-up-another-50m-equity-investment/",
+      "source": "Los Angeles Business Journal",
+      "published": "20230220T145115",
+      "overall_sentiment_score": -0.054816,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.149569,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.610008
+    },
+    {
+      "title": "John Goff's Legacy Project Like the Man Himself: Ambitious, Bold",
+      "summary": "John Goff, a prominent Fort Worth investor and real estate developer, is spearheading the development of The Crescent Fort Worth and a Texas A&M Tier 1 research campus in Fort Worth. These projects are seen as a significant part of his legacy, reflecting his ambitious and bold approach to business and civic engagement. The article traces his journey from humble beginnings and highlights key partnerships and his strategic shift from engineering to finance, ultimately emphasizing his profound impact on the city.",
+      "url": "https://fortworthinc.com/news/john-goff-s-legacy-project/",
+      "source": "Fort Worth Inc.",
+      "published": "20230215T161100",
+      "overall_sentiment_score": 0.260939,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.209293,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.603559
+    },
+    {
+      "title": "Orrick Advises on Ally Financial’s $500 Million Debt Offering",
+      "summary": "Orrick represented the underwriters in Ally Financial Inc.'s $500 million debt offering, specifically its 6.7% Subordinated Notes due in 2033. This continues Orrick's role as designated underwriters' counsel for Ally's unsecured notes program since May 2019, during which time Ally has offered and sold $6.25 billion in notes. Key individuals from Orrick, including Brett Cooper, Ken Marx, Angela Chen, and Valerie Guillard, advised on the transaction.",
+      "url": "https://www.orrick.com/en/News/2023/02/Orrick-Advises-on-Ally-Financials-500-Million-Debt-Offering",
+      "source": "Orrick, Herrington & Sutcliffe LLP",
+      "published": "20230215T000000",
+      "overall_sentiment_score": 0.244916,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.200068,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.644042
+    },
+    {
+      "title": "CLOs: A Rising Rate Alternative",
+      "summary": "This article argues that Collateralized Loan Obligations (CLOs) are an attractive investment, particularly in a rising interest rate environment, due to their higher relative yields, strong risk-adjusted returns, and built-in protection against interest rate hikes. It highlights CLO historical outperformance during crises and rising rate periods, emphasizing the importance of selecting an experienced CLO manager for successful investment. The piece suggests that CLOs offer compelling benefits compared to other fixed-income instruments.",
+      "url": "https://www.vaneck.com/us/en/blogs/income-investing/clos-a-rising-rate-alternative/",
+      "source": "VanEck",
+      "published": "20230213T000000",
+      "overall_sentiment_score": 0.160791,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.311663,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.61609
+    }
+  ]
+}

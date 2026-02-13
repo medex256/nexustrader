@@ -1,0 +1,130 @@
+{
+  "ticker": "AAPL",
+  "date": "2024-01-22",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T00:27:16.596671",
+  "source": "alpha_vantage",
+  "article_count": 10,
+  "articles": [
+    {
+      "title": "Higher S&P 500 Earnings Could Benefit This Active ETF",
+      "summary": "The NEOS S&P 500 High Income ETF (SPYI) is poised to benefit from expected higher corporate earnings in 2024, as forecasted by Goldman Sachs. SPYI, an actively managed ETF, focuses on call options and holds \"Magnificent Seven\" stocks, offering investors tailor-made holdings, risk mitigation, and tax-efficient monthly income. Its active management removes the need for constant supervision and provides a single solution for a core equity portfolio.",
+      "url": "https://www.etftrends.com/monthly-income-channel/higher-sp-500-earnings-could-benefit-active-etf/",
+      "source": "ETF Trends",
+      "published": "20240122T000000",
+      "overall_sentiment_score": 0.325281,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.312225,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.633568
+    },
+    {
+      "title": "Jabil announces collaboration with Fintech Leader Revolut",
+      "summary": "Jabil Inc. announced its ongoing collaboration with Revolut, a digital banking pioneer, to support the neobank's growth and global expansion in merchant acquiring. Jabil provides custom, pre-certified Point-of-Sale (POS) hardware platforms, including the Revolut Reader, which enables merchants to accept various in-store and on-the-go payments. The partnership highlights Jabil's role in accelerating market entry and providing comprehensive product design, development, and manufacturing solutions for Revolut's innovative payment solutions.",
+      "url": "https://worldbusinessoutlook.com/jabil-announces-collaboration-with-fintech-leader-revolut/",
+      "source": "World Business Outlook",
+      "published": "20240116T000000",
+      "overall_sentiment_score": 0.323508,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.307453,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.630096
+    },
+    {
+      "title": "REX Shares and Tuttle Capital Management Expand T-REX Single-Stock ETF Suite with Apple, Alphabet, and Microsoft Offerings",
+      "summary": "REX Shares and Tuttle Capital Management have expanded their T-REX Single-Stock ETF suite by introducing new offerings for Apple (CBOE: AAPX), Alphabet (CBOE: GOOX), and Microsoft (CBOE: MSFX). These ETFs provide seasoned traders with 200% daily targeted exposure to these major tech companies. The expansion aims to offer advanced tools for precise positioning in the tech giants, building on the success of earlier NVIDIA and Tesla single-stock ETFs which have attracted over $100 million in assets since their October 2023 launch.",
+      "url": "https://markets.financialcontent.com/workboat/article/bizwire-2024-1-11-rex-shares-and-tuttle-capital-management-expand-t-rex-single-stock-etf-suite-with-apple-alphabet-and-microsoft-offerings",
+      "source": "FinancialContent",
+      "published": "20240111T080000",
+      "overall_sentiment_score": 0.377448,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.408668,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.724791
+    },
+    {
+      "title": "Upcoming Events",
+      "summary": "REX Shares, in collaboration with Tuttle Capital Management, has expanded its T-REX Single-Stock ETF suite with new offerings providing 200% daily targeted exposure to Apple, Alphabet, and Microsoft. These ETFs (AAPX, GOOX, MSFX) are designed for seasoned traders to give leveraged exposure to major tech stocks. The T-REX suite, which debuted in October 2023, now covers diverse tech sectors and has already attracted over $100 million in assets.",
+      "url": "https://markets.financialcontent.com/pennwell.hydroworld/article/bizwire-2024-1-11-rex-shares-and-tuttle-capital-management-expand-t-rex-single-stock-etf-suite-with-apple-alphabet-and-microsoft-offerings",
+      "source": "FinancialContent",
+      "published": "20240111T080000",
+      "overall_sentiment_score": 0.386051,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.405745,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.90122
+    },
+    {
+      "title": "Your S&P 500 Index Fund Has Higher Risk Than You May Think",
+      "summary": "This article argues that the S&P 500 index fund, traditionally seen as diversified, now carries higher risk due to its concentration in a few technology stocks. It highlights concentration, valuation, and inflation risks, suggesting investors re-evaluate their S&P 500 holdings and consider more value-oriented, truly diversified investments.",
+      "url": "https://www.cabotwealth.com/daily/stock-market/sp-500-index-fund-higher-risk",
+      "source": "Cabot Wealth Network",
+      "published": "20240119T000000",
+      "overall_sentiment_score": -0.16942,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.122686,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.637733
+    },
+    {
+      "title": "Unlocking The Potential Of Pure Research At InterDigital",
+      "summary": "This article examines InterDigital's role as a pure research facility, led by CEO Liren Chen, and its significant contributions to wireless technology, including current work on 5G advanced and future plans for 6G with AI integration. It highlights InterDigital's impressive growth, long-standing partnerships with companies like Apple and Amazon, and its unique approach to fostering innovation among its largely inventor-based workforce. Chen emphasizes the importance of curiosity, competency, and impact in driving both individual and company success, showcasing InterDigital's continued influence on global digital communication.",
+      "url": "https://www.forbes.com/sites/karenwalker/2024/01/16/unlocking-the-potential-of-pure-research-at-interdigital/",
+      "source": "Forbes",
+      "published": "20240116T110000",
+      "overall_sentiment_score": 0.271496,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.203621,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.710009
+    },
+    {
+      "title": "Optimizing Communication and Data Sharing in Multi-Core SoC Designs",
+      "summary": "This article discusses the evolution of interconnects in Systems-on-Chip (SoCs), from shared buses to Network-on-Chip (NoC) architectures, highlighting their role in managing data flow and enhancing performance. It delves into the importance of cache coherence for data consistency in multi-core designs and the challenges engineers face in optimizing communication and data sharing as semiconductor technology advances. The article also mentions Arteris' Ncore Cache Coherent Interconnect as a solution.",
+      "url": "https://www.design-reuse.com/article/61492-optimizing-communication-and-data-sharing-in-multi-core-soc-designs/",
+      "source": "Design And Reuse",
+      "published": "20240115T000000",
+      "overall_sentiment_score": 0.267489,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.342751,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.444107
+    },
+    {
+      "title": "Software Glitch Behind Recalled App Could Drastically Increase Insulin Delivery",
+      "summary": "A software glitch in a recalled app has the potential to drastically increase insulin delivery, posing a significant health risk. This issue was highlighted on January 10, 2024, by Brian Bossetta.",
+      "url": "https://insights.citeline.com/MT154322/Software-Glitch-Behind-Recalled-App-Could-Drastically-Increase-Insulin-Delivery/",
+      "source": "Citeline News & Insights",
+      "published": "20240110T000000",
+      "overall_sentiment_score": -0.10516,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.243677,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.729916
+    },
+    {
+      "title": "Best Socially Responsible Investment Apps of January 2024",
+      "summary": "This article highlights the best socially responsible investment (SRI) apps for January 2024, detailing their features, pros, and cons. It explains what SRI is, differentiates it from ESG investing, and provides expert insights on the advantages and disadvantages of using these apps. The article reviews top platforms like IMPACT, Betterment, Sustainfolio, and Ellevest, among others, to help investors align their financial goals with their ethical values.",
+      "url": "https://africa.businessinsider.com/news/best-socially-responsible-investment-apps-of-january-2024/g723swd",
+      "source": "Business Insider Africa",
+      "published": "20240109T215700",
+      "overall_sentiment_score": 0.197141,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.291934,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.577584
+    },
+    {
+      "title": "SKYX’s All-in-One Smart Platform is Everything from a Smart Speaker to a Smoke Detector",
+      "summary": "SKYX Platforms Corp. debuted its patented All-in-One Smart Platform at CES 2024, aiming to make existing homes technologically advanced. This platform integrates multiple smart home features like a smoke/CO detector, smart speaker, Wi-Fi repeater, and various lighting controls, all controllable via app and voice commands. The product installs easily into a ceiling and supports major smart home ecosystems, with SKYX also renewing a global licensing agreement with GE.",
+      "url": "https://www.cepro.com/news/skyx-platforms-all-in-one-smart-platform-debuts-ces-2024/132442/",
+      "source": "CEPro",
+      "published": "20240110T000000",
+      "overall_sentiment_score": 0.27006,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.212168,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.628489
+    }
+  ]
+}

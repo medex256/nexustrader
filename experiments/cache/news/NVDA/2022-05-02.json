@@ -1,0 +1,58 @@
+{
+  "ticker": "NVDA",
+  "date": "2022-05-02",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:08:10.805738",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "HPE Creates Its Own AI Stack For Large Enterprises",
+      "summary": "Hewlett Packard Enterprise (HPE) is expanding its AI software portfolio and leveraging its HPC hardware expertise to provide a comprehensive AI stack for large enterprises. This initiative includes a Machine Learning Development System that simplifies infrastructure management and facilitates collaboration for training models at scale, addressing the complexities faced by data scientists. Furthermore, HPE is promoting \"swarm learning\" to enable AI model training where data resides, crucial for privacy and compliance in industries like healthcare and banking.",
+      "url": "https://www.nextplatform.com/2022/04/27/hpe-creates-its-own-ai-stack-for-large-enterprises/",
+      "source": "The Next Platform",
+      "published": "20220427T165705",
+      "overall_sentiment_score": 0.374513,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.274254,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.64742
+    },
+    {
+      "title": "Nvidia's GPU-powered AI is creating chips with 'better than human design'",
+      "summary": "Nvidia is leveraging its GPU-powered AI to develop and design new computer chips, including its own GPUs, leading to designs that are \"better than human.\" The company's chief scientist, Bill Dally, explained how AI is used to accelerate chip design processes like power estimation, parasitic prediction, and automated standard cell migration. This approach not only significantly reduces design time and labor but also results in more efficient and smaller chip components, showcasing a win-win scenario for Nvidia's internal development and its AI hardware offerings.",
+      "url": "https://www.pcgamer.com/nvidias-gpu-powered-ai-is-creating-chips-with-better-than-human-design/",
+      "source": "PC Gamer",
+      "published": "20220420T175613",
+      "overall_sentiment_score": 0.307976,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.455885,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Fidelity Enters the Metaverse with New Financial Education Experience: Invest Quest at The Fidelity Stack",
+      "summary": "Fidelity Investments has launched a new gamified financial education experience called \"The Fidelity Stack\" in Decentraland, an eight-story virtual building designed to teach users about ETF investing through an \"Invest Quest\" challenge. This initiative aims to engage younger audiences, particularly the 18-35 age range, following the company's recent introduction of a metaverse-themed ETF, FMET. Fidelity views this as a significant step in providing financial education in decentralized, virtual communities.",
+      "url": "https://finovate.com/fidelity-enters-the-metaverse-with-new-financial-education-experience-invest-quest-at-the-fidelity-stack/",
+      "source": "Finovate",
+      "published": "20220427T164138",
+      "overall_sentiment_score": 0.412541,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.433714,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.808756
+    },
+    {
+      "title": "Chipmaker Texas Instruments expects revenue hit as China lockdowns dent demand",
+      "summary": "Texas Instruments (TXN.O) forecast second-quarter revenue below Wall Street estimates due to reduced demand caused by COVID-19 lockdowns in China, sending its shares down 7% in extended trading. The company noted that the impact was primarily due to disruptions at its customers' factories. Despite this, Texas Instruments reported a 14% revenue increase to $4.91 billion for the first quarter, exceeding analyst expectations.",
+      "url": "https://www.reuters.com/technology/chipmaker-texas-instruments-quarterly-revenue-beats-estimates-2022-04-26/",
+      "source": "Reuters",
+      "published": "20220426T222500",
+      "overall_sentiment_score": -0.192399,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.13841,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.615847
+    }
+  ]
+}

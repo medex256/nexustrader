@@ -1,0 +1,82 @@
+{
+  "ticker": "AAPL",
+  "date": "2022-08-15",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-12T23:57:22.366992",
+  "source": "alpha_vantage",
+  "article_count": 6,
+  "articles": [
+    {
+      "title": "Invisalign Photo Uploader by Align Technology, Inc.",
+      "summary": "The Invisalign Photo Uploader application, developed by Align Technology, Inc., allows Invisalign Providers and their staff to easily create patient profiles, take high-quality photos, and submit them to the Invisalign Doctor Site. The app offers features like guided photo-taking, auto-cropping, quality analysis, and direct upload, alongside an option to export photos for doctor records. It is intended exclusively for Invisalign providers.",
+      "url": "https://appadvice.com/app/invisalign-photo-uploader/1159148906",
+      "source": "AppAdvice",
+      "published": "20220811T160640",
+      "overall_sentiment_score": 0.284182,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.145205,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.721237
+    },
+    {
+      "title": "Direxion Launches Apple & Tesla Single-Stock ETFs",
+      "summary": "Direxion has launched the first four of its single-stock leveraged and inverse ETFs, offering sophisticated traders magnified or inverse daily exposure to Apple and Tesla stock. These new ETFs are designed for short-term tactical trading in volatile markets and are not intended as buy-and-hold investments due to their high-risk nature and lack of diversification. They aim to provide active traders with tools to respond to company events and market sentiment.",
+      "url": "https://etfdb.com/leveraged-inverse-content-hub/direxion-launches-apple-tesla-single-stock-etfs/",
+      "source": "ETF Database",
+      "published": "20220809T050142",
+      "overall_sentiment_score": 0.321087,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.305944,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.733656
+    },
+    {
+      "title": "Microstrategy Outperforms Every Asset Class and Big Tech Stock Since Adopting Bitcoin Strategy, Says CEO",
+      "summary": "Microstrategy CEO Michael Saylor highlights that the company's bitcoin strategy has led to significant outperformance against all asset classes and major tech stocks since its adoption. Saylor attributes this success to bitcoin's digital property characteristics and its appeal as a safe haven asset. The company's unique approach involved acquiring substantial bitcoin holdings and integrating it into their corporate strategy.",
+      "url": "https://news.bitcoin.com/microstrategy-outperforms-every-asset-class-and-big-tech-stock-since-adopting-bitcoin-strategy-says-ceo/",
+      "source": "Bitcoin.com News",
+      "published": "20220803T174623",
+      "overall_sentiment_score": 0.266463,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.143274,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.709089
+    },
+    {
+      "title": "Large Indiana employers Eli Lilly and Cummins speak out about the state's new restrictive abortion law",
+      "summary": "Large Indiana employers Eli Lilly and Cummins have voiced strong opposition to the state's newly passed restrictive abortion law. Eli Lilly stated the law would hinder its ability to attract diverse talent and force it to plan for employment growth outside Indiana, while Cummins expressed concerns about its impact on talent attraction and retention. Both companies emphasized that the law conflicts with ensuring women's full participation in the workforce and the need for inclusive environments.",
+      "url": "https://www.cnbc.com/2022/08/06/eli-lilly-says-indianas-abortion-law-will-lead-the-drugmaker-to-grow-in-other-states.html",
+      "source": "CNBC",
+      "published": "20220806T154600",
+      "overall_sentiment_score": -0.096521,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.114066,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.643494
+    },
+    {
+      "title": "Jamf Holding Corp. (JAMF) Q2 2022 Earnings Call Transcript",
+      "summary": "Jamf Holding Corp. reported strong Q2 2022 earnings, exceeding expectations with 40% ARR growth and 34% revenue growth. The company highlighted significant expansion in commercial and education markets, driven by product diversification and a growing demand for Apple device management and security solutions. Key wins included Red Bull consolidating Apple devices with Jamf Pro and a large education program in Taiwan adopting Jamf for 80% of its schools, despite an uncertain macroeconomic environment and hardware supply issues.",
+      "url": "https://www.fool.com/earnings/call-transcripts/2022/08/05/jamf-holding-corp-jamf-q2-2022-earnings-call-trans/",
+      "source": "The Motley Fool",
+      "published": "20220805T040100",
+      "overall_sentiment_score": 0.359465,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.220544,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.780764
+    },
+    {
+      "title": "Apple buys HP’s 67-acre San Diego campus as it expands footprint and works on custom modem",
+      "summary": "Apple has purchased HP's former 67-acre campus in San Diego for $445 million, marking a significant investment in its engineering efforts in Southern California. The acquisition is intended to support Apple's expanding work on an in-house modem and other wireless technologies, with plans to increase local job creation from 1,200 to 5,000 by 2026. This move reinforces Apple's commitment to bringing more hardware components in-house, despite potential delays in its own modem deployment.",
+      "url": "https://9to5mac.com/2022/08/01/apple-new-san-diego-campus-modem-work/",
+      "source": "9to5Mac",
+      "published": "20220801T123600",
+      "overall_sentiment_score": 0.224562,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.416104,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

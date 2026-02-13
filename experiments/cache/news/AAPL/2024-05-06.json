@@ -1,0 +1,58 @@
+{
+  "ticker": "AAPL",
+  "date": "2024-05-06",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T00:28:26.882942",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "Microsoft to invest $1.7 billion in cloud, AI in Indonesia, CEO says",
+      "summary": "Microsoft announced a $1.7 billion investment over the next four years to expand cloud services and artificial intelligence in Indonesia, including building data centers. CEO Satya Nadella is on a Southeast Asian tour to promote the company's generative AI technology. Microsoft also plans to train 2.5 million people in Southeast Asia in AI use by 2025, with 840,000 specifically in Indonesia.",
+      "url": "https://www.reuters.com/technology/microsoft-invest-17-bln-cloud-ai-indonesia-ceo-says-2024-04-30/",
+      "source": "Reuters",
+      "published": "20240430T052200",
+      "overall_sentiment_score": 0.308222,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.117915,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.602079
+    },
+    {
+      "title": "The DOJ’s Apple antitrust suit doesn’t add up",
+      "summary": "The U.S. Department of Justice has filed an antitrust suit against Apple, accusing it of anticompetitive conduct relating to its iOS operating system. The article argues that the DOJ's claims, which center on product tying and vertical restraints, fundamentally misunderstand Apple's long-standing \"walled garden\" approach, which many consumers prefer for its security and user experience. It also suggests that the alleged anticompetitive acts in areas like digital wallets or the App Store are not lucrative enough to justify the severe remedies sought by the DOJ, unlike the Microsoft case often referenced.",
+      "url": "https://reason.org/commentary/the-dojs-apple-antitrust-suit-doesnt-add-up/",
+      "source": "Reason Foundation",
+      "published": "20240503T000000",
+      "overall_sentiment_score": 0.299202,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.271178,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "How to Buy Alphabet (Google) Stock Online in 2025",
+      "summary": "This article provides a comprehensive guide on how to buy Alphabet (Google) stock online in 2025, detailing steps, top brokers, and reasons to invest in the company. It covers Google's diverse services, its financial performance, business strategy, and historical stock information, emphasizing its growth and expansion into new technologies like AI. The article also addresses common FAQs regarding Alphabet stock.",
+      "url": "https://learnbonds.com/buy-stocks/alphabet/",
+      "source": "LearnBonds",
+      "published": "20240429T120100",
+      "overall_sentiment_score": 0.372512,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.103945,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.589744
+    },
+    {
+      "title": "KKR joins global cos betting billions of dollars in fastest-growing India",
+      "summary": "KKR & Co. is optimistic about investment opportunities in India's consumer sector and is expanding its private credit portfolio, planning to deploy $10 billion at a faster pace. The firm, along with others like Blackstone and Goldman Sachs, is attracted by India's rapid economic growth and government incentives for manufacturing. Despite past challenges, KKR remains committed to India, exploring new sectors like manufacturing and potentially real estate in the future.",
+      "url": "https://m.economictimes.com/news/company/corporate-trends/kkr-joins-global-cos-betting-billions-of-dollars-in-fastest-growing-india/articleshow/109554069.cms",
+      "source": "The Economic Times",
+      "published": "20240424T121000",
+      "overall_sentiment_score": 0.425798,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.295241,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.557235
+    }
+  ]
+}

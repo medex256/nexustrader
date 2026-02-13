@@ -1,0 +1,106 @@
+{
+  "ticker": "AAPL",
+  "date": "2023-08-07",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T00:25:23.926640",
+  "source": "alpha_vantage",
+  "article_count": 8,
+  "articles": [
+    {
+      "title": "Apple sees sales slump continuing, shares drop 2% despite beating sales expectations",
+      "summary": "Apple shares dropped 2% after the company forecast a continued sales slump for the current quarter, despite beating Wall Street's sales and profit targets in the fiscal third quarter. While services and China sales were strong, weaker-than-expected iPhone sales disappointed investors, raising concerns about future volume growth. Apple also revealed increased R&D spending, partly driven by generative AI development.",
+      "url": "https://www.reuters.com/technology/apple-profit-tops-wall-street-targets-strong-services-counter-weaker-iphone-2023-08-03/",
+      "source": "Reuters",
+      "published": "20230804T062600",
+      "overall_sentiment_score": -0.276027,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.269288,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Why is Netflix lagging FAANG stocks?",
+      "summary": "While other FAANG stocks have seen significant rallies in 2023, Netflix has lagged, raising questions about its inclusion in the group. Despite a subscriber boost from a password crackdown, the company faces challenges from ongoing strikes and has not highlighted AI in its earnings, unlike its tech counterparts. The article discusses investment approaches for FAANG stocks through ETFs.",
+      "url": "https://www.cmcmarkets.com/en-au/opto/why-is-netflix-lagging-faang-stocks",
+      "source": "CMC Markets",
+      "published": "20230726T005000",
+      "overall_sentiment_score": 0.271167,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.318473,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.803323
+    },
+    {
+      "title": "Exploring two covered call strategies by Global X ETFs",
+      "summary": "This article explores two covered call ETF strategies offered by Global X ETFs, designed to provide alternative income solutions in a potentially rising-rate environment. It details the Global X S&P 500 Covered Call UCITS ETF (XYLU LN) and the Global X Nasdaq 100 Covered Call UCITS ETF (QYLD LN), explaining how they generate income through option premiums and their potential benefits in volatile or sideways markets. The strategies aim to offer higher yields than traditional fixed income while potentially reducing volatility compared to underlying stocks.",
+      "url": "https://www.etfstream.com/articles/exploring-two-covered-call-strategies-by-global-x-etfs",
+      "source": "ETF Stream",
+      "published": "20230807T000000",
+      "overall_sentiment_score": 0.274499,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.338317,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.646699
+    },
+    {
+      "title": "After Earnings, Is Berkshire Hathaway Stock a Buy, a Sell, or Fairly Valued?",
+      "summary": "Morningstar analyzes Berkshire Hathaway's Q2 earnings, noting stronger insurance results offset by declines in BNSF and other segments. The article evaluates the stock's valuation, finding it fairly valued despite strong operating earnings and significant cash holdings, and discusses the economic moat, risks, and bull/bear cases for BRK.B.",
+      "url": "https://www.morningstar.com/stocks/after-earnings-is-berkshire-hathaway-stock-buy-sell-or-fairly-valued",
+      "source": "Morningstar",
+      "published": "20230807T000000",
+      "overall_sentiment_score": 0.09644,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.309869,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.732954
+    },
+    {
+      "title": "Best Augmented Reality & Virtual Reality Stocks In 2023: December List",
+      "summary": "This article identifies top Augmented Reality (AR) and Virtual Reality (VR) stocks for 2023, acknowledging the market's slow but potential growth, similar to the early days of smartphones. It emphasizes investing in stable, well-capitalized companies that are involved in AR/VR but do not solely depend on it for revenue, such as Alphabet, Apple, Autodesk, Meta, and Microsoft. The article also highlights the importance of risk management, portfolio diversification, and continuous monitoring of emerging trends in this evolving technological landscape.",
+      "url": "https://www.forbes.com/sites/investor-hub/2023/08/01/best-augmented-reality-and-virtual-reality-stocks-in-2023/",
+      "source": "Forbes",
+      "published": "20230801T115900",
+      "overall_sentiment_score": 0.328406,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.331746,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.773402
+    },
+    {
+      "title": "Is QYLD ETF’s 11.3% Dividend a High-Yield Trap?",
+      "summary": "This article examines the Global X NASDAQ 100 Covered Call ETF (QYLD) which offers an impressive 11.3% monthly dividend yield. While appealing for income investors, the article suggests that QYLD's covered call strategy, despite holding top tech stocks, leads to significantly lower long-term total returns compared to a standard Nasdaq 100 ETF like QQQ, primarily due to capping upside potential and higher fees. It concludes that while QYLD provides consistent income, QQQ is a superior long-term wealth-building investment.",
+      "url": "https://www.nasdaq.com/articles/is-qyld-etfs-11.3-dividend-a-high-yield-trap",
+      "source": "Nasdaq",
+      "published": "20230728T183600",
+      "overall_sentiment_score": 0.121899,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.311939,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.607245
+    },
+    {
+      "title": "Introducing Norton Genie - Real-Time AI-powered Scam Detection at Your Fingertips",
+      "summary": "Norton has launched Norton Genie, a real-time AI-powered scam detection tool designed to help users identify and avoid increasingly sophisticated scams in texts, emails, websites, and social media posts. Available now in early access in the US, Genie combines Norton's cybersecurity expertise with advanced AI trained on millions of scam messages. The tool offers fast, free, and easy scam analysis, evolving protection, and trusted advice on how to respond to potential threats.",
+      "url": "https://www.prnewswire.com/news-releases/introducing-norton-genie--real-time-ai-powered-scam-detection-at-your-fingertips-301884503.html",
+      "source": "PR Newswire",
+      "published": "20230725T090000",
+      "overall_sentiment_score": 0.356546,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.349984,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.716763
+    },
+    {
+      "title": "Pixar, Apple and Nvidia are teaming up to promote a 3D file format that could help boost Apple's upcoming Vision Pro",
+      "summary": "Pixar, Apple, Nvidia, Adobe, and Autodesk are collaborating to promote OpenUSD, a 3D file format. This initiative aims to streamline the creation of 3D content, potentially benefiting game development based on Pixar movies and boosting Apple's upcoming Vision Pro mixed-reality headset by making 3D environments more accessible.",
+      "url": "https://www.bizjournals.com/sanjose/news/2023/08/01/pixar-apple-nvidia-team-up-on-3d-file-format.html",
+      "source": "The Business Journals",
+      "published": "20230801T000000",
+      "overall_sentiment_score": 0.32411,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.408731,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

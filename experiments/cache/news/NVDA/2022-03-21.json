@@ -1,0 +1,106 @@
+{
+  "ticker": "NVDA",
+  "date": "2022-03-21",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:07:43.778489",
+  "source": "alpha_vantage",
+  "article_count": 8,
+  "articles": [
+    {
+      "title": "New Investments Ready to Propel AV Technology Forward",
+      "summary": "New investments are rapidly advancing autonomous vehicle (AV) technology, with major automakers and tech companies pouring billions into R&D to enhance safety and performance. While full autonomy and mass adoption are long-term goals due to testing, regulatory, and infrastructure challenges, early commercial applications like robotaxis present immediate growth opportunities. The article details technological advancements, investment trends, regulatory hurdles, consumer acceptance, and the potential for AVs to revolutionize transportation.",
+      "url": "https://www.globalxetfs.com/articles/new-investments-ready-to-propel-av-technology-forward/",
+      "source": "Global X ETFs",
+      "published": "20220317T163154",
+      "overall_sentiment_score": 0.250399,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.205911,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.722472
+    },
+    {
+      "title": "Nvidia investing $10M in last-mile company Serve Robotics",
+      "summary": "Nvidia is investing $10M in Serve Robotics, a last-mile delivery company that spun out of Uber. Serve Robotics utilizes Nvidia's Jetson edge compute module for its autonomous mobile robots, making this investment a continuation of their long-standing partnership. The funding will support Serve Robotics' expansion and fleet building in existing and new markets.",
+      "url": "https://www.therobotreport.com/nvidia-investing-10m-in-last-mile-company-serve-robotics/",
+      "source": "The Robot Report",
+      "published": "20220311T183607",
+      "overall_sentiment_score": 0.730115,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.719853,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.949471
+    },
+    {
+      "title": "Why Nvidia sees a future in software and services: Recurring revenue",
+      "summary": "Nvidia is shifting its business model to focus on software and services to generate recurring revenue, moving beyond its traditional hardware sales. CFO Colette Kress highlighted opportunities in autonomous vehicles, where Nvidia's software will be monetized over the life of the car, and the metaverse, envisioning annual revenues of $1,000 per creative user and per digital twin bot. This strategic pivot aims to create more predictable income streams, leveraging existing hardware with new software offerings and expanding into new markets.",
+      "url": "https://www.theregister.com/2022/03/10/nvidia_software_services/",
+      "source": "The Register",
+      "published": "20220310T083400",
+      "overall_sentiment_score": 0.110572,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.438442,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Nvidia invests $10M in sidewalk robot delivery company Serve Robotics",
+      "summary": "Nvidia has invested $10 million in Serve Robotics, an Uber spinout specializing in sidewalk delivery robots. This investment marks Nvidia's first foray into the sidewalk delivery sector and is part of a broader collaboration to advance robotic technology. Serve Robotics will use the funds to expand its service beyond Los Angeles and San Francisco, leveraging Nvidia's Jetson AI platform, perception, and mapping tools to enhance its fully autonomous delivery robots.",
+      "url": "https://techcrunch.com/2022/03/08/nvidia-invests-10m-in-sidewalk-robot-delivery-company-serve-robotics/",
+      "source": "TechCrunch",
+      "published": "20220308T150000",
+      "overall_sentiment_score": 0.354637,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.43558,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "GLOBALFOUNDRIES ANNOUNCES NEXT GENERATION IN SILICON PHOTONICS SOLUTIONS AND COLLABORATES WITH INDUSTRY LEADERS TO ADVANCE A NEW ERA OF MORE IN THE DATA CENTER",
+      "summary": "GlobalFoundries (GF) has announced GF Fotonix™, its next-generation silicon photonics platform, aimed at addressing the explosive growth of data and reducing power consumption in data centers. GF is collaborating with industry leaders including Broadcom, Cisco Systems, Inc., Marvell, and NVIDIA, along with photonic innovators like Ayar Labs and PsiQuantum, to deliver innovative and feature-rich solutions. This monolithic platform, combining advanced photonics features and RF-CMOS on a single silicon wafer, is designed to enable faster, more energy-efficient data transmission and supports various high-growth markets.",
+      "url": "https://www.prnewswire.com/news-releases/globalfoundries-announces-next-generation-in-silicon-photonics-solutions-and-collaborates-with-industry-leaders-to-advance-a-new-era-of-more-in-the-data-center-301496360.html",
+      "source": "PR Newswire",
+      "published": "20220307T083000",
+      "overall_sentiment_score": 0.36242,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.341336,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.632858
+    },
+    {
+      "title": "Vodafone investigating threat from hackers behind Samsung breach to leak source code",
+      "summary": "Vodafone is investigating claims by the hacking group Lapsus$ that they have obtained 200 gigabytes of the telecommunication giant's source code and are threatening to leak it. The company is working with law enforcement and states that the repositories referenced typically contain proprietary source code, not customer data. Lapsus$ recently claimed responsibility for data breaches at Samsung and Nvidia.",
+      "url": "https://www.cnbc.com/2022/03/10/vodafone-investigating-hackers-claims-threatening-to-leak-source-code.html",
+      "source": "CNBC",
+      "published": "20220310T030500",
+      "overall_sentiment_score": -0.422269,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.317862,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.614262
+    },
+    {
+      "title": "Is It Finally Time to Start Buying Intel Stock?",
+      "summary": "Intel, a pioneer in micro-processing, has seen its stock underperform competitors for years, but an ambitious makeover and new leadership may signal an attractive entry point for long-term investors. CEO Pat Gelsinger's plans for a massive $20 billion semiconductor plant in Ohio and other investments aim to restore Intel's market leadership. Despite investor skepticism reflected in its depressed stock price, Morningstar analysts see an appealing opportunity with a 27% discount to its fair value estimate and a 3.11% dividend yield.",
+      "url": "https://www.morningstar.com/stocks/is-it-finally-time-start-buying-intel-stock",
+      "source": "Morningstar",
+      "published": "20220318T185707",
+      "overall_sentiment_score": 0.073416,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.100187,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.618156
+    },
+    {
+      "title": "Metaverse Technology Redefining Digital Experience",
+      "summary": "The metaverse is emerging as a significant technological advancement, moving beyond gaming to redefine digital experiences across various industries. Companies like Facebook (Meta), Nike, and Microsoft are investing heavily, with projections indicating global metaverse revenue could approach $800 billion by 2024. While offering potential for retail, enterprise solutions, and new markets like virtual real estate and entertainment, the metaverse also faces challenges related to data security, legal frameworks, skilled resources, VR device limitations, and potential negative societal impacts.",
+      "url": "https://www.wipro.com/consumer-packaged-goods/the-metaverse-redefining-the-digital-experience/",
+      "source": "Wipro",
+      "published": "20220311T191627",
+      "overall_sentiment_score": 0.298192,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.311535,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.745892
+    }
+  ]
+}

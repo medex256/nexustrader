@@ -1,0 +1,82 @@
+{
+  "ticker": "NVDA",
+  "date": "2023-04-03",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:27:25.527236",
+  "source": "alpha_vantage",
+  "article_count": 6,
+  "articles": [
+    {
+      "title": "ProShares Ultra QQQ 2x Shares (QLD) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of ProShares Ultra QQQ 2x Shares (QLD), including its stock price, key statistics, top holdings, and dividend information. It highlights QLD's current portfolio value of $6.70 billion with top holdings like NVIDIA, Microsoft, and Apple, and details its performance and historical data. The article also lists recent trades and key fundamental data.",
+      "url": "https://www.gurufocus.com/etf/QLD/summary",
+      "source": "GuruFocus",
+      "published": "20230403T045136",
+      "overall_sentiment_score": 0.182121,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.265398,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.829452
+    },
+    {
+      "title": "Best-Performing Stocks of Q1 2023",
+      "summary": "The first quarter of 2023 saw a significant rebound in technology and communication services stocks, with Nvidia, Meta Platforms, and Salesforce among the top performers. This resurgence was driven by factors such as better-than-expected earnings, cost-cutting measures, and growing enthusiasm for artificial intelligence, contrasting sharply with the downturn experienced in 2022. Other sectors like entertainment and media, cryptocurrency, and electric vehicles also saw notable gains.",
+      "url": "https://www.morningstar.com/markets/best-performing-stocks-q1-2023",
+      "source": "Morningstar",
+      "published": "20230403T000000",
+      "overall_sentiment_score": 0.542658,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.50148,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.826231
+    },
+    {
+      "title": "iShares MSCI USA Quality Factor ETF (QUAL) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of the iShares MSCI USA Quality Factor ETF (QUAL), including its stock price, key statistics, top holdings, dividend data, and historical performance. As of the latest N-PORT filing on 2025-07-31, QUAL holds 125 stocks with NVIDIA, Microsoft, and Apple as its top positions. The ETF has a current dividend yield of 0.94% and a P/E ratio of 26.81.",
+      "url": "https://www.gurufocus.com/etf/QUAL/summary",
+      "source": "GuruFocus",
+      "published": "20230403T044354",
+      "overall_sentiment_score": 0.224961,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.30059,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.92901
+    },
+    {
+      "title": "GLOBAL X FDS (BOTZ) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of the Global X Robotics & Artificial Intelligence ETF (BOTZ), including its stock price, key statistics, top holdings, and historical performance. It highlights NVIDIA Corp (NVDA), ABB Ltd (XSWX:ABBN), and Fanuc Corp (TSE:6954) as some of its largest constituents, detailing their weighting and market data. The ETF's current portfolio value is reported at $2.81 billion with a 3% turnover rate, holding 47 stocks as of the latest N-PORT filing.",
+      "url": "https://www.gurufocus.com/etf/BOTZ/summary",
+      "source": "GuruFocus",
+      "published": "20230402T071311",
+      "overall_sentiment_score": 0.148462,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.226982,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.806371
+    },
+    {
+      "title": "Beamr teams with NVIDIA to accelerate Beamr technology on NVIDIA GPUs",
+      "summary": "Beamr Imaging Ltd. announced that its video encoding technology now supports NVIDIA GPU acceleration, achieving up to 10x faster encoding speeds compared to CPUs. This advancement enables real-time optimization for live video streams, reducing storage and bitrate while maintaining high visual quality. Beamr is collaborating with NVIDIA to develop a cloud-based Software-as-a-Service (SaaS) offering, with a beta launch planned for Q3 2023, aiming to attract new customers with competitive pricing.",
+      "url": "https://www.stocktitan.net/news/BMR/beamr-teams-with-nvidia-to-accelerate-beamr-technology-on-nvidia-gp-v0u8p9gamycs.html",
+      "source": "Stock Titan",
+      "published": "20230327T080000",
+      "overall_sentiment_score": 0.314292,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.250218,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.885916
+    },
+    {
+      "title": "What Is Conversational AI? How It Enhances Customer Engagement",
+      "summary": "This article explains conversational AI, detailing its components like NLP and machine learning, and how it functions. It highlights why businesses need conversational AI to lower customer service costs, boost engagement, improve accessibility, and scale services, providing use cases in healthcare, financial services, and e-commerce, while also addressing challenges such as language nuances and privacy",
+      "url": "https://learn.g2.com/conversational-ai",
+      "source": "G2 Learning Hub",
+      "published": "20230323T000000",
+      "overall_sentiment_score": 0.202908,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.382317,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.619884
+    }
+  ]
+}

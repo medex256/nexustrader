@@ -1,0 +1,118 @@
+{
+  "ticker": "XOM",
+  "date": "2021-10-04",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:03:09.691413",
+  "source": "alpha_vantage",
+  "article_count": 9,
+  "articles": [
+    {
+      "title": "As energy transition plays out, Shell exits Permian with $9.5 bln sale to ConocoPhillips",
+      "summary": "Shell is selling its Permian Basin business for $9.5 billion in cash to ConocoPhillips as part of its strategy to shift towards renewable energy and meet its net-zero goals. ConocoPhillips will acquire 225k net acres with a current production of 175 thousand barrels equivalent per day, aiming to enhance its role in the energy transition with lower GHG intensity barrels and increasing its dividend. The deal, expected to close in Q4 2021, allows Shell to fund shareholder distributions and strengthen its balance sheet, while ConocoPhillips increases its divestment targets to help finance the acquisition.",
+      "url": "https://www.offshore-energy.biz/as-energy-transition-plays-out-shell-exits-permian-with-9-5-bln-sale-to-conocophillips/",
+      "source": "Offshore Energy",
+      "published": "20210921T195804",
+      "overall_sentiment_score": 0.227421,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.119903,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.585441
+    },
+    {
+      "title": "Shell exits Permian with $9.5 bln Texas shale sale to ConocoPhillips",
+      "summary": "Royal Dutch Shell announced the sale of its Permian Basin assets to ConocoPhillips for $9.5 billion in cash, marking its exit from the largest U.S. oilfield as it refocuses on clean energy transitions. ConocoPhillips' acquisition of 225,000 net acres strengthens its position in U.S. shale, while both companies made moves related to shareholder returns and greenhouse gas emission targets. The deal highlights a divergence between European and U.S. producers regarding future hydrocarbon investments.",
+      "url": "https://www.reuters.com/business/shell-nears-deal-sell-texas-shale-assets-conocophillips-95-bln-wsj-2021-09-20/",
+      "source": "Reuters",
+      "published": "20210921T040700",
+      "overall_sentiment_score": 0.227771,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.145391,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.71899
+    },
+    {
+      "title": "BP gambles big on fast transition from oil to renewables",
+      "summary": "BP is embarking on a rapid transition from fossil fuels to renewable energy, selling off lucrative oil and gas assets to fund investments in clean energy despite current losses in its renewable ventures. CEO Bernard Looney aims to significantly cut BP's oil production while boosting renewable electricity generation by 2030, a strategy that has raised concerns among some executives and analysts about asset valuation and shareholder value. The company plans to offset declining oil and gas revenue with growing revenues from gasoline stations and electric vehicle charging, which they expect to be more stable than the volatile oil business.",
+      "url": "https://www.reuters.com/business/sustainable-business/bp-gambles-big-fast-transition-oil-renewables-2021-09-20/",
+      "source": "Reuters",
+      "published": "20210920T204800",
+      "overall_sentiment_score": -0.098629,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.079252,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.647642
+    },
+    {
+      "title": "Royal Dutch Shell Sells Permian Basin Oil Holdings for $9.5 Billion (Published 2021)",
+      "summary": "Royal Dutch Shell sold its Permian Basin oil holdings to ConocoPhillips for $9.5 billion in cash, marking a significant step for Shell toward cleaner energy production amidst investor and public pressure to reduce carbon emissions. This deal consolidates ConocoPhillips' position as a major player in the Permian Basin, which is seeing a recovery in American shale oil production and a wave of acquisitions. Shell's exit comes nine years after it acquired the field and developed it to produce about 200,000 barrels a day.",
+      "url": "https://www.nytimes.com/2021/09/20/business/energy-environment/shell-conoco-permian-sale.html",
+      "source": "The New York Times",
+      "published": "20210920T195804",
+      "overall_sentiment_score": 0.363216,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.3262,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.752781
+    },
+    {
+      "title": "Exxon offers new proposal to locked-out Texas refinery workers",
+      "summary": "Exxon Mobil Corp offered a new contract proposal to its locked-out refinery workers in Beaumont, Texas, including some seniority protection. However, leaders of the United Steelworkers union local 13-243 stated that the offer still falls short, arguing that key proposals detrimental to workers' safety, seniority, and security remain. If ratified by November 1st, workers would receive a $500 bonus.",
+      "url": "https://www.reuters.com/business/energy/exxon-offers-new-proposal-locked-out-texas-refinery-workers-2021-09-29/",
+      "source": "Reuters",
+      "published": "20210930T041300",
+      "overall_sentiment_score": -0.20011,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.198627,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Cheniere Energy's Sabine Pass Train 6 closer to service",
+      "summary": "Cheniere Energy's Sabine Pass Train 6 is moving closer to operation after the Federal Energy Regulatory Commission approved the introduction of feed gas. The liquefied natural gas unit is now expected to come online in the first quarter of next year, earlier than initially anticipated. Cheniere also recently announced its first stock dividend of 33 cents per share, payable on November 17.",
+      "url": "https://www.houstonchronicle.com/business/energy/article/Cheniere-Energy-s-Sabine-Pass-Train-6-closer-to-16481633.php",
+      "source": "Houston Chronicle",
+      "published": "20210923T163800",
+      "overall_sentiment_score": 0.188662,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.296685,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.560615
+    },
+    {
+      "title": "Suit claims BP trader sacked for raising Nigeria bribe concerns",
+      "summary": "A former oil trader for British energy giant BP, Jonathan Zarembok, alleges he was fired for raising concerns about bribes being paid in Nigeria to secure local contracts. Zarembok claims BP paid \"abnormally large\" fees to a local agent and that the company's proposed reasons for these payments were a \"sham.\" BP denies the allegations, stating that the payments were legitimate and thoroughly vetted, and that Zarembok's dismissal was due to an \"irretrievably broken down\" working relationship.",
+      "url": "https://www.aljazeera.com/economy/2021/9/20/suit-claims-bp-trader-sacked-for-raising-nigeria-bribe-concerns",
+      "source": "Al Jazeera",
+      "published": "20210920T195144",
+      "overall_sentiment_score": -0.163686,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.047973,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.607436
+    },
+    {
+      "title": "Exxon, Chevron conceal payments to some governments -watchdog",
+      "summary": "U.S. oil majors Exxon Mobil Corp and Chevron Corp have reportedly failed to meet a core transparency standard set by the Extractive Industries Transparency Initiative (EITI), a global anti-corruption body. EITI stated that these companies have declined to publicly disclose payments made to governments in countries that are not EITI members, despite having board seats on the organization. This lack of transparency contrasts with European-based oil companies like BP, Shell, and Total, which do disclose such payments.",
+      "url": "https://www.reuters.com/business/energy/exxon-chevron-not-disclosing-payments-some-governments-transparency-group-2021-09-22/",
+      "source": "Reuters",
+      "published": "20210923T002100",
+      "overall_sentiment_score": -0.213986,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.2931,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.973149
+    },
+    {
+      "title": "Why We’re Bullish on Russia and Eastern Europe Right Now",
+      "summary": "This article outlines why Russia and Eastern Europe, particularly the CEE region, present a bullish investment opportunity. It highlights Russia's positive real rates, strong oil and gas prices bolstering its economy, and its stock market's outperformance against the S&P 500, along with attractive valuations and dividend yields. The broader CEE region, including Poland, is also noted for its sustained growth and shared characteristics with other emerging markets.",
+      "url": "https://www.usfunds.com/resource/why-were-bullish-on-russia-and-eastern-europe-right-now/",
+      "source": "U.S. Global Investors",
+      "published": "20210921T195639",
+      "overall_sentiment_score": 0.536487,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.744776,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.714076
+    }
+  ]
+}

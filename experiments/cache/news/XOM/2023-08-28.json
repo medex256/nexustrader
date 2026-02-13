@@ -1,0 +1,22 @@
+{
+  "ticker": "XOM",
+  "date": "2023-08-28",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:34:03.231784",
+  "source": "alpha_vantage",
+  "article_count": 1,
+  "articles": [
+    {
+      "title": "Cisco (CSCO) reports Q4 results: Here’s all you need to know",
+      "summary": "Cisco Systems Inc. reported strong fourth-quarter 2023 results, with revenues up 16% year-over-year to $15.2 billion and earnings per share increasing to $1.14. The company's Secure, Agile Networks division significantly contributed to its top-line growth, and Cisco provided positive guidance for the first quarter of 2024. CEO Chuck Robbins highlighted solid customer demand, market share gains, and innovation in AI, security, and cloud as key drivers of confidence for future opportunities.",
+      "url": "https://news.alphastreet.com/cisco-csco-reports-q4-results-heres-all-you-need-to-know/",
+      "source": "AlphaStreet",
+      "published": "20230816T000000",
+      "overall_sentiment_score": 0.048851,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.205938,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.578158
+    }
+  ]
+}

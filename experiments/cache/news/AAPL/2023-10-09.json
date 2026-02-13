@@ -1,0 +1,82 @@
+{
+  "ticker": "AAPL",
+  "date": "2023-10-09",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T00:26:06.194806",
+  "source": "alpha_vantage",
+  "article_count": 6,
+  "articles": [
+    {
+      "title": "Should Vanguard Russell 1000 Growth ETF (VONG) Be on Your Investing Radar?",
+      "summary": "This article evaluates the Vanguard Russell 1000 Growth ETF (VONG) as a potential investment, highlighting its focus on large-cap growth stocks, low expense ratio, and strong performance. It details VONG's sector exposure, top holdings, and risk profile, while also suggesting alternative ETFs for consideration.",
+      "url": "https://www.nasdaq.com/articles/should-vanguard-russell-1000-growth-etf-vong-be-on-your-investing-radar-9",
+      "source": "Nasdaq",
+      "published": "20230926T062000",
+      "overall_sentiment_score": 0.345278,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.32072,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.733075
+    },
+    {
+      "title": "Dutch regulator rejects Apple’s objections to fines",
+      "summary": "The Dutch competition watchdog ACM has rejected Apple's objections to 50 million euros ($53 million) in fines. The fines were imposed because Apple failed to fully comply with orders to allow alternative payment methods for dating apps in the Netherlands. Apple plans to appeal the decision to the Netherlands courts, maintaining that the original order degrades investment incentives and compromises user privacy and data security.",
+      "url": "https://www.reuters.com/technology/dutch-regulator-rejects-apples-objections-against-fines-2023-10-02/",
+      "source": "Reuters",
+      "published": "20231002T091400",
+      "overall_sentiment_score": -0.232135,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.217315,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Apple is ordered to face Apple Pay antitrust lawsuit",
+      "summary": "Apple has been ordered to face a private antitrust lawsuit brought by payment card issuers. The lawsuit alleges that Apple exerts a 100% monopoly over the domestic market for tap-and-pay wallets on its devices, forcing banks to pay excessive fees and hindering competition and innovation. A U.S. District Judge dismissed a \"tying\" claim but ruled that plaintiffs could proceed with their claim that Apple violated federal antitrust law.",
+      "url": "https://www.reuters.com/legal/apple-is-ordered-face-apple-pay-antitrust-lawsuit-2023-09-27/",
+      "source": "Reuters",
+      "published": "20230927T203500",
+      "overall_sentiment_score": -0.297832,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.404305,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Qualcomm defeats consumers' antitrust claims over chip supply contracts",
+      "summary": "Qualcomm has successfully defeated a consumer antitrust lawsuit in California federal court, which alleged that the chipmaker's contracts with device manufacturers artificially inflated mobile phone costs. U.S. District Judge Jacqueline Scott Corley ruled in favor of Qualcomm, stating that allowing the plaintiffs to revive past evidence would lead to prolonged and expensive \"do-over litigation.\" This ruling follows Qualcomm's 2020 victory against a similar lawsuit brought by the U.S. Federal Trade Commission.",
+      "url": "https://www.reuters.com/legal/transactional/qualcomm-defeats-consumers-antitrust-claims-over-chip-supply-contracts-2023-09-27/",
+      "source": "Reuters",
+      "published": "20230927T095300",
+      "overall_sentiment_score": 0.273655,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.123642,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.731398
+    },
+    {
+      "title": "Buy the Dip in Apple, or Has the Trend Turned Rotten?",
+      "summary": "This article discusses whether investors should \"buy the dip\" in Apple (AAPL) given its recent revenue decline for three consecutive quarters and concerns about its position in the AI race. It highlights Direxion's leveraged and inverse single-stock ETFs for AAPL (AAPD and AAPU) and broader technology ETFs (TECL and TECS) for traders with varying risk appetites and market outlooks. The article also provides important disclaimers regarding the risks associated with leveraged and inverse ETFs.",
+      "url": "https://www.etftrends.com/leveraged-inverse-channel/buy-the-dip-in-apple-or-trend-turned-rotten/",
+      "source": "ETF Trends",
+      "published": "20230926T000000",
+      "overall_sentiment_score": 0.101427,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.125246,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Moat Investing Rises Above Magnificent Seven Dominance",
+      "summary": "The article discusses how Morningstar's Moat Index outperformed the S&P 500 year-to-date despite being underweight the \"Magnificent Seven\" mega-cap stocks. It highlights the growing concentration risk posed by these seven technology giants and explains how equal-weighted Moat strategies offer a solution through diversification and attractive valuations. The article also details the September index reconstitutions for both the Moat and SMID Moat Indexes, noting shifts away from growth stocks and into more value-oriented sectors.",
+      "url": "https://www.vaneck.com/us/en/blogs/moat-investing/moat-investing-rises-above-magnificent-seven-dominance/",
+      "source": "VanEck",
+      "published": "20231009T140955",
+      "overall_sentiment_score": 0.1889,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.107213,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.619783
+    }
+  ]
+}

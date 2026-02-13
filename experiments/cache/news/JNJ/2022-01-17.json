@@ -1,0 +1,82 @@
+{
+  "ticker": "JNJ",
+  "date": "2022-01-17",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:42:57.521396",
+  "source": "alpha_vantage",
+  "article_count": 6,
+  "articles": [
+    {
+      "title": "Medtronic to Buy Affera for Nearly $1B",
+      "summary": "Medtronic announced a deal to acquire Boston-based cardiac technology firm Affera Inc. for an estimated $925 million. Affera specializes in ablation technology for treating irregular heartbeats, which Medtronic says will complement its existing offerings and strengthen its presence in electrophysiology technology segments. This acquisition follows Medtronic's 2021 plan to acquire Intersect ENT for $1.1 billion.",
+      "url": "https://tcbmag.com/medtronic-to-buy-affera-for-nearly-1b/",
+      "source": "Twin Cities Business",
+      "published": "20220111T173639",
+      "overall_sentiment_score": 0.196847,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.101201,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.636514
+    },
+    {
+      "title": "JPM 2022: New Johnson & Johnson CEO Duato points out 5 pipeline meds that can generate $5B-plus",
+      "summary": "Johnson & Johnson's new CEO, Joaquin Duato, outlined the company's pharmaceutical strategy for the coming decade at the J.P. Morgan Healthcare Conference, aiming for $60 billion in pharma sales by 2025. He highlighted five pipeline drugs—Carvykti, nipocalimab, Rybrevant, milvexian, and the Taris bladder cancer platform—each with the potential to generate $5 billion or more in peak sales. These new therapies, alongside expanded indications for existing blockbusters, are crucial for future growth, especially as the company prepares for a consumer health spinoff and faces patent expiration for Stelara.",
+      "url": "https://www.fiercepharma.com/pharma/johnson-johnson-ceo-duato-points-out-5-pipeline-meds-can-generate-5b",
+      "source": "Fierce Pharma",
+      "published": "20220110T104500",
+      "overall_sentiment_score": 0.403548,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.606363,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "FDA Okays Phase 3 Study of Zilovertamab in R/R Mantle Cell Lymphoma",
+      "summary": "The FDA has approved a pivotal phase 3 study for zilovertamab in combination with ibrutinib for the treatment of relapsed or refractory mantle cell lymphoma (MCL). This decision follows successful phase 2 results, which demonstrated a favorable objective response rate and progression-free survival compared to ibrutinib monotherapy, with the study expected to commence in Q2 2022. The agreement with the FDA outlines the trial design to support potential future regular or accelerated approval for zilovertamab.",
+      "url": "https://www.targetedonc.com/view/fda-okays-phase-3-study-of-zilovertamab-in-r-r-mantle-cell-lymphoma",
+      "source": "Targeted Oncology",
+      "published": "20220106T175644",
+      "overall_sentiment_score": 0.297933,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.116341,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.621142
+    },
+    {
+      "title": "GE suspends Covid vaccine and testing rules after Supreme Court blocks Biden mandate",
+      "summary": "General Electric has suspended its Covid vaccine and testing rules for employees following the Supreme Court's decision to block President Joe Biden's mandate. Despite the ruling, President Biden has urged companies to voluntarily implement such measures. Other companies like Citigroup, Nike, and Columbia Sportswear, however, have continued to enforce vaccine requirements and have begun firing unvaccinated workers.",
+      "url": "https://www.cnbc.com/2022/01/14/ge-suspends-covid-vaccine-and-testing-rules-after-supreme-court-blocks-biden-mandate.html",
+      "source": "CNBC",
+      "published": "20220114T134900",
+      "overall_sentiment_score": 0.032644,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.019178,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.570504
+    },
+    {
+      "title": "Employees say Intuitive, Boston Scientific, J&J, Medtronic are among the best places to work in 2022",
+      "summary": "Intuitive Surgical, Boston Scientific, Johnson & Johnson, and Medtronic have been recognized by Glassdoor as among the Best Places to Work in 2022, based on positive employee reviews. Insights from these reviews highlight work-life balance, competitive compensation, and growth opportunities within these medical device giants. The article details each company's Glassdoor ranking, star rating, employee feedback (pros and cons), and key financial and employee statistics.",
+      "url": "https://www.medicaldesignandoutsourcing.com/employees-say-intuitive-boston-scientific-jj-medtronic-best-places-to-work-in-2022/",
+      "source": "Medical Design & Outsourcing",
+      "published": "20220113T171602",
+      "overall_sentiment_score": 0.296917,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.299146,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.747174
+    },
+    {
+      "title": "Johnson & Johnson Medical Devices Companies: Reimagining the patient journey in a digital era - Source",
+      "summary": "Johnson & Johnson Medical Devices Companies (JJMDC) and Microsoft have entered a multiyear collaboration to reimagine the patient journey in a digital era. Microsoft will become JJMDC’s preferred cloud provider for its digital surgery solutions, with the goal of using AI, machine learning, and data insights to improve patient outcomes, increase consistency in care, and enhance surgical performance. The partnership aims to connect medical devices, patient records, and hospital information systems through Azure to provide comprehensive patient views and predictive maintenance capabilities.",
+      "url": "https://news.microsoft.com/source/features/digital-transformation/johnson-johnson-medical-devices-companies-reimagining-the-patient-journey-in-a-digital-era/",
+      "source": "Microsoft Source",
+      "published": "20220110T171640",
+      "overall_sentiment_score": 0.348418,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.435345,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.950746
+    }
+  ]
+}

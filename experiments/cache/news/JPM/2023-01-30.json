@@ -1,0 +1,94 @@
+{
+  "ticker": "JPM",
+  "date": "2023-01-30",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:09:53.156019",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "Alerus pulls three bankers from American National Bank to grow commercial team",
+      "summary": "Alerus Financial is expanding its commercial banking team by hiring three bankers from American National Bank, bringing a combined 70 years of experience. Leroy Benson will lead the commercial banking teams in Minnesota and Fargo, N.D. This move aims to grow Alerus' commercial banking presence.",
+      "url": "https://www.bizjournals.com/twincities/news/2023/01/27/alerus-expands-commercial-banking-business.html",
+      "source": "The Business Journals",
+      "published": "20230127T000000",
+      "overall_sentiment_score": 0.103457,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.125504,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.555936
+    },
+    {
+      "title": "BlackRock Inc. Ups Stake in Dynex Capital Inc (DX)",
+      "summary": "BlackRock Inc. has increased its stake in Dynex Capital Inc (DX) to 9.4%, owning 4,347,769 shares, a 37.73% increase from its previous filing. Analyst price forecasts suggest a 1.44% upside, with an average target of $14.69. The company also declared a quarterly dividend of $0.13 per share.",
+      "url": "https://www.nasdaq.com/articles/blackrock-inc.-ups-stake-in-dynex-capital-inc-dx",
+      "source": "Nasdaq",
+      "published": "20230124T191100",
+      "overall_sentiment_score": 0.261116,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.334269,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.616828
+    },
+    {
+      "title": "Barclays CIB appoints new co-heads of Investment Banking",
+      "summary": "Barclays has announced the appointment of Taylor Wright and Cathal Deasy as Co-Heads of Investment Banking, effective March 27, 2023. They will be responsible for managing the business across coverage and product groups, deepening client relationships, and driving dealmaking efforts globally. This move aims to further strengthen Barclays' Corporate and Investment Banking franchise.",
+      "url": "https://www.ib.barclays/news-and-events/Barclays-appoints-new-co-heads-of-Investment-Banking.html",
+      "source": "Barclays Investment Bank",
+      "published": "20230124T000000",
+      "overall_sentiment_score": 0.110121,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.123145,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.628676
+    },
+    {
+      "title": "Capital One cuts 1,100 tech jobs",
+      "summary": "Capital One has eliminated 1,100 \"agile\" technology roles, stating that the responsibilities will be integrated into existing engineering and product manager positions as the organization's tech transformation matures. This move follows similar workforce reductions by other major financial institutions like Morgan Stanley, Goldman Sachs, and BNY Mellon. Capital One is offering severance packages and retraining assistance to affected employees while actively hiring for other tech roles.",
+      "url": "https://www.bankingdive.com/news/capital-one-cuts-1100-tech-jobs-agile/640861/",
+      "source": "Banking Dive",
+      "published": "20230120T000000",
+      "overall_sentiment_score": -0.139423,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.10209,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.629358
+    },
+    {
+      "title": "BlackRock Inc. Ups Stake in Jones Lang LaSalle Inc (JLL)",
+      "summary": "BlackRock Inc. has increased its stake in Jones Lang LaSalle Inc (JLL) to 9.7%, owning 4,616,539 shares, representing a 3.63% increase in shares and a 0.90% increase in total ownership since its previous filing. The article also provides analyst price forecasts, projecting a 24.43% upside, and details fund sentiment and other large shareholder activities, alongside information on JLL's dividend.",
+      "url": "https://www.nasdaq.com/articles/blackrock-inc.-ups-stake-in-jones-lang-lasalle-inc-jll",
+      "source": "Nasdaq",
+      "published": "20230124T140000",
+      "overall_sentiment_score": 0.157328,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.130721,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.646524
+    },
+    {
+      "title": "CHESAPEAKE ENERGY CORPORATION ANNOUNCES SALE OF INITIAL EAGLE FORD PACKAGE FOR $1.425 BILLION",
+      "summary": "Chesapeake Energy Corporation announced the sale of the Brazos Valley region of its Eagle Ford asset to WildFire Energy I LLC for $1.425 billion. This sale marks an initial step in Chesapeake's pivot to focus capital on its Marcellus and Haynesville positions. The transaction, expected to close in Q1 2023, involves approximately 377,000 net acres and 1,350 wells, with proceeds intended for debt repayment and share repurchases.",
+      "url": "https://www.prnewswire.com/news-releases/chesapeake-energy-corporation-announces-sale-of-initial-eagle-ford-package-for-1-425-billion-301725152.html",
+      "source": "PR Newswire",
+      "published": "20230118T160500",
+      "overall_sentiment_score": 0.114265,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.136911,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.615044
+    },
+    {
+      "title": "Pershing adds State Farm, BNY Mellon stays bullish on crypto tech",
+      "summary": "BNY Mellon's CEO Robin Vince reiterated the company's bullish stance on cryptocurrency technology, despite recent market collapses, emphasizing its long-term growth initiatives in real-time payments and digital assets. Vince also highlighted new custodial relationships for Pershing with State Farm and fintech startup Arta Finance, contrasting with reports of job cuts at BNY Mellon. The article details Pershing's financial performance, including increased revenue due to rising interest rates and a decrease in assets under custody due to market slumps.",
+      "url": "https://www.financial-planning.com/list/bny-mellons-pershing-business-rose-in-2022-with-interest-rates",
+      "source": "www.financial-planning.com",
+      "published": "20230118T142200",
+      "overall_sentiment_score": 0.180972,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.147077,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.582925
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "ticker": "NVDA",
+  "date": "2023-01-30",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:26:42.908909",
+  "source": "alpha_vantage",
+  "article_count": 1,
+  "articles": [
+    {
+      "title": "2 Chip Stocks to Buy Instead of NVIDIA In 2023",
+      "summary": "Despite macroeconomic headwinds and regulatory actions impacting the chip industry, technological advancements and government support are poised to drive long-term growth. This article suggests two fundamentally strong semiconductor stocks, Taiwan Semiconductor (TSM) and Photronics (PLAB), as solid buys for 2023, offering an alternative to NVIDIA Corp. (NVDA) due to their robust financials and promising market outlook.",
+      "url": "https://www.entrepreneur.com/finance/2-chip-stocks-to-buy-instead-of-nvidia-in-2023/443917",
+      "source": "Entrepreneur",
+      "published": "20230130T152523",
+      "overall_sentiment_score": 0.320553,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.237447,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.815642
+    }
+  ]
+}

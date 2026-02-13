@@ -1,0 +1,58 @@
+{
+  "ticker": "XOM",
+  "date": "2023-07-17",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:33:35.326204",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "2 New Wide-Moat Stocks to Watch",
+      "summary": "Morningstar's equity research team has added two new wide-moat stocks to its coverage list: Kenvue (KVUE) and Copart (CPRT). Kenvue, Johnson & Johnson's former consumer segment, is the world's largest pure-play consumer health company, while Copart is a dominant salvage vehicle auctioneer leveraging a strong network effect. Analysts have assigned Kenvue a fair value of $27.50 per share, deeming it fairly valued, and Copart a fair value of $77 per share, considering it overpriced.",
+      "url": "https://www.morningstar.com/stocks/2-new-wide-moat-stocks-watch-2",
+      "source": "Morningstar",
+      "published": "20230710T000000",
+      "overall_sentiment_score": 0.06251,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.024087,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.640481
+    },
+    {
+      "title": "Exxon Mobil and Tetra Team Up for the Next Big Thing in Arkansas: Lithium Mining",
+      "summary": "Exxon Mobil and Tetra Technologies are partnering to develop over 6,100 acres of lithium-rich land in Arkansas, marking Exxon's second venture into battery metals for electric vehicles. This collaboration, which leverages Tetra's expertise in water treatment and Exxon's capital, aims to extract both lithium for EV batteries and bromine for flame retardants. While Exxon seeks new U.S. lithium sources, the commercial viability of the direct lithium extraction technologies needed for this project remains largely untested.",
+      "url": "https://www.chemanalyst.com/NewsAndDeals/NewsDetails/exxon-mobil-and-tetra-team-up-for-the-next-big-thing-in-arkansas-lithium-mining-18757",
+      "source": "ChemAnalyst",
+      "published": "20230703T155134",
+      "overall_sentiment_score": 0.313167,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.346658,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.936533
+    },
+    {
+      "title": "Fertilizer companies race to US Gulf to make low-emissions ammonia",
+      "summary": "Fertilizer companies are accelerating efforts to build blue ammonia production plants along the U.S. Gulf Coast, capitalizing on Inflation Reduction Act subsidies and existing export infrastructure. Key players like OCI, CF Industries, Yara, and Nutrien are investing heavily in facilities designed to capture significant carbon dioxide emissions. These projects aim to produce low-emissions ammonia, primarily for fertilizer use, with anticipated production timelines stretching out to 2028-2029.",
+      "url": "https://www.reuters.com/default/fertilizer-companies-race-us-gulf-make-low-emissions-ammonia-2023-07-10/",
+      "source": "Reuters",
+      "published": "20230710T114400",
+      "overall_sentiment_score": 0.198381,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.128153,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.721727
+    },
+    {
+      "title": "How to Invest in Oil",
+      "summary": "This article explores various ways to invest in oil, from high-risk futures contracts to lower-risk exchange-traded funds (ETFs) and direct investments in oil exploration and production companies. It discusses the volatility of oil prices, recent market trends, and considerations for investors looking to enter the oil market. The article also provides examples of specific investment vehicles and companies.",
+      "url": "https://investingnews.com/daily/resource-investing/energy-investing/oil-and-gas-investing/ways-to-invest-in-oil/",
+      "source": "Investing News Network",
+      "published": "20230704T135500",
+      "overall_sentiment_score": 0.337574,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.299657,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.611419
+    }
+  ]
+}

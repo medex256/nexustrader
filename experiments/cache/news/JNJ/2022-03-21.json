@@ -1,0 +1,70 @@
+{
+  "ticker": "JNJ",
+  "date": "2022-03-21",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:45:20.486051",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Pharma major Dr. Reddy's plans 'business continuity' in Russia",
+      "summary": "Pharmaceutical major Dr. Reddy's Laboratories Ltd announced its commitment to employee safety and business continuity in Russia, despite many Western companies withdrawing from the region. The company stated it has had a presence in Russia for over three decades and will continue to monitor developments closely without confirming changes to its investments. Russia accounted for over 8% of its total sales of $2.47 billion in the last fiscal year.",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/pharma-major-dr-reddys-plans-business-continuity-in-russia/articleshow/90097892.cms",
+      "source": "Times of India",
+      "published": "20220309T143500",
+      "overall_sentiment_score": -0.17622,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.14802,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.605197
+    },
+    {
+      "title": "Here’s the latest on possible 4th COVID-19 vaccine shot for Americans",
+      "summary": "Moderna has requested FDA authorization for a fourth COVID-19 vaccine booster for all adults, while Pfizer and BioNTech sought approval for seniors aged 65 and older, citing data from Israel showing reduced infection and severe disease rates. U.S. health officials are considering additional booster doses and seeking funding to secure more vaccines, amidst ongoing studies on omicron-specific and hybrid shots. Experts like Dr. Paul Offit question the necessity of a fourth shot for most people, emphasizing that protection against severe illness should be the primary goal.",
+      "url": "https://www.oregonlive.com/business/2022/03/heres-the-latest-on-possible-4th-covid-19-vaccine-shot-for-americans.html",
+      "source": "OregonLive.com",
+      "published": "20220320T160600",
+      "overall_sentiment_score": 0.119367,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.053806,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62401
+    },
+    {
+      "title": "Novartis, Lilly, Merck and More Halt Business Operations in Russia",
+      "summary": "Following Pfizer's lead, several major pharmaceutical companies including AbbVie, Abbott, Novartis, Merck, and Eli Lilly have announced they are suspending some or all business operations in Russia in protest of the invasion of Ukraine. While halting investments and non-essential sales, many companies have committed to continuing the supply of life-saving medications. Bayer also joined the effort, stopping all non-essential business in Russia and Belarus.",
+      "url": "https://www.biospace.com/novartis-eli-lilly-merck-and-more-join-drugmakers-in-halting-business-operations-in-russia",
+      "source": "BioSpace",
+      "published": "20220316T172722",
+      "overall_sentiment_score": -0.123996,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.127211,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.703258
+    },
+    {
+      "title": "Insurers Refuse to Pick Up Tab for Billions in Opioid Claims",
+      "summary": "Insurers for major drug makers, distributors, and pharmacies are refusing to cover billions in opioid-related claims stemming from lawsuits, propelled by a recent Delaware Supreme Court decision. Companies like AmerisourceBergen and CVS Health are being sued by their insurers to deny coverage for public nuisance claims and defense costs, despite policyholders counter-suing. This legal battle intensifies the financial burden on companies facing over 3,000 opioid lawsuits.",
+      "url": "https://programbusiness.com/news/insurers-refuse-pick-tab-billions-opioid-claims/",
+      "source": "Program Business",
+      "published": "20220308T165645",
+      "overall_sentiment_score": -0.267385,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.305656,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.697851
+    },
+    {
+      "title": "Renaissance Buys $174M New Jersey Community",
+      "summary": "Renaissance Management has acquired Plaza Square, a 415-unit Class A community in New Brunswick, N.J., for $173.5 million. CBRE represented the seller, Manulife Investment Management, who had owned the property for over a decade. The luxury property, built in 2004, last traded in 2011 for $113 million.",
+      "url": "https://www.multihousingnews.com/renaissance-buys-174m-new-jersey-community/",
+      "source": "Multifamily Housing News",
+      "published": "20220310T162158",
+      "overall_sentiment_score": 0.189084,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.115624,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.63928
+    }
+  ]
+}

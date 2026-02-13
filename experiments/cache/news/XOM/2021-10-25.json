@@ -1,0 +1,9 @@
+{
+  "ticker": "XOM",
+  "date": "2021-10-25",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:04:35.320703",
+  "source": "alpha_vantage",
+  "article_count": 0,
+  "articles": []
+}

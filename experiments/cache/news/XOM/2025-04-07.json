@@ -1,0 +1,70 @@
+{
+  "ticker": "XOM",
+  "date": "2025-04-07",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:41:57.161083",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Will 2025 Be the Year the Energy Sector Finally Breaks Out?",
+      "summary": "The energy sector has significantly outperformed the broader market year-to-date in 2025, with the Energy Select Sector SPDR Fund (XLE) surging over 9%. This growth is driven by stable oil and gas prices, supportive U.S. energy policy, and geopolitical tensions. Experts suggest that 2025 could see the XLE ETF break past its multi-year resistance of $100, marking a significant breakout and making energy an attractive sector for investors.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/XOM/pressreleases/31715653/will-2025-be-the-year-the-energy-sector-finally-breaks-out/",
+      "source": "The Globe and Mail",
+      "published": "20250402T071800",
+      "overall_sentiment_score": 0.458774,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.407133,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.739284
+    },
+    {
+      "title": "Beta Bionics Inc. (BBNX) reports earnings",
+      "summary": "Beta Bionics Inc. (BBNX) has filed its 10-K report for the fiscal year ended December 31, 2024, showing a significant revenue increase to $65.1 million, despite incurring net losses of $54.8 million. The company is focused on commercializing its iLet Bionic Pancreas for Type 1 diabetes and expanding market access through various coverage and reimbursement strategies. Beta Bionics is also developing new products, including a patch pump and a bihormonal iLet configuration, while managing supply chain and regulatory challenges.",
+      "url": "https://qz.com/beta-bionics-inc-bbnx-reports-earnings-1851772327",
+      "source": "qz.com",
+      "published": "20250325T000000",
+      "overall_sentiment_score": 0.140696,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.141865,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.645567
+    },
+    {
+      "title": "Occidental's 1PointFive receives permits to sequester CO2 at Texas facility",
+      "summary": "Occidental Petroleum's 1PointFive unit has received approval from the U.S. Environmental Protection Agency to sequester carbon dioxide at its direct air capture facility, Stratos, in Texas. This facility, a joint venture with BlackRock, is expected to begin commercial operations later this year and aims to capture 500,000 metric tons of CO2 annually. The permits are a significant milestone for the company and its efforts to develop vital infrastructure for energy security and climate change mitigation.",
+      "url": "https://www.reuters.com/sustainability/climate-energy/occidentals-1pointfive-receives-permits-sequester-co2-texas-facility-2025-04-07/",
+      "source": "Reuters",
+      "published": "20250407T210900",
+      "overall_sentiment_score": 0.263165,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.115427,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.603528
+    },
+    {
+      "title": "Monthly Dividend Stock In Focus: Cross Timbers Royalty Trust",
+      "summary": "Cross Timbers Royalty Trust (CRT) is a micro-cap stock with a high dividend yield of 8.1% and monthly payouts, but its business model is highly risky and dependent on fluctuating oil and gas prices. The trust's distributable income has varied significantly with commodity prices, and its future growth is expected to be challenged by natural production decline and the global shift towards renewable energy. Investors considering CRT should be risk-tolerant and understand the volatility associated with royalty trusts and micro-caps.",
+      "url": "https://www.suredividend.com/monthly-dividend-stock-crt/",
+      "source": "Sure Dividend",
+      "published": "20250402T000000",
+      "overall_sentiment_score": -0.088244,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.105241,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.632208
+    },
+    {
+      "title": "BCX: Examining Inflation Protection Benefits And Recession Risks",
+      "summary": "The BlackRock Resources & Commodities Strategy Trust (BCX) is a closed-end fund offering commodities exposure and a high income yield, making it attractive for inflation protection. The fund has historically performed well during inflationary periods, outperforming the S&P 500 year-to-date, and trades at a compelling discount to NAV with a significant yield and monthly distributions. While distributions have been fully covered year-to-date, they were not fully covered for the full year 2024.",
+      "url": "https://seekingalpha.com/article/4769899-bcx-examining-inflation-protection-benefits-recession-risks",
+      "source": "Seeking Alpha",
+      "published": "20250324T074100",
+      "overall_sentiment_score": 0.208341,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.136757,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.629783
+    }
+  ]
+}

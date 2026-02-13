@@ -1,0 +1,118 @@
+{
+  "ticker": "JPM",
+  "date": "2022-05-02",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:06:48.099356",
+  "source": "alpha_vantage",
+  "article_count": 9,
+  "articles": [
+    {
+      "title": "Cboe Global Markets Completes Acquisition of ErisX, Entering Digital Asset Market",
+      "summary": "Cboe Global Markets announced it has completed the acquisition of ErisX, a U.S. based digital asset spot market and regulated derivatives exchange and clearinghouse. This acquisition provides Cboe with an entry into the digital asset market, aiming to build a comprehensive digital asset market data offering and develop further derivative products. Cboe plans to operate ErisX as a subsidiary, with Thomas Chippas remaining as head of the digital asset business, focusing on regulatory compliance and transparency to mature the digital asset market globally.",
+      "url": "https://ir.cboe.com/news/news-details/2022/Cboe-Global-Markets-Completes-Acquisition-of-ErisX-Entering-Digital-Asset-Market-05-02-2022/default.aspx",
+      "source": "Cboe Global Markets",
+      "published": "20220502T162156",
+      "overall_sentiment_score": 0.486714,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.228797,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.639877
+    },
+    {
+      "title": "Frank Sorrentino III Of ConnectOne Bank On The Future Of Money and Banking",
+      "summary": "Frank Sorrentino III, Chairman, CEO, and Founder of ConnectOne Bank, discusses the evolving landscape of banking and money, emphasizing the role of digitalization and technology in serving small to mid-market clients. He shares insights on ConnectOne Bank's journey, including its IPO and recent Fintech acquisitions, and offers advice for a successful career in the modern finance industry. Sorrentino highlights the importance of innovation balanced with regulation and envisions significant growth in payments and digital asset custody.",
+      "url": "https://medium.com/authority-magazine/frank-sorrentino-iii-of-connectone-bank-on-the-future-of-money-and-banking-b85657148238",
+      "source": "Medium",
+      "published": "20220501T162635",
+      "overall_sentiment_score": 0.323076,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.240218,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.628661
+    },
+    {
+      "title": "First Internet Bank Appoints Genevieve Lua As VP",
+      "summary": "First Internet Bank announced the appointment of Genevieve Lua as Vice President, Business Development Officer, to its Small Business Administration Lending team. Lua brings extensive lending experience from Bank of America and JPMorgan Chase, and will help entrepreneurs navigate the SBA loan process. First Internet Bank emphasizes providing flexible financial solutions for small businesses.",
+      "url": "https://www.citybiz.co/article/249173/first-internet-bank-appoints-genevieve-lua-as-vp/",
+      "source": "citybiz",
+      "published": "20220420T170651",
+      "overall_sentiment_score": 0.224989,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.105306,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.622612
+    },
+    {
+      "title": "Teucrium Bitcoin Futures ETF Now Carries Hashdex Brand",
+      "summary": "The Teucrium Bitcoin Futures Fund, the first bitcoin futures ETF approved under the Securities Act of 1933, is changing its name to include the Hashdex brand. This move, potentially a result of a new partnership, could help Teucrium differentiate its product and allow Hashdex, a Brazil-based asset manager, to enter the US ETF market. The SEC's approval of this ETF was seen by some as a step towards greenlighting a spot bitcoin ETF, despite other bitcoin futures ETFs being filed under a different act with more investor protections.",
+      "url": "https://blockworks.co/news/teucrium-bitcoin-futures-etf-now-carries-hashdex-brand",
+      "source": "Blockworks",
+      "published": "20220420T130600",
+      "overall_sentiment_score": 0.124847,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.139273,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.622065
+    },
+    {
+      "title": "Charles Schwab (SCHW) Q1 revenue down 1%; earnings miss estimates",
+      "summary": "The Charles Schwab Corporation reported lower earnings and revenues for the first quarter of 2022, missing Wall Street's forecasts. Total revenues decreased 1% to $4.67 billion, and adjusted net profit dropped to $0.77 per share. The company's stock experienced a decline following the earnings release.",
+      "url": "https://news.alphastreet.com/charles-schwab-schw-q1-revenue-down-1-earnings-miss-estimates/",
+      "source": "AlphaStreet",
+      "published": "20220418T183553",
+      "overall_sentiment_score": -0.172711,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.03879,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.636381
+    },
+    {
+      "title": "FAT Brands Adds Nine Restaurant Chains in $1B Buying Spree",
+      "summary": "FAT Brands acquired nine restaurant chains over 18 months for $917.5 million, reaching $2.2 billion in system sales from 2,300 restaurants across 17 chains. CEO Andy Wiederhorn plans to \"digest\" these acquisitions, increase production at their manufacturing business, and refinance debt to lower capital costs, despite concerns raised by a Seeking Alpha analyst about the company's high leverage and ongoing SEC and U.S. Attorney's Office investigations related to Wiederhorn.",
+      "url": "https://www.franchisetimes.com/dealmakers/fat-brands-adds-nine-restaurant-chains-in-1b-buying-spree/article_79f0d100-c01f-11ec-9642-bfb37537439c.html",
+      "source": "franchisetimes.com",
+      "published": "20220428T164131",
+      "overall_sentiment_score": 0.086913,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.108217,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.569084
+    },
+    {
+      "title": "Petrucci, PGIM sell 511,000 sq. ft. Phillipsburg warehouse for $110 million",
+      "summary": "A joint venture between J.G. Petrucci Inc. and PGIM Real Estate has sold a newly constructed 511,200-square-foot industrial building in Phillipsburg for $110 million to Cabot Properties. The transaction, which involved brokers from JLL, marked the largest investment sale in New Jersey’s industrial market during the first quarter. The property at 39 Strykers Road was recently leased to national logistics firm Alan Ritchey.",
+      "url": "https://re-nj.com/petrucci-pgim-sell-511000-sq-ft-phillipsburg-warehouse-for-110-million/",
+      "source": "Real Estate NJ",
+      "published": "20220425T170647",
+      "overall_sentiment_score": 0.309846,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.265136,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.585906
+    },
+    {
+      "title": "Government contracting trends: Surviving economic challenges",
+      "summary": "Government contractors are currently grappling with significant economic challenges including inflation, supply chain disruptions, and a tight labor market. These issues are particularly problematic for contractors whose existing agreements may prevent them from passing on increased costs to the government. To mitigate these pressures, the article suggests strategies such as employee incentives and a reevaluation of contract types.",
+      "url": "https://www.jpmorgan.com/insights/business-planning/economic-challenges-facing-government-contractors",
+      "source": "J.P. Morgan",
+      "published": "20220419T171647",
+      "overall_sentiment_score": 0.101249,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.128367,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.903786
+    },
+    {
+      "title": "JPMorgan Chase, Microsoft among growing number of companies turning to neurodiverse workers to help meet need for talent",
+      "summary": "A growing number of companies, including JPMorgan Chase and Microsoft, are actively recruiting neurodiverse individuals to fill talent needs and leverage their unique skills. This trend is driven by an increasing recognition of the neurodiverse population, their problem-solving abilities, and the ongoing demand for talent, with companies implementing structured programs for interviewing, hiring, and onboarding. These initiatives not only provide career opportunities for neurodiverse workers but also positively impact company culture and team dynamics.",
+      "url": "https://www.cnbc.com/2022/04/20/-neurodivergent-workers-help-companies-meet-the-demand-for-talent.html",
+      "source": "CNBC",
+      "published": "20220420T150300",
+      "overall_sentiment_score": 0.377506,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.446127,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

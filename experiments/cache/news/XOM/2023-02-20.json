@@ -1,0 +1,46 @@
+{
+  "ticker": "XOM",
+  "date": "2023-02-20",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:09:57.842496",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "Herb Vogel (MechEngr’82)",
+      "summary": "Herb Vogel (MechEngr’82) was appointed president and chief executive officer of SM Energy in 2020, bringing over 38 years of experience in the energy business. He is an alumnus of CU Boulder, where he met his wife, and has been a significant contributor to the Mechanical Engineering Strategic Advisory Board and the College of Engineering Advisory Council, both through advice and financial support. The Vogels have established faculty and graduate student fellowships at CU Boulder, demonstrating their commitment to supporting education and research.",
+      "url": "https://www.colorado.edu/engineering/2023/02/14/herb-vogel-mechengr82",
+      "source": "University of Colorado Boulder",
+      "published": "20230214T154056",
+      "overall_sentiment_score": 0.222535,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.178072,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.63018
+    },
+    {
+      "title": "Independent Energy Company HF Sinclair Appoints New CEO/President",
+      "summary": "HF Sinclair Corp. has promoted Tim Go to Chief Executive Officer and President, effective May 9, also appointing him to its board of directors. Go has served as president and chief operating officer since November 2021 and succeeds Michael C. Jennings, who will continue in the CEO role until May 8 before transitioning to executive vice president, corporate, until his retirement in November. Jennings praised Go's leadership in the company's recent growth and in its refining and lubricants and specialty products segments.",
+      "url": "https://dallasinnovates.com/independent-energy-company-hf-sinclair-appoints-new-ceo-president/",
+      "source": "Dallas Innovates",
+      "published": "20230217T000000",
+      "overall_sentiment_score": 0.015933,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.127883,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.609215
+    },
+    {
+      "title": "What to know about 'woke' public investing and why Iowa Gov. Kim Reynolds wants it banned",
+      "summary": "Iowa Governor Kim Reynolds is proposing a bill that would prevent the state's public funds from investing based on environmental, social, and governance (ESG) factors. The bill aims to ensure investments are solely based on financial returns, rather than \"political agendas and woke ideology.\" Although Iowa's public agencies currently do not use ESG investing, the bill's proponents argue it is a preemptive measure to prevent future adoption of such practices.",
+      "url": "https://www.desmoinesregister.com/story/news/politics/2023/02/15/iowa-bill-would-prevent-esg-investing-of-public-funds/69903680007/",
+      "source": "The Des Moines Register",
+      "published": "20230215T151212",
+      "overall_sentiment_score": 0.243621,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.204592,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.648545
+    }
+  ]
+}

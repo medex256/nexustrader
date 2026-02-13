@@ -1,0 +1,34 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-10-09",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:53:04.355916",
+  "source": "alpha_vantage",
+  "article_count": 2,
+  "articles": [
+    {
+      "title": "Medical equipment manufacturers in Chennai: Fact guide",
+      "summary": "The article provides a guide to the top medical equipment manufacturers in Chennai, highlighting the city's role as a significant business hub in the global healthcare sector. It details key companies like Wipro GE Healthcare, Johnson & Johnson, and Medtronic, along with their specializations and founding dates. The piece also discusses the impact of these manufacturers on Chennai's commercial real estate demand and overall economic growth.",
+      "url": "https://housing.com/news/medical-equipment-manufacturers-in-chennai-fact-guide/",
+      "source": "Housing",
+      "published": "20231009T144512",
+      "overall_sentiment_score": 0.43151,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.407796,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.85196
+    },
+    {
+      "title": "Aid agency urges Johnson & Johnson to improve access to tuberculosis drug",
+      "summary": "Global health aid agency Unitaid has urged Johnson & Johnson (JNJ.N) to expand access to its tuberculosis drug bedaquiline, which is currently protected by patents hindering generic alternatives. While J&J has lowered the price, Unitaid considers this an \"incomplete solution\" and advocates for the removal of all secondary patents to ensure lower prices are available to all countries with high TB cases. J&J has stated its intent not to enforce patents for generic versions of SIRTURO in 134 low- and middle-income countries, provided they are of good quality and medically acceptable.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/unitaid-urges-johnson-johnson-improve-access-tb-drug-bedaquiline-2023-09-29/",
+      "source": "Reuters",
+      "published": "20230929T104900",
+      "overall_sentiment_score": 0.11653,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.138228,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 1.0
+    }
+  ]
+}

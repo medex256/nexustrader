@@ -1,0 +1,70 @@
+{
+  "ticker": "XOM",
+  "date": "2023-12-11",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:35:13.149159",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Lululemon Earnings: Strong Momentum Leading Into a Competitive Holiday Period",
+      "summary": "Lululemon's third-quarter sales and earnings surpassed expectations, leading to an anticipated increase in its fair value estimate. Despite concerns about slowing consumer spending and increased competition during the holiday season, the company demonstrated strong growth. Morningstar views Lululemon stock as overvalued based on its discounted cash flow model and competitive threats in athleisure.",
+      "url": "https://www.morningstar.com/stocks/lululemon-earnings-strong-momentum-leading-into-competitive-holiday-period",
+      "source": "Morningstar",
+      "published": "20231208T150556",
+      "overall_sentiment_score": 0.216224,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.015448,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.596149
+    },
+    {
+      "title": "Board chairman at Empire Petroleum increases holdings in firm",
+      "summary": "Phil Mulacek, board chairman at Empire Petroleum, recently increased his holdings in the company with a $5 million purchase of shares. This transaction involved a change in the per share purchase price from $8 to $8.21, resulting in a slight adjustment to the number of shares received. Mulacek has a significant history with Empire Petroleum, including being a key financial partner in past acquisitions and a joint development partner.",
+      "url": "https://www.okenergytoday.com/2023/12/board-chairman-at-empire-petroleum-increases-holdings-in-firm/",
+      "source": "Oklahoma Energy Today",
+      "published": "20231204T143458",
+      "overall_sentiment_score": 0.199993,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.130053,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.608661
+    },
+    {
+      "title": "ConocoPhillips celebrates start-up of new natural gas field offshore Norway",
+      "summary": "ConocoPhillips celebrated the start-up of the Tommeliten A natural gas and condensate field in the North Sea, with production having begun nearly six months ahead of schedule on October 13. The field is expected to deliver 120-180 MMboe, primarily natural gas, and involved a capital investment of approximately NOK 13 billion, creating about 5,000 jobs. Representatives from partner companies, the Norwegian government, and ConocoPhillips gathered to mark the occasion at the Ekofisk Complex.",
+      "url": "https://www.worldoil.com/news/2023/12/1/conocophillips-celebrates-start-up-of-new-natural-gas-field-offshore-norway/",
+      "source": "World Oil",
+      "published": "20231201T000000",
+      "overall_sentiment_score": 0.304786,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.278659,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.634124
+    },
+    {
+      "title": "Cheniere Energy Signs 15-Year Supply Deal for Sabine Pass LNG Project",
+      "summary": "Cheniere Energy Partners, LP, through its subsidiary SPL Stage 5, has signed a 15-year Integrated Production Marketing (IPM) gas supply agreement with ARC Resources U.S. Corp. for 140,000 MMBtu per day of natural gas, linked to the Dutch TTF price. This deal is for the Sabine Pass Liquefaction Expansion Project's first train. Additionally, Cheniere Marketing International LLP will market the associated LNG and has entered a separate LNG sale and purchase agreement with OMV Gas Marketing and Trading GMBH for approximately 0.85 MTPA of LNG starting in late 2029.",
+      "url": "https://pgjonline.com/news/2023/november/cheniere-energy-signs-15-year-supply-deal-for-sabine-pass-lng-project",
+      "source": "Pipeline and Gas Journal",
+      "published": "20231129T000000",
+      "overall_sentiment_score": 0.370059,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.318609,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.642045
+    },
+    {
+      "title": "U.S. Oil & Gas Producers Could Face $4.8 Billion in Methane-Related Charges, Study Claims",
+      "summary": "A new study claims U.S. oil and gas producers could face $4.8 billion in methane-related charges under the Inflation Reduction Act, significantly higher than self-reported estimates. This increase is based on satellite data showing methane emissions are more than 10 times larger than company reports. The study highlights companies like Diversified Energy, ConocoPhillips, Occidental Petroleum, and California Resources as potentially owing the largest fees, despite the low cost and strong short-term climate impact of reducing methane emissions.",
+      "url": "https://www.morningstar.com/sustainable-investing/biden-slashes-methane-emissions-us-oil-gas-producers-could-face-48-billion-methane-related-charges-study-claims",
+      "source": "Morningstar",
+      "published": "20231204T143509",
+      "overall_sentiment_score": -0.229971,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.134734,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.611376
+    }
+  ]
+}

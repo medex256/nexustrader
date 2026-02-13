@@ -1,0 +1,106 @@
+{
+  "ticker": "JNJ",
+  "date": "2022-05-23",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:46:56.361495",
+  "source": "alpha_vantage",
+  "article_count": 8,
+  "articles": [
+    {
+      "title": "Medtronic completes Intersect acquisition following FTC order",
+      "summary": "Medtronic has completed its acquisition of Intersect ENT after the Federal Trade Commission (FTC) mandated the divestiture of Intersect's subsidiary, Fiagon. The $1.1 billion deal, initially announced in August, faced regulatory hurdles due to concerns about market consolidation in ear, nose, and throat navigation systems and balloon sinus dilation products. As part of the agreement, Medtronic will acquire Intersect's Propel and Sinuva sinus implant product lines, technology, intellectual property, and a California facility, with Intersect employees joining Medtronic.",
+      "url": "https://www.medtechdive.com/news/ftc-medtronic-divest-fiagon-intersect/623540/",
+      "source": "MedTech Dive",
+      "published": "20220511T173639",
+      "overall_sentiment_score": 0.169777,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.147061,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.63729
+    },
+    {
+      "title": "Johnson & Johnson MedTech appoints new CFO",
+      "summary": "Johnson & Johnson MedTech has appointed Kurt Van den Bosch as its new CFO, group finance. Van den Bosch, who previously served as area VP of mid-sized markets for J&J MedTech EMEA, will provide financial leadership to the global organization and report to Joe Wolk, EVP and CFO of Johnson & Johnson. He replaces Flavia Pease, who transitioned to Charles River Laboratories.",
+      "url": "https://www.massdevice.com/johnson-johnson-medtech-appoints-new-cfo/",
+      "source": "MassDevice",
+      "published": "20220509T171641",
+      "overall_sentiment_score": 0.13486,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.107808,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Johnson & Johnson Seeking to Avoid Thousands of Lawsuits With Texas Two-Step",
+      "summary": "Johnson & Johnson is utilizing a controversial legal strategy known as the \"Texas Two-Step\" to avoid thousands of product liability lawsuits alleging their talc products caused cancer. This strategy involves splitting a company and transferring liabilities to a new entity that then declares bankruptcy, effectively shielding the parent company's assets. Critics, including Senator Dick Durbin and legal experts, argue this tactic denies victims their right to a jury trial and fair compensation, prompting calls for legislative action to close the loophole.",
+      "url": "https://www.corporatecrimereporter.com/news/200/johnson-johnson-seeking-to-avoid-thousands-of-lawsuits-with-texas-two-step/",
+      "source": "Corporate Crime Reporter",
+      "published": "20220519T082600",
+      "overall_sentiment_score": -0.42783,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.448061,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Innovator Interview: Align Technology’s Kamal Bhandal",
+      "summary": "Kamal Bhandal, VP of Global Consumer & Brand Marketing at Align Technology, discusses the company's reliance on creator-led content and authentic storytelling, especially in reaching Gen Z. She highlights how social media and influencer marketing have been central to Align's strategy long before they became mainstream and how these approaches evolved during the pandemic. Bhandal also shares career advice for women in marketing and her predictions for 2022, emphasizing the creator economy and compassionate leadership.",
+      "url": "https://brand-innovators.com/innovator-interview-align-technologys-kamal-bhandal/",
+      "source": "Brand Innovators",
+      "published": "20220512T160640",
+      "overall_sentiment_score": 0.284562,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.232897,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.6193
+    },
+    {
+      "title": "J&J appoints consumer health head Thibaut Mongon to CEO of spun-off business",
+      "summary": "Johnson & Johnson has appointed Thibaut Mongon as the chief executive officer for its consumer health division, which the company plans to spin off by the end of next year. Paul Ruh was also named CFO for the upcoming entity. This move follows J&J's November announcement to spin off its consumer health segment to concentrate on pharmaceuticals and medical devices.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/jj-appoints-consumer-health-head-thibaut-mongon-ceo-spun-off-business-2022-05-11/",
+      "source": "Reuters",
+      "published": "20220511T111600",
+      "overall_sentiment_score": 0.396601,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.385435,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Johnson & Johnson Appoints Thibaut Mongon as CEO Designate of Planned New Consumer Health Company",
+      "summary": "Johnson & Johnson has appointed Thibaut Mongon as CEO Designate and Paul Ruh as CFO Designate for its planned new Consumer Health Company, which is expected to separate in 2023. This move aims to create two independent global leaders, allowing for more targeted strategies and accelerated growth in both the new Johnson & Johnson and the Consumer Health Company. Mongon and Ruh bring extensive experience, with Mongon having led J&J's Consumer Health segment since 2019 and Ruh previously serving as CFO of Consumer Health at J&J and holding various roles at PepsiCo.",
+      "url": "https://www.prnewswire.com/news-releases/johnson--johnson-appoints-thibaut-mongon-as-ceo-designate-of-planned-new-consumer-health-company-301544548.html",
+      "source": "PR Newswire",
+      "published": "20220511T063000",
+      "overall_sentiment_score": 0.444828,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.442978,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Johnson & Johnson to Continue Global Sale of Talc-Based Baby Powder",
+      "summary": "Johnson & Johnson will continue to sell its talc-based baby powder globally after shareholders rejected a proposal to end its worldwide distribution. This decision follows J&J discontinuing sales in the U.S. and Canada in 2020 due to lawsuits alleging asbestos contamination, which led to significant legal fees and settlements. The company maintains its product is safe and has created a subsidiary, LTL Management LLC, to manage the ongoing liabilities from the estimated 40,000 talc lawsuits.",
+      "url": "https://www.asbestos.com/news/2022/05/09/johnson-johnson-baby-powder-talc/",
+      "source": "Mesothelioma Center",
+      "published": "20220509T171640",
+      "overall_sentiment_score": -0.387771,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.409349,
+      "ticker_sentiment_label": "Bearish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Mondelez International strategy push hits sweet spot",
+      "summary": "Mondelez International's latest strategy update, focusing on chocolate, biscuits, and baked snacks, has been well-received by investors. CEO Dirk Van De Put outlined plans for organic growth and M&A, alongside the divestment of its chewing-gum business in developed markets and the Halls cough-sweets brand. Analysts continue to view Mondelez positively, maintaining a \"buy\" rating on its shares.",
+      "url": "https://www.just-food.com/features/mondelez-international-strategy-push-hits-sweet-spot/",
+      "source": "Global Food Industry News",
+      "published": "20220518T173638",
+      "overall_sentiment_score": 0.177861,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": -0.142661,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.57274
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "ticker": "JNJ",
+  "date": "2025-06-30",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T12:01:19.356170",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "Vor Bio Enters into Exclusive Global License Agreement with RemeGen for Late-Stage Autoimmune Asset",
+      "summary": "Vor Bio has entered into an exclusive global license agreement with RemeGen for telitacicept, a late-stage autoimmune asset, acquiring rights outside of Greater China. The deal includes an initial payment of $125 million, potential milestones exceeding $4 billion, and tiered royalties. Additionally, Vor Bio announced the appointment of Jean-Paul Kress, MD, as its new Chief Executive Officer and Chairman of the Board.",
+      "url": "https://www.globenewswire.com/news-release/2025/06/25/3105465/0/en/Vor-Bio-Enters-into-Exclusive-Global-License-Agreement-with-RemeGen-for-Late-Stage-Autoimmune-Asset.html",
+      "source": "GlobeNewswire",
+      "published": "20250625T112851",
+      "overall_sentiment_score": 0.15709,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.089554,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.570676
+    },
+    {
+      "title": "Edible Garden Appoints Sohail Ahmad as Vice President of Finance",
+      "summary": "Edible Garden AG Incorporated announced the appointment of Sohail Ahmad as Vice President of Finance, effective immediately. Mr. Ahmad brings over 20 years of experience in finance leadership within global food and consumer goods companies, including previous roles at Mondelez/Kraft and Johnson & Johnson. CEO Jim Kras highlighted Ahmad's strategic mindset and expertise in modernizing finance organizations and integrating acquisitions as key to advancing Edible Garden's growth trajectory and operational efficiency.",
+      "url": "https://www.globenewswire.com/news-release/2025/06/17/3100547/0/en/Edible-Garden-Appoints-Sohail-Ahmad-as-Vice-President-of-Finance.html",
+      "source": "GlobeNewswire",
+      "published": "20250617T073000",
+      "overall_sentiment_score": 0.272549,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.229847,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.622683
+    },
+    {
+      "title": "Knee Osteoarthritis (OA) Injectable Treatments Market Revenue to Attain USD 5.94 Bn by 2033",
+      "summary": "The global knee osteoarthritis (OA) injectable treatments market is projected to reach USD 5.94 billion by 2033, growing at a CAGR of 7% from USD 3.46 billion in 2025. This growth is driven by increasing awareness of non-surgical therapies, with viscosupplements currently dominating and biologic injectables like PRP and stem cell therapies showing rapid growth potential. North America currently holds the largest market share, while the Asia-Pacific region is expected to experience the highest growth due to rising OA prevalence and healthcare expenditures.",
+      "url": "https://www.precedenceresearch.com/press-release/knee-osteoarthritis-injectable-treatments-market",
+      "source": "Precedence Research",
+      "published": "20250623T000000",
+      "overall_sentiment_score": 0.6558,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.513378,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.562061
+    },
+    {
+      "title": "Immunology | J&J Innovative Medicine EMEA",
+      "summary": "J&J Innovative Medicine's Immunology division focuses on transformational therapies for immune-mediated diseases affecting millions globally. The company is advancing various treatment approaches including oral therapies, combination advanced therapies, and targeted novel medicines. Recent announcements highlight advancements in treatments for ulcerative colitis, generalized myasthenia gravis, psoriasis, Crohn’s disease, and Sjögren’s disease, including FDA applications and study results for key products.",
+      "url": "https://www.jnj.com/innovativemedicine/immunology",
+      "source": "Johnson & Johnson",
+      "published": "20250618T000000",
+      "overall_sentiment_score": 0.409584,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.402018,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Neuroscience",
+      "summary": "Johnson & Johnson has been a pioneer in neuroscience for nearly seven decades, focusing on innovative medicines for neuropsychiatric, neurodegenerative, and neurological autoantibody-driven diseases. The company employs a precision neuroscience strategy that utilizes multi-omics, digital measures, and various therapeutic modalities to target underlying disease mechanisms and predict patient response. J&J is also aggressively expanding its neuroscience portfolio through acquisitions and a robust pipeline, including recent approvals and future filings, to meet patient needs across the entire disease journey.",
+      "url": "https://www.jnj.com/innovativemedicine/neuroscience",
+      "source": "Johnson & Johnson",
+      "published": "20250618T000000",
+      "overall_sentiment_score": 0.402015,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.405476,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    }
+  ]
+}

@@ -1,5 +1,5 @@
-"""
-Quick test to verify Alpha Vantage, StockTwits, and Twitter integrations.
+"""Quick test to verify News, StockTwits, and Twitter integrations.
+
 Run this before full system test to catch API issues early.
 """
 
@@ -13,17 +13,17 @@ print("=" * 80)
 print("TESTING SOCIAL MEDIA & NEWS INTEGRATIONS")
 print("=" * 80)
 
-# Test 1: Alpha Vantage News
-print("\n[1/3] Testing Alpha Vantage NEWS_SENTIMENT API...")
+# Test 1: News (Finnhub)
+print("\n[1/3] Testing Finnhub company news...")
 try:
-    from app.tools.news_tools import search_news_alpha_vantage
+    from app.tools.news_tools import search_news
     
-    articles = search_news_alpha_vantage("TSLA", limit=5)
+    articles = search_news("TSLA", limit=5)
     
     if articles:
         print(f"✅ SUCCESS: Retrieved {len(articles)} articles")
         print(f"   Sample: {articles[0]['title'][:80]}...")
-        print(f"   Sentiment: {articles[0]['ticker_sentiment_label']} ({articles[0]['ticker_sentiment_score']:.2f})")
+        print(f"   Tone: {articles[0]['ticker_sentiment_label']} ({articles[0]['ticker_sentiment_score']:.2f})")
     else:
         print("⚠️  WARNING: No articles returned (check API key or rate limit)")
 except Exception as e:
@@ -71,7 +71,7 @@ print("INTEGRATION TEST COMPLETE")
 print("=" * 80)
 print("\nNext Steps:")
 print("1. If all tests passed: Run full system test with `python test_debate_mechanism.py`")
-print("2. If Alpha Vantage failed: Check ALPHA_VANTAGE_SENTIMENT_KEY in .env")
+print("2. If News failed: Check FINHUB_API_KEY/FINNHUB_API_KEY in .env")
 print("3. If Twitter failed: It's optional - system will work without it")
 print("4. If StockTwits failed: Check internet connection or ticker symbol")
 print("=" * 80)

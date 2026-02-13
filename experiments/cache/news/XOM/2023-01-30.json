@@ -1,0 +1,46 @@
+{
+  "ticker": "XOM",
+  "date": "2023-01-30",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:09:43.653600",
+  "source": "alpha_vantage",
+  "article_count": 3,
+  "articles": [
+    {
+      "title": "Imperial Oil to invest $539 mln in renewable diesel plant in Canada",
+      "summary": "Imperial Oil announced a C$720 million ($538.64 million) investment to build Canada's largest renewable diesel facility at its Strathcona refinery, set to open in 2025 and produce 20,000 barrels per day. The project aims to reduce greenhouse gas emissions by approximately 3 million a year and will be partly funded by credits under British Columbia's Low Carbon Fuel Standard. This strategic investment is seen by analysts as a neutral impact for now, but a move towards reducing emissions.",
+      "url": "https://www.reuters.com/business/energy/imperial-oil-invest-539-mln-renewable-diesel-plant-canada-2023-01-26/",
+      "source": "Reuters",
+      "published": "20230126T175600",
+      "overall_sentiment_score": 0.182972,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.123455,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.623045
+    },
+    {
+      "title": "Best commodities to invest in",
+      "summary": "The article discusses the performance of commodities in 2022 and identifies five leading commodities for investment in Q1 2023: Oil, Gold, Silver, Copper, and Coffee. It examines the factors influencing each commodity's price, such as inflation, interest rates, global demand, and geopolitical events, and suggests potential investment strategies including stocks, ETFs, and CFDs. The piece highlights that commodities served as a hedge against inflation in 2022 and are expected to continue to offer investment opportunities due to ongoing economic uncertainties and geopolitical factors.",
+      "url": "https://www.etoro.com/trading/top-commodities-to-buy/",
+      "source": "eToro",
+      "published": "20230125T143526",
+      "overall_sentiment_score": 0.282813,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.329225,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.744085
+    },
+    {
+      "title": "NYSE glitch leads to busted trades, prompts investigation",
+      "summary": "A system issue at the New York Stock Exchange caused widespread trading halts and busted trades in over 250 securities on Tuesday morning. The glitch prevented opening auctions for many stocks, leading to erroneous prices that were later declared null, prompting an investigation by the NYSE and review by the SEC. This event highlights concerns about market resilience and the potential costs to traders and brokers.",
+      "url": "https://www.reuters.com/markets/us/some-nyse-listed-stocks-briefly-halted-trading-after-market-open-2023-01-24/",
+      "source": "Reuters",
+      "published": "20230125T025000",
+      "overall_sentiment_score": -0.350767,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment_score": -0.315033,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.602263
+    }
+  ]
+}

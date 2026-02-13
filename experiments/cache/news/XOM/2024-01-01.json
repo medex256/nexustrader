@@ -1,0 +1,142 @@
+{
+  "ticker": "XOM",
+  "date": "2024-01-01",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T13:35:27.179903",
+  "source": "alpha_vantage",
+  "article_count": 11,
+  "articles": [
+    {
+      "title": "$4.5B deal sees Permian Resources buy Earthstone amid wave of basin-wide mergers",
+      "summary": "Permian Resources completed its $4.5 billion acquisition of Earthstone Energy, creating a combined company with 400,000 net acres in the Permian Basin and 300,000 boepd production. This deal is part of a larger trend of consolidation in the Permian Basin, following major acquisitions by Exxon Mobil and Chevron, as companies seek to capitalize on high demand and the region's long-term growth potential. Industry experts predict more mergers and increased production in the Permian through the 2030s, alongside significant infrastructure investments by companies like Enterprise Products.",
+      "url": "https://www.caller.com/story/news/2023/11/07/4-5b-deal-sees-permian-resources-buy-earthstone-amid-wave-of-mergers/71398474007/",
+      "source": "Corpus Christi Caller-Times",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.220379,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.342616,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.891246
+    },
+    {
+      "title": "TechnipFMC Announces Agreement to Sell Measurement Solutions Business",
+      "summary": "TechnipFMC has agreed to sell its Measurement Solutions business to One Equity Partners for $205 million in cash. This divestiture is part of TechnipFMC's strategy to focus on core products, market-leading technologies, and integrated solutions. The transaction is expected to close in the first half of 2024, subject to customary closing conditions.",
+      "url": "https://www.businesswire.com/news/home/20231120221203/en/TechnipFMC-Announces-Agreement-to-Sell-Measurement-Solutions-Business",
+      "source": "Business Wire",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.239142,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.12132,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.607046
+    },
+    {
+      "title": "Flame Acquisition Corp. (FLME) Expands Sable Offshore PIPE to $180M",
+      "summary": "Flame Acquisition Corp. (FLME) has increased the PIPE for its merger with Sable Offshore to $180.4 million, making it the largest for the year. New investments by Metamorphic Pecan match existing PIPE commitments, and Flame aims to further expand the PIPE to $525 million. This deal highlights a trend of large PIPEs in the oil & gas and biotech sectors within the SPAC market.",
+      "url": "https://www.spacinsider.com/news/deal-announcements-amendments/flame-flme-expands-sable-offshore-pipe-to-180m",
+      "source": "SPACInsider",
+      "published": "20231219T084300",
+      "overall_sentiment_score": 0.146738,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.238831,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.743376
+    },
+    {
+      "title": "Commodities ETF",
+      "summary": "This article from VanEck discusses the benefits of investing in Commodities ETFs, emphasizing their role in the energy transition and as a hedge against inflation. It highlights various VanEck Commodities ETFs, including those for mining, gold miners, rare earth, oil, and nuclear, and explains advantages like diversification, potential dividends, and leveraged exposure compared to direct commodity investments. The text also details why commodities can offer historical inflation protection and are crucial for future trends like energy transition, infrastructure, digitalization, and energy security, while also outlining associated risk factors.",
+      "url": "https://www.vaneck.com/ch/en/commodities-etf/",
+      "source": "VanEck",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.412134,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.535681,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.645937
+    },
+    {
+      "title": "Canada Net-Zero Hydrogen Energy Complex",
+      "summary": "Air Products is constructing a new net-zero hydrogen energy complex in Edmonton, Alberta, aiming to establish the region as a hub for western Canada's hydrogen economy and significantly reduce greenhouse gas emissions. The facility will utilize advanced Auto-Thermal Reforming (ATR) technology to capture over 90% of carbon emissions, and integrate with Imperial Oil Limited's renewable diesel facility, using biogenic renewable off-gas as a feedstock to achieve net-zero emissions. This project is expected to create 2,500 construction and engineering jobs and position Alberta as a leading supplier of liquid hydrogen.",
+      "url": "https://www.airproducts.com/energy-transition/canada-net-zero-hydrogen-energy-complex",
+      "source": "Air Products",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.253275,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.141518,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.631596
+    },
+    {
+      "title": "Commodities ETF | Benefit from the surging demand",
+      "summary": "This article from VanEck highlights the benefits of investing in Commodities ETFs, emphasizing their role in hedging against inflation and capitalizing on demand driven by the energy transition. It details various VanEck Commodities ETFs, including those for Mining, Gold Miners, Rare Earth, Oil, and Nuclear sectors, and explains why these ETFs offer advantages like dividends, diversification, simplicity, and leveraged exposure compared to direct commodity investments. The text also discusses the relevance of commodities in large-scale trends such as energy transition, infrastructure, digitalization, AI, and energy security.",
+      "url": "https://www.vaneck.com/lu/en/commodities-etf/",
+      "source": "VanEck",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.371289,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.336211,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.607427
+    },
+    {
+      "title": "Top ConocoPhillips Competitors & Similar Companies",
+      "summary": "This article identifies and describes the top 10 competitors of ConocoPhillips, an exploration and production company headquartered in Houston, Texas. It provides a brief overview of each competitor including their headquarters, founding history, and primary business activities within the oil and gas industry. The list includes major global players such as BP, ExxonMobil, Royal Dutch Shell, and Chevron, among others.",
+      "url": "https://www.mbaskool.com/competitors/companies/18655-conocophillips.html",
+      "source": "MBASkool",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.04639,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.049564,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.727344
+    },
+    {
+      "title": "Economic Data and Crude Oil",
+      "summary": "This article explores the intertwined relationship between economic data and crude oil markets, highlighting the Federal Funds rate and WTI Crude Oil price as two critical economic indicators. It explains how these factors influence inflation, consumer demand, interest rates, and the broader global economy, emphasizing the complex interactions between crude oil, stock markets, and the U.S. dollar. The content also touches upon various economic considerations like producer vs. consumer economies and the impact of the U.S. dollar's strength on oil prices, offering insights for trading and economic analysis.",
+      "url": "https://www.cmegroup.com/education/courses/introduction-to-crude-oil/crude-oil-fundamentals/economic-data-and-crude-oil.html",
+      "source": "CME Group",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.108525,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.103596,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.712279
+    },
+    {
+      "title": "Falling Gas Prices Could Provide Upside for This Inverse ETF",
+      "summary": "Falling gas prices are creating opportunities for traders to place bearish bets on oil prices, particularly through the Direxion Daily S&P Oil & Gas Exp. & Prod. Bear 2X Shares (DRIP) inverse ETF. This trend is driven by a global oversupply of oil and suppressed demand from economies like China, despite potential production cuts from OPEC. The article highlights that oil prices naturally tend to decline towards the end of the year due to seasonality and a shift from undersupply to slight oversupply in the crude oil market.",
+      "url": "https://www.etftrends.com/leveraged-inverse-content-hub/falling-gas-prices-could-provide-upside-inverse-etf/",
+      "source": "ETF Trends",
+      "published": "20231218T231026",
+      "overall_sentiment_score": -0.15243,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.319661,
+      "ticker_sentiment_label": "Somewhat-Bearish",
+      "relevance_score": 0.638063
+    },
+    {
+      "title": "Inspiring the Next Generation of Women Scientists in the U.K.",
+      "summary": "APA Corporation hosted an event at its Aberdeen offices in celebration of International Women in Science Day, bringing together approximately 130 school children, mostly girls, to engage with STEM professionals and activities. The event, in partnership with TechFest, aimed to inspire young women to pursue careers in STEM fields, particularly those relevant to the energy industry. Keynote speakers included Alison McLure and Sinead Farrington, highlighting the importance of diverse talent in addressing future energy challenges.",
+      "url": "https://apacorp.com/inspiring-the-next-generation-of-women-scientists-in-the-u-k/",
+      "source": "APA Corporation",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.210222,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.105802,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.553998
+    },
+    {
+      "title": "Powering a Brighter Future in Suriname",
+      "summary": "APA Corporation is addressing energy poverty in remote Surinamese villages like Drietabbetje and Asidonhopo by installing new commercial-grade generators. These generators will provide reliable electricity, supporting education, health care, local economies, and the preservation of Indigenous cultures in areas previously suffering from inconsistent power. The initiative aims to create lasting impact and aligns with the company's ESG framework and core values.",
+      "url": "https://apacorp.com/powering-a-brighter-future-in-suriname/",
+      "source": "APA Corporation",
+      "published": "20231231T235959",
+      "overall_sentiment_score": 0.344634,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.330664,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.606
+    }
+  ]
+}

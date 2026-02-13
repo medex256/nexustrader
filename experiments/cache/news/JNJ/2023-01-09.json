@@ -1,0 +1,58 @@
+{
+  "ticker": "JNJ",
+  "date": "2023-01-09",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:49:27.681575",
+  "source": "alpha_vantage",
+  "article_count": 4,
+  "articles": [
+    {
+      "title": "Fate, two other cell therapy biotechs lay off staff, restructure research",
+      "summary": "Three cell therapy biotechnology companies, Fate Therapeutics, Century Therapeutics, and TCR2 Therapeutics, are implementing significant staff layoffs and restructuring research efforts. These changes are indicative of a more challenging and prolonged development path for next-generation cancer cell therapies than initially anticipated by the companies and their investors. A key factor for Fate was the termination of a partnership with Johnson & Johnson, leading to a major workforce reduction and the discontinuation of several clinical-stage programs.",
+      "url": "https://www.biopharmadive.com/news/fate-century-tcr2-layoffs-cell-therapy-restructuring/639810/",
+      "source": "BioPharma Dive",
+      "published": "20230106T143559",
+      "overall_sentiment_score": -0.215437,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": -0.144537,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.721579
+    },
+    {
+      "title": "Johnson & Johnson, Drug Distributors Agree to Opioid Settlement With States - WSJ",
+      "summary": "Johnson & Johnson and three major drug distributors have finalized a landmark opioid settlement with a majority of U.S. states, aimed at resolving thousands of lawsuits related to the opioid epidemic. The drug distributors — AmerisourceBergen Corp., Cardinal Health Inc., and McKesson Corp. — will pay a total of $19.5 billion over 18 years, while Johnson & Johnson will contribute $5 billion to 45 states. The combined proceeds, totaling roughly $25 billion, will be used by state and local governments for healthcare and drug-treatment programs.",
+      "url": "https://www.wsj.com/health/pharma/amerisourcebergen-cardinal-health-mckesson-agree-to-opioid-settlement-with-46-states-11645792157?gaa_at=eafs&gaa_n=AWEtsqcWfja-c0zlhFC7AR0w6VwSLHpn4aM0QEFt5daUgMviZdLb9-5zEHIr&gaa_ts=690787f6&gaa_sig=xd7QDm1TtvQ0zoEujrEMRtYFDbcz0b3lGCPmGXMSlEtI1xi-yObYXy8HwtdSd0gikeuB6eQFG45jCM2nDPyD_A%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20221231T235959",
+      "overall_sentiment_score": 0.174682,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.328952,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.909724
+    },
+    {
+      "title": "Bristol Myers Squibb, Pfizer turned away from SCOTUS in high-profile cases",
+      "summary": "Bristol Myers Squibb and Pfizer both lost their high-profile cases at the U.S. Supreme Court. BMS was denied a rehearing in its patent infringement case against Gilead Sciences for Yescarta, reinforcing an earlier decision against it. Pfizer's attempt to have its program to help Medicare patients with out-of-pocket costs for its tafamidis drugs reviewed was also rejected by the Supreme Court, as it was deemed to violate federal anti-kickback laws.",
+      "url": "https://www.fiercepharma.com/pharma/scotus-denies-bms-final-bid-rehear-appeal-against-gilead",
+      "source": "Fierce Pharma",
+      "published": "20230109T121200",
+      "overall_sentiment_score": -0.13261,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": -0.101854,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.632927
+    },
+    {
+      "title": "GE HealthCare begins trading as spin-off heralds shift to corporate streamlining",
+      "summary": "GE HealthCare has begun trading as an independent company under the ticker GEHC, completing its spin-off from General Electric. This move is part of a broader corporate trend where large conglomerates are streamlining by separating business units to focus on core operations and improve capital allocation. GE HealthCare, with $18 billion in annual revenue and a $26 billion valuation, aims to invest in R&D to leverage medical data for new insights and treatments.",
+      "url": "https://finance.yahoo.com/news/ge-health-care-begins-trading-as-spin-off-heralds-shift-to-corporate-streamlining-194525168.html",
+      "source": "Yahoo Finance",
+      "published": "20230104T144509",
+      "overall_sentiment_score": 0.346407,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.315564,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.734912
+    }
+  ]
+}

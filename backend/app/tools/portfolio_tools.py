@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
 from functools import lru_cache
+from ..utils.cache import cache_data
 
 @lru_cache(maxsize=1)
 def get_market_volatility_index():
@@ -31,6 +32,7 @@ def get_portfolio_composition():
     """
     return "100% Cash (Simulated for Single Ticker Evaluation)"
 
+@cache_data(ttl_seconds=1800)
 def calculate_ticker_risk_metrics(ticker: str, as_of: str = None):
     """
     Calculates specific risk metrics for the ticker using historical data:

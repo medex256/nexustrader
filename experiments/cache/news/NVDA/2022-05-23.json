@@ -1,0 +1,94 @@
+{
+  "ticker": "NVDA",
+  "date": "2022-05-23",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:08:24.413005",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "SEIV ETF Analysis: Dividends, Returns CBOE:SEIV",
+      "summary": "This article provides a detailed analysis of the SEI Enhanced U.S. Large Cap Value Factor ETF (SEIV), focusing on its dividends, returns, and key characteristics. It highlights SEIV as an actively managed fund targeting US large-cap value stocks using a quantitative-based selection process. The analysis covers AUM, expense ratio, holdings breakdown by sector and region, and dividend history, including a 24.49% increase in its last reported dividend.",
+      "url": "https://www.tradingview.com/symbols/CBOE-SEIV/analysis/",
+      "source": "TradingView — Track All Markets",
+      "published": "20220517T140910",
+      "overall_sentiment_score": 0.249133,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.306897,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.605253
+    },
+    {
+      "title": "Broom, Broom: WeRide Revs Up Self-Driving Street Sweepers Powered by NVIDIA",
+      "summary": "WeRide has launched a public pilot of 50 self-driving Robo Street Sweepers in Guangzhou, China, powered by NVIDIA technology. These vehicles perform essential municipal cleaning services autonomously, leveraging NVIDIA's high-performance AI compute platform for real-time data processing and safety. This deployment marks WeRide's second mass-produced self-driving vehicle and expands its diverse fleet of autonomous solutions.",
+      "url": "https://blogs.nvidia.com/blog/weride-autonomous-street-sweepers/",
+      "source": "NVIDIA Blog",
+      "published": "20220513T191640",
+      "overall_sentiment_score": 0.261406,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.470749,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Top blockchain stocks to explore: COIN, SQ, NVDA, MARA & RIOT",
+      "summary": "This article highlights several top blockchain stocks, including Coinbase Global, NVIDIA Corporation, and Riot Blockchain. It mentions Coinbase's Q1 FY22 net revenue and NVIDIA's upcoming Q1 FY23 financial results. The content provides a glimpse into the financial performance of these key players in the blockchain sector.",
+      "url": "https://kalkinemedia.com/us/stocks/technology/top-blockchain-stocks-to-explore-coin-sq-nvda-mara-riot",
+      "source": "Kalkine Media",
+      "published": "20220514T114000",
+      "overall_sentiment_score": 0.062113,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.049052,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.847857
+    },
+    {
+      "title": "Understanding Syfe’s Disruptive Technology portfolio",
+      "summary": "This article explains Syfe's Disruptive Technology portfolio, detailing why investors should consider disruptive tech and how Syfe approaches this investment theme through direct stock holdings rather than ETFs. It outlines six key themes within the portfolio—Blockchain and crypto, Robotics and Artificial Intelligence, Fintech, Next-gen internet, Cloud-computing and cybersecurity, and Video games and e-sports—highlighting top holdings for each. The article emphasizes cost savings for investors through Syfe's direct investment model.",
+      "url": "https://www.syfe.com/hk/magazine/understanding-syfes-disruptive-technology-portfolio/",
+      "source": "Syfe",
+      "published": "20220515T161658",
+      "overall_sentiment_score": 0.275106,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.309393,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.831612
+    },
+    {
+      "title": "Pure Storage, Snowflake partner on analyzing local data",
+      "summary": "Pure Storage and Snowflake have partnered to enable data analytics on Pure's on-premises FlashBlade storage using Snowflake's Data Cloud capabilities. This collaboration allows customers to analyze large local datasets without moving them to the cloud, addressing data control and migration challenges. The partnership leverages Amazon S3 and aims to provide hybrid cloud advantages for analytical workloads, with the public preview expected later this year.",
+      "url": "https://www.techtarget.com/searchstorage/news/252518176/Pure-Storage-Snowflake-partner-on-analyzing-local-data",
+      "source": "TechTarget",
+      "published": "20220513T185720",
+      "overall_sentiment_score": 0.127867,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.259101,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.649357
+    },
+    {
+      "title": "Gina Sanchez explains why these two mega cap stocks are a buy",
+      "summary": "Gina Sanchez, chief market strategist at Lido Advisors, recommends buying Walmart Inc (NYSE: WMT) and Nvidia Corporation (NASDAQ: NVDA) stocks. She believes Walmart is a strong reopening stock capable of handling supply chain issues, while Nvidia offers a deep discount opportunity as a leader in the semiconductor space, essential for the growing Cloud trend. Both companies are scheduled to report their quarterly results later this month.",
+      "url": "https://invezz.com/news/2022/05/13/gina-sanchez-explains-why-these-two-mega-cap-stocks-are-a-buy/",
+      "source": "Invezz",
+      "published": "20220513T173650",
+      "overall_sentiment_score": 0.50911,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.743412,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.919735
+    },
+    {
+      "title": "Intel launches new AI chips, challenging Nvidia's market",
+      "summary": "Intel Corp launched new AI chips, Gaudi2 and Greco, to challenge Nvidia's dominance in the AI chip market. The company is focusing on developing its open-standard software platform to differentiate itself and aims to capture a significant share of the rapidly growing AI chip market, estimated to reach $50 billion in the next five years.",
+      "url": "https://www.reuters.com/technology/intel-launches-new-ai-chips-challenging-nvidias-market-2022-05-10/",
+      "source": "Reuters",
+      "published": "20220510T143200",
+      "overall_sentiment_score": 0.230257,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.11538,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.943012
+    }
+  ]
+}

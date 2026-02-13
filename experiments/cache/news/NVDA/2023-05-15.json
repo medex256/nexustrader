@@ -1,0 +1,70 @@
+{
+  "ticker": "NVDA",
+  "date": "2023-05-15",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:27:53.972705",
+  "source": "alpha_vantage",
+  "article_count": 5,
+  "articles": [
+    {
+      "title": "YieldMax™ Launches NVDY, the YieldMax™ NVDA Option Income Strategy ETF",
+      "summary": "YieldMax™ has launched NVDY, the YieldMax™ NVDA Option Income Strategy ETF, which seeks to generate monthly income through a synthetic covered call strategy on NVIDIA Corporation (NVDA). This actively managed ETF由ZEGA Financial aims to provide substantial monthly income to investors, joining other YieldMax™ ETFs like TSLY, OARK, and APLY, and adheres to a gross expense ratio of 0.99%.",
+      "url": "https://www.globenewswire.com/news-release/2023/05/11/2666735/0/en/YieldMax-Launches-NVDY-the-YieldMax-NVDA-Option-Income-Strategy-ETF.html",
+      "source": "GlobeNewswire",
+      "published": "20230511T083000",
+      "overall_sentiment_score": 0.399952,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.429959,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.873467
+    },
+    {
+      "title": "Growing chip supply helps Baxter slash backlog",
+      "summary": "Baxter International significantly reduced its backlog for Front Line Care products by half in Q1, thanks to an improved supply of electromechanical components, including semiconductor chips. This improved availability has allowed the healthcare company to reduce spot purchasing, lower costs, and enhance operational predictability, though an elevated backlog still remains which the company aims to address throughout the year. Despite facing continued pressure from rising supply chain costs from suppliers, Baxter expresses cautious optimism about turning the corner on component supply.",
+      "url": "https://www.supplychaindive.com/news/growing-chip-supply-baxter-slash-backlog/649338/",
+      "source": "Supply Chain Dive",
+      "published": "20230508T000000",
+      "overall_sentiment_score": 0.176022,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.147964,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.610864
+    },
+    {
+      "title": "Super Micro stock surged more than 30% after it offered a bullish forecast based on AI demand",
+      "summary": "Super Micro's stock rose over 30% after the company issued a positive forecast driven by high demand for AI-related technologies. CEO Charles Liang noted a boom in sales, particularly due to advancements like ChatGPT, leading investors to significantly increase their bids for the San Jose server maker's stock.",
+      "url": "https://www.bizjournals.com/sanjose/news/2023/05/03/super-micro-stock-surges-more-than-30-percent.html",
+      "source": "The Business Journals",
+      "published": "20230503T154700",
+      "overall_sentiment_score": 0.522709,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.335656,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.606118
+    },
+    {
+      "title": "Msci Kld 400 Social Index: Meaning, Example, FAQs",
+      "summary": "The MSCI KLD 400 Social Index is a market capitalization-weighted stock index that focuses on large, mid, and small-cap U.S. companies with high environmental, social, and governance (ESG) standards, excluding certain industries. Founded as the Domini 400 Social Index, it was a pioneer in socially responsible investing. The index is reviewed quarterly and tends to be dominated by large American technology companies like Microsoft, NVIDIA, Alphabet, Tesla, and Visa.",
+      "url": "https://www.investopedia.com/terms/d/domini_400.asp",
+      "source": "Investopedia",
+      "published": "20230503T143016",
+      "overall_sentiment_score": 0.285205,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.357925,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.636909
+    },
+    {
+      "title": "Here's how AI is driving the rise of GPU cloud specialists",
+      "summary": "The rise of AI is fueling a new class of cloud providers specializing in GPU compute, offering lower prices than generalized cloud competitors. Companies like CoreWeave, Lambda Labs, RunPod, and Arc Compute are catering to AI workloads that require substantial GPU resources. These niche providers differentiate themselves through competitive pricing, strategic locations, and ready access to scarce compute resources amidst supply chain challenges.",
+      "url": "https://www.fierce-network.com/data-center/heres-how-ai-driving-rise-gpu-cloud-specialists",
+      "source": "Fierce Network",
+      "published": "20230512T073000",
+      "overall_sentiment_score": 0.326409,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.300247,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.829229
+    }
+  ]
+}

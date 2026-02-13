@@ -1,0 +1,82 @@
+{
+  "ticker": "AAPL",
+  "date": "2023-04-03",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T00:23:59.283654",
+  "source": "alpha_vantage",
+  "article_count": 6,
+  "articles": [
+    {
+      "title": "ProShares Ultra QQQ 2x Shares (QLD) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of ProShares Ultra QQQ 2x Shares (QLD), including its stock price, key statistics, top holdings, and dividend information. It highlights QLD's current portfolio value of $6.70 billion with top holdings like NVIDIA, Microsoft, and Apple, and details its performance and historical data. The article also lists recent trades and key fundamental data.",
+      "url": "https://www.gurufocus.com/etf/QLD/summary",
+      "source": "GuruFocus",
+      "published": "20230403T045136",
+      "overall_sentiment_score": 0.208828,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.180725,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.71174
+    },
+    {
+      "title": "Apple introduces Apple Pay Later to allow consumers to pay for purchases over time",
+      "summary": "Apple has introduced Apple Pay Later in the U.S., allowing users to split purchases between $50 and $1,000 into four payments over six weeks with no interest or fees. Designed with financial health in mind, the service integrates into Apple Wallet for easy tracking and management of loans, with repayment via linked debit cards. Apple Financing LLC, a subsidiary of Apple Inc., is responsible for credit assessment and lending, and will report loans to U.S. credit bureaus starting in the fall, while Mastercard and Goldman Sachs facilitate the program.",
+      "url": "https://www.apple.com/newsroom/2023/03/apple-introduces-apple-pay-later/",
+      "source": "Apple",
+      "published": "20230328T000000",
+      "overall_sentiment_score": 0.353932,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.401676,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 0.988969
+    },
+    {
+      "title": "For Broad-Based Large-Cap ESG Exposure, See CVLC",
+      "summary": "The article highlights the Calvert US Large-Cap Core Responsible Index ETF (CVLC) as a significant option for investors seeking broad-based large-cap ESG exposure, particularly focusing on climate change and net-zero goals. It emphasizes CVLC's ability to identify companies taking actual steps towards net-zero objectives, citing examples like Apple, Amazon, and Tesla. The ETF offers a tangible way for investors to align their portfolios with values related to environmental sustainability and responsible investing.",
+      "url": "https://etfdb.com/esg-content-hub/broad-based-large-cap-esg-exposure-see-cvlc/",
+      "source": "ETF Database",
+      "published": "20230321T053116",
+      "overall_sentiment_score": 0.302516,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.323329,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.741759
+    },
+    {
+      "title": "iShares MSCI USA Quality Factor ETF (QUAL) Stock Price, Holdings, Dividend Yield",
+      "summary": "This article provides a detailed overview of the iShares MSCI USA Quality Factor ETF (QUAL), including its stock price, key statistics, top holdings, dividend data, and historical performance. As of the latest N-PORT filing on 2025-07-31, QUAL holds 125 stocks with NVIDIA, Microsoft, and Apple as its top positions. The ETF has a current dividend yield of 0.94% and a P/E ratio of 26.81.",
+      "url": "https://www.gurufocus.com/etf/QUAL/summary",
+      "source": "GuruFocus",
+      "published": "20230403T044354",
+      "overall_sentiment_score": 0.261527,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.263753,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.849967
+    },
+    {
+      "title": "Live Nation head says ‘speculative ticketing’ to blame for difficulty with buying event tickets",
+      "summary": "Live Nation Entertainment President and Chief Financial Officer Joe Berchtold attributes difficulties in buying event tickets to \"speculative ticketing\" by secondary sellers. He explained that these sellers list tickets they don't yet possess and use bots to acquire them when sales officially open. Berchtold also highlighted Live Nation's push for a \"Fair Ticketing Act\" to combat these practices, make speculative ticketing illegal, and ensure transparent \"all-in pricing\" for consumers.",
+      "url": "https://thehill.com/blogs/in-the-know/in-the-know/3923844-live-nation-head-says-speculative-ticketing-to-blame-for-difficulty-with-buying-event-tickets/",
+      "source": "The Hill",
+      "published": "20230329T120800",
+      "overall_sentiment_score": -0.168191,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment_score": 0.017893,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.594504
+    },
+    {
+      "title": "Top and Flop ETFs of March",
+      "summary": "The U.S. stock market experienced extreme volatility in March, characterized by bank failures and a tech-driven rally. This article highlights the top and flop ETFs of the month, with technology and gold-related funds performing well, while regional bank and natural gas ETFs saw declines.",
+      "url": "https://www.nasdaq.com/articles/top-and-flop-etfs-of-march",
+      "source": "Nasdaq",
+      "published": "20230331T121500",
+      "overall_sentiment_score": 0.333202,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.324715,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.635328
+    }
+  ]
+}

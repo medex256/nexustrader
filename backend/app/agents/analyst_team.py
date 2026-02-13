@@ -113,25 +113,20 @@ Recommend relying on news sentiment and fundamental/technical analysis instead."
 
 def news_harvester_agent(state: dict):
     """
-    The News Harvester Agent using Alpha Vantage NEWS_SENTIMENT API.
-    Provides news with pre-calculated sentiment scores and article summaries.
+    The News Harvester Agent using Finnhub company news.
+    Finnhub free tier does not provide native sentiment, so the news tool attaches
+    a lightweight heuristic tone score/label for downstream consistency.
     """
-    from ..tools.news_tools import search_news_alpha_vantage
     
     ticker = state['ticker']
     
-    # 1. Get news with sentiment from Alpha Vantage
-    # Use horizon-based lookback: short=7d, medium=14d, long=30d
-    HORIZON_LOOKBACK = {
-        'short': 7,
-        'medium': 14,
-        'long': 30,
-    }
+    # Get news with unified 14-day lookback (independent of horizon for consistency).
+    # This ensures all experiments use the same news window regardless of forward-looking k.
+    UNIFIED_LOOKBACK_DAYS = 14
     simulated_date = state.get("simulated_date") or state.get("run_config", {}).get("simulated_date")
     horizon = state.get("horizon") or state.get("run_config", {}).get("horizon", "short")
-    lookback_days = HORIZON_LOOKBACK.get(horizon.lower(), 7)
     
-    articles = search_news_alpha_vantage(ticker, limit=50, as_of=simulated_date, lookback_days=lookback_days)
+    articles = search_news(ticker, limit=50, as_of=simulated_date, lookback_days=UNIFIED_LOOKBACK_DAYS)
     
     # 2. Store in shared context for other agents to reuse
     shared_context.set(f'news_articles_{ticker}', articles)
@@ -141,16 +136,21 @@ def news_harvester_agent(state: dict):
     # 2.1 Provenance/debug block for UI verification (compact)
     from datetime import datetime, timedelta
 
-    def _parse_av_time(value: str):
+    def _parse_published(value: str):
         if not value:
             return None
         v = value.strip()
+        # Support legacy AlphaVantage formats e.g. 20250103T153000/20250103T1530
         for fmt in ("%Y%m%dT%H%M%S", "%Y%m%dT%H%M"):
             try:
                 return datetime.strptime(v, fmt)
             except ValueError:
                 continue
-        return None
+        # Finnhub tool returns ISO-8601 strings
+        try:
+            return datetime.fromisoformat(v.replace("Z", "+00:00"))
+        except ValueError:
+            return None
 
     as_of_dt = None
     if simulated_date:
@@ -162,10 +162,10 @@ def news_harvester_agent(state: dict):
             except ValueError:
                 as_of_dt = None
 
-    window_start = (as_of_dt - timedelta(days=lookback_days)).date().isoformat() if as_of_dt else None
+    window_start = (as_of_dt - timedelta(days=UNIFIED_LOOKBACK_DAYS)).date().isoformat() if as_of_dt else None
     window_end = as_of_dt.date().isoformat() if as_of_dt else None
 
-    parsed_times = [t for t in (_parse_av_time(a.get("published", "")) for a in articles) if t is not None]
+    parsed_times = [t for t in (_parse_published(a.get("published", "")) for a in articles) if t is not None]
     min_pub = min(parsed_times).isoformat() if parsed_times else None
     max_pub = max(parsed_times).isoformat() if parsed_times else None
 
@@ -188,7 +188,7 @@ def news_harvester_agent(state: dict):
     state['provenance']['news'] = {
         'ticker': ticker,
         'as_of': simulated_date,
-        'lookback_days': lookback_days,
+        'lookback_days': UNIFIED_LOOKBACK_DAYS,
         'window_start': window_start,
         'window_end': window_end,
         'article_count': len(articles),
@@ -197,23 +197,29 @@ def news_harvester_agent(state: dict):
         'articles': compact_articles,
     }
     
-    print(f"[NEWS PROVENANCE] Added to state: as_of={simulated_date}, horizon={horizon}, lookback={lookback_days}d, window={window_start} to {window_end}, articles={len(articles)}, published range={min_pub} to {max_pub}")
+    print(f"[NEWS PROVENANCE] Added to state: as_of={simulated_date}, horizon={horizon}, lookback={UNIFIED_LOOKBACK_DAYS}d (unified), window={window_start} to {window_end}, articles={len(articles)}, published range={min_pub} to {max_pub}")
     
     # 3. Format news with sentiment for LLM
     news_summary = f"News Analysis for {ticker} ({len(articles)} articles):\n\n"
     
     for i, article in enumerate(articles[:10], 1):  # Top 10 articles
-        news_summary += f"{i}. [{article['ticker_sentiment_label']}] {article['title']}\n"
-        news_summary += f"   Source: {article['source']} | Sentiment: {article['ticker_sentiment_score']:.2f} | Relevance: {article['relevance_score']:.2f}\n"
-        news_summary += f"   Summary: {article['summary'][:150]}...\n\n"
+        news_summary += f"{i}. [{article.get('ticker_sentiment_label', 'Neutral')}] {article.get('title', '')}\n"
+        news_summary += (
+            "   Source: {source} | Tone: {score:.2f} | Relevance: {rel:.2f}\n".format(
+                source=article.get('source', ''),
+                score=float(article.get('ticker_sentiment_score', 0.0) or 0.0),
+                rel=float(article.get('relevance_score', 0.0) or 0.0),
+            )
+        )
+        news_summary += f"   Summary: {(article.get('summary') or '')[:150]}...\n\n"
     
     # Calculate average sentiment
     if articles:
-        avg_sentiment = sum(a['ticker_sentiment_score'] for a in articles) / len(articles)
-        bullish_count = sum(1 for a in articles if 'Bullish' in a['ticker_sentiment_label'])
-        bearish_count = sum(1 for a in articles if 'Bearish' in a['ticker_sentiment_label'])
+        avg_sentiment = sum(float(a.get('ticker_sentiment_score', 0.0) or 0.0) for a in articles) / len(articles)
+        bullish_count = sum(1 for a in articles if 'Bullish' in (a.get('ticker_sentiment_label') or ''))
+        bearish_count = sum(1 for a in articles if 'Bearish' in (a.get('ticker_sentiment_label') or ''))
     else:
-        avg_sentiment = 0
+        avg_sentiment = 0.0
         bullish_count = 0
         bearish_count = 0
     

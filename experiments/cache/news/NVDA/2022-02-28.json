@@ -1,0 +1,94 @@
+{
+  "ticker": "NVDA",
+  "date": "2022-02-28",
+  "lookback_days": 14,
+  "fetched_at": "2026-02-13T11:07:30.168880",
+  "source": "alpha_vantage",
+  "article_count": 7,
+  "articles": [
+    {
+      "title": "Use WGMI to Enter the Crypto Economy",
+      "summary": "The crypto economy is diversifying beyond direct Bitcoin ownership, with new ETFs like the Valkyrie Bitcoin Miners ETF (WGMI) offering access. WGMI focuses on bitcoin mining equities and is actively managed, allowing it to adapt to a nascent asset class with high growth potential. The ETF also incorporates a renewable energy overlay for its mining components, addressing environmental concerns associated with bitcoin mining.",
+      "url": "https://etfdb.com/crypto-channel/use-wgmi-to-enter-the-crypto-economy/",
+      "source": "ETF Database",
+      "published": "20220228T191624",
+      "overall_sentiment_score": 0.308192,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.345206,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.716232
+    },
+    {
+      "title": "Texas Instruments Inc. stock outperforms market despite losses on the day",
+      "summary": "Texas Instruments Inc. stock experienced a slight drop of 0.03% on a generally grim trading day for the market. Despite this loss, the company's shares outperformed major indices like the S&P 500 and Dow Jones Industrial Average, which fell more significantly. Texas Instruments also performed better than several of its competitors, with a trading volume exceeding its 50-day average.",
+      "url": "https://www.marketwatch.com/story/texas-instruments-inc-stock-outperforms-market-despite-losses-on-the-day-01645568747-8d6c18aecf85?gaa_at=eafs&gaa_n=AWEtsqdlMcET4-KuIcXsY8M1JWXoX6xOJdEk_vNf8PCh792SzT7AI5xySRIS&gaa_ts=6907ac9d&gaa_sig=UdGKy1m-HNVn24mzCMciYx50dyp55uUjLlfow0CpbHHhPIy-lyA8rargLdw1JRhqoKhn-bUAjTe9OnRjoBr7uQ%3D%3D",
+      "source": "MarketWatch",
+      "published": "20220222T172500",
+      "overall_sentiment_score": 0.076272,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.028754,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.712712
+    },
+    {
+      "title": "Nvidia Posts Record Sales Amid Broad Chip Demand",
+      "summary": "Nvidia Corp. reported record quarterly sales of $7.64 billion, a 53% increase from the previous year, and projected further growth. The graphics-chip maker also more than doubled its net income to $3 billion, surpassing Wall Street expectations for both profit and sales. This strong performance comes amidst broad chip demand, despite the company moving past its failed takeover bid for Arm Ltd.",
+      "url": "https://www.wsj.com/business/earnings/nvidia-posts-record-sales-amid-broad-chip-demand-11645048020?gaa_at=eafs&gaa_n=AWEtsqdtuXhb1eYb_x07vxJVQ9HprSieCfWzRVQtAYoGbZRY9g92JFQiCktV&gaa_ts=69079e78&gaa_sig=vezeqs3S8NZLFwt2TZSg4rW1_L4OZ6XQwRIYQ2Z_aTx3UMO_KaU84JId972wyti-RpXJRVE4JmTAFvCQp6sqww%3D%3D",
+      "source": "The Wall Street Journal",
+      "published": "20220216T175611",
+      "overall_sentiment_score": 0.507779,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment_score": 0.89782,
+      "ticker_sentiment_label": "Bullish",
+      "relevance_score": 1.0
+    },
+    {
+      "title": "Will Cisco Buy Splunk? Big Tech Bids $20 Billion on Public Company",
+      "summary": "Cisco Systems has reportedly offered $20 billion to acquire software company Splunk, aiming to expand its presence in the software industry. The potential acquisition faces regulatory hurdles and comes as Splunk navigates a leadership transition and business model shifts. Both companies' stocks reacted differently to the news, with Cisco's stock slightly down and Splunk's significantly up due to investor sentiment regarding financial backing.",
+      "url": "https://marketrealist.com/p/will-cisco-buy-splunk/",
+      "source": "Market Realist",
+      "published": "20220214T110900",
+      "overall_sentiment_score": -0.072567,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.007195,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.62661
+    },
+    {
+      "title": "Nvidia is set to spend at least $10B to secure its share of limited 5nm chip supply",
+      "summary": "Nvidia is reportedly planning to spend at least $10 billion to secure a significant share of TSMC's limited 5nm chip supply for its upcoming Ada Lovelace GPUs (RTX 40 series). This substantial investment is crucial for Nvidia to potentially achieve higher clock speeds and better power efficiency, giving them a competitive edge over rivals like AMD. The move highlights the intense competition among fabless companies for advanced chip manufacturing capacity, with Nvidia having already spent $9 billion on inventory and prepayments in a recent quarter.",
+      "url": "https://www.pcgamer.com/nvidia-is-set-to-spend-at-least-dollar10b-to-secure-its-share-of-limited-5nm-chip-supply/",
+      "source": "PC Gamer",
+      "published": "20220221T175612",
+      "overall_sentiment_score": 0.019115,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.031203,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.300312
+    },
+    {
+      "title": "Intel to Buy Israel’s Tower Semiconductor for $5.4 Billion",
+      "summary": "Intel Corp. has agreed to acquire Israel’s Tower Semiconductor Ltd. for $5.4 billion as part of CEO Pat Gelsinger’s strategy to expand into the outsourced chip-manufacturing business. This acquisition aims to enhance Intel's expertise and customer base in the chip-foundry market, directly competing with industry leaders like Taiwan Semiconductor Manufacturing Co. The deal is expected to close in about 12 months and is a key part of Intel's broader investment cycle to modernize its factories and rebuild manufacturing capabilities.",
+      "url": "https://www.datacenterknowledge.com/data-center-chips/intel-to-buy-israel-s-tower-semiconductor-for-5-4-billion",
+      "source": "Data Center Knowledge",
+      "published": "20220215T170702",
+      "overall_sentiment_score": 0.068449,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment_score": 0.100898,
+      "ticker_sentiment_label": "Neutral",
+      "relevance_score": 0.600838
+    },
+    {
+      "title": "Veritas NetBackup 10, IBM FlashSystem Cyber Vault And Rambus HBM3",
+      "summary": "This article discusses key announcements from Veritas, IBM, and Rambus in the technology sector. Veritas introduced NetBackup 10, an evolution in cloud-based data protection with enhanced features. IBM unveiled its FlashSystem Cyber Vault and new FlashSystems, while Rambus detailed its HBM3 high-performance memory.",
+      "url": "https://www.forbes.com/sites/tomcoughlin/2022/02/23/veritas-netbackup-10-ibm-flashsystem-cyber-vault-and-rambus-hbm3/",
+      "source": "Forbes",
+      "published": "20220223T074500",
+      "overall_sentiment_score": 0.34963,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment_score": 0.203603,
+      "ticker_sentiment_label": "Somewhat-Bullish",
+      "relevance_score": 0.620922
+    }
+  ]
+}

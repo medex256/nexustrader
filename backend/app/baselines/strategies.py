@@ -268,24 +268,30 @@ class RandomBaseline(BaselineStrategy):
     Baseline B4: Random (coinflip)
     Randomly choose BUY or SELL with 50/50 probability.
     Sanity check baseline (expected ~50% accuracy).
+    
+    Uses a deterministic per-call seed derived from hash(ticker + date)
+    so that results are reproducible across runs but vary across
+    different (ticker, date) combinations.
     """
     
     def __init__(self, seed: Optional[int] = None):
         super().__init__(name="Random")
-        self.seed = seed
-        if seed is not None:
-            import random
-            random.seed(seed)
+        self.base_seed = seed  # optional base seed mixed into per-call hash
     
     def generate_signal(
         self, 
         ticker: str, 
         simulated_date: Optional[str] = None
     ) -> Dict[str, Any]:
-        """Randomly choose BUY or SELL."""
+        """Randomly choose BUY or SELL (deterministic per ticker+date)."""
         
         import random
-        action = random.choice(["BUY", "SELL"])
+        import hashlib
+        # Build a deterministic seed from ticker + date (+ optional base_seed)
+        seed_str = f"{ticker}|{simulated_date or ''}|{self.base_seed or ''}"
+        seed_hash = int(hashlib.sha256(seed_str.encode()).hexdigest(), 16) % (2**32)
+        rng = random.Random(seed_hash)
+        action = rng.choice(["BUY", "SELL"])
         
         try:
             price_data = get_historical_price_data(ticker, period="5d", as_of=simulated_date)
@@ -337,7 +343,7 @@ def get_baseline(name: str) -> BaselineStrategy:
         'buy_hold': BuyAndHoldBaseline(),
         'sma': SMAcrossoverBaseline(),
         'rsi': RSIthresholdBaseline(),
-        'random': RandomBaseline(seed=42)
+        'random': RandomBaseline(seed=42),  # per-call seed from hash(ticker+date+42)
     }
     
     if name not in baselines:
