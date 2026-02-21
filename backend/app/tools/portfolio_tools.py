@@ -6,18 +6,29 @@ from datetime import datetime, timedelta
 from functools import lru_cache
 from ..utils.cache import cache_data
 
-@lru_cache(maxsize=1)
-def get_market_volatility_index():
+@cache_data(ttl_seconds=86400)
+def get_market_volatility_index(as_of: str = None):
     """
-    Returns the current value of the VIX (Market Volatility Index).
-    Cached to avoid redundant API calls during a single analysis run.
+    Returns VIX value.
+
+    - as_of (historical date): fetches VIX close on or before that date.
+      Fixes the data leakage bug where all historical runs used today's VIX.
+    - as_of = None (live UI): fetches latest VIX for real-time analysis.
     """
-    print("[CACHE MISS] Fetching market volatility index (VIX)...")
+    print(f"[VIX] Fetching VIX (as_of={as_of})...")
     try:
         vix = yf.Ticker("^VIX")
+        if as_of:
+            as_of_dt = datetime.fromisoformat(as_of)
+            start_date = as_of_dt - timedelta(days=7)  # buffer for weekends/holidays
+            hist = vix.history(start=start_date, end=as_of_dt + timedelta(days=1))
+            if not hist.empty:
+                close_price = float(hist['Close'].iloc[-1])
+                return f"{close_price:.2f}"
+        # Live fallback (as_of = None or no data found for historical date)
         hist = vix.history(period="1d")
         if not hist.empty:
-            close_price = hist['Close'].iloc[-1]
+            close_price = float(hist['Close'].iloc[-1])
             return f"{close_price:.2f}"
         return "20.00 (Default - Data Unavailable)"
     except Exception as e:

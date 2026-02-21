@@ -3,6 +3,7 @@ import matplotlib
 matplotlib.use('Agg')  # Use non-interactive backend for web server
 
 import yfinance as yf
+import pandas as pd
 import pandas_ta as ta
 import mplfinance as mpf
 import os
@@ -30,23 +31,57 @@ def get_historical_price_data(ticker: str, period: str = "1y", as_of: str = None
 
 def calculate_technical_indicators(price_data):
     """
-    Calculates a set of technical indicators from the price data.
+    Calculates a comprehensive set of technical indicators from the price data.
+    Includes RSI, SMA, MACD, Bollinger Bands, and volume analysis.
     """
     print("Calculating technical indicators...")
     if price_data.empty:
         return {}
-        
-    # Calculate RSI
-    price_data.ta.rsi(append=True)
-    
-    # Calculate moving averages
-    price_data.ta.sma(length=20, append=True)
-    price_data.ta.sma(length=50, append=True)
-    
-    # Return the latest indicator values
-    latest_indicators = price_data.iloc[-1][[col for col in price_data.columns if 'RSI' in col or 'SMA' in col]]
-    
-    return latest_indicators.to_dict()
+
+    df = price_data.copy()
+
+    # RSI (14-period)
+    df.ta.rsi(append=True)
+
+    # Moving Averages
+    df.ta.sma(length=20, append=True)
+    df.ta.sma(length=50, append=True)
+
+    # MACD (12, 26, 9)
+    df.ta.macd(append=True)
+
+    # Bollinger Bands (20-period, 2 std dev)
+    df.ta.bbands(length=20, append=True)
+
+    # --- Collect latest values for all indicator columns ---
+    latest = df.iloc[-1]
+    indicator_tags = ['RSI', 'SMA', 'MACD', 'BBL', 'BBM', 'BBU', 'BBB', 'BBP']
+    indicator_cols = [col for col in df.columns
+                      if any(tag in col for tag in indicator_tags)]
+
+    result = {}
+    for col in indicator_cols:
+        val = latest[col]
+        if pd.notna(val):
+            result[col] = round(float(val), 4)
+
+    # --- Volume analysis ---
+    if 'Volume' in df.columns and len(df) >= 20:
+        vol_sma_20 = df['Volume'].rolling(window=20).mean().iloc[-1]
+        latest_vol = float(df['Volume'].iloc[-1])
+        if pd.notna(vol_sma_20) and vol_sma_20 > 0:
+            result['Volume_SMA_20'] = round(float(vol_sma_20), 0)
+            result['Volume_Ratio'] = round(latest_vol / float(vol_sma_20), 2)
+
+    # --- Price context (5-day trend) ---
+    if len(df) >= 5:
+        last5_close = df['Close'].iloc[-5:]
+        result['price_trend_5d_pct'] = round(
+            float((last5_close.iloc[-1] / last5_close.iloc[0] - 1) * 100), 2
+        )
+        result['current_price'] = round(float(df['Close'].iloc[-1]), 2)
+
+    return result
 
 def plot_stock_chart(price_data, ticker: str):
     """

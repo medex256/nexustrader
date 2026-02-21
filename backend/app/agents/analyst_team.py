@@ -13,27 +13,76 @@ from ..llm import invoke_llm as call_llm
 from ..utils.shared_context import shared_context
 # from ..graph.state import AgentState # We will define this later
 
+
+def _extract_analyst_signal(analysis_text: str) -> dict:
+    """
+    Extract a structured directional signal from analyst prose using keyword scoring.
+
+    Zero extra LLM calls — uses frequency counting of bullish/bearish keywords.
+    Purpose: give debate agents a quick orientation (e.g. 'BEARISH 72%') before
+    reading 300 words of prose, fixing the 'raw dict dump' problem in prompts.
+    """
+    text = analysis_text.lower()
+
+    bullish_kw = [
+        'bullish', 'buy', 'uptrend', 'golden cross', 'strong', 'positive momentum',
+        'growth', 'outperform', 'upside', 'accumulate', 'beat', 'surge', 'rally',
+        'breakout', 'record high', 'upgrade', 'above',
+    ]
+    bearish_kw = [
+        'bearish', 'sell', 'downtrend', 'death cross', 'weak', 'negative', 'declining',
+        'underperform', 'downside', 'avoid', 'miss', 'drop', 'breakdown',
+        'concern', 'warning', 'downgrade', 'below', 'pressure', 'risk',
+    ]
+
+    bull_score = sum(text.count(kw) for kw in bullish_kw)
+    bear_score = sum(text.count(kw) for kw in bearish_kw)
+    total = bull_score + bear_score
+
+    if total == 0:
+        return {'direction': 'NEUTRAL', 'confidence': 0.5, 'key_factor': 'No clear directional signals'}
+    if bull_score > bear_score:
+        confidence = round(min(0.9, 0.5 + (bull_score - bear_score) / max(total, 1) * 0.5), 2)
+        return {'direction': 'BULLISH', 'confidence': confidence, 'key_factor': f'{bull_score} bullish vs {bear_score} bearish signals'}
+    elif bear_score > bull_score:
+        confidence = round(min(0.9, 0.5 + (bear_score - bull_score) / max(total, 1) * 0.5), 2)
+        return {'direction': 'BEARISH', 'confidence': confidence, 'key_factor': f'{bear_score} bearish vs {bull_score} bullish signals'}
+    return {'direction': 'NEUTRAL', 'confidence': 0.5, 'key_factor': 'Balanced bullish/bearish signals'}
+
+
 def fundamental_analyst_agent(state: dict):
     """
     The Fundamental Analyst Agent.
     """
     ticker = state['ticker']
     simulated_date = state.get('simulated_date')  # Get as_of date for point-in-time data
-    
+    horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
+    horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
+
+    # Horizon-specific focus instructions
+    _FUNDAMENTAL_HORIZON_FOCUS = {
+        'short': f'TRADING HORIZON: {horizon_days} days (short-term). Focus on: recent earnings surprise (beat/miss), QoQ revenue acceleration, any guidance revision, near-term catalysts. De-emphasise long-term valuation multiples.',
+        'medium': f'TRADING HORIZON: {horizon_days} days (medium-term). Balance: recent earnings trend, forward guidance, sector rotation, valuation vs growth rate.',
+        'long': f'TRADING HORIZON: {horizon_days} days (long-term). Focus on: multi-year revenue trajectory, competitive moat, balance-sheet strength, DCF valuation vs peers.',
+    }
+    horizon_focus = _FUNDAMENTAL_HORIZON_FOCUS.get(horizon, _FUNDAMENTAL_HORIZON_FOCUS['short'])
+
     # 1. Get the financial data using the tools (with proper date scoping)
     financial_statements = get_financial_statements(ticker, as_of=simulated_date)
     financial_ratios = get_financial_ratios(ticker, as_of=simulated_date)
     analyst_ratings = get_analyst_ratings(ticker, as_of=simulated_date)
-    
+
     # 2. Construct the prompt for the LLM
     prompt = f"""Conduct a fundamental analysis of {ticker}.
+
+{horizon_focus}
 
 Data provided:
 Financial Statements: {financial_statements}
 Financial Ratios: {financial_ratios}
 Analyst Ratings: {analyst_ratings}
 
-Analyze:
+Analyze (prioritise factors most relevant to the {horizon_days}-day horizon above):
 - Financial health: profitability, liquidity, solvency, efficiency
 - Red flags or concerns
 - Overall assessment
@@ -43,18 +92,23 @@ Structure:
 - **Profitability & Efficiency**: Margins, ROE, etc.
 - **Solvency & Liquidity**: Debt levels, current ratio.
 - **Valuation**: P/E, EV/EBITDA vs peers.
-- **Conclusion**: Fundamental strength assessment.
+- **Conclusion**: Fundamental strength assessment for the {horizon_days}-day horizon.
 
 Keep response structured and under 300 words."""
     
-    # 3. Call the LLM to generate the analysis
-    analysis_report = call_llm(prompt)
-    
-    # 4. Update the state
+    # 3. Call the LLM to generate the analysis (low temperature: factual data, not creativity)
+    analysis_report = call_llm(prompt, temperature=0.3)
+
+    # 4. Extract structured signal (zero extra LLM calls — keyword scoring)
+    if 'signals' not in state:
+        state['signals'] = {}
+    state['signals']['fundamental'] = _extract_analyst_signal(analysis_report)
+
+    # 5. Update the state
     if 'reports' not in state:
         state['reports'] = {}
     state['reports']['fundamental_analyst'] = analysis_report
-    
+
     return state
 
 def technical_analyst_agent(state: dict):
@@ -62,41 +116,55 @@ def technical_analyst_agent(state: dict):
     The Technical Analyst Agent.
     """
     ticker = state['ticker']
-    
+    horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
+    horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
+
+    # Horizon-specific technical focus
+    _TECHNICAL_HORIZON_FOCUS = {
+        'short': f'TRADING HORIZON: {horizon_days} days (short-term). Focus on: SMA crossovers (10/20-day), RSI momentum, MACD signal line, recent volume spikes, nearest support/resistance levels. Ignore 200-day SMA for entry timing.',
+        'medium': f'TRADING HORIZON: {horizon_days} days (medium-term). Focus on: 20/50-day SMA trend, RSI trend direction, MACD histogram, key chart patterns (flags, wedges). Balance short and medium momentum.',
+        'long': f'TRADING HORIZON: {horizon_days} days (long-term). Focus on: 50/200-day SMA, long-term trend channel, volume trend, major support/resistance zones. Short-term noise is less relevant.',
+    }
+    horizon_focus = _TECHNICAL_HORIZON_FOCUS.get(horizon, _TECHNICAL_HORIZON_FOCUS['short'])
+
     # 1. Get the technical data using the tools
     simulated_date = state.get("simulated_date") or state.get("run_config", {}).get("simulated_date")
     price_data = get_historical_price_data(ticker, "1y", as_of=simulated_date)
     indicators = calculate_technical_indicators(price_data)
-    
+
     # 2. Construct the prompt for the LLM
     prompt = f"""Perform technical analysis of {ticker}.
+
+{horizon_focus}
 
 Data provided:
 Technical Indicators: {indicators}
 
-Analyze:
+Analyze (weight indicators by their relevance to the {horizon_days}-day horizon above):
 - Price trends, support/resistance levels, chart patterns
 - Key technical indicators
 - Trading volume strength
-- Short-term price forecast
+- Price forecast for the next {horizon_days} trading days
 
 FORMAT: Use Markdown with `### Headers` and `- Bullet points`.
 Structure:
 - **Trend Analysis**: Moving averages, direction.
 - **Momentum**: RSI, MACD signals.
 - **Support/Resistance**: Key levels to watch.
-- **Forecast**: Short-term outlook (Bullish/Bearish/Neutral).
+- **Forecast**: {horizon_days}-day outlook (Bullish/Bearish/Neutral).
 
 Keep response structured and under 300 words."""
     
-    # 3. Call the LLM to generate the analysis
-    analysis_report = call_llm(prompt)
-    
-    # 4. Update the state
+    # 3. Call the LLM to generate the analysis (low temperature: factual indicators, not creativity)
+    analysis_report = call_llm(prompt, temperature=0.3)
 
+    # 4. Extract structured signal (zero extra LLM calls — keyword scoring)
+    state['signals']['technical'] = _extract_analyst_signal(analysis_report)
+
+    # 5. Update the state
     state['reports']['technical_analyst'] = analysis_report
     # state['stock_chart_image'] = chart_image_url # Removed legacy chart reference
-    
+
     return state
 
 def sentiment_analyst_agent(state: dict):
@@ -108,7 +176,9 @@ def sentiment_analyst_agent(state: dict):
 StockTwits API closed to new registrations and Twitter scraping is unreliable. 
 Recommend relying on news sentiment and fundamental/technical analysis instead."""
     
-    state['reports']['sentiment_analyst'] = placeholder_report
+    # NOTE: sentiment placeholder intentionally NOT added to state['reports'].
+    # The 'API unavailable' text was injecting noise into Bull/Bear debate prompts,
+    # causing researchers to debate a message about missing APIs instead of the stock.
     state['sentiment_metrics'] = {'bullish_pct': 0, 'bearish_pct': 0, 'neutral_pct': 0, 'total': 0}
     
     return state
@@ -225,8 +295,19 @@ def news_harvester_agent(state: dict):
         bullish_count = 0
         bearish_count = 0
     
+    # Horizon-specific news focus
+    horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
+    _NEWS_HORIZON_FOCUS = {
+        'short': f'TRADING HORIZON: {horizon_days} days. Prioritise: news from the last 3-5 days, earnings announcements, analyst upgrades/downgrades, product launches. Flag any event that could move the price within {horizon_days} days.',
+        'medium': f'TRADING HORIZON: {horizon_days} days. Prioritise: earnings trends, macro headwinds, sector news, regulatory updates. Weight recent news more but also note scheduled events in the coming weeks.',
+        'long': f'TRADING HORIZON: {horizon_days} days. Prioritise: structural trends, management changes, multi-quarter revenue trends, industry disruption signals. Recent daily news is less relevant than sustained narrative shifts.',
+    }
+    horizon_focus = _NEWS_HORIZON_FOCUS.get(horizon, _NEWS_HORIZON_FOCUS['short'])
+
     # 4. Construct the prompt for the LLM
     prompt = f"""Analyze latest news for {ticker}.
+
+{horizon_focus}
 
 {news_summary}
 
@@ -235,9 +316,9 @@ News Sentiment Summary:
 - Bullish articles: {bullish_count}
 - Bearish articles: {bearish_count}
 
-Provide:
+Provide (prioritise catalysts most likely to impact price in the next {horizon_days} days):
 - Key catalysts and events
-- Sentiment trend assessment  
+- Sentiment trend assessment
 - Market-moving developments
 - Risk factors from news
 
@@ -250,10 +331,13 @@ Structure:
 
 Keep response structured and under 250 words."""
     
-    # 5. Call the LLM to generate the analysis
-    analysis_report = call_llm(prompt)
-    
-    # 6. Update the state
+    # 5. Call the LLM to generate the analysis (low temperature: factual news reporting)
+    analysis_report = call_llm(prompt, temperature=0.3)
+
+    # 6. Extract structured signal (zero extra LLM calls — keyword scoring)
+    state['signals']['news'] = _extract_analyst_signal(analysis_report)
+
+    # 7. Update the state
     state['reports']['news_harvester'] = analysis_report
     state['news_sentiment'] = {
         'average_score': avg_sentiment,

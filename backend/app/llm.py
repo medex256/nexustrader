@@ -55,6 +55,10 @@ def invoke_llm(
     """
     client = _get_client()
 
+    # NOTE: max_output_tokens is intentionally NOT set.
+    # TradingAgents (reference impl) also leaves it unlimited.
+    # Gemini default (~8192 tokens) gives agents full room to reason.
+    # Setting a lower cap would risk truncating judge decisions mid-sentence.
     config = types.GenerateContentConfig(
         temperature=temperature,
         thinking_config=types.ThinkingConfig(thinking_level=thinking_level),

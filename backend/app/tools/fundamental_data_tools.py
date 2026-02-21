@@ -113,6 +113,57 @@ def _get_yfinance_live_statements(ticker: str) -> dict[str, Any]:
                 quarterly_reports.append(report)
         
         return {
+            "symbol": ticker,
+            "annualReports": annual_reports,
+            "quarterlyReports": quarterly_reports,
+            "source": "yfinance_live",
+        }
+    except Exception as e:
+        return {
+            "symbol": ticker,
+            "annualReports": [],
+            "quarterlyReports": [],
+            "error": f"yfinance fetch failed: {str(e)}",
+        }
+
+
+@cache_data(ttl_seconds=3600)
+def get_financial_statements(ticker: str, as_of: str | None = None) -> dict[str, Any]:
+    """
+    Get income statement for a ticker.
+
+    HYBRID APPROACH:
+    - If as_of is historical date → Use frozen Alpha Vantage data
+    - If as_of is None/today → Use yfinance live
+
+    Args:
+        ticker: Stock ticker symbol
+        as_of: ISO date string for point-in-time data
+
+    Returns:
+        Income statement data with annualReports and quarterlyReports
+    """
+    if not _is_historical_date(as_of):
+        return _get_yfinance_live_statements(ticker)
+
+    data = _load_frozen_fundamentals(ticker, "income_statement")
+
+    if data is None:
+        return {
+            "symbol": ticker,
+            "annualReports": [],
+            "quarterlyReports": [],
+            "error": "No cached fundamental data. Run freeze_fundamentals.py first.",
+        }
+
+    return {
+        "symbol": data.get("symbol", ticker),
+        "annualReports": _filter_by_date(data.get("annualReports", []), as_of),
+        "quarterlyReports": _filter_by_date(data.get("quarterlyReports", []), as_of),
+        "source": "alpha_vantage_frozen",
+    }
+
+
 def _get_yfinance_live_balance_sheet(ticker: str) -> dict[str, Any]:
     """Fetch current balance sheet from yfinance."""
     try:
@@ -184,29 +235,10 @@ def get_balance_sheet(ticker: str, as_of: str | None = None) -> dict[str, Any]:
         "symbol": data.get("symbol", ticker),
         "annualReports": _filter_by_date(data.get("annualReports", []), as_of),
         "quarterlyReports": _filter_by_date(data.get("quarterlyReports", []), as_of),
-        "source": "alpha_vantage_frozen"ive"
-        }
-    """
-    # For current/live data, use yfinance
-    if not _is_historical_date(as_of):
-        return _get_yfinance_live_statements(ticker)
-    
-    # For historical data, use frozen Alpha Vantage
-    data = _load_frozen_fundamentals(ticker, "income_statement")
-    
-    if data is None:
-        return {
-            "symbol": ticker,
-            "annualReports": [],
-            "quarterlyReports": [],
-            "error": "No cached fundamental data. Run freeze_fundamentals.py first.",
-        }
-    
-    return {
-        "symbol": data.get("symbol", ticker),
-        "annualReports": _filter_by_date(data.get("annualReports", []), as_of),
-        "quarterlyReports": _filter_by_date(data.get("quarterlyReports", []), as_of),
         "source": "alpha_vantage_frozen",
+    }
+
+
 def _get_yfinance_live_cashflow(ticker: str) -> dict[str, Any]:
     """Fetch current cash flow from yfinance."""
     try:
@@ -249,23 +281,23 @@ def _get_yfinance_live_cashflow(ticker: str) -> dict[str, Any]:
 def get_cash_flow(ticker: str, as_of: str | None = None) -> dict[str, Any]:
     """
     Get cash flow statement for a ticker.
-    
+
     HYBRID APPROACH:
     - If as_of is historical date → Use frozen Alpha Vantage data
     - If as_of is None/today → Use yfinance live
-    
+
     Args:
         ticker: Stock ticker symbol
         as_of: ISO date string for point-in-time data
-    
+
     Returns:
         Cash flow data with annualReports and quarterlyReports
     """
     if not _is_historical_date(as_of):
         return _get_yfinance_live_cashflow(ticker)
-    
+
     data = _load_frozen_fundamentals(ticker, "cash_flow")
-    
+
     if data is None:
         return {
             "symbol": ticker,
@@ -273,51 +305,12 @@ def get_cash_flow(ticker: str, as_of: str | None = None) -> dict[str, Any]:
             "quarterlyReports": [],
             "error": "No cached fundamental data. Run freeze_fundamentals.py first.",
         }
-    
+
     return {
         "symbol": data.get("symbol", ticker),
         "annualReports": _filter_by_date(data.get("annualReports", []), as_of),
         "quarterlyReports": _filter_by_date(data.get("quarterlyReports", []), as_of),
-        "source": "alpha_vantage_frozen"
-        "symbol": data.get("symbol", ticker),
-        "annualReports": _filter_by_date(data.get("annualReports", []), as_of),
-        "quarterlyReports": _filter_by_date(data.get("quarterlyReports", []), as_of),
-    }
-
-
-@cache_data(ttl_seconds=3600)
-def get_cash_flow(ticker: str, as_of: str | None = None) -> dict[str, Any]:
-    """
-    Get cash flow statement for a ticker, filtered by as_of date.
-    
-    Returns both annual and quarterly reports, sorted by date descending.
-    Only returns reports with fiscalDateEnding <= as_of.
-    
-    Args:
-        ticker: Stock ticker symbol
-        as_of: ISO date string for point-in-time data (e.g., '2021-11-15')
-    
-    Returns:
-        {
-            "symbol": str,
-            "annualReports": list[dict],    # Filtered and sorted
-            "quarterlyReports": list[dict],  # Filtered and sorted
-        }
-    """
-    data = _load_frozen_fundamentals(ticker, "cash_flow")
-    
-    if data is None:
-        return {
-            "symbol": ticker,
-            "annualReports": [],
-            "quarterlyReports": [],
-            "error": "No cached fundamental data. Run freeze_fundamentals.py first.",
-        }
-    
-    return {
-        "symbol": data.get("symbol", ticker),
-        "annualReports": _filter_by_date(data.get("annualReports", []), as_of),
-        "quarterlyReports": _filter_by_date(data.get("quarterlyReports", []), as_of),
+        "source": "alpha_vantage_frozen",
     }
 
 

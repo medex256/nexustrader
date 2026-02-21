@@ -4,6 +4,44 @@ from ..llm import invoke_llm as call_llm, invoke_llm_deep
 from ..utils.memory import get_memory
 
 
+def _format_reports_for_debate(state: dict) -> str:
+    """
+    Formats analyst outputs for debate agent prompts.
+
+    FIX for 'raw dict dump' flaw: previously `{reports}` rendered as an ugly
+    Python repr string (e.g. `{'fundamental_analyst': '### ...\\n...', ...}`)
+    with escaped newlines, making it very hard for the LLM to parse.
+
+    Now shows:
+    1. Structured signal summary first (quick orientation for the debater)
+    2. Full prose reports formatted as clean markdown (for detailed context)
+    """
+    signals = state.get('signals', {})
+    reports = state.get('reports', {})
+
+    lines = ["**ANALYST SIGNAL SUMMARY** (keyword-scored — see full reports below)"]
+    for key, label in [('fundamental', 'Fundamental'), ('technical', 'Technical'), ('news', 'News/Sentiment')]:
+        if key in signals:
+            s = signals[key]
+            lines.append(
+                f"- **{label}**: {s.get('direction', 'N/A')} "
+                f"({s.get('confidence', 0.5):.0%} confidence) — {s.get('key_factor', '')}"
+            )
+        else:
+            lines.append(f"- **{label}**: No signal available")
+
+    lines.append("\n**DETAILED ANALYST REPORTS**")
+    for key, label in [
+        ('fundamental_analyst', 'Fundamental Analysis'),
+        ('technical_analyst', 'Technical Analysis'),
+        ('news_harvester', 'News Analysis'),
+    ]:
+        if key in reports:
+            lines.append(f"\n### {label}\n{reports[key]}")
+
+    return "\n".join(lines)
+
+
 def bull_researcher_agent(state: dict):
     """
     The Bull Researcher Agent - Builds bullish arguments in a debate format.
@@ -47,9 +85,8 @@ def bull_researcher_agent(state: dict):
 [TECHNICAL ANALYSIS]
 {reports.get('technical_analyst', 'N/A')[:800]}
 
-[SENTIMENT & NEWS]
-Sentiment: {reports.get('sentiment_analyst', 'N/A')[:500]}
-News: {reports.get('news_harvester', 'N/A')[:500]}
+[NEWS]
+{reports.get('news_harvester', 'N/A')[:500]}
 """
             
             # Get similar past analyses
@@ -79,10 +116,17 @@ Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
             print(f"[MEMORY] Warning: Could not query memory: {str(e)}")
             memory_context = ""
     
+    # Horizon context for debate agents
+    horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
+    horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
+    horizon_context = f"TRADING HORIZON: {horizon_days} days ({horizon}-term). Tailor ALL arguments to catalysts and risks relevant within this window. For short-term, weight technical momentum and news over long-term valuation."
+
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 0:
         # First round - opening argument with cross-examination prep
         prompt = f"""You are a Bull Analyst advocating for investing in {ticker}. Build a strong, evidence-based case that anticipates and pre-empts bearish counterarguments.
+
+{horizon_context}
 
 **CROSS-EXAMINATION RULES:**
 1. Support EVERY claim with specific data (numbers, dates, sources)
@@ -97,7 +141,7 @@ Focus on:
 {f"- Learn from past analyses - what worked and what didn't" if memory_context else ""}
 
 Analysis Reports:
-{reports}
+{_format_reports_for_debate(state)}
 {memory_context}
 
 FORMAT: Use Markdown headers and bullet points.
@@ -113,6 +157,8 @@ Keep response under 400 words. Start with "Bull Researcher:"."""
         # Subsequent rounds - cross-examination with direct rebuttal
         prompt = f"""You are the Bull Analyst in a debate about {ticker}. Cross-examine the Bear's arguments by directly challenging their evidence and logic.
 
+{horizon_context}
+
 **CROSS-EXAMINATION REQUIREMENTS:**
 1. **Quote Specific Claims**: Cite 2-3 exact statements from the Bear that you're rebutting
 2. **Expose Contradictions**: Point out logical flaws or inconsistencies in their argument
@@ -121,7 +167,7 @@ Keep response under 400 words. Start with "Bull Researcher:"."""
 5. **No Generic Rebuttals**: Every counterpoint must reference a specific Bear claim
 
 Analysis Reports:
-{reports}
+{_format_reports_for_debate(state)}
 
 Bear's Arguments:
 {bear_history}
@@ -204,10 +250,17 @@ Past Mistake {i}:
             print(f"[MEMORY] Warning: Could not query memory: {str(e)}")
             memory_context = ""
     
+    # Horizon context for bear debate
+    horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
+    horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
+    horizon_context = f"TRADING HORIZON: {horizon_days} days ({horizon}-term). Tailor ALL arguments to risks that could materialise within this window. For short-term, weight technical breakdowns and near-term news risks over long-term structural concerns."
+
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 1:
         # First response - cross-examine bull's opening argument
         prompt = f"""You are a Bear Analyst cross-examining the bullish case for {ticker}. Systematically challenge the Bull's evidence and expose flaws in their logic.
+
+{horizon_context}
 
 **CROSS-EXAMINATION REQUIREMENTS:**
 1. **Quote Specific Bull Claims**: Cite 2-3 exact statements from the Bull that you're challenging
@@ -223,7 +276,7 @@ Focus on:
 {f"- Learn from past mistakes - what risks were underestimated" if memory_context else ""}
 
 Analysis Reports:
-{reports}
+{_format_reports_for_debate(state)}
 
 Bull's Argument:
 {bull_history}
@@ -244,6 +297,8 @@ Keep response under 400 words. Start with "Bear Researcher:"."""
         # Subsequent rounds - cross-examination with direct counter-rebuttal
         prompt = f"""You are the Bear Analyst in a debate about {ticker}. Cross-examine the Bull's latest defense by exposing weaknesses in their rebuttals.
 
+{horizon_context}
+
 **CROSS-EXAMINATION REQUIREMENTS:**
 1. **Quote Bull's Rebuttals**: Cite 2-3 specific defenses the Bull just made
 2. **Expose Rebuttal Flaws**: Show where Bull's counterarguments fail or contradict evidence
@@ -252,7 +307,7 @@ Keep response under 400 words. Start with "Bear Researcher:"."""
 5. **No Repetition**: Don't just restate old arguments - escalate with new facts
 
 Analysis Reports:
-{reports}
+{_format_reports_for_debate(state)}
 
 Bull's Arguments:
 {bull_history}
@@ -300,18 +355,21 @@ def research_manager_agent(state: dict):
     bull_arguments = debate_state.get('bull_history', '')
     bear_arguments = debate_state.get('bear_history', '')
     
+    # Horizon for the judge
+    horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
+    horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
+
     # 1. Construct the prompt for the LLM
     prompt = f"""As the portfolio manager, evaluate this debate and make a definitive decision: Buy, Sell, or Hold.
 
+TRADING HORIZON: {horizon_days} days ({horizon}-term). Your recommendation must be appropriate for this specific window. Weight arguments relevant to {horizon_days}-day price movement more heavily than long-term theses.
+
 Decision rule:
-- Default to BUY or SELL when there is any directional edge.
-- Use HOLD only if you can name at least two specific unresolved blockers that materially prevent a directional call.
+- Default to BUY or SELL when there is any directional edge over the next {horizon_days} days.
+- Use HOLD only if you can name at least two specific unresolved blockers that materially prevent a directional call within {horizon_days} days.
 - If uncertainty is moderate, recommend a smaller / phased execution approach rather than HOLD.
 
-Analysis Reports:
-{reports}
-
-Complete Debate:
+Complete Debate (contains all analyst evidence referenced by Bull and Bear):
 {debate_history}
 
 Deliverables:

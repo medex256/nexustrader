@@ -65,8 +65,8 @@ def aggressive_risk_analyst(state: dict):
     if rm_action != "UNKNOWN" and rm_action != trader_action:
         disagreement_note = f"\n\n⚠️ IMPORTANT DISAGREEMENT: Research Manager recommended {rm_action}, but the Trader independently decided {trader_action}. This disagreement is a key signal — address which side has better reasoning.\n"
     
-    # Get market context
-    volatility_index = get_market_volatility_index()
+    # Get market context (as_of scopes VIX to historical date — fixes data leakage)
+    volatility_index = get_market_volatility_index(as_of=simulated_date)
     ticker_risk = calculate_ticker_risk_metrics(ticker, as_of=simulated_date)
     
     # Get other analysts' arguments to respond to
@@ -106,13 +106,13 @@ Strategy: {action}
 Market Context: VIX {volatility_index}, Risk {ticker_risk}
 
 Conservative Analyst argued:
-{conservative_last[-800:] if conservative_last else "N/A"}
+{conservative_last if conservative_last else "N/A"}
 
 Neutral Analyst argued:
-{neutral_last[-800:] if neutral_last else "N/A"}
+{neutral_last if neutral_last else "N/A"}
 
 Your Previous Points:
-{debate_state.get('aggressive_history', '')[-500:]}
+{debate_state.get('aggressive_history', '')}
 
 Counter their caution with specific rebuttals:
 - Where are they being overly risk-averse?
@@ -156,8 +156,8 @@ def conservative_risk_analyst(state: dict):
     if rm_action != "UNKNOWN" and rm_action != trader_action:
         disagreement_note = f"\n\n⚠️ IMPORTANT DISAGREEMENT: Research Manager recommended {rm_action}, but the Trader independently decided {trader_action}. This disagreement is a key signal — address whether the Trader is taking on too much risk.\n"
     
-    # Get market context
-    volatility_index = get_market_volatility_index()
+    # Get market context (as_of scopes VIX to historical date — fixes data leakage)
+    volatility_index = get_market_volatility_index(as_of=simulated_date)
     ticker_risk = calculate_ticker_risk_metrics(ticker, as_of=simulated_date)
     
     # Get other analysts' arguments
@@ -181,7 +181,7 @@ Strategy Details:
 {strategy}
 
 Aggressive Analyst argued:
-{aggressive_last[-800:] if aggressive_last else "N/A"}
+{aggressive_last if aggressive_last else "N/A"}
 
 Your Task:
 {"Defend the HOLD recommendation - explain why action is RISKY right now." if action == "HOLD" else f"Challenge the {action} recommendation - what could go WRONG?"}
@@ -201,13 +201,13 @@ Strategy: {action}
 Market Context: VIX {volatility_index}, Risk {ticker_risk}
 
 Aggressive Analyst argued:
-{aggressive_last[-800:] if aggressive_last else "N/A"}
+{aggressive_last if aggressive_last else "N/A"}
 
 Neutral Analyst argued:
-{neutral_last[-800:] if neutral_last else "N/A"}
+{neutral_last if neutral_last else "N/A"}
 
 Your Previous Points:
-{debate_state.get('conservative_history', '')[-500:]}
+{debate_state.get('conservative_history', '')}
 
 Rebut their optimism with specific risks:
 - Where are they underestimating downside?
@@ -251,8 +251,8 @@ def neutral_risk_analyst(state: dict):
     if rm_action != "UNKNOWN" and rm_action != trader_action:
         disagreement_note = f"\n\n⚠️ IMPORTANT DISAGREEMENT: Research Manager recommended {rm_action}, but the Trader independently decided {trader_action}. Evaluate which side has stronger evidence.\n"
     
-    # Get market context
-    volatility_index = get_market_volatility_index()
+    # Get market context (as_of scopes VIX to historical date — fixes data leakage)
+    volatility_index = get_market_volatility_index(as_of=simulated_date)
     ticker_risk = calculate_ticker_risk_metrics(ticker, as_of=simulated_date)
     
     # Get other analysts' arguments
@@ -274,13 +274,13 @@ Strategy Details:
 {strategy}
 
 Aggressive Analyst argued:
-{aggressive_last[-800:] if aggressive_last else "N/A"}
+{aggressive_last if aggressive_last else "N/A"}
 
 Conservative Analyst argued:
-{conservative_last[-800:] if conservative_last else "N/A"}
+{conservative_last if conservative_last else "N/A"}
 
 Your Previous Points:
-{debate_state.get('neutral_history', '')[-500:] if debate_state.get('neutral_history') else "N/A"}
+{debate_state.get('neutral_history', '') if debate_state.get('neutral_history') else "N/A"}
 
 Your Task:
 Evaluate both sides and propose a BALANCED solution.
@@ -321,8 +321,8 @@ def risk_management_agent(state: dict):
     run_config = state.get("run_config", {})
     simulated_date = state.get("simulated_date") or run_config.get("simulated_date")
     
-    # Get market context
-    volatility_index = get_market_volatility_index()
+    # Get market context (as_of scopes VIX to historical date — fixes data leakage)
+    volatility_index = get_market_volatility_index(as_of=simulated_date)
     ticker_risk = calculate_ticker_risk_metrics(ticker, as_of=simulated_date)
     
     if 'risk_reports' not in state:

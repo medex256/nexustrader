@@ -48,6 +48,7 @@ class AgentState(TypedDict):
     horizon: str  # "short"|"medium"|"long"
     horizon_days: int  # 10|21|126
     reports: Dict[str, str]
+    signals: Dict[str, Any]  # Structured signals: {fundamental, technical, news} → {direction, confidence, key_factor}
     stock_chart_image: Any  # This could be a path to an image or image data
     sentiment_score: float
     
