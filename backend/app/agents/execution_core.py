@@ -152,12 +152,18 @@ Current Market Price: {current_price_str}
 INSTRUCTIONS:
 1. Evaluate the Research Manager's plan critically. Do you agree with the direction?
 2. Make YOUR OWN decision: BUY, SELL, or HOLD for the next {horizon_days} trading days.
-3. IF BUY/SELL: Set 'entry_price' CLOSE to the Current Market Price ({current_price_str}).
+3. Use qualitative judgement to decide BUY/SELL/HOLD:
+    - Prefer BUY or SELL when one direction has clearer, catalyst-backed evidence for this horizon.
+    - For SHORT horizon specifically, weight technical/news catalysts more than long-horizon valuation narratives.
+    - Use HOLD only when evidence is genuinely mixed, contradictory, or too weak to justify directional conviction.
+    - Assign an internal confidence level (HIGH/MEDIUM/LOW) and make sure the chosen action matches that confidence.
+4. IF BUY/SELL: Set 'entry_price' CLOSE to the Current Market Price ({current_price_str}).
    - For LONG (Buy): Take Profit > Entry > Stop Loss.
    - For SHORT (Sell): Stop Loss > Entry > Take Profit.
-4. HOLD is valid when evidence is genuinely mixed, but prefer a directional call
-   with smaller position_size_pct (5-15%) over HOLD when there is any edge.
-5. If you DISAGREE with the Research Manager, explain why in rationale.
+5. Make YOUR OWN independent decision. You may agree or disagree with the Research Manager.
+6. HOLD is an abstention class. Use it only when directional edge is genuinely weak.
+7. Do NOT reverse direction from the plan unless you cite at least 1 concrete contradictory fact.
+8. If you DISAGREE with the Research Manager, explain why in rationale.
 
 Return ONLY valid JSON (no commentary or Markdown) in this exact schema:
 {{
@@ -166,10 +172,10 @@ Return ONLY valid JSON (no commentary or Markdown) in this exact schema:
     "take_profit": <number>,
     "stop_loss": <number>,
     "position_size_pct": <number>,
-    "rationale": "<your reasoning in 1-2 sentences>"
+    "rationale": "<3-5 sentences. Include: confidence band (HIGH/MEDIUM/LOW), exactly 2-3 strongest supporting facts for this horizon, and why the opposite side was rejected>"
 }}
 
-Keep response under 200 words."""
+Keep response under 380 words."""
     
     # 2. Call the LLM to generate the strategy
     strategy_response = call_llm(prompt)

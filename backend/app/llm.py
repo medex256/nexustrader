@@ -8,14 +8,12 @@ from google.genai import types
 # Load environment variables
 load_dotenv()
 
-# ── Two-tier thinking levels ─────────────────────────────────────────────
-# Gemini 3 Flash supports: minimal | low | medium | high
-#   "low"  → fast analysts / signal extraction  (~quick_think)
-#   "high" → judges / complex reasoning          (~deep_think)
+# Temporary model switch: use plain Gemini 2.5 Flash for all calls.
+# Keep function signatures stable, but do not pass thinking config.
 DEFAULT_THINKING_LEVEL = "low"
 
 # Model name
-MODEL_NAME = "gemini-3-flash-preview"
+MODEL_NAME = "gemini-2.5-flash"
 
 # Singleton client (created on first call)
 _client: genai.Client | None = None
@@ -40,13 +38,11 @@ def invoke_llm(
     max_retries: int = 3,
 ) -> str:
     """
-    Invokes Gemini 3 Flash with two-tier thinking.
+    Invokes Gemini 2.5 Flash.
 
     Args:
         prompt: The prompt to send to the language model.
-        thinking_level: "minimal" | "low" | "medium" | "high"
-                        Use "high" for judges (Research Manager, Risk Manager).
-                        Use "low" for analysts, researchers, signal extraction.
+        thinking_level: Kept for backward compatibility; ignored for Gemini 2.5 Flash.
         temperature: Sampling temperature (default 1.0).
         max_retries: Maximum number of retry attempts for rate limits.
 
@@ -56,12 +52,9 @@ def invoke_llm(
     client = _get_client()
 
     # NOTE: max_output_tokens is intentionally NOT set.
-    # TradingAgents (reference impl) also leaves it unlimited.
-    # Gemini default (~8192 tokens) gives agents full room to reason.
-    # Setting a lower cap would risk truncating judge decisions mid-sentence.
+    # Keep defaults to avoid truncating agent outputs.
     config = types.GenerateContentConfig(
         temperature=temperature,
-        thinking_config=types.ThinkingConfig(thinking_level=thinking_level),
     )
 
     for attempt in range(max_retries + 1):

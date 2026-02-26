@@ -32,6 +32,40 @@ from .execution_core import extract_signal
 # RISK DEBATE AGENTS (NEW: Feb 11, 2026)
 # ==============================================================================
 
+def _format_reports_for_risk_debate(state: dict) -> str:
+    """
+    Provide risk debaters with the same analyst evidence context used upstream.
+    This aligns risk debate behavior with the reference architecture.
+    """
+    signals = state.get("signals", {}) or {}
+    reports = state.get("reports", {}) or {}
+
+    lines = ["**ANALYST SIGNAL SUMMARY**"]
+    for key, label in [
+        ("fundamental", "Fundamental"),
+        ("technical", "Technical"),
+        ("news", "News/Sentiment"),
+    ]:
+        if key in signals:
+            s = signals[key]
+            lines.append(
+                f"- **{label}**: {s.get('direction', 'N/A')} "
+                f"({s.get('confidence', 0.5):.0%} confidence) — {s.get('key_factor', '')}"
+            )
+        else:
+            lines.append(f"- **{label}**: No signal available")
+
+    lines.append("\n**DETAILED ANALYST REPORTS**")
+    for key, label in [
+        ("fundamental_analyst", "Fundamental Analysis"),
+        ("technical_analyst", "Technical Analysis"),
+        ("news_harvester", "News Analysis"),
+    ]:
+        if key in reports and reports.get(key):
+            lines.append(f"\n### {label}\n{reports[key]}")
+
+    return "\n".join(lines)
+
 def aggressive_risk_analyst(state: dict):
     """
     The Aggressive Risk Analyst - Advocates for taking calculated risks.
@@ -85,6 +119,9 @@ Market Context:
 - VIX: {volatility_index}
 - Ticker Risk: {ticker_risk}
 
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
+
 Strategy Details:
 {strategy}
 
@@ -104,6 +141,9 @@ Be direct and persuasive. Challenge conservative thinking. Start with "Aggressiv
 
 Strategy: {action}
 Market Context: VIX {volatility_index}, Risk {ticker_risk}
+
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
 
 Conservative Analyst argued:
 {conservative_last if conservative_last else "N/A"}
@@ -177,6 +217,9 @@ Market Context:
 - VIX: {volatility_index}
 - Ticker Risk: {ticker_risk}
 
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
+
 Strategy Details:
 {strategy}
 
@@ -199,6 +242,9 @@ Be rigorous and risk-aware. Start with "Conservative Analyst:"."""
 
 Strategy: {action}
 Market Context: VIX {volatility_index}, Risk {ticker_risk}
+
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
 
 Aggressive Analyst argued:
 {aggressive_last if aggressive_last else "N/A"}
@@ -269,6 +315,9 @@ Research Manager recommended: {rm_action}
 Market Context:
 - VIX: {volatility_index}
 - Ticker Risk: {ticker_risk}
+
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
 
 Strategy Details:
 {strategy}
@@ -366,18 +415,29 @@ Your Task:
 1. **Summarize** key points from each analyst (aggressive/conservative/neutral)
 2. **Evaluate the RM vs Trader disagreement** (if any) — who has better reasoning?
 3. **Make Final Decision**: BUY, SELL, or HOLD
-   - You CAN override both the Research Manager AND the Trader if the debate surfaces critical flaws
+    - Primary role: calibrate risk (position size, stop loss, take profit) while preserving valid directional edge.
+    - You CAN override both the Research Manager AND the Trader only if the debate surfaces concrete contradictory evidence that invalidates the current thesis.
    - HOLD is valid when conviction is genuinely low or risk/reward is unclear
-   - BUY and SELL require clear directional conviction supported by at least 2 analysts
+    - BUY and SELL require clear directional conviction from specific, near-term evidence (not analyst vote counting)
 4. **Adjust Strategy** (if changing from Trader's decision):
    - Position size (% of portfolio)
    - Stop loss / Take profit levels
 
+Before final action, explicitly state:
+- Confidence band (HIGH / MEDIUM / LOW), and
+- Main near-term catalysts and risks
+
 Decision Rules:
-- If RM and Trader agree + 2 of 3 analysts agree → high conviction, go with it
-- If RM and Trader disagree → weigh the debate carefully, side with stronger evidence
-- If all 3 analysts raise significant concerns → override to HOLD
-- If evidence is genuinely mixed → HOLD is appropriate
+- If RM and Trader agree on BUY and no concrete invalidation appears in debate → keep BUY and calibrate risk parameters
+- If RM and Trader agree on SELL and no concrete invalidation appears in debate → keep SELL and calibrate risk parameters
+- If RM and Trader disagree → weigh debate carefully; the side with more specific evidence wins
+- Prefer directional BUY/SELL when one side has clearer catalyst-backed evidence for this horizon
+- HOLD only when evidence is genuinely mixed, contradictory, or too weak to justify directional conviction
+- Apply weak-evidence logic symmetrically: weak BUY and weak SELL should both downgrade to HOLD
+- Do NOT reverse direction (SELL→BUY or BUY→SELL) unless at least 2 concrete contradictory facts invalidate the original thesis
+- If conviction drops but invalidation is incomplete, downgrade to HOLD rather than reversing direction
+- If directional evidence is specific and catalyst-backed, preserve BUY/SELL
+- For SHORT horizon, weight technical/news triggers above long-term valuation narratives
 
 Format:
 ## Risk Manager Final Decision
@@ -386,14 +446,18 @@ Format:
 **Trader Decided**: {trader_action}
 **Final Decision**: [BUY/SELL/HOLD]
 
-**Rationale**: [2-3 sentences explaining your decision]
+**Calibration**:
+- Confidence Band: [HIGH|MEDIUM|LOW]
+- Key Horizon Catalysts: [2-3 bullets]
+
+**Rationale**: [3-5 sentences explaining your decision, stating which analysts supported/opposed, expected move direction/magnitude, and why reversal was or was not warranted]
 
 **Adjustments**:
 - Position Size: [X%]
 - Stop Loss: [price]
 - Take Profit: [price]
 
-Keep response under 300 words."""
+Keep response under 650 words."""
         
         # Generate final decision using DEEP thinking (judge role)
         final_decision = invoke_llm_deep(prompt)

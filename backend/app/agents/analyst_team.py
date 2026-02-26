@@ -89,12 +89,11 @@ Analyze (prioritise factors most relevant to the {horizon_days}-day horizon abov
 
 FORMAT: Use Markdown with `### Headers` and `- Bullet points`.
 Structure:
-- **Profitability & Efficiency**: Margins, ROE, etc.
-- **Solvency & Liquidity**: Debt levels, current ratio.
-- **Valuation**: P/E, EV/EBITDA vs peers.
-- **Conclusion**: Fundamental strength assessment for the {horizon_days}-day horizon.
+- **Top 3 Fundamental Facts for This Horizon**: strongest evidence only (numbers first).
+- **Risk Flags**: 1-2 concrete downside flags.
+- **Conclusion**: one-line stance (Bullish/Bearish/Neutral) for the {horizon_days}-day horizon.
 
-Keep response structured and under 300 words."""
+Keep response structured and under 220 words."""
     
     # 3. Call the LLM to generate the analysis (low temperature: factual data, not creativity)
     analysis_report = call_llm(prompt, temperature=0.3)
@@ -148,12 +147,11 @@ Analyze (weight indicators by their relevance to the {horizon_days}-day horizon 
 
 FORMAT: Use Markdown with `### Headers` and `- Bullet points`.
 Structure:
-- **Trend Analysis**: Moving averages, direction.
-- **Momentum**: RSI, MACD signals.
-- **Support/Resistance**: Key levels to watch.
-- **Forecast**: {horizon_days}-day outlook (Bullish/Bearish/Neutral).
+- **Top 3 Technical Facts for This Horizon**: strongest signals only.
+- **Key Levels**: nearest support/resistance levels.
+- **Forecast**: one-line {horizon_days}-day outlook (Bullish/Bearish/Neutral).
 
-Keep response structured and under 300 words."""
+Keep response structured and under 260 words."""
     
     # 3. Call the LLM to generate the analysis (low temperature: factual indicators, not creativity)
     analysis_report = call_llm(prompt, temperature=0.3)
@@ -324,12 +322,12 @@ Provide (prioritise catalysts most likely to impact price in the next {horizon_d
 
 FORMAT: Use Markdown with `### Headers` and `- Bullet points`.
 Structure:
-- **Major Catalysts**: Key partnerships, earnings, product launches.
-- **Sentiment**: Summary of media tone (Bullish/Bearish).
-- **Risks**: Potential headwinds mentioned in news.
-- **Market Impact**: Likely short-term price effect.
+- **Top 3 News Catalysts for This Horizon**: concrete, dated catalysts only.
+- **Sentiment**: summary of tone (Bullish/Bearish/Neutral).
+- **Risks**: 1-2 event risks that could invalidate the thesis.
+- **Market Impact**: one-line likely {horizon_days}-day price direction.
 
-Keep response structured and under 250 words."""
+Keep response structured and under 220 words."""
     
     # 5. Call the LLM to generate the analysis (low temperature: factual news reporting)
     analysis_report = call_llm(prompt, temperature=0.3)

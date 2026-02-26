@@ -152,7 +152,7 @@ Structure:
 - **Pre-emptive Defense**: Acknowledge 1-2 risks but explain why they're manageable.
 - **Conclusion**: Strong closing statement.
 
-Keep response under 400 words. Start with "Bull Researcher:"."""
+Keep response under 550 words. Start with "Bull Researcher:"."""
     else:
         # Subsequent rounds - cross-examination with direct rebuttal
         prompt = f"""You are the Bull Analyst in a debate about {ticker}. Cross-examine the Bear's arguments by directly challenging their evidence and logic.
@@ -184,7 +184,7 @@ Structure:
 - **Supporting Evidence**: New data that undermines Bear's thesis
 - **Restate Thesis**: Why the upside still dominates despite Bear's concerns
 
-Keep response under 400 words. Start with "Bull Researcher:"."""
+Keep response under 450 words. Start with "Bull Researcher:"."""
     
     # 2. Call the LLM to generate the argument
     bullish_response = call_llm(prompt)
@@ -292,7 +292,7 @@ Structure:
 - **Valuation Reality Check**: Why the price is too high (vs Bull's optimism)
 - **Key Risks**: Specific threats the Bull downplayed or missed
 
-Keep response under 400 words. Start with "Bear Researcher:"."""
+Keep response under 550 words. Start with "Bear Researcher:"."""
     else:
         # Subsequent rounds - cross-examination with direct counter-rebuttal
         prompt = f"""You are the Bear Analyst in a debate about {ticker}. Cross-examine the Bull's latest defense by exposing weaknesses in their rebuttals.
@@ -324,7 +324,7 @@ Structure:
 - **Risk Amplification**: Why the risks are more severe than Bull admits (new data)
 - **Final Warning**: Closing statement on downside potential (with evidence)
 
-Keep response under 400 words. Start with "Bear Researcher:"."""
+Keep response under 450 words. Start with "Bear Researcher:"."""
     
     # 2. Call the LLM to generate the argument
     bearish_response = call_llm(prompt)
@@ -349,11 +349,7 @@ def research_manager_agent(state: dict):
     The Research Manager Agent - Judges the debate and makes final investment recommendation.
     """
     debate_state = state.get('investment_debate_state', {})
-    reports = state.get('reports', {})
-    
     debate_history = debate_state.get('history', '')
-    bull_arguments = debate_state.get('bull_history', '')
-    bear_arguments = debate_state.get('bear_history', '')
     
     # Horizon for the judge
     horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
@@ -364,10 +360,15 @@ def research_manager_agent(state: dict):
 
 TRADING HORIZON: {horizon_days} days ({horizon}-term). Your recommendation must be appropriate for this specific window. Weight arguments relevant to {horizon_days}-day price movement more heavily than long-term theses.
 
-Decision rule:
-- Default to BUY or SELL when there is any directional edge over the next {horizon_days} days.
-- Use HOLD only if you can name at least two specific unresolved blockers that materially prevent a directional call within {horizon_days} days.
-- If uncertainty is moderate, recommend a smaller / phased execution approach rather than HOLD.
+Decision guidelines:
+- Make a clear recommendation: BUY, SELL, or HOLD.
+- Use evidence within the {horizon_days}-day window. De-emphasize long-term narratives that lack near-term catalysts.
+- For short-horizon decisions, prioritize technical and news catalysts; use fundamentals mainly as a risk filter/veto.
+- Assign a confidence band to your recommendation: HIGH / MEDIUM / LOW.
+- Apply BUY/SELL standards symmetrically. Do not require a higher bar for SELL than BUY.
+- HOLD is an abstention class, not a safe default. Use HOLD only when directional edge is genuinely weak and catalysts are conflicting/unclear.
+- If one side has more concrete, near-term catalyst-backed evidence, prefer BUY or SELL over HOLD.
+- Do not use rigid checklist gates; use weighted judgement from the strongest, most specific evidence.
 
 Complete Debate (contains all analyst evidence referenced by Bull and Bear):
 {debate_history}
@@ -376,7 +377,10 @@ Deliverables:
 1. **Executive Summary**: 1-2 sentence core conclusion.
 2. **Debate Analysis**: Bullet points contrasting Bull vs Bear arguments.
 3. **Recommendation**: BUY, SELL, or HOLD.
-4. **Investment Plan**:
+4. **Calibration**:
+    - **Confidence Band**: HIGH | MEDIUM | LOW
+    - **Primary Horizon Drivers**: [exactly 2-3 concrete catalysts for this window]
+5. **Investment Plan**:
    - **Rationale**: The 'why' behind the trade.
    - **Risk Factors**: Specific catalysts to watch.
    - **Execution**: Recommended approach (e.g., "Scale in on weakness").
