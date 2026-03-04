@@ -1,0 +1,9 @@
+{
+  "created_at": "20260304_140939",
+  "agent_glob": "batch_eval50_stageA_20260304_130415.jsonl",
+  "agent_rows": 50,
+  "unique_tickers": 5,
+  "unique_dates": 10,
+  "hold_epsilon": 0.025,
+  "enable_baselines": true
+}

@@ -11,43 +11,96 @@ from ..tools.technical_analysis_tools import get_historical_price_data, calculat
 from ..tools.news_tools import search_news
 from ..llm import invoke_llm as call_llm
 from ..utils.shared_context import shared_context
+import re
 # from ..graph.state import AgentState # We will define this later
 
 
 def _extract_analyst_signal(analysis_text: str) -> dict:
     """
-    Extract a structured directional signal from analyst prose using keyword scoring.
+    Extract a structured directional signal by parsing the labelled output fields
+    that analyst prompts already produce (FINAL_VIEW, CONFIDENCE, etc.).
 
-    Zero extra LLM calls — uses frequency counting of bullish/bearish keywords.
-    Purpose: give debate agents a quick orientation (e.g. 'BEARISH 72%') before
-    reading 300 words of prose, fixing the 'raw dict dump' problem in prompts.
+    Replaces the old keyword-frequency counting approach, which was unreliable
+    because "not bullish" had the same weight as "strongly bullish".
+    Zero extra LLM calls — pure regex on the structured analyst output.
     """
-    text = analysis_text.lower()
+    # --- Direction: FINAL_VIEW field (all three analyst prompts output this) ---
+    direction = "NEUTRAL"
+    _direction_parsed = False
+    view_match = re.search(r"FINAL_VIEW\s*:\s*(BULLISH|BEARISH|NEUTRAL)", analysis_text, flags=re.IGNORECASE)
+    if view_match:
+        direction = view_match.group(1).upper()
+        _direction_parsed = True
+    else:
+        # Fallback: TONE field (news analyst also outputs this)
+        tone_match = re.search(r"\bTONE\s*:\s*(BULLISH|BEARISH|NEUTRAL)", analysis_text, flags=re.IGNORECASE)
+        if tone_match:
+            direction = tone_match.group(1).upper()
+            _direction_parsed = True
 
-    bullish_kw = [
-        'bullish', 'buy', 'uptrend', 'golden cross', 'strong', 'positive momentum',
-        'growth', 'outperform', 'upside', 'accumulate', 'beat', 'surge', 'rally',
-        'breakout', 'record high', 'upgrade', 'above',
-    ]
-    bearish_kw = [
-        'bearish', 'sell', 'downtrend', 'death cross', 'weak', 'negative', 'declining',
-        'underperform', 'downside', 'avoid', 'miss', 'drop', 'breakdown',
-        'concern', 'warning', 'downgrade', 'below', 'pressure', 'risk',
-    ]
+    # --- Confidence: CONFIDENCE field ---
+    confidence_level = "MEDIUM"
+    _confidence_parsed = False
+    conf_match = re.search(r"\bCONFIDENCE\s*:\s*(HIGH|MEDIUM|LOW)", analysis_text, flags=re.IGNORECASE)
+    if conf_match:
+        confidence_level = conf_match.group(1).upper()
+        _confidence_parsed = True
 
-    bull_score = sum(text.count(kw) for kw in bullish_kw)
-    bear_score = sum(text.count(kw) for kw in bearish_kw)
-    total = bull_score + bear_score
+    # Log parse misses so we can monitor format-compliance rate
+    if not _direction_parsed or not _confidence_parsed:
+        import logging as _logging
+        _logging.getLogger(__name__).warning(
+            "[signal_extract] Parse miss — direction_found=%s confidence_found=%s | "
+            "text_snippet=%.120s",
+            _direction_parsed, _confidence_parsed,
+            analysis_text.replace("\n", " "),
+        )
 
-    if total == 0:
-        return {'direction': 'NEUTRAL', 'confidence': 0.5, 'key_factor': 'No clear directional signals'}
-    if bull_score > bear_score:
-        confidence = round(min(0.9, 0.5 + (bull_score - bear_score) / max(total, 1) * 0.5), 2)
-        return {'direction': 'BULLISH', 'confidence': confidence, 'key_factor': f'{bull_score} bullish vs {bear_score} bearish signals'}
-    elif bear_score > bull_score:
-        confidence = round(min(0.9, 0.5 + (bear_score - bull_score) / max(total, 1) * 0.5), 2)
-        return {'direction': 'BEARISH', 'confidence': confidence, 'key_factor': f'{bear_score} bearish vs {bull_score} bullish signals'}
-    return {'direction': 'NEUTRAL', 'confidence': 0.5, 'key_factor': 'Balanced bullish/bearish signals'}
+    conf_map = {"HIGH": 0.80, "MEDIUM": 0.65, "LOW": 0.50}
+    confidence = conf_map.get(confidence_level, 0.65)
+    # NEUTRAL views cannot carry HIGH confidence
+    if direction == "NEUTRAL":
+        confidence = min(confidence, 0.55)
+
+    # --- Magnitude: derived from confidence level (0 for NEUTRAL) ---
+    if direction == "NEUTRAL":
+        magnitude = 0.0
+    else:
+        mag_map = {"HIGH": 0.80, "MEDIUM": 0.50, "LOW": 0.25}
+        magnitude = mag_map.get(confidence_level, 0.50)
+
+    # --- Key catalyst: first bullet from EVIDENCE or CATALYSTS section ---
+    key_catalyst = "No clear catalyst identified"
+    # Match "EVIDENCE:\n  - bullet text" or "CATALYSTS:\n  1) bullet text" patterns
+    catalyst_match = re.search(
+        r"(?:EVIDENCE|CATALYSTS)\s*:?\s*\n\s*(?:\d+[.)\s]|[-*•]\s*)(.+)",
+        analysis_text, flags=re.IGNORECASE
+    )
+    if catalyst_match:
+        key_catalyst = catalyst_match.group(1).strip()[:140]
+    else:
+        # Inline fallback: "EVIDENCE: some text on same line"
+        cat_inline = re.search(r"(?:EVIDENCE|CATALYSTS)\s*:\s*(.+)", analysis_text, flags=re.IGNORECASE)
+        if cat_inline:
+            key_catalyst = cat_inline.group(1).strip()[:140]
+
+    # --- Primary risk: KEY_UNCERTAINTY or KEY_EVENT_RISK ---
+    primary_risk = "No explicit primary risk provided"
+    risk_match = re.search(
+        r"(?:KEY_UNCERTAINTY|KEY_EVENT_RISK|MAIN_RISK|RISKS?)\s*:\s*(.+)",
+        analysis_text, flags=re.IGNORECASE
+    )
+    if risk_match:
+        primary_risk = risk_match.group(1).strip()[:140]
+
+    return {
+        "direction": direction,
+        "magnitude": magnitude,
+        "confidence": confidence,
+        "key_factor": f"FINAL_VIEW={direction} CONFIDENCE={confidence_level}",
+        "key_catalyst": key_catalyst,
+        "primary_risk": primary_risk,
+    }
 
 
 def fundamental_analyst_agent(state: dict):
@@ -73,27 +126,27 @@ def fundamental_analyst_agent(state: dict):
     analyst_ratings = get_analyst_ratings(ticker, as_of=simulated_date)
 
     # 2. Construct the prompt for the LLM
-    prompt = f"""Conduct a fundamental analysis of {ticker}.
+    prompt = f"""Fundamental analysis for {ticker}.
 
+Horizon: {horizon_days} trading days.
 {horizon_focus}
 
-Data provided:
+Use only the provided data. Do not add external facts or numbers.
+If data is missing, write UNKNOWN.
+
+Data:
 Financial Statements: {financial_statements}
 Financial Ratios: {financial_ratios}
 Analyst Ratings: {analyst_ratings}
 
-Analyze (prioritise factors most relevant to the {horizon_days}-day horizon above):
-- Financial health: profitability, liquidity, solvency, efficiency
-- Red flags or concerns
-- Overall assessment
+Output exactly:
+1) EVIDENCE: 3 concise bullets (fact -> implication for this horizon)
+2) RISKS: 2 concise bullets
+3) FINAL_VIEW: BULLISH|BEARISH|NEUTRAL
+4) CONFIDENCE: HIGH|MEDIUM|LOW
+5) KEY_UNCERTAINTY: one line
 
-FORMAT: Use Markdown with `### Headers` and `- Bullet points`.
-Structure:
-- **Top 3 Fundamental Facts for This Horizon**: strongest evidence only (numbers first).
-- **Risk Flags**: 1-2 concrete downside flags.
-- **Conclusion**: one-line stance (Bullish/Bearish/Neutral) for the {horizon_days}-day horizon.
-
-Keep response structured and under 220 words."""
+Keep under 170 words."""
     
     # 3. Call the LLM to generate the analysis (low temperature: factual data, not creativity)
     analysis_report = call_llm(prompt, temperature=0.3)
@@ -132,26 +185,26 @@ def technical_analyst_agent(state: dict):
     indicators = calculate_technical_indicators(price_data)
 
     # 2. Construct the prompt for the LLM
-    prompt = f"""Perform technical analysis of {ticker}.
+    prompt = f"""Technical analysis for {ticker}.
 
+Horizon: {horizon_days} trading days.
 {horizon_focus}
 
-Data provided:
+Use only the provided indicators. Do not invent values.
+If missing, write UNKNOWN.
+
+Data:
 Technical Indicators: {indicators}
 
-Analyze (weight indicators by their relevance to the {horizon_days}-day horizon above):
-- Price trends, support/resistance levels, chart patterns
-- Key technical indicators
-- Trading volume strength
-- Price forecast for the next {horizon_days} trading days
+Output exactly:
+1) EVIDENCE: 3 bullets (indicator -> reading -> implication)
+2) SUPPORT: value or UNKNOWN
+3) RESISTANCE: value or UNKNOWN
+4) FINAL_VIEW: BULLISH|BEARISH|NEUTRAL
+5) CONFIDENCE: HIGH|MEDIUM|LOW
+6) KEY_UNCERTAINTY: one line
 
-FORMAT: Use Markdown with `### Headers` and `- Bullet points`.
-Structure:
-- **Top 3 Technical Facts for This Horizon**: strongest signals only.
-- **Key Levels**: nearest support/resistance levels.
-- **Forecast**: one-line {horizon_days}-day outlook (Bullish/Bearish/Neutral).
-
-Keep response structured and under 260 words."""
+Keep under 180 words."""
     
     # 3. Call the LLM to generate the analysis (low temperature: factual indicators, not creativity)
     analysis_report = call_llm(prompt, temperature=0.3)
@@ -303,31 +356,29 @@ def news_harvester_agent(state: dict):
     horizon_focus = _NEWS_HORIZON_FOCUS.get(horizon, _NEWS_HORIZON_FOCUS['short'])
 
     # 4. Construct the prompt for the LLM
-    prompt = f"""Analyze latest news for {ticker}.
+    prompt = f"""News analysis for {ticker}.
 
+Horizon: {horizon_days} trading days.
 {horizon_focus}
+
+Use only the articles shown. Do not add outside facts.
+Do not infer events unless explicitly stated.
 
 {news_summary}
 
-News Sentiment Summary:
-- Average Sentiment Score: {avg_sentiment:.2f} (-1 bearish to +1 bullish)
-- Bullish articles: {bullish_count}
-- Bearish articles: {bearish_count}
+Sentiment stats:
+- Average score: {avg_sentiment:.2f}
+- Bullish count: {bullish_count}
+- Bearish count: {bearish_count}
 
-Provide (prioritise catalysts most likely to impact price in the next {horizon_days} days):
-- Key catalysts and events
-- Sentiment trend assessment
-- Market-moving developments
-- Risk factors from news
+Output exactly:
+1) CATALYSTS: 3 bullets (event/signal -> likely impact)
+2) TONE: BULLISH|BEARISH|NEUTRAL
+3) FINAL_VIEW: BULLISH|BEARISH|NEUTRAL
+4) CONFIDENCE: HIGH|MEDIUM|LOW
+5) KEY_EVENT_RISK: one line
 
-FORMAT: Use Markdown with `### Headers` and `- Bullet points`.
-Structure:
-- **Top 3 News Catalysts for This Horizon**: concrete, dated catalysts only.
-- **Sentiment**: summary of tone (Bullish/Bearish/Neutral).
-- **Risks**: 1-2 event risks that could invalidate the thesis.
-- **Market Impact**: one-line likely {horizon_days}-day price direction.
-
-Keep response structured and under 220 words."""
+Keep under 170 words."""
     
     # 5. Call the LLM to generate the analysis (low temperature: factual news reporting)
     analysis_report = call_llm(prompt, temperature=0.3)

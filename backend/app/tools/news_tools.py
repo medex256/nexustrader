@@ -46,7 +46,7 @@ def _load_frozen_news(ticker: str, as_of: str) -> list[dict] | None:
 
 def _get_finnhub_api_key() -> str | None:
     return (
-        os.getenv("FINNHUB_API_KEY")
+        os.getenv("FINHUB_API_KEY")
     )
 
 

@@ -16,6 +16,10 @@ Architecture inspired by TradingAgents paper - uses adversarial debate
 to prevent excessive conservatism (HOLD bias).
 """
 
+import re
+from typing import Literal, Optional
+from pydantic import BaseModel, Field
+
 from ..tools.portfolio_tools import (
     get_market_volatility_index,
     get_portfolio_composition,
@@ -24,7 +28,8 @@ from ..tools.portfolio_tools import (
     # New real tools
     calculate_ticker_risk_metrics,
 )
-from ..llm import invoke_llm as call_llm, invoke_llm_deep
+from ..llm import invoke_llm as call_llm
+from ..llm import invoke_llm_structured as call_llm_structured
 from .execution_core import extract_signal
 
 
@@ -110,56 +115,47 @@ def aggressive_risk_analyst(state: dict):
     # Build prompt
     if debate_state['count'] == 0:
         # First round - opening argument
-        prompt = f"""You are the Aggressive Risk Analyst for {ticker}. Your role is to advocate for BOLD ACTION and challenge excessive caution.
+        prompt = f"""Role: Risk Analyst A for {ticker}.
+    Task: identify why the current action may be too conservative.
 
-The Trader recommends: {action}
-Research Manager recommended: {rm_action}
-{disagreement_note}
-Market Context:
-- VIX: {volatility_index}
-- Ticker Risk: {ticker_risk}
+    Trader action: {action}
+    Research Manager action: {rm_action}
+    {disagreement_note}
+    Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
+    Analyst Evidence:
+    {_format_reports_for_risk_debate(state)}
+    Strategy:
+    {strategy}
 
-Analyst Evidence:
-{_format_reports_for_risk_debate(state)}
+    Use only provided context. No outside facts.
 
-Strategy Details:
-{strategy}
+    Output:
+    - KEY_POINT: 1 line
+    - SUPPORTING_EVIDENCE: 2 bullets
+    - RISK_IF_NO_ACTION: 1 bullet
 
-Your Task:
-{"The recommendation is HOLD. Evaluate whether there is an opportunity being missed. What is the cost of inaction vs the risk of acting?" if action == "HOLD" else f"The recommendation is {action}. Argue whether the conviction is strong enough and whether position sizing should be more aggressive."}
-
-Focus on:
-- Opportunity cost of sitting on sidelines
-- Growth potential and competitive advantages
-- Why this is the RIGHT time to act
-- What we LOSE by being too cautious
-
-Be direct and persuasive. Challenge conservative thinking. Start with "Aggressive Analyst:"."""
+    Keep under 160 words. Start with "Aggressive Analyst:"."""
     else:
         # Subsequent rounds - respond to other analysts
-        prompt = f"""You are the Aggressive Risk Analyst in a debate about {ticker}.
+        prompt = f"""Role: Risk Analyst A in debate for {ticker}.
+    Task: rebut the strongest conservative objections with evidence.
 
-Strategy: {action}
-Market Context: VIX {volatility_index}, Risk {ticker_risk}
+    Strategy: {action}
+    Market: VIX={volatility_index}, Risk={ticker_risk}
+    Evidence:
+    {_format_reports_for_risk_debate(state)}
+    Conservative view:
+    {conservative_last if conservative_last else "N/A"}
+    Neutral view:
+    {neutral_last if neutral_last else "N/A"}
 
-Analyst Evidence:
-{_format_reports_for_risk_debate(state)}
+    Use only provided context.
 
-Conservative Analyst argued:
-{conservative_last if conservative_last else "N/A"}
+    Output:
+    - REBUTTALS: 2 bullets
+    - UPDATED_VIEW: one line
 
-Neutral Analyst argued:
-{neutral_last if neutral_last else "N/A"}
-
-Your Previous Points:
-{debate_state.get('aggressive_history', '')}
-
-Counter their caution with specific rebuttals:
-- Where are they being overly risk-averse?
-- What opportunities are they overlooking?
-- Why is their fear preventing profit?
-
-Be confrontational and data-driven. Start with "Aggressive Analyst:"."""
+    Keep under 140 words. Start with "Aggressive Analyst:"."""
     
     # Generate response
     response = call_llm(prompt)
@@ -207,60 +203,49 @@ def conservative_risk_analyst(state: dict):
     # Build prompt
     if debate_state['count'] == 1:
         # First response (after aggressive opened)
-        prompt = f"""You are the Conservative Risk Analyst for {ticker}. Your role is to protect capital and minimize losses.
+        prompt = f"""Role: Risk Analyst B for {ticker}.
+    Task: identify downside risks in the current action.
 
-The Trader recommends: {action}
-Research Manager recommended: {rm_action}
-{disagreement_note}
+    Trader action: {action}
+    Research Manager action: {rm_action}
+    {disagreement_note}
+    Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
+    Analyst Evidence:
+    {_format_reports_for_risk_debate(state)}
+    Strategy:
+    {strategy}
+    Aggressive view:
+    {aggressive_last if aggressive_last else "N/A"}
 
-Market Context:
-- VIX: {volatility_index}
-- Ticker Risk: {ticker_risk}
+    Use only provided context. No outside facts.
 
-Analyst Evidence:
-{_format_reports_for_risk_debate(state)}
+    Output:
+    - KEY_RISK: 1 line
+    - SUPPORTING_EVIDENCE: 2 bullets
+    - RISK_MITIGATION: 1 bullet
 
-Strategy Details:
-{strategy}
-
-Aggressive Analyst argued:
-{aggressive_last if aggressive_last else "N/A"}
-
-Your Task:
-{"Defend the HOLD recommendation - explain why action is RISKY right now." if action == "HOLD" else f"Challenge the {action} recommendation - what could go WRONG?"}
-
-Focus on:
-- Downside risks and potential losses
-- Market volatility and uncertainty
-- Historical drawdowns and red flags
-- Why caution is prudent given current conditions
-
-Be rigorous and risk-aware. Start with "Conservative Analyst:"."""
+    Keep under 160 words. Start with "Conservative Analyst:"."""
     else:
         # Subsequent rounds
-        prompt = f"""You are the Conservative Risk Analyst in a debate about {ticker}.
+        prompt = f"""Role: Risk Analyst B in debate for {ticker}.
+    Task: rebut the strongest optimistic claims with evidence.
 
-Strategy: {action}
-Market Context: VIX {volatility_index}, Risk {ticker_risk}
+    Strategy: {action}
+    Market: VIX={volatility_index}, Risk={ticker_risk}
+    Evidence:
+    {_format_reports_for_risk_debate(state)}
+    Aggressive view:
+    {aggressive_last if aggressive_last else "N/A"}
+    Neutral view:
+    {neutral_last if neutral_last else "N/A"}
 
-Analyst Evidence:
-{_format_reports_for_risk_debate(state)}
+    Use only provided context.
 
-Aggressive Analyst argued:
-{aggressive_last if aggressive_last else "N/A"}
+    Output:
+    - REBUTTALS: 2 bullets
+    - UPDATED_VIEW: one line
 
-Neutral Analyst argued:
-{neutral_last if neutral_last else "N/A"}
-
-Your Previous Points:
-{debate_state.get('conservative_history', '')}
-
-Rebut their optimism with specific risks:
-- Where are they underestimating downside?
-- What volatility/drawdown risks are they ignoring?
-- Why could this trade result in significant loss?
-
-Be skeptical and protective. Start with "Conservative Analyst:"."""
+    Keep under 140 words. Start with "Conservative Analyst:"."""
     
     # Generate response
     response = call_llm(prompt)
@@ -306,41 +291,31 @@ def neutral_risk_analyst(state: dict):
     conservative_last = debate_state.get('conservative_history', '')
     
     # Build prompt
-    prompt = f"""You are the Neutral Risk Analyst for {ticker}. Your role is to find the optimal balanced approach.
+    prompt = f"""Role: Risk Analyst Neutral for {ticker}.
+Task: synthesize both sides and propose the most balanced risk-adjusted view.
 
-The Trader recommends: {action}
-Research Manager recommended: {rm_action}
+Trader action: {action}
+Research Manager action: {rm_action}
 {disagreement_note}
-
-Market Context:
-- VIX: {volatility_index}
-- Ticker Risk: {ticker_risk}
-
-Analyst Evidence:
+Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
+Evidence:
 {_format_reports_for_risk_debate(state)}
-
-Strategy Details:
+Strategy:
 {strategy}
-
-Aggressive Analyst argued:
+Analyst A:
 {aggressive_last if aggressive_last else "N/A"}
-
-Conservative Analyst argued:
+Analyst B:
 {conservative_last if conservative_last else "N/A"}
 
-Your Previous Points:
-{debate_state.get('neutral_history', '') if debate_state.get('neutral_history') else "N/A"}
+Use only provided context.
 
-Your Task:
-Evaluate both sides and propose a BALANCED solution.
+Output:
+- STRONGEST_PRO: 1 bullet
+- STRONGEST_CON: 1 bullet
+- BALANCED_RECOMMENDATION: BUY|SELL|HOLD (one line)
+- POSITION_SIZE_GUIDANCE: one line
 
-Focus on:
-- Where is the aggressive analyst right (and wrong)?
-- Where is the conservative analyst right (and wrong)?
-- What's the optimal risk-adjusted position?
-- Should we modify position size, stops, or approach?
-
-Be analytical and fair. Start with "Neutral Analyst:"."""
+Keep under 170 words. Start with "Neutral Analyst:"."""
     
     # Generate response
     response = call_llm(prompt)
@@ -359,12 +334,18 @@ Be analytical and fair. Start with "Neutral Analyst:"."""
 # RISK MANAGER (JUDGE) - Evaluates debate and makes final decision
 # ==============================================================================
 
+class RiskManagerDecision(BaseModel):
+    final_decision: Literal["BUY", "SELL", "HOLD"]
+    thesis_invalidated: Literal["YES", "NO"]
+    confidence: Literal["HIGH", "MEDIUM", "LOW"]
+    rationale: str
+    position_size_pct: float = Field(ge=0, le=100)
+    stop_loss: Optional[float] = None
+    take_profit: Optional[float] = None
+
 def risk_management_agent(state: dict):
     """
-    The Risk Manager (Judge) - Evaluates risk debate and makes final decision.
-    
-    NEW: Acts as judge after 3-way risk debate (aggressive/conservative/neutral).
-    FALLBACK: If risk debate disabled, acts as simple validator (legacy mode).
+    The Risk Manager (single risk-check judge) - evaluates strategy and finalizes action.
     """
     ticker = state.get("ticker", "Unknown")
     run_config = state.get("run_config", {})
@@ -376,217 +357,158 @@ def risk_management_agent(state: dict):
     
     if 'risk_reports' not in state:
         state['risk_reports'] = {}
-    
-    # Check if risk debate occurred
-    debate_state = state.get('risk_debate_state', {})
-    debate_history = debate_state.get('history', '')
-    
-    # MODE 1: Judge Risk Debate (NEW)
-    if debate_history:
-        strategy = state.get("trading_strategy", {}) or {}
-        original_action = (strategy.get("action") or "HOLD").upper()
-        research_manager_action = state.get("research_manager_recommendation", "UNKNOWN")
-        trader_action = state.get("trader_recommendation", original_action)
-        
-        # Build disagreement context for the judge
-        disagreement_context = ""
-        if research_manager_action != "UNKNOWN" and research_manager_action != trader_action:
-            disagreement_context = f"""\n⚠️ CRITICAL DISAGREEMENT: Research Manager recommended {research_manager_action}, but the Trader independently chose {trader_action}.
-This disagreement is a KEY SIGNAL. Evaluate which side has stronger reasoning.
-The risk debate above was informed by this disagreement.\n"""
-        else:
-            disagreement_context = f"\n✅ Research Manager and Trader AGREE on {trader_action}.\n"
-        
-        prompt = f"""As the Risk Manager, evaluate this risk debate and make a FINAL DECISION for {ticker}.
 
-Research Manager's Recommendation: {research_manager_action}
-Trader's Independent Decision: {trader_action}
-{disagreement_context}
-Strategy Details: {strategy}
-
-Market Context:
-- VIX: {volatility_index}
-- Ticker Risk: {ticker_risk}
-
-Complete Risk Debate:
-{debate_history}
-
-Your Task:
-1. **Summarize** key points from each analyst (aggressive/conservative/neutral)
-2. **Evaluate the RM vs Trader disagreement** (if any) — who has better reasoning?
-3. **Make Final Decision**: BUY, SELL, or HOLD
-    - Primary role: calibrate risk (position size, stop loss, take profit) while preserving valid directional edge.
-    - You CAN override both the Research Manager AND the Trader only if the debate surfaces concrete contradictory evidence that invalidates the current thesis.
-   - HOLD is valid when conviction is genuinely low or risk/reward is unclear
-    - BUY and SELL require clear directional conviction from specific, near-term evidence (not analyst vote counting)
-4. **Adjust Strategy** (if changing from Trader's decision):
-   - Position size (% of portfolio)
-   - Stop loss / Take profit levels
-
-Before final action, explicitly state:
-- Confidence band (HIGH / MEDIUM / LOW), and
-- Main near-term catalysts and risks
-
-Decision Rules:
-- If RM and Trader agree on BUY and no concrete invalidation appears in debate → keep BUY and calibrate risk parameters
-- If RM and Trader agree on SELL and no concrete invalidation appears in debate → keep SELL and calibrate risk parameters
-- If RM and Trader disagree → weigh debate carefully; the side with more specific evidence wins
-- Prefer directional BUY/SELL when one side has clearer catalyst-backed evidence for this horizon
-- HOLD only when evidence is genuinely mixed, contradictory, or too weak to justify directional conviction
-- Apply weak-evidence logic symmetrically: weak BUY and weak SELL should both downgrade to HOLD
-- Do NOT reverse direction (SELL→BUY or BUY→SELL) unless at least 2 concrete contradictory facts invalidate the original thesis
-- If conviction drops but invalidation is incomplete, downgrade to HOLD rather than reversing direction
-- If directional evidence is specific and catalyst-backed, preserve BUY/SELL
-- For SHORT horizon, weight technical/news triggers above long-term valuation narratives
-
-Format:
-## Risk Manager Final Decision
-
-**Research Manager Recommended**: {research_manager_action}
-**Trader Decided**: {trader_action}
-**Final Decision**: [BUY/SELL/HOLD]
-
-**Calibration**:
-- Confidence Band: [HIGH|MEDIUM|LOW]
-- Key Horizon Catalysts: [2-3 bullets]
-
-**Rationale**: [3-5 sentences explaining your decision, stating which analysts supported/opposed, expected move direction/magnitude, and why reversal was or was not warranted]
-
-**Adjustments**:
-- Position Size: [X%]
-- Stop Loss: [price]
-- Take Profit: [price]
-
-Keep response under 650 words."""
-        
-        # Generate final decision using DEEP thinking (judge role)
-        final_decision = invoke_llm_deep(prompt)
-        
-        # Extract decision using LLM signal extractor (robust, replaces keyword matching)
-        try:
-            final_action = extract_signal(final_decision, ticker)
-        except Exception:
-            # Fallback: keep original action
-            final_action = original_action
-        
-        # Update strategy with final decision
-        strategy["action"] = final_action
-        
-        # Apply risk gates based on final decision
-        if final_action != "HOLD":
-            risk_rating = (ticker_risk.get("risk_rating") or "MODERATE").upper()
-            max_position_pct = 8 if risk_rating == "HIGH" else 15 if risk_rating == "MODERATE" else 25
-            
-            old_position = strategy.get("position_size_pct", 0) or 0
-            new_position = min(float(old_position), float(max_position_pct)) if old_position else float(max_position_pct)
-            strategy["position_size_pct"] = round(new_position, 2)
-            
-            # Ensure sensible stop/take profit
-            entry_price = strategy.get("entry_price")
-            if entry_price:
-                if final_action == "BUY":
-                    if not strategy.get("stop_loss") or strategy.get("stop_loss", 0) >= entry_price:
-                        strategy["stop_loss"] = round(entry_price * 0.92, 2)
-                    if not strategy.get("take_profit") or strategy.get("take_profit", 0) <= entry_price:
-                        strategy["take_profit"] = round(entry_price * 1.12, 2)
-                elif final_action == "SELL":
-                    if not strategy.get("stop_loss") or strategy.get("stop_loss", 0) <= entry_price:
-                        strategy["stop_loss"] = round(entry_price * 1.08, 2)
-                    if not strategy.get("take_profit") or strategy.get("take_profit", 0) >= entry_price:
-                        strategy["take_profit"] = round(entry_price * 0.88, 2)
-        else:
-            # HOLD - clear out price fields
-            strategy["entry_price"] = None
-            strategy["take_profit"] = None
-            strategy["stop_loss"] = None
-            strategy["position_size_pct"] = 0
-        
-        state['trading_strategy'] = strategy
-        state['proposed_trade'] = strategy
-        state['risk_reports']['risk_manager_decision'] = final_decision
-        state['risk_reports']['risk_gate'] = f"Risk debate evaluated. Original: {original_action}, Final: {final_action}"
-
-        # Record run metadata for evaluation/debug
+    if (run_config.get("risk_mode", "single") or "single").lower() == "off":
+        state['risk_reports']['risk_gate'] = "Risk gating disabled by run_config (risk_mode=off). No adjustments applied."
         if 'run_metadata' not in state:
             state['run_metadata'] = {}
+        current_action = (state.get("trading_strategy", {}) or {}).get("action")
         state['run_metadata'].update({
-            "risk_original_action": original_action,
-            "risk_final_action": final_action,
-            "risk_overrode_action": original_action != final_action,
-        })
-        
-        return state
-    
-    # MODE 2: Legacy Validator (risk debate disabled)
-    # This is the old behavior - simple risk gate without debate
-    if not run_config.get("risk_on", True):
-        state['risk_reports']['risk_gate'] = "Risk gating disabled by run_config (risk_on=false). No adjustments applied."
-        if 'run_metadata' not in state:
-            state['run_metadata'] = {}
-        state['run_metadata'].update({
-            "risk_original_action": (state.get("trading_strategy", {}) or {}).get("action"),
-            "risk_final_action": (state.get("trading_strategy", {}) or {}).get("action"),
+            "risk_original_action": current_action,
+            "risk_final_action": current_action,
             "risk_overrode_action": False,
         })
         return state
     
     strategy = state.get("trading_strategy", {}) or {}
-    action = (strategy.get("action") or "HOLD").upper()
-    
-    if action == "HOLD":
-        state['risk_reports']['risk_gate'] = "No trade action (HOLD). Risk gate made no changes."
-        if 'run_metadata' not in state:
-            state['run_metadata'] = {}
-        state['run_metadata'].update({
-            "risk_original_action": action,
-            "risk_final_action": action,
-            "risk_overrode_action": False,
-        })
-        return state
-    
-    # Simple risk gate adjustments (legacy path)
-    risk_rating = (ticker_risk.get("risk_rating") or "MODERATE").upper()
-    max_position_pct = 8 if risk_rating == "HIGH" else 15 if risk_rating == "MODERATE" else 25
-    
-    old_position = strategy.get("position_size_pct", 0) or 0
-    new_position = min(float(old_position), float(max_position_pct)) if old_position else float(max_position_pct)
-    strategy["position_size_pct"] = round(new_position, 2)
-    
-    # Ensure stop-loss / take-profit exist and are sensible
-    entry_price = strategy.get("entry_price")
-    take_profit = strategy.get("take_profit")
-    stop_loss = strategy.get("stop_loss")
-    
-    if entry_price:
-        if action == "BUY":
-            if not stop_loss or stop_loss >= entry_price:
-                stop_loss = round(entry_price * 0.92, 2)
-            if not take_profit or take_profit <= entry_price:
-                take_profit = round(entry_price * 1.12, 2)
-        elif action == "SELL":
-            if not stop_loss or stop_loss <= entry_price:
-                stop_loss = round(entry_price * 1.08, 2)
-            if not take_profit or take_profit >= entry_price:
-                take_profit = round(entry_price * 0.88, 2)
-        
-        strategy["stop_loss"] = stop_loss
-        strategy["take_profit"] = take_profit
-    
+    original_action = (strategy.get("action") or "HOLD").upper()
+    research_manager_action = state.get("research_manager_recommendation", "UNKNOWN")
+    trader_action = state.get("trader_recommendation", original_action)
+    horizon = state.get('horizon') or run_config.get('horizon', 'short')
+    horizon_days = state.get('horizon_days') or run_config.get('horizon_days', 10)
+
+    disagreement_context = ""
+    if research_manager_action != "UNKNOWN" and research_manager_action != trader_action:
+        disagreement_context = f"""\n⚠️ DISAGREEMENT: Research Manager recommended {research_manager_action}, Trader chose {trader_action}.
+Decide which side has stronger evidence for the next {horizon_days} trading days.\n"""
+    else:
+        disagreement_context = f"\n✅ No major disagreement: current directional action is {trader_action}.\n"
+
+    prompt = f"""Role: Risk Manager.
+Task: run a single risk-check and choose final BUY/SELL/HOLD for {ticker} over the next {horizon_days} trading days ({horizon}).
+
+Research Manager Recommendation: {research_manager_action}
+Trader Decision: {trader_action}
+{disagreement_context}
+Strategy Details: {strategy}
+
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
+
+Market Context:
+- VIX: {volatility_index}
+- Ticker Risk: {ticker_risk}
+
+Use only provided evidence. No outside facts.
+Apply symmetric criteria for BUY and SELL.
+
+Decision policy:
+1) Start from Trader direction ({trader_action}).
+2) Change to HOLD only if thesis is explicitly invalidated by concrete contradictory evidence.
+3) If evidence is mixed but not invalidating, keep direction and reduce size.
+
+Confidence rubric:
+- HIGH: 3+ aligned independent signals and no major contradiction.
+- MEDIUM: 1-2 aligned signals with manageable contradiction.
+- LOW: conflicting or weak evidence.
+
+Output format:
+FINAL DECISION: BUY|SELL|HOLD
+THESIS_INVALIDATED: YES|NO
+CONFIDENCE: HIGH|MEDIUM|LOW
+RATIONALE:
+- 2-4 sentences with strongest evidence and why opposite action was not chosen
+ADJUSTMENTS:
+- Position Size: [X%]
+- Stop Loss: [price|null]
+- Take Profit: [price|null]
+
+Keep under 260 words."""
+
+    structured_prompt = prompt + """
+
+Return strict JSON with keys:
+final_decision, thesis_invalidated, confidence, rationale, position_size_pct, stop_loss, take_profit
+"""
+
+    try:
+        decision = call_llm_structured(
+            structured_prompt,
+            RiskManagerDecision,
+            temperature=0.2,
+        )
+    except Exception as e:
+        fallback_text = call_llm(prompt)
+        fallback_action = extract_signal(fallback_text, ticker)
+        decision = RiskManagerDecision(
+            final_decision=fallback_action,
+            thesis_invalidated="NO",
+            confidence="LOW",
+            rationale=f"Structured output failure: {e}. Fallback used.",
+            position_size_pct=0 if fallback_action == "HOLD" else 10,
+            stop_loss=None,
+            take_profit=None,
+        )
+
+    final_decision = decision.model_dump_json(indent=2)
+    final_action = decision.final_decision
+    thesis_invalidated = decision.thesis_invalidated == "YES"
+    if final_action == "HOLD" and trader_action in {"BUY", "SELL"} and not thesis_invalidated:
+        final_action = trader_action
+
+    strategy["action"] = final_action
+    strategy["rationale"] = decision.rationale
+
+    if final_action != "HOLD":
+        risk_rating = (ticker_risk.get("risk_rating") or "MODERATE").upper()
+        max_position_pct = 8 if risk_rating == "HIGH" else 15 if risk_rating == "MODERATE" else 25
+
+        old_position = strategy.get("position_size_pct", 0) or 0
+        model_position = float(decision.position_size_pct or 0)
+        requested_position = model_position if model_position > 0 else float(old_position)
+        new_position = min(float(requested_position), float(max_position_pct)) if requested_position else float(max_position_pct)
+        strategy["position_size_pct"] = round(new_position, 2)
+
+        entry_price = strategy.get("entry_price")
+        if entry_price:
+            if final_action == "BUY":
+                if decision.stop_loss is not None:
+                    strategy["stop_loss"] = decision.stop_loss
+                elif not strategy.get("stop_loss") or strategy.get("stop_loss", 0) >= entry_price:
+                    strategy["stop_loss"] = round(entry_price * 0.92, 2)
+                if decision.take_profit is not None:
+                    strategy["take_profit"] = decision.take_profit
+                elif not strategy.get("take_profit") or strategy.get("take_profit", 0) <= entry_price:
+                    strategy["take_profit"] = round(entry_price * 1.12, 2)
+            elif final_action == "SELL":
+                if decision.stop_loss is not None:
+                    strategy["stop_loss"] = decision.stop_loss
+                elif not strategy.get("stop_loss") or strategy.get("stop_loss", 0) <= entry_price:
+                    strategy["stop_loss"] = round(entry_price * 1.08, 2)
+                if decision.take_profit is not None:
+                    strategy["take_profit"] = decision.take_profit
+                elif not strategy.get("take_profit") or strategy.get("take_profit", 0) >= entry_price:
+                    strategy["take_profit"] = round(entry_price * 0.88, 2)
+    else:
+        strategy["entry_price"] = None
+        strategy["take_profit"] = None
+        strategy["stop_loss"] = None
+        strategy["position_size_pct"] = 0
+
     state['trading_strategy'] = strategy
     state['proposed_trade'] = strategy
-    state['risk_reports']['risk_gate'] = (
-        f"Legacy risk gate applied (debate disabled). risk_rating={risk_rating}, max_position_pct={max_position_pct}. "
-        f"position_size_pct {old_position} -> {strategy.get('position_size_pct')}."
-    )
+    state['risk_reports']['risk_manager_decision'] = final_decision
+    state['risk_reports']['risk_gate'] = f"Single risk-check evaluated. Original: {original_action}, Final: {final_action}"
 
     if 'run_metadata' not in state:
         state['run_metadata'] = {}
     state['run_metadata'].update({
-        "risk_original_action": action,
-        "risk_final_action": strategy.get("action"),
-        "risk_overrode_action": action != strategy.get("action"),
+        "risk_original_action": original_action,
+        "risk_final_action": final_action,
+        "risk_thesis_invalidated": thesis_invalidated,
+        "risk_overrode_action": original_action != final_action,
     })
-    
+
     return state
 
 

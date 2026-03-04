@@ -29,13 +29,15 @@ class RiskDebateState(TypedDict):
 
 class RunConfig(TypedDict, total=False):
     """Runtime configuration flags for ablations and evaluation modes."""
+    stage: Optional[str]  # "A"|"B"|"B+"|"C"|"D"
     simulated_date: Optional[str]
     horizon: str  # "short"|"medium"|"long"
     horizon_days: int  # 10|21|126
     debate_rounds: int  # 0|1|2
+    debate_mode: str  # "on"|"off"
+    decision_style: str  # "classification"|"full"
     memory_on: bool
-    risk_on: bool
-    social_on: bool
+    risk_mode: str  # "off"|"single"|"debate"
 
 class AgentState(TypedDict):
     """
@@ -59,6 +61,8 @@ class AgentState(TypedDict):
     # Research outputs
     arguments: Dict[str, str]
     investment_plan: Optional[str]  # From research manager
+    investment_plan_structured: Optional[Dict[str, Any]]
+    research_manager_recommendation: Optional[str]
     
     # Execution outputs
     trading_strategy: Dict[str, Any]

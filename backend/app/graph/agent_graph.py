@@ -23,7 +23,12 @@ from ..agents.risk_management import (
     neutral_risk_analyst,
 )
 
-def create_agent_graph(max_debate_rounds: int = 1, max_risk_debate_rounds: int = 1):
+def create_agent_graph(
+    max_debate_rounds: int = 1,
+    max_risk_debate_rounds: int = 1,
+    risk_mode: str = "single",
+    debate_mode: str = "on",
+):
     """
     Creates the agent graph with conditional routing for debates.
     
@@ -38,16 +43,22 @@ def create_agent_graph(max_debate_rounds: int = 1, max_risk_debate_rounds: int =
     Layer 3 — Trader (1 agent, 1 LLM call):
       Independent decision-maker. May DISAGREE with Research Manager.
     
-    Layer 4 — Risk Debate (4 agents, 4-5 LLM calls):
-      Aggressive ↔ Conservative ↔ Neutral → Risk Manager (judge, deep thinking)
-      Evaluates tension between Research Manager and Trader decisions.
+        Layer 4 — Risk Mode (configurable):
+            - off: skip risk layer
+            - single: Risk Manager (single risk-check judge)
+            - debate: Aggressive ↔ Conservative ↔ Neutral → Risk Manager
     
-    Total: 11 agents, 11-12 LLM calls per run.
+        Total active path:
+            - off: 7 agents, 7 LLM calls
+            - single: 8 agents, 8 LLM calls
+            - debate: 11+ agents, 11-12 LLM calls
     Removed: Sentiment Analyst (dead placeholder — no social media APIs).
     
     Args:
         max_debate_rounds: Maximum number of bull/bear debate rounds (default: 1)
         max_risk_debate_rounds: Maximum number of risk debate rounds (default: 1)
+        risk_mode: "off" | "single" | "debate"
+        debate_mode: "on" | "off"
     """
     # Create the conditional logic handler
     conditional_logic = ConditionalLogic(
@@ -74,7 +85,8 @@ def create_agent_graph(max_debate_rounds: int = 1, max_risk_debate_rounds: int =
     # Independent decision-maker — may disagree with Research Manager
     graph.add_node("strategy_synthesizer", trading_strategy_synthesizer_agent)
 
-    # ==================== RISK MANAGEMENT (4 agents) ====================
+    # ==================== RISK MANAGEMENT ====================
+    # Keep legacy debate nodes registered for compatibility, but route bypasses them.
     graph.add_node("aggressive_risk", aggressive_risk_analyst)
     graph.add_node("conservative_risk", conservative_risk_analyst)
     graph.add_node("neutral_risk", neutral_risk_analyst)
@@ -90,68 +102,75 @@ def create_agent_graph(max_debate_rounds: int = 1, max_risk_debate_rounds: int =
     graph.add_edge("technical_analyst", "news_harvester")
     
     # Connect analyst team to research team
-    graph.add_edge("news_harvester", "bull_researcher")
+    debate_mode_normalized = (debate_mode or "on").strip().lower()
+    debate_enabled = debate_mode_normalized != "off" and max_debate_rounds > 0
+    if debate_enabled:
+        graph.add_edge("news_harvester", "bull_researcher")
+    else:
+        graph.add_edge("news_harvester", "research_manager")
     
     # ==================== DEBATE MECHANISM ====================
     # Bull researcher can go to bear researcher OR research manager
-    graph.add_conditional_edges(
-        "bull_researcher",
-        conditional_logic.should_continue_debate,
-        {
-            "bear_researcher": "bear_researcher",
-            "research_manager": "research_manager",
-        }
-    )
-    
-    # Bear researcher can go to bull researcher OR research manager
-    graph.add_conditional_edges(
-        "bear_researcher",
-        conditional_logic.should_continue_debate,
-        {
-            "bull_researcher": "bull_researcher",
-            "research_manager": "research_manager",
-        }
-    )
+    if debate_enabled:
+        graph.add_conditional_edges(
+            "bull_researcher",
+            conditional_logic.should_continue_debate,
+            {
+                "bear_researcher": "bear_researcher",
+                "research_manager": "research_manager",
+            }
+        )
+
+        graph.add_conditional_edges(
+            "bear_researcher",
+            conditional_logic.should_continue_debate,
+            {
+                "bull_researcher": "bull_researcher",
+                "research_manager": "research_manager",
+            }
+        )
     
     # Research manager makes the investment decision, then strategy synthesizer creates the plan
     graph.add_edge("research_manager", "strategy_synthesizer")
     
-    # ==================== RISK DEBATE MECHANISM ====================
-    # Strategy synthesizer creates actionable plan, then starts risk debate
-    graph.add_edge("strategy_synthesizer", "aggressive_risk")
-    
-    # Aggressive analyst can go to conservative OR risk manager (judge)
-    graph.add_conditional_edges(
-        "aggressive_risk",
-        conditional_logic.should_continue_risk_debate,
-        {
-            "conservative_risk": "conservative_risk",
-            "risk_manager": "risk_manager",
-        }
-    )
-    
-    # Conservative analyst can go to neutral OR risk manager
-    graph.add_conditional_edges(
-        "conservative_risk",
-        conditional_logic.should_continue_risk_debate,
-        {
-            "neutral_risk": "neutral_risk",
-            "risk_manager": "risk_manager",
-        }
-    )
-    
-    # Neutral analyst can loop back to aggressive OR go to risk manager
-    graph.add_conditional_edges(
-        "neutral_risk",
-        conditional_logic.should_continue_risk_debate,
-        {
-            "aggressive_risk": "aggressive_risk",
-            "risk_manager": "risk_manager",
-        }
-    )
+    # ==================== RISK MODE ROUTING ====================
+    risk_mode_normalized = (risk_mode or "single").strip().lower()
+    if risk_mode_normalized == "off":
+        graph.add_edge("strategy_synthesizer", END)
+    elif risk_mode_normalized == "debate":
+        graph.add_edge("strategy_synthesizer", "aggressive_risk")
+
+        graph.add_conditional_edges(
+            "aggressive_risk",
+            conditional_logic.should_continue_risk_debate,
+            {
+                "conservative_risk": "conservative_risk",
+                "risk_manager": "risk_manager",
+            }
+        )
+
+        graph.add_conditional_edges(
+            "conservative_risk",
+            conditional_logic.should_continue_risk_debate,
+            {
+                "neutral_risk": "neutral_risk",
+                "risk_manager": "risk_manager",
+            }
+        )
+
+        graph.add_conditional_edges(
+            "neutral_risk",
+            conditional_logic.should_continue_risk_debate,
+            {
+                "aggressive_risk": "aggressive_risk",
+                "risk_manager": "risk_manager",
+            }
+        )
+    else:
+        graph.add_edge("strategy_synthesizer", "risk_manager")
     
     # ==================== END ====================
-    # Risk manager makes final decision and ends the graph
+    # Risk manager makes final decision when risk stage is active
     graph.add_edge("risk_manager", END)
 
     # Compile the graph

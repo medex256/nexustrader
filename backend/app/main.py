@@ -60,49 +60,93 @@ HORIZON_MAP = {
     "long": 126,
 }
 
-# Define the request body for the /analyze endpoint
-class AnalysisRequest(BaseModel):
-    ticker: str
-    market: str = "US"
-    simulated_date: Optional[str] = None
-    horizon: str = "short"  # "short"|"medium"|"long"
-    debate_rounds: int = 1  # 0 | 1 | 2
-    memory_on: bool = True
-    risk_on: bool = True
-    social_on: bool = False
+STAGE_PRESETS = {
+    "A": {"debate_mode": "off", "debate_rounds": 0, "risk_mode": "off", "memory_on": False},
+    "B": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "off", "memory_on": False},
+    "B+": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "single", "memory_on": False},
+    "C": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "debate", "memory_on": False},
+    "D": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "debate", "memory_on": True},
+}
 
-@app.post("/analyze")
-def analyze_ticker(request: AnalysisRequest):
-    """
-    Runs the agent graph for a given stock ticker and returns the analysis.
-    """
-    import time
-    start_time = time.time()
-    
-    # Create the agent graph with risk debate enabled
-    agent_graph = create_agent_graph(
-        max_debate_rounds=request.debate_rounds,
-        max_risk_debate_rounds=1  # 1 round = 3 exchanges (aggressive/conservative/neutral)
-    )
 
-    # Resolve horizon to trading days
-    horizon_days = HORIZON_MAP.get(request.horizon.lower(), 10)
-    
-    # Define the initial state from the request
-    initial_state = {
-        "ticker": request.ticker,
-        "market": request.market,
+def _normalize_stage(stage: Optional[str]) -> Optional[str]:
+    if not stage:
+        return None
+    normalized = stage.strip().upper()
+    if normalized == "BPLUS":
+        return "B+"
+    return normalized if normalized in STAGE_PRESETS else None
+
+
+def _resolve_modes(
+    *,
+    stage: Optional[str],
+    debate_mode: str,
+    debate_rounds: int,
+    memory_on: bool,
+    risk_on_legacy: Optional[bool],
+    risk_mode: Optional[str],
+) -> dict:
+    stage_key = _normalize_stage(stage)
+    if stage_key:
+        preset = STAGE_PRESETS[stage_key]
+        resolved_debate_mode = preset["debate_mode"]
+        resolved_debate_rounds = preset["debate_rounds"]
+        resolved_risk_mode = preset["risk_mode"]
+        resolved_memory_on = preset["memory_on"]
+        return {
+            "stage": stage_key,
+            "debate_mode": resolved_debate_mode,
+            "debate_rounds": resolved_debate_rounds,
+            "risk_mode": resolved_risk_mode,
+            "memory_on": resolved_memory_on,
+        }
+
+    # Legacy compatibility: if risk_mode is absent, infer from old risk_on flag.
+    resolved_risk_mode = (risk_mode or ("single" if bool(risk_on_legacy) else "off")).strip().lower()
+    if resolved_risk_mode not in {"off", "single", "debate"}:
+        resolved_risk_mode = "single"
+
+    resolved_debate_mode = (debate_mode or "on").strip().lower()
+    if resolved_debate_mode not in {"on", "off"}:
+        resolved_debate_mode = "on"
+    resolved_debate_rounds = debate_rounds if resolved_debate_mode == "on" else 0
+
+    return {
+        "stage": None,
+        "debate_mode": resolved_debate_mode,
+        "debate_rounds": resolved_debate_rounds,
+        "risk_mode": resolved_risk_mode,
+        "memory_on": bool(memory_on),
+    }
+
+
+def _build_initial_state(
+    *,
+    ticker: str,
+    market: str,
+    simulated_date: Optional[str],
+    horizon: str,
+    decision_style: str,
+    resolved: dict,
+) -> dict:
+    horizon_days = HORIZON_MAP.get(horizon.lower(), 10)
+    return {
+        "ticker": ticker,
+        "market": market,
         "run_config": {
-            "simulated_date": request.simulated_date,
-            "horizon": request.horizon,
+            "stage": resolved.get("stage"),
+            "simulated_date": simulated_date,
+            "horizon": horizon,
             "horizon_days": horizon_days,
-            "debate_rounds": request.debate_rounds,
-            "memory_on": request.memory_on,
-            "risk_on": request.risk_on,
-            "social_on": request.social_on,
+            "debate_rounds": resolved["debate_rounds"],
+            "debate_mode": resolved["debate_mode"],
+            "decision_style": (decision_style or "classification").strip().lower(),
+            "memory_on": resolved["memory_on"],
+            "risk_mode": resolved["risk_mode"],
         },
-        "simulated_date": request.simulated_date,
-        "horizon": request.horizon,
+        "simulated_date": simulated_date,
+        "horizon": horizon,
         "horizon_days": horizon_days,
         "reports": {},
         "stock_chart_image": None,
@@ -113,14 +157,64 @@ def analyze_ticker(request: AnalysisRequest):
         "risk_reports": {},
         "compliance_check": {},
         "proposed_trade": {},
+        "investment_plan_structured": None,
+        "research_manager_recommendation": None,
     }
+
+# Define the request body for the /analyze endpoint
+class AnalysisRequest(BaseModel):
+    ticker: str
+    market: str = "US"
+    simulated_date: Optional[str] = None
+    horizon: str = "short"  # "short"|"medium"|"long"
+    stage: Optional[str] = None  # "A"|"B"|"B+"|"C"|"D"
+    debate_rounds: int = 1  # 0 | 1 | 2
+    debate_mode: str = "on"  # "on"|"off"
+    decision_style: str = "classification"  # "classification"|"full"
+    memory_on: bool = True
+    risk_on: Optional[bool] = None  # legacy (deprecated): use risk_mode instead
+    risk_mode: Optional[str] = None  # "off"|"single"|"debate"
+
+@app.post("/analyze")
+def analyze_ticker(request: AnalysisRequest):
+    """
+    Runs the agent graph for a given stock ticker and returns the analysis.
+    """
+    import time
+    start_time = time.time()
+    
+    resolved = _resolve_modes(
+        stage=request.stage,
+        debate_mode=request.debate_mode,
+        debate_rounds=request.debate_rounds,
+        memory_on=request.memory_on,
+        risk_on_legacy=request.risk_on,
+        risk_mode=request.risk_mode,
+    )
+
+    # Create the agent graph with configurable risk mode
+    agent_graph = create_agent_graph(
+        max_debate_rounds=resolved["debate_rounds"],
+        max_risk_debate_rounds=1,  # 1 round = 3 exchanges (aggressive/conservative/neutral)
+        risk_mode=resolved["risk_mode"],
+        debate_mode=resolved["debate_mode"],
+    )
+
+    initial_state = _build_initial_state(
+        ticker=request.ticker,
+        market=request.market,
+        simulated_date=request.simulated_date,
+        horizon=request.horizon,
+        decision_style=request.decision_style,
+        resolved=resolved,
+    )
 
     # Invoke the graph
     print(f"Invoking the agent graph for {request.ticker}...")
     final_state = agent_graph.invoke(initial_state)
 
     # Store analysis in memory for future learning (only when memory is enabled)
-    if request.memory_on:
+    if resolved["memory_on"]:
         try:
             memory = get_memory()
             memory_id = memory.store_analysis(
@@ -134,10 +228,10 @@ def analyze_ticker(request: AnalysisRequest):
                     "market": request.market,
                     "simulated_date": request.simulated_date,
                     "horizon": request.horizon,
-                    "debate_rounds": request.debate_rounds,
-                    "memory_on": request.memory_on,
-                    "risk_on": request.risk_on,
-                    "social_on": request.social_on,
+                    "debate_rounds": resolved["debate_rounds"],
+                    "debate_mode": resolved["debate_mode"],
+                    "memory_on": resolved["memory_on"],
+                    "risk_mode": resolved["risk_mode"],
                     "analysis_time_seconds": final_state.get('analysis_time_seconds'),
                 },
                 reports=final_state.get('reports', {})
@@ -162,10 +256,13 @@ async def analyze_ticker_stream(
     market: str = "US",
     simulated_date: Optional[str] = None,
     horizon: str = "short",
+    stage: Optional[str] = None,
     debate_rounds: int = 1,
+    debate_mode: str = "on",
+    decision_style: str = "classification",
     memory_on: bool = True,
-    risk_on: bool = True,
-    social_on: bool = False,
+    risk_on: Optional[bool] = None,
+    risk_mode: Optional[str] = None,
 ):
     """
     Runs the agent graph with real-time streaming updates via Server-Sent Events.
@@ -180,40 +277,31 @@ async def analyze_ticker_stream(
             yield f"data: {event_data}\n\n"
             await asyncio.sleep(0.1)
             
-            # Create the agent graph with risk debate enabled
-            agent_graph = create_agent_graph(
-                max_debate_rounds=debate_rounds,
-                max_risk_debate_rounds=1  # 1 round = 3 exchanges (aggressive/conservative/neutral)
+            resolved = _resolve_modes(
+                stage=stage,
+                debate_mode=debate_mode,
+                debate_rounds=debate_rounds,
+                memory_on=memory_on,
+                risk_on_legacy=risk_on,
+                risk_mode=risk_mode,
             )
-            
-            # Resolve horizon to trading days
-            horizon_days = HORIZON_MAP.get(horizon.lower(), 10)
-            
-            initial_state = {
-                "ticker": ticker,
-                "market": market,
-                "run_config": {
-                    "simulated_date": simulated_date,
-                    "horizon": horizon,
-                    "horizon_days": horizon_days,
-                    "debate_rounds": debate_rounds,
-                    "memory_on": memory_on,
-                    "risk_on": risk_on,
-                    "social_on": social_on,
-                },
-                "simulated_date": simulated_date,
-                "horizon": horizon,
-                "horizon_days": horizon_days,
-                "reports": {},
-                "stock_chart_image": None,
-                "sentiment_score": 0.0,
-                "arguments": {},
-                "trading_strategy": {},
-                "trader_reports": {},
-                "risk_reports": {},
-                "compliance_check": {},
-                "proposed_trade": {},
-            }
+
+            # Create the agent graph with configurable risk mode
+            agent_graph = create_agent_graph(
+                max_debate_rounds=resolved["debate_rounds"],
+                max_risk_debate_rounds=1,  # 1 round = 3 exchanges (aggressive/conservative/neutral)
+                risk_mode=resolved["risk_mode"],
+                debate_mode=resolved["debate_mode"],
+            )
+
+            initial_state = _build_initial_state(
+                ticker=ticker,
+                market=market,
+                simulated_date=simulated_date,
+                horizon=horizon,
+                decision_style=decision_style,
+                resolved=resolved,
+            )
             
             # Stream updates for each agent
             # We use astream to get real-time updates from the graph execution
@@ -253,7 +341,7 @@ async def analyze_ticker_stream(
             final_state = current_state
 
             # Store in memory (only when memory is enabled)
-            if memory_on:
+            if resolved["memory_on"]:
                 try:
                     # Create a clean version of state for storage (remove non-serializable objects if any)
                     # But here everything is dict/str, so json.dumps works.
@@ -271,10 +359,10 @@ async def analyze_ticker_stream(
                             "market": market,
                             "simulated_date": simulated_date,
                             "horizon": horizon,
-                            "debate_rounds": debate_rounds,
-                            "memory_on": memory_on,
-                            "risk_on": risk_on,
-                            "social_on": social_on,
+                            "debate_rounds": resolved["debate_rounds"],
+                            "debate_mode": resolved["debate_mode"],
+                            "memory_on": resolved["memory_on"],
+                            "risk_mode": resolved["risk_mode"],
                         },
                         final_state_json=final_state_json,
                         reports=final_state.get('reports', {})

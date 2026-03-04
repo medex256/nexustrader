@@ -21,18 +21,57 @@ Removed Agents (Redundant):
 - Bull Trader: Duplicated Bull Researcher's perspective (90% overlap)
 """
 
-from ..llm import invoke_llm as call_llm, invoke_llm_quick
+import re
+import json
+
+from ..llm import invoke_llm as call_llm
+from ..llm import invoke_llm_structured as call_llm_structured
 from typing import Optional, Literal
 from pydantic import BaseModel, Field, ValidationError
 from ..tools.portfolio_tools import calculate_ticker_risk_metrics
 
 class TradingStrategy(BaseModel):
     action: Literal["BUY", "SELL", "HOLD"]
+    confidence_score: float = Field(default=0.5, ge=0, le=1)
     entry_price: Optional[float] = None
     take_profit: Optional[float] = None
     stop_loss: Optional[float] = None
     position_size_pct: Optional[float] = Field(default=0, ge=0, le=100)
     rationale: str
+
+
+def _extract_confidence_band(rationale: str) -> str:
+    text = (rationale or "").upper()
+    m = re.search(r"CONFIDENCE\s*=\s*(HIGH|MEDIUM|LOW)", text)
+    if m:
+        return m.group(1)
+    m2 = re.search(r"\b(HIGH|MEDIUM|LOW)\b", text)
+    return m2.group(1) if m2 else "UNKNOWN"
+
+
+def _band_from_score(score: float) -> str:
+    if score >= 0.75:
+        return "HIGH"
+    if score >= 0.45:
+        return "MEDIUM"
+    return "LOW"
+
+
+def _direction_from_signals(state: dict) -> Optional[str]:
+    signals = state.get("signals", {}) or {}
+    bull = 0
+    bear = 0
+    for k in ("fundamental", "technical", "news"):
+        d = ((signals.get(k, {}) or {}).get("direction") or "").upper()
+        if d == "BULLISH":
+            bull += 1
+        elif d == "BEARISH":
+            bear += 1
+    if bull > bear:
+        return "BUY"
+    if bear > bull:
+        return "SELL"
+    return None
 
 
 def _extract_json_from_text(text: str) -> str:
@@ -89,7 +128,7 @@ Return ONLY: BUY, SELL, or HOLD (no punctuation, no explanation)"""
     
     try:
         # Use minimal thinking — this is a trivial extraction task
-        signal = invoke_llm_quick(prompt).strip().upper()
+        signal = call_llm(prompt).strip().upper()
         # Validate the response
         if signal in ["BUY", "SELL", "HOLD"]:
             return signal
@@ -119,6 +158,9 @@ def trading_strategy_synthesizer_agent(state: dict):
     ticker = state.get('ticker', 'Unknown')
     horizon = state.get('horizon', 'short')
     horizon_days = state.get('horizon_days', 10)
+    decision_style = (state.get("run_config", {}) or {}).get("decision_style", "classification")
+    run_config = state.get("run_config", {}) or {}
+    stage = (run_config.get("stage") or "").strip().upper() or None
     
     # Fetch real-time price context
     try:
@@ -139,96 +181,173 @@ def trading_strategy_synthesizer_agent(state: dict):
     
     # NOTE: No extract_signal call here — we don't force alignment.
     # The Trader reads the plan and makes its own call.
-    
-    prompt = f"""You are the Trader for {ticker}. You have received an investment plan from the Research Manager.
-Your job is to make your OWN independent trading decision. You may AGREE or DISAGREE with the plan.
 
-TRADING HORIZON: {horizon.upper()} ({horizon_days} trading days)
+    # Build structured signal summary for Stage A (gives Trader concrete evidence to cite)
+    signals = state.get("signals", {}) or {}
+    signal_lines = []
+    for key, label in [("fundamental", "Fundamental"), ("technical", "Technical"), ("news", "News")]:
+        s = signals.get(key)
+        if s:
+            signal_lines.append(
+                f"  {label}: direction={s.get('direction','N/A')} | conf={s.get('confidence',0.5):.2f}"
+                f" | catalyst={s.get('key_catalyst','UNKNOWN')} | risk={s.get('primary_risk','UNKNOWN')}"
+            )
+        else:
+            signal_lines.append(f"  {label}: No signal available")
+    signal_block = "\n".join(signal_lines)
 
-CONTEXT:
-Current Market Price: {current_price_str}
+    prefer_directional = stage not in {"A"}
+
+    if stage == "A":
+        # Stage A: Trader acts as a pure executor of the RM's weighted decision
+        prompt = f"""Role: Trader for {ticker}.
+Task: execute the Research Manager's recommendation for the next {horizon_days} trading days.
+
+Current Price: {current_price_str}
+
+--- ANALYST SIGNALS ---
+{signal_block}
+
+--- RESEARCH MANAGER RECOMMENDATION ---
 {context}
 
-INSTRUCTIONS:
-1. Evaluate the Research Manager's plan critically. Do you agree with the direction?
-2. Make YOUR OWN decision: BUY, SELL, or HOLD for the next {horizon_days} trading days.
-3. Use qualitative judgement to decide BUY/SELL/HOLD:
-    - Prefer BUY or SELL when one direction has clearer, catalyst-backed evidence for this horizon.
-    - For SHORT horizon specifically, weight technical/news catalysts more than long-horizon valuation narratives.
-    - Use HOLD only when evidence is genuinely mixed, contradictory, or too weak to justify directional conviction.
-    - Assign an internal confidence level (HIGH/MEDIUM/LOW) and make sure the chosen action matches that confidence.
-4. IF BUY/SELL: Set 'entry_price' CLOSE to the Current Market Price ({current_price_str}).
-   - For LONG (Buy): Take Profit > Entry > Stop Loss.
-   - For SHORT (Sell): Stop Loss > Entry > Take Profit.
-5. Make YOUR OWN independent decision. You may agree or disagree with the Research Manager.
-6. HOLD is an abstention class. Use it only when directional edge is genuinely weak.
-7. Do NOT reverse direction from the plan unless you cite at least 1 concrete contradictory fact.
-8. If you DISAGREE with the Research Manager, explain why in rationale.
+Execution rules:
+1) TRUST THE MANAGER: You must execute exactly the action recommended by the Research Manager (BUY, SELL, or HOLD).
+   Do NOT second-guess or override their decision, even if the analyst signals appear mixed or conflicting.
+   The Manager has already run a weighted scoring algorithm to determine the action.
+2) RATIONALE: Cite FOR (strongest supporting argument) and AGAINST (strongest counter-argument), 
+   then conclude by stating clearly that you are executing the Manager's plan.
 
-Return ONLY valid JSON (no commentary or Markdown) in this exact schema:
+Return ONLY valid JSON:
 {{
     "action": "BUY|SELL|HOLD",
-    "entry_price": <number>,
-    "take_profit": <number>,
-    "stop_loss": <number>,
-    "position_size_pct": <number>,
-    "rationale": "<3-5 sentences. Include: confidence band (HIGH/MEDIUM/LOW), exactly 2-3 strongest supporting facts for this horizon, and why the opposite side was rejected>"
+    "confidence_score": <number 0..1>,
+    "entry_price": null,
+    "take_profit": null,
+    "stop_loss": null,
+    "position_size_pct": 0,
+    "rationale": "<FOR: ... AGAINST: ... DECISION: Executing Manager's recommendation to [ACTION].>"
 }}
+"""
+    else:
+        prompt = f"""Role: Trader for {ticker}.
+Task: predict direction over the next {horizon_days} trading days.
 
-Keep response under 380 words."""
+Current Price: {current_price_str}
+Context:
+{context}
+
+Rules:
+1) Use only context above; no external facts.
+2) Prefer directional action (BUY/SELL). Use HOLD only when evidence is genuinely mixed.
+3) Output confidence_score in [0, 1] for the chosen action.
+4) For classification style, de-emphasize trade sizing details.
+
+Return ONLY valid JSON:
+{{
+    "action": "BUY|SELL|HOLD",
+    "confidence_score": <number 0..1>,
+    "entry_price": <number|null>,
+    "take_profit": <number|null>,
+    "stop_loss": <number|null>,
+    "position_size_pct": <number>,
+    "rationale": "<2-4 sentences with top evidence>"
+}}
+"""
     
-    # 2. Call the LLM to generate the strategy
-    strategy_response = call_llm(prompt)
-    
-    # 3. Parse and validate JSON output
+    # 2. Call the LLM to generate structured strategy
     parse_failed = False
     try:
-        json_text = _extract_json_from_text(strategy_response)
-        strategy_model = TradingStrategy.model_validate_json(json_text)
+        strategy_model = call_llm_structured(
+            prompt,
+            TradingStrategy,
+            temperature=0.2,
+        )
         strategy = strategy_model.model_dump()
     except (ValueError, ValidationError) as exc:
         parse_failed = True
-        # JSON parsing failed - use LLM signal extractor as fallback
+        # Structured path failed - fallback to text extraction
         try:
+            strategy_response = call_llm(prompt)
             extracted_action = extract_signal(strategy_response, ticker)
             strategy = {
                 "action": extracted_action,
-                "entry_price": None,
-                "take_profit": None,
-                "stop_loss": None,
-                "position_size_pct": 10 if extracted_action != "HOLD" else 0,
-                "rationale": f"Extracted from prose after JSON parse failure: {exc}. Original response: {strategy_response[:200]}...",
-            }
-        except Exception as extract_exc:
-            strategy = {
-                "action": "HOLD",
+                "confidence_score": 0.55 if extracted_action != "HOLD" else 0.35,
                 "entry_price": None,
                 "take_profit": None,
                 "stop_loss": None,
                 "position_size_pct": 0,
-                "rationale": f"Fallback due to parse error ({exc}) and extraction error ({extract_exc}). Raw: {strategy_response[:200]}...",
+                "rationale": f"Extracted from prose after structured parse failure: {exc}. Original response: {strategy_response[:200]}...",
+            }
+        except Exception as extract_exc:
+            strategy = {
+                "action": "HOLD",
+                "confidence_score": 0.2,
+                "entry_price": None,
+                "take_profit": None,
+                "stop_loss": None,
+                "position_size_pct": 0,
+                "rationale": f"Fallback due to parse error ({exc}) and extraction error ({extract_exc}).",
             }
     
     # NO forced alignment — Trader is independent.
     # Extract what the Research Manager recommended for metadata/risk debate context
     manager_action = None
-    if investment_plan and len(investment_plan.strip()) > 50:
-        # Simple keyword extraction (no LLM call needed)
-        plan_upper = investment_plan.upper()
-        if "RECOMMENDATION: BUY" in plan_upper or "RECOMMENDATION:** BUY" in plan_upper or "**BUY**" in plan_upper:
-            manager_action = "BUY"
-        elif "RECOMMENDATION: SELL" in plan_upper or "RECOMMENDATION:** SELL" in plan_upper or "**SELL**" in plan_upper:
-            manager_action = "SELL"
-        elif "RECOMMENDATION: HOLD" in plan_upper or "RECOMMENDATION:** HOLD" in plan_upper or "**HOLD**" in plan_upper:
-            manager_action = "HOLD"
+    if isinstance(investment_plan, str) and investment_plan.strip():
+        try:
+            parsed_plan = json.loads(investment_plan)
+            rec = (parsed_plan.get("recommendation") or "").upper()
+            if rec in {"BUY", "SELL", "HOLD"}:
+                manager_action = rec
+        except Exception:
+            plan_upper = investment_plan.upper()
+            if "RECOMMENDATION" in plan_upper and "BUY" in plan_upper:
+                manager_action = "BUY"
+            elif "RECOMMENDATION" in plan_upper and "SELL" in plan_upper:
+                manager_action = "SELL"
+            elif "RECOMMENDATION" in plan_upper and "HOLD" in plan_upper:
+                manager_action = "HOLD"
     
-    trader_action = strategy.get("action", "HOLD")
+    # Anti-abstention guard: HOLD is only allowed when confidence is LOW.
+    trader_action = (strategy.get("action", "HOLD") or "HOLD").upper()
+    confidence_band = _extract_confidence_band(strategy.get("rationale", ""))
+    if confidence_band == "UNKNOWN":
+        confidence_band = _band_from_score(float(strategy.get("confidence_score", 0.5) or 0.5))
+        strategy["rationale"] = (
+            f"{strategy.get('rationale', '').strip()} CONFIDENCE={confidence_band}"
+        ).strip()
+
+    abstention_overridden = False
+    # Stage A is a baseline: allow HOLD without forcing direction.
+    if stage != "A" and trader_action == "HOLD" and confidence_band in {"HIGH", "MEDIUM"}:
+        # Prefer Research Manager direction if explicit, else use majority of analyst signals.
+        fallback_direction = None
+        if manager_action in {"BUY", "SELL"}:
+            fallback_direction = manager_action
+        else:
+            fallback_direction = _direction_from_signals(state)
+
+        if fallback_direction in {"BUY", "SELL"}:
+            trader_action = fallback_direction
+            strategy["action"] = trader_action
+            abstention_overridden = True
+            strategy["rationale"] = (
+                f"{strategy.get('rationale', '')} "
+                f"[AUTO_GUARD] HOLD overridden to {trader_action} because CONFIDENCE={confidence_band}."
+            ).strip()
+
     disagreed = manager_action and trader_action != manager_action
     if disagreed:
         print(f"[TRADER] Independent decision: Trader chose {trader_action}, Research Manager recommended {manager_action}")
     
     # Normalize HOLD to avoid misleading price fields
     if (strategy.get("action") or "").upper() == "HOLD":
+        strategy["entry_price"] = None
+        strategy["take_profit"] = None
+        strategy["stop_loss"] = None
+        strategy["position_size_pct"] = 0
+    elif (decision_style or "classification").lower() == "classification":
+        # Keep this project as directional classification, not portfolio sizing.
         strategy["entry_price"] = None
         strategy["take_profit"] = None
         strategy["stop_loss"] = None
@@ -247,6 +366,8 @@ Keep response under 380 words."""
     state['run_metadata'].update({
         "strategy_action": trader_action,
         "strategy_json_parse_failed": parse_failed,
+        "strategy_confidence_band": confidence_band,
+        "strategy_abstention_overridden": abstention_overridden,
         "research_manager_action": manager_action,
         "trader_disagreed_with_manager": disagreed,
     })

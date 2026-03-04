@@ -15,6 +15,54 @@ DEFAULT_TICKERS_FILE = os.path.join(EXPERIMENTS_DIR, "inputs", "tickers.txt")
 DEFAULT_DATES_FILE = os.path.join(EXPERIMENTS_DIR, "inputs", "dates_expanded.txt")
 DEFAULT_OUT_DIR = os.path.join(EXPERIMENTS_DIR, "results", "raw")
 
+STAGE_PRESETS = {
+    "A": {"debate_mode": "off", "debate_rounds": 0, "risk_mode": "off", "memory_on": False},
+    "B": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "off", "memory_on": False},
+    "B+": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "single", "memory_on": False},
+    "C": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "debate", "memory_on": False},
+    "D": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "debate", "memory_on": True},
+}
+
+
+def _normalize_stage(stage: str | None) -> str | None:
+    if not stage:
+        return None
+    normalized = stage.strip().upper()
+    if normalized == "BPLUS":
+        return "B+"
+    return normalized if normalized in STAGE_PRESETS else None
+
+
+def _resolve_flags(args: argparse.Namespace) -> Dict[str, Any]:
+    stage_key = _normalize_stage(getattr(args, "stage", None))
+    if stage_key:
+        preset = STAGE_PRESETS[stage_key]
+        return {
+            "stage": stage_key,
+            "debate_rounds": preset["debate_rounds"],
+            "debate_mode": preset["debate_mode"],
+            "decision_style": args.decision_style,
+            "memory_on": preset["memory_on"],
+            "risk_mode": preset["risk_mode"],
+        }
+
+    risk_mode = args.risk_mode if args.risk_mode is not None else ("single" if args.risk_on else "off")
+    if risk_mode not in {"off", "single", "debate"}:
+        risk_mode = "single"
+    debate_mode = (args.debate_mode or "on").strip().lower()
+    if debate_mode not in {"on", "off"}:
+        debate_mode = "on"
+    debate_rounds = args.debate_rounds if debate_mode == "on" else 0
+
+    return {
+        "stage": None,
+        "debate_rounds": debate_rounds,
+        "debate_mode": debate_mode,
+        "decision_style": args.decision_style,
+        "memory_on": args.memory_on,
+        "risk_mode": risk_mode,
+    }
+
 
 def parse_list(arg: str) -> List[str]:
     if not arg:
@@ -94,15 +142,25 @@ def compact_result(full: Dict[str, Any], truncate_chars: int = 400) -> Dict[str,
 
 
 def build_payload(ticker: str, market: str, simulated_date: str, horizon: str, flags: Dict[str, Any]) -> Dict[str, Any]:
+    risk_mode = (flags.get("risk_mode") or "off").strip().lower()
+    if risk_mode not in {"off", "single", "debate"}:
+        risk_mode = "single"
+    debate_mode = (flags.get("debate_mode") or "on").strip().lower()
+    if debate_mode not in {"on", "off"}:
+        debate_mode = "on"
+    debate_rounds = 0 if debate_mode == "off" else flags.get("debate_rounds", 1)
+
     return {
         "ticker": ticker,
         "market": market,
         "simulated_date": simulated_date,
         "horizon": horizon,
-        "debate_rounds": flags.get("debate_rounds", 1),
+        "stage": flags.get("stage"),
+        "debate_rounds": debate_rounds,
+        "debate_mode": debate_mode,
+        "decision_style": flags.get("decision_style", "classification"),
         "memory_on": flags.get("memory_on", True),
-        "risk_on": flags.get("risk_on", True),
-        "social_on": flags.get("social_on", False),
+        "risk_mode": risk_mode,
     }
 
 
@@ -128,41 +186,51 @@ def _run_single(
     flags: Dict[str, Any],
     output_mode: Literal["full", "compact"],
     truncate_chars: int,
+    retries: int = 2,
 ) -> Dict[str, Any]:
     """Execute a single analysis call and return the record dict."""
     payload = build_payload(ticker, market, simulated_date, horizon, flags)
-    try:
-        req = Request(
-            url=f"{api_base}/analyze",
-            data=json.dumps(payload).encode("utf-8"),
-            headers={"Content-Type": "application/json"},
-            method="POST",
-        )
-        with urlopen(req, timeout=300) as resp:
-            body = resp.read().decode("utf-8")
-        result = json.loads(body) if body else {}
+    total_attempts = max(1, retries + 1)
+    last_exc: Exception | None = None
 
-        stored_result: Any = result
-        if output_mode == "compact" and isinstance(result, dict):
-            stored_result = compact_result(result, truncate_chars=truncate_chars)
+    for attempt in range(1, total_attempts + 1):
+        try:
+            req = Request(
+                url=f"{api_base}/analyze",
+                data=json.dumps(payload).encode("utf-8"),
+                headers={"Content-Type": "application/json"},
+                method="POST",
+            )
+            with urlopen(req, timeout=300) as resp:
+                body = resp.read().decode("utf-8")
+            result = json.loads(body) if body else {}
 
-        return {
-            "ticker": ticker,
-            "simulated_date": simulated_date,
-            "horizon": horizon,
-            "market": market,
-            "flags": flags,
-            "result": stored_result,
-        }
-    except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as exc:
-        return {
-            "ticker": ticker,
-            "simulated_date": simulated_date,
-            "horizon": horizon,
-            "market": market,
-            "flags": flags,
-            "error": str(exc),
-        }
+            stored_result: Any = result
+            if output_mode == "compact" and isinstance(result, dict):
+                stored_result = compact_result(result, truncate_chars=truncate_chars)
+
+            return {
+                "ticker": ticker,
+                "simulated_date": simulated_date,
+                "horizon": horizon,
+                "market": market,
+                "flags": flags,
+                "attempt": attempt,
+                "result": stored_result,
+            }
+        except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as exc:
+            last_exc = exc
+            continue
+
+    return {
+        "ticker": ticker,
+        "simulated_date": simulated_date,
+        "horizon": horizon,
+        "market": market,
+        "flags": flags,
+        "attempt": total_attempts,
+        "error": str(last_exc) if last_exc is not None else "unknown_error",
+    }
 
 
 def run_batch(
@@ -177,6 +245,7 @@ def run_batch(
     output_mode: Literal["full", "compact"] = "compact",
     truncate_chars: int = 400,
     workers: int = 1,
+    retries: int = 2,
 ) -> str:
     ensure_dir(out_dir)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -191,7 +260,7 @@ def run_batch(
             # Sequential execution (original behavior)
             for ticker, simulated_date in jobs:
                 record = _run_single(
-                    api_base, ticker, simulated_date, market, horizon, flags, output_mode, truncate_chars
+                    api_base, ticker, simulated_date, market, horizon, flags, output_mode, truncate_chars, retries
                 )
                 out.write(json.dumps(record) + "\n")
                 out.flush()
@@ -211,6 +280,7 @@ def run_batch(
                         flags,
                         output_mode,
                         truncate_chars,
+                        retries,
                     ): (ticker, simulated_date)
                     for ticker, simulated_date in jobs
                 }
@@ -257,13 +327,35 @@ def main() -> int:
         choices=["short", "medium", "long"],
         help="Trading horizon (single-horizon experiment design; k=10 for short, k=21 for medium, k=126 for long)",
     )
+    parser.add_argument(
+        "--stage",
+        choices=["A", "B", "B+", "C", "D", "bplus", "BPLUS"],
+        default=None,
+        help="Stage preset override: A(core), B(+debate), B+(+single risk), C(+risk debate), D(+memory).",
+    )
     parser.add_argument("--debate-rounds", type=int, default=1, help="Number of debate rounds (0, 1, or 2)")
+    parser.add_argument(
+        "--debate-mode",
+        choices=["on", "off"],
+        default="on",
+        help="Investment debate mode: on (Bull/Bear enabled) or off (bypass to judge)",
+    )
+    parser.add_argument(
+        "--decision-style",
+        choices=["classification", "full"],
+        default="classification",
+        help="classification: focus on 10-day UP/DOWN/HOLD; full: include richer trade fields",
+    )
     parser.add_argument("--memory-on", action="store_true", default=True)
     parser.add_argument("--memory-off", action="store_false", dest="memory_on")
-    parser.add_argument("--risk-on", action="store_true", default=True)
+    parser.add_argument("--risk-on", action="store_true", default=False)
     parser.add_argument("--risk-off", action="store_false", dest="risk_on")
-    parser.add_argument("--social-on", action="store_true", default=False)
-    parser.add_argument("--social-off", action="store_false", dest="social_on")
+    parser.add_argument(
+        "--risk-mode",
+        choices=["off", "single", "debate"],
+        default=None,
+        help="Risk stage mode: off (skip), single (risk manager only), debate (3 risk agents + manager)",
+    )
     parser.add_argument("--out", default=DEFAULT_OUT_DIR, help="Output directory")
     parser.add_argument("--tag", default="experiment", help="Tag to include in output filename (e.g., baseline, memory_on, debate_2)")
     parser.add_argument(
@@ -284,6 +376,12 @@ def main() -> int:
         default=1,
         help="Number of parallel workers (1 = sequential, 2-4 recommended)",
     )
+    parser.add_argument(
+        "--retries",
+        type=int,
+        default=2,
+        help="Retries per failed request (improves completeness)",
+    )
 
     args = parser.parse_args()
 
@@ -303,12 +401,7 @@ def main() -> int:
         print("No dates provided. Use --dates or --dates-file.")
         return 1
 
-    flags = {
-        "debate_rounds": args.debate_rounds,
-        "memory_on": args.memory_on,
-        "risk_on": args.risk_on,
-        "social_on": args.social_on,
-    }
+    flags = _resolve_flags(args)
 
     out_path = run_batch(
         api_base=args.api,
@@ -322,6 +415,7 @@ def main() -> int:
         output_mode=args.output,
         truncate_chars=args.truncate_chars,
         workers=args.workers,
+        retries=max(0, args.retries),
     )
 
     print(f"Batch completed. Results saved to: {out_path}")

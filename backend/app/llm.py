@@ -1,22 +1,20 @@
 import os
-import re
 import time
+from typing import TypeVar
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
+from pydantic import BaseModel
 
 # Load environment variables
 load_dotenv()
 
-# Temporary model switch: use plain Gemini 2.5 Flash for all calls.
-# Keep function signatures stable, but do not pass thinking config.
-DEFAULT_THINKING_LEVEL = "low"
-
-# Model name
-MODEL_NAME = "gemini-2.5-flash"
+# Flash model — unified model for all agents
+MODEL_NAME = "gemini-3-flash-preview"
 
 # Singleton client (created on first call)
 _client: genai.Client | None = None
+T = TypeVar("T", bound=BaseModel)
 
 
 def _get_client() -> genai.Client:
@@ -33,26 +31,15 @@ def _get_client() -> genai.Client:
 def invoke_llm(
     prompt: str,
     *,
-    thinking_level: str = DEFAULT_THINKING_LEVEL,
     temperature: float = 1.0,
     max_retries: int = 3,
 ) -> str:
     """
-    Invokes Gemini 2.5 Flash.
-
-    Args:
-        prompt: The prompt to send to the language model.
-        thinking_level: Kept for backward compatibility; ignored for Gemini 2.5 Flash.
-        temperature: Sampling temperature (default 1.0).
-        max_retries: Maximum number of retry attempts for rate limits.
-
-    Returns:
-        The model's response text.
+    Invokes Gemini 3 Flash Preview.
     """
     client = _get_client()
 
-    # NOTE: max_output_tokens is intentionally NOT set.
-    # Keep defaults to avoid truncating agent outputs.
+    # Single clean config for all agents
     config = types.GenerateContentConfig(
         temperature=temperature,
     )
@@ -65,51 +52,94 @@ def invoke_llm(
                 config=config,
             )
 
-            # Extract text (skip thought-summary parts)
-            if response.text:
-                return response.text
-
-            # Fallback: iterate parts for non-thought text
+            # Filter for response text only, ignoring the internal reasoning (thought) parts
             if response.candidates:
-                for part in response.candidates[0].content.parts:
-                    if hasattr(part, 'thought') and part.thought:
-                        continue  # skip thought summaries
-                    if part.text:
-                        return part.text
+                text_parts = [
+                    part.text for part in response.candidates[0].content.parts 
+                    if part.text and not getattr(part, 'thought', False)
+                ]
+                if text_parts:
+                    return "".join(text_parts).strip()
 
-            print(f"Warning: Response has no valid text. Candidates: {response.candidates}")
-            return "Error: The model returned an empty response. Please try again."
+            if response.text:
+                return response.text.strip()
+
+            return "Error: Empty response."
 
         except Exception as e:
-            error_msg = str(e)
-
-            # Rate-limit handling
-            if "429" in error_msg or "Quota exceeded" in error_msg or "rate" in error_msg.lower():
-                if attempt < max_retries:
-                    wait_time = 10
-                    match = re.search(r'retry in (\d+\.?\d*)s', error_msg)
-                    if match:
-                        wait_time = float(match.group(1)) + 1
-                    print(f"[RATE LIMIT] Attempt {attempt + 1}/{max_retries + 1} failed. Waiting {wait_time:.0f}s...")
-                    time.sleep(wait_time)
-                    continue
-                else:
-                    print(f"[RATE LIMIT] Max retries reached. Error: {e}")
-                    return f"Error: Rate limit exceeded after {max_retries} retries."
-            else:
-                print(f"An error occurred while calling the LLM: {e}")
-                return f"Error: Could not get a response from the LLM. Details: {e}"
+            # Basic retry logic for rate limits
+            if "429" in str(e) and attempt < max_retries:
+                time.sleep(10)
+                continue
+            return f"Error: {e}"
 
     return "Error: Max retries exceeded."
 
 
-# ── Convenience aliases ──────────────────────────────────────────────────
+def invoke_llm_structured(
+    prompt: str,
+    schema: type[T],
+    *,
+    temperature: float = 0.3,
+    max_retries: int = 3,
+) -> T:
+    """
+    Invokes Gemini with native schema-constrained JSON output.
 
-def invoke_llm_deep(prompt: str, **kwargs) -> str:
-    """Invoke LLM with high thinking — for judges / complex reasoning."""
-    return invoke_llm(prompt, thinking_level="high", **kwargs)
+    Args:
+        prompt: Prompt text
+        schema: Pydantic model class for strict output validation
+        temperature: Sampling temperature
+        max_retries: Maximum retries for API/rate-limit issues
+    Returns:
+        Validated Pydantic model instance.
+
+    Raises:
+        RuntimeError when generation/validation fails after retries.
+    """
+    client = _get_client()
+
+    config = types.GenerateContentConfig(
+        temperature=temperature,
+        response_mime_type="application/json",
+        response_schema=schema,
+    )
+
+    last_error: Exception | None = None
+    for attempt in range(max_retries + 1):
+        try:
+            response = client.models.generate_content(
+                model=MODEL_NAME,
+                contents=prompt,
+                config=config,
+            )
+
+            text = ""
+            if response.candidates:
+                text_parts = [
+                    part.text for part in response.candidates[0].content.parts
+                    if part.text and not getattr(part, "thought", False)
+                ]
+                text = "".join(text_parts).strip()
+
+            if not text and response.text:
+                text = response.text.strip()
+
+            if not text:
+                raise ValueError("Empty structured response")
+
+            return schema.model_validate_json(text)
+        except Exception as e:
+            last_error = e
+            if "429" in str(e) and attempt < max_retries:
+                time.sleep(10)
+                continue
+            if attempt < max_retries:
+                time.sleep(2)
+                continue
+            break
+
+    raise RuntimeError(f"Structured LLM call failed after retries: {last_error}")
 
 
-def invoke_llm_quick(prompt: str, **kwargs) -> str:
-    """Invoke LLM with low thinking — for analysts / signal extraction."""
-    return invoke_llm(prompt, thinking_level="low", **kwargs)
+

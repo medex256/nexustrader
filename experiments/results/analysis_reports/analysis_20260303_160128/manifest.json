@@ -1,0 +1,13 @@
+{
+  "bundle_dir": "c:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\analysis_reports\\analysis_20260303_160128",
+  "created_at": "20260303_160128",
+  "artifact_count": 6,
+  "artifacts": [
+    "agent_rows_scored.csv",
+    "agent_summary.csv",
+    "baseline_rows_scored.csv",
+    "baseline_summary.csv",
+    "chart_dir_acc_ex_hold.png",
+    "meta.json"
+  ]
+}

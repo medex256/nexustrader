@@ -1,36 +1,71 @@
 # In nexustrader/backend/app/agents/research_team.py
 
-from ..llm import invoke_llm as call_llm, invoke_llm_deep
+import json
+from typing import Literal
+from pydantic import BaseModel, Field
+
+from ..llm import invoke_llm as call_llm
+from ..llm import invoke_llm_structured as call_llm_structured
 from ..utils.memory import get_memory
 
 
-def _format_reports_for_debate(state: dict) -> str:
+class ResearchManagerDecision(BaseModel):
+    # --- Vote+Strength fields: used for Stage A weighted directional scoring ---
+    # vote = direction of evidence; strength = how strong/clear the evidence is
+    fundamental_vote: Literal["BULLISH", "BEARISH", "NEUTRAL"] = "NEUTRAL"
+    fundamental_strength: Literal["STRONG", "MED", "WEAK"] = "MED"
+    technical_vote: Literal["BULLISH", "BEARISH", "NEUTRAL"] = "NEUTRAL"
+    technical_strength: Literal["STRONG", "MED", "WEAK"] = "MED"
+    news_vote: Literal["BULLISH", "BEARISH", "NEUTRAL"] = "NEUTRAL"
+    news_strength: Literal["STRONG", "MED", "WEAK"] = "MED"
+    # --- Legacy numeric scores: retained for debate-mode stages (B/C/D) ---
+    buy_score: float = Field(default=5.0, ge=0, le=10)
+    sell_score: float = Field(default=5.0, ge=0, le=10)
+    # --- Common fields ---
+    recommendation: Literal["BUY", "SELL", "HOLD"] = "HOLD"
+    confidence_score: float = Field(default=0.5, ge=0, le=1)
+    primary_drivers: list[str] = Field(default_factory=list)
+    main_risk: str = "Unknown"
+    execution_notes: list[str] = Field(default_factory=list)
+
+
+def _band_from_score(score: float) -> str:
+    if score >= 0.75:
+        return "HIGH"
+    if score >= 0.45:
+        return "MEDIUM"
+    return "LOW"
+
+
+def _format_signal_summary_for_debate(state: dict) -> str:
     """
-    Formats analyst outputs for debate agent prompts.
-
-    FIX for 'raw dict dump' flaw: previously `{reports}` rendered as an ugly
-    Python repr string (e.g. `{'fundamental_analyst': '### ...\\n...', ...}`)
-    with escaped newlines, making it very hard for the LLM to parse.
-
-    Now shows:
-    1. Structured signal summary first (quick orientation for the debater)
-    2. Full prose reports formatted as clean markdown (for detailed context)
+    Signal-only summary for debaters.
+    This intentionally excludes long prose analyst reports to prevent signal dilution.
     """
     signals = state.get('signals', {})
-    reports = state.get('reports', {})
-
-    lines = ["**ANALYST SIGNAL SUMMARY** (keyword-scored — see full reports below)"]
+    lines = ["**ANALYST SIGNAL SUMMARY (DEBATE INPUT)**"]
     for key, label in [('fundamental', 'Fundamental'), ('technical', 'Technical'), ('news', 'News/Sentiment')]:
         if key in signals:
             s = signals[key]
             lines.append(
                 f"- **{label}**: {s.get('direction', 'N/A')} "
-                f"({s.get('confidence', 0.5):.0%} confidence) — {s.get('key_factor', '')}"
+                f"| magnitude={s.get('magnitude', 0.0):.2f} "
+                f"| confidence={s.get('confidence', 0.5):.2f} "
+                f"| key_catalyst={s.get('key_catalyst', 'UNKNOWN')} "
+                f"| primary_risk={s.get('primary_risk', 'UNKNOWN')}"
             )
         else:
             lines.append(f"- **{label}**: No signal available")
 
-    lines.append("\n**DETAILED ANALYST REPORTS**")
+    return "\n".join(lines)
+
+
+def _format_reports_for_judge(state: dict) -> str:
+    """
+    Full analyst prose for the Research Manager only.
+    """
+    reports = state.get('reports', {})
+    lines = ["**DETAILED ANALYST REPORTS (JUDGE CONTEXT)**"]
     for key, label in [
         ('fundamental_analyst', 'Fundamental Analysis'),
         ('technical_analyst', 'Technical Analysis'),
@@ -124,67 +159,57 @@ Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 0:
         # First round - opening argument with cross-examination prep
-        prompt = f"""You are a Bull Analyst advocating for investing in {ticker}. Build a strong, evidence-based case that anticipates and pre-empts bearish counterarguments.
+        prompt = f"""Role: Bull Researcher for {ticker}.
+    Task: present the strongest directional case for the next {horizon_days} trading days.
 
-{horizon_context}
+    {horizon_context}
 
-**CROSS-EXAMINATION RULES:**
-1. Support EVERY claim with specific data (numbers, dates, sources)
-2. Anticipate the Bear's likely objections (valuation concerns, risks) and address them proactively
-3. Use comparative analysis (vs peers, vs historical averages) to strengthen your case
-4. Prepare to defend your key claims with evidence in next round
+    Use only the analyst signal summary below {"and memory notes" if memory_context else ""}. Do not add external facts.
+    If evidence is missing, write UNKNOWN.
 
-Focus on:
-- Growth catalysts and revenue opportunities (with specific metrics)
-- Competitive advantages and market positioning (backed by numbers)
-- Financial health and positive trends (actual data)
-{f"- Learn from past analyses - what worked and what didn't" if memory_context else ""}
+    Mandatory lead structure:
+    1) Start with the single strongest near-term catalyst first.
+    2) Include at least one concrete value/date if present in context.
 
-Analysis Reports:
-{_format_reports_for_debate(state)}
-{memory_context}
+    Falsifiability rule:
+    - If 2 or more analyst signals are BEARISH with confidence >= 0.65, you must NOT output BUY.
 
-FORMAT: Use Markdown headers and bullet points.
-Structure:
-- **Core Thesis**: The primary reason to buy (with 2-3 data points).
-- **Key Catalysts**: 2-3 specific growth drivers (quantified when possible).
-- **Financial Strength**: Strongest metrics supporting the case (actual numbers).
-- **Pre-emptive Defense**: Acknowledge 1-2 risks but explain why they're manageable.
-- **Conclusion**: Strong closing statement.
+    Analyst Signal Summary:
+    {_format_signal_summary_for_debate(state)}
+    {memory_context}
 
-Keep response under 550 words. Start with "Bull Researcher:"."""
+    Output format:
+    - LEAD_CATALYST: one line (value/date first when available)
+    - THESIS: one line
+    - BUY_EVIDENCE: up to 3 bullets (fact -> implication)
+    - MAIN_RISK: 1 bullet
+    - STANCE: BUY|SELL|HOLD
+
+    Keep under 220 words. Start with "Bull Researcher:"."""
     else:
         # Subsequent rounds - cross-examination with direct rebuttal
-        prompt = f"""You are the Bull Analyst in a debate about {ticker}. Cross-examine the Bear's arguments by directly challenging their evidence and logic.
+        prompt = f"""Role: Bull Researcher (round {debate_state['count']+1}) for {ticker}.
+    Task: rebut the strongest bearish points with evidence.
 
-{horizon_context}
+    {horizon_context}
 
-**CROSS-EXAMINATION REQUIREMENTS:**
-1. **Quote Specific Claims**: Cite 2-3 exact statements from the Bear that you're rebutting
-2. **Expose Contradictions**: Point out logical flaws or inconsistencies in their argument
-3. **Counter with Evidence**: Provide contradicting data (numbers, facts, sources) for each claim
-4. **Attack Weak Points**: Identify and exploit the Bear's least-supported assertions
-5. **No Generic Rebuttals**: Every counterpoint must reference a specific Bear claim
+    Use only the signal summary below. No outside facts.
 
-Analysis Reports:
-{_format_reports_for_debate(state)}
+    Falsifiability rule:
+    - If bearish evidence dominates after rebuttal, output UPDATED_STANCE as SELL or HOLD (not BUY).
 
-Bear's Arguments:
-{bear_history}
+    Signal Summary:
+    {_format_signal_summary_for_debate(state)}
 
-Your Previous Points:
-{debate_state.get('bull_history', '')}
+    Bear Arguments:
+    {bear_history}
 
-FORMAT: Use Markdown headers and bullet points.
-Structure:
-- **Direct Rebuttals** (Label each: "Bear claimed X, but..."):
-  - Quote Bear's claim → Explain the flaw → Provide counter-evidence
-  - Repeat for 2-3 key claims
-- **Logical Inconsistencies**: Expose contradictions in Bear's reasoning
-- **Supporting Evidence**: New data that undermines Bear's thesis
-- **Restate Thesis**: Why the upside still dominates despite Bear's concerns
+    Output format:
+    - REBUTTALS: 2 bullets (bear claim -> counter evidence)
+    - NEW_BUY_EVIDENCE: up to 2 bullets
+    - UPDATED_STANCE: BUY|SELL|HOLD
 
-Keep response under 450 words. Start with "Bull Researcher:"."""
+    Keep under 180 words. Start with "Bull Researcher:"."""
     
     # 2. Call the LLM to generate the argument
     bullish_response = call_llm(prompt)
@@ -258,73 +283,55 @@ Past Mistake {i}:
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 1:
         # First response - cross-examine bull's opening argument
-        prompt = f"""You are a Bear Analyst cross-examining the bullish case for {ticker}. Systematically challenge the Bull's evidence and expose flaws in their logic.
+        prompt = f"""Role: Bear Researcher for {ticker}.
+    Task: present the strongest directional case for the next {horizon_days} trading days.
 
-{horizon_context}
+    {horizon_context}
 
-**CROSS-EXAMINATION REQUIREMENTS:**
-1. **Quote Specific Bull Claims**: Cite 2-3 exact statements from the Bull that you're challenging
-2. **Expose Logical Flaws**: Point out where Bull's reasoning breaks down or contradicts itself
-3. **Counter with Contradicting Evidence**: Provide specific data (numbers, dates) that refutes Bull's claims
-4. **Highlight Cherry-Picking**: Identify metrics/data the Bull ignored that weaken their case
-5. **No Generic Criticism**: Every challenge must reference a specific Bull assertion
+    Use only the analyst signal summary below {"and memory notes" if memory_context else ""}. Do not add external facts.
+    If evidence is missing, write UNKNOWN.
 
-Focus on:
-- Negative factors, risks, and red flags (with specific evidence)
-- Overvaluation or weakness indicators (actual numbers vs Bull's claims)
-- Market headwinds and competitive threats (concrete examples)
-{f"- Learn from past mistakes - what risks were underestimated" if memory_context else ""}
+    Falsifiability rule:
+    - If 2 or more analyst signals are BULLISH with confidence >= 0.65, you must NOT output SELL.
 
-Analysis Reports:
-{_format_reports_for_debate(state)}
+    Analyst Signal Summary:
+    {_format_signal_summary_for_debate(state)}
 
-Bull's Argument:
-{bull_history}
-{memory_context}
+    Bull Argument:
+    {bull_history}
+    {memory_context}
 
-FORMAT: Use Markdown headers and bullet points.
-Structure:
-- **Direct Challenges** (Label each: "Bull claimed X, but..."):
-  - Quote Bull's claim → Explain the flaw → Provide counter-evidence
-  - Repeat for 2-3 key claims
-- **What Bull Ignored**: Metrics/risks conveniently omitted from their analysis
-- **Core Thesis**: The primary reason to avoid/short (with data)
-- **Valuation Reality Check**: Why the price is too high (vs Bull's optimism)
-- **Key Risks**: Specific threats the Bull downplayed or missed
+    Output format:
+    - THESIS: one line
+    - SELL_EVIDENCE: up to 3 bullets (fact -> implication)
+    - MAIN_RISK: 1 bullet
+    - STANCE: BUY|SELL|HOLD
 
-Keep response under 550 words. Start with "Bear Researcher:"."""
+    Keep under 220 words. Start with "Bear Researcher:"."""
     else:
         # Subsequent rounds - cross-examination with direct counter-rebuttal
-        prompt = f"""You are the Bear Analyst in a debate about {ticker}. Cross-examine the Bull's latest defense by exposing weaknesses in their rebuttals.
+        prompt = f"""Role: Bear Researcher (round {debate_state['count']+1}) for {ticker}.
+    Task: rebut the strongest bullish points with evidence.
 
-{horizon_context}
+    {horizon_context}
 
-**CROSS-EXAMINATION REQUIREMENTS:**
-1. **Quote Bull's Rebuttals**: Cite 2-3 specific defenses the Bull just made
-2. **Expose Rebuttal Flaws**: Show where Bull's counterarguments fail or contradict evidence
-3. **Double Down with New Evidence**: Provide fresh data that reinforces your original concerns
-4. **Exploit Defensive Positions**: Identify where Bull is now defending rather than attacking
-5. **No Repetition**: Don't just restate old arguments - escalate with new facts
+    Use only the signal summary below. No outside facts.
 
-Analysis Reports:
-{_format_reports_for_debate(state)}
+    Falsifiability rule:
+    - If bullish evidence dominates after rebuttal, output UPDATED_STANCE as BUY or HOLD (not SELL).
 
-Bull's Arguments:
-{bull_history}
+    Signal Summary:
+    {_format_signal_summary_for_debate(state)}
 
-Your Previous Points:
-{debate_state.get('bear_history', '')}
+    Bull Arguments:
+    {bull_history}
 
-FORMAT: Use Markdown headers and bullet points.
-Structure:
-- **Counter-Rebuttals** (Label each: "Bull defended X by claiming Y, but..."):
-  - Quote Bull's defense → Expose the flaw → Provide new counter-evidence
-  - Repeat for 2-3 key rebuttals
-- **Unanswered Questions**: Points the Bull avoided or couldn't refute
-- **Risk Amplification**: Why the risks are more severe than Bull admits (new data)
-- **Final Warning**: Closing statement on downside potential (with evidence)
+    Output format:
+    - REBUTTALS: 2 bullets (bull claim -> counter evidence)
+    - NEW_SELL_EVIDENCE: up to 2 bullets
+    - UPDATED_STANCE: BUY|SELL|HOLD
 
-Keep response under 450 words. Start with "Bear Researcher:"."""
+    Keep under 180 words. Start with "Bear Researcher:"."""
     
     # 2. Call the LLM to generate the argument
     bearish_response = call_llm(prompt)
@@ -348,51 +355,184 @@ def research_manager_agent(state: dict):
     """
     The Research Manager Agent - Judges the debate and makes final investment recommendation.
     """
-    debate_state = state.get('investment_debate_state', {})
-    debate_history = debate_state.get('history', '')
+    debate_state = state.get('investment_debate_state') or {}
+    debate_history = (debate_state.get('history', '') or '').strip()
+    ticker = state.get('ticker', 'Unknown')
     
     # Horizon for the judge
     horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
     horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
 
-    # 1. Construct the prompt for the LLM
-    prompt = f"""As the portfolio manager, evaluate this debate and make a definitive decision: Buy, Sell, or Hold.
+    run_config = state.get("run_config", {}) or {}
+    stage = (run_config.get("stage") or "").strip().upper() or None
+    debate_mode = (run_config.get("debate_mode") or "on").strip().lower()
+    debate_rounds = int(run_config.get("debate_rounds") or 0)
+    debate_enabled = debate_mode != "off" and debate_rounds > 0
 
-TRADING HORIZON: {horizon_days} days ({horizon}-term). Your recommendation must be appropriate for this specific window. Weight arguments relevant to {horizon_days}-day price movement more heavily than long-term theses.
+    # Stage A is no-debate by design; widen threshold to reduce score-noise flips.
+    spread_threshold = 2.0 if stage == "A" else 1.0
 
-Decision guidelines:
-- Make a clear recommendation: BUY, SELL, or HOLD.
-- Use evidence within the {horizon_days}-day window. De-emphasize long-term narratives that lack near-term catalysts.
-- For short-horizon decisions, prioritize technical and news catalysts; use fundamentals mainly as a risk filter/veto.
-- Assign a confidence band to your recommendation: HIGH / MEDIUM / LOW.
-- Apply BUY/SELL standards symmetrically. Do not require a higher bar for SELL than BUY.
-- HOLD is an abstention class, not a safe default. Use HOLD only when directional edge is genuinely weak and catalysts are conflicting/unclear.
-- If one side has more concrete, near-term catalyst-backed evidence, prefer BUY or SELL over HOLD.
-- Do not use rigid checklist gates; use weighted judgement from the strongest, most specific evidence.
+    # 1. Construct the prompt for structured LLM output
+    if debate_enabled and debate_history:
+        # Debate-enabled stages (B/C/D): score based on debate transcript.
+        prompt = f"""Role: Research Manager.
+Task: choose BUY, SELL, or HOLD for {ticker} over the next {horizon_days} trading days.
 
-Complete Debate (contains all analyst evidence referenced by Bull and Bear):
+Use only the evidence below. No external facts.
+Apply symmetric criteria for BUY and SELL.
+
+Scoring policy (required, apply exactly):
+1) Score the BUY case from 0-10 using only concrete evidence in debate.
+2) Score the SELL case from 0-10 using only concrete evidence in debate.
+3) Decision rule:
+   - If BUY_SCORE - SELL_SCORE >= {spread_threshold:g} -> BUY
+   - If SELL_SCORE - BUY_SCORE >= {spread_threshold:g} -> SELL
+   - Otherwise -> HOLD
+
+Set confidence_score in [0, 1] as probability-like confidence for the chosen direction.
+
+Primary driver rule (required):
+- primary_drivers must include BOTH: (a) 1-2 drivers supporting the chosen direction and (b) 1 driver labeled "COUNTERPOINT:".
+
+Signal Summary:
+{_format_signal_summary_for_debate(state)}
+
+Analyst Reports:
+{_format_reports_for_judge(state)}
+
+Debate:
 {debate_history}
 
-Deliverables:
-1. **Executive Summary**: 1-2 sentence core conclusion.
-2. **Debate Analysis**: Bullet points contrasting Bull vs Bear arguments.
-3. **Recommendation**: BUY, SELL, or HOLD.
-4. **Calibration**:
-    - **Confidence Band**: HIGH | MEDIUM | LOW
-    - **Primary Horizon Drivers**: [exactly 2-3 concrete catalysts for this window]
-5. **Investment Plan**:
-   - **Rationale**: The 'why' behind the trade.
-   - **Risk Factors**: Specific catalysts to watch.
-   - **Execution**: Recommended approach (e.g., "Scale in on weakness").
+Return strict JSON matching schema fields:
+buy_score, sell_score, recommendation, confidence_score, primary_drivers, main_risk, execution_notes."""
+    else:
+        # No-debate mode (Stage A): vote + strength per domain, weighted score decides.
+        prompt = f"""Role: Research Manager.
+Task: assess BUY, SELL, or HOLD for {ticker} over the next {horizon_days} trading days.
 
-FORMAT: Use Markdown headers (##) and bullet points. Be structured, professional, and direct. NO conversational filler (e.g., "Alright team", "Here is my thought process")."""
+Use only the evidence below. No external facts. Apply symmetric criteria.
+
+Step 1 — For each analyst domain cast a direction vote and a strength rating.
+  direction: BULLISH | BEARISH | NEUTRAL
+  strength:  STRONG (clear, unambiguous evidence) | MED (moderate, some caveats) | WEAK (thin or conflicted)
+  NEUTRAL direction always has strength WEAK — they carry zero weight.
+
+Step 2 — Weighted directional score (Python enforces the final call, so be accurate):
+  BULLISH/STRONG = +2, BULLISH/MED = +1, BULLISH/WEAK = +0.5
+  BEARISH/STRONG = -2, BEARISH/MED = -1, BEARISH/WEAK = -0.5
+  NEUTRAL        =  0  (regardless of strength)
+
+  Decision threshold = 1.5:
+    total > +1.5  → BUY
+    total < -1.5  → SELL
+    otherwise     → HOLD
+
+Step 3 — Recommendation must be consistent with the score above.
+Step 4 — primary_drivers: 1–2 drivers supporting the direction + 1 labeled "COUNTERPOINT:".
+Step 5 — main_risk: strongest counterpoint.
+
+Confidence calibration:
+  HOLD                           → confidence_score ≤ 0.55
+  BUY/SELL |score| 1.5–3.0       → 0.55–0.72
+  BUY/SELL |score| > 3.0         → 0.72–0.90
+
+Signal Summary:
+{_format_signal_summary_for_debate(state)}
+
+Analyst Reports:
+{_format_reports_for_judge(state)}
+
+Return strict JSON:
+fundamental_vote, fundamental_strength, technical_vote, technical_strength,
+news_vote, news_strength, recommendation, confidence_score,
+primary_drivers, main_risk, execution_notes."""
     
-    # 2. Call the LLM to generate the decision
-    manager_decision = invoke_llm_deep(prompt)
+    # 2. Call the LLM and validate structured decision
+    try:
+        manager_decision_structured = call_llm_structured(
+            prompt,
+            ResearchManagerDecision,
+            temperature=0.2,
+        )
+    except Exception as e:
+        fallback = call_llm(prompt)
+        manager_decision_structured = ResearchManagerDecision(
+            buy_score=5,
+            sell_score=5,
+            recommendation="HOLD",
+            confidence_score=0.35,
+            primary_drivers=["Structured output failed; fallback used"],
+            main_risk=f"Parse/structured failure: {e}",
+            execution_notes=[fallback[:300]],
+        )
+
+    # Deterministic post-check: enforce decision rule in code (overrides LLM recommendation)
+    if not (debate_enabled and debate_history):
+        # Stage A / no-debate: weighted vote (direction × strength) determines recommendation
+        _STRENGTH_W = {"STRONG": 2.0, "MED": 1.0, "WEAK": 0.5}
+        _DIR_SIGN = {"BULLISH": 1, "BEARISH": -1, "NEUTRAL": 0}
+        _STAGE_A_THRESHOLD = 1.5
+
+        def _wvote(direction: str, strength: str) -> float:
+            d = _DIR_SIGN.get((direction or "NEUTRAL").upper(), 0)
+            s = _STRENGTH_W.get((strength or "MED").upper(), 1.0)
+            return d * s
+
+        wt_score = sum([
+            _wvote(manager_decision_structured.fundamental_vote, manager_decision_structured.fundamental_strength),
+            _wvote(manager_decision_structured.technical_vote, manager_decision_structured.technical_strength),
+            _wvote(manager_decision_structured.news_vote, manager_decision_structured.news_strength),
+        ])
+
+        if wt_score > _STAGE_A_THRESHOLD:
+            manager_decision_structured.recommendation = "BUY"
+        elif wt_score < -_STAGE_A_THRESHOLD:
+            manager_decision_structured.recommendation = "SELL"
+        else:
+            manager_decision_structured.recommendation = "HOLD"
+
+        # Expose score for downstream confidence calibration
+        _wt_score_abs = abs(wt_score)
+    else:
+        # Debate-mode stages (B/C/D): keep numeric spread rule
+        spread = manager_decision_structured.buy_score - manager_decision_structured.sell_score
+        if spread >= spread_threshold:
+            manager_decision_structured.recommendation = "BUY"
+        elif spread <= -spread_threshold:
+            manager_decision_structured.recommendation = "SELL"
+        else:
+            manager_decision_structured.recommendation = "HOLD"
+
+    # Confidence sanity clamp (diagnostics; does not change recommendation).
+    try:
+        cs = float(manager_decision_structured.confidence_score or 0.0)
+    except Exception:
+        cs = 0.0
+    rec = (manager_decision_structured.recommendation or "HOLD").upper()
+    if rec == "HOLD":
+        manager_decision_structured.confidence_score = min(cs, 0.55)
+    elif not (debate_enabled and debate_history):
+        # Stage A: calibrate confidence to weighted-score magnitude
+        _wt_abs = locals().get("_wt_score_abs", 1.5)
+        if _wt_abs > 3.0:
+            manager_decision_structured.confidence_score = min(max(cs, 0.72), 0.90)
+        else:
+            manager_decision_structured.confidence_score = min(max(cs, 0.55), 0.72)
+    else:
+        manager_decision_structured.confidence_score = min(cs, 0.90)
+
+    # Add compatibility confidence band for downstream evaluators
+    confidence_band = _band_from_score(manager_decision_structured.confidence_score)
+    structured_payload = manager_decision_structured.model_dump()
+    structured_payload["confidence"] = confidence_band
+
+    manager_decision_json = json.dumps(structured_payload, indent=2)
     
     # 3. Update the state
-    debate_state['judge_decision'] = manager_decision
+    debate_state['judge_decision'] = manager_decision_json
     state['investment_debate_state'] = debate_state
-    state['investment_plan'] = manager_decision
+    state['investment_plan'] = manager_decision_json
+    state['investment_plan_structured'] = structured_payload
+    state['research_manager_recommendation'] = manager_decision_structured.recommendation
     
     return state

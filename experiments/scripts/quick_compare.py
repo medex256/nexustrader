@@ -26,8 +26,7 @@ def run_nexustrader(ticker: str, simulated_date: str, backend_url: str = "http:/
         "horizon": "short",
         "debate_rounds": 1,
         "memory_on": False,
-        "risk_on": True,
-        "social_on": False
+        "risk_mode": "single",
     }
     
     try:
