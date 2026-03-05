@@ -1,0 +1,226 @@
+{
+  "meta": {
+    "created_at": "2026-03-05T15:05:18",
+    "started_at": "2026-03-05T15:04:35",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "nvda_sell_hold_v2"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "stage": "A",
+    "debate_rounds": 0,
+    "debate_mode": "off",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "A",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 0,
+      "debate_mode": "off",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 9.16% QoQ to $7.103B (Oct 2021), confirming sustained top-line momentum and demand.\n* Net profit margin remains robust at 34.7%, demonstrating high pricing power and operational efficiency in the most recent quarter.\n* Current ratio of 7.14 indicates exceptional liquidity, providing a significant financial buffer for the 10-day horizon.\n\n2) RISKS:\n* QoQ revenue growth rate decelerated from 14.9% in the prior period to 9.16%, which may dampen short-term sentiment.\n* Operating cash flow ($1.519B) trailed net income ($2.464B) in the latest quarter, suggesting a potential gap in cash conversion.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Deceleration in the QoQ revenue growth rate.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI_14 (55.48) -> Neutral-bullish momentum, indicating the asset is not yet overbought despite recent gains.\n* MACD (0.0189) below Signal Line (0.1516) -> Bearish crossover and negative histogram suggest slowing upward momentum.\n* Price (30.89) vs SMA_20 (30.20) -> Price remains above the 20-day average, but low Volume Ratio (0.75) indicates weak conviction.\n\n2) SUPPORT: 30.20 (SMA_20)\n3) RESISTANCE: 33.60 (Upper Bollinger Band)\n4) FINAL_VIEW: NEUTRAL\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Bearish MACD signal and low volume conflict with the strong 11.64% five-day price trend.",
+      "news_harvester": "1) CATALYSTS:\n* Strong 2021 growth in high-performance computing -> Sustained investor confidence in revenue trajectory.\n* HP's launch of AI-focused PCs (OmniDesk/OmniStudio X) -> Potential demand growth for AI hardware.\n* Intel's $7B investment in packaging facilities -> Long-term easing of supply constraints.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Global semiconductor shortage persistence and competitor capacity expansion."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue grew 9.16% QoQ to $7.103B (Oct 2021), confirming sustained top-line momentum and demand.",
+        "primary_risk": "* QoQ revenue growth rate decelerated from 14.9% in the prior period to 9.16%, which may dampen short-term sentiment."
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI_14 (55.48) -> Neutral-bullish momentum, indicating the asset is not yet overbought despite recent gains.",
+        "primary_risk": "Bearish MACD signal and low volume conflict with the strong 11.64% five-day price trend."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.25,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=LOW",
+        "key_catalyst": "Strong 2021 growth in high-performance computing -> Sustained investor confidence in revenue trajectory.",
+        "primary_risk": "Global semiconductor shortage persistence and competitor capacity expansion."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "judge_decision": "{\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Sustained revenue growth to $7.103B with a robust 34.7% net profit margin.\",\n    \"Exceptional liquidity with a current ratio of 7.14 providing a strong financial buffer.\",\n    \"Positive sector sentiment driven by high-performance computing growth and AI hardware demand.\"\n  ],\n  \"main_risk\": \"Bearish MACD crossover and low volume ratio suggest weakening momentum for the recent price trend.\",\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {},
+    "investment_plan": "{\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Sustained revenue growth to $7.103B with a robust 34.7% net profit margin.\",\n    \"Exceptional liquidity with a current ratio of 7.14 providing a strong financial buffer.\",\n    \"Positive sector sentiment driven by high-performance computing growth and AI hardware demand.\"\n  ],\n  \"main_risk\": \"Bearish MACD crossover and low volume ratio suggest weakening momentum for the recent price trend.\",\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "Sustained revenue growth to $7.103B with a robust 34.7% net profit margin.",
+        "Exceptional liquidity with a current ratio of 7.14 providing a strong financial buffer.",
+        "Positive sector sentiment driven by high-performance computing growth and AI hardware demand."
+      ],
+      "main_risk": "Bearish MACD crossover and low volume ratio suggest weakening momentum for the recent price trend.",
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Revenue grew 9.16% QoQ to $7.103B (Oct 2021), confirming sustained top-line momentum and demand. AGAINST: Bearish MACD crossover and low volume ratio suggest weakening momentum for the recent price trend. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2021-12-27",
+        "lookback_days": 14,
+        "window_start": "2021-12-13",
+        "window_end": "2021-12-27",
+        "article_count": 4,
+        "min_published": "2021-12-15T21:57:00",
+        "max_published": "2021-12-24T09:00:00",
+        "articles": [
+          {
+            "title": "Here are the top-performing technology stocks of 2021",
+            "source": "CNBC",
+            "published": "20211224T090000",
+            "url": "https://www.cnbc.com/2021/12/24/these-are-the-best-technology-stocks-of-2021.html",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.356591,
+            "relevance_score": 0.847917
+          },
+          {
+            "title": "Desktop computers and All-in-One PCs",
+            "source": "HP",
+            "published": "20211216T202746",
+            "url": "https://www.hp.com/us-en/desktops-and-all-in-ones.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.342761,
+            "relevance_score": 0.639078
+          },
+          {
+            "title": "Federated learning: Intelligence versus privacy—can we have both?",
+            "source": "NetApp",
+            "published": "20211217T205206",
+            "url": "https://www.netapp.com/blog/federated-learning-intelligence-vs-privacy/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.338023,
+            "relevance_score": 0.627365
+          },
+          {
+            "title": "Intel to invest $7 billion in new plant in Malaysia, creating 9,000 jobs",
+            "source": "CNBC",
+            "published": "20211215T215700",
+            "url": "https://www.cnbc.com/2021/12/16/intel-to-invest-7-billion-in-new-malaysia-plant-creating-9000-jobs.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.164672,
+            "relevance_score": 0.55915
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 43.19
+  },
+  "trace": {
+    "run_config": {
+      "stage": "A",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 0,
+      "debate_mode": "off",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue grew 9.16% QoQ to $7.103B (Oct 2021), confirming sustained top-line momentum and demand.",
+        "primary_risk": "* QoQ revenue growth rate decelerated from 14.9% in the prior period to 9.16%, which may dampen short-term sentiment."
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI_14 (55.48) -> Neutral-bullish momentum, indicating the asset is not yet overbought despite recent gains.",
+        "primary_risk": "Bearish MACD signal and low volume conflict with the strong 11.64% five-day price trend."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.25,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=LOW",
+        "key_catalyst": "Strong 2021 growth in high-performance computing -> Sustained investor confidence in revenue trajectory.",
+        "primary_risk": "Global semiconductor shortage persistence and competitor capacity expansion."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 9.16% QoQ to $7.103B (Oct 2021), confirming sustained top-line momentum and demand.\n* Net profit margin remains robust at 34.7%, demonstrating high pricing power and operational efficiency in the most recent quarter.\n* Current ratio of 7.14 indicates exceptional liquidity, providing a significant financial buffer for the 10-day horizon.\n\n2) RISKS:\n* QoQ revenue growth rate decelerated from 14.9% in the prior period to 9.16%, which may dampen short-term sentiment.\n* Operating cash flow ($1.519B) trailed net income ($2.464B) in the latest quarter, suggesting a potential gap in cash conversion.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Deceleration in the QoQ revenue growth rate.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI_14 (55.48) -> Neutral-bullish momentum, indicating the asset is not yet overbought despite recent gains.\n* MACD (0.0189) below Signal Line (0.1516) -> Bearish crossover and negative histogram suggest slowing upward momentum.\n* Price (30.89) vs SMA_20 (30.20) -> Price remains above the 20-day average, but low Volume Ratio (0.75) indicates weak conviction.\n\n2) SUPPORT: 30.20 (SMA_20)\n3) RESISTANCE: 33.60 (Upper Bollinger Band)\n4) FINAL_VIEW: NEUTRAL\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Bearish MACD signal and low volume conflict with the strong 11.64% five-day price trend.",
+      "news_harvester": "1) CATALYSTS:\n* Strong 2021 growth in high-performance computing -> Sustained investor confidence in revenue trajectory.\n* HP's launch of AI-focused PCs (OmniDesk/OmniStudio X) -> Potential demand growth for AI hardware.\n* Intel's $7B investment in packaging facilities -> Long-term easing of supply constraints.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Global semiconductor shortage persistence and competitor capacity expansion."
+    },
+    "investment_debate_state": {
+      "judge_decision": "{\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Sustained revenue growth to $7.103B with a robust 34.7% net profit margin.\",\n    \"Exceptional liquidity with a current ratio of 7.14 providing a strong financial buffer.\",\n    \"Positive sector sentiment driven by high-performance computing growth and AI hardware demand.\"\n  ],\n  \"main_risk\": \"Bearish MACD crossover and low volume ratio suggest weakening momentum for the recent price trend.\",\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Sustained revenue growth to $7.103B with a robust 34.7% net profit margin.\",\n    \"Exceptional liquidity with a current ratio of 7.14 providing a strong financial buffer.\",\n    \"Positive sector sentiment driven by high-performance computing growth and AI hardware demand.\"\n  ],\n  \"main_risk\": \"Bearish MACD crossover and low volume ratio suggest weakening momentum for the recent price trend.\",\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "Sustained revenue growth to $7.103B with a robust 34.7% net profit margin.",
+        "Exceptional liquidity with a current ratio of 7.14 providing a strong financial buffer.",
+        "Positive sector sentiment driven by high-performance computing growth and AI hardware demand."
+      ],
+      "main_risk": "Bearish MACD crossover and low volume ratio suggest weakening momentum for the recent price trend.",
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Revenue grew 9.16% QoQ to $7.103B (Oct 2021), confirming sustained top-line momentum and demand. AGAINST: Bearish MACD crossover and low volume ratio suggest weakening momentum for the recent price trend. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 43.19,
+    "memory_id": null
+  }
+}

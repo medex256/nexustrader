@@ -9,19 +9,28 @@ from ..llm import invoke_llm_structured as call_llm_structured
 from ..utils.memory import get_memory
 
 
+class StageAManagerDecision(BaseModel):
+    """
+    Stage A schema — minimal, clean.
+    The LLM reasons freely over prose reports and outputs a direction.
+    No scoring fields, no vote/strength labels — those only exist to feed
+    rule-based scorers, which Stage A deliberately avoids.
+    """
+    recommendation: Literal["BUY", "SELL", "HOLD"] = "HOLD"
+    confidence_score: float = Field(default=0.5, ge=0, le=1)
+    primary_drivers: list[str] = Field(default_factory=list)
+    main_risk: str = "Unknown"
+
+
 class ResearchManagerDecision(BaseModel):
-    # --- Vote+Strength fields: used for Stage A weighted directional scoring ---
-    # vote = direction of evidence; strength = how strong/clear the evidence is
-    fundamental_vote: Literal["BULLISH", "BEARISH", "NEUTRAL"] = "NEUTRAL"
-    fundamental_strength: Literal["STRONG", "MED", "WEAK"] = "MED"
-    technical_vote: Literal["BULLISH", "BEARISH", "NEUTRAL"] = "NEUTRAL"
-    technical_strength: Literal["STRONG", "MED", "WEAK"] = "MED"
-    news_vote: Literal["BULLISH", "BEARISH", "NEUTRAL"] = "NEUTRAL"
-    news_strength: Literal["STRONG", "MED", "WEAK"] = "MED"
-    # --- Legacy numeric scores: retained for debate-mode stages (B/C/D) ---
+    """
+    Debate-stage schema (B / B+ / C / D).
+    buy_score / sell_score are descriptive metadata only for B/B+
+    (UI gauges, calibration).  The spread rule is applied only for C/D.
+    For B/B+ the LLM's holistic recommendation field is the decision.
+    """
     buy_score: float = Field(default=5.0, ge=0, le=10)
     sell_score: float = Field(default=5.0, ge=0, le=10)
-    # --- Common fields ---
     recommendation: Literal["BUY", "SELL", "HOLD"] = "HOLD"
     confidence_score: float = Field(default=0.5, ge=0, le=1)
     primary_drivers: list[str] = Field(default_factory=list)
@@ -105,7 +114,7 @@ def bull_researcher_agent(state: dict):
     # Query memory for similar past situations (only on first round)
     memory_context = ""
     run_config = state.get("run_config", {})
-    if debate_state['count'] == 0 and run_config.get("memory_on", True):
+    if debate_state['count'] == 0 and run_config.get("memory_on", False):
         try:
             memory = get_memory()
             
@@ -154,12 +163,35 @@ Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
     # Horizon context for debate agents
     horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
     horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
-    horizon_context = f"TRADING HORIZON: {horizon_days} days ({horizon}-term). Tailor ALL arguments to catalysts and risks relevant within this window. For short-term, weight technical momentum and news over long-term valuation."
+    horizon_context = f"TRADING HORIZON: {horizon_days} trading days ({horizon}-term). Tailor your argument to evidence most likely to materialise within this window."
+
+    stage = ((state.get("run_config", {}) or {}).get("stage") or "").strip().upper()
 
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 0:
         # First round - opening argument with cross-examination prep
-        prompt = f"""Role: Bull Researcher for {ticker}.
+        if stage in {"B", "B+"}:
+            prompt = f"""Role: Bull Researcher for {ticker}.
+Task: make the strongest BUY case for the next {horizon_days} trading days.
+
+{horizon_context}
+
+Use only the signal summary below {"and memory notes" if memory_context else ""}. No external facts.
+
+
+Analyst Signal Summary:
+{_format_signal_summary_for_debate(state)}
+{memory_context}
+
+Output format (strict):
+- THESIS: one line
+- BUY_EVIDENCE: up to 3 bullets (fact -> implication)
+- FAILURE_CONDITION: one line (what would invalidate BUY)
+- STANCE: BUY|SELL|HOLD
+
+Keep under 180 words. Start with "Bull Researcher:"."""
+        else:
+            prompt = f"""Role: Bull Researcher for {ticker}.
     Task: present the strongest directional case for the next {horizon_days} trading days.
 
     {horizon_context}
@@ -188,7 +220,27 @@ Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
     Keep under 220 words. Start with "Bull Researcher:"."""
     else:
         # Subsequent rounds - cross-examination with direct rebuttal
-        prompt = f"""Role: Bull Researcher (round {debate_state['count']+1}) for {ticker}.
+        if stage in {"B", "B+"}:
+            prompt = f"""Role: Bull Researcher (round {debate_state['count']+1}) for {ticker}.
+Task: rebut the bear's best claims using evidence from the signal summary.
+
+{horizon_context}
+
+Use only the signal summary. No outside facts.
+
+Signal Summary:
+{_format_signal_summary_for_debate(state)}
+
+Bear Arguments:
+{bear_history}
+
+Output format (strict):
+- REBUTTALS: 2 bullets (bear claim -> bull counter)
+- UPDATED_STANCE: BUY|SELL|HOLD
+
+Keep under 140 words. Start with "Bull Researcher:"."""
+        else:
+            prompt = f"""Role: Bull Researcher (round {debate_state['count']+1}) for {ticker}.
     Task: rebut the strongest bearish points with evidence.
 
     {horizon_context}
@@ -246,7 +298,7 @@ def bear_researcher_agent(state: dict):
     # Query memory for past mistakes (only on first response)
     memory_context = ""
     run_config = state.get("run_config", {})
-    if debate_state['count'] == 1 and run_config.get("memory_on", True):
+    if debate_state['count'] == 1 and run_config.get("memory_on", False):
         try:
             memory = get_memory()
             
@@ -278,12 +330,38 @@ Past Mistake {i}:
     # Horizon context for bear debate
     horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
     horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
-    horizon_context = f"TRADING HORIZON: {horizon_days} days ({horizon}-term). Tailor ALL arguments to risks that could materialise within this window. For short-term, weight technical breakdowns and near-term news risks over long-term structural concerns."
+    horizon_context = f"TRADING HORIZON: {horizon_days} trading days ({horizon}-term). Tailor your argument to risks most likely to materialise within this window."
+
+    stage = ((state.get("run_config", {}) or {}).get("stage") or "").strip().upper()
 
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 1:
-        # First response - cross-examine bull's opening argument
-        prompt = f"""Role: Bear Researcher for {ticker}.
+        # Opening statement - parallel to Bull.
+        # Bear argues independently from signal summary only; does NOT see Bull's argument.
+        # Both sides open without reading each other. Manager judges two independent cases.
+        # In round 2+ each side sees the other's full history and can rebut directly.
+        if stage in {"B", "B+"}:
+            prompt = f"""Role: Bear Researcher for {ticker}.
+Task: make the strongest independent SELL case for the next {horizon_days} trading days.
+
+{horizon_context}
+
+Use only the signal summary below {"and memory notes" if memory_context else ""}. No external facts.
+Build your case independently from the evidence — do not react to any other argument.
+
+Analyst Signal Summary:
+{_format_signal_summary_for_debate(state)}
+{memory_context}
+
+Output format (strict):
+- THESIS: one line
+- SELL_EVIDENCE: up to 3 bullets (fact -> implication)
+- FAILURE_CONDITION: one line (what would invalidate SELL)
+- STANCE: BUY|SELL|HOLD
+
+Keep under 180 words. Start with "Bear Researcher:"."""
+        else:
+            prompt = f"""Role: Bear Researcher for {ticker}.
     Task: present the strongest directional case for the next {horizon_days} trading days.
 
     {horizon_context}
@@ -310,7 +388,27 @@ Past Mistake {i}:
     Keep under 220 words. Start with "Bear Researcher:"."""
     else:
         # Subsequent rounds - cross-examination with direct counter-rebuttal
-        prompt = f"""Role: Bear Researcher (round {debate_state['count']+1}) for {ticker}.
+        if stage in {"B", "B+"}:
+            prompt = f"""Role: Bear Researcher (round {debate_state['count']+1}) for {ticker}.
+Task: rebut the bull's best claims using evidence from the signal summary.
+
+{horizon_context}
+
+Use only the signal summary. No outside facts.
+
+Signal Summary:
+{_format_signal_summary_for_debate(state)}
+
+Bull Arguments:
+{bull_history}
+
+Output format (strict):
+- REBUTTALS: 2 bullets (bull claim -> bear counter)
+- UPDATED_STANCE: BUY|SELL|HOLD
+
+Keep under 140 words. Start with "Bear Researcher:"."""
+        else:
+            prompt = f"""Role: Bear Researcher (round {debate_state['count']+1}) for {ticker}.
     Task: rebut the strongest bullish points with evidence.
 
     {horizon_context}
@@ -369,30 +467,113 @@ def research_manager_agent(state: dict):
     debate_rounds = int(run_config.get("debate_rounds") or 0)
     debate_enabled = debate_mode != "off" and debate_rounds > 0
 
-    # Stage A is no-debate by design; widen threshold to reduce score-noise flips.
-    spread_threshold = 2.0 if stage == "A" else 1.0
+    # =========================================================================
+    # PATH A: Stage A — clean single-pass LLM synthesis, no rules, no overrides
+    # =========================================================================
+    if not (debate_enabled and debate_history):
+        prompt = f"""Role: Research Manager for {ticker}.
+Task: synthesise the three analyst reports below and decide BUY, SELL, or HOLD
+      for the next {horizon_days} trading days.
 
-    # 1. Construct the prompt for structured LLM output
-    if debate_enabled and debate_history:
-        # Debate-enabled stages (B/C/D): score based on debate transcript.
-        prompt = f"""Role: Research Manager.
+Read the full analyst reports. The signal summary is provided for quick reference,
+but your reasoning must be grounded in the prose evidence, not just the labels.
+
+Use HOLD only when you cannot determine which direction has materially stronger
+evidence after reading the full reports. If one direction is supported by stronger
+evidence — even if not unanimous — prefer that direction over HOLD.
+Do not use HOLD as a safe default when evidence is mixed but one side is stronger.
+
+Apply the same standard of evidence to BUY and SELL. Do not privilege either direction.
+
+Signal Summary (quick reference):
+{_format_signal_summary_for_debate(state)}
+
+Full Analyst Reports:
+{_format_reports_for_judge(state)}
+
+Return JSON:
+{{
+  "recommendation": "BUY" | "SELL" | "HOLD",
+  "confidence_score": <0.0 – 1.0>,
+  "primary_drivers": ["<up to 3 key evidence items>"],
+  "main_risk": "<single most important counterpoint>"
+}}"""
+
+        try:
+            decision = call_llm_structured(prompt, StageAManagerDecision, temperature=0.2)
+        except Exception as e:
+            decision = StageAManagerDecision(
+                recommendation="HOLD",
+                confidence_score=0.35,
+                primary_drivers=["Structured output failed; fallback used"],
+                main_risk=f"Parse failure: {e}",
+            )
+
+        # LLM recommendation IS the recommendation — no post-override.
+        confidence_band = _band_from_score(decision.confidence_score)
+        structured_payload = decision.model_dump()
+        structured_payload["confidence"] = confidence_band
+
+    # =========================================================================
+    # PATH B: Debate stages (B / B+ / C / D) — LLM judges debate quality directly
+    # No spread rule for B/B+. Scores are descriptive metadata only.
+    # The recommendation is the LLM's holistic judgment of which argument was stronger.
+    # Spread rule retained for C/D only (separate scoring protocol).
+    # =========================================================================
+    else:
+        if stage in {"B", "B+"}:
+            prompt = f"""Role: Research Manager / Judge for {ticker}.
+Task: decide BUY, SELL, or HOLD for the next {horizon_days} trading days.
+
+You have heard two independent advocates and have the full analyst reports.
+Judge which side built the stronger case from the actual evidence in the reports.
+If a debater cited something not present in the analyst reports, discount that claim.
+
+Apply the same standard of scrutiny to both sides.
+Use HOLD only when the two cases are so evenly matched you cannot determine a winner.
+If one side is better supported by the evidence — even if not overwhelmingly — choose that direction.
+
+Analyst Reports:
+{_format_reports_for_judge(state)}
+
+Signal Summary:
+{_format_signal_summary_for_debate(state)}
+
+Debate:
+{debate_history}
+
+Return JSON:
+{{
+  "recommendation": "BUY" | "SELL" | "HOLD",
+  "confidence_score": <0.0 - 1.0>,
+  "buy_score": <0-10, how strong the BUY argument was — descriptive only>,
+  "sell_score": <0-10, how strong the SELL argument was — descriptive only>,
+  "primary_drivers": ["<up to 3 evidence items that decided the judgment>"],
+  "main_risk": "<single most important counterpoint to your decision>"
+}}"""
+        else:
+            # C/D: spread rule applied — both in prompt and in code post-LLM
+            spread_threshold = 1.0
+            prompt = f"""Role: Research Manager.
 Task: choose BUY, SELL, or HOLD for {ticker} over the next {horizon_days} trading days.
 
 Use only the evidence below. No external facts.
 Apply symmetric criteria for BUY and SELL.
 
-Scoring policy (required, apply exactly):
+Scoring policy:
 1) Score the BUY case from 0-10 using only concrete evidence in debate.
 2) Score the SELL case from 0-10 using only concrete evidence in debate.
 3) Decision rule:
-   - If BUY_SCORE - SELL_SCORE >= {spread_threshold:g} -> BUY
-   - If SELL_SCORE - BUY_SCORE >= {spread_threshold:g} -> SELL
+   - BUY_SCORE - SELL_SCORE >= {spread_threshold:g} -> BUY
+   - SELL_SCORE - BUY_SCORE >= {spread_threshold:g} -> SELL
    - Otherwise -> HOLD
 
 Set confidence_score in [0, 1] as probability-like confidence for the chosen direction.
 
-Primary driver rule (required):
-- primary_drivers must include BOTH: (a) 1-2 drivers supporting the chosen direction and (b) 1 driver labeled "COUNTERPOINT:".
+Primary driver rule:
+- primary_drivers must include BOTH: 1-2 drivers supporting the chosen direction
+  and 1 driver labeled "COUNTERPOINT:".
+- main_risk must be the strongest counterpoint.
 
 Signal Summary:
 {_format_signal_summary_for_debate(state)}
@@ -405,134 +586,48 @@ Debate:
 
 Return strict JSON matching schema fields:
 buy_score, sell_score, recommendation, confidence_score, primary_drivers, main_risk, execution_notes."""
-    else:
-        # No-debate mode (Stage A): vote + strength per domain, weighted score decides.
-        prompt = f"""Role: Research Manager.
-Task: assess BUY, SELL, or HOLD for {ticker} over the next {horizon_days} trading days.
 
-Use only the evidence below. No external facts. Apply symmetric criteria.
+        try:
+            decision = call_llm_structured(prompt, ResearchManagerDecision, temperature=0.2)
+        except Exception as e:
+            fallback_text = call_llm(prompt)
+            decision = ResearchManagerDecision(
+                buy_score=5,
+                sell_score=5,
+                recommendation="HOLD",
+                confidence_score=0.35,
+                primary_drivers=["Structured output failed; fallback used"],
+                main_risk=f"Parse failure: {e}",
+                execution_notes=[fallback_text[:300]],
+            )
 
-Step 1 — For each analyst domain cast a direction vote and a strength rating.
-  direction: BULLISH | BEARISH | NEUTRAL
-  strength:  STRONG (clear, unambiguous evidence) | MED (moderate, some caveats) | WEAK (thin or conflicted)
-  NEUTRAL direction always has strength WEAK — they carry zero weight.
+        # For B/B+: LLM recommendation IS the recommendation — no numeric post-override.
+        # buy_score and sell_score are descriptive metadata for UI gauges and calibration.
+        # For C/D: spread rule still applies (kept below for those stages).
+        if stage not in {"B", "B+"}:
+            spread = decision.buy_score - decision.sell_score
+            if spread >= spread_threshold:
+                decision.recommendation = "BUY"
+            elif spread <= -spread_threshold:
+                decision.recommendation = "SELL"
+            else:
+                decision.recommendation = "HOLD"
 
-Step 2 — Weighted directional score (Python enforces the final call, so be accurate):
-  BULLISH/STRONG = +2, BULLISH/MED = +1, BULLISH/WEAK = +0.5
-  BEARISH/STRONG = -2, BEARISH/MED = -1, BEARISH/WEAK = -0.5
-  NEUTRAL        =  0  (regardless of strength)
+        # LLM-estimated confidence is diagnostic data — no cap applied.
+        decision.confidence_score = float(decision.confidence_score or 0.0)
 
-  Decision threshold = 1.5:
-    total > +1.5  → BUY
-    total < -1.5  → SELL
-    otherwise     → HOLD
+        confidence_band = _band_from_score(decision.confidence_score)
+        structured_payload = decision.model_dump()
+        structured_payload["confidence"] = confidence_band
 
-Step 3 — Recommendation must be consistent with the score above.
-Step 4 — primary_drivers: 1–2 drivers supporting the direction + 1 labeled "COUNTERPOINT:".
-Step 5 — main_risk: strongest counterpoint.
-
-Confidence calibration:
-  HOLD                           → confidence_score ≤ 0.55
-  BUY/SELL |score| 1.5–3.0       → 0.55–0.72
-  BUY/SELL |score| > 3.0         → 0.72–0.90
-
-Signal Summary:
-{_format_signal_summary_for_debate(state)}
-
-Analyst Reports:
-{_format_reports_for_judge(state)}
-
-Return strict JSON:
-fundamental_vote, fundamental_strength, technical_vote, technical_strength,
-news_vote, news_strength, recommendation, confidence_score,
-primary_drivers, main_risk, execution_notes."""
-    
-    # 2. Call the LLM and validate structured decision
-    try:
-        manager_decision_structured = call_llm_structured(
-            prompt,
-            ResearchManagerDecision,
-            temperature=0.2,
-        )
-    except Exception as e:
-        fallback = call_llm(prompt)
-        manager_decision_structured = ResearchManagerDecision(
-            buy_score=5,
-            sell_score=5,
-            recommendation="HOLD",
-            confidence_score=0.35,
-            primary_drivers=["Structured output failed; fallback used"],
-            main_risk=f"Parse/structured failure: {e}",
-            execution_notes=[fallback[:300]],
-        )
-
-    # Deterministic post-check: enforce decision rule in code (overrides LLM recommendation)
-    if not (debate_enabled and debate_history):
-        # Stage A / no-debate: weighted vote (direction × strength) determines recommendation
-        _STRENGTH_W = {"STRONG": 2.0, "MED": 1.0, "WEAK": 0.5}
-        _DIR_SIGN = {"BULLISH": 1, "BEARISH": -1, "NEUTRAL": 0}
-        _STAGE_A_THRESHOLD = 1.5
-
-        def _wvote(direction: str, strength: str) -> float:
-            d = _DIR_SIGN.get((direction or "NEUTRAL").upper(), 0)
-            s = _STRENGTH_W.get((strength or "MED").upper(), 1.0)
-            return d * s
-
-        wt_score = sum([
-            _wvote(manager_decision_structured.fundamental_vote, manager_decision_structured.fundamental_strength),
-            _wvote(manager_decision_structured.technical_vote, manager_decision_structured.technical_strength),
-            _wvote(manager_decision_structured.news_vote, manager_decision_structured.news_strength),
-        ])
-
-        if wt_score > _STAGE_A_THRESHOLD:
-            manager_decision_structured.recommendation = "BUY"
-        elif wt_score < -_STAGE_A_THRESHOLD:
-            manager_decision_structured.recommendation = "SELL"
-        else:
-            manager_decision_structured.recommendation = "HOLD"
-
-        # Expose score for downstream confidence calibration
-        _wt_score_abs = abs(wt_score)
-    else:
-        # Debate-mode stages (B/C/D): keep numeric spread rule
-        spread = manager_decision_structured.buy_score - manager_decision_structured.sell_score
-        if spread >= spread_threshold:
-            manager_decision_structured.recommendation = "BUY"
-        elif spread <= -spread_threshold:
-            manager_decision_structured.recommendation = "SELL"
-        else:
-            manager_decision_structured.recommendation = "HOLD"
-
-    # Confidence sanity clamp (diagnostics; does not change recommendation).
-    try:
-        cs = float(manager_decision_structured.confidence_score or 0.0)
-    except Exception:
-        cs = 0.0
-    rec = (manager_decision_structured.recommendation or "HOLD").upper()
-    if rec == "HOLD":
-        manager_decision_structured.confidence_score = min(cs, 0.55)
-    elif not (debate_enabled and debate_history):
-        # Stage A: calibrate confidence to weighted-score magnitude
-        _wt_abs = locals().get("_wt_score_abs", 1.5)
-        if _wt_abs > 3.0:
-            manager_decision_structured.confidence_score = min(max(cs, 0.72), 0.90)
-        else:
-            manager_decision_structured.confidence_score = min(max(cs, 0.55), 0.72)
-    else:
-        manager_decision_structured.confidence_score = min(cs, 0.90)
-
-    # Add compatibility confidence band for downstream evaluators
-    confidence_band = _band_from_score(manager_decision_structured.confidence_score)
-    structured_payload = manager_decision_structured.model_dump()
-    structured_payload["confidence"] = confidence_band
-
+    # =========================================================================
+    # Common state update
+    # =========================================================================
     manager_decision_json = json.dumps(structured_payload, indent=2)
-    
-    # 3. Update the state
     debate_state['judge_decision'] = manager_decision_json
     state['investment_debate_state'] = debate_state
     state['investment_plan'] = manager_decision_json
     state['investment_plan_structured'] = structured_payload
-    state['research_manager_recommendation'] = manager_decision_structured.recommendation
-    
+    state['research_manager_recommendation'] = structured_payload.get("recommendation", "HOLD")
+
     return state

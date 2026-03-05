@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "created_at": "2026-03-04T23:20:52",
+    "started_at": "2026-03-04T23:19:46",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "nvda_sell_hold_v2"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "stage": "A",
+    "debate_rounds": 0,
+    "debate_mode": "off",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "A",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 0,
+      "debate_mode": "off",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 9.16% QoQ to $7.1B in the October 2021 quarter, following a 14.9% jump in July, signaling sustained short-term demand momentum.\n* Net profit margins expanded to 34.7% in the latest report, up from 29.1% in January 2021, demonstrating high earnings quality and operational leverage.\n* Exceptional liquidity with a current ratio of 7.14 provides a massive financial buffer, reducing risk from short-term market volatility.\n\n2) RISKS:\n* Sequential revenue growth velocity slowed from 14.9% to 9.16% in the most recent quarter, which may temper immediate investor expectations.\n* Operating expenses increased 10.7% QoQ, outpacing revenue growth (9.16%) and potentially capping near-term operating margin expansion.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Sustainability of the sequential revenue growth trajectory.",
+      "technical_analyst": "1) EVIDENCE:\n* SMA 10/20 crossover is UNKNOWN, but the current price (30.89) is trading above both the SMA_20 (30.20) and SMA_50 (28.62).\n* RSI (55.48) indicates moderate bullish momentum, yet the MACD (0.0189) remains below the Signal Line (0.1516), signaling a bearish divergence.\n* Volume Ratio (0.75) is below average, suggesting the recent 11.64% 5-day price surge lacks strong institutional conviction.\n\n2) SUPPORT: 30.20\n3) RESISTANCE: 33.60\n4) FINAL_VIEW: NEUTRAL\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Bearish MACD histogram and low volume conflict with the strong short-term upward price trend.",
+      "news_harvester": "1) CATALYSTS:\n* Recognition as a top-performing 2021 tech stock in high-performance computing -> Sustained positive investor sentiment and market momentum.\n* Launch of new HP AI PCs and gaming hardware (OMEN/VICTUS) -> Increased demand for underlying GPU and AI processing technology.\n* Intel’s $7B investment to address persistent semiconductor shortages -> Signal of continued high demand and industry-wide capacity expansion.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Global semiconductor shortages persisting into 2023 impacting supply chains."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "Revenue grew 9.16% QoQ to $7.1B in the October 2021 quarter, following a 14.9% jump in July, signaling sustained short-term demand momentum.",
+        "primary_risk": "* Sequential revenue growth velocity slowed from 14.9% to 9.16% in the most recent quarter, which may temper immediate investor expectations"
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "SMA 10/20 crossover is UNKNOWN, but the current price (30.89) is trading above both the SMA_20 (30.20) and SMA_50 (28.62).",
+        "primary_risk": "Bearish MACD histogram and low volume conflict with the strong short-term upward price trend."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.25,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=LOW",
+        "key_catalyst": "Recognition as a top-performing 2021 tech stock in high-performance computing -> Sustained positive investor sentiment and market momentum.",
+        "primary_risk": "Global semiconductor shortages persisting into 2023 impacting supply chains."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "judge_decision": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"STRONG\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 7.5,\n  \"sell_score\": 2.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Strong revenue growth of 9.16% QoQ and net profit margin expansion to 34.7% signaling high earnings quality.\",\n    \"COUNTERPOINT: Bearish MACD divergence and low volume ratio (0.75) suggest the recent price surge lacks institutional conviction.\"\n  ],\n  \"main_risk\": \"Global semiconductor shortages persisting into 2023 impacting supply chains and potential revenue growth deceleration.\",\n  \"execution_notes\": [\n    \"Monitor for price breakout above the 33.60 resistance level.\",\n    \"Use the SMA_20 at 30.20 as a primary support level for stop-loss placement.\",\n    \"Watch for an increase in volume to confirm the sustainability of the current upward price trend.\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {},
+    "investment_plan": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"STRONG\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 7.5,\n  \"sell_score\": 2.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Strong revenue growth of 9.16% QoQ and net profit margin expansion to 34.7% signaling high earnings quality.\",\n    \"COUNTERPOINT: Bearish MACD divergence and low volume ratio (0.75) suggest the recent price surge lacks institutional conviction.\"\n  ],\n  \"main_risk\": \"Global semiconductor shortages persisting into 2023 impacting supply chains and potential revenue growth deceleration.\",\n  \"execution_notes\": [\n    \"Monitor for price breakout above the 33.60 resistance level.\",\n    \"Use the SMA_20 at 30.20 as a primary support level for stop-loss placement.\",\n    \"Watch for an increase in volume to confirm the sustainability of the current upward price trend.\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "fundamental_vote": "BULLISH",
+      "fundamental_strength": "STRONG",
+      "technical_vote": "NEUTRAL",
+      "technical_strength": "WEAK",
+      "news_vote": "BULLISH",
+      "news_strength": "MED",
+      "buy_score": 7.5,
+      "sell_score": 2.5,
+      "recommendation": "BUY",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Strong revenue growth of 9.16% QoQ and net profit margin expansion to 34.7% signaling high earnings quality.",
+        "COUNTERPOINT: Bearish MACD divergence and low volume ratio (0.75) suggest the recent price surge lacks institutional conviction."
+      ],
+      "main_risk": "Global semiconductor shortages persisting into 2023 impacting supply chains and potential revenue growth deceleration.",
+      "execution_notes": [
+        "Monitor for price breakout above the 33.60 resistance level.",
+        "Use the SMA_20 at 30.20 as a primary support level for stop-loss placement.",
+        "Watch for an increase in volume to confirm the sustainability of the current upward price trend."
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Strong fundamental momentum with 9.16% QoQ revenue growth and high earnings quality (34.7% margin) provides a robust catalyst for further appreciation. AGAINST: Technical indicators show bearish MACD divergence and low volume, suggesting the current price trend lacks institutional conviction. DECISION: Executing Manager's recommendation to BUY, as the high-confidence fundamental signal (0.80) outweighs the neutral technical outlook and the price remains supported above the SMA_20."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2021-12-27",
+        "lookback_days": 14,
+        "window_start": "2021-12-13",
+        "window_end": "2021-12-27",
+        "article_count": 4,
+        "min_published": "2021-12-15T21:57:00",
+        "max_published": "2021-12-24T09:00:00",
+        "articles": [
+          {
+            "title": "Here are the top-performing technology stocks of 2021",
+            "source": "CNBC",
+            "published": "20211224T090000",
+            "url": "https://www.cnbc.com/2021/12/24/these-are-the-best-technology-stocks-of-2021.html",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.356591,
+            "relevance_score": 0.847917
+          },
+          {
+            "title": "Desktop computers and All-in-One PCs",
+            "source": "HP",
+            "published": "20211216T202746",
+            "url": "https://www.hp.com/us-en/desktops-and-all-in-ones.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.342761,
+            "relevance_score": 0.639078
+          },
+          {
+            "title": "Federated learning: Intelligence versus privacy—can we have both?",
+            "source": "NetApp",
+            "published": "20211217T205206",
+            "url": "https://www.netapp.com/blog/federated-learning-intelligence-vs-privacy/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.338023,
+            "relevance_score": 0.627365
+          },
+          {
+            "title": "Intel to invest $7 billion in new plant in Malaysia, creating 9,000 jobs",
+            "source": "CNBC",
+            "published": "20211215T215700",
+            "url": "https://www.cnbc.com/2021/12/16/intel-to-invest-7-billion-in-new-malaysia-plant-creating-9000-jobs.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.164672,
+            "relevance_score": 0.55915
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 66.12
+  },
+  "trace": {
+    "run_config": {
+      "stage": "A",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 0,
+      "debate_mode": "off",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "Revenue grew 9.16% QoQ to $7.1B in the October 2021 quarter, following a 14.9% jump in July, signaling sustained short-term demand momentum.",
+        "primary_risk": "* Sequential revenue growth velocity slowed from 14.9% to 9.16% in the most recent quarter, which may temper immediate investor expectations"
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "SMA 10/20 crossover is UNKNOWN, but the current price (30.89) is trading above both the SMA_20 (30.20) and SMA_50 (28.62).",
+        "primary_risk": "Bearish MACD histogram and low volume conflict with the strong short-term upward price trend."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.25,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=LOW",
+        "key_catalyst": "Recognition as a top-performing 2021 tech stock in high-performance computing -> Sustained positive investor sentiment and market momentum.",
+        "primary_risk": "Global semiconductor shortages persisting into 2023 impacting supply chains."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 9.16% QoQ to $7.1B in the October 2021 quarter, following a 14.9% jump in July, signaling sustained short-term demand momentum.\n* Net profit margins expanded to 34.7% in the latest report, up from 29.1% in January 2021, demonstrating high earnings quality and operational leverage.\n* Exceptional liquidity with a current ratio of 7.14 provides a massive financial buffer, reducing risk from short-term market volatility.\n\n2) RISKS:\n* Sequential revenue growth velocity slowed from 14.9% to 9.16% in the most recent quarter, which may temper immediate investor expectations.\n* Operating expenses increased 10.7% QoQ, outpacing revenue growth (9.16%) and potentially capping near-term operating margin expansion.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Sustainability of the sequential revenue growth trajectory.",
+      "technical_analyst": "1) EVIDENCE:\n* SMA 10/20 crossover is UNKNOWN, but the current price (30.89) is trading above both the SMA_20 (30.20) and SMA_50 (28.62).\n* RSI (55.48) indicates moderate bullish momentum, yet the MACD (0.0189) remains below the Signal Line (0.1516), signaling a bearish divergence.\n* Volume Ratio (0.75) is below average, suggesting the recent 11.64% 5-day price surge lacks strong institutional conviction.\n\n2) SUPPORT: 30.20\n3) RESISTANCE: 33.60\n4) FINAL_VIEW: NEUTRAL\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Bearish MACD histogram and low volume conflict with the strong short-term upward price trend.",
+      "news_harvester": "1) CATALYSTS:\n* Recognition as a top-performing 2021 tech stock in high-performance computing -> Sustained positive investor sentiment and market momentum.\n* Launch of new HP AI PCs and gaming hardware (OMEN/VICTUS) -> Increased demand for underlying GPU and AI processing technology.\n* Intel’s $7B investment to address persistent semiconductor shortages -> Signal of continued high demand and industry-wide capacity expansion.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Global semiconductor shortages persisting into 2023 impacting supply chains."
+    },
+    "investment_debate_state": {
+      "judge_decision": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"STRONG\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 7.5,\n  \"sell_score\": 2.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Strong revenue growth of 9.16% QoQ and net profit margin expansion to 34.7% signaling high earnings quality.\",\n    \"COUNTERPOINT: Bearish MACD divergence and low volume ratio (0.75) suggest the recent price surge lacks institutional conviction.\"\n  ],\n  \"main_risk\": \"Global semiconductor shortages persisting into 2023 impacting supply chains and potential revenue growth deceleration.\",\n  \"execution_notes\": [\n    \"Monitor for price breakout above the 33.60 resistance level.\",\n    \"Use the SMA_20 at 30.20 as a primary support level for stop-loss placement.\",\n    \"Watch for an increase in volume to confirm the sustainability of the current upward price trend.\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"STRONG\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 7.5,\n  \"sell_score\": 2.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Strong revenue growth of 9.16% QoQ and net profit margin expansion to 34.7% signaling high earnings quality.\",\n    \"COUNTERPOINT: Bearish MACD divergence and low volume ratio (0.75) suggest the recent price surge lacks institutional conviction.\"\n  ],\n  \"main_risk\": \"Global semiconductor shortages persisting into 2023 impacting supply chains and potential revenue growth deceleration.\",\n  \"execution_notes\": [\n    \"Monitor for price breakout above the 33.60 resistance level.\",\n    \"Use the SMA_20 at 30.20 as a primary support level for stop-loss placement.\",\n    \"Watch for an increase in volume to confirm the sustainability of the current upward price trend.\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "fundamental_vote": "BULLISH",
+      "fundamental_strength": "STRONG",
+      "technical_vote": "NEUTRAL",
+      "technical_strength": "WEAK",
+      "news_vote": "BULLISH",
+      "news_strength": "MED",
+      "buy_score": 7.5,
+      "sell_score": 2.5,
+      "recommendation": "BUY",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Strong revenue growth of 9.16% QoQ and net profit margin expansion to 34.7% signaling high earnings quality.",
+        "COUNTERPOINT: Bearish MACD divergence and low volume ratio (0.75) suggest the recent price surge lacks institutional conviction."
+      ],
+      "main_risk": "Global semiconductor shortages persisting into 2023 impacting supply chains and potential revenue growth deceleration.",
+      "execution_notes": [
+        "Monitor for price breakout above the 33.60 resistance level.",
+        "Use the SMA_20 at 30.20 as a primary support level for stop-loss placement.",
+        "Watch for an increase in volume to confirm the sustainability of the current upward price trend."
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Strong fundamental momentum with 9.16% QoQ revenue growth and high earnings quality (34.7% margin) provides a robust catalyst for further appreciation. AGAINST: Technical indicators show bearish MACD divergence and low volume, suggesting the current price trend lacks institutional conviction. DECISION: Executing Manager's recommendation to BUY, as the high-confidence fundamental signal (0.80) outweighs the neutral technical outlook and the price remains supported above the SMA_20."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 66.12,
+    "memory_id": null
+  }
+}

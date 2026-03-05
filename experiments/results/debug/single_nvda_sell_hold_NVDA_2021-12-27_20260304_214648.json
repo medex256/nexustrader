@@ -1,0 +1,252 @@
+{
+  "meta": {
+    "created_at": "2026-03-04T21:46:48",
+    "started_at": "2026-03-04T21:45:00",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "nvda_sell_hold"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "stage": "A",
+    "debate_rounds": 0,
+    "debate_mode": "off",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "A",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 0,
+      "debate_mode": "off",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue increased from $6.51B to $7.10B (9.2% QoQ) in the latest quarter ending Oct 2021 -> Sustained top-line growth suggests strong short-term demand.\n* Net income rose to $2.46B with a high 34.7% profit margin -> Robust operational efficiency supports price stability over the 10-day horizon.\n* Current ratio is exceptionally high at 7.14 -> Massive liquidity provides a significant financial buffer against near-term market volatility.\n\n2) RISKS:\n* QoQ revenue growth rate slowed from 14.9% in the previous period to 9.2% -> Decelerating growth momentum may limit immediate upside.\n* Specific forward guidance and analyst sentiment are UNKNOWN -> Lack of visibility on upcoming catalysts increases the risk of neutral trading.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Absence of explicit forward guidance and analyst target revisions in the provided data.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI at 55.48 -> Indicates moderate bullish momentum with room to move before reaching overbought territory.\n* Price (30.89) > SMA_20 (30.20) -> The asset is trading above its short-term moving average, confirming a recent upward trend.\n* MACD (0.0189) < Signal (0.1516) -> A bearish crossover and negative histogram (-0.1327) suggest that upward momentum is decelerating.\n\n2) SUPPORT: 30.20 (SMA_20)\n3) RESISTANCE: 33.60 (Upper Bollinger Band)\n4) FINAL_VIEW: NEUTRAL\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Bearish MACD divergence and low volume ratio (0.75) conflict with the strong 11.64% 5-day price gain.",
+      "news_harvester": "1) CATALYSTS:\n* Recognition as a top-performing 2021 tech stock in high-performance computing -> Sustains positive investor sentiment and momentum.\n* Launch of new AI-integrated PCs and gaming desktops (HP Omni/OMEN lines) -> Indicates robust downstream demand for high-end processing components.\n* Major semiconductor infrastructure expansion (Intel’s $7B investment) -> Signals long-term industry capacity growth despite ongoing global shortages.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Persistent global semiconductor shortages limiting near-term production capacity."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue increased from $6.51B to $7.10B (9.2% QoQ) in the latest quarter ending Oct 2021 -> Sustained top-line growth suggests strong short-",
+        "primary_risk": "* QoQ revenue growth rate slowed from 14.9% in the previous period to 9.2% -> Decelerating growth momentum may limit immediate upside."
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI at 55.48 -> Indicates moderate bullish momentum with room to move before reaching overbought territory.",
+        "primary_risk": "Bearish MACD divergence and low volume ratio (0.75) conflict with the strong 11.64% 5-day price gain."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.25,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=LOW",
+        "key_catalyst": "Recognition as a top-performing 2021 tech stock in high-performance computing -> Sustains positive investor sentiment and momentum.",
+        "primary_risk": "Persistent global semiconductor shortages limiting near-term production capacity."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "judge_decision": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"WEAK\",\n  \"buy_score\": 1.5,\n  \"sell_score\": 0.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.55,\n  \"primary_drivers\": [\n    \"Robust fundamental growth with 9.2% QoQ revenue increase and high 34.7% profit margins.\",\n    \"Positive news sentiment from HPC recognition and new AI-integrated product launches.\",\n    \"COUNTERPOINT: Bearish MACD crossover and low volume ratio indicating momentum exhaustion.\"\n  ],\n  \"main_risk\": \"Bearish MACD divergence and low volume ratio suggesting weakening upward momentum despite recent gains.\",\n  \"execution_notes\": [\n    \"Monitor for a break above the 33.60 resistance level to signal a trend continuation.\",\n    \"Watch the 30.20 SMA support level for potential breakdown.\",\n    \"Evaluate volume trends to confirm the sustainability of the recent 11.64% price rally.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {},
+    "investment_plan": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"WEAK\",\n  \"buy_score\": 1.5,\n  \"sell_score\": 0.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.55,\n  \"primary_drivers\": [\n    \"Robust fundamental growth with 9.2% QoQ revenue increase and high 34.7% profit margins.\",\n    \"Positive news sentiment from HPC recognition and new AI-integrated product launches.\",\n    \"COUNTERPOINT: Bearish MACD crossover and low volume ratio indicating momentum exhaustion.\"\n  ],\n  \"main_risk\": \"Bearish MACD divergence and low volume ratio suggesting weakening upward momentum despite recent gains.\",\n  \"execution_notes\": [\n    \"Monitor for a break above the 33.60 resistance level to signal a trend continuation.\",\n    \"Watch the 30.20 SMA support level for potential breakdown.\",\n    \"Evaluate volume trends to confirm the sustainability of the recent 11.64% price rally.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "fundamental_vote": "BULLISH",
+      "fundamental_strength": "MED",
+      "technical_vote": "NEUTRAL",
+      "technical_strength": "WEAK",
+      "news_vote": "BULLISH",
+      "news_strength": "WEAK",
+      "buy_score": 1.5,
+      "sell_score": 0.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.55,
+      "primary_drivers": [
+        "Robust fundamental growth with 9.2% QoQ revenue increase and high 34.7% profit margins.",
+        "Positive news sentiment from HPC recognition and new AI-integrated product launches.",
+        "COUNTERPOINT: Bearish MACD crossover and low volume ratio indicating momentum exhaustion."
+      ],
+      "main_risk": "Bearish MACD divergence and low volume ratio suggesting weakening upward momentum despite recent gains.",
+      "execution_notes": [
+        "Monitor for a break above the 33.60 resistance level to signal a trend continuation.",
+        "Watch the 30.20 SMA support level for potential breakdown.",
+        "Evaluate volume trends to confirm the sustainability of the recent 11.64% price rally."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Strong fundamental growth (0.65 confidence) and positive news sentiment regarding AI/HPC recognition. AGAINST: Bearish MACD divergence and low volume ratio (0.75) suggesting potential momentum exhaustion after the recent 11.64% rally. DECISION: Overriding Manager's recommendation to BUY based on the 0.65 fundamental confidence threshold being clearly directional while technicals remain neutral. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2021-12-27",
+        "lookback_days": 14,
+        "window_start": "2021-12-13",
+        "window_end": "2021-12-27",
+        "article_count": 4,
+        "min_published": "2021-12-15T21:57:00",
+        "max_published": "2021-12-24T09:00:00",
+        "articles": [
+          {
+            "title": "Here are the top-performing technology stocks of 2021",
+            "source": "CNBC",
+            "published": "20211224T090000",
+            "url": "https://www.cnbc.com/2021/12/24/these-are-the-best-technology-stocks-of-2021.html",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.356591,
+            "relevance_score": 0.847917
+          },
+          {
+            "title": "Desktop computers and All-in-One PCs",
+            "source": "HP",
+            "published": "20211216T202746",
+            "url": "https://www.hp.com/us-en/desktops-and-all-in-ones.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.342761,
+            "relevance_score": 0.639078
+          },
+          {
+            "title": "Federated learning: Intelligence versus privacy—can we have both?",
+            "source": "NetApp",
+            "published": "20211217T205206",
+            "url": "https://www.netapp.com/blog/federated-learning-intelligence-vs-privacy/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.338023,
+            "relevance_score": 0.627365
+          },
+          {
+            "title": "Intel to invest $7 billion in new plant in Malaysia, creating 9,000 jobs",
+            "source": "CNBC",
+            "published": "20211215T215700",
+            "url": "https://www.cnbc.com/2021/12/16/intel-to-invest-7-billion-in-new-malaysia-plant-creating-9000-jobs.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.164672,
+            "relevance_score": 0.55915
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 107.55
+  },
+  "trace": {
+    "run_config": {
+      "stage": "A",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 0,
+      "debate_mode": "off",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue increased from $6.51B to $7.10B (9.2% QoQ) in the latest quarter ending Oct 2021 -> Sustained top-line growth suggests strong short-",
+        "primary_risk": "* QoQ revenue growth rate slowed from 14.9% in the previous period to 9.2% -> Decelerating growth momentum may limit immediate upside."
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI at 55.48 -> Indicates moderate bullish momentum with room to move before reaching overbought territory.",
+        "primary_risk": "Bearish MACD divergence and low volume ratio (0.75) conflict with the strong 11.64% 5-day price gain."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.25,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=LOW",
+        "key_catalyst": "Recognition as a top-performing 2021 tech stock in high-performance computing -> Sustains positive investor sentiment and momentum.",
+        "primary_risk": "Persistent global semiconductor shortages limiting near-term production capacity."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue increased from $6.51B to $7.10B (9.2% QoQ) in the latest quarter ending Oct 2021 -> Sustained top-line growth suggests strong short-term demand.\n* Net income rose to $2.46B with a high 34.7% profit margin -> Robust operational efficiency supports price stability over the 10-day horizon.\n* Current ratio is exceptionally high at 7.14 -> Massive liquidity provides a significant financial buffer against near-term market volatility.\n\n2) RISKS:\n* QoQ revenue growth rate slowed from 14.9% in the previous period to 9.2% -> Decelerating growth momentum may limit immediate upside.\n* Specific forward guidance and analyst sentiment are UNKNOWN -> Lack of visibility on upcoming catalysts increases the risk of neutral trading.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Absence of explicit forward guidance and analyst target revisions in the provided data.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI at 55.48 -> Indicates moderate bullish momentum with room to move before reaching overbought territory.\n* Price (30.89) > SMA_20 (30.20) -> The asset is trading above its short-term moving average, confirming a recent upward trend.\n* MACD (0.0189) < Signal (0.1516) -> A bearish crossover and negative histogram (-0.1327) suggest that upward momentum is decelerating.\n\n2) SUPPORT: 30.20 (SMA_20)\n3) RESISTANCE: 33.60 (Upper Bollinger Band)\n4) FINAL_VIEW: NEUTRAL\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Bearish MACD divergence and low volume ratio (0.75) conflict with the strong 11.64% 5-day price gain.",
+      "news_harvester": "1) CATALYSTS:\n* Recognition as a top-performing 2021 tech stock in high-performance computing -> Sustains positive investor sentiment and momentum.\n* Launch of new AI-integrated PCs and gaming desktops (HP Omni/OMEN lines) -> Indicates robust downstream demand for high-end processing components.\n* Major semiconductor infrastructure expansion (Intel’s $7B investment) -> Signals long-term industry capacity growth despite ongoing global shortages.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Persistent global semiconductor shortages limiting near-term production capacity."
+    },
+    "investment_debate_state": {
+      "judge_decision": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"WEAK\",\n  \"buy_score\": 1.5,\n  \"sell_score\": 0.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.55,\n  \"primary_drivers\": [\n    \"Robust fundamental growth with 9.2% QoQ revenue increase and high 34.7% profit margins.\",\n    \"Positive news sentiment from HPC recognition and new AI-integrated product launches.\",\n    \"COUNTERPOINT: Bearish MACD crossover and low volume ratio indicating momentum exhaustion.\"\n  ],\n  \"main_risk\": \"Bearish MACD divergence and low volume ratio suggesting weakening upward momentum despite recent gains.\",\n  \"execution_notes\": [\n    \"Monitor for a break above the 33.60 resistance level to signal a trend continuation.\",\n    \"Watch the 30.20 SMA support level for potential breakdown.\",\n    \"Evaluate volume trends to confirm the sustainability of the recent 11.64% price rally.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"WEAK\",\n  \"buy_score\": 1.5,\n  \"sell_score\": 0.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.55,\n  \"primary_drivers\": [\n    \"Robust fundamental growth with 9.2% QoQ revenue increase and high 34.7% profit margins.\",\n    \"Positive news sentiment from HPC recognition and new AI-integrated product launches.\",\n    \"COUNTERPOINT: Bearish MACD crossover and low volume ratio indicating momentum exhaustion.\"\n  ],\n  \"main_risk\": \"Bearish MACD divergence and low volume ratio suggesting weakening upward momentum despite recent gains.\",\n  \"execution_notes\": [\n    \"Monitor for a break above the 33.60 resistance level to signal a trend continuation.\",\n    \"Watch the 30.20 SMA support level for potential breakdown.\",\n    \"Evaluate volume trends to confirm the sustainability of the recent 11.64% price rally.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "fundamental_vote": "BULLISH",
+      "fundamental_strength": "MED",
+      "technical_vote": "NEUTRAL",
+      "technical_strength": "WEAK",
+      "news_vote": "BULLISH",
+      "news_strength": "WEAK",
+      "buy_score": 1.5,
+      "sell_score": 0.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.55,
+      "primary_drivers": [
+        "Robust fundamental growth with 9.2% QoQ revenue increase and high 34.7% profit margins.",
+        "Positive news sentiment from HPC recognition and new AI-integrated product launches.",
+        "COUNTERPOINT: Bearish MACD crossover and low volume ratio indicating momentum exhaustion."
+      ],
+      "main_risk": "Bearish MACD divergence and low volume ratio suggesting weakening upward momentum despite recent gains.",
+      "execution_notes": [
+        "Monitor for a break above the 33.60 resistance level to signal a trend continuation.",
+        "Watch the 30.20 SMA support level for potential breakdown.",
+        "Evaluate volume trends to confirm the sustainability of the recent 11.64% price rally."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Strong fundamental growth (0.65 confidence) and positive news sentiment regarding AI/HPC recognition. AGAINST: Bearish MACD divergence and low volume ratio (0.75) suggesting potential momentum exhaustion after the recent 11.64% rally. DECISION: Overriding Manager's recommendation to BUY based on the 0.65 fundamental confidence threshold being clearly directional while technicals remain neutral. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 107.55,
+    "memory_id": null
+  }
+}

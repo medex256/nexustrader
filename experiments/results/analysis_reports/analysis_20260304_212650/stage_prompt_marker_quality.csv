@@ -1,0 +1,9 @@
+marker,present,n,acc_%,mean_confidence
+has_fund,True,114,60.53,0.617
+has_fund,False,11,81.82,0.647
+has_hedge,True,12,66.67,0.615
+has_hedge,False,113,61.95,0.62
+has_level,True,111,63.96,0.62
+has_level,False,14,50.0,0.621
+has_risk,True,36,63.89,0.632
+has_risk,False,89,61.8,0.615

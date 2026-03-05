@@ -1,0 +1,244 @@
+{
+  "meta": {
+    "created_at": "2026-03-04T21:44:43",
+    "started_at": "2026-03-04T21:44:14",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "nvda_sell_hold"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "stage": "A",
+    "debate_rounds": 0,
+    "debate_mode": "off",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "A",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 0,
+      "debate_mode": "off",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "technical_analyst": "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "news_harvester": "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "No explicit primary risk provided"
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "No explicit primary risk provided"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "No explicit primary risk provided"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "judge_decision": "{\n  \"fundamental_vote\": \"NEUTRAL\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"MED\",\n  \"news_vote\": \"NEUTRAL\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse/structured failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\",\n  \"execution_notes\": [\n    \"Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\"\n  ],\n  \"confidence\": \"LOW\"\n}"
+    },
+    "arguments": {},
+    "investment_plan": "{\n  \"fundamental_vote\": \"NEUTRAL\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"MED\",\n  \"news_vote\": \"NEUTRAL\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse/structured failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\",\n  \"execution_notes\": [\n    \"Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\"\n  ],\n  \"confidence\": \"LOW\"\n}",
+    "investment_plan_structured": {
+      "fundamental_vote": "NEUTRAL",
+      "fundamental_strength": "MED",
+      "technical_vote": "NEUTRAL",
+      "technical_strength": "MED",
+      "news_vote": "NEUTRAL",
+      "news_strength": "MED",
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.35,
+      "primary_drivers": [
+        "Structured output failed; fallback used"
+      ],
+      "main_risk": "Parse/structured failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "execution_notes": [
+        "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}"
+      ],
+      "confidence": "LOW"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.35,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: All primary analyst signals (Fundamental and Technical) are currently neutral with a confidence of 0.55, which is below the 0.65 threshold required for a decisive override. AGAINST: The Research Manager's recommendation is based on a structured output failure, indicating a lack of robust data processing for this period. DECISION: Executing Manager's recommendation to HOLD as there is no clear directional bias or high-confidence signal to justify a BUY or SELL action at this time. CONFIDENCE: LOW."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2021-12-27",
+        "lookback_days": 14,
+        "window_start": "2021-12-13",
+        "window_end": "2021-12-27",
+        "article_count": 4,
+        "min_published": "2021-12-15T21:57:00",
+        "max_published": "2021-12-24T09:00:00",
+        "articles": [
+          {
+            "title": "Here are the top-performing technology stocks of 2021",
+            "source": "CNBC",
+            "published": "20211224T090000",
+            "url": "https://www.cnbc.com/2021/12/24/these-are-the-best-technology-stocks-of-2021.html",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.356591,
+            "relevance_score": 0.847917
+          },
+          {
+            "title": "Desktop computers and All-in-One PCs",
+            "source": "HP",
+            "published": "20211216T202746",
+            "url": "https://www.hp.com/us-en/desktops-and-all-in-ones.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.342761,
+            "relevance_score": 0.639078
+          },
+          {
+            "title": "Federated learning: Intelligence versus privacy—can we have both?",
+            "source": "NetApp",
+            "published": "20211217T205206",
+            "url": "https://www.netapp.com/blog/federated-learning-intelligence-vs-privacy/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.338023,
+            "relevance_score": 0.627365
+          },
+          {
+            "title": "Intel to invest $7 billion in new plant in Malaysia, creating 9,000 jobs",
+            "source": "CNBC",
+            "published": "20211215T215700",
+            "url": "https://www.cnbc.com/2021/12/16/intel-to-invest-7-billion-in-new-malaysia-plant-creating-9000-jobs.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.164672,
+            "relevance_score": 0.55915
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 28.61
+  },
+  "trace": {
+    "run_config": {
+      "stage": "A",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 0,
+      "debate_mode": "off",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "No explicit primary risk provided"
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "No explicit primary risk provided"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "No explicit primary risk provided"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "technical_analyst": "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "news_harvester": "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}"
+    },
+    "investment_debate_state": {
+      "judge_decision": "{\n  \"fundamental_vote\": \"NEUTRAL\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"MED\",\n  \"news_vote\": \"NEUTRAL\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse/structured failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\",\n  \"execution_notes\": [\n    \"Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\"\n  ],\n  \"confidence\": \"LOW\"\n}"
+    },
+    "investment_plan": "{\n  \"fundamental_vote\": \"NEUTRAL\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"MED\",\n  \"news_vote\": \"NEUTRAL\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse/structured failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\",\n  \"execution_notes\": [\n    \"Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\"\n  ],\n  \"confidence\": \"LOW\"\n}",
+    "investment_plan_structured": {
+      "fundamental_vote": "NEUTRAL",
+      "fundamental_strength": "MED",
+      "technical_vote": "NEUTRAL",
+      "technical_strength": "MED",
+      "news_vote": "NEUTRAL",
+      "news_strength": "MED",
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.35,
+      "primary_drivers": [
+        "Structured output failed; fallback used"
+      ],
+      "main_risk": "Parse/structured failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "execution_notes": [
+        "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}"
+      ],
+      "confidence": "LOW"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.35,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: All primary analyst signals (Fundamental and Technical) are currently neutral with a confidence of 0.55, which is below the 0.65 threshold required for a decisive override. AGAINST: The Research Manager's recommendation is based on a structured output failure, indicating a lack of robust data processing for this period. DECISION: Executing Manager's recommendation to HOLD as there is no clear directional bias or high-confidence signal to justify a BUY or SELL action at this time. CONFIDENCE: LOW."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 28.61,
+    "memory_id": null
+  }
+}

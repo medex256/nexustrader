@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "created_at": "2026-03-05T12:57:02",
+    "started_at": "2026-03-05T12:51:54",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "nvda_sell_hold_v2"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew from $6.507B to $7.103B QoQ (9.16% increase) -> Sustained demand supports short-term price strength, though earnings surprise data is UNKNOWN.\n* Net profit margin is robust at 34.7% -> High operational efficiency indicates strong competitive positioning and pricing power.\n* Current ratio of 7.14 -> Exceptional liquidity provides a massive financial safety net for the 10-day trading horizon.\n\n2) RISKS:\n* QoQ revenue growth rate decelerated from 14.9% in the previous period to 9.16% -> Slowing momentum could trigger a short-term cooling of investor sentiment.\n* Guidance revisions and near-term catalysts are UNKNOWN -> The lack of forward-looking data increases reliance on trailing performance metrics.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Market sensitivity to the slight deceleration in QoQ revenue growth.",
+      "technical_analyst": "1) EVIDENCE:\n* SMA Trend: Price (30.89) is currently above the SMA_20 (30.20), though the 10/20-day SMA crossover status is UNKNOWN.\n* MACD: MACD (0.0189) is below the Signal line (0.1516) with a negative histogram (-0.1327), signaling a bearish momentum divergence.\n* RSI & Volume: RSI (55.48) indicates moderate strength, but a low Volume Ratio (0.75) suggests the recent 11.64% 5-day price surge lacks high-conviction buying.\n\n2) SUPPORT: 30.20\n\n3) RESISTANCE: 33.60\n\n4) FINAL_VIEW: NEUTRAL\n\n5) CONFIDENCE: MEDIUM\n\n6) KEY_UNCERTAINTY: The bearish MACD crossover and low volume conflict with the strong 5-day upward price trend.",
+      "news_harvester": "1) CATALYSTS:\n- Inclusion in top-performing 2021 tech stocks for high-performance computing -> Reinforces market leadership and positive investor sentiment.\n- New AI-integrated PC product launches (HP OmniDesk/OmniStudio X) -> Drives immediate demand for advanced computing components and AI hardware.\n- $7B investment in semiconductor packaging facilities -> Signals industry-wide efforts to resolve supply shortages and expand production capacity.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Global semiconductor shortage expected to persist into 2023."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue grew from $6.507B to $7.103B QoQ (9.16% increase) -> Sustained demand supports short-term price strength, though earnings surprise d",
+        "primary_risk": "* QoQ revenue growth rate decelerated from 14.9% in the previous period to 9.16% -> Slowing momentum could trigger a short-term cooling of i"
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "SMA Trend: Price (30.89) is currently above the SMA_20 (30.20), though the 10/20-day SMA crossover status is UNKNOWN.",
+        "primary_risk": "The bearish MACD crossover and low volume conflict with the strong 5-day upward price trend."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Inclusion in top-performing 2021 tech stocks for high-performance computing -> Reinforces market leadership and positive investor sentiment.",
+        "primary_risk": "Global semiconductor shortage expected to persist into 2023."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\nBull Researcher:\n\n**THESIS**: NVDA is positioned for a short-term breakout as technical momentum above the 20-day SMA aligns with sustained revenue growth and market leadership sentiment.\n\n**BUY_EVIDENCE**:\n* **Fundamental Momentum**: Revenue grew 9.16% QoQ to $7.103B -> This sustained demand validates the company’s ability to drive top-line growth, supporting immediate price strength.\n* **Technical Breakout**: Price ($30.89) is currently holding above the 20-day SMA ($30.20) after a strong 5-day upward trend -> Indicates short-term bullish control and a technical foundation for further gains.\n* **Sentiment Leadership**: Recognition as a top 2021 performer in high-performance computing -> Reinforces investor confidence and prestige, attracting capital inflows within this 10-day window.\n\n**FAILURE_CONDITION**: A lack of volume confirmation or the persistence of the bearish MACD crossover could stall the current 5-day rally.\n\n**STANCE**: BUY\n\nBear Researcher:\n\n**THESIS**: NVDA faces a sharp short-term correction as decelerating revenue growth and bearish technical indicators signal that the recent 5-day rally is an exhausted bull trap.\n\n**SELL_EVIDENCE**:\n* **Fundamental Deceleration**: QoQ revenue growth slowed from 14.9% to 9.16% -> This significant drop in momentum suggests the growth engine is cooling, likely triggering a valuation reset.\n* **Technical Divergence**: A bearish MACD crossover is occurring alongside low trading volume -> The recent price increase lacks conviction and market depth, making it highly susceptible to a reversal within the 10-day window.\n* **Supply Constraints**: Global semiconductor shortages are expected to persist into 2023 -> Persistent macro headwinds limit immediate upside and threaten to dampen the sentiment currently buoyed by past performance.\n\n**FAILURE_CONDITION**: A sustained break above current price levels supported by a sudden surge in volume and a bullish MACD reversal.\n\n**STANCE**: SELL",
+      "bull_history": "\n\nBull Researcher:\n\n**THESIS**: NVDA is positioned for a short-term breakout as technical momentum above the 20-day SMA aligns with sustained revenue growth and market leadership sentiment.\n\n**BUY_EVIDENCE**:\n* **Fundamental Momentum**: Revenue grew 9.16% QoQ to $7.103B -> This sustained demand validates the company’s ability to drive top-line growth, supporting immediate price strength.\n* **Technical Breakout**: Price ($30.89) is currently holding above the 20-day SMA ($30.20) after a strong 5-day upward trend -> Indicates short-term bullish control and a technical foundation for further gains.\n* **Sentiment Leadership**: Recognition as a top 2021 performer in high-performance computing -> Reinforces investor confidence and prestige, attracting capital inflows within this 10-day window.\n\n**FAILURE_CONDITION**: A lack of volume confirmation or the persistence of the bearish MACD crossover could stall the current 5-day rally.\n\n**STANCE**: BUY",
+      "bear_history": "\n\nBear Researcher:\n\n**THESIS**: NVDA faces a sharp short-term correction as decelerating revenue growth and bearish technical indicators signal that the recent 5-day rally is an exhausted bull trap.\n\n**SELL_EVIDENCE**:\n* **Fundamental Deceleration**: QoQ revenue growth slowed from 14.9% to 9.16% -> This significant drop in momentum suggests the growth engine is cooling, likely triggering a valuation reset.\n* **Technical Divergence**: A bearish MACD crossover is occurring alongside low trading volume -> The recent price increase lacks conviction and market depth, making it highly susceptible to a reversal within the 10-day window.\n* **Supply Constraints**: Global semiconductor shortages are expected to persist into 2023 -> Persistent macro headwinds limit immediate upside and threaten to dampen the sentiment currently buoyed by past performance.\n\n**FAILURE_CONDITION**: A sustained break above current price levels supported by a sudden surge in volume and a bullish MACD reversal.\n\n**STANCE**: SELL",
+      "current_response": "Bear Researcher:\n\n**THESIS**: NVDA faces a sharp short-term correction as decelerating revenue growth and bearish technical indicators signal that the recent 5-day rally is an exhausted bull trap.\n\n**SELL_EVIDENCE**:\n* **Fundamental Deceleration**: QoQ revenue growth slowed from 14.9% to 9.16% -> This significant drop in momentum suggests the growth engine is cooling, likely triggering a valuation reset.\n* **Technical Divergence**: A bearish MACD crossover is occurring alongside low trading volume -> The recent price increase lacks conviction and market depth, making it highly susceptible to a reversal within the 10-day window.\n* **Supply Constraints**: Global semiconductor shortages are expected to persist into 2023 -> Persistent macro headwinds limit immediate upside and threaten to dampen the sentiment currently buoyed by past performance.\n\n**FAILURE_CONDITION**: A sustained break above current price levels supported by a sudden surge in volume and a bullish MACD reversal.\n\n**STANCE**: SELL",
+      "current_speaker": "Bear Researcher",
+      "count": 2,
+      "judge_decision": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 6.4,\n  \"sell_score\": 6.1,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.55,\n  \"primary_drivers\": [\n    \"Sustained QoQ revenue growth of 9.16% and price holding above the 20-day SMA ($30.20).\",\n    \"COUNTERPOINT: Bearish MACD crossover and decelerating revenue growth (from 14.9% to 9.16%) suggest a potential bull trap.\"\n  ],\n  \"main_risk\": \"The bearish MACD crossover combined with low trading volume indicates the recent 5-day rally lacks conviction and is highly susceptible to a reversal.\",\n  \"execution_notes\": [\n    \"Maintain a neutral stance as the margin between buy and sell signals (0.3) does not meet the 1.25 threshold.\",\n    \"Monitor for a volume-backed break above current price levels to validate a bullish entry.\",\n    \"Watch for a breach of the 20-day SMA ($30.20) as a signal of technical breakdown.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\nBull Researcher:\n\n**THESIS**: NVDA is positioned for a short-term breakout as technical momentum above the 20-day SMA aligns with sustained revenue growth and market leadership sentiment.\n\n**BUY_EVIDENCE**:\n* **Fundamental Momentum**: Revenue grew 9.16% QoQ to $7.103B -> This sustained demand validates the company’s ability to drive top-line growth, supporting immediate price strength.\n* **Technical Breakout**: Price ($30.89) is currently holding above the 20-day SMA ($30.20) after a strong 5-day upward trend -> Indicates short-term bullish control and a technical foundation for further gains.\n* **Sentiment Leadership**: Recognition as a top 2021 performer in high-performance computing -> Reinforces investor confidence and prestige, attracting capital inflows within this 10-day window.\n\n**FAILURE_CONDITION**: A lack of volume confirmation or the persistence of the bearish MACD crossover could stall the current 5-day rally.\n\n**STANCE**: BUY",
+      "bearish": "\n\nBear Researcher:\n\n**THESIS**: NVDA faces a sharp short-term correction as decelerating revenue growth and bearish technical indicators signal that the recent 5-day rally is an exhausted bull trap.\n\n**SELL_EVIDENCE**:\n* **Fundamental Deceleration**: QoQ revenue growth slowed from 14.9% to 9.16% -> This significant drop in momentum suggests the growth engine is cooling, likely triggering a valuation reset.\n* **Technical Divergence**: A bearish MACD crossover is occurring alongside low trading volume -> The recent price increase lacks conviction and market depth, making it highly susceptible to a reversal within the 10-day window.\n* **Supply Constraints**: Global semiconductor shortages are expected to persist into 2023 -> Persistent macro headwinds limit immediate upside and threaten to dampen the sentiment currently buoyed by past performance.\n\n**FAILURE_CONDITION**: A sustained break above current price levels supported by a sudden surge in volume and a bullish MACD reversal.\n\n**STANCE**: SELL"
+    },
+    "investment_plan": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 6.4,\n  \"sell_score\": 6.1,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.55,\n  \"primary_drivers\": [\n    \"Sustained QoQ revenue growth of 9.16% and price holding above the 20-day SMA ($30.20).\",\n    \"COUNTERPOINT: Bearish MACD crossover and decelerating revenue growth (from 14.9% to 9.16%) suggest a potential bull trap.\"\n  ],\n  \"main_risk\": \"The bearish MACD crossover combined with low trading volume indicates the recent 5-day rally lacks conviction and is highly susceptible to a reversal.\",\n  \"execution_notes\": [\n    \"Maintain a neutral stance as the margin between buy and sell signals (0.3) does not meet the 1.25 threshold.\",\n    \"Monitor for a volume-backed break above current price levels to validate a bullish entry.\",\n    \"Watch for a breach of the 20-day SMA ($30.20) as a signal of technical breakdown.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "fundamental_vote": "BULLISH",
+      "fundamental_strength": "MED",
+      "technical_vote": "NEUTRAL",
+      "technical_strength": "WEAK",
+      "news_vote": "BULLISH",
+      "news_strength": "MED",
+      "buy_score": 6.4,
+      "sell_score": 6.1,
+      "recommendation": "HOLD",
+      "confidence_score": 0.55,
+      "primary_drivers": [
+        "Sustained QoQ revenue growth of 9.16% and price holding above the 20-day SMA ($30.20).",
+        "COUNTERPOINT: Bearish MACD crossover and decelerating revenue growth (from 14.9% to 9.16%) suggest a potential bull trap."
+      ],
+      "main_risk": "The bearish MACD crossover combined with low trading volume indicates the recent 5-day rally lacks conviction and is highly susceptible to a reversal.",
+      "execution_notes": [
+        "Maintain a neutral stance as the margin between buy and sell signals (0.3) does not meet the 1.25 threshold.",
+        "Monitor for a volume-backed break above current price levels to validate a bullish entry.",
+        "Watch for a breach of the 20-day SMA ($30.20) as a signal of technical breakdown."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.55,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Sustained 9.16% QoQ revenue growth and price holding above the 20-day SMA ($30.20). AGAINST: Bearish MACD crossover and low volume suggesting a potential bull trap, alongside decelerating revenue growth. DECISION: Maintain HOLD as the 0.3 margin between buy and sell signals is insufficient to overcome the technical risks and meet the execution threshold. CONFIDENCE=MEDIUM [AUTO_GUARD] HOLD overridden to BUY because CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2021-12-27",
+        "lookback_days": 14,
+        "window_start": "2021-12-13",
+        "window_end": "2021-12-27",
+        "article_count": 4,
+        "min_published": "2021-12-15T21:57:00",
+        "max_published": "2021-12-24T09:00:00",
+        "articles": [
+          {
+            "title": "Here are the top-performing technology stocks of 2021",
+            "source": "CNBC",
+            "published": "20211224T090000",
+            "url": "https://www.cnbc.com/2021/12/24/these-are-the-best-technology-stocks-of-2021.html",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.356591,
+            "relevance_score": 0.847917
+          },
+          {
+            "title": "Desktop computers and All-in-One PCs",
+            "source": "HP",
+            "published": "20211216T202746",
+            "url": "https://www.hp.com/us-en/desktops-and-all-in-ones.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.342761,
+            "relevance_score": 0.639078
+          },
+          {
+            "title": "Federated learning: Intelligence versus privacy—can we have both?",
+            "source": "NetApp",
+            "published": "20211217T205206",
+            "url": "https://www.netapp.com/blog/federated-learning-intelligence-vs-privacy/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.338023,
+            "relevance_score": 0.627365
+          },
+          {
+            "title": "Intel to invest $7 billion in new plant in Malaysia, creating 9,000 jobs",
+            "source": "CNBC",
+            "published": "20211215T215700",
+            "url": "https://www.cnbc.com/2021/12/16/intel-to-invest-7-billion-in-new-malaysia-plant-creating-9000-jobs.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.164672,
+            "relevance_score": 0.55915
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 307.79
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue grew from $6.507B to $7.103B QoQ (9.16% increase) -> Sustained demand supports short-term price strength, though earnings surprise d",
+        "primary_risk": "* QoQ revenue growth rate decelerated from 14.9% in the previous period to 9.16% -> Slowing momentum could trigger a short-term cooling of i"
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "SMA Trend: Price (30.89) is currently above the SMA_20 (30.20), though the 10/20-day SMA crossover status is UNKNOWN.",
+        "primary_risk": "The bearish MACD crossover and low volume conflict with the strong 5-day upward price trend."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Inclusion in top-performing 2021 tech stocks for high-performance computing -> Reinforces market leadership and positive investor sentiment.",
+        "primary_risk": "Global semiconductor shortage expected to persist into 2023."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew from $6.507B to $7.103B QoQ (9.16% increase) -> Sustained demand supports short-term price strength, though earnings surprise data is UNKNOWN.\n* Net profit margin is robust at 34.7% -> High operational efficiency indicates strong competitive positioning and pricing power.\n* Current ratio of 7.14 -> Exceptional liquidity provides a massive financial safety net for the 10-day trading horizon.\n\n2) RISKS:\n* QoQ revenue growth rate decelerated from 14.9% in the previous period to 9.16% -> Slowing momentum could trigger a short-term cooling of investor sentiment.\n* Guidance revisions and near-term catalysts are UNKNOWN -> The lack of forward-looking data increases reliance on trailing performance metrics.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Market sensitivity to the slight deceleration in QoQ revenue growth.",
+      "technical_analyst": "1) EVIDENCE:\n* SMA Trend: Price (30.89) is currently above the SMA_20 (30.20), though the 10/20-day SMA crossover status is UNKNOWN.\n* MACD: MACD (0.0189) is below the Signal line (0.1516) with a negative histogram (-0.1327), signaling a bearish momentum divergence.\n* RSI & Volume: RSI (55.48) indicates moderate strength, but a low Volume Ratio (0.75) suggests the recent 11.64% 5-day price surge lacks high-conviction buying.\n\n2) SUPPORT: 30.20\n\n3) RESISTANCE: 33.60\n\n4) FINAL_VIEW: NEUTRAL\n\n5) CONFIDENCE: MEDIUM\n\n6) KEY_UNCERTAINTY: The bearish MACD crossover and low volume conflict with the strong 5-day upward price trend.",
+      "news_harvester": "1) CATALYSTS:\n- Inclusion in top-performing 2021 tech stocks for high-performance computing -> Reinforces market leadership and positive investor sentiment.\n- New AI-integrated PC product launches (HP OmniDesk/OmniStudio X) -> Drives immediate demand for advanced computing components and AI hardware.\n- $7B investment in semiconductor packaging facilities -> Signals industry-wide efforts to resolve supply shortages and expand production capacity.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Global semiconductor shortage expected to persist into 2023."
+    },
+    "investment_debate_state": {
+      "history": "\n\nBull Researcher:\n\n**THESIS**: NVDA is positioned for a short-term breakout as technical momentum above the 20-day SMA aligns with sustained revenue growth and market leadership sentiment.\n\n**BUY_EVIDENCE**:\n* **Fundamental Momentum**: Revenue grew 9.16% QoQ to $7.103B -> This sustained demand validates the company’s ability to drive top-line growth, supporting immediate price strength.\n* **Technical Breakout**: Price ($30.89) is currently holding above the 20-day SMA ($30.20) after a strong 5-day upward trend -> Indicates short-term bullish control and a technical foundation for further gains.\n* **Sentiment Leadership**: Recognition as a top 2021 performer in high-performance computing -> Reinforces investor confidence and prestige, attracting capital inflows within this 10-day window.\n\n**FAILURE_CONDITION**: A lack of volume confirmation or the persistence of the bearish MACD crossover could stall the current 5-day rally.\n\n**STANCE**: BUY\n\nBear Researcher:\n\n**THESIS**: NVDA faces a sharp short-term correction as decelerating revenue growth and bearish technical indicators signal that the recent 5-day rally is an exhausted bull trap.\n\n**SELL_EVIDENCE**:\n* **Fundamental Deceleration**: QoQ revenue growth slowed from 14.9% to 9.16% -> This significant drop in momentum suggests the growth engine is cooling, likely triggering a valuation reset.\n* **Technical Divergence**: A bearish MACD crossover is occurring alongside low trading volume -> The recent price increase lacks conviction and market depth, making it highly susceptible to a reversal within the 10-day window.\n* **Supply Constraints**: Global semiconductor shortages are expected to persist into 2023 -> Persistent macro headwinds limit immediate upside and threaten to dampen the sentiment currently buoyed by past performance.\n\n**FAILURE_CONDITION**: A sustained break above current price levels supported by a sudden surge in volume and a bullish MACD reversal.\n\n**STANCE**: SELL",
+      "bull_history": "\n\nBull Researcher:\n\n**THESIS**: NVDA is positioned for a short-term breakout as technical momentum above the 20-day SMA aligns with sustained revenue growth and market leadership sentiment.\n\n**BUY_EVIDENCE**:\n* **Fundamental Momentum**: Revenue grew 9.16% QoQ to $7.103B -> This sustained demand validates the company’s ability to drive top-line growth, supporting immediate price strength.\n* **Technical Breakout**: Price ($30.89) is currently holding above the 20-day SMA ($30.20) after a strong 5-day upward trend -> Indicates short-term bullish control and a technical foundation for further gains.\n* **Sentiment Leadership**: Recognition as a top 2021 performer in high-performance computing -> Reinforces investor confidence and prestige, attracting capital inflows within this 10-day window.\n\n**FAILURE_CONDITION**: A lack of volume confirmation or the persistence of the bearish MACD crossover could stall the current 5-day rally.\n\n**STANCE**: BUY",
+      "bear_history": "\n\nBear Researcher:\n\n**THESIS**: NVDA faces a sharp short-term correction as decelerating revenue growth and bearish technical indicators signal that the recent 5-day rally is an exhausted bull trap.\n\n**SELL_EVIDENCE**:\n* **Fundamental Deceleration**: QoQ revenue growth slowed from 14.9% to 9.16% -> This significant drop in momentum suggests the growth engine is cooling, likely triggering a valuation reset.\n* **Technical Divergence**: A bearish MACD crossover is occurring alongside low trading volume -> The recent price increase lacks conviction and market depth, making it highly susceptible to a reversal within the 10-day window.\n* **Supply Constraints**: Global semiconductor shortages are expected to persist into 2023 -> Persistent macro headwinds limit immediate upside and threaten to dampen the sentiment currently buoyed by past performance.\n\n**FAILURE_CONDITION**: A sustained break above current price levels supported by a sudden surge in volume and a bullish MACD reversal.\n\n**STANCE**: SELL",
+      "current_response": "Bear Researcher:\n\n**THESIS**: NVDA faces a sharp short-term correction as decelerating revenue growth and bearish technical indicators signal that the recent 5-day rally is an exhausted bull trap.\n\n**SELL_EVIDENCE**:\n* **Fundamental Deceleration**: QoQ revenue growth slowed from 14.9% to 9.16% -> This significant drop in momentum suggests the growth engine is cooling, likely triggering a valuation reset.\n* **Technical Divergence**: A bearish MACD crossover is occurring alongside low trading volume -> The recent price increase lacks conviction and market depth, making it highly susceptible to a reversal within the 10-day window.\n* **Supply Constraints**: Global semiconductor shortages are expected to persist into 2023 -> Persistent macro headwinds limit immediate upside and threaten to dampen the sentiment currently buoyed by past performance.\n\n**FAILURE_CONDITION**: A sustained break above current price levels supported by a sudden surge in volume and a bullish MACD reversal.\n\n**STANCE**: SELL",
+      "current_speaker": "Bear Researcher",
+      "count": 2,
+      "judge_decision": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 6.4,\n  \"sell_score\": 6.1,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.55,\n  \"primary_drivers\": [\n    \"Sustained QoQ revenue growth of 9.16% and price holding above the 20-day SMA ($30.20).\",\n    \"COUNTERPOINT: Bearish MACD crossover and decelerating revenue growth (from 14.9% to 9.16%) suggest a potential bull trap.\"\n  ],\n  \"main_risk\": \"The bearish MACD crossover combined with low trading volume indicates the recent 5-day rally lacks conviction and is highly susceptible to a reversal.\",\n  \"execution_notes\": [\n    \"Maintain a neutral stance as the margin between buy and sell signals (0.3) does not meet the 1.25 threshold.\",\n    \"Monitor for a volume-backed break above current price levels to validate a bullish entry.\",\n    \"Watch for a breach of the 20-day SMA ($30.20) as a signal of technical breakdown.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"fundamental_vote\": \"BULLISH\",\n  \"fundamental_strength\": \"MED\",\n  \"technical_vote\": \"NEUTRAL\",\n  \"technical_strength\": \"WEAK\",\n  \"news_vote\": \"BULLISH\",\n  \"news_strength\": \"MED\",\n  \"buy_score\": 6.4,\n  \"sell_score\": 6.1,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.55,\n  \"primary_drivers\": [\n    \"Sustained QoQ revenue growth of 9.16% and price holding above the 20-day SMA ($30.20).\",\n    \"COUNTERPOINT: Bearish MACD crossover and decelerating revenue growth (from 14.9% to 9.16%) suggest a potential bull trap.\"\n  ],\n  \"main_risk\": \"The bearish MACD crossover combined with low trading volume indicates the recent 5-day rally lacks conviction and is highly susceptible to a reversal.\",\n  \"execution_notes\": [\n    \"Maintain a neutral stance as the margin between buy and sell signals (0.3) does not meet the 1.25 threshold.\",\n    \"Monitor for a volume-backed break above current price levels to validate a bullish entry.\",\n    \"Watch for a breach of the 20-day SMA ($30.20) as a signal of technical breakdown.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "fundamental_vote": "BULLISH",
+      "fundamental_strength": "MED",
+      "technical_vote": "NEUTRAL",
+      "technical_strength": "WEAK",
+      "news_vote": "BULLISH",
+      "news_strength": "MED",
+      "buy_score": 6.4,
+      "sell_score": 6.1,
+      "recommendation": "HOLD",
+      "confidence_score": 0.55,
+      "primary_drivers": [
+        "Sustained QoQ revenue growth of 9.16% and price holding above the 20-day SMA ($30.20).",
+        "COUNTERPOINT: Bearish MACD crossover and decelerating revenue growth (from 14.9% to 9.16%) suggest a potential bull trap."
+      ],
+      "main_risk": "The bearish MACD crossover combined with low trading volume indicates the recent 5-day rally lacks conviction and is highly susceptible to a reversal.",
+      "execution_notes": [
+        "Maintain a neutral stance as the margin between buy and sell signals (0.3) does not meet the 1.25 threshold.",
+        "Monitor for a volume-backed break above current price levels to validate a bullish entry.",
+        "Watch for a breach of the 20-day SMA ($30.20) as a signal of technical breakdown."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.55,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Sustained 9.16% QoQ revenue growth and price holding above the 20-day SMA ($30.20). AGAINST: Bearish MACD crossover and low volume suggesting a potential bull trap, alongside decelerating revenue growth. DECISION: Maintain HOLD as the 0.3 margin between buy and sell signals is insufficient to overcome the technical risks and meet the execution threshold. CONFIDENCE=MEDIUM [AUTO_GUARD] HOLD overridden to BUY because CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 307.79,
+    "memory_id": null
+  }
+}

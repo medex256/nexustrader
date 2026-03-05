@@ -74,6 +74,91 @@ def _direction_from_signals(state: dict) -> Optional[str]:
     return None
 
 
+def _parse_manager_plan(investment_plan: str) -> tuple[Optional[str], float, list[str], str]:
+    manager_action = None
+    manager_conf = 0.55
+    primary_drivers: list[str] = []
+    main_risk = ""
+
+    if isinstance(investment_plan, str) and investment_plan.strip():
+        try:
+            parsed_plan = json.loads(investment_plan)
+            rec = (parsed_plan.get("recommendation") or "").upper()
+            if rec in {"BUY", "SELL", "HOLD"}:
+                manager_action = rec
+            try:
+                manager_conf = float(parsed_plan.get("confidence_score") or manager_conf)
+            except Exception:
+                pass
+            primary_drivers = [str(x) for x in (parsed_plan.get("primary_drivers") or []) if str(x).strip()]
+            main_risk = str(parsed_plan.get("main_risk") or "").strip()
+        except Exception:
+            plan_upper = investment_plan.upper()
+            if "RECOMMENDATION" in plan_upper and "BUY" in plan_upper:
+                manager_action = "BUY"
+            elif "RECOMMENDATION" in plan_upper and "SELL" in plan_upper:
+                manager_action = "SELL"
+            elif "RECOMMENDATION" in plan_upper and "HOLD" in plan_upper:
+                manager_action = "HOLD"
+
+    manager_conf = max(0.0, min(manager_conf, 1.0))
+    # No HOLD confidence clamping — LLM-estimated confidence is diagnostic data.
+    # Clamping it to 0.55 would silently corrupt that data for HOLD calls.
+
+    return manager_action, manager_conf, primary_drivers, main_risk
+
+
+def _stage_a_concise_rationale(
+    manager_action: str,
+    signals: dict,
+    primary_drivers: list[str],
+    main_risk: str,
+    confidence_band: str,
+) -> str:
+    action = (manager_action or "HOLD").upper()
+    target = "BULLISH" if action == "BUY" else "BEARISH"
+    oppose = "BEARISH" if action == "BUY" else "BULLISH"
+
+    signal_items = []
+    for key in ("fundamental", "technical", "news"):
+        sig = (signals.get(key) or {})
+        if not sig:
+            continue
+        signal_items.append({
+            "domain": key,
+            "direction": str(sig.get("direction") or "NEUTRAL").upper(),
+            "confidence": float(sig.get("confidence") or 0.0),
+            "catalyst": str(sig.get("key_catalyst") or "UNKNOWN").strip(),
+            "risk": str(sig.get("primary_risk") or "UNKNOWN").strip(),
+        })
+
+    pro = None
+    con = None
+    for item in sorted(signal_items, key=lambda x: x["confidence"], reverse=True):
+        if pro is None and item["direction"] == target:
+            pro = item
+        if con is None and item["direction"] == oppose:
+            con = item
+
+    if action == "HOLD":
+        for_item = primary_drivers[0] if primary_drivers else "Mixed directional evidence across analyst domains."
+        against_item = main_risk or (primary_drivers[1] if len(primary_drivers) > 1 else "No single direction shows durable edge.")
+    else:
+        for_item = (
+            pro["catalyst"] if pro else (primary_drivers[0] if primary_drivers else "Directional evidence supports this action.")
+        )
+        against_item = (
+            con["risk"] if con else (main_risk or (primary_drivers[1] if len(primary_drivers) > 1 else "Counter-evidence remains manageable."))
+        )
+
+    return (
+        f"FOR: {for_item} "
+        f"AGAINST: {against_item} "
+        f"DECISION: Executing Research Manager policy-core recommendation to {action}. "
+        f"CONFIDENCE={confidence_band}."
+    )
+
+
 def _extract_json_from_text(text: str) -> str:
     """Extract the first JSON object from a model response."""
     cleaned = text.strip()
@@ -178,6 +263,8 @@ def trading_strategy_synthesizer_agent(state: dict):
         context = f"Bullish Argument:\n{bullish}\n\nBearish Argument:\n{bearish}"
     else:
         context = f"Research Manager's Investment Plan:\n{investment_plan}"
+
+    manager_action, manager_confidence, manager_drivers, manager_main_risk = _parse_manager_plan(investment_plan)
     
     # NOTE: No extract_signal call here — we don't force alignment.
     # The Trader reads the plan and makes its own call.
@@ -196,27 +283,66 @@ def trading_strategy_synthesizer_agent(state: dict):
             signal_lines.append(f"  {label}: No signal available")
     signal_block = "\n".join(signal_lines)
 
-    prefer_directional = stage not in {"A"}
+    # Policy core for Stages A / B / B+:
+    # Trader echoes the Research Manager — no independent LLM call.
+    # Trader independence (full LLM call) only activates at Stage C, where the Risk Debate
+    # can consume the Manager-vs-Trader tension as a concrete signal during risk adjudication.
+    if stage in {"A", "B", "B+"} and manager_action in {"BUY", "SELL", "HOLD"}:
+        trader_action = manager_action
+        confidence_band = _band_from_score(manager_confidence)
+        strategy = {
+            "action": trader_action,
+            "confidence_score": manager_confidence,
+            "entry_price": None,
+            "take_profit": None,
+            "stop_loss": None,
+            "position_size_pct": 0,
+            "rationale": _stage_a_concise_rationale(
+                manager_action=manager_action,
+                signals=signals,
+                primary_drivers=manager_drivers,
+                main_risk=manager_main_risk,
+                confidence_band=confidence_band,
+            ),
+        }
 
-    if stage == "A":
-        # Stage A: Trader acts as a pure executor of the RM's weighted decision
+        state['trading_strategy'] = strategy
+        state['research_manager_recommendation'] = manager_action
+        state['trader_recommendation'] = trader_action
+
+        if 'run_metadata' not in state:
+            state['run_metadata'] = {}
+        state['run_metadata'].update({
+            "strategy_action": trader_action,
+            "strategy_json_parse_failed": False,
+            "strategy_confidence_band": confidence_band,
+            "strategy_abstention_overridden": False,
+            "research_manager_action": manager_action,
+            "trader_disagreed_with_manager": False,
+            "policy_core": True,  # Trader = policy executor; no independent LLM call
+        })
+
+        return state
+
+    if stage in {"B", "B+"}:
         prompt = f"""Role: Trader for {ticker}.
-Task: execute the Research Manager's recommendation for the next {horizon_days} trading days.
+Task: make the final directional decision for the next {horizon_days} trading days using the debate outcome.
 
 Current Price: {current_price_str}
 
 --- ANALYST SIGNALS ---
 {signal_block}
 
---- RESEARCH MANAGER RECOMMENDATION ---
+--- RESEARCH MANAGER DECISION CONTEXT ---
 {context}
 
-Execution rules:
-1) TRUST THE MANAGER: You must execute exactly the action recommended by the Research Manager (BUY, SELL, or HOLD).
-   Do NOT second-guess or override their decision, even if the analyst signals appear mixed or conflicting.
-   The Manager has already run a weighted scoring algorithm to determine the action.
-2) RATIONALE: Cite FOR (strongest supporting argument) and AGAINST (strongest counter-argument), 
-   then conclude by stating clearly that you are executing the Manager's plan.
+Execution policy (lean, MAS-aligned):
+1) Treat Manager recommendation as strong anchor.
+2) Prefer directional action (BUY/SELL) when evidence edge exists.
+3) Use HOLD only for true deadlock or low confidence.
+4) If disagreeing with Manager, cite one concrete opposing evidence item.
+5) Keep BUY/SELL symmetry; do not bias toward BUY.
+6) Rationale format: FOR ... AGAINST ... DECISION ... CONFIDENCE=HIGH|MEDIUM|LOW.
 
 Return ONLY valid JSON:
 {{
@@ -226,7 +352,7 @@ Return ONLY valid JSON:
     "take_profit": null,
     "stop_loss": null,
     "position_size_pct": 0,
-    "rationale": "<FOR: ... AGAINST: ... DECISION: Executing Manager's recommendation to [ACTION].>"
+    "rationale": "<FOR: ... AGAINST: ... DECISION: ...>"
 }}
 """
     else:
@@ -290,23 +416,7 @@ Return ONLY valid JSON:
                 "rationale": f"Fallback due to parse error ({exc}) and extraction error ({extract_exc}).",
             }
     
-    # NO forced alignment — Trader is independent.
-    # Extract what the Research Manager recommended for metadata/risk debate context
-    manager_action = None
-    if isinstance(investment_plan, str) and investment_plan.strip():
-        try:
-            parsed_plan = json.loads(investment_plan)
-            rec = (parsed_plan.get("recommendation") or "").upper()
-            if rec in {"BUY", "SELL", "HOLD"}:
-                manager_action = rec
-        except Exception:
-            plan_upper = investment_plan.upper()
-            if "RECOMMENDATION" in plan_upper and "BUY" in plan_upper:
-                manager_action = "BUY"
-            elif "RECOMMENDATION" in plan_upper and "SELL" in plan_upper:
-                manager_action = "SELL"
-            elif "RECOMMENDATION" in plan_upper and "HOLD" in plan_upper:
-                manager_action = "HOLD"
+    # NO forced alignment for non-Stage-A paths — Trader remains independent.
     
     # Anti-abstention guard: HOLD is only allowed when confidence is LOW.
     trader_action = (strategy.get("action", "HOLD") or "HOLD").upper()
@@ -318,8 +428,10 @@ Return ONLY valid JSON:
         ).strip()
 
     abstention_overridden = False
-    # Stage A is a baseline: allow HOLD without forcing direction.
-    if stage != "A" and trader_action == "HOLD" and confidence_band in {"HIGH", "MEDIUM"}:
+    # Anti-abstention guard: HOLD is not allowed when the Trader's own confidence is MEDIUM or HIGH.
+    # Fallback priority: (1) Research Manager's direction if explicitly BUY/SELL,
+    #                    (2) majority vote across analyst signals.
+    if trader_action == "HOLD" and confidence_band in {"HIGH", "MEDIUM"}:
         # Prefer Research Manager direction if explicit, else use majority of analyst signals.
         fallback_direction = None
         if manager_action in {"BUY", "SELL"}:
