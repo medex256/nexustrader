@@ -35,6 +35,8 @@ class ResearchManagerDecision(BaseModel):
     confidence_score: float = Field(default=0.5, ge=0, le=1)
     primary_drivers: list[str] = Field(default_factory=list)
     main_risk: str = "Unknown"
+    actionability_assessment: str = "Unknown"
+    hold_gate_assessment: str = "Unknown"
     execution_notes: list[str] = Field(default_factory=list)
 
 
@@ -163,7 +165,7 @@ Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
     # Horizon context for debate agents
     horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
     horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
-    horizon_context = f"TRADING HORIZON: {horizon_days} trading days ({horizon}-term). Tailor your argument to evidence most likely to materialise within this window."
+    horizon_context = f"TRADING HORIZON: {horizon_days} trading days ({horizon}-term). Tailor your extraction to evidence most likely to materialise within this window."
 
     stage = ((state.get("run_config", {}) or {}).get("stage") or "").strip().upper()
 
@@ -171,25 +173,39 @@ Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
     if debate_state['count'] == 0:
         # First round - opening argument with cross-examination prep
         if stage in {"B", "B+"}:
-            prompt = f"""Role: Bull Researcher for {ticker}.
-Task: make the strongest BUY case for the next {horizon_days} trading days.
+            prompt = f"""Role: Upside Catalyst Analyst for {ticker}.
+Task: distil the most decision-relevant upside catalysts from the full analyst reports
+for the next {horizon_days} trading days. Extract evidence — do not argue for a direction.
 
 {horizon_context}
 
-Use only the signal summary below {"and memory notes" if memory_context else ""}. No external facts.
+Read the full analyst reports below {"and memory notes" if memory_context else ""}. No external facts.
+Your goal is to surface the most decision-relevant upside evidence for this horizon, especially anything that could be under-weighted in a single-pass synthesis.
+The value of this role is disciplined compression and horizon filtering, not novelty for its own sake.
+Ground every bullet in specific evidence from the reports as it actually reads — not generic claims.
+If upside catalysts are weak or absent in the evidence, state that honestly.
+Only surface evidence with a plausible transmission path into price action within {horizon_days} trading days.
+Do not treat durable business quality, balance-sheet strength, or long-term franchise quality as a catalyst by itself.
+Those may appear only if the reports give a concrete reason they matter now within the stated horizon.
+Do not promote already-priced background strength into a tradable upside case unless the reports identify a near-term trigger.
+It is acceptable to include the main actionable catalyst even if it is already obvious in the reports.
+Rank actionable items first. If you include a background support point, prefix that bullet text with CONTEXT: and include at most one such bullet.
+Rank bullets from most to least decision-relevant for this horizon.
+Each bullet must start with exactly one source tag: [Fundamental], [Technical], or [News].
+Use only materially relevant items. If only 1 or 2 strong catalysts exist, output only those.
+Prefer non-overlapping bullets. If multiple details support the same underlying catalyst, merge them into one stronger bullet.
+Prefer domain diversity when it is genuinely supported by the reports.
+Do not restate the overall company outlook or pad with weak evidence.
 
-
-Analyst Signal Summary:
-{_format_signal_summary_for_debate(state)}
+Full Analyst Reports:
+{_format_reports_for_judge(state)}
 {memory_context}
 
 Output format (strict):
-- THESIS: one line
-- BUY_EVIDENCE: up to 3 bullets (fact -> implication)
-- FAILURE_CONDITION: one line (what would invalidate BUY)
-- STANCE: BUY|SELL|HOLD
+- TOP_UPSIDE_CATALYSTS: 1 to 3 bullets, ranked most to least decision-relevant ([Source] specific evidence from reports -> near-term transmission path within {horizon_days} days)
+- UPSIDE_FAILURE: one line (specific change in evidence that would invalidate the bullish interpretation within {horizon_days} days)
 
-Keep under 180 words. Start with "Bull Researcher:"."""
+Keep under 160 words. Start with "Upside Catalyst Analyst:"."""
         else:
             prompt = f"""Role: Bull Researcher for {ticker}.
     Task: present the strongest directional case for the next {horizon_days} trading days.
@@ -270,7 +286,7 @@ Keep under 140 words. Start with "Bull Researcher:"."""
     debate_state['bull_history'] += f"\n\n{bullish_response}"
     debate_state['history'] += f"\n\n{bullish_response}"
     debate_state['current_response'] = bullish_response
-    debate_state['current_speaker'] = "Bull Researcher"
+    debate_state['current_speaker'] = "Upside Catalyst Analyst" if stage in {"B", "B+"} else "Bull Researcher"
     debate_state['count'] += 1
     
     state['investment_debate_state'] = debate_state
@@ -330,36 +346,49 @@ Past Mistake {i}:
     # Horizon context for bear debate
     horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
     horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
-    horizon_context = f"TRADING HORIZON: {horizon_days} trading days ({horizon}-term). Tailor your argument to risks most likely to materialise within this window."
+    horizon_context = f"TRADING HORIZON: {horizon_days} trading days ({horizon}-term). Tailor your extraction to risks most likely to materialise within this window."
 
     stage = ((state.get("run_config", {}) or {}).get("stage") or "").strip().upper()
 
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 1:
         # Opening statement - parallel to Bull.
-        # Bear argues independently from signal summary only; does NOT see Bull's argument.
+        # Bear argues independently from the full analyst reports; does NOT see Bull's argument.
         # Both sides open without reading each other. Manager judges two independent cases.
         # In round 2+ each side sees the other's full history and can rebut directly.
         if stage in {"B", "B+"}:
-            prompt = f"""Role: Bear Researcher for {ticker}.
-Task: make the strongest independent SELL case for the next {horizon_days} trading days.
+            prompt = f"""Role: Downside Risk Analyst for {ticker}.
+Task: distil the most decision-relevant downside risks from the full analyst reports
+for the next {horizon_days} trading days. Extract risks — do not argue for a direction.
 
 {horizon_context}
 
-Use only the signal summary below {"and memory notes" if memory_context else ""}. No external facts.
-Build your case independently from the evidence — do not react to any other argument.
+Read the full analyst reports below {"and memory notes" if memory_context else ""}. No external facts.
+Your goal is to surface the most decision-relevant downside evidence for this horizon, especially anything that could be under-weighted in a single-pass synthesis.
+The value of this role is disciplined compression and horizon filtering, not novelty for its own sake.
+Ground every bullet in specific evidence from the reports as it actually reads — not generic claims.
+If downside risks are weak or absent in the evidence, state that honestly.
+Prioritise risks that can block, reverse, or neutralise the bullish case within {horizon_days} trading days.
+Prefer evidence that suggests overextension, catalyst failure, priced-in optimism, or lack of a near-term transmission path.
+Treat generic uncertainty or background caution as weak unless the reports give a concrete reason it matters now.
+It is acceptable to include the main actionable blocker even if it is already obvious in the reports.
+Rank actionable items first. If you include a background caution point, prefix that bullet text with CONTEXT: and include at most one such bullet.
+Rank bullets from most to least decision-relevant for this horizon.
+Each bullet must start with exactly one source tag: [Fundamental], [Technical], or [News].
+Use only materially relevant items. If only 1 or 2 strong risks exist, output only those.
+Prefer non-overlapping bullets. If multiple details support the same underlying risk, merge them into one stronger bullet.
+Prefer domain diversity when it is genuinely supported by the reports.
+Do not restate the overall company outlook or pad with weak evidence.
 
-Analyst Signal Summary:
-{_format_signal_summary_for_debate(state)}
+Full Analyst Reports:
+{_format_reports_for_judge(state)}
 {memory_context}
 
 Output format (strict):
-- THESIS: one line
-- SELL_EVIDENCE: up to 3 bullets (fact -> implication)
-- FAILURE_CONDITION: one line (what would invalidate SELL)
-- STANCE: BUY|SELL|HOLD
+- TOP_DOWNSIDE_RISKS: 1 to 3 bullets, ranked most to least decision-relevant ([Source] specific evidence from reports -> near-term blocker, reversal path, or priced-in risk within {horizon_days} days)
+- RISK_IRRELEVANCE: one line (specific change in evidence that would neutralize these risks within {horizon_days} days)
 
-Keep under 180 words. Start with "Bear Researcher:"."""
+Keep under 160 words. Start with "Downside Risk Analyst:"."""
         else:
             prompt = f"""Role: Bear Researcher for {ticker}.
     Task: present the strongest directional case for the next {horizon_days} trading days.
@@ -438,7 +467,7 @@ Keep under 140 words. Start with "Bear Researcher:"."""
     debate_state['bear_history'] += f"\n\n{bearish_response}"
     debate_state['history'] += f"\n\n{bearish_response}"
     debate_state['current_response'] = bearish_response
-    debate_state['current_speaker'] = "Bear Researcher"
+    debate_state['current_speaker'] = "Downside Risk Analyst" if stage in {"B", "B+"} else "Bear Researcher"
     debate_state['count'] += 1
     
     state['investment_debate_state'] = debate_state
@@ -515,41 +544,50 @@ Return JSON:
         structured_payload["confidence"] = confidence_band
 
     # =========================================================================
-    # PATH B: Debate stages (B / B+ / C / D) — LLM judges debate quality directly
-    # No spread rule for B/B+. Scores are descriptive metadata only.
-    # The recommendation is the LLM's holistic judgment of which argument was stronger.
+    # PATH B: Debate-enabled stages (B / B+ / C / D).
+    # For B/B+, the extra agent layer is structured evidence extraction, not winner-picking debate.
+    # No spread rule for B/B+. Scores are descriptive metadata only and recommendation stays holistic.
     # Spread rule retained for C/D only (separate scoring protocol).
     # =========================================================================
     else:
         if stage in {"B", "B+"}:
-            prompt = f"""Role: Research Manager / Judge for {ticker}.
+            prompt = f"""Role: Research Manager for {ticker}.
 Task: decide BUY, SELL, or HOLD for the next {horizon_days} trading days.
 
-You have heard two independent advocates and have the full analyst reports.
-Judge which side built the stronger case from the actual evidence in the reports.
-If a debater cited something not present in the analyst reports, discount that claim.
+Your primary evidence is the full analyst reports. Two specialist analysts have independently
+distilled upside catalysts and downside risks from the full analyst reports. Treat these as a
+coverage check, not as votes. Use them to verify whether any materially relevant report evidence
+was under-weighted in a first-pass reading. You are not picking a debate winner.
+Make your own directional judgment grounded in the full analyst reports.
 
-Apply the same standard of scrutiny to both sides.
-Use HOLD only when the two cases are so evenly matched you cannot determine a winner.
-If one side is better supported by the evidence — even if not overwhelmingly — choose that direction.
+Apply the same standard of scrutiny to upside and downside evidence.
+Use the highlights to separate three buckets: actionable upside, actionable downside, and background context.
+Do not confuse broad background quality or broad background weakness with a tradable short-horizon edge.
+Durable business quality, liquidity, franchise strength, or broad weakness count as context only unless the reports give a plausible transmission path into price action within {horizon_days} trading days.
+If a highlight merely repeats evidence already central in the reports, treat that as confirmation of importance, not as extra weight.
+Mixed evidence does not automatically imply HOLD. If one side has materially stronger actionable evidence, choose that side.
+Choose BUY or SELL when one side has materially stronger actionable evidence within the stated horizon.
+Choose HOLD only when actionable upside and actionable downside are too balanced, too weak, or too contingent to prefer a direction.
+Every `primary_drivers` item must be grounded in the full analyst reports, not merely copied from the highlights.
+Prefer 2 to 3 source-specific drivers with clear evidence provenance.
+Use `actionability_assessment` and `hold_gate_assessment` to explain the decision you reached, not to create an extra decision rule.
 
-Analyst Reports:
-{_format_reports_for_judge(state)}
-
-Signal Summary:
-{_format_signal_summary_for_debate(state)}
-
-Debate:
+Analyst Highlights (coverage check, not votes):
 {debate_history}
+
+Full Analyst Reports:
+{_format_reports_for_judge(state)}
 
 Return JSON:
 {{
   "recommendation": "BUY" | "SELL" | "HOLD",
   "confidence_score": <0.0 - 1.0>,
-  "buy_score": <0-10, how strong the BUY argument was — descriptive only>,
-  "sell_score": <0-10, how strong the SELL argument was — descriptive only>,
-  "primary_drivers": ["<up to 3 evidence items that decided the judgment>"],
-  "main_risk": "<single most important counterpoint to your decision>"
+  "buy_score": <0-10, how compelling is the upside case after reading the full reports>,
+  "sell_score": <0-10, how compelling is the downside case after reading the full reports>,
+    "primary_drivers": ["<2 to 3 source-specific evidence items from analyst reports that drove your decision>"],
+    "main_risk": "<single most important counterpoint to your decision>",
+    "actionability_assessment": "<what has a plausible transmission path into price action within {horizon_days} days, and what is merely background support>",
+    "hold_gate_assessment": "<briefly explain how the chosen outcome clears the actionability bar, or why neither side clears it if HOLD>"
 }}"""
         else:
             # C/D: spread rule applied — both in prompt and in code post-LLM

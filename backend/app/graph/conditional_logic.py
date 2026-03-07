@@ -26,8 +26,8 @@ class ConditionalLogic:
         
         Logic:
         - If max rounds reached -> go to Research Manager
-        - If Bull just spoke -> go to Bear
-        - If Bear just spoke -> go to Bull
+        - If the upside / bull-side researcher just spoke -> go to Bear
+        - If the downside / bear-side researcher just spoke -> go to Bull
         
         Args:
             state: Current agent state with debate information
@@ -42,13 +42,20 @@ class ConditionalLogic:
             return "research_manager"
         
         # Determine next speaker based on current speaker
-        current_speaker = debate_state.get("current_speaker", "")
-        
-        if current_speaker.startswith("Bull"):
+        current_speaker = (debate_state.get("current_speaker", "") or "").strip()
+
+        # Stage B / B+ renamed the first-layer researchers from Bull/Bear advocates
+        # to specialist extractors. Keep routing compatible with both label schemes.
+        bull_side_speakers = {"Bull Researcher", "Upside Catalyst Analyst"}
+        bear_side_speakers = {"Bear Researcher", "Downside Risk Analyst"}
+
+        if current_speaker.startswith("Bull") or current_speaker in bull_side_speakers:
             return "bear_researcher"
-        else:
-            # Default to bull if no speaker or bear just spoke
+        if current_speaker.startswith("Bear") or current_speaker in bear_side_speakers:
             return "bull_researcher"
+
+        # Default to bull if speaker is missing / unknown.
+        return "bull_researcher"
 
     def should_continue_risk_debate(self, state: AgentState) -> str:
         """

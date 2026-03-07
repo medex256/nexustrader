@@ -1,0 +1,9 @@
+{
+  "created_at": "20260307_175543",
+  "agent_glob": "batch_eval50_stageB_new_fix_bear_lean_20260307_172652.jsonl",
+  "agent_rows": 2130,
+  "unique_tickers": 5,
+  "unique_dates": 94,
+  "hold_epsilon": 0.02,
+  "enable_baselines": true
+}

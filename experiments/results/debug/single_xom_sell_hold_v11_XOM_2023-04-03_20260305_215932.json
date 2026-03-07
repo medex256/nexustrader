@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "created_at": "2026-03-05T21:59:32",
+    "started_at": "2026-03-05T21:56:12",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "xom_sell_hold_v11"
+  },
+  "request_payload": {
+    "ticker": "XOM",
+    "market": "US",
+    "simulated_date": "2023-04-03",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "XOM",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-04-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2023-04-03",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue decelerated significantly QoQ, falling from $93.16B in Q4 2022 to $83.64B in Q1 2023 (-10.2%), indicating cooling top-line momentum.\n* Operating income dropped from $16.88B to $14.21B sequentially, showing immediate pressure on core profitability heading into the current window.\n* Despite the slowdown, the company maintains robust liquidity with a current ratio of 1.46 and strong Q1 free cash flow of $16.34B, providing a defensive floor.\n\n2) RISKS:\n* Continued sequential contraction in net income (down ~10.3% QoQ) may trigger negative sentiment if investors pivot away from declining growth.\n* High cost of revenue ($59.68B) relative to total revenue persists, potentially squeezing margins if energy prices fluctuate within the 10-day horizon.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Sustainability of profit margins in the face of double-digit QoQ revenue deceleration.",
+      "technical_analyst": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "news_harvester": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue decelerated significantly QoQ, falling from $93.16B in Q4 2022 to $83.64B in Q1 2023 (-10.2%), indicating cooling top-line momentum.",
+        "primary_risk": "* Continued sequential contraction in net income (down ~10.3% QoQ) may trigger negative sentiment if investors pivot away from declining gro"
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "No explicit primary risk provided"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "No explicit primary risk provided"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\nError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\n\nError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "bull_history": "\n\nError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "bear_history": "\n\nError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "current_response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "current_speaker": "Bear Researcher",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse failure: Structured LLM call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\",\n  \"execution_notes\": [\n    \"```json\\n{\\n  \\\"recommendation\\\": \\\"SELL\\\",\\n  \\\"confidence_score\\\": 0.55,\\n  \\\"buy_score\\\": 3,\\n  \\\"sell_score\\\": 6,\\n  \\\"primary_drivers\\\": [\\n    \\\"Significant sequential revenue deceleration of 10.2% ($93.16B in Q4 2022 to $83.64B in Q1 2023), indicating cooling top-line momentum.\\\",\\n    \\\"Sequential contraction in n\"\n  ],\n  \"confidence\": \"LOW\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\nError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "bearish": "\n\nError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse failure: Structured LLM call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\",\n  \"execution_notes\": [\n    \"```json\\n{\\n  \\\"recommendation\\\": \\\"SELL\\\",\\n  \\\"confidence_score\\\": 0.55,\\n  \\\"buy_score\\\": 3,\\n  \\\"sell_score\\\": 6,\\n  \\\"primary_drivers\\\": [\\n    \\\"Significant sequential revenue deceleration of 10.2% ($93.16B in Q4 2022 to $83.64B in Q1 2023), indicating cooling top-line momentum.\\\",\\n    \\\"Sequential contraction in n\"\n  ],\n  \"confidence\": \"LOW\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.35,
+      "primary_drivers": [
+        "Structured output failed; fallback used"
+      ],
+      "main_risk": "Parse failure: Structured LLM call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "execution_notes": [
+        "```json\n{\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.55,\n  \"buy_score\": 3,\n  \"sell_score\": 6,\n  \"primary_drivers\": [\n    \"Significant sequential revenue deceleration of 10.2% ($93.16B in Q4 2022 to $83.64B in Q1 2023), indicating cooling top-line momentum.\",\n    \"Sequential contraction in n"
+      ],
+      "confidence": "LOW"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.35,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Structured output failed; fallback used AGAINST: Parse failure: Structured LLM call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}} DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=LOW."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "XOM",
+        "as_of": "2023-04-03",
+        "lookback_days": 14,
+        "window_start": "2023-03-20",
+        "window_end": "2023-04-03",
+        "article_count": 2,
+        "min_published": "2023-03-24T14:50:19",
+        "max_published": "2023-03-29T00:00:00",
+        "articles": [
+          {
+            "title": "Comcast Stock Is a Buy",
+            "source": "Morningstar",
+            "published": "20230329T000000",
+            "url": "https://www.morningstar.com/stocks/comcast-stock-is-buy",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.03493,
+            "relevance_score": 0.610689
+          },
+          {
+            "title": "Halliburton and Honeywell in talks to develop oil fields and refineries in Libya",
+            "source": "Libya Update News - Libya Update News",
+            "published": "20230324T145019",
+            "url": "https://libyaupdate.com/halliburton-and-honeywell-in-talks-to-develop-oil-fields-and-refineries-in-libya/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.34005,
+            "relevance_score": 0.590727
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 200.08
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-04-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue decelerated significantly QoQ, falling from $93.16B in Q4 2022 to $83.64B in Q1 2023 (-10.2%), indicating cooling top-line momentum.",
+        "primary_risk": "* Continued sequential contraction in net income (down ~10.3% QoQ) may trigger negative sentiment if investors pivot away from declining gro"
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "No explicit primary risk provided"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "No explicit primary risk provided"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue decelerated significantly QoQ, falling from $93.16B in Q4 2022 to $83.64B in Q1 2023 (-10.2%), indicating cooling top-line momentum.\n* Operating income dropped from $16.88B to $14.21B sequentially, showing immediate pressure on core profitability heading into the current window.\n* Despite the slowdown, the company maintains robust liquidity with a current ratio of 1.46 and strong Q1 free cash flow of $16.34B, providing a defensive floor.\n\n2) RISKS:\n* Continued sequential contraction in net income (down ~10.3% QoQ) may trigger negative sentiment if investors pivot away from declining growth.\n* High cost of revenue ($59.68B) relative to total revenue persists, potentially squeezing margins if energy prices fluctuate within the 10-day horizon.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Sustainability of profit margins in the face of double-digit QoQ revenue deceleration.",
+      "technical_analyst": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "news_harvester": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}"
+    },
+    "investment_debate_state": {
+      "history": "\n\nError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\n\nError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "bull_history": "\n\nError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "bear_history": "\n\nError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "current_response": "Error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "current_speaker": "Bear Researcher",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse failure: Structured LLM call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\",\n  \"execution_notes\": [\n    \"```json\\n{\\n  \\\"recommendation\\\": \\\"SELL\\\",\\n  \\\"confidence_score\\\": 0.55,\\n  \\\"buy_score\\\": 3,\\n  \\\"sell_score\\\": 6,\\n  \\\"primary_drivers\\\": [\\n    \\\"Significant sequential revenue deceleration of 10.2% ($93.16B in Q4 2022 to $83.64B in Q1 2023), indicating cooling top-line momentum.\\\",\\n    \\\"Sequential contraction in n\"\n  ],\n  \"confidence\": \"LOW\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse failure: Structured LLM call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}\",\n  \"execution_notes\": [\n    \"```json\\n{\\n  \\\"recommendation\\\": \\\"SELL\\\",\\n  \\\"confidence_score\\\": 0.55,\\n  \\\"buy_score\\\": 3,\\n  \\\"sell_score\\\": 6,\\n  \\\"primary_drivers\\\": [\\n    \\\"Significant sequential revenue deceleration of 10.2% ($93.16B in Q4 2022 to $83.64B in Q1 2023), indicating cooling top-line momentum.\\\",\\n    \\\"Sequential contraction in n\"\n  ],\n  \"confidence\": \"LOW\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.35,
+      "primary_drivers": [
+        "Structured output failed; fallback used"
+      ],
+      "main_risk": "Parse failure: Structured LLM call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}",
+      "execution_notes": [
+        "```json\n{\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.55,\n  \"buy_score\": 3,\n  \"sell_score\": 6,\n  \"primary_drivers\": [\n    \"Significant sequential revenue deceleration of 10.2% ($93.16B in Q4 2022 to $83.64B in Q1 2023), indicating cooling top-line momentum.\",\n    \"Sequential contraction in n"
+      ],
+      "confidence": "LOW"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.35,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Structured output failed; fallback used AGAINST: Parse failure: Structured LLM call failed after retries: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}} DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=LOW."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 200.08,
+    "memory_id": null
+  }
+}
