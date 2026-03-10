@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "created_at": "2026-03-09T16:31:34",
+    "started_at": "2026-03-09T16:30:33",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "B_JNJ"
+  },
+  "request_payload": {
+    "ticker": "JNJ",
+    "market": "US",
+    "simulated_date": "2022-09-26",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "JNJ",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-09-26",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2022-09-26",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue accelerated 2.5% QoQ in Q2 2022 ($24.02B), reversing the Q1 contraction and signaling stabilized demand.\n* Operating income grew 5.7% QoQ, with operating margins expanding to 26.9% from 26.1%, indicating improved core operational efficiency.\n* Liquidity remains strong with a current ratio of 1.42 and robust quarterly free cash flow of $5.58B, providing a stable short-term valuation floor.\n\n2) RISKS:\n* Net income fell 6.6% QoQ, pressured by a shift to negative non-operating income (-$209M) which may impact bottom-line sentiment.\n* Gross margins contracted by 60 bps QoQ (67.0% vs 67.6%), suggesting persistent upward pressure on the cost of revenue.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Persistence of non-operating losses offsetting core operating margin gains.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (149.49) vs SMA_20 (148.44): Price has reclaimed the 20-day average, indicating a shift toward short-term buyer control.\n* MACD Histogram (0.3662): A positive histogram and MACD crossing above the signal line confirm an active bullish momentum shift.\n* Volume Ratio (1.12): Above-average volume supports the recent 5-day price gain, providing confirmation for the current recovery attempt.\n\n2) SUPPORT: 148.44\n\n3) RESISTANCE: 150.95\n\n4) FINAL_VIEW: BULLISH\n\n5) CONFIDENCE: MEDIUM\n\n6) KEY_UNCERTAINTY: The 50-day SMA (150.95) sits directly above the current price, acting as a significant technical ceiling that could reject the recovery.",
+      "news_harvester": "1) CATALYSTS:\n* A$300 million ($205 million) settlement in Australian pelvic mesh class action resolves a major product-liability litigation involving 11,000+ claimants.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Market reaction to the finality of the A$300 million pelvic mesh settlement and ongoing legal scrutiny of the \"Texas two-step\" bankruptcy strategy."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue accelerated 2.5% QoQ in Q2 2022 ($24.02B), reversing the Q1 contraction and signaling stabilized demand.",
+        "primary_risk": "* Net income fell 6.6% QoQ, pressured by a shift to negative non-operating income (-$209M) which may impact bottom-line sentiment."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (149.49) vs SMA_20 (148.44): Price has reclaimed the 20-day average, indicating a shift toward short-term buyer control.",
+        "primary_risk": "The 50-day SMA (150.95) sits directly above the current price, acting as a significant technical ceiling that could reject the recovery."
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "A$300 million ($205 million) settlement in Australian pelvic mesh class action resolves a major product-liability litigation involving 11,00",
+        "primary_risk": "Market reaction to the finality of the A$300 million pelvic mesh settlement and ongoing legal scrutiny of the \"Texas two-step\" bankruptcy st"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS: \n* Technical momentum following the reclamation of the 20-day SMA (148.44) and a positive MACD crossover, which provides a volume-supported path to test the 50-day SMA resistance at 150.95.\n* Removal of litigation overhang through the A$300 million ($205 million) Australian pelvic mesh settlement, resolving claims for 11,000+ individuals and de-risking the short-term sentiment floor.\n\n- UPSIDE_FAILURE: The 50-day SMA sitting at 150.95 acts as a significant technical ceiling that could reject the price recovery despite expanding operating margins.\n\n- TOP_DOWNSIDE_RISKS:\n* Failure to break the $150.95 resistance (50-day SMA) could trigger a technical rejection and mean-reversion toward the $148.44 support, accelerated by investor focus on the 6.6% QoQ decline in net income.\n* Persistent gross margin contraction (down 60 bps) and negative non-operating income (-$209M) create a fundamental drag that could punish the stock if the market shifts focus from revenue growth to bottom-line erosion.\n\n- RISK_IRRELEVANCE: Current bullish momentum, supported by an active MACD crossover and high volume ratio, suggests buyers may ignore these fundamental pressures to test the technical ceiling in the immediate term.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS: \n* Technical momentum following the reclamation of the 20-day SMA (148.44) and a positive MACD crossover, which provides a volume-supported path to test the 50-day SMA resistance at 150.95.\n* Removal of litigation overhang through the A$300 million ($205 million) Australian pelvic mesh settlement, resolving claims for 11,000+ individuals and de-risking the short-term sentiment floor.\n\n- UPSIDE_FAILURE: The 50-day SMA sitting at 150.95 acts as a significant technical ceiling that could reject the price recovery despite expanding operating margins.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* Failure to break the $150.95 resistance (50-day SMA) could trigger a technical rejection and mean-reversion toward the $148.44 support, accelerated by investor focus on the 6.6% QoQ decline in net income.\n* Persistent gross margin contraction (down 60 bps) and negative non-operating income (-$209M) create a fundamental drag that could punish the stock if the market shifts focus from revenue growth to bottom-line erosion.\n\n- RISK_IRRELEVANCE: Current bullish momentum, supported by an active MACD crossover and high volume ratio, suggests buyers may ignore these fundamental pressures to test the technical ceiling in the immediate term.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* Failure to break the $150.95 resistance (50-day SMA) could trigger a technical rejection and mean-reversion toward the $148.44 support, accelerated by investor focus on the 6.6% QoQ decline in net income.\n* Persistent gross margin contraction (down 60 bps) and negative non-operating income (-$209M) create a fundamental drag that could punish the stock if the market shifts focus from revenue growth to bottom-line erosion.\n\n- RISK_IRRELEVANCE: Current bullish momentum, supported by an active MACD crossover and high volume ratio, suggests buyers may ignore these fundamental pressures to test the technical ceiling in the immediate term.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.2,\n  \"sell_score\": 3.8,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Technical reclamation of the 20-day SMA (148.44) supported by a positive MACD crossover and high volume ratio.\",\n    \"De-risking of short-term sentiment following the A$300 million pelvic mesh litigation settlement.\"\n  ],\n  \"main_risk\": \"Technical rejection at the 50-day SMA resistance level of 150.95.\",\n  \"actionability_assessment\": \"The technical breakout above the 20-day SMA combined with litigation resolution provides a clear tactical path to test the 50-day resistance.\",\n  \"hold_gate_assessment\": \"The active bullish technical signals and news-driven sentiment floor outweigh the background fundamental margin pressures.\",\n  \"execution_notes\": [\n    \"Monitor price action closely at the 150.95 resistance level for signs of exhaustion.\",\n    \"Maintain a stop-loss near the 20-day SMA support of 148.44 to protect against mean-reversion.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- TOP_UPSIDE_CATALYSTS: \n* Technical momentum following the reclamation of the 20-day SMA (148.44) and a positive MACD crossover, which provides a volume-supported path to test the 50-day SMA resistance at 150.95.\n* Removal of litigation overhang through the A$300 million ($205 million) Australian pelvic mesh settlement, resolving claims for 11,000+ individuals and de-risking the short-term sentiment floor.\n\n- UPSIDE_FAILURE: The 50-day SMA sitting at 150.95 acts as a significant technical ceiling that could reject the price recovery despite expanding operating margins.",
+      "bearish": "\n\n- TOP_DOWNSIDE_RISKS:\n* Failure to break the $150.95 resistance (50-day SMA) could trigger a technical rejection and mean-reversion toward the $148.44 support, accelerated by investor focus on the 6.6% QoQ decline in net income.\n* Persistent gross margin contraction (down 60 bps) and negative non-operating income (-$209M) create a fundamental drag that could punish the stock if the market shifts focus from revenue growth to bottom-line erosion.\n\n- RISK_IRRELEVANCE: Current bullish momentum, supported by an active MACD crossover and high volume ratio, suggests buyers may ignore these fundamental pressures to test the technical ceiling in the immediate term."
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.2,\n  \"sell_score\": 3.8,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Technical reclamation of the 20-day SMA (148.44) supported by a positive MACD crossover and high volume ratio.\",\n    \"De-risking of short-term sentiment following the A$300 million pelvic mesh litigation settlement.\"\n  ],\n  \"main_risk\": \"Technical rejection at the 50-day SMA resistance level of 150.95.\",\n  \"actionability_assessment\": \"The technical breakout above the 20-day SMA combined with litigation resolution provides a clear tactical path to test the 50-day resistance.\",\n  \"hold_gate_assessment\": \"The active bullish technical signals and news-driven sentiment floor outweigh the background fundamental margin pressures.\",\n  \"execution_notes\": [\n    \"Monitor price action closely at the 150.95 resistance level for signs of exhaustion.\",\n    \"Maintain a stop-loss near the 20-day SMA support of 148.44 to protect against mean-reversion.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.2,
+      "sell_score": 3.8,
+      "recommendation": "BUY",
+      "confidence_score": 0.7,
+      "primary_drivers": [
+        "Technical reclamation of the 20-day SMA (148.44) supported by a positive MACD crossover and high volume ratio.",
+        "De-risking of short-term sentiment following the A$300 million pelvic mesh litigation settlement."
+      ],
+      "main_risk": "Technical rejection at the 50-day SMA resistance level of 150.95.",
+      "actionability_assessment": "The technical breakout above the 20-day SMA combined with litigation resolution provides a clear tactical path to test the 50-day resistance.",
+      "hold_gate_assessment": "The active bullish technical signals and news-driven sentiment floor outweigh the background fundamental margin pressures.",
+      "execution_notes": [
+        "Monitor price action closely at the 150.95 resistance level for signs of exhaustion.",
+        "Maintain a stop-loss near the 20-day SMA support of 148.44 to protect against mean-reversion."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.7,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (149.49) vs SMA_20 (148.44): Price has reclaimed the 20-day average, indicating a shift toward short-term buyer control. AGAINST: Technical rejection at the 50-day SMA resistance level of 150.95. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "JNJ",
+        "as_of": "2022-09-26",
+        "lookback_days": 14,
+        "window_start": "2022-09-12",
+        "window_end": "2022-09-26",
+        "article_count": 11,
+        "min_published": "2022-09-12T15:24:00",
+        "max_published": "2022-09-26T16:46:41",
+        "articles": [
+          {
+            "title": "J&J launches Bay Area science and technology campus",
+            "source": "www.drugdiscoverytrends.com",
+            "published": "20220920T171642",
+            "url": "https://www.drugdiscoverytrends.com/johnson-johnson-launches-bay-area-science-and-technology-campus/",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.499507,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "Johnson & Johnson Vision announces €100m investment in Limerick",
+            "source": "IDA Ireland",
+            "published": "20220916T171643",
+            "url": "https://www.idaireland.com/latest-news/press-release/johnson-johnson-vision-announces-100m-investment-in-limerick",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.474921,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "J&J reaches $205 million settlement in Australian pelvic mesh class action",
+            "source": "Reuters",
+            "published": "20220912T152400",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/shine-lawyers-reach-settlement-with-jj-australian-pelvic-mesh-class-action-2022-09-12/",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.400691,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "J&J opens new research hub near San Francisco",
+            "source": "BioPharma Dive",
+            "published": "20220920T171642",
+            "url": "https://www.biopharmadive.com/news/johnson-johnson-research-facility-open-san-francisco/632237/",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.401877,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "Johnson & Johnson opens 400-person R&D facility to strengthen Bay Area presence",
+            "source": "Fierce Biotech",
+            "published": "20220920T103600",
+            "url": "https://www.fiercebiotech.com/biotech/jjs-rd-units-move-200k-sq-ft-facility-strengthen-bay-area-presence",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.40329,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "Johnson & Johnson and a New War on Consumer Protection",
+            "source": "The New Yorker",
+            "published": "20220912T171640",
+            "url": "https://www.newyorker.com/magazine/2022/09/19/johnson-johnson-and-a-new-war-on-consumer-protection",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.702906,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "GSK Eases Cervarix Out Of India, Eyes On Trajectory Of Synflorix",
+            "source": "Citeline News & Insights",
+            "published": "20220912T171552",
+            "url": "https://insights.citeline.com/SC147038/GSK-Eases-Cervarix-Out-Of-India-Eyes-On-Trajectory-Of-Synflorix/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.242549,
+            "relevance_score": 0.874309
+          },
+          {
+            "title": "Never Mind Growth vs. Value Stocks, Look to Beta",
+            "source": "Morningstar",
+            "published": "20220920T165548",
+            "url": "https://www.morningstar.com/markets/never-mind-growth-vs-value-stocks-look-beta",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.071665,
+            "relevance_score": 0.688662
+          },
+          {
+            "title": "Theravance, flush with royalty cash, buys shares from GSK",
+            "source": "BioPharma Dive",
+            "published": "20220919T184654",
+            "url": "https://www.biopharmadive.com/news/theravance-gsk-share-buyback-asthma/632146/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.024627,
+            "relevance_score": 0.621067
+          },
+          {
+            "title": "Canadian biotech venture capital firm Lumira starts hedge fund to target oversold public companies",
+            "source": "The Globe and Mail",
+            "published": "20220918T161135",
+            "url": "https://www.theglobeandmail.com/business/article-canadian-biotech-venture-capital-firm-lumira-starts-hedge-fund-to/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.271197,
+            "relevance_score": 0.575617
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 60.6
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-09-26",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue accelerated 2.5% QoQ in Q2 2022 ($24.02B), reversing the Q1 contraction and signaling stabilized demand.",
+        "primary_risk": "* Net income fell 6.6% QoQ, pressured by a shift to negative non-operating income (-$209M) which may impact bottom-line sentiment."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (149.49) vs SMA_20 (148.44): Price has reclaimed the 20-day average, indicating a shift toward short-term buyer control.",
+        "primary_risk": "The 50-day SMA (150.95) sits directly above the current price, acting as a significant technical ceiling that could reject the recovery."
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "A$300 million ($205 million) settlement in Australian pelvic mesh class action resolves a major product-liability litigation involving 11,00",
+        "primary_risk": "Market reaction to the finality of the A$300 million pelvic mesh settlement and ongoing legal scrutiny of the \"Texas two-step\" bankruptcy st"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue accelerated 2.5% QoQ in Q2 2022 ($24.02B), reversing the Q1 contraction and signaling stabilized demand.\n* Operating income grew 5.7% QoQ, with operating margins expanding to 26.9% from 26.1%, indicating improved core operational efficiency.\n* Liquidity remains strong with a current ratio of 1.42 and robust quarterly free cash flow of $5.58B, providing a stable short-term valuation floor.\n\n2) RISKS:\n* Net income fell 6.6% QoQ, pressured by a shift to negative non-operating income (-$209M) which may impact bottom-line sentiment.\n* Gross margins contracted by 60 bps QoQ (67.0% vs 67.6%), suggesting persistent upward pressure on the cost of revenue.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Persistence of non-operating losses offsetting core operating margin gains.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (149.49) vs SMA_20 (148.44): Price has reclaimed the 20-day average, indicating a shift toward short-term buyer control.\n* MACD Histogram (0.3662): A positive histogram and MACD crossing above the signal line confirm an active bullish momentum shift.\n* Volume Ratio (1.12): Above-average volume supports the recent 5-day price gain, providing confirmation for the current recovery attempt.\n\n2) SUPPORT: 148.44\n\n3) RESISTANCE: 150.95\n\n4) FINAL_VIEW: BULLISH\n\n5) CONFIDENCE: MEDIUM\n\n6) KEY_UNCERTAINTY: The 50-day SMA (150.95) sits directly above the current price, acting as a significant technical ceiling that could reject the recovery.",
+      "news_harvester": "1) CATALYSTS:\n* A$300 million ($205 million) settlement in Australian pelvic mesh class action resolves a major product-liability litigation involving 11,000+ claimants.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Market reaction to the finality of the A$300 million pelvic mesh settlement and ongoing legal scrutiny of the \"Texas two-step\" bankruptcy strategy."
+    },
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS: \n* Technical momentum following the reclamation of the 20-day SMA (148.44) and a positive MACD crossover, which provides a volume-supported path to test the 50-day SMA resistance at 150.95.\n* Removal of litigation overhang through the A$300 million ($205 million) Australian pelvic mesh settlement, resolving claims for 11,000+ individuals and de-risking the short-term sentiment floor.\n\n- UPSIDE_FAILURE: The 50-day SMA sitting at 150.95 acts as a significant technical ceiling that could reject the price recovery despite expanding operating margins.\n\n- TOP_DOWNSIDE_RISKS:\n* Failure to break the $150.95 resistance (50-day SMA) could trigger a technical rejection and mean-reversion toward the $148.44 support, accelerated by investor focus on the 6.6% QoQ decline in net income.\n* Persistent gross margin contraction (down 60 bps) and negative non-operating income (-$209M) create a fundamental drag that could punish the stock if the market shifts focus from revenue growth to bottom-line erosion.\n\n- RISK_IRRELEVANCE: Current bullish momentum, supported by an active MACD crossover and high volume ratio, suggests buyers may ignore these fundamental pressures to test the technical ceiling in the immediate term.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS: \n* Technical momentum following the reclamation of the 20-day SMA (148.44) and a positive MACD crossover, which provides a volume-supported path to test the 50-day SMA resistance at 150.95.\n* Removal of litigation overhang through the A$300 million ($205 million) Australian pelvic mesh settlement, resolving claims for 11,000+ individuals and de-risking the short-term sentiment floor.\n\n- UPSIDE_FAILURE: The 50-day SMA sitting at 150.95 acts as a significant technical ceiling that could reject the price recovery despite expanding operating margins.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* Failure to break the $150.95 resistance (50-day SMA) could trigger a technical rejection and mean-reversion toward the $148.44 support, accelerated by investor focus on the 6.6% QoQ decline in net income.\n* Persistent gross margin contraction (down 60 bps) and negative non-operating income (-$209M) create a fundamental drag that could punish the stock if the market shifts focus from revenue growth to bottom-line erosion.\n\n- RISK_IRRELEVANCE: Current bullish momentum, supported by an active MACD crossover and high volume ratio, suggests buyers may ignore these fundamental pressures to test the technical ceiling in the immediate term.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* Failure to break the $150.95 resistance (50-day SMA) could trigger a technical rejection and mean-reversion toward the $148.44 support, accelerated by investor focus on the 6.6% QoQ decline in net income.\n* Persistent gross margin contraction (down 60 bps) and negative non-operating income (-$209M) create a fundamental drag that could punish the stock if the market shifts focus from revenue growth to bottom-line erosion.\n\n- RISK_IRRELEVANCE: Current bullish momentum, supported by an active MACD crossover and high volume ratio, suggests buyers may ignore these fundamental pressures to test the technical ceiling in the immediate term.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.2,\n  \"sell_score\": 3.8,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Technical reclamation of the 20-day SMA (148.44) supported by a positive MACD crossover and high volume ratio.\",\n    \"De-risking of short-term sentiment following the A$300 million pelvic mesh litigation settlement.\"\n  ],\n  \"main_risk\": \"Technical rejection at the 50-day SMA resistance level of 150.95.\",\n  \"actionability_assessment\": \"The technical breakout above the 20-day SMA combined with litigation resolution provides a clear tactical path to test the 50-day resistance.\",\n  \"hold_gate_assessment\": \"The active bullish technical signals and news-driven sentiment floor outweigh the background fundamental margin pressures.\",\n  \"execution_notes\": [\n    \"Monitor price action closely at the 150.95 resistance level for signs of exhaustion.\",\n    \"Maintain a stop-loss near the 20-day SMA support of 148.44 to protect against mean-reversion.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.2,\n  \"sell_score\": 3.8,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Technical reclamation of the 20-day SMA (148.44) supported by a positive MACD crossover and high volume ratio.\",\n    \"De-risking of short-term sentiment following the A$300 million pelvic mesh litigation settlement.\"\n  ],\n  \"main_risk\": \"Technical rejection at the 50-day SMA resistance level of 150.95.\",\n  \"actionability_assessment\": \"The technical breakout above the 20-day SMA combined with litigation resolution provides a clear tactical path to test the 50-day resistance.\",\n  \"hold_gate_assessment\": \"The active bullish technical signals and news-driven sentiment floor outweigh the background fundamental margin pressures.\",\n  \"execution_notes\": [\n    \"Monitor price action closely at the 150.95 resistance level for signs of exhaustion.\",\n    \"Maintain a stop-loss near the 20-day SMA support of 148.44 to protect against mean-reversion.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.2,
+      "sell_score": 3.8,
+      "recommendation": "BUY",
+      "confidence_score": 0.7,
+      "primary_drivers": [
+        "Technical reclamation of the 20-day SMA (148.44) supported by a positive MACD crossover and high volume ratio.",
+        "De-risking of short-term sentiment following the A$300 million pelvic mesh litigation settlement."
+      ],
+      "main_risk": "Technical rejection at the 50-day SMA resistance level of 150.95.",
+      "actionability_assessment": "The technical breakout above the 20-day SMA combined with litigation resolution provides a clear tactical path to test the 50-day resistance.",
+      "hold_gate_assessment": "The active bullish technical signals and news-driven sentiment floor outweigh the background fundamental margin pressures.",
+      "execution_notes": [
+        "Monitor price action closely at the 150.95 resistance level for signs of exhaustion.",
+        "Maintain a stop-loss near the 20-day SMA support of 148.44 to protect against mean-reversion."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.7,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (149.49) vs SMA_20 (148.44): Price has reclaimed the 20-day average, indicating a shift toward short-term buyer control. AGAINST: Technical rejection at the 50-day SMA resistance level of 150.95. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 60.6,
+    "memory_id": null
+  }
+}

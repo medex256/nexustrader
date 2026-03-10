@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "created_at": "2026-03-10T15:58:30",
+    "started_at": "2026-03-10T15:56:16",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "B2"
+  },
+  "request_payload": {
+    "ticker": "AAPL",
+    "market": "US",
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "AAPL",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Massive QoQ revenue acceleration: Total revenue surged 48.6% from $83.4B (Sept 2021) to $123.9B (Dec 2021), showing powerful short-term momentum.\n* Margin expansion: Gross margin improved from 42.2% to 43.8% QoQ, while net profit margin reached 27.9%, indicating high-quality earnings growth.\n* Profit growth outpaced revenue: Net income grew 68.5% QoQ ($20.5B to $34.6B), suggesting strong operational leverage currently being priced in.\n\n2) RISKS:\n* Operating expenses increased 12% QoQ to $12.7B, creating a higher hurdle for earnings if revenue growth decelerates.\n* Current ratio is lean at 1.04, showing tight liquidity relative to short-term obligations despite high cash flow.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Sustainability of the 48% QoQ revenue spike following the holiday quarter.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (169.36) is trading below the 20-day SMA (171.71) with the 10-day SMA UNKNOWN, signaling a loss of short-term trend support and active seller control.\n* MACD (1.37) is positioned below the signal line (2.53) with a negative histogram (-1.16), confirming a bearish momentum crossover.\n* Volume ratio (0.89) is below average, indicating a lack of buying conviction to reclaim the broken 20-day SMA level.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The neutral RSI (50.35) indicates the stock is not yet oversold, which may lead to a slow sideways drift rather than a high-velocity breakdown.",
+      "news_harvester": "1) CATALYSTS: None identified.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: HIGH\n\n5) KEY_EVENT_RISK: N/A"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Massive QoQ revenue acceleration: Total revenue surged 48.6% from $83.4B (Sept 2021) to $123.9B (Dec 2021), showing powerful short-term mome",
+        "primary_risk": "* Operating expenses increased 12% QoQ to $12.7B, creating a higher hurdle for earnings if revenue growth decelerates."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (169.36) is trading below the 20-day SMA (171.71) with the 10-day SMA UNKNOWN, signaling a loss of short-term trend support and active",
+        "primary_risk": "The neutral RSI (50.35) indicates the stock is not yet oversold, which may lead to a slow sideways drift rather than a high-velocity breakdo"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+        "key_catalyst": "None identified.",
+        "primary_risk": "N/A"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: Powerful QoQ revenue acceleration and margin expansion provide the strongest fundamental evidence for potential growth. However, this lacks a near-term transmission path as technicals show active seller control, negative MACD momentum, and a lack of buying conviction. Without new news catalysts, these fundamental strengths are currently being ignored by the market's bearish short-term trend.\n\nOVERRIDE_STRENGTH: NO_OVERRIDE",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: Powerful QoQ revenue acceleration and margin expansion provide the strongest fundamental evidence for potential growth. However, this lacks a near-term transmission path as technicals show active seller control, negative MACD momentum, and a lack of buying conviction. Without new news catalysts, these fundamental strengths are currently being ignored by the market's bearish short-term trend.",
+      "bear_history": "\n\nOVERRIDE_STRENGTH: NO_OVERRIDE",
+      "current_response": "OVERRIDE_STRENGTH: NO_OVERRIDE",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.6,\n  \"primary_drivers\": [\n    \"Massive 48.6% QoQ revenue acceleration\",\n    \"Significant gross and net margin expansion\"\n  ],\n  \"main_risk\": \"Bearish technical momentum and lack of buying conviction below the 20-day SMA\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Prior view is confirmed as the downside specialist assessment provided no override signal.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"NO_OVERRIDE\",\n  \"actionability_assessment\": \"Fundamental strength is high but technicals suggest a difficult entry point without a catalyst.\",\n  \"hold_gate_assessment\": \"No irresolvable uncertainty; protocol dictates adherence to the prior view.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: Powerful QoQ revenue acceleration and margin expansion provide the strongest fundamental evidence for potential growth. However, this lacks a near-term transmission path as technicals show active seller control, negative MACD momentum, and a lack of buying conviction. Without new news catalysts, these fundamental strengths are currently being ignored by the market's bearish short-term trend.",
+      "bearish": "\n\nOVERRIDE_STRENGTH: NO_OVERRIDE"
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.6,\n  \"primary_drivers\": [\n    \"Massive 48.6% QoQ revenue acceleration\",\n    \"Significant gross and net margin expansion\"\n  ],\n  \"main_risk\": \"Bearish technical momentum and lack of buying conviction below the 20-day SMA\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Prior view is confirmed as the downside specialist assessment provided no override signal.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"NO_OVERRIDE\",\n  \"actionability_assessment\": \"Fundamental strength is high but technicals suggest a difficult entry point without a catalyst.\",\n  \"hold_gate_assessment\": \"No irresolvable uncertainty; protocol dictates adherence to the prior view.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.0,
+      "sell_score": 4.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.6,
+      "primary_drivers": [
+        "Massive 48.6% QoQ revenue acceleration",
+        "Significant gross and net margin expansion"
+      ],
+      "main_risk": "Bearish technical momentum and lack of buying conviction below the 20-day SMA",
+      "prior_view": "BUY",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "BUY",
+      "base_view_rationale": "Prior view is confirmed as the downside specialist assessment provided no override signal.",
+      "upside_note_impact": "WEAK",
+      "downside_note_impact": "NO_OVERRIDE",
+      "actionability_assessment": "Fundamental strength is high but technicals suggest a difficult entry point without a catalyst.",
+      "hold_gate_assessment": "No irresolvable uncertainty; protocol dictates adherence to the prior view.",
+      "execution_notes": [],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.6,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Massive QoQ revenue acceleration: Total revenue surged 48.6% from $83.4B (Sept 2021) to $123.9B (Dec 2021), showing powerful short-term mome AGAINST: The neutral RSI (50.35) indicates the stock is not yet oversold, which may lead to a slow sideways drift rather than a high-velocity breakdo DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "AAPL",
+        "as_of": "2022-01-17",
+        "lookback_days": 14,
+        "window_start": "2022-01-03",
+        "window_end": "2022-01-17",
+        "article_count": 7,
+        "min_published": "2022-01-03T20:00:00",
+        "max_published": "2022-01-14T23:42:00",
+        "articles": [
+          {
+            "title": "Lumentum hooks up with Hesai on auto lidar",
+            "source": "Optics.org",
+            "published": "20220105T165716",
+            "url": "https://optics.org/news/13/1/6",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.114353,
+            "relevance_score": 0.748625
+          },
+          {
+            "title": "An Under the Radar High Quality ETF",
+            "source": "ETF Trends",
+            "published": "20220104T152945",
+            "url": "https://www.etftrends.com/an-under-the-radar-high-quality-etf/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.301048,
+            "relevance_score": 0.717575
+          },
+          {
+            "title": "Smart Water for a Smarter Home: Moen Leads the Way with Industry's First Whole-Home Connected Water Product Suite",
+            "source": "PR Newswire",
+            "published": "20220103T200000",
+            "url": "https://www.prnewswire.com/news-releases/smart-water-for-a-smarter-home-moen-leads-the-way-with-industrys-first-whole-home-connected-water-product-suite-301451938.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.215543,
+            "relevance_score": 0.639662
+          },
+          {
+            "title": "Here’s Why the UPRO and TQQQ Stock Prices Fell 50.1% Premarket Despite Calm Markets",
+            "source": "AskTraders.com",
+            "published": "20220113T190600",
+            "url": "https://www.asktraders.com/analysis/heres-why-the-upro-and-tqqq-stock-prices-fell-50-1-premarket-despite-calm-markets/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.112828,
+            "relevance_score": 0.633603
+          },
+          {
+            "title": "Netflix raises monthly subscription prices in U.S., Canada",
+            "source": "Reuters",
+            "published": "20220114T234200",
+            "url": "https://www.reuters.com/technology/exclusive-netflix-raises-monthly-subscription-prices-us-canada-2022-01-14/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.045794,
+            "relevance_score": 0.608011
+          },
+          {
+            "title": "JVAL Stock Price | JPMorgan U.S. Value Factor ETF",
+            "source": "Investing.com",
+            "published": "20220107T103607",
+            "url": "https://www.investing.com/etfs/jval",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.308964,
+            "relevance_score": 0.601866
+          },
+          {
+            "title": "Behind the Scenes With Cigna Ventures: Giving Great Ideas the Momentum To Make an Impact",
+            "source": "The Cigna Group Newsroom",
+            "published": "20220113T162229",
+            "url": "https://newsroom.thecignagroup.com/cigna-ventures-giving-great-ideas-momentum-to-make-an-impact",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.267152,
+            "relevance_score": 0.569218
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 133.44
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Massive QoQ revenue acceleration: Total revenue surged 48.6% from $83.4B (Sept 2021) to $123.9B (Dec 2021), showing powerful short-term mome",
+        "primary_risk": "* Operating expenses increased 12% QoQ to $12.7B, creating a higher hurdle for earnings if revenue growth decelerates."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (169.36) is trading below the 20-day SMA (171.71) with the 10-day SMA UNKNOWN, signaling a loss of short-term trend support and active",
+        "primary_risk": "The neutral RSI (50.35) indicates the stock is not yet oversold, which may lead to a slow sideways drift rather than a high-velocity breakdo"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+        "key_catalyst": "None identified.",
+        "primary_risk": "N/A"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Massive QoQ revenue acceleration: Total revenue surged 48.6% from $83.4B (Sept 2021) to $123.9B (Dec 2021), showing powerful short-term momentum.\n* Margin expansion: Gross margin improved from 42.2% to 43.8% QoQ, while net profit margin reached 27.9%, indicating high-quality earnings growth.\n* Profit growth outpaced revenue: Net income grew 68.5% QoQ ($20.5B to $34.6B), suggesting strong operational leverage currently being priced in.\n\n2) RISKS:\n* Operating expenses increased 12% QoQ to $12.7B, creating a higher hurdle for earnings if revenue growth decelerates.\n* Current ratio is lean at 1.04, showing tight liquidity relative to short-term obligations despite high cash flow.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Sustainability of the 48% QoQ revenue spike following the holiday quarter.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (169.36) is trading below the 20-day SMA (171.71) with the 10-day SMA UNKNOWN, signaling a loss of short-term trend support and active seller control.\n* MACD (1.37) is positioned below the signal line (2.53) with a negative histogram (-1.16), confirming a bearish momentum crossover.\n* Volume ratio (0.89) is below average, indicating a lack of buying conviction to reclaim the broken 20-day SMA level.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The neutral RSI (50.35) indicates the stock is not yet oversold, which may lead to a slow sideways drift rather than a high-velocity breakdown.",
+      "news_harvester": "1) CATALYSTS: None identified.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: HIGH\n\n5) KEY_EVENT_RISK: N/A"
+    },
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: Powerful QoQ revenue acceleration and margin expansion provide the strongest fundamental evidence for potential growth. However, this lacks a near-term transmission path as technicals show active seller control, negative MACD momentum, and a lack of buying conviction. Without new news catalysts, these fundamental strengths are currently being ignored by the market's bearish short-term trend.\n\nOVERRIDE_STRENGTH: NO_OVERRIDE",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: Powerful QoQ revenue acceleration and margin expansion provide the strongest fundamental evidence for potential growth. However, this lacks a near-term transmission path as technicals show active seller control, negative MACD momentum, and a lack of buying conviction. Without new news catalysts, these fundamental strengths are currently being ignored by the market's bearish short-term trend.",
+      "bear_history": "\n\nOVERRIDE_STRENGTH: NO_OVERRIDE",
+      "current_response": "OVERRIDE_STRENGTH: NO_OVERRIDE",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.6,\n  \"primary_drivers\": [\n    \"Massive 48.6% QoQ revenue acceleration\",\n    \"Significant gross and net margin expansion\"\n  ],\n  \"main_risk\": \"Bearish technical momentum and lack of buying conviction below the 20-day SMA\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Prior view is confirmed as the downside specialist assessment provided no override signal.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"NO_OVERRIDE\",\n  \"actionability_assessment\": \"Fundamental strength is high but technicals suggest a difficult entry point without a catalyst.\",\n  \"hold_gate_assessment\": \"No irresolvable uncertainty; protocol dictates adherence to the prior view.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.6,\n  \"primary_drivers\": [\n    \"Massive 48.6% QoQ revenue acceleration\",\n    \"Significant gross and net margin expansion\"\n  ],\n  \"main_risk\": \"Bearish technical momentum and lack of buying conviction below the 20-day SMA\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Prior view is confirmed as the downside specialist assessment provided no override signal.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"NO_OVERRIDE\",\n  \"actionability_assessment\": \"Fundamental strength is high but technicals suggest a difficult entry point without a catalyst.\",\n  \"hold_gate_assessment\": \"No irresolvable uncertainty; protocol dictates adherence to the prior view.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.0,
+      "sell_score": 4.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.6,
+      "primary_drivers": [
+        "Massive 48.6% QoQ revenue acceleration",
+        "Significant gross and net margin expansion"
+      ],
+      "main_risk": "Bearish technical momentum and lack of buying conviction below the 20-day SMA",
+      "prior_view": "BUY",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "BUY",
+      "base_view_rationale": "Prior view is confirmed as the downside specialist assessment provided no override signal.",
+      "upside_note_impact": "WEAK",
+      "downside_note_impact": "NO_OVERRIDE",
+      "actionability_assessment": "Fundamental strength is high but technicals suggest a difficult entry point without a catalyst.",
+      "hold_gate_assessment": "No irresolvable uncertainty; protocol dictates adherence to the prior view.",
+      "execution_notes": [],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.6,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Massive QoQ revenue acceleration: Total revenue surged 48.6% from $83.4B (Sept 2021) to $123.9B (Dec 2021), showing powerful short-term mome AGAINST: The neutral RSI (50.35) indicates the stock is not yet oversold, which may lead to a slow sideways drift rather than a high-velocity breakdo DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 133.44,
+    "memory_id": null
+  }
+}

@@ -133,6 +133,13 @@ Horizon: {horizon_days} trading days.
 
 Use only the provided data. Do not add external facts or numbers.
 If data is missing, write UNKNOWN.
+Your job is to identify what is ACTIVE and likely to matter within {horizon_days} trading days.
+Prefer recent acceleration/deceleration, earnings or guidance change, margin change, liquidity stress, analyst expectation gap, and concrete business change with a short-horizon transmission path into price.
+Treat company quality, scale, and older profitability as background unless the data shows they are being repriced now.
+Do not invent market reactions. Do not assume post-peak normalization, sentiment fade, or disappointment unless the numbers show live deterioration now.
+Recent earnings strength can count only if the change is large enough and still looks actively repriced now.
+Historical seasonality or an expected giveback after a peak quarter is background unless current data already confirms the slowdown.
+If the evidence is mostly background quality plus one vague concern, stay neutral rather than forcing a directional edge.
 
 Data:
 Financial Statements: {financial_statements}
@@ -140,13 +147,13 @@ Financial Ratios: {financial_ratios}
 Analyst Ratings: {analyst_ratings}
 
 Output exactly:
-1) EVIDENCE: 3 concise bullets (fact -> implication for this horizon)
-2) RISKS: 2 concise bullets
+1) EVIDENCE: 3 concise bullets maximum (what changed now -> why it matters within this horizon)
+2) RISKS: 2 concise bullets maximum (active fundamental counterforces, not generic company weaknesses)
 3) FINAL_VIEW: BULLISH|BEARISH|NEUTRAL
 4) CONFIDENCE: HIGH|MEDIUM|LOW
 5) KEY_UNCERTAINTY: one line
 
-Keep under 170 words."""
+Keep under 150 words."""
     
     # 3. Call the LLM to generate the analysis (low temperature: factual data, not creativity)
     analysis_report = call_llm(prompt, temperature=0.3)
@@ -173,7 +180,7 @@ def technical_analyst_agent(state: dict):
 
     # Horizon-specific technical focus
     _TECHNICAL_HORIZON_FOCUS = {
-        'short': f'TRADING HORIZON: {horizon_days} days (short-term). Focus on: SMA crossovers (10/20-day), RSI momentum, MACD signal line, recent volume spikes, nearest support/resistance levels. Ignore 200-day SMA for entry timing.',
+        'short': f'TRADING HORIZON: {horizon_days} days (short-term). Focus on: SMA crossovers (10/20-day), RSI momentum, MACD signal line, recent volume spikes, nearest support/resistance levels. Identify the dominant current setup, not every possible reversal path. Ignore 200-day SMA for entry timing. Treat bearish technical setups as high-conviction only when weakness is confirmed, not when it is just a normal pullback or one soft signal.',
         'medium': f'TRADING HORIZON: {horizon_days} days (medium-term). Focus on: 20/50-day SMA trend, RSI trend direction, MACD histogram, key chart patterns (flags, wedges). Balance short and medium momentum.',
         'long': f'TRADING HORIZON: {horizon_days} days (long-term). Focus on: 50/200-day SMA, long-term trend channel, volume trend, major support/resistance zones. Short-term noise is less relevant.',
     }
@@ -192,19 +199,29 @@ Horizon: {horizon_days} trading days.
 
 Use only the provided indicators. Do not invent values.
 If missing, write UNKNOWN.
+Describe the current technical state, not all hypothetical scenarios.
+Prioritise what is active now: trend, momentum, volume confirmation, and the nearest actionable level.
+If the setup is mixed, still identify which side currently has more technical control.
+Separate active seller/buyer control from routine caution.
+Do not turn every support or resistance level into a forecast.
+Do not call the setup BULLISH just because price reclaimed one level if the move is not confirmed.
+Do not call the setup BEARISH from one weak signal alone.
+For a bullish read, prefer confirmed reclaim, positive MACD alignment, sustained price above key averages, and room for continuation.
+For a bearish read, prefer confirmed breakdown, price staying below key averages, negative MACD alignment with weak momentum, or downside follow-through with seller control.
+Low volume, nearby resistance, overbought cooling, oversold bounce risk, or one crossover should usually lower confidence rather than create a full opposite thesis.
 
 Data:
 Technical Indicators: {indicators}
 
 Output exactly:
-1) EVIDENCE: 3 bullets (indicator -> reading -> implication)
+1) EVIDENCE: 3 bullets (indicator -> current reading -> implication for the active setup now)
 2) SUPPORT: value or UNKNOWN
 3) RESISTANCE: value or UNKNOWN
 4) FINAL_VIEW: BULLISH|BEARISH|NEUTRAL
 5) CONFIDENCE: HIGH|MEDIUM|LOW
-6) KEY_UNCERTAINTY: one line
+6) KEY_UNCERTAINTY: one line (single strongest technical reason the active setup may fail soon; avoid generic "could bounce" or "could break out" wording unless directly supported by current indicators)
 
-Keep under 180 words."""
+Keep under 160 words."""
     
     # 3. Call the LLM to generate the analysis (low temperature: factual indicators, not creativity)
     analysis_report = call_llm(prompt, temperature=0.3)
@@ -363,6 +380,11 @@ Horizon: {horizon_days} trading days.
 
 Use only the articles shown. Do not add outside facts.
 Do not infer events unless explicitly stated.
+Focus on ticker-specific, near-term catalysts only.
+Treat broad sector mood, generic AI narrative, ETF holdings pages, and indirect ecosystem news as background. Do not list them as catalysts unless the article clearly explains why they will move {ticker} within {horizon_days} trading days.
+Your job is to identify ACTIVE news drivers. A company mention, brand-strength story, or thematic article is not enough unless there is a clear near-term price mechanism.
+Do not convert vague market interpretation into a catalyst. If an article does not show a direct company-specific event or near-term transmission path, treat it as background.
+If the news is mostly ambient narrative with no live company-specific trigger, stay neutral.
 
 {news_summary}
 
@@ -372,13 +394,13 @@ Sentiment stats:
 - Bearish count: {bearish_count}
 
 Output exactly:
-1) CATALYSTS: 3 bullets (event/signal -> likely impact)
+1) CATALYSTS: 0 to 2 crisp bullets maximum (active ticker-specific event/signal -> why it can move price soon). Only include a bullet if there is a specific near-term catalyst. If none, write "None identified."
 2) TONE: BULLISH|BEARISH|NEUTRAL
 3) FINAL_VIEW: BULLISH|BEARISH|NEUTRAL
 4) CONFIDENCE: HIGH|MEDIUM|LOW
-5) KEY_EVENT_RISK: one line
+5) KEY_EVENT_RISK: one single sentence (use "N/A" if none).
 
-Keep under 170 words."""
+Keep it brutally concise. Do not use filler words."""
     
     # 5. Call the LLM to generate the analysis (low temperature: factual news reporting)
     analysis_report = call_llm(prompt, temperature=0.3)

@@ -1,0 +1,4 @@
+flip_type,seller_control,low_conviction,breakdown_risk,mean_reversion,event_risk,fundamental_caution
+BUY→HOLD,0.0,5.9,23.5,82.4,11.8,29.4
+BUY→SELL,56.2,15.6,34.4,37.5,3.1,43.8
+HOLD→SELL,100.0,0.0,100.0,100.0,0.0,0.0

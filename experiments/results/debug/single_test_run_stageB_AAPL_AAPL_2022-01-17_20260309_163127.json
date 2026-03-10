@@ -1,0 +1,282 @@
+{
+  "meta": {
+    "created_at": "2026-03-09T16:31:27",
+    "started_at": "2026-03-09T16:30:31",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_run_stageB_AAPL"
+  },
+  "request_payload": {
+    "ticker": "AAPL",
+    "market": "US",
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "AAPL",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Significant QoQ revenue acceleration of 48.6% ($123.9B vs $83.4B), showing strong momentum in the latest reported quarter (Dec 2021).\n* Gross margin expansion to 43.7% from 42.2% QoQ, indicating improved pricing power and product mix efficiency.\n* Record quarterly net income of $34.6B supported by $46.9B in operating cash flow, demonstrating massive short-term liquidity generation.\n\n2) RISKS:\n* Current ratio is tight at 1.04, suggesting limited working capital buffer against sudden short-term liability increases.\n* Missing analyst consensus and guidance data makes it UNKNOWN if recent record performance was already priced in or represents a surprise.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Lack of forward guidance and analyst expectation data to measure the magnitude of the recent earnings beat.",
+      "technical_analyst": "1) EVIDENCE:\n*   **Price vs. SMA**: AAPL (169.36) is trading below its SMA_20 (171.71), indicating that sellers have regained control of the short-term trend.\n*   **MACD**: The MACD (1.37) has crossed below the Signal Line (2.53) with a negative histogram (-1.16), confirming a shift toward bearish momentum.\n*   **Volume/RSI**: A Volume Ratio of 0.89 and neutral RSI (50.35) suggest a lack of buying conviction or exhaustion needed to reclaim the 20-day average.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The price remains above the SMA_50 (163.53), which may act as a structural floor and trigger a mean-reversion bounce despite the negative MACD alignment.",
+      "news_harvester": "1) CATALYSTS: None identified.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: HIGH\n\n5) KEY_EVENT_RISK: N/A"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Significant QoQ revenue acceleration of 48.6% ($123.9B vs $83.4B), showing strong momentum in the latest reported quarter (Dec 2021).",
+        "primary_risk": "* Current ratio is tight at 1.04, suggesting limited working capital buffer against sudden short-term liability increases."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "**Price vs. SMA**: AAPL (169.36) is trading below its SMA_20 (171.71), indicating that sellers have regained control of the short-term trend",
+        "primary_risk": "The price remains above the SMA_50 (163.53), which may act as a structural floor and trigger a mean-reversion bounce despite the negative MA"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+        "key_catalyst": "None identified.",
+        "primary_risk": "N/A"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* **Structural Mean-Reversion:** Although the short-term trend is bearish, the price is approaching the SMA_50 (163.53), which serves as a structural floor capable of triggering a technical bounce back toward the 171.71 resistance within the 10-day window.\n* **Fundamental Liquidity Support:** Massive short-term liquidity generation ($46.9B in operating cash flow) and record gross margins (43.7%) provide a valuation \"safety net\" that may incentivize buyers to defend current support levels despite recent price weakness.\n\n- UPSIDE_FAILURE: Negative MACD momentum and the cross below the Signal Line suggest that selling pressure currently outweighs buying conviction, making a break below the SMA_50 more likely than a recovery.\n\n- TOP_DOWNSIDE_RISKS:\n* Bearish Technical Breakdown: AAPL has fallen below its 20-day SMA (171.71) with a negative MACD crossover, signaling that selling momentum is likely to accelerate toward the 164.82 support level within the 10-day window.\n* Working Capital Fragility: A tight current ratio of 1.04 leaves the stock vulnerable to a sharp re-rating if the market views the recent record $123.9B revenue as a \"peak\" performance that is already fully priced in.\n\n- RISK_IRRELEVANCE: The price remains positioned above the 50-day SMA (163.53), which may serve as a structural floor and trigger a mean-reversion bounce that offsets bearish momentum.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* **Structural Mean-Reversion:** Although the short-term trend is bearish, the price is approaching the SMA_50 (163.53), which serves as a structural floor capable of triggering a technical bounce back toward the 171.71 resistance within the 10-day window.\n* **Fundamental Liquidity Support:** Massive short-term liquidity generation ($46.9B in operating cash flow) and record gross margins (43.7%) provide a valuation \"safety net\" that may incentivize buyers to defend current support levels despite recent price weakness.\n\n- UPSIDE_FAILURE: Negative MACD momentum and the cross below the Signal Line suggest that selling pressure currently outweighs buying conviction, making a break below the SMA_50 more likely than a recovery.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* Bearish Technical Breakdown: AAPL has fallen below its 20-day SMA (171.71) with a negative MACD crossover, signaling that selling momentum is likely to accelerate toward the 164.82 support level within the 10-day window.\n* Working Capital Fragility: A tight current ratio of 1.04 leaves the stock vulnerable to a sharp re-rating if the market views the recent record $123.9B revenue as a \"peak\" performance that is already fully priced in.\n\n- RISK_IRRELEVANCE: The price remains positioned above the 50-day SMA (163.53), which may serve as a structural floor and trigger a mean-reversion bounce that offsets bearish momentum.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* Bearish Technical Breakdown: AAPL has fallen below its 20-day SMA (171.71) with a negative MACD crossover, signaling that selling momentum is likely to accelerate toward the 164.82 support level within the 10-day window.\n* Working Capital Fragility: A tight current ratio of 1.04 leaves the stock vulnerable to a sharp re-rating if the market views the recent record $123.9B revenue as a \"peak\" performance that is already fully priced in.\n\n- RISK_IRRELEVANCE: The price remains positioned above the 50-day SMA (163.53), which may serve as a structural floor and trigger a mean-reversion bounce that offsets bearish momentum.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Bearish MACD crossover and price action below the 20-day SMA signaling short-term momentum loss.\",\n    \"Record-breaking quarterly revenue and gross margins providing a significant fundamental valuation floor.\"\n  ],\n  \"main_risk\": \"A decisive break below the 50-day SMA (163.53) could invalidate the structural floor and trigger a deeper correction.\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as active bearish technical momentum is directly countered by the proximity of a major structural support level and record liquidity.\",\n  \"hold_gate_assessment\": \"This is a case of true active cross-pressure where short-term trend exhaustion meets high-conviction fundamental support, making a directional bet inefficient within a 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor price action at the 163.53 - 164.82 support zone for signs of a mean-reversion bounce.\",\n    \"Avoid new positions until the price either reclaims the 20-day SMA (171.71) or successfully tests the 50-day SMA.\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- TOP_UPSIDE_CATALYSTS:\n* **Structural Mean-Reversion:** Although the short-term trend is bearish, the price is approaching the SMA_50 (163.53), which serves as a structural floor capable of triggering a technical bounce back toward the 171.71 resistance within the 10-day window.\n* **Fundamental Liquidity Support:** Massive short-term liquidity generation ($46.9B in operating cash flow) and record gross margins (43.7%) provide a valuation \"safety net\" that may incentivize buyers to defend current support levels despite recent price weakness.\n\n- UPSIDE_FAILURE: Negative MACD momentum and the cross below the Signal Line suggest that selling pressure currently outweighs buying conviction, making a break below the SMA_50 more likely than a recovery.",
+      "bearish": "\n\n- TOP_DOWNSIDE_RISKS:\n* Bearish Technical Breakdown: AAPL has fallen below its 20-day SMA (171.71) with a negative MACD crossover, signaling that selling momentum is likely to accelerate toward the 164.82 support level within the 10-day window.\n* Working Capital Fragility: A tight current ratio of 1.04 leaves the stock vulnerable to a sharp re-rating if the market views the recent record $123.9B revenue as a \"peak\" performance that is already fully priced in.\n\n- RISK_IRRELEVANCE: The price remains positioned above the 50-day SMA (163.53), which may serve as a structural floor and trigger a mean-reversion bounce that offsets bearish momentum."
+    },
+    "investment_plan": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Bearish MACD crossover and price action below the 20-day SMA signaling short-term momentum loss.\",\n    \"Record-breaking quarterly revenue and gross margins providing a significant fundamental valuation floor.\"\n  ],\n  \"main_risk\": \"A decisive break below the 50-day SMA (163.53) could invalidate the structural floor and trigger a deeper correction.\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as active bearish technical momentum is directly countered by the proximity of a major structural support level and record liquidity.\",\n  \"hold_gate_assessment\": \"This is a case of true active cross-pressure where short-term trend exhaustion meets high-conviction fundamental support, making a directional bet inefficient within a 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor price action at the 163.53 - 164.82 support zone for signs of a mean-reversion bounce.\",\n    \"Avoid new positions until the price either reclaims the 20-day SMA (171.71) or successfully tests the 50-day SMA.\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 4.5,
+      "sell_score": 5.5,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Bearish MACD crossover and price action below the 20-day SMA signaling short-term momentum loss.",
+        "Record-breaking quarterly revenue and gross margins providing a significant fundamental valuation floor."
+      ],
+      "main_risk": "A decisive break below the 50-day SMA (163.53) could invalidate the structural floor and trigger a deeper correction.",
+      "actionability_assessment": "Neither side has a clear near-term path as active bearish technical momentum is directly countered by the proximity of a major structural support level and record liquidity.",
+      "hold_gate_assessment": "This is a case of true active cross-pressure where short-term trend exhaustion meets high-conviction fundamental support, making a directional bet inefficient within a 10-day window.",
+      "execution_notes": [
+        "Monitor price action at the 163.53 - 164.82 support zone for signs of a mean-reversion bounce.",
+        "Avoid new positions until the price either reclaims the 20-day SMA (171.71) or successfully tests the 50-day SMA."
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Bearish MACD crossover and price action below the 20-day SMA signaling short-term momentum loss. AGAINST: A decisive break below the 50-day SMA (163.53) could invalidate the structural floor and trigger a deeper correction. DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=HIGH."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "AAPL",
+        "as_of": "2022-01-17",
+        "lookback_days": 14,
+        "window_start": "2022-01-03",
+        "window_end": "2022-01-17",
+        "article_count": 7,
+        "min_published": "2022-01-03T20:00:00",
+        "max_published": "2022-01-14T23:42:00",
+        "articles": [
+          {
+            "title": "Lumentum hooks up with Hesai on auto lidar",
+            "source": "Optics.org",
+            "published": "20220105T165716",
+            "url": "https://optics.org/news/13/1/6",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.114353,
+            "relevance_score": 0.748625
+          },
+          {
+            "title": "An Under the Radar High Quality ETF",
+            "source": "ETF Trends",
+            "published": "20220104T152945",
+            "url": "https://www.etftrends.com/an-under-the-radar-high-quality-etf/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.301048,
+            "relevance_score": 0.717575
+          },
+          {
+            "title": "Smart Water for a Smarter Home: Moen Leads the Way with Industry's First Whole-Home Connected Water Product Suite",
+            "source": "PR Newswire",
+            "published": "20220103T200000",
+            "url": "https://www.prnewswire.com/news-releases/smart-water-for-a-smarter-home-moen-leads-the-way-with-industrys-first-whole-home-connected-water-product-suite-301451938.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.215543,
+            "relevance_score": 0.639662
+          },
+          {
+            "title": "Here’s Why the UPRO and TQQQ Stock Prices Fell 50.1% Premarket Despite Calm Markets",
+            "source": "AskTraders.com",
+            "published": "20220113T190600",
+            "url": "https://www.asktraders.com/analysis/heres-why-the-upro-and-tqqq-stock-prices-fell-50-1-premarket-despite-calm-markets/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.112828,
+            "relevance_score": 0.633603
+          },
+          {
+            "title": "Netflix raises monthly subscription prices in U.S., Canada",
+            "source": "Reuters",
+            "published": "20220114T234200",
+            "url": "https://www.reuters.com/technology/exclusive-netflix-raises-monthly-subscription-prices-us-canada-2022-01-14/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.045794,
+            "relevance_score": 0.608011
+          },
+          {
+            "title": "JVAL Stock Price | JPMorgan U.S. Value Factor ETF",
+            "source": "Investing.com",
+            "published": "20220107T103607",
+            "url": "https://www.investing.com/etfs/jval",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.308964,
+            "relevance_score": 0.601866
+          },
+          {
+            "title": "Behind the Scenes With Cigna Ventures: Giving Great Ideas the Momentum To Make an Impact",
+            "source": "The Cigna Group Newsroom",
+            "published": "20220113T162229",
+            "url": "https://newsroom.thecignagroup.com/cigna-ventures-giving-great-ideas-momentum-to-make-an-impact",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.267152,
+            "relevance_score": 0.569218
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 56.28
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Significant QoQ revenue acceleration of 48.6% ($123.9B vs $83.4B), showing strong momentum in the latest reported quarter (Dec 2021).",
+        "primary_risk": "* Current ratio is tight at 1.04, suggesting limited working capital buffer against sudden short-term liability increases."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "**Price vs. SMA**: AAPL (169.36) is trading below its SMA_20 (171.71), indicating that sellers have regained control of the short-term trend",
+        "primary_risk": "The price remains above the SMA_50 (163.53), which may act as a structural floor and trigger a mean-reversion bounce despite the negative MA"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+        "key_catalyst": "None identified.",
+        "primary_risk": "N/A"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Significant QoQ revenue acceleration of 48.6% ($123.9B vs $83.4B), showing strong momentum in the latest reported quarter (Dec 2021).\n* Gross margin expansion to 43.7% from 42.2% QoQ, indicating improved pricing power and product mix efficiency.\n* Record quarterly net income of $34.6B supported by $46.9B in operating cash flow, demonstrating massive short-term liquidity generation.\n\n2) RISKS:\n* Current ratio is tight at 1.04, suggesting limited working capital buffer against sudden short-term liability increases.\n* Missing analyst consensus and guidance data makes it UNKNOWN if recent record performance was already priced in or represents a surprise.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Lack of forward guidance and analyst expectation data to measure the magnitude of the recent earnings beat.",
+      "technical_analyst": "1) EVIDENCE:\n*   **Price vs. SMA**: AAPL (169.36) is trading below its SMA_20 (171.71), indicating that sellers have regained control of the short-term trend.\n*   **MACD**: The MACD (1.37) has crossed below the Signal Line (2.53) with a negative histogram (-1.16), confirming a shift toward bearish momentum.\n*   **Volume/RSI**: A Volume Ratio of 0.89 and neutral RSI (50.35) suggest a lack of buying conviction or exhaustion needed to reclaim the 20-day average.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The price remains above the SMA_50 (163.53), which may act as a structural floor and trigger a mean-reversion bounce despite the negative MACD alignment.",
+      "news_harvester": "1) CATALYSTS: None identified.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: HIGH\n\n5) KEY_EVENT_RISK: N/A"
+    },
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* **Structural Mean-Reversion:** Although the short-term trend is bearish, the price is approaching the SMA_50 (163.53), which serves as a structural floor capable of triggering a technical bounce back toward the 171.71 resistance within the 10-day window.\n* **Fundamental Liquidity Support:** Massive short-term liquidity generation ($46.9B in operating cash flow) and record gross margins (43.7%) provide a valuation \"safety net\" that may incentivize buyers to defend current support levels despite recent price weakness.\n\n- UPSIDE_FAILURE: Negative MACD momentum and the cross below the Signal Line suggest that selling pressure currently outweighs buying conviction, making a break below the SMA_50 more likely than a recovery.\n\n- TOP_DOWNSIDE_RISKS:\n* Bearish Technical Breakdown: AAPL has fallen below its 20-day SMA (171.71) with a negative MACD crossover, signaling that selling momentum is likely to accelerate toward the 164.82 support level within the 10-day window.\n* Working Capital Fragility: A tight current ratio of 1.04 leaves the stock vulnerable to a sharp re-rating if the market views the recent record $123.9B revenue as a \"peak\" performance that is already fully priced in.\n\n- RISK_IRRELEVANCE: The price remains positioned above the 50-day SMA (163.53), which may serve as a structural floor and trigger a mean-reversion bounce that offsets bearish momentum.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* **Structural Mean-Reversion:** Although the short-term trend is bearish, the price is approaching the SMA_50 (163.53), which serves as a structural floor capable of triggering a technical bounce back toward the 171.71 resistance within the 10-day window.\n* **Fundamental Liquidity Support:** Massive short-term liquidity generation ($46.9B in operating cash flow) and record gross margins (43.7%) provide a valuation \"safety net\" that may incentivize buyers to defend current support levels despite recent price weakness.\n\n- UPSIDE_FAILURE: Negative MACD momentum and the cross below the Signal Line suggest that selling pressure currently outweighs buying conviction, making a break below the SMA_50 more likely than a recovery.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* Bearish Technical Breakdown: AAPL has fallen below its 20-day SMA (171.71) with a negative MACD crossover, signaling that selling momentum is likely to accelerate toward the 164.82 support level within the 10-day window.\n* Working Capital Fragility: A tight current ratio of 1.04 leaves the stock vulnerable to a sharp re-rating if the market views the recent record $123.9B revenue as a \"peak\" performance that is already fully priced in.\n\n- RISK_IRRELEVANCE: The price remains positioned above the 50-day SMA (163.53), which may serve as a structural floor and trigger a mean-reversion bounce that offsets bearish momentum.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* Bearish Technical Breakdown: AAPL has fallen below its 20-day SMA (171.71) with a negative MACD crossover, signaling that selling momentum is likely to accelerate toward the 164.82 support level within the 10-day window.\n* Working Capital Fragility: A tight current ratio of 1.04 leaves the stock vulnerable to a sharp re-rating if the market views the recent record $123.9B revenue as a \"peak\" performance that is already fully priced in.\n\n- RISK_IRRELEVANCE: The price remains positioned above the 50-day SMA (163.53), which may serve as a structural floor and trigger a mean-reversion bounce that offsets bearish momentum.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Bearish MACD crossover and price action below the 20-day SMA signaling short-term momentum loss.\",\n    \"Record-breaking quarterly revenue and gross margins providing a significant fundamental valuation floor.\"\n  ],\n  \"main_risk\": \"A decisive break below the 50-day SMA (163.53) could invalidate the structural floor and trigger a deeper correction.\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as active bearish technical momentum is directly countered by the proximity of a major structural support level and record liquidity.\",\n  \"hold_gate_assessment\": \"This is a case of true active cross-pressure where short-term trend exhaustion meets high-conviction fundamental support, making a directional bet inefficient within a 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor price action at the 163.53 - 164.82 support zone for signs of a mean-reversion bounce.\",\n    \"Avoid new positions until the price either reclaims the 20-day SMA (171.71) or successfully tests the 50-day SMA.\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Bearish MACD crossover and price action below the 20-day SMA signaling short-term momentum loss.\",\n    \"Record-breaking quarterly revenue and gross margins providing a significant fundamental valuation floor.\"\n  ],\n  \"main_risk\": \"A decisive break below the 50-day SMA (163.53) could invalidate the structural floor and trigger a deeper correction.\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as active bearish technical momentum is directly countered by the proximity of a major structural support level and record liquidity.\",\n  \"hold_gate_assessment\": \"This is a case of true active cross-pressure where short-term trend exhaustion meets high-conviction fundamental support, making a directional bet inefficient within a 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor price action at the 163.53 - 164.82 support zone for signs of a mean-reversion bounce.\",\n    \"Avoid new positions until the price either reclaims the 20-day SMA (171.71) or successfully tests the 50-day SMA.\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 4.5,
+      "sell_score": 5.5,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Bearish MACD crossover and price action below the 20-day SMA signaling short-term momentum loss.",
+        "Record-breaking quarterly revenue and gross margins providing a significant fundamental valuation floor."
+      ],
+      "main_risk": "A decisive break below the 50-day SMA (163.53) could invalidate the structural floor and trigger a deeper correction.",
+      "actionability_assessment": "Neither side has a clear near-term path as active bearish technical momentum is directly countered by the proximity of a major structural support level and record liquidity.",
+      "hold_gate_assessment": "This is a case of true active cross-pressure where short-term trend exhaustion meets high-conviction fundamental support, making a directional bet inefficient within a 10-day window.",
+      "execution_notes": [
+        "Monitor price action at the 163.53 - 164.82 support zone for signs of a mean-reversion bounce.",
+        "Avoid new positions until the price either reclaims the 20-day SMA (171.71) or successfully tests the 50-day SMA."
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Bearish MACD crossover and price action below the 20-day SMA signaling short-term momentum loss. AGAINST: A decisive break below the 50-day SMA (163.53) could invalidate the structural floor and trigger a deeper correction. DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=HIGH."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 56.28,
+    "memory_id": null
+  }
+}

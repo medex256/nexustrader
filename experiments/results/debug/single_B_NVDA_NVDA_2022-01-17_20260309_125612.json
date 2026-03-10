@@ -1,0 +1,303 @@
+{
+  "meta": {
+    "created_at": "2026-03-09T12:56:12",
+    "started_at": "2026-03-09T12:55:11",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "B_NVDA"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 9.2% QoQ to $7.1B (Oct 2021), marking the fourth consecutive quarter of sequential growth and confirming strong demand.\n* Gross margins expanded to 65.2% from 64.8% QoQ, demonstrating continued pricing power and operational efficiency.\n* Exceptional liquidity with a Current Ratio of 7.14 ensures zero near-term financial or credit stress.\n\n2) RISKS:\n* Revenue growth rate decelerated from 14.9% (July) to 9.2% (October), suggesting the peak acceleration phase is cooling.\n* Net income growth slowed sharply to 3.8% QoQ, down from 24.2% in the previous quarter, indicating a potential disconnect between top-line growth and bottom-line conversion.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Whether the sharp deceleration in QoQ net income growth signals a trend of diminishing marginal returns.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (26.89) is trading below the 20-day SMA (28.60), confirming active seller control and a short-term bearish trend; 10-day SMA is UNKNOWN.\n* MACD (-0.66) is positioned below the signal line (-0.41) with a negative histogram, indicating sustained downward momentum.\n* RSI at 41.23 reflects weak buying interest and significant room for further downside before reaching oversold territory.\n\n2) SUPPORT: 26.07\n3) RESISTANCE: 28.60\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Price is approaching the lower Bollinger Band (26.07), which may trigger a technical mean-reversion bounce despite dominant bearish momentum.",
+      "news_harvester": "1) CATALYSTS:\n* Omniverse General Availability: The transition of the 3D simulation and design platform from beta to general availability for RTX users and enterprise partners (e.g., Ericsson) marks a specific product milestone.\n\n2) TONE: BULLISH\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: N/A"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue grew 9.2% QoQ to $7.1B (Oct 2021), marking the fourth consecutive quarter of sequential growth and confirming strong demand.",
+        "primary_risk": "* Revenue growth rate decelerated from 14.9% (July) to 9.2% (October), suggesting the peak acceleration phase is cooling."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (26.89) is trading below the 20-day SMA (28.60), confirming active seller control and a short-term bearish trend; 10-day SMA is UNKNOW",
+        "primary_risk": "Price is approaching the lower Bollinger Band (26.07), which may trigger a technical mean-reversion bounce despite dominant bearish momentum"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Omniverse General Availability: The transition of the 3D simulation and design platform from beta to general availability for RTX users and ",
+        "primary_risk": "N/A"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Omniverse General Availability: The transition of the 3D simulation platform from beta to enterprise-ready status for RTX users and partners (e.g., Ericsson) provides a specific product milestone for near-term repricing.\n\n- UPSIDE_FAILURE: Dominant bearish technical momentum, characterized by the price trading below the 20-day SMA and a negative MACD histogram, creates significant overhead resistance.\n\n- TOP_DOWNSIDE_RISKS:\n* Sharp deceleration in QoQ net income growth from 24.2% to 3.8% creates a disconnect between top-line revenue and bottom-line conversion, signaling diminishing marginal returns.\n* Sustained downward momentum and active seller control confirmed by price trading below the 20-day SMA alongside a negative MACD histogram.\n\n- RISK_IRRELEVANCE: Price is approaching the lower Bollinger Band at 26.07, which may trigger a technical mean-reversion bounce that interrupts the bearish trend.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Omniverse General Availability: The transition of the 3D simulation platform from beta to enterprise-ready status for RTX users and partners (e.g., Ericsson) provides a specific product milestone for near-term repricing.\n\n- UPSIDE_FAILURE: Dominant bearish technical momentum, characterized by the price trading below the 20-day SMA and a negative MACD histogram, creates significant overhead resistance.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* Sharp deceleration in QoQ net income growth from 24.2% to 3.8% creates a disconnect between top-line revenue and bottom-line conversion, signaling diminishing marginal returns.\n* Sustained downward momentum and active seller control confirmed by price trading below the 20-day SMA alongside a negative MACD histogram.\n\n- RISK_IRRELEVANCE: Price is approaching the lower Bollinger Band at 26.07, which may trigger a technical mean-reversion bounce that interrupts the bearish trend.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* Sharp deceleration in QoQ net income growth from 24.2% to 3.8% creates a disconnect between top-line revenue and bottom-line conversion, signaling diminishing marginal returns.\n* Sustained downward momentum and active seller control confirmed by price trading below the 20-day SMA alongside a negative MACD histogram.\n\n- RISK_IRRELEVANCE: Price is approaching the lower Bollinger Band at 26.07, which may trigger a technical mean-reversion bounce that interrupts the bearish trend.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 3.0,\n  \"sell_score\": 7.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Sharp deceleration in net income growth from 24.2% to 3.8% signaling diminishing marginal returns\",\n    \"Bearish technical setup with price below the 20-day SMA and negative MACD momentum\"\n  ],\n  \"main_risk\": \"A technical mean-reversion bounce triggered by the lower Bollinger Band at 26.07\",\n  \"actionability_assessment\": \"The alignment of fundamental growth deceleration and active bearish technical momentum provides a clear near-term path for price depreciation.\",\n  \"hold_gate_assessment\": \"The bearish evidence is active and structural, whereas the bullish news catalyst lacks the immediate momentum to offset the confirmed seller control.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Omniverse General Availability: The transition of the 3D simulation platform from beta to enterprise-ready status for RTX users and partners (e.g., Ericsson) provides a specific product milestone for near-term repricing.\n\n- UPSIDE_FAILURE: Dominant bearish technical momentum, characterized by the price trading below the 20-day SMA and a negative MACD histogram, creates significant overhead resistance.",
+      "bearish": "\n\n- TOP_DOWNSIDE_RISKS:\n* Sharp deceleration in QoQ net income growth from 24.2% to 3.8% creates a disconnect between top-line revenue and bottom-line conversion, signaling diminishing marginal returns.\n* Sustained downward momentum and active seller control confirmed by price trading below the 20-day SMA alongside a negative MACD histogram.\n\n- RISK_IRRELEVANCE: Price is approaching the lower Bollinger Band at 26.07, which may trigger a technical mean-reversion bounce that interrupts the bearish trend."
+    },
+    "investment_plan": "{\n  \"buy_score\": 3.0,\n  \"sell_score\": 7.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Sharp deceleration in net income growth from 24.2% to 3.8% signaling diminishing marginal returns\",\n    \"Bearish technical setup with price below the 20-day SMA and negative MACD momentum\"\n  ],\n  \"main_risk\": \"A technical mean-reversion bounce triggered by the lower Bollinger Band at 26.07\",\n  \"actionability_assessment\": \"The alignment of fundamental growth deceleration and active bearish technical momentum provides a clear near-term path for price depreciation.\",\n  \"hold_gate_assessment\": \"The bearish evidence is active and structural, whereas the bullish news catalyst lacks the immediate momentum to offset the confirmed seller control.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 3.0,
+      "sell_score": 7.0,
+      "recommendation": "SELL",
+      "confidence_score": 0.7,
+      "primary_drivers": [
+        "Sharp deceleration in net income growth from 24.2% to 3.8% signaling diminishing marginal returns",
+        "Bearish technical setup with price below the 20-day SMA and negative MACD momentum"
+      ],
+      "main_risk": "A technical mean-reversion bounce triggered by the lower Bollinger Band at 26.07",
+      "actionability_assessment": "The alignment of fundamental growth deceleration and active bearish technical momentum provides a clear near-term path for price depreciation.",
+      "hold_gate_assessment": "The bearish evidence is active and structural, whereas the bullish news catalyst lacks the immediate momentum to offset the confirmed seller control.",
+      "execution_notes": [],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.7,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (26.89) is trading below the 20-day SMA (28.60), confirming active seller control and a short-term bearish trend; 10-day SMA is UNKNOW AGAINST: A technical mean-reversion bounce triggered by the lower Bollinger Band at 26.07 DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2022-01-17",
+        "lookback_days": 14,
+        "window_start": "2022-01-03",
+        "window_end": "2022-01-17",
+        "article_count": 13,
+        "min_published": "2022-01-04T15:29:45",
+        "max_published": "2022-01-14T18:36:07",
+        "articles": [
+          {
+            "title": "Nvidia’s Omniverse ‘metaverse for engineers’ emerges from beta",
+            "source": "RCR Wireless",
+            "published": "20220106T175612",
+            "url": "https://www.rcrwireless.com/20220106/telco-cloud/nvidias-omniverse-metaverse-for-engineers-emerges-from-beta",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.415701,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "NVIDIA Named America’s Best Place to Work on Latest Glassdoor List",
+            "source": "NVIDIA Blog",
+            "published": "20220111T175611",
+            "url": "https://blogs.nvidia.com/blog/nvidia-best-place-work/",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.856854,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqcAGB6KyVLDYmhHdCyD0lViNVhIie5nBoisV4jjnkdzSd8UlhfAod09&gaa_ts=6907aa14&gaa_sig=LU2hpWLACtnx_V8nc496ZJZBdA3Rg6LAvBgC2MCqIOLnQBuXtdtdatGndnjqcveCmPwysJYUewMG7zIdY_vJrw%3D%3D",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.749569,
+            "relevance_score": 0.896737
+          },
+          {
+            "title": "AI Startup Speeds Up Derivative Models for Bank of Montreal",
+            "source": "NVIDIA Blog",
+            "published": "20220110T161650",
+            "url": "https://blogs.nvidia.com/blog/riskfuel-derivative-models-bank-of-montreal/",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.466119,
+            "relevance_score": 0.885032
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqdRPbJUy5IikVEvY1VdJcAf_RWGuki91oVqAIwOfU5lFsoO17PwSxuJ&gaa_ts=6907ac94&gaa_sig=ooJhDeY4kNwPlbOj56hYOEmlhJ9mS6ztd-BMiN9g1sZJVLhXqjDO-pdK4Jcv1nAT1SKUGNOp1-ixgSC7U6dGVQ%3D%3D",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.456843,
+            "relevance_score": 0.873586
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqdBdmHPZxefoPpdU_XiKmDvnI7I3dfNA-7b3FAHNUlYos-sHQijHAFG&gaa_ts=6907a7da&gaa_sig=EpaW-Z6XVGZ20IyJnYntkIMjN7G89scbePvQjDrzT7aV3rWqnp9ry2rx_3330RssholURp7wdF0ySYoK1fSlWw%3D%3D",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.452461,
+            "relevance_score": 0.839275
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqdich5a2ITDCIk0PD8XfObGNAwAOO19JRZJBnyvRaxj5ppYuvdV16P5&gaa_ts=6907a32a&gaa_sig=a20L7fC0glvxVnJBfpYiSr2JGgJbAS1Z5F7PbU3UPlFMw6Fe9qMUxPVd0KwJWp2Jbv7Px-iCgAIp8RrKdbXGYg%3D%3D",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": -0.145219,
+            "relevance_score": 0.839241
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqfnl5OB3jT2txRO3oDLjhv-kM96fRl9WNxRMczBWVccqH7hBwz8TYXr&gaa_ts=69079e84&gaa_sig=td1zqi31XS-A8bgXoMGSOkxv-S16x0_pJxo7os1KCcRC5uggHQ53MWnWs61JGS0Nyz760o0JGbOfq1fNZWNb5Q%3D%3D",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.349824,
+            "relevance_score": 0.835925
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqcuOxxx3eduBpWNhaLM6Q6QXNHo965XCXGxrPwfYafS7vR7msapnDxl&gaa_ts=6907a326&gaa_sig=lIkrVyY5UIMIP2f_M2Vb5ujdAUCBNCQzWExV755kHeCo-o5KosFRuh4EgjRKkdlEx8ZATC3jNleDLVK3-DenAw%3D%3D",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.305229,
+            "relevance_score": 0.80455
+          },
+          {
+            "title": "What Crypto-related ETFs Could Hit the US Market in 2022?",
+            "source": "Blockworks",
+            "published": "20220106T130700",
+            "url": "https://blockworks.co/news/what-crypto-related-etfs-could-hit-the-us-market-in-2022",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.129716,
+            "relevance_score": 0.725884
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 60.43
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue grew 9.2% QoQ to $7.1B (Oct 2021), marking the fourth consecutive quarter of sequential growth and confirming strong demand.",
+        "primary_risk": "* Revenue growth rate decelerated from 14.9% (July) to 9.2% (October), suggesting the peak acceleration phase is cooling."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (26.89) is trading below the 20-day SMA (28.60), confirming active seller control and a short-term bearish trend; 10-day SMA is UNKNOW",
+        "primary_risk": "Price is approaching the lower Bollinger Band (26.07), which may trigger a technical mean-reversion bounce despite dominant bearish momentum"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Omniverse General Availability: The transition of the 3D simulation and design platform from beta to general availability for RTX users and ",
+        "primary_risk": "N/A"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 9.2% QoQ to $7.1B (Oct 2021), marking the fourth consecutive quarter of sequential growth and confirming strong demand.\n* Gross margins expanded to 65.2% from 64.8% QoQ, demonstrating continued pricing power and operational efficiency.\n* Exceptional liquidity with a Current Ratio of 7.14 ensures zero near-term financial or credit stress.\n\n2) RISKS:\n* Revenue growth rate decelerated from 14.9% (July) to 9.2% (October), suggesting the peak acceleration phase is cooling.\n* Net income growth slowed sharply to 3.8% QoQ, down from 24.2% in the previous quarter, indicating a potential disconnect between top-line growth and bottom-line conversion.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Whether the sharp deceleration in QoQ net income growth signals a trend of diminishing marginal returns.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (26.89) is trading below the 20-day SMA (28.60), confirming active seller control and a short-term bearish trend; 10-day SMA is UNKNOWN.\n* MACD (-0.66) is positioned below the signal line (-0.41) with a negative histogram, indicating sustained downward momentum.\n* RSI at 41.23 reflects weak buying interest and significant room for further downside before reaching oversold territory.\n\n2) SUPPORT: 26.07\n3) RESISTANCE: 28.60\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Price is approaching the lower Bollinger Band (26.07), which may trigger a technical mean-reversion bounce despite dominant bearish momentum.",
+      "news_harvester": "1) CATALYSTS:\n* Omniverse General Availability: The transition of the 3D simulation and design platform from beta to general availability for RTX users and enterprise partners (e.g., Ericsson) marks a specific product milestone.\n\n2) TONE: BULLISH\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: N/A"
+    },
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Omniverse General Availability: The transition of the 3D simulation platform from beta to enterprise-ready status for RTX users and partners (e.g., Ericsson) provides a specific product milestone for near-term repricing.\n\n- UPSIDE_FAILURE: Dominant bearish technical momentum, characterized by the price trading below the 20-day SMA and a negative MACD histogram, creates significant overhead resistance.\n\n- TOP_DOWNSIDE_RISKS:\n* Sharp deceleration in QoQ net income growth from 24.2% to 3.8% creates a disconnect between top-line revenue and bottom-line conversion, signaling diminishing marginal returns.\n* Sustained downward momentum and active seller control confirmed by price trading below the 20-day SMA alongside a negative MACD histogram.\n\n- RISK_IRRELEVANCE: Price is approaching the lower Bollinger Band at 26.07, which may trigger a technical mean-reversion bounce that interrupts the bearish trend.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Omniverse General Availability: The transition of the 3D simulation platform from beta to enterprise-ready status for RTX users and partners (e.g., Ericsson) provides a specific product milestone for near-term repricing.\n\n- UPSIDE_FAILURE: Dominant bearish technical momentum, characterized by the price trading below the 20-day SMA and a negative MACD histogram, creates significant overhead resistance.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* Sharp deceleration in QoQ net income growth from 24.2% to 3.8% creates a disconnect between top-line revenue and bottom-line conversion, signaling diminishing marginal returns.\n* Sustained downward momentum and active seller control confirmed by price trading below the 20-day SMA alongside a negative MACD histogram.\n\n- RISK_IRRELEVANCE: Price is approaching the lower Bollinger Band at 26.07, which may trigger a technical mean-reversion bounce that interrupts the bearish trend.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* Sharp deceleration in QoQ net income growth from 24.2% to 3.8% creates a disconnect between top-line revenue and bottom-line conversion, signaling diminishing marginal returns.\n* Sustained downward momentum and active seller control confirmed by price trading below the 20-day SMA alongside a negative MACD histogram.\n\n- RISK_IRRELEVANCE: Price is approaching the lower Bollinger Band at 26.07, which may trigger a technical mean-reversion bounce that interrupts the bearish trend.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 3.0,\n  \"sell_score\": 7.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Sharp deceleration in net income growth from 24.2% to 3.8% signaling diminishing marginal returns\",\n    \"Bearish technical setup with price below the 20-day SMA and negative MACD momentum\"\n  ],\n  \"main_risk\": \"A technical mean-reversion bounce triggered by the lower Bollinger Band at 26.07\",\n  \"actionability_assessment\": \"The alignment of fundamental growth deceleration and active bearish technical momentum provides a clear near-term path for price depreciation.\",\n  \"hold_gate_assessment\": \"The bearish evidence is active and structural, whereas the bullish news catalyst lacks the immediate momentum to offset the confirmed seller control.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 3.0,\n  \"sell_score\": 7.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Sharp deceleration in net income growth from 24.2% to 3.8% signaling diminishing marginal returns\",\n    \"Bearish technical setup with price below the 20-day SMA and negative MACD momentum\"\n  ],\n  \"main_risk\": \"A technical mean-reversion bounce triggered by the lower Bollinger Band at 26.07\",\n  \"actionability_assessment\": \"The alignment of fundamental growth deceleration and active bearish technical momentum provides a clear near-term path for price depreciation.\",\n  \"hold_gate_assessment\": \"The bearish evidence is active and structural, whereas the bullish news catalyst lacks the immediate momentum to offset the confirmed seller control.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 3.0,
+      "sell_score": 7.0,
+      "recommendation": "SELL",
+      "confidence_score": 0.7,
+      "primary_drivers": [
+        "Sharp deceleration in net income growth from 24.2% to 3.8% signaling diminishing marginal returns",
+        "Bearish technical setup with price below the 20-day SMA and negative MACD momentum"
+      ],
+      "main_risk": "A technical mean-reversion bounce triggered by the lower Bollinger Band at 26.07",
+      "actionability_assessment": "The alignment of fundamental growth deceleration and active bearish technical momentum provides a clear near-term path for price depreciation.",
+      "hold_gate_assessment": "The bearish evidence is active and structural, whereas the bullish news catalyst lacks the immediate momentum to offset the confirmed seller control.",
+      "execution_notes": [],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.7,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (26.89) is trading below the 20-day SMA (28.60), confirming active seller control and a short-term bearish trend; 10-day SMA is UNKNOW AGAINST: A technical mean-reversion bounce triggered by the lower Bollinger Band at 26.07 DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 60.43,
+    "memory_id": null
+  }
+}

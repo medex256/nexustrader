@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "created_at": "2026-03-09T18:27:34",
+    "started_at": "2026-03-09T18:26:37",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "B_NVDA"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2025-02-03",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2025-02-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2025-02-03",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **QoQ Revenue Momentum:** Revenue grew 12.1% sequentially to $39.33B in the latest quarter (Jan 2025), maintaining a strong upward trajectory.\n* **High Earnings Conversion:** Net income reached $22.09B with a robust 56.2% net profit margin, demonstrating continued operational leverage and profitability.\n* **Liquidity Strength:** A current ratio of 4.44 and $16.6B in quarterly operating cash flow ensure zero liquidity stress for the near-term horizon.\n\n2) RISKS:\n* **Margin Compression:** Gross margin contracted from 74.6% to 73.0% QoQ, indicating potential rising costs or product mix shifts.\n* **Growth Deceleration:** Sequential revenue growth slowed to 12.1% compared to the 16.8% growth recorded in the prior period ($30.04B to $35.08B).\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Sustainability of double-digit sequential growth as the revenue base scales toward $40B per quarter.",
+      "technical_analyst": "1) EVIDENCE:\n* Price vs SMA_20 -> 116.63 vs 134.60 -> Price is trading significantly below the 20-day average following a -9.56% 5-day drop, confirming active seller control.\n* MACD -> -4.34 (below signal -2.04) -> Negative alignment with a widening histogram indicates strong and accelerating downward momentum.\n* Volume Ratio -> 1.21 -> Above-average volume confirms the conviction behind the recent price breakdown rather than a routine pullback.\n\n2) SUPPORT: 114.79\n\n3) RESISTANCE: 134.60\n\n4) FINAL_VIEW: BEARISH\n\n5) CONFIDENCE: HIGH\n\n6) KEY_UNCERTAINTY: RSI (36.81) is approaching oversold territory as price nears the Lower Bollinger Band (114.79), which may trigger a short-term mean-reversion bounce.",
+      "news_harvester": "1) CATALYSTS:\n* Potential implementation of stricter U.S. export controls on semiconductor sales to China (Article 2).\n* Market reassessment of GPU demand and AI capital expenditure following the release of DeepSeek’s lower-cost training model (Articles 1, 2, 3).\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Formal announcement or escalation of U.S. semiconductor export restrictions targeting China."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "**QoQ Revenue Momentum:** Revenue grew 12.1% sequentially to $39.33B in the latest quarter (Jan 2025), maintaining a strong upward trajector",
+        "primary_risk": "* **Margin Compression:** Gross margin contracted from 74.6% to 73.0% QoQ, indicating potential rising costs or product mix shifts."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=HIGH",
+        "key_catalyst": "Price vs SMA_20 -> 116.63 vs 134.60 -> Price is trading significantly below the 20-day average following a -9.56% 5-day drop, confirming act",
+        "primary_risk": "RSI (36.81) is approaching oversold territory as price nears the Lower Bollinger Band (114.79), which may trigger a short-term mean-reversio"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Potential implementation of stricter U.S. export controls on semiconductor sales to China (Article 2).",
+        "primary_risk": "Formal announcement or escalation of U.S. semiconductor export restrictions targeting China."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* **Technical Mean-Reversion:** The RSI (36.81) is approaching oversold territory while the price ($116.63) nears the Lower Bollinger Band support ($114.79), creating a high-probability setup for a short-term technical bounce following the recent -9.56% five-day drop.\n* **Fundamental Valuation Floor:** Strong sequential revenue growth (12.1%) and massive quarterly operating cash flow ($16.6B) provide a high-conviction \"buy-the-dip\" fundamental anchor as the stock approaches major technical support levels.\n\n- UPSIDE_FAILURE: Strong selling conviction, evidenced by a 1.21 volume ratio and widening negative MACD momentum, suggests any bounce may be stifled by active seller control before reaching the 20-day moving average.\n\n- TOP_DOWNSIDE_RISKS:\n* High-volume technical breakdown targeting a breach of the 114.79 support level, driven by accelerating MACD momentum as the market re-evaluates GPU demand and AI CAPEX following the release of DeepSeek’s lower-cost training model.\n* Immediate valuation pressure triggered by the potential announcement of stricter U.S. semiconductor export controls to China, compounding confirmed fundamental headwinds of decelerating sequential revenue growth and contracting gross margins (73.0% vs. 74.6%).\n\n- RISK_IRRELEVANCE: An RSI of 36.81 indicates the stock is approaching oversold territory near the Lower Bollinger Band, which may trigger a technical mean-reversion bounce that temporarily offsets the bearish trajectory.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* **Technical Mean-Reversion:** The RSI (36.81) is approaching oversold territory while the price ($116.63) nears the Lower Bollinger Band support ($114.79), creating a high-probability setup for a short-term technical bounce following the recent -9.56% five-day drop.\n* **Fundamental Valuation Floor:** Strong sequential revenue growth (12.1%) and massive quarterly operating cash flow ($16.6B) provide a high-conviction \"buy-the-dip\" fundamental anchor as the stock approaches major technical support levels.\n\n- UPSIDE_FAILURE: Strong selling conviction, evidenced by a 1.21 volume ratio and widening negative MACD momentum, suggests any bounce may be stifled by active seller control before reaching the 20-day moving average.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* High-volume technical breakdown targeting a breach of the 114.79 support level, driven by accelerating MACD momentum as the market re-evaluates GPU demand and AI CAPEX following the release of DeepSeek’s lower-cost training model.\n* Immediate valuation pressure triggered by the potential announcement of stricter U.S. semiconductor export controls to China, compounding confirmed fundamental headwinds of decelerating sequential revenue growth and contracting gross margins (73.0% vs. 74.6%).\n\n- RISK_IRRELEVANCE: An RSI of 36.81 indicates the stock is approaching oversold territory near the Lower Bollinger Band, which may trigger a technical mean-reversion bounce that temporarily offsets the bearish trajectory.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* High-volume technical breakdown targeting a breach of the 114.79 support level, driven by accelerating MACD momentum as the market re-evaluates GPU demand and AI CAPEX following the release of DeepSeek’s lower-cost training model.\n* Immediate valuation pressure triggered by the potential announcement of stricter U.S. semiconductor export controls to China, compounding confirmed fundamental headwinds of decelerating sequential revenue growth and contracting gross margins (73.0% vs. 74.6%).\n\n- RISK_IRRELEVANCE: An RSI of 36.81 indicates the stock is approaching oversold territory near the Lower Bollinger Band, which may trigger a technical mean-reversion bounce that temporarily offsets the bearish trajectory.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 4.0,\n  \"sell_score\": 8.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"High-volume technical breakdown with widening negative MACD momentum indicating strong seller control\",\n    \"Negative sentiment shift regarding AI CAPEX efficiency and potential U.S. export restrictions\"\n  ],\n  \"main_risk\": \"Technical mean-reversion bounce triggered by RSI approaching oversold levels near the 114.79 support floor\",\n  \"actionability_assessment\": \"The bearish side has a clearer active path as high-conviction selling volume and negative momentum outweigh the fundamental valuation floor in the 10-day window.\",\n  \"hold_gate_assessment\": \"The conflict between strong fundamentals and weak technicals is resolved by the immediate downward price velocity and specific near-term news catalysts favoring the downside.\",\n  \"execution_notes\": [\n    \"Monitor the 114.79 support level for a potential breach that could accelerate selling\",\n    \"Watch for RSI dipping below 30 as a signal to cover short positions or reassess the bearish bias\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- TOP_UPSIDE_CATALYSTS:\n* **Technical Mean-Reversion:** The RSI (36.81) is approaching oversold territory while the price ($116.63) nears the Lower Bollinger Band support ($114.79), creating a high-probability setup for a short-term technical bounce following the recent -9.56% five-day drop.\n* **Fundamental Valuation Floor:** Strong sequential revenue growth (12.1%) and massive quarterly operating cash flow ($16.6B) provide a high-conviction \"buy-the-dip\" fundamental anchor as the stock approaches major technical support levels.\n\n- UPSIDE_FAILURE: Strong selling conviction, evidenced by a 1.21 volume ratio and widening negative MACD momentum, suggests any bounce may be stifled by active seller control before reaching the 20-day moving average.",
+      "bearish": "\n\n- TOP_DOWNSIDE_RISKS:\n* High-volume technical breakdown targeting a breach of the 114.79 support level, driven by accelerating MACD momentum as the market re-evaluates GPU demand and AI CAPEX following the release of DeepSeek’s lower-cost training model.\n* Immediate valuation pressure triggered by the potential announcement of stricter U.S. semiconductor export controls to China, compounding confirmed fundamental headwinds of decelerating sequential revenue growth and contracting gross margins (73.0% vs. 74.6%).\n\n- RISK_IRRELEVANCE: An RSI of 36.81 indicates the stock is approaching oversold territory near the Lower Bollinger Band, which may trigger a technical mean-reversion bounce that temporarily offsets the bearish trajectory."
+    },
+    "investment_plan": "{\n  \"buy_score\": 4.0,\n  \"sell_score\": 8.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"High-volume technical breakdown with widening negative MACD momentum indicating strong seller control\",\n    \"Negative sentiment shift regarding AI CAPEX efficiency and potential U.S. export restrictions\"\n  ],\n  \"main_risk\": \"Technical mean-reversion bounce triggered by RSI approaching oversold levels near the 114.79 support floor\",\n  \"actionability_assessment\": \"The bearish side has a clearer active path as high-conviction selling volume and negative momentum outweigh the fundamental valuation floor in the 10-day window.\",\n  \"hold_gate_assessment\": \"The conflict between strong fundamentals and weak technicals is resolved by the immediate downward price velocity and specific near-term news catalysts favoring the downside.\",\n  \"execution_notes\": [\n    \"Monitor the 114.79 support level for a potential breach that could accelerate selling\",\n    \"Watch for RSI dipping below 30 as a signal to cover short positions or reassess the bearish bias\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 4.0,
+      "sell_score": 8.0,
+      "recommendation": "SELL",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "High-volume technical breakdown with widening negative MACD momentum indicating strong seller control",
+        "Negative sentiment shift regarding AI CAPEX efficiency and potential U.S. export restrictions"
+      ],
+      "main_risk": "Technical mean-reversion bounce triggered by RSI approaching oversold levels near the 114.79 support floor",
+      "actionability_assessment": "The bearish side has a clearer active path as high-conviction selling volume and negative momentum outweigh the fundamental valuation floor in the 10-day window.",
+      "hold_gate_assessment": "The conflict between strong fundamentals and weak technicals is resolved by the immediate downward price velocity and specific near-term news catalysts favoring the downside.",
+      "execution_notes": [
+        "Monitor the 114.79 support level for a potential breach that could accelerate selling",
+        "Watch for RSI dipping below 30 as a signal to cover short positions or reassess the bearish bias"
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price vs SMA_20 -> 116.63 vs 134.60 -> Price is trading significantly below the 20-day average following a -9.56% 5-day drop, confirming act AGAINST: * **Margin Compression:** Gross margin contracted from 74.6% to 73.0% QoQ, indicating potential rising costs or product mix shifts. DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=HIGH."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2025-02-03",
+        "lookback_days": 14,
+        "window_start": "2025-01-20",
+        "window_end": "2025-02-03",
+        "article_count": 25,
+        "min_published": "2025-01-20T11:42:00",
+        "max_published": "2025-02-03T07:35:48",
+        "articles": [
+          {
+            "title": "Nvidia calls China’s DeepSeek R1 model ‘an excellent AI advancement’",
+            "source": "CNBC",
+            "published": "20250127T152800",
+            "url": "https://www.cnbc.com/2025/01/27/nvidia-calls-chinas-deepseek-r1-model-an-excellent-ai-advancement.html",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.292563,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "DeepSeek Panic Live Updates: Nvidia Stock Drops 4% As Trump Reportedly Targets China Exports",
+            "source": "Forbes",
+            "published": "20250129T160700",
+            "url": "https://www.forbes.com/sites/dereksaul/2025/01/29/deepseek-panic-live-updates-nvidia-stock-drops-4-as-trump-reportedly-mulls-china-chip-sale-restrictions/",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.293807,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "One reason Nvidia looks like a bargain stock following the DeepSeek news",
+            "source": "MarketWatch",
+            "published": "20250128T093200",
+            "url": "https://www.marketwatch.com/story/one-reason-nvidia-looks-like-a-bargain-stock-following-the-deepseek-news-e27db2fc?gaa_at=eafs&gaa_n=AWEtsqf3gW2kCWpq1CrMSVvbIvvF6JtBkpz-ItstLu2xIBBBKztIj64xtn6V&gaa_ts=690748dd&gaa_sig=j7TJIAa0TWDfMWN8SiaKxDsSjqmbxiVTmFt5I0rKcCrTTu_aNb9AQjTc8ZVG52JclIs1h0I4SyOIt9n8dy7VjA%3D%3D",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.204538,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "NVDU: Providing Leverage To Nvidia, A Hot Tech Stock That Has Corrected (NASDAQ:NVDU)",
+            "source": "Seeking Alpha",
+            "published": "20250130T111214",
+            "url": "https://seekingalpha.com/article/4753576-nvdu-providing-leverage-to-nvidia-a-hot-tech-stock-that-has-corrected",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.422616,
+            "relevance_score": 0.984625
+          },
+          {
+            "title": "Investors piled into leveraged ETFs tied to Nvidia. Then the stock crashed",
+            "source": "NBC Los Angeles",
+            "published": "20250128T140934",
+            "url": "https://www.nbclosangeles.com/news/business/money-report/nvidias-plunge-a-difficult-lesson-for-investors-betting-on-single-stock-etfs/3616574/",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.614491,
+            "relevance_score": 0.983351
+          },
+          {
+            "title": "Investors piled into leveraged ETFs tied to Nvidia. Then the stock crashed",
+            "source": "NBC Connecticut",
+            "published": "20250128T223800",
+            "url": "https://www.nbcconnecticut.com/news/business/money-report/nvidias-plunge-a-difficult-lesson-for-investors-betting-on-single-stock-etfs/3484484/",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.504653,
+            "relevance_score": 0.95673
+          },
+          {
+            "title": "NYSEARCA:NVDY: High-Yield Income ETF or Missed NVIDIA Gains?",
+            "source": "TradingNEWS",
+            "published": "20250123T171755",
+            "url": "https://www.tradingnews.com/news/etf-nyse-arca-nvdy-84-percent-yield-nvda-vs-nvdy",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.118448,
+            "relevance_score": 0.943426
+          },
+          {
+            "title": "NVDY: Its 6-Month Outperformance Could Be Overturned Soon, A Complete Analysis",
+            "source": "Seeking Alpha",
+            "published": "20250123T102700",
+            "url": "https://seekingalpha.com/article/4751458-nvdy-its-6-month-outperformance-could-be-overturned-soon-a-complete-analysis",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.23101,
+            "relevance_score": 0.906601
+          },
+          {
+            "title": "Nvidia, Robinhood, Snowflake And A Basic Materials Stock On CNBC's 'Final Trades'",
+            "source": "Sahm",
+            "published": "20250121T002833",
+            "url": "https://www.sahmcapital.com/news/content/nvidia-robinhood-snowflake-and-a-basic-materials-stock-on-cnbcs-final-trades-2025-01-21",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.286402,
+            "relevance_score": 0.877041
+          },
+          {
+            "title": "How a more focused growth index can cut your risk in the stock market",
+            "source": "MarketWatch",
+            "published": "20250129T101800",
+            "url": "https://www.marketwatch.com/story/how-a-more-focused-growth-index-can-cut-your-risk-in-the-stock-market-7e1fa51e?gaa_at=eafs&gaa_n=AWEtsqctWT1KcH1Z5DLJii79uh0kmT28gDNA48BITtl5SargSpXrDt4BScHO&gaa_ts=69398ffe&gaa_sig=EYMZmX2smZBG23owcPGBKJ6MwJR8bCtTVL9V5HLbFAdTPantHs10ASmGuskO2Cw7qJ9qDHKAeeKGcP7PdlJWwA%3D%3D",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.400619,
+            "relevance_score": 0.836593
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 56.8
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2025-02-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "**QoQ Revenue Momentum:** Revenue grew 12.1% sequentially to $39.33B in the latest quarter (Jan 2025), maintaining a strong upward trajector",
+        "primary_risk": "* **Margin Compression:** Gross margin contracted from 74.6% to 73.0% QoQ, indicating potential rising costs or product mix shifts."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=HIGH",
+        "key_catalyst": "Price vs SMA_20 -> 116.63 vs 134.60 -> Price is trading significantly below the 20-day average following a -9.56% 5-day drop, confirming act",
+        "primary_risk": "RSI (36.81) is approaching oversold territory as price nears the Lower Bollinger Band (114.79), which may trigger a short-term mean-reversio"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Potential implementation of stricter U.S. export controls on semiconductor sales to China (Article 2).",
+        "primary_risk": "Formal announcement or escalation of U.S. semiconductor export restrictions targeting China."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **QoQ Revenue Momentum:** Revenue grew 12.1% sequentially to $39.33B in the latest quarter (Jan 2025), maintaining a strong upward trajectory.\n* **High Earnings Conversion:** Net income reached $22.09B with a robust 56.2% net profit margin, demonstrating continued operational leverage and profitability.\n* **Liquidity Strength:** A current ratio of 4.44 and $16.6B in quarterly operating cash flow ensure zero liquidity stress for the near-term horizon.\n\n2) RISKS:\n* **Margin Compression:** Gross margin contracted from 74.6% to 73.0% QoQ, indicating potential rising costs or product mix shifts.\n* **Growth Deceleration:** Sequential revenue growth slowed to 12.1% compared to the 16.8% growth recorded in the prior period ($30.04B to $35.08B).\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Sustainability of double-digit sequential growth as the revenue base scales toward $40B per quarter.",
+      "technical_analyst": "1) EVIDENCE:\n* Price vs SMA_20 -> 116.63 vs 134.60 -> Price is trading significantly below the 20-day average following a -9.56% 5-day drop, confirming active seller control.\n* MACD -> -4.34 (below signal -2.04) -> Negative alignment with a widening histogram indicates strong and accelerating downward momentum.\n* Volume Ratio -> 1.21 -> Above-average volume confirms the conviction behind the recent price breakdown rather than a routine pullback.\n\n2) SUPPORT: 114.79\n\n3) RESISTANCE: 134.60\n\n4) FINAL_VIEW: BEARISH\n\n5) CONFIDENCE: HIGH\n\n6) KEY_UNCERTAINTY: RSI (36.81) is approaching oversold territory as price nears the Lower Bollinger Band (114.79), which may trigger a short-term mean-reversion bounce.",
+      "news_harvester": "1) CATALYSTS:\n* Potential implementation of stricter U.S. export controls on semiconductor sales to China (Article 2).\n* Market reassessment of GPU demand and AI capital expenditure following the release of DeepSeek’s lower-cost training model (Articles 1, 2, 3).\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Formal announcement or escalation of U.S. semiconductor export restrictions targeting China."
+    },
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* **Technical Mean-Reversion:** The RSI (36.81) is approaching oversold territory while the price ($116.63) nears the Lower Bollinger Band support ($114.79), creating a high-probability setup for a short-term technical bounce following the recent -9.56% five-day drop.\n* **Fundamental Valuation Floor:** Strong sequential revenue growth (12.1%) and massive quarterly operating cash flow ($16.6B) provide a high-conviction \"buy-the-dip\" fundamental anchor as the stock approaches major technical support levels.\n\n- UPSIDE_FAILURE: Strong selling conviction, evidenced by a 1.21 volume ratio and widening negative MACD momentum, suggests any bounce may be stifled by active seller control before reaching the 20-day moving average.\n\n- TOP_DOWNSIDE_RISKS:\n* High-volume technical breakdown targeting a breach of the 114.79 support level, driven by accelerating MACD momentum as the market re-evaluates GPU demand and AI CAPEX following the release of DeepSeek’s lower-cost training model.\n* Immediate valuation pressure triggered by the potential announcement of stricter U.S. semiconductor export controls to China, compounding confirmed fundamental headwinds of decelerating sequential revenue growth and contracting gross margins (73.0% vs. 74.6%).\n\n- RISK_IRRELEVANCE: An RSI of 36.81 indicates the stock is approaching oversold territory near the Lower Bollinger Band, which may trigger a technical mean-reversion bounce that temporarily offsets the bearish trajectory.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* **Technical Mean-Reversion:** The RSI (36.81) is approaching oversold territory while the price ($116.63) nears the Lower Bollinger Band support ($114.79), creating a high-probability setup for a short-term technical bounce following the recent -9.56% five-day drop.\n* **Fundamental Valuation Floor:** Strong sequential revenue growth (12.1%) and massive quarterly operating cash flow ($16.6B) provide a high-conviction \"buy-the-dip\" fundamental anchor as the stock approaches major technical support levels.\n\n- UPSIDE_FAILURE: Strong selling conviction, evidenced by a 1.21 volume ratio and widening negative MACD momentum, suggests any bounce may be stifled by active seller control before reaching the 20-day moving average.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* High-volume technical breakdown targeting a breach of the 114.79 support level, driven by accelerating MACD momentum as the market re-evaluates GPU demand and AI CAPEX following the release of DeepSeek’s lower-cost training model.\n* Immediate valuation pressure triggered by the potential announcement of stricter U.S. semiconductor export controls to China, compounding confirmed fundamental headwinds of decelerating sequential revenue growth and contracting gross margins (73.0% vs. 74.6%).\n\n- RISK_IRRELEVANCE: An RSI of 36.81 indicates the stock is approaching oversold territory near the Lower Bollinger Band, which may trigger a technical mean-reversion bounce that temporarily offsets the bearish trajectory.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* High-volume technical breakdown targeting a breach of the 114.79 support level, driven by accelerating MACD momentum as the market re-evaluates GPU demand and AI CAPEX following the release of DeepSeek’s lower-cost training model.\n* Immediate valuation pressure triggered by the potential announcement of stricter U.S. semiconductor export controls to China, compounding confirmed fundamental headwinds of decelerating sequential revenue growth and contracting gross margins (73.0% vs. 74.6%).\n\n- RISK_IRRELEVANCE: An RSI of 36.81 indicates the stock is approaching oversold territory near the Lower Bollinger Band, which may trigger a technical mean-reversion bounce that temporarily offsets the bearish trajectory.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 4.0,\n  \"sell_score\": 8.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"High-volume technical breakdown with widening negative MACD momentum indicating strong seller control\",\n    \"Negative sentiment shift regarding AI CAPEX efficiency and potential U.S. export restrictions\"\n  ],\n  \"main_risk\": \"Technical mean-reversion bounce triggered by RSI approaching oversold levels near the 114.79 support floor\",\n  \"actionability_assessment\": \"The bearish side has a clearer active path as high-conviction selling volume and negative momentum outweigh the fundamental valuation floor in the 10-day window.\",\n  \"hold_gate_assessment\": \"The conflict between strong fundamentals and weak technicals is resolved by the immediate downward price velocity and specific near-term news catalysts favoring the downside.\",\n  \"execution_notes\": [\n    \"Monitor the 114.79 support level for a potential breach that could accelerate selling\",\n    \"Watch for RSI dipping below 30 as a signal to cover short positions or reassess the bearish bias\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 4.0,\n  \"sell_score\": 8.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"High-volume technical breakdown with widening negative MACD momentum indicating strong seller control\",\n    \"Negative sentiment shift regarding AI CAPEX efficiency and potential U.S. export restrictions\"\n  ],\n  \"main_risk\": \"Technical mean-reversion bounce triggered by RSI approaching oversold levels near the 114.79 support floor\",\n  \"actionability_assessment\": \"The bearish side has a clearer active path as high-conviction selling volume and negative momentum outweigh the fundamental valuation floor in the 10-day window.\",\n  \"hold_gate_assessment\": \"The conflict between strong fundamentals and weak technicals is resolved by the immediate downward price velocity and specific near-term news catalysts favoring the downside.\",\n  \"execution_notes\": [\n    \"Monitor the 114.79 support level for a potential breach that could accelerate selling\",\n    \"Watch for RSI dipping below 30 as a signal to cover short positions or reassess the bearish bias\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 4.0,
+      "sell_score": 8.0,
+      "recommendation": "SELL",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "High-volume technical breakdown with widening negative MACD momentum indicating strong seller control",
+        "Negative sentiment shift regarding AI CAPEX efficiency and potential U.S. export restrictions"
+      ],
+      "main_risk": "Technical mean-reversion bounce triggered by RSI approaching oversold levels near the 114.79 support floor",
+      "actionability_assessment": "The bearish side has a clearer active path as high-conviction selling volume and negative momentum outweigh the fundamental valuation floor in the 10-day window.",
+      "hold_gate_assessment": "The conflict between strong fundamentals and weak technicals is resolved by the immediate downward price velocity and specific near-term news catalysts favoring the downside.",
+      "execution_notes": [
+        "Monitor the 114.79 support level for a potential breach that could accelerate selling",
+        "Watch for RSI dipping below 30 as a signal to cover short positions or reassess the bearish bias"
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price vs SMA_20 -> 116.63 vs 134.60 -> Price is trading significantly below the 20-day average following a -9.56% 5-day drop, confirming act AGAINST: * **Margin Compression:** Gross margin contracted from 74.6% to 73.0% QoQ, indicating potential rising costs or product mix shifts. DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=HIGH."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 56.8,
+    "memory_id": null
+  }
+}

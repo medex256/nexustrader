@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "created_at": "2026-03-08T15:57:37",
+    "started_at": "2026-03-08T15:56:40",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_run_stageB_XOM"
+  },
+  "request_payload": {
+    "ticker": "XOM",
+    "market": "US",
+    "simulated_date": "2023-04-03",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "XOM",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-04-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2023-04-03",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Total revenue declined from $93.16B (Q4 2022) to $83.64B (Q1 2023), representing a ~10.2% QoQ deceleration in top-line growth.\n* Net income followed a downward trajectory, falling from $12.75B to $11.43B QoQ, indicating cooling short-term profitability momentum.\n* Despite the slowdown, the company maintains a healthy current ratio of 1.46 and generated $16.34B in free cash flow in the most recent quarter.\n\n2) RISKS:\n* Sustained QoQ contraction in both revenue and net income suggests a loss of operational momentum that may weigh on the stock price.\n* UNKNOWN guidance and analyst expectations make it impossible to determine if the recent performance was a \"beat\" or \"miss\" relative to market sentiment.\n\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Absence of forward-looking guidance and analyst estimates in the provided data.",
+      "technical_analyst": "1) EVIDENCE:\n* MACD: The MACD (0.1336) has crossed above the Signal line (-1.0271) with a positive histogram (1.1607), signaling a strong bullish trend reversal.\n* RSI: A reading of 66.44 indicates strong upward momentum with remaining room before reaching the overbought threshold (70).\n* Volume & Price: A Volume Ratio of 1.44 accompanying an 8.41% 5-day price surge confirms high-conviction buying as the price cleared the SMA_50 (99.74).\n\n2) SUPPORT: 99.74\n3) RESISTANCE: UNKNOWN\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The current price (104.85) is trading above the Upper Bollinger Band (103.48), suggesting a potential short-term pullback or consolidation due to overextension.",
+      "news_harvester": "1) CATALYSTS:\n- No XOM-specific news in provided articles -> No direct price signal for the 10-day horizon.\n- Halliburton/Honeywell $1.4B Libya oil field negotiations -> General energy sector sentiment with no direct XOM participation mentioned.\n- Comcast valuation and broadband analysis -> Irrelevant to XOM's business operations or stock performance.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Lack of company-specific data or earnings information in the provided source text."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Total revenue declined from $93.16B (Q4 2022) to $83.64B (Q1 2023), representing a ~10.2% QoQ deceleration in top-line growth.",
+        "primary_risk": "* Sustained QoQ contraction in both revenue and net income suggests a loss of operational momentum that may weigh on the stock price."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "MACD: The MACD (0.1336) has crossed above the Signal line (-1.0271) with a positive histogram (1.1607), signaling a strong bullish trend rev",
+        "primary_risk": "The current price (104.85) is trading above the Upper Bollinger Band (103.48), suggesting a potential short-term pullback or consolidation d"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "No XOM-specific news in provided articles -> No direct price signal for the 10-day horizon.",
+        "primary_risk": "Lack of company-specific data or earnings information in the provided source text."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\nUpside Catalyst Analyst:\n\nTOP_UPSIDE_CATALYSTS:\n- [Technical] MACD crossover above the Signal line with a positive histogram (1.1607) and an RSI of 66.44 -> signals a strong bullish trend reversal with remaining technical headroom to reach the 70 overbought threshold within the next 10 days.\n- [Technical] 8.41% 5-day price surge on a 1.44 Volume Ratio clearing the SMA_50 (99.74) -> confirms high-conviction buying momentum that likely triggers follow-through algorithm and retail bidding following the breakout.\n\nUPSIDE_FAILURE: The current price (104.85) is already trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and due for a near-term pullback.\n\nDownside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n1. [Technical] Current price (104.85) is trading above the Upper Bollinger Band (103.48) with an RSI of 66.44 -> indicates immediate risk of a short-term pullback or consolidation due to overextension following the recent 8.41% 5-day surge.\n2. [Fundamental] Sustained QoQ contraction in revenue (10.2% decline) and net income ($12.75B to $11.43B) -> suggests a loss of operational momentum and cooling short-term profitability that may neutralize current buying conviction within the 10-day window.\n\n- RISK_IRRELEVANCE: Price consolidation that resets the RSI and brings the stock back within Bollinger Bands without breaching the 99.74 support level.",
+      "bull_history": "\n\nUpside Catalyst Analyst:\n\nTOP_UPSIDE_CATALYSTS:\n- [Technical] MACD crossover above the Signal line with a positive histogram (1.1607) and an RSI of 66.44 -> signals a strong bullish trend reversal with remaining technical headroom to reach the 70 overbought threshold within the next 10 days.\n- [Technical] 8.41% 5-day price surge on a 1.44 Volume Ratio clearing the SMA_50 (99.74) -> confirms high-conviction buying momentum that likely triggers follow-through algorithm and retail bidding following the breakout.\n\nUPSIDE_FAILURE: The current price (104.85) is already trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and due for a near-term pullback.",
+      "bear_history": "\n\nDownside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n1. [Technical] Current price (104.85) is trading above the Upper Bollinger Band (103.48) with an RSI of 66.44 -> indicates immediate risk of a short-term pullback or consolidation due to overextension following the recent 8.41% 5-day surge.\n2. [Fundamental] Sustained QoQ contraction in revenue (10.2% decline) and net income ($12.75B to $11.43B) -> suggests a loss of operational momentum and cooling short-term profitability that may neutralize current buying conviction within the 10-day window.\n\n- RISK_IRRELEVANCE: Price consolidation that resets the RSI and brings the stock back within Bollinger Bands without breaching the 99.74 support level.",
+      "current_response": "Downside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n1. [Technical] Current price (104.85) is trading above the Upper Bollinger Band (103.48) with an RSI of 66.44 -> indicates immediate risk of a short-term pullback or consolidation due to overextension following the recent 8.41% 5-day surge.\n2. [Fundamental] Sustained QoQ contraction in revenue (10.2% decline) and net income ($12.75B to $11.43B) -> suggests a loss of operational momentum and cooling short-term profitability that may neutralize current buying conviction within the 10-day window.\n\n- RISK_IRRELEVANCE: Price consolidation that resets the RSI and brings the stock back within Bollinger Bands without breaching the 99.74 support level.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"MACD bullish crossover (0.1336) above the signal line with a positive histogram (1.1607) signaling a strong trend reversal.\",\n    \"High-conviction 8.41% 5-day price surge supported by a 1.44 Volume Ratio, successfully clearing the SMA_50 resistance at 99.74.\",\n    \"RSI of 66.44 indicates strong upward momentum with tactical headroom remaining before reaching the 70 overbought threshold.\"\n  ],\n  \"main_risk\": \"The current price of 104.85 is trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and susceptible to a short-term mean-reversion pullback.\",\n  \"actionability_assessment\": \"The technical breakout on elevated volume provides a clear transmission path for momentum-driven price action over the 10-day horizon. While fundamental QoQ revenue and income declines are noted, they represent lagging data that is currently being superseded by immediate market bidding conviction.\",\n  \"hold_gate_assessment\": \"The directional edge provided by the volume-confirmed breakout and MACD crossover clears the actionability bar; the risk of a Bollinger Band pullback is viewed as a potential consolidation phase within a new uptrend rather than a trend-ending blocker.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\nUpside Catalyst Analyst:\n\nTOP_UPSIDE_CATALYSTS:\n- [Technical] MACD crossover above the Signal line with a positive histogram (1.1607) and an RSI of 66.44 -> signals a strong bullish trend reversal with remaining technical headroom to reach the 70 overbought threshold within the next 10 days.\n- [Technical] 8.41% 5-day price surge on a 1.44 Volume Ratio clearing the SMA_50 (99.74) -> confirms high-conviction buying momentum that likely triggers follow-through algorithm and retail bidding following the breakout.\n\nUPSIDE_FAILURE: The current price (104.85) is already trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and due for a near-term pullback.",
+      "bearish": "\n\nDownside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n1. [Technical] Current price (104.85) is trading above the Upper Bollinger Band (103.48) with an RSI of 66.44 -> indicates immediate risk of a short-term pullback or consolidation due to overextension following the recent 8.41% 5-day surge.\n2. [Fundamental] Sustained QoQ contraction in revenue (10.2% decline) and net income ($12.75B to $11.43B) -> suggests a loss of operational momentum and cooling short-term profitability that may neutralize current buying conviction within the 10-day window.\n\n- RISK_IRRELEVANCE: Price consolidation that resets the RSI and brings the stock back within Bollinger Bands without breaching the 99.74 support level."
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"MACD bullish crossover (0.1336) above the signal line with a positive histogram (1.1607) signaling a strong trend reversal.\",\n    \"High-conviction 8.41% 5-day price surge supported by a 1.44 Volume Ratio, successfully clearing the SMA_50 resistance at 99.74.\",\n    \"RSI of 66.44 indicates strong upward momentum with tactical headroom remaining before reaching the 70 overbought threshold.\"\n  ],\n  \"main_risk\": \"The current price of 104.85 is trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and susceptible to a short-term mean-reversion pullback.\",\n  \"actionability_assessment\": \"The technical breakout on elevated volume provides a clear transmission path for momentum-driven price action over the 10-day horizon. While fundamental QoQ revenue and income declines are noted, they represent lagging data that is currently being superseded by immediate market bidding conviction.\",\n  \"hold_gate_assessment\": \"The directional edge provided by the volume-confirmed breakout and MACD crossover clears the actionability bar; the risk of a Bollinger Band pullback is viewed as a potential consolidation phase within a new uptrend rather than a trend-ending blocker.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.0,
+      "sell_score": 4.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "MACD bullish crossover (0.1336) above the signal line with a positive histogram (1.1607) signaling a strong trend reversal.",
+        "High-conviction 8.41% 5-day price surge supported by a 1.44 Volume Ratio, successfully clearing the SMA_50 resistance at 99.74.",
+        "RSI of 66.44 indicates strong upward momentum with tactical headroom remaining before reaching the 70 overbought threshold."
+      ],
+      "main_risk": "The current price of 104.85 is trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and susceptible to a short-term mean-reversion pullback.",
+      "actionability_assessment": "The technical breakout on elevated volume provides a clear transmission path for momentum-driven price action over the 10-day horizon. While fundamental QoQ revenue and income declines are noted, they represent lagging data that is currently being superseded by immediate market bidding conviction.",
+      "hold_gate_assessment": "The directional edge provided by the volume-confirmed breakout and MACD crossover clears the actionability bar; the risk of a Bollinger Band pullback is viewed as a potential consolidation phase within a new uptrend rather than a trend-ending blocker.",
+      "execution_notes": [],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: MACD: The MACD (0.1336) has crossed above the Signal line (-1.0271) with a positive histogram (1.1607), signaling a strong bullish trend rev AGAINST: * Sustained QoQ contraction in both revenue and net income suggests a loss of operational momentum that may weigh on the stock price. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "XOM",
+        "as_of": "2023-04-03",
+        "lookback_days": 14,
+        "window_start": "2023-03-20",
+        "window_end": "2023-04-03",
+        "article_count": 2,
+        "min_published": "2023-03-24T14:50:19",
+        "max_published": "2023-03-29T00:00:00",
+        "articles": [
+          {
+            "title": "Comcast Stock Is a Buy",
+            "source": "Morningstar",
+            "published": "20230329T000000",
+            "url": "https://www.morningstar.com/stocks/comcast-stock-is-buy",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.03493,
+            "relevance_score": 0.610689
+          },
+          {
+            "title": "Halliburton and Honeywell in talks to develop oil fields and refineries in Libya",
+            "source": "Libya Update News - Libya Update News",
+            "published": "20230324T145019",
+            "url": "https://libyaupdate.com/halliburton-and-honeywell-in-talks-to-develop-oil-fields-and-refineries-in-libya/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.34005,
+            "relevance_score": 0.590727
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 56.65
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-04-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Total revenue declined from $93.16B (Q4 2022) to $83.64B (Q1 2023), representing a ~10.2% QoQ deceleration in top-line growth.",
+        "primary_risk": "* Sustained QoQ contraction in both revenue and net income suggests a loss of operational momentum that may weigh on the stock price."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "MACD: The MACD (0.1336) has crossed above the Signal line (-1.0271) with a positive histogram (1.1607), signaling a strong bullish trend rev",
+        "primary_risk": "The current price (104.85) is trading above the Upper Bollinger Band (103.48), suggesting a potential short-term pullback or consolidation d"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "No XOM-specific news in provided articles -> No direct price signal for the 10-day horizon.",
+        "primary_risk": "Lack of company-specific data or earnings information in the provided source text."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Total revenue declined from $93.16B (Q4 2022) to $83.64B (Q1 2023), representing a ~10.2% QoQ deceleration in top-line growth.\n* Net income followed a downward trajectory, falling from $12.75B to $11.43B QoQ, indicating cooling short-term profitability momentum.\n* Despite the slowdown, the company maintains a healthy current ratio of 1.46 and generated $16.34B in free cash flow in the most recent quarter.\n\n2) RISKS:\n* Sustained QoQ contraction in both revenue and net income suggests a loss of operational momentum that may weigh on the stock price.\n* UNKNOWN guidance and analyst expectations make it impossible to determine if the recent performance was a \"beat\" or \"miss\" relative to market sentiment.\n\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Absence of forward-looking guidance and analyst estimates in the provided data.",
+      "technical_analyst": "1) EVIDENCE:\n* MACD: The MACD (0.1336) has crossed above the Signal line (-1.0271) with a positive histogram (1.1607), signaling a strong bullish trend reversal.\n* RSI: A reading of 66.44 indicates strong upward momentum with remaining room before reaching the overbought threshold (70).\n* Volume & Price: A Volume Ratio of 1.44 accompanying an 8.41% 5-day price surge confirms high-conviction buying as the price cleared the SMA_50 (99.74).\n\n2) SUPPORT: 99.74\n3) RESISTANCE: UNKNOWN\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The current price (104.85) is trading above the Upper Bollinger Band (103.48), suggesting a potential short-term pullback or consolidation due to overextension.",
+      "news_harvester": "1) CATALYSTS:\n- No XOM-specific news in provided articles -> No direct price signal for the 10-day horizon.\n- Halliburton/Honeywell $1.4B Libya oil field negotiations -> General energy sector sentiment with no direct XOM participation mentioned.\n- Comcast valuation and broadband analysis -> Irrelevant to XOM's business operations or stock performance.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Lack of company-specific data or earnings information in the provided source text."
+    },
+    "investment_debate_state": {
+      "history": "\n\nUpside Catalyst Analyst:\n\nTOP_UPSIDE_CATALYSTS:\n- [Technical] MACD crossover above the Signal line with a positive histogram (1.1607) and an RSI of 66.44 -> signals a strong bullish trend reversal with remaining technical headroom to reach the 70 overbought threshold within the next 10 days.\n- [Technical] 8.41% 5-day price surge on a 1.44 Volume Ratio clearing the SMA_50 (99.74) -> confirms high-conviction buying momentum that likely triggers follow-through algorithm and retail bidding following the breakout.\n\nUPSIDE_FAILURE: The current price (104.85) is already trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and due for a near-term pullback.\n\nDownside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n1. [Technical] Current price (104.85) is trading above the Upper Bollinger Band (103.48) with an RSI of 66.44 -> indicates immediate risk of a short-term pullback or consolidation due to overextension following the recent 8.41% 5-day surge.\n2. [Fundamental] Sustained QoQ contraction in revenue (10.2% decline) and net income ($12.75B to $11.43B) -> suggests a loss of operational momentum and cooling short-term profitability that may neutralize current buying conviction within the 10-day window.\n\n- RISK_IRRELEVANCE: Price consolidation that resets the RSI and brings the stock back within Bollinger Bands without breaching the 99.74 support level.",
+      "bull_history": "\n\nUpside Catalyst Analyst:\n\nTOP_UPSIDE_CATALYSTS:\n- [Technical] MACD crossover above the Signal line with a positive histogram (1.1607) and an RSI of 66.44 -> signals a strong bullish trend reversal with remaining technical headroom to reach the 70 overbought threshold within the next 10 days.\n- [Technical] 8.41% 5-day price surge on a 1.44 Volume Ratio clearing the SMA_50 (99.74) -> confirms high-conviction buying momentum that likely triggers follow-through algorithm and retail bidding following the breakout.\n\nUPSIDE_FAILURE: The current price (104.85) is already trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and due for a near-term pullback.",
+      "bear_history": "\n\nDownside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n1. [Technical] Current price (104.85) is trading above the Upper Bollinger Band (103.48) with an RSI of 66.44 -> indicates immediate risk of a short-term pullback or consolidation due to overextension following the recent 8.41% 5-day surge.\n2. [Fundamental] Sustained QoQ contraction in revenue (10.2% decline) and net income ($12.75B to $11.43B) -> suggests a loss of operational momentum and cooling short-term profitability that may neutralize current buying conviction within the 10-day window.\n\n- RISK_IRRELEVANCE: Price consolidation that resets the RSI and brings the stock back within Bollinger Bands without breaching the 99.74 support level.",
+      "current_response": "Downside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n1. [Technical] Current price (104.85) is trading above the Upper Bollinger Band (103.48) with an RSI of 66.44 -> indicates immediate risk of a short-term pullback or consolidation due to overextension following the recent 8.41% 5-day surge.\n2. [Fundamental] Sustained QoQ contraction in revenue (10.2% decline) and net income ($12.75B to $11.43B) -> suggests a loss of operational momentum and cooling short-term profitability that may neutralize current buying conviction within the 10-day window.\n\n- RISK_IRRELEVANCE: Price consolidation that resets the RSI and brings the stock back within Bollinger Bands without breaching the 99.74 support level.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"MACD bullish crossover (0.1336) above the signal line with a positive histogram (1.1607) signaling a strong trend reversal.\",\n    \"High-conviction 8.41% 5-day price surge supported by a 1.44 Volume Ratio, successfully clearing the SMA_50 resistance at 99.74.\",\n    \"RSI of 66.44 indicates strong upward momentum with tactical headroom remaining before reaching the 70 overbought threshold.\"\n  ],\n  \"main_risk\": \"The current price of 104.85 is trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and susceptible to a short-term mean-reversion pullback.\",\n  \"actionability_assessment\": \"The technical breakout on elevated volume provides a clear transmission path for momentum-driven price action over the 10-day horizon. While fundamental QoQ revenue and income declines are noted, they represent lagging data that is currently being superseded by immediate market bidding conviction.\",\n  \"hold_gate_assessment\": \"The directional edge provided by the volume-confirmed breakout and MACD crossover clears the actionability bar; the risk of a Bollinger Band pullback is viewed as a potential consolidation phase within a new uptrend rather than a trend-ending blocker.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"MACD bullish crossover (0.1336) above the signal line with a positive histogram (1.1607) signaling a strong trend reversal.\",\n    \"High-conviction 8.41% 5-day price surge supported by a 1.44 Volume Ratio, successfully clearing the SMA_50 resistance at 99.74.\",\n    \"RSI of 66.44 indicates strong upward momentum with tactical headroom remaining before reaching the 70 overbought threshold.\"\n  ],\n  \"main_risk\": \"The current price of 104.85 is trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and susceptible to a short-term mean-reversion pullback.\",\n  \"actionability_assessment\": \"The technical breakout on elevated volume provides a clear transmission path for momentum-driven price action over the 10-day horizon. While fundamental QoQ revenue and income declines are noted, they represent lagging data that is currently being superseded by immediate market bidding conviction.\",\n  \"hold_gate_assessment\": \"The directional edge provided by the volume-confirmed breakout and MACD crossover clears the actionability bar; the risk of a Bollinger Band pullback is viewed as a potential consolidation phase within a new uptrend rather than a trend-ending blocker.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.0,
+      "sell_score": 4.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "MACD bullish crossover (0.1336) above the signal line with a positive histogram (1.1607) signaling a strong trend reversal.",
+        "High-conviction 8.41% 5-day price surge supported by a 1.44 Volume Ratio, successfully clearing the SMA_50 resistance at 99.74.",
+        "RSI of 66.44 indicates strong upward momentum with tactical headroom remaining before reaching the 70 overbought threshold."
+      ],
+      "main_risk": "The current price of 104.85 is trading above the Upper Bollinger Band (103.48), suggesting the stock is technically overextended and susceptible to a short-term mean-reversion pullback.",
+      "actionability_assessment": "The technical breakout on elevated volume provides a clear transmission path for momentum-driven price action over the 10-day horizon. While fundamental QoQ revenue and income declines are noted, they represent lagging data that is currently being superseded by immediate market bidding conviction.",
+      "hold_gate_assessment": "The directional edge provided by the volume-confirmed breakout and MACD crossover clears the actionability bar; the risk of a Bollinger Band pullback is viewed as a potential consolidation phase within a new uptrend rather than a trend-ending blocker.",
+      "execution_notes": [],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: MACD: The MACD (0.1336) has crossed above the Signal line (-1.0271) with a positive histogram (1.1607), signaling a strong bullish trend rev AGAINST: * Sustained QoQ contraction in both revenue and net income suggests a loss of operational momentum that may weigh on the stock price. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 56.65,
+    "memory_id": null
+  }
+}

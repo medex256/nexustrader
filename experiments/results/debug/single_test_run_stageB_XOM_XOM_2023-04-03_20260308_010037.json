@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "created_at": "2026-03-08T01:00:37",
+    "started_at": "2026-03-08T00:55:30",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_run_stageB_XOM"
+  },
+  "request_payload": {
+    "ticker": "XOM",
+    "market": "US",
+    "simulated_date": "2023-04-03",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "XOM",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-04-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2023-04-03",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Q1 2023 revenue of $83.64B reflects a 10.2% QoQ deceleration from $93.16B in Q4 2022, indicating a cooling of short-term top-line momentum.\n* Net income contracted 10.3% QoQ to $11.43B, signaling a reduction in absolute profitability heading into the current period.\n* Despite the earnings dip, liquidity remains stable with a current ratio of 1.46 and robust quarterly operating cash flow of $16.34B.\n\n2) RISKS:\n* Continued sequential declines in revenue and net income could trigger short-term bearish sentiment.\n* UNKNOWN: Specific guidance revisions and near-term catalysts are not present in the provided data.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: The lack of forward-looking guidance or analyst ratings in the provided dataset.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI at 66.44 -> Strong bullish momentum approaching overbought territory, suggesting room for further short-term gains.\n* MACD (0.13) vs Signal (-1.03) -> A clear bullish crossover with a positive histogram (1.16) confirms a trend reversal to the upside.\n* Price vs Bollinger Bands -> Current price (104.85) has breached the Upper Band (103.48) on high volume (1.44 ratio), indicating a powerful breakout.\n\n2) SUPPORT: 103.48\n3) RESISTANCE: UNKNOWN\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Trading above the Upper Bollinger Band often triggers short-term mean reversion or consolidation.",
+      "news_harvester": "1) CATALYSTS:\n- Lack of XOM-specific news -> No direct price movement expected within the 10-day horizon.\n- Halliburton/Honeywell Libya deals -> Indirect energy sector sentiment boost; no stated impact on XOM.\n- Comcast fair value estimate -> No relevance to XOM valuation or market position.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Provided news sources contain no information regarding Exxon Mobil (XOM)."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Q1 2023 revenue of $83.64B reflects a 10.2% QoQ deceleration from $93.16B in Q4 2022, indicating a cooling of short-term top-line momentum.",
+        "primary_risk": "* Continued sequential declines in revenue and net income could trigger short-term bearish sentiment."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI at 66.44 -> Strong bullish momentum approaching overbought territory, suggesting room for further short-term gains.",
+        "primary_risk": "Trading above the Upper Bollinger Band often triggers short-term mean reversion or consolidation."
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "Lack of XOM-specific news -> No direct price movement expected within the 10-day horizon.",
+        "primary_risk": "Provided news sources contain no information regarding Exxon Mobil (XOM)."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\nEvidence Filter Analyst:\n\n- ACTIONABLE_UPSIDE:\n    - [Technical] MACD bullish crossover (0.13 vs -1.03) and positive histogram (1.16) -> Clear trend reversal signal and momentum suggesting further short-term gains within the 10-day window.\n    - [Technical] Price (104.85) breakout above Upper Bollinger Band (103.48) on high relative volume (1.44) -> Indicates a powerful momentum-driven breakout likely to persist in the immediate term.\n\n- ACTIONABLE_DOWNSIDE:\n    - [Technical] Breach of Upper Bollinger Band -> Trading above the band often triggers immediate mean reversion or consolidation, potentially capping the 10-day upside.\n    - [Fundamental] Sequential 10.2% revenue deceleration and 10.3% net income contraction -> Cooling short-term momentum in absolute profitability creates fundamental friction against technical rallies.\n\n- BACKGROUND_CONTEXT:\n    - [Fundamental] Strong liquidity (1.46 current ratio) and $16.34B in operating cash flow provide a defensive floor but lack a specific catalyst for the current horizon.\n\n- ACTIONABILITY_VERDICT:\nShort-term action is driven by a strong technical breakout and MACD reversal, though price extension above the Bollinger Band suggests a high risk of mean reversion within the 10-day window.",
+      "bull_history": "\n\nEvidence Filter Analyst:\n\n- ACTIONABLE_UPSIDE:\n    - [Technical] MACD bullish crossover (0.13 vs -1.03) and positive histogram (1.16) -> Clear trend reversal signal and momentum suggesting further short-term gains within the 10-day window.\n    - [Technical] Price (104.85) breakout above Upper Bollinger Band (103.48) on high relative volume (1.44) -> Indicates a powerful momentum-driven breakout likely to persist in the immediate term.\n\n- ACTIONABLE_DOWNSIDE:\n    - [Technical] Breach of Upper Bollinger Band -> Trading above the band often triggers immediate mean reversion or consolidation, potentially capping the 10-day upside.\n    - [Fundamental] Sequential 10.2% revenue deceleration and 10.3% net income contraction -> Cooling short-term momentum in absolute profitability creates fundamental friction against technical rallies.\n\n- BACKGROUND_CONTEXT:\n    - [Fundamental] Strong liquidity (1.46 current ratio) and $16.34B in operating cash flow provide a defensive floor but lack a specific catalyst for the current horizon.\n\n- ACTIONABILITY_VERDICT:\nShort-term action is driven by a strong technical breakout and MACD reversal, though price extension above the Bollinger Band suggests a high risk of mean reversion within the 10-day window.",
+      "bear_history": "",
+      "current_response": "Evidence Filter Analyst:\n\n- ACTIONABLE_UPSIDE:\n    - [Technical] MACD bullish crossover (0.13 vs -1.03) and positive histogram (1.16) -> Clear trend reversal signal and momentum suggesting further short-term gains within the 10-day window.\n    - [Technical] Price (104.85) breakout above Upper Bollinger Band (103.48) on high relative volume (1.44) -> Indicates a powerful momentum-driven breakout likely to persist in the immediate term.\n\n- ACTIONABLE_DOWNSIDE:\n    - [Technical] Breach of Upper Bollinger Band -> Trading above the band often triggers immediate mean reversion or consolidation, potentially capping the 10-day upside.\n    - [Fundamental] Sequential 10.2% revenue deceleration and 10.3% net income contraction -> Cooling short-term momentum in absolute profitability creates fundamental friction against technical rallies.\n\n- BACKGROUND_CONTEXT:\n    - [Fundamental] Strong liquidity (1.46 current ratio) and $16.34B in operating cash flow provide a defensive floor but lack a specific catalyst for the current horizon.\n\n- ACTIONABILITY_VERDICT:\nShort-term action is driven by a strong technical breakout and MACD reversal, though price extension above the Bollinger Band suggests a high risk of mean reversion within the 10-day window.",
+      "current_speaker": "Evidence Filter Analyst",
+      "count": 1,
+      "judge_decision": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"MACD bullish crossover (0.13 vs -1.03) with a positive histogram of 1.16, signaling a fresh trend reversal and momentum shift.\",\n    \"Price breakout at 104.85 above the Upper Bollinger Band (103.48) confirmed by high relative volume (1.44), indicating strong immediate-term buying pressure.\"\n  ],\n  \"main_risk\": \"Short-term mean reversion or consolidation typically triggered when price extends beyond the Upper Bollinger Band.\",\n  \"actionability_assessment\": \"The technical breakout and MACD reversal provide a clear transmission path for price appreciation within the 10-day window. While fundamental revenue and income deceleration (10.2% and 10.3% respectively) act as a drag, they are backward-looking and likely secondary to the current momentum-driven technical setup.\",\n  \"hold_gate_assessment\": \"The decision to BUY clears the actionability bar because the technical signals (MACD, Volume, and BB breakout) are synchronized and suggest a powerful short-term trend that outweighs the cooling fundamental data in a 10-day horizon.\",\n  \"execution_notes\": [\n    \"Monitor for RSI exceeding 70 as a signal for potential exhaustion.\",\n    \"Watch for price closing back inside the Bollinger Band as an early exit signal.\",\n    \"Note that the lack of XOM-specific news reduces the risk of sudden fundamental shocks during this trade.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\nEvidence Filter Analyst:\n\n- ACTIONABLE_UPSIDE:\n    - [Technical] MACD bullish crossover (0.13 vs -1.03) and positive histogram (1.16) -> Clear trend reversal signal and momentum suggesting further short-term gains within the 10-day window.\n    - [Technical] Price (104.85) breakout above Upper Bollinger Band (103.48) on high relative volume (1.44) -> Indicates a powerful momentum-driven breakout likely to persist in the immediate term.\n\n- ACTIONABLE_DOWNSIDE:\n    - [Technical] Breach of Upper Bollinger Band -> Trading above the band often triggers immediate mean reversion or consolidation, potentially capping the 10-day upside.\n    - [Fundamental] Sequential 10.2% revenue deceleration and 10.3% net income contraction -> Cooling short-term momentum in absolute profitability creates fundamental friction against technical rallies.\n\n- BACKGROUND_CONTEXT:\n    - [Fundamental] Strong liquidity (1.46 current ratio) and $16.34B in operating cash flow provide a defensive floor but lack a specific catalyst for the current horizon.\n\n- ACTIONABILITY_VERDICT:\nShort-term action is driven by a strong technical breakout and MACD reversal, though price extension above the Bollinger Band suggests a high risk of mean reversion within the 10-day window."
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"MACD bullish crossover (0.13 vs -1.03) with a positive histogram of 1.16, signaling a fresh trend reversal and momentum shift.\",\n    \"Price breakout at 104.85 above the Upper Bollinger Band (103.48) confirmed by high relative volume (1.44), indicating strong immediate-term buying pressure.\"\n  ],\n  \"main_risk\": \"Short-term mean reversion or consolidation typically triggered when price extends beyond the Upper Bollinger Band.\",\n  \"actionability_assessment\": \"The technical breakout and MACD reversal provide a clear transmission path for price appreciation within the 10-day window. While fundamental revenue and income deceleration (10.2% and 10.3% respectively) act as a drag, they are backward-looking and likely secondary to the current momentum-driven technical setup.\",\n  \"hold_gate_assessment\": \"The decision to BUY clears the actionability bar because the technical signals (MACD, Volume, and BB breakout) are synchronized and suggest a powerful short-term trend that outweighs the cooling fundamental data in a 10-day horizon.\",\n  \"execution_notes\": [\n    \"Monitor for RSI exceeding 70 as a signal for potential exhaustion.\",\n    \"Watch for price closing back inside the Bollinger Band as an early exit signal.\",\n    \"Note that the lack of XOM-specific news reduces the risk of sudden fundamental shocks during this trade.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.0,
+      "sell_score": 4.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "MACD bullish crossover (0.13 vs -1.03) with a positive histogram of 1.16, signaling a fresh trend reversal and momentum shift.",
+        "Price breakout at 104.85 above the Upper Bollinger Band (103.48) confirmed by high relative volume (1.44), indicating strong immediate-term buying pressure."
+      ],
+      "main_risk": "Short-term mean reversion or consolidation typically triggered when price extends beyond the Upper Bollinger Band.",
+      "actionability_assessment": "The technical breakout and MACD reversal provide a clear transmission path for price appreciation within the 10-day window. While fundamental revenue and income deceleration (10.2% and 10.3% respectively) act as a drag, they are backward-looking and likely secondary to the current momentum-driven technical setup.",
+      "hold_gate_assessment": "The decision to BUY clears the actionability bar because the technical signals (MACD, Volume, and BB breakout) are synchronized and suggest a powerful short-term trend that outweighs the cooling fundamental data in a 10-day horizon.",
+      "execution_notes": [
+        "Monitor for RSI exceeding 70 as a signal for potential exhaustion.",
+        "Watch for price closing back inside the Bollinger Band as an early exit signal.",
+        "Note that the lack of XOM-specific news reduces the risk of sudden fundamental shocks during this trade."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: RSI at 66.44 -> Strong bullish momentum approaching overbought territory, suggesting room for further short-term gains. AGAINST: Short-term mean reversion or consolidation typically triggered when price extends beyond the Upper Bollinger Band. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "XOM",
+        "as_of": "2023-04-03",
+        "lookback_days": 14,
+        "window_start": "2023-03-20",
+        "window_end": "2023-04-03",
+        "article_count": 2,
+        "min_published": "2023-03-24T14:50:19",
+        "max_published": "2023-03-29T00:00:00",
+        "articles": [
+          {
+            "title": "Comcast Stock Is a Buy",
+            "source": "Morningstar",
+            "published": "20230329T000000",
+            "url": "https://www.morningstar.com/stocks/comcast-stock-is-buy",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.03493,
+            "relevance_score": 0.610689
+          },
+          {
+            "title": "Halliburton and Honeywell in talks to develop oil fields and refineries in Libya",
+            "source": "Libya Update News - Libya Update News",
+            "published": "20230324T145019",
+            "url": "https://libyaupdate.com/halliburton-and-honeywell-in-talks-to-develop-oil-fields-and-refineries-in-libya/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.34005,
+            "relevance_score": 0.590727
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 306.75
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-04-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Q1 2023 revenue of $83.64B reflects a 10.2% QoQ deceleration from $93.16B in Q4 2022, indicating a cooling of short-term top-line momentum.",
+        "primary_risk": "* Continued sequential declines in revenue and net income could trigger short-term bearish sentiment."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI at 66.44 -> Strong bullish momentum approaching overbought territory, suggesting room for further short-term gains.",
+        "primary_risk": "Trading above the Upper Bollinger Band often triggers short-term mean reversion or consolidation."
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "Lack of XOM-specific news -> No direct price movement expected within the 10-day horizon.",
+        "primary_risk": "Provided news sources contain no information regarding Exxon Mobil (XOM)."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Q1 2023 revenue of $83.64B reflects a 10.2% QoQ deceleration from $93.16B in Q4 2022, indicating a cooling of short-term top-line momentum.\n* Net income contracted 10.3% QoQ to $11.43B, signaling a reduction in absolute profitability heading into the current period.\n* Despite the earnings dip, liquidity remains stable with a current ratio of 1.46 and robust quarterly operating cash flow of $16.34B.\n\n2) RISKS:\n* Continued sequential declines in revenue and net income could trigger short-term bearish sentiment.\n* UNKNOWN: Specific guidance revisions and near-term catalysts are not present in the provided data.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: The lack of forward-looking guidance or analyst ratings in the provided dataset.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI at 66.44 -> Strong bullish momentum approaching overbought territory, suggesting room for further short-term gains.\n* MACD (0.13) vs Signal (-1.03) -> A clear bullish crossover with a positive histogram (1.16) confirms a trend reversal to the upside.\n* Price vs Bollinger Bands -> Current price (104.85) has breached the Upper Band (103.48) on high volume (1.44 ratio), indicating a powerful breakout.\n\n2) SUPPORT: 103.48\n3) RESISTANCE: UNKNOWN\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Trading above the Upper Bollinger Band often triggers short-term mean reversion or consolidation.",
+      "news_harvester": "1) CATALYSTS:\n- Lack of XOM-specific news -> No direct price movement expected within the 10-day horizon.\n- Halliburton/Honeywell Libya deals -> Indirect energy sector sentiment boost; no stated impact on XOM.\n- Comcast fair value estimate -> No relevance to XOM valuation or market position.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Provided news sources contain no information regarding Exxon Mobil (XOM)."
+    },
+    "investment_debate_state": {
+      "history": "\n\nEvidence Filter Analyst:\n\n- ACTIONABLE_UPSIDE:\n    - [Technical] MACD bullish crossover (0.13 vs -1.03) and positive histogram (1.16) -> Clear trend reversal signal and momentum suggesting further short-term gains within the 10-day window.\n    - [Technical] Price (104.85) breakout above Upper Bollinger Band (103.48) on high relative volume (1.44) -> Indicates a powerful momentum-driven breakout likely to persist in the immediate term.\n\n- ACTIONABLE_DOWNSIDE:\n    - [Technical] Breach of Upper Bollinger Band -> Trading above the band often triggers immediate mean reversion or consolidation, potentially capping the 10-day upside.\n    - [Fundamental] Sequential 10.2% revenue deceleration and 10.3% net income contraction -> Cooling short-term momentum in absolute profitability creates fundamental friction against technical rallies.\n\n- BACKGROUND_CONTEXT:\n    - [Fundamental] Strong liquidity (1.46 current ratio) and $16.34B in operating cash flow provide a defensive floor but lack a specific catalyst for the current horizon.\n\n- ACTIONABILITY_VERDICT:\nShort-term action is driven by a strong technical breakout and MACD reversal, though price extension above the Bollinger Band suggests a high risk of mean reversion within the 10-day window.",
+      "bull_history": "\n\nEvidence Filter Analyst:\n\n- ACTIONABLE_UPSIDE:\n    - [Technical] MACD bullish crossover (0.13 vs -1.03) and positive histogram (1.16) -> Clear trend reversal signal and momentum suggesting further short-term gains within the 10-day window.\n    - [Technical] Price (104.85) breakout above Upper Bollinger Band (103.48) on high relative volume (1.44) -> Indicates a powerful momentum-driven breakout likely to persist in the immediate term.\n\n- ACTIONABLE_DOWNSIDE:\n    - [Technical] Breach of Upper Bollinger Band -> Trading above the band often triggers immediate mean reversion or consolidation, potentially capping the 10-day upside.\n    - [Fundamental] Sequential 10.2% revenue deceleration and 10.3% net income contraction -> Cooling short-term momentum in absolute profitability creates fundamental friction against technical rallies.\n\n- BACKGROUND_CONTEXT:\n    - [Fundamental] Strong liquidity (1.46 current ratio) and $16.34B in operating cash flow provide a defensive floor but lack a specific catalyst for the current horizon.\n\n- ACTIONABILITY_VERDICT:\nShort-term action is driven by a strong technical breakout and MACD reversal, though price extension above the Bollinger Band suggests a high risk of mean reversion within the 10-day window.",
+      "bear_history": "",
+      "current_response": "Evidence Filter Analyst:\n\n- ACTIONABLE_UPSIDE:\n    - [Technical] MACD bullish crossover (0.13 vs -1.03) and positive histogram (1.16) -> Clear trend reversal signal and momentum suggesting further short-term gains within the 10-day window.\n    - [Technical] Price (104.85) breakout above Upper Bollinger Band (103.48) on high relative volume (1.44) -> Indicates a powerful momentum-driven breakout likely to persist in the immediate term.\n\n- ACTIONABLE_DOWNSIDE:\n    - [Technical] Breach of Upper Bollinger Band -> Trading above the band often triggers immediate mean reversion or consolidation, potentially capping the 10-day upside.\n    - [Fundamental] Sequential 10.2% revenue deceleration and 10.3% net income contraction -> Cooling short-term momentum in absolute profitability creates fundamental friction against technical rallies.\n\n- BACKGROUND_CONTEXT:\n    - [Fundamental] Strong liquidity (1.46 current ratio) and $16.34B in operating cash flow provide a defensive floor but lack a specific catalyst for the current horizon.\n\n- ACTIONABILITY_VERDICT:\nShort-term action is driven by a strong technical breakout and MACD reversal, though price extension above the Bollinger Band suggests a high risk of mean reversion within the 10-day window.",
+      "current_speaker": "Evidence Filter Analyst",
+      "count": 1,
+      "judge_decision": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"MACD bullish crossover (0.13 vs -1.03) with a positive histogram of 1.16, signaling a fresh trend reversal and momentum shift.\",\n    \"Price breakout at 104.85 above the Upper Bollinger Band (103.48) confirmed by high relative volume (1.44), indicating strong immediate-term buying pressure.\"\n  ],\n  \"main_risk\": \"Short-term mean reversion or consolidation typically triggered when price extends beyond the Upper Bollinger Band.\",\n  \"actionability_assessment\": \"The technical breakout and MACD reversal provide a clear transmission path for price appreciation within the 10-day window. While fundamental revenue and income deceleration (10.2% and 10.3% respectively) act as a drag, they are backward-looking and likely secondary to the current momentum-driven technical setup.\",\n  \"hold_gate_assessment\": \"The decision to BUY clears the actionability bar because the technical signals (MACD, Volume, and BB breakout) are synchronized and suggest a powerful short-term trend that outweighs the cooling fundamental data in a 10-day horizon.\",\n  \"execution_notes\": [\n    \"Monitor for RSI exceeding 70 as a signal for potential exhaustion.\",\n    \"Watch for price closing back inside the Bollinger Band as an early exit signal.\",\n    \"Note that the lack of XOM-specific news reduces the risk of sudden fundamental shocks during this trade.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.0,\n  \"sell_score\": 4.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"MACD bullish crossover (0.13 vs -1.03) with a positive histogram of 1.16, signaling a fresh trend reversal and momentum shift.\",\n    \"Price breakout at 104.85 above the Upper Bollinger Band (103.48) confirmed by high relative volume (1.44), indicating strong immediate-term buying pressure.\"\n  ],\n  \"main_risk\": \"Short-term mean reversion or consolidation typically triggered when price extends beyond the Upper Bollinger Band.\",\n  \"actionability_assessment\": \"The technical breakout and MACD reversal provide a clear transmission path for price appreciation within the 10-day window. While fundamental revenue and income deceleration (10.2% and 10.3% respectively) act as a drag, they are backward-looking and likely secondary to the current momentum-driven technical setup.\",\n  \"hold_gate_assessment\": \"The decision to BUY clears the actionability bar because the technical signals (MACD, Volume, and BB breakout) are synchronized and suggest a powerful short-term trend that outweighs the cooling fundamental data in a 10-day horizon.\",\n  \"execution_notes\": [\n    \"Monitor for RSI exceeding 70 as a signal for potential exhaustion.\",\n    \"Watch for price closing back inside the Bollinger Band as an early exit signal.\",\n    \"Note that the lack of XOM-specific news reduces the risk of sudden fundamental shocks during this trade.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.0,
+      "sell_score": 4.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "MACD bullish crossover (0.13 vs -1.03) with a positive histogram of 1.16, signaling a fresh trend reversal and momentum shift.",
+        "Price breakout at 104.85 above the Upper Bollinger Band (103.48) confirmed by high relative volume (1.44), indicating strong immediate-term buying pressure."
+      ],
+      "main_risk": "Short-term mean reversion or consolidation typically triggered when price extends beyond the Upper Bollinger Band.",
+      "actionability_assessment": "The technical breakout and MACD reversal provide a clear transmission path for price appreciation within the 10-day window. While fundamental revenue and income deceleration (10.2% and 10.3% respectively) act as a drag, they are backward-looking and likely secondary to the current momentum-driven technical setup.",
+      "hold_gate_assessment": "The decision to BUY clears the actionability bar because the technical signals (MACD, Volume, and BB breakout) are synchronized and suggest a powerful short-term trend that outweighs the cooling fundamental data in a 10-day horizon.",
+      "execution_notes": [
+        "Monitor for RSI exceeding 70 as a signal for potential exhaustion.",
+        "Watch for price closing back inside the Bollinger Band as an early exit signal.",
+        "Note that the lack of XOM-specific news reduces the risk of sudden fundamental shocks during this trade."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: RSI at 66.44 -> Strong bullish momentum approaching overbought territory, suggesting room for further short-term gains. AGAINST: Short-term mean reversion or consolidation typically triggered when price extends beyond the Upper Bollinger Band. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 306.75,
+    "memory_id": null
+  }
+}

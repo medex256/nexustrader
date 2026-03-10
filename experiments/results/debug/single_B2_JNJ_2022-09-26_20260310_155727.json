@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "created_at": "2026-03-10T15:57:27",
+    "started_at": "2026-03-10T15:56:29",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "B2"
+  },
+  "request_payload": {
+    "ticker": "JNJ",
+    "market": "US",
+    "simulated_date": "2022-09-26",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "JNJ",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-09-26",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2022-09-26",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **Revenue Acceleration:** Q2 2022 revenue grew 2.5% QoQ to $24.02B, showing steady top-line momentum.\n* **Operating Leverage:** Operating income increased 5.7% QoQ, outpacing revenue growth and indicating improved operational efficiency despite inflationary pressures.\n* **Liquidity Stability:** A current ratio of 1.42 confirms a healthy short-term financial position with no immediate liquidity stress.\n\n2) RISKS:\n* **Net Income Volatility:** Net income fell 6.6% QoQ, primarily due to a $333M negative swing in non-operating income, creating bottom-line noise.\n* **Gross Margin Compression:** Gross margins slipped from 67.6% to 67.0% sequentially, signaling rising costs of goods sold.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: LOW\n5) KEY_UNCERTAINTY: Sustainability of operating income growth in the face of declining gross margins and non-operating volatility.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (149.49) > SMA_20 (148.44) -> Buyers have reclaimed the short-term trend line, establishing a base for a 10-day recovery.\n* MACD Histogram (0.3662) is positive with a signal line crossover -> Momentum is accelerating upward from depressed levels, supporting a short-term relief rally.\n* Volume Ratio (1.12) -> Above-average volume confirms the recent price stabilization above the SMA_20, indicating active buyer participation.\n\n2) SUPPORT: 148.44\n3) RESISTANCE: 150.95\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The SMA_50 at 150.95 sits immediately above the current price and may act as a hard ceiling, potentially triggering a rejection while RSI remains neutral at 49.8.",
+      "news_harvester": "1) CATALYSTS:\n- Settlement of Australian pelvic mesh class action for $205 million resolves a major product-liability litigation involving over 11,000 claimants.\n- Opening of a 200,000 sq ft Bay Area R&D campus consolidates Janssen and technology units to accelerate gene and RNA therapy development.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Ongoing legal uncertainty and controversy surrounding the \"Texas two-step\" bankruptcy strategy for talcum powder litigation."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "**Revenue Acceleration:** Q2 2022 revenue grew 2.5% QoQ to $24.02B, showing steady top-line momentum.",
+        "primary_risk": "* **Net Income Volatility:** Net income fell 6.6% QoQ, primarily due to a $333M negative swing in non-operating income, creating bottom-line"
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (149.49) > SMA_20 (148.44) -> Buyers have reclaimed the short-term trend line, establishing a base for a 10-day recovery.",
+        "primary_risk": "The SMA_50 at 150.95 sits immediately above the current price and may act as a hard ceiling, potentially triggering a rejection while RSI re"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Settlement of Australian pelvic mesh class action for $205 million resolves a major product-liability litigation involving over 11,000 claim",
+        "primary_risk": "Ongoing legal uncertainty and controversy surrounding the \"Texas two-step\" bankruptcy strategy for talcum powder litigation."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: MODERATE\n- UPSIDE_NOTE: A technical relief rally is supported by buyers reclaiming the SMA_20 and positive MACD momentum. This upward trajectory is reinforced by the $205 million Australian pelvic mesh settlement, which resolves a significant legal liability. However, immediate resistance at 150.95 and ongoing talc litigation uncertainty likely cap the 10-day upside potential.\n\nOVERRIDE_STRENGTH: NO_OVERRIDE",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: MODERATE\n- UPSIDE_NOTE: A technical relief rally is supported by buyers reclaiming the SMA_20 and positive MACD momentum. This upward trajectory is reinforced by the $205 million Australian pelvic mesh settlement, which resolves a significant legal liability. However, immediate resistance at 150.95 and ongoing talc litigation uncertainty likely cap the 10-day upside potential.",
+      "bear_history": "\n\nOVERRIDE_STRENGTH: NO_OVERRIDE",
+      "current_response": "OVERRIDE_STRENGTH: NO_OVERRIDE",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"The technical setup shows buyers reclaiming the SMA_20 with positive MACD momentum, supporting a short-term relief rally.\",\n  \"upside_note_impact\": \"MODERATE\",\n  \"downside_note_impact\": \"NO_OVERRIDE\",\n  \"actionability_assessment\": \"The technical breakout above the SMA_20 and positive volume ratio provide a clear near-term path for a recovery.\",\n  \"hold_gate_assessment\": \"No irresolvable uncertainty exists as the downside specialist provided no override to the bullish technical prior.\",\n  \"execution_notes\": [\n    \"Monitor resistance at 150.95 (SMA_50) for potential rejection.\",\n    \"Watch for any new developments in the Texas two-step bankruptcy strategy regarding talc litigation.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- UPSIDE_STRENGTH: MODERATE\n- UPSIDE_NOTE: A technical relief rally is supported by buyers reclaiming the SMA_20 and positive MACD momentum. This upward trajectory is reinforced by the $205 million Australian pelvic mesh settlement, which resolves a significant legal liability. However, immediate resistance at 150.95 and ongoing talc litigation uncertainty likely cap the 10-day upside potential.",
+      "bearish": "\n\nOVERRIDE_STRENGTH: NO_OVERRIDE"
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"The technical setup shows buyers reclaiming the SMA_20 with positive MACD momentum, supporting a short-term relief rally.\",\n  \"upside_note_impact\": \"MODERATE\",\n  \"downside_note_impact\": \"NO_OVERRIDE\",\n  \"actionability_assessment\": \"The technical breakout above the SMA_20 and positive volume ratio provide a clear near-term path for a recovery.\",\n  \"hold_gate_assessment\": \"No irresolvable uncertainty exists as the downside specialist provided no override to the bullish technical prior.\",\n  \"execution_notes\": [\n    \"Monitor resistance at 150.95 (SMA_50) for potential rejection.\",\n    \"Watch for any new developments in the Texas two-step bankruptcy strategy regarding talc litigation.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.5,
+      "primary_drivers": [],
+      "main_risk": "Unknown",
+      "prior_view": "BUY",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "BUY",
+      "base_view_rationale": "The technical setup shows buyers reclaiming the SMA_20 with positive MACD momentum, supporting a short-term relief rally.",
+      "upside_note_impact": "MODERATE",
+      "downside_note_impact": "NO_OVERRIDE",
+      "actionability_assessment": "The technical breakout above the SMA_20 and positive volume ratio provide a clear near-term path for a recovery.",
+      "hold_gate_assessment": "No irresolvable uncertainty exists as the downside specialist provided no override to the bullish technical prior.",
+      "execution_notes": [
+        "Monitor resistance at 150.95 (SMA_50) for potential rejection.",
+        "Watch for any new developments in the Texas two-step bankruptcy strategy regarding talc litigation."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.5,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (149.49) > SMA_20 (148.44) -> Buyers have reclaimed the short-term trend line, establishing a base for a 10-day recovery. AGAINST: Unknown DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "JNJ",
+        "as_of": "2022-09-26",
+        "lookback_days": 14,
+        "window_start": "2022-09-12",
+        "window_end": "2022-09-26",
+        "article_count": 11,
+        "min_published": "2022-09-12T15:24:00",
+        "max_published": "2022-09-26T16:46:41",
+        "articles": [
+          {
+            "title": "J&J launches Bay Area science and technology campus",
+            "source": "www.drugdiscoverytrends.com",
+            "published": "20220920T171642",
+            "url": "https://www.drugdiscoverytrends.com/johnson-johnson-launches-bay-area-science-and-technology-campus/",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.499507,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "Johnson & Johnson Vision announces €100m investment in Limerick",
+            "source": "IDA Ireland",
+            "published": "20220916T171643",
+            "url": "https://www.idaireland.com/latest-news/press-release/johnson-johnson-vision-announces-100m-investment-in-limerick",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.474921,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "J&J reaches $205 million settlement in Australian pelvic mesh class action",
+            "source": "Reuters",
+            "published": "20220912T152400",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/shine-lawyers-reach-settlement-with-jj-australian-pelvic-mesh-class-action-2022-09-12/",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.400691,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "J&J opens new research hub near San Francisco",
+            "source": "BioPharma Dive",
+            "published": "20220920T171642",
+            "url": "https://www.biopharmadive.com/news/johnson-johnson-research-facility-open-san-francisco/632237/",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.401877,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "Johnson & Johnson opens 400-person R&D facility to strengthen Bay Area presence",
+            "source": "Fierce Biotech",
+            "published": "20220920T103600",
+            "url": "https://www.fiercebiotech.com/biotech/jjs-rd-units-move-200k-sq-ft-facility-strengthen-bay-area-presence",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.40329,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "Johnson & Johnson and a New War on Consumer Protection",
+            "source": "The New Yorker",
+            "published": "20220912T171640",
+            "url": "https://www.newyorker.com/magazine/2022/09/19/johnson-johnson-and-a-new-war-on-consumer-protection",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.702906,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "GSK Eases Cervarix Out Of India, Eyes On Trajectory Of Synflorix",
+            "source": "Citeline News & Insights",
+            "published": "20220912T171552",
+            "url": "https://insights.citeline.com/SC147038/GSK-Eases-Cervarix-Out-Of-India-Eyes-On-Trajectory-Of-Synflorix/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.242549,
+            "relevance_score": 0.874309
+          },
+          {
+            "title": "Never Mind Growth vs. Value Stocks, Look to Beta",
+            "source": "Morningstar",
+            "published": "20220920T165548",
+            "url": "https://www.morningstar.com/markets/never-mind-growth-vs-value-stocks-look-beta",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.071665,
+            "relevance_score": 0.688662
+          },
+          {
+            "title": "Theravance, flush with royalty cash, buys shares from GSK",
+            "source": "BioPharma Dive",
+            "published": "20220919T184654",
+            "url": "https://www.biopharmadive.com/news/theravance-gsk-share-buyback-asthma/632146/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.024627,
+            "relevance_score": 0.621067
+          },
+          {
+            "title": "Canadian biotech venture capital firm Lumira starts hedge fund to target oversold public companies",
+            "source": "The Globe and Mail",
+            "published": "20220918T161135",
+            "url": "https://www.theglobeandmail.com/business/article-canadian-biotech-venture-capital-firm-lumira-starts-hedge-fund-to/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.271197,
+            "relevance_score": 0.575617
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 58.75
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-09-26",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "**Revenue Acceleration:** Q2 2022 revenue grew 2.5% QoQ to $24.02B, showing steady top-line momentum.",
+        "primary_risk": "* **Net Income Volatility:** Net income fell 6.6% QoQ, primarily due to a $333M negative swing in non-operating income, creating bottom-line"
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (149.49) > SMA_20 (148.44) -> Buyers have reclaimed the short-term trend line, establishing a base for a 10-day recovery.",
+        "primary_risk": "The SMA_50 at 150.95 sits immediately above the current price and may act as a hard ceiling, potentially triggering a rejection while RSI re"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Settlement of Australian pelvic mesh class action for $205 million resolves a major product-liability litigation involving over 11,000 claim",
+        "primary_risk": "Ongoing legal uncertainty and controversy surrounding the \"Texas two-step\" bankruptcy strategy for talcum powder litigation."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **Revenue Acceleration:** Q2 2022 revenue grew 2.5% QoQ to $24.02B, showing steady top-line momentum.\n* **Operating Leverage:** Operating income increased 5.7% QoQ, outpacing revenue growth and indicating improved operational efficiency despite inflationary pressures.\n* **Liquidity Stability:** A current ratio of 1.42 confirms a healthy short-term financial position with no immediate liquidity stress.\n\n2) RISKS:\n* **Net Income Volatility:** Net income fell 6.6% QoQ, primarily due to a $333M negative swing in non-operating income, creating bottom-line noise.\n* **Gross Margin Compression:** Gross margins slipped from 67.6% to 67.0% sequentially, signaling rising costs of goods sold.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: LOW\n5) KEY_UNCERTAINTY: Sustainability of operating income growth in the face of declining gross margins and non-operating volatility.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (149.49) > SMA_20 (148.44) -> Buyers have reclaimed the short-term trend line, establishing a base for a 10-day recovery.\n* MACD Histogram (0.3662) is positive with a signal line crossover -> Momentum is accelerating upward from depressed levels, supporting a short-term relief rally.\n* Volume Ratio (1.12) -> Above-average volume confirms the recent price stabilization above the SMA_20, indicating active buyer participation.\n\n2) SUPPORT: 148.44\n3) RESISTANCE: 150.95\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The SMA_50 at 150.95 sits immediately above the current price and may act as a hard ceiling, potentially triggering a rejection while RSI remains neutral at 49.8.",
+      "news_harvester": "1) CATALYSTS:\n- Settlement of Australian pelvic mesh class action for $205 million resolves a major product-liability litigation involving over 11,000 claimants.\n- Opening of a 200,000 sq ft Bay Area R&D campus consolidates Janssen and technology units to accelerate gene and RNA therapy development.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Ongoing legal uncertainty and controversy surrounding the \"Texas two-step\" bankruptcy strategy for talcum powder litigation."
+    },
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: MODERATE\n- UPSIDE_NOTE: A technical relief rally is supported by buyers reclaiming the SMA_20 and positive MACD momentum. This upward trajectory is reinforced by the $205 million Australian pelvic mesh settlement, which resolves a significant legal liability. However, immediate resistance at 150.95 and ongoing talc litigation uncertainty likely cap the 10-day upside potential.\n\nOVERRIDE_STRENGTH: NO_OVERRIDE",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: MODERATE\n- UPSIDE_NOTE: A technical relief rally is supported by buyers reclaiming the SMA_20 and positive MACD momentum. This upward trajectory is reinforced by the $205 million Australian pelvic mesh settlement, which resolves a significant legal liability. However, immediate resistance at 150.95 and ongoing talc litigation uncertainty likely cap the 10-day upside potential.",
+      "bear_history": "\n\nOVERRIDE_STRENGTH: NO_OVERRIDE",
+      "current_response": "OVERRIDE_STRENGTH: NO_OVERRIDE",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"The technical setup shows buyers reclaiming the SMA_20 with positive MACD momentum, supporting a short-term relief rally.\",\n  \"upside_note_impact\": \"MODERATE\",\n  \"downside_note_impact\": \"NO_OVERRIDE\",\n  \"actionability_assessment\": \"The technical breakout above the SMA_20 and positive volume ratio provide a clear near-term path for a recovery.\",\n  \"hold_gate_assessment\": \"No irresolvable uncertainty exists as the downside specialist provided no override to the bullish technical prior.\",\n  \"execution_notes\": [\n    \"Monitor resistance at 150.95 (SMA_50) for potential rejection.\",\n    \"Watch for any new developments in the Texas two-step bankruptcy strategy regarding talc litigation.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"The technical setup shows buyers reclaiming the SMA_20 with positive MACD momentum, supporting a short-term relief rally.\",\n  \"upside_note_impact\": \"MODERATE\",\n  \"downside_note_impact\": \"NO_OVERRIDE\",\n  \"actionability_assessment\": \"The technical breakout above the SMA_20 and positive volume ratio provide a clear near-term path for a recovery.\",\n  \"hold_gate_assessment\": \"No irresolvable uncertainty exists as the downside specialist provided no override to the bullish technical prior.\",\n  \"execution_notes\": [\n    \"Monitor resistance at 150.95 (SMA_50) for potential rejection.\",\n    \"Watch for any new developments in the Texas two-step bankruptcy strategy regarding talc litigation.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.5,
+      "primary_drivers": [],
+      "main_risk": "Unknown",
+      "prior_view": "BUY",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "BUY",
+      "base_view_rationale": "The technical setup shows buyers reclaiming the SMA_20 with positive MACD momentum, supporting a short-term relief rally.",
+      "upside_note_impact": "MODERATE",
+      "downside_note_impact": "NO_OVERRIDE",
+      "actionability_assessment": "The technical breakout above the SMA_20 and positive volume ratio provide a clear near-term path for a recovery.",
+      "hold_gate_assessment": "No irresolvable uncertainty exists as the downside specialist provided no override to the bullish technical prior.",
+      "execution_notes": [
+        "Monitor resistance at 150.95 (SMA_50) for potential rejection.",
+        "Watch for any new developments in the Texas two-step bankruptcy strategy regarding talc litigation."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.5,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (149.49) > SMA_20 (148.44) -> Buyers have reclaimed the short-term trend line, establishing a base for a 10-day recovery. AGAINST: Unknown DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 58.75,
+    "memory_id": null
+  }
+}

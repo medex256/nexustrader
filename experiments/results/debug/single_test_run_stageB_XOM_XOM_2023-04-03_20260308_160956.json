@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "created_at": "2026-03-08T16:09:56",
+    "started_at": "2026-03-08T16:08:50",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_run_stageB_XOM"
+  },
+  "request_payload": {
+    "ticker": "XOM",
+    "market": "US",
+    "simulated_date": "2023-04-03",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "XOM",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-04-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2023-04-03",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Total revenue declined 10.2% QoQ from $93.16B to $83.64B -> Indicates significant short-term top-line deceleration heading into the current period.\n* Net income dropped from $12.75B to $11.43B sequentially -> Contraction in profitability suggests a cooling from 2022 peaks.\n* Gross profit fell from $26.97B to $23.96B QoQ -> Direct evidence of weakening operational results in the most recent reported quarter.\n\n2) RISKS:\n* Sequential declines in both revenue and profit may lead to negative price action as growth momentum stalls.\n* UNKNOWN: The lack of analyst estimates and guidance revisions in the data makes it impossible to determine if recent results beat or missed market expectations.\n\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Lack of forward-looking guidance and analyst consensus data to measure against actuals.",
+      "technical_analyst": "1) EVIDENCE:\n* MACD (0.1336) is above the signal line (-1.0271) with a positive histogram (1.1607), signaling strong bullish momentum.\n* Price (104.85) is trading significantly above the SMA_20 (96.28) and SMA_50 (99.74) following an 8.41% 5-day price surge.\n* Volume ratio of 1.44 confirms a high-conviction breakout above the Upper Bollinger Band (103.48).\n\n2) SUPPORT: 103.48\n3) RESISTANCE: UNKNOWN\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Price is currently extended above the Upper Bollinger Band, increasing the risk of short-term mean reversion.",
+      "news_harvester": "1) CATALYSTS:\n- Article 1 focuses on Comcast (CMCSA) fair value and dividends -> No relevance to XOM operations or stock price.\n- Article 2 details Halliburton and Honeywell Libya deals -> No explicit mention of XOM involvement or partnership.\n- General sentiment regarding Libyan investment safety for U.S. firms -> No specific project or signal identified for XOM within the 10-day horizon.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Lack of ticker-specific news in the provided articles prevents actionable 10-day analysis."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Total revenue declined 10.2% QoQ from $93.16B to $83.64B -> Indicates significant short-term top-line deceleration heading into the current ",
+        "primary_risk": "* Sequential declines in both revenue and profit may lead to negative price action as growth momentum stalls."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "MACD (0.1336) is above the signal line (-1.0271) with a positive histogram (1.1607), signaling strong bullish momentum.",
+        "primary_risk": "Price is currently extended above the Upper Bollinger Band, increasing the risk of short-term mean reversion."
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "Article 1 focuses on Comcast (CMCSA) fair value and dividends -> No relevance to XOM operations or stock price.",
+        "primary_risk": "Lack of ticker-specific news in the provided articles prevents actionable 10-day analysis."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\nUpside Catalyst Analyst:\n\n- [Technical] Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607) -> suggests continued upward price pressure over the 10-day window.\n- [Technical] High-conviction breakout confirmed by a 1.44 volume ratio and price (104.85) trading above the Upper Bollinger Band (103.48) -> indicates potential for trend extension following the recent 8.41% five-day surge.\n\nUPSIDE_FAILURE: Price is currently extended above the Upper Bollinger Band, increasing the risk of short-term mean reversion or a pullback to the SMA_20 (96.28) support level.\n\nDownside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n* [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) following an 8.41% 5-day surge -> high probability of short-term mean reversion or a price pullback toward the SMA_20 (96.28).\n* [Fundamental] Sequential 10.2% revenue decline ($93.16B to $83.64B) and $1.32B drop in net income -> decelerating top-line and profitability momentum provide a fundamental blocker to sustaining recent price gains as growth cools.\n\n- RISK_IRRELEVANCE: Sustained high-conviction volume that successfully converts the previous Upper Bollinger Band resistance (103.48) into a primary support floor.",
+      "bull_history": "\n\nUpside Catalyst Analyst:\n\n- [Technical] Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607) -> suggests continued upward price pressure over the 10-day window.\n- [Technical] High-conviction breakout confirmed by a 1.44 volume ratio and price (104.85) trading above the Upper Bollinger Band (103.48) -> indicates potential for trend extension following the recent 8.41% five-day surge.\n\nUPSIDE_FAILURE: Price is currently extended above the Upper Bollinger Band, increasing the risk of short-term mean reversion or a pullback to the SMA_20 (96.28) support level.",
+      "bear_history": "\n\nDownside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n* [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) following an 8.41% 5-day surge -> high probability of short-term mean reversion or a price pullback toward the SMA_20 (96.28).\n* [Fundamental] Sequential 10.2% revenue decline ($93.16B to $83.64B) and $1.32B drop in net income -> decelerating top-line and profitability momentum provide a fundamental blocker to sustaining recent price gains as growth cools.\n\n- RISK_IRRELEVANCE: Sustained high-conviction volume that successfully converts the previous Upper Bollinger Band resistance (103.48) into a primary support floor.",
+      "current_response": "Downside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n* [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) following an 8.41% 5-day surge -> high probability of short-term mean reversion or a price pullback toward the SMA_20 (96.28).\n* [Fundamental] Sequential 10.2% revenue decline ($93.16B to $83.64B) and $1.32B drop in net income -> decelerating top-line and profitability momentum provide a fundamental blocker to sustaining recent price gains as growth cools.\n\n- RISK_IRRELEVANCE: Sustained high-conviction volume that successfully converts the previous Upper Bollinger Band resistance (103.48) into a primary support floor.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 4.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607).\",\n    \"High-conviction breakout confirmed by a 1.44 volume ratio, indicating significant buying pressure behind the 8.41% five-day surge.\",\n    \"Price (104.85) successfully clearing the Upper Bollinger Band (103.48) on high volume, suggesting a trend extension rather than immediate exhaustion.\"\n  ],\n  \"main_risk\": \"Short-term mean reversion risk as the price is currently extended above the Upper Bollinger Band and significantly above the SMA_20 (96.28).\",\n  \"actionability_assessment\": \"The technical breakout and momentum indicators provide a clear, high-conviction path for price action over the 10-day window, whereas the fundamental revenue and income declines are lagging indicators from the previous quarter.\",\n  \"hold_gate_assessment\": \"The BUY recommendation clears the actionability bar because the volume-backed breakout (1.44 ratio) suggests the market is aggressively pricing in a new range, outweighing the fundamental cooling which lacks a specific near-term catalyst to trigger a reversal.\",\n  \"execution_notes\": [\n    \"Monitor the 103.48 level (former Upper Bollinger Band) to see if it converts into a primary support floor.\",\n    \"Watch for any signs of volume exhaustion which would validate the mean reversion risk toward the SMA_20.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\nUpside Catalyst Analyst:\n\n- [Technical] Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607) -> suggests continued upward price pressure over the 10-day window.\n- [Technical] High-conviction breakout confirmed by a 1.44 volume ratio and price (104.85) trading above the Upper Bollinger Band (103.48) -> indicates potential for trend extension following the recent 8.41% five-day surge.\n\nUPSIDE_FAILURE: Price is currently extended above the Upper Bollinger Band, increasing the risk of short-term mean reversion or a pullback to the SMA_20 (96.28) support level.",
+      "bearish": "\n\nDownside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n* [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) following an 8.41% 5-day surge -> high probability of short-term mean reversion or a price pullback toward the SMA_20 (96.28).\n* [Fundamental] Sequential 10.2% revenue decline ($93.16B to $83.64B) and $1.32B drop in net income -> decelerating top-line and profitability momentum provide a fundamental blocker to sustaining recent price gains as growth cools.\n\n- RISK_IRRELEVANCE: Sustained high-conviction volume that successfully converts the previous Upper Bollinger Band resistance (103.48) into a primary support floor."
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 4.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607).\",\n    \"High-conviction breakout confirmed by a 1.44 volume ratio, indicating significant buying pressure behind the 8.41% five-day surge.\",\n    \"Price (104.85) successfully clearing the Upper Bollinger Band (103.48) on high volume, suggesting a trend extension rather than immediate exhaustion.\"\n  ],\n  \"main_risk\": \"Short-term mean reversion risk as the price is currently extended above the Upper Bollinger Band and significantly above the SMA_20 (96.28).\",\n  \"actionability_assessment\": \"The technical breakout and momentum indicators provide a clear, high-conviction path for price action over the 10-day window, whereas the fundamental revenue and income declines are lagging indicators from the previous quarter.\",\n  \"hold_gate_assessment\": \"The BUY recommendation clears the actionability bar because the volume-backed breakout (1.44 ratio) suggests the market is aggressively pricing in a new range, outweighing the fundamental cooling which lacks a specific near-term catalyst to trigger a reversal.\",\n  \"execution_notes\": [\n    \"Monitor the 103.48 level (former Upper Bollinger Band) to see if it converts into a primary support floor.\",\n    \"Watch for any signs of volume exhaustion which would validate the mean reversion risk toward the SMA_20.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.5,
+      "sell_score": 4.5,
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607).",
+        "High-conviction breakout confirmed by a 1.44 volume ratio, indicating significant buying pressure behind the 8.41% five-day surge.",
+        "Price (104.85) successfully clearing the Upper Bollinger Band (103.48) on high volume, suggesting a trend extension rather than immediate exhaustion."
+      ],
+      "main_risk": "Short-term mean reversion risk as the price is currently extended above the Upper Bollinger Band and significantly above the SMA_20 (96.28).",
+      "actionability_assessment": "The technical breakout and momentum indicators provide a clear, high-conviction path for price action over the 10-day window, whereas the fundamental revenue and income declines are lagging indicators from the previous quarter.",
+      "hold_gate_assessment": "The BUY recommendation clears the actionability bar because the volume-backed breakout (1.44 ratio) suggests the market is aggressively pricing in a new range, outweighing the fundamental cooling which lacks a specific near-term catalyst to trigger a reversal.",
+      "execution_notes": [
+        "Monitor the 103.48 level (former Upper Bollinger Band) to see if it converts into a primary support floor.",
+        "Watch for any signs of volume exhaustion which would validate the mean reversion risk toward the SMA_20."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: MACD (0.1336) is above the signal line (-1.0271) with a positive histogram (1.1607), signaling strong bullish momentum. AGAINST: * Sequential declines in both revenue and profit may lead to negative price action as growth momentum stalls. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "XOM",
+        "as_of": "2023-04-03",
+        "lookback_days": 14,
+        "window_start": "2023-03-20",
+        "window_end": "2023-04-03",
+        "article_count": 2,
+        "min_published": "2023-03-24T14:50:19",
+        "max_published": "2023-03-29T00:00:00",
+        "articles": [
+          {
+            "title": "Comcast Stock Is a Buy",
+            "source": "Morningstar",
+            "published": "20230329T000000",
+            "url": "https://www.morningstar.com/stocks/comcast-stock-is-buy",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.03493,
+            "relevance_score": 0.610689
+          },
+          {
+            "title": "Halliburton and Honeywell in talks to develop oil fields and refineries in Libya",
+            "source": "Libya Update News - Libya Update News",
+            "published": "20230324T145019",
+            "url": "https://libyaupdate.com/halliburton-and-honeywell-in-talks-to-develop-oil-fields-and-refineries-in-libya/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.34005,
+            "relevance_score": 0.590727
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 66.02
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-04-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Total revenue declined 10.2% QoQ from $93.16B to $83.64B -> Indicates significant short-term top-line deceleration heading into the current ",
+        "primary_risk": "* Sequential declines in both revenue and profit may lead to negative price action as growth momentum stalls."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "MACD (0.1336) is above the signal line (-1.0271) with a positive histogram (1.1607), signaling strong bullish momentum.",
+        "primary_risk": "Price is currently extended above the Upper Bollinger Band, increasing the risk of short-term mean reversion."
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "Article 1 focuses on Comcast (CMCSA) fair value and dividends -> No relevance to XOM operations or stock price.",
+        "primary_risk": "Lack of ticker-specific news in the provided articles prevents actionable 10-day analysis."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Total revenue declined 10.2% QoQ from $93.16B to $83.64B -> Indicates significant short-term top-line deceleration heading into the current period.\n* Net income dropped from $12.75B to $11.43B sequentially -> Contraction in profitability suggests a cooling from 2022 peaks.\n* Gross profit fell from $26.97B to $23.96B QoQ -> Direct evidence of weakening operational results in the most recent reported quarter.\n\n2) RISKS:\n* Sequential declines in both revenue and profit may lead to negative price action as growth momentum stalls.\n* UNKNOWN: The lack of analyst estimates and guidance revisions in the data makes it impossible to determine if recent results beat or missed market expectations.\n\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Lack of forward-looking guidance and analyst consensus data to measure against actuals.",
+      "technical_analyst": "1) EVIDENCE:\n* MACD (0.1336) is above the signal line (-1.0271) with a positive histogram (1.1607), signaling strong bullish momentum.\n* Price (104.85) is trading significantly above the SMA_20 (96.28) and SMA_50 (99.74) following an 8.41% 5-day price surge.\n* Volume ratio of 1.44 confirms a high-conviction breakout above the Upper Bollinger Band (103.48).\n\n2) SUPPORT: 103.48\n3) RESISTANCE: UNKNOWN\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Price is currently extended above the Upper Bollinger Band, increasing the risk of short-term mean reversion.",
+      "news_harvester": "1) CATALYSTS:\n- Article 1 focuses on Comcast (CMCSA) fair value and dividends -> No relevance to XOM operations or stock price.\n- Article 2 details Halliburton and Honeywell Libya deals -> No explicit mention of XOM involvement or partnership.\n- General sentiment regarding Libyan investment safety for U.S. firms -> No specific project or signal identified for XOM within the 10-day horizon.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: Lack of ticker-specific news in the provided articles prevents actionable 10-day analysis."
+    },
+    "investment_debate_state": {
+      "history": "\n\nUpside Catalyst Analyst:\n\n- [Technical] Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607) -> suggests continued upward price pressure over the 10-day window.\n- [Technical] High-conviction breakout confirmed by a 1.44 volume ratio and price (104.85) trading above the Upper Bollinger Band (103.48) -> indicates potential for trend extension following the recent 8.41% five-day surge.\n\nUPSIDE_FAILURE: Price is currently extended above the Upper Bollinger Band, increasing the risk of short-term mean reversion or a pullback to the SMA_20 (96.28) support level.\n\nDownside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n* [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) following an 8.41% 5-day surge -> high probability of short-term mean reversion or a price pullback toward the SMA_20 (96.28).\n* [Fundamental] Sequential 10.2% revenue decline ($93.16B to $83.64B) and $1.32B drop in net income -> decelerating top-line and profitability momentum provide a fundamental blocker to sustaining recent price gains as growth cools.\n\n- RISK_IRRELEVANCE: Sustained high-conviction volume that successfully converts the previous Upper Bollinger Band resistance (103.48) into a primary support floor.",
+      "bull_history": "\n\nUpside Catalyst Analyst:\n\n- [Technical] Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607) -> suggests continued upward price pressure over the 10-day window.\n- [Technical] High-conviction breakout confirmed by a 1.44 volume ratio and price (104.85) trading above the Upper Bollinger Band (103.48) -> indicates potential for trend extension following the recent 8.41% five-day surge.\n\nUPSIDE_FAILURE: Price is currently extended above the Upper Bollinger Band, increasing the risk of short-term mean reversion or a pullback to the SMA_20 (96.28) support level.",
+      "bear_history": "\n\nDownside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n* [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) following an 8.41% 5-day surge -> high probability of short-term mean reversion or a price pullback toward the SMA_20 (96.28).\n* [Fundamental] Sequential 10.2% revenue decline ($93.16B to $83.64B) and $1.32B drop in net income -> decelerating top-line and profitability momentum provide a fundamental blocker to sustaining recent price gains as growth cools.\n\n- RISK_IRRELEVANCE: Sustained high-conviction volume that successfully converts the previous Upper Bollinger Band resistance (103.48) into a primary support floor.",
+      "current_response": "Downside Risk Analyst:\n\n- TOP_DOWNSIDE_RISKS:\n* [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) following an 8.41% 5-day surge -> high probability of short-term mean reversion or a price pullback toward the SMA_20 (96.28).\n* [Fundamental] Sequential 10.2% revenue decline ($93.16B to $83.64B) and $1.32B drop in net income -> decelerating top-line and profitability momentum provide a fundamental blocker to sustaining recent price gains as growth cools.\n\n- RISK_IRRELEVANCE: Sustained high-conviction volume that successfully converts the previous Upper Bollinger Band resistance (103.48) into a primary support floor.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 4.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607).\",\n    \"High-conviction breakout confirmed by a 1.44 volume ratio, indicating significant buying pressure behind the 8.41% five-day surge.\",\n    \"Price (104.85) successfully clearing the Upper Bollinger Band (103.48) on high volume, suggesting a trend extension rather than immediate exhaustion.\"\n  ],\n  \"main_risk\": \"Short-term mean reversion risk as the price is currently extended above the Upper Bollinger Band and significantly above the SMA_20 (96.28).\",\n  \"actionability_assessment\": \"The technical breakout and momentum indicators provide a clear, high-conviction path for price action over the 10-day window, whereas the fundamental revenue and income declines are lagging indicators from the previous quarter.\",\n  \"hold_gate_assessment\": \"The BUY recommendation clears the actionability bar because the volume-backed breakout (1.44 ratio) suggests the market is aggressively pricing in a new range, outweighing the fundamental cooling which lacks a specific near-term catalyst to trigger a reversal.\",\n  \"execution_notes\": [\n    \"Monitor the 103.48 level (former Upper Bollinger Band) to see if it converts into a primary support floor.\",\n    \"Watch for any signs of volume exhaustion which would validate the mean reversion risk toward the SMA_20.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 4.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607).\",\n    \"High-conviction breakout confirmed by a 1.44 volume ratio, indicating significant buying pressure behind the 8.41% five-day surge.\",\n    \"Price (104.85) successfully clearing the Upper Bollinger Band (103.48) on high volume, suggesting a trend extension rather than immediate exhaustion.\"\n  ],\n  \"main_risk\": \"Short-term mean reversion risk as the price is currently extended above the Upper Bollinger Band and significantly above the SMA_20 (96.28).\",\n  \"actionability_assessment\": \"The technical breakout and momentum indicators provide a clear, high-conviction path for price action over the 10-day window, whereas the fundamental revenue and income declines are lagging indicators from the previous quarter.\",\n  \"hold_gate_assessment\": \"The BUY recommendation clears the actionability bar because the volume-backed breakout (1.44 ratio) suggests the market is aggressively pricing in a new range, outweighing the fundamental cooling which lacks a specific near-term catalyst to trigger a reversal.\",\n  \"execution_notes\": [\n    \"Monitor the 103.48 level (former Upper Bollinger Band) to see if it converts into a primary support floor.\",\n    \"Watch for any signs of volume exhaustion which would validate the mean reversion risk toward the SMA_20.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.5,
+      "sell_score": 4.5,
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "Strong bullish momentum evidenced by the MACD (0.1336) crossing above the signal line and a positive histogram (1.1607).",
+        "High-conviction breakout confirmed by a 1.44 volume ratio, indicating significant buying pressure behind the 8.41% five-day surge.",
+        "Price (104.85) successfully clearing the Upper Bollinger Band (103.48) on high volume, suggesting a trend extension rather than immediate exhaustion."
+      ],
+      "main_risk": "Short-term mean reversion risk as the price is currently extended above the Upper Bollinger Band and significantly above the SMA_20 (96.28).",
+      "actionability_assessment": "The technical breakout and momentum indicators provide a clear, high-conviction path for price action over the 10-day window, whereas the fundamental revenue and income declines are lagging indicators from the previous quarter.",
+      "hold_gate_assessment": "The BUY recommendation clears the actionability bar because the volume-backed breakout (1.44 ratio) suggests the market is aggressively pricing in a new range, outweighing the fundamental cooling which lacks a specific near-term catalyst to trigger a reversal.",
+      "execution_notes": [
+        "Monitor the 103.48 level (former Upper Bollinger Band) to see if it converts into a primary support floor.",
+        "Watch for any signs of volume exhaustion which would validate the mean reversion risk toward the SMA_20."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: MACD (0.1336) is above the signal line (-1.0271) with a positive histogram (1.1607), signaling strong bullish momentum. AGAINST: * Sequential declines in both revenue and profit may lead to negative price action as growth momentum stalls. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 66.02,
+    "memory_id": null
+  }
+}

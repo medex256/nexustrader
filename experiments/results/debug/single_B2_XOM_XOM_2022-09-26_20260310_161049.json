@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "created_at": "2026-03-10T16:10:49",
+    "started_at": "2026-03-10T16:09:07",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "B2_XOM"
+  },
+  "request_payload": {
+    "ticker": "XOM",
+    "market": "US",
+    "simulated_date": "2022-09-26",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "XOM",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-09-26",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2022-09-26",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Extreme QoQ revenue acceleration (+26.8% to $111.3B) and net income surge (+225.7% to $17.8B) in the most recent quarter (Q2 2022).\n* Net profit margin expanded from 6.2% to 16.0% QoQ, indicating high active repricing of operational efficiency and leverage.\n* Strong liquidity position with $19.96B in free cash flow and a 1.16 current ratio in the latest period.\n\n2) RISKS:\n* Cost of revenue rose by $9.2B (+12.9%) QoQ, creating a high-cost base that could pressure margins if revenue growth plateaus.\n* UNKNOWN guidance revisions or analyst sentiment shifts since the June 30 reporting period.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Sustainability of the 16% net margin given the sharp rise in cost of revenue.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (74.65) is trading significantly below the SMA_20 (83.44) following a sharp -9.15% 5-day decline, confirming aggressive seller control.\n* MACD (-1.37) is positioned well below the signal line with a deepening negative histogram, indicating accelerating downward momentum.\n* RSI at 29.84 has breached the oversold threshold, while a 1.12 volume ratio confirms active distribution rather than a low-volume exhaustion.\n\n2) SUPPORT: UNKNOWN\n3) RESISTANCE: 76.65\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: RSI below 30 indicates an oversold state that could trigger a sharp mean-reversion bounce toward the 76.65 level despite the dominant downtrend.",
+      "news_harvester": "1) CATALYSTS:\n* Shutdown of Fos-Sur-Mer (235,000 bpd) and Port Jerome-Gravenchon refineries in France due to ongoing strikes, impacting near-term European supply and operational costs.\n* Record production ramp-up in Guyana to 390,000 boepd, exceeding 2022 targets and providing a positive production offset.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Prolonged strike action in France further disrupting refining capacity and increasing operational friction."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Extreme QoQ revenue acceleration (+26.8% to $111.3B) and net income surge (+225.7% to $17.8B) in the most recent quarter (Q2 2022).",
+        "primary_risk": "* Cost of revenue rose by $9.2B (+12.9%) QoQ, creating a high-cost base that could pressure margins if revenue growth plateaus."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=HIGH",
+        "key_catalyst": "Price (74.65) is trading significantly below the SMA_20 (83.44) following a sharp -9.15% 5-day decline, confirming aggressive seller control",
+        "primary_risk": "RSI below 30 indicates an oversold state that could trigger a sharp mean-reversion bounce toward the 76.65 level despite the dominant downtr"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Shutdown of Fos-Sur-Mer (235,000 bpd) and Port Jerome-Gravenchon refineries in France due to ongoing strikes, impacting near-term European s",
+        "primary_risk": "Prolonged strike action in France further disrupting refining capacity and increasing operational friction."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: The primary upside path is a technical mean-reversion bounce toward the 76.65 resistance level, triggered by an oversold RSI (29.84). This recovery is supported by strong fundamental liquidity ($19.96B free cash flow) and record production in Guyana (390,000 boepd), though significant downward momentum and French refinery strikes likely limit near-term gains.\n\n- OVERRIDE_STRENGTH: REDUCE_CONFIDENCE\n- OVERRIDE_NOTE: Prolonged strikes at French refineries (Fos-Sur-Mer and Port Jerome-Gravenchon) present a specific operational threat to the 16% net margin, which is already vulnerable due to a $9.2B cost spike. High-confidence technical evidence of \"active distribution\" confirms the market is still reacting to these supply disruptions, suggesting that bearish momentum is not yet exhausted despite oversold RSI levels.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: The primary upside path is a technical mean-reversion bounce toward the 76.65 resistance level, triggered by an oversold RSI (29.84). This recovery is supported by strong fundamental liquidity ($19.96B free cash flow) and record production in Guyana (390,000 boepd), though significant downward momentum and French refinery strikes likely limit near-term gains.",
+      "bear_history": "\n\n- OVERRIDE_STRENGTH: REDUCE_CONFIDENCE\n- OVERRIDE_NOTE: Prolonged strikes at French refineries (Fos-Sur-Mer and Port Jerome-Gravenchon) present a specific operational threat to the 16% net margin, which is already vulnerable due to a $9.2B cost spike. High-confidence technical evidence of \"active distribution\" confirms the market is still reacting to these supply disruptions, suggesting that bearish momentum is not yet exhausted despite oversold RSI levels.",
+      "current_response": "- OVERRIDE_STRENGTH: REDUCE_CONFIDENCE\n- OVERRIDE_NOTE: Prolonged strikes at French refineries (Fos-Sur-Mer and Port Jerome-Gravenchon) present a specific operational threat to the 16% net margin, which is already vulnerable due to a $9.2B cost spike. High-confidence technical evidence of \"active distribution\" confirms the market is still reacting to these supply disruptions, suggesting that bearish momentum is not yet exhausted despite oversold RSI levels.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"Technical indicators confirm aggressive seller control with active distribution and accelerating downward momentum.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"REDUCE_CONFIDENCE\",\n  \"actionability_assessment\": \"Bearish momentum is supported by active distribution and specific operational threats from refinery strikes.\",\n  \"hold_gate_assessment\": \"Background caution regarding oversold RSI does not create irresolvable uncertainty against the dominant trend.\",\n  \"execution_notes\": [\n    \"Monitor the 76.65 resistance level for signs of mean-reversion.\",\n    \"Watch for resolution of French refinery strikes as a potential exit signal.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: The primary upside path is a technical mean-reversion bounce toward the 76.65 resistance level, triggered by an oversold RSI (29.84). This recovery is supported by strong fundamental liquidity ($19.96B free cash flow) and record production in Guyana (390,000 boepd), though significant downward momentum and French refinery strikes likely limit near-term gains.",
+      "bearish": "\n\n- OVERRIDE_STRENGTH: REDUCE_CONFIDENCE\n- OVERRIDE_NOTE: Prolonged strikes at French refineries (Fos-Sur-Mer and Port Jerome-Gravenchon) present a specific operational threat to the 16% net margin, which is already vulnerable due to a $9.2B cost spike. High-confidence technical evidence of \"active distribution\" confirms the market is still reacting to these supply disruptions, suggesting that bearish momentum is not yet exhausted despite oversold RSI levels."
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"Technical indicators confirm aggressive seller control with active distribution and accelerating downward momentum.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"REDUCE_CONFIDENCE\",\n  \"actionability_assessment\": \"Bearish momentum is supported by active distribution and specific operational threats from refinery strikes.\",\n  \"hold_gate_assessment\": \"Background caution regarding oversold RSI does not create irresolvable uncertainty against the dominant trend.\",\n  \"execution_notes\": [\n    \"Monitor the 76.65 resistance level for signs of mean-reversion.\",\n    \"Watch for resolution of French refinery strikes as a potential exit signal.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "SELL",
+      "confidence_score": 0.5,
+      "primary_drivers": [],
+      "main_risk": "Unknown",
+      "prior_view": "SELL",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "SELL",
+      "base_view_rationale": "Technical indicators confirm aggressive seller control with active distribution and accelerating downward momentum.",
+      "upside_note_impact": "WEAK",
+      "downside_note_impact": "REDUCE_CONFIDENCE",
+      "actionability_assessment": "Bearish momentum is supported by active distribution and specific operational threats from refinery strikes.",
+      "hold_gate_assessment": "Background caution regarding oversold RSI does not create irresolvable uncertainty against the dominant trend.",
+      "execution_notes": [
+        "Monitor the 76.65 resistance level for signs of mean-reversion.",
+        "Watch for resolution of French refinery strikes as a potential exit signal."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.5,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (74.65) is trading significantly below the SMA_20 (83.44) following a sharp -9.15% 5-day decline, confirming aggressive seller control AGAINST: * Cost of revenue rose by $9.2B (+12.9%) QoQ, creating a high-cost base that could pressure margins if revenue growth plateaus. DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "XOM",
+        "as_of": "2022-09-26",
+        "lookback_days": 14,
+        "window_start": "2022-09-12",
+        "window_end": "2022-09-26",
+        "article_count": 8,
+        "min_published": "2022-09-12T05:09:43",
+        "max_published": "2022-09-22T18:16:21",
+        "articles": [
+          {
+            "title": "Exxon Mobil shuts Fos-Sur-Mer refinery in France due to strike",
+            "source": "Reuters",
+            "published": "20220922T134800",
+            "url": "https://www.reuters.com/business/energy/exxon-mobil-shuts-fos-sur-mer-refinery-france-due-strike-2022-09-22/",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.394574,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "Exclusive: Exxon boosts Guyana oil output, undecided on future auction bid",
+            "source": "Reuters",
+            "published": "20220920T113900",
+            "url": "https://www.reuters.com/business/energy/exclusive-exxon-boosts-guyana-oil-output-undecided-future-auction-bid-source-2022-09-20/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.345398,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "NS Recognizes 48 Safe Shippers",
+            "source": "Railway Age",
+            "published": "20220922T175556",
+            "url": "https://www.railwayage.com/freight/class-i/ns-recognizes-48-safe-shippers/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.207199,
+            "relevance_score": 0.744783
+          },
+          {
+            "title": "Opinion: Are Oklahoma 401(k) Plans Helping to Destroy State’s Energy Business?",
+            "source": "401k Specialist",
+            "published": "20220912T050943",
+            "url": "https://401kspecialistmag.com/opinion-are-oklahoma-401k-plans-helping-to-destroy-states-energy-business/",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.212597,
+            "relevance_score": 0.718615
+          },
+          {
+            "title": "JX Nippon to buy NRG's stake in Petra Nova carbon capture plant near Houston",
+            "source": "The Business Journals",
+            "published": "20220919T155000",
+            "url": "https://www.bizjournals.com/houston/news/2022/09/19/jx-nippon-nrg-petra-nova-carbon-capture-buyout.html",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.102045,
+            "relevance_score": 0.627234
+          },
+          {
+            "title": "Hydrocracker upgrade boosts Wood River",
+            "source": "Phillips 66",
+            "published": "20220922T181621",
+            "url": "https://www.phillips66.com/newsroom/hydrocracker-upgrade-boosts-wood-river/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.218705,
+            "relevance_score": 0.619495
+          },
+          {
+            "title": "Crude oil tanker floats new dividend policy",
+            "source": "Royal Gazette | Bermuda",
+            "published": "20220920T080000",
+            "url": "https://www.royalgazette.com/international-business/business/article/20220920/crude-oil-tanker-floats-new-dividend-policy/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.24887,
+            "relevance_score": 0.59717
+          },
+          {
+            "title": "Look to SPLV for Stability in Your Portfolio",
+            "source": "ETF Trends",
+            "published": "20220912T184606",
+            "url": "https://www.etftrends.com/innovative-etfs-channel/look-to-splv-for-stability-in-your-portfolio/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.080688,
+            "relevance_score": 0.582057
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 102.24
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-09-26",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Extreme QoQ revenue acceleration (+26.8% to $111.3B) and net income surge (+225.7% to $17.8B) in the most recent quarter (Q2 2022).",
+        "primary_risk": "* Cost of revenue rose by $9.2B (+12.9%) QoQ, creating a high-cost base that could pressure margins if revenue growth plateaus."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=HIGH",
+        "key_catalyst": "Price (74.65) is trading significantly below the SMA_20 (83.44) following a sharp -9.15% 5-day decline, confirming aggressive seller control",
+        "primary_risk": "RSI below 30 indicates an oversold state that could trigger a sharp mean-reversion bounce toward the 76.65 level despite the dominant downtr"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Shutdown of Fos-Sur-Mer (235,000 bpd) and Port Jerome-Gravenchon refineries in France due to ongoing strikes, impacting near-term European s",
+        "primary_risk": "Prolonged strike action in France further disrupting refining capacity and increasing operational friction."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Extreme QoQ revenue acceleration (+26.8% to $111.3B) and net income surge (+225.7% to $17.8B) in the most recent quarter (Q2 2022).\n* Net profit margin expanded from 6.2% to 16.0% QoQ, indicating high active repricing of operational efficiency and leverage.\n* Strong liquidity position with $19.96B in free cash flow and a 1.16 current ratio in the latest period.\n\n2) RISKS:\n* Cost of revenue rose by $9.2B (+12.9%) QoQ, creating a high-cost base that could pressure margins if revenue growth plateaus.\n* UNKNOWN guidance revisions or analyst sentiment shifts since the June 30 reporting period.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Sustainability of the 16% net margin given the sharp rise in cost of revenue.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (74.65) is trading significantly below the SMA_20 (83.44) following a sharp -9.15% 5-day decline, confirming aggressive seller control.\n* MACD (-1.37) is positioned well below the signal line with a deepening negative histogram, indicating accelerating downward momentum.\n* RSI at 29.84 has breached the oversold threshold, while a 1.12 volume ratio confirms active distribution rather than a low-volume exhaustion.\n\n2) SUPPORT: UNKNOWN\n3) RESISTANCE: 76.65\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: RSI below 30 indicates an oversold state that could trigger a sharp mean-reversion bounce toward the 76.65 level despite the dominant downtrend.",
+      "news_harvester": "1) CATALYSTS:\n* Shutdown of Fos-Sur-Mer (235,000 bpd) and Port Jerome-Gravenchon refineries in France due to ongoing strikes, impacting near-term European supply and operational costs.\n* Record production ramp-up in Guyana to 390,000 boepd, exceeding 2022 targets and providing a positive production offset.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Prolonged strike action in France further disrupting refining capacity and increasing operational friction."
+    },
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: The primary upside path is a technical mean-reversion bounce toward the 76.65 resistance level, triggered by an oversold RSI (29.84). This recovery is supported by strong fundamental liquidity ($19.96B free cash flow) and record production in Guyana (390,000 boepd), though significant downward momentum and French refinery strikes likely limit near-term gains.\n\n- OVERRIDE_STRENGTH: REDUCE_CONFIDENCE\n- OVERRIDE_NOTE: Prolonged strikes at French refineries (Fos-Sur-Mer and Port Jerome-Gravenchon) present a specific operational threat to the 16% net margin, which is already vulnerable due to a $9.2B cost spike. High-confidence technical evidence of \"active distribution\" confirms the market is still reacting to these supply disruptions, suggesting that bearish momentum is not yet exhausted despite oversold RSI levels.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: The primary upside path is a technical mean-reversion bounce toward the 76.65 resistance level, triggered by an oversold RSI (29.84). This recovery is supported by strong fundamental liquidity ($19.96B free cash flow) and record production in Guyana (390,000 boepd), though significant downward momentum and French refinery strikes likely limit near-term gains.",
+      "bear_history": "\n\n- OVERRIDE_STRENGTH: REDUCE_CONFIDENCE\n- OVERRIDE_NOTE: Prolonged strikes at French refineries (Fos-Sur-Mer and Port Jerome-Gravenchon) present a specific operational threat to the 16% net margin, which is already vulnerable due to a $9.2B cost spike. High-confidence technical evidence of \"active distribution\" confirms the market is still reacting to these supply disruptions, suggesting that bearish momentum is not yet exhausted despite oversold RSI levels.",
+      "current_response": "- OVERRIDE_STRENGTH: REDUCE_CONFIDENCE\n- OVERRIDE_NOTE: Prolonged strikes at French refineries (Fos-Sur-Mer and Port Jerome-Gravenchon) present a specific operational threat to the 16% net margin, which is already vulnerable due to a $9.2B cost spike. High-confidence technical evidence of \"active distribution\" confirms the market is still reacting to these supply disruptions, suggesting that bearish momentum is not yet exhausted despite oversold RSI levels.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"Technical indicators confirm aggressive seller control with active distribution and accelerating downward momentum.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"REDUCE_CONFIDENCE\",\n  \"actionability_assessment\": \"Bearish momentum is supported by active distribution and specific operational threats from refinery strikes.\",\n  \"hold_gate_assessment\": \"Background caution regarding oversold RSI does not create irresolvable uncertainty against the dominant trend.\",\n  \"execution_notes\": [\n    \"Monitor the 76.65 resistance level for signs of mean-reversion.\",\n    \"Watch for resolution of French refinery strikes as a potential exit signal.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"Technical indicators confirm aggressive seller control with active distribution and accelerating downward momentum.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"REDUCE_CONFIDENCE\",\n  \"actionability_assessment\": \"Bearish momentum is supported by active distribution and specific operational threats from refinery strikes.\",\n  \"hold_gate_assessment\": \"Background caution regarding oversold RSI does not create irresolvable uncertainty against the dominant trend.\",\n  \"execution_notes\": [\n    \"Monitor the 76.65 resistance level for signs of mean-reversion.\",\n    \"Watch for resolution of French refinery strikes as a potential exit signal.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "SELL",
+      "confidence_score": 0.5,
+      "primary_drivers": [],
+      "main_risk": "Unknown",
+      "prior_view": "SELL",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "SELL",
+      "base_view_rationale": "Technical indicators confirm aggressive seller control with active distribution and accelerating downward momentum.",
+      "upside_note_impact": "WEAK",
+      "downside_note_impact": "REDUCE_CONFIDENCE",
+      "actionability_assessment": "Bearish momentum is supported by active distribution and specific operational threats from refinery strikes.",
+      "hold_gate_assessment": "Background caution regarding oversold RSI does not create irresolvable uncertainty against the dominant trend.",
+      "execution_notes": [
+        "Monitor the 76.65 resistance level for signs of mean-reversion.",
+        "Watch for resolution of French refinery strikes as a potential exit signal."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.5,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (74.65) is trading significantly below the SMA_20 (83.44) following a sharp -9.15% 5-day decline, confirming aggressive seller control AGAINST: * Cost of revenue rose by $9.2B (+12.9%) QoQ, creating a high-cost base that could pressure margins if revenue growth plateaus. DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 102.24,
+    "memory_id": null
+  }
+}

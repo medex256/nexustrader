@@ -32,16 +32,18 @@ def create_agent_graph(
     """
     Creates the agent graph with conditional routing for debates.
     
-    Architecture (Feb 12, 2026 — aligned with TradingAgents paper):
+        Architecture (Mar 8, 2026):
     
     Layer 1 — Data Gathering (3 agents, 3 LLM calls):
       Fundamental Analyst → Technical Analyst → News Harvester
     
-    Layer 2 — Investment Debate (3 agents, 3 LLM calls):
-      Bull Researcher ↔ Bear Researcher → Research Manager (judge, deep thinking)
+        Layer 2 — Research refinement:
+            - Stage B / B+: Upside Catalyst Analyst → Downside Risk Analyst → Research Manager
+            - Stage C / D: Bull Researcher ↔ Bear Researcher → Research Manager
     
-    Layer 3 — Trader (1 agent, 1 LLM call):
-      Independent decision-maker. May DISAGREE with Research Manager.
+        Layer 3 — Trader:
+            - Stage A / B / B+: policy core (no LLM call)
+            - Stage C / D: independent Trader may DISAGREE with Research Manager
     
         Layer 4 — Risk Mode (configurable):
             - off: skip risk layer
@@ -49,13 +51,14 @@ def create_agent_graph(
             - debate: Aggressive ↔ Conservative ↔ Neutral → Risk Manager
     
         Total active path:
-            - off: 7 agents, 7 LLM calls
-            - single: 8 agents, 8 LLM calls
-            - debate: 11+ agents, 11-12 LLM calls
+                        - Stage A: 4 LLM calls
+                        - Stage B: 6 LLM calls
+                        - Stage B+: 7 LLM calls
+                        - Stage C/D: 11+ LLM calls
     Removed: Sentiment Analyst (dead placeholder — no social media APIs).
     
     Args:
-        max_debate_rounds: Maximum number of bull/bear debate rounds (default: 1)
+        max_debate_rounds: Maximum number of bull/bear debate rounds when full debate is active (default: 1)
         max_risk_debate_rounds: Maximum number of risk debate rounds (default: 1)
         risk_mode: "off" | "single" | "debate"
         debate_mode: "on" | "off"
@@ -76,7 +79,10 @@ def create_agent_graph(
     # NOTE: Sentiment Analyst removed — social media APIs unavailable.
     #       Was a dead placeholder returning hardcoded text.
 
-    # ==================== RESEARCH TEAM (3 agents) ====================
+    # ==================== RESEARCH TEAM ====================
+    # Keep both research nodes registered.
+    # Stage B / B+ route through them as two non-adversarial specialist extractors.
+    # Stage C / D use both nodes for the full bull/bear debate.
     graph.add_node("bull_researcher", bull_researcher_agent)
     graph.add_node("bear_researcher", bear_researcher_agent)
     graph.add_node("research_manager", research_manager_agent)
@@ -104,14 +110,19 @@ def create_agent_graph(
     # Connect analyst team to research team
     debate_mode_normalized = (debate_mode or "on").strip().lower()
     debate_enabled = debate_mode_normalized != "off" and max_debate_rounds > 0
+    risk_mode_normalized = (risk_mode or "single").strip().lower()
+    single_extraction_mode = debate_enabled and risk_mode_normalized in {"off", "single"}
+
     if debate_enabled:
         graph.add_edge("news_harvester", "bull_researcher")
     else:
         graph.add_edge("news_harvester", "research_manager")
     
-    # ==================== DEBATE MECHANISM ====================
-    # Bull researcher can go to bear researcher OR research manager
-    if debate_enabled:
+    # ==================== RESEARCH ROUTING ====================
+    if single_extraction_mode:
+        graph.add_edge("bull_researcher", "bear_researcher")
+        graph.add_edge("bear_researcher", "research_manager")
+    elif debate_enabled:
         graph.add_conditional_edges(
             "bull_researcher",
             conditional_logic.should_continue_debate,
@@ -134,7 +145,6 @@ def create_agent_graph(
     graph.add_edge("research_manager", "strategy_synthesizer")
     
     # ==================== RISK MODE ROUTING ====================
-    risk_mode_normalized = (risk_mode or "single").strip().lower()
     if risk_mode_normalized == "off":
         graph.add_edge("strategy_synthesizer", END)
     elif risk_mode_normalized == "debate":

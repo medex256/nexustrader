@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "created_at": "2026-03-09T12:55:51",
+    "started_at": "2026-03-09T12:54:57",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_run_stageB_AAPL"
+  },
+  "request_payload": {
+    "ticker": "AAPL",
+    "market": "US",
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "AAPL",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Significant revenue acceleration: Total revenue reached $123.9B (Dec 2021), a 48.6% increase from the previous quarter ($83.4B), showing strong active momentum.\n* Margin expansion: Net profit margin improved from 24.7% to 27.9% QoQ, indicating active pricing power or cost efficiency being repriced now.\n* Massive liquidity generation: Operating cash flow hit $46.9B in the latest quarter, providing a substantial buffer for short-term obligations.\n\n2) RISKS:\n* Current ratio is relatively tight at 1.04, indicating a lean liquidity position relative to short-term liabilities.\n* Analyst expectations and guidance revisions are UNKNOWN, creating a gap in assessing the market's \"expectation vs. reality\" delta.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Lack of analyst ratings and forward guidance data in the provided set.",
+      "technical_analyst": "1) EVIDENCE:\n* SMA 10/20: SMA_10 is UNKNOWN, but price (169.36) is currently trading below the SMA_20 (171.71), indicating that sellers have seized short-term control.\n* MACD: The MACD (1.37) is below the signal line (2.53) with a negative histogram (-1.16), confirming a bearish momentum shift and loss of upward strength.\n* RSI: A neutral 50.35 reading shows a lack of immediate buying pressure or oversold conditions, providing no immediate technical catalyst for a reclaim of lost levels.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The 0.89 volume ratio indicates that the move below the SMA_20 lacks aggressive selling conviction, which could lead to a sideways consolidation rather than a sustained breakdown.",
+      "news_harvester": "1) CATALYSTS: None identified.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: HIGH\n\n5) KEY_EVENT_RISK: N/A"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Significant revenue acceleration: Total revenue reached $123.9B (Dec 2021), a 48.6% increase from the previous quarter ($83.4B), showing str",
+        "primary_risk": "* Current ratio is relatively tight at 1.04, indicating a lean liquidity position relative to short-term liabilities."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "SMA 10/20: SMA_10 is UNKNOWN, but price (169.36) is currently trading below the SMA_20 (171.71), indicating that sellers have seized short-t",
+        "primary_risk": "The 0.89 volume ratio indicates that the move below the SMA_20 lacks aggressive selling conviction, which could lead to a sideways consolida"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+        "key_catalyst": "None identified.",
+        "primary_risk": "N/A"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- Significant revenue acceleration to $123.9B (48.6% QoQ) paired with net profit margin expansion to 27.9% demonstrates active pricing power and momentum being repriced.\n- Massive operating cash flow of $46.9B provides a substantial liquidity buffer for short-term obligations and immediate financial flexibility.\n\n- UPSIDE_FAILURE: Negative MACD momentum and price trading below the SMA_20 (171.71) indicate that sellers currently maintain short-term control of the price action.\n\n- TOP_DOWNSIDE_RISKS: \n- Sellers have seized active short-term control with price trading below the SMA_20 (171.71) and a negative MACD histogram confirming a bearish momentum shift and loss of upward strength.\n\n- RISK_IRRELEVANCE: A low 0.89 volume ratio indicates the move below the SMA_20 lacks aggressive selling conviction, suggesting potential for sideways consolidation rather than a sustained breakdown.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- Significant revenue acceleration to $123.9B (48.6% QoQ) paired with net profit margin expansion to 27.9% demonstrates active pricing power and momentum being repriced.\n- Massive operating cash flow of $46.9B provides a substantial liquidity buffer for short-term obligations and immediate financial flexibility.\n\n- UPSIDE_FAILURE: Negative MACD momentum and price trading below the SMA_20 (171.71) indicate that sellers currently maintain short-term control of the price action.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS: \n- Sellers have seized active short-term control with price trading below the SMA_20 (171.71) and a negative MACD histogram confirming a bearish momentum shift and loss of upward strength.\n\n- RISK_IRRELEVANCE: A low 0.89 volume ratio indicates the move below the SMA_20 lacks aggressive selling conviction, suggesting potential for sideways consolidation rather than a sustained breakdown.",
+      "current_response": "- TOP_DOWNSIDE_RISKS: \n- Sellers have seized active short-term control with price trading below the SMA_20 (171.71) and a negative MACD histogram confirming a bearish momentum shift and loss of upward strength.\n\n- RISK_IRRELEVANCE: A low 0.89 volume ratio indicates the move below the SMA_20 lacks aggressive selling conviction, suggesting potential for sideways consolidation rather than a sustained breakdown.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 6.5,\n  \"sell_score\": 6.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Significant revenue acceleration to $123.9B and margin expansion to 27.9% provide strong fundamental support\",\n    \"Price trading below SMA_20 and negative MACD histogram indicate active short-term bearish momentum\"\n  ],\n  \"main_risk\": \"A high-volume break below the 164.82 support level would invalidate the fundamental buffer and confirm a deeper technical correction\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as the strong fundamental growth is currently being neutralized by a technical breakdown occurring on low conviction volume\",\n  \"hold_gate_assessment\": \"This is a case of true active cross-pressure where recent fundamental outperformance is directly clashing with immediate bearish technical signals\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- TOP_UPSIDE_CATALYSTS:\n- Significant revenue acceleration to $123.9B (48.6% QoQ) paired with net profit margin expansion to 27.9% demonstrates active pricing power and momentum being repriced.\n- Massive operating cash flow of $46.9B provides a substantial liquidity buffer for short-term obligations and immediate financial flexibility.\n\n- UPSIDE_FAILURE: Negative MACD momentum and price trading below the SMA_20 (171.71) indicate that sellers currently maintain short-term control of the price action.",
+      "bearish": "\n\n- TOP_DOWNSIDE_RISKS: \n- Sellers have seized active short-term control with price trading below the SMA_20 (171.71) and a negative MACD histogram confirming a bearish momentum shift and loss of upward strength.\n\n- RISK_IRRELEVANCE: A low 0.89 volume ratio indicates the move below the SMA_20 lacks aggressive selling conviction, suggesting potential for sideways consolidation rather than a sustained breakdown."
+    },
+    "investment_plan": "{\n  \"buy_score\": 6.5,\n  \"sell_score\": 6.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Significant revenue acceleration to $123.9B and margin expansion to 27.9% provide strong fundamental support\",\n    \"Price trading below SMA_20 and negative MACD histogram indicate active short-term bearish momentum\"\n  ],\n  \"main_risk\": \"A high-volume break below the 164.82 support level would invalidate the fundamental buffer and confirm a deeper technical correction\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as the strong fundamental growth is currently being neutralized by a technical breakdown occurring on low conviction volume\",\n  \"hold_gate_assessment\": \"This is a case of true active cross-pressure where recent fundamental outperformance is directly clashing with immediate bearish technical signals\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 6.5,
+      "sell_score": 6.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Significant revenue acceleration to $123.9B and margin expansion to 27.9% provide strong fundamental support",
+        "Price trading below SMA_20 and negative MACD histogram indicate active short-term bearish momentum"
+      ],
+      "main_risk": "A high-volume break below the 164.82 support level would invalidate the fundamental buffer and confirm a deeper technical correction",
+      "actionability_assessment": "Neither side has a clear near-term path as the strong fundamental growth is currently being neutralized by a technical breakdown occurring on low conviction volume",
+      "hold_gate_assessment": "This is a case of true active cross-pressure where recent fundamental outperformance is directly clashing with immediate bearish technical signals",
+      "execution_notes": [],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Significant revenue acceleration to $123.9B and margin expansion to 27.9% provide strong fundamental support AGAINST: A high-volume break below the 164.82 support level would invalidate the fundamental buffer and confirm a deeper technical correction DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=HIGH."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "AAPL",
+        "as_of": "2022-01-17",
+        "lookback_days": 14,
+        "window_start": "2022-01-03",
+        "window_end": "2022-01-17",
+        "article_count": 7,
+        "min_published": "2022-01-03T20:00:00",
+        "max_published": "2022-01-14T23:42:00",
+        "articles": [
+          {
+            "title": "Lumentum hooks up with Hesai on auto lidar",
+            "source": "Optics.org",
+            "published": "20220105T165716",
+            "url": "https://optics.org/news/13/1/6",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.114353,
+            "relevance_score": 0.748625
+          },
+          {
+            "title": "An Under the Radar High Quality ETF",
+            "source": "ETF Trends",
+            "published": "20220104T152945",
+            "url": "https://www.etftrends.com/an-under-the-radar-high-quality-etf/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.301048,
+            "relevance_score": 0.717575
+          },
+          {
+            "title": "Smart Water for a Smarter Home: Moen Leads the Way with Industry's First Whole-Home Connected Water Product Suite",
+            "source": "PR Newswire",
+            "published": "20220103T200000",
+            "url": "https://www.prnewswire.com/news-releases/smart-water-for-a-smarter-home-moen-leads-the-way-with-industrys-first-whole-home-connected-water-product-suite-301451938.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.215543,
+            "relevance_score": 0.639662
+          },
+          {
+            "title": "Here’s Why the UPRO and TQQQ Stock Prices Fell 50.1% Premarket Despite Calm Markets",
+            "source": "AskTraders.com",
+            "published": "20220113T190600",
+            "url": "https://www.asktraders.com/analysis/heres-why-the-upro-and-tqqq-stock-prices-fell-50-1-premarket-despite-calm-markets/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.112828,
+            "relevance_score": 0.633603
+          },
+          {
+            "title": "Netflix raises monthly subscription prices in U.S., Canada",
+            "source": "Reuters",
+            "published": "20220114T234200",
+            "url": "https://www.reuters.com/technology/exclusive-netflix-raises-monthly-subscription-prices-us-canada-2022-01-14/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.045794,
+            "relevance_score": 0.608011
+          },
+          {
+            "title": "JVAL Stock Price | JPMorgan U.S. Value Factor ETF",
+            "source": "Investing.com",
+            "published": "20220107T103607",
+            "url": "https://www.investing.com/etfs/jval",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.308964,
+            "relevance_score": 0.601866
+          },
+          {
+            "title": "Behind the Scenes With Cigna Ventures: Giving Great Ideas the Momentum To Make an Impact",
+            "source": "The Cigna Group Newsroom",
+            "published": "20220113T162229",
+            "url": "https://newsroom.thecignagroup.com/cigna-ventures-giving-great-ideas-momentum-to-make-an-impact",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.267152,
+            "relevance_score": 0.569218
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 53.82
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Significant revenue acceleration: Total revenue reached $123.9B (Dec 2021), a 48.6% increase from the previous quarter ($83.4B), showing str",
+        "primary_risk": "* Current ratio is relatively tight at 1.04, indicating a lean liquidity position relative to short-term liabilities."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "SMA 10/20: SMA_10 is UNKNOWN, but price (169.36) is currently trading below the SMA_20 (171.71), indicating that sellers have seized short-t",
+        "primary_risk": "The 0.89 volume ratio indicates that the move below the SMA_20 lacks aggressive selling conviction, which could lead to a sideways consolida"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+        "key_catalyst": "None identified.",
+        "primary_risk": "N/A"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Significant revenue acceleration: Total revenue reached $123.9B (Dec 2021), a 48.6% increase from the previous quarter ($83.4B), showing strong active momentum.\n* Margin expansion: Net profit margin improved from 24.7% to 27.9% QoQ, indicating active pricing power or cost efficiency being repriced now.\n* Massive liquidity generation: Operating cash flow hit $46.9B in the latest quarter, providing a substantial buffer for short-term obligations.\n\n2) RISKS:\n* Current ratio is relatively tight at 1.04, indicating a lean liquidity position relative to short-term liabilities.\n* Analyst expectations and guidance revisions are UNKNOWN, creating a gap in assessing the market's \"expectation vs. reality\" delta.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Lack of analyst ratings and forward guidance data in the provided set.",
+      "technical_analyst": "1) EVIDENCE:\n* SMA 10/20: SMA_10 is UNKNOWN, but price (169.36) is currently trading below the SMA_20 (171.71), indicating that sellers have seized short-term control.\n* MACD: The MACD (1.37) is below the signal line (2.53) with a negative histogram (-1.16), confirming a bearish momentum shift and loss of upward strength.\n* RSI: A neutral 50.35 reading shows a lack of immediate buying pressure or oversold conditions, providing no immediate technical catalyst for a reclaim of lost levels.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The 0.89 volume ratio indicates that the move below the SMA_20 lacks aggressive selling conviction, which could lead to a sideways consolidation rather than a sustained breakdown.",
+      "news_harvester": "1) CATALYSTS: None identified.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: HIGH\n\n5) KEY_EVENT_RISK: N/A"
+    },
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- Significant revenue acceleration to $123.9B (48.6% QoQ) paired with net profit margin expansion to 27.9% demonstrates active pricing power and momentum being repriced.\n- Massive operating cash flow of $46.9B provides a substantial liquidity buffer for short-term obligations and immediate financial flexibility.\n\n- UPSIDE_FAILURE: Negative MACD momentum and price trading below the SMA_20 (171.71) indicate that sellers currently maintain short-term control of the price action.\n\n- TOP_DOWNSIDE_RISKS: \n- Sellers have seized active short-term control with price trading below the SMA_20 (171.71) and a negative MACD histogram confirming a bearish momentum shift and loss of upward strength.\n\n- RISK_IRRELEVANCE: A low 0.89 volume ratio indicates the move below the SMA_20 lacks aggressive selling conviction, suggesting potential for sideways consolidation rather than a sustained breakdown.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- Significant revenue acceleration to $123.9B (48.6% QoQ) paired with net profit margin expansion to 27.9% demonstrates active pricing power and momentum being repriced.\n- Massive operating cash flow of $46.9B provides a substantial liquidity buffer for short-term obligations and immediate financial flexibility.\n\n- UPSIDE_FAILURE: Negative MACD momentum and price trading below the SMA_20 (171.71) indicate that sellers currently maintain short-term control of the price action.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS: \n- Sellers have seized active short-term control with price trading below the SMA_20 (171.71) and a negative MACD histogram confirming a bearish momentum shift and loss of upward strength.\n\n- RISK_IRRELEVANCE: A low 0.89 volume ratio indicates the move below the SMA_20 lacks aggressive selling conviction, suggesting potential for sideways consolidation rather than a sustained breakdown.",
+      "current_response": "- TOP_DOWNSIDE_RISKS: \n- Sellers have seized active short-term control with price trading below the SMA_20 (171.71) and a negative MACD histogram confirming a bearish momentum shift and loss of upward strength.\n\n- RISK_IRRELEVANCE: A low 0.89 volume ratio indicates the move below the SMA_20 lacks aggressive selling conviction, suggesting potential for sideways consolidation rather than a sustained breakdown.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 6.5,\n  \"sell_score\": 6.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Significant revenue acceleration to $123.9B and margin expansion to 27.9% provide strong fundamental support\",\n    \"Price trading below SMA_20 and negative MACD histogram indicate active short-term bearish momentum\"\n  ],\n  \"main_risk\": \"A high-volume break below the 164.82 support level would invalidate the fundamental buffer and confirm a deeper technical correction\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as the strong fundamental growth is currently being neutralized by a technical breakdown occurring on low conviction volume\",\n  \"hold_gate_assessment\": \"This is a case of true active cross-pressure where recent fundamental outperformance is directly clashing with immediate bearish technical signals\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 6.5,\n  \"sell_score\": 6.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Significant revenue acceleration to $123.9B and margin expansion to 27.9% provide strong fundamental support\",\n    \"Price trading below SMA_20 and negative MACD histogram indicate active short-term bearish momentum\"\n  ],\n  \"main_risk\": \"A high-volume break below the 164.82 support level would invalidate the fundamental buffer and confirm a deeper technical correction\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as the strong fundamental growth is currently being neutralized by a technical breakdown occurring on low conviction volume\",\n  \"hold_gate_assessment\": \"This is a case of true active cross-pressure where recent fundamental outperformance is directly clashing with immediate bearish technical signals\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 6.5,
+      "sell_score": 6.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Significant revenue acceleration to $123.9B and margin expansion to 27.9% provide strong fundamental support",
+        "Price trading below SMA_20 and negative MACD histogram indicate active short-term bearish momentum"
+      ],
+      "main_risk": "A high-volume break below the 164.82 support level would invalidate the fundamental buffer and confirm a deeper technical correction",
+      "actionability_assessment": "Neither side has a clear near-term path as the strong fundamental growth is currently being neutralized by a technical breakdown occurring on low conviction volume",
+      "hold_gate_assessment": "This is a case of true active cross-pressure where recent fundamental outperformance is directly clashing with immediate bearish technical signals",
+      "execution_notes": [],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Significant revenue acceleration to $123.9B and margin expansion to 27.9% provide strong fundamental support AGAINST: A high-volume break below the 164.82 support level would invalidate the fundamental buffer and confirm a deeper technical correction DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=HIGH."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 53.82,
+    "memory_id": null
+  }
+}

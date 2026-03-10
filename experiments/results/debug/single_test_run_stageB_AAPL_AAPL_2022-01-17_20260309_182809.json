@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "created_at": "2026-03-09T18:28:09",
+    "started_at": "2026-03-09T18:22:27",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_run_stageB_AAPL"
+  },
+  "request_payload": {
+    "ticker": "AAPL",
+    "market": "US",
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "AAPL",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Massive revenue acceleration to $123.9B in the latest quarter (Dec 2021), a $40.5B QoQ increase, showing significant short-term momentum.\n* Net profit margins expanded from 24.7% to 27.9% QoQ, indicating strong operating leverage and immediate profitability improvement.\n* Operating cash flow reached $46.9B in the most recent quarter, providing exceptional short-term liquidity and balance sheet strength.\n\n2) RISKS:\n* Current ratio of 1.04 indicates relatively tight short-term liquidity coverage compared to the company's massive scale of operations.\n* UNKNOWN analyst expectations and forward guidance revisions make it difficult to gauge if the recent record performance is already fully priced.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Absence of forward-looking guidance and analyst consensus data to measure the \"surprise\" magnitude.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (169.36) is trading below the SMA_20 (171.71), establishing the 20-day average as immediate overhead resistance and identifying short-term seller control.\n* MACD (1.37) is below the Signal line (2.53) with a negative histogram (-1.16), confirming a bearish momentum crossover and loss of upward conviction.\n* RSI (50.35) and a low Volume Ratio (0.89) indicate a neutral conviction state, failing to provide the buying pressure needed to reclaim key short-term averages.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: NEUTRAL\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Price remains above the SMA_50 (163.53), which provides a structural floor that could trigger a bounce despite the current negative MACD alignment.",
+      "news_harvester": "1) CATALYSTS: None identified.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: HIGH\n\n5) KEY_EVENT_RISK: N/A"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Massive revenue acceleration to $123.9B in the latest quarter (Dec 2021), a $40.5B QoQ increase, showing significant short-term momentum.",
+        "primary_risk": "* Current ratio of 1.04 indicates relatively tight short-term liquidity coverage compared to the company's massive scale of operations."
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (169.36) is trading below the SMA_20 (171.71), establishing the 20-day average as immediate overhead resistance and identifying short-",
+        "primary_risk": "Price remains above the SMA_50 (163.53), which provides a structural floor that could trigger a bounce despite the current negative MACD ali"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+        "key_catalyst": "None identified.",
+        "primary_risk": "N/A"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Structural Floor Bounce: The proximity to the SMA_50 (163.53) provides a concrete structural floor where the massive $40.5B QoQ revenue acceleration and margin expansion (to 27.9%) can trigger a technical mean-reversion toward the SMA_20 resistance (171.71).\n* Profitability-Driven Reversal: Record operating cash flow of $46.9B provides the fundamental liquidity to counter current neutral conviction and reverse the negative MACD histogram if the SMA_50 floor holds.\n\n- UPSIDE_FAILURE: Bearish momentum signaled by the MACD being below its signal line and the price trading under the SMA_20 creates significant overhead resistance that may stifle any attempt at a short-term rally.\n\n- TOP_DOWNSIDE_RISKS: \n* Bearish Technical Drift: With the price (169.36) rejected by the SMA_20 (171.71) and a negative MACD crossover confirmed, the lack of buying conviction (0.89 volume ratio) creates a short-term path toward the 164.82 support level.\n* Guidance Vacuum: The total absence of forward-looking guidance and consensus data prevents the market from validating the sustainability of recent record revenue, leaving the stock vulnerable to a momentum stall as the impact of the Dec 2021 \"surprise\" fades.\n\n- RISK_IRRELEVANCE: The SMA_50 at 163.53 serves as a strong structural floor that could trigger a technical bounce, potentially neutralizing the bearish MACD crossover before it breaches lower support levels.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Structural Floor Bounce: The proximity to the SMA_50 (163.53) provides a concrete structural floor where the massive $40.5B QoQ revenue acceleration and margin expansion (to 27.9%) can trigger a technical mean-reversion toward the SMA_20 resistance (171.71).\n* Profitability-Driven Reversal: Record operating cash flow of $46.9B provides the fundamental liquidity to counter current neutral conviction and reverse the negative MACD histogram if the SMA_50 floor holds.\n\n- UPSIDE_FAILURE: Bearish momentum signaled by the MACD being below its signal line and the price trading under the SMA_20 creates significant overhead resistance that may stifle any attempt at a short-term rally.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS: \n* Bearish Technical Drift: With the price (169.36) rejected by the SMA_20 (171.71) and a negative MACD crossover confirmed, the lack of buying conviction (0.89 volume ratio) creates a short-term path toward the 164.82 support level.\n* Guidance Vacuum: The total absence of forward-looking guidance and consensus data prevents the market from validating the sustainability of recent record revenue, leaving the stock vulnerable to a momentum stall as the impact of the Dec 2021 \"surprise\" fades.\n\n- RISK_IRRELEVANCE: The SMA_50 at 163.53 serves as a strong structural floor that could trigger a technical bounce, potentially neutralizing the bearish MACD crossover before it breaches lower support levels.",
+      "current_response": "- TOP_DOWNSIDE_RISKS: \n* Bearish Technical Drift: With the price (169.36) rejected by the SMA_20 (171.71) and a negative MACD crossover confirmed, the lack of buying conviction (0.89 volume ratio) creates a short-term path toward the 164.82 support level.\n* Guidance Vacuum: The total absence of forward-looking guidance and consensus data prevents the market from validating the sustainability of recent record revenue, leaving the stock vulnerable to a momentum stall as the impact of the Dec 2021 \"surprise\" fades.\n\n- RISK_IRRELEVANCE: The SMA_50 at 163.53 serves as a strong structural floor that could trigger a technical bounce, potentially neutralizing the bearish MACD crossover before it breaches lower support levels.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 6.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Record $123.9B revenue and 27.9% margin expansion vs. bearish MACD crossover and rejection at SMA_20 resistance.\"\n  ],\n  \"main_risk\": \"A breach of the SMA_50 support at 163.53 could trigger a deeper technical correction despite fundamental strength.\",\n  \"actionability_assessment\": \"Neither side has a clear active path as massive fundamental growth is currently neutralized by negative short-term technical momentum and a lack of forward guidance.\",\n  \"hold_gate_assessment\": \"The conflict represents true active cross-pressure between record-breaking financial performance and a confirmed bearish technical setup below the 20-day average.\",\n  \"execution_notes\": [\n    \"Monitor for a daily close above 171.71 to signal a bullish technical breakout.\",\n    \"Watch the 163.53 level for signs of a structural floor bounce.\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Structural Floor Bounce: The proximity to the SMA_50 (163.53) provides a concrete structural floor where the massive $40.5B QoQ revenue acceleration and margin expansion (to 27.9%) can trigger a technical mean-reversion toward the SMA_20 resistance (171.71).\n* Profitability-Driven Reversal: Record operating cash flow of $46.9B provides the fundamental liquidity to counter current neutral conviction and reverse the negative MACD histogram if the SMA_50 floor holds.\n\n- UPSIDE_FAILURE: Bearish momentum signaled by the MACD being below its signal line and the price trading under the SMA_20 creates significant overhead resistance that may stifle any attempt at a short-term rally.",
+      "bearish": "\n\n- TOP_DOWNSIDE_RISKS: \n* Bearish Technical Drift: With the price (169.36) rejected by the SMA_20 (171.71) and a negative MACD crossover confirmed, the lack of buying conviction (0.89 volume ratio) creates a short-term path toward the 164.82 support level.\n* Guidance Vacuum: The total absence of forward-looking guidance and consensus data prevents the market from validating the sustainability of recent record revenue, leaving the stock vulnerable to a momentum stall as the impact of the Dec 2021 \"surprise\" fades.\n\n- RISK_IRRELEVANCE: The SMA_50 at 163.53 serves as a strong structural floor that could trigger a technical bounce, potentially neutralizing the bearish MACD crossover before it breaches lower support levels."
+    },
+    "investment_plan": "{\n  \"buy_score\": 6.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Record $123.9B revenue and 27.9% margin expansion vs. bearish MACD crossover and rejection at SMA_20 resistance.\"\n  ],\n  \"main_risk\": \"A breach of the SMA_50 support at 163.53 could trigger a deeper technical correction despite fundamental strength.\",\n  \"actionability_assessment\": \"Neither side has a clear active path as massive fundamental growth is currently neutralized by negative short-term technical momentum and a lack of forward guidance.\",\n  \"hold_gate_assessment\": \"The conflict represents true active cross-pressure between record-breaking financial performance and a confirmed bearish technical setup below the 20-day average.\",\n  \"execution_notes\": [\n    \"Monitor for a daily close above 171.71 to signal a bullish technical breakout.\",\n    \"Watch the 163.53 level for signs of a structural floor bounce.\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 6.5,
+      "sell_score": 5.5,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Record $123.9B revenue and 27.9% margin expansion vs. bearish MACD crossover and rejection at SMA_20 resistance."
+      ],
+      "main_risk": "A breach of the SMA_50 support at 163.53 could trigger a deeper technical correction despite fundamental strength.",
+      "actionability_assessment": "Neither side has a clear active path as massive fundamental growth is currently neutralized by negative short-term technical momentum and a lack of forward guidance.",
+      "hold_gate_assessment": "The conflict represents true active cross-pressure between record-breaking financial performance and a confirmed bearish technical setup below the 20-day average.",
+      "execution_notes": [
+        "Monitor for a daily close above 171.71 to signal a bullish technical breakout.",
+        "Watch the 163.53 level for signs of a structural floor bounce."
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Record $123.9B revenue and 27.9% margin expansion vs. bearish MACD crossover and rejection at SMA_20 resistance. AGAINST: A breach of the SMA_50 support at 163.53 could trigger a deeper technical correction despite fundamental strength. DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=HIGH."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "AAPL",
+        "as_of": "2022-01-17",
+        "lookback_days": 14,
+        "window_start": "2022-01-03",
+        "window_end": "2022-01-17",
+        "article_count": 7,
+        "min_published": "2022-01-03T20:00:00",
+        "max_published": "2022-01-14T23:42:00",
+        "articles": [
+          {
+            "title": "Lumentum hooks up with Hesai on auto lidar",
+            "source": "Optics.org",
+            "published": "20220105T165716",
+            "url": "https://optics.org/news/13/1/6",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.114353,
+            "relevance_score": 0.748625
+          },
+          {
+            "title": "An Under the Radar High Quality ETF",
+            "source": "ETF Trends",
+            "published": "20220104T152945",
+            "url": "https://www.etftrends.com/an-under-the-radar-high-quality-etf/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.301048,
+            "relevance_score": 0.717575
+          },
+          {
+            "title": "Smart Water for a Smarter Home: Moen Leads the Way with Industry's First Whole-Home Connected Water Product Suite",
+            "source": "PR Newswire",
+            "published": "20220103T200000",
+            "url": "https://www.prnewswire.com/news-releases/smart-water-for-a-smarter-home-moen-leads-the-way-with-industrys-first-whole-home-connected-water-product-suite-301451938.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.215543,
+            "relevance_score": 0.639662
+          },
+          {
+            "title": "Here’s Why the UPRO and TQQQ Stock Prices Fell 50.1% Premarket Despite Calm Markets",
+            "source": "AskTraders.com",
+            "published": "20220113T190600",
+            "url": "https://www.asktraders.com/analysis/heres-why-the-upro-and-tqqq-stock-prices-fell-50-1-premarket-despite-calm-markets/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.112828,
+            "relevance_score": 0.633603
+          },
+          {
+            "title": "Netflix raises monthly subscription prices in U.S., Canada",
+            "source": "Reuters",
+            "published": "20220114T234200",
+            "url": "https://www.reuters.com/technology/exclusive-netflix-raises-monthly-subscription-prices-us-canada-2022-01-14/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.045794,
+            "relevance_score": 0.608011
+          },
+          {
+            "title": "JVAL Stock Price | JPMorgan U.S. Value Factor ETF",
+            "source": "Investing.com",
+            "published": "20220107T103607",
+            "url": "https://www.investing.com/etfs/jval",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.308964,
+            "relevance_score": 0.601866
+          },
+          {
+            "title": "Behind the Scenes With Cigna Ventures: Giving Great Ideas the Momentum To Make an Impact",
+            "source": "The Cigna Group Newsroom",
+            "published": "20220113T162229",
+            "url": "https://newsroom.thecignagroup.com/cigna-ventures-giving-great-ideas-momentum-to-make-an-impact",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.267152,
+            "relevance_score": 0.569218
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 342.24
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Massive revenue acceleration to $123.9B in the latest quarter (Dec 2021), a $40.5B QoQ increase, showing significant short-term momentum.",
+        "primary_risk": "* Current ratio of 1.04 indicates relatively tight short-term liquidity coverage compared to the company's massive scale of operations."
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (169.36) is trading below the SMA_20 (171.71), establishing the 20-day average as immediate overhead resistance and identifying short-",
+        "primary_risk": "Price remains above the SMA_50 (163.53), which provides a structural floor that could trigger a bounce despite the current negative MACD ali"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+        "key_catalyst": "None identified.",
+        "primary_risk": "N/A"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Massive revenue acceleration to $123.9B in the latest quarter (Dec 2021), a $40.5B QoQ increase, showing significant short-term momentum.\n* Net profit margins expanded from 24.7% to 27.9% QoQ, indicating strong operating leverage and immediate profitability improvement.\n* Operating cash flow reached $46.9B in the most recent quarter, providing exceptional short-term liquidity and balance sheet strength.\n\n2) RISKS:\n* Current ratio of 1.04 indicates relatively tight short-term liquidity coverage compared to the company's massive scale of operations.\n* UNKNOWN analyst expectations and forward guidance revisions make it difficult to gauge if the recent record performance is already fully priced.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Absence of forward-looking guidance and analyst consensus data to measure the \"surprise\" magnitude.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (169.36) is trading below the SMA_20 (171.71), establishing the 20-day average as immediate overhead resistance and identifying short-term seller control.\n* MACD (1.37) is below the Signal line (2.53) with a negative histogram (-1.16), confirming a bearish momentum crossover and loss of upward conviction.\n* RSI (50.35) and a low Volume Ratio (0.89) indicate a neutral conviction state, failing to provide the buying pressure needed to reclaim key short-term averages.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: NEUTRAL\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Price remains above the SMA_50 (163.53), which provides a structural floor that could trigger a bounce despite the current negative MACD alignment.",
+      "news_harvester": "1) CATALYSTS: None identified.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: HIGH\n\n5) KEY_EVENT_RISK: N/A"
+    },
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Structural Floor Bounce: The proximity to the SMA_50 (163.53) provides a concrete structural floor where the massive $40.5B QoQ revenue acceleration and margin expansion (to 27.9%) can trigger a technical mean-reversion toward the SMA_20 resistance (171.71).\n* Profitability-Driven Reversal: Record operating cash flow of $46.9B provides the fundamental liquidity to counter current neutral conviction and reverse the negative MACD histogram if the SMA_50 floor holds.\n\n- UPSIDE_FAILURE: Bearish momentum signaled by the MACD being below its signal line and the price trading under the SMA_20 creates significant overhead resistance that may stifle any attempt at a short-term rally.\n\n- TOP_DOWNSIDE_RISKS: \n* Bearish Technical Drift: With the price (169.36) rejected by the SMA_20 (171.71) and a negative MACD crossover confirmed, the lack of buying conviction (0.89 volume ratio) creates a short-term path toward the 164.82 support level.\n* Guidance Vacuum: The total absence of forward-looking guidance and consensus data prevents the market from validating the sustainability of recent record revenue, leaving the stock vulnerable to a momentum stall as the impact of the Dec 2021 \"surprise\" fades.\n\n- RISK_IRRELEVANCE: The SMA_50 at 163.53 serves as a strong structural floor that could trigger a technical bounce, potentially neutralizing the bearish MACD crossover before it breaches lower support levels.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Structural Floor Bounce: The proximity to the SMA_50 (163.53) provides a concrete structural floor where the massive $40.5B QoQ revenue acceleration and margin expansion (to 27.9%) can trigger a technical mean-reversion toward the SMA_20 resistance (171.71).\n* Profitability-Driven Reversal: Record operating cash flow of $46.9B provides the fundamental liquidity to counter current neutral conviction and reverse the negative MACD histogram if the SMA_50 floor holds.\n\n- UPSIDE_FAILURE: Bearish momentum signaled by the MACD being below its signal line and the price trading under the SMA_20 creates significant overhead resistance that may stifle any attempt at a short-term rally.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS: \n* Bearish Technical Drift: With the price (169.36) rejected by the SMA_20 (171.71) and a negative MACD crossover confirmed, the lack of buying conviction (0.89 volume ratio) creates a short-term path toward the 164.82 support level.\n* Guidance Vacuum: The total absence of forward-looking guidance and consensus data prevents the market from validating the sustainability of recent record revenue, leaving the stock vulnerable to a momentum stall as the impact of the Dec 2021 \"surprise\" fades.\n\n- RISK_IRRELEVANCE: The SMA_50 at 163.53 serves as a strong structural floor that could trigger a technical bounce, potentially neutralizing the bearish MACD crossover before it breaches lower support levels.",
+      "current_response": "- TOP_DOWNSIDE_RISKS: \n* Bearish Technical Drift: With the price (169.36) rejected by the SMA_20 (171.71) and a negative MACD crossover confirmed, the lack of buying conviction (0.89 volume ratio) creates a short-term path toward the 164.82 support level.\n* Guidance Vacuum: The total absence of forward-looking guidance and consensus data prevents the market from validating the sustainability of recent record revenue, leaving the stock vulnerable to a momentum stall as the impact of the Dec 2021 \"surprise\" fades.\n\n- RISK_IRRELEVANCE: The SMA_50 at 163.53 serves as a strong structural floor that could trigger a technical bounce, potentially neutralizing the bearish MACD crossover before it breaches lower support levels.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 6.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Record $123.9B revenue and 27.9% margin expansion vs. bearish MACD crossover and rejection at SMA_20 resistance.\"\n  ],\n  \"main_risk\": \"A breach of the SMA_50 support at 163.53 could trigger a deeper technical correction despite fundamental strength.\",\n  \"actionability_assessment\": \"Neither side has a clear active path as massive fundamental growth is currently neutralized by negative short-term technical momentum and a lack of forward guidance.\",\n  \"hold_gate_assessment\": \"The conflict represents true active cross-pressure between record-breaking financial performance and a confirmed bearish technical setup below the 20-day average.\",\n  \"execution_notes\": [\n    \"Monitor for a daily close above 171.71 to signal a bullish technical breakout.\",\n    \"Watch the 163.53 level for signs of a structural floor bounce.\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 6.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Record $123.9B revenue and 27.9% margin expansion vs. bearish MACD crossover and rejection at SMA_20 resistance.\"\n  ],\n  \"main_risk\": \"A breach of the SMA_50 support at 163.53 could trigger a deeper technical correction despite fundamental strength.\",\n  \"actionability_assessment\": \"Neither side has a clear active path as massive fundamental growth is currently neutralized by negative short-term technical momentum and a lack of forward guidance.\",\n  \"hold_gate_assessment\": \"The conflict represents true active cross-pressure between record-breaking financial performance and a confirmed bearish technical setup below the 20-day average.\",\n  \"execution_notes\": [\n    \"Monitor for a daily close above 171.71 to signal a bullish technical breakout.\",\n    \"Watch the 163.53 level for signs of a structural floor bounce.\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 6.5,
+      "sell_score": 5.5,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Record $123.9B revenue and 27.9% margin expansion vs. bearish MACD crossover and rejection at SMA_20 resistance."
+      ],
+      "main_risk": "A breach of the SMA_50 support at 163.53 could trigger a deeper technical correction despite fundamental strength.",
+      "actionability_assessment": "Neither side has a clear active path as massive fundamental growth is currently neutralized by negative short-term technical momentum and a lack of forward guidance.",
+      "hold_gate_assessment": "The conflict represents true active cross-pressure between record-breaking financial performance and a confirmed bearish technical setup below the 20-day average.",
+      "execution_notes": [
+        "Monitor for a daily close above 171.71 to signal a bullish technical breakout.",
+        "Watch the 163.53 level for signs of a structural floor bounce."
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Record $123.9B revenue and 27.9% margin expansion vs. bearish MACD crossover and rejection at SMA_20 resistance. AGAINST: A breach of the SMA_50 support at 163.53 could trigger a deeper technical correction despite fundamental strength. DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=HIGH."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 342.24,
+    "memory_id": null
+  }
+}

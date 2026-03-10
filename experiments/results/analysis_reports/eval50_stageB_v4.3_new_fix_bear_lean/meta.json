@@ -1,0 +1,14 @@
+{
+  "created_at": "20260308_135251",
+  "bundle_tag": "eval50_stageB_v4.3_new_fix_bear_lean",
+  "bundle_dir": "c:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\analysis_reports\\eval50_stageB_v4.3_new_fix_bear_lean",
+  "agent_glob": "batch_eval50_stageB_v4.3*.jsonl",
+  "run_tags": [
+    "eval50_stageB_v4.3_new_fix_bear_lean"
+  ],
+  "agent_rows": 50,
+  "unique_tickers": 5,
+  "unique_dates": 10,
+  "hold_epsilon": 0.02,
+  "enable_baselines": true
+}

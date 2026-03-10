@@ -77,6 +77,26 @@ def load_list_from_file(path: str) -> List[str]:
         return [line.strip() for line in f if line.strip()]
 
 
+def load_pairs_from_file(path: str) -> List[Tuple[str, str]]:
+    if not path:
+        return []
+
+    pairs: List[Tuple[str, str]] = []
+    with open(path, "r", encoding="utf-8") as f:
+        for line_no, line in enumerate(f, start=1):
+            raw = line.strip()
+            if not raw:
+                continue
+            parts = [part.strip() for part in raw.split(",")]
+            if len(parts) != 2 or not parts[0] or not parts[1]:
+                raise ValueError(
+                    f"Invalid ticker/date pair on line {line_no} in {path!r}: {raw!r}. "
+                    "Expected format: TICKER,YYYY-MM-DD"
+                )
+            pairs.append((parts[0], parts[1]))
+    return pairs
+
+
 def ensure_dir(path: str) -> None:
     os.makedirs(path, exist_ok=True)
 
@@ -246,12 +266,13 @@ def run_batch(
     truncate_chars: int = 400,
     workers: int = 1,
     retries: int = 2,
+    jobs: List[Tuple[str, str]] | None = None,
 ) -> str:
     ensure_dir(out_dir)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     out_path = os.path.join(out_dir, f"batch_{tag}_{timestamp}.jsonl")
 
-    jobs: List[Tuple[str, str]] = [(t, d) for t in tickers for d in dates]
+    jobs = jobs if jobs is not None else [(t, d) for t in tickers for d in dates]
     total = len(jobs)
     completed = 0
 
@@ -319,6 +340,11 @@ def main() -> int:
         "--dates-file",
         default=DEFAULT_DATES_FILE,
         help="File with one date per line (default: nexustrader/experiments/inputs/dates.txt)",
+    )
+    parser.add_argument(
+        "--pairs-file",
+        default="",
+        help="File with one TICKER,YYYY-MM-DD pair per line. If provided, runs exactly those rows instead of a ticker × date cartesian product.",
     )
     parser.add_argument("--market", default="US", help="Market code")
     parser.add_argument(
@@ -391,15 +417,22 @@ def main() -> int:
         print(str(exc))
         return 1
 
+    try:
+        pair_jobs = load_pairs_from_file(args.pairs_file) if args.pairs_file else []
+    except ValueError as exc:
+        print(str(exc))
+        return 1
+
     tickers = load_list_from_file(args.tickers_file) or parse_list(args.tickers)
     dates = load_list_from_file(args.dates_file) or parse_list(args.dates)
 
-    if not tickers:
-        print("No tickers provided.")
-        return 1
-    if not dates:
-        print("No dates provided. Use --dates or --dates-file.")
-        return 1
+    if not pair_jobs:
+        if not tickers:
+            print("No tickers provided.")
+            return 1
+        if not dates:
+            print("No dates provided. Use --dates or --dates-file.")
+            return 1
 
     flags = _resolve_flags(args)
 
@@ -416,6 +449,7 @@ def main() -> int:
         truncate_chars=args.truncate_chars,
         workers=args.workers,
         retries=max(0, args.retries),
+        jobs=pair_jobs or None,
     )
 
     print(f"Batch completed. Results saved to: {out_path}")

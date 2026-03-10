@@ -1,0 +1,14 @@
+{
+  "created_at": "20260310_164305",
+  "bundle_tag": "stageB_hurtset_debug_v5",
+  "bundle_dir": "c:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\analysis_reports\\stageB_hurtset_debug_v5",
+  "agent_glob": "batch_stageB_hurtset_debug_v5_20260310_163144.jsonl",
+  "run_tags": [
+    "stageB_hurtset_debug_v5"
+  ],
+  "agent_rows": 60,
+  "unique_tickers": 5,
+  "unique_dates": 40,
+  "hold_epsilon": 0.025,
+  "enable_baselines": true
+}

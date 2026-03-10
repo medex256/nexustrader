@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "created_at": "2026-03-08T22:01:50",
+    "started_at": "2026-03-08T22:01:01",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_run_stageB_XOM"
+  },
+  "request_payload": {
+    "ticker": "XOM",
+    "market": "US",
+    "simulated_date": "2023-04-03",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "XOM",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-04-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2023-04-03",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue decelerated 10.2% QoQ ($83.6B vs. $93.2B), marking the third consecutive quarterly decline from the $111.3B peak in Q2 2022.\n* Net income fell 10.3% QoQ to $11.4B, indicating a cooling of the recent high-profit cycle despite maintaining a 13.7% profit margin.\n* Strong liquidity (1.46 current ratio) and $16.3B in quarterly free cash flow provide a defensive buffer against short-term volatility.\n\n2) RISKS:\n* Persistent top-line contraction suggests weakening near-term momentum, which may weigh on sentiment over a 10-day horizon.\n* Operating expenses ($9.75B) remained relatively flat despite the significant revenue drop, potentially squeezing future margins.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Whether strong cash flow generation can offset the negative momentum of declining QoQ revenue.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI at 66.44 indicates strong bullish momentum with room to reach overbought levels (>70) before exhaustion.\n* MACD (0.13) is above the signal line (-1.03) with a positive histogram (1.16), confirming a recent bullish crossover and trend acceleration.\n* Price (104.85) has broken above the Upper Bollinger Band (103.48) on high relative volume (1.44), signaling a powerful short-term breakout.\n\n2) SUPPORT: 99.74\n\n3) RESISTANCE: UNKNOWN\n\n4) FINAL_VIEW: BULLISH\n\n5) CONFIDENCE: MEDIUM\n\n6) KEY_UNCERTAINTY: Price is currently extended above the Upper Bollinger Band (BBP 1.09), which often precedes a brief consolidation or mean reversion.",
+      "news_harvester": "1) CATALYSTS:\n* No ticker-specific catalyst exists. The provided articles focus on Comcast, Halliburton, and Honeywell, with no mention of Exxon Mobil (XOM) or its operations.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: No XOM-specific event risks identified in the provided text."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue decelerated 10.2% QoQ ($83.6B vs. $93.2B), marking the third consecutive quarterly decline from the $111.3B peak in Q2 2022.",
+        "primary_risk": "* Persistent top-line contraction suggests weakening near-term momentum, which may weigh on sentiment over a 10-day horizon."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI at 66.44 indicates strong bullish momentum with room to reach overbought levels (>70) before exhaustion.",
+        "primary_risk": "Price is currently extended above the Upper Bollinger Band (BBP 1.09), which often precedes a brief consolidation or mean reversion."
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "No ticker-specific catalyst exists. The provided articles focus on Comcast, Halliburton, and Honeywell, with no mention of Exxon Mobil (XOM)",
+        "primary_risk": "No XOM-specific event risks identified in the provided text."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\nUpside Catalyst Analyst:\n- TOP_UPSIDE_CATALYSTS: \n- [Technical] MACD (0.13) above the signal line with a positive histogram (1.16) and RSI at 66.44 -> bullish crossover and trend acceleration indicate momentum has immediate room to reach overbought levels (>70).\n- [Technical] Price (104.85) breakout above the Upper Bollinger Band (103.48) on high relative volume (1.44) -> signals a powerful short-term trend continuation and breakout strength.\n\n- UPSIDE_FAILURE: Price is currently extended above the Upper Bollinger Band (BBP 1.09), which often precedes a brief consolidation or mean reversion, potentially exacerbated by the sentiment of three consecutive quarters of revenue contraction.\n\nDownside Risk Analyst:\n\n- [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) with a BBP of 1.09 -> technical exhaustion likely triggers a near-term mean reversion or consolidation toward the 99.74 support level within the 10-day window.\n- [Fundamental] Persistent top-line contraction (revenue down 10.2% QoQ) paired with flat operating expenses ($9.75B) -> potential margin squeeze and weakening momentum that may block further price appreciation if market sentiment shifts toward decelerating growth.\n\nRISK_IRRELEVANCE: Price stabilizing within the Bollinger Bands or a reversal in the three-quarter revenue decline would neutralize these risks.",
+      "bull_history": "\n\nUpside Catalyst Analyst:\n- TOP_UPSIDE_CATALYSTS: \n- [Technical] MACD (0.13) above the signal line with a positive histogram (1.16) and RSI at 66.44 -> bullish crossover and trend acceleration indicate momentum has immediate room to reach overbought levels (>70).\n- [Technical] Price (104.85) breakout above the Upper Bollinger Band (103.48) on high relative volume (1.44) -> signals a powerful short-term trend continuation and breakout strength.\n\n- UPSIDE_FAILURE: Price is currently extended above the Upper Bollinger Band (BBP 1.09), which often precedes a brief consolidation or mean reversion, potentially exacerbated by the sentiment of three consecutive quarters of revenue contraction.",
+      "bear_history": "\n\nDownside Risk Analyst:\n\n- [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) with a BBP of 1.09 -> technical exhaustion likely triggers a near-term mean reversion or consolidation toward the 99.74 support level within the 10-day window.\n- [Fundamental] Persistent top-line contraction (revenue down 10.2% QoQ) paired with flat operating expenses ($9.75B) -> potential margin squeeze and weakening momentum that may block further price appreciation if market sentiment shifts toward decelerating growth.\n\nRISK_IRRELEVANCE: Price stabilizing within the Bollinger Bands or a reversal in the three-quarter revenue decline would neutralize these risks.",
+      "current_response": "Downside Risk Analyst:\n\n- [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) with a BBP of 1.09 -> technical exhaustion likely triggers a near-term mean reversion or consolidation toward the 99.74 support level within the 10-day window.\n- [Fundamental] Persistent top-line contraction (revenue down 10.2% QoQ) paired with flat operating expenses ($9.75B) -> potential margin squeeze and weakening momentum that may block further price appreciation if market sentiment shifts toward decelerating growth.\n\nRISK_IRRELEVANCE: Price stabilizing within the Bollinger Bands or a reversal in the three-quarter revenue decline would neutralize these risks.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 4.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Technical breakout with price (104.85) closing above the Upper Bollinger Band (103.48) on high relative volume of 1.44.\",\n    \"MACD bullish crossover (0.13) above the signal line with a positive histogram (1.16) confirming trend acceleration.\",\n    \"RSI at 66.44 indicates strong momentum with remaining headroom to reach the 70+ overbought threshold.\"\n  ],\n  \"main_risk\": \"Technical exhaustion indicated by a BBP of 1.09, which may trigger a mean reversion toward the 99.74 support level.\",\n  \"actionability_assessment\": \"The technical breakout and momentum indicators provide a clear, actionable path for price appreciation over the next 10 days, while the revenue contraction and margin concerns represent slower-moving fundamental context.\",\n  \"hold_gate_assessment\": \"The bullish technical setup clears the actionability bar because the high-volume breakout and MACD acceleration suggest immediate trend continuation that outweighs the lack of near-term fundamental catalysts.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\nUpside Catalyst Analyst:\n- TOP_UPSIDE_CATALYSTS: \n- [Technical] MACD (0.13) above the signal line with a positive histogram (1.16) and RSI at 66.44 -> bullish crossover and trend acceleration indicate momentum has immediate room to reach overbought levels (>70).\n- [Technical] Price (104.85) breakout above the Upper Bollinger Band (103.48) on high relative volume (1.44) -> signals a powerful short-term trend continuation and breakout strength.\n\n- UPSIDE_FAILURE: Price is currently extended above the Upper Bollinger Band (BBP 1.09), which often precedes a brief consolidation or mean reversion, potentially exacerbated by the sentiment of three consecutive quarters of revenue contraction.",
+      "bearish": "\n\nDownside Risk Analyst:\n\n- [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) with a BBP of 1.09 -> technical exhaustion likely triggers a near-term mean reversion or consolidation toward the 99.74 support level within the 10-day window.\n- [Fundamental] Persistent top-line contraction (revenue down 10.2% QoQ) paired with flat operating expenses ($9.75B) -> potential margin squeeze and weakening momentum that may block further price appreciation if market sentiment shifts toward decelerating growth.\n\nRISK_IRRELEVANCE: Price stabilizing within the Bollinger Bands or a reversal in the three-quarter revenue decline would neutralize these risks."
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 4.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Technical breakout with price (104.85) closing above the Upper Bollinger Band (103.48) on high relative volume of 1.44.\",\n    \"MACD bullish crossover (0.13) above the signal line with a positive histogram (1.16) confirming trend acceleration.\",\n    \"RSI at 66.44 indicates strong momentum with remaining headroom to reach the 70+ overbought threshold.\"\n  ],\n  \"main_risk\": \"Technical exhaustion indicated by a BBP of 1.09, which may trigger a mean reversion toward the 99.74 support level.\",\n  \"actionability_assessment\": \"The technical breakout and momentum indicators provide a clear, actionable path for price appreciation over the next 10 days, while the revenue contraction and margin concerns represent slower-moving fundamental context.\",\n  \"hold_gate_assessment\": \"The bullish technical setup clears the actionability bar because the high-volume breakout and MACD acceleration suggest immediate trend continuation that outweighs the lack of near-term fundamental catalysts.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.5,
+      "sell_score": 4.5,
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "Technical breakout with price (104.85) closing above the Upper Bollinger Band (103.48) on high relative volume of 1.44.",
+        "MACD bullish crossover (0.13) above the signal line with a positive histogram (1.16) confirming trend acceleration.",
+        "RSI at 66.44 indicates strong momentum with remaining headroom to reach the 70+ overbought threshold."
+      ],
+      "main_risk": "Technical exhaustion indicated by a BBP of 1.09, which may trigger a mean reversion toward the 99.74 support level.",
+      "actionability_assessment": "The technical breakout and momentum indicators provide a clear, actionable path for price appreciation over the next 10 days, while the revenue contraction and margin concerns represent slower-moving fundamental context.",
+      "hold_gate_assessment": "The bullish technical setup clears the actionability bar because the high-volume breakout and MACD acceleration suggest immediate trend continuation that outweighs the lack of near-term fundamental catalysts.",
+      "execution_notes": [],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: RSI at 66.44 indicates strong bullish momentum with room to reach overbought levels (>70) before exhaustion. AGAINST: Technical exhaustion indicated by a BBP of 1.09, which may trigger a mean reversion toward the 99.74 support level. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "XOM",
+        "as_of": "2023-04-03",
+        "lookback_days": 14,
+        "window_start": "2023-03-20",
+        "window_end": "2023-04-03",
+        "article_count": 2,
+        "min_published": "2023-03-24T14:50:19",
+        "max_published": "2023-03-29T00:00:00",
+        "articles": [
+          {
+            "title": "Comcast Stock Is a Buy",
+            "source": "Morningstar",
+            "published": "20230329T000000",
+            "url": "https://www.morningstar.com/stocks/comcast-stock-is-buy",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.03493,
+            "relevance_score": 0.610689
+          },
+          {
+            "title": "Halliburton and Honeywell in talks to develop oil fields and refineries in Libya",
+            "source": "Libya Update News - Libya Update News",
+            "published": "20230324T145019",
+            "url": "https://libyaupdate.com/halliburton-and-honeywell-in-talks-to-develop-oil-fields-and-refineries-in-libya/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.34005,
+            "relevance_score": 0.590727
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 49.84
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-04-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue decelerated 10.2% QoQ ($83.6B vs. $93.2B), marking the third consecutive quarterly decline from the $111.3B peak in Q2 2022.",
+        "primary_risk": "* Persistent top-line contraction suggests weakening near-term momentum, which may weigh on sentiment over a 10-day horizon."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI at 66.44 indicates strong bullish momentum with room to reach overbought levels (>70) before exhaustion.",
+        "primary_risk": "Price is currently extended above the Upper Bollinger Band (BBP 1.09), which often precedes a brief consolidation or mean reversion."
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "No ticker-specific catalyst exists. The provided articles focus on Comcast, Halliburton, and Honeywell, with no mention of Exxon Mobil (XOM)",
+        "primary_risk": "No XOM-specific event risks identified in the provided text."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue decelerated 10.2% QoQ ($83.6B vs. $93.2B), marking the third consecutive quarterly decline from the $111.3B peak in Q2 2022.\n* Net income fell 10.3% QoQ to $11.4B, indicating a cooling of the recent high-profit cycle despite maintaining a 13.7% profit margin.\n* Strong liquidity (1.46 current ratio) and $16.3B in quarterly free cash flow provide a defensive buffer against short-term volatility.\n\n2) RISKS:\n* Persistent top-line contraction suggests weakening near-term momentum, which may weigh on sentiment over a 10-day horizon.\n* Operating expenses ($9.75B) remained relatively flat despite the significant revenue drop, potentially squeezing future margins.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Whether strong cash flow generation can offset the negative momentum of declining QoQ revenue.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI at 66.44 indicates strong bullish momentum with room to reach overbought levels (>70) before exhaustion.\n* MACD (0.13) is above the signal line (-1.03) with a positive histogram (1.16), confirming a recent bullish crossover and trend acceleration.\n* Price (104.85) has broken above the Upper Bollinger Band (103.48) on high relative volume (1.44), signaling a powerful short-term breakout.\n\n2) SUPPORT: 99.74\n\n3) RESISTANCE: UNKNOWN\n\n4) FINAL_VIEW: BULLISH\n\n5) CONFIDENCE: MEDIUM\n\n6) KEY_UNCERTAINTY: Price is currently extended above the Upper Bollinger Band (BBP 1.09), which often precedes a brief consolidation or mean reversion.",
+      "news_harvester": "1) CATALYSTS:\n* No ticker-specific catalyst exists. The provided articles focus on Comcast, Halliburton, and Honeywell, with no mention of Exxon Mobil (XOM) or its operations.\n\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: LOW\n5) KEY_EVENT_RISK: No XOM-specific event risks identified in the provided text."
+    },
+    "investment_debate_state": {
+      "history": "\n\nUpside Catalyst Analyst:\n- TOP_UPSIDE_CATALYSTS: \n- [Technical] MACD (0.13) above the signal line with a positive histogram (1.16) and RSI at 66.44 -> bullish crossover and trend acceleration indicate momentum has immediate room to reach overbought levels (>70).\n- [Technical] Price (104.85) breakout above the Upper Bollinger Band (103.48) on high relative volume (1.44) -> signals a powerful short-term trend continuation and breakout strength.\n\n- UPSIDE_FAILURE: Price is currently extended above the Upper Bollinger Band (BBP 1.09), which often precedes a brief consolidation or mean reversion, potentially exacerbated by the sentiment of three consecutive quarters of revenue contraction.\n\nDownside Risk Analyst:\n\n- [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) with a BBP of 1.09 -> technical exhaustion likely triggers a near-term mean reversion or consolidation toward the 99.74 support level within the 10-day window.\n- [Fundamental] Persistent top-line contraction (revenue down 10.2% QoQ) paired with flat operating expenses ($9.75B) -> potential margin squeeze and weakening momentum that may block further price appreciation if market sentiment shifts toward decelerating growth.\n\nRISK_IRRELEVANCE: Price stabilizing within the Bollinger Bands or a reversal in the three-quarter revenue decline would neutralize these risks.",
+      "bull_history": "\n\nUpside Catalyst Analyst:\n- TOP_UPSIDE_CATALYSTS: \n- [Technical] MACD (0.13) above the signal line with a positive histogram (1.16) and RSI at 66.44 -> bullish crossover and trend acceleration indicate momentum has immediate room to reach overbought levels (>70).\n- [Technical] Price (104.85) breakout above the Upper Bollinger Band (103.48) on high relative volume (1.44) -> signals a powerful short-term trend continuation and breakout strength.\n\n- UPSIDE_FAILURE: Price is currently extended above the Upper Bollinger Band (BBP 1.09), which often precedes a brief consolidation or mean reversion, potentially exacerbated by the sentiment of three consecutive quarters of revenue contraction.",
+      "bear_history": "\n\nDownside Risk Analyst:\n\n- [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) with a BBP of 1.09 -> technical exhaustion likely triggers a near-term mean reversion or consolidation toward the 99.74 support level within the 10-day window.\n- [Fundamental] Persistent top-line contraction (revenue down 10.2% QoQ) paired with flat operating expenses ($9.75B) -> potential margin squeeze and weakening momentum that may block further price appreciation if market sentiment shifts toward decelerating growth.\n\nRISK_IRRELEVANCE: Price stabilizing within the Bollinger Bands or a reversal in the three-quarter revenue decline would neutralize these risks.",
+      "current_response": "Downside Risk Analyst:\n\n- [Technical] Price (104.85) is currently extended above the Upper Bollinger Band (103.48) with a BBP of 1.09 -> technical exhaustion likely triggers a near-term mean reversion or consolidation toward the 99.74 support level within the 10-day window.\n- [Fundamental] Persistent top-line contraction (revenue down 10.2% QoQ) paired with flat operating expenses ($9.75B) -> potential margin squeeze and weakening momentum that may block further price appreciation if market sentiment shifts toward decelerating growth.\n\nRISK_IRRELEVANCE: Price stabilizing within the Bollinger Bands or a reversal in the three-quarter revenue decline would neutralize these risks.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 4.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Technical breakout with price (104.85) closing above the Upper Bollinger Band (103.48) on high relative volume of 1.44.\",\n    \"MACD bullish crossover (0.13) above the signal line with a positive histogram (1.16) confirming trend acceleration.\",\n    \"RSI at 66.44 indicates strong momentum with remaining headroom to reach the 70+ overbought threshold.\"\n  ],\n  \"main_risk\": \"Technical exhaustion indicated by a BBP of 1.09, which may trigger a mean reversion toward the 99.74 support level.\",\n  \"actionability_assessment\": \"The technical breakout and momentum indicators provide a clear, actionable path for price appreciation over the next 10 days, while the revenue contraction and margin concerns represent slower-moving fundamental context.\",\n  \"hold_gate_assessment\": \"The bullish technical setup clears the actionability bar because the high-volume breakout and MACD acceleration suggest immediate trend continuation that outweighs the lack of near-term fundamental catalysts.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 4.5,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Technical breakout with price (104.85) closing above the Upper Bollinger Band (103.48) on high relative volume of 1.44.\",\n    \"MACD bullish crossover (0.13) above the signal line with a positive histogram (1.16) confirming trend acceleration.\",\n    \"RSI at 66.44 indicates strong momentum with remaining headroom to reach the 70+ overbought threshold.\"\n  ],\n  \"main_risk\": \"Technical exhaustion indicated by a BBP of 1.09, which may trigger a mean reversion toward the 99.74 support level.\",\n  \"actionability_assessment\": \"The technical breakout and momentum indicators provide a clear, actionable path for price appreciation over the next 10 days, while the revenue contraction and margin concerns represent slower-moving fundamental context.\",\n  \"hold_gate_assessment\": \"The bullish technical setup clears the actionability bar because the high-volume breakout and MACD acceleration suggest immediate trend continuation that outweighs the lack of near-term fundamental catalysts.\",\n  \"execution_notes\": [],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.5,
+      "sell_score": 4.5,
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "Technical breakout with price (104.85) closing above the Upper Bollinger Band (103.48) on high relative volume of 1.44.",
+        "MACD bullish crossover (0.13) above the signal line with a positive histogram (1.16) confirming trend acceleration.",
+        "RSI at 66.44 indicates strong momentum with remaining headroom to reach the 70+ overbought threshold."
+      ],
+      "main_risk": "Technical exhaustion indicated by a BBP of 1.09, which may trigger a mean reversion toward the 99.74 support level.",
+      "actionability_assessment": "The technical breakout and momentum indicators provide a clear, actionable path for price appreciation over the next 10 days, while the revenue contraction and margin concerns represent slower-moving fundamental context.",
+      "hold_gate_assessment": "The bullish technical setup clears the actionability bar because the high-volume breakout and MACD acceleration suggest immediate trend continuation that outweighs the lack of near-term fundamental catalysts.",
+      "execution_notes": [],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: RSI at 66.44 indicates strong bullish momentum with room to reach overbought levels (>70) before exhaustion. AGAINST: Technical exhaustion indicated by a BBP of 1.09, which may trigger a mean reversion toward the 99.74 support level. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 49.84,
+    "memory_id": null
+  }
+}

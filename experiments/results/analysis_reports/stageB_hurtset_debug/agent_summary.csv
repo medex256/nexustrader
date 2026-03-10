@@ -1,0 +1,2 @@
+name,n,overall_acc_%,dir_acc_ex_hold_%,dir_acc_ex_hold_n,buy_acc_%,sell_acc_%,hold_acc_%,buy_n,sell_n,hold_n,hold_rate_%,hold_precision_%,mean_strategy_return_%,mean_excess_vs_bh_%
+stageB_hurtset_debug,60,21.67,32.14,28,85.71,14.29,12.5,7,21,32,53.33,12.5,-1.569,-6.737

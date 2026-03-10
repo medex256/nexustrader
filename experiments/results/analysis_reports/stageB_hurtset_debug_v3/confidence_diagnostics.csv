@@ -1,0 +1,3 @@
+confidence_band,n,overall_acc_%,hold_rate_%,dir_acc_ex_hold_%,dir_acc_ex_hold_n
+HIGH,36,16.667,41.667,23.81,21
+MEDIUM,24,16.667,16.667,15.0,20

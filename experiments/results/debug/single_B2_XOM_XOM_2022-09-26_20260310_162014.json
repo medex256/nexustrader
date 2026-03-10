@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "created_at": "2026-03-10T16:20:14",
+    "started_at": "2026-03-10T16:19:06",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "B2_XOM"
+  },
+  "request_payload": {
+    "ticker": "XOM",
+    "market": "US",
+    "simulated_date": "2022-09-26",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "XOM",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-09-26",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2022-09-26",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* QoQ revenue accelerated 26.8% to $111.3B in Q2 2022, while net income surged 225% to $17.85B, signaling extreme short-term fundamental momentum.\n* Net profit margins expanded from 6.25% to 16.04% QoQ, demonstrating high operating leverage and immediate price realization gains.\n* Free cash flow reached $19.96B in the latest quarter, providing massive liquidity and a robust buffer for short-term capital flexibility.\n\n2) RISKS:\n* Lagging data: Financials end June 30, leaving a gap in sensitivity to commodity price shifts occurring between the report and the late-September horizon.\n* Potential \"peak earnings\" repricing if the market has already fully absorbed the Q2 acceleration.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Commodity price volatility between the June 30 report and the September trading window.",
+      "technical_analyst": "1) EVIDENCE:\n• Price (74.65) has broken below the Lower Bollinger Band (76.64) and sits well under the SMA_20 (83.44), signaling aggressive seller dominance and a confirmed breakdown.\n• MACD is deeply negative (-1.3682) with an expanding negative histogram (-1.2387), confirming accelerating downward momentum and a lack of trend stabilization.\n• A 1.12 Volume Ratio accompanying the -9.15% 5-day decline validates the move as high-conviction distribution rather than a low-volume exhaustion.\n\n2) SUPPORT: UNKNOWN\n3) RESISTANCE: 76.65\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: RSI at 29.83 is in oversold territory, which could trigger a sharp technical mean-reversion bounce toward the Lower Bollinger Band despite the dominant bearish trend.",
+      "news_harvester": "1) CATALYSTS:\n• Shutdown of the 235,000 bpd Fos-Sur-Mer and Port Jerome-Gravenchon refineries due to ongoing French strikes, creating immediate operational disruptions and supply constraints.\n• Record production in Guyana reaching 390,000 boepd, exceeding targets and providing a volume-based offset to European refining losses.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Duration and potential escalation of wage-related strikes at French refineries impacting near-term downstream margins."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "QoQ revenue accelerated 26.8% to $111.3B in Q2 2022, while net income surged 225% to $17.85B, signaling extreme short-term fundamental momen",
+        "primary_risk": "* Lagging data: Financials end June 30, leaving a gap in sensitivity to commodity price shifts occurring between the report and the late-Sep"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=HIGH",
+        "key_catalyst": "Price (74.65) has broken below the Lower Bollinger Band (76.64) and sits well under the SMA_20 (83.44), signaling aggressive seller dominanc",
+        "primary_risk": "RSI at 29.83 is in oversold territory, which could trigger a sharp technical mean-reversion bounce toward the Lower Bollinger Band despite t"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Shutdown of the 235,000 bpd Fos-Sur-Mer and Port Jerome-Gravenchon refineries due to ongoing French strikes, creating immediate operational ",
+        "primary_risk": "Duration and potential escalation of wage-related strikes at French refineries impacting near-term downstream margins."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: Strong fundamental momentum and record Guyana production (390,000 boepd) provide a volume-based buffer against refining disruptions. However, with technicals signaling high-conviction distribution, near-term upside is limited to a mean-reversion bounce toward the 76.65 resistance, triggered by an oversold RSI (29.83) following the aggressive 9.15% five-day decline.\n\nOVERRIDE_STRENGTH: REDUCE_CONFIDENCE\nOVERRIDE_NOTE: A high-conviction technical breakdown and ongoing French refinery strikes (235,000 bpd offline) create immediate downside pressure. These factors indicate the market is actively repricing for current operational disruptions and commodity volatility not captured in the stale Q2 fundamental data (ending June 30), directly challenging the bullish thesis within the 10-day trading window.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: Strong fundamental momentum and record Guyana production (390,000 boepd) provide a volume-based buffer against refining disruptions. However, with technicals signaling high-conviction distribution, near-term upside is limited to a mean-reversion bounce toward the 76.65 resistance, triggered by an oversold RSI (29.83) following the aggressive 9.15% five-day decline.",
+      "bear_history": "\n\nOVERRIDE_STRENGTH: REDUCE_CONFIDENCE\nOVERRIDE_NOTE: A high-conviction technical breakdown and ongoing French refinery strikes (235,000 bpd offline) create immediate downside pressure. These factors indicate the market is actively repricing for current operational disruptions and commodity volatility not captured in the stale Q2 fundamental data (ending June 30), directly challenging the bullish thesis within the 10-day trading window.",
+      "current_response": "OVERRIDE_STRENGTH: REDUCE_CONFIDENCE\nOVERRIDE_NOTE: A high-conviction technical breakdown and ongoing French refinery strikes (235,000 bpd offline) create immediate downside pressure. These factors indicate the market is actively repricing for current operational disruptions and commodity volatility not captured in the stale Q2 fundamental data (ending June 30), directly challenging the bullish thesis within the 10-day trading window.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The technical breakdown and high-conviction distribution outweigh the lagging fundamental strength from Q2.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"REDUCE_CONFIDENCE\",\n  \"actionability_assessment\": \"The bearish technical trend and immediate refinery disruptions provide a clear path for continued downside despite oversold signals.\",\n  \"hold_gate_assessment\": \"Background caution regarding oversold conditions does not create irresolvable uncertainty for the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor the 76.65 resistance level for signs of a mean-reversion bounce.\",\n    \"Watch for resolution of French refinery strikes which could mitigate immediate supply constraints.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: Strong fundamental momentum and record Guyana production (390,000 boepd) provide a volume-based buffer against refining disruptions. However, with technicals signaling high-conviction distribution, near-term upside is limited to a mean-reversion bounce toward the 76.65 resistance, triggered by an oversold RSI (29.83) following the aggressive 9.15% five-day decline.",
+      "bearish": "\n\nOVERRIDE_STRENGTH: REDUCE_CONFIDENCE\nOVERRIDE_NOTE: A high-conviction technical breakdown and ongoing French refinery strikes (235,000 bpd offline) create immediate downside pressure. These factors indicate the market is actively repricing for current operational disruptions and commodity volatility not captured in the stale Q2 fundamental data (ending June 30), directly challenging the bullish thesis within the 10-day trading window."
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The technical breakdown and high-conviction distribution outweigh the lagging fundamental strength from Q2.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"REDUCE_CONFIDENCE\",\n  \"actionability_assessment\": \"The bearish technical trend and immediate refinery disruptions provide a clear path for continued downside despite oversold signals.\",\n  \"hold_gate_assessment\": \"Background caution regarding oversold conditions does not create irresolvable uncertainty for the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor the 76.65 resistance level for signs of a mean-reversion bounce.\",\n    \"Watch for resolution of French refinery strikes which could mitigate immediate supply constraints.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "SELL",
+      "confidence_score": 0.5,
+      "primary_drivers": [],
+      "main_risk": "Unknown",
+      "prior_view": "SELL",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "SELL",
+      "base_view_rationale": "The technical breakdown and high-conviction distribution outweigh the lagging fundamental strength from Q2.",
+      "upside_note_impact": "WEAK",
+      "downside_note_impact": "REDUCE_CONFIDENCE",
+      "actionability_assessment": "The bearish technical trend and immediate refinery disruptions provide a clear path for continued downside despite oversold signals.",
+      "hold_gate_assessment": "Background caution regarding oversold conditions does not create irresolvable uncertainty for the 10-day window.",
+      "execution_notes": [
+        "Monitor the 76.65 resistance level for signs of a mean-reversion bounce.",
+        "Watch for resolution of French refinery strikes which could mitigate immediate supply constraints."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.5,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (74.65) has broken below the Lower Bollinger Band (76.64) and sits well under the SMA_20 (83.44), signaling aggressive seller dominanc AGAINST: * Lagging data: Financials end June 30, leaving a gap in sensitivity to commodity price shifts occurring between the report and the late-Sep DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "XOM",
+        "as_of": "2022-09-26",
+        "lookback_days": 14,
+        "window_start": "2022-09-12",
+        "window_end": "2022-09-26",
+        "article_count": 8,
+        "min_published": "2022-09-12T05:09:43",
+        "max_published": "2022-09-22T18:16:21",
+        "articles": [
+          {
+            "title": "Exxon Mobil shuts Fos-Sur-Mer refinery in France due to strike",
+            "source": "Reuters",
+            "published": "20220922T134800",
+            "url": "https://www.reuters.com/business/energy/exxon-mobil-shuts-fos-sur-mer-refinery-france-due-strike-2022-09-22/",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.394574,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "Exclusive: Exxon boosts Guyana oil output, undecided on future auction bid",
+            "source": "Reuters",
+            "published": "20220920T113900",
+            "url": "https://www.reuters.com/business/energy/exclusive-exxon-boosts-guyana-oil-output-undecided-future-auction-bid-source-2022-09-20/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.345398,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "NS Recognizes 48 Safe Shippers",
+            "source": "Railway Age",
+            "published": "20220922T175556",
+            "url": "https://www.railwayage.com/freight/class-i/ns-recognizes-48-safe-shippers/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.207199,
+            "relevance_score": 0.744783
+          },
+          {
+            "title": "Opinion: Are Oklahoma 401(k) Plans Helping to Destroy State’s Energy Business?",
+            "source": "401k Specialist",
+            "published": "20220912T050943",
+            "url": "https://401kspecialistmag.com/opinion-are-oklahoma-401k-plans-helping-to-destroy-states-energy-business/",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.212597,
+            "relevance_score": 0.718615
+          },
+          {
+            "title": "JX Nippon to buy NRG's stake in Petra Nova carbon capture plant near Houston",
+            "source": "The Business Journals",
+            "published": "20220919T155000",
+            "url": "https://www.bizjournals.com/houston/news/2022/09/19/jx-nippon-nrg-petra-nova-carbon-capture-buyout.html",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.102045,
+            "relevance_score": 0.627234
+          },
+          {
+            "title": "Hydrocracker upgrade boosts Wood River",
+            "source": "Phillips 66",
+            "published": "20220922T181621",
+            "url": "https://www.phillips66.com/newsroom/hydrocracker-upgrade-boosts-wood-river/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.218705,
+            "relevance_score": 0.619495
+          },
+          {
+            "title": "Crude oil tanker floats new dividend policy",
+            "source": "Royal Gazette | Bermuda",
+            "published": "20220920T080000",
+            "url": "https://www.royalgazette.com/international-business/business/article/20220920/crude-oil-tanker-floats-new-dividend-policy/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.24887,
+            "relevance_score": 0.59717
+          },
+          {
+            "title": "Look to SPLV for Stability in Your Portfolio",
+            "source": "ETF Trends",
+            "published": "20220912T184606",
+            "url": "https://www.etftrends.com/innovative-etfs-channel/look-to-splv-for-stability-in-your-portfolio/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.080688,
+            "relevance_score": 0.582057
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 68.63
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-09-26",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "QoQ revenue accelerated 26.8% to $111.3B in Q2 2022, while net income surged 225% to $17.85B, signaling extreme short-term fundamental momen",
+        "primary_risk": "* Lagging data: Financials end June 30, leaving a gap in sensitivity to commodity price shifts occurring between the report and the late-Sep"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=HIGH",
+        "key_catalyst": "Price (74.65) has broken below the Lower Bollinger Band (76.64) and sits well under the SMA_20 (83.44), signaling aggressive seller dominanc",
+        "primary_risk": "RSI at 29.83 is in oversold territory, which could trigger a sharp technical mean-reversion bounce toward the Lower Bollinger Band despite t"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Shutdown of the 235,000 bpd Fos-Sur-Mer and Port Jerome-Gravenchon refineries due to ongoing French strikes, creating immediate operational ",
+        "primary_risk": "Duration and potential escalation of wage-related strikes at French refineries impacting near-term downstream margins."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* QoQ revenue accelerated 26.8% to $111.3B in Q2 2022, while net income surged 225% to $17.85B, signaling extreme short-term fundamental momentum.\n* Net profit margins expanded from 6.25% to 16.04% QoQ, demonstrating high operating leverage and immediate price realization gains.\n* Free cash flow reached $19.96B in the latest quarter, providing massive liquidity and a robust buffer for short-term capital flexibility.\n\n2) RISKS:\n* Lagging data: Financials end June 30, leaving a gap in sensitivity to commodity price shifts occurring between the report and the late-September horizon.\n* Potential \"peak earnings\" repricing if the market has already fully absorbed the Q2 acceleration.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Commodity price volatility between the June 30 report and the September trading window.",
+      "technical_analyst": "1) EVIDENCE:\n• Price (74.65) has broken below the Lower Bollinger Band (76.64) and sits well under the SMA_20 (83.44), signaling aggressive seller dominance and a confirmed breakdown.\n• MACD is deeply negative (-1.3682) with an expanding negative histogram (-1.2387), confirming accelerating downward momentum and a lack of trend stabilization.\n• A 1.12 Volume Ratio accompanying the -9.15% 5-day decline validates the move as high-conviction distribution rather than a low-volume exhaustion.\n\n2) SUPPORT: UNKNOWN\n3) RESISTANCE: 76.65\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: RSI at 29.83 is in oversold territory, which could trigger a sharp technical mean-reversion bounce toward the Lower Bollinger Band despite the dominant bearish trend.",
+      "news_harvester": "1) CATALYSTS:\n• Shutdown of the 235,000 bpd Fos-Sur-Mer and Port Jerome-Gravenchon refineries due to ongoing French strikes, creating immediate operational disruptions and supply constraints.\n• Record production in Guyana reaching 390,000 boepd, exceeding targets and providing a volume-based offset to European refining losses.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Duration and potential escalation of wage-related strikes at French refineries impacting near-term downstream margins."
+    },
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: Strong fundamental momentum and record Guyana production (390,000 boepd) provide a volume-based buffer against refining disruptions. However, with technicals signaling high-conviction distribution, near-term upside is limited to a mean-reversion bounce toward the 76.65 resistance, triggered by an oversold RSI (29.83) following the aggressive 9.15% five-day decline.\n\nOVERRIDE_STRENGTH: REDUCE_CONFIDENCE\nOVERRIDE_NOTE: A high-conviction technical breakdown and ongoing French refinery strikes (235,000 bpd offline) create immediate downside pressure. These factors indicate the market is actively repricing for current operational disruptions and commodity volatility not captured in the stale Q2 fundamental data (ending June 30), directly challenging the bullish thesis within the 10-day trading window.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: Strong fundamental momentum and record Guyana production (390,000 boepd) provide a volume-based buffer against refining disruptions. However, with technicals signaling high-conviction distribution, near-term upside is limited to a mean-reversion bounce toward the 76.65 resistance, triggered by an oversold RSI (29.83) following the aggressive 9.15% five-day decline.",
+      "bear_history": "\n\nOVERRIDE_STRENGTH: REDUCE_CONFIDENCE\nOVERRIDE_NOTE: A high-conviction technical breakdown and ongoing French refinery strikes (235,000 bpd offline) create immediate downside pressure. These factors indicate the market is actively repricing for current operational disruptions and commodity volatility not captured in the stale Q2 fundamental data (ending June 30), directly challenging the bullish thesis within the 10-day trading window.",
+      "current_response": "OVERRIDE_STRENGTH: REDUCE_CONFIDENCE\nOVERRIDE_NOTE: A high-conviction technical breakdown and ongoing French refinery strikes (235,000 bpd offline) create immediate downside pressure. These factors indicate the market is actively repricing for current operational disruptions and commodity volatility not captured in the stale Q2 fundamental data (ending June 30), directly challenging the bullish thesis within the 10-day trading window.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The technical breakdown and high-conviction distribution outweigh the lagging fundamental strength from Q2.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"REDUCE_CONFIDENCE\",\n  \"actionability_assessment\": \"The bearish technical trend and immediate refinery disruptions provide a clear path for continued downside despite oversold signals.\",\n  \"hold_gate_assessment\": \"Background caution regarding oversold conditions does not create irresolvable uncertainty for the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor the 76.65 resistance level for signs of a mean-reversion bounce.\",\n    \"Watch for resolution of French refinery strikes which could mitigate immediate supply constraints.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.5,\n  \"primary_drivers\": [],\n  \"main_risk\": \"Unknown\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The technical breakdown and high-conviction distribution outweigh the lagging fundamental strength from Q2.\",\n  \"upside_note_impact\": \"WEAK\",\n  \"downside_note_impact\": \"REDUCE_CONFIDENCE\",\n  \"actionability_assessment\": \"The bearish technical trend and immediate refinery disruptions provide a clear path for continued downside despite oversold signals.\",\n  \"hold_gate_assessment\": \"Background caution regarding oversold conditions does not create irresolvable uncertainty for the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor the 76.65 resistance level for signs of a mean-reversion bounce.\",\n    \"Watch for resolution of French refinery strikes which could mitigate immediate supply constraints.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "SELL",
+      "confidence_score": 0.5,
+      "primary_drivers": [],
+      "main_risk": "Unknown",
+      "prior_view": "SELL",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "SELL",
+      "base_view_rationale": "The technical breakdown and high-conviction distribution outweigh the lagging fundamental strength from Q2.",
+      "upside_note_impact": "WEAK",
+      "downside_note_impact": "REDUCE_CONFIDENCE",
+      "actionability_assessment": "The bearish technical trend and immediate refinery disruptions provide a clear path for continued downside despite oversold signals.",
+      "hold_gate_assessment": "Background caution regarding oversold conditions does not create irresolvable uncertainty for the 10-day window.",
+      "execution_notes": [
+        "Monitor the 76.65 resistance level for signs of a mean-reversion bounce.",
+        "Watch for resolution of French refinery strikes which could mitigate immediate supply constraints."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.5,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (74.65) has broken below the Lower Bollinger Band (76.64) and sits well under the SMA_20 (83.44), signaling aggressive seller dominanc AGAINST: * Lagging data: Financials end June 30, leaving a gap in sensitivity to commodity price shifts occurring between the report and the late-Sep DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 68.63,
+    "memory_id": null
+  }
+}

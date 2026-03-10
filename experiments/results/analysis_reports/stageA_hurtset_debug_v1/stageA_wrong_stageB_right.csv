@@ -1,0 +1,5 @@
+ticker,simulated_date,action_A,action_B,true_label,k_return,correct_A,correct_B,flip_helped,flip_hurt
+NVDA,2022-07-25,SELL,BUY,BUY,0.04517145247600213,0,1,True,False
+JNJ,2022-10-17,HOLD,BUY,BUY,0.044300382177995264,0,1,True,False
+JPM,2022-05-23,SELL,BUY,BUY,0.04390050946240281,0,1,True,False
+XOM,2025-10-13,SELL,BUY,BUY,0.03296513514470543,0,1,True,False

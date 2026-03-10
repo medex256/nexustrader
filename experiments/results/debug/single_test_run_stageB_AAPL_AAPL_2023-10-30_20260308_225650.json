@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "created_at": "2026-03-08T22:56:50",
+    "started_at": "2026-03-08T22:55:57",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_run_stageB_AAPL"
+  },
+  "request_payload": {
+    "ticker": "AAPL",
+    "market": "US",
+    "simulated_date": "2023-10-30",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "AAPL",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-10-30",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2023-10-30",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue accelerated 9.4% QoQ, rising from $81.8B (June 2023) to $89.5B (Sept 2023), indicating positive short-term sales momentum.\n* Maintained high profitability with a 25.6% net profit margin and $40.4B gross profit, demonstrating strong pricing power and cost management.\n* Robust cash generation with $21.6B in quarterly operating cash flow provides significant liquidity for immediate operational needs.\n\n2) RISKS:\n* Revenue showed a slight YoY decline from $90.1B to $89.5B, suggesting potential cooling in long-term demand compared to the previous year.\n* Liquidity is marginally constrained with a current ratio of 0.988, indicating current liabilities slightly exceed current assets.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Lack of explicit forward-looking guidance or analyst sentiment in the provided dataset.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI_14 at 40.31 -> Weak momentum currently favoring sellers, though not yet in oversold territory (<30).\n* MACD (-1.96) below Signal (-1.21) -> Bearish crossover with a negative histogram (-0.75) confirms downward price acceleration.\n* Price (168.32) below SMA_20 (172.88) -> The short-term trend is negative, with the 20-day average serving as immediate overhead resistance.\n\n2) SUPPORT: 165.13\n3) RESISTANCE: 172.88\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Potential for a short-term relief bounce if price hits the lower Bollinger Band (165.13) as RSI nears oversold levels.",
+      "news_harvester": "1) CATALYSTS:\n* Unveil of M3, M3 Pro, and M3 Max chips -> Next-generation 3-nanometer processors and GPU architecture upgrades may drive near-term sentiment and Mac segment expectations.\n\n2) TONE: BULLISH\n\n3) FINAL_VIEW: BULLISH\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Broad investor divestment from Chinese equities poses a risk to Apple’s valuation given its significant regional exposure."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue accelerated 9.4% QoQ, rising from $81.8B (June 2023) to $89.5B (Sept 2023), indicating positive short-term sales momentum.",
+        "primary_risk": "* Revenue showed a slight YoY decline from $90.1B to $89.5B, suggesting potential cooling in long-term demand compared to the previous year."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI_14 at 40.31 -> Weak momentum currently favoring sellers, though not yet in oversold territory (<30).",
+        "primary_risk": "Potential for a short-term relief bounce if price hits the lower Bollinger Band (165.13) as RSI nears oversold levels."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Unveil of M3, M3 Pro, and M3 Max chips -> Next-generation 3-nanometer processors and GPU architecture upgrades may drive near-term sentiment",
+        "primary_risk": "Broad investor divestment from Chinese equities poses a risk to Apple’s valuation given its significant regional exposure."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Unveil of M3, M3 Pro, and M3 Max chips driving near-term sentiment and Mac segment expectations.\n* Potential short-term relief bounce if price hits the lower Bollinger Band (165.13) as RSI nears oversold levels.\n\n- UPSIDE_FAILURE: Broad investor divestment from Chinese equities poses a risk to Apple’s valuation given its significant regional exposure.\n\n- TOP_DOWNSIDE_RISKS:\n* MACD bearish crossover and negative histogram (-0.75) confirming immediate downward price acceleration.\n* Broad investor divestment from Chinese equities impacting valuation due to significant regional exposure.\n\n- RISK_IRRELEVANCE: A short-term relief bounce could occur if the price hits the lower Bollinger Band (165.13) while RSI nears oversold levels.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Unveil of M3, M3 Pro, and M3 Max chips driving near-term sentiment and Mac segment expectations.\n* Potential short-term relief bounce if price hits the lower Bollinger Band (165.13) as RSI nears oversold levels.\n\n- UPSIDE_FAILURE: Broad investor divestment from Chinese equities poses a risk to Apple’s valuation given its significant regional exposure.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* MACD bearish crossover and negative histogram (-0.75) confirming immediate downward price acceleration.\n* Broad investor divestment from Chinese equities impacting valuation due to significant regional exposure.\n\n- RISK_IRRELEVANCE: A short-term relief bounce could occur if the price hits the lower Bollinger Band (165.13) while RSI nears oversold levels.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* MACD bearish crossover and negative histogram (-0.75) confirming immediate downward price acceleration.\n* Broad investor divestment from Chinese equities impacting valuation due to significant regional exposure.\n\n- RISK_IRRELEVANCE: A short-term relief bounce could occur if the price hits the lower Bollinger Band (165.13) while RSI nears oversold levels.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Bearish MACD crossover and price below SMA_20 indicate immediate downward momentum.\",\n    \"The M3 chip unveil serves as a significant sentiment catalyst that may offset technical weakness.\"\n  ],\n  \"main_risk\": \"Broad investor divestment from Chinese equities could outweigh domestic product catalysts and break support levels.\",\n  \"actionability_assessment\": \"The proximity to the 165.13 support level and the M3 launch create a high-uncertainty environment for directional trades.\",\n  \"hold_gate_assessment\": \"The bearish technical trend is specifically neutralized by the imminent product catalyst and near-oversold RSI levels, failing the clear-conviction bar.\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Unveil of M3, M3 Pro, and M3 Max chips driving near-term sentiment and Mac segment expectations.\n* Potential short-term relief bounce if price hits the lower Bollinger Band (165.13) as RSI nears oversold levels.\n\n- UPSIDE_FAILURE: Broad investor divestment from Chinese equities poses a risk to Apple’s valuation given its significant regional exposure.",
+      "bearish": "\n\n- TOP_DOWNSIDE_RISKS:\n* MACD bearish crossover and negative histogram (-0.75) confirming immediate downward price acceleration.\n* Broad investor divestment from Chinese equities impacting valuation due to significant regional exposure.\n\n- RISK_IRRELEVANCE: A short-term relief bounce could occur if the price hits the lower Bollinger Band (165.13) while RSI nears oversold levels."
+    },
+    "investment_plan": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Bearish MACD crossover and price below SMA_20 indicate immediate downward momentum.\",\n    \"The M3 chip unveil serves as a significant sentiment catalyst that may offset technical weakness.\"\n  ],\n  \"main_risk\": \"Broad investor divestment from Chinese equities could outweigh domestic product catalysts and break support levels.\",\n  \"actionability_assessment\": \"The proximity to the 165.13 support level and the M3 launch create a high-uncertainty environment for directional trades.\",\n  \"hold_gate_assessment\": \"The bearish technical trend is specifically neutralized by the imminent product catalyst and near-oversold RSI levels, failing the clear-conviction bar.\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 4.5,
+      "sell_score": 5.5,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Bearish MACD crossover and price below SMA_20 indicate immediate downward momentum.",
+        "The M3 chip unveil serves as a significant sentiment catalyst that may offset technical weakness."
+      ],
+      "main_risk": "Broad investor divestment from Chinese equities could outweigh domestic product catalysts and break support levels.",
+      "actionability_assessment": "The proximity to the 165.13 support level and the M3 launch create a high-uncertainty environment for directional trades.",
+      "hold_gate_assessment": "The bearish technical trend is specifically neutralized by the imminent product catalyst and near-oversold RSI levels, failing the clear-conviction bar.",
+      "execution_notes": [],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Bearish MACD crossover and price below SMA_20 indicate immediate downward momentum. AGAINST: Broad investor divestment from Chinese equities could outweigh domestic product catalysts and break support levels. DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=HIGH."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "AAPL",
+        "as_of": "2023-10-30",
+        "lookback_days": 14,
+        "window_start": "2023-10-16",
+        "window_end": "2023-10-30",
+        "article_count": 5,
+        "min_published": "2023-10-24T06:26:00",
+        "max_published": "2023-10-30T00:00:00",
+        "articles": [
+          {
+            "title": "Apple unveils M3, M3 Pro, and M3 Max, the most advanced chips for a personal computer",
+            "source": "Apple",
+            "published": "20231030T000000",
+            "url": "https://www.apple.com/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.44679,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "FDA Clears Omnipod 5 App for iPhones",
+            "source": "HCPLive",
+            "published": "20231024T152543",
+            "url": "https://www.hcplive.com/view/fda-clears-omnipod-5-app-for-iphones",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.226791,
+            "relevance_score": 0.748212
+          },
+          {
+            "title": "Nvidia to take on Intel, Qualcomm with Arm-based processors for PC; availability pegged for 2025",
+            "source": "The Financial Express",
+            "published": "20231024T134500",
+            "url": "https://www.financialexpress.com/life/technology-nvidia-to-take-on-intel-qualcomm-with-arm-based-processors-for-pc-availability-pegged-for-2025-3285212/",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.301299,
+            "relevance_score": 0.628588
+          },
+          {
+            "title": "‘Fundamental rethink:’ Investors dump China shares despite new efforts to shore up the economy",
+            "source": "CNN",
+            "published": "20231025T053300",
+            "url": "https://www.cnn.com/2023/10/25/economy/china-stock-rout-global-investors-intl-hnk",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.145586,
+            "relevance_score": 0.615454
+          },
+          {
+            "title": "It's Not Just Lithium: Tesla, Rivian, And The Green Revolution Rely On These Precious Metals",
+            "source": "Nasdaq",
+            "published": "20231024T062600",
+            "url": "https://www.nasdaq.com/articles/its-not-just-lithium:-tesla-rivian-and-the-green-revolution-rely-on-these-precious-metals",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.111102,
+            "relevance_score": 0.432345
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 52.71
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-10-30",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue accelerated 9.4% QoQ, rising from $81.8B (June 2023) to $89.5B (Sept 2023), indicating positive short-term sales momentum.",
+        "primary_risk": "* Revenue showed a slight YoY decline from $90.1B to $89.5B, suggesting potential cooling in long-term demand compared to the previous year."
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI_14 at 40.31 -> Weak momentum currently favoring sellers, though not yet in oversold territory (<30).",
+        "primary_risk": "Potential for a short-term relief bounce if price hits the lower Bollinger Band (165.13) as RSI nears oversold levels."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Unveil of M3, M3 Pro, and M3 Max chips -> Next-generation 3-nanometer processors and GPU architecture upgrades may drive near-term sentiment",
+        "primary_risk": "Broad investor divestment from Chinese equities poses a risk to Apple’s valuation given its significant regional exposure."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue accelerated 9.4% QoQ, rising from $81.8B (June 2023) to $89.5B (Sept 2023), indicating positive short-term sales momentum.\n* Maintained high profitability with a 25.6% net profit margin and $40.4B gross profit, demonstrating strong pricing power and cost management.\n* Robust cash generation with $21.6B in quarterly operating cash flow provides significant liquidity for immediate operational needs.\n\n2) RISKS:\n* Revenue showed a slight YoY decline from $90.1B to $89.5B, suggesting potential cooling in long-term demand compared to the previous year.\n* Liquidity is marginally constrained with a current ratio of 0.988, indicating current liabilities slightly exceed current assets.\n\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Lack of explicit forward-looking guidance or analyst sentiment in the provided dataset.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI_14 at 40.31 -> Weak momentum currently favoring sellers, though not yet in oversold territory (<30).\n* MACD (-1.96) below Signal (-1.21) -> Bearish crossover with a negative histogram (-0.75) confirms downward price acceleration.\n* Price (168.32) below SMA_20 (172.88) -> The short-term trend is negative, with the 20-day average serving as immediate overhead resistance.\n\n2) SUPPORT: 165.13\n3) RESISTANCE: 172.88\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Potential for a short-term relief bounce if price hits the lower Bollinger Band (165.13) as RSI nears oversold levels.",
+      "news_harvester": "1) CATALYSTS:\n* Unveil of M3, M3 Pro, and M3 Max chips -> Next-generation 3-nanometer processors and GPU architecture upgrades may drive near-term sentiment and Mac segment expectations.\n\n2) TONE: BULLISH\n\n3) FINAL_VIEW: BULLISH\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Broad investor divestment from Chinese equities poses a risk to Apple’s valuation given its significant regional exposure."
+    },
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Unveil of M3, M3 Pro, and M3 Max chips driving near-term sentiment and Mac segment expectations.\n* Potential short-term relief bounce if price hits the lower Bollinger Band (165.13) as RSI nears oversold levels.\n\n- UPSIDE_FAILURE: Broad investor divestment from Chinese equities poses a risk to Apple’s valuation given its significant regional exposure.\n\n- TOP_DOWNSIDE_RISKS:\n* MACD bearish crossover and negative histogram (-0.75) confirming immediate downward price acceleration.\n* Broad investor divestment from Chinese equities impacting valuation due to significant regional exposure.\n\n- RISK_IRRELEVANCE: A short-term relief bounce could occur if the price hits the lower Bollinger Band (165.13) while RSI nears oversold levels.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n* Unveil of M3, M3 Pro, and M3 Max chips driving near-term sentiment and Mac segment expectations.\n* Potential short-term relief bounce if price hits the lower Bollinger Band (165.13) as RSI nears oversold levels.\n\n- UPSIDE_FAILURE: Broad investor divestment from Chinese equities poses a risk to Apple’s valuation given its significant regional exposure.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* MACD bearish crossover and negative histogram (-0.75) confirming immediate downward price acceleration.\n* Broad investor divestment from Chinese equities impacting valuation due to significant regional exposure.\n\n- RISK_IRRELEVANCE: A short-term relief bounce could occur if the price hits the lower Bollinger Band (165.13) while RSI nears oversold levels.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* MACD bearish crossover and negative histogram (-0.75) confirming immediate downward price acceleration.\n* Broad investor divestment from Chinese equities impacting valuation due to significant regional exposure.\n\n- RISK_IRRELEVANCE: A short-term relief bounce could occur if the price hits the lower Bollinger Band (165.13) while RSI nears oversold levels.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Bearish MACD crossover and price below SMA_20 indicate immediate downward momentum.\",\n    \"The M3 chip unveil serves as a significant sentiment catalyst that may offset technical weakness.\"\n  ],\n  \"main_risk\": \"Broad investor divestment from Chinese equities could outweigh domestic product catalysts and break support levels.\",\n  \"actionability_assessment\": \"The proximity to the 165.13 support level and the M3 launch create a high-uncertainty environment for directional trades.\",\n  \"hold_gate_assessment\": \"The bearish technical trend is specifically neutralized by the imminent product catalyst and near-oversold RSI levels, failing the clear-conviction bar.\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 5.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Bearish MACD crossover and price below SMA_20 indicate immediate downward momentum.\",\n    \"The M3 chip unveil serves as a significant sentiment catalyst that may offset technical weakness.\"\n  ],\n  \"main_risk\": \"Broad investor divestment from Chinese equities could outweigh domestic product catalysts and break support levels.\",\n  \"actionability_assessment\": \"The proximity to the 165.13 support level and the M3 launch create a high-uncertainty environment for directional trades.\",\n  \"hold_gate_assessment\": \"The bearish technical trend is specifically neutralized by the imminent product catalyst and near-oversold RSI levels, failing the clear-conviction bar.\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 4.5,
+      "sell_score": 5.5,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Bearish MACD crossover and price below SMA_20 indicate immediate downward momentum.",
+        "The M3 chip unveil serves as a significant sentiment catalyst that may offset technical weakness."
+      ],
+      "main_risk": "Broad investor divestment from Chinese equities could outweigh domestic product catalysts and break support levels.",
+      "actionability_assessment": "The proximity to the 165.13 support level and the M3 launch create a high-uncertainty environment for directional trades.",
+      "hold_gate_assessment": "The bearish technical trend is specifically neutralized by the imminent product catalyst and near-oversold RSI levels, failing the clear-conviction bar.",
+      "execution_notes": [],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Bearish MACD crossover and price below SMA_20 indicate immediate downward momentum. AGAINST: Broad investor divestment from Chinese equities could outweigh domestic product catalysts and break support levels. DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=HIGH."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 52.71,
+    "memory_id": null
+  }
+}

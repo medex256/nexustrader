@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "created_at": "2026-03-08T22:06:32",
+    "started_at": "2026-03-08T22:05:12",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_run_stageB_XOM"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2023-05-15",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-05-15",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2023-05-15",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **QoQ Revenue Acceleration:** Revenue grew from $6.05B (Jan 2023) to $7.19B (Apr 2023), an 18.8% increase, signaling strong short-term demand momentum.\n* **Profitability Surge:** Net income rose 44.5% QoQ to $2.04B in the latest quarter, demonstrating high operating leverage and immediate earnings strength.\n* **Strong Liquidity:** A current ratio of 3.43 as of April 2023 indicates a robust balance sheet capable of absorbing near-term market volatility.\n\n2) RISKS:\n* **Expense Pressure:** Operating expenses remain high at $2.51B, which could squeeze margins if revenue growth does not meet high market expectations.\n* **Historical Volatility:** Annual net income fell from $9.75B (2022) to $4.37B (2023), highlighting the potential for significant year-over-year fluctuations despite recent quarterly gains.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Sustainability of the 18.8% QoQ revenue growth rate over the next reporting period.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI_14 at 59.975 -> Indicates moderate bullish momentum with room to expand before reaching overbought territory.\n* MACD (0.6219) > Signal (0.6214) -> Confirms a bullish crossover, though the narrow histogram (0.0005) suggests momentum is currently thin.\n* Price (28.93) > SMA_20 (27.91) -> The stock is trading above its short-term moving average, establishing a positive trend; SMA_10 is UNKNOWN.\n\n2) SUPPORT: 27.91\n3) RESISTANCE: 29.55\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: A low Volume_Ratio of 0.78 suggests the recent price move lacks strong institutional conviction.",
+      "news_harvester": "1) CATALYSTS: No ticker-specific catalysts (such as earnings announcements, analyst upgrades/downgrades, or product launches) are identified in the provided articles for the 10-day trading horizon.\n\n2) TONE: BULLISH\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: LOW\n\n5) KEY_EVENT_RISK: No specific event risk identified within the 10-day window."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "**QoQ Revenue Acceleration:** Revenue grew from $6.05B (Jan 2023) to $7.19B (Apr 2023), an 18.8% increase, signaling strong short-term deman",
+        "primary_risk": "* **Expense Pressure:** Operating expenses remain high at $2.51B, which could squeeze margins if revenue growth does not meet high market ex"
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI_14 at 59.975 -> Indicates moderate bullish momentum with room to expand before reaching overbought territory.",
+        "primary_risk": "A low Volume_Ratio of 0.78 suggests the recent price move lacks strong institutional conviction."
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "No ticker-specific catalysts (such as earnings announcements, analyst upgrades/downgrades, or product launches) are identified in the provid",
+        "primary_risk": "No specific event risk identified within the 10-day window."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\nUpside Catalyst Analyst:\n\n- [Technical] A confirmed MACD bullish crossover (0.6219 > 0.6214) and the price (28.93) holding above the SMA_20 (27.91) establish a short-term upward trend toward the 29.55 resistance level.\n- [Technical] An RSI of 59.975 indicates moderate bullish momentum with significant room for price expansion within the 10-day window before the stock reaches overbought territory.\n\nUPSIDE_FAILURE: A low Volume_Ratio of 0.78 and a lack of ticker-specific news catalysts suggest the current move lacks institutional conviction and may fail to break resistance.\n\nDownside Risk Analyst:\n- TOP_DOWNSIDE_RISKS:\n- [Technical] A low Volume_Ratio (0.78) and thin MACD histogram (0.0005) indicate the current uptrend lacks institutional conviction, creating a reversal path if the stock fails to clear the 29.55 resistance level.\n- [Fundamental] High operating expenses ($2.51B) act as a margin-squeeze risk; any signal that the 18.8% QoQ revenue growth rate is decelerating could trigger downside pressure, given the stock’s history of significant annual net income fluctuations.\n\n- RISK_IRRELEVANCE: A surge in trading volume above 1.0 or a decisive breakout above 29.55 would neutralize these short-term reversal risks.",
+      "bull_history": "\n\nUpside Catalyst Analyst:\n\n- [Technical] A confirmed MACD bullish crossover (0.6219 > 0.6214) and the price (28.93) holding above the SMA_20 (27.91) establish a short-term upward trend toward the 29.55 resistance level.\n- [Technical] An RSI of 59.975 indicates moderate bullish momentum with significant room for price expansion within the 10-day window before the stock reaches overbought territory.\n\nUPSIDE_FAILURE: A low Volume_Ratio of 0.78 and a lack of ticker-specific news catalysts suggest the current move lacks institutional conviction and may fail to break resistance.",
+      "bear_history": "\n\nDownside Risk Analyst:\n- TOP_DOWNSIDE_RISKS:\n- [Technical] A low Volume_Ratio (0.78) and thin MACD histogram (0.0005) indicate the current uptrend lacks institutional conviction, creating a reversal path if the stock fails to clear the 29.55 resistance level.\n- [Fundamental] High operating expenses ($2.51B) act as a margin-squeeze risk; any signal that the 18.8% QoQ revenue growth rate is decelerating could trigger downside pressure, given the stock’s history of significant annual net income fluctuations.\n\n- RISK_IRRELEVANCE: A surge in trading volume above 1.0 or a decisive breakout above 29.55 would neutralize these short-term reversal risks.",
+      "current_response": "Downside Risk Analyst:\n- TOP_DOWNSIDE_RISKS:\n- [Technical] A low Volume_Ratio (0.78) and thin MACD histogram (0.0005) indicate the current uptrend lacks institutional conviction, creating a reversal path if the stock fails to clear the 29.55 resistance level.\n- [Fundamental] High operating expenses ($2.51B) act as a margin-squeeze risk; any signal that the 18.8% QoQ revenue growth rate is decelerating could trigger downside pressure, given the stock’s history of significant annual net income fluctuations.\n\n- RISK_IRRELEVANCE: A surge in trading volume above 1.0 or a decisive breakout above 29.55 would neutralize these short-term reversal risks.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Strong fundamental momentum evidenced by 18.8% QoQ revenue growth and a 44.5% surge in net income, signaling high operating leverage.\",\n    \"Technical alignment with a confirmed MACD bullish crossover and price (28.93) maintaining a position above the SMA_20 (27.91).\",\n    \"RSI at 59.975 provides sufficient headroom for price expansion toward the 29.55 resistance level before hitting overbought conditions.\"\n  ],\n  \"main_risk\": \"A low Volume_Ratio of 0.78 indicates a lack of institutional conviction, which could lead to a failure to break the 29.55 resistance level.\",\n  \"actionability_assessment\": \"The recent fundamental acceleration and supportive technical trend (MACD/SMA_20) provide a tangible near-term path for price appreciation, whereas the downside risks are currently passive/cautionary rather than active reversal signals.\",\n  \"hold_gate_assessment\": \"The bullish side clears the actionability bar due to the strength of the recent quarterly earnings surge and the confirmed technical crossover, which outweigh the lack of immediate news catalysts.\",\n  \"execution_notes\": [\n    \"Target a move toward the 29.55 resistance level.\",\n    \"Monitor for a volume surge above 1.0 to confirm institutional validation of the breakout.\",\n    \"Maintain a tight stop-loss near the SMA_20 support of 27.91.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\nUpside Catalyst Analyst:\n\n- [Technical] A confirmed MACD bullish crossover (0.6219 > 0.6214) and the price (28.93) holding above the SMA_20 (27.91) establish a short-term upward trend toward the 29.55 resistance level.\n- [Technical] An RSI of 59.975 indicates moderate bullish momentum with significant room for price expansion within the 10-day window before the stock reaches overbought territory.\n\nUPSIDE_FAILURE: A low Volume_Ratio of 0.78 and a lack of ticker-specific news catalysts suggest the current move lacks institutional conviction and may fail to break resistance.",
+      "bearish": "\n\nDownside Risk Analyst:\n- TOP_DOWNSIDE_RISKS:\n- [Technical] A low Volume_Ratio (0.78) and thin MACD histogram (0.0005) indicate the current uptrend lacks institutional conviction, creating a reversal path if the stock fails to clear the 29.55 resistance level.\n- [Fundamental] High operating expenses ($2.51B) act as a margin-squeeze risk; any signal that the 18.8% QoQ revenue growth rate is decelerating could trigger downside pressure, given the stock’s history of significant annual net income fluctuations.\n\n- RISK_IRRELEVANCE: A surge in trading volume above 1.0 or a decisive breakout above 29.55 would neutralize these short-term reversal risks."
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Strong fundamental momentum evidenced by 18.8% QoQ revenue growth and a 44.5% surge in net income, signaling high operating leverage.\",\n    \"Technical alignment with a confirmed MACD bullish crossover and price (28.93) maintaining a position above the SMA_20 (27.91).\",\n    \"RSI at 59.975 provides sufficient headroom for price expansion toward the 29.55 resistance level before hitting overbought conditions.\"\n  ],\n  \"main_risk\": \"A low Volume_Ratio of 0.78 indicates a lack of institutional conviction, which could lead to a failure to break the 29.55 resistance level.\",\n  \"actionability_assessment\": \"The recent fundamental acceleration and supportive technical trend (MACD/SMA_20) provide a tangible near-term path for price appreciation, whereas the downside risks are currently passive/cautionary rather than active reversal signals.\",\n  \"hold_gate_assessment\": \"The bullish side clears the actionability bar due to the strength of the recent quarterly earnings surge and the confirmed technical crossover, which outweigh the lack of immediate news catalysts.\",\n  \"execution_notes\": [\n    \"Target a move toward the 29.55 resistance level.\",\n    \"Monitor for a volume surge above 1.0 to confirm institutional validation of the breakout.\",\n    \"Maintain a tight stop-loss near the SMA_20 support of 27.91.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "Strong fundamental momentum evidenced by 18.8% QoQ revenue growth and a 44.5% surge in net income, signaling high operating leverage.",
+        "Technical alignment with a confirmed MACD bullish crossover and price (28.93) maintaining a position above the SMA_20 (27.91).",
+        "RSI at 59.975 provides sufficient headroom for price expansion toward the 29.55 resistance level before hitting overbought conditions."
+      ],
+      "main_risk": "A low Volume_Ratio of 0.78 indicates a lack of institutional conviction, which could lead to a failure to break the 29.55 resistance level.",
+      "actionability_assessment": "The recent fundamental acceleration and supportive technical trend (MACD/SMA_20) provide a tangible near-term path for price appreciation, whereas the downside risks are currently passive/cautionary rather than active reversal signals.",
+      "hold_gate_assessment": "The bullish side clears the actionability bar due to the strength of the recent quarterly earnings surge and the confirmed technical crossover, which outweigh the lack of immediate news catalysts.",
+      "execution_notes": [
+        "Target a move toward the 29.55 resistance level.",
+        "Monitor for a volume surge above 1.0 to confirm institutional validation of the breakout.",
+        "Maintain a tight stop-loss near the SMA_20 support of 27.91."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: **QoQ Revenue Acceleration:** Revenue grew from $6.05B (Jan 2023) to $7.19B (Apr 2023), an 18.8% increase, signaling strong short-term deman AGAINST: A low Volume_Ratio of 0.78 indicates a lack of institutional conviction, which could lead to a failure to break the 29.55 resistance level. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2023-05-15",
+        "lookback_days": 14,
+        "window_start": "2023-05-01",
+        "window_end": "2023-05-15",
+        "article_count": 5,
+        "min_published": "2023-05-03T14:30:16",
+        "max_published": "2023-05-12T07:30:00",
+        "articles": [
+          {
+            "title": "YieldMax™ Launches NVDY, the YieldMax™ NVDA Option Income Strategy ETF",
+            "source": "GlobeNewswire",
+            "published": "20230511T083000",
+            "url": "https://www.globenewswire.com/news-release/2023/05/11/2666735/0/en/YieldMax-Launches-NVDY-the-YieldMax-NVDA-Option-Income-Strategy-ETF.html",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.429959,
+            "relevance_score": 0.873467
+          },
+          {
+            "title": "Here's how AI is driving the rise of GPU cloud specialists",
+            "source": "Fierce Network",
+            "published": "20230512T073000",
+            "url": "https://www.fierce-network.com/data-center/heres-how-ai-driving-rise-gpu-cloud-specialists",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.300247,
+            "relevance_score": 0.829229
+          },
+          {
+            "title": "Msci Kld 400 Social Index: Meaning, Example, FAQs",
+            "source": "Investopedia",
+            "published": "20230503T143016",
+            "url": "https://www.investopedia.com/terms/d/domini_400.asp",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.357925,
+            "relevance_score": 0.636909
+          },
+          {
+            "title": "Growing chip supply helps Baxter slash backlog",
+            "source": "Supply Chain Dive",
+            "published": "20230508T000000",
+            "url": "https://www.supplychaindive.com/news/growing-chip-supply-baxter-slash-backlog/649338/",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.147964,
+            "relevance_score": 0.610864
+          },
+          {
+            "title": "Super Micro stock surged more than 30% after it offered a bullish forecast based on AI demand",
+            "source": "The Business Journals",
+            "published": "20230503T154700",
+            "url": "https://www.bizjournals.com/sanjose/news/2023/05/03/super-micro-stock-surges-more-than-30-percent.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.335656,
+            "relevance_score": 0.606118
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 79.83
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2023-05-15",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "**QoQ Revenue Acceleration:** Revenue grew from $6.05B (Jan 2023) to $7.19B (Apr 2023), an 18.8% increase, signaling strong short-term deman",
+        "primary_risk": "* **Expense Pressure:** Operating expenses remain high at $2.51B, which could squeeze margins if revenue growth does not meet high market ex"
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI_14 at 59.975 -> Indicates moderate bullish momentum with room to expand before reaching overbought territory.",
+        "primary_risk": "A low Volume_Ratio of 0.78 suggests the recent price move lacks strong institutional conviction."
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.5,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=LOW",
+        "key_catalyst": "No ticker-specific catalysts (such as earnings announcements, analyst upgrades/downgrades, or product launches) are identified in the provid",
+        "primary_risk": "No specific event risk identified within the 10-day window."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **QoQ Revenue Acceleration:** Revenue grew from $6.05B (Jan 2023) to $7.19B (Apr 2023), an 18.8% increase, signaling strong short-term demand momentum.\n* **Profitability Surge:** Net income rose 44.5% QoQ to $2.04B in the latest quarter, demonstrating high operating leverage and immediate earnings strength.\n* **Strong Liquidity:** A current ratio of 3.43 as of April 2023 indicates a robust balance sheet capable of absorbing near-term market volatility.\n\n2) RISKS:\n* **Expense Pressure:** Operating expenses remain high at $2.51B, which could squeeze margins if revenue growth does not meet high market expectations.\n* **Historical Volatility:** Annual net income fell from $9.75B (2022) to $4.37B (2023), highlighting the potential for significant year-over-year fluctuations despite recent quarterly gains.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Sustainability of the 18.8% QoQ revenue growth rate over the next reporting period.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI_14 at 59.975 -> Indicates moderate bullish momentum with room to expand before reaching overbought territory.\n* MACD (0.6219) > Signal (0.6214) -> Confirms a bullish crossover, though the narrow histogram (0.0005) suggests momentum is currently thin.\n* Price (28.93) > SMA_20 (27.91) -> The stock is trading above its short-term moving average, establishing a positive trend; SMA_10 is UNKNOWN.\n\n2) SUPPORT: 27.91\n3) RESISTANCE: 29.55\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: A low Volume_Ratio of 0.78 suggests the recent price move lacks strong institutional conviction.",
+      "news_harvester": "1) CATALYSTS: No ticker-specific catalysts (such as earnings announcements, analyst upgrades/downgrades, or product launches) are identified in the provided articles for the 10-day trading horizon.\n\n2) TONE: BULLISH\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: LOW\n\n5) KEY_EVENT_RISK: No specific event risk identified within the 10-day window."
+    },
+    "investment_debate_state": {
+      "history": "\n\nUpside Catalyst Analyst:\n\n- [Technical] A confirmed MACD bullish crossover (0.6219 > 0.6214) and the price (28.93) holding above the SMA_20 (27.91) establish a short-term upward trend toward the 29.55 resistance level.\n- [Technical] An RSI of 59.975 indicates moderate bullish momentum with significant room for price expansion within the 10-day window before the stock reaches overbought territory.\n\nUPSIDE_FAILURE: A low Volume_Ratio of 0.78 and a lack of ticker-specific news catalysts suggest the current move lacks institutional conviction and may fail to break resistance.\n\nDownside Risk Analyst:\n- TOP_DOWNSIDE_RISKS:\n- [Technical] A low Volume_Ratio (0.78) and thin MACD histogram (0.0005) indicate the current uptrend lacks institutional conviction, creating a reversal path if the stock fails to clear the 29.55 resistance level.\n- [Fundamental] High operating expenses ($2.51B) act as a margin-squeeze risk; any signal that the 18.8% QoQ revenue growth rate is decelerating could trigger downside pressure, given the stock’s history of significant annual net income fluctuations.\n\n- RISK_IRRELEVANCE: A surge in trading volume above 1.0 or a decisive breakout above 29.55 would neutralize these short-term reversal risks.",
+      "bull_history": "\n\nUpside Catalyst Analyst:\n\n- [Technical] A confirmed MACD bullish crossover (0.6219 > 0.6214) and the price (28.93) holding above the SMA_20 (27.91) establish a short-term upward trend toward the 29.55 resistance level.\n- [Technical] An RSI of 59.975 indicates moderate bullish momentum with significant room for price expansion within the 10-day window before the stock reaches overbought territory.\n\nUPSIDE_FAILURE: A low Volume_Ratio of 0.78 and a lack of ticker-specific news catalysts suggest the current move lacks institutional conviction and may fail to break resistance.",
+      "bear_history": "\n\nDownside Risk Analyst:\n- TOP_DOWNSIDE_RISKS:\n- [Technical] A low Volume_Ratio (0.78) and thin MACD histogram (0.0005) indicate the current uptrend lacks institutional conviction, creating a reversal path if the stock fails to clear the 29.55 resistance level.\n- [Fundamental] High operating expenses ($2.51B) act as a margin-squeeze risk; any signal that the 18.8% QoQ revenue growth rate is decelerating could trigger downside pressure, given the stock’s history of significant annual net income fluctuations.\n\n- RISK_IRRELEVANCE: A surge in trading volume above 1.0 or a decisive breakout above 29.55 would neutralize these short-term reversal risks.",
+      "current_response": "Downside Risk Analyst:\n- TOP_DOWNSIDE_RISKS:\n- [Technical] A low Volume_Ratio (0.78) and thin MACD histogram (0.0005) indicate the current uptrend lacks institutional conviction, creating a reversal path if the stock fails to clear the 29.55 resistance level.\n- [Fundamental] High operating expenses ($2.51B) act as a margin-squeeze risk; any signal that the 18.8% QoQ revenue growth rate is decelerating could trigger downside pressure, given the stock’s history of significant annual net income fluctuations.\n\n- RISK_IRRELEVANCE: A surge in trading volume above 1.0 or a decisive breakout above 29.55 would neutralize these short-term reversal risks.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Strong fundamental momentum evidenced by 18.8% QoQ revenue growth and a 44.5% surge in net income, signaling high operating leverage.\",\n    \"Technical alignment with a confirmed MACD bullish crossover and price (28.93) maintaining a position above the SMA_20 (27.91).\",\n    \"RSI at 59.975 provides sufficient headroom for price expansion toward the 29.55 resistance level before hitting overbought conditions.\"\n  ],\n  \"main_risk\": \"A low Volume_Ratio of 0.78 indicates a lack of institutional conviction, which could lead to a failure to break the 29.55 resistance level.\",\n  \"actionability_assessment\": \"The recent fundamental acceleration and supportive technical trend (MACD/SMA_20) provide a tangible near-term path for price appreciation, whereas the downside risks are currently passive/cautionary rather than active reversal signals.\",\n  \"hold_gate_assessment\": \"The bullish side clears the actionability bar due to the strength of the recent quarterly earnings surge and the confirmed technical crossover, which outweigh the lack of immediate news catalysts.\",\n  \"execution_notes\": [\n    \"Target a move toward the 29.55 resistance level.\",\n    \"Monitor for a volume surge above 1.0 to confirm institutional validation of the breakout.\",\n    \"Maintain a tight stop-loss near the SMA_20 support of 27.91.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Strong fundamental momentum evidenced by 18.8% QoQ revenue growth and a 44.5% surge in net income, signaling high operating leverage.\",\n    \"Technical alignment with a confirmed MACD bullish crossover and price (28.93) maintaining a position above the SMA_20 (27.91).\",\n    \"RSI at 59.975 provides sufficient headroom for price expansion toward the 29.55 resistance level before hitting overbought conditions.\"\n  ],\n  \"main_risk\": \"A low Volume_Ratio of 0.78 indicates a lack of institutional conviction, which could lead to a failure to break the 29.55 resistance level.\",\n  \"actionability_assessment\": \"The recent fundamental acceleration and supportive technical trend (MACD/SMA_20) provide a tangible near-term path for price appreciation, whereas the downside risks are currently passive/cautionary rather than active reversal signals.\",\n  \"hold_gate_assessment\": \"The bullish side clears the actionability bar due to the strength of the recent quarterly earnings surge and the confirmed technical crossover, which outweigh the lack of immediate news catalysts.\",\n  \"execution_notes\": [\n    \"Target a move toward the 29.55 resistance level.\",\n    \"Monitor for a volume surge above 1.0 to confirm institutional validation of the breakout.\",\n    \"Maintain a tight stop-loss near the SMA_20 support of 27.91.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.65,
+      "primary_drivers": [
+        "Strong fundamental momentum evidenced by 18.8% QoQ revenue growth and a 44.5% surge in net income, signaling high operating leverage.",
+        "Technical alignment with a confirmed MACD bullish crossover and price (28.93) maintaining a position above the SMA_20 (27.91).",
+        "RSI at 59.975 provides sufficient headroom for price expansion toward the 29.55 resistance level before hitting overbought conditions."
+      ],
+      "main_risk": "A low Volume_Ratio of 0.78 indicates a lack of institutional conviction, which could lead to a failure to break the 29.55 resistance level.",
+      "actionability_assessment": "The recent fundamental acceleration and supportive technical trend (MACD/SMA_20) provide a tangible near-term path for price appreciation, whereas the downside risks are currently passive/cautionary rather than active reversal signals.",
+      "hold_gate_assessment": "The bullish side clears the actionability bar due to the strength of the recent quarterly earnings surge and the confirmed technical crossover, which outweigh the lack of immediate news catalysts.",
+      "execution_notes": [
+        "Target a move toward the 29.55 resistance level.",
+        "Monitor for a volume surge above 1.0 to confirm institutional validation of the breakout.",
+        "Maintain a tight stop-loss near the SMA_20 support of 27.91."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.65,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: **QoQ Revenue Acceleration:** Revenue grew from $6.05B (Jan 2023) to $7.19B (Apr 2023), an 18.8% increase, signaling strong short-term deman AGAINST: A low Volume_Ratio of 0.78 indicates a lack of institutional conviction, which could lead to a failure to break the 29.55 resistance level. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 79.83,
+    "memory_id": null
+  }
+}

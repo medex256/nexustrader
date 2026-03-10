@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "created_at": "2026-03-09T00:09:29",
+    "started_at": "2026-03-09T00:07:55",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "B_NVDA"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 9.16% QoQ to $7.103B (Oct 2021) from $6.507B -> Sustained top-line demand supports short-term price momentum.\n* Net income rose to $2.464B with a high 34.7% profit margin -> Strong operational efficiency provides a fundamental floor for the stock.\n* Current ratio of 7.14 indicates exceptional liquidity -> Minimal short-term financial or solvency risk during the 10-day horizon.\n\n2) RISKS:\n* QoQ revenue growth rate decelerated from 14.9% (July quarter) to 9.16% (October quarter) -> Slowing acceleration may dampen immediate bullish sentiment.\n* Earnings surprise and guidance revision data are UNKNOWN -> Lack of visibility on whether recent performance met market expectations.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Absence of explicit forward guidance and recent earnings surprise data in the provided set.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (26.89) is trading below the SMA_20 (28.60), confirming a short-term downtrend and the loss of primary moving average support.\n* MACD (-0.662) is positioned below the signal line (-0.411) with a negative histogram, indicating sustained bearish momentum and seller control.\n* RSI at 41.23 reflects weak buying pressure and suggests further room for downside before reaching oversold territory.\n\n2) SUPPORT: 26.07\n3) RESISTANCE: 28.60\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Price is approaching the Lower Bollinger Band (26.07), which may trigger a mean-reversion bounce despite the negative MACD alignment.",
+      "news_harvester": "1) CATALYSTS:\n* Omniverse general availability for Studio creators -> Drives RTX GPU demand and 3D simulation ecosystem expansion.\n* BMO partnership for DGX-based derivative modeling -> Validates enterprise AI adoption and high-end hardware utilization in financial services.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: N/A"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue grew 9.16% QoQ to $7.103B (Oct 2021) from $6.507B -> Sustained top-line demand supports short-term price momentum.",
+        "primary_risk": "* QoQ revenue growth rate decelerated from 14.9% (July quarter) to 9.16% (October quarter) -> Slowing acceleration may dampen immediate bull"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (26.89) is trading below the SMA_20 (28.60), confirming a short-term downtrend and the loss of primary moving average support.",
+        "primary_risk": "Price is approaching the Lower Bollinger Band (26.07), which may trigger a mean-reversion bounce despite the negative MACD alignment."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Omniverse general availability for Studio creators -> Drives RTX GPU demand and 3D simulation ecosystem expansion.",
+        "primary_risk": "N/A"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- Omniverse general availability for Studio creators, providing an immediate driver for RTX GPU demand and 3D simulation ecosystem expansion.\n- Active BMO partnership for DGX-based derivative modeling, validating enterprise AI adoption and high-end hardware utilization.\n\n- UPSIDE_FAILURE: Sustained bearish momentum, evidenced by price trading below the SMA_20 and a negative MACD histogram, indicates seller control likely to override near-term news.\n\n- TOP_DOWNSIDE_RISKS:\n* Active bearish momentum: Price has broken below SMA_20 support (28.60) with a negative MACD histogram and RSI at 41.23, signaling sustained seller control and room for further decline toward 26.07.\n* Fundamental deceleration: QoQ revenue growth slowed from 14.9% to 9.16%, creating a near-term headwind that may dampen bullish sentiment and block upside momentum.\n\n- RISK_IRRELEVANCE: Exceptional liquidity (7.14 current ratio) and positive news catalysts like Omniverse availability and BMO AI partnerships provide a fundamental floor that may trigger a mean-reversion bounce near the 26.07 support level.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- Omniverse general availability for Studio creators, providing an immediate driver for RTX GPU demand and 3D simulation ecosystem expansion.\n- Active BMO partnership for DGX-based derivative modeling, validating enterprise AI adoption and high-end hardware utilization.\n\n- UPSIDE_FAILURE: Sustained bearish momentum, evidenced by price trading below the SMA_20 and a negative MACD histogram, indicates seller control likely to override near-term news.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* Active bearish momentum: Price has broken below SMA_20 support (28.60) with a negative MACD histogram and RSI at 41.23, signaling sustained seller control and room for further decline toward 26.07.\n* Fundamental deceleration: QoQ revenue growth slowed from 14.9% to 9.16%, creating a near-term headwind that may dampen bullish sentiment and block upside momentum.\n\n- RISK_IRRELEVANCE: Exceptional liquidity (7.14 current ratio) and positive news catalysts like Omniverse availability and BMO AI partnerships provide a fundamental floor that may trigger a mean-reversion bounce near the 26.07 support level.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* Active bearish momentum: Price has broken below SMA_20 support (28.60) with a negative MACD histogram and RSI at 41.23, signaling sustained seller control and room for further decline toward 26.07.\n* Fundamental deceleration: QoQ revenue growth slowed from 14.9% to 9.16%, creating a near-term headwind that may dampen bullish sentiment and block upside momentum.\n\n- RISK_IRRELEVANCE: Exceptional liquidity (7.14 current ratio) and positive news catalysts like Omniverse availability and BMO AI partnerships provide a fundamental floor that may trigger a mean-reversion bounce near the 26.07 support level.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 6.0,\n  \"sell_score\": 6.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Bearish technical alignment with price below SMA_20 and negative MACD momentum\",\n    \"Concrete fundamental catalysts including Omniverse availability and BMO AI partnership\"\n  ],\n  \"main_risk\": \"The proximity to the 26.07 support level may trigger a sharp mean-reversion bounce that invalidates the bearish trend.\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as the bearish technical momentum is currently neutralizing the impact of positive fundamental catalysts.\",\n  \"hold_gate_assessment\": \"The technical breakdown below the SMA_20 is a real competing thesis that prevents a buy, while the strong fundamental floor prevents a sell.\",\n  \"execution_notes\": [\n    \"Monitor for stabilization at the 26.07 support level before considering an entry.\",\n    \"Watch for a MACD histogram reversal to signal a shift in momentum.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- TOP_UPSIDE_CATALYSTS:\n- Omniverse general availability for Studio creators, providing an immediate driver for RTX GPU demand and 3D simulation ecosystem expansion.\n- Active BMO partnership for DGX-based derivative modeling, validating enterprise AI adoption and high-end hardware utilization.\n\n- UPSIDE_FAILURE: Sustained bearish momentum, evidenced by price trading below the SMA_20 and a negative MACD histogram, indicates seller control likely to override near-term news.",
+      "bearish": "\n\n- TOP_DOWNSIDE_RISKS:\n* Active bearish momentum: Price has broken below SMA_20 support (28.60) with a negative MACD histogram and RSI at 41.23, signaling sustained seller control and room for further decline toward 26.07.\n* Fundamental deceleration: QoQ revenue growth slowed from 14.9% to 9.16%, creating a near-term headwind that may dampen bullish sentiment and block upside momentum.\n\n- RISK_IRRELEVANCE: Exceptional liquidity (7.14 current ratio) and positive news catalysts like Omniverse availability and BMO AI partnerships provide a fundamental floor that may trigger a mean-reversion bounce near the 26.07 support level."
+    },
+    "investment_plan": "{\n  \"buy_score\": 6.0,\n  \"sell_score\": 6.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Bearish technical alignment with price below SMA_20 and negative MACD momentum\",\n    \"Concrete fundamental catalysts including Omniverse availability and BMO AI partnership\"\n  ],\n  \"main_risk\": \"The proximity to the 26.07 support level may trigger a sharp mean-reversion bounce that invalidates the bearish trend.\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as the bearish technical momentum is currently neutralizing the impact of positive fundamental catalysts.\",\n  \"hold_gate_assessment\": \"The technical breakdown below the SMA_20 is a real competing thesis that prevents a buy, while the strong fundamental floor prevents a sell.\",\n  \"execution_notes\": [\n    \"Monitor for stabilization at the 26.07 support level before considering an entry.\",\n    \"Watch for a MACD histogram reversal to signal a shift in momentum.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 6.0,
+      "sell_score": 6.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.7,
+      "primary_drivers": [
+        "Bearish technical alignment with price below SMA_20 and negative MACD momentum",
+        "Concrete fundamental catalysts including Omniverse availability and BMO AI partnership"
+      ],
+      "main_risk": "The proximity to the 26.07 support level may trigger a sharp mean-reversion bounce that invalidates the bearish trend.",
+      "actionability_assessment": "Neither side has a clear near-term path as the bearish technical momentum is currently neutralizing the impact of positive fundamental catalysts.",
+      "hold_gate_assessment": "The technical breakdown below the SMA_20 is a real competing thesis that prevents a buy, while the strong fundamental floor prevents a sell.",
+      "execution_notes": [
+        "Monitor for stabilization at the 26.07 support level before considering an entry.",
+        "Watch for a MACD histogram reversal to signal a shift in momentum."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.7,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Bearish technical alignment with price below SMA_20 and negative MACD momentum AGAINST: The proximity to the 26.07 support level may trigger a sharp mean-reversion bounce that invalidates the bearish trend. DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=MEDIUM."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2022-01-17",
+        "lookback_days": 14,
+        "window_start": "2022-01-03",
+        "window_end": "2022-01-17",
+        "article_count": 13,
+        "min_published": "2022-01-04T15:29:45",
+        "max_published": "2022-01-14T18:36:07",
+        "articles": [
+          {
+            "title": "Nvidia’s Omniverse ‘metaverse for engineers’ emerges from beta",
+            "source": "RCR Wireless",
+            "published": "20220106T175612",
+            "url": "https://www.rcrwireless.com/20220106/telco-cloud/nvidias-omniverse-metaverse-for-engineers-emerges-from-beta",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.415701,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "NVIDIA Named America’s Best Place to Work on Latest Glassdoor List",
+            "source": "NVIDIA Blog",
+            "published": "20220111T175611",
+            "url": "https://blogs.nvidia.com/blog/nvidia-best-place-work/",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.856854,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqcAGB6KyVLDYmhHdCyD0lViNVhIie5nBoisV4jjnkdzSd8UlhfAod09&gaa_ts=6907aa14&gaa_sig=LU2hpWLACtnx_V8nc496ZJZBdA3Rg6LAvBgC2MCqIOLnQBuXtdtdatGndnjqcveCmPwysJYUewMG7zIdY_vJrw%3D%3D",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.749569,
+            "relevance_score": 0.896737
+          },
+          {
+            "title": "AI Startup Speeds Up Derivative Models for Bank of Montreal",
+            "source": "NVIDIA Blog",
+            "published": "20220110T161650",
+            "url": "https://blogs.nvidia.com/blog/riskfuel-derivative-models-bank-of-montreal/",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.466119,
+            "relevance_score": 0.885032
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqdRPbJUy5IikVEvY1VdJcAf_RWGuki91oVqAIwOfU5lFsoO17PwSxuJ&gaa_ts=6907ac94&gaa_sig=ooJhDeY4kNwPlbOj56hYOEmlhJ9mS6ztd-BMiN9g1sZJVLhXqjDO-pdK4Jcv1nAT1SKUGNOp1-ixgSC7U6dGVQ%3D%3D",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.456843,
+            "relevance_score": 0.873586
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqdBdmHPZxefoPpdU_XiKmDvnI7I3dfNA-7b3FAHNUlYos-sHQijHAFG&gaa_ts=6907a7da&gaa_sig=EpaW-Z6XVGZ20IyJnYntkIMjN7G89scbePvQjDrzT7aV3rWqnp9ry2rx_3330RssholURp7wdF0ySYoK1fSlWw%3D%3D",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.452461,
+            "relevance_score": 0.839275
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqdich5a2ITDCIk0PD8XfObGNAwAOO19JRZJBnyvRaxj5ppYuvdV16P5&gaa_ts=6907a32a&gaa_sig=a20L7fC0glvxVnJBfpYiSr2JGgJbAS1Z5F7PbU3UPlFMw6Fe9qMUxPVd0KwJWp2Jbv7Px-iCgAIp8RrKdbXGYg%3D%3D",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": -0.145219,
+            "relevance_score": 0.839241
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqfnl5OB3jT2txRO3oDLjhv-kM96fRl9WNxRMczBWVccqH7hBwz8TYXr&gaa_ts=69079e84&gaa_sig=td1zqi31XS-A8bgXoMGSOkxv-S16x0_pJxo7os1KCcRC5uggHQ53MWnWs61JGS0Nyz760o0JGbOfq1fNZWNb5Q%3D%3D",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.349824,
+            "relevance_score": 0.835925
+          },
+          {
+            "title": "These 3 ETFs let you play the hot semiconductor sector, where Nvidia, Micron, AMD and others are growing sales rapidly",
+            "source": "MarketWatch",
+            "published": "20220114T083100",
+            "url": "https://www.marketwatch.com/story/these-3-etfs-let-you-play-the-hot-semiconductor-sector-where-nvidia-micron-amd-and-others-are-growing-sales-rapidly-11642167077?gaa_at=eafs&gaa_n=AWEtsqcuOxxx3eduBpWNhaLM6Q6QXNHo965XCXGxrPwfYafS7vR7msapnDxl&gaa_ts=6907a326&gaa_sig=lIkrVyY5UIMIP2f_M2Vb5ujdAUCBNCQzWExV755kHeCo-o5KosFRuh4EgjRKkdlEx8ZATC3jNleDLVK3-DenAw%3D%3D",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.305229,
+            "relevance_score": 0.80455
+          },
+          {
+            "title": "What Crypto-related ETFs Could Hit the US Market in 2022?",
+            "source": "Blockworks",
+            "published": "20220106T130700",
+            "url": "https://blockworks.co/news/what-crypto-related-etfs-could-hit-the-us-market-in-2022",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.129716,
+            "relevance_score": 0.725884
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 93.38
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue grew 9.16% QoQ to $7.103B (Oct 2021) from $6.507B -> Sustained top-line demand supports short-term price momentum.",
+        "primary_risk": "* QoQ revenue growth rate decelerated from 14.9% (July quarter) to 9.16% (October quarter) -> Slowing acceleration may dampen immediate bull"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price (26.89) is trading below the SMA_20 (28.60), confirming a short-term downtrend and the loss of primary moving average support.",
+        "primary_risk": "Price is approaching the Lower Bollinger Band (26.07), which may trigger a mean-reversion bounce despite the negative MACD alignment."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Omniverse general availability for Studio creators -> Drives RTX GPU demand and 3D simulation ecosystem expansion.",
+        "primary_risk": "N/A"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 9.16% QoQ to $7.103B (Oct 2021) from $6.507B -> Sustained top-line demand supports short-term price momentum.\n* Net income rose to $2.464B with a high 34.7% profit margin -> Strong operational efficiency provides a fundamental floor for the stock.\n* Current ratio of 7.14 indicates exceptional liquidity -> Minimal short-term financial or solvency risk during the 10-day horizon.\n\n2) RISKS:\n* QoQ revenue growth rate decelerated from 14.9% (July quarter) to 9.16% (October quarter) -> Slowing acceleration may dampen immediate bullish sentiment.\n* Earnings surprise and guidance revision data are UNKNOWN -> Lack of visibility on whether recent performance met market expectations.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Absence of explicit forward guidance and recent earnings surprise data in the provided set.",
+      "technical_analyst": "1) EVIDENCE:\n* Price (26.89) is trading below the SMA_20 (28.60), confirming a short-term downtrend and the loss of primary moving average support.\n* MACD (-0.662) is positioned below the signal line (-0.411) with a negative histogram, indicating sustained bearish momentum and seller control.\n* RSI at 41.23 reflects weak buying pressure and suggests further room for downside before reaching oversold territory.\n\n2) SUPPORT: 26.07\n3) RESISTANCE: 28.60\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Price is approaching the Lower Bollinger Band (26.07), which may trigger a mean-reversion bounce despite the negative MACD alignment.",
+      "news_harvester": "1) CATALYSTS:\n* Omniverse general availability for Studio creators -> Drives RTX GPU demand and 3D simulation ecosystem expansion.\n* BMO partnership for DGX-based derivative modeling -> Validates enterprise AI adoption and high-end hardware utilization in financial services.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: N/A"
+    },
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- Omniverse general availability for Studio creators, providing an immediate driver for RTX GPU demand and 3D simulation ecosystem expansion.\n- Active BMO partnership for DGX-based derivative modeling, validating enterprise AI adoption and high-end hardware utilization.\n\n- UPSIDE_FAILURE: Sustained bearish momentum, evidenced by price trading below the SMA_20 and a negative MACD histogram, indicates seller control likely to override near-term news.\n\n- TOP_DOWNSIDE_RISKS:\n* Active bearish momentum: Price has broken below SMA_20 support (28.60) with a negative MACD histogram and RSI at 41.23, signaling sustained seller control and room for further decline toward 26.07.\n* Fundamental deceleration: QoQ revenue growth slowed from 14.9% to 9.16%, creating a near-term headwind that may dampen bullish sentiment and block upside momentum.\n\n- RISK_IRRELEVANCE: Exceptional liquidity (7.14 current ratio) and positive news catalysts like Omniverse availability and BMO AI partnerships provide a fundamental floor that may trigger a mean-reversion bounce near the 26.07 support level.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- Omniverse general availability for Studio creators, providing an immediate driver for RTX GPU demand and 3D simulation ecosystem expansion.\n- Active BMO partnership for DGX-based derivative modeling, validating enterprise AI adoption and high-end hardware utilization.\n\n- UPSIDE_FAILURE: Sustained bearish momentum, evidenced by price trading below the SMA_20 and a negative MACD histogram, indicates seller control likely to override near-term news.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* Active bearish momentum: Price has broken below SMA_20 support (28.60) with a negative MACD histogram and RSI at 41.23, signaling sustained seller control and room for further decline toward 26.07.\n* Fundamental deceleration: QoQ revenue growth slowed from 14.9% to 9.16%, creating a near-term headwind that may dampen bullish sentiment and block upside momentum.\n\n- RISK_IRRELEVANCE: Exceptional liquidity (7.14 current ratio) and positive news catalysts like Omniverse availability and BMO AI partnerships provide a fundamental floor that may trigger a mean-reversion bounce near the 26.07 support level.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* Active bearish momentum: Price has broken below SMA_20 support (28.60) with a negative MACD histogram and RSI at 41.23, signaling sustained seller control and room for further decline toward 26.07.\n* Fundamental deceleration: QoQ revenue growth slowed from 14.9% to 9.16%, creating a near-term headwind that may dampen bullish sentiment and block upside momentum.\n\n- RISK_IRRELEVANCE: Exceptional liquidity (7.14 current ratio) and positive news catalysts like Omniverse availability and BMO AI partnerships provide a fundamental floor that may trigger a mean-reversion bounce near the 26.07 support level.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 6.0,\n  \"sell_score\": 6.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Bearish technical alignment with price below SMA_20 and negative MACD momentum\",\n    \"Concrete fundamental catalysts including Omniverse availability and BMO AI partnership\"\n  ],\n  \"main_risk\": \"The proximity to the 26.07 support level may trigger a sharp mean-reversion bounce that invalidates the bearish trend.\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as the bearish technical momentum is currently neutralizing the impact of positive fundamental catalysts.\",\n  \"hold_gate_assessment\": \"The technical breakdown below the SMA_20 is a real competing thesis that prevents a buy, while the strong fundamental floor prevents a sell.\",\n  \"execution_notes\": [\n    \"Monitor for stabilization at the 26.07 support level before considering an entry.\",\n    \"Watch for a MACD histogram reversal to signal a shift in momentum.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 6.0,\n  \"sell_score\": 6.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Bearish technical alignment with price below SMA_20 and negative MACD momentum\",\n    \"Concrete fundamental catalysts including Omniverse availability and BMO AI partnership\"\n  ],\n  \"main_risk\": \"The proximity to the 26.07 support level may trigger a sharp mean-reversion bounce that invalidates the bearish trend.\",\n  \"actionability_assessment\": \"Neither side has a clear near-term path as the bearish technical momentum is currently neutralizing the impact of positive fundamental catalysts.\",\n  \"hold_gate_assessment\": \"The technical breakdown below the SMA_20 is a real competing thesis that prevents a buy, while the strong fundamental floor prevents a sell.\",\n  \"execution_notes\": [\n    \"Monitor for stabilization at the 26.07 support level before considering an entry.\",\n    \"Watch for a MACD histogram reversal to signal a shift in momentum.\"\n  ],\n  \"confidence\": \"MEDIUM\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 6.0,
+      "sell_score": 6.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.7,
+      "primary_drivers": [
+        "Bearish technical alignment with price below SMA_20 and negative MACD momentum",
+        "Concrete fundamental catalysts including Omniverse availability and BMO AI partnership"
+      ],
+      "main_risk": "The proximity to the 26.07 support level may trigger a sharp mean-reversion bounce that invalidates the bearish trend.",
+      "actionability_assessment": "Neither side has a clear near-term path as the bearish technical momentum is currently neutralizing the impact of positive fundamental catalysts.",
+      "hold_gate_assessment": "The technical breakdown below the SMA_20 is a real competing thesis that prevents a buy, while the strong fundamental floor prevents a sell.",
+      "execution_notes": [
+        "Monitor for stabilization at the 26.07 support level before considering an entry.",
+        "Watch for a MACD histogram reversal to signal a shift in momentum."
+      ],
+      "confidence": "MEDIUM"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.7,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Bearish technical alignment with price below SMA_20 and negative MACD momentum AGAINST: The proximity to the 26.07 support level may trigger a sharp mean-reversion bounce that invalidates the bearish trend. DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=MEDIUM."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 93.38,
+    "memory_id": null
+  }
+}

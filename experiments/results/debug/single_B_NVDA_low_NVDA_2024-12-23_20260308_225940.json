@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "created_at": "2026-03-08T22:59:40",
+    "started_at": "2026-03-08T22:58:28",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "B_NVDA_low"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2024-12-23",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2024-12-23",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "simulated_date": "2024-12-23",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue accelerated to 16.8% QoQ growth ($35.08B) from 15.4% in the prior period, signaling strengthening short-term demand momentum.\n* Net profit margin remains elite at 55.0%, with net income rising 16.3% QoQ to $19.31B, supporting immediate price support.\n* Gross margins are robust at 74.5%, indicating strong pricing power and operational efficiency heading into the next period.\n\n2) RISKS:\n* Operating expenses increased 9% QoQ to $4.29B; any sudden revenue deceleration could compress the high net margins.\n* R&D spending rose 9.7% QoQ to $3.39B, increasing the capital intensity required to maintain the current growth trajectory.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: UNKNOWN (Specific forward guidance and earnings surprise vs. consensus are not provided in the dataset).\n\n**Note:** Short-term momentum is driven by accelerating QoQ revenue and record-high profitability.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI at 53.43 -> Neutral momentum holding slightly above the midpoint, indicating a lack of strong directional conviction.\n* MACD (-1.65) below Signal (-1.35) -> The short-term trend remains technically bearish despite the recent 7.12% five-day price recovery.\n* Volume Ratio at 0.82 -> Recent price gains occurred on below-average volume, suggesting the move lacks the participation necessary for a sustained breakout.\n\n2) SUPPORT: 136.92\n3) RESISTANCE: 139.67\n4) FINAL_VIEW: NEUTRAL\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Price is currently pinned between the 20-day and 50-day SMAs, requiring a high-volume move to confirm a breakout or rejection.",
+      "news_harvester": "1) CATALYSTS:\n* CoreWeave/Dell shipping GB200 NVL72 racks -> First commercial deployment of Blackwell architecture validates production ramp and addresses high-demand expectations.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: N/A"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "Revenue accelerated to 16.8% QoQ growth ($35.08B) from 15.4% in the prior period, signaling strengthening short-term demand momentum.",
+        "primary_risk": "* Operating expenses increased 9% QoQ to $4.29B; any sudden revenue deceleration could compress the high net margins."
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI at 53.43 -> Neutral momentum holding slightly above the midpoint, indicating a lack of strong directional conviction.",
+        "primary_risk": "Price is currently pinned between the 20-day and 50-day SMAs, requiring a high-volume move to confirm a breakout or rejection."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "CoreWeave/Dell shipping GB200 NVL72 racks -> First commercial deployment of Blackwell architecture validates production ramp and addresses h",
+        "primary_risk": "N/A"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- First commercial shipping of Blackwell GB200 NVL72 racks by CoreWeave and Dell validates the production ramp and addresses high-demand expectations.\n- Revenue acceleration to 16.8% QoQ growth ($35.08B) signals strengthening short-term demand momentum and provides immediate price support.\n\n- UPSIDE_FAILURE: Recent price gains occurred on below-average volume, suggesting the move lacks the participation necessary to sustain a breakout or overcome technical resistance at 139.67.\n\n- TOP_DOWNSIDE_RISKS:\n* Bearish short-term trend indicated by MACD (-1.65) remaining below Signal (-1.35) despite recent price recovery.\n* Low volume ratio (0.82) on recent gains suggests a lack of buying conviction needed to overcome the 139.67 resistance level.\n\n- RISK_IRRELEVANCE: A high-volume price move that confirms a breakout from the current range between the 20-day and 50-day SMAs would neutralize these technical risks.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- First commercial shipping of Blackwell GB200 NVL72 racks by CoreWeave and Dell validates the production ramp and addresses high-demand expectations.\n- Revenue acceleration to 16.8% QoQ growth ($35.08B) signals strengthening short-term demand momentum and provides immediate price support.\n\n- UPSIDE_FAILURE: Recent price gains occurred on below-average volume, suggesting the move lacks the participation necessary to sustain a breakout or overcome technical resistance at 139.67.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* Bearish short-term trend indicated by MACD (-1.65) remaining below Signal (-1.35) despite recent price recovery.\n* Low volume ratio (0.82) on recent gains suggests a lack of buying conviction needed to overcome the 139.67 resistance level.\n\n- RISK_IRRELEVANCE: A high-volume price move that confirms a breakout from the current range between the 20-day and 50-day SMAs would neutralize these technical risks.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* Bearish short-term trend indicated by MACD (-1.65) remaining below Signal (-1.35) despite recent price recovery.\n* Low volume ratio (0.82) on recent gains suggests a lack of buying conviction needed to overcome the 139.67 resistance level.\n\n- RISK_IRRELEVANCE: A high-volume price move that confirms a breakout from the current range between the 20-day and 50-day SMAs would neutralize these technical risks.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating 16.8% QoQ revenue growth and Blackwell shipping validation\",\n    \"Technical resistance at 139.67 coupled with low volume participation\"\n  ],\n  \"main_risk\": \"A high-volume breakout above 139.67 would signal that fundamental momentum has overcome technical resistance.\",\n  \"actionability_assessment\": \"While Blackwell shipping is a major catalyst, the lack of volume participation makes a breakout entry premature.\",\n  \"hold_gate_assessment\": \"The technical resistance at 139.67 and bearish MACD signal neutralize the immediate fundamental upside for the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor volume levels at the 139.67 resistance level for signs of a breakout.\",\n    \"Watch for further confirmation of Blackwell deployment success from CoreWeave/Dell.\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- TOP_UPSIDE_CATALYSTS:\n- First commercial shipping of Blackwell GB200 NVL72 racks by CoreWeave and Dell validates the production ramp and addresses high-demand expectations.\n- Revenue acceleration to 16.8% QoQ growth ($35.08B) signals strengthening short-term demand momentum and provides immediate price support.\n\n- UPSIDE_FAILURE: Recent price gains occurred on below-average volume, suggesting the move lacks the participation necessary to sustain a breakout or overcome technical resistance at 139.67.",
+      "bearish": "\n\n- TOP_DOWNSIDE_RISKS:\n* Bearish short-term trend indicated by MACD (-1.65) remaining below Signal (-1.35) despite recent price recovery.\n* Low volume ratio (0.82) on recent gains suggests a lack of buying conviction needed to overcome the 139.67 resistance level.\n\n- RISK_IRRELEVANCE: A high-volume price move that confirms a breakout from the current range between the 20-day and 50-day SMAs would neutralize these technical risks."
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating 16.8% QoQ revenue growth and Blackwell shipping validation\",\n    \"Technical resistance at 139.67 coupled with low volume participation\"\n  ],\n  \"main_risk\": \"A high-volume breakout above 139.67 would signal that fundamental momentum has overcome technical resistance.\",\n  \"actionability_assessment\": \"While Blackwell shipping is a major catalyst, the lack of volume participation makes a breakout entry premature.\",\n  \"hold_gate_assessment\": \"The technical resistance at 139.67 and bearish MACD signal neutralize the immediate fundamental upside for the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor volume levels at the 139.67 resistance level for signs of a breakout.\",\n    \"Watch for further confirmation of Blackwell deployment success from CoreWeave/Dell.\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.5,
+      "sell_score": 5.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Accelerating 16.8% QoQ revenue growth and Blackwell shipping validation",
+        "Technical resistance at 139.67 coupled with low volume participation"
+      ],
+      "main_risk": "A high-volume breakout above 139.67 would signal that fundamental momentum has overcome technical resistance.",
+      "actionability_assessment": "While Blackwell shipping is a major catalyst, the lack of volume participation makes a breakout entry premature.",
+      "hold_gate_assessment": "The technical resistance at 139.67 and bearish MACD signal neutralize the immediate fundamental upside for the 10-day window.",
+      "execution_notes": [
+        "Monitor volume levels at the 139.67 resistance level for signs of a breakout.",
+        "Watch for further confirmation of Blackwell deployment success from CoreWeave/Dell."
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Accelerating 16.8% QoQ revenue growth and Blackwell shipping validation AGAINST: A high-volume breakout above 139.67 would signal that fundamental momentum has overcome technical resistance. DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=HIGH."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "provenance": {
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2024-12-23",
+        "lookback_days": 14,
+        "window_start": "2024-12-09",
+        "window_end": "2024-12-23",
+        "article_count": 27,
+        "min_published": "2024-12-09T00:00:00",
+        "max_published": "2024-12-23T16:48:00",
+        "articles": [
+          {
+            "title": "Nvidia's Blackwell chip could push the company into a new stratosphere as the AI revolution continues",
+            "source": "Yahoo Finance",
+            "published": "20241218T110015",
+            "url": "https://finance.yahoo.com/news/nvidias-blackwell-chip-could-push-the-company-into-a-new-stratosphere-as-the-ai-revolution-continues-110015637.html",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.461255,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "Nvidia Steps Up Hiring in China to Focus on AI-Driven Cars",
+            "source": "Bloomberg.com",
+            "published": "20241212T040600",
+            "url": "https://www.bloomberg.com/news/articles/2024-12-12/nvidia-steps-up-hiring-in-china-to-focus-on-ai-driven-cars",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.431677,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "Microsoft Corporation (MSFT) Leads AI Investment in 2024, Purchasing 485,000 Nvidia GPUs to Power AI Infrastructure",
+            "source": "Yahoo Finance",
+            "published": "20241219T000000",
+            "url": "https://finance.yahoo.com/news/microsoft-corporation-msft-leads-ai-031051641.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.31991,
+            "relevance_score": 0.926285
+          },
+          {
+            "title": "Broadcom ETFs Surge on Strong AI Demand",
+            "source": "ETF.com",
+            "published": "20241213T000000",
+            "url": "https://www.etf.com/sections/news/broadcom-etfs-surge-strong-ai-demand",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": -0.111803,
+            "relevance_score": 0.899454
+          },
+          {
+            "title": "CoreWeave and Dell Technologies Extend Relationship to Deliver AI at Scale",
+            "source": "PR Newswire",
+            "published": "20241209T130000",
+            "url": "https://www.prnewswire.com/news-releases/coreweave-and-dell-technologies-extend-relationship-to-deliver-ai-at-scale-302326486.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.30926,
+            "relevance_score": 0.883612
+          },
+          {
+            "title": "Broadcom's AI Chip Leadership Puts Pressure on Nvidia and Marvell, Analysts Say",
+            "source": "Yahoo Finance",
+            "published": "20241213T181057",
+            "url": "https://finance.yahoo.com/news/broadcoms-ai-chip-leadership-puts-181057394.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.250348,
+            "relevance_score": 0.864443
+          },
+          {
+            "title": "1 Spectacular Artificial Intelligence (AI) ETF to Buy With $40 During the S&P 500 Bull Market",
+            "source": "Yahoo Finance",
+            "published": "20241213T092500",
+            "url": "https://finance.yahoo.com/news/1-spectacular-artificial-intelligence-ai-092500009.html",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.437598,
+            "relevance_score": 0.822379
+          },
+          {
+            "title": "Pelican-2 & 36 SuperDoves Arrived in Vandenberg, California For Launch",
+            "source": "Planet Labs",
+            "published": "20241209T000000",
+            "url": "https://www.planet.com/pulse/pelican-2-36-superdoves-arrived-in-vandenberg-california-for-launch/",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.56654,
+            "relevance_score": 0.811939
+          },
+          {
+            "title": "3 Contrarian Investments for 2025",
+            "source": "Morningstar",
+            "published": "20241218T000000",
+            "url": "https://www.morningstar.com/portfolios/3-contrarian-investments-2025",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.033293,
+            "relevance_score": 0.800323
+          },
+          {
+            "title": "Silver Lake Sells $12.9 Million Dell Technologies Stake Amid 83% Stock Surge",
+            "source": "Yahoo Finance",
+            "published": "20241210T125731",
+            "url": "https://finance.yahoo.com/news/silver-lake-sells-12-9-125731797.html",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.307835,
+            "relevance_score": 0.722092
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 72.42
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2024-12-23",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "Revenue accelerated to 16.8% QoQ growth ($35.08B) from 15.4% in the prior period, signaling strengthening short-term demand momentum.",
+        "primary_risk": "* Operating expenses increased 9% QoQ to $4.29B; any sudden revenue deceleration could compress the high net margins."
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI at 53.43 -> Neutral momentum holding slightly above the midpoint, indicating a lack of strong directional conviction.",
+        "primary_risk": "Price is currently pinned between the 20-day and 50-day SMAs, requiring a high-volume move to confirm a breakout or rejection."
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "CoreWeave/Dell shipping GB200 NVL72 racks -> First commercial deployment of Blackwell architecture validates production ramp and addresses h",
+        "primary_risk": "N/A"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue accelerated to 16.8% QoQ growth ($35.08B) from 15.4% in the prior period, signaling strengthening short-term demand momentum.\n* Net profit margin remains elite at 55.0%, with net income rising 16.3% QoQ to $19.31B, supporting immediate price support.\n* Gross margins are robust at 74.5%, indicating strong pricing power and operational efficiency heading into the next period.\n\n2) RISKS:\n* Operating expenses increased 9% QoQ to $4.29B; any sudden revenue deceleration could compress the high net margins.\n* R&D spending rose 9.7% QoQ to $3.39B, increasing the capital intensity required to maintain the current growth trajectory.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: UNKNOWN (Specific forward guidance and earnings surprise vs. consensus are not provided in the dataset).\n\n**Note:** Short-term momentum is driven by accelerating QoQ revenue and record-high profitability.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI at 53.43 -> Neutral momentum holding slightly above the midpoint, indicating a lack of strong directional conviction.\n* MACD (-1.65) below Signal (-1.35) -> The short-term trend remains technically bearish despite the recent 7.12% five-day price recovery.\n* Volume Ratio at 0.82 -> Recent price gains occurred on below-average volume, suggesting the move lacks the participation necessary for a sustained breakout.\n\n2) SUPPORT: 136.92\n3) RESISTANCE: 139.67\n4) FINAL_VIEW: NEUTRAL\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: Price is currently pinned between the 20-day and 50-day SMAs, requiring a high-volume move to confirm a breakout or rejection.",
+      "news_harvester": "1) CATALYSTS:\n* CoreWeave/Dell shipping GB200 NVL72 racks -> First commercial deployment of Blackwell architecture validates production ramp and addresses high-demand expectations.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: N/A"
+    },
+    "investment_debate_state": {
+      "history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- First commercial shipping of Blackwell GB200 NVL72 racks by CoreWeave and Dell validates the production ramp and addresses high-demand expectations.\n- Revenue acceleration to 16.8% QoQ growth ($35.08B) signals strengthening short-term demand momentum and provides immediate price support.\n\n- UPSIDE_FAILURE: Recent price gains occurred on below-average volume, suggesting the move lacks the participation necessary to sustain a breakout or overcome technical resistance at 139.67.\n\n- TOP_DOWNSIDE_RISKS:\n* Bearish short-term trend indicated by MACD (-1.65) remaining below Signal (-1.35) despite recent price recovery.\n* Low volume ratio (0.82) on recent gains suggests a lack of buying conviction needed to overcome the 139.67 resistance level.\n\n- RISK_IRRELEVANCE: A high-volume price move that confirms a breakout from the current range between the 20-day and 50-day SMAs would neutralize these technical risks.",
+      "bull_history": "\n\n- TOP_UPSIDE_CATALYSTS:\n- First commercial shipping of Blackwell GB200 NVL72 racks by CoreWeave and Dell validates the production ramp and addresses high-demand expectations.\n- Revenue acceleration to 16.8% QoQ growth ($35.08B) signals strengthening short-term demand momentum and provides immediate price support.\n\n- UPSIDE_FAILURE: Recent price gains occurred on below-average volume, suggesting the move lacks the participation necessary to sustain a breakout or overcome technical resistance at 139.67.",
+      "bear_history": "\n\n- TOP_DOWNSIDE_RISKS:\n* Bearish short-term trend indicated by MACD (-1.65) remaining below Signal (-1.35) despite recent price recovery.\n* Low volume ratio (0.82) on recent gains suggests a lack of buying conviction needed to overcome the 139.67 resistance level.\n\n- RISK_IRRELEVANCE: A high-volume price move that confirms a breakout from the current range between the 20-day and 50-day SMAs would neutralize these technical risks.",
+      "current_response": "- TOP_DOWNSIDE_RISKS:\n* Bearish short-term trend indicated by MACD (-1.65) remaining below Signal (-1.35) despite recent price recovery.\n* Low volume ratio (0.82) on recent gains suggests a lack of buying conviction needed to overcome the 139.67 resistance level.\n\n- RISK_IRRELEVANCE: A high-volume price move that confirms a breakout from the current range between the 20-day and 50-day SMAs would neutralize these technical risks.",
+      "current_speaker": "Downside Risk Analyst",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating 16.8% QoQ revenue growth and Blackwell shipping validation\",\n    \"Technical resistance at 139.67 coupled with low volume participation\"\n  ],\n  \"main_risk\": \"A high-volume breakout above 139.67 would signal that fundamental momentum has overcome technical resistance.\",\n  \"actionability_assessment\": \"While Blackwell shipping is a major catalyst, the lack of volume participation makes a breakout entry premature.\",\n  \"hold_gate_assessment\": \"The technical resistance at 139.67 and bearish MACD signal neutralize the immediate fundamental upside for the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor volume levels at the 139.67 resistance level for signs of a breakout.\",\n    \"Watch for further confirmation of Blackwell deployment success from CoreWeave/Dell.\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 7.5,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating 16.8% QoQ revenue growth and Blackwell shipping validation\",\n    \"Technical resistance at 139.67 coupled with low volume participation\"\n  ],\n  \"main_risk\": \"A high-volume breakout above 139.67 would signal that fundamental momentum has overcome technical resistance.\",\n  \"actionability_assessment\": \"While Blackwell shipping is a major catalyst, the lack of volume participation makes a breakout entry premature.\",\n  \"hold_gate_assessment\": \"The technical resistance at 139.67 and bearish MACD signal neutralize the immediate fundamental upside for the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor volume levels at the 139.67 resistance level for signs of a breakout.\",\n    \"Watch for further confirmation of Blackwell deployment success from CoreWeave/Dell.\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 7.5,
+      "sell_score": 5.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Accelerating 16.8% QoQ revenue growth and Blackwell shipping validation",
+        "Technical resistance at 139.67 coupled with low volume participation"
+      ],
+      "main_risk": "A high-volume breakout above 139.67 would signal that fundamental momentum has overcome technical resistance.",
+      "actionability_assessment": "While Blackwell shipping is a major catalyst, the lack of volume participation makes a breakout entry premature.",
+      "hold_gate_assessment": "The technical resistance at 139.67 and bearish MACD signal neutralize the immediate fundamental upside for the 10-day window.",
+      "execution_notes": [
+        "Monitor volume levels at the 139.67 resistance level for signs of a breakout.",
+        "Watch for further confirmation of Blackwell deployment success from CoreWeave/Dell."
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Accelerating 16.8% QoQ revenue growth and Blackwell shipping validation AGAINST: A high-volume breakout above 139.67 would signal that fundamental momentum has overcome technical resistance. DECISION: Executing Research Manager policy-core recommendation to HOLD. CONFIDENCE=HIGH."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 72.42,
+    "memory_id": null
+  }
+}
