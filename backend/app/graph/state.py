@@ -38,6 +38,10 @@ class RunConfig(TypedDict, total=False):
     decision_style: str  # "classification"|"full"
     memory_on: bool
     risk_mode: str  # "off"|"single"|"debate"
+    use_cached_stage_a_reports: bool
+    use_cached_stage_a_prior: bool
+    cache_trace_file: Optional[str]
+    use_pro_stage_a_manager: bool
 
 class AgentState(TypedDict):
     """
@@ -74,4 +78,5 @@ class AgentState(TypedDict):
     proposed_trade: Dict[str, Any]
     
     # Debug/Verification metadata
+    cache_context: Optional[Dict[str, Any]]
     provenance: Optional[Dict[str, Any]]  # News timestamps, chart as-of, etc.

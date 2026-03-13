@@ -15,6 +15,16 @@ import re
 # from ..graph.state import AgentState # We will define this later
 
 
+def _has_cached_analyst_output(state: dict, report_key: str, signal_key: str) -> bool:
+    run_config = state.get("run_config", {}) or {}
+    if not run_config.get("use_cached_stage_a_reports", False):
+        return False
+
+    reports = state.get("reports", {}) or {}
+    signals = state.get("signals", {}) or {}
+    return bool(reports.get(report_key)) and signal_key in signals
+
+
 def _extract_analyst_signal(analysis_text: str) -> dict:
     """
     Extract a structured directional signal by parsing the labelled output fields
@@ -107,6 +117,9 @@ def fundamental_analyst_agent(state: dict):
     """
     The Fundamental Analyst Agent.
     """
+    if _has_cached_analyst_output(state, "fundamental_analyst", "fundamental"):
+        return state
+
     ticker = state['ticker']
     simulated_date = state.get('simulated_date')  # Get as_of date for point-in-time data
     horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
@@ -131,15 +144,12 @@ def fundamental_analyst_agent(state: dict):
 Horizon: {horizon_days} trading days.
 {horizon_focus}
 
-Use only the provided data. Do not add external facts or numbers.
-If data is missing, write UNKNOWN.
-Your job is to identify what is ACTIVE and likely to matter within {horizon_days} trading days.
-Prefer recent acceleration/deceleration, earnings or guidance change, margin change, liquidity stress, analyst expectation gap, and concrete business change with a short-horizon transmission path into price.
-Treat company quality, scale, and older profitability as background unless the data shows they are being repriced now.
-Do not invent market reactions. Do not assume post-peak normalization, sentiment fade, or disappointment unless the numbers show live deterioration now.
-Recent earnings strength can count only if the change is large enough and still looks actively repriced now.
-Historical seasonality or an expected giveback after a peak quarter is background unless current data already confirms the slowdown.
-If the evidence is mostly background quality plus one vague concern, stay neutral rather than forcing a directional edge.
+Your objective is to identify active, near-term fundamental drivers that will likely impact the price within {horizon_days} trading days.
+Focus strongly on recent changes: earnings surprises, forward guidance shifts, margin expansion/contraction, and actionable analyst expectation gaps.
+Evaluate both upside and downside drivers with equal weight. Treat high-quality but stagnant companies and generic risks as background context.
+Rely strictly on the provided financial data. If data is missing, write UNKNOWN.
+Formulate an evidence-backed view based on live metrics rather than generalized industry narratives or assumptions about market reactions.
+If the evidence is mixed, identify which side has the slight edge. Use NEUTRAL only if the data is perfectly balanced and utterly lacks any near-term catalyst.
 
 Data:
 Financial Statements: {financial_statements}
@@ -174,13 +184,24 @@ def technical_analyst_agent(state: dict):
     """
     The Technical Analyst Agent.
     """
+    if _has_cached_analyst_output(state, "technical_analyst", "technical"):
+        return state
+
     ticker = state['ticker']
     horizon = state.get('horizon') or state.get('run_config', {}).get('horizon', 'short')
     horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
 
+    short_horizon_focus = (
+        f'TRADING HORIZON: {horizon_days} days (short-term). Focus on: SMA crossovers '
+        '(10/20-day), RSI momentum, MACD signal line, recent volume spikes, nearest '
+        'support/resistance levels. Identify the dominant current setup, not every possible '
+        'reversal path. Ignore 200-day SMA for entry timing. Apply the same confirmation '
+        'standard to bullish and bearish setups.'
+    )
+
     # Horizon-specific technical focus
     _TECHNICAL_HORIZON_FOCUS = {
-        'short': f'TRADING HORIZON: {horizon_days} days (short-term). Focus on: SMA crossovers (10/20-day), RSI momentum, MACD signal line, recent volume spikes, nearest support/resistance levels. Identify the dominant current setup, not every possible reversal path. Ignore 200-day SMA for entry timing. Treat bearish technical setups as high-conviction only when weakness is confirmed, not when it is just a normal pullback or one soft signal.',
+        'short': short_horizon_focus,
         'medium': f'TRADING HORIZON: {horizon_days} days (medium-term). Focus on: 20/50-day SMA trend, RSI trend direction, MACD histogram, key chart patterns (flags, wedges). Balance short and medium momentum.',
         'long': f'TRADING HORIZON: {horizon_days} days (long-term). Focus on: 50/200-day SMA, long-term trend channel, volume trend, major support/resistance zones. Short-term noise is less relevant.',
     }
@@ -197,18 +218,12 @@ def technical_analyst_agent(state: dict):
 Horizon: {horizon_days} trading days.
 {horizon_focus}
 
-Use only the provided indicators. Do not invent values.
-If missing, write UNKNOWN.
-Describe the current technical state, not all hypothetical scenarios.
-Prioritise what is active now: trend, momentum, volume confirmation, and the nearest actionable level.
-If the setup is mixed, still identify which side currently has more technical control.
-Separate active seller/buyer control from routine caution.
-Do not turn every support or resistance level into a forecast.
-Do not call the setup BULLISH just because price reclaimed one level if the move is not confirmed.
-Do not call the setup BEARISH from one weak signal alone.
-For a bullish read, prefer confirmed reclaim, positive MACD alignment, sustained price above key averages, and room for continuation.
-For a bearish read, prefer confirmed breakdown, price staying below key averages, negative MACD alignment with weak momentum, or downside follow-through with seller control.
-Low volume, nearby resistance, overbought cooling, oversold bounce risk, or one crossover should usually lower confidence rather than create a full opposite thesis.
+Your objective is to determine which side (buyers or sellers) has active technical control right now.
+Evaluate the dominant setup using trend, momentum, volume, and key actionable levels.
+Apply the same strict confirmation standard to both bullish breakouts and bearish breakdowns.
+Use the provided indicators strictly. Focus on clear signals and confirmed moves rather than extrapolating premature reversals or over-analyzing minor pullbacks.
+If the setup is mixed, identify which side has the slight technical edge. Use NEUTRAL only if the indicators are perfectly balanced without any clear directional control.
+If required indicators are missing, write UNKNOWN.
 
 Data:
 Technical Indicators: {indicators}
@@ -257,6 +272,9 @@ def news_harvester_agent(state: dict):
     Finnhub free tier does not provide native sentiment, so the news tool attaches
     a lightweight heuristic tone score/label for downstream consistency.
     """
+    if _has_cached_analyst_output(state, "news_harvester", "news"):
+        return state
+
     
     ticker = state['ticker']
     
@@ -378,13 +396,11 @@ def news_harvester_agent(state: dict):
 Horizon: {horizon_days} trading days.
 {horizon_focus}
 
-Use only the articles shown. Do not add outside facts.
-Do not infer events unless explicitly stated.
-Focus on ticker-specific, near-term catalysts only.
-Treat broad sector mood, generic AI narrative, ETF holdings pages, and indirect ecosystem news as background. Do not list them as catalysts unless the article clearly explains why they will move {ticker} within {horizon_days} trading days.
-Your job is to identify ACTIVE news drivers. A company mention, brand-strength story, or thematic article is not enough unless there is a clear near-term price mechanism.
-Do not convert vague market interpretation into a catalyst. If an article does not show a direct company-specific event or near-term transmission path, treat it as background.
-If the news is mostly ambient narrative with no live company-specific trigger, stay neutral.
+Your objective is to extract ticker-specific, near-term catalysts from the provided articles.
+Filter out broad sector chatter, thematic narratives, and generic company mentions unless they explicitly provide a transmission path to move the stock price within {horizon_days} trading days.
+Weigh both positive and negative news based on their concrete market impact.
+If the news is mixed, identify which side has the slight edge. Remain NEUTRAL only if the news is purely ambient noise without any actionable direction.
+Base your analysis entirely on the provided articles.
 
 {news_summary}
 

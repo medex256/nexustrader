@@ -9,8 +9,9 @@ from pydantic import BaseModel
 # Load environment variables
 load_dotenv()
 
-# Flash model — unified model for all agents
+# Flash model — default model for all agents
 MODEL_NAME = "gemini-3-flash-preview"
+PRO_MODEL_NAME = "gemini-3.1-pro-preview"
 
 # Singleton client (created on first call)
 _client: genai.Client | None = None
@@ -31,6 +32,7 @@ def _get_client() -> genai.Client:
 def invoke_llm(
     prompt: str,
     *,
+    model_name: str | None = None,
     temperature: float = 1.0,
     max_retries: int = 3,
 ) -> str:
@@ -38,6 +40,7 @@ def invoke_llm(
     Invokes Gemini 3 Flash Preview.
     """
     client = _get_client()
+    model = model_name or MODEL_NAME
 
     # Single clean config for all agents
     config = types.GenerateContentConfig(
@@ -47,7 +50,7 @@ def invoke_llm(
     for attempt in range(max_retries + 1):
         try:
             response = client.models.generate_content(
-                model=MODEL_NAME,
+                model=model,
                 contents=prompt,
                 config=config,
             )
@@ -80,6 +83,7 @@ def invoke_llm_structured(
     prompt: str,
     schema: type[T],
     *,
+    model_name: str | None = None,
     temperature: float = 0.3,
     max_retries: int = 3,
 ) -> T:
@@ -98,6 +102,7 @@ def invoke_llm_structured(
         RuntimeError when generation/validation fails after retries.
     """
     client = _get_client()
+    model = model_name or MODEL_NAME
 
     config = types.GenerateContentConfig(
         temperature=temperature,
@@ -109,7 +114,7 @@ def invoke_llm_structured(
     for attempt in range(max_retries + 1):
         try:
             response = client.models.generate_content(
-                model=MODEL_NAME,
+                model=model,
                 contents=prompt,
                 config=config,
             )

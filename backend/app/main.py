@@ -4,12 +4,20 @@ import json
 import asyncio
 from typing import Optional
 from fastapi import FastAPI
+from fastapi import HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from .graph.agent_graph import create_agent_graph
 from .utils.memory import initialize_memory, get_memory
+from .utils.stage_a_cache import (
+    build_stage_a_cache_key,
+    extract_cached_reports,
+    extract_cached_signals,
+    extract_cached_stage_a_prior,
+    get_cached_stage_a_trace,
+)
 from .tools.technical_analysis_tools import get_chart_data_json
 from .baselines.strategies import get_baseline
 
@@ -129,8 +137,24 @@ def _build_initial_state(
     horizon: str,
     decision_style: str,
     resolved: dict,
+    use_cached_stage_a_reports: bool = False,
+    use_cached_stage_a_prior: bool = False,
+    use_pro_stage_a_manager: bool = False,
+    cache_trace_file: Optional[str] = None,
+    cached_stage_a_trace: Optional[dict] = None,
 ) -> dict:
     horizon_days = HORIZON_MAP.get(horizon.lower(), 10)
+    cache_lookup_key = build_stage_a_cache_key(ticker, simulated_date, horizon, market)
+    reports = {}
+    signals = {}
+    cached_stage_a_prior = None
+    if cached_stage_a_trace is not None:
+        if use_cached_stage_a_reports:
+            reports = extract_cached_reports(cached_stage_a_trace)
+            signals = extract_cached_signals(cached_stage_a_trace)
+        if use_cached_stage_a_prior:
+            cached_stage_a_prior = extract_cached_stage_a_prior(cached_stage_a_trace)
+
     return {
         "ticker": ticker,
         "market": market,
@@ -144,11 +168,16 @@ def _build_initial_state(
             "decision_style": (decision_style or "classification").strip().lower(),
             "memory_on": resolved["memory_on"],
             "risk_mode": resolved["risk_mode"],
+            "use_cached_stage_a_reports": bool(use_cached_stage_a_reports),
+            "use_cached_stage_a_prior": bool(use_cached_stage_a_prior),
+            "use_pro_stage_a_manager": bool(use_pro_stage_a_manager),
+            "cache_trace_file": cache_trace_file,
         },
         "simulated_date": simulated_date,
         "horizon": horizon,
         "horizon_days": horizon_days,
-        "reports": {},
+        "reports": reports,
+        "signals": signals,
         "stock_chart_image": None,
         "sentiment_score": 0.0,
         "arguments": {},
@@ -159,7 +188,46 @@ def _build_initial_state(
         "proposed_trade": {},
         "investment_plan_structured": None,
         "research_manager_recommendation": None,
+        "cache_context": {
+            "cache_trace_file": cache_trace_file,
+            "cache_lookup_key": cache_lookup_key,
+            "cached_stage_a_trace": cached_stage_a_trace,
+            "cached_stage_a_reports_used": bool(use_cached_stage_a_reports and reports),
+            "cached_stage_a_prior": cached_stage_a_prior,
+            "cached_stage_a_prior_used": False,
+        },
+        "provenance": {
+            "cache": {
+                "cache_trace_file": cache_trace_file,
+                "cache_lookup_key": cache_lookup_key,
+                "cached_stage_a_reports_used": bool(use_cached_stage_a_reports and reports),
+                "cached_stage_a_prior_requested": bool(use_cached_stage_a_prior),
+                "cached_stage_a_prior_used": False,
+            }
+        },
     }
+
+
+def _load_cached_stage_a_trace_for_request(request: "AnalysisRequest") -> Optional[dict]:
+    if not (request.use_cached_stage_a_reports or request.use_cached_stage_a_prior):
+        return None
+    if not request.cache_trace_file:
+        raise HTTPException(status_code=400, detail="cache_trace_file is required when cached Stage A inputs are enabled")
+
+    cached_row = get_cached_stage_a_trace(
+        request.cache_trace_file,
+        ticker=request.ticker,
+        simulated_date=request.simulated_date,
+        horizon=request.horizon,
+        market=request.market,
+    )
+    if cached_row is None:
+        cache_key = build_stage_a_cache_key(request.ticker, request.simulated_date, request.horizon, request.market)
+        raise HTTPException(
+            status_code=404,
+            detail=f"No cached Stage A trace found for {cache_key} in {request.cache_trace_file}",
+        )
+    return cached_row
 
 # Define the request body for the /analyze endpoint
 class AnalysisRequest(BaseModel):
@@ -174,6 +242,10 @@ class AnalysisRequest(BaseModel):
     memory_on: bool = True
     risk_on: Optional[bool] = None  # legacy (deprecated): use risk_mode instead
     risk_mode: Optional[str] = None  # "off"|"single"|"debate"
+    use_cached_stage_a_reports: bool = False
+    use_cached_stage_a_prior: bool = False
+    use_pro_stage_a_manager: bool = False
+    cache_trace_file: Optional[str] = None
 
 @app.post("/analyze")
 def analyze_ticker(request: AnalysisRequest):
@@ -191,6 +263,7 @@ def analyze_ticker(request: AnalysisRequest):
         risk_on_legacy=request.risk_on,
         risk_mode=request.risk_mode,
     )
+    cached_stage_a_trace = _load_cached_stage_a_trace_for_request(request)
 
     # Create the agent graph with configurable risk mode
     agent_graph = create_agent_graph(
@@ -207,6 +280,11 @@ def analyze_ticker(request: AnalysisRequest):
         horizon=request.horizon,
         decision_style=request.decision_style,
         resolved=resolved,
+        use_cached_stage_a_reports=request.use_cached_stage_a_reports,
+        use_cached_stage_a_prior=request.use_cached_stage_a_prior,
+        use_pro_stage_a_manager=request.use_pro_stage_a_manager,
+        cache_trace_file=request.cache_trace_file,
+        cached_stage_a_trace=cached_stage_a_trace,
     )
 
     # Invoke the graph
@@ -263,6 +341,10 @@ async def analyze_ticker_stream(
     memory_on: bool = True,
     risk_on: Optional[bool] = None,
     risk_mode: Optional[str] = None,
+    use_cached_stage_a_reports: bool = False,
+    use_cached_stage_a_prior: bool = False,
+    use_pro_stage_a_manager: bool = False,
+    cache_trace_file: Optional[str] = None,
 ):
     """
     Runs the agent graph with real-time streaming updates via Server-Sent Events.
@@ -285,6 +367,17 @@ async def analyze_ticker_stream(
                 risk_on_legacy=risk_on,
                 risk_mode=risk_mode,
             )
+            cached_stage_a_trace = None
+            if use_cached_stage_a_reports or use_cached_stage_a_prior:
+                cached_stage_a_trace = get_cached_stage_a_trace(
+                    cache_trace_file or "",
+                    ticker=ticker,
+                    simulated_date=simulated_date,
+                    horizon=horizon,
+                    market=market,
+                )
+                if cached_stage_a_trace is None:
+                    raise HTTPException(status_code=404, detail="Cached Stage A trace row not found")
 
             # Create the agent graph with configurable risk mode
             agent_graph = create_agent_graph(
@@ -301,6 +394,11 @@ async def analyze_ticker_stream(
                 horizon=horizon,
                 decision_style=decision_style,
                 resolved=resolved,
+                use_cached_stage_a_reports=use_cached_stage_a_reports,
+                use_cached_stage_a_prior=use_cached_stage_a_prior,
+                use_pro_stage_a_manager=use_pro_stage_a_manager,
+                cache_trace_file=cache_trace_file,
+                cached_stage_a_trace=cached_stage_a_trace,
             )
             
             # Stream updates for each agent
@@ -318,8 +416,6 @@ async def analyze_ticker_stream(
                 "strategy_synthesizer": "Strategy Synthesizer",
                 "risk_manager": "Risk Manager",
             }
-            
-            # Use accumulated state to track the full context as agents update it
             current_state = initial_state.copy()
             
             # Start stream

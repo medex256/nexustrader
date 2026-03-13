@@ -1,12 +1,16 @@
 # In nexustrader/backend/app/agents/research_team.py
 
 import json
+import os
 from typing import Literal
 from pydantic import BaseModel, Field
 
 from ..llm import invoke_llm as call_llm
 from ..llm import invoke_llm_structured as call_llm_structured
 from ..utils.memory import get_memory
+
+
+PRO_MODEL_NAME = os.getenv("GEMINI_PRO_MODEL", "gemini-3-pro-preview")
 
 
 class StageAManagerDecision(BaseModel):
@@ -129,6 +133,12 @@ def _is_single_extraction_mode(state: dict) -> bool:
     return debate_mode != "off" and debate_rounds > 0 and risk_mode in {"off", "single"}
 
 
+def _use_pro_stage_a_manager(state: dict) -> bool:
+    run_config = state.get("run_config", {}) or {}
+    stage = (run_config.get("stage") or "").strip().upper()
+    return stage == "A" and bool(run_config.get("use_pro_stage_a_manager", False))
+
+
 def _get_stage_a_prior(state: dict, ticker: str, horizon_days: int) -> StageAManagerDecision:
     """
     Runs the Stage A (no-debate) manager prompt against the analyst reports to produce
@@ -174,6 +184,22 @@ Return JSON:
             primary_drivers=["Prior LLM call failed; fallback HOLD"],
             main_risk="Parse failure in _get_stage_a_prior",
         )
+
+
+def _get_cached_stage_a_prior(state: dict) -> StageAManagerDecision | None:
+    run_config = state.get("run_config", {}) or {}
+    if not run_config.get("use_cached_stage_a_prior", False):
+        return None
+
+    cache_context = state.get("cache_context", {}) or {}
+    cached_prior = cache_context.get("cached_stage_a_prior")
+    if not isinstance(cached_prior, dict):
+        return None
+
+    try:
+        return StageAManagerDecision(**cached_prior)
+    except Exception:
+        return None
 
 
 def _build_stage_b_manager_prompt(
@@ -705,7 +731,13 @@ Return JSON:
 }}"""
 
         try:
-            decision = call_llm_structured(prompt, StageAManagerDecision, temperature=0.2)
+            manager_model = PRO_MODEL_NAME if _use_pro_stage_a_manager(state) else None
+            decision = call_llm_structured(
+                prompt,
+                StageAManagerDecision,
+                temperature=0.2,
+                model_name=manager_model,
+            )
         except Exception as e:
             decision = StageAManagerDecision(
                 recommendation="HOLD",
@@ -733,10 +765,19 @@ Return JSON:
             # Compute Stage A-equivalent prior from analyst reports alone, before reading
             # specialist notes.  This prevents simultaneous contamination: the manager
             # starts from a committed direction and changes it only when the override bar is met.
-            prior = _get_stage_a_prior(state, ticker, horizon_days)
+            cached_prior = _get_cached_stage_a_prior(state)
+            prior = cached_prior or _get_stage_a_prior(state, ticker, horizon_days)
             prior_view = prior.recommendation
             # Store in state so downstream stages (B+, C) can read provenance without re-computing.
             state["prior_view"] = prior_view
+            cache_context = state.get("cache_context", {}) or {}
+            cache_context["cached_stage_a_prior_used"] = bool(cached_prior is not None)
+            state["cache_context"] = cache_context
+            provenance = state.get("provenance", {}) or {}
+            cache_provenance = provenance.get("cache", {}) or {}
+            cache_provenance["cached_stage_a_prior_used"] = bool(cached_prior is not None)
+            provenance["cache"] = cache_provenance
+            state["provenance"] = provenance
             prompt = _build_stage_b_manager_prompt(
                 state=state,
                 ticker=ticker,

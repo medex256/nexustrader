@@ -80,6 +80,29 @@ def main() -> int:
     parser.add_argument("--risk-on", action="store_true", default=False)
     parser.add_argument("--risk-off", action="store_false", dest="risk_on")
     parser.add_argument("--risk-mode", choices=["off", "single", "debate"], default=None)
+    parser.add_argument(
+        "--use-pro-stage-a-manager",
+        action="store_true",
+        default=False,
+        help="Use Gemini Pro for Stage A Research Manager call only (all other calls remain Flash)",
+    )
+    parser.add_argument(
+        "--use-cached-stage-a-reports",
+        action="store_true",
+        default=False,
+        help="Load cached analyst reports/signals from a Stage A trace batch and skip analyst LLM calls",
+    )
+    parser.add_argument(
+        "--use-cached-stage-a-prior",
+        action="store_true",
+        default=False,
+        help="Load cached Stage A manager decision from a Stage A trace batch",
+    )
+    parser.add_argument(
+        "--cache-trace-file",
+        default="",
+        help="Path to a Stage A trace JSONL file produced with run_batch --output dual",
+    )
     parser.add_argument("--timeout", type=int, default=600, help="HTTP timeout seconds")
     parser.add_argument("--out", default=DEFAULT_OUT_DIR, help="Output directory for debug JSON")
     parser.add_argument("--tag", default="manual", help="Tag in output filename")
@@ -91,6 +114,9 @@ def main() -> int:
     except ValueError as exc:
         print(str(exc))
         return 1
+
+    if args.cache_trace_file:
+        args.cache_trace_file = os.path.abspath(args.cache_trace_file)
 
     flags = _resolve_flags(args)
     payload = build_payload(

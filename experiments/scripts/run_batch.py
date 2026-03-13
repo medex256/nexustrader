@@ -14,6 +14,7 @@ EXPERIMENTS_DIR = os.path.dirname(SCRIPT_DIR)
 DEFAULT_TICKERS_FILE = os.path.join(EXPERIMENTS_DIR, "inputs", "tickers.txt")
 DEFAULT_DATES_FILE = os.path.join(EXPERIMENTS_DIR, "inputs", "dates_expanded.txt")
 DEFAULT_OUT_DIR = os.path.join(EXPERIMENTS_DIR, "results", "raw")
+DEFAULT_TRACE_OUT_DIR = os.path.join(EXPERIMENTS_DIR, "results", "traces")
 
 STAGE_PRESETS = {
     "A": {"debate_mode": "off", "debate_rounds": 0, "risk_mode": "off", "memory_on": False},
@@ -44,6 +45,10 @@ def _resolve_flags(args: argparse.Namespace) -> Dict[str, Any]:
             "decision_style": args.decision_style,
             "memory_on": preset["memory_on"],
             "risk_mode": preset["risk_mode"],
+            "use_pro_stage_a_manager": args.use_pro_stage_a_manager,
+            "use_cached_stage_a_reports": args.use_cached_stage_a_reports,
+            "use_cached_stage_a_prior": args.use_cached_stage_a_prior,
+            "cache_trace_file": args.cache_trace_file,
         }
 
     risk_mode = args.risk_mode if args.risk_mode is not None else ("single" if args.risk_on else "off")
@@ -61,6 +66,10 @@ def _resolve_flags(args: argparse.Namespace) -> Dict[str, Any]:
         "decision_style": args.decision_style,
         "memory_on": args.memory_on,
         "risk_mode": risk_mode,
+        "use_pro_stage_a_manager": args.use_pro_stage_a_manager,
+        "use_cached_stage_a_reports": args.use_cached_stage_a_reports,
+        "use_cached_stage_a_prior": args.use_cached_stage_a_prior,
+        "cache_trace_file": args.cache_trace_file,
     }
 
 
@@ -161,6 +170,31 @@ def compact_result(full: Dict[str, Any], truncate_chars: int = 400) -> Dict[str,
     return compact
 
 
+def trace_result(full: Dict[str, Any], request_payload: Dict[str, Any]) -> Dict[str, Any]:
+    return {
+        "ticker": full.get("ticker") or request_payload.get("ticker"),
+        "simulated_date": full.get("simulated_date") or request_payload.get("simulated_date"),
+        "horizon": request_payload.get("horizon"),
+        "market": full.get("market") or request_payload.get("market"),
+        "request_payload": request_payload,
+        "trace": {
+            "run_config": full.get("run_config"),
+            "signals": full.get("signals"),
+            "reports": full.get("reports"),
+            "investment_debate_state": full.get("investment_debate_state"),
+            "investment_plan": full.get("investment_plan"),
+            "investment_plan_structured": full.get("investment_plan_structured"),
+            "research_manager_recommendation": full.get("research_manager_recommendation"),
+            "trading_strategy": full.get("trading_strategy"),
+            "risk_reports": full.get("risk_reports"),
+            "compliance_check": full.get("compliance_check"),
+            "analysis_time_seconds": full.get("analysis_time_seconds"),
+            "memory_id": full.get("memory_id"),
+            "provenance": full.get("provenance"),
+        },
+    }
+
+
 def build_payload(ticker: str, market: str, simulated_date: str, horizon: str, flags: Dict[str, Any]) -> Dict[str, Any]:
     risk_mode = (flags.get("risk_mode") or "off").strip().lower()
     if risk_mode not in {"off", "single", "debate"}:
@@ -181,6 +215,10 @@ def build_payload(ticker: str, market: str, simulated_date: str, horizon: str, f
         "decision_style": flags.get("decision_style", "classification"),
         "memory_on": flags.get("memory_on", True),
         "risk_mode": risk_mode,
+        "use_pro_stage_a_manager": flags.get("use_pro_stage_a_manager", False),
+        "use_cached_stage_a_reports": flags.get("use_cached_stage_a_reports", False),
+        "use_cached_stage_a_prior": flags.get("use_cached_stage_a_prior", False),
+        "cache_trace_file": flags.get("cache_trace_file"),
     }
 
 
@@ -204,7 +242,7 @@ def _run_single(
     market: str,
     horizon: str,
     flags: Dict[str, Any],
-    output_mode: Literal["full", "compact"],
+    output_mode: Literal["full", "compact", "dual"],
     truncate_chars: int,
     retries: int = 2,
 ) -> Dict[str, Any]:
@@ -226,10 +264,10 @@ def _run_single(
             result = json.loads(body) if body else {}
 
             stored_result: Any = result
-            if output_mode == "compact" and isinstance(result, dict):
+            if output_mode in {"compact", "dual"} and isinstance(result, dict):
                 stored_result = compact_result(result, truncate_chars=truncate_chars)
 
-            return {
+            record = {
                 "ticker": ticker,
                 "simulated_date": simulated_date,
                 "horizon": horizon,
@@ -238,6 +276,18 @@ def _run_single(
                 "attempt": attempt,
                 "result": stored_result,
             }
+            if output_mode == "dual" and isinstance(result, dict):
+                record["_trace_record"] = {
+                    "ticker": ticker,
+                    "simulated_date": simulated_date,
+                    "horizon": horizon,
+                    "market": market,
+                    "flags": flags,
+                    "attempt": attempt,
+                    **trace_result(result, payload),
+                }
+
+            return record
         except (HTTPError, URLError, TimeoutError, json.JSONDecodeError) as exc:
             last_exc = exc
             continue
@@ -262,29 +312,41 @@ def run_batch(
     flags: Dict[str, Any],
     out_dir: str,
     tag: str,
-    output_mode: Literal["full", "compact"] = "compact",
+    output_mode: Literal["full", "compact", "dual"] = "compact",
+    trace_out_dir: str | None = None,
     truncate_chars: int = 400,
     workers: int = 1,
     retries: int = 2,
     jobs: List[Tuple[str, str]] | None = None,
-) -> str:
+) -> Tuple[str, str | None]:
     ensure_dir(out_dir)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     out_path = os.path.join(out_dir, f"batch_{tag}_{timestamp}.jsonl")
+    trace_path = None
+    if output_mode == "dual":
+        trace_dir = trace_out_dir or DEFAULT_TRACE_OUT_DIR
+        ensure_dir(trace_dir)
+        trace_path = os.path.join(trace_dir, f"batch_{tag}_trace_{timestamp}.jsonl")
 
     jobs = jobs if jobs is not None else [(t, d) for t in tickers for d in dates]
     total = len(jobs)
     completed = 0
 
-    with open(out_path, "w", encoding="utf-8") as out:
+    with open(out_path, "w", encoding="utf-8") as out, (
+        open(trace_path, "w", encoding="utf-8") if trace_path else open(os.devnull, "w", encoding="utf-8")
+    ) as trace_out:
         if workers <= 1:
             # Sequential execution (original behavior)
             for ticker, simulated_date in jobs:
                 record = _run_single(
                     api_base, ticker, simulated_date, market, horizon, flags, output_mode, truncate_chars, retries
                 )
+                trace_record = record.pop("_trace_record", None)
                 out.write(json.dumps(record) + "\n")
                 out.flush()
+                if trace_record is not None:
+                    trace_out.write(json.dumps(trace_record) + "\n")
+                    trace_out.flush()
                 completed += 1
                 print(f"[{completed}/{total}] {ticker} @ {simulated_date} [horizon={horizon}]")
         else:
@@ -318,12 +380,16 @@ def run_batch(
                             "flags": flags,
                             "error": str(exc),
                         }
+                    trace_record = record.pop("_trace_record", None)
                     out.write(json.dumps(record) + "\n")
                     out.flush()
+                    if trace_record is not None:
+                        trace_out.write(json.dumps(trace_record) + "\n")
+                        trace_out.flush()
                     completed += 1
                     print(f"[{completed}/{total}] {ticker} @ {simulated_date} [horizon={horizon}]")
 
-    return out_path
+    return out_path, trace_path
 
 
 def main() -> int:
@@ -386,9 +452,14 @@ def main() -> int:
     parser.add_argument("--tag", default="experiment", help="Tag to include in output filename (e.g., baseline, memory_on, debate_2)")
     parser.add_argument(
         "--output",
-        choices=["full", "compact"],
+        choices=["full", "compact", "dual"],
         default="compact",
-        help="Write full model output or a compact subset suitable for scoring",
+        help="compact: lean scorer file, full: full backend response in raw JSONL, dual: compact raw JSONL plus separate trace JSONL",
+    )
+    parser.add_argument(
+        "--trace-out",
+        default=DEFAULT_TRACE_OUT_DIR,
+        help="Output directory for trace JSONL files when --output dual is used",
     )
     parser.add_argument(
         "--truncate-chars",
@@ -408,8 +479,36 @@ def main() -> int:
         default=2,
         help="Retries per failed request (improves completeness)",
     )
+    parser.add_argument(
+        "--use-pro-stage-a-manager",
+        action="store_true",
+        default=False,
+        help="Use Gemini Pro for Stage A Research Manager call only (all other calls remain Flash)",
+    )
+    parser.add_argument(
+        "--use-cached-stage-a-reports",
+        action="store_true",
+        default=False,
+        help="Load cached analyst reports/signals from a Stage A trace batch and skip analyst LLM calls",
+    )
+    parser.add_argument(
+        "--use-cached-stage-a-prior",
+        action="store_true",
+        default=False,
+        help="Load cached Stage A manager decision from a Stage A trace batch for frozen Stage B prior evaluation",
+    )
+    parser.add_argument(
+        "--cache-trace-file",
+        default="",
+        help="Path to a Stage A trace JSONL file produced with --output dual",
+    )
 
     args = parser.parse_args()
+
+    # Resolve cache_trace_file to an absolute path so the backend (which runs
+    # from a different CWD) can always find the file.
+    if args.cache_trace_file:
+        args.cache_trace_file = os.path.abspath(args.cache_trace_file)
 
     try:
         horizon = _validate_horizon(args.horizon)
@@ -436,7 +535,7 @@ def main() -> int:
 
     flags = _resolve_flags(args)
 
-    out_path = run_batch(
+    out_path, trace_path = run_batch(
         api_base=args.api,
         tickers=tickers,
         dates=dates,
@@ -446,6 +545,7 @@ def main() -> int:
         out_dir=args.out,
         tag=args.tag,
         output_mode=args.output,
+        trace_out_dir=args.trace_out,
         truncate_chars=args.truncate_chars,
         workers=args.workers,
         retries=max(0, args.retries),
@@ -453,6 +553,8 @@ def main() -> int:
     )
 
     print(f"Batch completed. Results saved to: {out_path}")
+    if trace_path:
+        print(f"Trace cache saved to: {trace_path}")
     return 0
 
 

@@ -3,17 +3,11 @@
 """
 Execution Core — Trader Agent
 
-Architecture (Feb 12, 2026 — aligned with TradingAgents paper):
-
-The Trader is an INDEPENDENT decision-maker, not a rubber-stamp.
-It receives the Research Manager's investment plan as a *suggestion*
-and makes its OWN BUY/SELL/HOLD call based on:
-  1. The investment plan (context, not constraint)
-  2. Current price + risk metrics
-  3. Its own judgement
-
-The Trader's action may DIFFER from the Research Manager's.
-This creates the decision-tension that the Risk Debate needs to function.
+Architecture:
+- Stages A / B / B+: policy core. Trader echoes the Research Manager and formats
+    the rationale without an additional LLM call.
+- Stages C / D: independent Trader LLM call is enabled so the downstream risk
+    layer can consume Manager-vs-Trader disagreement as genuine signal.
 
 Removed Agents (Redundant):
 - Arbitrage Trader: Required complex options data not available
@@ -232,11 +226,11 @@ Return ONLY: BUY, SELL, or HOLD (no punctuation, no explanation)"""
 def trading_strategy_synthesizer_agent(state: dict):
     """
     The Trader Agent (formerly "Strategy Synthesizer").
-    
-    Architecture (Feb 12, 2026 — aligned with TradingAgents paper):
-    Receives the Research Manager's investment plan as CONTEXT (not constraint).
-    Makes its OWN independent BUY/SELL/HOLD decision.
-    This creates decision-tension for the downstream Risk Debate.
+
+        Architecture:
+        - Stages A / B / B+: policy core executor, no independent LLM call.
+        - Stages C / D: independent Trader decision-maker so the risk layer can
+            adjudicate Manager-vs-Trader tension.
     """
     # Get the investment plan from research manager
     investment_plan = state.get('investment_plan', '')
@@ -266,9 +260,6 @@ def trading_strategy_synthesizer_agent(state: dict):
 
     manager_action, manager_confidence, manager_drivers, manager_main_risk = _parse_manager_plan(investment_plan)
     
-    # NOTE: No extract_signal call here — we don't force alignment.
-    # The Trader reads the plan and makes its own call.
-
     # Build structured signal summary for Stage A (gives Trader concrete evidence to cite)
     signals = state.get("signals", {}) or {}
     signal_lines = []
@@ -324,39 +315,7 @@ def trading_strategy_synthesizer_agent(state: dict):
 
         return state
 
-    if stage in {"B", "B+"}:
-        prompt = f"""Role: Trader for {ticker}.
-Task: make the final directional decision for the next {horizon_days} trading days using the debate outcome.
-
-Current Price: {current_price_str}
-
---- ANALYST SIGNALS ---
-{signal_block}
-
---- RESEARCH MANAGER DECISION CONTEXT ---
-{context}
-
-Execution policy (lean, MAS-aligned):
-1) Treat Manager recommendation as strong anchor.
-2) Prefer directional action (BUY/SELL) when evidence edge exists.
-3) Use HOLD only for true deadlock or low confidence.
-4) If disagreeing with Manager, cite one concrete opposing evidence item.
-5) Keep BUY/SELL symmetry; do not bias toward BUY.
-6) Rationale format: FOR ... AGAINST ... DECISION ... CONFIDENCE=HIGH|MEDIUM|LOW.
-
-Return ONLY valid JSON:
-{{
-    "action": "BUY|SELL|HOLD",
-    "confidence_score": <number 0..1>,
-    "entry_price": null,
-    "take_profit": null,
-    "stop_loss": null,
-    "position_size_pct": 0,
-    "rationale": "<FOR: ... AGAINST: ... DECISION: ...>"
-}}
-"""
-    else:
-        prompt = f"""Role: Trader for {ticker}.
+    prompt = f"""Role: Trader for {ticker}.
 Task: predict direction over the next {horizon_days} trading days.
 
 Current Price: {current_price_str}

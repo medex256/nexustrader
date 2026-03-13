@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "created_at": "2026-03-13T14:49:02",
+    "started_at": "2026-03-13T14:48:22",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "flash"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2025-02-03",
+    "horizon": "short",
+    "stage": "A",
+    "debate_rounds": 0,
+    "debate_mode": "off",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": false,
+    "use_cached_stage_a_prior": false,
+    "cache_trace_file": ""
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "A",
+      "simulated_date": "2025-02-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 0,
+      "debate_mode": "off",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off",
+      "use_cached_stage_a_reports": false,
+      "use_cached_stage_a_prior": false,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": ""
+    },
+    "simulated_date": "2025-02-03",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **Revenue Momentum:** Quarterly revenue reached $39.33B (Jan 2025), a 12.1% QoQ increase, maintaining a strong absolute growth trajectory.\n* **Profit Efficiency:** Net income grew 14.4% QoQ to $22.09B, outpacing revenue growth and resulting in a high 56.2% net profit margin.\n* **Strong Liquidity:** A current ratio of 4.44 indicates zero near-term liquidity stress, supporting immediate operational scaling and R&D.\n\n2) RISKS:\n* **Margin Compression:** Gross margins declined from 74.6% to 73.0% QoQ, suggesting potential shifts in product mix or rising production costs.\n* **Growth Deceleration:** The QoQ revenue growth rate slowed from 16.8% in the prior quarter to 12.1%, which may trigger short-term repricing.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Whether the 1.6% gross margin dip is a temporary fluctuation or the start of a trend.",
+      "technical_analyst": "1) EVIDENCE:\n• Price (116.62) is significantly below the SMA_20 (134.60); with SMA_10 UNKNOWN, the 20-day average acts as the primary overhead resistance confirming a short-term downtrend.\n• MACD (-4.34) is positioned below the signal line (-2.03) with a widening negative histogram, signaling accelerating bearish momentum and active seller control.\n• Volume ratio of 1.21 during a -9.56% 5-day decline confirms that the current move is driven by high-conviction selling rather than a routine pullback.\n\n2) SUPPORT: 114.79\n3) RESISTANCE: 134.60\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: RSI at 36.81 is approaching oversold territory near the lower Bollinger Band (114.79), which may trigger a short-term technical pause or mean reversion.",
+      "news_harvester": "1) CATALYSTS:\n* Potential U.S. export controls: Reports indicate the administration is considering stricter semiconductor sales restrictions to China, creating immediate regulatory uncertainty.\n* DeepSeek R1 market digestion: Ongoing investor reassessment of AI training costs and GPU demand following the recent 17% price correction.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Formal announcement or further leaks regarding stricter U.S. semiconductor export restrictions targeting China."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "**Revenue Momentum:** Quarterly revenue reached $39.33B (Jan 2025), a 12.1% QoQ increase, maintaining a strong absolute growth trajectory.",
+        "primary_risk": "* **Margin Compression:** Gross margins declined from 74.6% to 73.0% QoQ, suggesting potential shifts in product mix or rising production co"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=HIGH",
+        "key_catalyst": "Price (116.62) is significantly below the SMA_20 (134.60); with SMA_10 UNKNOWN, the 20-day average acts as the primary overhead resistance c",
+        "primary_risk": "RSI at 36.81 is approaching oversold territory near the lower Bollinger Band (114.79), which may trigger a short-term technical pause or mea"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Potential U.S. export controls: Reports indicate the administration is considering stricter semiconductor sales restrictions to China, creat",
+        "primary_risk": "Formal announcement or further leaks regarding stricter U.S. semiconductor export restrictions targeting China."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "judge_decision": "{\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating bearish technical momentum with price significantly below SMA_20 and widening negative MACD histogram.\",\n    \"High-conviction selling confirmed by a 1.21 volume ratio during a 9.56% five-day price decline.\",\n    \"Regulatory uncertainty and potential U.S. export controls on semiconductor sales to China creating immediate headwind.\"\n  ],\n  \"main_risk\": \"RSI at 36.81 is approaching oversold territory near the 114.79 support level, which could trigger a short-term technical bounce.\",\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {},
+    "investment_plan": "{\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating bearish technical momentum with price significantly below SMA_20 and widening negative MACD histogram.\",\n    \"High-conviction selling confirmed by a 1.21 volume ratio during a 9.56% five-day price decline.\",\n    \"Regulatory uncertainty and potential U.S. export controls on semiconductor sales to China creating immediate headwind.\"\n  ],\n  \"main_risk\": \"RSI at 36.81 is approaching oversold territory near the 114.79 support level, which could trigger a short-term technical bounce.\",\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "recommendation": "SELL",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Accelerating bearish technical momentum with price significantly below SMA_20 and widening negative MACD histogram.",
+        "High-conviction selling confirmed by a 1.21 volume ratio during a 9.56% five-day price decline.",
+        "Regulatory uncertainty and potential U.S. export controls on semiconductor sales to China creating immediate headwind."
+      ],
+      "main_risk": "RSI at 36.81 is approaching oversold territory near the 114.79 support level, which could trigger a short-term technical bounce.",
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (116.62) is significantly below the SMA_20 (134.60); with SMA_10 UNKNOWN, the 20-day average acts as the primary overhead resistance c AGAINST: * **Margin Compression:** Gross margins declined from 74.6% to 73.0% QoQ, suggesting potential shifts in product mix or rising production co DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=HIGH."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "cache_context": {
+      "cache_trace_file": "",
+      "cache_lookup_key": "NVDA|2025-02-03|short|US",
+      "cached_stage_a_trace": null,
+      "cached_stage_a_reports_used": false,
+      "cached_stage_a_prior": null,
+      "cached_stage_a_prior_used": false
+    },
+    "provenance": {
+      "cache": {
+        "cache_trace_file": "",
+        "cache_lookup_key": "NVDA|2025-02-03|short|US",
+        "cached_stage_a_reports_used": false,
+        "cached_stage_a_prior_requested": false,
+        "cached_stage_a_prior_used": false
+      },
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2025-02-03",
+        "lookback_days": 14,
+        "window_start": "2025-01-20",
+        "window_end": "2025-02-03",
+        "article_count": 25,
+        "min_published": "2025-01-20T11:42:00",
+        "max_published": "2025-02-03T07:35:48",
+        "articles": [
+          {
+            "title": "Nvidia calls China’s DeepSeek R1 model ‘an excellent AI advancement’",
+            "source": "CNBC",
+            "published": "20250127T152800",
+            "url": "https://www.cnbc.com/2025/01/27/nvidia-calls-chinas-deepseek-r1-model-an-excellent-ai-advancement.html",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.292563,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "DeepSeek Panic Live Updates: Nvidia Stock Drops 4% As Trump Reportedly Targets China Exports",
+            "source": "Forbes",
+            "published": "20250129T160700",
+            "url": "https://www.forbes.com/sites/dereksaul/2025/01/29/deepseek-panic-live-updates-nvidia-stock-drops-4-as-trump-reportedly-mulls-china-chip-sale-restrictions/",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.293807,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "One reason Nvidia looks like a bargain stock following the DeepSeek news",
+            "source": "MarketWatch",
+            "published": "20250128T093200",
+            "url": "https://www.marketwatch.com/story/one-reason-nvidia-looks-like-a-bargain-stock-following-the-deepseek-news-e27db2fc?gaa_at=eafs&gaa_n=AWEtsqf3gW2kCWpq1CrMSVvbIvvF6JtBkpz-ItstLu2xIBBBKztIj64xtn6V&gaa_ts=690748dd&gaa_sig=j7TJIAa0TWDfMWN8SiaKxDsSjqmbxiVTmFt5I0rKcCrTTu_aNb9AQjTc8ZVG52JclIs1h0I4SyOIt9n8dy7VjA%3D%3D",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.204538,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "NVDU: Providing Leverage To Nvidia, A Hot Tech Stock That Has Corrected (NASDAQ:NVDU)",
+            "source": "Seeking Alpha",
+            "published": "20250130T111214",
+            "url": "https://seekingalpha.com/article/4753576-nvdu-providing-leverage-to-nvidia-a-hot-tech-stock-that-has-corrected",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.422616,
+            "relevance_score": 0.984625
+          },
+          {
+            "title": "Investors piled into leveraged ETFs tied to Nvidia. Then the stock crashed",
+            "source": "NBC Los Angeles",
+            "published": "20250128T140934",
+            "url": "https://www.nbclosangeles.com/news/business/money-report/nvidias-plunge-a-difficult-lesson-for-investors-betting-on-single-stock-etfs/3616574/",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.614491,
+            "relevance_score": 0.983351
+          },
+          {
+            "title": "Investors piled into leveraged ETFs tied to Nvidia. Then the stock crashed",
+            "source": "NBC Connecticut",
+            "published": "20250128T223800",
+            "url": "https://www.nbcconnecticut.com/news/business/money-report/nvidias-plunge-a-difficult-lesson-for-investors-betting-on-single-stock-etfs/3484484/",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.504653,
+            "relevance_score": 0.95673
+          },
+          {
+            "title": "NYSEARCA:NVDY: High-Yield Income ETF or Missed NVIDIA Gains?",
+            "source": "TradingNEWS",
+            "published": "20250123T171755",
+            "url": "https://www.tradingnews.com/news/etf-nyse-arca-nvdy-84-percent-yield-nvda-vs-nvdy",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.118448,
+            "relevance_score": 0.943426
+          },
+          {
+            "title": "NVDY: Its 6-Month Outperformance Could Be Overturned Soon, A Complete Analysis",
+            "source": "Seeking Alpha",
+            "published": "20250123T102700",
+            "url": "https://seekingalpha.com/article/4751458-nvdy-its-6-month-outperformance-could-be-overturned-soon-a-complete-analysis",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.23101,
+            "relevance_score": 0.906601
+          },
+          {
+            "title": "Nvidia, Robinhood, Snowflake And A Basic Materials Stock On CNBC's 'Final Trades'",
+            "source": "Sahm",
+            "published": "20250121T002833",
+            "url": "https://www.sahmcapital.com/news/content/nvidia-robinhood-snowflake-and-a-basic-materials-stock-on-cnbcs-final-trades-2025-01-21",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.286402,
+            "relevance_score": 0.877041
+          },
+          {
+            "title": "How a more focused growth index can cut your risk in the stock market",
+            "source": "MarketWatch",
+            "published": "20250129T101800",
+            "url": "https://www.marketwatch.com/story/how-a-more-focused-growth-index-can-cut-your-risk-in-the-stock-market-7e1fa51e?gaa_at=eafs&gaa_n=AWEtsqctWT1KcH1Z5DLJii79uh0kmT28gDNA48BITtl5SargSpXrDt4BScHO&gaa_ts=69398ffe&gaa_sig=EYMZmX2smZBG23owcPGBKJ6MwJR8bCtTVL9V5HLbFAdTPantHs10ASmGuskO2Cw7qJ9qDHKAeeKGcP7PdlJWwA%3D%3D",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.400619,
+            "relevance_score": 0.836593
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 40.51
+  },
+  "trace": {
+    "run_config": {
+      "stage": "A",
+      "simulated_date": "2025-02-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 0,
+      "debate_mode": "off",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off",
+      "use_cached_stage_a_reports": false,
+      "use_cached_stage_a_prior": false,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": ""
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "**Revenue Momentum:** Quarterly revenue reached $39.33B (Jan 2025), a 12.1% QoQ increase, maintaining a strong absolute growth trajectory.",
+        "primary_risk": "* **Margin Compression:** Gross margins declined from 74.6% to 73.0% QoQ, suggesting potential shifts in product mix or rising production co"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=HIGH",
+        "key_catalyst": "Price (116.62) is significantly below the SMA_20 (134.60); with SMA_10 UNKNOWN, the 20-day average acts as the primary overhead resistance c",
+        "primary_risk": "RSI at 36.81 is approaching oversold territory near the lower Bollinger Band (114.79), which may trigger a short-term technical pause or mea"
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "Potential U.S. export controls: Reports indicate the administration is considering stricter semiconductor sales restrictions to China, creat",
+        "primary_risk": "Formal announcement or further leaks regarding stricter U.S. semiconductor export restrictions targeting China."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **Revenue Momentum:** Quarterly revenue reached $39.33B (Jan 2025), a 12.1% QoQ increase, maintaining a strong absolute growth trajectory.\n* **Profit Efficiency:** Net income grew 14.4% QoQ to $22.09B, outpacing revenue growth and resulting in a high 56.2% net profit margin.\n* **Strong Liquidity:** A current ratio of 4.44 indicates zero near-term liquidity stress, supporting immediate operational scaling and R&D.\n\n2) RISKS:\n* **Margin Compression:** Gross margins declined from 74.6% to 73.0% QoQ, suggesting potential shifts in product mix or rising production costs.\n* **Growth Deceleration:** The QoQ revenue growth rate slowed from 16.8% in the prior quarter to 12.1%, which may trigger short-term repricing.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Whether the 1.6% gross margin dip is a temporary fluctuation or the start of a trend.",
+      "technical_analyst": "1) EVIDENCE:\n• Price (116.62) is significantly below the SMA_20 (134.60); with SMA_10 UNKNOWN, the 20-day average acts as the primary overhead resistance confirming a short-term downtrend.\n• MACD (-4.34) is positioned below the signal line (-2.03) with a widening negative histogram, signaling accelerating bearish momentum and active seller control.\n• Volume ratio of 1.21 during a -9.56% 5-day decline confirms that the current move is driven by high-conviction selling rather than a routine pullback.\n\n2) SUPPORT: 114.79\n3) RESISTANCE: 134.60\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: RSI at 36.81 is approaching oversold territory near the lower Bollinger Band (114.79), which may trigger a short-term technical pause or mean reversion.",
+      "news_harvester": "1) CATALYSTS:\n* Potential U.S. export controls: Reports indicate the administration is considering stricter semiconductor sales restrictions to China, creating immediate regulatory uncertainty.\n* DeepSeek R1 market digestion: Ongoing investor reassessment of AI training costs and GPU demand following the recent 17% price correction.\n\n2) TONE: NEUTRAL\n\n3) FINAL_VIEW: NEUTRAL\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Formal announcement or further leaks regarding stricter U.S. semiconductor export restrictions targeting China."
+    },
+    "investment_debate_state": {
+      "judge_decision": "{\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating bearish technical momentum with price significantly below SMA_20 and widening negative MACD histogram.\",\n    \"High-conviction selling confirmed by a 1.21 volume ratio during a 9.56% five-day price decline.\",\n    \"Regulatory uncertainty and potential U.S. export controls on semiconductor sales to China creating immediate headwind.\"\n  ],\n  \"main_risk\": \"RSI at 36.81 is approaching oversold territory near the 114.79 support level, which could trigger a short-term technical bounce.\",\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating bearish technical momentum with price significantly below SMA_20 and widening negative MACD histogram.\",\n    \"High-conviction selling confirmed by a 1.21 volume ratio during a 9.56% five-day price decline.\",\n    \"Regulatory uncertainty and potential U.S. export controls on semiconductor sales to China creating immediate headwind.\"\n  ],\n  \"main_risk\": \"RSI at 36.81 is approaching oversold territory near the 114.79 support level, which could trigger a short-term technical bounce.\",\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "recommendation": "SELL",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Accelerating bearish technical momentum with price significantly below SMA_20 and widening negative MACD histogram.",
+        "High-conviction selling confirmed by a 1.21 volume ratio during a 9.56% five-day price decline.",
+        "Regulatory uncertainty and potential U.S. export controls on semiconductor sales to China creating immediate headwind."
+      ],
+      "main_risk": "RSI at 36.81 is approaching oversold territory near the 114.79 support level, which could trigger a short-term technical bounce.",
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: Price (116.62) is significantly below the SMA_20 (134.60); with SMA_10 UNKNOWN, the 20-day average acts as the primary overhead resistance c AGAINST: * **Margin Compression:** Gross margins declined from 74.6% to 73.0% QoQ, suggesting potential shifts in product mix or rising production co DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=HIGH."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 40.51,
+    "memory_id": null
+  }
+}
