@@ -1,0 +1,3 @@
+ticker,simulated_date,action_Stage B+,action_Stage C,true_label,k_return,correct_Stage B+,correct_Stage C,flip_helped,flip_hurt
+XOM,2022-01-17,HOLD,BUY,BUY,0.10604794734361367,0,1,True,False
+NVDA,2021-11-15,HOLD,BUY,BUY,0.08829279561991149,0,1,True,False

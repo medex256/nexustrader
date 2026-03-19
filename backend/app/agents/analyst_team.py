@@ -25,7 +25,104 @@ def _has_cached_analyst_output(state: dict, report_key: str, signal_key: str) ->
     return bool(reports.get(report_key)) and signal_key in signals
 
 
-def _extract_analyst_signal(analysis_text: str) -> dict:
+def _normalize_markdown_for_parse(text: str) -> str:
+    normalized = (text or "").replace("\r\n", "\n").replace("\r", "\n")
+    normalized = normalized.replace("\u00a0", " ")
+    normalized = re.sub(r"[`*_]+", "", normalized)
+    return normalized
+
+
+def _clean_extracted_line(text: str) -> str:
+    cleaned = (text or "").strip()
+    cleaned = re.sub(r"^\s*(?:[-*•]|\d+[.)])\s*", "", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    return cleaned.strip(" :;.-")
+
+
+def _linewise_label_value(lines: list[str], labels: list[str]) -> str | None:
+    canonical_labels = {re.sub(r"[\s_]+", "", label).upper() for label in labels}
+
+    for idx, raw_line in enumerate(lines):
+        line = raw_line.strip()
+        if not line:
+            continue
+
+        no_prefix = re.sub(r"^\s*(?:[-*•]|\d+[.)])\s*", "", line)
+        match = re.match(r"^(?P<label>[A-Za-z_ ]{3,40})\s*:\s*(?P<value>.*)$", no_prefix)
+        if not match:
+            continue
+
+        label_key = re.sub(r"[\s_]+", "", match.group("label")).upper()
+        if label_key not in canonical_labels:
+            continue
+
+        value = _clean_extracted_line(match.group("value"))
+        if value:
+            return value
+
+        for next_line in lines[idx + 1:]:
+            candidate = _clean_extracted_line(next_line)
+            if candidate:
+                return candidate
+    return None
+
+
+def _first_section_item(lines: list[str], section_labels: list[str]) -> str | None:
+    canonical_labels = {re.sub(r"[\s_]+", "", label).upper() for label in section_labels}
+
+    for idx, raw_line in enumerate(lines):
+        line = raw_line.strip()
+        if not line:
+            continue
+
+        no_prefix = re.sub(r"^\s*(?:[-*•]|\d+[.)])\s*", "", line)
+        match = re.match(r"^(?P<label>[A-Za-z_ ]{3,40})\s*:\s*(?P<value>.*)$", no_prefix)
+        if not match:
+            continue
+
+        label_key = re.sub(r"[\s_]+", "", match.group("label")).upper()
+        if label_key not in canonical_labels:
+            continue
+
+        inline_value = _clean_extracted_line(match.group("value"))
+        if inline_value and inline_value.upper() not in {"NONE IDENTIFIED", "N/A"}:
+            return inline_value
+
+        for next_line in lines[idx + 1:]:
+            if not next_line.strip():
+                continue
+
+            next_no_prefix = re.sub(r"^\s*(?:[-*•]|\d+[.)])\s*", "", next_line.strip())
+            if re.match(r"^[A-Za-z_ ]{3,40}\s*:", next_no_prefix):
+                break
+
+            candidate = _clean_extracted_line(next_line)
+            if candidate:
+                return candidate
+    return None
+
+
+def _record_signal_parse_provenance(state: dict, analyst_key: str, parse_meta: dict) -> None:
+    if "provenance" not in state:
+        state["provenance"] = {}
+    signal_parse = state["provenance"].setdefault("signal_parse", {})
+
+    signal_parse["total"] = int(signal_parse.get("total", 0)) + 1
+    failures_before = int(signal_parse.get("failures", 0))
+    failed = not (parse_meta.get("direction_found", False) and parse_meta.get("confidence_found", False))
+    if failed:
+        signal_parse["failures"] = failures_before + 1
+    else:
+        signal_parse["failures"] = failures_before
+
+    by_analyst = signal_parse.setdefault("by_analyst", {})
+    analyst_stats = by_analyst.setdefault(analyst_key, {"total": 0, "failures": 0})
+    analyst_stats["total"] = int(analyst_stats.get("total", 0)) + 1
+    if failed:
+        analyst_stats["failures"] = int(analyst_stats.get("failures", 0)) + 1
+
+
+def _extract_analyst_signal(analysis_text: str) -> tuple[dict, dict]:
     """
     Extract a structured directional signal by parsing the labelled output fields
     that analyst prompts already produce (FINAL_VIEW, CONFIDENCE, etc.).
@@ -34,26 +131,35 @@ def _extract_analyst_signal(analysis_text: str) -> dict:
     because "not bullish" had the same weight as "strongly bullish".
     Zero extra LLM calls — pure regex on the structured analyst output.
     """
+    normalized_text = _normalize_markdown_for_parse(analysis_text)
+    lines = [line.rstrip() for line in normalized_text.split("\n")]
+
     # --- Direction: FINAL_VIEW field (all three analyst prompts output this) ---
     direction = "NEUTRAL"
     _direction_parsed = False
-    view_match = re.search(r"FINAL_VIEW\s*:\s*(BULLISH|BEARISH|NEUTRAL)", analysis_text, flags=re.IGNORECASE)
-    if view_match:
-        direction = view_match.group(1).upper()
+    direction_value = _linewise_label_value(lines, ["FINAL_VIEW"])
+    if direction_value and direction_value.upper() in {"BULLISH", "BEARISH", "NEUTRAL"}:
+        direction = direction_value.upper()
         _direction_parsed = True
     else:
-        # Fallback: TONE field (news analyst also outputs this)
-        tone_match = re.search(r"\bTONE\s*:\s*(BULLISH|BEARISH|NEUTRAL)", analysis_text, flags=re.IGNORECASE)
-        if tone_match:
-            direction = tone_match.group(1).upper()
+        tone_value = _linewise_label_value(lines, ["TONE"])
+        if tone_value and tone_value.upper() in {"BULLISH", "BEARISH", "NEUTRAL"}:
+            direction = tone_value.upper()
+            _direction_parsed = True
+
+    # Hard fallback: parse FINAL_VIEW anywhere in normalized text if line-wise parsing missed.
+    if not _direction_parsed:
+        fallback_match = re.search(r"\bFINAL\s*[_ ]?VIEW\b\s*:\s*(BULLISH|BEARISH|NEUTRAL)", normalized_text, flags=re.IGNORECASE)
+        if fallback_match:
+            direction = fallback_match.group(1).upper()
             _direction_parsed = True
 
     # --- Confidence: CONFIDENCE field ---
     confidence_level = "MEDIUM"
     _confidence_parsed = False
-    conf_match = re.search(r"\bCONFIDENCE\s*:\s*(HIGH|MEDIUM|LOW)", analysis_text, flags=re.IGNORECASE)
-    if conf_match:
-        confidence_level = conf_match.group(1).upper()
+    confidence_value = _linewise_label_value(lines, ["CONFIDENCE"])
+    if confidence_value and confidence_value.upper() in {"HIGH", "MEDIUM", "LOW"}:
+        confidence_level = confidence_value.upper()
         _confidence_parsed = True
 
     # Log parse misses so we can monitor format-compliance rate
@@ -63,7 +169,7 @@ def _extract_analyst_signal(analysis_text: str) -> dict:
             "[signal_extract] Parse miss — direction_found=%s confidence_found=%s | "
             "text_snippet=%.120s",
             _direction_parsed, _confidence_parsed,
-            analysis_text.replace("\n", " "),
+            normalized_text.replace("\n", " "),
         )
 
     conf_map = {"HIGH": 0.80, "MEDIUM": 0.65, "LOW": 0.50}
@@ -81,29 +187,19 @@ def _extract_analyst_signal(analysis_text: str) -> dict:
 
     # --- Key catalyst: first bullet from EVIDENCE or CATALYSTS section ---
     key_catalyst = "No clear catalyst identified"
-    # Match "EVIDENCE:\n  - bullet text" or "CATALYSTS:\n  1) bullet text" patterns
-    catalyst_match = re.search(
-        r"(?:EVIDENCE|CATALYSTS)\s*:?\s*\n\s*(?:\d+[.)\s]|[-*•]\s*)(.+)",
-        analysis_text, flags=re.IGNORECASE
-    )
-    if catalyst_match:
-        key_catalyst = catalyst_match.group(1).strip()[:140]
-    else:
-        # Inline fallback: "EVIDENCE: some text on same line"
-        cat_inline = re.search(r"(?:EVIDENCE|CATALYSTS)\s*:\s*(.+)", analysis_text, flags=re.IGNORECASE)
-        if cat_inline:
-            key_catalyst = cat_inline.group(1).strip()[:140]
+    catalyst_value = _first_section_item(lines, ["EVIDENCE", "CATALYSTS"])
+    if catalyst_value:
+        key_catalyst = catalyst_value[:140]
 
     # --- Primary risk: KEY_UNCERTAINTY or KEY_EVENT_RISK ---
     primary_risk = "No explicit primary risk provided"
-    risk_match = re.search(
-        r"(?:KEY_UNCERTAINTY|KEY_EVENT_RISK|MAIN_RISK|RISKS?)\s*:\s*(.+)",
-        analysis_text, flags=re.IGNORECASE
-    )
-    if risk_match:
-        primary_risk = risk_match.group(1).strip()[:140]
+    risk_value = _linewise_label_value(lines, ["KEY_UNCERTAINTY", "KEY_EVENT_RISK", "MAIN_RISK"])
+    if not risk_value:
+        risk_value = _first_section_item(lines, ["RISKS", "RISK"])
+    if risk_value:
+        primary_risk = _clean_extracted_line(risk_value)[:140]
 
-    return {
+    signal = {
         "direction": direction,
         "magnitude": magnitude,
         "confidence": confidence,
@@ -111,6 +207,11 @@ def _extract_analyst_signal(analysis_text: str) -> dict:
         "key_catalyst": key_catalyst,
         "primary_risk": primary_risk,
     }
+    parse_meta = {
+        "direction_found": _direction_parsed,
+        "confidence_found": _confidence_parsed,
+    }
+    return signal, parse_meta
 
 
 def fundamental_analyst_agent(state: dict):
@@ -171,7 +272,9 @@ Keep under 150 words."""
     # 4. Extract structured signal (zero extra LLM calls — keyword scoring)
     if 'signals' not in state:
         state['signals'] = {}
-    state['signals']['fundamental'] = _extract_analyst_signal(analysis_report)
+    fundamental_signal, parse_meta = _extract_analyst_signal(analysis_report)
+    state['signals']['fundamental'] = fundamental_signal
+    _record_signal_parse_provenance(state, "fundamental", parse_meta)
 
     # 5. Update the state
     if 'reports' not in state:
@@ -242,7 +345,9 @@ Keep under 160 words."""
     analysis_report = call_llm(prompt, temperature=0.3)
 
     # 4. Extract structured signal (zero extra LLM calls — keyword scoring)
-    state['signals']['technical'] = _extract_analyst_signal(analysis_report)
+    technical_signal, parse_meta = _extract_analyst_signal(analysis_report)
+    state['signals']['technical'] = technical_signal
+    _record_signal_parse_provenance(state, "technical", parse_meta)
 
     # 5. Update the state
     state['reports']['technical_analyst'] = analysis_report
@@ -422,7 +527,9 @@ Keep it brutally concise. Do not use filler words."""
     analysis_report = call_llm(prompt, temperature=0.3)
 
     # 6. Extract structured signal (zero extra LLM calls — keyword scoring)
-    state['signals']['news'] = _extract_analyst_signal(analysis_report)
+    news_signal, parse_meta = _extract_analyst_signal(analysis_report)
+    state['signals']['news'] = news_signal
+    _record_signal_parse_provenance(state, "news", parse_meta)
 
     # 7. Update the state
     state['reports']['news_harvester'] = analysis_report

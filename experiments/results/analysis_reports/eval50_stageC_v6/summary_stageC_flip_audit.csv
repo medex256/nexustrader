@@ -1,0 +1,5 @@
+run,risk_judgment,flips,helped,hurt,neutral,net_help_minus_hurt
+Stage C-R1,BLOCK,4,1,0,3,1
+Stage C-R1,REDUCE,5,1,1,3,0
+Stage C-R2,BLOCK,2,0,0,2,0
+Stage C-R2,REDUCE,7,2,1,4,1

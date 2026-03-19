@@ -15,13 +15,14 @@ DEFAULT_TICKERS_FILE = os.path.join(EXPERIMENTS_DIR, "inputs", "tickers.txt")
 DEFAULT_DATES_FILE = os.path.join(EXPERIMENTS_DIR, "inputs", "dates_expanded.txt")
 DEFAULT_OUT_DIR = os.path.join(EXPERIMENTS_DIR, "results", "raw")
 DEFAULT_TRACE_OUT_DIR = os.path.join(EXPERIMENTS_DIR, "results", "traces")
+SCHEMA_VERSION = "2.0"
 
 STAGE_PRESETS = {
-    "A": {"debate_mode": "off", "debate_rounds": 0, "risk_mode": "off", "memory_on": False},
-    "B": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "off", "memory_on": False},
-    "B+": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "single", "memory_on": False},
-    "C": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "debate", "memory_on": False},
-    "D": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "debate", "memory_on": True},
+    "A": {"debate_mode": "off", "debate_rounds": 0, "risk_debate_rounds": 0, "risk_mode": "off", "memory_on": False},
+    "B": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 0, "risk_mode": "off", "memory_on": False},
+    "B+": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 0, "risk_mode": "single", "memory_on": False},
+    "C": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 1, "risk_mode": "debate", "memory_on": False},
+    "D": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 1, "risk_mode": "debate", "memory_on": True},
 }
 
 
@@ -38,9 +39,15 @@ def _resolve_flags(args: argparse.Namespace) -> Dict[str, Any]:
     stage_key = _normalize_stage(getattr(args, "stage", None))
     if stage_key:
         preset = STAGE_PRESETS[stage_key]
+        risk_rounds = int(getattr(args, "risk_debate_rounds", preset.get("risk_debate_rounds", 0)) or 0)
+        if preset["risk_mode"] != "debate":
+            risk_rounds = 0
+        elif risk_rounds < 1:
+            risk_rounds = 1
         return {
             "stage": stage_key,
             "debate_rounds": preset["debate_rounds"],
+            "risk_debate_rounds": risk_rounds,
             "debate_mode": preset["debate_mode"],
             "decision_style": args.decision_style,
             "memory_on": preset["memory_on"],
@@ -58,10 +65,16 @@ def _resolve_flags(args: argparse.Namespace) -> Dict[str, Any]:
     if debate_mode not in {"on", "off"}:
         debate_mode = "on"
     debate_rounds = args.debate_rounds if debate_mode == "on" else 0
+    risk_debate_rounds = max(0, int(getattr(args, "risk_debate_rounds", 0) or 0))
+    if risk_mode != "debate":
+        risk_debate_rounds = 0
+    elif risk_debate_rounds < 1:
+        risk_debate_rounds = 1
 
     return {
         "stage": None,
         "debate_rounds": debate_rounds,
+        "risk_debate_rounds": risk_debate_rounds,
         "debate_mode": debate_mode,
         "decision_style": args.decision_style,
         "memory_on": args.memory_on,
@@ -170,6 +183,29 @@ def compact_result(full: Dict[str, Any], truncate_chars: int = 400) -> Dict[str,
     return compact
 
 
+def _extract_risk_judgment(compact_or_full_result: Dict[str, Any]) -> str:
+    strategy = _safe_get(compact_or_full_result, "trading_strategy", default={}) or {}
+    rationale = str(strategy.get("rationale") or "")
+    for tag in ("[BLOCK]", "[REDUCE]", "[CLEAR]"):
+        if tag in rationale:
+            return tag.strip("[]")
+    return "UNKNOWN"
+
+
+def build_result_summary(compact_or_full_result: Dict[str, Any]) -> Dict[str, Any]:
+    strategy = _safe_get(compact_or_full_result, "trading_strategy", default={}) or {}
+    risk_gate = _safe_get(compact_or_full_result, "risk", "risk_gate", default="")
+    if not risk_gate:
+        risk_gate = _safe_get(compact_or_full_result, "risk_reports", "risk_gate", default="")
+    return {
+        "action": (strategy.get("action") or "HOLD"),
+        "confidence_score": strategy.get("confidence_score"),
+        "position_size_pct": strategy.get("position_size_pct"),
+        "risk_judgment": _extract_risk_judgment(compact_or_full_result),
+        "risk_gate": risk_gate,
+    }
+
+
 def trace_result(full: Dict[str, Any], request_payload: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "ticker": full.get("ticker") or request_payload.get("ticker"),
@@ -203,6 +239,11 @@ def build_payload(ticker: str, market: str, simulated_date: str, horizon: str, f
     if debate_mode not in {"on", "off"}:
         debate_mode = "on"
     debate_rounds = 0 if debate_mode == "off" else flags.get("debate_rounds", 1)
+    risk_debate_rounds = int(flags.get("risk_debate_rounds", 0) or 0)
+    if risk_mode != "debate":
+        risk_debate_rounds = 0
+    elif risk_debate_rounds < 1:
+        risk_debate_rounds = 1
 
     return {
         "ticker": ticker,
@@ -211,6 +252,7 @@ def build_payload(ticker: str, market: str, simulated_date: str, horizon: str, f
         "horizon": horizon,
         "stage": flags.get("stage"),
         "debate_rounds": debate_rounds,
+        "risk_debate_rounds": risk_debate_rounds,
         "debate_mode": debate_mode,
         "decision_style": flags.get("decision_style", "classification"),
         "memory_on": flags.get("memory_on", True),
@@ -268,6 +310,15 @@ def _run_single(
                 stored_result = compact_result(result, truncate_chars=truncate_chars)
 
             record = {
+                "schema_version": SCHEMA_VERSION,
+                "meta": {
+                    "schema_version": SCHEMA_VERSION,
+                    "script": "run_batch.py",
+                    "output_mode": output_mode,
+                    "status": "ok",
+                },
+                "request": payload,
+                "result_summary": build_result_summary(stored_result if isinstance(stored_result, dict) else {}),
                 "ticker": ticker,
                 "simulated_date": simulated_date,
                 "horizon": horizon,
@@ -278,6 +329,13 @@ def _run_single(
             }
             if output_mode == "dual" and isinstance(result, dict):
                 record["_trace_record"] = {
+                    "schema_version": SCHEMA_VERSION,
+                    "meta": {
+                        "schema_version": SCHEMA_VERSION,
+                        "script": "run_batch.py",
+                        "output_mode": output_mode,
+                        "status": "ok",
+                    },
                     "ticker": ticker,
                     "simulated_date": simulated_date,
                     "horizon": horizon,
@@ -293,6 +351,21 @@ def _run_single(
             continue
 
     return {
+        "schema_version": SCHEMA_VERSION,
+        "meta": {
+            "schema_version": SCHEMA_VERSION,
+            "script": "run_batch.py",
+            "output_mode": output_mode,
+            "status": "error",
+        },
+        "request": payload,
+        "result_summary": {
+            "action": "ERROR",
+            "confidence_score": None,
+            "position_size_pct": None,
+            "risk_judgment": "UNKNOWN",
+            "risk_gate": "",
+        },
         "ticker": ticker,
         "simulated_date": simulated_date,
         "horizon": horizon,
@@ -372,7 +445,23 @@ def run_batch(
                     try:
                         record = future.result()
                     except Exception as exc:
+                        payload = build_payload(ticker, market, simulated_date, horizon, flags)
                         record = {
+                            "schema_version": SCHEMA_VERSION,
+                            "meta": {
+                                "schema_version": SCHEMA_VERSION,
+                                "script": "run_batch.py",
+                                "output_mode": output_mode,
+                                "status": "error",
+                            },
+                            "request": payload,
+                            "result_summary": {
+                                "action": "ERROR",
+                                "confidence_score": None,
+                                "position_size_pct": None,
+                                "risk_judgment": "UNKNOWN",
+                                "risk_gate": "",
+                            },
                             "ticker": ticker,
                             "simulated_date": simulated_date,
                             "horizon": horizon,
@@ -426,6 +515,12 @@ def main() -> int:
         help="Stage preset override: A(core), B(+debate), B+(+single risk), C(+risk debate), D(+memory).",
     )
     parser.add_argument("--debate-rounds", type=int, default=1, help="Number of debate rounds (0, 1, or 2)")
+    parser.add_argument(
+        "--risk-debate-rounds",
+        type=int,
+        default=1,
+        help="Number of risk debate rounds when risk_mode=debate (1 or 2).",
+    )
     parser.add_argument(
         "--debate-mode",
         choices=["on", "off"],

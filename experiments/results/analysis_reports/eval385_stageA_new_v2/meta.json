@@ -1,0 +1,14 @@
+{
+  "created_at": "20260314_144105",
+  "bundle_tag": "eval385_stageA_new_v2",
+  "bundle_dir": "c:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\analysis_reports\\eval385_stageA_new_v2",
+  "agent_glob": "batch_eval385_stageA_new_v2_20260313_154152.jsonl",
+  "run_tags": [
+    "eval385_stageA_new_v2"
+  ],
+  "agent_rows": 385,
+  "unique_tickers": 5,
+  "unique_dates": 77,
+  "hold_epsilon": 0.025,
+  "enable_baselines": true
+}

@@ -7,7 +7,7 @@ from datetime import datetime
 from typing import Any, Dict
 from urllib.request import Request, urlopen
 
-from run_batch import _resolve_flags, _validate_horizon, build_payload
+from run_batch import SCHEMA_VERSION, _resolve_flags, _validate_horizon, build_payload, build_result_summary
 
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -73,6 +73,12 @@ def main() -> int:
         help="Stage preset",
     )
     parser.add_argument("--debate-rounds", type=int, default=1)
+    parser.add_argument(
+        "--risk-debate-rounds",
+        type=int,
+        default=1,
+        help="Number of risk debate rounds when risk_mode=debate (1 or 2).",
+    )
     parser.add_argument("--debate-mode", choices=["on", "off"], default="on")
     parser.add_argument("--decision-style", choices=["classification", "full"], default="classification")
     parser.add_argument("--memory-on", action="store_true", default=True)
@@ -138,13 +144,17 @@ def main() -> int:
     trace = build_trace_sections(final_state)
 
     artifact = {
+        "schema_version": SCHEMA_VERSION,
         "meta": {
+            "schema_version": SCHEMA_VERSION,
             "created_at": ended_at,
             "started_at": started_at,
             "api": args.api,
             "script": "run_single.py",
             "tag": args.tag,
         },
+        "request": payload,
+        "result_summary": build_result_summary(final_state),
         "request_payload": payload,
         "response_full": final_state,
         "trace": trace,

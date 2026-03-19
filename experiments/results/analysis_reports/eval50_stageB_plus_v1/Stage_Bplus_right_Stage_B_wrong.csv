@@ -1,0 +1,4 @@
+ticker,simulated_date,action_Stage B+,action_Stage B,true_label,k_return,correct_Stage B+,correct_Stage B,flip_helped,flip_hurt
+XOM,2022-01-17,BUY,HOLD,BUY,0.10604825660686644,1,0,False,True
+XOM,2025-02-24,HOLD,SELL,HOLD,0.004763219190352738,1,0,False,True
+JNJ,2023-10-30,HOLD,SELL,HOLD,0.004080909259144335,1,0,False,True

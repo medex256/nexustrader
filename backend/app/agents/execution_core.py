@@ -274,11 +274,11 @@ def trading_strategy_synthesizer_agent(state: dict):
             signal_lines.append(f"  {label}: No signal available")
     signal_block = "\n".join(signal_lines)
 
-    # Policy core for Stages A / B / B+:
+    # Policy core (all stages):
     # Trader echoes the Research Manager — no independent LLM call.
-    # Trader independence (full LLM call) only activates at Stage C, where the Risk Debate
-    # can consume the Manager-vs-Trader tension as a concrete signal during risk adjudication.
-    if stage in {"A", "B", "B+"} and manager_action in {"BUY", "SELL", "HOLD"}:
+    # This prevents the Trader from adding random stochastic noise to the decision,
+    # ensuring that Stage C/D ablations strictly measure the Risk Committee's blocking power.
+    if manager_action in {"BUY", "SELL", "HOLD"}:
         trader_action = manager_action
         confidence_band = _band_from_score(manager_confidence)
         strategy = {
@@ -326,7 +326,7 @@ Rules:
 1) Use only context above; no external facts.
 2) Prefer directional action (BUY/SELL). Use HOLD only when evidence is genuinely mixed.
 3) Output confidence_score in [0, 1] for the chosen action.
-4) For classification style, de-emphasize trade sizing details.
+4) For classification style, do not focus on sizing. Set position_size_pct to 10 for BUY/SELL, or 0 for HOLD.
 
 Return ONLY valid JSON:
 {{
@@ -361,7 +361,7 @@ Return ONLY valid JSON:
                 "entry_price": None,
                 "take_profit": None,
                 "stop_loss": None,
-                "position_size_pct": 0,
+                "position_size_pct": 10 if extracted_action != "HOLD" else 0,
                 "rationale": f"Extracted from prose after structured parse failure: {exc}. Original response: {strategy_response[:200]}...",
             }
         except Exception as extract_exc:
@@ -387,10 +387,12 @@ Return ONLY valid JSON:
         ).strip()
 
     abstention_overridden = False
+    risk_mode = (run_config.get("risk_mode") or "").strip().lower()
+    hold_autoguard_enabled = not (stage in {"C", "D"} or risk_mode == "debate")
     # Anti-abstention guard: HOLD is not allowed when the Trader's own confidence is MEDIUM or HIGH.
     # Fallback priority: (1) Research Manager's direction if explicitly BUY/SELL,
     #                    (2) majority vote across analyst signals.
-    if trader_action == "HOLD" and confidence_band in {"HIGH", "MEDIUM"}:
+    if hold_autoguard_enabled and trader_action == "HOLD" and confidence_band in {"HIGH", "MEDIUM"}:
         # Prefer Research Manager direction if explicit, else use majority of analyst signals.
         fallback_direction = None
         if manager_action in {"BUY", "SELL"}:
@@ -422,7 +424,9 @@ Return ONLY valid JSON:
         strategy["entry_price"] = None
         strategy["take_profit"] = None
         strategy["stop_loss"] = None
-        strategy["position_size_pct"] = 0
+        # Use a stable non-zero placeholder so risk debate evaluates thesis risk,
+        # not a synthetic 0% sizing artifact.
+        strategy["position_size_pct"] = 10
     
     # 5. Update the state
     state['trading_strategy'] = strategy
@@ -439,6 +443,7 @@ Return ONLY valid JSON:
         "strategy_json_parse_failed": parse_failed,
         "strategy_confidence_band": confidence_band,
         "strategy_abstention_overridden": abstention_overridden,
+        "strategy_hold_autoguard_enabled": hold_autoguard_enabled,
         "research_manager_action": manager_action,
         "trader_disagreed_with_manager": disagreed,
     })

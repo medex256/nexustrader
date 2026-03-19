@@ -1,0 +1,4 @@
+ticker,simulated_date,action_Stage B+,action_Stage C,true_label,k_return,correct_Stage B+,correct_Stage C,flip_helped,flip_hurt
+XOM,2022-09-26,HOLD,BUY,BUY,0.17694693529795222,0,1,True,False
+NVDA,2021-11-15,HOLD,BUY,BUY,0.0882929922195188,0,1,True,False
+AAPL,2025-08-11,BUY,HOLD,HOLD,-8.802067543755462e-05,0,1,True,False

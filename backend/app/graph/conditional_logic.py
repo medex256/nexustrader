@@ -5,8 +5,7 @@ from .state import AgentState
 
 class ConditionalLogic:
     """
-    Handles conditional routing logic for the agent graph.
-    Determines which agent should execute next based on current state.
+    Handles active conditional routing logic for debate and risk debate.
     """
 
     def __init__(self, max_debate_rounds: int = 3, max_risk_rounds: int = 2):
@@ -97,25 +96,10 @@ class ConditionalLogic:
             # Default to aggressive (start of debate)
             return "conservative_risk"  # Should go to conservative after aggressive's first turn
 
-    def should_execute_strategy(self, state: AgentState) -> str:
-        """
-        Determine which execution strategy to use based on the investment plan.
-        
-        Args:
-            state: Current agent state
-            
-        Returns:
-            Next execution node
-        """
-        investment_plan = state.get("investment_plan", "")
-        
-        # Simple routing based on recommendation keywords
-        if "buy" in investment_plan.lower() or "bullish" in investment_plan.lower():
-            return "strategy_synthesizer"
-
     def should_include_social(self, state: AgentState) -> str:
         """
-        Decide whether to run social/sentiment analysis.
+        Legacy helper retained for optional social/sentiment experiments.
+        Not used by the current frozen A/B/B+/C/D stage graph.
 
         Returns:
             Next node name: "sentiment_analyst" or "news_harvester"
@@ -124,23 +108,3 @@ class ConditionalLogic:
         if run_config.get("social_on", False):
             return "sentiment_analyst"
         return "news_harvester"
-
-    def should_skip_compliance(self, state: AgentState) -> str:
-        """
-        Determine if compliance check is needed based on strategy.
-        
-        Args:
-            state: Current agent state
-            
-        Returns:
-            Next node: "compliance_officer" or "END"
-        """
-        strategy = state.get("trading_strategy", {})
-        action = strategy.get("action", "HOLD")
-        
-        # Only check compliance for BUY/SELL actions
-        if action in ["BUY", "SELL"]:
-            return "compliance_officer"
-        else:
-            # HOLD doesn't need compliance
-            return "END"

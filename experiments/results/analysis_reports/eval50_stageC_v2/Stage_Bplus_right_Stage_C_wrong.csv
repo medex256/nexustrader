@@ -1,0 +1,2 @@
+ticker,simulated_date,action_Stage B+,action_Stage C,true_label,k_return,correct_Stage B+,correct_Stage C,flip_helped,flip_hurt
+JNJ,2021-11-15,HOLD,BUY,HOLD,-0.040170370986102606,1,0,False,True

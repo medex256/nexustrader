@@ -1,0 +1,3 @@
+run,has_block,reduce_dominant_ge70,clear_present,verdict
+Stage C-R1,False,True,True,Throttle-like gate: no BLOCK and REDUCE-dominant
+Stage C-R2,False,True,True,Throttle-like gate: no BLOCK and REDUCE-dominant

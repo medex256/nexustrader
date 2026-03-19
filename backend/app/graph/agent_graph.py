@@ -39,7 +39,7 @@ def create_agent_graph(
     
         Layer 2 — Research refinement:
             - Stage B / B+: Upside Catalyst Analyst → Downside Risk Analyst → Research Manager
-            - Stage C / D: Bull Researcher ↔ Bear Researcher → Research Manager
+            - Stage C / D: Upside Catalyst Analyst → Downside Risk Analyst → Research Manager
     
         Layer 3 — Trader:
             - Stage A / B / B+: policy core (no LLM call)
@@ -81,8 +81,7 @@ def create_agent_graph(
 
     # ==================== RESEARCH TEAM ====================
     # Keep both research nodes registered.
-    # Stage B / B+ route through them as two non-adversarial specialist extractors.
-    # Stage C / D use both nodes for the full bull/bear debate.
+    # Stage B / B+ / C / D route through them as two non-adversarial specialist extractors.
     graph.add_node("bull_researcher", bull_researcher_agent)
     graph.add_node("bear_researcher", bear_researcher_agent)
     graph.add_node("research_manager", research_manager_agent)
@@ -92,7 +91,7 @@ def create_agent_graph(
     graph.add_node("strategy_synthesizer", trading_strategy_synthesizer_agent)
 
     # ==================== RISK MANAGEMENT ====================
-    # Keep legacy debate nodes registered for compatibility, but route bypasses them.
+    # Risk nodes are active in Stage C/D debate mode and bypassed otherwise.
     graph.add_node("aggressive_risk", aggressive_risk_analyst)
     graph.add_node("conservative_risk", conservative_risk_analyst)
     graph.add_node("neutral_risk", neutral_risk_analyst)
@@ -111,7 +110,7 @@ def create_agent_graph(
     debate_mode_normalized = (debate_mode or "on").strip().lower()
     debate_enabled = debate_mode_normalized != "off" and max_debate_rounds > 0
     risk_mode_normalized = (risk_mode or "single").strip().lower()
-    single_extraction_mode = debate_enabled and risk_mode_normalized in {"off", "single"}
+    single_extraction_mode = debate_enabled
 
     if debate_enabled:
         graph.add_edge("news_harvester", "bull_researcher")

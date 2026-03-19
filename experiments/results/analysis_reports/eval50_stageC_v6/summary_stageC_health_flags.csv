@@ -1,0 +1,3 @@
+run,has_block,reduce_dominant_ge70,clear_present,verdict
+Stage C-R1,True,False,True,Healthy-ish gate: selective BLOCK and non-dominant REDUCE
+Stage C-R2,True,False,True,Healthy-ish gate: selective BLOCK and non-dominant REDUCE

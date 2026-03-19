@@ -69,11 +69,11 @@ HORIZON_MAP = {
 }
 
 STAGE_PRESETS = {
-    "A": {"debate_mode": "off", "debate_rounds": 0, "risk_mode": "off", "memory_on": False},
-    "B": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "off", "memory_on": False},
-    "B+": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "single", "memory_on": False},
-    "C": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "debate", "memory_on": False},
-    "D": {"debate_mode": "on", "debate_rounds": 1, "risk_mode": "debate", "memory_on": True},
+    "A": {"debate_mode": "off", "debate_rounds": 0, "risk_debate_rounds": 0, "risk_mode": "off", "memory_on": False},
+    "B": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 0, "risk_mode": "off", "memory_on": False},
+    "B+": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 0, "risk_mode": "single", "memory_on": False},
+    "C": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 1, "risk_mode": "debate", "memory_on": False},
+    "D": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 1, "risk_mode": "debate", "memory_on": True},
 }
 
 
@@ -91,6 +91,7 @@ def _resolve_modes(
     stage: Optional[str],
     debate_mode: str,
     debate_rounds: int,
+    risk_debate_rounds: int,
     memory_on: bool,
     risk_on_legacy: Optional[bool],
     risk_mode: Optional[str],
@@ -100,12 +101,21 @@ def _resolve_modes(
         preset = STAGE_PRESETS[stage_key]
         resolved_debate_mode = preset["debate_mode"]
         resolved_debate_rounds = preset["debate_rounds"]
+        preset_risk_rounds = preset.get("risk_debate_rounds", 0)
+        resolved_risk_debate_rounds = max(0, int(risk_debate_rounds if risk_debate_rounds is not None else preset_risk_rounds))
         resolved_risk_mode = preset["risk_mode"]
         resolved_memory_on = preset["memory_on"]
+
+        if resolved_risk_mode != "debate":
+            resolved_risk_debate_rounds = 0
+        elif resolved_risk_debate_rounds < 1:
+            resolved_risk_debate_rounds = max(1, int(preset_risk_rounds) or 1)
+
         return {
             "stage": stage_key,
             "debate_mode": resolved_debate_mode,
             "debate_rounds": resolved_debate_rounds,
+            "risk_debate_rounds": resolved_risk_debate_rounds,
             "risk_mode": resolved_risk_mode,
             "memory_on": resolved_memory_on,
         }
@@ -119,11 +129,17 @@ def _resolve_modes(
     if resolved_debate_mode not in {"on", "off"}:
         resolved_debate_mode = "on"
     resolved_debate_rounds = debate_rounds if resolved_debate_mode == "on" else 0
+    resolved_risk_debate_rounds = max(0, int(risk_debate_rounds or 0))
+    if resolved_risk_mode != "debate":
+        resolved_risk_debate_rounds = 0
+    elif resolved_risk_debate_rounds < 1:
+        resolved_risk_debate_rounds = 1
 
     return {
         "stage": None,
         "debate_mode": resolved_debate_mode,
         "debate_rounds": resolved_debate_rounds,
+        "risk_debate_rounds": resolved_risk_debate_rounds,
         "risk_mode": resolved_risk_mode,
         "memory_on": bool(memory_on),
     }
@@ -164,6 +180,7 @@ def _build_initial_state(
             "horizon": horizon,
             "horizon_days": horizon_days,
             "debate_rounds": resolved["debate_rounds"],
+            "risk_debate_rounds": resolved["risk_debate_rounds"],
             "debate_mode": resolved["debate_mode"],
             "decision_style": (decision_style or "classification").strip().lower(),
             "memory_on": resolved["memory_on"],
@@ -237,6 +254,7 @@ class AnalysisRequest(BaseModel):
     horizon: str = "short"  # "short"|"medium"|"long"
     stage: Optional[str] = None  # "A"|"B"|"B+"|"C"|"D"
     debate_rounds: int = 1  # 0 | 1 | 2
+    risk_debate_rounds: int = 1  # 1 | 2 (used when risk_mode=debate)
     debate_mode: str = "on"  # "on"|"off"
     decision_style: str = "classification"  # "classification"|"full"
     memory_on: bool = True
@@ -259,6 +277,7 @@ def analyze_ticker(request: AnalysisRequest):
         stage=request.stage,
         debate_mode=request.debate_mode,
         debate_rounds=request.debate_rounds,
+        risk_debate_rounds=request.risk_debate_rounds,
         memory_on=request.memory_on,
         risk_on_legacy=request.risk_on,
         risk_mode=request.risk_mode,
@@ -268,7 +287,7 @@ def analyze_ticker(request: AnalysisRequest):
     # Create the agent graph with configurable risk mode
     agent_graph = create_agent_graph(
         max_debate_rounds=resolved["debate_rounds"],
-        max_risk_debate_rounds=1,  # 1 round = 3 exchanges (aggressive/conservative/neutral)
+        max_risk_debate_rounds=resolved["risk_debate_rounds"],
         risk_mode=resolved["risk_mode"],
         debate_mode=resolved["debate_mode"],
     )
@@ -307,6 +326,7 @@ def analyze_ticker(request: AnalysisRequest):
                     "simulated_date": request.simulated_date,
                     "horizon": request.horizon,
                     "debate_rounds": resolved["debate_rounds"],
+                    "risk_debate_rounds": resolved["risk_debate_rounds"],
                     "debate_mode": resolved["debate_mode"],
                     "memory_on": resolved["memory_on"],
                     "risk_mode": resolved["risk_mode"],
@@ -336,6 +356,7 @@ async def analyze_ticker_stream(
     horizon: str = "short",
     stage: Optional[str] = None,
     debate_rounds: int = 1,
+    risk_debate_rounds: int = 1,
     debate_mode: str = "on",
     decision_style: str = "classification",
     memory_on: bool = True,
@@ -363,6 +384,7 @@ async def analyze_ticker_stream(
                 stage=stage,
                 debate_mode=debate_mode,
                 debate_rounds=debate_rounds,
+                risk_debate_rounds=risk_debate_rounds,
                 memory_on=memory_on,
                 risk_on_legacy=risk_on,
                 risk_mode=risk_mode,
@@ -382,7 +404,7 @@ async def analyze_ticker_stream(
             # Create the agent graph with configurable risk mode
             agent_graph = create_agent_graph(
                 max_debate_rounds=resolved["debate_rounds"],
-                max_risk_debate_rounds=1,  # 1 round = 3 exchanges (aggressive/conservative/neutral)
+                max_risk_debate_rounds=resolved["risk_debate_rounds"],
                 risk_mode=resolved["risk_mode"],
                 debate_mode=resolved["debate_mode"],
             )

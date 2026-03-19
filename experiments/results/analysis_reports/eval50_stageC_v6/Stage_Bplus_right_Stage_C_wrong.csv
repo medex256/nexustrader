@@ -1,0 +1,2 @@
+ticker,simulated_date,action_Stage B+,action_Stage C,true_label,k_return,correct_Stage B+,correct_Stage C,flip_helped,flip_hurt
+NVDA,2025-08-11,HOLD,BUY,HOLD,-0.012358521953265271,1,0,False,True

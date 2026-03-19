@@ -71,6 +71,38 @@ def _format_reports_for_risk_debate(state: dict) -> str:
 
     return "\n".join(lines)
 
+
+def _format_risk_debate_for_judge(state: dict) -> str:
+    """
+    Provide explicit Stage C/D risk debate outputs to the Risk Manager judge.
+    """
+    risk_state = state.get("risk_debate_state", {}) or {}
+    aggressive = (risk_state.get("aggressive_history") or "").strip()
+    conservative = (risk_state.get("conservative_history") or "").strip()
+    neutral = (risk_state.get("neutral_history") or "").strip()
+    history = (risk_state.get("history") or "").strip()
+
+    lines = [
+        "**RISK DEBATE OUTPUTS**",
+        f"- Exchanges: {risk_state.get('count', 0)}",
+        f"- Latest speaker: {risk_state.get('latest_speaker', 'N/A')}",
+        "",
+        "Aggressive Risk Analyst:",
+        aggressive if aggressive else "N/A",
+        "",
+        "Conservative Risk Analyst:",
+        conservative if conservative else "N/A",
+        "",
+        "Neutral Risk Analyst:",
+        neutral if neutral else "N/A",
+    ]
+
+    # Keep a concise fallback when role-specific fields are unexpectedly missing.
+    if not aggressive and not conservative and not neutral and history:
+        lines.extend(["", "Debate History (fallback):", history])
+
+    return "\n".join(lines)
+
 def aggressive_risk_analyst(state: dict):
     """
     The Aggressive Risk Analyst - Advocates for taking calculated risks.
@@ -116,7 +148,7 @@ def aggressive_risk_analyst(state: dict):
     if debate_state['count'] == 0:
         # First round - opening argument
         prompt = f"""Role: Risk Analyst A for {ticker}.
-    Task: identify why the current action may be too conservative.
+    Task: identify the strongest evidence that the proposed thesis can survive this horizon.
 
     Trader action: {action}
     Research Manager action: {rm_action}
@@ -128,17 +160,21 @@ def aggressive_risk_analyst(state: dict):
     {strategy}
 
     Use only provided context. No outside facts.
+    Be evidence-led, not directional cheerleading.
 
     Output:
-    - KEY_POINT: 1 line
-    - SUPPORTING_EVIDENCE: 2 bullets
-    - RISK_IF_NO_ACTION: 1 bullet
+    - THESIS_SURVIVAL_CLAIM: 1 line
+    - STRONGEST_SUPPORT_EVIDENCE: 1 bullet (specific evidence and why it supports survival)
+    - STRONGEST_BREAKER_ACKNOWLEDGED: 1 bullet
+    - BREAKER_STRENGTH: LOW | MEDIUM | HIGH
+    - HORIZON_RELEVANCE: YES | NO
+    - SURVIVAL_CONFIDENCE: LOW | MEDIUM | HIGH
 
     Keep under 160 words. Start with "Aggressive Analyst:"."""
     else:
         # Subsequent rounds - respond to other analysts
         prompt = f"""Role: Risk Analyst A in debate for {ticker}.
-    Task: rebut the strongest conservative objections with evidence.
+    Task: reassess whether the thesis can still survive after opposing evidence.
 
     Strategy: {action}
     Market: VIX={volatility_index}, Risk={ticker_risk}
@@ -150,12 +186,19 @@ def aggressive_risk_analyst(state: dict):
     {neutral_last if neutral_last else "N/A"}
 
     Use only provided context.
+    Round-2 discipline: output only new evidence, explicit concessions, or confidence updates.
+    Do not restate your round-1 points unless they materially changed.
+    Do not force disagreement. If the breaker is now stronger, concede explicitly.
 
     Output:
-    - REBUTTALS: 2 bullets
-    - UPDATED_VIEW: one line
+    - REASSESSMENT: 1 line
+    - UPDATED_STRONGEST_SUPPORT_EVIDENCE: 1 bullet
+    - UPDATED_STRONGEST_BREAKER_ACKNOWLEDGED: 1 bullet
+    - UPDATED_BREAKER_STRENGTH: LOW | MEDIUM | HIGH
+    - UPDATED_HORIZON_RELEVANCE: YES | NO
+    - UPDATED_SURVIVAL_CONFIDENCE: LOW | MEDIUM | HIGH
 
-    Keep under 140 words. Start with "Aggressive Analyst:"."""
+    Keep under 150 words. Start with "Aggressive Analyst:"."""
     
     # Generate response
     response = call_llm(prompt)
@@ -204,7 +247,7 @@ def conservative_risk_analyst(state: dict):
     if debate_state['count'] == 1:
         # First response (after aggressive opened)
         prompt = f"""Role: Risk Analyst B for {ticker}.
-    Task: identify downside risks in the current action.
+    Task: identify the single strongest evidence-based thesis breaker for this horizon.
 
     Trader action: {action}
     Research Manager action: {rm_action}
@@ -218,17 +261,21 @@ def conservative_risk_analyst(state: dict):
     {aggressive_last if aggressive_last else "N/A"}
 
     Use only provided context. No outside facts.
+    Be critical but fair: include the strongest refutation to your breaker.
 
     Output:
-    - KEY_RISK: 1 line
-    - SUPPORTING_EVIDENCE: 2 bullets
-    - RISK_MITIGATION: 1 bullet
+    - THESIS_BREAKER: 1 line
+    - BREAKER_EVIDENCE: 1 bullet (specific evidence -> break mechanism)
+    - BEST_REFUTATION_TO_BREAKER: 1 bullet
+    - BREAKER_STRENGTH: LOW | MEDIUM | HIGH
+    - HORIZON_RELEVANCE: YES | NO
+    - BREAKER_CONFIDENCE: LOW | MEDIUM | HIGH
 
     Keep under 160 words. Start with "Conservative Analyst:"."""
     else:
         # Subsequent rounds
         prompt = f"""Role: Risk Analyst B in debate for {ticker}.
-    Task: rebut the strongest optimistic claims with evidence.
+    Task: re-evaluate the strongest thesis breaker after reviewing other views.
 
     Strategy: {action}
     Market: VIX={volatility_index}, Risk={ticker_risk}
@@ -240,12 +287,20 @@ def conservative_risk_analyst(state: dict):
     {neutral_last if neutral_last else "N/A"}
 
     Use only provided context.
+    Round-2 discipline: output only new breaker evidence, explicit concessions, or confidence updates.
+    Do not restate your round-1 points unless they materially changed.
+    Do not force disagreement. If your breaker is no longer strongest, downgrade it.
 
     Output:
-    - REBUTTALS: 2 bullets
-    - UPDATED_VIEW: one line
+    - REASSESSMENT: 1 line
+    - UPDATED_THESIS_BREAKER: 1 line
+    - UPDATED_BREAKER_EVIDENCE: 1 bullet
+    - UPDATED_BEST_REFUTATION_TO_BREAKER: 1 bullet
+    - UPDATED_BREAKER_STRENGTH: LOW | MEDIUM | HIGH
+    - UPDATED_HORIZON_RELEVANCE: YES | NO
+    - UPDATED_BREAKER_CONFIDENCE: LOW | MEDIUM | HIGH
 
-    Keep under 140 words. Start with "Conservative Analyst:"."""
+    Keep under 150 words. Start with "Conservative Analyst:"."""
     
     # Generate response
     response = call_llm(prompt)
@@ -292,7 +347,7 @@ def neutral_risk_analyst(state: dict):
     
     # Build prompt
     prompt = f"""Role: Risk Analyst Neutral for {ticker}.
-Task: synthesize both sides and propose the most balanced risk-adjusted view.
+Task: adjudicate which side has stronger evidence for this horizon. Do not output a trade recommendation.
 
 Trader action: {action}
 Research Manager action: {rm_action}
@@ -308,12 +363,19 @@ Analyst B:
 {conservative_last if conservative_last else "N/A"}
 
 Use only provided context.
+Do not split the difference by default.
+Pick a winner (SURVIVAL or BREAKER) unless evidence is genuinely tied.
+Name one decisive evidence conflict that determined your winner.
 
 Output:
-- STRONGEST_PRO: 1 bullet
-- STRONGEST_CON: 1 bullet
-- BALANCED_RECOMMENDATION: BUY|SELL|HOLD (one line)
-- POSITION_SIZE_GUIDANCE: one line
+- WINNING_SIDE: SURVIVAL | BREAKER | TIED
+- DECISIVE_EVIDENCE_CONFLICT: 1 line
+- STRONGEST_SURVIVAL_EVIDENCE: 1 bullet
+- STRONGEST_BREAKER_EVIDENCE: 1 bullet
+- UNREFUTED_HIGH_STRENGTH_BREAKER: YES | NO
+- THESIS_STATUS: VALID | INVALID | UNCERTAIN
+- EXECUTION_FRAGILITY_VIEW: LOW | HIGH | N/A
+- WHAT_NEW_EVIDENCE_WOULD_FLIP_DECISION: 1 bullet
 
 Keep under 170 words. Start with "Neutral Analyst:"."""
     
@@ -334,10 +396,18 @@ Keep under 170 words. Start with "Neutral Analyst:"."""
 # RISK MANAGER (JUDGE) - Evaluates debate and makes final decision
 # ==============================================================================
 
-class RiskManagerDecision(BaseModel):
-    final_decision: Literal["BUY", "SELL", "HOLD"]
-    thesis_invalidated: Literal["YES", "NO"]
-    confidence: Literal["HIGH", "MEDIUM", "LOW"]
+class RiskManagerDecisionDebate(BaseModel):
+    thesis_validity: Literal["VALID", "INVALID", "UNCERTAIN"]
+    execution_fragility: Literal["LOW", "HIGH", "N/A"]
+    risk_judgment: Literal["CLEAR", "REDUCE", "BLOCK"]
+    rationale: str
+    position_size_pct: float = Field(ge=0, le=100)
+    stop_loss: Optional[float] = None
+    take_profit: Optional[float] = None
+
+
+class RiskManagerDecisionSingle(BaseModel):
+    risk_judgment: Literal["CLEAR", "REDUCE", "BLOCK"]
     rationale: str
     position_size_pct: float = Field(ge=0, le=100)
     stop_loss: Optional[float] = None
@@ -377,6 +447,13 @@ def risk_management_agent(state: dict):
     horizon = state.get('horizon') or run_config.get('horizon', 'short')
     horizon_days = state.get('horizon_days') or run_config.get('horizon_days', 10)
 
+    # Prior provenance from Stage B manager (anchored to Stage A-equivalent view).
+    # This is context for risk adjudication only, not a separate decision source.
+    investment_plan_structured = state.get("investment_plan_structured", {}) or {}
+    prior_view = investment_plan_structured.get("prior_view", "UNKNOWN")
+    prior_confirmed = investment_plan_structured.get("prior_confirmed", "UNKNOWN")
+    override_reason = investment_plan_structured.get("override_reason", "")
+
     disagreement_context = ""
     if research_manager_action != "UNKNOWN" and research_manager_action != trader_action:
         disagreement_context = f"""\n⚠️ DISAGREEMENT: Research Manager recommended {research_manager_action}, Trader chose {trader_action}.
@@ -384,12 +461,82 @@ Decide which side has stronger evidence for the next {horizon_days} trading days
     else:
         disagreement_context = f"\n✅ No major disagreement: current directional action is {trader_action}.\n"
 
-    prompt = f"""Role: Risk Manager.
-Task: run a single risk-check and choose final BUY/SELL/HOLD for {ticker} over the next {horizon_days} trading days ({horizon}).
+    risk_mode = (run_config.get("risk_mode", "single") or "single").lower()
 
-Research Manager Recommendation: {research_manager_action}
-Trader Decision: {trader_action}
-{disagreement_context}
+    if risk_mode == "debate":
+        prompt = f"""Role: Risk Manager (Debate Judge).
+Task: Judge whether the proposed action thesis remains valid for the next {horizon_days} trading days for {ticker}.
+Your objective is risk falsification after considering all three risk analysts, not re-predicting direction from scratch.
+
+Proposed Action: {trader_action}
+Research Manager Action: {research_manager_action}
+Trader Action: {trader_action}
+Disagreement Context: {disagreement_context.strip()}
+Prior Provenance:
+- VIEW: {prior_view}
+- PRIOR_CONFIRMED: {prior_confirmed}
+- OVERRIDE REASON: {override_reason or 'N/A'}
+Strategy Details: {strategy}
+
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
+
+Risk Debate Evidence:
+{_format_risk_debate_for_judge(state)}
+
+Market Context:
+- VIX: {volatility_index}
+- Ticker Risk: {ticker_risk}
+
+Use only the provided evidence.
+
+Falsification Protocol:
+1) Extract the single strongest thesis breaker and its strength from the debate.
+2) Decide whether that breaker is still unrefuted at this horizon.
+3) Then decide THESIS_VALIDITY and EXECUTION_FRAGILITY.
+
+Two-gate decision:
+- Gate A (validity): for BUY/SELL, if THESIS_VALIDITY is INVALID or UNCERTAIN, default to BLOCK.
+- Gate B (path): if THESIS_VALIDITY is VALID, use EXECUTION_FRAGILITY to choose CLEAR (LOW) or REDUCE (HIGH).
+
+HOLD handling:
+- For Proposed Action HOLD, default CLEAR unless evidence strongly implies a directional trade should be taken now.
+
+Calibration:
+- REDUCE is allowed only when you can name a concrete execution-path fragility mechanism while thesis validity remains VALID.
+- REDUCE is not allowed for general uncertainty or mixed evidence; those map to Gate A and therefore BLOCK for BUY/SELL.
+- BLOCK requires a clear explanation of why the strongest breaker remains unresolved at this horizon.
+
+Output format:
+THESIS_VALIDITY: VALID|INVALID|UNCERTAIN
+EXECUTION_FRAGILITY: LOW|HIGH|N/A
+RISK_JUDGMENT: CLEAR|REDUCE|BLOCK
+RATIONALE:
+- 2-4 sentences with: strongest breaker, strongest refutation, and why the selected judgment follows the two-gate decision.
+- If RISK_JUDGMENT=REDUCE, explicitly include "FRAGILITY_MECHANISM:" and one concrete mechanism.
+ADJUSTMENTS:
+- Position Size: [X%] (0 if BLOCK)
+- Stop Loss: [price|null]
+- Take Profit: [price|null]
+
+Keep under 220 words."""
+        structured_prompt = prompt + """
+
+Return strict JSON with keys:
+thesis_validity, execution_fragility, risk_judgment, rationale, position_size_pct, stop_loss, take_profit
+"""
+        decision_model = RiskManagerDecisionDebate
+    else:
+        prompt = f"""Role: Risk Manager.
+Task: Assess whether the proposed action thesis remains valid for the next {horizon_days} trading days for {ticker}.
+Your objective is risk falsification, not re-predicting direction from scratch.
+
+Proposed Action: {trader_action}
+Disagreement Context: {disagreement_context.strip()}
+Prior Provenance:
+- VIEW: {prior_view}
+- PRIOR_CONFIRMED: {prior_confirmed}
+- OVERRIDE REASON: {override_reason or 'N/A'}
 Strategy Details: {strategy}
 
 Analyst Evidence:
@@ -399,65 +546,83 @@ Market Context:
 - VIX: {volatility_index}
 - Ticker Risk: {ticker_risk}
 
-Use only provided evidence. No outside facts.
-Apply symmetric criteria for BUY and SELL.
+Use only the provided evidence.
 
-Decision policy:
-1) Start from Trader direction ({trader_action}).
-2) Change to HOLD only if thesis is explicitly invalidated by concrete contradictory evidence.
-3) If evidence is mixed but not invalidating, keep direction and reduce size.
-
-Confidence rubric:
-- HIGH: 3+ aligned independent signals and no major contradiction.
-- MEDIUM: 1-2 aligned signals with manageable contradiction.
-- LOW: conflicting or weak evidence.
+Decision Intent Framework (Choose ONE):
+1. CLEAR: The proposed {trader_action} thesis survives scrutiny. Volatility and risk factors are acceptable. Normal sizing.
+2. REDUCE: The {trader_action} thesis survives, but faces elevated uncertainty, conflicting secondary signals, or provenance fragility. Maintain direction but shrink position size significantly.
+3. BLOCK: The {trader_action} thesis is structurally broken by extreme market risk or undeniable contradictory evidence. VETO the trade (forces HOLD). Make this rare and strictly evidence-anchored.
 
 Output format:
-FINAL DECISION: BUY|SELL|HOLD
-THESIS_INVALIDATED: YES|NO
-CONFIDENCE: HIGH|MEDIUM|LOW
+RISK_JUDGMENT: CLEAR|REDUCE|BLOCK
 RATIONALE:
-- 2-4 sentences with strongest evidence and why opposite action was not chosen
+- 2-4 sentences explaining why the trade was cleared, reduced, or blocked.
 ADJUSTMENTS:
-- Position Size: [X%]
+- Position Size: [X%] (0 if BLOCK)
 - Stop Loss: [price|null]
 - Take Profit: [price|null]
 
-Keep under 260 words."""
-
-    structured_prompt = prompt + """
+Keep under 200 words."""
+        structured_prompt = prompt + """
 
 Return strict JSON with keys:
-final_decision, thesis_invalidated, confidence, rationale, position_size_pct, stop_loss, take_profit
+risk_judgment, rationale, position_size_pct, stop_loss, take_profit
 """
+        decision_model = RiskManagerDecisionSingle
 
     try:
         decision = call_llm_structured(
             structured_prompt,
-            RiskManagerDecision,
+            decision_model,
             temperature=0.2,
         )
     except Exception as e:
-        fallback_text = call_llm(prompt)
-        fallback_action = extract_signal(fallback_text, ticker)
-        decision = RiskManagerDecision(
-            final_decision=fallback_action,
-            thesis_invalidated="NO",
-            confidence="LOW",
-            rationale=f"Structured output failure: {e}. Fallback used.",
-            position_size_pct=0 if fallback_action == "HOLD" else 10,
-            stop_loss=None,
-            take_profit=None,
-        )
+        if risk_mode == "debate":
+            # On parser failure in debate mode, preserve safety semantics:
+            # directional actions -> BLOCK, HOLD -> CLEAR.
+            fallback_judgment = "CLEAR" if trader_action == "HOLD" else "BLOCK"
+            decision = RiskManagerDecisionDebate(
+                thesis_validity="UNCERTAIN",
+                execution_fragility="N/A",
+                risk_judgment=fallback_judgment,
+                rationale=f"Structured output failure: {e}. Fallback to {fallback_judgment} used due to unresolved thesis validity.",
+                position_size_pct=0,
+                stop_loss=None,
+                take_profit=None,
+            )
+        else:
+            # Restore historical B+ fallback behavior to avoid accidental vetoes.
+            decision = RiskManagerDecisionSingle(
+                risk_judgment="CLEAR",
+                rationale=f"Structured output failure: {e}. Fallback to CLEAR used.",
+                position_size_pct=0 if trader_action == "HOLD" else 10,
+                stop_loss=None,
+                take_profit=None,
+            )
 
-    final_decision = decision.model_dump_json(indent=2)
-    final_action = decision.final_decision
-    thesis_invalidated = decision.thesis_invalidated == "YES"
-    if final_action == "HOLD" and trader_action in {"BUY", "SELL"} and not thesis_invalidated:
+    # Minimal consistency guardrail for directional actions.
+    # LLM still decides thesis validity and fragility; this prevents invalid mapping drift.
+    if risk_mode == "debate" and trader_action in {"BUY", "SELL"} and decision.thesis_validity in {"INVALID", "UNCERTAIN"}:
+        if decision.risk_judgment != "BLOCK":
+            decision.risk_judgment = "BLOCK"
+            decision.position_size_pct = 0
+            decision.execution_fragility = "N/A"
+            decision.rationale = (
+                "Consistency override: directional trade marked INVALID/UNCERTAIN must be BLOCK. "
+                + (decision.rationale or "")
+            ).strip()
+
+    final_decision_json = decision.model_dump_json(indent=2)
+    risk_judgment = decision.risk_judgment
+
+    # Map the risk judgment back to an action
+    if risk_judgment == "BLOCK":
+        final_action = "HOLD"
+    else:
         final_action = trader_action
 
     strategy["action"] = final_action
-    strategy["rationale"] = decision.rationale
+    strategy["rationale"] = f"[{risk_judgment}] {decision.rationale}"
 
     if final_action != "HOLD":
         risk_rating = (ticker_risk.get("risk_rating") or "MODERATE").upper()
@@ -467,6 +632,12 @@ final_decision, thesis_invalidated, confidence, rationale, position_size_pct, st
         model_position = float(decision.position_size_pct or 0)
         requested_position = model_position if model_position > 0 else float(old_position)
         new_position = min(float(requested_position), float(max_position_pct)) if requested_position else float(max_position_pct)
+        
+        # Keep REDUCE meaningful without collapsing into near-zero exposure by default.
+        if risk_judgment == "REDUCE":
+            reduce_cap = max(6.0, float(max_position_pct) * 0.5)
+            new_position = min(new_position, reduce_cap)
+
         strategy["position_size_pct"] = round(new_position, 2)
 
         entry_price = strategy.get("entry_price")
@@ -497,31 +668,24 @@ final_decision, thesis_invalidated, confidence, rationale, position_size_pct, st
 
     state['trading_strategy'] = strategy
     state['proposed_trade'] = strategy
-    state['risk_reports']['risk_manager_decision'] = final_decision
-    state['risk_reports']['risk_gate'] = f"Single risk-check evaluated. Original: {original_action}, Final: {final_action}"
+    state['risk_reports']['risk_manager_decision'] = final_decision_json
+    risk_gate_prefix = "Risk debate judged" if risk_mode == "debate" else "Single risk-check evaluated"
+    state['risk_reports']['risk_gate'] = f"{risk_gate_prefix}. Original: {original_action}, Judgment: {risk_judgment}, Final: {final_action}"
 
     if 'run_metadata' not in state:
         state['run_metadata'] = {}
+    thesis_validity_meta = decision.thesis_validity if hasattr(decision, "thesis_validity") else "N/A"
+    execution_fragility_meta = decision.execution_fragility if hasattr(decision, "execution_fragility") else "N/A"
     state['run_metadata'].update({
         "risk_original_action": original_action,
         "risk_final_action": final_action,
-        "risk_thesis_invalidated": thesis_invalidated,
+        "risk_mode": risk_mode,
+        "risk_judgment": risk_judgment,
+        "risk_thesis_validity": thesis_validity_meta,
+        "risk_execution_fragility": execution_fragility_meta,
         "risk_overrode_action": original_action != final_action,
     })
 
     return state
 
 
-# ============================================================================
-# REMOVED AGENT - Compliance checking moved to Risk Manager for MVP
-# ============================================================================
-
-# def compliance_agent(state: dict):
-#     """
-#     REMOVED: Compliance Agent
-#     
-#     Reason: Overkill for MVP. Basic compliance checks can be handled
-#     by Risk Management Agent. Can be re-added in v2.0 if specific
-#     regulatory compliance features are needed.
-#     """
-#     pass

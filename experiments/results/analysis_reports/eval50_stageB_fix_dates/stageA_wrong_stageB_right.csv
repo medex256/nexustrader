@@ -1,0 +1,2 @@
+ticker,simulated_date,action_A,action_B,true_label,k_return,correct_A,correct_B,flip_helped,flip_hurt
+JPM,2024-12-02,BUY,SELL,SELL,-0.02708627862711141,0,1,True,False

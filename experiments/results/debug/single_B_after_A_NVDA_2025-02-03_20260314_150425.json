@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "created_at": "2026-03-14T15:04:25",
+    "started_at": "2026-03-14T15:03:26",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "B_after_A"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2025-02-03",
+    "horizon": "short",
+    "stage": "B",
+    "debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "off",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": false,
+    "use_cached_stage_a_prior": false,
+    "cache_trace_file": ""
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2025-02-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off",
+      "use_cached_stage_a_reports": false,
+      "use_cached_stage_a_prior": false,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": ""
+    },
+    "simulated_date": "2025-02-03",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue reached $39.3B, a 12.1% QoQ increase, confirming sustained AI demand, though the growth rate decelerated from the prior quarter's 16.8%.\n* Net profit margin remains elite at 56.2%, supported by $16.6B in quarterly operating cash flow, providing massive capital for reinvestment.\n* Operating income scaled to $24B, demonstrating high operational leverage as revenue growth continues to outpace operating expense increases.\n\n2) RISKS:\n* Gross margin contracted to 73.0% from 74.5% QoQ, suggesting near-term pressure from product mix shifts or ramp-up costs for new architectures.\n* Sequential revenue acceleration is slowing; any perceived \"peak\" in growth rates often triggers short-term profit-taking in high-multiple stocks.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Gross margin stability during the transition to Blackwell-based systems.",
+      "technical_analyst": "1) EVIDENCE:\n* Price vs SMA: Current price (116.62) is trading significantly below the SMA_20 (134.60), confirming a dominant short-term downtrend and seller control.\n* MACD: MACD (-4.34) is negative and remains below its signal line (-2.03) with a widening histogram, indicating accelerating downward momentum.\n* RSI & Volume: RSI at 36.81 shows bearish momentum with room to fall, while a 1.21 volume ratio confirms active selling pressure during the 9.56% 5-day decline.\n\n2) SUPPORT: 114.78\n3) RESISTANCE: 134.60\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: Price is currently testing the Lower Bollinger Band (114.78), which may trigger a technical mean-reversion bounce despite the strong bearish momentum.",
+      "news_harvester": "1) CATALYSTS:\n* Potential formalization of stricter U.S. export controls on AI semiconductors to China following reports of Trump administration deliberations.\n* Market reassessment of GPU demand vs. efficiency gains as investors digest DeepSeek’s \"Test Time Scaling\" impact on hardware requirements.\n\n2) TONE: BEARISH\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Official announcement of new U.S. export restrictions targeting high-end AI chip sales to China."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue reached $39.3B, a 12.1% QoQ increase, confirming sustained AI demand, though the growth rate decelerated from the prior quarter's 16",
+        "primary_risk": "Gross margin stability during the transition to Blackwell-based systems"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=HIGH",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "Price is currently testing the Lower Bollinger Band (114.78), which may trigger a technical mean-reversion bounce despite the strong bearish"
+      },
+      "news": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Potential formalization of stricter U.S. export controls on AI semiconductors to China following reports of Trump administration deliberatio",
+        "primary_risk": "Official announcement of new U.S. export restrictions targeting high-end AI chip sales to China"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: The primary near-term upside catalyst is a technical mean-reversion bounce triggered by the price testing the Lower Bollinger Band at 114.78. This potential reversal is supported by fundamental evidence of sustained AI demand, reflected in $39.3B revenue and elite 56.2% net profit margins. While short-term momentum is bearish, the oversold RSI (36.81) suggests the recent 9.56% decline may be overextended, providing a window for a price recovery toward the 134.60 resistance level.\n\n- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_NOTE: The strongest downside risk is accelerating bearish momentum driven by negative technicals and imminent geopolitical catalysts. The MACD histogram is widening while the RSI (36.81) suggests further downside before reaching support at 114.78. This breakdown is fueled by potential formalized U.S. export restrictions on AI chips to China and a market reassessment of hardware demand following DeepSeek’s \"Test Time Scaling,\" potentially triggering aggressive profit-taking as sequential revenue growth decelerates and gross margins contract.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: The primary near-term upside catalyst is a technical mean-reversion bounce triggered by the price testing the Lower Bollinger Band at 114.78. This potential reversal is supported by fundamental evidence of sustained AI demand, reflected in $39.3B revenue and elite 56.2% net profit margins. While short-term momentum is bearish, the oversold RSI (36.81) suggests the recent 9.56% decline may be overextended, providing a window for a price recovery toward the 134.60 resistance level.",
+      "bear_history": "\n\n- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_NOTE: The strongest downside risk is accelerating bearish momentum driven by negative technicals and imminent geopolitical catalysts. The MACD histogram is widening while the RSI (36.81) suggests further downside before reaching support at 114.78. This breakdown is fueled by potential formalized U.S. export restrictions on AI chips to China and a market reassessment of hardware demand following DeepSeek’s \"Test Time Scaling,\" potentially triggering aggressive profit-taking as sequential revenue growth decelerates and gross margins contract.",
+      "current_response": "- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_NOTE: The strongest downside risk is accelerating bearish momentum driven by negative technicals and imminent geopolitical catalysts. The MACD histogram is widening while the RSI (36.81) suggests further downside before reaching support at 114.78. This breakdown is fueled by potential formalized U.S. export restrictions on AI chips to China and a market reassessment of hardware demand following DeepSeek’s \"Test Time Scaling,\" potentially triggering aggressive profit-taking as sequential revenue growth decelerates and gross margins contract.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 3.0,\n  \"sell_score\": 8.5,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.85,\n  \"primary_drivers\": [\n    \"Accelerating bearish momentum indicated by a widening MACD histogram and negative technical breakdown.\",\n    \"Imminent geopolitical risks involving formalized U.S. export restrictions on AI chips to China.\"\n  ],\n  \"main_risk\": \"A technical mean-reversion bounce triggered by the Lower Bollinger Band at 114.78 and oversold RSI conditions.\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The specialist downside evidence strongly reinforces the prior bearish view by identifying specific near-term geopolitical and momentum-based catalysts.\",\n  \"upside_note_impact\": \"The upside note identifies a potential technical floor, but its 'Weak' strength rating makes it a secondary concern compared to the primary trend.\",\n  \"downside_note_impact\": \"The downside note provides high-conviction catalysts, specifically the DeepSeek narrative shift and export controls, which solidify the sell case.\",\n  \"actionability_assessment\": \"The path of least resistance is downward toward the 114.78 support level as bearish momentum accelerates.\",\n  \"hold_gate_assessment\": \"Uncertainty is low; the downside case maintains clear market control despite the potential for a minor technical bounce.\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: The primary near-term upside catalyst is a technical mean-reversion bounce triggered by the price testing the Lower Bollinger Band at 114.78. This potential reversal is supported by fundamental evidence of sustained AI demand, reflected in $39.3B revenue and elite 56.2% net profit margins. While short-term momentum is bearish, the oversold RSI (36.81) suggests the recent 9.56% decline may be overextended, providing a window for a price recovery toward the 134.60 resistance level.",
+      "bearish": "\n\n- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_NOTE: The strongest downside risk is accelerating bearish momentum driven by negative technicals and imminent geopolitical catalysts. The MACD histogram is widening while the RSI (36.81) suggests further downside before reaching support at 114.78. This breakdown is fueled by potential formalized U.S. export restrictions on AI chips to China and a market reassessment of hardware demand following DeepSeek’s \"Test Time Scaling,\" potentially triggering aggressive profit-taking as sequential revenue growth decelerates and gross margins contract."
+    },
+    "investment_plan": "{\n  \"buy_score\": 3.0,\n  \"sell_score\": 8.5,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.85,\n  \"primary_drivers\": [\n    \"Accelerating bearish momentum indicated by a widening MACD histogram and negative technical breakdown.\",\n    \"Imminent geopolitical risks involving formalized U.S. export restrictions on AI chips to China.\"\n  ],\n  \"main_risk\": \"A technical mean-reversion bounce triggered by the Lower Bollinger Band at 114.78 and oversold RSI conditions.\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The specialist downside evidence strongly reinforces the prior bearish view by identifying specific near-term geopolitical and momentum-based catalysts.\",\n  \"upside_note_impact\": \"The upside note identifies a potential technical floor, but its 'Weak' strength rating makes it a secondary concern compared to the primary trend.\",\n  \"downside_note_impact\": \"The downside note provides high-conviction catalysts, specifically the DeepSeek narrative shift and export controls, which solidify the sell case.\",\n  \"actionability_assessment\": \"The path of least resistance is downward toward the 114.78 support level as bearish momentum accelerates.\",\n  \"hold_gate_assessment\": \"Uncertainty is low; the downside case maintains clear market control despite the potential for a minor technical bounce.\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 3.0,
+      "sell_score": 8.5,
+      "recommendation": "SELL",
+      "confidence_score": 0.85,
+      "primary_drivers": [
+        "Accelerating bearish momentum indicated by a widening MACD histogram and negative technical breakdown.",
+        "Imminent geopolitical risks involving formalized U.S. export restrictions on AI chips to China."
+      ],
+      "main_risk": "A technical mean-reversion bounce triggered by the Lower Bollinger Band at 114.78 and oversold RSI conditions.",
+      "prior_view": "SELL",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "SELL",
+      "base_view_rationale": "The specialist downside evidence strongly reinforces the prior bearish view by identifying specific near-term geopolitical and momentum-based catalysts.",
+      "upside_note_impact": "The upside note identifies a potential technical floor, but its 'Weak' strength rating makes it a secondary concern compared to the primary trend.",
+      "downside_note_impact": "The downside note provides high-conviction catalysts, specifically the DeepSeek narrative shift and export controls, which solidify the sell case.",
+      "actionability_assessment": "The path of least resistance is downward toward the 114.78 support level as bearish momentum accelerates.",
+      "hold_gate_assessment": "Uncertainty is low; the downside case maintains clear market control despite the potential for a minor technical bounce.",
+      "execution_notes": [],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.85,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: No clear catalyst identified AGAINST: Gross margin stability during the transition to Blackwell-based systems DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=HIGH."
+    },
+    "trader_reports": {},
+    "risk_reports": {},
+    "compliance_check": {},
+    "proposed_trade": {},
+    "cache_context": {
+      "cache_trace_file": "",
+      "cache_lookup_key": "NVDA|2025-02-03|short|US",
+      "cached_stage_a_trace": null,
+      "cached_stage_a_reports_used": false,
+      "cached_stage_a_prior": null,
+      "cached_stage_a_prior_used": false
+    },
+    "provenance": {
+      "cache": {
+        "cache_trace_file": "",
+        "cache_lookup_key": "NVDA|2025-02-03|short|US",
+        "cached_stage_a_reports_used": false,
+        "cached_stage_a_prior_requested": false,
+        "cached_stage_a_prior_used": false
+      },
+      "signal_parse": {
+        "total": 3,
+        "failures": 0,
+        "by_analyst": {
+          "fundamental": {
+            "total": 1,
+            "failures": 0
+          },
+          "technical": {
+            "total": 1,
+            "failures": 0
+          },
+          "news": {
+            "total": 1,
+            "failures": 0
+          }
+        }
+      },
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2025-02-03",
+        "lookback_days": 14,
+        "window_start": "2025-01-20",
+        "window_end": "2025-02-03",
+        "article_count": 25,
+        "min_published": "2025-01-20T11:42:00",
+        "max_published": "2025-02-03T07:35:48",
+        "articles": [
+          {
+            "title": "Nvidia calls China’s DeepSeek R1 model ‘an excellent AI advancement’",
+            "source": "CNBC",
+            "published": "20250127T152800",
+            "url": "https://www.cnbc.com/2025/01/27/nvidia-calls-chinas-deepseek-r1-model-an-excellent-ai-advancement.html",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.292563,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "DeepSeek Panic Live Updates: Nvidia Stock Drops 4% As Trump Reportedly Targets China Exports",
+            "source": "Forbes",
+            "published": "20250129T160700",
+            "url": "https://www.forbes.com/sites/dereksaul/2025/01/29/deepseek-panic-live-updates-nvidia-stock-drops-4-as-trump-reportedly-mulls-china-chip-sale-restrictions/",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.293807,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "One reason Nvidia looks like a bargain stock following the DeepSeek news",
+            "source": "MarketWatch",
+            "published": "20250128T093200",
+            "url": "https://www.marketwatch.com/story/one-reason-nvidia-looks-like-a-bargain-stock-following-the-deepseek-news-e27db2fc?gaa_at=eafs&gaa_n=AWEtsqf3gW2kCWpq1CrMSVvbIvvF6JtBkpz-ItstLu2xIBBBKztIj64xtn6V&gaa_ts=690748dd&gaa_sig=j7TJIAa0TWDfMWN8SiaKxDsSjqmbxiVTmFt5I0rKcCrTTu_aNb9AQjTc8ZVG52JclIs1h0I4SyOIt9n8dy7VjA%3D%3D",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.204538,
+            "relevance_score": 1.0
+          },
+          {
+            "title": "NVDU: Providing Leverage To Nvidia, A Hot Tech Stock That Has Corrected (NASDAQ:NVDU)",
+            "source": "Seeking Alpha",
+            "published": "20250130T111214",
+            "url": "https://seekingalpha.com/article/4753576-nvdu-providing-leverage-to-nvidia-a-hot-tech-stock-that-has-corrected",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.422616,
+            "relevance_score": 0.984625
+          },
+          {
+            "title": "Investors piled into leveraged ETFs tied to Nvidia. Then the stock crashed",
+            "source": "NBC Los Angeles",
+            "published": "20250128T140934",
+            "url": "https://www.nbclosangeles.com/news/business/money-report/nvidias-plunge-a-difficult-lesson-for-investors-betting-on-single-stock-etfs/3616574/",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.614491,
+            "relevance_score": 0.983351
+          },
+          {
+            "title": "Investors piled into leveraged ETFs tied to Nvidia. Then the stock crashed",
+            "source": "NBC Connecticut",
+            "published": "20250128T223800",
+            "url": "https://www.nbcconnecticut.com/news/business/money-report/nvidias-plunge-a-difficult-lesson-for-investors-betting-on-single-stock-etfs/3484484/",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.504653,
+            "relevance_score": 0.95673
+          },
+          {
+            "title": "NYSEARCA:NVDY: High-Yield Income ETF or Missed NVIDIA Gains?",
+            "source": "TradingNEWS",
+            "published": "20250123T171755",
+            "url": "https://www.tradingnews.com/news/etf-nyse-arca-nvdy-84-percent-yield-nvda-vs-nvdy",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.118448,
+            "relevance_score": 0.943426
+          },
+          {
+            "title": "NVDY: Its 6-Month Outperformance Could Be Overturned Soon, A Complete Analysis",
+            "source": "Seeking Alpha",
+            "published": "20250123T102700",
+            "url": "https://seekingalpha.com/article/4751458-nvdy-its-6-month-outperformance-could-be-overturned-soon-a-complete-analysis",
+            "ticker_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment_score": -0.23101,
+            "relevance_score": 0.906601
+          },
+          {
+            "title": "Nvidia, Robinhood, Snowflake And A Basic Materials Stock On CNBC's 'Final Trades'",
+            "source": "Sahm",
+            "published": "20250121T002833",
+            "url": "https://www.sahmcapital.com/news/content/nvidia-robinhood-snowflake-and-a-basic-materials-stock-on-cnbcs-final-trades-2025-01-21",
+            "ticker_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment_score": 0.286402,
+            "relevance_score": 0.877041
+          },
+          {
+            "title": "How a more focused growth index can cut your risk in the stock market",
+            "source": "MarketWatch",
+            "published": "20250129T101800",
+            "url": "https://www.marketwatch.com/story/how-a-more-focused-growth-index-can-cut-your-risk-in-the-stock-market-7e1fa51e?gaa_at=eafs&gaa_n=AWEtsqctWT1KcH1Z5DLJii79uh0kmT28gDNA48BITtl5SargSpXrDt4BScHO&gaa_ts=69398ffe&gaa_sig=EYMZmX2smZBG23owcPGBKJ6MwJR8bCtTVL9V5HLbFAdTPantHs10ASmGuskO2Cw7qJ9qDHKAeeKGcP7PdlJWwA%3D%3D",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.400619,
+            "relevance_score": 0.836593
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 58.63
+  },
+  "trace": {
+    "run_config": {
+      "stage": "B",
+      "simulated_date": "2025-02-03",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "off",
+      "use_cached_stage_a_reports": false,
+      "use_cached_stage_a_prior": false,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": ""
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue reached $39.3B, a 12.1% QoQ increase, confirming sustained AI demand, though the growth rate decelerated from the prior quarter's 16",
+        "primary_risk": "Gross margin stability during the transition to Blackwell-based systems"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=HIGH",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "Price is currently testing the Lower Bollinger Band (114.78), which may trigger a technical mean-reversion bounce despite the strong bearish"
+      },
+      "news": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Potential formalization of stricter U.S. export controls on AI semiconductors to China following reports of Trump administration deliberatio",
+        "primary_risk": "Official announcement of new U.S. export restrictions targeting high-end AI chip sales to China"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue reached $39.3B, a 12.1% QoQ increase, confirming sustained AI demand, though the growth rate decelerated from the prior quarter's 16.8%.\n* Net profit margin remains elite at 56.2%, supported by $16.6B in quarterly operating cash flow, providing massive capital for reinvestment.\n* Operating income scaled to $24B, demonstrating high operational leverage as revenue growth continues to outpace operating expense increases.\n\n2) RISKS:\n* Gross margin contracted to 73.0% from 74.5% QoQ, suggesting near-term pressure from product mix shifts or ramp-up costs for new architectures.\n* Sequential revenue acceleration is slowing; any perceived \"peak\" in growth rates often triggers short-term profit-taking in high-multiple stocks.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Gross margin stability during the transition to Blackwell-based systems.",
+      "technical_analyst": "1) EVIDENCE:\n* Price vs SMA: Current price (116.62) is trading significantly below the SMA_20 (134.60), confirming a dominant short-term downtrend and seller control.\n* MACD: MACD (-4.34) is negative and remains below its signal line (-2.03) with a widening histogram, indicating accelerating downward momentum.\n* RSI & Volume: RSI at 36.81 shows bearish momentum with room to fall, while a 1.21 volume ratio confirms active selling pressure during the 9.56% 5-day decline.\n\n2) SUPPORT: 114.78\n3) RESISTANCE: 134.60\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: Price is currently testing the Lower Bollinger Band (114.78), which may trigger a technical mean-reversion bounce despite the strong bearish momentum.",
+      "news_harvester": "1) CATALYSTS:\n* Potential formalization of stricter U.S. export controls on AI semiconductors to China following reports of Trump administration deliberations.\n* Market reassessment of GPU demand vs. efficiency gains as investors digest DeepSeek’s \"Test Time Scaling\" impact on hardware requirements.\n\n2) TONE: BEARISH\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Official announcement of new U.S. export restrictions targeting high-end AI chip sales to China."
+    },
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: The primary near-term upside catalyst is a technical mean-reversion bounce triggered by the price testing the Lower Bollinger Band at 114.78. This potential reversal is supported by fundamental evidence of sustained AI demand, reflected in $39.3B revenue and elite 56.2% net profit margins. While short-term momentum is bearish, the oversold RSI (36.81) suggests the recent 9.56% decline may be overextended, providing a window for a price recovery toward the 134.60 resistance level.\n\n- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_NOTE: The strongest downside risk is accelerating bearish momentum driven by negative technicals and imminent geopolitical catalysts. The MACD histogram is widening while the RSI (36.81) suggests further downside before reaching support at 114.78. This breakdown is fueled by potential formalized U.S. export restrictions on AI chips to China and a market reassessment of hardware demand following DeepSeek’s \"Test Time Scaling,\" potentially triggering aggressive profit-taking as sequential revenue growth decelerates and gross margins contract.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_NOTE: The primary near-term upside catalyst is a technical mean-reversion bounce triggered by the price testing the Lower Bollinger Band at 114.78. This potential reversal is supported by fundamental evidence of sustained AI demand, reflected in $39.3B revenue and elite 56.2% net profit margins. While short-term momentum is bearish, the oversold RSI (36.81) suggests the recent 9.56% decline may be overextended, providing a window for a price recovery toward the 134.60 resistance level.",
+      "bear_history": "\n\n- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_NOTE: The strongest downside risk is accelerating bearish momentum driven by negative technicals and imminent geopolitical catalysts. The MACD histogram is widening while the RSI (36.81) suggests further downside before reaching support at 114.78. This breakdown is fueled by potential formalized U.S. export restrictions on AI chips to China and a market reassessment of hardware demand following DeepSeek’s \"Test Time Scaling,\" potentially triggering aggressive profit-taking as sequential revenue growth decelerates and gross margins contract.",
+      "current_response": "- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_NOTE: The strongest downside risk is accelerating bearish momentum driven by negative technicals and imminent geopolitical catalysts. The MACD histogram is widening while the RSI (36.81) suggests further downside before reaching support at 114.78. This breakdown is fueled by potential formalized U.S. export restrictions on AI chips to China and a market reassessment of hardware demand following DeepSeek’s \"Test Time Scaling,\" potentially triggering aggressive profit-taking as sequential revenue growth decelerates and gross margins contract.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 3.0,\n  \"sell_score\": 8.5,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.85,\n  \"primary_drivers\": [\n    \"Accelerating bearish momentum indicated by a widening MACD histogram and negative technical breakdown.\",\n    \"Imminent geopolitical risks involving formalized U.S. export restrictions on AI chips to China.\"\n  ],\n  \"main_risk\": \"A technical mean-reversion bounce triggered by the Lower Bollinger Band at 114.78 and oversold RSI conditions.\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The specialist downside evidence strongly reinforces the prior bearish view by identifying specific near-term geopolitical and momentum-based catalysts.\",\n  \"upside_note_impact\": \"The upside note identifies a potential technical floor, but its 'Weak' strength rating makes it a secondary concern compared to the primary trend.\",\n  \"downside_note_impact\": \"The downside note provides high-conviction catalysts, specifically the DeepSeek narrative shift and export controls, which solidify the sell case.\",\n  \"actionability_assessment\": \"The path of least resistance is downward toward the 114.78 support level as bearish momentum accelerates.\",\n  \"hold_gate_assessment\": \"Uncertainty is low; the downside case maintains clear market control despite the potential for a minor technical bounce.\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 3.0,\n  \"sell_score\": 8.5,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.85,\n  \"primary_drivers\": [\n    \"Accelerating bearish momentum indicated by a widening MACD histogram and negative technical breakdown.\",\n    \"Imminent geopolitical risks involving formalized U.S. export restrictions on AI chips to China.\"\n  ],\n  \"main_risk\": \"A technical mean-reversion bounce triggered by the Lower Bollinger Band at 114.78 and oversold RSI conditions.\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The specialist downside evidence strongly reinforces the prior bearish view by identifying specific near-term geopolitical and momentum-based catalysts.\",\n  \"upside_note_impact\": \"The upside note identifies a potential technical floor, but its 'Weak' strength rating makes it a secondary concern compared to the primary trend.\",\n  \"downside_note_impact\": \"The downside note provides high-conviction catalysts, specifically the DeepSeek narrative shift and export controls, which solidify the sell case.\",\n  \"actionability_assessment\": \"The path of least resistance is downward toward the 114.78 support level as bearish momentum accelerates.\",\n  \"hold_gate_assessment\": \"Uncertainty is low; the downside case maintains clear market control despite the potential for a minor technical bounce.\",\n  \"execution_notes\": [],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 3.0,
+      "sell_score": 8.5,
+      "recommendation": "SELL",
+      "confidence_score": 0.85,
+      "primary_drivers": [
+        "Accelerating bearish momentum indicated by a widening MACD histogram and negative technical breakdown.",
+        "Imminent geopolitical risks involving formalized U.S. export restrictions on AI chips to China."
+      ],
+      "main_risk": "A technical mean-reversion bounce triggered by the Lower Bollinger Band at 114.78 and oversold RSI conditions.",
+      "prior_view": "SELL",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "SELL",
+      "base_view_rationale": "The specialist downside evidence strongly reinforces the prior bearish view by identifying specific near-term geopolitical and momentum-based catalysts.",
+      "upside_note_impact": "The upside note identifies a potential technical floor, but its 'Weak' strength rating makes it a secondary concern compared to the primary trend.",
+      "downside_note_impact": "The downside note provides high-conviction catalysts, specifically the DeepSeek narrative shift and export controls, which solidify the sell case.",
+      "actionability_assessment": "The path of least resistance is downward toward the 114.78 support level as bearish momentum accelerates.",
+      "hold_gate_assessment": "Uncertainty is low; the downside case maintains clear market control despite the potential for a minor technical bounce.",
+      "execution_notes": [],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.85,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "FOR: No clear catalyst identified AGAINST: Gross margin stability during the transition to Blackwell-based systems DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=HIGH."
+    },
+    "risk_reports": {},
+    "compliance_check": {},
+    "analysis_time_seconds": 58.63,
+    "memory_id": null
+  }
+}

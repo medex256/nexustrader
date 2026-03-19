@@ -29,9 +29,8 @@ class StageAManagerDecision(BaseModel):
 class ResearchManagerDecision(BaseModel):
     """
     Debate-stage schema (B / B+ / C / D).
-    buy_score / sell_score are descriptive metadata only for B/B+
-    (UI gauges, calibration).  The spread rule is applied only for C/D.
-    For B/B+ the LLM's holistic recommendation field is the decision.
+    buy_score / sell_score are descriptive metadata only
+    (UI gauges, calibration). The LLM's holistic recommendation field is the decision.
 
     v6 fields: prior_view / prior_confirmed / override_reason capture the
     anchored-prior chain.  Downstream stages (B+, C) use these for provenance-
@@ -117,20 +116,35 @@ def _format_reports_for_judge(state: dict) -> str:
 
 def _is_single_extraction_mode(state: dict) -> bool:
     """
-    Stage B / B+ use two non-adversarial specialist extractors instead of a mirrored bull/bear pair.
-    Fall back to mode-based inference for custom runs that do not set an explicit stage.
+    Stage B / B+ / C / D use two non-adversarial specialist extractors instead of a mirrored bull/bear pair.
+    Fall back to extraction-first routing for custom runs that do not set an explicit stage.
     """
     run_config = state.get("run_config", {}) or {}
     stage = (run_config.get("stage") or "").strip().upper()
-    if stage in {"B", "B+"}:
+    if stage in {"B", "B+", "C", "D"}:
         return True
-    if stage in {"C", "D"}:
-        return False
 
     debate_mode = (run_config.get("debate_mode") or "on").strip().lower()
     debate_rounds = int(run_config.get("debate_rounds") or 0)
+    return debate_mode != "off" and debate_rounds > 0
+
+
+def _use_two_part_specialist_format(state: dict) -> bool:
+    """
+    Prompt-format gate for specialist extractors.
+    Keep Stage B / B+ on legacy one-part notes for ablation stability.
+    Use two-part (core + falsifier) extraction for Stage C / D.
+    """
+    run_config = state.get("run_config", {}) or {}
+    stage = (run_config.get("stage") or "").strip().upper()
+    if stage in {"C", "D"}:
+        return True
+    if stage in {"B", "B+"}:
+        return False
+
+    # Fallback for custom runs: tie two-part format to risk debate mode.
     risk_mode = (run_config.get("risk_mode") or "off").strip().lower()
-    return debate_mode != "off" and debate_rounds > 0 and risk_mode in {"off", "single"}
+    return risk_mode == "debate"
 
 
 def _use_pro_stage_a_manager(state: dict) -> bool:
@@ -211,113 +225,59 @@ def _build_stage_b_manager_prompt(
     prior_view: str = "HOLD",
 ) -> str:
     return f"""Role: Research Manager for {ticker}.
-Task: decide BUY, SELL, or HOLD for the next {horizon_days} trading days.
-
-You have a committed prior direction formed from the analyst reports alone, before any specialist
-assessment. Start from this prior and change it only when the specialist evidence clears the bar below.
+Task: decide final BUY, SELL, or HOLD for the next {horizon_days} trading days by stress-testing PRIOR_VIEW with specialist deltas.
 
 PRIOR VIEW: {prior_view}
-(This is the direction the analyst reports alone support, before specialist notes.)
 
-UPSIDE SPECIALIST ASSESSMENT:
+Use only the evidence provided below. No external facts.
+Treat PRIOR_VIEW as the baseline from full analyst reports. Specialist notes are incremental deltas, not replacement theses.
+
+UPSIDE CATALYST HIGHLIGHTS:
 {upside_note}
 
-DOWNSIDE SPECIALIST ASSESSMENT:
+DOWNSIDE RISK HIGHLIGHTS:
 {downside_note}
 
-Full Analyst Reports (for verification):
-{_format_reports_for_judge(state)}
+Decision framework:
+- Read specialist notes as incremental evidence only.
+- Confirm PRIOR_VIEW unless specialist evidence is both genuinely new and direction-changing.
+- Override only when a specialist note identifies a specific near-term catalyst or risk that was not explicit in prior evidence and materially changes expected price path.
+- Use HOLD only when, after delta review, BUY and SELL paths are both concrete and similarly plausible.
+- Do not treat repeated evidence or generic caution as sufficient override.
+- Apply the same burden of proof for BUY and SELL.
 
-DECISION PROTOCOL — apply in order, stop at the first rule that fires:
-1. Read OVERRIDE_STRENGTH in the DOWNSIDE SPECIALIST ASSESSMENT.
-2. If OVERRIDE_STRENGTH is NO_OVERRIDE → confirm prior unchanged. Set prior_confirmed=true.
-3. If OVERRIDE_STRENGTH is REDUCE_CONFIDENCE and the cited risk is horizon-relevant and specific
-   (not generic caution or valuation language) → keep prior direction, lower confidence by one
-   level, set prior_confirmed=true.
-4. If OVERRIDE_STRENGTH is OVERRIDE and the cited risk is materially stronger than the evidence
-   that produced the prior AND has a clear transmission path within {horizon_days} days →
-   change direction, set prior_confirmed=false, populate override_reason with the specific
-   evidence cited by the downside analyst.
-5. Use HOLD with prior_confirmed=false ONLY when step 4 override evidence creates genuine
-   irresolvable uncertainty about direction (not merely cross-pressure between upside and
-   downside notes).
+Field guidance:
+- primary_drivers: 1-2 concrete items that drove decision.
+- main_risk: single most important named risk.
+- override_reason: empty when confirmed; if overridden, state the new evidence and why prior path is invalidated.
+- buy_score and sell_score: descriptive only, not decision rules.
 
-Do NOT output HOLD because both notes raise valid points.
-Do NOT override the prior for a risk that was already present in the analyst reports.
-Do NOT treat REDUCE_CONFIDENCE as justification to flip direction.
+Return strict JSON with all fields populated (use concise text when uncertain; do not leave required fields blank):
 
-REQUIRED field rules — do NOT leave these at defaults:
-- primary_drivers: MUST contain 1-2 non-empty strings citing the specific evidence driving your decision.
-- main_risk: MUST be a specific named risk, not 'Unknown'.
-- buy_score: MUST reflect active upside evidence strength 0-10 (not 5.0 by default).
-- sell_score: MUST reflect active downside evidence strength 0-10 (not 5.0 by default).
-
-Return JSON:
 {{
     "recommendation": "BUY" | "SELL" | "HOLD",
     "prior_view": "{prior_view}",
     "prior_confirmed": true | false,
-    "override_reason": "<specific evidence from downside note that caused override, or empty string>",
+    "override_reason": "<if prior_confirmed=false, state exact new evidence that met the two-part override bar. Otherwise empty.>",
     "confidence_score": <0.0 - 1.0>,
-    "buy_score": <0-10, must reflect actual upside evidence strength>,
-    "sell_score": <0-10, must reflect actual downside evidence strength>,
-    "primary_drivers": ["<evidence item 1>", "<evidence item 2 if applicable>"],
-    "main_risk": "<specific named risk — not Unknown>",
+    "buy_score": <0-10>,
+    "sell_score": <0-10>,
+    "primary_drivers": ["<evidence 1>", "<evidence 2>"],
+    "main_risk": "<single most important named risk to the final decision>",
     "base_view_from_reports": "{prior_view}",
     "base_view_rationale": "<1 sentence: confirm prior or explain override>",
-    "upside_note_impact": "<UPSIDE_STRENGTH value from upside note, or NO_NEW_UPSIDE>",
-    "downside_note_impact": "<OVERRIDE_STRENGTH value from downside note>",
-    "actionability_assessment": "<1 short sentence on which side has the clearer active near-term path>",
-    "hold_gate_assessment": "<1 short sentence: is this genuine irresolvable uncertainty or background caution>"
+    "upside_note_impact": "<concise: impact of upside note on final view>",
+    "downside_note_impact": "<concise: impact of downside note on final view>",
+    "actionability_assessment": "<concise: near-term price action path>",
+    "hold_gate_assessment": "<concise: whether uncertainty is irresolvable>"
 }}"""
-
-
-def _build_stage_cd_manager_prompt(
-    state: dict,
-    ticker: str,
-    horizon_days: int,
-    spread_threshold: float,
-    debate_history: str,
-) -> str:
-    return f"""Role: Research Manager.
-Task: choose BUY, SELL, or HOLD for {ticker} over the next {horizon_days} trading days.
-
-Use only the evidence below. No external facts.
-Apply symmetric criteria for BUY and SELL.
-
-Scoring policy:
-1) Score the BUY case from 0-10 using only concrete evidence in debate.
-2) Score the SELL case from 0-10 using only concrete evidence in debate.
-3) Decision rule:
-   - BUY_SCORE - SELL_SCORE >= {spread_threshold:g} -> BUY
-   - SELL_SCORE - BUY_SCORE >= {spread_threshold:g} -> SELL
-   - Otherwise -> HOLD
-
-Set confidence_score in [0, 1] as probability-like confidence for the chosen direction.
-
-Primary driver rule:
-- primary_drivers must include BOTH: 1-2 drivers supporting the chosen direction
-  and 1 driver labeled "COUNTERPOINT:".
-- main_risk must be the strongest counterpoint.
-
-Signal Summary:
-{_format_signal_summary_for_debate(state)}
-
-Analyst Reports:
-{_format_reports_for_judge(state)}
-
-Debate:
-{debate_history}
-
-Return strict JSON matching schema fields:
-buy_score, sell_score, recommendation, confidence_score, primary_drivers, main_risk, execution_notes."""
 
 
 def bull_researcher_agent(state: dict):
     """
     Reused research-layer node.
-    - Stage B / B+: Upside Catalyst Analyst (non-adversarial extractor)
-    - Stage C / D: Bull Researcher in adversarial debate
+        - Stage B / B+ / C / D: Upside Catalyst Analyst-style non-adversarial extractor
+            when debate mode is active
     """
     reports = state.get('reports', {})
     ticker = state.get('ticker', '')
@@ -394,46 +354,64 @@ Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
     horizon_context = f"TRADING HORIZON: {horizon_days} trading days ({horizon}-term). Tailor your extraction to evidence most likely to materialise within this window."
 
     single_extraction_mode = _is_single_extraction_mode(state)
+    two_part_format = _use_two_part_specialist_format(state)
 
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 0:
         # First round - opening argument with cross-examination prep
         if single_extraction_mode:
-            prompt = f"""Role: Upside Catalyst Analyst for {ticker}.
-Task: assess the strength of the upside case in the analyst reports for the next {horizon_days} trading days.
+            if two_part_format:
+                prompt = f"""Role: Upside Catalyst Analyst for {ticker}.
+Task: extract the strongest near-term upside catalysts from the analyst reports.
 
 {horizon_context}
 
 Use only the reports below. No external facts.
-Rate whether the upside evidence is genuinely strong or merely present using the FINAL_VIEW and CONFIDENCE fields as your anchor:
-- If any report has FINAL_VIEW: BULLISH with CONFIDENCE: HIGH → upside case is at minimum MODERATE, unless a technically dominant contrary signal (e.g. BEARISH HIGH technical with price well below SMA) completely controls near-term price action.
-- If any report has FINAL_VIEW: BULLISH with CONFIDENCE: MEDIUM → upside case is at minimum WEAK.
-- If upside is speculative, reversal-only (e.g. mean-reversion bounce only), or unsupported by concrete evidence → WEAK or NO_NEW_UPSIDE.
-Do NOT manufacture upside. Do NOT reduce a BULLISH HIGH fundamental report to a bounce narrative.
+Your objective is to identify any concrete, actionable evidence that supports a breakout or bullish continuation within {horizon_days} trading days.
+Evaluate the evidence holistically. Focus on earnings surprises, technical breakouts, or specific positive news events.
+Ignore speculative assumptions and focus only on documented catalysts.
 
 Full Analyst Reports:
 {_format_reports_for_judge(state)}
 
 Output format (strict):
 - UPSIDE_STRENGTH: STRONG | MODERATE | WEAK | NO_NEW_UPSIDE
-- UPSIDE_NOTE: (omit if UPSIDE_STRENGTH is NO_NEW_UPSIDE) up to 60 words. State the single strongest upside catalyst and its near-term transmission path.
+- UPSIDE_CORE: if UPSIDE_STRENGTH is not NO_NEW_UPSIDE, up to 55 words describing the single strongest upside catalyst and transmission path. If NO_NEW_UPSIDE, output NONE.
+- UPSIDE_FALSIFIER: one concise, observable condition that would invalidate UPSIDE_CORE within {horizon_days} trading days. If NO_NEW_UPSIDE, output NONE.
+
+Keep it concise. Start directly with the format."""
+            else:
+                prompt = f"""Role: Upside Catalyst Analyst for {ticker}.
+Task: extract the strongest near-term upside catalysts from the analyst reports.
+
+{horizon_context}
+
+Use only the reports below. No external facts.
+Your objective is to identify any concrete, actionable evidence that supports a breakout or bullish continuation within {horizon_days} trading days.
+Evaluate the evidence holistically. Focus on earnings surprises, technical breakouts, or specific positive news events.
+Ignore speculative assumptions and focus only on documented catalysts.
+
+Full Analyst Reports:
+{_format_reports_for_judge(state)}
+
+Output format (strict):
+- UPSIDE_STRENGTH: STRONG | MODERATE | WEAK | NO_NEW_UPSIDE
+- UPSIDE_NOTE: (omit if UPSIDE_STRENGTH is NO_NEW_UPSIDE) up to 80 words. State the most powerful upside catalyst found and how it transmits into price action.
 
 Keep it concise. Start directly with the format."""
         else:
             prompt = f"""Role: Bull Researcher for {ticker}.
-    Task: present the strongest directional case for the next {horizon_days} trading days.
+    Task: advocate for the most compelling bullish interpretation of the evidence, if one exists.
 
     {horizon_context}
 
     Use only the analyst signal summary below {"and memory notes" if memory_context else ""}. Do not add external facts.
     If evidence is missing, write UNKNOWN.
+    If the evidence points overwhelmingly downward, concede by outputting a HOLD or SELL stance. Do not invent a bullish case from weak evidence.
 
     Mandatory lead structure:
     1) Start with the single strongest near-term catalyst first.
     2) Include at least one concrete value/date if present in context.
-
-    Falsifiability rule:
-    - If 2 or more analyst signals are BEARISH with confidence >= 0.65, you must NOT output BUY.
 
     Analyst Signal Summary:
     {_format_signal_summary_for_debate(state)}
@@ -450,16 +428,34 @@ Keep it concise. Start directly with the format."""
     else:
         # Subsequent rounds - cross-examination with direct rebuttal
         if single_extraction_mode:
-            prompt = f"""Role: Upside Catalyst Analyst for {ticker}.
+            if two_part_format:
+                prompt = f"""Role: Upside Catalyst Analyst for {ticker}.
 Task: re-assess the strength of the upside case in the analyst reports for the next {horizon_days} trading days.
 
 {horizon_context}
 
 Use only the reports already provided. No outside facts.
-Use the FINAL_VIEW and CONFIDENCE fields as your anchor:
-- FINAL_VIEW: BULLISH with CONFIDENCE: HIGH → at minimum MODERATE unless a technically dominant contrary signal controls near-term price action.
-- FINAL_VIEW: BULLISH with CONFIDENCE: MEDIUM → at minimum WEAK.
-Do NOT manufacture upside. Do NOT reduce a BULLISH HIGH fundamental to a bounce narrative.
+Do not force upside from prior labels. Re-assess only from concrete evidence that can plausibly move price within the stated horizon.
+If no specific, near-term upside catalyst is present, output UPSIDE_STRENGTH: NO_NEW_UPSIDE.
+
+Full Analyst Reports:
+{_format_reports_for_judge(state)}
+
+Output format (strict):
+- UPSIDE_STRENGTH: STRONG | MODERATE | WEAK | NO_NEW_UPSIDE
+- UPSIDE_CORE: if UPSIDE_STRENGTH is not NO_NEW_UPSIDE, up to 45 words naming the single strongest upside catalyst and transmission path. If NO_NEW_UPSIDE, output NONE.
+- UPSIDE_FALSIFIER: one concise, observable condition that would invalidate UPSIDE_CORE within {horizon_days} trading days. If NO_NEW_UPSIDE, output NONE.
+
+Keep it concise. Start directly with the format."""
+            else:
+                prompt = f"""Role: Upside Catalyst Analyst for {ticker}.
+Task: re-assess the strength of the upside case in the analyst reports for the next {horizon_days} trading days.
+
+{horizon_context}
+
+Use only the reports already provided. No outside facts.
+Do not force upside from prior labels. Re-assess only from concrete evidence that can plausibly move price within the stated horizon.
+If no specific, near-term upside catalyst is present, output UPSIDE_STRENGTH: NO_NEW_UPSIDE.
 
 Full Analyst Reports:
 {_format_reports_for_judge(state)}
@@ -471,14 +467,12 @@ Output format (strict):
 Keep it concise. Start directly with the format."""
         else:
             prompt = f"""Role: Bull Researcher (round {debate_state['count']+1}) for {ticker}.
-    Task: rebut the strongest bearish points with evidence.
+    Task: rebut the strongest bearish points using only concrete evidence.
 
     {horizon_context}
 
     Use only the signal summary below. No outside facts.
-
-    Falsifiability rule:
-    - If bearish evidence dominates after rebuttal, output UPDATED_STANCE as SELL or HOLD (not BUY).
+    Concede points where the bearish evidence is demonstrably stronger. Do not force a BUY stance if the evidence after rebuttal points downwards.
 
     Signal Summary:
     {_format_signal_summary_for_debate(state)}
@@ -516,8 +510,8 @@ Keep it concise. Start directly with the format."""
 def bear_researcher_agent(state: dict):
     """
     Reused research-layer node.
-    - Stage B / B+: Downside Risk Analyst (non-adversarial extractor)
-    - Stage C / D: Bear Researcher in adversarial debate
+        - Stage B / B+ / C / D: Downside Risk Analyst-style non-adversarial extractor
+            when debate mode is active
     """
     reports = state.get('reports', {})
     ticker = state.get('ticker', '')
@@ -564,6 +558,7 @@ Past Mistake {i}:
     horizon_context = f"TRADING HORIZON: {horizon_days} trading days ({horizon}-term). Tailor your extraction to risks most likely to materialise within this window."
 
     single_extraction_mode = _is_single_extraction_mode(state)
+    two_part_format = _use_two_part_specialist_format(state)
 
     # 1. Construct the prompt for the LLM
     if debate_state['count'] == 1:
@@ -572,36 +567,54 @@ Past Mistake {i}:
         # Both sides open without reading each other. Manager judges two independent cases.
         # In round 2+ each side sees the other's full history and can rebut directly.
         if single_extraction_mode:
-            prompt = f"""Role: Downside Risk Analyst for {ticker}.
-Task: assess whether any downside risk in the analyst reports is strong enough to override the Research Manager's current direction within the next {horizon_days} trading days.
+            if two_part_format:
+                prompt = f"""Role: Downside Risk Analyst for {ticker}.
+Task: extract the strongest near-term downside risks and bearish catalysts from the analyst reports.
 
 {horizon_context}
 
 Use only the reports below. No external facts.
-Your job is NOT to find any downside — it is to rate whether a concrete, specific, near-term risk exists that could cause the current directional thesis to fail.
-Ignore generic caution, valuation language, soft chart fragility, or risks that are already acknowledged in the analyst reports and priced in.
-If no such risk exists, output OVERRIDE_STRENGTH: NO_OVERRIDE. This is a valid and often correct output.
-Do NOT manufacture risk. Do NOT output REDUCE_CONFIDENCE or OVERRIDE unless you can cite a specific piece of evidence.
+Your objective is to identify any concrete, actionable evidence that supports a breakdown, reversal, or continued negative momentum within {horizon_days} trading days.
+Focus on weakening fundamentals, technical breakdowns, or specific negative catalysts.
+Do not highlight generic market caution. Look for active, specific threats to the stock price.
 
 Full Analyst Reports:
 {_format_reports_for_judge(state)}
 
 Output format (strict):
-- OVERRIDE_STRENGTH: OVERRIDE | REDUCE_CONFIDENCE | NO_OVERRIDE
-- OVERRIDE_NOTE: (required if OVERRIDE_STRENGTH is not NO_OVERRIDE) up to 60 words. State the specific risk, its near-term transmission path, and why it is NOT already priced in.
+- DOWNSIDE_STRENGTH: STRONG | MODERATE | WEAK | NO_NEW_DOWNSIDE
+- DOWNSIDE_CORE: if DOWNSIDE_STRENGTH is not NO_NEW_DOWNSIDE, up to 55 words describing the single strongest downside risk and impact mechanism. If NO_NEW_DOWNSIDE, output NONE.
+- DOWNSIDE_FALSIFIER: one concise, observable condition that would invalidate DOWNSIDE_CORE within {horizon_days} trading days. If NO_NEW_DOWNSIDE, output NONE.
+
+Keep it concise. Start directly with the format."""
+            else:
+                prompt = f"""Role: Downside Risk Analyst for {ticker}.
+Task: extract the strongest near-term downside risks and bearish catalysts from the analyst reports.
+
+{horizon_context}
+
+Use only the reports below. No external facts.
+Your objective is to identify any concrete, actionable evidence that supports a breakdown, reversal, or continued negative momentum within {horizon_days} trading days.
+Focus on weakening fundamentals, technical breakdowns, or specific negative catalysts.
+Do not highlight generic market caution. Look for active, specific threats to the stock price.
+
+Full Analyst Reports:
+{_format_reports_for_judge(state)}
+
+Output format (strict):
+- DOWNSIDE_STRENGTH: STRONG | MODERATE | WEAK | NO_NEW_DOWNSIDE
+- DOWNSIDE_NOTE: (omit if DOWNSIDE_STRENGTH is NO_NEW_DOWNSIDE) up to 80 words. State the single strongest downside risk found and its exact mechanism of impact.
 
 Keep it concise. Start directly with the format."""
         else:
             prompt = f"""Role: Bear Researcher for {ticker}.
-    Task: present the strongest directional case for the next {horizon_days} trading days.
+    Task: advocate for the most compelling bearish interpretation of the evidence (downside risks and catalysts), if one exists.
 
     {horizon_context}
 
     Use only the analyst signal summary below {"and memory notes" if memory_context else ""}. Do not add external facts.
     If evidence is missing, write UNKNOWN.
-
-    Falsifiability rule:
-    - If 2 or more analyst signals are BULLISH with confidence >= 0.65, you must NOT output SELL.
+    If the evidence points overwhelmingly upward, concede by outputting a HOLD or BUY stance. Do not invent a bearish case from weak evidence.
 
     Analyst Signal Summary:
     {_format_signal_summary_for_debate(state)}
@@ -620,33 +633,49 @@ Keep it concise. Start directly with the format."""
     else:
         # Subsequent rounds - cross-examination with direct counter-rebuttal
         if single_extraction_mode:
-            prompt = f"""Role: Downside Risk Analyst for {ticker}.
-Task: re-assess whether any downside risk in the analyst reports is strong enough to override the current directional thesis within the next {horizon_days} trading days.
+            if two_part_format:
+                prompt = f"""Role: Downside Risk Analyst for {ticker}.
+Task: re-assess whether any downside risk in the analyst reports serves as a strong bearish catalyst within the next {horizon_days} trading days.
 
 {horizon_context}
 
 Use only the reports already provided. No outside facts.
-If no concrete, specific, near-term override-level risk exists, output OVERRIDE_STRENGTH: NO_OVERRIDE.
-Do NOT manufacture risk.
+If no concrete, specific, near-term risk exists, output DOWNSIDE_STRENGTH: NO_NEW_DOWNSIDE.
 
 Full Analyst Reports:
 {_format_reports_for_judge(state)}
 
 Output format (strict):
-- OVERRIDE_STRENGTH: OVERRIDE | REDUCE_CONFIDENCE | NO_OVERRIDE
-- OVERRIDE_NOTE: (required if OVERRIDE_STRENGTH is not NO_OVERRIDE) up to 60 words. Specific risk, near-term transmission path, why not already priced.
+- DOWNSIDE_STRENGTH: STRONG | MODERATE | WEAK | NO_NEW_DOWNSIDE
+- DOWNSIDE_CORE: if DOWNSIDE_STRENGTH is not NO_NEW_DOWNSIDE, up to 45 words naming the strongest downside risk and impact mechanism. If NO_NEW_DOWNSIDE, output NONE.
+- DOWNSIDE_FALSIFIER: one concise, observable condition that would invalidate DOWNSIDE_CORE within {horizon_days} trading days. If NO_NEW_DOWNSIDE, output NONE.
+
+Keep it concise. Start directly with the format."""
+            else:
+                prompt = f"""Role: Downside Risk Analyst for {ticker}.
+Task: re-assess whether any downside risk in the analyst reports serves as a strong bearish catalyst within the next {horizon_days} trading days.
+
+{horizon_context}
+
+Use only the reports already provided. No outside facts.
+If no concrete, specific, near-term risk exists, output DOWNSIDE_STRENGTH: NO_NEW_DOWNSIDE.
+
+Full Analyst Reports:
+{_format_reports_for_judge(state)}
+
+Output format (strict):
+- DOWNSIDE_STRENGTH: STRONG | MODERATE | WEAK | NO_NEW_DOWNSIDE
+- DOWNSIDE_NOTE: (omit if DOWNSIDE_STRENGTH is NO_NEW_DOWNSIDE) up to 80 words.
 
 Keep it concise. Start directly with the format."""
         else:
             prompt = f"""Role: Bear Researcher (round {debate_state['count']+1}) for {ticker}.
-    Task: rebut the strongest bullish points with evidence.
+    Task: rebut the strongest bullish points using only concrete evidence.
 
     {horizon_context}
 
     Use only the signal summary below. No outside facts.
-
-    Falsifiability rule:
-    - If bullish evidence dominates after rebuttal, output UPDATED_STANCE as BUY or HOLD (not SELL).
+    Concede points where the bullish evidence is demonstrably stronger. Do not force a SELL stance if the evidence after rebuttal points upwards.
 
     Signal Summary:
     {_format_signal_summary_for_debate(state)}
@@ -692,11 +721,9 @@ def research_manager_agent(state: dict):
     horizon_days = state.get('horizon_days') or state.get('run_config', {}).get('horizon_days', 10)
 
     run_config = state.get("run_config", {}) or {}
-    stage = (run_config.get("stage") or "").strip().upper() or None
     debate_mode = (run_config.get("debate_mode") or "on").strip().lower()
     debate_rounds = int(run_config.get("debate_rounds") or 0)
     debate_enabled = debate_mode != "off" and debate_rounds > 0
-    single_extraction_mode = _is_single_extraction_mode(state)
 
     # =========================================================================
     # PATH A: Stage A — clean single-pass LLM synthesis, no rules, no overrides
@@ -753,49 +780,39 @@ Return JSON:
 
     # =========================================================================
     # PATH B: Debate-enabled stages (B / B+ / C / D).
-    # For B/B+, the extra agent layer is structured evidence extraction, not winner-picking debate.
-    # No spread rule for B/B+. Scores are descriptive metadata only and recommendation stays holistic.
-    # Spread rule retained for C/D only (separate scoring protocol).
+    # Shared manager policy across B / B+ / C / D.
+    # Research specialists are structured extractors, not winner-picking debate.
+    # Scores are descriptive metadata only; recommendation remains holistic.
+    # Stage differentiation after this point comes from Trader behavior and risk_mode.
     # =========================================================================
     else:
         upside_note = (debate_state.get('bull_history', '') or '').strip()
         downside_note = (debate_state.get('bear_history', '') or '').strip()
-        if single_extraction_mode:
-            # --- v6 anchored prior ---
-            # Compute Stage A-equivalent prior from analyst reports alone, before reading
-            # specialist notes.  This prevents simultaneous contamination: the manager
-            # starts from a committed direction and changes it only when the override bar is met.
-            cached_prior = _get_cached_stage_a_prior(state)
-            prior = cached_prior or _get_stage_a_prior(state, ticker, horizon_days)
-            prior_view = prior.recommendation
-            # Store in state so downstream stages (B+, C) can read provenance without re-computing.
-            state["prior_view"] = prior_view
-            cache_context = state.get("cache_context", {}) or {}
-            cache_context["cached_stage_a_prior_used"] = bool(cached_prior is not None)
-            state["cache_context"] = cache_context
-            provenance = state.get("provenance", {}) or {}
-            cache_provenance = provenance.get("cache", {}) or {}
-            cache_provenance["cached_stage_a_prior_used"] = bool(cached_prior is not None)
-            provenance["cache"] = cache_provenance
-            state["provenance"] = provenance
-            prompt = _build_stage_b_manager_prompt(
-                state=state,
-                ticker=ticker,
-                horizon_days=horizon_days,
-                upside_note=upside_note,
-                downside_note=downside_note,
-                prior_view=prior_view,
-            )
-        else:
-            # C/D: spread rule applied — both in prompt and in code post-LLM
-            spread_threshold = 1.0
-            prompt = _build_stage_cd_manager_prompt(
-                state=state,
-                ticker=ticker,
-                horizon_days=horizon_days,
-                spread_threshold=spread_threshold,
-                debate_history=debate_history,
-            )
+        # --- v6 anchored prior ---
+        # Compute Stage A-equivalent prior from analyst reports alone, before reading
+        # specialist notes. This prevents simultaneous contamination: the manager
+        # starts from a committed direction and changes it only when the override bar is met.
+        cached_prior = _get_cached_stage_a_prior(state)
+        prior = cached_prior or _get_stage_a_prior(state, ticker, horizon_days)
+        prior_view = prior.recommendation
+        # Store in state so downstream stages (B+, C, D) can read provenance without re-computing.
+        state["prior_view"] = prior_view
+        cache_context = state.get("cache_context", {}) or {}
+        cache_context["cached_stage_a_prior_used"] = bool(cached_prior is not None)
+        state["cache_context"] = cache_context
+        provenance = state.get("provenance", {}) or {}
+        cache_provenance = provenance.get("cache", {}) or {}
+        cache_provenance["cached_stage_a_prior_used"] = bool(cached_prior is not None)
+        provenance["cache"] = cache_provenance
+        state["provenance"] = provenance
+        prompt = _build_stage_b_manager_prompt(
+            state=state,
+            ticker=ticker,
+            horizon_days=horizon_days,
+            upside_note=upside_note,
+            downside_note=downside_note,
+            prior_view=prior_view,
+        )
 
         try:
             decision = call_llm_structured(prompt, ResearchManagerDecision, temperature=0.2)
@@ -811,17 +828,8 @@ Return JSON:
                 execution_notes=[fallback_text[:300]],
             )
 
-        # For B/B+: LLM recommendation IS the recommendation — no numeric post-override.
-        # buy_score and sell_score are descriptive metadata for UI gauges and calibration.
-        # For C/D: spread rule still applies (kept below for those stages).
-        if not single_extraction_mode:
-            spread = decision.buy_score - decision.sell_score
-            if spread >= spread_threshold:
-                decision.recommendation = "BUY"
-            elif spread <= -spread_threshold:
-                decision.recommendation = "SELL"
-            else:
-                decision.recommendation = "HOLD"
+        # LLM recommendation IS the recommendation — no numeric post-override.
+        # buy_score and sell_score are descriptive metadata for calibration.
 
         # LLM-estimated confidence is diagnostic data — no cap applied.
         decision.confidence_score = float(decision.confidence_score or 0.0)

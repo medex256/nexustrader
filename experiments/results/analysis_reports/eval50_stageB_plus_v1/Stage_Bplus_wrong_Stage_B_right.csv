@@ -1,0 +1,4 @@
+ticker,simulated_date,action_Stage B+,action_Stage B,true_label,k_return,correct_Stage B+,correct_Stage B,flip_helped,flip_hurt
+NVDA,2024-12-02,BUY,HOLD,HOLD,-0.04775958737908176,0,1,True,False
+JNJ,2021-11-15,BUY,HOLD,HOLD,-0.04017058330756282,0,1,True,False
+NVDA,2025-08-11,BUY,HOLD,HOLD,-0.012358521953265271,0,1,True,False

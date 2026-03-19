@@ -1,0 +1,4 @@
+run_label,n,overall_acc_%,dir_acc_ex_hold_%,dir_n,hold_n,hold_rate_%,avg_pos_%_non_hold,BLOCK_n,REDUCE_n,CLEAR_n
+Stage B,385,51.17,53.59,306,79,20.52,0.0,0,0,0
+Stage C-R1,385,51.43,53.9,295,90,23.38,4.6492,20,186,179
+Stage B+ R1 for C,385,50.65,54.42,283,102,26.49,3.7279,25,283,77

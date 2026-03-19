@@ -1,0 +1,3 @@
+ticker,simulated_date,action_A,action_B,true_label,k_return,correct_A,correct_B,flip_helped,flip_hurt
+NVDA,2022-01-17,BUY,HOLD,HOLD,-0.04883595125206937,0,1,True,False
+JPM,2024-12-02,BUY,HOLD,HOLD,-0.027086215065335786,0,1,True,False
