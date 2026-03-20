@@ -103,6 +103,67 @@ def _format_risk_debate_for_judge(state: dict) -> str:
 
     return "\n".join(lines)
 
+
+def _extract_risk_vote(response: str) -> dict:
+    """Parse tribunal vote fields from a risk analyst response."""
+    text = response or ""
+
+    def pick(pattern: str, default: str = "N/A") -> str:
+        m = re.search(pattern, text, re.IGNORECASE)
+        return (m.group(1).strip() if m else default)
+
+    vote = pick(r"(?:^|\n)\s*-\s*(?:UPDATED_)?VOTE\s*:\s*(BLOCK|REDUCE|CLEAR)")
+    unresolved_breaker = pick(r"(?:^|\n)\s*-\s*(?:UPDATED_)?UNRESOLVED_BREAKER\s*:\s*(.+)")
+    breaker_strength = pick(r"(?:^|\n)\s*-\s*(?:UPDATED_)?BREAKER_STRENGTH\s*:\s*(LOW|MEDIUM|HIGH)")
+    horizon_relevance = pick(r"(?:^|\n)\s*-\s*(?:UPDATED_)?HORIZON_RELEVANCE\s*:\s*(YES|NO)")
+    novelty = pick(r"(?:^|\n)\s*-\s*(?:UPDATED_)?NOVELTY_VS_UPSTREAM\s*:\s*(NEW|ALREADY_KNOWN)")
+    veto_confidence = pick(r"(?:^|\n)\s*-\s*(?:UPDATED_)?VETO_CONFIDENCE\s*:\s*(LOW|MEDIUM|HIGH)")
+    confidence = pick(r"(?:^|\n)\s*-\s*(?:UPDATED_)?CONFIDENCE\s*:\s*(LOW|MEDIUM|HIGH)")
+
+    return {
+        "vote": vote.upper() if vote != "N/A" else "N/A",
+        "unresolved_breaker": unresolved_breaker,
+        "breaker_strength": breaker_strength.upper() if breaker_strength != "N/A" else "N/A",
+        "horizon_relevance": horizon_relevance.upper() if horizon_relevance != "N/A" else "N/A",
+        "novelty": novelty.upper() if novelty != "N/A" else "N/A",
+        "veto_confidence": veto_confidence.upper() if veto_confidence != "N/A" else "N/A",
+        "confidence": confidence.upper() if confidence != "N/A" else "N/A",
+    }
+
+
+def _format_risk_votes_for_judge(state: dict) -> str:
+    """Create a compact tribunal table for the risk judge prompt."""
+    risk_state = state.get("risk_debate_state", {}) or {}
+    votes = risk_state.get("votes", {}) or {}
+
+    rows = []
+    for role_key, role_name in [
+        ("aggressive", "Aggressive"),
+        ("conservative", "Conservative"),
+        ("neutral", "Neutral"),
+    ]:
+        v = votes.get(role_key, {}) or {}
+        rows.append(
+            f"- {role_name}: VOTE={v.get('vote', 'N/A')}, "
+            f"BREAKER_STRENGTH={v.get('breaker_strength', 'N/A')}, "
+            f"HORIZON_RELEVANCE={v.get('horizon_relevance', 'N/A')}, "
+            f"NOVELTY={v.get('novelty', 'N/A')}, "
+            f"VETO_CONFIDENCE={v.get('veto_confidence', 'N/A')}, "
+            f"CONFIDENCE={v.get('confidence', 'N/A')}, "
+            f"UNRESOLVED_BREAKER={v.get('unresolved_breaker', 'N/A')}"
+        )
+
+    vote_values = [str((votes.get(k, {}) or {}).get("vote", "")).upper() for k in ("aggressive", "conservative", "neutral")]
+    block_n = sum(1 for x in vote_values if x == "BLOCK")
+    reduce_n = sum(1 for x in vote_values if x == "REDUCE")
+    clear_n = sum(1 for x in vote_values if x == "CLEAR")
+
+    header = [
+        "**RISK TRIBUNAL VOTES**",
+        f"- Vote counts: BLOCK={block_n}, REDUCE={reduce_n}, CLEAR={clear_n}",
+    ]
+    return "\n".join(header + rows)
+
 def aggressive_risk_analyst(state: dict):
     """
     The Aggressive Risk Analyst - Advocates for taking calculated risks.
@@ -121,11 +182,13 @@ def aggressive_risk_analyst(state: dict):
             'aggressive_history': '',
             'conservative_history': '',
             'neutral_history': '',
+            'votes': {},
             'latest_speaker': '',
             'count': 0,
         }
     
     debate_state = state['risk_debate_state']
+    debate_state.setdefault('votes', {})
     strategy = state.get("trading_strategy", {}) or {}
     action = (strategy.get("action") or "HOLD").upper()
     
@@ -144,61 +207,69 @@ def aggressive_risk_analyst(state: dict):
     conservative_last = debate_state.get('conservative_history', '')
     neutral_last = debate_state.get('neutral_history', '')
     
-    # Build prompt
+    # Build lean prompt (Stage C/D only; B/B+ paths are unaffected)
     if debate_state['count'] == 0:
-        # First round - opening argument
-        prompt = f"""Role: Risk Analyst A for {ticker}.
-    Task: identify the strongest evidence that the proposed thesis can survive this horizon.
+        prompt = f"""Role: Aggressive Risk Analyst for {ticker}.
+    Task: build the strongest evidence-based rescue case for the proposed thesis at this horizon.
+    You are not allowed to ignore breakers; your job is to test whether a credible survival path exists.
 
-    Trader action: {action}
-    Research Manager action: {rm_action}
-    {disagreement_note}
-    Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
-    Analyst Evidence:
-    {_format_reports_for_risk_debate(state)}
-    Strategy:
-    {strategy}
+Proposed Action: {action}
+Research Manager Action: {rm_action}
+{disagreement_note}
+Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
+Strategy Context:
+{strategy}
 
-    Use only provided context. No outside facts.
-    Be evidence-led, not directional cheerleading.
+Return concise text in this exact format:
+Aggressive Analyst:
+- THESIS_SURVIVAL_CLAIM: <1 line>
+- RESCUE_MECHANISM_WITHIN_HORIZON: <1 line>
+- UNRESOLVED_BREAKER: <1 line>
+- BREAKER_STRENGTH: LOW | MEDIUM | HIGH
+- HORIZON_RELEVANCE: YES | NO
+- VOTE: BLOCK | REDUCE | CLEAR
+- NOVELTY_VS_UPSTREAM: NEW | ALREADY_KNOWN
+- VETO_CONFIDENCE: LOW | MEDIUM | HIGH
+- CONFIDENCE: LOW | MEDIUM | HIGH
 
-    Output:
-    - THESIS_SURVIVAL_CLAIM: 1 line
-    - STRONGEST_SUPPORT_EVIDENCE: 1 bullet (specific evidence and why it supports survival)
-    - STRONGEST_BREAKER_ACKNOWLEDGED: 1 bullet
-    - BREAKER_STRENGTH: LOW | MEDIUM | HIGH
-    - HORIZON_RELEVANCE: YES | NO
-    - SURVIVAL_CONFIDENCE: LOW | MEDIUM | HIGH
+Calibration:
+- If no credible rescue mechanism exists within horizon, do not force optimism.
+- BLOCK is valid when breaker cannot be neutralized by concrete near-term evidence.
 
-    Keep under 160 words. Start with "Aggressive Analyst:"."""
+Keep under 130 words."""
     else:
-        # Subsequent rounds - respond to other analysts
-        prompt = f"""Role: Risk Analyst A in debate for {ticker}.
-    Task: reassess whether the thesis can still survive after opposing evidence.
-
-    Strategy: {action}
-    Market: VIX={volatility_index}, Risk={ticker_risk}
-    Evidence:
-    {_format_reports_for_risk_debate(state)}
-    Conservative view:
-    {conservative_last if conservative_last else "N/A"}
-    Neutral view:
-    {neutral_last if neutral_last else "N/A"}
-
+        prompt = f"""Role: Aggressive Risk Analyst for {ticker}.
+    Task: update your rescue-case assessment after reviewing opposing arguments.
     Use only provided context.
-    Round-2 discipline: output only new evidence, explicit concessions, or confidence updates.
-    Do not restate your round-1 points unless they materially changed.
-    Do not force disagreement. If the breaker is now stronger, concede explicitly.
 
-    Output:
-    - REASSESSMENT: 1 line
-    - UPDATED_STRONGEST_SUPPORT_EVIDENCE: 1 bullet
-    - UPDATED_STRONGEST_BREAKER_ACKNOWLEDGED: 1 bullet
-    - UPDATED_BREAKER_STRENGTH: LOW | MEDIUM | HIGH
-    - UPDATED_HORIZON_RELEVANCE: YES | NO
-    - UPDATED_SURVIVAL_CONFIDENCE: LOW | MEDIUM | HIGH
+Proposed Action: {action}
+Market Context: VIX={volatility_index}, Risk={ticker_risk}
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
+Conservative view:
+{conservative_last if conservative_last else "N/A"}
+Neutral view:
+{neutral_last if neutral_last else "N/A"}
 
-    Keep under 150 words. Start with "Aggressive Analyst:"."""
+Round-2 discipline:
+- Output only updates, concessions, or confidence changes.
+- Do not repeat unchanged points.
+
+Return concise text in this exact format:
+Aggressive Analyst:
+- UPDATED_THESIS_SURVIVAL_CLAIM: <1 line>
+- UPDATED_RESCUE_MECHANISM_WITHIN_HORIZON: <1 line>
+- UPDATED_UNRESOLVED_BREAKER: <1 line>
+- UPDATED_BREAKER_STRENGTH: LOW | MEDIUM | HIGH
+- UPDATED_HORIZON_RELEVANCE: YES | NO
+- UPDATED_VOTE: BLOCK | REDUCE | CLEAR
+- UPDATED_NOVELTY_VS_UPSTREAM: NEW | ALREADY_KNOWN
+- UPDATED_VETO_CONFIDENCE: LOW | MEDIUM | HIGH
+- UPDATED_CONFIDENCE: LOW | MEDIUM | HIGH
+
+Keep under 120 words."""
     
     # Generate response
     response = call_llm(prompt)
@@ -206,6 +277,7 @@ def aggressive_risk_analyst(state: dict):
     # Update debate state
     debate_state['aggressive_history'] += f"\n\n{response}"
     debate_state['history'] += f"\n\n{response}"
+    debate_state.setdefault('votes', {})['aggressive'] = _extract_risk_vote(response)
     debate_state['latest_speaker'] = "Aggressive"
     debate_state['count'] += 1
     
@@ -225,6 +297,7 @@ def conservative_risk_analyst(state: dict):
     simulated_date = state.get("simulated_date") or run_config.get("simulated_date")
     
     debate_state = state.get('risk_debate_state', {})
+    debate_state.setdefault('votes', {})
     strategy = state.get("trading_strategy", {}) or {}
     action = (strategy.get("action") or "HOLD").upper()
     
@@ -243,64 +316,71 @@ def conservative_risk_analyst(state: dict):
     aggressive_last = debate_state.get('aggressive_history', '')
     neutral_last = debate_state.get('neutral_history', '')
     
-    # Build prompt
+    # Build lean prompt (Stage C/D only; B/B+ paths are unaffected)
     if debate_state['count'] == 1:
-        # First response (after aggressive opened)
-        prompt = f"""Role: Risk Analyst B for {ticker}.
-    Task: identify the single strongest evidence-based thesis breaker for this horizon.
+        prompt = f"""Role: Conservative Risk Analyst for {ticker}.
+    Task: act as the committee falsifier and identify whether this thesis should be vetoed at this horizon.
+    Do not re-predict direction. Use only provided evidence.
 
-    Trader action: {action}
-    Research Manager action: {rm_action}
-    {disagreement_note}
-    Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
-    Analyst Evidence:
-    {_format_reports_for_risk_debate(state)}
-    Strategy:
-    {strategy}
-    Aggressive view:
-    {aggressive_last if aggressive_last else "N/A"}
+Proposed Action: {action}
+Research Manager Action: {rm_action}
+{disagreement_note}
+Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
+Strategy Context:
+{strategy}
+Aggressive view:
+{aggressive_last if aggressive_last else "N/A"}
 
-    Use only provided context. No outside facts.
-    Be critical but fair: include the strongest refutation to your breaker.
+Return concise text in this exact format:
+Conservative Analyst:
+- THESIS_BREAKER: <1 line>
+- FALSIFICATION_TRIGGER: <1 line condition that would force BLOCK>
+- UNRESOLVED_BREAKER: <1 line>
+- BREAKER_STRENGTH: LOW | MEDIUM | HIGH
+- HORIZON_RELEVANCE: YES | NO
+- VOTE: BLOCK | REDUCE | CLEAR
+- NOVELTY_VS_UPSTREAM: NEW | ALREADY_KNOWN
+- VETO_CONFIDENCE: LOW | MEDIUM | HIGH
+- CONFIDENCE: LOW | MEDIUM | HIGH
 
-    Output:
-    - THESIS_BREAKER: 1 line
-    - BREAKER_EVIDENCE: 1 bullet (specific evidence -> break mechanism)
-    - BEST_REFUTATION_TO_BREAKER: 1 bullet
-    - BREAKER_STRENGTH: LOW | MEDIUM | HIGH
-    - HORIZON_RELEVANCE: YES | NO
-    - BREAKER_CONFIDENCE: LOW | MEDIUM | HIGH
+Calibration:
+- Be strict on unresolved high-impact breakers.
+- If breaker is HIGH and horizon-relevant with weak refutation, prefer BLOCK.
 
-    Keep under 160 words. Start with "Conservative Analyst:"."""
+Keep under 130 words."""
     else:
-        # Subsequent rounds
-        prompt = f"""Role: Risk Analyst B in debate for {ticker}.
-    Task: re-evaluate the strongest thesis breaker after reviewing other views.
-
-    Strategy: {action}
-    Market: VIX={volatility_index}, Risk={ticker_risk}
-    Evidence:
-    {_format_reports_for_risk_debate(state)}
-    Aggressive view:
-    {aggressive_last if aggressive_last else "N/A"}
-    Neutral view:
-    {neutral_last if neutral_last else "N/A"}
-
+        prompt = f"""Role: Conservative Risk Analyst for {ticker}.
+    Task: update your falsification assessment after reviewing other views.
     Use only provided context.
-    Round-2 discipline: output only new breaker evidence, explicit concessions, or confidence updates.
-    Do not restate your round-1 points unless they materially changed.
-    Do not force disagreement. If your breaker is no longer strongest, downgrade it.
 
-    Output:
-    - REASSESSMENT: 1 line
-    - UPDATED_THESIS_BREAKER: 1 line
-    - UPDATED_BREAKER_EVIDENCE: 1 bullet
-    - UPDATED_BEST_REFUTATION_TO_BREAKER: 1 bullet
-    - UPDATED_BREAKER_STRENGTH: LOW | MEDIUM | HIGH
-    - UPDATED_HORIZON_RELEVANCE: YES | NO
-    - UPDATED_BREAKER_CONFIDENCE: LOW | MEDIUM | HIGH
+Proposed Action: {action}
+Market Context: VIX={volatility_index}, Risk={ticker_risk}
+Analyst Evidence:
+{_format_reports_for_risk_debate(state)}
+Aggressive view:
+{aggressive_last if aggressive_last else "N/A"}
+Neutral view:
+{neutral_last if neutral_last else "N/A"}
 
-    Keep under 150 words. Start with "Conservative Analyst:"."""
+Round-2 discipline:
+- Output only updates, concessions, or confidence changes.
+- Do not repeat unchanged points.
+
+Return concise text in this exact format:
+Conservative Analyst:
+- UPDATED_THESIS_BREAKER: <1 line>
+- UPDATED_FALSIFICATION_TRIGGER: <1 line>
+- UPDATED_UNRESOLVED_BREAKER: <1 line>
+- UPDATED_BREAKER_STRENGTH: LOW | MEDIUM | HIGH
+- UPDATED_HORIZON_RELEVANCE: YES | NO
+- UPDATED_VOTE: BLOCK | REDUCE | CLEAR
+- UPDATED_NOVELTY_VS_UPSTREAM: NEW | ALREADY_KNOWN
+- UPDATED_VETO_CONFIDENCE: LOW | MEDIUM | HIGH
+- UPDATED_CONFIDENCE: LOW | MEDIUM | HIGH
+
+Keep under 120 words."""
     
     # Generate response
     response = call_llm(prompt)
@@ -308,6 +388,7 @@ def conservative_risk_analyst(state: dict):
     # Update debate state
     debate_state['conservative_history'] += f"\n\n{response}"
     debate_state['history'] += f"\n\n{response}"
+    debate_state.setdefault('votes', {})['conservative'] = _extract_risk_vote(response)
     debate_state['latest_speaker'] = "Conservative"
     debate_state['count'] += 1
     
@@ -327,6 +408,7 @@ def neutral_risk_analyst(state: dict):
     simulated_date = state.get("simulated_date") or run_config.get("simulated_date")
     
     debate_state = state.get('risk_debate_state', {})
+    debate_state.setdefault('votes', {})
     strategy = state.get("trading_strategy", {}) or {}
     action = (strategy.get("action") or "HOLD").upper()
     
@@ -345,39 +427,43 @@ def neutral_risk_analyst(state: dict):
     aggressive_last = debate_state.get('aggressive_history', '')
     conservative_last = debate_state.get('conservative_history', '')
     
-    # Build prompt
-    prompt = f"""Role: Risk Analyst Neutral for {ticker}.
-Task: adjudicate which side has stronger evidence for this horizon. Do not output a trade recommendation.
+    # Build lean prompt (Stage C/D only; B/B+ paths are unaffected)
+    prompt = f"""Role: Neutral Risk Analyst for {ticker}.
+Task: act as evidence-integrity auditor and resolve the committee disagreement.
+Do not output BUY/SELL/HOLD. Use only provided context.
 
-Trader action: {action}
-Research Manager action: {rm_action}
+Proposed Action: {action}
+Research Manager Action: {rm_action}
 {disagreement_note}
 Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
-Evidence:
+Analyst Evidence:
 {_format_reports_for_risk_debate(state)}
-Strategy:
+Strategy Context:
 {strategy}
-Analyst A:
+Aggressive view:
 {aggressive_last if aggressive_last else "N/A"}
-Analyst B:
+Conservative view:
 {conservative_last if conservative_last else "N/A"}
 
-Use only provided context.
-Do not split the difference by default.
-Pick a winner (SURVIVAL or BREAKER) unless evidence is genuinely tied.
-Name one decisive evidence conflict that determined your winner.
-
-Output:
+Return concise text in this exact format:
+Neutral Analyst:
 - WINNING_SIDE: SURVIVAL | BREAKER | TIED
-- DECISIVE_EVIDENCE_CONFLICT: 1 line
-- STRONGEST_SURVIVAL_EVIDENCE: 1 bullet
-- STRONGEST_BREAKER_EVIDENCE: 1 bullet
-- UNREFUTED_HIGH_STRENGTH_BREAKER: YES | NO
 - THESIS_STATUS: VALID | INVALID | UNCERTAIN
 - EXECUTION_FRAGILITY_VIEW: LOW | HIGH | N/A
-- WHAT_NEW_EVIDENCE_WOULD_FLIP_DECISION: 1 bullet
+- UNRESOLVED_BREAKER: <1 line>
+- BREAKER_STRENGTH: LOW | MEDIUM | HIGH
+- HORIZON_RELEVANCE: YES | NO
+- VOTE: BLOCK | REDUCE | CLEAR
+- NOVELTY_VS_UPSTREAM: NEW | ALREADY_KNOWN
+- VETO_CONFIDENCE: LOW | MEDIUM | HIGH
+- CONFIDENCE: LOW | MEDIUM | HIGH
 
-Keep under 170 words. Start with "Neutral Analyst:"."""
+Calibration:
+- Do not split by default.
+- Use TIED only when evidence is genuinely balanced.
+- If THESIS_STATUS is INVALID or UNCERTAIN with unresolved HIGH breaker, VOTE should generally be BLOCK.
+
+Keep under 140 words."""
     
     # Generate response
     response = call_llm(prompt)
@@ -385,6 +471,7 @@ Keep under 170 words. Start with "Neutral Analyst:"."""
     # Update debate state
     debate_state['neutral_history'] += f"\n\n{response}"
     debate_state['history'] += f"\n\n{response}"
+    debate_state.setdefault('votes', {})['neutral'] = _extract_risk_vote(response)
     debate_state['latest_speaker'] = "Neutral"
     debate_state['count'] += 1
     
@@ -465,8 +552,8 @@ Decide which side has stronger evidence for the next {horizon_days} trading days
 
     if risk_mode == "debate":
         prompt = f"""Role: Risk Manager (Debate Judge).
-Task: Judge whether the proposed action thesis remains valid for the next {horizon_days} trading days for {ticker}.
-Your objective is risk falsification after considering all three risk analysts, not re-predicting direction from scratch.
+Task: choose final risk judgment for the proposed action over the next {horizon_days} trading days for {ticker}.
+Your job is thesis stress-testing, not direction re-forecasting.
 
 Proposed Action: {trader_action}
 Research Manager Action: {research_manager_action}
@@ -484,42 +571,48 @@ Analyst Evidence:
 Risk Debate Evidence:
 {_format_risk_debate_for_judge(state)}
 
+Risk Tribunal Vote Table:
+{_format_risk_votes_for_judge(state)}
+
 Market Context:
 - VIX: {volatility_index}
 - Ticker Risk: {ticker_risk}
 
-Use only the provided evidence.
+Use only provided evidence.
 
-Falsification Protocol:
-1) Extract the single strongest thesis breaker and its strength from the debate.
-2) Decide whether that breaker is still unrefuted at this horizon.
-3) Then decide THESIS_VALIDITY and EXECUTION_FRAGILITY.
-
-Two-gate decision:
-- Gate A (validity): for BUY/SELL, if THESIS_VALIDITY is INVALID or UNCERTAIN, default to BLOCK.
-- Gate B (path): if THESIS_VALIDITY is VALID, use EXECUTION_FRAGILITY to choose CLEAR (LOW) or REDUCE (HIGH).
-
-HOLD handling:
-- For Proposed Action HOLD, default CLEAR unless evidence strongly implies a directional trade should be taken now.
+Decision policy (soft rubric, not a hard rule):
+Decision ladder:
+1) Falsification first:
+    - If THESIS_VALIDITY=INVALID for BUY/SELL, choose BLOCK unless you explicitly refute the strongest breaker.
+    - If THESIS_VALIDITY=UNCERTAIN and unresolved breaker is HIGH + horizon-relevant, choose BLOCK unless refuted.
+2) If thesis survives:
+    - Choose REDUCE only when fragility is concrete and near-term.
+    - Choose CLEAR when fragility is weak, refuted, or already priced.
+3) Tribunal signal integration:
+    - Treat 2+ BLOCK votes with HIGH breaker strength, HORIZON_RELEVANCE=YES, and at least one HIGH VETO_CONFIDENCE as strong evidence, not a hard rule.
+4) HOLD semantics:
+    - For HOLD proposals, do not use BLOCK; choose CLEAR or REDUCE.
 
 Calibration:
-- REDUCE is allowed only when you can name a concrete execution-path fragility mechanism while thesis validity remains VALID.
-- REDUCE is not allowed for general uncertainty or mixed evidence; those map to Gate A and therefore BLOCK for BUY/SELL.
-- BLOCK requires a clear explanation of why the strongest breaker remains unresolved at this horizon.
+- Do not BLOCK from vague uncertainty alone.
+- Do not use REDUCE as a default safe option.
+- If BLOCK, state whether the breaker is NEW versus ALREADY_KNOWN upstream.
 
 Output format:
 THESIS_VALIDITY: VALID|INVALID|UNCERTAIN
 EXECUTION_FRAGILITY: LOW|HIGH|N/A
 RISK_JUDGMENT: CLEAR|REDUCE|BLOCK
 RATIONALE:
-- 2-4 sentences with: strongest breaker, strongest refutation, and why the selected judgment follows the two-gate decision.
-- If RISK_JUDGMENT=REDUCE, explicitly include "FRAGILITY_MECHANISM:" and one concrete mechanism.
+- 2-3 sentences with strongest breaker, strongest refutation, and why the final judgment is calibrated.
+- If RISK_JUDGMENT=REDUCE, include "FRAGILITY_MECHANISM:" and one concrete mechanism.
+- If RISK_JUDGMENT=REDUCE, include "WHY_NOT_BLOCK:" with one evidence-based sentence.
+- If RISK_JUDGMENT=BLOCK, include "NOVEL_BREAKER:" as NEW or ALREADY_KNOWN.
 ADJUSTMENTS:
 - Position Size: [X%] (0 if BLOCK)
 - Stop Loss: [price|null]
 - Take Profit: [price|null]
 
-Keep under 220 words."""
+Keep under 190 words."""
         structured_prompt = prompt + """
 
 Return strict JSON with keys:
@@ -600,17 +693,57 @@ risk_judgment, rationale, position_size_pct, stop_loss, take_profit
                 take_profit=None,
             )
 
-    # Minimal consistency guardrail for directional actions.
-    # LLM still decides thesis validity and fragility; this prevents invalid mapping drift.
-    if risk_mode == "debate" and trader_action in {"BUY", "SELL"} and decision.thesis_validity in {"INVALID", "UNCERTAIN"}:
-        if decision.risk_judgment != "BLOCK":
-            decision.risk_judgment = "BLOCK"
-            decision.position_size_pct = 0
-            decision.execution_fragility = "N/A"
-            decision.rationale = (
-                "Consistency override: directional trade marked INVALID/UNCERTAIN must be BLOCK. "
-                + (decision.rationale or "")
-            ).strip()
+    consistency_repair_applied = False
+    hold_block_adjusted = False
+
+    # Repair directional inconsistency via a short second-pass LLM check.
+    if (
+        risk_mode == "debate"
+        and trader_action in {"BUY", "SELL"}
+        and getattr(decision, "thesis_validity", "VALID") in {"INVALID", "UNCERTAIN"}
+        and decision.risk_judgment != "BLOCK"
+    ):
+        repair_prompt = f"""Role: Risk Manager Consistency Repair.
+You must repair an internally inconsistent prior decision for a directional proposal.
+
+Directional proposal: {trader_action}
+Prior decision JSON:
+{decision.model_dump_json(indent=2)}
+
+Policy:
+- If THESIS_VALIDITY is INVALID or UNCERTAIN for BUY/SELL, BLOCK is the default unless you can justify THESIS_VALIDITY=VALID.
+- Do not invent new evidence. Only repair logical consistency.
+
+Return strict JSON with keys:
+thesis_validity, execution_fragility, risk_judgment, rationale, position_size_pct, stop_loss, take_profit
+"""
+        try:
+            repaired = call_llm_structured(
+                repair_prompt,
+                RiskManagerDecisionDebate,
+                temperature=0.1,
+            )
+            decision = repaired
+            consistency_repair_applied = True
+        except Exception:
+            # Keep original decision if repair fails; diagnostics will still flag inconsistency.
+            pass
+
+    # HOLD cannot be meaningfully blocked because final action remains HOLD.
+    if risk_mode == "debate" and trader_action == "HOLD" and decision.risk_judgment == "BLOCK":
+        decision.risk_judgment = "CLEAR"
+        decision.rationale = (
+            f"{decision.rationale} HOLD normalization applied: BLOCK converted to CLEAR."
+        )
+        hold_block_adjusted = True
+
+    # Track gate consistency as diagnostics for calibration analysis.
+    gate_inconsistent = (
+        risk_mode == "debate"
+        and trader_action in {"BUY", "SELL"}
+        and getattr(decision, "thesis_validity", "VALID") in {"INVALID", "UNCERTAIN"}
+        and decision.risk_judgment != "BLOCK"
+    )
 
     final_decision_json = decision.model_dump_json(indent=2)
     risk_judgment = decision.risk_judgment
@@ -674,6 +807,11 @@ risk_judgment, rationale, position_size_pct, stop_loss, take_profit
 
     if 'run_metadata' not in state:
         state['run_metadata'] = {}
+    vote_state = (state.get("risk_debate_state", {}) or {}).get("votes", {}) or {}
+    vote_values = [str((vote_state.get(k, {}) or {}).get("vote", "")).upper() for k in ("aggressive", "conservative", "neutral")]
+    vote_block_n = sum(1 for x in vote_values if x == "BLOCK")
+    vote_reduce_n = sum(1 for x in vote_values if x == "REDUCE")
+    vote_clear_n = sum(1 for x in vote_values if x == "CLEAR")
     thesis_validity_meta = decision.thesis_validity if hasattr(decision, "thesis_validity") else "N/A"
     execution_fragility_meta = decision.execution_fragility if hasattr(decision, "execution_fragility") else "N/A"
     state['run_metadata'].update({
@@ -683,6 +821,12 @@ risk_judgment, rationale, position_size_pct, stop_loss, take_profit
         "risk_judgment": risk_judgment,
         "risk_thesis_validity": thesis_validity_meta,
         "risk_execution_fragility": execution_fragility_meta,
+        "risk_vote_block_n": vote_block_n,
+        "risk_vote_reduce_n": vote_reduce_n,
+        "risk_vote_clear_n": vote_clear_n,
+        "risk_gate_inconsistent": bool(gate_inconsistent),
+        "risk_consistency_repair_applied": bool(consistency_repair_applied),
+        "risk_hold_block_adjusted": bool(hold_block_adjusted),
         "risk_overrode_action": original_action != final_action,
     })
 
