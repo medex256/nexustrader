@@ -1,3 +1,4 @@
+import { AnalysisDetails } from "./AnalysisDetails";
 import { PriceChart } from "./PriceChart";
 import { formatExecutionValue, formatShortDate, getActionClass, parseRiskFlow, stripRiskPrefix } from "../lib/format";
 import type { AnalysisResult } from "../lib/types";
@@ -83,7 +84,7 @@ function ExecutionProfile({ result }: { result: AnalysisResult }) {
   );
 }
 
-export function AnalysisSummary({ result, ticker }: { result: AnalysisResult; ticker: string }) {
+export function AnalysisSummary({ result, showDetails = true, ticker }: { result: AnalysisResult; showDetails?: boolean; ticker: string }) {
   const strategy = result.trading_strategy ?? {};
   const action = String(strategy.action || "HOLD").toUpperCase();
   const actionClass = getActionClass(action);
@@ -96,51 +97,54 @@ export function AnalysisSummary({ result, ticker }: { result: AnalysisResult; ti
   const color = action === "BUY" ? "#10b981" : action === "SELL" ? "#ef4444" : "#f59e0b";
 
   return (
-    <section className="card">
-      <div className="verdict-hero">
-        <div className="verdict-badge-wrap">
-          <div className={`verdict-action ${actionClass}`}>{action}</div>
-          {confidence != null ? <ConfidenceRing color={color} percent={confidence} /> : null}
-        </div>
-        <div className="verdict-meta">
-          <div className="verdict-meta-row">
-            {stage ? <span className="stage-badge">Stage {stage}</span> : null}
-            <span className="meta-chip">{ticker}</span>
-            <span className="meta-chip">{formatShortDate(simulatedDate) || "live"}</span>
-            <span className="meta-chip">k = {horizonDays}d</span>
+    <>
+      <section className="card">
+        <div className="verdict-hero">
+          <div className="verdict-badge-wrap">
+            <div className={`verdict-action ${actionClass}`}>{action}</div>
+            {confidence != null ? <ConfidenceRing color={color} percent={confidence} /> : null}
           </div>
-          <div className="risk-strip">
-            <div className="risk-strip-step">
-              <span className="risk-strip-label">Original Thesis</span>
-              <span className="risk-strip-value">{riskFlow.original}</span>
+          <div className="verdict-meta">
+            <div className="verdict-meta-row">
+              {stage ? <span className="stage-badge">Stage {stage}</span> : null}
+              <span className="meta-chip">{ticker}</span>
+              <span className="meta-chip">{formatShortDate(simulatedDate) || "live"}</span>
+              <span className="meta-chip">k = {horizonDays}d</span>
             </div>
-            <div className="risk-strip-arrow">→</div>
-            <div className="risk-strip-step">
-              <span className="risk-strip-label">Risk Judgment</span>
-              <span className="risk-strip-value">{riskFlow.judgment}</span>
+            <div className="risk-strip">
+              <div className="risk-strip-step">
+                <span className="risk-strip-label">Original Thesis</span>
+                <span className="risk-strip-value">{riskFlow.original}</span>
+              </div>
+              <div className="risk-strip-arrow">→</div>
+              <div className="risk-strip-step">
+                <span className="risk-strip-label">Risk Judgment</span>
+                <span className="risk-strip-value">{riskFlow.judgment}</span>
+              </div>
+              <div className="risk-strip-arrow">→</div>
+              <div className="risk-strip-step">
+                <span className="risk-strip-label">Final Action</span>
+                <span className="risk-strip-value">
+                  {riskFlow.final}
+                  {strategy.position_size_pct != null && action !== "HOLD" ? ` (${strategy.position_size_pct}%)` : ""}
+                </span>
+              </div>
             </div>
-            <div className="risk-strip-arrow">→</div>
-            <div className="risk-strip-step">
-              <span className="risk-strip-label">Final Action</span>
-              <span className="risk-strip-value">
-                {riskFlow.final}
-                {strategy.position_size_pct != null && action !== "HOLD" ? ` (${strategy.position_size_pct}%)` : ""}
-              </span>
-            </div>
+            <div className="verdict-rationale">{rationale || "No rationale returned."}</div>
           </div>
-          <div className="verdict-rationale">{rationale || "No rationale returned."}</div>
         </div>
-      </div>
 
-      <div className="grid-2" style={{ alignItems: "start", marginTop: "1.5rem" }}>
-        <div className="strategy-card">
-          <div className="section-title" style={{ marginBottom: "1rem" }}>
-            Execution Profile
+        <div className="grid-2" style={{ alignItems: "start", marginTop: "1.5rem" }}>
+          <div className="strategy-card">
+            <div className="section-title" style={{ marginBottom: "1rem" }}>
+              Execution Profile
+            </div>
+            <ExecutionProfile result={result} />
           </div>
-          <ExecutionProfile result={result} />
+          <PriceChart asOf={simulatedDate || undefined} ticker={ticker} />
         </div>
-        <PriceChart asOf={simulatedDate || undefined} ticker={ticker} />
-      </div>
-    </section>
+      </section>
+      {showDetails ? <AnalysisDetails result={result} /> : null}
+    </>
   );
 }
