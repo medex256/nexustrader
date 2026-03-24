@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { AnalysisSummary } from "./components/AnalysisSummary";
 import { useAnalysisStream } from "./hooks/useAnalysisStream";
 import { useHistory } from "./hooks/useHistory";
 import {
@@ -8,7 +9,7 @@ import {
   STAGE_MECHANISMS,
   STAGE_ORDER,
 } from "./lib/stages";
-import type { StageKey } from "./lib/types";
+import type { AnalysisResult, StageKey } from "./lib/types";
 
 type ViewKey = "live" | "history" | "stages";
 
@@ -36,11 +37,10 @@ function LiveAnalysisShell({ stage, onStageChange, onOpenGuide }: {
   const [simulatedDate, setSimulatedDate] = useState("");
   const { agents, activeAgentKey, error, isRunning, logs, progressPercent, result, startAnalysis, visitedAgentKeys } =
     useAnalysisStream(stage);
+  const trimmedTicker = ticker.trim().toUpperCase();
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-
-    const trimmedTicker = ticker.trim().toUpperCase();
 
     if (!trimmedTicker) {
       return;
@@ -53,9 +53,6 @@ function LiveAnalysisShell({ stage, onStageChange, onOpenGuide }: {
       ticker: trimmedTicker,
     });
   }
-
-  const action = result?.trading_strategy?.action || "HOLD";
-  const confidence = result?.trading_strategy?.confidence_score;
 
   return (
     <main>
@@ -109,7 +106,7 @@ function LiveAnalysisShell({ stage, onStageChange, onOpenGuide }: {
               value={simulatedDate}
             />
           </label>
-          <button disabled={isRunning || ticker.trim().length === 0} type="submit">
+          <button disabled={isRunning || trimmedTicker.length === 0} type="submit">
             {isRunning ? "Analyzing..." : "Analyze"}
           </button>
         </form>
@@ -160,22 +157,7 @@ function LiveAnalysisShell({ stage, onStageChange, onOpenGuide }: {
         </section>
       ) : null}
 
-      {result ? (
-        <section className="card">
-          <h2 className="section-title">Analysis Summary</h2>
-          <div className="verdict-meta-row" style={{ marginBottom: "0.75rem" }}>
-            <span className={`badge ${action.toLowerCase()}`}>{action}</span>
-            <span className="stage-badge">Stage {result.run_config?.stage || stage}</span>
-            {typeof confidence === "number" ? (
-              <span className="meta-chip">Confidence {Math.round(confidence * 100)}%</span>
-            ) : null}
-          </div>
-          <p className="notice">
-            The SSE path is now live in React and returns the final analysis payload. Detailed result panels,
-            charting, and debate/risk sections will be reattached in the next patch.
-          </p>
-        </section>
-      ) : null}
+      {result && trimmedTicker ? <AnalysisSummary result={result} ticker={trimmedTicker} /> : null}
     </main>
   );
 }
@@ -185,6 +167,20 @@ function HistoryShell() {
   const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
 
   const selectedItem = items.find((item) => item.id === selectedItemId) ?? null;
+
+  function parseStoredResult(item: typeof selectedItem): AnalysisResult | null {
+    if (!item?.metadata.final_state_json) {
+      return null;
+    }
+
+    try {
+      return JSON.parse(item.metadata.final_state_json) as AnalysisResult;
+    } catch {
+      return null;
+    }
+  }
+
+  const selectedResult = parseStoredResult(selectedItem);
 
   return (
     <main>
@@ -203,16 +199,22 @@ function HistoryShell() {
             <button className="inline-link-btn" onClick={() => setSelectedItemId(null)} type="button">
               Back to list
             </button>
-            <div className="card" style={{ marginTop: "1rem", marginBottom: 0 }}>
-              <h3 style={{ marginBottom: "0.5rem" }}>{selectedItem.metadata.ticker}</h3>
-              <p className="notice" style={{ marginBottom: "1rem" }}>
-                {selectedItem.metadata.stage ? `Stage ${selectedItem.metadata.stage} · ` : ""}
-                {new Date(selectedItem.metadata.timestamp).toLocaleString()}
-              </p>
-              <div className="report prose" style={{ whiteSpace: "pre-wrap" }}>
-                {selectedItem.document}
+            {selectedResult ? (
+              <div style={{ marginTop: "1rem" }}>
+                <AnalysisSummary result={selectedResult} ticker={selectedItem.metadata.ticker} />
               </div>
-            </div>
+            ) : (
+              <div className="card" style={{ marginTop: "1rem", marginBottom: 0 }}>
+                <h3 style={{ marginBottom: "0.5rem" }}>{selectedItem.metadata.ticker}</h3>
+                <p className="notice" style={{ marginBottom: "1rem" }}>
+                  {selectedItem.metadata.stage ? `Stage ${selectedItem.metadata.stage} · ` : ""}
+                  {new Date(selectedItem.metadata.timestamp).toLocaleString()}
+                </p>
+                <div className="report prose" style={{ whiteSpace: "pre-wrap" }}>
+                  {selectedItem.document}
+                </div>
+              </div>
+            )}
           </div>
         ) : (
           <div className="history-list">
