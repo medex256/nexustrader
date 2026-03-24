@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useAnalysisStream } from "./hooks/useAnalysisStream";
+import { useHistory } from "./hooks/useHistory";
 import {
   STAGE_AGENTS,
   STAGE_DESCRIPTIONS,
@@ -180,14 +181,79 @@ function LiveAnalysisShell({ stage, onStageChange, onOpenGuide }: {
 }
 
 function HistoryShell() {
+  const { error, isLoading, items } = useHistory(true);
+  const [selectedItemId, setSelectedItemId] = useState<string | null>(null);
+
+  const selectedItem = items.find((item) => item.id === selectedItemId) ?? null;
+
   return (
     <main>
       <section className="card">
         <h2 className="section-title">History</h2>
-        <p className="notice">
-          History loading and detail replay are being moved behind typed history contracts next. This view
-          will reuse the backend memory endpoints unchanged.
+        <p className="notice" style={{ marginBottom: "1rem" }}>
+          Past analyses stored in episodic memory. Stage D entries can include a full saved state for richer replay.
         </p>
+
+        {isLoading ? <p className="notice">Loading history...</p> : null}
+        {error ? <p className="notice">{error}</p> : null}
+        {!isLoading && !error && items.length === 0 ? <p className="notice">No past analyses found in memory.</p> : null}
+
+        {selectedItem ? (
+          <div>
+            <button className="inline-link-btn" onClick={() => setSelectedItemId(null)} type="button">
+              Back to list
+            </button>
+            <div className="card" style={{ marginTop: "1rem", marginBottom: 0 }}>
+              <h3 style={{ marginBottom: "0.5rem" }}>{selectedItem.metadata.ticker}</h3>
+              <p className="notice" style={{ marginBottom: "1rem" }}>
+                {selectedItem.metadata.stage ? `Stage ${selectedItem.metadata.stage} · ` : ""}
+                {new Date(selectedItem.metadata.timestamp).toLocaleString()}
+              </p>
+              <div className="report prose" style={{ whiteSpace: "pre-wrap" }}>
+                {selectedItem.document}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <div className="history-list">
+            {items.map((item) => {
+              const action = item.metadata.action || "N/A";
+              const stage = item.metadata.stage || "";
+
+              return (
+                <button
+                  className="history-item card"
+                  key={item.id}
+                  onClick={() => setSelectedItemId(item.id)}
+                  style={{ cursor: "pointer", textAlign: "left" }}
+                  type="button"
+                >
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "0.5rem" }}>
+                    <h3 style={{ margin: 0, fontSize: "1.15rem", color: "var(--accent-color)" }}>{item.metadata.ticker}</h3>
+                    <div style={{ display: "flex", gap: "6px", alignItems: "center" }}>
+                      {stage ? <span className="stage-badge">Stage {stage}</span> : null}
+                      <span className={`badge ${action.toLowerCase()}`}>{action}</span>
+                    </div>
+                  </div>
+                  <div style={{ fontSize: "0.8rem", color: "var(--text-secondary)", marginBottom: "0.5rem" }}>
+                    {new Date(item.metadata.timestamp).toLocaleString()}
+                  </div>
+                  <p
+                    style={{
+                      color: "var(--text-secondary)",
+                      fontSize: "0.82rem",
+                      overflow: "hidden",
+                      textOverflow: "ellipsis",
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {item.document.replace(/\n/g, " ").slice(0, 90)}...
+                  </p>
+                </button>
+              );
+            })}
+          </div>
+        )}
       </section>
     </main>
   );
