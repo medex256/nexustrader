@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useAnalysisStream } from "./hooks/useAnalysisStream";
 import {
   STAGE_AGENTS,
   STAGE_DESCRIPTIONS,
@@ -29,6 +30,32 @@ function LiveAnalysisShell({ stage, onStageChange, onOpenGuide }: {
   onStageChange: (stage: StageKey) => void;
   onOpenGuide: () => void;
 }) {
+  const [ticker, setTicker] = useState("");
+  const [horizon, setHorizon] = useState("short");
+  const [simulatedDate, setSimulatedDate] = useState("");
+  const { agents, activeAgentKey, error, isRunning, logs, progressPercent, result, startAnalysis, visitedAgentKeys } =
+    useAnalysisStream(stage);
+
+  function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const trimmedTicker = ticker.trim().toUpperCase();
+
+    if (!trimmedTicker) {
+      return;
+    }
+
+    startAnalysis({
+      horizon,
+      simulatedDate,
+      stage,
+      ticker: trimmedTicker,
+    });
+  }
+
+  const action = result?.trading_strategy?.action || "HOLD";
+  const confidence = result?.trading_strategy?.confidence_score;
+
   return (
     <main>
       <section className="card">
@@ -58,15 +85,96 @@ function LiveAnalysisShell({ stage, onStageChange, onOpenGuide }: {
           </div>
           <StageFlow stage={stage} />
         </div>
+
+        <form className="input-row" onSubmit={handleSubmit} style={{ marginTop: "1rem" }}>
+          <input
+            onChange={(event) => setTicker(event.target.value)}
+            placeholder="Ticker symbol (e.g. NVDA, TSLA, AAPL)"
+            value={ticker}
+          />
+          <label>
+            Horizon
+            <select onChange={(event) => setHorizon(event.target.value)} value={horizon}>
+              <option value="short">Short (10d)</option>
+              <option value="medium">Medium (21d)</option>
+              <option value="long">Long (126d)</option>
+            </select>
+          </label>
+          <label>
+            As-of Date
+            <input
+              onChange={(event) => setSimulatedDate(event.target.value)}
+              type="date"
+              value={simulatedDate}
+            />
+          </label>
+          <button disabled={isRunning || ticker.trim().length === 0} type="submit">
+            {isRunning ? "Analyzing..." : "Analyze"}
+          </button>
+        </form>
+        <p className="notice">Streams real-time agent progress via SSE. Backend must be running on localhost:8000.</p>
       </section>
 
-      <section className="card">
-        <h2 className="section-title">Live Analysis</h2>
-        <p className="notice">
-          This shell is now driven by extracted stage and API contracts. The next patch reconnects the
-          ticker form, SSE progress stream, and result rendering without reintroducing the monolithic DOM code.
-        </p>
-      </section>
+      {isRunning || logs.length > 0 ? (
+        <section className="card">
+          <div className="progress-bar">
+            <div className="progress-fill" style={{ width: `${progressPercent}%` }} />
+          </div>
+          <div className="grid-2">
+            <div className="status-list">
+              {agents.map((agent) => {
+                const isActive = agent.key === activeAgentKey;
+                const isVisited = visitedAgentKeys.includes(agent.key);
+
+                return (
+                  <div
+                    className={`agent${isActive ? " active" : ""}${isVisited ? " visited" : ""}`}
+                    key={agent.key}
+                  >
+                    <strong>{agent.icon}</strong>
+                    <span>{agent.name}</span>
+                  </div>
+                );
+              })}
+            </div>
+            <div className="activity-log">
+              <div className="log-title">System Activity</div>
+              <div className="log-content">
+                {logs.map((entry) => (
+                  <div className={`log-entry${entry.kind === "success" ? " success" : ""}`} key={entry.id}>
+                    <span className="time">{entry.timestamp}</span>
+                    <span className="msg">{entry.message}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      ) : null}
+
+      {error ? (
+        <section className="card">
+          <h2 className="section-title">Stream Error</h2>
+          <p className="notice">{error}</p>
+        </section>
+      ) : null}
+
+      {result ? (
+        <section className="card">
+          <h2 className="section-title">Analysis Summary</h2>
+          <div className="verdict-meta-row" style={{ marginBottom: "0.75rem" }}>
+            <span className={`badge ${action.toLowerCase()}`}>{action}</span>
+            <span className="stage-badge">Stage {result.run_config?.stage || stage}</span>
+            {typeof confidence === "number" ? (
+              <span className="meta-chip">Confidence {Math.round(confidence * 100)}%</span>
+            ) : null}
+          </div>
+          <p className="notice">
+            The SSE path is now live in React and returns the final analysis payload. Detailed result panels,
+            charting, and debate/risk sections will be reattached in the next patch.
+          </p>
+        </section>
+      ) : null}
     </main>
   );
 }
