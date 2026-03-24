@@ -98,7 +98,17 @@ export function AnalysisSummary({ result, showDetails = true, ticker }: { result
 
   return (
     <>
-      <section className="card">
+      <section className="card summary-shell">
+        <div className="summary-intro">
+          <div className="summary-kicker">
+            <span className="summary-kicker-dot" /> Final Decision
+          </div>
+          <h2 className="summary-title">Trade thesis and execution profile</h2>
+          <p className="summary-caption">
+            Research verdict, risk translation, and price context for this simulated run.
+          </p>
+        </div>
+
         <div className="verdict-hero">
           <div className="verdict-badge-wrap">
             <div className={`verdict-action ${actionClass}`}>{action}</div>
@@ -134,11 +144,9 @@ export function AnalysisSummary({ result, showDetails = true, ticker }: { result
           </div>
         </div>
 
-        <div className="grid-2" style={{ alignItems: "start", marginTop: "1.5rem" }}>
-          <div className="strategy-card">
-            <div className="section-title" style={{ marginBottom: "1rem" }}>
-              Execution Profile
-            </div>
+        <div className="summary-grid">
+          <div className="strategy-card strategy-card-elevated">
+            <div className="section-title">Execution Profile</div>
             <ExecutionProfile result={result} />
           </div>
           <PriceChart asOf={simulatedDate || undefined} ticker={ticker} />

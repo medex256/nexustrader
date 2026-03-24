@@ -23,7 +23,7 @@ export function PriceChart({ asOf, ticker }: { asOf?: string; ticker: string }) 
     let chart: ReturnType<typeof createChart> | null = null;
 
     async function loadChart() {
-      container.innerHTML = '<div style="padding:1rem;color:var(--text-secondary);font-size:0.85rem;">Loading chart...</div>';
+      container.innerHTML = '<div class="chart-state">Loading chart...</div>';
 
       try {
         const response = await fetch(buildChartUrl(ticker, asOf));
@@ -39,11 +39,17 @@ export function PriceChart({ asOf, ticker }: { asOf?: string; ticker: string }) 
 
         container.innerHTML = "";
         chart = createChart(container, {
-          grid: { horzLines: { color: "#334155" }, vertLines: { color: "#334155" } },
+          grid: { horzLines: { color: "#e2e8f0" }, vertLines: { color: "#eef2ff" } },
           height: 300,
           layout: {
-            background: { color: "#1e293b", type: ColorType.Solid },
-            textColor: "#d1d5db",
+            background: { color: "#ffffff", type: ColorType.Solid },
+            textColor: "#64748b",
+          },
+          rightPriceScale: {
+            borderColor: "#e2e8f0",
+          },
+          timeScale: {
+            borderColor: "#e2e8f0",
           },
         });
 
@@ -79,7 +85,7 @@ export function PriceChart({ asOf, ticker }: { asOf?: string; ticker: string }) 
         resizeObserver.observe(container);
       } catch (error) {
         const message = error instanceof Error ? error.message : "Chart unavailable";
-        container.innerHTML = `<p class="notice">Chart unavailable: ${message}</p>`;
+        container.innerHTML = `<p class="chart-state chart-state-error">Chart unavailable: ${message}</p>`;
       }
     }
 
