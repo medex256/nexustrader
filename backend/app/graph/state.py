@@ -81,6 +81,9 @@ class AgentState(TypedDict):
     memory_id: Optional[str]      # ID of stored memory (None if memory_store=False)
     memory_summary: Optional[Dict[str, Any]]  # {bull_hits, bear_hits} retrieval counts
 
+    # Market snapshot (surfaced from technical indicators, used for UI price display)
+    market_snapshot: Optional[Dict[str, Any]]  # {current_price, sma_20, sma_50}
+
     # Debug/Verification metadata
     cache_context: Optional[Dict[str, Any]]
     provenance: Optional[Dict[str, Any]]  # News timestamps, chart as-of, etc.

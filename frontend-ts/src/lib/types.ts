@@ -103,4 +103,9 @@ export interface AnalysisResult {
   risk_reports?: Record<string, unknown>;
   provenance?: Record<string, unknown>;
   analysis_time_seconds?: number;
+  market_snapshot?: {
+    current_price?: number;
+    sma_20?: number;
+    sma_50?: number;
+  };
 }

@@ -43,7 +43,7 @@ export function PriceChart({ asOf, ticker }: { asOf?: string; ticker: string }) 
         container.innerHTML = "";
         chart = createChart(container, {
           grid: { horzLines: { color: "#e2e8f0" }, vertLines: { color: "#eef2ff" } },
-          height: 300,
+          height: container.clientHeight || 300,
           layout: {
             background: { color: "#ffffff", type: ColorType.Solid },
             textColor: "#64748b",
@@ -82,7 +82,10 @@ export function PriceChart({ asOf, ticker }: { asOf?: string; ticker: string }) 
         chart.timeScale().fitContent();
         resizeObserver = new ResizeObserver((entries) => {
           for (const entry of entries) {
-            chart?.applyOptions({ width: entry.contentRect.width });
+            chart?.applyOptions({
+              width: entry.contentRect.width,
+              height: entry.contentRect.height || 300,
+            });
           }
         });
         resizeObserver.observe(container);

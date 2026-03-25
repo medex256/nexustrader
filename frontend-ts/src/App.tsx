@@ -525,10 +525,57 @@ function LiveAnalysisShell({ stage, onStageChange, onOpenGuide }: {
       ticker: trimmedTicker,
     });
   }
+  
+  const introSteps = [
+    {
+      body: "Open How It Works to see why stages A-D are research configurations, not product tiers.",
+      label: "Understand the stages",
+    },
+    {
+      body: "Start from Stage B+ for the clearest demo of specialist extraction plus a single risk gate.",
+      label: "Use Stage B+",
+    },
+    {
+      body: "Load NVDA on 24/03/2026 for a repeatable case, or leave the date blank for latest available context.",
+      label: "Run a demo case",
+    },
+  ];
 
   return (
     <main>
       <section className="card">
+        <div className="live-onboarding-block">
+          <div className="live-onboarding-top">
+            <div className="live-onboarding-copy">
+              <div className="live-onboarding-kicker">Research FYP Demo</div>
+              <h2 className="live-onboarding-title">
+                NexusTrader compares multi-agent AI workflows for short-horizon <span className="live-onboarding-accent">BUY, SELL, HOLD</span> forecasts.
+              </h2>
+              <p className="live-onboarding-body">
+                Compare how each stage changes the workflow and the final directional call.
+              </p>
+              <div className="live-onboarding-stage-rail" aria-label="Available stages">
+                {STAGE_ORDER.map((stageKey) => (
+                  <span className={`live-onboarding-stage-pill${stageKey === stage ? " active" : ""}`} key={stageKey}>
+                    {stageKey}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <ol className="live-onboarding-steps" aria-label="Start here guide">
+              {introSteps.map((step, index) => (
+                <li className="live-step-card" key={step.label}>
+                  <span className="live-step-index">0{index + 1}</span>
+                  <span className="live-step-text">
+                    <strong>{step.label}</strong>
+                    <span>{step.body}</span>
+                  </span>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </div>
+
         <div className="stage-selector-row">
           <div className="stage-selector-head">
             <span className="stage-label">Stage</span>
@@ -590,7 +637,7 @@ function LiveAnalysisShell({ stage, onStageChange, onOpenGuide }: {
         </form>
         {dateError ? <p className="notice input-error">{dateError}</p> : null}
         <p className="notice analysis-note">
-          Start an analysis to watch the pipeline run in real time.
+          Start an analysis to watch the agent pipeline run in real time. Leave the date blank to use the latest available price context.
         </p>
       </section>
 
@@ -992,7 +1039,7 @@ function StagesGuide({ onOpenAgents }: { onOpenAgents: (agentKey?: string) => vo
               Each stage adds exactly one new mechanism on top of the previous.
             </p>
           </div>
-          <button className="hiw-agents-btn" onClick={onOpenAgents} type="button">
+          <button className="hiw-agents-btn" onClick={() => onOpenAgents()} type="button">
             View all agent profiles →
           </button>
         </div>
@@ -1071,7 +1118,7 @@ function StagesGuide({ onOpenAgents }: { onOpenAgents: (agentKey?: string) => vo
 }
 
 export function App() {
-  const [view, setView] = useState<ViewKey>("live");
+  const [view, setView] = useState<ViewKey>("stages");
   const [stage, setStage] = useState<StageKey>("B+");
   const [targetAgentKey, setTargetAgentKey] = useState<string | null>(null);
 
@@ -1085,9 +1132,19 @@ export function App() {
       <header className="header">
         <div>
           <h1>NexusTrader</h1>
-          <p>Multi-Agent LLM Trading System</p>
+          <p>Transparent multi-agent equity forecasting research prototype</p>
         </div>
         <div className="nav-links">
+          <button
+            className={`nav-btn${view === "stages" ? " active" : ""}`}
+            onClick={() => {
+              setTargetAgentKey(null);
+              setView("stages");
+            }}
+            type="button"
+          >
+            How It Works
+          </button>
           <button
             className={`nav-btn${view === "live" ? " active" : ""}`}
             onClick={() => {
@@ -1107,16 +1164,6 @@ export function App() {
             type="button"
           >
             History
-          </button>
-          <button
-            className={`nav-btn${view === "stages" ? " active" : ""}`}
-            onClick={() => {
-              setTargetAgentKey(null);
-              setView("stages");
-            }}
-            type="button"
-          >
-            How It Works
           </button>
           <button
             className={`nav-btn${view === "agents" ? " active" : ""}`}

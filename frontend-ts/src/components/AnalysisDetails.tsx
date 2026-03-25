@@ -204,36 +204,6 @@ function RiskPanel({ result }: { result: AnalysisResult }) {
           </span>
         </summary>
         <div className="accordion-body">
-          {gate ? (
-            <div className="risk-gate-detail">
-              <div className="risk-gate-flow">
-                {gate.match(/Original:\s*([A-Z]+)/i)?.[1] ? (
-                  <span className="risk-gate-step">
-                    <span className="risk-gate-step-label">Research view</span>
-                    <strong>{gate.match(/Original:\s*([A-Z]+)/i)![1]}</strong>
-                  </span>
-                ) : null}
-                {gate.match(/Judgment:\s*([A-Z]+)/i)?.[1] ? (
-                  <>
-                    <span className="risk-gate-sep">→</span>
-                    <span className="risk-gate-step">
-                      <span className="risk-gate-step-label">Risk judgment</span>
-                      <strong>{riskJudgmentLabel(gate.match(/Judgment:\s*([A-Z]+)/i)![1])}</strong>
-                    </span>
-                  </>
-                ) : null}
-                {gate.match(/Final:\s*([A-Z]+)/i)?.[1] ? (
-                  <>
-                    <span className="risk-gate-sep">→</span>
-                    <span className="risk-gate-step">
-                      <span className="risk-gate-step-label">Final action</span>
-                      <strong>{gate.match(/Final:\s*([A-Z]+)/i)![1]}</strong>
-                    </span>
-                  </>
-                ) : null}
-              </div>
-            </div>
-          ) : null}
           {positionSize != null || stopLoss || takeProfit ? (
             <div className="strategy-grid" style={{ margin: "0.75rem 0" }}>
               {positionSize != null ? (

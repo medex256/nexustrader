@@ -315,6 +315,13 @@ def technical_analyst_agent(state: dict):
     price_data = get_historical_price_data(ticker, "1y", as_of=simulated_date)
     indicators = calculate_technical_indicators(price_data)
 
+    # Surface key price levels for UI display (market_snapshot)
+    state['market_snapshot'] = {
+        "current_price": indicators.get("current_price"),
+        "sma_20": indicators.get("SMA_20"),
+        "sma_50": indicators.get("SMA_50"),
+    }
+
     # 2. Construct the prompt for the LLM
     prompt = f"""Technical analysis for {ticker}.
 

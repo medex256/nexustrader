@@ -37,21 +37,81 @@ function ExecutionProfile({ result }: { result: AnalysisResult }) {
   const hasPriceLevels = strategy.entry_price != null || strategy.take_profit != null || strategy.stop_loss != null;
 
   if (!hasPriceLevels && decisionStyle === "classification") {
+    const horizonDays = result.horizon_days || result.run_config?.horizon_days || 10;
+    const action = String(strategy.action || "HOLD").toUpperCase();
+    const snap = result.market_snapshot;
+    const currentPrice = snap?.current_price ?? null;
+    const simulatedDate = result.simulated_date || result.run_config?.simulated_date || "";
+
+    // Derive indicative TP/SL from current price + horizon + action
+    let indEntry: string = "—";
+    let indTp: string = "—";
+    let indSl: string = "—";
+
+    if (currentPrice != null && action !== "HOLD") {
+      // Scale target % loosely by horizon
+      const tpPct = horizonDays <= 15 ? 0.055 : horizonDays <= 30 ? 0.09 : 0.15;
+      const slPct = horizonDays <= 15 ? 0.03 : horizonDays <= 30 ? 0.05 : 0.08;
+      const isBuy = action === "BUY";
+      indEntry = `$${currentPrice.toFixed(2)}`;
+      indTp = isBuy
+        ? `$${(currentPrice * (1 + tpPct)).toFixed(2)}`
+        : `$${(currentPrice * (1 - tpPct)).toFixed(2)}`;
+      indSl = isBuy
+        ? `$${(currentPrice * (1 - slPct)).toFixed(2)}`
+        : `$${(currentPrice * (1 + slPct)).toFixed(2)}`;
+    } else if (currentPrice != null) {
+      indEntry = `$${currentPrice.toFixed(2)}`;
+    }
+
+    const hasPrice = currentPrice != null;
+
     return (
       <div className="exec-classification">
-        <div>
-          <span className="param-label">Position Size</span>
-          <span className="exec-pos-val">
-            {strategy.position_size_pct != null ? `${strategy.position_size_pct}%` : "—"}
-          </span>
+        <div className="exec-metrics-row">
+          <div className="exec-metric-tile">
+            <span className="param-label">Position Size</span>
+            <span className="exec-pos-val">
+              {strategy.position_size_pct != null ? `${strategy.position_size_pct}%` : "—"}
+            </span>
+          </div>
+          <div className="exec-metric-tile">
+            <span className="param-label">Forecast Window</span>
+            <span className="exec-metric-val">{horizonDays} days</span>
+          </div>
         </div>
-        <span className="exec-mode-note">Directional evaluation · execution levels not generated</span>
+        <div className="exec-levels-row">
+          <div className={`exec-level-tile${hasPrice ? " exec-level-live" : ""}`}>
+            <span className="param-label">Entry</span>
+            <span className={`exec-level-val${hasPrice ? " exec-level-val-live" : ""}`}>{indEntry}</span>
+          </div>
+          <div className={`exec-level-tile exec-level-tp${hasPrice && action !== "HOLD" ? " exec-level-live" : ""}`}>
+            <span className="param-label">Take Profit</span>
+            <span className={`exec-level-val${hasPrice && action !== "HOLD" ? " exec-level-val-tp" : ""}`}>{indTp}</span>
+          </div>
+          <div className={`exec-level-tile exec-level-sl${hasPrice && action !== "HOLD" ? " exec-level-live" : ""}`}>
+            <span className="param-label">Stop Loss</span>
+            <span className={`exec-level-val${hasPrice && action !== "HOLD" ? " exec-level-val-sl" : ""}`}>{indSl}</span>
+          </div>
+        </div>
+        <div className="exec-context-panel">
+          <div className="exec-context-row">
+            <span className="exec-context-chip">Classification mode</span>
+            <span className="exec-context-chip">{horizonDays} trading-day horizon</span>
+            {simulatedDate ? <span className="exec-context-chip">As of {formatShortDate(simulatedDate)}</span> : null}
+          </div>
+          <p className="exec-mode-note">
+            {hasPrice && action !== "HOLD"
+              ? "Levels are indicative UI anchors derived from the latest available price context, not generated execution orders."
+              : "This stage returns a directional classification and size guidance rather than explicit entry, take-profit, and stop-loss orders."}
+          </p>
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="strategy-grid">
+    <div className="strategy-grid strategy-grid-detailed">
       <div>
         <span className="param-label">Entry</span>
         <span className="param-val">{formatExecutionValue(strategy.entry_price)}</span>
@@ -120,17 +180,17 @@ export function AnalysisSummary({ result, showDetails = true, ticker, compact = 
               <span className="meta-chip">{horizonDays} trading days forecast</span>
             </div>
             <div className="risk-strip">
-              <div className="risk-strip-step">
+              <div className="risk-strip-step risk-strip-step-origin">
                 <span className="risk-strip-label">Original Thesis</span>
                 <span className="risk-strip-value">{riskFlow.original}</span>
               </div>
               <div className="risk-strip-arrow">→</div>
-              <div className="risk-strip-step">
+              <div className="risk-strip-step risk-strip-step-judgment">
                 <span className="risk-strip-label">Risk Judgment</span>
                 <span className="risk-strip-value">{riskJudgmentLabel(riskFlow.judgment)}</span>
               </div>
               <div className="risk-strip-arrow">→</div>
-              <div className="risk-strip-step">
+              <div className="risk-strip-step risk-strip-step-final">
                 <span className="risk-strip-label">Final Action</span>
                 <span className="risk-strip-value">
                   {riskFlow.final}
@@ -174,8 +234,8 @@ export function AnalysisSummary({ result, showDetails = true, ticker, compact = 
         </div>
 
         <div className="summary-grid">
-          <div className="strategy-card strategy-card-elevated">
-            <div className="section-title">Execution Profile</div>
+          <div className="strategy-card strategy-card-elevated strategy-card-execution">
+            <div className="section-title section-title-accent">Execution Profile</div>
             <ExecutionProfile result={result} />
           </div>
           <PriceChart asOf={simulatedDate || undefined} ticker={ticker} />
