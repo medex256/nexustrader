@@ -34,7 +34,7 @@ export function useHistory(enabled: boolean) {
         if (payload.status === "success" && Array.isArray(payload.data)) {
           const sorted = [...payload.data].sort(
             (left, right) =>
-              new Date(right.metadata.timestamp).getTime() - new Date(left.metadata.timestamp).getTime(),
+              new Date(right.timestamp).getTime() - new Date(left.timestamp).getTime(),
           );
 
           setItems(sorted);

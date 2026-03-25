@@ -210,69 +210,35 @@ def aggressive_risk_analyst(state: dict):
     # Build lean prompt (Stage C/D only; B/B+ paths are unaffected)
     if debate_state['count'] == 0:
         prompt = f"""Role: Aggressive Risk Analyst for {ticker}.
-    Task: build the strongest evidence-based rescue case for the proposed thesis at this horizon.
-    You are not allowed to ignore breakers; your job is to test whether a credible survival path exists.
+    Task: Make the strongest concrete case for why the {action} thesis survives the next {run_config.get('horizon_days', state.get('horizon_days', 10))} trading days.
+    Use only the evidence provided. Generic optimism does not count.
 
-Proposed Action: {action}
-Research Manager Action: {rm_action}
-{disagreement_note}
-Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
-Analyst Evidence:
-{_format_reports_for_risk_debate(state)}
-Strategy Context:
-{strategy}
+    Proposed Action: {action}
+    Research Manager: {rm_action}
+    {disagreement_note}
+    Market Context: VIX={volatility_index}, Ticker Risk={ticker_risk}
+    Analyst Evidence:
+    {_format_reports_for_risk_debate(state)}
 
-Return concise text in this exact format:
-Aggressive Analyst:
-- THESIS_SURVIVAL_CLAIM: <1 line>
-- RESCUE_MECHANISM_WITHIN_HORIZON: <1 line>
-- UNRESOLVED_BREAKER: <1 line>
-- BREAKER_STRENGTH: LOW | MEDIUM | HIGH
-- HORIZON_RELEVANCE: YES | NO
-- VOTE: BLOCK | REDUCE | CLEAR
-- NOVELTY_VS_UPSTREAM: NEW | ALREADY_KNOWN
-- VETO_CONFIDENCE: LOW | MEDIUM | HIGH
-- CONFIDENCE: LOW | MEDIUM | HIGH
-
-Calibration:
-- If no credible rescue mechanism exists within horizon, do not force optimism.
-- BLOCK is valid when breaker cannot be neutralized by concrete near-term evidence.
-
-Keep under 130 words."""
+    Write 3-4 sentences as "Aggressive Analyst:".
+    Name the specific survival mechanism, the key near-term support, and why the biggest opposing risk is manageable within the horizon.
+    Keep under 110 words."""
     else:
-        prompt = f"""Role: Aggressive Risk Analyst for {ticker}.
-    Task: update your rescue-case assessment after reviewing opposing arguments.
-    Use only provided context.
+        prompt = f"""Role: Aggressive Risk Analyst for {ticker}. Round 2 update.
+Task: After reading the Conservative and Neutral views, state only what changes in your survival case.
+If your case holds, briefly confirm why with one specific piece of evidence. If you must concede a point, name it.
 
 Proposed Action: {action}
-Market Context: VIX={volatility_index}, Risk={ticker_risk}
-Analyst Evidence:
-{_format_reports_for_risk_debate(state)}
 Conservative view:
 {conservative_last if conservative_last else "N/A"}
 Neutral view:
 {neutral_last if neutral_last else "N/A"}
 
-Round-2 discipline:
-- Output only updates, concessions, or confidence changes.
-- Do not repeat unchanged points.
-
-Return concise text in this exact format:
-Aggressive Analyst:
-- UPDATED_THESIS_SURVIVAL_CLAIM: <1 line>
-- UPDATED_RESCUE_MECHANISM_WITHIN_HORIZON: <1 line>
-- UPDATED_UNRESOLVED_BREAKER: <1 line>
-- UPDATED_BREAKER_STRENGTH: LOW | MEDIUM | HIGH
-- UPDATED_HORIZON_RELEVANCE: YES | NO
-- UPDATED_VOTE: BLOCK | REDUCE | CLEAR
-- UPDATED_NOVELTY_VS_UPSTREAM: NEW | ALREADY_KNOWN
-- UPDATED_VETO_CONFIDENCE: LOW | MEDIUM | HIGH
-- UPDATED_CONFIDENCE: LOW | MEDIUM | HIGH
-
-Keep under 120 words."""
+Write 2-3 sentences as "Aggressive Analyst (Round 2):". Output only what is new or changed.
+Keep under 80 words."""
     
     # Generate response
-    response = call_llm(prompt)
+    response = call_llm(prompt, call_name="Aggressive_Risk_Analyst")
     
     # Update debate state
     debate_state['aggressive_history'] += f"\n\n{response}"
@@ -318,72 +284,40 @@ def conservative_risk_analyst(state: dict):
     
     # Build lean prompt (Stage C/D only; B/B+ paths are unaffected)
     if debate_state['count'] == 1:
+        horizon_days = run_config.get('horizon_days', state.get('horizon_days', 10))
         prompt = f"""Role: Conservative Risk Analyst for {ticker}.
-    Task: act as the committee falsifier and identify whether this thesis should be vetoed at this horizon.
-    Do not re-predict direction. Use only provided evidence.
+    Task: First, assess whether the Aggressive's named survival mechanism is directly supported by or contradicted by the analyst evidence. Then name the specific failure mechanism that applies if the survival mechanism is unreliable.
+    Use only the evidence provided. Generic caution does not count.
 
-Proposed Action: {action}
-Research Manager Action: {rm_action}
-{disagreement_note}
-Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
-Analyst Evidence:
-{_format_reports_for_risk_debate(state)}
-Strategy Context:
-{strategy}
-Aggressive view:
-{aggressive_last if aggressive_last else "N/A"}
+    Proposed Action: {action}
+    Research Manager: {rm_action}
+    {disagreement_note}
+    Market Context: VIX={volatility_index}, Ticker Risk={ticker_risk}
+    Analyst Evidence:
+    {_format_reports_for_risk_debate(state)}
+    Aggressive view:
+    {aggressive_last if aggressive_last else "N/A"}
 
-Return concise text in this exact format:
-Conservative Analyst:
-- THESIS_BREAKER: <1 line>
-- FALSIFICATION_TRIGGER: <1 line condition that would force BLOCK>
-- UNRESOLVED_BREAKER: <1 line>
-- BREAKER_STRENGTH: LOW | MEDIUM | HIGH
-- HORIZON_RELEVANCE: YES | NO
-- VOTE: BLOCK | REDUCE | CLEAR
-- NOVELTY_VS_UPSTREAM: NEW | ALREADY_KNOWN
-- VETO_CONFIDENCE: LOW | MEDIUM | HIGH
-- CONFIDENCE: LOW | MEDIUM | HIGH
-
-Calibration:
-- Be strict on unresolved high-impact breakers.
-- If breaker is HIGH and horizon-relevant with weak refutation, prefer BLOCK.
-
-Keep under 130 words."""
+    Write 3-4 sentences as "Conservative Analyst:".
+    Start by stating whether the Aggressive's survival mechanism is evidence-grounded or is speculative/contradicted by the reports. Then name the specific failure mechanism and why it materialises within the horizon if the survival mechanism is weaker than claimed.
+    Do not raise generic macro risks unless directly and specifically ticker-relevant.
+    Keep under 110 words."""
     else:
-        prompt = f"""Role: Conservative Risk Analyst for {ticker}.
-    Task: update your falsification assessment after reviewing other views.
-    Use only provided context.
+        prompt = f"""Role: Conservative Risk Analyst for {ticker}. Round 2 update.
+    Task: After reading the Aggressive and Neutral views, state only what changes in your failure case.
+    If your concern holds, confirm why with one specific point. If a concern is concretely rebutted, concede it.
 
-Proposed Action: {action}
-Market Context: VIX={volatility_index}, Risk={ticker_risk}
-Analyst Evidence:
-{_format_reports_for_risk_debate(state)}
-Aggressive view:
-{aggressive_last if aggressive_last else "N/A"}
-Neutral view:
-{neutral_last if neutral_last else "N/A"}
+    Proposed Action: {action}
+    Aggressive view:
+    {aggressive_last if aggressive_last else "N/A"}
+    Neutral view:
+    {neutral_last if neutral_last else "N/A"}
 
-Round-2 discipline:
-- Output only updates, concessions, or confidence changes.
-- Do not repeat unchanged points.
-
-Return concise text in this exact format:
-Conservative Analyst:
-- UPDATED_THESIS_BREAKER: <1 line>
-- UPDATED_FALSIFICATION_TRIGGER: <1 line>
-- UPDATED_UNRESOLVED_BREAKER: <1 line>
-- UPDATED_BREAKER_STRENGTH: LOW | MEDIUM | HIGH
-- UPDATED_HORIZON_RELEVANCE: YES | NO
-- UPDATED_VOTE: BLOCK | REDUCE | CLEAR
-- UPDATED_NOVELTY_VS_UPSTREAM: NEW | ALREADY_KNOWN
-- UPDATED_VETO_CONFIDENCE: LOW | MEDIUM | HIGH
-- UPDATED_CONFIDENCE: LOW | MEDIUM | HIGH
-
-Keep under 120 words."""
+    Write 2-3 sentences as "Conservative Analyst (Round 2):". Output only what is new or changed.
+    Keep under 80 words."""
     
     # Generate response
-    response = call_llm(prompt)
+    response = call_llm(prompt, call_name="Conservative_Risk_Analyst")
     
     # Update debate state
     debate_state['conservative_history'] += f"\n\n{response}"
@@ -428,45 +362,29 @@ def neutral_risk_analyst(state: dict):
     conservative_last = debate_state.get('conservative_history', '')
     
     # Build lean prompt (Stage C/D only; B/B+ paths are unaffected)
+    horizon_days = run_config.get('horizon_days', state.get('horizon_days', 10))
     prompt = f"""Role: Neutral Risk Analyst for {ticker}.
-Task: act as evidence-integrity auditor and resolve the committee disagreement.
-Do not output BUY/SELL/HOLD. Use only provided context.
+Task: Evaluate the evidentiary quality of the Aggressive and Conservative arguments. Your most important output is a verdict on whether the Aggressive's named survival mechanism is evidence-grounded.
+Use only the evidence provided.
 
 Proposed Action: {action}
-Research Manager Action: {rm_action}
+Research Manager: {rm_action}
 {disagreement_note}
-Market Context: VIX={volatility_index}, TickerRisk={ticker_risk}
+Market Context: VIX={volatility_index}, Ticker Risk={ticker_risk}
 Analyst Evidence:
 {_format_reports_for_risk_debate(state)}
-Strategy Context:
-{strategy}
 Aggressive view:
 {aggressive_last if aggressive_last else "N/A"}
 Conservative view:
 {conservative_last if conservative_last else "N/A"}
 
-Return concise text in this exact format:
-Neutral Analyst:
-- WINNING_SIDE: SURVIVAL | BREAKER | TIED
-- THESIS_STATUS: VALID | INVALID | UNCERTAIN
-- EXECUTION_FRAGILITY_VIEW: LOW | HIGH | N/A
-- UNRESOLVED_BREAKER: <1 line>
-- BREAKER_STRENGTH: LOW | MEDIUM | HIGH
-- HORIZON_RELEVANCE: YES | NO
-- VOTE: BLOCK | REDUCE | CLEAR
-- NOVELTY_VS_UPSTREAM: NEW | ALREADY_KNOWN
-- VETO_CONFIDENCE: LOW | MEDIUM | HIGH
-- CONFIDENCE: LOW | MEDIUM | HIGH
-
-Calibration:
-- Do not split by default.
-- Use TIED only when evidence is genuinely balanced.
-- If THESIS_STATUS is INVALID or UNCERTAIN with unresolved HIGH breaker, VOTE should generally be BLOCK.
-
-Keep under 140 words."""
+Write 3-4 sentences as "Neutral Analyst:".
+Explicitly state whether the Aggressive's named survival mechanism is: (a) strongly supported by specific evidence in the analyst reports, (b) plausible but not directly evidenced, or (c) contradicted by specific evidence in the reports. Then state which side makes the stronger evidence-grounded case.
+Do not split the difference by default.
+Keep under 110 words."""
     
     # Generate response
-    response = call_llm(prompt)
+    response = call_llm(prompt, call_name="Neutral_Risk_Analyst")
     
     # Update debate state
     debate_state['neutral_history'] += f"\n\n{response}"
@@ -551,68 +469,41 @@ Decide which side has stronger evidence for the next {horizon_days} trading days
     risk_mode = (run_config.get("risk_mode", "single") or "single").lower()
 
     if risk_mode == "debate":
-        prompt = f"""Role: Risk Manager (Debate Judge).
-Task: choose final risk judgment for the proposed action over the next {horizon_days} trading days for {ticker}.
-Your job is thesis stress-testing, not direction re-forecasting.
+        prompt = f"""Role: Risk Manager (Judge) for {ticker}.
+Task: Decide the final risk judgment for the {trader_action} proposal over {horizon_days} trading days.
+Read the three analyst arguments and apply the decision criteria below. Do not re-forecast direction.
 
 Proposed Action: {trader_action}
-Research Manager Action: {research_manager_action}
-Trader Action: {trader_action}
-Disagreement Context: {disagreement_context.strip()}
-Prior Provenance:
-- VIEW: {prior_view}
-- PRIOR_CONFIRMED: {prior_confirmed}
-- OVERRIDE REASON: {override_reason or 'N/A'}
-Strategy Details: {strategy}
+Research Manager: {research_manager_action}
+{disagreement_context.strip()}
+Prior Provenance: VIEW={prior_view}, CONFIRMED={prior_confirmed}, OVERRIDE={override_reason or 'N/A'}
+Market Context: VIX={volatility_index}, Ticker Risk={ticker_risk}
 
-Analyst Evidence:
+Analyst Evidence (context only):
 {_format_reports_for_risk_debate(state)}
 
-Risk Debate Evidence:
+Risk Analyst Arguments:
 {_format_risk_debate_for_judge(state)}
 
-Risk Tribunal Vote Table:
-{_format_risk_votes_for_judge(state)}
+Decision criteria:
+Your starting position is CLEAR. Escalate only when the evidence forces you.
+- CLEAR (default): Use this unless you can answer the escalation test below.
+- REDUCE: Use this only if you can name the specific unresolved risk that the Aggressive failed to concretely counter within the horizon. If you cannot name it precisely, stay at CLEAR.
+- BLOCK: Use this if the Conservative or Neutral identified that the Aggressive's named survival mechanism is itself contradicted by or not supported by the analyst evidence, AND without a reliable survival mechanism the thesis faces a specific named condition that would cause it to fail within the horizon. BLOCK is about the Aggressive's mechanism being evidence-weak — not about absolute worst-case scenarios. Do not use BLOCK if the Aggressive's mechanism is plausible even if uncertain.
 
-Market Context:
-- VIX: {volatility_index}
-- Ticker Risk: {ticker_risk}
-
-Use only provided evidence.
-
-Decision policy (soft rubric, not a hard rule):
-Decision ladder:
-1) Falsification first:
-    - If THESIS_VALIDITY=INVALID for BUY/SELL, choose BLOCK unless you explicitly refute the strongest breaker.
-    - If THESIS_VALIDITY=UNCERTAIN and unresolved breaker is HIGH + horizon-relevant, choose BLOCK unless refuted.
-2) If thesis survives:
-    - Choose REDUCE only when fragility is concrete and near-term.
-    - Choose CLEAR when fragility is weak, refuted, or already priced.
-3) Tribunal signal integration:
-    - Treat 2+ BLOCK votes with HIGH breaker strength, HORIZON_RELEVANCE=YES, and at least one HIGH VETO_CONFIDENCE as strong evidence, not a hard rule.
-4) HOLD semantics:
-    - For HOLD proposals, do not use BLOCK; choose CLEAR or REDUCE.
-
-Calibration:
-- Do not BLOCK from vague uncertainty alone.
-- Do not use REDUCE as a default safe option.
-- If BLOCK, state whether the breaker is NEW versus ALREADY_KNOWN upstream.
+For HOLD proposals: use CLEAR or REDUCE only (BLOCK is not applicable to an already-abstained position).
 
 Output format:
 THESIS_VALIDITY: VALID|INVALID|UNCERTAIN
 EXECUTION_FRAGILITY: LOW|HIGH|N/A
 RISK_JUDGMENT: CLEAR|REDUCE|BLOCK
-RATIONALE:
-- 2-3 sentences with strongest breaker, strongest refutation, and why the final judgment is calibrated.
-- If RISK_JUDGMENT=REDUCE, include "FRAGILITY_MECHANISM:" and one concrete mechanism.
-- If RISK_JUDGMENT=REDUCE, include "WHY_NOT_BLOCK:" with one evidence-based sentence.
-- If RISK_JUDGMENT=BLOCK, include "NOVEL_BREAKER:" as NEW or ALREADY_KNOWN.
+RATIONALE: 2-3 sentences identifying the decisive mechanism and why the judgment is calibrated.
 ADJUSTMENTS:
 - Position Size: [X%] (0 if BLOCK)
 - Stop Loss: [price|null]
 - Take Profit: [price|null]
 
-Keep under 190 words."""
+Keep under 180 words."""
         structured_prompt = prompt + """
 
 Return strict JSON with keys:
@@ -668,6 +559,7 @@ risk_judgment, rationale, position_size_pct, stop_loss, take_profit
             structured_prompt,
             decision_model,
             temperature=0.2,
+            call_name="Risk_Judge",
         )
     except Exception as e:
         if risk_mode == "debate":
@@ -695,39 +587,6 @@ risk_judgment, rationale, position_size_pct, stop_loss, take_profit
 
     consistency_repair_applied = False
     hold_block_adjusted = False
-
-    # Repair directional inconsistency via a short second-pass LLM check.
-    if (
-        risk_mode == "debate"
-        and trader_action in {"BUY", "SELL"}
-        and getattr(decision, "thesis_validity", "VALID") in {"INVALID", "UNCERTAIN"}
-        and decision.risk_judgment != "BLOCK"
-    ):
-        repair_prompt = f"""Role: Risk Manager Consistency Repair.
-You must repair an internally inconsistent prior decision for a directional proposal.
-
-Directional proposal: {trader_action}
-Prior decision JSON:
-{decision.model_dump_json(indent=2)}
-
-Policy:
-- If THESIS_VALIDITY is INVALID or UNCERTAIN for BUY/SELL, BLOCK is the default unless you can justify THESIS_VALIDITY=VALID.
-- Do not invent new evidence. Only repair logical consistency.
-
-Return strict JSON with keys:
-thesis_validity, execution_fragility, risk_judgment, rationale, position_size_pct, stop_loss, take_profit
-"""
-        try:
-            repaired = call_llm_structured(
-                repair_prompt,
-                RiskManagerDecisionDebate,
-                temperature=0.1,
-            )
-            decision = repaired
-            consistency_repair_applied = True
-        except Exception:
-            # Keep original decision if repair fails; diagnostics will still flag inconsistency.
-            pass
 
     # HOLD cannot be meaningfully blocked because final action remains HOLD.
     if risk_mode == "debate" and trader_action == "HOLD" and decision.risk_judgment == "BLOCK":

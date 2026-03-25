@@ -1,0 +1,596 @@
+{
+  "schema_version": "2.0",
+  "meta": {
+    "schema_version": "2.0",
+    "created_at": "2026-03-21T13:06:48",
+    "started_at": "2026-03-21T13:05:56",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "manual"
+  },
+  "request": {
+    "ticker": "JNJ",
+    "market": "US",
+    "simulated_date": "2025-02-24",
+    "horizon": "short",
+    "stage": "C",
+    "debate_rounds": 1,
+    "risk_debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "debate",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": true,
+    "use_cached_stage_a_prior": true,
+    "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+  },
+  "result_summary": {
+    "action": "SELL",
+    "confidence_score": 0.75,
+    "position_size_pct": 2.5,
+    "risk_judgment": "REDUCE",
+    "risk_gate": "Risk debate judged. Original: SELL, Judgment: REDUCE, Final: SELL"
+  },
+  "request_payload": {
+    "ticker": "JNJ",
+    "market": "US",
+    "simulated_date": "2025-02-24",
+    "horizon": "short",
+    "stage": "C",
+    "debate_rounds": 1,
+    "risk_debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "debate",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": true,
+    "use_cached_stage_a_prior": true,
+    "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+  },
+  "response_full": {
+    "ticker": "JNJ",
+    "market": "US",
+    "run_config": {
+      "stage": "C",
+      "simulated_date": "2025-02-24",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "risk_debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "debate",
+      "use_cached_stage_a_reports": true,
+      "use_cached_stage_a_prior": true,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+    },
+    "simulated_date": "2025-02-24",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Operating income collapsed 27% QoQ ($5.28B to $3.84B) despite flat revenue, signaling severe margin compression entering the current period.\n* Operating expenses surged 13% QoQ, driven by a $1B spike in SG&A and increased R&D, indicating rising costs to maintain market share.\n* Revenue growth has stalled, showing only 0.2% QoQ acceleration, providing no top-line momentum to offset deteriorating operational efficiency.\n\n2) RISKS:\n* Net income growth QoQ was artificially supported by a lower tax provision ($456M vs $644M) rather than core business strength.\n* Stagnant revenue suggests a lack of near-term product catalysts to reverse the downward operating trend.\n\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Whether the Q4 SG&A spike was a one-time year-end accounting adjustment or a permanent shift in cost structure.",
+      "technical_analyst": "1) EVIDENCE:\n* MACD: Positive crossover (3.48) and rising histogram (0.90) confirm accelerating upward momentum and buyer control.\n* RSI: 76.6 reading indicates strong bullish strength, though it has entered overbought territory.\n* Price/Volume: Price (159.3) is trading above the Upper Bollinger Band (157.8) supported by a 1.16 volume ratio, confirming a high-conviction breakout.\n\n2) SUPPORT: 157.81\n3) RESISTANCE: UNKNOWN\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: Price is significantly overextended above the upper Bollinger Band (BBP 1.10), creating high risk for a sharp mean-reversion move toward the SMA_20.",
+      "news_harvester": "1) CATALYSTS:\n* Launch of Selarsdi biosimilar -> Direct competition for JNJ’s blockbuster drug Stelara, threatening immediate market share and revenue margins.\n\n2) TONE: BEARISH\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Accelerated revenue erosion for Stelara as biosimilar competition enters the US market."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Operating income collapsed 27% QoQ ($5.28B to $3.84B) despite flat revenue, signaling severe margin compression entering the current period.",
+        "primary_risk": "* Net income growth QoQ was artificially supported by a lower tax provision ($456M vs $644M) rather than core business strength."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "MACD: Positive crossover (3.48) and rising histogram (0.90) confirm accelerating upward momentum and buyer control.",
+        "primary_risk": "Price is significantly overextended above the upper Bollinger Band (BBP 1.10), creating high risk for a sharp mean-reversion move toward the"
+      },
+      "news": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Launch of Selarsdi biosimilar -> Direct competition for JNJ’s blockbuster drug Stelara, threatening immediate market share and revenue margi",
+        "primary_risk": "Accelerated revenue erosion for Stelara as biosimilar competition enters the US market."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: MODERATE\n- UPSIDE_CORE: A high-conviction technical breakout is underway, with price (159.3) exceeding the Upper Bollinger Band on strong volume (1.16 ratio). Validated by a positive MACD crossover and rising histogram, this accelerating momentum suggests short-term bullish continuation, as current technical price discovery overrides deteriorating operating margins and competitive threats from the Selarsdi biosimilar launch.\n- UPSIDE_FALSIFIER: A daily close below the 157.81 support level, signaling a mean-reversion move.\n\n- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_CORE: Severe margin compression—evidenced by a 27% operating income collapse—combined with technical overextension (RSI 76.6) signals an imminent mean-reversion move toward the SMA_20. Immediate biosimilar competition for blockbuster drug Stelara acts as a fundamental catalyst for this breakdown, as stagnant revenue growth fails to offset rising SG&A and R&D costs.\n- DOWNSIDE_FALSIFIER: Price sustains its breakout above the Upper Bollinger Band (157.81) with rising volume, defying mean-reversion signals.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: MODERATE\n- UPSIDE_CORE: A high-conviction technical breakout is underway, with price (159.3) exceeding the Upper Bollinger Band on strong volume (1.16 ratio). Validated by a positive MACD crossover and rising histogram, this accelerating momentum suggests short-term bullish continuation, as current technical price discovery overrides deteriorating operating margins and competitive threats from the Selarsdi biosimilar launch.\n- UPSIDE_FALSIFIER: A daily close below the 157.81 support level, signaling a mean-reversion move.",
+      "bear_history": "\n\n- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_CORE: Severe margin compression—evidenced by a 27% operating income collapse—combined with technical overextension (RSI 76.6) signals an imminent mean-reversion move toward the SMA_20. Immediate biosimilar competition for blockbuster drug Stelara acts as a fundamental catalyst for this breakdown, as stagnant revenue growth fails to offset rising SG&A and R&D costs.\n- DOWNSIDE_FALSIFIER: Price sustains its breakout above the Upper Bollinger Band (157.81) with rising volume, defying mean-reversion signals.",
+      "current_response": "- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_CORE: Severe margin compression—evidenced by a 27% operating income collapse—combined with technical overextension (RSI 76.6) signals an imminent mean-reversion move toward the SMA_20. Immediate biosimilar competition for blockbuster drug Stelara acts as a fundamental catalyst for this breakdown, as stagnant revenue growth fails to offset rising SG&A and R&D costs.\n- DOWNSIDE_FALSIFIER: Price sustains its breakout above the Upper Bollinger Band (157.81) with rising volume, defying mean-reversion signals.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 4.0,\n  \"sell_score\": 8.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"27% operating income collapse and immediate biosimilar competition for Stelara\",\n    \"Technical overextension with RSI at 76.6 signaling imminent mean-reversion to SMA_20\"\n  ],\n  \"main_risk\": \"Price sustains breakout above 157.81 with rising volume, defying fundamental deterioration\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The prior SELL view is reinforced by severe fundamental margin compression and technical overbought signals that suggest the current breakout is unsustainable.\",\n  \"upside_note_impact\": \"Identified short-term technical momentum but failed to override the fundamental collapse and overextended RSI.\",\n  \"downside_note_impact\": \"Strongly validated the prior view by linking fundamental margin decay with technical mean-reversion triggers.\",\n  \"actionability_assessment\": \"Anticipate a price correction toward the SMA_20 as fundamental risks and RSI exhaustion trigger selling pressure.\",\n  \"hold_gate_assessment\": \"The strength of the downside fundamental evidence outweighs the technical breakout, making a SELL more plausible than a neutral HOLD.\",\n  \"execution_notes\": [\n    \"Monitor the 157.81 support level closely\",\n    \"Watch for volume decay on the current upward move to confirm exhaustion\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "risk_debate_state": {
+      "history": "\n\nAggressive Analyst: The SELL thesis survives via a violent mean-reversion correction as overextended technicals—marked by a 76.6 RSI and price exceeding the Upper Bollinger Band—collide with a 27% collapse in operating income. We anticipate a rapid descent toward the $157.81 support level as the market finally prices in the margin-crushing impact of Selarsdi’s biosimilar entry against blockbuster Stelara. The opposing bullish momentum is unsustainable \"exhaustion buying\" that cannot withstand the fundamental reality of stagnant revenue and surging SG&A costs. Within ten days, this extreme overbought condition will trigger the inevitable downward pivot toward core fundamental valuations.\n\nConservative Analyst: The SELL thesis fails because the 1.16 volume ratio and rising MACD signal a \"high-conviction breakout\" that likely establishes a structural floor at the $157.81 support level. While the Aggressive analyst anticipates mean-reversion, this support is only 0.9% below the current price, meaning any correction would be shallow and immediately defended by buyers. Given the 80% confidence in bullish technicals versus only 65% in fundamental bearishness, the upward momentum will likely absorb the selling pressure, trapping shorts as the stock consolidates above the Upper Bollinger Band rather than reversing.\n\nNeutral Analyst: The Conservative case is more concrete because it highlights that the nearest support level is only 0.9% below current prices, effectively neutralizing the Aggressive analyst’s \"violent\" mean-reversion thesis. With an 80% confidence rating in technical momentum and high-conviction volume, the bullish breakout is statistically more robust than the 65% confident fundamental bearishness. Consequently, the SELL recommendation lacks sufficient downside room before hitting established buyer support. The key unresolved uncertainty remains whether the $1B SG&A surge represents a permanent structural cost increase or a one-time year-end adjustment.",
+      "aggressive_history": "\n\nAggressive Analyst: The SELL thesis survives via a violent mean-reversion correction as overextended technicals—marked by a 76.6 RSI and price exceeding the Upper Bollinger Band—collide with a 27% collapse in operating income. We anticipate a rapid descent toward the $157.81 support level as the market finally prices in the margin-crushing impact of Selarsdi’s biosimilar entry against blockbuster Stelara. The opposing bullish momentum is unsustainable \"exhaustion buying\" that cannot withstand the fundamental reality of stagnant revenue and surging SG&A costs. Within ten days, this extreme overbought condition will trigger the inevitable downward pivot toward core fundamental valuations.",
+      "conservative_history": "\n\nConservative Analyst: The SELL thesis fails because the 1.16 volume ratio and rising MACD signal a \"high-conviction breakout\" that likely establishes a structural floor at the $157.81 support level. While the Aggressive analyst anticipates mean-reversion, this support is only 0.9% below the current price, meaning any correction would be shallow and immediately defended by buyers. Given the 80% confidence in bullish technicals versus only 65% in fundamental bearishness, the upward momentum will likely absorb the selling pressure, trapping shorts as the stock consolidates above the Upper Bollinger Band rather than reversing.",
+      "neutral_history": "\n\nNeutral Analyst: The Conservative case is more concrete because it highlights that the nearest support level is only 0.9% below current prices, effectively neutralizing the Aggressive analyst’s \"violent\" mean-reversion thesis. With an 80% confidence rating in technical momentum and high-conviction volume, the bullish breakout is statistically more robust than the 65% confident fundamental bearishness. Consequently, the SELL recommendation lacks sufficient downside room before hitting established buyer support. The key unresolved uncertainty remains whether the $1B SG&A surge represents a permanent structural cost increase or a one-time year-end adjustment.",
+      "votes": {
+        "aggressive": {
+          "vote": "N/A",
+          "unresolved_breaker": "N/A",
+          "breaker_strength": "N/A",
+          "horizon_relevance": "N/A",
+          "novelty": "N/A",
+          "veto_confidence": "N/A",
+          "confidence": "N/A"
+        },
+        "conservative": {
+          "vote": "N/A",
+          "unresolved_breaker": "N/A",
+          "breaker_strength": "N/A",
+          "horizon_relevance": "N/A",
+          "novelty": "N/A",
+          "veto_confidence": "N/A",
+          "confidence": "N/A"
+        },
+        "neutral": {
+          "vote": "N/A",
+          "unresolved_breaker": "N/A",
+          "breaker_strength": "N/A",
+          "horizon_relevance": "N/A",
+          "novelty": "N/A",
+          "veto_confidence": "N/A",
+          "confidence": "N/A"
+        }
+      },
+      "latest_speaker": "Neutral",
+      "count": 3
+    },
+    "arguments": {
+      "bullish": "\n\n- UPSIDE_STRENGTH: MODERATE\n- UPSIDE_CORE: A high-conviction technical breakout is underway, with price (159.3) exceeding the Upper Bollinger Band on strong volume (1.16 ratio). Validated by a positive MACD crossover and rising histogram, this accelerating momentum suggests short-term bullish continuation, as current technical price discovery overrides deteriorating operating margins and competitive threats from the Selarsdi biosimilar launch.\n- UPSIDE_FALSIFIER: A daily close below the 157.81 support level, signaling a mean-reversion move.",
+      "bearish": "\n\n- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_CORE: Severe margin compression—evidenced by a 27% operating income collapse—combined with technical overextension (RSI 76.6) signals an imminent mean-reversion move toward the SMA_20. Immediate biosimilar competition for blockbuster drug Stelara acts as a fundamental catalyst for this breakdown, as stagnant revenue growth fails to offset rising SG&A and R&D costs.\n- DOWNSIDE_FALSIFIER: Price sustains its breakout above the Upper Bollinger Band (157.81) with rising volume, defying mean-reversion signals."
+    },
+    "investment_plan": "{\n  \"buy_score\": 4.0,\n  \"sell_score\": 8.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"27% operating income collapse and immediate biosimilar competition for Stelara\",\n    \"Technical overextension with RSI at 76.6 signaling imminent mean-reversion to SMA_20\"\n  ],\n  \"main_risk\": \"Price sustains breakout above 157.81 with rising volume, defying fundamental deterioration\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The prior SELL view is reinforced by severe fundamental margin compression and technical overbought signals that suggest the current breakout is unsustainable.\",\n  \"upside_note_impact\": \"Identified short-term technical momentum but failed to override the fundamental collapse and overextended RSI.\",\n  \"downside_note_impact\": \"Strongly validated the prior view by linking fundamental margin decay with technical mean-reversion triggers.\",\n  \"actionability_assessment\": \"Anticipate a price correction toward the SMA_20 as fundamental risks and RSI exhaustion trigger selling pressure.\",\n  \"hold_gate_assessment\": \"The strength of the downside fundamental evidence outweighs the technical breakout, making a SELL more plausible than a neutral HOLD.\",\n  \"execution_notes\": [\n    \"Monitor the 157.81 support level closely\",\n    \"Watch for volume decay on the current upward move to confirm exhaustion\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 4.0,
+      "sell_score": 8.0,
+      "recommendation": "SELL",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "27% operating income collapse and immediate biosimilar competition for Stelara",
+        "Technical overextension with RSI at 76.6 signaling imminent mean-reversion to SMA_20"
+      ],
+      "main_risk": "Price sustains breakout above 157.81 with rising volume, defying fundamental deterioration",
+      "prior_view": "SELL",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "SELL",
+      "base_view_rationale": "The prior SELL view is reinforced by severe fundamental margin compression and technical overbought signals that suggest the current breakout is unsustainable.",
+      "upside_note_impact": "Identified short-term technical momentum but failed to override the fundamental collapse and overextended RSI.",
+      "downside_note_impact": "Strongly validated the prior view by linking fundamental margin decay with technical mean-reversion triggers.",
+      "actionability_assessment": "Anticipate a price correction toward the SMA_20 as fundamental risks and RSI exhaustion trigger selling pressure.",
+      "hold_gate_assessment": "The strength of the downside fundamental evidence outweighs the technical breakout, making a SELL more plausible than a neutral HOLD.",
+      "execution_notes": [
+        "Monitor the 157.81 support level closely",
+        "Watch for volume decay on the current upward move to confirm exhaustion"
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 2.5,
+      "rationale": "[REDUCE] The SELL thesis faces significant execution risk as the nearest technical support at $157.81 is only 0.9% below the current price, creating a very narrow window for profit. While fundamental margin compression is evident, the Aggressive analyst failed to explain how a mean-reversion move would overcome the high-conviction volume and 80% confidence technical breakout. Reducing the position size accounts for the likelihood that bullish momentum will defend the immediate support floor, trapping short positions."
+    },
+    "trader_reports": {},
+    "risk_reports": {
+      "risk_manager_decision": "{\n  \"thesis_validity\": \"UNCERTAIN\",\n  \"execution_fragility\": \"HIGH\",\n  \"risk_judgment\": \"REDUCE\",\n  \"rationale\": \"The SELL thesis faces significant execution risk as the nearest technical support at $157.81 is only 0.9% below the current price, creating a very narrow window for profit. While fundamental margin compression is evident, the Aggressive analyst failed to explain how a mean-reversion move would overcome the high-conviction volume and 80% confidence technical breakout. Reducing the position size accounts for the likelihood that bullish momentum will defend the immediate support floor, trapping short positions.\",\n  \"position_size_pct\": 2.5,\n  \"stop_loss\": 162.5,\n  \"take_profit\": 157.85\n}",
+      "risk_gate": "Risk debate judged. Original: SELL, Judgment: REDUCE, Final: SELL"
+    },
+    "compliance_check": {},
+    "proposed_trade": {
+      "action": "SELL",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 2.5,
+      "rationale": "[REDUCE] The SELL thesis faces significant execution risk as the nearest technical support at $157.81 is only 0.9% below the current price, creating a very narrow window for profit. While fundamental margin compression is evident, the Aggressive analyst failed to explain how a mean-reversion move would overcome the high-conviction volume and 80% confidence technical breakout. Reducing the position size accounts for the likelihood that bullish momentum will defend the immediate support floor, trapping short positions."
+    },
+    "cache_context": {
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl",
+      "cache_lookup_key": "JNJ|2025-02-24|short|US",
+      "cached_stage_a_trace": {
+        "ticker": "JNJ",
+        "simulated_date": "2025-02-24",
+        "horizon": "short",
+        "market": "US",
+        "flags": {
+          "stage": "A",
+          "debate_rounds": 0,
+          "debate_mode": "off",
+          "decision_style": "classification",
+          "memory_on": false,
+          "risk_mode": "off",
+          "use_pro_stage_a_manager": false,
+          "use_cached_stage_a_reports": false,
+          "use_cached_stage_a_prior": false,
+          "cache_trace_file": ""
+        },
+        "attempt": 1,
+        "request_payload": {
+          "ticker": "JNJ",
+          "market": "US",
+          "simulated_date": "2025-02-24",
+          "horizon": "short",
+          "stage": "A",
+          "debate_rounds": 0,
+          "debate_mode": "off",
+          "decision_style": "classification",
+          "memory_on": false,
+          "risk_mode": "off",
+          "use_pro_stage_a_manager": false,
+          "use_cached_stage_a_reports": false,
+          "use_cached_stage_a_prior": false,
+          "cache_trace_file": ""
+        },
+        "trace": {
+          "run_config": {
+            "stage": "A",
+            "simulated_date": "2025-02-24",
+            "horizon": "short",
+            "horizon_days": 10,
+            "debate_rounds": 0,
+            "debate_mode": "off",
+            "decision_style": "classification",
+            "memory_on": false,
+            "risk_mode": "off",
+            "use_cached_stage_a_reports": false,
+            "use_cached_stage_a_prior": false,
+            "use_pro_stage_a_manager": false,
+            "cache_trace_file": ""
+          },
+          "signals": {
+            "fundamental": {
+              "direction": "BEARISH",
+              "magnitude": 0.5,
+              "confidence": 0.65,
+              "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+              "key_catalyst": "Operating income collapsed 27% QoQ ($5.28B to $3.84B) despite flat revenue, signaling severe margin compression entering the current period.",
+              "primary_risk": "* Net income growth QoQ was artificially supported by a lower tax provision ($456M vs $644M) rather than core business strength."
+            },
+            "technical": {
+              "direction": "BULLISH",
+              "magnitude": 0.8,
+              "confidence": 0.8,
+              "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+              "key_catalyst": "MACD: Positive crossover (3.48) and rising histogram (0.90) confirm accelerating upward momentum and buyer control.",
+              "primary_risk": "Price is significantly overextended above the upper Bollinger Band (BBP 1.10), creating high risk for a sharp mean-reversion move toward the"
+            },
+            "news": {
+              "direction": "BEARISH",
+              "magnitude": 0.5,
+              "confidence": 0.65,
+              "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+              "key_catalyst": "Launch of Selarsdi biosimilar -> Direct competition for JNJ’s blockbuster drug Stelara, threatening immediate market share and revenue margi",
+              "primary_risk": "Accelerated revenue erosion for Stelara as biosimilar competition enters the US market."
+            }
+          },
+          "reports": {
+            "fundamental_analyst": "1) EVIDENCE:\n* Operating income collapsed 27% QoQ ($5.28B to $3.84B) despite flat revenue, signaling severe margin compression entering the current period.\n* Operating expenses surged 13% QoQ, driven by a $1B spike in SG&A and increased R&D, indicating rising costs to maintain market share.\n* Revenue growth has stalled, showing only 0.2% QoQ acceleration, providing no top-line momentum to offset deteriorating operational efficiency.\n\n2) RISKS:\n* Net income growth QoQ was artificially supported by a lower tax provision ($456M vs $644M) rather than core business strength.\n* Stagnant revenue suggests a lack of near-term product catalysts to reverse the downward operating trend.\n\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Whether the Q4 SG&A spike was a one-time year-end accounting adjustment or a permanent shift in cost structure.",
+            "technical_analyst": "1) EVIDENCE:\n* MACD: Positive crossover (3.48) and rising histogram (0.90) confirm accelerating upward momentum and buyer control.\n* RSI: 76.6 reading indicates strong bullish strength, though it has entered overbought territory.\n* Price/Volume: Price (159.3) is trading above the Upper Bollinger Band (157.8) supported by a 1.16 volume ratio, confirming a high-conviction breakout.\n\n2) SUPPORT: 157.81\n3) RESISTANCE: UNKNOWN\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: Price is significantly overextended above the upper Bollinger Band (BBP 1.10), creating high risk for a sharp mean-reversion move toward the SMA_20.",
+            "news_harvester": "1) CATALYSTS:\n* Launch of Selarsdi biosimilar -> Direct competition for JNJ’s blockbuster drug Stelara, threatening immediate market share and revenue margins.\n\n2) TONE: BEARISH\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Accelerated revenue erosion for Stelara as biosimilar competition enters the US market."
+          },
+          "investment_debate_state": {
+            "judge_decision": "{\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Operating income collapsed 27% QoQ despite flat revenue, signaling severe margin compression and rising operational costs.\",\n    \"Launch of Selarsdi biosimilar poses an immediate threat to market share and revenue for JNJ\\u2019s blockbuster drug Stelara.\",\n    \"Technical indicators show the stock is significantly overextended (RSI 76.6, BBP 1.10), increasing the probability of a sharp mean-reversion move.\"\n  ],\n  \"main_risk\": \"Strong technical momentum and high-conviction breakout volume could delay the fundamental correction beyond the 10-day window.\",\n  \"confidence\": \"MEDIUM\"\n}"
+          },
+          "investment_plan": "{\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Operating income collapsed 27% QoQ despite flat revenue, signaling severe margin compression and rising operational costs.\",\n    \"Launch of Selarsdi biosimilar poses an immediate threat to market share and revenue for JNJ\\u2019s blockbuster drug Stelara.\",\n    \"Technical indicators show the stock is significantly overextended (RSI 76.6, BBP 1.10), increasing the probability of a sharp mean-reversion move.\"\n  ],\n  \"main_risk\": \"Strong technical momentum and high-conviction breakout volume could delay the fundamental correction beyond the 10-day window.\",\n  \"confidence\": \"MEDIUM\"\n}",
+          "investment_plan_structured": {
+            "recommendation": "SELL",
+            "confidence_score": 0.65,
+            "primary_drivers": [
+              "Operating income collapsed 27% QoQ despite flat revenue, signaling severe margin compression and rising operational costs.",
+              "Launch of Selarsdi biosimilar poses an immediate threat to market share and revenue for JNJ’s blockbuster drug Stelara.",
+              "Technical indicators show the stock is significantly overextended (RSI 76.6, BBP 1.10), increasing the probability of a sharp mean-reversion move."
+            ],
+            "main_risk": "Strong technical momentum and high-conviction breakout volume could delay the fundamental correction beyond the 10-day window.",
+            "confidence": "MEDIUM"
+          },
+          "research_manager_recommendation": "SELL",
+          "trading_strategy": {
+            "action": "SELL",
+            "confidence_score": 0.65,
+            "entry_price": null,
+            "take_profit": null,
+            "stop_loss": null,
+            "position_size_pct": 0,
+            "rationale": "FOR: Operating income collapsed 27% QoQ ($5.28B to $3.84B) despite flat revenue, signaling severe margin compression entering the current period. AGAINST: Price is significantly overextended above the upper Bollinger Band (BBP 1.10), creating high risk for a sharp mean-reversion move toward the DECISION: Executing Research Manager policy-core recommendation to SELL. CONFIDENCE=MEDIUM."
+          },
+          "risk_reports": {},
+          "compliance_check": {},
+          "analysis_time_seconds": 32.71,
+          "memory_id": null,
+          "provenance": {
+            "cache": {
+              "cache_trace_file": "",
+              "cache_lookup_key": "JNJ|2025-02-24|short|US",
+              "cached_stage_a_reports_used": false,
+              "cached_stage_a_prior_requested": false,
+              "cached_stage_a_prior_used": false
+            },
+            "news": {
+              "ticker": "JNJ",
+              "as_of": "2025-02-24",
+              "lookback_days": 14,
+              "window_start": "2025-02-10",
+              "window_end": "2025-02-24",
+              "article_count": 1,
+              "min_published": "2025-02-24T00:00:00",
+              "max_published": "2025-02-24T00:00:00",
+              "articles": [
+                {
+                  "title": "Teva and Alvotech launch ustekinumab biosimilar injection in US",
+                  "source": "Pharmaceutical Technology",
+                  "published": "20250224T000000",
+                  "url": "https://www.pharmaceutical-technology.com/news/teva-alvotech-ustekinumab-biosimilar/",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.208728,
+                  "relevance_score": 0.938106
+                }
+              ]
+            }
+          }
+        }
+      },
+      "cached_stage_a_reports_used": true,
+      "cached_stage_a_prior": {
+        "recommendation": "SELL",
+        "confidence_score": 0.65,
+        "primary_drivers": [
+          "Operating income collapsed 27% QoQ despite flat revenue, signaling severe margin compression and rising operational costs.",
+          "Launch of Selarsdi biosimilar poses an immediate threat to market share and revenue for JNJ’s blockbuster drug Stelara.",
+          "Technical indicators show the stock is significantly overextended (RSI 76.6, BBP 1.10), increasing the probability of a sharp mean-reversion move."
+        ],
+        "main_risk": "Strong technical momentum and high-conviction breakout volume could delay the fundamental correction beyond the 10-day window."
+      },
+      "cached_stage_a_prior_used": true
+    },
+    "provenance": {
+      "cache": {
+        "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl",
+        "cache_lookup_key": "JNJ|2025-02-24|short|US",
+        "cached_stage_a_reports_used": true,
+        "cached_stage_a_prior_requested": true,
+        "cached_stage_a_prior_used": true
+      }
+    },
+    "analysis_time_seconds": 51.77,
+    "llm_stats": {
+      "total_calls": 7,
+      "retries": 0,
+      "rate_limits_429": 0,
+      "total_input_tokens": 6821,
+      "total_output_tokens": 1224,
+      "total_tokens": 8045,
+      "token_log": [
+        {
+          "call": "Bull_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 786,
+          "output": 127,
+          "total": 913
+        },
+        {
+          "call": "Bear_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 812,
+          "output": 141,
+          "total": 953
+        },
+        {
+          "call": "Research_Manager_Decision",
+          "model": "gemini-3-flash-preview",
+          "input": 850,
+          "output": 369,
+          "total": 1219
+        },
+        {
+          "call": "Aggressive_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 798,
+          "output": 140,
+          "total": 938
+        },
+        {
+          "call": "Conservative_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 973,
+          "output": 132,
+          "total": 1105
+        },
+        {
+          "call": "Neutral_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 1073,
+          "output": 126,
+          "total": 1199
+        },
+        {
+          "call": "Risk_Judge",
+          "model": "gemini-3-flash-preview",
+          "input": 1529,
+          "output": 189,
+          "total": 1718
+        }
+      ]
+    }
+  },
+  "trace": {
+    "run_config": {
+      "stage": "C",
+      "simulated_date": "2025-02-24",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "risk_debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "debate",
+      "use_cached_stage_a_reports": true,
+      "use_cached_stage_a_prior": true,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Operating income collapsed 27% QoQ ($5.28B to $3.84B) despite flat revenue, signaling severe margin compression entering the current period.",
+        "primary_risk": "* Net income growth QoQ was artificially supported by a lower tax provision ($456M vs $644M) rather than core business strength."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "MACD: Positive crossover (3.48) and rising histogram (0.90) confirm accelerating upward momentum and buyer control.",
+        "primary_risk": "Price is significantly overextended above the upper Bollinger Band (BBP 1.10), creating high risk for a sharp mean-reversion move toward the"
+      },
+      "news": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Launch of Selarsdi biosimilar -> Direct competition for JNJ’s blockbuster drug Stelara, threatening immediate market share and revenue margi",
+        "primary_risk": "Accelerated revenue erosion for Stelara as biosimilar competition enters the US market."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Operating income collapsed 27% QoQ ($5.28B to $3.84B) despite flat revenue, signaling severe margin compression entering the current period.\n* Operating expenses surged 13% QoQ, driven by a $1B spike in SG&A and increased R&D, indicating rising costs to maintain market share.\n* Revenue growth has stalled, showing only 0.2% QoQ acceleration, providing no top-line momentum to offset deteriorating operational efficiency.\n\n2) RISKS:\n* Net income growth QoQ was artificially supported by a lower tax provision ($456M vs $644M) rather than core business strength.\n* Stagnant revenue suggests a lack of near-term product catalysts to reverse the downward operating trend.\n\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Whether the Q4 SG&A spike was a one-time year-end accounting adjustment or a permanent shift in cost structure.",
+      "technical_analyst": "1) EVIDENCE:\n* MACD: Positive crossover (3.48) and rising histogram (0.90) confirm accelerating upward momentum and buyer control.\n* RSI: 76.6 reading indicates strong bullish strength, though it has entered overbought territory.\n* Price/Volume: Price (159.3) is trading above the Upper Bollinger Band (157.8) supported by a 1.16 volume ratio, confirming a high-conviction breakout.\n\n2) SUPPORT: 157.81\n3) RESISTANCE: UNKNOWN\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: HIGH\n6) KEY_UNCERTAINTY: Price is significantly overextended above the upper Bollinger Band (BBP 1.10), creating high risk for a sharp mean-reversion move toward the SMA_20.",
+      "news_harvester": "1) CATALYSTS:\n* Launch of Selarsdi biosimilar -> Direct competition for JNJ’s blockbuster drug Stelara, threatening immediate market share and revenue margins.\n\n2) TONE: BEARISH\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Accelerated revenue erosion for Stelara as biosimilar competition enters the US market."
+    },
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: MODERATE\n- UPSIDE_CORE: A high-conviction technical breakout is underway, with price (159.3) exceeding the Upper Bollinger Band on strong volume (1.16 ratio). Validated by a positive MACD crossover and rising histogram, this accelerating momentum suggests short-term bullish continuation, as current technical price discovery overrides deteriorating operating margins and competitive threats from the Selarsdi biosimilar launch.\n- UPSIDE_FALSIFIER: A daily close below the 157.81 support level, signaling a mean-reversion move.\n\n- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_CORE: Severe margin compression—evidenced by a 27% operating income collapse—combined with technical overextension (RSI 76.6) signals an imminent mean-reversion move toward the SMA_20. Immediate biosimilar competition for blockbuster drug Stelara acts as a fundamental catalyst for this breakdown, as stagnant revenue growth fails to offset rising SG&A and R&D costs.\n- DOWNSIDE_FALSIFIER: Price sustains its breakout above the Upper Bollinger Band (157.81) with rising volume, defying mean-reversion signals.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: MODERATE\n- UPSIDE_CORE: A high-conviction technical breakout is underway, with price (159.3) exceeding the Upper Bollinger Band on strong volume (1.16 ratio). Validated by a positive MACD crossover and rising histogram, this accelerating momentum suggests short-term bullish continuation, as current technical price discovery overrides deteriorating operating margins and competitive threats from the Selarsdi biosimilar launch.\n- UPSIDE_FALSIFIER: A daily close below the 157.81 support level, signaling a mean-reversion move.",
+      "bear_history": "\n\n- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_CORE: Severe margin compression—evidenced by a 27% operating income collapse—combined with technical overextension (RSI 76.6) signals an imminent mean-reversion move toward the SMA_20. Immediate biosimilar competition for blockbuster drug Stelara acts as a fundamental catalyst for this breakdown, as stagnant revenue growth fails to offset rising SG&A and R&D costs.\n- DOWNSIDE_FALSIFIER: Price sustains its breakout above the Upper Bollinger Band (157.81) with rising volume, defying mean-reversion signals.",
+      "current_response": "- DOWNSIDE_STRENGTH: STRONG\n- DOWNSIDE_CORE: Severe margin compression—evidenced by a 27% operating income collapse—combined with technical overextension (RSI 76.6) signals an imminent mean-reversion move toward the SMA_20. Immediate biosimilar competition for blockbuster drug Stelara acts as a fundamental catalyst for this breakdown, as stagnant revenue growth fails to offset rising SG&A and R&D costs.\n- DOWNSIDE_FALSIFIER: Price sustains its breakout above the Upper Bollinger Band (157.81) with rising volume, defying mean-reversion signals.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 4.0,\n  \"sell_score\": 8.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"27% operating income collapse and immediate biosimilar competition for Stelara\",\n    \"Technical overextension with RSI at 76.6 signaling imminent mean-reversion to SMA_20\"\n  ],\n  \"main_risk\": \"Price sustains breakout above 157.81 with rising volume, defying fundamental deterioration\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The prior SELL view is reinforced by severe fundamental margin compression and technical overbought signals that suggest the current breakout is unsustainable.\",\n  \"upside_note_impact\": \"Identified short-term technical momentum but failed to override the fundamental collapse and overextended RSI.\",\n  \"downside_note_impact\": \"Strongly validated the prior view by linking fundamental margin decay with technical mean-reversion triggers.\",\n  \"actionability_assessment\": \"Anticipate a price correction toward the SMA_20 as fundamental risks and RSI exhaustion trigger selling pressure.\",\n  \"hold_gate_assessment\": \"The strength of the downside fundamental evidence outweighs the technical breakout, making a SELL more plausible than a neutral HOLD.\",\n  \"execution_notes\": [\n    \"Monitor the 157.81 support level closely\",\n    \"Watch for volume decay on the current upward move to confirm exhaustion\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 4.0,\n  \"sell_score\": 8.0,\n  \"recommendation\": \"SELL\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"27% operating income collapse and immediate biosimilar competition for Stelara\",\n    \"Technical overextension with RSI at 76.6 signaling imminent mean-reversion to SMA_20\"\n  ],\n  \"main_risk\": \"Price sustains breakout above 157.81 with rising volume, defying fundamental deterioration\",\n  \"prior_view\": \"SELL\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"SELL\",\n  \"base_view_rationale\": \"The prior SELL view is reinforced by severe fundamental margin compression and technical overbought signals that suggest the current breakout is unsustainable.\",\n  \"upside_note_impact\": \"Identified short-term technical momentum but failed to override the fundamental collapse and overextended RSI.\",\n  \"downside_note_impact\": \"Strongly validated the prior view by linking fundamental margin decay with technical mean-reversion triggers.\",\n  \"actionability_assessment\": \"Anticipate a price correction toward the SMA_20 as fundamental risks and RSI exhaustion trigger selling pressure.\",\n  \"hold_gate_assessment\": \"The strength of the downside fundamental evidence outweighs the technical breakout, making a SELL more plausible than a neutral HOLD.\",\n  \"execution_notes\": [\n    \"Monitor the 157.81 support level closely\",\n    \"Watch for volume decay on the current upward move to confirm exhaustion\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 4.0,
+      "sell_score": 8.0,
+      "recommendation": "SELL",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "27% operating income collapse and immediate biosimilar competition for Stelara",
+        "Technical overextension with RSI at 76.6 signaling imminent mean-reversion to SMA_20"
+      ],
+      "main_risk": "Price sustains breakout above 157.81 with rising volume, defying fundamental deterioration",
+      "prior_view": "SELL",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "SELL",
+      "base_view_rationale": "The prior SELL view is reinforced by severe fundamental margin compression and technical overbought signals that suggest the current breakout is unsustainable.",
+      "upside_note_impact": "Identified short-term technical momentum but failed to override the fundamental collapse and overextended RSI.",
+      "downside_note_impact": "Strongly validated the prior view by linking fundamental margin decay with technical mean-reversion triggers.",
+      "actionability_assessment": "Anticipate a price correction toward the SMA_20 as fundamental risks and RSI exhaustion trigger selling pressure.",
+      "hold_gate_assessment": "The strength of the downside fundamental evidence outweighs the technical breakout, making a SELL more plausible than a neutral HOLD.",
+      "execution_notes": [
+        "Monitor the 157.81 support level closely",
+        "Watch for volume decay on the current upward move to confirm exhaustion"
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "SELL",
+    "trading_strategy": {
+      "action": "SELL",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 2.5,
+      "rationale": "[REDUCE] The SELL thesis faces significant execution risk as the nearest technical support at $157.81 is only 0.9% below the current price, creating a very narrow window for profit. While fundamental margin compression is evident, the Aggressive analyst failed to explain how a mean-reversion move would overcome the high-conviction volume and 80% confidence technical breakout. Reducing the position size accounts for the likelihood that bullish momentum will defend the immediate support floor, trapping short positions."
+    },
+    "risk_reports": {
+      "risk_manager_decision": "{\n  \"thesis_validity\": \"UNCERTAIN\",\n  \"execution_fragility\": \"HIGH\",\n  \"risk_judgment\": \"REDUCE\",\n  \"rationale\": \"The SELL thesis faces significant execution risk as the nearest technical support at $157.81 is only 0.9% below the current price, creating a very narrow window for profit. While fundamental margin compression is evident, the Aggressive analyst failed to explain how a mean-reversion move would overcome the high-conviction volume and 80% confidence technical breakout. Reducing the position size accounts for the likelihood that bullish momentum will defend the immediate support floor, trapping short positions.\",\n  \"position_size_pct\": 2.5,\n  \"stop_loss\": 162.5,\n  \"take_profit\": 157.85\n}",
+      "risk_gate": "Risk debate judged. Original: SELL, Judgment: REDUCE, Final: SELL"
+    },
+    "compliance_check": {},
+    "analysis_time_seconds": 51.77,
+    "memory_id": null,
+    "llm_stats": {
+      "total_calls": 7,
+      "retries": 0,
+      "rate_limits_429": 0,
+      "total_input_tokens": 6821,
+      "total_output_tokens": 1224,
+      "total_tokens": 8045,
+      "token_log": [
+        {
+          "call": "Bull_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 786,
+          "output": 127,
+          "total": 913
+        },
+        {
+          "call": "Bear_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 812,
+          "output": 141,
+          "total": 953
+        },
+        {
+          "call": "Research_Manager_Decision",
+          "model": "gemini-3-flash-preview",
+          "input": 850,
+          "output": 369,
+          "total": 1219
+        },
+        {
+          "call": "Aggressive_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 798,
+          "output": 140,
+          "total": 938
+        },
+        {
+          "call": "Conservative_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 973,
+          "output": 132,
+          "total": 1105
+        },
+        {
+          "call": "Neutral_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 1073,
+          "output": 126,
+          "total": 1199
+        },
+        {
+          "call": "Risk_Judge",
+          "model": "gemini-3-flash-preview",
+          "input": 1529,
+          "output": 189,
+          "total": 1718
+        }
+      ]
+    }
+  }
+}

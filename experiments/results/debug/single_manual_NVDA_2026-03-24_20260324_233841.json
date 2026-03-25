@@ -1,0 +1,550 @@
+{
+  "schema_version": "2.0",
+  "meta": {
+    "schema_version": "2.0",
+    "created_at": "2026-03-24T23:38:41",
+    "started_at": "2026-03-24T23:37:29",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "manual"
+  },
+  "request": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2026-03-24",
+    "horizon": "short",
+    "stage": "D",
+    "debate_rounds": 1,
+    "risk_debate_rounds": 0,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": true,
+    "memory_store": true,
+    "risk_mode": "single",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": false,
+    "use_cached_stage_a_prior": false,
+    "cache_trace_file": ""
+  },
+  "result_summary": {
+    "action": "BUY",
+    "confidence_score": 0.75,
+    "position_size_pct": 3.0,
+    "risk_judgment": "REDUCE",
+    "risk_gate": "Single risk-check evaluated. Original: BUY, Judgment: REDUCE, Final: BUY"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2026-03-24",
+    "horizon": "short",
+    "stage": "D",
+    "debate_rounds": 1,
+    "risk_debate_rounds": 0,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": true,
+    "memory_store": true,
+    "risk_mode": "single",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": false,
+    "use_cached_stage_a_prior": false,
+    "cache_trace_file": ""
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "D",
+      "simulated_date": "2026-03-24",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "risk_debate_rounds": 0,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": true,
+      "risk_mode": "single",
+      "use_cached_stage_a_reports": false,
+      "use_cached_stage_a_prior": false,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": ""
+    },
+    "simulated_date": "2026-03-24",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **Revenue Acceleration:** Q4 2026 revenue surged 19.5% QoQ to $68.1B, a significant re-acceleration compared to the 6.1% growth seen in Q2 2026.\n* **Margin Expansion:** Gross margins expanded from 73.4% to 75.0% QoQ, signaling immense pricing power and a favorable shift toward high-margin Blackwell/H200 products.\n* **Operating Leverage:** Net income grew 34.6% QoQ, far outstripping revenue growth, which confirms that scaling costs are being well-managed as production ramps.\n\n2) RISKS:\n* **Cost Pressure:** Cost of Revenue rose 12.4% QoQ ($15.1B to $17.0B); any supply chain bottlenecks could stall the current margin trajectory.\n* **Expectation Gap:** With such massive growth, the market may have already priced in \"perfection,\" leaving little room for even minor guidance nuances.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Sustainability of the 75% gross margin peak amid increasing foundry costs.",
+      "technical_analyst": "1) EVIDENCE:\n* Price vs. SMA: Current price (175.81) is trading below the SMA_20 (181.47), confirming sellers maintain short-term structural control.\n* MACD: The MACD (-2.41) remains below its signal line (-1.59) with a negative histogram, indicating sustained downward momentum.\n* RSI: A reading of 42.22 reflects bearish sentiment with sufficient room to move lower before reaching oversold territory (<30).\n\n2) SUPPORT: 171.80\n3) RESISTANCE: 181.47\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The exceptionally low volume ratio (0.3) indicates a lack of aggressive selling pressure, which may lead to price consolidation near support rather than a clean breakdown.",
+      "news_harvester": "1) CATALYSTS:\n- HP workstation launch featuring NVIDIA RTX PRO 6000 Blackwell GPUs -> Confirms immediate enterprise rollout and Blackwell-architecture adoption.\n- Testing key resistance levels -> Technical setup indicates a high-probability volatility event or breakout within the 10-day horizon.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Failure to clear technical resistance levels could lead to a short-term price rejection."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "Sustainability of the 75% gross margin peak amid increasing foundry costs"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price vs. SMA: Current price (175.81) is trading below the SMA20 (181.47), confirming sellers maintain short-term structural control",
+        "primary_risk": "The exceptionally low volume ratio (0.3) indicates a lack of aggressive selling pressure, which may lead to price consolidation near support"
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "HP workstation launch featuring NVIDIA RTX PRO 6000 Blackwell GPUs -> Confirms immediate enterprise rollout and Blackwell-architecture adopt",
+        "primary_risk": "Failure to clear technical resistance levels could lead to a short-term price rejection"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: STRONG\n- UPSIDE_CORE: Significant fundamental re-acceleration (19.5% QoQ revenue growth) and record 75% gross margins validate immense Blackwell/H200 demand. The HP workstation launch confirms immediate enterprise Blackwell adoption, serving as the transmission path to override current bearish technical momentum and trigger a volatility-driven breakout above the 181.47 resistance level within the 10-day window.\n- UPSIDE_FALSIFIER: NVDA closing below the 171.80 support level on increased trading volume.\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Sellers maintain structural control with price below the SMA_20 ($181.47) and negative MACD momentum. Rising cost-of-revenue (12.4%) and \"priced-for-perfection\" expectations create a high-probability price rejection at resistance. With RSI at 42.22, there is significant room for a downward move toward the $171.80 support level within the 10-day window.\n- DOWNSIDE_FALSIFIER: Price closes above the 181.47 resistance level on increasing volume.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: STRONG\n- UPSIDE_CORE: Significant fundamental re-acceleration (19.5% QoQ revenue growth) and record 75% gross margins validate immense Blackwell/H200 demand. The HP workstation launch confirms immediate enterprise Blackwell adoption, serving as the transmission path to override current bearish technical momentum and trigger a volatility-driven breakout above the 181.47 resistance level within the 10-day window.\n- UPSIDE_FALSIFIER: NVDA closing below the 171.80 support level on increased trading volume.",
+      "bear_history": "\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Sellers maintain structural control with price below the SMA_20 ($181.47) and negative MACD momentum. Rising cost-of-revenue (12.4%) and \"priced-for-perfection\" expectations create a high-probability price rejection at resistance. With RSI at 42.22, there is significant room for a downward move toward the $171.80 support level within the 10-day window.\n- DOWNSIDE_FALSIFIER: Price closes above the 181.47 resistance level on increasing volume.",
+      "current_response": "- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Sellers maintain structural control with price below the SMA_20 ($181.47) and negative MACD momentum. Rising cost-of-revenue (12.4%) and \"priced-for-perfection\" expectations create a high-probability price rejection at resistance. With RSI at 42.22, there is significant room for a downward move toward the $171.80 support level within the 10-day window.\n- DOWNSIDE_FALSIFIER: Price closes above the 181.47 resistance level on increasing volume.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 8.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"19.5% QoQ revenue growth and record 75% gross margins validating Blackwell demand\",\n    \"HP workstation launch providing a concrete catalyst for enterprise Blackwell adoption\"\n  ],\n  \"main_risk\": \"Price rejection at the 181.47 resistance level driven by negative MACD momentum\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Fundamental re-acceleration and Blackwell demand catalysts outweigh current technical momentum concerns\",\n  \"upside_note_impact\": \"Strongly reinforces the BUY case by providing a specific transmission path to break technical resistance\",\n  \"downside_note_impact\": \"Identifies technical resistance and rising costs but does not invalidate the core growth thesis\",\n  \"actionability_assessment\": \"Expect a volatility-driven breakout above 181.47 resistance triggered by fundamental catalysts within 10 days\",\n  \"hold_gate_assessment\": \"Fundamental catalysts are sufficiently concrete to maintain BUY despite technical headwinds\",\n  \"execution_notes\": [\n    \"Monitor volume on approach to 181.47\",\n    \"Stop-loss trigger if price closes below 171.80\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- UPSIDE_STRENGTH: STRONG\n- UPSIDE_CORE: Significant fundamental re-acceleration (19.5% QoQ revenue growth) and record 75% gross margins validate immense Blackwell/H200 demand. The HP workstation launch confirms immediate enterprise Blackwell adoption, serving as the transmission path to override current bearish technical momentum and trigger a volatility-driven breakout above the 181.47 resistance level within the 10-day window.\n- UPSIDE_FALSIFIER: NVDA closing below the 171.80 support level on increased trading volume.",
+      "bearish": "\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Sellers maintain structural control with price below the SMA_20 ($181.47) and negative MACD momentum. Rising cost-of-revenue (12.4%) and \"priced-for-perfection\" expectations create a high-probability price rejection at resistance. With RSI at 42.22, there is significant room for a downward move toward the $171.80 support level within the 10-day window.\n- DOWNSIDE_FALSIFIER: Price closes above the 181.47 resistance level on increasing volume."
+    },
+    "investment_plan": "{\n  \"buy_score\": 8.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"19.5% QoQ revenue growth and record 75% gross margins validating Blackwell demand\",\n    \"HP workstation launch providing a concrete catalyst for enterprise Blackwell adoption\"\n  ],\n  \"main_risk\": \"Price rejection at the 181.47 resistance level driven by negative MACD momentum\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Fundamental re-acceleration and Blackwell demand catalysts outweigh current technical momentum concerns\",\n  \"upside_note_impact\": \"Strongly reinforces the BUY case by providing a specific transmission path to break technical resistance\",\n  \"downside_note_impact\": \"Identifies technical resistance and rising costs but does not invalidate the core growth thesis\",\n  \"actionability_assessment\": \"Expect a volatility-driven breakout above 181.47 resistance triggered by fundamental catalysts within 10 days\",\n  \"hold_gate_assessment\": \"Fundamental catalysts are sufficiently concrete to maintain BUY despite technical headwinds\",\n  \"execution_notes\": [\n    \"Monitor volume on approach to 181.47\",\n    \"Stop-loss trigger if price closes below 171.80\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 8.0,
+      "sell_score": 5.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "19.5% QoQ revenue growth and record 75% gross margins validating Blackwell demand",
+        "HP workstation launch providing a concrete catalyst for enterprise Blackwell adoption"
+      ],
+      "main_risk": "Price rejection at the 181.47 resistance level driven by negative MACD momentum",
+      "prior_view": "BUY",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "BUY",
+      "base_view_rationale": "Fundamental re-acceleration and Blackwell demand catalysts outweigh current technical momentum concerns",
+      "upside_note_impact": "Strongly reinforces the BUY case by providing a specific transmission path to break technical resistance",
+      "downside_note_impact": "Identifies technical resistance and rising costs but does not invalidate the core growth thesis",
+      "actionability_assessment": "Expect a volatility-driven breakout above 181.47 resistance triggered by fundamental catalysts within 10 days",
+      "hold_gate_assessment": "Fundamental catalysts are sufficiently concrete to maintain BUY despite technical headwinds",
+      "execution_notes": [
+        "Monitor volume on approach to 181.47",
+        "Stop-loss trigger if price closes below 171.80"
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 3.0,
+      "rationale": "[REDUCE] Strong fundamental growth and Blackwell adoption support a long-term BUY, but short-term technicals are bearish with the price below SMA_20 and a negative MACD. High market volatility (VIX 25.90) and the proximity to support at 171.80 warrant a cautious, reduced entry to mitigate immediate downside risk."
+    },
+    "trader_reports": {},
+    "risk_reports": {
+      "risk_manager_decision": "{\n  \"risk_judgment\": \"REDUCE\",\n  \"rationale\": \"Strong fundamental growth and Blackwell adoption support a long-term BUY, but short-term technicals are bearish with the price below SMA_20 and a negative MACD. High market volatility (VIX 25.90) and the proximity to support at 171.80 warrant a cautious, reduced entry to mitigate immediate downside risk.\",\n  \"position_size_pct\": 3.0,\n  \"stop_loss\": 170.0,\n  \"take_profit\": 185.0\n}",
+      "risk_gate": "Single risk-check evaluated. Original: BUY, Judgment: REDUCE, Final: BUY"
+    },
+    "compliance_check": {},
+    "proposed_trade": {
+      "action": "BUY",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 3.0,
+      "rationale": "[REDUCE] Strong fundamental growth and Blackwell adoption support a long-term BUY, but short-term technicals are bearish with the price below SMA_20 and a negative MACD. High market volatility (VIX 25.90) and the proximity to support at 171.80 warrant a cautious, reduced entry to mitigate immediate downside risk."
+    },
+    "memory_id": "NVDA_20260324_233840_805025",
+    "memory_summary": {
+      "bull_hits": 3,
+      "bear_hits": 3
+    },
+    "cache_context": {
+      "cache_trace_file": "",
+      "cache_lookup_key": "NVDA|2026-03-24|short|US",
+      "cached_stage_a_trace": null,
+      "cached_stage_a_reports_used": false,
+      "cached_stage_a_prior": null,
+      "cached_stage_a_prior_used": false
+    },
+    "provenance": {
+      "cache": {
+        "cache_trace_file": "",
+        "cache_lookup_key": "NVDA|2026-03-24|short|US",
+        "cached_stage_a_reports_used": false,
+        "cached_stage_a_prior_requested": false,
+        "cached_stage_a_prior_used": false
+      },
+      "signal_parse": {
+        "total": 3,
+        "failures": 0,
+        "by_analyst": {
+          "fundamental": {
+            "total": 1,
+            "failures": 0
+          },
+          "technical": {
+            "total": 1,
+            "failures": 0
+          },
+          "news": {
+            "total": 1,
+            "failures": 0
+          }
+        }
+      },
+      "news": {
+        "ticker": "NVDA",
+        "as_of": "2026-03-24",
+        "lookback_days": 14,
+        "window_start": "2026-03-10",
+        "window_end": "2026-03-24",
+        "article_count": 50,
+        "min_published": "2026-03-24T09:04:00+00:00",
+        "max_published": "2026-03-24T13:53:35+00:00",
+        "articles": [
+          {
+            "title": "Stock Market Today: Dow Jones Index Drops After Rebound; Oil Prices Jump (Live Coverage)",
+            "source": "Yahoo",
+            "published": "2026-03-24T13:53:35+00:00",
+            "url": "https://finnhub.io/api/news?id=74c87321ef634e3fb3ef5353639a4a4c80dd0c0b18914b57a9d48c69a447f532",
+            "ticker_sentiment_label": "Bearish",
+            "ticker_sentiment_score": -0.2,
+            "relevance_score": 0.0
+          },
+          {
+            "title": "Better Dividend Stock: ConocoPhillips vs. EOG Resources",
+            "source": "Yahoo",
+            "published": "2026-03-24T13:50:00+00:00",
+            "url": "https://finnhub.io/api/news?id=2ddd09d9d7fdb59f364253c77e273134354e222c33354ff05a0f55e8a5f699f0",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.0,
+            "relevance_score": 0.0
+          },
+          {
+            "title": "ASML Lands Massive EUV Deal Clearing Path to Double Revenue by 2030",
+            "source": "Yahoo",
+            "published": "2026-03-24T13:45:46+00:00",
+            "url": "https://finnhub.io/api/news?id=21fda4aa020df3bcba4cc1d89652d2f8ed057f3aed9fe88fd9085dcae8016032",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.0,
+            "relevance_score": 0.0
+          },
+          {
+            "title": "Microsoft reinstated, Ralph Lauren upgraded: Wall Street's top analyst calls",
+            "source": "Yahoo",
+            "published": "2026-03-24T13:36:48+00:00",
+            "url": "https://finnhub.io/api/news?id=b247d8e03269d19a5d306344738eead233f652349811caf5791915014fa7e639",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.2,
+            "relevance_score": 0.0
+          },
+          {
+            "title": "Meta Just Signed a $27 Billion Artificial Intelligence (AI) Deal. Here's the Under-the-Radar Stock That Won.",
+            "source": "Yahoo",
+            "published": "2026-03-24T13:35:00+00:00",
+            "url": "https://finnhub.io/api/news?id=082f9189dfa8351402608a1cfafe059e41293521ef4ea3d479164480b1f73570",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.0,
+            "relevance_score": 0.0
+          },
+          {
+            "title": "HP Imagine 2026: HP Announces High-Performance PCs for the Most Demanding Local Compute and AI Workloads",
+            "source": "Yahoo",
+            "published": "2026-03-24T13:30:00+00:00",
+            "url": "https://finnhub.io/api/news?id=468643f23e62bd3a5caac7653495fc5420cf6eb5e4cb00090de53acf9c237db3",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.0,
+            "relevance_score": 0.0
+          },
+          {
+            "title": "Should You Buy Rivian Stock Right Now?",
+            "source": "Yahoo",
+            "published": "2026-03-24T13:25:00+00:00",
+            "url": "https://finnhub.io/api/news?id=92445eb24f2fa3912e70968c5e43da944bdd35675b1274147ee22fd52751fcec",
+            "ticker_sentiment_label": "Bullish",
+            "ticker_sentiment_score": 0.2,
+            "relevance_score": 0.0
+          },
+          {
+            "title": "What's Going On With Alibaba Stock Tuesday",
+            "source": "Yahoo",
+            "published": "2026-03-24T13:20:13+00:00",
+            "url": "https://finnhub.io/api/news?id=af7878d07e5459d34d5b5a36410ccd9db31600a4a60d40eac862a8b7d1c2101b",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.0,
+            "relevance_score": 0.0
+          },
+          {
+            "title": "Should You Buy Apple Stock Now or Wait for a Dip?",
+            "source": "Yahoo",
+            "published": "2026-03-24T13:20:00+00:00",
+            "url": "https://finnhub.io/api/news?id=aa077885d9a482cb4be094f584489a14492f8324812eb0fc89c7f9f78245a4aa",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.0,
+            "relevance_score": 0.0
+          },
+          {
+            "title": "Think Novo Nordisk Can't Keep Up in the GLP-1 Market? Its Latest Drug Approval Could Be a Game Changer",
+            "source": "Yahoo",
+            "published": "2026-03-24T13:16:34+00:00",
+            "url": "https://finnhub.io/api/news?id=a8d0f750f5edf5a48b89afb10500092c4591eba27112c0cef71b58b33c67d17d",
+            "ticker_sentiment_label": "Neutral",
+            "ticker_sentiment_score": 0.0,
+            "relevance_score": 0.0
+          }
+        ]
+      }
+    },
+    "analysis_time_seconds": 71.8,
+    "llm_stats": {
+      "total_calls": 8,
+      "retries": 0,
+      "rate_limits_429": 0,
+      "total_input_tokens": 15809,
+      "total_output_tokens": 1441,
+      "total_tokens": 17250,
+      "token_log": [
+        {
+          "call": "Fundamental_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 8069,
+          "output": 267,
+          "total": 8336
+        },
+        {
+          "call": "Technical_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 643,
+          "output": 196,
+          "total": 839
+        },
+        {
+          "call": "News_Harvester",
+          "model": "gemini-3-flash-preview",
+          "input": 1185,
+          "output": 111,
+          "total": 1296
+        },
+        {
+          "call": "Bull_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 1156,
+          "output": 127,
+          "total": 1283
+        },
+        {
+          "call": "Bear_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 1182,
+          "output": 146,
+          "total": 1328
+        },
+        {
+          "call": "StageA_Manager_Prior",
+          "model": "gemini-3-flash-preview",
+          "input": 1156,
+          "output": 132,
+          "total": 1288
+        },
+        {
+          "call": "Research_Manager_Decision",
+          "model": "gemini-3-flash-preview",
+          "input": 1164,
+          "output": 324,
+          "total": 1488
+        },
+        {
+          "call": "Risk_Judge",
+          "model": "gemini-3-flash-preview",
+          "input": 1254,
+          "output": 138,
+          "total": 1392
+        }
+      ]
+    }
+  },
+  "trace": {
+    "run_config": {
+      "stage": "D",
+      "simulated_date": "2026-03-24",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "risk_debate_rounds": 0,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": true,
+      "risk_mode": "single",
+      "use_cached_stage_a_reports": false,
+      "use_cached_stage_a_prior": false,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": ""
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "No clear catalyst identified",
+        "primary_risk": "Sustainability of the 75% gross margin peak amid increasing foundry costs"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Price vs. SMA: Current price (175.81) is trading below the SMA20 (181.47), confirming sellers maintain short-term structural control",
+        "primary_risk": "The exceptionally low volume ratio (0.3) indicates a lack of aggressive selling pressure, which may lead to price consolidation near support"
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "HP workstation launch featuring NVIDIA RTX PRO 6000 Blackwell GPUs -> Confirms immediate enterprise rollout and Blackwell-architecture adopt",
+        "primary_risk": "Failure to clear technical resistance levels could lead to a short-term price rejection"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **Revenue Acceleration:** Q4 2026 revenue surged 19.5% QoQ to $68.1B, a significant re-acceleration compared to the 6.1% growth seen in Q2 2026.\n* **Margin Expansion:** Gross margins expanded from 73.4% to 75.0% QoQ, signaling immense pricing power and a favorable shift toward high-margin Blackwell/H200 products.\n* **Operating Leverage:** Net income grew 34.6% QoQ, far outstripping revenue growth, which confirms that scaling costs are being well-managed as production ramps.\n\n2) RISKS:\n* **Cost Pressure:** Cost of Revenue rose 12.4% QoQ ($15.1B to $17.0B); any supply chain bottlenecks could stall the current margin trajectory.\n* **Expectation Gap:** With such massive growth, the market may have already priced in \"perfection,\" leaving little room for even minor guidance nuances.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Sustainability of the 75% gross margin peak amid increasing foundry costs.",
+      "technical_analyst": "1) EVIDENCE:\n* Price vs. SMA: Current price (175.81) is trading below the SMA_20 (181.47), confirming sellers maintain short-term structural control.\n* MACD: The MACD (-2.41) remains below its signal line (-1.59) with a negative histogram, indicating sustained downward momentum.\n* RSI: A reading of 42.22 reflects bearish sentiment with sufficient room to move lower before reaching oversold territory (<30).\n\n2) SUPPORT: 171.80\n3) RESISTANCE: 181.47\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The exceptionally low volume ratio (0.3) indicates a lack of aggressive selling pressure, which may lead to price consolidation near support rather than a clean breakdown.",
+      "news_harvester": "1) CATALYSTS:\n- HP workstation launch featuring NVIDIA RTX PRO 6000 Blackwell GPUs -> Confirms immediate enterprise rollout and Blackwell-architecture adoption.\n- Testing key resistance levels -> Technical setup indicates a high-probability volatility event or breakout within the 10-day horizon.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Failure to clear technical resistance levels could lead to a short-term price rejection."
+    },
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: STRONG\n- UPSIDE_CORE: Significant fundamental re-acceleration (19.5% QoQ revenue growth) and record 75% gross margins validate immense Blackwell/H200 demand. The HP workstation launch confirms immediate enterprise Blackwell adoption, serving as the transmission path to override current bearish technical momentum and trigger a volatility-driven breakout above the 181.47 resistance level within the 10-day window.\n- UPSIDE_FALSIFIER: NVDA closing below the 171.80 support level on increased trading volume.\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Sellers maintain structural control with price below the SMA_20 ($181.47) and negative MACD momentum. Rising cost-of-revenue (12.4%) and \"priced-for-perfection\" expectations create a high-probability price rejection at resistance. With RSI at 42.22, there is significant room for a downward move toward the $171.80 support level within the 10-day window.\n- DOWNSIDE_FALSIFIER: Price closes above the 181.47 resistance level on increasing volume.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: STRONG\n- UPSIDE_CORE: Significant fundamental re-acceleration (19.5% QoQ revenue growth) and record 75% gross margins validate immense Blackwell/H200 demand. The HP workstation launch confirms immediate enterprise Blackwell adoption, serving as the transmission path to override current bearish technical momentum and trigger a volatility-driven breakout above the 181.47 resistance level within the 10-day window.\n- UPSIDE_FALSIFIER: NVDA closing below the 171.80 support level on increased trading volume.",
+      "bear_history": "\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Sellers maintain structural control with price below the SMA_20 ($181.47) and negative MACD momentum. Rising cost-of-revenue (12.4%) and \"priced-for-perfection\" expectations create a high-probability price rejection at resistance. With RSI at 42.22, there is significant room for a downward move toward the $171.80 support level within the 10-day window.\n- DOWNSIDE_FALSIFIER: Price closes above the 181.47 resistance level on increasing volume.",
+      "current_response": "- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Sellers maintain structural control with price below the SMA_20 ($181.47) and negative MACD momentum. Rising cost-of-revenue (12.4%) and \"priced-for-perfection\" expectations create a high-probability price rejection at resistance. With RSI at 42.22, there is significant room for a downward move toward the $171.80 support level within the 10-day window.\n- DOWNSIDE_FALSIFIER: Price closes above the 181.47 resistance level on increasing volume.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 8.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"19.5% QoQ revenue growth and record 75% gross margins validating Blackwell demand\",\n    \"HP workstation launch providing a concrete catalyst for enterprise Blackwell adoption\"\n  ],\n  \"main_risk\": \"Price rejection at the 181.47 resistance level driven by negative MACD momentum\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Fundamental re-acceleration and Blackwell demand catalysts outweigh current technical momentum concerns\",\n  \"upside_note_impact\": \"Strongly reinforces the BUY case by providing a specific transmission path to break technical resistance\",\n  \"downside_note_impact\": \"Identifies technical resistance and rising costs but does not invalidate the core growth thesis\",\n  \"actionability_assessment\": \"Expect a volatility-driven breakout above 181.47 resistance triggered by fundamental catalysts within 10 days\",\n  \"hold_gate_assessment\": \"Fundamental catalysts are sufficiently concrete to maintain BUY despite technical headwinds\",\n  \"execution_notes\": [\n    \"Monitor volume on approach to 181.47\",\n    \"Stop-loss trigger if price closes below 171.80\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 8.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"19.5% QoQ revenue growth and record 75% gross margins validating Blackwell demand\",\n    \"HP workstation launch providing a concrete catalyst for enterprise Blackwell adoption\"\n  ],\n  \"main_risk\": \"Price rejection at the 181.47 resistance level driven by negative MACD momentum\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Fundamental re-acceleration and Blackwell demand catalysts outweigh current technical momentum concerns\",\n  \"upside_note_impact\": \"Strongly reinforces the BUY case by providing a specific transmission path to break technical resistance\",\n  \"downside_note_impact\": \"Identifies technical resistance and rising costs but does not invalidate the core growth thesis\",\n  \"actionability_assessment\": \"Expect a volatility-driven breakout above 181.47 resistance triggered by fundamental catalysts within 10 days\",\n  \"hold_gate_assessment\": \"Fundamental catalysts are sufficiently concrete to maintain BUY despite technical headwinds\",\n  \"execution_notes\": [\n    \"Monitor volume on approach to 181.47\",\n    \"Stop-loss trigger if price closes below 171.80\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 8.0,
+      "sell_score": 5.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "19.5% QoQ revenue growth and record 75% gross margins validating Blackwell demand",
+        "HP workstation launch providing a concrete catalyst for enterprise Blackwell adoption"
+      ],
+      "main_risk": "Price rejection at the 181.47 resistance level driven by negative MACD momentum",
+      "prior_view": "BUY",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "BUY",
+      "base_view_rationale": "Fundamental re-acceleration and Blackwell demand catalysts outweigh current technical momentum concerns",
+      "upside_note_impact": "Strongly reinforces the BUY case by providing a specific transmission path to break technical resistance",
+      "downside_note_impact": "Identifies technical resistance and rising costs but does not invalidate the core growth thesis",
+      "actionability_assessment": "Expect a volatility-driven breakout above 181.47 resistance triggered by fundamental catalysts within 10 days",
+      "hold_gate_assessment": "Fundamental catalysts are sufficiently concrete to maintain BUY despite technical headwinds",
+      "execution_notes": [
+        "Monitor volume on approach to 181.47",
+        "Stop-loss trigger if price closes below 171.80"
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 3.0,
+      "rationale": "[REDUCE] Strong fundamental growth and Blackwell adoption support a long-term BUY, but short-term technicals are bearish with the price below SMA_20 and a negative MACD. High market volatility (VIX 25.90) and the proximity to support at 171.80 warrant a cautious, reduced entry to mitigate immediate downside risk."
+    },
+    "risk_reports": {
+      "risk_manager_decision": "{\n  \"risk_judgment\": \"REDUCE\",\n  \"rationale\": \"Strong fundamental growth and Blackwell adoption support a long-term BUY, but short-term technicals are bearish with the price below SMA_20 and a negative MACD. High market volatility (VIX 25.90) and the proximity to support at 171.80 warrant a cautious, reduced entry to mitigate immediate downside risk.\",\n  \"position_size_pct\": 3.0,\n  \"stop_loss\": 170.0,\n  \"take_profit\": 185.0\n}",
+      "risk_gate": "Single risk-check evaluated. Original: BUY, Judgment: REDUCE, Final: BUY"
+    },
+    "compliance_check": {},
+    "analysis_time_seconds": 71.8,
+    "memory_id": "NVDA_20260324_233840_805025",
+    "llm_stats": {
+      "total_calls": 8,
+      "retries": 0,
+      "rate_limits_429": 0,
+      "total_input_tokens": 15809,
+      "total_output_tokens": 1441,
+      "total_tokens": 17250,
+      "token_log": [
+        {
+          "call": "Fundamental_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 8069,
+          "output": 267,
+          "total": 8336
+        },
+        {
+          "call": "Technical_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 643,
+          "output": 196,
+          "total": 839
+        },
+        {
+          "call": "News_Harvester",
+          "model": "gemini-3-flash-preview",
+          "input": 1185,
+          "output": 111,
+          "total": 1296
+        },
+        {
+          "call": "Bull_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 1156,
+          "output": 127,
+          "total": 1283
+        },
+        {
+          "call": "Bear_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 1182,
+          "output": 146,
+          "total": 1328
+        },
+        {
+          "call": "StageA_Manager_Prior",
+          "model": "gemini-3-flash-preview",
+          "input": 1156,
+          "output": 132,
+          "total": 1288
+        },
+        {
+          "call": "Research_Manager_Decision",
+          "model": "gemini-3-flash-preview",
+          "input": 1164,
+          "output": 324,
+          "total": 1488
+        },
+        {
+          "call": "Risk_Judge",
+          "model": "gemini-3-flash-preview",
+          "input": 1254,
+          "output": 138,
+          "total": 1392
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+run,risk_judgment,flips,helped,hurt,neutral,net_help_minus_hurt
+Stage C-R1,BLOCK,24,4,8,12,-4
+Stage C-R1,REDUCE,42,10,15,17,-5
+Stage B+ R1 for C (malformed judge prompt was using C's risk judge but it should be B+ isolated),BLOCK,22,5,4,13,1
+Stage B+ R1 for C (malformed judge prompt was using C's risk judge but it should be B+ isolated),REDUCE,32,11,9,12,2

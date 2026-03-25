@@ -79,7 +79,7 @@ class FinancialMemory:
             Memory ID (string)
         """
         # Create a unique ID
-        memory_id = f"{ticker}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+        memory_id = f"{ticker}_{datetime.now().strftime('%Y%m%d_%H%M%S_%f')}"
         
         # Extract analyst reports if provided
         reports = reports or {}
@@ -127,9 +127,12 @@ Rationale: {strategy.get('rationale', 'N/A')[:400] if strategy.get('rationale') 
             "position_size_pct": str(strategy.get('position_size_pct', 0)),
             "outcome": "PENDING",  # Will be updated later
             "final_state_json": final_state_json or "", # Store full state for UI replay
-            **(metadata or {})
+            **{k: v for k, v in (metadata or {}).items() if v is not None},
         }
-        
+        # ChromaDB only accepts bool | int | float | str — coerce any remaining non-str to str
+        meta = {k: (str(v) if not isinstance(v, (bool, int, float, str)) else v)
+                for k, v in meta.items()}
+
         # Store in ChromaDB
         self.collection.add(
             documents=[document_text],
@@ -187,17 +190,21 @@ Rationale: {strategy.get('rationale', 'N/A')[:400] if strategy.get('rationale') 
         current_situation: str,
         ticker: Optional[str] = None,
         n_results: int = 3,
-        min_similarity: float = 0.3  # Lowered default for better matches
+        min_similarity: float = 0.3,
+        max_simulated_date: Optional[str] = None,  # No-leak guard: exclude memories on or after this date
     ) -> List[Dict[str, Any]]:
         """
         Find similar past analyses based on current situation.
-        
+
         Args:
             current_situation: Description of current market/stock situation
             ticker: Optional ticker to filter by
             n_results: Maximum number of results to return
             min_similarity: Minimum similarity score (0-1)
-            
+            max_simulated_date: ISO date string (YYYY-MM-DD). Only memories with
+                simulated_date strictly before this date are eligible. Use this to
+                enforce the no-look-ahead policy: pass (current_simulated_date - k_trading_days).
+
         Returns:
             List of similar past analyses with similarity scores
         """
@@ -206,47 +213,50 @@ Rationale: {strategy.get('rationale', 'N/A')[:400] if strategy.get('rationale') 
         if count == 0:
             print(f"[MEMORY] No memories stored yet")
             return []
-        
+
+        # Fetch more than needed so we can post-filter by date without under-returning
+        fetch_n = min(n_results * 4, count)
+
         # Build where filter if ticker specified
         where_filter = {"ticker": ticker} if ticker else None
-        
+
         # Query ChromaDB
         try:
             results = self.collection.query(
                 query_texts=[current_situation],
-                n_results=min(n_results, count),  # Don't request more than available
+                n_results=fetch_n,
                 where=where_filter,
                 include=["documents", "metadatas", "distances"]
             )
         except Exception as e:
             print(f"[MEMORY] Query error: {str(e)}")
             return []
-        
-        # Format results
+
+        # Format results with no-leak date filtering
         similar_analyses = []
         if results['ids'] and results['ids'][0]:
-            print(f"[MEMORY DEBUG] Raw query results:")
             for i in range(len(results['ids'][0])):
-                # ChromaDB uses distance, convert to similarity (1 - distance)
                 distance = results['distances'][0][i]
                 similarity = 1 - distance
-                
-                memory_id = results['ids'][0][i]
-                mem_ticker = results['metadatas'][0][i].get('ticker', 'N/A')
-                mem_action = results['metadatas'][0][i].get('action', 'N/A')
-                print(f"  [{i+1}] {memory_id} ({mem_ticker}, {mem_action}) - distance={distance:.4f}, similarity={similarity:.4f}")
-                
-                # Filter by minimum similarity
+                meta = results['metadatas'][0][i]
+
+                # No-leak guard: skip memories from on or after max_simulated_date
+                if max_simulated_date:
+                    mem_date = meta.get('simulated_date', '')
+                    if mem_date >= max_simulated_date:
+                        continue
+
                 if similarity >= min_similarity:
                     similar_analyses.append({
                         "id": results['ids'][0][i],
                         "document": results['documents'][0][i],
-                        "metadata": results['metadatas'][0][i],
+                        "metadata": meta,
                         "similarity": similarity,
-                        "distance": distance  # Include raw distance for debugging
                     })
-        
-        print(f"[MEMORY] Found {len(similar_analyses)} similar past analyses (from {count} total) with similarity >= {min_similarity}")
+                    if len(similar_analyses) >= n_results:
+                        break
+
+        print(f"[MEMORY] Found {len(similar_analyses)} eligible past analyses (no-leak cutoff: {max_simulated_date or 'none'})")
         return similar_analyses
     
     def get_past_mistakes(

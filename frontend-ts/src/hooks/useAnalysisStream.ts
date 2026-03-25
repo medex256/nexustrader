@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { buildAnalyzeStreamUrl } from "../lib/api";
-import { AGENT_NAME_TO_KEY, STAGE_AGENTS } from "../lib/stages";
+import { AGENT_KEY_TO_DISPLAY, AGENT_NAME_TO_KEY, STAGE_AGENTS } from "../lib/stages";
 import type { AnalysisResult, AnalyzeStreamEvent, StageKey } from "../lib/types";
 
 interface StartAnalysisInput {
@@ -87,12 +87,13 @@ export function useAnalysisStream(stage: StageKey) {
 
       if (data.status === "processing") {
         const mappedKey = AGENT_NAME_TO_KEY[data.agent] ?? data.agent;
+        const displayName = AGENT_KEY_TO_DISPLAY[mappedKey] ?? data.agent;
         const progress = Math.max(5, Math.round((data.step / Math.max(data.total, 1)) * 100));
 
         setProgressPercent(progress);
         setActiveAgentKey(mappedKey);
         setVisitedAgentKeys((current) => (current.includes(mappedKey) ? current : [...current, mappedKey]));
-        appendLog("info", `Running ${data.agent}`);
+        appendLog("info", `Running ${displayName}`);
         return;
       }
 

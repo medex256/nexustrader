@@ -22,7 +22,7 @@ STAGE_PRESETS = {
     "B": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 0, "risk_mode": "off", "memory_on": False},
     "B+": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 0, "risk_mode": "single", "memory_on": False},
     "C": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 1, "risk_mode": "debate", "memory_on": False},
-    "D": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 1, "risk_mode": "debate", "memory_on": True},
+    "D": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 0, "risk_mode": "single", "memory_on": True},
 }
 
 
@@ -51,6 +51,8 @@ def _resolve_flags(args: argparse.Namespace) -> Dict[str, Any]:
             "debate_mode": preset["debate_mode"],
             "decision_style": args.decision_style,
             "memory_on": preset["memory_on"],
+            "memory_store": not args.no_memory_store,
+            "archive_run": False,
             "risk_mode": preset["risk_mode"],
             "use_pro_stage_a_manager": args.use_pro_stage_a_manager,
             "use_cached_stage_a_reports": args.use_cached_stage_a_reports,
@@ -78,6 +80,8 @@ def _resolve_flags(args: argparse.Namespace) -> Dict[str, Any]:
         "debate_mode": debate_mode,
         "decision_style": args.decision_style,
         "memory_on": args.memory_on,
+        "memory_store": not args.no_memory_store,
+        "archive_run": False,
         "risk_mode": risk_mode,
         "use_pro_stage_a_manager": args.use_pro_stage_a_manager,
         "use_cached_stage_a_reports": args.use_cached_stage_a_reports,
@@ -166,6 +170,11 @@ def compact_result(full: Dict[str, Any], truncate_chars: int = 400) -> Dict[str,
         "memory_id": full.get("memory_id"),
     }
 
+    # Include LLM stats summary (without verbose token_log)
+    raw_stats = full.get("llm_stats")
+    if isinstance(raw_stats, dict):
+        compact["llm_stats"] = {k: v for k, v in raw_stats.items() if k != "token_log"}
+
     # Remove noisy/large keys if present
     for noisy_key in [
         "reports",
@@ -226,7 +235,9 @@ def trace_result(full: Dict[str, Any], request_payload: Dict[str, Any]) -> Dict[
             "compliance_check": full.get("compliance_check"),
             "analysis_time_seconds": full.get("analysis_time_seconds"),
             "memory_id": full.get("memory_id"),
+            "memory_summary": full.get("memory_summary"),
             "provenance": full.get("provenance"),
+            "llm_stats": full.get("llm_stats"),
         },
     }
 
@@ -256,6 +267,8 @@ def build_payload(ticker: str, market: str, simulated_date: str, horizon: str, f
         "debate_mode": debate_mode,
         "decision_style": flags.get("decision_style", "classification"),
         "memory_on": flags.get("memory_on", True),
+        "memory_store": flags.get("memory_store", True),
+        "archive_run": flags.get("archive_run", False),
         "risk_mode": risk_mode,
         "use_pro_stage_a_manager": flags.get("use_pro_stage_a_manager", False),
         "use_cached_stage_a_reports": flags.get("use_cached_stage_a_reports", False),
@@ -481,6 +494,37 @@ def run_batch(
     return out_path, trace_path
 
 
+def _print_batch_llm_stats(jsonl_path: str) -> None:
+    """Read finished batch JSONL and print aggregate LLM stats."""
+    agg_calls = 0
+    agg_retries = 0
+    agg_429 = 0
+    agg_tokens = 0
+    rows_with_stats = 0
+    try:
+        with open(jsonl_path, "r", encoding="utf-8") as f:
+            for line in f:
+                row = json.loads(line)
+                result = row.get("result") or {}
+                stats = result.get("llm_stats")
+                if not stats:
+                    continue
+                rows_with_stats += 1
+                agg_calls += stats.get("total_calls", 0)
+                agg_retries += stats.get("retries", 0)
+                agg_429 += stats.get("rate_limits_429", 0)
+                agg_tokens += stats.get("total_tokens", 0)
+    except Exception:
+        return
+    if rows_with_stats == 0:
+        return
+    print(f"\nAggregate LLM Stats ({rows_with_stats} runs):")
+    print(f"  total LLM calls: {agg_calls}")
+    print(f"  retries:          {agg_retries}")
+    print(f"  429 rate limits:  {agg_429}")
+    print(f"  total tokens:     {agg_tokens}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run batch NexusTrader analyses.")
     parser.add_argument("--api", default="http://127.0.0.1:8000", help="Backend API base URL")
@@ -535,6 +579,8 @@ def main() -> int:
     )
     parser.add_argument("--memory-on", action="store_true", default=True)
     parser.add_argument("--memory-off", action="store_false", dest="memory_on")
+    parser.add_argument("--no-memory-store", action="store_true", default=False,
+                        help="Read-only memory: retrieve past analyses but don't store new ones (avoids ChromaDB write contention)")
     parser.add_argument("--risk-on", action="store_true", default=False)
     parser.add_argument("--risk-off", action="store_false", dest="risk_on")
     parser.add_argument(
@@ -650,6 +696,9 @@ def main() -> int:
     print(f"Batch completed. Results saved to: {out_path}")
     if trace_path:
         print(f"Trace cache saved to: {trace_path}")
+
+    # Print aggregate LLM stats from the batch results
+    _print_batch_llm_stats(out_path)
     return 0
 
 

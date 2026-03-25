@@ -23,6 +23,8 @@ export function PriceChart({ asOf, ticker }: { asOf?: string; ticker: string }) 
     let chart: ReturnType<typeof createChart> | null = null;
 
     async function loadChart() {
+      container.classList.remove("chart-card-error");
+      container.classList.add("chart-card-loading");
       container.innerHTML = '<div class="chart-state">Loading chart...</div>';
 
       try {
@@ -37,6 +39,7 @@ export function PriceChart({ asOf, ticker }: { asOf?: string; ticker: string }) 
           throw new Error(payload.message || "Chart API error");
         }
 
+        container.classList.remove("chart-card-error", "chart-card-loading");
         container.innerHTML = "";
         chart = createChart(container, {
           grid: { horzLines: { color: "#e2e8f0" }, vertLines: { color: "#eef2ff" } },
@@ -85,6 +88,8 @@ export function PriceChart({ asOf, ticker }: { asOf?: string; ticker: string }) 
         resizeObserver.observe(container);
       } catch (error) {
         const message = error instanceof Error ? error.message : "Chart unavailable";
+        container.classList.remove("chart-card-loading");
+        container.classList.add("chart-card-error");
         container.innerHTML = `<p class="chart-state chart-state-error">Chart unavailable: ${message}</p>`;
       }
     }

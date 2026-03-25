@@ -1,0 +1,605 @@
+{
+  "schema_version": "2.0",
+  "meta": {
+    "schema_version": "2.0",
+    "created_at": "2026-03-21T18:40:31",
+    "started_at": "2026-03-21T18:40:02",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_d_memid"
+  },
+  "request": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2025-02-24",
+    "horizon": "short",
+    "stage": "D",
+    "debate_rounds": 1,
+    "risk_debate_rounds": 0,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": true,
+    "memory_store": false,
+    "risk_mode": "single",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": true,
+    "use_cached_stage_a_prior": true,
+    "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+  },
+  "result_summary": {
+    "action": "BUY",
+    "confidence_score": 0.75,
+    "position_size_pct": 3.0,
+    "risk_judgment": "REDUCE",
+    "risk_gate": "Single risk-check evaluated. Original: BUY, Judgment: REDUCE, Final: BUY"
+  },
+  "request_payload": {
+    "ticker": "NVDA",
+    "market": "US",
+    "simulated_date": "2025-02-24",
+    "horizon": "short",
+    "stage": "D",
+    "debate_rounds": 1,
+    "risk_debate_rounds": 0,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": true,
+    "memory_store": false,
+    "risk_mode": "single",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": true,
+    "use_cached_stage_a_prior": true,
+    "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+  },
+  "response_full": {
+    "ticker": "NVDA",
+    "market": "US",
+    "run_config": {
+      "stage": "D",
+      "simulated_date": "2025-02-24",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "risk_debate_rounds": 0,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": true,
+      "risk_mode": "single",
+      "use_cached_stage_a_reports": true,
+      "use_cached_stage_a_prior": true,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+    },
+    "simulated_date": "2025-02-24",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* QoQ revenue accelerated 12.1% to $39.3B (Jan 2025), proving sustained AI infrastructure demand even at a massive scale.\n* Net income grew 14.4% QoQ, outpacing revenue growth and maintaining an elite 56.2% net profit margin.\n* Annual revenue reached $130.5B, a 114% YoY increase, providing a powerful fundamental tailwind for the immediate post-earnings window.\n\n2) RISKS:\n* Quarterly gross margin compressed from 74.5% to 73.0% QoQ, signaling potential Blackwell ramp-up costs or product mix shifts.\n* Operating expenses rose 9.4% QoQ ($4.69B), creating a higher hurdle for bottom-line performance if revenue growth decelerates.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Market sensitivity to the minor gross margin dip versus the significant absolute revenue beat.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI_14 at 46.43 -> Momentum has dipped below the neutral 50-level, indicating that sellers currently maintain a slight edge in short-term control.\n* SMA Crossover -> UNKNOWN (10-day SMA missing); however, price (130.24) is currently compressed between SMA_20 support (129.44) and SMA_50 resistance (134.35).\n* MACD vs. Volume -> MACD is bullishly above its signal line (0.56 vs -0.20), but a low 0.84 volume ratio suggests the move lacks the conviction required for a breakout.\n\n2) SUPPORT: 129.44\n\n3) RESISTANCE: 134.35\n\n4) FINAL_VIEW: NEUTRAL\n\n5) CONFIDENCE: MEDIUM\n\n6) KEY_UNCERTAINTY: The bullish MACD divergence is directly contradicted by the sharp -6.54% five-day price trend and sub-50 RSI, creating a high-noise environment with no clear directional lead.",
+      "news_harvester": "1) CATALYSTS:\n- Supermicro’s (SMCI) $40B revenue forecast for FY2026 validates sustained, high-volume demand for Nvidia’s AI hardware, providing a positive read-through for near-term order visibility.\n- Launch of leveraged AMD ETFs and expanded 24-hour retail trading likely to amplify price volatility and competitive positioning within the AI chip sector.\n\n2) TONE: BULLISH\n\n3) FINAL_VIEW: BULLISH\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Ongoing financial scrutiny and a Justice Department probe into key partner Supermicro could trigger proxy volatility for Nvidia."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "QoQ revenue accelerated 12.1% to $39.3B (Jan 2025), proving sustained AI infrastructure demand even at a massive scale.",
+        "primary_risk": "* Quarterly gross margin compressed from 74.5% to 73.0% QoQ, signaling potential Blackwell ramp-up costs or product mix shifts."
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI_14 at 46.43 -> Momentum has dipped below the neutral 50-level, indicating that sellers currently maintain a slight edge in short-term co",
+        "primary_risk": "The bullish MACD divergence is directly contradicted by the sharp -6.54% five-day price trend and sub-50 RSI, creating a high-noise environm"
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Supermicro’s (SMCI) $40B revenue forecast for FY2026 validates sustained, high-volume demand for Nvidia’s AI hardware, providing a positive ",
+        "primary_risk": "Ongoing financial scrutiny and a Justice Department probe into key partner Supermicro could trigger proxy volatility for Nvidia."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: STRONG\n- UPSIDE_CORE: Accelerating QoQ revenue (12.1%) and net income growth (14.4%) provide the fundamental validation to override neutral technicals. This growth, coupled with SMCI's $40B forecast confirming sustained demand, creates a powerful tailwind for a bounce from SMA_20 support ($129.44) toward SMA_50 resistance ($134.35) during the immediate post-earnings window.\n- UPSIDE_FALSIFIER: A daily close below the SMA_20 support level of $129.44.\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Gross margin compression to 73.0% and rising OpEx, combined with an RSI below 50 and negative 5-day price momentum (-6.54%), create near-term vulnerability. The Justice Department probe into key partner Supermicro (SMCI) acts as a specific catalyst for proxy volatility, potentially forcing a breakdown below the $129.44 SMA_20 support level.\n- DOWNSIDE_FALSIFIER: A high-volume price breakout above $134.35 (SMA_50 resistance) accompanied by RSI reclaiming the neutral 50-level.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: STRONG\n- UPSIDE_CORE: Accelerating QoQ revenue (12.1%) and net income growth (14.4%) provide the fundamental validation to override neutral technicals. This growth, coupled with SMCI's $40B forecast confirming sustained demand, creates a powerful tailwind for a bounce from SMA_20 support ($129.44) toward SMA_50 resistance ($134.35) during the immediate post-earnings window.\n- UPSIDE_FALSIFIER: A daily close below the SMA_20 support level of $129.44.",
+      "bear_history": "\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Gross margin compression to 73.0% and rising OpEx, combined with an RSI below 50 and negative 5-day price momentum (-6.54%), create near-term vulnerability. The Justice Department probe into key partner Supermicro (SMCI) acts as a specific catalyst for proxy volatility, potentially forcing a breakdown below the $129.44 SMA_20 support level.\n- DOWNSIDE_FALSIFIER: A high-volume price breakout above $134.35 (SMA_50 resistance) accompanied by RSI reclaiming the neutral 50-level.",
+      "current_response": "- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Gross margin compression to 73.0% and rising OpEx, combined with an RSI below 50 and negative 5-day price momentum (-6.54%), create near-term vulnerability. The Justice Department probe into key partner Supermicro (SMCI) acts as a specific catalyst for proxy volatility, potentially forcing a breakdown below the $129.44 SMA_20 support level.\n- DOWNSIDE_FALSIFIER: A high-volume price breakout above $134.35 (SMA_50 resistance) accompanied by RSI reclaiming the neutral 50-level.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 8.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating QoQ revenue (12.1%) and net income growth (14.4%)\",\n    \"SMCI $40B forecast confirming sustained AI infrastructure demand\"\n  ],\n  \"main_risk\": \"Breakdown below SMA_20 support at $129.44 triggered by SMCI proxy volatility\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Fundamental growth acceleration and demand validation from ecosystem partners outweigh near-term technical momentum weakness.\",\n  \"upside_note_impact\": \"Strongly reinforces the fundamental thesis and provides a clear technical entry point at the SMA_20 support level.\",\n  \"downside_note_impact\": \"Identifies valid margin and proxy risks but these are secondary to the core revenue growth trajectory.\",\n  \"actionability_assessment\": \"Expect a tactical bounce from $129.44 support toward the $134.35 SMA_50 resistance level within the 10-day window.\",\n  \"hold_gate_assessment\": \"The fundamental upside is sufficiently concrete and validated by external forecasts to maintain a BUY over a HOLD.\",\n  \"execution_notes\": [\n    \"Monitor daily close relative to $129.44\",\n    \"Watch for RSI recovery toward 50 as a confirmation signal\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\n- UPSIDE_STRENGTH: STRONG\n- UPSIDE_CORE: Accelerating QoQ revenue (12.1%) and net income growth (14.4%) provide the fundamental validation to override neutral technicals. This growth, coupled with SMCI's $40B forecast confirming sustained demand, creates a powerful tailwind for a bounce from SMA_20 support ($129.44) toward SMA_50 resistance ($134.35) during the immediate post-earnings window.\n- UPSIDE_FALSIFIER: A daily close below the SMA_20 support level of $129.44.",
+      "bearish": "\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Gross margin compression to 73.0% and rising OpEx, combined with an RSI below 50 and negative 5-day price momentum (-6.54%), create near-term vulnerability. The Justice Department probe into key partner Supermicro (SMCI) acts as a specific catalyst for proxy volatility, potentially forcing a breakdown below the $129.44 SMA_20 support level.\n- DOWNSIDE_FALSIFIER: A high-volume price breakout above $134.35 (SMA_50 resistance) accompanied by RSI reclaiming the neutral 50-level."
+    },
+    "investment_plan": "{\n  \"buy_score\": 8.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating QoQ revenue (12.1%) and net income growth (14.4%)\",\n    \"SMCI $40B forecast confirming sustained AI infrastructure demand\"\n  ],\n  \"main_risk\": \"Breakdown below SMA_20 support at $129.44 triggered by SMCI proxy volatility\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Fundamental growth acceleration and demand validation from ecosystem partners outweigh near-term technical momentum weakness.\",\n  \"upside_note_impact\": \"Strongly reinforces the fundamental thesis and provides a clear technical entry point at the SMA_20 support level.\",\n  \"downside_note_impact\": \"Identifies valid margin and proxy risks but these are secondary to the core revenue growth trajectory.\",\n  \"actionability_assessment\": \"Expect a tactical bounce from $129.44 support toward the $134.35 SMA_50 resistance level within the 10-day window.\",\n  \"hold_gate_assessment\": \"The fundamental upside is sufficiently concrete and validated by external forecasts to maintain a BUY over a HOLD.\",\n  \"execution_notes\": [\n    \"Monitor daily close relative to $129.44\",\n    \"Watch for RSI recovery toward 50 as a confirmation signal\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 8.0,
+      "sell_score": 5.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Accelerating QoQ revenue (12.1%) and net income growth (14.4%)",
+        "SMCI $40B forecast confirming sustained AI infrastructure demand"
+      ],
+      "main_risk": "Breakdown below SMA_20 support at $129.44 triggered by SMCI proxy volatility",
+      "prior_view": "BUY",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "BUY",
+      "base_view_rationale": "Fundamental growth acceleration and demand validation from ecosystem partners outweigh near-term technical momentum weakness.",
+      "upside_note_impact": "Strongly reinforces the fundamental thesis and provides a clear technical entry point at the SMA_20 support level.",
+      "downside_note_impact": "Identifies valid margin and proxy risks but these are secondary to the core revenue growth trajectory.",
+      "actionability_assessment": "Expect a tactical bounce from $129.44 support toward the $134.35 SMA_50 resistance level within the 10-day window.",
+      "hold_gate_assessment": "The fundamental upside is sufficiently concrete and validated by external forecasts to maintain a BUY over a HOLD.",
+      "execution_notes": [
+        "Monitor daily close relative to $129.44",
+        "Watch for RSI recovery toward 50 as a confirmation signal"
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 3.0,
+      "rationale": "[REDUCE] While fundamental growth remains elite with 12.1% QoQ revenue acceleration, technical momentum has stalled with RSI below 50 and price hovering dangerously close to SMA_20 support at $129.44. High annualized volatility of 54.64% and proxy risks from the SMCI investigation necessitate a reduced position size to manage short-term downside exposure while maintaining the long-term bullish thesis."
+    },
+    "trader_reports": {},
+    "risk_reports": {
+      "risk_manager_decision": "{\n  \"risk_judgment\": \"REDUCE\",\n  \"rationale\": \"While fundamental growth remains elite with 12.1% QoQ revenue acceleration, technical momentum has stalled with RSI below 50 and price hovering dangerously close to SMA_20 support at $129.44. High annualized volatility of 54.64% and proxy risks from the SMCI investigation necessitate a reduced position size to manage short-term downside exposure while maintaining the long-term bullish thesis.\",\n  \"position_size_pct\": 3.0,\n  \"stop_loss\": 126.5,\n  \"take_profit\": 145.0\n}",
+      "risk_gate": "Single risk-check evaluated. Original: BUY, Judgment: REDUCE, Final: BUY"
+    },
+    "compliance_check": {},
+    "proposed_trade": {
+      "action": "BUY",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 3.0,
+      "rationale": "[REDUCE] While fundamental growth remains elite with 12.1% QoQ revenue acceleration, technical momentum has stalled with RSI below 50 and price hovering dangerously close to SMA_20 support at $129.44. High annualized volatility of 54.64% and proxy risks from the SMCI investigation necessitate a reduced position size to manage short-term downside exposure while maintaining the long-term bullish thesis."
+    },
+    "memory_id": null,
+    "memory_summary": {
+      "bull_hits": 3,
+      "bear_hits": 3
+    },
+    "cache_context": {
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl",
+      "cache_lookup_key": "NVDA|2025-02-24|short|US",
+      "cached_stage_a_trace": {
+        "ticker": "NVDA",
+        "simulated_date": "2025-02-24",
+        "horizon": "short",
+        "market": "US",
+        "flags": {
+          "stage": "A",
+          "debate_rounds": 0,
+          "debate_mode": "off",
+          "decision_style": "classification",
+          "memory_on": false,
+          "risk_mode": "off",
+          "use_pro_stage_a_manager": false,
+          "use_cached_stage_a_reports": false,
+          "use_cached_stage_a_prior": false,
+          "cache_trace_file": ""
+        },
+        "attempt": 1,
+        "request_payload": {
+          "ticker": "NVDA",
+          "market": "US",
+          "simulated_date": "2025-02-24",
+          "horizon": "short",
+          "stage": "A",
+          "debate_rounds": 0,
+          "debate_mode": "off",
+          "decision_style": "classification",
+          "memory_on": false,
+          "risk_mode": "off",
+          "use_pro_stage_a_manager": false,
+          "use_cached_stage_a_reports": false,
+          "use_cached_stage_a_prior": false,
+          "cache_trace_file": ""
+        },
+        "trace": {
+          "run_config": {
+            "stage": "A",
+            "simulated_date": "2025-02-24",
+            "horizon": "short",
+            "horizon_days": 10,
+            "debate_rounds": 0,
+            "debate_mode": "off",
+            "decision_style": "classification",
+            "memory_on": false,
+            "risk_mode": "off",
+            "use_cached_stage_a_reports": false,
+            "use_cached_stage_a_prior": false,
+            "use_pro_stage_a_manager": false,
+            "cache_trace_file": ""
+          },
+          "signals": {
+            "fundamental": {
+              "direction": "BULLISH",
+              "magnitude": 0.8,
+              "confidence": 0.8,
+              "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+              "key_catalyst": "QoQ revenue accelerated 12.1% to $39.3B (Jan 2025), proving sustained AI infrastructure demand even at a massive scale.",
+              "primary_risk": "* Quarterly gross margin compressed from 74.5% to 73.0% QoQ, signaling potential Blackwell ramp-up costs or product mix shifts."
+            },
+            "technical": {
+              "direction": "NEUTRAL",
+              "magnitude": 0.0,
+              "confidence": 0.55,
+              "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+              "key_catalyst": "RSI_14 at 46.43 -> Momentum has dipped below the neutral 50-level, indicating that sellers currently maintain a slight edge in short-term co",
+              "primary_risk": "The bullish MACD divergence is directly contradicted by the sharp -6.54% five-day price trend and sub-50 RSI, creating a high-noise environm"
+            },
+            "news": {
+              "direction": "BULLISH",
+              "magnitude": 0.5,
+              "confidence": 0.65,
+              "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+              "key_catalyst": "Supermicro’s (SMCI) $40B revenue forecast for FY2026 validates sustained, high-volume demand for Nvidia’s AI hardware, providing a positive ",
+              "primary_risk": "Ongoing financial scrutiny and a Justice Department probe into key partner Supermicro could trigger proxy volatility for Nvidia."
+            }
+          },
+          "reports": {
+            "fundamental_analyst": "1) EVIDENCE:\n* QoQ revenue accelerated 12.1% to $39.3B (Jan 2025), proving sustained AI infrastructure demand even at a massive scale.\n* Net income grew 14.4% QoQ, outpacing revenue growth and maintaining an elite 56.2% net profit margin.\n* Annual revenue reached $130.5B, a 114% YoY increase, providing a powerful fundamental tailwind for the immediate post-earnings window.\n\n2) RISKS:\n* Quarterly gross margin compressed from 74.5% to 73.0% QoQ, signaling potential Blackwell ramp-up costs or product mix shifts.\n* Operating expenses rose 9.4% QoQ ($4.69B), creating a higher hurdle for bottom-line performance if revenue growth decelerates.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Market sensitivity to the minor gross margin dip versus the significant absolute revenue beat.",
+            "technical_analyst": "1) EVIDENCE:\n* RSI_14 at 46.43 -> Momentum has dipped below the neutral 50-level, indicating that sellers currently maintain a slight edge in short-term control.\n* SMA Crossover -> UNKNOWN (10-day SMA missing); however, price (130.24) is currently compressed between SMA_20 support (129.44) and SMA_50 resistance (134.35).\n* MACD vs. Volume -> MACD is bullishly above its signal line (0.56 vs -0.20), but a low 0.84 volume ratio suggests the move lacks the conviction required for a breakout.\n\n2) SUPPORT: 129.44\n\n3) RESISTANCE: 134.35\n\n4) FINAL_VIEW: NEUTRAL\n\n5) CONFIDENCE: MEDIUM\n\n6) KEY_UNCERTAINTY: The bullish MACD divergence is directly contradicted by the sharp -6.54% five-day price trend and sub-50 RSI, creating a high-noise environment with no clear directional lead.",
+            "news_harvester": "1) CATALYSTS:\n- Supermicro’s (SMCI) $40B revenue forecast for FY2026 validates sustained, high-volume demand for Nvidia’s AI hardware, providing a positive read-through for near-term order visibility.\n- Launch of leveraged AMD ETFs and expanded 24-hour retail trading likely to amplify price volatility and competitive positioning within the AI chip sector.\n\n2) TONE: BULLISH\n\n3) FINAL_VIEW: BULLISH\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Ongoing financial scrutiny and a Justice Department probe into key partner Supermicro could trigger proxy volatility for Nvidia."
+          },
+          "investment_debate_state": {
+            "judge_decision": "{\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"QoQ revenue acceleration of 12.1% to $39.3B demonstrating sustained AI infrastructure demand at scale.\",\n    \"Net income growth of 14.4% QoQ outpacing revenue growth and maintaining elite 56.2% margins.\",\n    \"Positive demand validation from Supermicro's $40B FY2026 revenue forecast providing near-term visibility.\"\n  ],\n  \"main_risk\": \"Quarterly gross margin compression from 74.5% to 73.0% signaling potential Blackwell ramp-up costs.\",\n  \"confidence\": \"HIGH\"\n}"
+          },
+          "investment_plan": "{\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"QoQ revenue acceleration of 12.1% to $39.3B demonstrating sustained AI infrastructure demand at scale.\",\n    \"Net income growth of 14.4% QoQ outpacing revenue growth and maintaining elite 56.2% margins.\",\n    \"Positive demand validation from Supermicro's $40B FY2026 revenue forecast providing near-term visibility.\"\n  ],\n  \"main_risk\": \"Quarterly gross margin compression from 74.5% to 73.0% signaling potential Blackwell ramp-up costs.\",\n  \"confidence\": \"HIGH\"\n}",
+          "investment_plan_structured": {
+            "recommendation": "BUY",
+            "confidence_score": 0.75,
+            "primary_drivers": [
+              "QoQ revenue acceleration of 12.1% to $39.3B demonstrating sustained AI infrastructure demand at scale.",
+              "Net income growth of 14.4% QoQ outpacing revenue growth and maintaining elite 56.2% margins.",
+              "Positive demand validation from Supermicro's $40B FY2026 revenue forecast providing near-term visibility."
+            ],
+            "main_risk": "Quarterly gross margin compression from 74.5% to 73.0% signaling potential Blackwell ramp-up costs.",
+            "confidence": "HIGH"
+          },
+          "research_manager_recommendation": "BUY",
+          "trading_strategy": {
+            "action": "BUY",
+            "confidence_score": 0.75,
+            "entry_price": null,
+            "take_profit": null,
+            "stop_loss": null,
+            "position_size_pct": 0,
+            "rationale": "FOR: QoQ revenue accelerated 12.1% to $39.3B (Jan 2025), proving sustained AI infrastructure demand even at a massive scale. AGAINST: Quarterly gross margin compression from 74.5% to 73.0% signaling potential Blackwell ramp-up costs. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=HIGH."
+          },
+          "risk_reports": {},
+          "compliance_check": {},
+          "analysis_time_seconds": 46.55,
+          "memory_id": null,
+          "provenance": {
+            "cache": {
+              "cache_trace_file": "",
+              "cache_lookup_key": "NVDA|2025-02-24|short|US",
+              "cached_stage_a_reports_used": false,
+              "cached_stage_a_prior_requested": false,
+              "cached_stage_a_prior_used": false
+            },
+            "news": {
+              "ticker": "NVDA",
+              "as_of": "2025-02-24",
+              "lookback_days": 14,
+              "window_start": "2025-02-10",
+              "window_end": "2025-02-24",
+              "article_count": 13,
+              "min_published": "2025-02-11T07:30:00",
+              "max_published": "2025-02-21T20:47:48",
+              "articles": [
+                {
+                  "title": "How Fidelity Growth Company’s Big Nvidia Bet Influences Its Rating",
+                  "source": "Morningstar",
+                  "published": "20250213T000000",
+                  "url": "https://www.morningstar.com/funds/how-fidelity-growth-companys-big-nvidia-bet-influences-its-rating-2",
+                  "ticker_sentiment_label": "Bullish",
+                  "ticker_sentiment_score": 0.402998,
+                  "relevance_score": 1.0
+                },
+                {
+                  "title": "This Innovative ETF Lets You Follow Republican Politicians’ Trades | KRUZ ETF",
+                  "source": "24/7 Wall St.",
+                  "published": "20250215T085500",
+                  "url": "https://247wallst.com/investing/2025/02/15/this-innovative-etf-lets-you-follow-republican-politicians-trades-kruz-etf/",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.310501,
+                  "relevance_score": 0.871127
+                },
+                {
+                  "title": "Direxion Launches 2 Leveraged AMD ETFs Amid AI Chip Race",
+                  "source": "Yahoo Finance",
+                  "published": "20250212T052227",
+                  "url": "https://finance.yahoo.com/news/direxion-launches-2-leveraged-amd-003114053.html",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.241436,
+                  "relevance_score": 0.746415
+                },
+                {
+                  "title": "8 Best Quantum Computing Stocks to Buy in 2025",
+                  "source": "The Motley Fool",
+                  "published": "20250220T130910",
+                  "url": "https://www.fool.com/investing/stock-market/market-sectors/information-technology/ai-stocks/quantum-computing-stocks/",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.329056,
+                  "relevance_score": 0.659934
+                },
+                {
+                  "title": "Digihost to Develop HPC and AI-Tier Data Centers",
+                  "source": "insideAI News",
+                  "published": "20250211T222313",
+                  "url": "https://insideainews.com/2025/02/11/digihost-to-develop-hpc-and-ai-tier-data-centers/",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.329118,
+                  "relevance_score": 0.640868
+                },
+                {
+                  "title": "Supermicro forecasts crazy revenue growth for fiscal 2026, boosting its stock",
+                  "source": "SiliconANGLE",
+                  "published": "20250211T203600",
+                  "url": "https://siliconangle.com/2025/02/11/supermicro-forecasts-crazy-revenue-growth-fiscal-2026-boosting-stock/",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.319365,
+                  "relevance_score": 0.630437
+                },
+                {
+                  "title": "Data Center Demand Is Exploding Thanks to AI: 1 Stock and 2 ETFs to Profit From It",
+                  "source": "The Globe and Mail",
+                  "published": "20250219T050831",
+                  "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/30998470/data-center-demand-is-exploding-thanks-to-ai-1-stock-and-2-etfs-to-profit-from-it/",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.308484,
+                  "relevance_score": 0.624637
+                },
+                {
+                  "title": "Schwab Expands 24-Hour Trading to All Retail Clients",
+                  "source": "WealthManagement.com",
+                  "published": "20250212T000000",
+                  "url": "https://www.wealthmanagement.com/equities/charles-schwab-expands-24-hour-trading-to-all-its-retail-clients",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.224639,
+                  "relevance_score": 0.624619
+                },
+                {
+                  "title": "Digihost to Develop High-Performance Computing and AI-Tier",
+                  "source": "GlobeNewswire",
+                  "published": "20250211T073000",
+                  "url": "https://www.globenewswire.com/news-release/2025/02/11/3024064/0/en/Digihost-to-Develop-High-Performance-Computing-and-AI-Tier-Data-Centers-Through-Wholly-Owned-Subsidiary-US-Data-Centers-Inc.html",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.342562,
+                  "relevance_score": 0.6228
+                },
+                {
+                  "title": "SMCY Is A High-Risk, High-Reward Bet On AI (NYSEARCA:SMCY)",
+                  "source": "Seeking Alpha",
+                  "published": "20250211T164700",
+                  "url": "https://seekingalpha.com/article/4757140-smcy-is-a-high-risk-high-reward-bet-on-ai",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.337261,
+                  "relevance_score": 0.621854
+                }
+              ]
+            }
+          }
+        }
+      },
+      "cached_stage_a_reports_used": true,
+      "cached_stage_a_prior": {
+        "recommendation": "BUY",
+        "confidence_score": 0.75,
+        "primary_drivers": [
+          "QoQ revenue acceleration of 12.1% to $39.3B demonstrating sustained AI infrastructure demand at scale.",
+          "Net income growth of 14.4% QoQ outpacing revenue growth and maintaining elite 56.2% margins.",
+          "Positive demand validation from Supermicro's $40B FY2026 revenue forecast providing near-term visibility."
+        ],
+        "main_risk": "Quarterly gross margin compression from 74.5% to 73.0% signaling potential Blackwell ramp-up costs."
+      },
+      "cached_stage_a_prior_used": true
+    },
+    "provenance": {
+      "cache": {
+        "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl",
+        "cache_lookup_key": "NVDA|2025-02-24|short|US",
+        "cached_stage_a_reports_used": true,
+        "cached_stage_a_prior_requested": true,
+        "cached_stage_a_prior_used": true
+      }
+    },
+    "analysis_time_seconds": 28.49,
+    "llm_stats": {
+      "total_calls": 4,
+      "retries": 0,
+      "rate_limits_429": 0,
+      "total_input_tokens": 4553,
+      "total_output_tokens": 797,
+      "total_tokens": 5350,
+      "token_log": [
+        {
+          "call": "Bull_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 1197,
+          "output": 139,
+          "total": 1336
+        },
+        {
+          "call": "Bear_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 1223,
+          "output": 151,
+          "total": 1374
+        },
+        {
+          "call": "Research_Manager_Decision",
+          "model": "gemini-3-flash-preview",
+          "input": 872,
+          "output": 355,
+          "total": 1227
+        },
+        {
+          "call": "Risk_Judge",
+          "model": "gemini-3-flash-preview",
+          "input": 1261,
+          "output": 152,
+          "total": 1413
+        }
+      ]
+    }
+  },
+  "trace": {
+    "run_config": {
+      "stage": "D",
+      "simulated_date": "2025-02-24",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "risk_debate_rounds": 0,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": true,
+      "risk_mode": "single",
+      "use_cached_stage_a_reports": true,
+      "use_cached_stage_a_prior": true,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "QoQ revenue accelerated 12.1% to $39.3B (Jan 2025), proving sustained AI infrastructure demand even at a massive scale.",
+        "primary_risk": "* Quarterly gross margin compressed from 74.5% to 73.0% QoQ, signaling potential Blackwell ramp-up costs or product mix shifts."
+      },
+      "technical": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=MEDIUM",
+        "key_catalyst": "RSI_14 at 46.43 -> Momentum has dipped below the neutral 50-level, indicating that sellers currently maintain a slight edge in short-term co",
+        "primary_risk": "The bullish MACD divergence is directly contradicted by the sharp -6.54% five-day price trend and sub-50 RSI, creating a high-noise environm"
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Supermicro’s (SMCI) $40B revenue forecast for FY2026 validates sustained, high-volume demand for Nvidia’s AI hardware, providing a positive ",
+        "primary_risk": "Ongoing financial scrutiny and a Justice Department probe into key partner Supermicro could trigger proxy volatility for Nvidia."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* QoQ revenue accelerated 12.1% to $39.3B (Jan 2025), proving sustained AI infrastructure demand even at a massive scale.\n* Net income grew 14.4% QoQ, outpacing revenue growth and maintaining an elite 56.2% net profit margin.\n* Annual revenue reached $130.5B, a 114% YoY increase, providing a powerful fundamental tailwind for the immediate post-earnings window.\n\n2) RISKS:\n* Quarterly gross margin compressed from 74.5% to 73.0% QoQ, signaling potential Blackwell ramp-up costs or product mix shifts.\n* Operating expenses rose 9.4% QoQ ($4.69B), creating a higher hurdle for bottom-line performance if revenue growth decelerates.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Market sensitivity to the minor gross margin dip versus the significant absolute revenue beat.",
+      "technical_analyst": "1) EVIDENCE:\n* RSI_14 at 46.43 -> Momentum has dipped below the neutral 50-level, indicating that sellers currently maintain a slight edge in short-term control.\n* SMA Crossover -> UNKNOWN (10-day SMA missing); however, price (130.24) is currently compressed between SMA_20 support (129.44) and SMA_50 resistance (134.35).\n* MACD vs. Volume -> MACD is bullishly above its signal line (0.56 vs -0.20), but a low 0.84 volume ratio suggests the move lacks the conviction required for a breakout.\n\n2) SUPPORT: 129.44\n\n3) RESISTANCE: 134.35\n\n4) FINAL_VIEW: NEUTRAL\n\n5) CONFIDENCE: MEDIUM\n\n6) KEY_UNCERTAINTY: The bullish MACD divergence is directly contradicted by the sharp -6.54% five-day price trend and sub-50 RSI, creating a high-noise environment with no clear directional lead.",
+      "news_harvester": "1) CATALYSTS:\n- Supermicro’s (SMCI) $40B revenue forecast for FY2026 validates sustained, high-volume demand for Nvidia’s AI hardware, providing a positive read-through for near-term order visibility.\n- Launch of leveraged AMD ETFs and expanded 24-hour retail trading likely to amplify price volatility and competitive positioning within the AI chip sector.\n\n2) TONE: BULLISH\n\n3) FINAL_VIEW: BULLISH\n\n4) CONFIDENCE: MEDIUM\n\n5) KEY_EVENT_RISK: Ongoing financial scrutiny and a Justice Department probe into key partner Supermicro could trigger proxy volatility for Nvidia."
+    },
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: STRONG\n- UPSIDE_CORE: Accelerating QoQ revenue (12.1%) and net income growth (14.4%) provide the fundamental validation to override neutral technicals. This growth, coupled with SMCI's $40B forecast confirming sustained demand, creates a powerful tailwind for a bounce from SMA_20 support ($129.44) toward SMA_50 resistance ($134.35) during the immediate post-earnings window.\n- UPSIDE_FALSIFIER: A daily close below the SMA_20 support level of $129.44.\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Gross margin compression to 73.0% and rising OpEx, combined with an RSI below 50 and negative 5-day price momentum (-6.54%), create near-term vulnerability. The Justice Department probe into key partner Supermicro (SMCI) acts as a specific catalyst for proxy volatility, potentially forcing a breakdown below the $129.44 SMA_20 support level.\n- DOWNSIDE_FALSIFIER: A high-volume price breakout above $134.35 (SMA_50 resistance) accompanied by RSI reclaiming the neutral 50-level.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: STRONG\n- UPSIDE_CORE: Accelerating QoQ revenue (12.1%) and net income growth (14.4%) provide the fundamental validation to override neutral technicals. This growth, coupled with SMCI's $40B forecast confirming sustained demand, creates a powerful tailwind for a bounce from SMA_20 support ($129.44) toward SMA_50 resistance ($134.35) during the immediate post-earnings window.\n- UPSIDE_FALSIFIER: A daily close below the SMA_20 support level of $129.44.",
+      "bear_history": "\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Gross margin compression to 73.0% and rising OpEx, combined with an RSI below 50 and negative 5-day price momentum (-6.54%), create near-term vulnerability. The Justice Department probe into key partner Supermicro (SMCI) acts as a specific catalyst for proxy volatility, potentially forcing a breakdown below the $129.44 SMA_20 support level.\n- DOWNSIDE_FALSIFIER: A high-volume price breakout above $134.35 (SMA_50 resistance) accompanied by RSI reclaiming the neutral 50-level.",
+      "current_response": "- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Gross margin compression to 73.0% and rising OpEx, combined with an RSI below 50 and negative 5-day price momentum (-6.54%), create near-term vulnerability. The Justice Department probe into key partner Supermicro (SMCI) acts as a specific catalyst for proxy volatility, potentially forcing a breakdown below the $129.44 SMA_20 support level.\n- DOWNSIDE_FALSIFIER: A high-volume price breakout above $134.35 (SMA_50 resistance) accompanied by RSI reclaiming the neutral 50-level.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 8.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating QoQ revenue (12.1%) and net income growth (14.4%)\",\n    \"SMCI $40B forecast confirming sustained AI infrastructure demand\"\n  ],\n  \"main_risk\": \"Breakdown below SMA_20 support at $129.44 triggered by SMCI proxy volatility\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Fundamental growth acceleration and demand validation from ecosystem partners outweigh near-term technical momentum weakness.\",\n  \"upside_note_impact\": \"Strongly reinforces the fundamental thesis and provides a clear technical entry point at the SMA_20 support level.\",\n  \"downside_note_impact\": \"Identifies valid margin and proxy risks but these are secondary to the core revenue growth trajectory.\",\n  \"actionability_assessment\": \"Expect a tactical bounce from $129.44 support toward the $134.35 SMA_50 resistance level within the 10-day window.\",\n  \"hold_gate_assessment\": \"The fundamental upside is sufficiently concrete and validated by external forecasts to maintain a BUY over a HOLD.\",\n  \"execution_notes\": [\n    \"Monitor daily close relative to $129.44\",\n    \"Watch for RSI recovery toward 50 as a confirmation signal\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 8.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Accelerating QoQ revenue (12.1%) and net income growth (14.4%)\",\n    \"SMCI $40B forecast confirming sustained AI infrastructure demand\"\n  ],\n  \"main_risk\": \"Breakdown below SMA_20 support at $129.44 triggered by SMCI proxy volatility\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"Fundamental growth acceleration and demand validation from ecosystem partners outweigh near-term technical momentum weakness.\",\n  \"upside_note_impact\": \"Strongly reinforces the fundamental thesis and provides a clear technical entry point at the SMA_20 support level.\",\n  \"downside_note_impact\": \"Identifies valid margin and proxy risks but these are secondary to the core revenue growth trajectory.\",\n  \"actionability_assessment\": \"Expect a tactical bounce from $129.44 support toward the $134.35 SMA_50 resistance level within the 10-day window.\",\n  \"hold_gate_assessment\": \"The fundamental upside is sufficiently concrete and validated by external forecasts to maintain a BUY over a HOLD.\",\n  \"execution_notes\": [\n    \"Monitor daily close relative to $129.44\",\n    \"Watch for RSI recovery toward 50 as a confirmation signal\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 8.0,
+      "sell_score": 5.0,
+      "recommendation": "BUY",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Accelerating QoQ revenue (12.1%) and net income growth (14.4%)",
+        "SMCI $40B forecast confirming sustained AI infrastructure demand"
+      ],
+      "main_risk": "Breakdown below SMA_20 support at $129.44 triggered by SMCI proxy volatility",
+      "prior_view": "BUY",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "BUY",
+      "base_view_rationale": "Fundamental growth acceleration and demand validation from ecosystem partners outweigh near-term technical momentum weakness.",
+      "upside_note_impact": "Strongly reinforces the fundamental thesis and provides a clear technical entry point at the SMA_20 support level.",
+      "downside_note_impact": "Identifies valid margin and proxy risks but these are secondary to the core revenue growth trajectory.",
+      "actionability_assessment": "Expect a tactical bounce from $129.44 support toward the $134.35 SMA_50 resistance level within the 10-day window.",
+      "hold_gate_assessment": "The fundamental upside is sufficiently concrete and validated by external forecasts to maintain a BUY over a HOLD.",
+      "execution_notes": [
+        "Monitor daily close relative to $129.44",
+        "Watch for RSI recovery toward 50 as a confirmation signal"
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "BUY",
+    "trading_strategy": {
+      "action": "BUY",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 3.0,
+      "rationale": "[REDUCE] While fundamental growth remains elite with 12.1% QoQ revenue acceleration, technical momentum has stalled with RSI below 50 and price hovering dangerously close to SMA_20 support at $129.44. High annualized volatility of 54.64% and proxy risks from the SMCI investigation necessitate a reduced position size to manage short-term downside exposure while maintaining the long-term bullish thesis."
+    },
+    "risk_reports": {
+      "risk_manager_decision": "{\n  \"risk_judgment\": \"REDUCE\",\n  \"rationale\": \"While fundamental growth remains elite with 12.1% QoQ revenue acceleration, technical momentum has stalled with RSI below 50 and price hovering dangerously close to SMA_20 support at $129.44. High annualized volatility of 54.64% and proxy risks from the SMCI investigation necessitate a reduced position size to manage short-term downside exposure while maintaining the long-term bullish thesis.\",\n  \"position_size_pct\": 3.0,\n  \"stop_loss\": 126.5,\n  \"take_profit\": 145.0\n}",
+      "risk_gate": "Single risk-check evaluated. Original: BUY, Judgment: REDUCE, Final: BUY"
+    },
+    "compliance_check": {},
+    "analysis_time_seconds": 28.49,
+    "memory_id": null,
+    "llm_stats": {
+      "total_calls": 4,
+      "retries": 0,
+      "rate_limits_429": 0,
+      "total_input_tokens": 4553,
+      "total_output_tokens": 797,
+      "total_tokens": 5350,
+      "token_log": [
+        {
+          "call": "Bull_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 1197,
+          "output": 139,
+          "total": 1336
+        },
+        {
+          "call": "Bear_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 1223,
+          "output": 151,
+          "total": 1374
+        },
+        {
+          "call": "Research_Manager_Decision",
+          "model": "gemini-3-flash-preview",
+          "input": 872,
+          "output": 355,
+          "total": 1227
+        },
+        {
+          "call": "Risk_Judge",
+          "model": "gemini-3-flash-preview",
+          "input": 1261,
+          "output": 152,
+          "total": 1413
+        }
+      ]
+    }
+  }
+}

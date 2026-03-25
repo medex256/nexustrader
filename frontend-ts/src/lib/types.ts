@@ -10,6 +10,16 @@ export interface StageExplainer {
   title: string;
   body: string;
   agents: string;
+  added: string;
+  whyItExists: string;
+  llmCalls: string;
+}
+
+export interface AgentExplainer {
+  title: string;
+  summary: string;
+  role: string;
+  output: string;
 }
 
 export interface StreamProcessingEvent {
@@ -54,6 +64,8 @@ export interface RunConfig {
   simulated_date?: string;
   horizon_days?: number;
   decision_style?: string;
+  risk_mode?: string;
+  memory_on?: boolean;
 }
 
 export interface MemorySummary {
@@ -63,15 +75,16 @@ export interface MemorySummary {
 
 export interface BackendHistoryItem {
   id: string;
-  document: string;
-  metadata: {
-    ticker: string;
-    timestamp: string;
-    action?: string;
-    stage?: string;
-    final_state_json?: string;
-    [key: string]: unknown;
-  };
+  ticker: string;
+  timestamp: string;
+  action?: string;
+  stage?: string;
+  market?: string;
+  simulated_date?: string;
+  horizon?: string;
+  rationale?: string;
+  source?: string;
+  result_json?: string;
 }
 
 export interface AnalysisResult {
@@ -86,6 +99,7 @@ export interface AnalysisResult {
   investment_plan?: string;
   investment_plan_structured?: Record<string, unknown> | null;
   investment_debate_state?: Record<string, unknown>;
+  risk_debate_state?: Record<string, unknown>;
   risk_reports?: Record<string, unknown>;
   provenance?: Record<string, unknown>;
   analysis_time_seconds?: number;

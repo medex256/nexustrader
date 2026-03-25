@@ -1,0 +1,536 @@
+{
+  "schema_version": "2.0",
+  "meta": {
+    "schema_version": "2.0",
+    "created_at": "2026-03-21T16:24:16",
+    "started_at": "2026-03-21T16:23:30",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "test_d_memid"
+  },
+  "request": {
+    "ticker": "AAPL",
+    "market": "US",
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "stage": "D",
+    "debate_rounds": 1,
+    "risk_debate_rounds": 0,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": true,
+    "risk_mode": "single",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": true,
+    "use_cached_stage_a_prior": true,
+    "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+  },
+  "result_summary": {
+    "action": "HOLD",
+    "confidence_score": 0.35,
+    "position_size_pct": 0,
+    "risk_judgment": "CLEAR",
+    "risk_gate": "Single risk-check evaluated. Original: HOLD, Judgment: CLEAR, Final: HOLD"
+  },
+  "request_payload": {
+    "ticker": "AAPL",
+    "market": "US",
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "stage": "D",
+    "debate_rounds": 1,
+    "risk_debate_rounds": 0,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": true,
+    "risk_mode": "single",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": true,
+    "use_cached_stage_a_prior": true,
+    "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+  },
+  "response_full": {
+    "ticker": "AAPL",
+    "market": "US",
+    "run_config": {
+      "stage": "D",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "risk_debate_rounds": 0,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": true,
+      "risk_mode": "single",
+      "use_cached_stage_a_reports": true,
+      "use_cached_stage_a_prior": true,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+    },
+    "simulated_date": "2021-12-27",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 2.4% QoQ to $83.36B, yet Net Income fell 5.5% to $20.55B, signaling a significant disconnect between sales growth and profitability.\n* Gross margins contracted from 43.3% to 42.2% QoQ, indicating immediate fundamental pressure on unit economics and pricing power.\n* Operating income declined to $23.79B from $24.13B as operating expenses ($11.39B) outpaced marginal revenue gains, squeezing short-term earnings potential.\n\n2) RISKS:\n* Persistent margin compression if rising R&D and SG&A costs (up $259M QoQ) are not offset by massive holiday volume.\n* A negative divergence trend where revenue acceleration fails to produce bottom-line growth, potentially triggering analyst downward revisions.\n\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Holiday season sales performance potentially reversing the observed margin contraction.",
+      "technical_analyst": "1) EVIDENCE:\n- Trend: Price (176.46) is trading 5.1% above the SMA_20 (167.78), confirming that buyers currently maintain short-term structural control.\n- Momentum: RSI at 66.9 indicates strong bullish velocity with remaining room before reaching the 70 overbought threshold.\n- MACD: MACD (4.96) is below the Signal line (5.08) with a negative histogram, signaling a bearish divergence against the recent 6.23% price surge.\n\n2) SUPPORT: 167.78\n3) RESISTANCE: 179.65\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The recent price rally occurred on low relative volume (0.61 ratio) and lacks MACD confirmation, suggesting the move may be an exhausted \"melt-up\" prone to a sharp pullback.",
+      "news_harvester": "1) CATALYSTS:\n- Moody’s AAA credit rating upgrade validates exceptional liquidity and financial strength, likely driving institutional \"flight to quality\" demand.\n- Dutch ACM Jan 15 deadline for App Store payment changes creates regulatory friction and sets a precedent for high-margin Services revenue.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Potential non-compliance penalties or forced App Store policy changes following the Dutch ACM Jan 15 deadline."
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue grew 2.4% QoQ to $83.36B, yet Net Income fell 5.5% to $20.55B, signaling a significant disconnect between sales growth and profitabi",
+        "primary_risk": "* Persistent margin compression if rising R&D and SG&A costs (up $259M QoQ) are not offset by massive holiday volume."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Trend: Price (176.46) is trading 5.1% above the SMA_20 (167.78), confirming that buyers currently maintain short-term structural control.",
+        "primary_risk": "The recent price rally occurred on low relative volume (0.61 ratio) and lacks MACD confirmation, suggesting the move may be an exhausted \"me"
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Moody’s AAA credit rating upgrade validates exceptional liquidity and financial strength, likely driving institutional \"flight to quality\" d",
+        "primary_risk": "Potential non-compliance penalties or forced App Store policy changes following the Dutch ACM Jan 15 deadline."
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\nError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\n\nError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "bull_history": "\n\nError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "bear_history": "\n\nError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "current_response": "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\",\n  \"prior_view\": \"HOLD\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"HOLD\",\n  \"base_view_rationale\": \"Unknown\",\n  \"upside_note_impact\": \"Unknown\",\n  \"downside_note_impact\": \"Unknown\",\n  \"actionability_assessment\": \"Unknown\",\n  \"hold_gate_assessment\": \"Unknown\",\n  \"execution_notes\": [\n    \"Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\"\n  ],\n  \"confidence\": \"LOW\"\n}"
+    },
+    "arguments": {
+      "bullish": "\n\nError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "bearish": "\n\nError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\",\n  \"prior_view\": \"HOLD\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"HOLD\",\n  \"base_view_rationale\": \"Unknown\",\n  \"upside_note_impact\": \"Unknown\",\n  \"downside_note_impact\": \"Unknown\",\n  \"actionability_assessment\": \"Unknown\",\n  \"hold_gate_assessment\": \"Unknown\",\n  \"execution_notes\": [\n    \"Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\"\n  ],\n  \"confidence\": \"LOW\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.35,
+      "primary_drivers": [
+        "Structured output failed; fallback used"
+      ],
+      "main_risk": "Parse failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "prior_view": "HOLD",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "HOLD",
+      "base_view_rationale": "Unknown",
+      "upside_note_impact": "Unknown",
+      "downside_note_impact": "Unknown",
+      "actionability_assessment": "Unknown",
+      "hold_gate_assessment": "Unknown",
+      "execution_notes": [
+        "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}"
+      ],
+      "confidence": "LOW"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.35,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "[CLEAR] Structured output failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}. Fallback to CLEAR used."
+    },
+    "trader_reports": {},
+    "risk_reports": {
+      "risk_manager_decision": "{\n  \"risk_judgment\": \"CLEAR\",\n  \"rationale\": \"Structured output failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}. Fallback to CLEAR used.\",\n  \"position_size_pct\": 0.0,\n  \"stop_loss\": null,\n  \"take_profit\": null\n}",
+      "risk_gate": "Single risk-check evaluated. Original: HOLD, Judgment: CLEAR, Final: HOLD"
+    },
+    "compliance_check": {},
+    "proposed_trade": {
+      "action": "HOLD",
+      "confidence_score": 0.35,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "[CLEAR] Structured output failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}. Fallback to CLEAR used."
+    },
+    "cache_context": {
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl",
+      "cache_lookup_key": "AAPL|2021-12-27|short|US",
+      "cached_stage_a_trace": {
+        "ticker": "AAPL",
+        "simulated_date": "2021-12-27",
+        "horizon": "short",
+        "market": "US",
+        "flags": {
+          "stage": "A",
+          "debate_rounds": 0,
+          "debate_mode": "off",
+          "decision_style": "classification",
+          "memory_on": false,
+          "risk_mode": "off",
+          "use_pro_stage_a_manager": false,
+          "use_cached_stage_a_reports": false,
+          "use_cached_stage_a_prior": false,
+          "cache_trace_file": ""
+        },
+        "attempt": 1,
+        "request_payload": {
+          "ticker": "AAPL",
+          "market": "US",
+          "simulated_date": "2021-12-27",
+          "horizon": "short",
+          "stage": "A",
+          "debate_rounds": 0,
+          "debate_mode": "off",
+          "decision_style": "classification",
+          "memory_on": false,
+          "risk_mode": "off",
+          "use_pro_stage_a_manager": false,
+          "use_cached_stage_a_reports": false,
+          "use_cached_stage_a_prior": false,
+          "cache_trace_file": ""
+        },
+        "trace": {
+          "run_config": {
+            "stage": "A",
+            "simulated_date": "2021-12-27",
+            "horizon": "short",
+            "horizon_days": 10,
+            "debate_rounds": 0,
+            "debate_mode": "off",
+            "decision_style": "classification",
+            "memory_on": false,
+            "risk_mode": "off",
+            "use_cached_stage_a_reports": false,
+            "use_cached_stage_a_prior": false,
+            "use_pro_stage_a_manager": false,
+            "cache_trace_file": ""
+          },
+          "signals": {
+            "fundamental": {
+              "direction": "BEARISH",
+              "magnitude": 0.5,
+              "confidence": 0.65,
+              "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+              "key_catalyst": "Revenue grew 2.4% QoQ to $83.36B, yet Net Income fell 5.5% to $20.55B, signaling a significant disconnect between sales growth and profitabi",
+              "primary_risk": "* Persistent margin compression if rising R&D and SG&A costs (up $259M QoQ) are not offset by massive holiday volume."
+            },
+            "technical": {
+              "direction": "BULLISH",
+              "magnitude": 0.5,
+              "confidence": 0.65,
+              "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+              "key_catalyst": "Trend: Price (176.46) is trading 5.1% above the SMA_20 (167.78), confirming that buyers currently maintain short-term structural control.",
+              "primary_risk": "The recent price rally occurred on low relative volume (0.61 ratio) and lacks MACD confirmation, suggesting the move may be an exhausted \"me"
+            },
+            "news": {
+              "direction": "BULLISH",
+              "magnitude": 0.5,
+              "confidence": 0.65,
+              "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+              "key_catalyst": "Moody’s AAA credit rating upgrade validates exceptional liquidity and financial strength, likely driving institutional \"flight to quality\" d",
+              "primary_risk": "Potential non-compliance penalties or forced App Store policy changes following the Dutch ACM Jan 15 deadline."
+            }
+          },
+          "reports": {
+            "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 2.4% QoQ to $83.36B, yet Net Income fell 5.5% to $20.55B, signaling a significant disconnect between sales growth and profitability.\n* Gross margins contracted from 43.3% to 42.2% QoQ, indicating immediate fundamental pressure on unit economics and pricing power.\n* Operating income declined to $23.79B from $24.13B as operating expenses ($11.39B) outpaced marginal revenue gains, squeezing short-term earnings potential.\n\n2) RISKS:\n* Persistent margin compression if rising R&D and SG&A costs (up $259M QoQ) are not offset by massive holiday volume.\n* A negative divergence trend where revenue acceleration fails to produce bottom-line growth, potentially triggering analyst downward revisions.\n\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Holiday season sales performance potentially reversing the observed margin contraction.",
+            "technical_analyst": "1) EVIDENCE:\n- Trend: Price (176.46) is trading 5.1% above the SMA_20 (167.78), confirming that buyers currently maintain short-term structural control.\n- Momentum: RSI at 66.9 indicates strong bullish velocity with remaining room before reaching the 70 overbought threshold.\n- MACD: MACD (4.96) is below the Signal line (5.08) with a negative histogram, signaling a bearish divergence against the recent 6.23% price surge.\n\n2) SUPPORT: 167.78\n3) RESISTANCE: 179.65\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The recent price rally occurred on low relative volume (0.61 ratio) and lacks MACD confirmation, suggesting the move may be an exhausted \"melt-up\" prone to a sharp pullback.",
+            "news_harvester": "1) CATALYSTS:\n- Moody’s AAA credit rating upgrade validates exceptional liquidity and financial strength, likely driving institutional \"flight to quality\" demand.\n- Dutch ACM Jan 15 deadline for App Store payment changes creates regulatory friction and sets a precedent for high-margin Services revenue.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Potential non-compliance penalties or forced App Store policy changes following the Dutch ACM Jan 15 deadline."
+          },
+          "investment_debate_state": {
+            "judge_decision": "{\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Moody\\u2019s AAA credit rating upgrade validates exceptional liquidity and is expected to drive institutional flight-to-quality demand.\",\n    \"Price maintains short-term structural control trading 5.1% above the SMA_20 with RSI momentum indicating room for further gains.\",\n    \"Revenue growth of 2.4% QoQ demonstrates continued top-line resilience despite current margin pressures.\"\n  ],\n  \"main_risk\": \"Bearish MACD divergence and low relative volume suggest the recent price rally may lack the conviction to sustain a breakout.\",\n  \"confidence\": \"MEDIUM\"\n}"
+          },
+          "investment_plan": "{\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.65,\n  \"primary_drivers\": [\n    \"Moody\\u2019s AAA credit rating upgrade validates exceptional liquidity and is expected to drive institutional flight-to-quality demand.\",\n    \"Price maintains short-term structural control trading 5.1% above the SMA_20 with RSI momentum indicating room for further gains.\",\n    \"Revenue growth of 2.4% QoQ demonstrates continued top-line resilience despite current margin pressures.\"\n  ],\n  \"main_risk\": \"Bearish MACD divergence and low relative volume suggest the recent price rally may lack the conviction to sustain a breakout.\",\n  \"confidence\": \"MEDIUM\"\n}",
+          "investment_plan_structured": {
+            "recommendation": "BUY",
+            "confidence_score": 0.65,
+            "primary_drivers": [
+              "Moody’s AAA credit rating upgrade validates exceptional liquidity and is expected to drive institutional flight-to-quality demand.",
+              "Price maintains short-term structural control trading 5.1% above the SMA_20 with RSI momentum indicating room for further gains.",
+              "Revenue growth of 2.4% QoQ demonstrates continued top-line resilience despite current margin pressures."
+            ],
+            "main_risk": "Bearish MACD divergence and low relative volume suggest the recent price rally may lack the conviction to sustain a breakout.",
+            "confidence": "MEDIUM"
+          },
+          "research_manager_recommendation": "BUY",
+          "trading_strategy": {
+            "action": "BUY",
+            "confidence_score": 0.65,
+            "entry_price": null,
+            "take_profit": null,
+            "stop_loss": null,
+            "position_size_pct": 0,
+            "rationale": "FOR: Trend: Price (176.46) is trading 5.1% above the SMA_20 (167.78), confirming that buyers currently maintain short-term structural control. AGAINST: * Persistent margin compression if rising R&D and SG&A costs (up $259M QoQ) are not offset by massive holiday volume. DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+          },
+          "risk_reports": {},
+          "compliance_check": {},
+          "analysis_time_seconds": 47.71,
+          "memory_id": null,
+          "provenance": {
+            "cache": {
+              "cache_trace_file": "",
+              "cache_lookup_key": "AAPL|2021-12-27|short|US",
+              "cached_stage_a_reports_used": false,
+              "cached_stage_a_prior_requested": false,
+              "cached_stage_a_prior_used": false
+            },
+            "news": {
+              "ticker": "AAPL",
+              "as_of": "2021-12-27",
+              "lookback_days": 14,
+              "window_start": "2021-12-13",
+              "window_end": "2021-12-27",
+              "article_count": 16,
+              "min_published": "2021-12-13T20:37:29",
+              "max_published": "2021-12-27T10:39:00",
+              "articles": [
+                {
+                  "title": "Apple Must Answer Shareholder Questions on Forced Labor, SEC Says",
+                  "source": "VOA - Voice of America English News",
+                  "published": "20211222T205000",
+                  "url": "https://www.voanews.com/a/apple-must-answer-shareholder-questions-on-forced-labor-sec-says/6366305.html",
+                  "ticker_sentiment_label": "Somewhat-Bearish",
+                  "ticker_sentiment_score": -0.266506,
+                  "relevance_score": 1.0
+                },
+                {
+                  "title": "Apple's App Store broke competition laws, Dutch watchdog says",
+                  "source": "Reuters",
+                  "published": "20211227T103900",
+                  "url": "https://www.reuters.com/technology/apples-app-store-broke-competition-laws-dutch-watchdog-says-2021-12-24/",
+                  "ticker_sentiment_label": "Somewhat-Bearish",
+                  "ticker_sentiment_score": -0.310926,
+                  "relevance_score": 1.0
+                },
+                {
+                  "title": "Apple’s Next Step in Services Could Be New Bundles, Deeper Integration",
+                  "source": "Bloomberg.com",
+                  "published": "20211226T190000",
+                  "url": "https://www.bloomberg.com/news/newsletters/2021-12-26/apple-s-new-services-plan-apple-one-bundles-tv-apple-music-integration-kxnm9fhu",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.319642,
+                  "relevance_score": 1.0
+                },
+                {
+                  "title": "Apple’s long-term credit rating upgraded to AAA by Moody’s",
+                  "source": "Al Jazeera",
+                  "published": "20211221T192603",
+                  "url": "https://www.aljazeera.com/economy/2021/12/21/apples-long-term-credit-rating-upgraded-to-aaa-by-moodys",
+                  "ticker_sentiment_label": "Bullish",
+                  "ticker_sentiment_score": 0.865267,
+                  "relevance_score": 1.0
+                },
+                {
+                  "title": "|Product Liability & Mass Torts Digest",
+                  "source": "Winston & Strawn",
+                  "published": "20211216T192603",
+                  "url": "https://www.winston.com/en/blogs-and-podcasts/product-liability-and-mass-torts-digest/texas-district-court-allows-class-action-against-apple-to-proceed",
+                  "ticker_sentiment_label": "Somewhat-Bearish",
+                  "ticker_sentiment_score": -0.308813,
+                  "relevance_score": 1.0
+                },
+                {
+                  "title": "Moody's gives Apple top 'AAA' credit rating on growth promise",
+                  "source": "Reuters",
+                  "published": "20211222T102800",
+                  "url": "https://www.reuters.com/technology/moodys-gives-apple-top-aaa-credit-rating-growth-promise-2021-12-21/",
+                  "ticker_sentiment_label": "Bullish",
+                  "ticker_sentiment_score": 0.712351,
+                  "relevance_score": 0.974413
+                },
+                {
+                  "title": "Apple Should Make a Giant iPad as Its Smart Home Portal",
+                  "source": "Bloomberg.com",
+                  "published": "20211219T190000",
+                  "url": "https://www.bloomberg.com/news/newsletters/2021-12-19/apple-aapl-should-sell-bigger-ipad-for-smart-home-amazon-echo-show-15-review-kxdm6h21",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.299244,
+                  "relevance_score": 0.914396
+                },
+                {
+                  "title": "Cerner could be acquired by Oracle, says WSJ",
+                  "source": "Healthcare IT News",
+                  "published": "20211217T161000",
+                  "url": "https://www.healthcareitnews.com/news/cerner-could-be-acquired-oracle-says-wsj",
+                  "ticker_sentiment_label": "Neutral",
+                  "ticker_sentiment_score": 0.131613,
+                  "relevance_score": 0.744831
+                },
+                {
+                  "title": "Is Saudi Aramco Stock a Good Buy? • (TADAWUL: 2222)",
+                  "source": "Benzinga",
+                  "published": "20211213T203729",
+                  "url": "https://www.benzinga.com/money/saudi-aramco",
+                  "ticker_sentiment_label": "Neutral",
+                  "ticker_sentiment_score": 0.14641,
+                  "relevance_score": 0.743073
+                },
+                {
+                  "title": "The Invesco QQQ Stock Price Is Up 23.7% Since January. Could There Be More Gains?",
+                  "source": "AskTraders.com",
+                  "published": "20211215T210616",
+                  "url": "https://www.asktraders.com/analysis/the-invesco-qqq-stock-price-is-up-23-7-since-january-could-there-be-more-gains/",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.328971,
+                  "relevance_score": 0.723183
+                }
+              ]
+            }
+          }
+        }
+      },
+      "cached_stage_a_reports_used": true,
+      "cached_stage_a_prior": {
+        "recommendation": "BUY",
+        "confidence_score": 0.65,
+        "primary_drivers": [
+          "Moody’s AAA credit rating upgrade validates exceptional liquidity and is expected to drive institutional flight-to-quality demand.",
+          "Price maintains short-term structural control trading 5.1% above the SMA_20 with RSI momentum indicating room for further gains.",
+          "Revenue growth of 2.4% QoQ demonstrates continued top-line resilience despite current margin pressures."
+        ],
+        "main_risk": "Bearish MACD divergence and low relative volume suggest the recent price rally may lack the conviction to sustain a breakout."
+      },
+      "cached_stage_a_prior_used": true
+    },
+    "provenance": {
+      "cache": {
+        "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl",
+        "cache_lookup_key": "AAPL|2021-12-27|short|US",
+        "cached_stage_a_reports_used": true,
+        "cached_stage_a_prior_requested": true,
+        "cached_stage_a_prior_used": true
+      }
+    },
+    "analysis_time_seconds": 46.52,
+    "llm_stats": {
+      "total_calls": 5,
+      "retries": 15,
+      "rate_limits_429": 0,
+      "total_input_tokens": 0,
+      "total_output_tokens": 0,
+      "total_tokens": 0,
+      "token_log": []
+    }
+  },
+  "trace": {
+    "run_config": {
+      "stage": "D",
+      "simulated_date": "2021-12-27",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "risk_debate_rounds": 0,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": true,
+      "risk_mode": "single",
+      "use_cached_stage_a_reports": true,
+      "use_cached_stage_a_prior": true,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Revenue grew 2.4% QoQ to $83.36B, yet Net Income fell 5.5% to $20.55B, signaling a significant disconnect between sales growth and profitabi",
+        "primary_risk": "* Persistent margin compression if rising R&D and SG&A costs (up $259M QoQ) are not offset by massive holiday volume."
+      },
+      "technical": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Trend: Price (176.46) is trading 5.1% above the SMA_20 (167.78), confirming that buyers currently maintain short-term structural control.",
+        "primary_risk": "The recent price rally occurred on low relative volume (0.61 ratio) and lacks MACD confirmation, suggesting the move may be an exhausted \"me"
+      },
+      "news": {
+        "direction": "BULLISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "Moody’s AAA credit rating upgrade validates exceptional liquidity and financial strength, likely driving institutional \"flight to quality\" d",
+        "primary_risk": "Potential non-compliance penalties or forced App Store policy changes following the Dutch ACM Jan 15 deadline."
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* Revenue grew 2.4% QoQ to $83.36B, yet Net Income fell 5.5% to $20.55B, signaling a significant disconnect between sales growth and profitability.\n* Gross margins contracted from 43.3% to 42.2% QoQ, indicating immediate fundamental pressure on unit economics and pricing power.\n* Operating income declined to $23.79B from $24.13B as operating expenses ($11.39B) outpaced marginal revenue gains, squeezing short-term earnings potential.\n\n2) RISKS:\n* Persistent margin compression if rising R&D and SG&A costs (up $259M QoQ) are not offset by massive holiday volume.\n* A negative divergence trend where revenue acceleration fails to produce bottom-line growth, potentially triggering analyst downward revisions.\n\n3) FINAL_VIEW: BEARISH\n4) CONFIDENCE: MEDIUM\n5) KEY_UNCERTAINTY: Holiday season sales performance potentially reversing the observed margin contraction.",
+      "technical_analyst": "1) EVIDENCE:\n- Trend: Price (176.46) is trading 5.1% above the SMA_20 (167.78), confirming that buyers currently maintain short-term structural control.\n- Momentum: RSI at 66.9 indicates strong bullish velocity with remaining room before reaching the 70 overbought threshold.\n- MACD: MACD (4.96) is below the Signal line (5.08) with a negative histogram, signaling a bearish divergence against the recent 6.23% price surge.\n\n2) SUPPORT: 167.78\n3) RESISTANCE: 179.65\n4) FINAL_VIEW: BULLISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: The recent price rally occurred on low relative volume (0.61 ratio) and lacks MACD confirmation, suggesting the move may be an exhausted \"melt-up\" prone to a sharp pullback.",
+      "news_harvester": "1) CATALYSTS:\n- Moody’s AAA credit rating upgrade validates exceptional liquidity and financial strength, likely driving institutional \"flight to quality\" demand.\n- Dutch ACM Jan 15 deadline for App Store payment changes creates regulatory friction and sets a precedent for high-margin Services revenue.\n\n2) TONE: BULLISH\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: MEDIUM\n5) KEY_EVENT_RISK: Potential non-compliance penalties or forced App Store policy changes following the Dutch ACM Jan 15 deadline."
+    },
+    "investment_debate_state": {
+      "history": "\n\nError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\n\nError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "bull_history": "\n\nError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "bear_history": "\n\nError: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "current_response": "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\",\n  \"prior_view\": \"HOLD\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"HOLD\",\n  \"base_view_rationale\": \"Unknown\",\n  \"upside_note_impact\": \"Unknown\",\n  \"downside_note_impact\": \"Unknown\",\n  \"actionability_assessment\": \"Unknown\",\n  \"hold_gate_assessment\": \"Unknown\",\n  \"execution_notes\": [\n    \"Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\"\n  ],\n  \"confidence\": \"LOW\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 5.0,\n  \"sell_score\": 5.0,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.35,\n  \"primary_drivers\": [\n    \"Structured output failed; fallback used\"\n  ],\n  \"main_risk\": \"Parse failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\",\n  \"prior_view\": \"HOLD\",\n  \"prior_confirmed\": true,\n  \"override_reason\": \"\",\n  \"base_view_from_reports\": \"HOLD\",\n  \"base_view_rationale\": \"Unknown\",\n  \"upside_note_impact\": \"Unknown\",\n  \"downside_note_impact\": \"Unknown\",\n  \"actionability_assessment\": \"Unknown\",\n  \"hold_gate_assessment\": \"Unknown\",\n  \"execution_notes\": [\n    \"Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}\"\n  ],\n  \"confidence\": \"LOW\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 5.0,
+      "sell_score": 5.0,
+      "recommendation": "HOLD",
+      "confidence_score": 0.35,
+      "primary_drivers": [
+        "Structured output failed; fallback used"
+      ],
+      "main_risk": "Parse failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}",
+      "prior_view": "HOLD",
+      "prior_confirmed": true,
+      "override_reason": "",
+      "base_view_from_reports": "HOLD",
+      "base_view_rationale": "Unknown",
+      "upside_note_impact": "Unknown",
+      "downside_note_impact": "Unknown",
+      "actionability_assessment": "Unknown",
+      "hold_gate_assessment": "Unknown",
+      "execution_notes": [
+        "Error: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}"
+      ],
+      "confidence": "LOW"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.35,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "[CLEAR] Structured output failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}. Fallback to CLEAR used."
+    },
+    "risk_reports": {
+      "risk_manager_decision": "{\n  \"risk_judgment\": \"CLEAR\",\n  \"rationale\": \"Structured output failure: Structured LLM call failed after retries: 400 FAILED_PRECONDITION. {'error': {'code': 400, 'message': 'User location is not supported for the API use.', 'status': 'FAILED_PRECONDITION'}}. Fallback to CLEAR used.\",\n  \"position_size_pct\": 0.0,\n  \"stop_loss\": null,\n  \"take_profit\": null\n}",
+      "risk_gate": "Single risk-check evaluated. Original: HOLD, Judgment: CLEAR, Final: HOLD"
+    },
+    "compliance_check": {},
+    "analysis_time_seconds": 46.52,
+    "memory_id": null,
+    "llm_stats": {
+      "total_calls": 5,
+      "retries": 15,
+      "rate_limits_429": 0,
+      "total_input_tokens": 0,
+      "total_output_tokens": 0,
+      "total_tokens": 0,
+      "token_log": []
+    }
+  }
+}

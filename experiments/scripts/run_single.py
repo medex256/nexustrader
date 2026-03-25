@@ -49,6 +49,7 @@ def build_trace_sections(final_state: Dict[str, Any]) -> Dict[str, Any]:
         "compliance_check": final_state.get("compliance_check"),
         "analysis_time_seconds": final_state.get("analysis_time_seconds"),
         "memory_id": final_state.get("memory_id"),
+        "llm_stats": final_state.get("llm_stats"),
     }
 
 
@@ -83,6 +84,7 @@ def main() -> int:
     parser.add_argument("--decision-style", choices=["classification", "full"], default="classification")
     parser.add_argument("--memory-on", action="store_true", default=True)
     parser.add_argument("--memory-off", action="store_false", dest="memory_on")
+    parser.add_argument("--no-memory-store", action="store_true", default=False, help="Read-only memory: retrieve but do not store new memories")
     parser.add_argument("--risk-on", action="store_true", default=False)
     parser.add_argument("--risk-off", action="store_false", dest="risk_on")
     parser.add_argument("--risk-mode", choices=["off", "single", "debate"], default=None)
@@ -175,6 +177,15 @@ def main() -> int:
     print(f"- has signals: {isinstance(final_state.get('signals'), dict)}")
     print(f"- has investment_plan: {bool(final_state.get('investment_plan'))}")
     print(f"- has risk_reports: {isinstance(final_state.get('risk_reports'), dict)}")
+
+    # LLM stats summary
+    llm_stats = final_state.get("llm_stats")
+    if llm_stats:
+        print(f"\nLLM Stats:")
+        print(f"- total LLM calls: {llm_stats.get('total_calls', '?')}")
+        print(f"- retries:          {llm_stats.get('retries', 0)}")
+        print(f"- 429 rate limits:  {llm_stats.get('rate_limits_429', 0)}")
+        print(f"- total tokens:     {llm_stats.get('total_tokens', '?')} (in={llm_stats.get('total_input_tokens', '?')} out={llm_stats.get('total_output_tokens', '?')})")
     return 0
 
 

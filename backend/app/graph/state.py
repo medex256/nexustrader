@@ -77,6 +77,10 @@ class AgentState(TypedDict):
     compliance_check: Dict[str, Any]
     proposed_trade: Dict[str, Any]
     
+    # Memory tracking
+    memory_id: Optional[str]      # ID of stored memory (None if memory_store=False)
+    memory_summary: Optional[Dict[str, Any]]  # {bull_hits, bear_hits} retrieval counts
+
     # Debug/Verification metadata
     cache_context: Optional[Dict[str, Any]]
     provenance: Optional[Dict[str, Any]]  # News timestamps, chart as-of, etc.

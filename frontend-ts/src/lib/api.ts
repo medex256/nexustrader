@@ -15,5 +15,9 @@ export function buildChartUrl(ticker: string, asOf?: string): string {
 }
 
 export function buildHistoryUrl(): string {
-  return `${API_BASE_URL}/memory/all`;
+  return `${API_BASE_URL}/runs`;
+}
+
+export function buildClearHistoryUrl(): string {
+  return `${API_BASE_URL}/runs`;
 }

@@ -267,7 +267,7 @@ Output exactly:
 Keep under 150 words."""
     
     # 3. Call the LLM to generate the analysis (low temperature: factual data, not creativity)
-    analysis_report = call_llm(prompt, temperature=0.3)
+    analysis_report = call_llm(prompt, temperature=0.3, call_name="Fundamental_Analyst")
 
     # 4. Extract structured signal (zero extra LLM calls — keyword scoring)
     if 'signals' not in state:
@@ -342,7 +342,7 @@ Output exactly:
 Keep under 160 words."""
     
     # 3. Call the LLM to generate the analysis (low temperature: factual indicators, not creativity)
-    analysis_report = call_llm(prompt, temperature=0.3)
+    analysis_report = call_llm(prompt, temperature=0.3, call_name="Technical_Analyst")
 
     # 4. Extract structured signal (zero extra LLM calls — keyword scoring)
     technical_signal, parse_meta = _extract_analyst_signal(analysis_report)
@@ -524,7 +524,7 @@ Output exactly:
 Keep it brutally concise. Do not use filler words."""
     
     # 5. Call the LLM to generate the analysis (low temperature: factual news reporting)
-    analysis_report = call_llm(prompt, temperature=0.3)
+    analysis_report = call_llm(prompt, temperature=0.3, call_name="News_Harvester")
 
     # 6. Extract structured signal (zero extra LLM calls — keyword scoring)
     news_signal, parse_meta = _extract_analyst_signal(analysis_report)

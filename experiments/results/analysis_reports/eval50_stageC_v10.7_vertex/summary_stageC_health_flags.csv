@@ -1,0 +1,3 @@
+run,has_block,reduce_dominant_ge70,clear_present,verdict
+Stage C-R1,True,True,True,Mixed gate: BLOCK exists but REDUCE still dominates
+Stage B+ R1 for C (malformed judge prompt was using C's risk judge but it should be B+ isolated),True,True,True,Mixed gate: BLOCK exists but REDUCE still dominates

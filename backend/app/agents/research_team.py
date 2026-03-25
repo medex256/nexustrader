@@ -190,7 +190,7 @@ Return JSON:
   "main_risk": "<single most important counterpoint>"
 }}"""
     try:
-        return call_llm_structured(prompt, StageAManagerDecision, temperature=0.2)
+        return call_llm_structured(prompt, StageAManagerDecision, temperature=0.2, call_name="StageA_Manager_Prior")
     except Exception:
         return StageAManagerDecision(
             recommendation="HOLD",
@@ -307,7 +307,6 @@ def bull_researcher_agent(state: dict):
             memory = get_memory()
             
             # Build comprehensive situation description matching storage format
-            # Use same structure as stored documents for better semantic matching
             situation_desc = f"""
 [TICKER] {ticker}
 
@@ -320,13 +319,29 @@ def bull_researcher_agent(state: dict):
 [NEWS]
 {reports.get('news_harvester', 'N/A')[:500]}
 """
-            
+
+            # No-leak guard: only retrieve memories strictly before (simulated_date - horizon_days trading days)
+            import pandas as pd
+            _sim_date = state.get('simulated_date') or run_config.get('simulated_date')
+            _horizon_days = state.get('horizon_days') or run_config.get('horizon_days', 10)
+            _cutoff = None
+            if _sim_date:
+                try:
+                    _cutoff = (pd.Timestamp(_sim_date) - pd.offsets.BDay(_horizon_days)).strftime('%Y-%m-%d')
+                except Exception as _e:
+                    print(f"[MEMORY] CRITICAL: no-leak cutoff failed for {_sim_date}: {_e}. Blocking all memories.")
+                    _cutoff = "BLOCK_ALL"  # All dates are >= "BLOCK_ALL" alpha-sort — no memories returned
+            else:
+                print(f"[MEMORY] WARNING: simulated_date missing, blocking all memories as safe default.")
+                _cutoff = "BLOCK_ALL"
+
             # Get similar past analyses
             similar = memory.get_similar_past_analyses(
                 current_situation=situation_desc,
-                ticker=ticker,  # Filter by same ticker for more relevant matches
-                n_results=3,  # Increased to get more context
-                min_similarity=0.15  # Lowered to account for ChromaDB's conservative similarity scores
+                ticker=ticker,
+                n_results=3,
+                min_similarity=0.15,
+                max_simulated_date=_cutoff,
             )
             
             if similar:
@@ -344,6 +359,10 @@ Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
 - Lesson Learned: {lesson}
 """
                 print(f"[MEMORY] Bull Researcher found {len(similar)} similar past analyses")
+            # Store hit count in state for trace output
+            memory_summary = state.get("memory_summary") or {}
+            memory_summary["bull_hits"] = len(similar)
+            state["memory_summary"] = memory_summary
         except Exception as e:
             print(f"[MEMORY] Warning: Could not query memory: {str(e)}")
             memory_context = ""
@@ -366,14 +385,14 @@ Task: extract the strongest near-term upside catalysts from the analyst reports.
 
 {horizon_context}
 
-Use only the reports below. No external facts.
+Use only the reports below{" and past lessons provided" if memory_context else ""}. No external facts.
 Your objective is to identify any concrete, actionable evidence that supports a breakout or bullish continuation within {horizon_days} trading days.
 Evaluate the evidence holistically. Focus on earnings surprises, technical breakouts, or specific positive news events.
 Ignore speculative assumptions and focus only on documented catalysts.
 
 Full Analyst Reports:
 {_format_reports_for_judge(state)}
-
+{memory_context}
 Output format (strict):
 - UPSIDE_STRENGTH: STRONG | MODERATE | WEAK | NO_NEW_UPSIDE
 - UPSIDE_CORE: if UPSIDE_STRENGTH is not NO_NEW_UPSIDE, up to 55 words describing the single strongest upside catalyst and transmission path. If NO_NEW_UPSIDE, output NONE.
@@ -488,7 +507,7 @@ Keep it concise. Start directly with the format."""
     Keep under 180 words. Start with "Bull Researcher:"."""
     
     # 2. Call the LLM to generate the argument
-    bullish_response = call_llm(prompt)
+    bullish_response = call_llm(prompt, call_name="Bull_Researcher")
     
     # 3. Update the debate state
     debate_state['bull_history'] += f"\n\n{bullish_response}"
@@ -526,28 +545,61 @@ def bear_researcher_agent(state: dict):
     if debate_state['count'] == 1 and run_config.get("memory_on", False):
         try:
             memory = get_memory()
-            
-            # Get past mistakes to learn what risks were underestimated
-            mistakes = memory.get_past_mistakes(
-                ticker=None,
-                min_loss_pct=-10.0,
-                n_results=2
+
+            situation_desc = f"""
+[TICKER] {ticker}
+
+[FUNDAMENTAL ANALYSIS]
+{reports.get('fundamental_analyst', 'N/A')[:800]}
+
+[TECHNICAL ANALYSIS]
+{reports.get('technical_analyst', 'N/A')[:800]}
+
+[NEWS]
+{reports.get('news_harvester', 'N/A')[:500]}
+"""
+
+            # No-leak guard: mirror the Bull cutoff exactly
+            import pandas as pd
+            _sim_date = state.get('simulated_date') or run_config.get('simulated_date')
+            _horizon_days = state.get('horizon_days') or run_config.get('horizon_days', 10)
+            _cutoff = None
+            if _sim_date:
+                try:
+                    _cutoff = (pd.Timestamp(_sim_date) - pd.offsets.BDay(_horizon_days)).strftime('%Y-%m-%d')
+                except Exception as _e:
+                    print(f"[MEMORY] CRITICAL: no-leak cutoff failed for {_sim_date}: {_e}. Blocking all memories.")
+                    _cutoff = "BLOCK_ALL"
+            else:
+                print(f"[MEMORY] WARNING: simulated_date missing, blocking all memories as safe default.")
+                _cutoff = "BLOCK_ALL"
+
+            mistakes = memory.get_similar_past_analyses(
+                current_situation=situation_desc,
+                ticker=ticker,
+                n_results=3,
+                min_similarity=0.15,
+                max_simulated_date=_cutoff,
             )
-            
+
             if mistakes:
-                memory_context = "\n\n--- LESSONS FROM PAST MISTAKES ---\n"
+                memory_context = "\n\n--- LESSONS FROM PAST ANALYSES ---\n"
                 for i, mem in enumerate(mistakes, 1):
+                    outcome = mem['metadata'].get('outcome', 'PENDING')
                     pnl = mem['metadata'].get('profit_loss_pct', 'N/A')
                     lesson = mem['metadata'].get('lessons_learned', 'N/A')
-                    
                     memory_context += f"""
-Past Mistake {i}:
+Past Analysis {i} (Similarity: {mem['similarity']:.0%}):
 - Ticker: {mem['metadata']['ticker']}
 - Action: {mem['metadata']['action']}
-- Loss: {pnl}%
-- What Went Wrong: {lesson}
+- Outcome: {outcome} (P/L: {pnl}%)
+- Lesson Learned: {lesson}
 """
-                print(f"[MEMORY] Bear Researcher found {len(mistakes)} past mistakes to learn from")
+                print(f"[MEMORY] Bear Researcher found {len(mistakes)} similar past analyses")
+            # Store hit count in state for trace output
+            memory_summary = state.get("memory_summary") or {}
+            memory_summary["bear_hits"] = len(mistakes)
+            state["memory_summary"] = memory_summary
         except Exception as e:
             print(f"[MEMORY] Warning: Could not query memory: {str(e)}")
             memory_context = ""
@@ -573,14 +625,14 @@ Task: extract the strongest near-term downside risks and bearish catalysts from 
 
 {horizon_context}
 
-Use only the reports below. No external facts.
+Use only the reports below{" and past lessons provided" if memory_context else ""}. No external facts.
 Your objective is to identify any concrete, actionable evidence that supports a breakdown, reversal, or continued negative momentum within {horizon_days} trading days.
 Focus on weakening fundamentals, technical breakdowns, or specific negative catalysts.
 Do not highlight generic market caution. Look for active, specific threats to the stock price.
 
 Full Analyst Reports:
 {_format_reports_for_judge(state)}
-
+{memory_context}
 Output format (strict):
 - DOWNSIDE_STRENGTH: STRONG | MODERATE | WEAK | NO_NEW_DOWNSIDE
 - DOWNSIDE_CORE: if DOWNSIDE_STRENGTH is not NO_NEW_DOWNSIDE, up to 55 words describing the single strongest downside risk and impact mechanism. If NO_NEW_DOWNSIDE, output NONE.
@@ -691,7 +743,7 @@ Keep it concise. Start directly with the format."""
     Keep under 180 words. Start with "Bear Researcher:"."""
     
     # 2. Call the LLM to generate the argument
-    bearish_response = call_llm(prompt)
+    bearish_response = call_llm(prompt, call_name="Bear_Researcher")
     
     # 3. Update the debate state
     debate_state['bear_history'] += f"\n\n{bearish_response}"
@@ -764,6 +816,7 @@ Return JSON:
                 StageAManagerDecision,
                 temperature=0.2,
                 model_name=manager_model,
+                call_name="StageA_Manager_Decision",
             )
         except Exception as e:
             decision = StageAManagerDecision(
@@ -815,9 +868,9 @@ Return JSON:
         )
 
         try:
-            decision = call_llm_structured(prompt, ResearchManagerDecision, temperature=0.2)
+            decision = call_llm_structured(prompt, ResearchManagerDecision, temperature=0.2, call_name="Research_Manager_Decision")
         except Exception as e:
-            fallback_text = call_llm(prompt)
+            fallback_text = call_llm(prompt, call_name="Research_Manager_Fallback")
             decision = ResearchManagerDecision(
                 buy_score=5,
                 sell_score=5,

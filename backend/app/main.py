@@ -11,6 +11,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from .graph.agent_graph import create_agent_graph
 from .utils.memory import initialize_memory, get_memory
+from .utils.run_archive import initialize_run_archive, get_run_archive
 from .utils.stage_a_cache import (
     build_stage_a_cache_key,
     extract_cached_reports,
@@ -20,6 +21,7 @@ from .utils.stage_a_cache import (
 )
 from .tools.technical_analysis_tools import get_chart_data_json
 from .baselines.strategies import get_baseline
+from .llm import get_call_stats, get_token_log, reset_call_stats, reset_token_log
 
 # Create the FastAPI app
 app = FastAPI(
@@ -46,6 +48,9 @@ async def startup_event():
     print("[STARTUP] Initializing memory system...")
     initialize_memory(persist_directory="./chroma_db")
     print("[STARTUP] Memory system ready!")
+    print("[STARTUP] Initializing run archive...")
+    initialize_run_archive(db_path="./run_archive.sqlite3")
+    print("[STARTUP] Run archive ready!")
 
 # --- Static File Serving ---
 # Get the absolute path to the directory of the current file (main.py)
@@ -73,7 +78,7 @@ STAGE_PRESETS = {
     "B": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 0, "risk_mode": "off", "memory_on": False},
     "B+": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 0, "risk_mode": "single", "memory_on": False},
     "C": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 1, "risk_mode": "debate", "memory_on": False},
-    "D": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 1, "risk_mode": "debate", "memory_on": True},
+    "D": {"debate_mode": "on", "debate_rounds": 1, "risk_debate_rounds": 0, "risk_mode": "single", "memory_on": True},
 }
 
 
@@ -205,6 +210,8 @@ def _build_initial_state(
         "proposed_trade": {},
         "investment_plan_structured": None,
         "research_manager_recommendation": None,
+        "memory_id": None,
+        "memory_summary": None,
         "cache_context": {
             "cache_trace_file": cache_trace_file,
             "cache_lookup_key": cache_lookup_key,
@@ -258,6 +265,8 @@ class AnalysisRequest(BaseModel):
     debate_mode: str = "on"  # "on"|"off"
     decision_style: str = "classification"  # "classification"|"full"
     memory_on: bool = True
+    memory_store: bool = True  # False = read-only (retrieve but don't store new memories)
+    archive_run: bool = True
     risk_on: Optional[bool] = None  # legacy (deprecated): use risk_mode instead
     risk_mode: Optional[str] = None  # "off"|"single"|"debate"
     use_cached_stage_a_reports: bool = False
@@ -272,6 +281,10 @@ def analyze_ticker(request: AnalysisRequest):
     """
     import time
     start_time = time.time()
+
+    # Reset LLM stats for this request
+    reset_call_stats()
+    reset_token_log()
     
     resolved = _resolve_modes(
         stage=request.stage,
@@ -310,9 +323,27 @@ def analyze_ticker(request: AnalysisRequest):
     print(f"Invoking the agent graph for {request.ticker}...")
     final_state = agent_graph.invoke(initial_state)
 
-    # Store analysis in memory for future learning (only when memory is enabled)
-    if resolved["memory_on"]:
+    # Record timing
+    elapsed_time = time.time() - start_time
+    final_state['analysis_time_seconds'] = round(elapsed_time, 2)
+
+    # Attach LLM call stats and token log
+    call_stats = get_call_stats()
+    token_log = get_token_log()
+    total_input = sum(e["input"] for e in token_log)
+    total_output = sum(e["output"] for e in token_log)
+    final_state['llm_stats'] = {
+        **call_stats,
+        "total_input_tokens": total_input,
+        "total_output_tokens": total_output,
+        "total_tokens": total_input + total_output,
+        "token_log": token_log,
+    }
+
+    # Store analysis in Stage D learning memory only when enabled and store is not disabled.
+    if resolved["memory_on"] and request.memory_store:
         try:
+            final_state_json = json.dumps(final_state, default=str)
             memory = get_memory()
             memory_id = memory.store_analysis(
                 ticker=request.ticker,
@@ -330,8 +361,10 @@ def analyze_ticker(request: AnalysisRequest):
                     "debate_mode": resolved["debate_mode"],
                     "memory_on": resolved["memory_on"],
                     "risk_mode": resolved["risk_mode"],
+                    "stage": resolved.get("stage"),
                     "analysis_time_seconds": final_state.get('analysis_time_seconds'),
                 },
+                final_state_json=final_state_json,
                 reports=final_state.get('reports', {})
             )
             final_state['memory_id'] = memory_id
@@ -339,10 +372,25 @@ def analyze_ticker(request: AnalysisRequest):
         except Exception as e:
             print(f"[MEMORY] Warning: Could not store analysis: {str(e)}")
 
-    # Record timing
-    elapsed_time = time.time() - start_time
-    final_state['analysis_time_seconds'] = round(elapsed_time, 2)
-    print(f"\n--- Analysis Complete ({elapsed_time:.2f}s) ---")
+    if request.archive_run:
+        try:
+            archive = get_run_archive()
+            archive_id = archive.store_run(
+                ticker=request.ticker,
+                stage=resolved.get("stage"),
+                market=request.market,
+                simulated_date=request.simulated_date,
+                horizon=request.horizon,
+                action=str((final_state.get("trading_strategy") or {}).get("action") or "HOLD"),
+                rationale=str((final_state.get("trading_strategy") or {}).get("rationale") or "")[:500],
+                result_json=json.dumps(final_state, default=str),
+                source="analyze",
+            )
+            final_state["archive_id"] = archive_id
+            print(f"[ARCHIVE] Stored run with ID: {archive_id}")
+        except Exception as e:
+            print(f"[ARCHIVE] Warning: Could not archive run: {str(e)}")
+    print(f"\n--- Analysis Complete ({elapsed_time:.2f}s) | LLM calls={call_stats['total_calls']} retries={call_stats['retries']} 429s={call_stats['rate_limits_429']} tokens={total_input+total_output} ---")
     
     # Print and return the final state
     print(final_state)
@@ -360,6 +408,8 @@ async def analyze_ticker_stream(
     debate_mode: str = "on",
     decision_style: str = "classification",
     memory_on: bool = True,
+    memory_store: bool = True,
+    archive_run: bool = True,
     risk_on: Optional[bool] = None,
     risk_mode: Optional[str] = None,
     use_cached_stage_a_reports: bool = False,
@@ -374,6 +424,8 @@ async def analyze_ticker_stream(
         try:
             import time
             start_time = time.time()
+            reset_call_stats()
+            reset_token_log()
             
             # Send initial status
             event_data = json.dumps({'status': 'started', 'message': f'Starting analysis for {ticker}...'})
@@ -458,11 +510,24 @@ async def analyze_ticker_stream(
             
             final_state = current_state
 
-            # Store in memory (only when memory is enabled)
-            if resolved["memory_on"]:
+            # Add analysis time and llm stats first so archived/replayed results are complete.
+            elapsed_time = time.time() - start_time
+            final_state['analysis_time_seconds'] = round(elapsed_time, 2)
+            call_stats = get_call_stats()
+            token_log = get_token_log()
+            total_input = sum(e["input"] for e in token_log)
+            total_output = sum(e["output"] for e in token_log)
+            final_state['llm_stats'] = {
+                **call_stats,
+                "total_input_tokens": total_input,
+                "total_output_tokens": total_output,
+                "total_tokens": total_input + total_output,
+                "token_log": token_log,
+            }
+
+            # Store in Stage D learning memory only when enabled and not read-only.
+            if resolved["memory_on"] and memory_store:
                 try:
-                    # Create a clean version of state for storage (remove non-serializable objects if any)
-                    # But here everything is dict/str, so json.dumps works.
                     final_state_json = json.dumps(final_state, default=str)
 
                     memory = get_memory()
@@ -481,6 +546,7 @@ async def analyze_ticker_stream(
                             "debate_mode": resolved["debate_mode"],
                             "memory_on": resolved["memory_on"],
                             "risk_mode": resolved["risk_mode"],
+                            "stage": resolved.get("stage"),
                         },
                         final_state_json=final_state_json,
                         reports=final_state.get('reports', {})
@@ -488,10 +554,24 @@ async def analyze_ticker_stream(
                     final_state['memory_id'] = memory_id
                 except Exception as e:
                     print(f"[MEMORY] Warning: {str(e)}")
-            
-            # Add analysis time
-            elapsed_time = time.time() - start_time
-            final_state['analysis_time_seconds'] = round(elapsed_time, 2)
+
+            if archive_run:
+                try:
+                    archive = get_run_archive()
+                    archive_id = archive.store_run(
+                        ticker=ticker,
+                        stage=resolved.get("stage"),
+                        market=market,
+                        simulated_date=simulated_date,
+                        horizon=horizon,
+                        action=str((final_state.get("trading_strategy") or {}).get("action") or "HOLD"),
+                        rationale=str((final_state.get("trading_strategy") or {}).get("rationale") or "")[:500],
+                        result_json=json.dumps(final_state, default=str),
+                        source="stream",
+                    )
+                    final_state["archive_id"] = archive_id
+                except Exception as e:
+                    print(f"[ARCHIVE] Warning: {str(e)}")
             
             # Send final results
             event_data = json.dumps({'status': 'complete', 'result': final_state})
@@ -526,6 +606,23 @@ def get_all_memory(limit: int = 20):
         memory = get_memory()
         history = memory.get_all_analyses(limit=limit)
         return {"status": "success", "data": history}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
+
+@app.get("/runs")
+def get_archived_runs(limit: int = 100):
+    try:
+        archive = get_run_archive()
+        return {"status": "success", "data": archive.get_runs(limit=limit)}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
+
+@app.delete("/runs")
+def clear_archived_runs():
+    try:
+        archive = get_run_archive()
+        archive.clear_all()
+        return {"status": "success", "message": "Cleared archived runs"}
     except Exception as e:
         return {"status": "error", "message": str(e)}
 

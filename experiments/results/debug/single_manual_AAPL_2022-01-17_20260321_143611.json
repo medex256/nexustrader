@@ -1,0 +1,652 @@
+{
+  "schema_version": "2.0",
+  "meta": {
+    "schema_version": "2.0",
+    "created_at": "2026-03-21T14:36:11",
+    "started_at": "2026-03-21T14:35:10",
+    "api": "http://127.0.0.1:8000",
+    "script": "run_single.py",
+    "tag": "manual"
+  },
+  "request": {
+    "ticker": "AAPL",
+    "market": "US",
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "stage": "C",
+    "debate_rounds": 1,
+    "risk_debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "debate",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": true,
+    "use_cached_stage_a_prior": true,
+    "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+  },
+  "result_summary": {
+    "action": "HOLD",
+    "confidence_score": 0.75,
+    "position_size_pct": 0,
+    "risk_judgment": "CLEAR",
+    "risk_gate": "Risk debate judged. Original: HOLD, Judgment: CLEAR, Final: HOLD"
+  },
+  "request_payload": {
+    "ticker": "AAPL",
+    "market": "US",
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "stage": "C",
+    "debate_rounds": 1,
+    "risk_debate_rounds": 1,
+    "debate_mode": "on",
+    "decision_style": "classification",
+    "memory_on": false,
+    "risk_mode": "debate",
+    "use_pro_stage_a_manager": false,
+    "use_cached_stage_a_reports": true,
+    "use_cached_stage_a_prior": true,
+    "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+  },
+  "response_full": {
+    "ticker": "AAPL",
+    "market": "US",
+    "run_config": {
+      "stage": "C",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "risk_debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "debate",
+      "use_cached_stage_a_reports": true,
+      "use_cached_stage_a_prior": true,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+    },
+    "simulated_date": "2022-01-17",
+    "horizon": "short",
+    "horizon_days": 10,
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **Revenue Acceleration:** Total revenue surged to $123.9B, a 48.6% QoQ increase, demonstrating massive holiday demand and successful navigation of supply chain constraints.\n* **Significant Margin Expansion:** Gross margins expanded to 43.7% (up from 39.8% YoY), driven by a favorable product mix and increased high-margin Services contribution.\n* **Cash Flow Dominance:** Generated $46.9B in operating cash flow in a single quarter, providing immediate fundamental support for aggressive capital return programs.\n\n2) RISKS:\n* **Operating Expense Growth:** Total operating expenses rose to $12.7B, a 12% QoQ increase, which may pressure short-term sentiment if revenue growth is perceived to have peaked.\n* **Post-Earnings Mean Reversion:** After a record-breaking quarter, the stock faces \"sell-the-news\" pressure as the market shifts focus to seasonally slower Q2 cycles.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Sustainability of premium hardware demand following the record-breaking holiday cycle.",
+      "technical_analyst": "1) EVIDENCE:\n• SMA 20: Price (169.36) is trading below the 20-day SMA (171.71), signaling that sellers have reclaimed short-term technical control.\n• MACD: The MACD (1.37) is positioned below its signal line (2.53) with a negative histogram (-1.16), confirming a bearish momentum crossover.\n• RSI: RSI has retreated to 50.35, indicating a complete loss of previous bullish strength and a shift toward neutral-bearish consolidation.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: RSI holding strictly above the 50 midpoint suggests the current move lacks aggressive liquidation pressure, potentially leading to sideways churn rather than a sharp breakdown.",
+      "news_harvester": "1) CATALYSTS: None identified.\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: HIGH\n5) KEY_EVENT_RISK: N/A"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "**Revenue Acceleration:** Total revenue surged to $123.9B, a 48.6% QoQ increase, demonstrating massive holiday demand and successful navigat",
+        "primary_risk": "* **Operating Expense Growth:** Total operating expenses rose to $12.7B, a 12% QoQ increase, which may pressure short-term sentiment if reve"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "SMA 20: Price (169.36) is trading below the 20-day SMA (171.71), signaling that sellers have reclaimed short-term technical control.",
+        "primary_risk": "RSI holding strictly above the 50 midpoint suggests the current move lacks aggressive liquidation pressure, potentially leading to sideways "
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+        "key_catalyst": "None identified.",
+        "primary_risk": "N/A"
+      }
+    },
+    "stock_chart_image": null,
+    "sentiment_score": 0.0,
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_CORE: Record $123.9B revenue and $46.9B in operating cash flow provide immediate fundamental support for aggressive capital return programs. This financial dominance, coupled with expanded 43.7% gross margins, could trigger a bullish reversal if the market pivots from post-earnings mean reversion to valuing premium hardware demand and massive cash reserves.\n- UPSIDE_FALSIFIER: AAPL price closing below the 164.82 support level.\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Negative momentum driven by a \"sell-the-news\" post-earnings mean reversion and rising operating expenses. Technically, the stock has broken below its 20-day SMA (171.71) with a bearish MACD crossover, signaling sellers have reclaimed control. This technical breakdown suggests a likely retreat toward the 164.82 support level during the seasonal Q2 slowdown.\n- DOWNSIDE_FALSIFIER: Price reclaiming and closing above the 20-day SMA resistance level of 171.71.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_CORE: Record $123.9B revenue and $46.9B in operating cash flow provide immediate fundamental support for aggressive capital return programs. This financial dominance, coupled with expanded 43.7% gross margins, could trigger a bullish reversal if the market pivots from post-earnings mean reversion to valuing premium hardware demand and massive cash reserves.\n- UPSIDE_FALSIFIER: AAPL price closing below the 164.82 support level.",
+      "bear_history": "\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Negative momentum driven by a \"sell-the-news\" post-earnings mean reversion and rising operating expenses. Technically, the stock has broken below its 20-day SMA (171.71) with a bearish MACD crossover, signaling sellers have reclaimed control. This technical breakdown suggests a likely retreat toward the 164.82 support level during the seasonal Q2 slowdown.\n- DOWNSIDE_FALSIFIER: Price reclaiming and closing above the 20-day SMA resistance level of 171.71.",
+      "current_response": "- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Negative momentum driven by a \"sell-the-news\" post-earnings mean reversion and rising operating expenses. Technically, the stock has broken below its 20-day SMA (171.71) with a bearish MACD crossover, signaling sellers have reclaimed control. This technical breakdown suggests a likely retreat toward the 164.82 support level during the seasonal Q2 slowdown.\n- DOWNSIDE_FALSIFIER: Price reclaiming and closing above the 20-day SMA resistance level of 171.71.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 6.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Technical breakdown below the 20-day SMA (171.71)\",\n    \"Bearish MACD crossover signaling seller control\",\n    \"Post-earnings mean reversion sentiment\"\n  ],\n  \"main_risk\": \"A bullish reversal triggered by the market pivoting to value the $123.9B revenue record and cash reserves.\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": false,\n  \"override_reason\": \"Specialist notes identify a specific technical breakdown (20-day SMA breach and bearish MACD) that was not explicit in the fundamental prior view, materially altering the expected 10-day price path toward support.\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"The prior fundamental BUY thesis is currently offset by immediate technical deterioration and negative momentum.\",\n  \"upside_note_impact\": \"Confirms a strong fundamental floor but lacks a near-term catalyst to overcome the technical resistance at 171.71.\",\n  \"downside_note_impact\": \"Provides specific technical triggers and momentum indicators that suggest a retreat toward the 164.82 support level.\",\n  \"actionability_assessment\": \"Expect a retreat toward 164.82; the path is neutral-to-bearish until the 20-day SMA is reclaimed.\",\n  \"hold_gate_assessment\": \"The conflict between record fundamental strength and clear technical breakdown makes both BUY and SELL paths similarly plausible over the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor for a close above 171.71 to signal a return to the prior BUY thesis.\",\n    \"Watch the 164.82 level as a potential entry point for long-term fundamental positions.\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "risk_debate_state": {
+      "history": "\n\n**Aggressive Analyst:** AAPL’s HOLD status is anchored by a fundamental-technical deadlock: record $46.9B operating cash flow and 43.7% margins create a valuation floor that prevents catastrophic slippage. The primary survival mechanism is sideways consolidation above the critical $164.82 support, as an RSI of 50.35 confirms that current technical weakness lacks aggressive liquidation intensity. While the bearish MACD crossover and price action below the 20-day SMA present significant headwinds, the massive $123.9B revenue surge provides sufficient fundamental inertia to absorb \"sell-the-news\" pressure and mean reversion risks over the next 10 days.\n\nConservative Analyst: The Aggressive Analyst’s survival mechanism of sideways consolidation is evidence-grounded, supported by the technical report’s observation that an RSI above the 50 midpoint lacks aggressive liquidation intensity. However, the specific failure mechanism is \"Post-Earnings Mean Reversion,\" materializing as the market pivots from record results toward seasonally slower Q2 cycles and a 12% increase in operating expenses. Because price action is already below the 20-day SMA and MACD momentum remains negative, these fundamental headwinds likely invalidate the perceived valuation floor, threatening a breakdown of the $164.82 support.\n\nNeutral Analyst: The Aggressive’s survival mechanism of sideways consolidation above $164.82 is (a) strongly supported by specific evidence, as the technical report explicitly identifies the 50.35 RSI as signaling a lack of aggressive liquidation pressure. This mechanism is further grounded by the fundamental report’s data on record $46.9B cash flow and revenue inertia, which create a substantial valuation floor. The Aggressive side makes the stronger evidence-grounded case by directly utilizing the technical report's \"Key Uncertainty\" regarding sideways churn. Although the Conservative Analyst correctly identifies bearish crossovers, their case relies on the \"Post-Earnings Mean Reversion\" risk overcoming these proven fundamental and technical supports.",
+      "aggressive_history": "\n\n**Aggressive Analyst:** AAPL’s HOLD status is anchored by a fundamental-technical deadlock: record $46.9B operating cash flow and 43.7% margins create a valuation floor that prevents catastrophic slippage. The primary survival mechanism is sideways consolidation above the critical $164.82 support, as an RSI of 50.35 confirms that current technical weakness lacks aggressive liquidation intensity. While the bearish MACD crossover and price action below the 20-day SMA present significant headwinds, the massive $123.9B revenue surge provides sufficient fundamental inertia to absorb \"sell-the-news\" pressure and mean reversion risks over the next 10 days.",
+      "conservative_history": "\n\nConservative Analyst: The Aggressive Analyst’s survival mechanism of sideways consolidation is evidence-grounded, supported by the technical report’s observation that an RSI above the 50 midpoint lacks aggressive liquidation intensity. However, the specific failure mechanism is \"Post-Earnings Mean Reversion,\" materializing as the market pivots from record results toward seasonally slower Q2 cycles and a 12% increase in operating expenses. Because price action is already below the 20-day SMA and MACD momentum remains negative, these fundamental headwinds likely invalidate the perceived valuation floor, threatening a breakdown of the $164.82 support.",
+      "neutral_history": "\n\nNeutral Analyst: The Aggressive’s survival mechanism of sideways consolidation above $164.82 is (a) strongly supported by specific evidence, as the technical report explicitly identifies the 50.35 RSI as signaling a lack of aggressive liquidation pressure. This mechanism is further grounded by the fundamental report’s data on record $46.9B cash flow and revenue inertia, which create a substantial valuation floor. The Aggressive side makes the stronger evidence-grounded case by directly utilizing the technical report's \"Key Uncertainty\" regarding sideways churn. Although the Conservative Analyst correctly identifies bearish crossovers, their case relies on the \"Post-Earnings Mean Reversion\" risk overcoming these proven fundamental and technical supports.",
+      "votes": {
+        "aggressive": {
+          "vote": "N/A",
+          "unresolved_breaker": "N/A",
+          "breaker_strength": "N/A",
+          "horizon_relevance": "N/A",
+          "novelty": "N/A",
+          "veto_confidence": "N/A",
+          "confidence": "N/A"
+        },
+        "conservative": {
+          "vote": "N/A",
+          "unresolved_breaker": "N/A",
+          "breaker_strength": "N/A",
+          "horizon_relevance": "N/A",
+          "novelty": "N/A",
+          "veto_confidence": "N/A",
+          "confidence": "N/A"
+        },
+        "neutral": {
+          "vote": "N/A",
+          "unresolved_breaker": "N/A",
+          "breaker_strength": "N/A",
+          "horizon_relevance": "N/A",
+          "novelty": "N/A",
+          "veto_confidence": "N/A",
+          "confidence": "N/A"
+        }
+      },
+      "latest_speaker": "Neutral",
+      "count": 3
+    },
+    "arguments": {
+      "bullish": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_CORE: Record $123.9B revenue and $46.9B in operating cash flow provide immediate fundamental support for aggressive capital return programs. This financial dominance, coupled with expanded 43.7% gross margins, could trigger a bullish reversal if the market pivots from post-earnings mean reversion to valuing premium hardware demand and massive cash reserves.\n- UPSIDE_FALSIFIER: AAPL price closing below the 164.82 support level.",
+      "bearish": "\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Negative momentum driven by a \"sell-the-news\" post-earnings mean reversion and rising operating expenses. Technically, the stock has broken below its 20-day SMA (171.71) with a bearish MACD crossover, signaling sellers have reclaimed control. This technical breakdown suggests a likely retreat toward the 164.82 support level during the seasonal Q2 slowdown.\n- DOWNSIDE_FALSIFIER: Price reclaiming and closing above the 20-day SMA resistance level of 171.71."
+    },
+    "investment_plan": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 6.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Technical breakdown below the 20-day SMA (171.71)\",\n    \"Bearish MACD crossover signaling seller control\",\n    \"Post-earnings mean reversion sentiment\"\n  ],\n  \"main_risk\": \"A bullish reversal triggered by the market pivoting to value the $123.9B revenue record and cash reserves.\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": false,\n  \"override_reason\": \"Specialist notes identify a specific technical breakdown (20-day SMA breach and bearish MACD) that was not explicit in the fundamental prior view, materially altering the expected 10-day price path toward support.\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"The prior fundamental BUY thesis is currently offset by immediate technical deterioration and negative momentum.\",\n  \"upside_note_impact\": \"Confirms a strong fundamental floor but lacks a near-term catalyst to overcome the technical resistance at 171.71.\",\n  \"downside_note_impact\": \"Provides specific technical triggers and momentum indicators that suggest a retreat toward the 164.82 support level.\",\n  \"actionability_assessment\": \"Expect a retreat toward 164.82; the path is neutral-to-bearish until the 20-day SMA is reclaimed.\",\n  \"hold_gate_assessment\": \"The conflict between record fundamental strength and clear technical breakdown makes both BUY and SELL paths similarly plausible over the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor for a close above 171.71 to signal a return to the prior BUY thesis.\",\n    \"Watch the 164.82 level as a potential entry point for long-term fundamental positions.\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 4.5,
+      "sell_score": 6.5,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Technical breakdown below the 20-day SMA (171.71)",
+        "Bearish MACD crossover signaling seller control",
+        "Post-earnings mean reversion sentiment"
+      ],
+      "main_risk": "A bullish reversal triggered by the market pivoting to value the $123.9B revenue record and cash reserves.",
+      "prior_view": "BUY",
+      "prior_confirmed": false,
+      "override_reason": "Specialist notes identify a specific technical breakdown (20-day SMA breach and bearish MACD) that was not explicit in the fundamental prior view, materially altering the expected 10-day price path toward support.",
+      "base_view_from_reports": "BUY",
+      "base_view_rationale": "The prior fundamental BUY thesis is currently offset by immediate technical deterioration and negative momentum.",
+      "upside_note_impact": "Confirms a strong fundamental floor but lacks a near-term catalyst to overcome the technical resistance at 171.71.",
+      "downside_note_impact": "Provides specific technical triggers and momentum indicators that suggest a retreat toward the 164.82 support level.",
+      "actionability_assessment": "Expect a retreat toward 164.82; the path is neutral-to-bearish until the 20-day SMA is reclaimed.",
+      "hold_gate_assessment": "The conflict between record fundamental strength and clear technical breakdown makes both BUY and SELL paths similarly plausible over the 10-day window.",
+      "execution_notes": [
+        "Monitor for a close above 171.71 to signal a return to the prior BUY thesis.",
+        "Watch the 164.82 level as a potential entry point for long-term fundamental positions."
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "[CLEAR] The fundamental floor established by record cash flow and gross margins provides sufficient inertia to counter the technical breakdown below the 20-day SMA. The RSI at 50.35 confirms a lack of aggressive liquidation pressure, supporting the survival mechanism of sideways consolidation above the $164.82 support level over the 10-day horizon."
+    },
+    "trader_reports": {},
+    "risk_reports": {
+      "risk_manager_decision": "{\n  \"thesis_validity\": \"VALID\",\n  \"execution_fragility\": \"LOW\",\n  \"risk_judgment\": \"CLEAR\",\n  \"rationale\": \"The fundamental floor established by record cash flow and gross margins provides sufficient inertia to counter the technical breakdown below the 20-day SMA. The RSI at 50.35 confirms a lack of aggressive liquidation pressure, supporting the survival mechanism of sideways consolidation above the $164.82 support level over the 10-day horizon.\",\n  \"position_size_pct\": 100.0,\n  \"stop_loss\": 164.82,\n  \"take_profit\": 171.71\n}",
+      "risk_gate": "Risk debate judged. Original: HOLD, Judgment: CLEAR, Final: HOLD"
+    },
+    "compliance_check": {},
+    "proposed_trade": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "[CLEAR] The fundamental floor established by record cash flow and gross margins provides sufficient inertia to counter the technical breakdown below the 20-day SMA. The RSI at 50.35 confirms a lack of aggressive liquidation pressure, supporting the survival mechanism of sideways consolidation above the $164.82 support level over the 10-day horizon."
+    },
+    "cache_context": {
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl",
+      "cache_lookup_key": "AAPL|2022-01-17|short|US",
+      "cached_stage_a_trace": {
+        "ticker": "AAPL",
+        "simulated_date": "2022-01-17",
+        "horizon": "short",
+        "market": "US",
+        "flags": {
+          "stage": "A",
+          "debate_rounds": 0,
+          "debate_mode": "off",
+          "decision_style": "classification",
+          "memory_on": false,
+          "risk_mode": "off",
+          "use_pro_stage_a_manager": false,
+          "use_cached_stage_a_reports": false,
+          "use_cached_stage_a_prior": false,
+          "cache_trace_file": ""
+        },
+        "attempt": 1,
+        "request_payload": {
+          "ticker": "AAPL",
+          "market": "US",
+          "simulated_date": "2022-01-17",
+          "horizon": "short",
+          "stage": "A",
+          "debate_rounds": 0,
+          "debate_mode": "off",
+          "decision_style": "classification",
+          "memory_on": false,
+          "risk_mode": "off",
+          "use_pro_stage_a_manager": false,
+          "use_cached_stage_a_reports": false,
+          "use_cached_stage_a_prior": false,
+          "cache_trace_file": ""
+        },
+        "trace": {
+          "run_config": {
+            "stage": "A",
+            "simulated_date": "2022-01-17",
+            "horizon": "short",
+            "horizon_days": 10,
+            "debate_rounds": 0,
+            "debate_mode": "off",
+            "decision_style": "classification",
+            "memory_on": false,
+            "risk_mode": "off",
+            "use_cached_stage_a_reports": false,
+            "use_cached_stage_a_prior": false,
+            "use_pro_stage_a_manager": false,
+            "cache_trace_file": ""
+          },
+          "signals": {
+            "fundamental": {
+              "direction": "BULLISH",
+              "magnitude": 0.8,
+              "confidence": 0.8,
+              "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+              "key_catalyst": "**Revenue Acceleration:** Total revenue surged to $123.9B, a 48.6% QoQ increase, demonstrating massive holiday demand and successful navigat",
+              "primary_risk": "* **Operating Expense Growth:** Total operating expenses rose to $12.7B, a 12% QoQ increase, which may pressure short-term sentiment if reve"
+            },
+            "technical": {
+              "direction": "BEARISH",
+              "magnitude": 0.5,
+              "confidence": 0.65,
+              "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+              "key_catalyst": "SMA 20: Price (169.36) is trading below the 20-day SMA (171.71), signaling that sellers have reclaimed short-term technical control.",
+              "primary_risk": "RSI holding strictly above the 50 midpoint suggests the current move lacks aggressive liquidation pressure, potentially leading to sideways "
+            },
+            "news": {
+              "direction": "NEUTRAL",
+              "magnitude": 0.0,
+              "confidence": 0.55,
+              "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+              "key_catalyst": "None identified.",
+              "primary_risk": "N/A"
+            }
+          },
+          "reports": {
+            "fundamental_analyst": "1) EVIDENCE:\n* **Revenue Acceleration:** Total revenue surged to $123.9B, a 48.6% QoQ increase, demonstrating massive holiday demand and successful navigation of supply chain constraints.\n* **Significant Margin Expansion:** Gross margins expanded to 43.7% (up from 39.8% YoY), driven by a favorable product mix and increased high-margin Services contribution.\n* **Cash Flow Dominance:** Generated $46.9B in operating cash flow in a single quarter, providing immediate fundamental support for aggressive capital return programs.\n\n2) RISKS:\n* **Operating Expense Growth:** Total operating expenses rose to $12.7B, a 12% QoQ increase, which may pressure short-term sentiment if revenue growth is perceived to have peaked.\n* **Post-Earnings Mean Reversion:** After a record-breaking quarter, the stock faces \"sell-the-news\" pressure as the market shifts focus to seasonally slower Q2 cycles.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Sustainability of premium hardware demand following the record-breaking holiday cycle.",
+            "technical_analyst": "1) EVIDENCE:\n• SMA 20: Price (169.36) is trading below the 20-day SMA (171.71), signaling that sellers have reclaimed short-term technical control.\n• MACD: The MACD (1.37) is positioned below its signal line (2.53) with a negative histogram (-1.16), confirming a bearish momentum crossover.\n• RSI: RSI has retreated to 50.35, indicating a complete loss of previous bullish strength and a shift toward neutral-bearish consolidation.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: RSI holding strictly above the 50 midpoint suggests the current move lacks aggressive liquidation pressure, potentially leading to sideways churn rather than a sharp breakdown.",
+            "news_harvester": "1) CATALYSTS: None identified.\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: HIGH\n5) KEY_EVENT_RISK: N/A"
+          },
+          "investment_debate_state": {
+            "judge_decision": "{\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Record revenue of $123.9B and gross margin expansion to 43.7% driven by high-margin Services\",\n    \"Strong $46.9B operating cash flow providing immediate fundamental support for capital returns\",\n    \"RSI remaining above 50 suggests the current pullback lacks aggressive liquidation pressure\"\n  ],\n  \"main_risk\": \"Bearish MACD crossover and price trading below the 20-day SMA signaling short-term seller control\",\n  \"confidence\": \"MEDIUM\"\n}"
+          },
+          "investment_plan": "{\n  \"recommendation\": \"BUY\",\n  \"confidence_score\": 0.7,\n  \"primary_drivers\": [\n    \"Record revenue of $123.9B and gross margin expansion to 43.7% driven by high-margin Services\",\n    \"Strong $46.9B operating cash flow providing immediate fundamental support for capital returns\",\n    \"RSI remaining above 50 suggests the current pullback lacks aggressive liquidation pressure\"\n  ],\n  \"main_risk\": \"Bearish MACD crossover and price trading below the 20-day SMA signaling short-term seller control\",\n  \"confidence\": \"MEDIUM\"\n}",
+          "investment_plan_structured": {
+            "recommendation": "BUY",
+            "confidence_score": 0.7,
+            "primary_drivers": [
+              "Record revenue of $123.9B and gross margin expansion to 43.7% driven by high-margin Services",
+              "Strong $46.9B operating cash flow providing immediate fundamental support for capital returns",
+              "RSI remaining above 50 suggests the current pullback lacks aggressive liquidation pressure"
+            ],
+            "main_risk": "Bearish MACD crossover and price trading below the 20-day SMA signaling short-term seller control",
+            "confidence": "MEDIUM"
+          },
+          "research_manager_recommendation": "BUY",
+          "trading_strategy": {
+            "action": "BUY",
+            "confidence_score": 0.7,
+            "entry_price": null,
+            "take_profit": null,
+            "stop_loss": null,
+            "position_size_pct": 0,
+            "rationale": "FOR: **Revenue Acceleration:** Total revenue surged to $123.9B, a 48.6% QoQ increase, demonstrating massive holiday demand and successful navigat AGAINST: RSI holding strictly above the 50 midpoint suggests the current move lacks aggressive liquidation pressure, potentially leading to sideways DECISION: Executing Research Manager policy-core recommendation to BUY. CONFIDENCE=MEDIUM."
+          },
+          "risk_reports": {},
+          "compliance_check": {},
+          "analysis_time_seconds": 55.92,
+          "memory_id": null,
+          "provenance": {
+            "cache": {
+              "cache_trace_file": "",
+              "cache_lookup_key": "AAPL|2022-01-17|short|US",
+              "cached_stage_a_reports_used": false,
+              "cached_stage_a_prior_requested": false,
+              "cached_stage_a_prior_used": false
+            },
+            "news": {
+              "ticker": "AAPL",
+              "as_of": "2022-01-17",
+              "lookback_days": 14,
+              "window_start": "2022-01-03",
+              "window_end": "2022-01-17",
+              "article_count": 7,
+              "min_published": "2022-01-03T20:00:00",
+              "max_published": "2022-01-14T23:42:00",
+              "articles": [
+                {
+                  "title": "Lumentum hooks up with Hesai on auto lidar",
+                  "source": "Optics.org",
+                  "published": "20220105T165716",
+                  "url": "https://optics.org/news/13/1/6",
+                  "ticker_sentiment_label": "Neutral",
+                  "ticker_sentiment_score": 0.114353,
+                  "relevance_score": 0.748625
+                },
+                {
+                  "title": "An Under the Radar High Quality ETF",
+                  "source": "ETF Trends",
+                  "published": "20220104T152945",
+                  "url": "https://www.etftrends.com/an-under-the-radar-high-quality-etf/",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.301048,
+                  "relevance_score": 0.717575
+                },
+                {
+                  "title": "Smart Water for a Smarter Home: Moen Leads the Way with Industry's First Whole-Home Connected Water Product Suite",
+                  "source": "PR Newswire",
+                  "published": "20220103T200000",
+                  "url": "https://www.prnewswire.com/news-releases/smart-water-for-a-smarter-home-moen-leads-the-way-with-industrys-first-whole-home-connected-water-product-suite-301451938.html",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.215543,
+                  "relevance_score": 0.639662
+                },
+                {
+                  "title": "Here’s Why the UPRO and TQQQ Stock Prices Fell 50.1% Premarket Despite Calm Markets",
+                  "source": "AskTraders.com",
+                  "published": "20220113T190600",
+                  "url": "https://www.asktraders.com/analysis/heres-why-the-upro-and-tqqq-stock-prices-fell-50-1-premarket-despite-calm-markets/",
+                  "ticker_sentiment_label": "Neutral",
+                  "ticker_sentiment_score": 0.112828,
+                  "relevance_score": 0.633603
+                },
+                {
+                  "title": "Netflix raises monthly subscription prices in U.S., Canada",
+                  "source": "Reuters",
+                  "published": "20220114T234200",
+                  "url": "https://www.reuters.com/technology/exclusive-netflix-raises-monthly-subscription-prices-us-canada-2022-01-14/",
+                  "ticker_sentiment_label": "Neutral",
+                  "ticker_sentiment_score": 0.045794,
+                  "relevance_score": 0.608011
+                },
+                {
+                  "title": "JVAL Stock Price | JPMorgan U.S. Value Factor ETF",
+                  "source": "Investing.com",
+                  "published": "20220107T103607",
+                  "url": "https://www.investing.com/etfs/jval",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.308964,
+                  "relevance_score": 0.601866
+                },
+                {
+                  "title": "Behind the Scenes With Cigna Ventures: Giving Great Ideas the Momentum To Make an Impact",
+                  "source": "The Cigna Group Newsroom",
+                  "published": "20220113T162229",
+                  "url": "https://newsroom.thecignagroup.com/cigna-ventures-giving-great-ideas-momentum-to-make-an-impact",
+                  "ticker_sentiment_label": "Somewhat-Bullish",
+                  "ticker_sentiment_score": 0.267152,
+                  "relevance_score": 0.569218
+                }
+              ]
+            }
+          }
+        }
+      },
+      "cached_stage_a_reports_used": true,
+      "cached_stage_a_prior": {
+        "recommendation": "BUY",
+        "confidence_score": 0.7,
+        "primary_drivers": [
+          "Record revenue of $123.9B and gross margin expansion to 43.7% driven by high-margin Services",
+          "Strong $46.9B operating cash flow providing immediate fundamental support for capital returns",
+          "RSI remaining above 50 suggests the current pullback lacks aggressive liquidation pressure"
+        ],
+        "main_risk": "Bearish MACD crossover and price trading below the 20-day SMA signaling short-term seller control"
+      },
+      "cached_stage_a_prior_used": true
+    },
+    "provenance": {
+      "cache": {
+        "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl",
+        "cache_lookup_key": "AAPL|2022-01-17|short|US",
+        "cached_stage_a_reports_used": true,
+        "cached_stage_a_prior_requested": true,
+        "cached_stage_a_prior_used": true
+      }
+    },
+    "analysis_time_seconds": 60.42,
+    "llm_stats": {
+      "total_calls": 7,
+      "retries": 0,
+      "rate_limits_429": 0,
+      "total_input_tokens": 7031,
+      "total_output_tokens": 1285,
+      "total_tokens": 8316,
+      "token_log": [
+        {
+          "call": "Bull_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 792,
+          "output": 114,
+          "total": 906
+        },
+        {
+          "call": "Bear_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 818,
+          "output": 138,
+          "total": 956
+        },
+        {
+          "call": "Research_Manager_Decision",
+          "model": "gemini-3-flash-preview",
+          "input": 834,
+          "output": 458,
+          "total": 1292
+        },
+        {
+          "call": "Aggressive_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 804,
+          "output": 145,
+          "total": 949
+        },
+        {
+          "call": "Conservative_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 1015,
+          "output": 127,
+          "total": 1142
+        },
+        {
+          "call": "Neutral_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 1128,
+          "output": 146,
+          "total": 1274
+        },
+        {
+          "call": "Risk_Judge",
+          "model": "gemini-3-flash-preview",
+          "input": 1640,
+          "output": 157,
+          "total": 1797
+        }
+      ]
+    }
+  },
+  "trace": {
+    "run_config": {
+      "stage": "C",
+      "simulated_date": "2022-01-17",
+      "horizon": "short",
+      "horizon_days": 10,
+      "debate_rounds": 1,
+      "risk_debate_rounds": 1,
+      "debate_mode": "on",
+      "decision_style": "classification",
+      "memory_on": false,
+      "risk_mode": "debate",
+      "use_cached_stage_a_reports": true,
+      "use_cached_stage_a_prior": true,
+      "use_pro_stage_a_manager": false,
+      "cache_trace_file": "C:\\Users\\Madi\\Documents\\season_25-26\\academic_25-26\\FYP_multi_agent_trading\\nexustrader\\experiments\\results\\traces\\batch_final_eval385_stageA_new_v2_trace_20260313_154152.jsonl"
+    },
+    "signals": {
+      "fundamental": {
+        "direction": "BULLISH",
+        "magnitude": 0.8,
+        "confidence": 0.8,
+        "key_factor": "FINAL_VIEW=BULLISH CONFIDENCE=HIGH",
+        "key_catalyst": "**Revenue Acceleration:** Total revenue surged to $123.9B, a 48.6% QoQ increase, demonstrating massive holiday demand and successful navigat",
+        "primary_risk": "* **Operating Expense Growth:** Total operating expenses rose to $12.7B, a 12% QoQ increase, which may pressure short-term sentiment if reve"
+      },
+      "technical": {
+        "direction": "BEARISH",
+        "magnitude": 0.5,
+        "confidence": 0.65,
+        "key_factor": "FINAL_VIEW=BEARISH CONFIDENCE=MEDIUM",
+        "key_catalyst": "SMA 20: Price (169.36) is trading below the 20-day SMA (171.71), signaling that sellers have reclaimed short-term technical control.",
+        "primary_risk": "RSI holding strictly above the 50 midpoint suggests the current move lacks aggressive liquidation pressure, potentially leading to sideways "
+      },
+      "news": {
+        "direction": "NEUTRAL",
+        "magnitude": 0.0,
+        "confidence": 0.55,
+        "key_factor": "FINAL_VIEW=NEUTRAL CONFIDENCE=HIGH",
+        "key_catalyst": "None identified.",
+        "primary_risk": "N/A"
+      }
+    },
+    "reports": {
+      "fundamental_analyst": "1) EVIDENCE:\n* **Revenue Acceleration:** Total revenue surged to $123.9B, a 48.6% QoQ increase, demonstrating massive holiday demand and successful navigation of supply chain constraints.\n* **Significant Margin Expansion:** Gross margins expanded to 43.7% (up from 39.8% YoY), driven by a favorable product mix and increased high-margin Services contribution.\n* **Cash Flow Dominance:** Generated $46.9B in operating cash flow in a single quarter, providing immediate fundamental support for aggressive capital return programs.\n\n2) RISKS:\n* **Operating Expense Growth:** Total operating expenses rose to $12.7B, a 12% QoQ increase, which may pressure short-term sentiment if revenue growth is perceived to have peaked.\n* **Post-Earnings Mean Reversion:** After a record-breaking quarter, the stock faces \"sell-the-news\" pressure as the market shifts focus to seasonally slower Q2 cycles.\n\n3) FINAL_VIEW: BULLISH\n4) CONFIDENCE: HIGH\n5) KEY_UNCERTAINTY: Sustainability of premium hardware demand following the record-breaking holiday cycle.",
+      "technical_analyst": "1) EVIDENCE:\n• SMA 20: Price (169.36) is trading below the 20-day SMA (171.71), signaling that sellers have reclaimed short-term technical control.\n• MACD: The MACD (1.37) is positioned below its signal line (2.53) with a negative histogram (-1.16), confirming a bearish momentum crossover.\n• RSI: RSI has retreated to 50.35, indicating a complete loss of previous bullish strength and a shift toward neutral-bearish consolidation.\n\n2) SUPPORT: 164.82\n3) RESISTANCE: 171.71\n4) FINAL_VIEW: BEARISH\n5) CONFIDENCE: MEDIUM\n6) KEY_UNCERTAINTY: RSI holding strictly above the 50 midpoint suggests the current move lacks aggressive liquidation pressure, potentially leading to sideways churn rather than a sharp breakdown.",
+      "news_harvester": "1) CATALYSTS: None identified.\n2) TONE: NEUTRAL\n3) FINAL_VIEW: NEUTRAL\n4) CONFIDENCE: HIGH\n5) KEY_EVENT_RISK: N/A"
+    },
+    "investment_debate_state": {
+      "history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_CORE: Record $123.9B revenue and $46.9B in operating cash flow provide immediate fundamental support for aggressive capital return programs. This financial dominance, coupled with expanded 43.7% gross margins, could trigger a bullish reversal if the market pivots from post-earnings mean reversion to valuing premium hardware demand and massive cash reserves.\n- UPSIDE_FALSIFIER: AAPL price closing below the 164.82 support level.\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Negative momentum driven by a \"sell-the-news\" post-earnings mean reversion and rising operating expenses. Technically, the stock has broken below its 20-day SMA (171.71) with a bearish MACD crossover, signaling sellers have reclaimed control. This technical breakdown suggests a likely retreat toward the 164.82 support level during the seasonal Q2 slowdown.\n- DOWNSIDE_FALSIFIER: Price reclaiming and closing above the 20-day SMA resistance level of 171.71.",
+      "bull_history": "\n\n- UPSIDE_STRENGTH: WEAK\n- UPSIDE_CORE: Record $123.9B revenue and $46.9B in operating cash flow provide immediate fundamental support for aggressive capital return programs. This financial dominance, coupled with expanded 43.7% gross margins, could trigger a bullish reversal if the market pivots from post-earnings mean reversion to valuing premium hardware demand and massive cash reserves.\n- UPSIDE_FALSIFIER: AAPL price closing below the 164.82 support level.",
+      "bear_history": "\n\n- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Negative momentum driven by a \"sell-the-news\" post-earnings mean reversion and rising operating expenses. Technically, the stock has broken below its 20-day SMA (171.71) with a bearish MACD crossover, signaling sellers have reclaimed control. This technical breakdown suggests a likely retreat toward the 164.82 support level during the seasonal Q2 slowdown.\n- DOWNSIDE_FALSIFIER: Price reclaiming and closing above the 20-day SMA resistance level of 171.71.",
+      "current_response": "- DOWNSIDE_STRENGTH: MODERATE\n- DOWNSIDE_CORE: Negative momentum driven by a \"sell-the-news\" post-earnings mean reversion and rising operating expenses. Technically, the stock has broken below its 20-day SMA (171.71) with a bearish MACD crossover, signaling sellers have reclaimed control. This technical breakdown suggests a likely retreat toward the 164.82 support level during the seasonal Q2 slowdown.\n- DOWNSIDE_FALSIFIER: Price reclaiming and closing above the 20-day SMA resistance level of 171.71.",
+      "current_speaker": "Downside Risk Analyst (Override Assessor)",
+      "count": 2,
+      "judge_decision": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 6.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Technical breakdown below the 20-day SMA (171.71)\",\n    \"Bearish MACD crossover signaling seller control\",\n    \"Post-earnings mean reversion sentiment\"\n  ],\n  \"main_risk\": \"A bullish reversal triggered by the market pivoting to value the $123.9B revenue record and cash reserves.\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": false,\n  \"override_reason\": \"Specialist notes identify a specific technical breakdown (20-day SMA breach and bearish MACD) that was not explicit in the fundamental prior view, materially altering the expected 10-day price path toward support.\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"The prior fundamental BUY thesis is currently offset by immediate technical deterioration and negative momentum.\",\n  \"upside_note_impact\": \"Confirms a strong fundamental floor but lacks a near-term catalyst to overcome the technical resistance at 171.71.\",\n  \"downside_note_impact\": \"Provides specific technical triggers and momentum indicators that suggest a retreat toward the 164.82 support level.\",\n  \"actionability_assessment\": \"Expect a retreat toward 164.82; the path is neutral-to-bearish until the 20-day SMA is reclaimed.\",\n  \"hold_gate_assessment\": \"The conflict between record fundamental strength and clear technical breakdown makes both BUY and SELL paths similarly plausible over the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor for a close above 171.71 to signal a return to the prior BUY thesis.\",\n    \"Watch the 164.82 level as a potential entry point for long-term fundamental positions.\"\n  ],\n  \"confidence\": \"HIGH\"\n}"
+    },
+    "investment_plan": "{\n  \"buy_score\": 4.5,\n  \"sell_score\": 6.5,\n  \"recommendation\": \"HOLD\",\n  \"confidence_score\": 0.75,\n  \"primary_drivers\": [\n    \"Technical breakdown below the 20-day SMA (171.71)\",\n    \"Bearish MACD crossover signaling seller control\",\n    \"Post-earnings mean reversion sentiment\"\n  ],\n  \"main_risk\": \"A bullish reversal triggered by the market pivoting to value the $123.9B revenue record and cash reserves.\",\n  \"prior_view\": \"BUY\",\n  \"prior_confirmed\": false,\n  \"override_reason\": \"Specialist notes identify a specific technical breakdown (20-day SMA breach and bearish MACD) that was not explicit in the fundamental prior view, materially altering the expected 10-day price path toward support.\",\n  \"base_view_from_reports\": \"BUY\",\n  \"base_view_rationale\": \"The prior fundamental BUY thesis is currently offset by immediate technical deterioration and negative momentum.\",\n  \"upside_note_impact\": \"Confirms a strong fundamental floor but lacks a near-term catalyst to overcome the technical resistance at 171.71.\",\n  \"downside_note_impact\": \"Provides specific technical triggers and momentum indicators that suggest a retreat toward the 164.82 support level.\",\n  \"actionability_assessment\": \"Expect a retreat toward 164.82; the path is neutral-to-bearish until the 20-day SMA is reclaimed.\",\n  \"hold_gate_assessment\": \"The conflict between record fundamental strength and clear technical breakdown makes both BUY and SELL paths similarly plausible over the 10-day window.\",\n  \"execution_notes\": [\n    \"Monitor for a close above 171.71 to signal a return to the prior BUY thesis.\",\n    \"Watch the 164.82 level as a potential entry point for long-term fundamental positions.\"\n  ],\n  \"confidence\": \"HIGH\"\n}",
+    "investment_plan_structured": {
+      "buy_score": 4.5,
+      "sell_score": 6.5,
+      "recommendation": "HOLD",
+      "confidence_score": 0.75,
+      "primary_drivers": [
+        "Technical breakdown below the 20-day SMA (171.71)",
+        "Bearish MACD crossover signaling seller control",
+        "Post-earnings mean reversion sentiment"
+      ],
+      "main_risk": "A bullish reversal triggered by the market pivoting to value the $123.9B revenue record and cash reserves.",
+      "prior_view": "BUY",
+      "prior_confirmed": false,
+      "override_reason": "Specialist notes identify a specific technical breakdown (20-day SMA breach and bearish MACD) that was not explicit in the fundamental prior view, materially altering the expected 10-day price path toward support.",
+      "base_view_from_reports": "BUY",
+      "base_view_rationale": "The prior fundamental BUY thesis is currently offset by immediate technical deterioration and negative momentum.",
+      "upside_note_impact": "Confirms a strong fundamental floor but lacks a near-term catalyst to overcome the technical resistance at 171.71.",
+      "downside_note_impact": "Provides specific technical triggers and momentum indicators that suggest a retreat toward the 164.82 support level.",
+      "actionability_assessment": "Expect a retreat toward 164.82; the path is neutral-to-bearish until the 20-day SMA is reclaimed.",
+      "hold_gate_assessment": "The conflict between record fundamental strength and clear technical breakdown makes both BUY and SELL paths similarly plausible over the 10-day window.",
+      "execution_notes": [
+        "Monitor for a close above 171.71 to signal a return to the prior BUY thesis.",
+        "Watch the 164.82 level as a potential entry point for long-term fundamental positions."
+      ],
+      "confidence": "HIGH"
+    },
+    "research_manager_recommendation": "HOLD",
+    "trading_strategy": {
+      "action": "HOLD",
+      "confidence_score": 0.75,
+      "entry_price": null,
+      "take_profit": null,
+      "stop_loss": null,
+      "position_size_pct": 0,
+      "rationale": "[CLEAR] The fundamental floor established by record cash flow and gross margins provides sufficient inertia to counter the technical breakdown below the 20-day SMA. The RSI at 50.35 confirms a lack of aggressive liquidation pressure, supporting the survival mechanism of sideways consolidation above the $164.82 support level over the 10-day horizon."
+    },
+    "risk_reports": {
+      "risk_manager_decision": "{\n  \"thesis_validity\": \"VALID\",\n  \"execution_fragility\": \"LOW\",\n  \"risk_judgment\": \"CLEAR\",\n  \"rationale\": \"The fundamental floor established by record cash flow and gross margins provides sufficient inertia to counter the technical breakdown below the 20-day SMA. The RSI at 50.35 confirms a lack of aggressive liquidation pressure, supporting the survival mechanism of sideways consolidation above the $164.82 support level over the 10-day horizon.\",\n  \"position_size_pct\": 100.0,\n  \"stop_loss\": 164.82,\n  \"take_profit\": 171.71\n}",
+      "risk_gate": "Risk debate judged. Original: HOLD, Judgment: CLEAR, Final: HOLD"
+    },
+    "compliance_check": {},
+    "analysis_time_seconds": 60.42,
+    "memory_id": null,
+    "llm_stats": {
+      "total_calls": 7,
+      "retries": 0,
+      "rate_limits_429": 0,
+      "total_input_tokens": 7031,
+      "total_output_tokens": 1285,
+      "total_tokens": 8316,
+      "token_log": [
+        {
+          "call": "Bull_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 792,
+          "output": 114,
+          "total": 906
+        },
+        {
+          "call": "Bear_Researcher",
+          "model": "gemini-3-flash-preview",
+          "input": 818,
+          "output": 138,
+          "total": 956
+        },
+        {
+          "call": "Research_Manager_Decision",
+          "model": "gemini-3-flash-preview",
+          "input": 834,
+          "output": 458,
+          "total": 1292
+        },
+        {
+          "call": "Aggressive_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 804,
+          "output": 145,
+          "total": 949
+        },
+        {
+          "call": "Conservative_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 1015,
+          "output": 127,
+          "total": 1142
+        },
+        {
+          "call": "Neutral_Risk_Analyst",
+          "model": "gemini-3-flash-preview",
+          "input": 1128,
+          "output": 146,
+          "total": 1274
+        },
+        {
+          "call": "Risk_Judge",
+          "model": "gemini-3-flash-preview",
+          "input": 1640,
+          "output": 157,
+          "total": 1797
+        }
+      ]
+    }
+  }
+}
