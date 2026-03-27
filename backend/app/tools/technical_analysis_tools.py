@@ -4,11 +4,46 @@ matplotlib.use('Agg')  # Use non-interactive backend for web server
 
 import yfinance as yf
 import pandas as pd
-import pandas_ta as ta
 import mplfinance as mpf
 import os
 from datetime import datetime, timedelta
 from ..utils.cache import cache_data
+
+
+def _add_rsi(df: pd.DataFrame, length: int = 14) -> None:
+    delta = df["Close"].diff()
+    gain = delta.clip(lower=0)
+    loss = -delta.clip(upper=0)
+    avg_gain = gain.ewm(alpha=1 / length, min_periods=length, adjust=False).mean()
+    avg_loss = loss.ewm(alpha=1 / length, min_periods=length, adjust=False).mean()
+    rs = avg_gain / avg_loss.replace(0, pd.NA)
+    df[f"RSI_{length}"] = 100 - (100 / (1 + rs))
+
+
+def _add_sma(df: pd.DataFrame, length: int) -> None:
+    df[f"SMA_{length}"] = df["Close"].rolling(window=length).mean()
+
+
+def _add_macd(df: pd.DataFrame) -> None:
+    ema_fast = df["Close"].ewm(span=12, adjust=False).mean()
+    ema_slow = df["Close"].ewm(span=26, adjust=False).mean()
+    macd = ema_fast - ema_slow
+    signal = macd.ewm(span=9, adjust=False).mean()
+    hist = macd - signal
+    df["MACD_12_26_9"] = macd
+    df["MACDs_12_26_9"] = signal
+    df["MACDh_12_26_9"] = hist
+
+
+def _add_bollinger_bands(df: pd.DataFrame, length: int = 20, std_dev: float = 2.0) -> None:
+    rolling_mean = df["Close"].rolling(window=length).mean()
+    rolling_std = df["Close"].rolling(window=length).std()
+    df[f"BBL_{length}_{std_dev}"] = rolling_mean - std_dev * rolling_std
+    df[f"BBM_{length}_{std_dev}"] = rolling_mean
+    df[f"BBU_{length}_{std_dev}"] = rolling_mean + std_dev * rolling_std
+    band_width = df[f"BBU_{length}_{std_dev}"] - df[f"BBL_{length}_{std_dev}"]
+    df[f"BBB_{length}_{std_dev}"] = band_width / rolling_mean.replace(0, pd.NA)
+    df[f"BBP_{length}_{std_dev}"] = (df["Close"] - df[f"BBL_{length}_{std_dev}"]) / band_width.replace(0, pd.NA)
 
 @cache_data(ttl_seconds=3600)  # Cache for 1 hour
 def get_historical_price_data(ticker: str, period: str = "1y", as_of: str = None):
@@ -41,17 +76,17 @@ def calculate_technical_indicators(price_data):
     df = price_data.copy()
 
     # RSI (14-period)
-    df.ta.rsi(append=True)
+    _add_rsi(df, length=14)
 
     # Moving Averages
-    df.ta.sma(length=20, append=True)
-    df.ta.sma(length=50, append=True)
+    _add_sma(df, length=20)
+    _add_sma(df, length=50)
 
     # MACD (12, 26, 9)
-    df.ta.macd(append=True)
+    _add_macd(df)
 
     # Bollinger Bands (20-period, 2 std dev)
-    df.ta.bbands(length=20, append=True)
+    _add_bollinger_bands(df, length=20, std_dev=2.0)
 
     # --- Collect latest values for all indicator columns ---
     latest = df.iloc[-1]
