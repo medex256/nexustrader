@@ -23,6 +23,19 @@ from .tools.technical_analysis_tools import get_chart_data_json
 from .baselines.strategies import get_baseline
 from .llm import get_call_stats, get_token_log, reset_call_stats, reset_token_log
 
+DEFAULT_MEMORY_DIR = "./chroma_db"
+DEFAULT_ARCHIVE_DB = "./run_archive.sqlite3"
+MEMORY_DIR = os.getenv("NEXUSTRADER_MEMORY_DIR", DEFAULT_MEMORY_DIR)
+ARCHIVE_DB_PATH = os.getenv("NEXUSTRADER_ARCHIVE_DB", DEFAULT_ARCHIVE_DB)
+
+
+def ensure_storage_paths(memory_dir: str, archive_db_path: str) -> None:
+    os.makedirs(memory_dir, exist_ok=True)
+
+    archive_parent = os.path.dirname(os.path.abspath(archive_db_path))
+    if archive_parent:
+        os.makedirs(archive_parent, exist_ok=True)
+
 # Create the FastAPI app
 app = FastAPI(
     title="NexusTrader API",
@@ -45,11 +58,13 @@ app.add_middleware(
 @app.on_event("startup")
 async def startup_event():
     """Initialize the memory system when the server starts."""
+    ensure_storage_paths(MEMORY_DIR, ARCHIVE_DB_PATH)
+
     print("[STARTUP] Initializing memory system...")
-    initialize_memory(persist_directory="./chroma_db")
+    initialize_memory(persist_directory=MEMORY_DIR)
     print("[STARTUP] Memory system ready!")
     print("[STARTUP] Initializing run archive...")
-    initialize_run_archive(db_path="./run_archive.sqlite3")
+    initialize_run_archive(db_path=ARCHIVE_DB_PATH)
     print("[STARTUP] Run archive ready!")
 
 # --- Static File Serving ---
