@@ -7,6 +7,10 @@ package-lock.json
 experiments/results/raw/
 experiments/results/scored/
 
+# Backend runtime data (local persistence)
+backend/chroma_db/
+backend/run_archive.sqlite3
+
 # Keep curated report artifacts
 !experiments/results/paper/
 !experiments/results/paper/.gitkeep
