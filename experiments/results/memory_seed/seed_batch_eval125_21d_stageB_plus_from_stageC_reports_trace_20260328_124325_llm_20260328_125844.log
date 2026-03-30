@@ -1,0 +1,266 @@
+Loaded 130 valid rows from batch_eval125_21d_stageB_plus_from_stageC_reports_trace_20260328_124325.jsonl
+Output log: C:\Users\Madi\Documents\season_25-26\academic_25-26\FYP_multi_agent_trading\nexustrader\experiments\.\results\memory_seed\seed_batch_eval125_21d_stageB_plus_from_stageC_reports_trace_20260328_124325_llm_20260328_125844.log
+Structured seed output: C:\Users\Madi\Documents\season_25-26\academic_25-26\FYP_multi_agent_trading\nexustrader\experiments\.\results\memory_seed\seed_batch_eval125_21d_stageB_plus_from_stageC_reports_trace_20260328_124325_llm_20260328_125844.jsonl
+Workers: 8 | Lesson mode: llm
+  AAPL 2022-07-25 | BUY | k=21 | return=+9.49% | CORRECT
+    Lesson: The call was correct because the technical breakout above the 20 and 50-day SMAs, supported by accelerating MACD momentum, signaled a definitive bullish trend reversal that correctly anticipated a market recovery despite the reported fundamental deceleration.
+  AAPL 2023-06-05 | BUY | k=21 | return=+6.81% | CORRECT
+    Lesson: The call was correct because AAPL demonstrated high-conviction institutional accumulation (Volume Ratio of 2.09) and strong bullish momentum above key moving averages, which was fundamentally validated by expanding gross margins (44.2%) that signaled pricing power despite a revenue contraction.
+  AAPL 2023-08-07 | SELL | k=21 | return=+2.41% | WRONG
+    Lesson: The sell signal failed because it chased momentum into an extreme oversold condition (RSI 29.57) following a sharp 8.5% drop, ignoring the fundamental resilience of expanding margins and net income that triggered a classic mean-reversion bounce.
+  AAPL 2023-01-30 | SELL | k=21 | return=+1.77% | WRONG
+    Lesson: The sell call failed because it prioritized lagging fundamental data (revenue and earnings contraction) over real-time technical evidence of a bullish trend reversal, specifically the reclamation of the 20-day and 50-day moving averages and positive MACD momentum.
+  AAPL 2022-03-21 | BUY | k=21 | return=+1.12% | CORRECT
+    Lesson: The call was correct because the technical breakout above the 20-day moving average, supported by accelerating MACD momentum, signaled a decisive shift in short-term sentiment that validated Apple's record fundamental earnings.
+  AAPL 2022-09-26 | SELL | k=21 | return=+1.04% | WRONG
+    Lesson: The call failed because it prioritized lagging bearish technical indicators over Apple’s massive $22.9 billion free cash flow, which provided a fundamental floor and triggered a mean-reversion bounce as the stock reached a short-term valuation trough.
+  AAPL 2023-04-03 | BUY | k=21 | return=+0.77% | CORRECT
+    Lesson: The call was correct because the expansion of gross margins to 44.3% and massive cash-flow-funded buybacks provided a fundamental floor that validated the technical breakout and sustained bullish momentum above the 20-day and 50-day moving averages.
+  AAPL 2024-06-17 | BUY | k=21 | return=+3.47% | CORRECT
+    Lesson: The call was correct because it prioritized the powerful upward momentum and accelerating MACD expansion, which signaled that the massive price breakout above the 20-day and 50-day moving averages had sufficient velocity to override overbought RSI levels.
+  AAPL 2023-12-11 | BUY | k=21 | return=-3.93% | WRONG
+    Lesson: The call failed because it ignored the specific technical warning of the MACD bearish crossover, which signaled that upward momentum had exhausted and a short-term reversal was likely despite the strong fundamental margins.
+  AAPL 2024-10-21 | BUY | k=21 | return=-3.36% | WRONG
+    Lesson: The call failed because it relied on trailing operational strength and bullish momentum while ignoring the imminent "sell-the-news" risk and subsequent weak forward guidance for the crucial holiday quarter, particularly concerning soft iPhone 16 demand in China.
+  AAPL 2024-02-12 | SELL | k=21 | return=-8.56% | CORRECT
+    Lesson: The sell call was correct because the technical breakdown below both the 20-day and 50-day SMAs, coupled with negative MACD momentum, accurately identified a bearish regime that outweighed strong fundamental margins and stagnant revenue.
+  AAPL 2021-09-13 | HOLD | k=21 | return=-5.38% | WRONG
+    Lesson: The "HOLD" decision was incorrect because it overweighted lagging fundamental performance while ignoring clear technical evidence of a trend reversal, specifically the price breaking below the 20-day SMA on high volume and a bearish MACD crossover, which signaled an immediate tactical shift to the downside.
+  AAPL 2024-12-23 | BUY | k=21 | return=-9.95% | WRONG
+    Lesson: The trade failed because it ignored a critically overbought RSI of 73.09 and significant price extension above the 50-day moving average, resulting in an entry at a local peak just as bullish momentum reached exhaustion. This technical overextension made the stock highly vulnerable to the subsequent 10% mean-reversion sell-off despite the strong fundamental backdrop.
+  AAPL 2022-01-17 | BUY | k=21 | return=+1.75% | CORRECT
+    Lesson: The call was correct because Apple's record-breaking Q1 fundamental performance—specifically the massive $123.9B revenue and margin expansion—overrode short-term technical weakness, allowing the stock to find support at the 50-day SMA and resume its primary uptrend.
+  AAPL 2023-10-09 | BUY | k=21 | return=+1.58% | CORRECT
+    Lesson: The call was correct because a bullish MACD crossover and rising RSI confirmed a decisive shift in short-term momentum, allowing the price to reclaim the 20-day SMA while supported by high-quality earnings growth from expanded gross margins.
+  AAPL 2021-11-15 | HOLD | k=21 | return=+19.53% | WRONG
+    Lesson: The call incorrectly prioritized short-term technical consolidation and negative MACD momentum over elite fundamental strength, failing to anticipate the massive breakout driven by the iPhone 13 super-cycle and holiday quarter expectations.
+  AAPL 2022-05-23 | SELL | k=21 | return=-3.38% | CORRECT
+    Lesson: The sell call was correct because the technical breakdown—characterized by the price trading significantly below both its 20-day and 50-day moving averages with accelerating bearish MACD momentum—indicated that market sentiment and selling pressure had decoupled from Apple's strong fundamental performance.
+  AAPL 2022-11-28 | SELL | k=21 | return=-12.61% | CORRECT
+    Lesson: The sell call was correct because the price breakdown below the converged 20-day and 50-day moving averages signaled a loss of medium-term support, confirming a bearish shift that was fundamentally driven by operating expenses growing nearly twice as fast as revenue.
+  AAPL 2024-08-19 | BUY | k=21 | return=-2.30% | WRONG
+    Lesson: The buy call failed because it relied on lagging momentum indicators that ignored technical exhaustion following a sharp 10% V-shaped recovery from the August 5th market lows, leaving the stock vulnerable to a mean-reversion pullback as it hit heavy resistance at the $225 level.
+  AAPL 2024-04-15 | SELL | k=21 | return=+8.68% | WRONG
+    Lesson: The "Sell" call failed to recognize the "bearish exhaustion" signaled by the rising MACD and the reclamation of the 20-day SMA, overlooking how record gross margin expansion provided a profitability floor that triggered a sharp reversal despite the revenue decline.
+  AAPL 2025-11-03 | BUY | k=21 | return=+5.71% | CORRECT
+    Lesson: The call was correct because AAPL’s significant operating leverage and sequential earnings acceleration provided a powerful fundamental catalyst that aligned with a confirmed bullish technical breakout above its 20 and 50-day moving averages.
+  AAPL 2025-02-24 | BUY | k=21 | return=-9.45% | WRONG
+    Lesson: The BUY call failed because it chased momentum into a localized peak where the strong Q1 earnings and SMA reclaims were already fully priced in, leaving the stock vulnerable to a sharp mean-reversion move as buyers exhausted their lead.
+  AAPL 2025-04-28 | BUY | k=21 | return=-4.50% | WRONG
+    Lesson: The call failed because it mistook a short-term "relief rally" for a structural trend reversal, ignoring the technical resistance of the SMA_50 and the underlying medium-term bearish momentum signaled by the negative MACD line.
+  AAPL 2025-06-30 | BUY | k=21 | return=+1.89% | CORRECT
+    Lesson: The call was correct because the price reclaimed key 20-day and 50-day moving averages on high volume (1.67 ratio), signaling a definitive technical breakout supported by robust 9.6% year-over-year revenue growth.
+  AAPL 2025-09-01 | BUY | k=21 | return=+11.20% | CORRECT
+    Lesson: The call was correct because the strong medium-term bullish technical structure (Price > SMA_20 > SMA_50) was fundamentally validated by accelerating 9.6% YoY revenue growth, signaling a high-demand cycle that overrode minor short-term MACD consolidation.
+  NVDA 2021-09-13 | BUY | k=21 | return=-6.69% | WRONG
+    Lesson: The call failed because it prioritized lagging fundamental data and medium-term moving averages while disregarding the specific **bearish MACD crossover and negative histogram**, which correctly signaled an immediate breakdown in short-term momentum.
+  NVDA 2021-11-15 | HOLD | k=21 | return=+1.46% | CORRECT
+    Lesson: The HOLD call was correct because NVDA's massive 50.3% year-over-year revenue growth and expanding profit margins provided the fundamental strength necessary to sustain its bullish price trend despite an overbought RSI reading.
+  NVDA 2022-01-17 | BUY | k=21 | return=+2.35% | CORRECT
+    Lesson: The buy call was correct because NVIDIA’s massive fundamental momentum—specifically the 91% surge in operating income and accelerating high-margin AI/Data Center demand—overrode the bearish technical setup, providing the valuation support necessary to trigger a reversal.
+  NVDA 2022-05-23 | SELL | k=21 | return=-3.96% | CORRECT
+    Lesson: The sell call was correct because a massive 75% surge in operating expenses led to a 37% collapse in operating income, signaling a severe deterioration in profitability that reinforced the dominant bearish technical trend.
+  NVDA 2023-08-07 | BUY | k=21 | return=+3.63% | CORRECT
+    Lesson: The call was correct because the unprecedented 88% QoQ revenue growth and margin expansion signaled a structural fundamental breakout that outweighed the minor, low-volume technical pullback.
+  NVDA 2023-06-05 | BUY | k=21 | return=+7.50% | CORRECT
+    Lesson: The call was correct because the abrupt 18.8% QoQ revenue surge and doubling of operating income signaled a fundamental break from stagnation, validating massive demand acceleration that sustained high-velocity bullish momentum despite overbought technical levels.
+  NVDA 2023-04-03 | BUY | k=21 | return=-0.58% | WRONG
+    Lesson: The trade failed because it entered at a point of short-term technical exhaustion, where an RSI of 73.5 and a +5.89% five-day price surge indicated the stock was overextended and due for a brief mean-reversion despite the strong underlying fundamentals.
+  NVDA 2022-03-21 | BUY | k=21 | return=-19.65% | WRONG
+    Lesson: The technical "breakout" signaled by a BBP of 1.048 was actually an overextended, overbought peak that ignored the macro-regime shift toward aggressive Federal Reserve interest rate hikes initiated just days prior. This resulted in a "bull trap" where strong backward-looking fundamentals were eclipsed by the rapid repricing of high-valuation growth stocks.
+  NVDA 2022-09-26 | SELL | k=21 | return=+8.45% | WRONG
+    Lesson: The call failed by selling into extreme technical exhaustion (RSI 28.90) at a cyclical bottom, failing to recognize that the negative fundamental news regarding inventory and margins was already fully priced in and ripe for a mean-reversion bounce.
+  AAPL 2026-01-05 | SELL | k=21 | return=+3.45% | WRONG
+    Lesson: The sell call failed because it prioritized short-term technical breakdowns and bearish momentum over the exceptionally strong fundamental performance, specifically the 15.6% revenue surge and significant margin expansion that catalyzed a price recovery.
+  NVDA 2022-07-25 | SELL | k=21 | return=+0.92% | WRONG
+    Lesson: The SELL call failed because it prioritized lagging fundamental data (the Q1 margin collapse) over a clear technical breakout, where the stock had already reclaimed its medium-term moving averages (SMA 20/50) with accelerating bullish momentum.
+  NVDA 2023-10-09 | BUY | k=21 | return=+1.51% | CORRECT
+    Lesson: The call was correct because the price reclaimed its 20-day and 50-day SMAs following a bullish MACD crossover, signaling that technical momentum had realigned with the massive fundamental demand shift evidenced by NVDA's 88% QoQ revenue surge.
+  NVDA 2023-01-30 | BUY | k=21 | return=+18.45% | CORRECT
+    Lesson: The call was correct because the technical breakout above the 20-day and 50-day moving averages signaled a definitive trend reversal, capturing a shift in market sentiment that prioritized forward-looking momentum over trailing fundamental declines.
+  NVDA 2022-11-28 | BUY | k=21 | return=-11.29% | WRONG
+    Lesson: The call failed because it prioritized short-term technical momentum over a severe fundamental breakdown, ignoring that a 28.4% revenue decline and the collapse of profit margins from 39.3% to 11.5% signaled a massive earnings power erosion that overrode temporary bullish price action.
+  NVDA 2023-12-11 | BUY | k=21 | return=+17.58% | CORRECT
+    Lesson: The call was correct because the explosive fundamental growth—highlighted by a 34% sequential revenue surge and record 51% net margins—signaled that the short-term technical weakness was a temporary consolidation within a powerful, AI-driven secular uptrend. These unprecedented financial metrics confirmed that market demand significantly outweighed the bearish technical momentum, providing the catalyst for the subsequent price breakout.
+  NVDA 2024-06-17 | BUY | k=21 | return=-7.55% | WRONG
+    Lesson: The "BUY" call failed because it entered at the peak of an extreme technical extension, ignoring that an RSI of 78.74 and a price trading 14% above its 20-day SMA signaled a "blow-off top" ripe for mean-reversion and profit-taking.
+  NVDA 2024-04-15 | BUY | k=21 | return=+6.23% | CORRECT
+    Lesson: The trade was correct because NVDA’s explosive fundamental growth—highlighted by 22% sequential revenue gains and margin expansion—provided a massive valuation floor that allowed the stock to rebound sharply after testing key technical support at the Lower Bollinger Band and 50-day SMA.
+  NVDA 2024-10-21 | BUY | k=21 | return=+2.30% | CORRECT
+    Lesson: The call was correct because the powerful fundamental tailwind of 122% year-over-year revenue growth synchronized with accelerating technical momentum, specifically the price "riding" the Upper Bollinger Band with a positive MACD breakout. This combination signaled a high-conviction continuation of the bullish trend driven by sustained demand for AI infrastructure.
+  NVDA 2024-12-23 | BUY | k=21 | return=-15.21% | WRONG
+    Lesson: The call failed because it ignored the bearish technical divergence where negative MACD momentum and the stock's inability to reclaim the 50-day SMA signaled a trend reversal that overrode strong fundamental growth.
+  NVDA 2024-02-12 | BUY | k=21 | return=+25.81% | CORRECT
+    Lesson: The call was correct because NVIDIA’s unprecedented 265% revenue growth and expansion to 76% gross margins confirmed a hyper-profitable AI demand cycle that fundamentally revalued the stock, a shift validated by strong institutional accumulation and accelerating price momentum.
+  NVDA 2024-08-19 | BUY | k=21 | return=-12.78% | WRONG
+    Lesson: The call failed because it ignored the "priced to perfection" risk heading into the August 28 earnings report, where extreme bullish sentiment and overextended technicals led to a massive "sell the news" reversal despite the company beating expectations.
+  NVDA 2025-06-30 | HOLD | k=21 | return=+13.47% | WRONG
+    Lesson: The call incorrectly prioritized the fundamental risk of severe gross margin contraction over the powerful technical breakout and aggressive buying momentum signaled by the RSI of 76.81 and price action exceeding the Upper Bollinger Band.
+  JNJ 2021-09-13 | SELL | k=21 | return=-4.89% | CORRECT
+    Lesson: The call was correct because the technical breakdown—specifically the price collapsing below key 20-day and 50-day moving averages with accelerating downward MACD momentum—correctly signaled a dominant bearish trend that overrode the positive fundamental data.
+  NVDA 2026-01-05 | BUY | k=21 | return=-7.40% | WRONG
+    Lesson: The "BUY" call failed because it entered at a point of fundamental "perfection" where record-breaking revenue and peak margins were already fully priced in, leaving the stock vulnerable to a "sell-the-news" correction as technical buyers became exhausted.
+  NVDA 2025-09-01 | BUY | k=21 | return=+9.64% | CORRECT
+    Lesson: The call was correct because NVDA's explosive fundamental expansion—specifically the surge in net profit margins to 56.5% and 40.7% quarterly net income growth—overpowered short-term bearish technicals as the stock maintained its medium-term uptrend above the 50-day SMA.
+  NVDA 2025-11-03 | BUY | k=21 | return=-13.19% | WRONG
+    Lesson: The trade failed because it ignored extreme technical overextension, buying into a near-overbought RSI (69.57) and a significant price deviation from the 50-day SMA that made the stock highly vulnerable to a "sell the news" correction or mean reversion.
+  JNJ 2022-03-21 | HOLD | k=21 | return=+4.58% | WRONG
+    Lesson: The "HOLD" call was incorrect because it ignored the powerful confluence of accelerating bottom-line growth (+172% YoY) and a confirmed bullish technical breakout, failing to capitalize on a clear trend where price was already trending above key moving averages with rising MACD momentum.
+  JNJ 2022-05-23 | BUY | k=21 | return=+0.12% | CORRECT
+    Lesson: The call was correct because JNJ’s aggressive 26% reduction in SG&A expenses significantly expanded operating margins despite revenue stagnation, providing the fundamental strength for the price to break above its critical 20-day and 50-day SMA convergence.
+  JNJ 2022-01-17 | SELL | k=21 | return=+0.07% | WRONG
+    Lesson: The "Sell" call incorrectly interpreted a strategic, seasonal surge in R&D and SG&A spending as structural operational decay rather than pipeline investment, while failing to recognize that the price was approaching immediate technical support at the 50-day SMA ($146.66).
+  JNJ 2022-07-25 | BUY | k=21 | return=-3.02% | WRONG
+    Lesson: The call failed because it prioritized lagging fundamental resilience over clear technical deterioration, ignoring a confirmed structural downtrend where the price had broken below key moving average supports (20-day and 50-day SMAs) with accelerating downward momentum.
+  NVDA 2025-02-24 | BUY | k=21 | return=-7.35% | WRONG
+    Lesson: The call failed because it prioritized fundamental growth data while ignoring the immediate technical overhead resistance at the 50-day SMA and the lack of institutional volume conviction required to sustain a breakout.
+  JNJ 2022-09-26 | BUY | k=21 | return=+3.02% | CORRECT
+    Lesson: The call was correct because JNJ’s fundamental resilience—driven by expanding operating income and cost-cutting in a defensive sector—was confirmed by a technical momentum shift as the price reclaimed its 20-day SMA alongside a rising, positive MACD histogram.
+  JNJ 2023-08-07 | BUY | k=21 | return=-8.05% | WRONG
+    Lesson: The call failed because it mistook a temporary relief rally for a sustained trend, ignoring the fundamental valuation reset and selling pressure triggered by the finalization of the **Kenvue spin-off exchange offer** and the **re-emergence of massive talc litigation liabilities** following a late-July court rejection of J&J's second bankruptcy attempt.
+  JNJ 2022-11-28 | HOLD | k=21 | return=-0.38% | CORRECT
+    Lesson: The HOLD call was correct because the significant fundamental deterioration, specifically three consecutive quarters of declining net income and shrinking margins, neutralized the overextended technical momentum and prevented the price from breaking higher.
+  JNJ 2023-01-30 | SELL | k=21 | return=-5.14% | CORRECT
+    Lesson: The call was correct because the 25.7% year-over-year collapse in Q4 net income signaled severe margin compression, triggering a high-conviction technical breakdown on triple the average volume.
+  JNJ 2023-04-03 | SELL | k=21 | return=+3.84% | WRONG
+    Lesson: The SELL call failed because it prioritized lagging fundamental data and a one-time non-operating charge over accelerating bullish technical momentum, specifically a positive MACD crossover and the price successfully reclaiming the 20-day SMA.
+  JNJ 2023-12-11 | BUY | k=21 | return=+3.93% | CORRECT
+    Lesson: The call was correct because a bullish technical breakout above the 20-day and 50-day moving averages signaled a trend reversal that capitalized on a fundamentally strengthened balance sheet following the $26 billion capital gain from the Kenvue separation.
+  JNJ 2023-06-05 | HOLD | k=21 | return=+2.07% | WRONG
+    Lesson: The call overweighted lagging fundamental data—specifically the one-time $6.99B non-operating expense and revenue deceleration—while ignoring the real-time technical reversal signaled by the MACD bullish crossover and the price reclaiming its 20-day SMA.
+  JNJ 2024-02-12 | SELL | k=21 | return=+2.83% | WRONG
+    Lesson: The bearish call incorrectly prioritized short-term margin compression from R&D spending as a weakness, failing to recognize that the market valued this investment as a long-term pipeline catalyst that provided a valuation floor for the defensive stock.
+  JNJ 2024-06-17 | SELL | k=21 | return=+6.49% | WRONG
+    Lesson: The sell call failed because it prioritized short-term bearish momentum and flat earnings while ignoring that the stock was trading at significant multi-year support levels, leading to a "sell at the bottom" error just as the stock underwent a sharp mean-reversion rally from oversold conditions.
+  JNJ 2024-04-15 | SELL | k=21 | return=+2.57% | WRONG
+    Lesson: The sell call failed because it prioritized accelerating bearish technical momentum while ignoring that the stock was significantly oversold immediately prior to a strong Q1 earnings report, where the massive operating margin expansion (to 29.3%) served as a fundamental catalyst for a price reversal.
+  JNJ 2024-08-19 | BUY | k=21 | return=+4.87% | CORRECT
+    Lesson: The call was correct because JNJ’s strong post-separation operational momentum and robust free cash flow provided a fundamental valuation floor that allowed the stock to maintain its medium-term bullish structure above key moving averages. This solid fundamental base offset short-term technical decelerations, enabling the price to continue its upward trajectory.
+  JNJ 2025-06-30 | BUY | k=21 | return=+9.50% | CORRECT
+    Lesson: The buy call was correct because JNJ’s accelerating 5.7% revenue growth and 18% surge in net income established a powerful fundamental valuation floor that effectively reversed the short-term technical weakness. This strong earnings momentum allowed the stock to bounce back from its temporary dip below the moving averages to deliver a significant return.
+  JNJ 2024-10-21 | SELL | k=21 | return=-6.04% | CORRECT
+    Lesson: The SELL call was correct because the massive 42.5% quarterly plunge in net income and severe margin contraction revealed that surging operating expenses were overwhelming stagnant revenue, signaling a fundamental breakdown in profitability that outweighed fragile technical momentum.
+  JNJ 2025-04-28 | SELL | k=21 | return=-1.04% | CORRECT
+    Lesson: The SELL call was correct because the stock’s persistent technical downtrend—evidenced by price remaining below the 50-day SMA and a negative MACD—overrode the positive fundamental earnings news, confirming that sellers maintained medium-term structural control.
+  JNJ 2024-12-23 | SELL | k=21 | return=+5.25% | WRONG
+    Lesson: The bearish call failed because it prioritized short-term negative momentum over strong fundamental support, specifically ignoring the "price floor" created by robust cash flows and steady revenue growth that triggered a mean-reversion rally from technically oversold levels.
+  JNJ 2025-11-03 | BUY | k=21 | return=+10.94% | CORRECT
+    Lesson: The call was correct because JNJ’s robust fundamental momentum—specifically its sequential revenue growth and high 69.5% gross margins—provided a strong valuation floor that triggered a sharp reversal from technically oversold conditions near the Lower Bollinger Band.
+  JNJ 2025-09-01 | BUY | k=21 | return=+4.49% | CORRECT
+    Lesson: The trade was successful because accelerating revenue growth and a 150bps gross margin expansion signaled strong operational momentum, providing the fundamental catalyst to sustain the bullish technical structure above the 20-day and 50-day SMAs.
+  JNJ 2023-10-09 | SELL | k=21 | return=-4.82% | CORRECT
+    Lesson: The sell call was correct because the bearish technical alignment—specifically the price trading below both the 20-day and 50-day SMAs on weak buying volume—accurately signaled that downward momentum would persist despite the accounting-driven surge in net income from the Kenvue spin-off.
+  JNJ 2025-02-24 | SELL | k=21 | return=-1.66% | CORRECT
+    Lesson: The call was correct because the stock’s extreme technical overextension—marked by an RSI of 76.62 and a breach of the Upper Bollinger Band—signaled a price exhaustion that was fundamentally undermined by a 27% QoQ collapse in operating income and contracting gross margins.
+  JPM 2021-11-15 | SELL | k=21 | return=-5.18% | CORRECT
+    Lesson: The call was correct because the exhaustion of loan loss reserve releases removed the primary non-operational driver of JPMorgan’s earnings beats, leaving the stock vulnerable as price action broke below the 20-day SMA to confirm a shift into downward momentum.
+  JPM 2022-01-17 | SELL | k=21 | return=+2.47% | WRONG
+    Lesson: The call failed because it prioritized lagging technical breakdowns and rising operating expenses over the leading indicator of sequential NII growth, which signaled that the bank was fundamentally positioned to benefit from the aggressive Fed rate-hike cycle beginning in early 2022.
+  JPM 2022-03-21 | SELL | k=21 | return=-5.08% | CORRECT
+    Lesson: The call was correct because it accurately identified that the short-term price recovery was a temporary relief rally within a medium-term bearish structure, capped by fundamental deterioration in earnings momentum and significant margin compression.
+  JPM 2021-09-13 | HOLD | k=21 | return=+4.06% | WRONG
+    Lesson: The call failed by prioritizing the fundamental concern of sequential earnings deceleration over the confirmed bullish technical momentum signaled by the price sustaining a breakout above both its 20-day and 50-day moving averages.
+  JPM 2022-07-25 | BUY | k=21 | return=+0.26% | CORRECT
+    Lesson: The buy call was correct because the 9% sequential growth in Net Interest Income proved the bank was successfully capturing higher yields, while a bullish MACD crossover and RSI reclaiming its midpoint confirmed that this fundamental strength was driving a short-term technical trend reversal.
+  JPM 2022-11-28 | HOLD | k=21 | return=-1.41% | CORRECT
+    Lesson: The HOLD call was correct because the decelerating MACD momentum and negative histogram accurately signaled an immediate consolidation phase, correctly identifying that the stock would stall and experience a minor pullback (-1.41%) despite strong underlying net interest income and revenue growth.
+  JPM 2023-01-30 | BUY | k=21 | return=+2.46% | CORRECT
+    Lesson: The call was correct because JPM’s 45% surge in Net Interest Income demonstrated its superior ability to capture higher yields from the Federal Reserve's rate-hiking cycle, a fundamental strength confirmed by the bullish technical alignment of the price remaining above its 20-day and 50-day moving averages.
+  JPM 2022-09-26 | SELL | k=21 | return=+15.93% | WRONG
+    Lesson: The SELL call failed because it prioritized bearish price momentum and oversold technical levels over strong fundamental improvements, specifically a 9% surge in Net Interest Income that signaled JPM was poised for a sharp mean-reversion rally as interest rates rose.
+  JPM 2023-06-05 | BUY | k=21 | return=+3.67% | CORRECT
+    Lesson: The call was correct because JPM’s record $20.7B Net Interest Income and 58% revenue surge proved it was the primary beneficiary of high interest rates, providing fundamental validation for the technical breakout above its 20 and 50-day moving averages.
+  JPM 2022-05-23 | BUY | k=21 | return=-8.57% | WRONG
+    Lesson: The call failed because it prioritized a short-term technical mean reversion (SMA_20 reclaim) while ignoring massive fundamental red flags, specifically the $41.9B collapse in operating cash flow and the pivot to reserve building which signaled severe underlying earnings pressure.
+  JPM 2023-04-03 | HOLD | k=21 | return=+5.29% | WRONG
+    Lesson: The recommendation over-weighted lagging technical indicators showing a medium-term downtrend and failed to realize that JPM was the primary beneficiary of the "flight to quality," which drove record net interest income and market share gains during the regional banking crisis.
+  JPM 2024-02-12 | HOLD | k=21 | return=+8.87% | WRONG
+    Lesson: The call failed by overemphasizing short-term fundamental headwinds, specifically the 29% drop in net income and rising operating expenses, while underestimating the strength of the established bullish technical structure (Price > 20-day > 50-day SMAs) and the market's continued appetite for the stock's long-term earnings power.
+  JPM 2023-08-07 | BUY | k=21 | return=-7.53% | WRONG
+    Lesson: The BUY call failed because it ignored the bearish MACD divergence signaling a loss of momentum, leaving the position vulnerable to the industry-wide sell-off triggered by the Moody's credit rating downgrades of U.S. banks on August 8, 2023.
+  JPM 2023-12-11 | BUY | k=21 | return=+7.70% | CORRECT
+    Lesson: The call was correct because JPMorgan’s superior fundamental ability to drive sequential Net Interest Income (NII) growth provided the catalyst for a strong technical breakout, allowing active bullish momentum (MACD) and trend alignment (Price > SMA20 > SMA50) to overcome overextended RSI levels.
+  JNJ 2026-01-05 | SELL | k=21 | return=+14.76% | WRONG
+    Lesson: The "SELL" call incorrectly prioritized short-term technical weakness and a quarterly expense spike over the massive fundamental strength of a 31% annual EBITDA expansion and sequential revenue growth, which provided a powerful valuation floor for the stock to rally.
+  JPM 2024-08-19 | BUY | k=21 | return=-3.68% | WRONG
+    Lesson: The call was incorrect because it ignored extreme technical overextension, buying into the upper Bollinger Band limit ($212.31) and a high RSI just as the stock reached local exhaustion after a rapid recovery from the early August lows.
+  JPM 2023-10-09 | SELL | k=21 | return=-0.52% | CORRECT
+    Lesson: The sell call was correct because the stock was entrenched in a medium-term bearish regime below its 20-day and 50-day SMAs, with technical weakness reinforced by a sharp 19.6% spike in operating expenses that signaled mounting margin pressure despite strong revenue.
+  JPM 2024-04-15 | SELL | k=21 | return=+10.18% | WRONG
+    Lesson: The call incorrectly prioritized short-term technical breakdowns and "oversold" momentum over JPM's record-breaking fundamental performance, failing to recognize that the 44% QoQ net income surge and record revenue made the price dip a temporary "sell-the-news" event rather than a structural trend reversal.
+  JPM 2024-06-17 | HOLD | k=21 | return=+8.29% | WRONG
+    Lesson: The "HOLD" call failed because it overweighted short-term technical indicators like the 50-day SMA test and negative MACD, ignoring the powerful bullish catalyst provided by JPM’s record-breaking revenue and 44% surge in net income.
+  JPM 2024-12-23 | BUY | k=21 | return=+12.09% | CORRECT
+    Lesson: The call was correct because JPMorgan’s record-breaking fundamental performance—specifically its rising $23.4B Net Interest Income and $69.7B total revenue—provided a dominant "value floor" that allowed the stock to overcome short-term technical weakness and rebound sharply from support.
+  JPM 2024-10-21 | BUY | k=21 | return=+9.01% | CORRECT
+    Lesson: JPMorgan’s ability to defy "peak NII" fears with a 3% sequential rise in Net Interest Income provided a fundamental catalyst that validated its record revenue performance and triggered an acceleration in bullish technical momentum.
+  JPM 2025-04-28 | BUY | k=21 | return=+8.33% | CORRECT
+    Lesson: The trade was successful because record Q1 2025 revenue and 9.1% net income growth provided a powerful fundamental catalyst that was confirmed technically by the price reclaiming the SMA_50, signaling a definitive shift from a correction back into accelerating bullish momentum.
+  JPM 2025-06-30 | BUY | k=21 | return=+3.85% | CORRECT
+    Lesson: The call was correct because JPMorgan’s exceptional fundamental profitability ($14.9B net income and 16.8% annualized ROE) provided a high-quality catalyst that sustained a high-conviction technical breakout above key moving averages despite overbought RSI levels.
+  XOM 2021-09-13 | BUY | k=21 | return=+10.60% | CORRECT
+    Lesson: The call was correct because explosive fundamental recovery, highlighted by a 71.8% sequential surge in net income and massive operating cash flow, provided the catalyst for a technical trend reversal as price reclaimed the 20-day SMA and triggered a bullish MACD crossover.
+  XOM 2021-11-15 | BUY | k=21 | return=-4.82% | WRONG
+    Lesson: The buy signal ignored the negative MACD histogram, which provided a specific technical warning of fading upward momentum and a bearish divergence just as crude oil prices began to retreat from their October peaks.
+  XOM 2022-01-17 | BUY | k=21 | return=+8.40% | CORRECT
+    Lesson: The call was correct because the massive restoration of cash-generating power (EBITDA surge) and expanding profit margins provided the fundamental catalyst to sustain a powerful technical breakout and accelerating price momentum.
+  XOM 2022-05-23 | BUY | k=21 | return=-9.24% | WRONG
+    Lesson: The call failed because it prioritized trailing momentum indicators at the peak of a cyclical energy rally, leaving the trade vulnerable to the sharp sector-wide correction and profit-taking triggered by intensifying recession fears in June 2022.
+  JPM 2026-01-05 | BUY | k=21 | return=-4.59% | WRONG
+    Lesson: The BUY call failed because it prioritized lagging technical momentum (bullish SMA and MACD) while ignoring severe fundamental deterioration, specifically the 10% sequential net income decline and the massive -$45.2B negative operating cash flow.
+  JPM 2025-11-03 | HOLD | k=21 | return=+0.90% | CORRECT
+    Lesson: The HOLD call was correct because the stock's technical recovery—evidenced by reclaiming key moving averages—was neutralized by fundamental headwinds including record operating expenses and a massive negative cash flow anomaly, resulting in a stagnant, sub-1% price movement.
+  JPM 2025-09-01 | BUY | k=21 | return=+3.67% | CORRECT
+    Lesson: The call was correct because JPMorgan’s sequential growth in revenue and net income (+2.4%) proved that operational scale and non-interest efficiency could offset plateauing Net Interest Income, fueling a high-velocity technical breakout characterized by the price "walking" the upper Bollinger Band.
+  XOM 2022-03-21 | HOLD | k=21 | return=+7.01% | WRONG
+    Lesson: The "HOLD" call failed because it overweighted short-term MACD bearish divergence while ignoring the massive fundamental momentum and the commodity-driven breakout confirmed by the price staying well above its 20-day and 50-day moving averages.
+  JPM 2025-02-24 | HOLD | k=21 | return=-3.91% | WRONG
+    Lesson: The HOLD call incorrectly prioritized lagging fundamental performance over active technical breakdowns, specifically ignoring the breach of the 20-day SMA and widening negative MACD momentum that signaled a clear shift toward short-term selling control.
+  XOM 2022-07-25 | BUY | k=21 | return=+9.97% | CORRECT
+    Lesson: The call was correct because it captured a fundamental-technical convergence where record-breaking Q2 earnings power—with a single quarter's profit nearly equaling the entire previous year's total—provided the valuation catalyst for the price to reclaim its 20-day SMA and shift into a high-momentum recovery.
+  XOM 2023-06-05 | SELL | k=21 | return=-2.25% | CORRECT
+    Lesson: The call was correct because a definitive cooling of the energy cycle—evidenced by three consecutive quarters of declining revenue and a 42% erosion in net income—was technically confirmed by a bearish structural alignment below both the 20 and 50-day moving averages.
+  XOM 2022-11-28 | SELL | k=21 | return=-1.30% | CORRECT
+    Lesson: The call was correct because the technical breakdown, specifically the price dropping below the 20-day SMA and the accelerating bearish MACD momentum, accurately signaled a short-term trend reversal that overrode the lagging record-breaking fundamental data.
+  XOM 2023-04-03 | BUY | k=21 | return=-7.06% | WRONG
+    Lesson: The technical signal prioritized chasing bullish momentum and a price surge above moving averages while ignoring the fundamental warning of a "cooling cycle" evidenced by double-digit sequential declines in revenue, net income, and EBITDA.
+  XOM 2023-01-30 | BUY | k=21 | return=-1.60% | WRONG
+    Lesson: The call failed because it prioritized lagging technical momentum over the fundamental evidence of a cyclical peak, specifically ignoring the 35% sequential collapse in net income and significant margin compression that signaled the end of the earnings expansion phase.
+  XOM 2023-10-09 | SELL | k=21 | return=-6.05% | CORRECT
+    Lesson: The sell call was correct because the technical breakdown—specifically the price breaching both 20-day and 50-day SMAs on accelerating negative MACD momentum—accurately signaled a structural trend reversal that overrode the sequential fundamental improvements.
+  XOM 2022-09-26 | HOLD | k=21 | return=+26.08% | WRONG
+    Lesson: The analysis incorrectly prioritized short-term technical breakdowns and oversold indicators (RSI < 30) as a structural bearish regime shift, failing to recognize that record-breaking quarterly profits and $19.96B in cash flow made the stock fundamentally undervalued and primed for a sharp mean-reversion.
+  XOM 2023-08-07 | BUY | k=21 | return=+7.69% | CORRECT
+    Lesson: The call was correct because the technical signals—specifically the price clearing the 20-day and 50-day SMAs alongside an expanding positive MACD—accurately identified a bullish trend reversal that overrode the lagging bearish fundamental data. This momentum shift signaled that the market had already priced in the earnings decline and was entering a tactical recovery phase.
+  XOM 2024-02-12 | BUY | k=21 | return=+7.15% | CORRECT
+    Lesson: The call was correct because it identified a timely technical reversal marked by a bullish SMA_20/50 crossover and accelerating MACD momentum, which signaled a price bottom and shift in trend despite the lagging bearish fundamental data.
+  XOM 2023-12-11 | SELL | k=21 | return=-0.95% | CORRECT
+    Lesson: The SELL call was correct because the dominant bearish technical alignment—specifically the price trading below both the 20-day and 50-day moving averages alongside a negative MACD histogram—accurately signaled accelerating downward momentum and active seller control that outweighed the lagging fundamental recovery data.
+  XOM 2025-04-28 | BUY | k=21 | return=-5.14% | WRONG
+    Lesson: The buy call failed because it prioritized short-term momentum signals (MACD crossover and 20-day SMA reclamation) while ignoring that the price remained capped by the 50-day SMA, confirming the trade was a bull trap within a dominant medium-term bearish structure.
+  XOM 2024-08-19 | BUY | k=21 | return=-3.33% | WRONG
+    Lesson: The call failed because it relied on backward-looking sequential fundamental growth and bullish technical momentum while ignoring the stock's high sensitivity to crude oil prices, which entered a sharp decline in late August 2024 due to weakening global demand signals.
+  XOM 2025-09-01 | BUY | k=21 | return=-2.35% | WRONG
+    Lesson: The call was incorrect because it prioritized overextended technical momentum (RSI > 70 and price at the Upper Bollinger Band) while ignoring the fundamental reality of sequential revenue decline and margin compression, which signaled price exhaustion rather than a sustainable breakout.
+  XOM 2024-04-15 | BUY | k=21 | return=-0.88% | WRONG
+    Lesson: The trade failed because it ignored the bearish MACD crossover and near-overbought RSI (67.04), which signaled that upward momentum had exhausted and a short-term mean reversion was imminent despite strong fundamental liquidity.
+  XOM 2024-10-21 | SELL | k=21 | return=-0.40% | CORRECT
+    Lesson: The call was correct because the expanding bearish MACD momentum and the price's breach below the 20-day moving average signaled a confirmed loss of short-term momentum and the start of a corrective phase.
+  XOM 2024-06-17 | SELL | k=21 | return=+9.63% | WRONG
+    Lesson: The SELL call failed because it prioritized lagging trend indicators and bearish momentum that had reached an oversold exhaustion point (RSI 31.72), failing to recognize that the company’s rebounding profitability and massive free cash flow ($14.66B) provided a fundamental floor for a sharp mean-reversion rally.
+  XOM 2024-12-23 | HOLD | k=21 | return=+3.64% | WRONG
+    Lesson: The HOLD call failed to account for a high-probability mean-reversion rally triggered by the **extreme oversold condition (RSI 23.04)**, which signaled that the bearish momentum was exhausted and ripe for a bounce given the company's strong fundamental cash flows.
+  XOM 2025-02-24 | BUY | k=21 | return=+4.78% | CORRECT
+    Lesson: The call was correct because the bullish technical alignment—specifically the price holding above its 20-day and 50-day SMAs combined with accelerating MACD momentum—successfully identified a persistent upward trend that overrode the lagging fundamental data of prior quarter earnings deterioration.
+  XOM 2025-06-30 | SELL | k=21 | return=+3.80% | WRONG
+    Lesson: The bearish call failed because it prioritized lagging fundamental deterioration and short-term MACD weakness over the "broader medium-term uptrend," ignoring that the price held critical technical support at the 50-day SMA ($104.03).
+  SKIP XOM 2025-11-03: could_not_fetch_21_day_return
+  XOM 2026-01-05 | BUY | k=21 | return=+17.73% | CORRECT
+    Lesson: The call was correct because the strong technical breakout—characterized by price positioning above key moving averages and a volume-validated price surge—signaled powerful bullish momentum that overrode the lagging negative fundamental data.
+  JNJ 2021-11-15 | HOLD | k=21 | return=+5.35% | WRONG
+    Lesson: The "HOLD" call was incorrect because it misinterpreted tight technical compression and a neutral RSI as stagnation rather than a consolidation phase, failing to recognize that JNJ's robust operational growth and cash flow acted as a coiled spring for an upward breakout.
+  NVDA 2025-04-28 | BUY | k=21 | return=+23.99% | CORRECT
+    Lesson: The call was correct because it captured a technical trend reversal (bullish MACD crossover and reclaiming the 20-day SMA) at a point where NVDA’s massive annual net income growth (+145% YoY) was fundamentally outstripping its valuation expansion, providing the fuel for a sharp recovery.
+
+Done. Stored=129  Skipped=1  Errors=0
+ChromaDB now contains 129 memories.
