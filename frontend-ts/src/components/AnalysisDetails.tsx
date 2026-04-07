@@ -100,8 +100,11 @@ function DebatePanel({ result }: { result: AnalysisResult }) {
   if (stage !== "B" && stage !== "B+" && stage !== "C" && stage !== "D") return null;
 
   const debateState = (result.investment_debate_state ?? {}) as Record<string, unknown>;
+  const memorySummary = result.memory_summary;
   const bullHistory = String(debateState.bull_history || "").trim();
   const bearHistory = String(debateState.bear_history || "").trim();
+  const bullMemoryHits = Number(memorySummary?.bull_hits || 0);
+  const bearMemoryHits = Number(memorySummary?.bear_hits || 0);
 
   if (!bullHistory && !bearHistory) return null;
 
@@ -137,6 +140,9 @@ function DebatePanel({ result }: { result: AnalysisResult }) {
               <div className="debate-col-header">
                 <span className="debate-col-icon">▲</span>
                 <span className="debate-col-title">Upside Catalysts</span>
+                {stage === "D" && bullMemoryHits > 0 ? (
+                  <span className="debate-memory-badge bull">Memory-informed · {bullMemoryHits}</span>
+                ) : null}
                 {upsideStrength ? <span className="debate-strength-pill bull">{upsideStrength}</span> : null}
               </div>
               <p className="debate-col-body">{upsideNote || bullHistory}</p>
@@ -145,6 +151,9 @@ function DebatePanel({ result }: { result: AnalysisResult }) {
               <div className="debate-col-header">
                 <span className="debate-col-icon">▼</span>
                 <span className="debate-col-title">Downside Risks</span>
+                {stage === "D" && bearMemoryHits > 0 ? (
+                  <span className="debate-memory-badge bear">Memory-informed · {bearMemoryHits}</span>
+                ) : null}
                 {downsideStrength ? <span className="debate-strength-pill bear">{downsideStrength.replace(/_/g, " ")}</span> : null}
               </div>
               <p className="debate-col-body">{downside || bearHistory}</p>
@@ -284,6 +293,7 @@ function MemoryPanel({ result }: { result: AnalysisResult }) {
         <div className="memory-grid">
           <div className="memory-pill bull-mem">Bull hits <strong>{bullHits}</strong></div>
           <div className="memory-pill bear-mem">Bear hits <strong>{bearHits}</strong></div>
+          <div className="memory-pill memory-targets">Injected into Upside/Downside specialists</div>
           <div className={`memory-lean-chip ${bullHits > bearHits ? "lean-bull" : bearHits > bullHits ? "lean-bear" : "lean-neutral"}`}>
             {bullHits > bearHits ? "↑ Memory leans bullish" : bearHits > bullHits ? "↓ Memory leans bearish" : "↔ Memory signals balanced"}
           </div>
@@ -491,9 +501,9 @@ export function AnalysisDetails({ result }: { result: AnalysisResult }) {
   return (
     <>
       <ResearchManagerPanel result={result} />
+      <MemoryPanel result={result} />
       <DebatePanel result={result} />
       <RiskPanel result={result} />
-      <MemoryPanel result={result} />
       <AnalystReportsPanel result={result} />
       <NewsLinksPanel result={result} />
     </>

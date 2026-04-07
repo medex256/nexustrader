@@ -128,14 +128,17 @@ export function isoDateToDisplay(value: string): string {
 }
 
 export function formatShortDate(value: string): string {
-  if (!value) {
-    return "?";
+  const trimmed = value.trim();
+
+  if (!trimmed) {
+    return "";
   }
 
-  const parsed = new Date(value);
+  const isoValue = displayDateToIso(trimmed);
+  const parsed = isoValue ? new Date(`${isoValue}T00:00:00Z`) : new Date(trimmed);
 
   if (Number.isNaN(parsed.getTime())) {
-    return value;
+    return trimmed;
   }
 
   return new Intl.DateTimeFormat("en-GB", {

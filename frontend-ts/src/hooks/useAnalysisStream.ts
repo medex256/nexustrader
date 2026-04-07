@@ -29,6 +29,7 @@ function createLogEntry(id: number, kind: LogEntry["kind"], message: string): Lo
 export function useAnalysisStream(stage: StageKey) {
   const eventSourceRef = useRef<EventSource | null>(null);
   const nextLogIdRef = useRef(1);
+  const memoryLogEmittedRef = useRef(false);
 
   const [isRunning, setIsRunning] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -61,6 +62,7 @@ export function useAnalysisStream(stage: StageKey) {
     setLogs([]);
     setResult(null);
     nextLogIdRef.current = 1;
+    memoryLogEmittedRef.current = false;
   }
 
   function startAnalysis(input: StartAnalysisInput) {
@@ -89,10 +91,28 @@ export function useAnalysisStream(stage: StageKey) {
         const mappedKey = AGENT_NAME_TO_KEY[data.agent] ?? data.agent;
         const displayName = AGENT_KEY_TO_DISPLAY[mappedKey] ?? data.agent;
         const progress = Math.max(5, Math.round((data.step / Math.max(data.total, 1)) * 100));
+        const isStageDSpecialist = stage === "D" && (mappedKey === "bull_researcher" || mappedKey === "bear_researcher");
+
+        if (isStageDSpecialist && !memoryLogEmittedRef.current) {
+          memoryLogEmittedRef.current = true;
+          appendLog("info", "Retrieving memory context for Upside/Downside specialists");
+        }
 
         setProgressPercent(progress);
         setActiveAgentKey(mappedKey);
-        setVisitedAgentKeys((current) => (current.includes(mappedKey) ? current : [...current, mappedKey]));
+        setVisitedAgentKeys((current) => {
+          const next = [...current];
+
+          if (isStageDSpecialist && !next.includes("memory_retrieval")) {
+            next.push("memory_retrieval");
+          }
+
+          if (!next.includes(mappedKey)) {
+            next.push(mappedKey);
+          }
+
+          return next;
+        });
         appendLog("info", `Running ${displayName}`);
         return;
       }

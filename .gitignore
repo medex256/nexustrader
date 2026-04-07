@@ -14,3 +14,5 @@ backend/run_archive.sqlite3
 # Keep curated report artifacts
 !experiments/results/paper/
 !experiments/results/paper/.gitkeep
+frontend-ts/dist/
+frontend-ts/dist/index.html
