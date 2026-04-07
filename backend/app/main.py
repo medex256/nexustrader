@@ -512,6 +512,10 @@ async def analyze_ticker_stream(
                 for node_name, state_update in event.items():
                     # Update current_state with new keys
                     current_state.update(state_update)
+
+                    # Hide the policy-core Trader echo step from the live UI stream.
+                    if node_name == "strategy_synthesizer":
+                        continue
                     
                     step_count += 1
                     display_name = node_mapping.get(node_name, node_name)

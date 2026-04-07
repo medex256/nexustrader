@@ -6,7 +6,6 @@ export const STAGE_AGENTS: Record<StageKey, AgentDef[]> = {
     { key: "technical_analyst", name: "Technical Analyst", icon: "TA" },
     { key: "news_harvester", name: "News Harvester", icon: "NH" },
     { key: "research_manager", name: "Research Manager", icon: "RM" },
-    { key: "strategy_synthesizer", name: "Trader", icon: "TR" },
   ],
   B: [
     { key: "fundamental_analyst", name: "Fundamental Analyst", icon: "FA" },
@@ -15,7 +14,6 @@ export const STAGE_AGENTS: Record<StageKey, AgentDef[]> = {
     { key: "bull_researcher", name: "Upside Catalyst Analyst", icon: "UP" },
     { key: "bear_researcher", name: "Downside Risk Analyst", icon: "DN" },
     { key: "research_manager", name: "Research Manager", icon: "RM" },
-    { key: "strategy_synthesizer", name: "Trader", icon: "TR" },
   ],
   "B+": [
     { key: "fundamental_analyst", name: "Fundamental Analyst", icon: "FA" },
@@ -24,7 +22,6 @@ export const STAGE_AGENTS: Record<StageKey, AgentDef[]> = {
     { key: "bull_researcher", name: "Upside Catalyst Analyst", icon: "UP" },
     { key: "bear_researcher", name: "Downside Risk Analyst", icon: "DN" },
     { key: "research_manager", name: "Research Manager", icon: "RM" },
-    { key: "strategy_synthesizer", name: "Trader", icon: "TR" },
     { key: "risk_manager", name: "Risk Manager", icon: "RG" },
   ],
   C: [
@@ -34,7 +31,6 @@ export const STAGE_AGENTS: Record<StageKey, AgentDef[]> = {
     { key: "bull_researcher", name: "Upside Catalyst Analyst", icon: "UP" },
     { key: "bear_researcher", name: "Downside Risk Analyst", icon: "DN" },
     { key: "research_manager", name: "Research Manager", icon: "RM" },
-    { key: "strategy_synthesizer", name: "Trader", icon: "TR" },
     { key: "aggressive_analyst", name: "Aggressive Risk Analyst", icon: "AR" },
     { key: "conservative_analyst", name: "Conservative Risk Analyst", icon: "CR" },
     { key: "neutral_analyst", name: "Neutral Risk Analyst", icon: "NR" },
@@ -48,7 +44,6 @@ export const STAGE_AGENTS: Record<StageKey, AgentDef[]> = {
     { key: "bull_researcher", name: "Upside Catalyst Analyst", icon: "UP" },
     { key: "bear_researcher", name: "Downside Risk Analyst", icon: "DN" },
     { key: "research_manager", name: "Research Manager", icon: "RM" },
-    { key: "strategy_synthesizer", name: "Trader", icon: "TR" },
     { key: "risk_manager", name: "Risk Manager", icon: "RG" },
   ],
 };
@@ -73,7 +68,7 @@ export const STAGE_EXPLAINERS: Record<StageKey, StageExplainer> = {
   A: {
     title: "Stage A - Baseline Analyst Core",
     body: "Three domain analysts feed one Research Manager. No upside/downside evidence review, no risk gate, and no memory. This is the clean ablation baseline for the rest of the system.",
-    agents: "Fundamental · Technical · News · Research Manager · Trader",
+    agents: "Fundamental · Technical · News · Research Manager",
     added: "Starting point: only the analyst core and final synthesis layer.",
     whyItExists: "Measures what the base pipeline can do before any extra mechanism is introduced.",
     llmCalls: "4 LLM calls",
@@ -81,7 +76,7 @@ export const STAGE_EXPLAINERS: Record<StageKey, StageExplainer> = {
   B: {
     title: "Stage B - Upside/Downside Evidence Review",
     body: "Adds one upside catalyst specialist (Bull) and one downside risk specialist (Bear). They do not make the trade decision. They sharpen the manager's view by surfacing overlooked evidence from the same analyst reports.",
-    agents: "Stage A + Upside Catalyst Analyst + Downside Risk Analyst + Trader",
+    agents: "Stage A + Upside Catalyst Analyst + Downside Risk Analyst",
     added: "New mechanism: upside/downside evidence review before manager synthesis.",
     whyItExists: "Tests whether extra evidence organization improves quality without adding risk control yet.",
     llmCalls: "6 LLM calls",
@@ -89,7 +84,7 @@ export const STAGE_EXPLAINERS: Record<StageKey, StageExplainer> = {
   "B+": {
     title: "Stage B+ - Single Risk Judge",
     body: "Keeps Stage B's evidence review, then adds one lightweight risk judge after the thesis is formed. This judge can approve, reduce, or block a trade when the setup looks fragile even if the evidence looks directional.",
-    agents: "Stage B + Trader + Risk Manager",
+    agents: "Stage B + Risk Manager",
     added: "New mechanism: one post-thesis risk gate with minimal overhead.",
     whyItExists: "Tests whether a single low-cost risk layer improves reliability without the full cost of a committee.",
     llmCalls: "7 LLM calls",
@@ -97,7 +92,7 @@ export const STAGE_EXPLAINERS: Record<StageKey, StageExplainer> = {
   C: {
     title: "Stage C - Full Risk Committee",
     body: "Replaces the single risk judge with a three-view risk committee: aggressive, conservative, and neutral. The goal is to see whether structured adversarial challenge improves decisions or only adds cost and noise.",
-    agents: "Stage B + Trader + Aggressive / Conservative / Neutral Risk Analysts + Judge",
+    agents: "Stage B + Aggressive / Conservative / Neutral Risk Analysts + Judge",
     added: "New mechanism: adversarial risk debate instead of a single risk pass.",
     whyItExists: "Tests whether stronger internal challenge produces better final decisions than the lighter B+ gate.",
     llmCalls: "11 LLM calls",
@@ -105,7 +100,7 @@ export const STAGE_EXPLAINERS: Record<StageKey, StageExplainer> = {
   D: {
     title: "Stage D - Memory-Augmented Reasoning",
     body: "Builds on the B+ structure, then gives the Bull/Bear reviewers access to episodic memory under strict no-leak rules. The current run can use past lessons, but only from information that would have existed at that simulated date.",
-    agents: "Stage B+ + Memory Retrieval + Trader",
+    agents: "Stage B+ + Memory Retrieval",
     added: "New mechanism: retrieval of past correct and incorrect lessons before evidence review.",
     whyItExists: "Tests whether memory improves current judgment without contaminating evaluation with future information.",
     llmCalls: "8+ LLM calls",
@@ -152,12 +147,6 @@ export const AGENT_EXPLAINERS: Record<string, AgentExplainer> = {
     summary: "Synthesizes the analyst evidence into a single thesis and decides what the overall evidence actually supports.",
     role: "Synthesis judge",
     output: "The stage thesis and recommendation basis used by later risk layers.",
-  },
-  strategy_synthesizer: {
-    title: "Trader",
-    summary: "Translates the research thesis into the final trade action payload consumed by the downstream risk layer. In the current live path it usually mirrors the manager instead of adding a second independent thesis.",
-    role: "Execution bridge",
-    output: "The final trade action, confidence, and execution fields passed into risk review or returned directly.",
   },
   bull_researcher: {
     title: "Upside Catalyst Analyst",

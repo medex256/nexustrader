@@ -89,6 +89,10 @@ export function useAnalysisStream(stage: StageKey) {
 
       if (data.status === "processing") {
         const mappedKey = AGENT_NAME_TO_KEY[data.agent] ?? data.agent;
+        if (mappedKey === "strategy_synthesizer") {
+          return;
+        }
+
         const displayName = AGENT_KEY_TO_DISPLAY[mappedKey] ?? data.agent;
         const progress = Math.max(5, Math.round((data.step / Math.max(data.total, 1)) * 100));
         const isStageDSpecialist = stage === "D" && (mappedKey === "bull_researcher" || mappedKey === "bear_researcher");

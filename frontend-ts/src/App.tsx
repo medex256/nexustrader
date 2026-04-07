@@ -31,21 +31,18 @@ function getDetailedFlow(stage: StageKey): FlowStep[] {
       return [
         { label: "Analyst Core", tone: "core" },
         { label: "Research Manager", tone: "decision" },
-        { label: "Trader", tone: "decision" },
       ];
     case "B":
       return [
         { label: "Analyst Core", tone: "core" },
         { label: "Specialist Extractors", tone: "stage" },
         { label: "Research Manager", tone: "decision" },
-        { label: "Trader", tone: "decision" },
       ];
     case "B+":
       return [
         { label: "Analyst Core", tone: "core" },
         { label: "Specialist Extractors", tone: "stage" },
         { label: "Research Manager", tone: "decision" },
-        { label: "Trader", tone: "decision" },
         { label: "Single Risk Judge", tone: "risk" },
       ];
     case "C":
@@ -53,7 +50,6 @@ function getDetailedFlow(stage: StageKey): FlowStep[] {
         { label: "Analyst Core", tone: "core" },
         { label: "Specialist Extractors", tone: "stage" },
         { label: "Research Manager", tone: "decision" },
-        { label: "Trader", tone: "decision" },
         { label: "Risk Committee", tone: "risk" },
       ];
     case "D":
@@ -62,7 +58,6 @@ function getDetailedFlow(stage: StageKey): FlowStep[] {
         { label: "Memory Retrieval", tone: "memory" },
         { label: "Specialist Extractors", tone: "stage" },
         { label: "Research Manager", tone: "decision" },
-        { label: "Trader", tone: "decision" },
         { label: "Single Risk Judge", tone: "risk" },
       ];
   }
@@ -236,7 +231,6 @@ const CHIP_LABELS: Record<string, string> = {
   UP: "Upside Catalyst Analyst",
   DN: "Downside Risk Analyst",
   RM: "Research Manager",
-  TR: "Trader",
   RG: "Risk Judge",
   AR: "Aggressive Risk Analyst",
   CR: "Conservative Risk Analyst",
@@ -249,21 +243,18 @@ const PIPELINE_STEPS: Record<StageKey, PipelineGroupDef[]> = {
   A: [
     { id: "analysts", label: "Core Analysts", icons: ["FA", "TA", "NH"], tone: "core" },
     { id: "manager", label: "Manager", icons: ["RM"], tone: "decision" },
-    { id: "trader", label: "Trader", icons: ["TR"], tone: "decision" },
     { id: "output", label: "Output", icons: ["OUT"], tone: "decision" },
   ],
   B: [
     { id: "analysts", label: "Core Analysts", icons: ["FA", "TA", "NH"], tone: "core" },
     { id: "specialists", label: "Specialists", icons: ["UP", "DN"], tone: "stage" },
     { id: "manager", label: "Manager", icons: ["RM"], tone: "decision" },
-    { id: "trader", label: "Trader", icons: ["TR"], tone: "decision" },
     { id: "output", label: "Output", icons: ["OUT"], tone: "decision" },
   ],
   "B+": [
     { id: "analysts", label: "Core Analysts", icons: ["FA", "TA", "NH"], tone: "core" },
     { id: "specialists", label: "Specialists", icons: ["UP", "DN"], tone: "stage" },
     { id: "manager", label: "Manager", icons: ["RM"], tone: "decision" },
-    { id: "trader", label: "Trader", icons: ["TR"], tone: "decision" },
     { id: "risk", label: "Risk Gate", icons: ["RG"], tone: "risk" },
     { id: "output", label: "Output", icons: ["OUT"], tone: "decision" },
   ],
@@ -271,7 +262,6 @@ const PIPELINE_STEPS: Record<StageKey, PipelineGroupDef[]> = {
     { id: "analysts", label: "Core Analysts", icons: ["FA", "TA", "NH"], tone: "core" },
     { id: "specialists", label: "Specialists", icons: ["UP", "DN"], tone: "stage" },
     { id: "manager", label: "Manager", icons: ["RM"], tone: "decision" },
-    { id: "trader", label: "Trader", icons: ["TR"], tone: "decision" },
     { id: "risk-debate", label: "Risk Debate", icons: ["AR", "CR", "NR"], tone: "risk", isDebate: true },
     { id: "risk-judge", label: "Risk Judge", icons: ["RG"], tone: "risk" },
     { id: "output", label: "Output", icons: ["OUT"], tone: "decision" },
@@ -281,7 +271,6 @@ const PIPELINE_STEPS: Record<StageKey, PipelineGroupDef[]> = {
     { id: "memory", label: "Memory", icons: ["MEM"], tone: "memory" },
     { id: "specialists", label: "Specialists", icons: ["UP", "DN"], tone: "stage" },
     { id: "manager", label: "Manager", icons: ["RM"], tone: "decision" },
-    { id: "trader", label: "Trader", icons: ["TR"], tone: "decision" },
     { id: "risk", label: "Risk Gate", icons: ["RG"], tone: "risk" },
     { id: "output", label: "Output", icons: ["OUT"], tone: "decision" },
   ],
