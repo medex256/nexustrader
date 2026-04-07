@@ -50,10 +50,10 @@ export const STAGE_AGENTS: Record<StageKey, AgentDef[]> = {
 
 export const STAGE_DESCRIPTIONS: Record<StageKey, string> = {
   A: "Stage A · baseline analyst core · 4 LLM calls · no debate · no risk gate",
-  B: "Stage B · adds upside/downside evidence review · 6 LLM calls · sharper catalyst and risk coverage",
-  "B+": "Stage B+ · adds one lightweight risk judge · 7 LLM calls · same evidence, safer execution",
+  B: "Stage B · adds upside/downside evidence review · 7 LLM calls · sharper catalyst and risk coverage",
+  "B+": "Stage B+ · adds one lightweight risk judge · 8 LLM calls · same evidence, safer execution",
   C: "Stage C · replaces single risk check with a risk committee · 11 LLM calls · strongest challenge layer",
-  D: "Stage D · Stage B+ with episodic memory retrieval · 8+ LLM calls · memory-informed single risk pass",
+  D: "Stage D · Stage B+ with episodic memory retrieval · 8 LLM calls · memory-informed single risk pass",
 };
 
 export const STAGE_TOOLTIPS: Record<StageKey, string> = {
@@ -79,7 +79,7 @@ export const STAGE_EXPLAINERS: Record<StageKey, StageExplainer> = {
     agents: "Stage A + Upside Catalyst Analyst + Downside Risk Analyst",
     added: "New mechanism: upside/downside evidence review before manager synthesis.",
     whyItExists: "Tests whether extra evidence organization improves quality without adding risk control yet.",
-    llmCalls: "6 LLM calls",
+    llmCalls: "7 LLM calls",
   },
   "B+": {
     title: "Stage B+ - Single Risk Judge",
@@ -87,7 +87,7 @@ export const STAGE_EXPLAINERS: Record<StageKey, StageExplainer> = {
     agents: "Stage B + Risk Manager",
     added: "New mechanism: one post-thesis risk gate with minimal overhead.",
     whyItExists: "Tests whether a single low-cost risk layer improves reliability without the full cost of a committee.",
-    llmCalls: "7 LLM calls",
+    llmCalls: "8 LLM calls",
   },
   C: {
     title: "Stage C - Full Risk Committee",
@@ -103,7 +103,7 @@ export const STAGE_EXPLAINERS: Record<StageKey, StageExplainer> = {
     agents: "Stage B+ + Memory Retrieval",
     added: "New mechanism: retrieval of past correct and incorrect lessons before evidence review.",
     whyItExists: "Tests whether memory improves current judgment without contaminating evaluation with future information.",
-    llmCalls: "8+ LLM calls",
+    llmCalls: "8 LLM calls",
   },
 };
 
