@@ -4,7 +4,6 @@ node_modules/
 package-lock.json
 
 # Experiment outputs (generated)
-experiments/results/raw/
 experiments/results/scored/
 
 # Backend runtime data (local persistence)
