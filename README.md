@@ -193,4 +193,3 @@ The current project state is centered on:
 - stage-controlled ablation experiments
 - transparent reasoning traces rather than black-box outputs
 
-For detailed architecture and stage rationale, see the documents in `../documentation/01_architecture/` and `../documentation/09_stage_design/`.
